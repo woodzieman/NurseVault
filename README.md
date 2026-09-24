@@ -64,6 +64,13 @@ Sections can be renamed, reordered (drag), or deleted at any time.
 > **Note on real devices & the App Store:** installing on a physical device or
 > submitting to the App Store requires a **paid Apple Developer account**
 > ($99/yr). Simulators work without one.
+>
+> ⚠️ **Free (personal) Apple ID accounts do not support the iCloud capability**
+> at all — Xcode will show a "processing" state that never finishes and will
+> not create provisioning profiles for a device build. This is an Apple
+> restriction, not a bug, and waiting or retrying will not help. You can still
+> do full development and sync testing in simulators (see below); a paid
+> account is only needed to run on physical devices.
 
 ### App Store Connect (only if you publish)
 
@@ -93,6 +100,20 @@ Packages/NurseVaultCore/    Shared Swift package:
   FileSupport.swift         File import helpers, size limits, doc kinds
   VaultViews.swift          Cross-platform PDF + image viewers
 ```
+
+### Testing sync right now (free, no waiting)
+
+1. Run the app in the **iPhone or iPad simulator** (it needs no provisioning
+   profile). If Xcode shows the simulator in **Device Hub**, use that; pick
+   the running iPhone there.
+2. In the simulator: **Settings → tap your name/Sign in** → sign in with your
+   Apple ID.
+3. On your Mac: **System Settings → Apple Account → iCloud** → sign in with
+   the **same** Apple ID.
+4. Open Nurse Vault on both — add a document on one, and it appears on the
+   other. The sync badge should read **Synced**.
+5. Watch: run the watch simulator paired with your iPhone simulator; it
+   inherits the same iCloud sign-in.
 
 ## Practical notes
 
