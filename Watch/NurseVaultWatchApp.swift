@@ -18,12 +18,20 @@ struct NurseVaultWatchApp: App {
 
 // MARK: - Home: the sections
 
+/// A non-document destination for the watch home screen.
+enum WatchHomeDestination: Hashable {
+    case search
+}
+
 struct WatchHomeView: View {
     @Environment(Library.self) private var library
 
     var body: some View {
         NavigationStack {
             List {
+                NavigationLink(value: WatchHomeDestination.search) {
+                    Label("Search", systemImage: "magnifyingglass")
+                }
                 ForEach(library.sections, id: \.self) { section in
                     NavigationLink(value: section) {
                         Label(section.name ?? "Untitled", systemImage: section.icon ?? "folder")
@@ -33,6 +41,11 @@ struct WatchHomeView: View {
             .navigationTitle("Nurse Vault")
             .navigationDestination(for: VaultSection.self) { section in
                 WatchDocListView(section: section)
+            }
+            .navigationDestination(for: WatchHomeDestination.self) { destination in
+                if destination == .search {
+                    WatchSearchView()
+                }
             }
             .overlay {
                 if library.sections.isEmpty {
@@ -53,15 +66,34 @@ struct WatchDocListView: View {
     @Environment(Library.self) private var library
     let section: VaultSection
 
+    @State private var searchText = ""
+
+    private var visibleDocs: [VaultDoc] {
+        let trimmed = searchText.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !trimmed.isEmpty else {
+            return library.docs(in: section)
+        }
+        let matches = library.docs(matching: trimmed)
+        return matches.filter { $0.section === section }
+    }
+
     var body: some View {
-        List(library.docs(in: section), id: \.self) { doc in
-            NavigationLink(value: doc) {
-                VStack(alignment: .leading, spacing: 2) {
-                    Text(doc.title ?? "Untitled")
-                    if let added = doc.addedDate {
-                        Text(added, style: .date)
-                            .font(.caption2)
-                            .foregroundStyle(.secondary)
+        List {
+            Section {
+                TextField("Search \(section.name ?? "this section")", text: $searchText)
+                    .autocorrectionDisabled()
+            }
+            Section {
+                ForEach(visibleDocs, id: \.self) { doc in
+                    NavigationLink(value: doc) {
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text(doc.title ?? "Untitled")
+                            if let added = doc.addedDate {
+                                Text(added, style: .date)
+                                    .font(.caption2)
+                                    .foregroundStyle(.secondary)
+                            }
+                        }
                     }
                 }
             }
@@ -69,6 +101,67 @@ struct WatchDocListView: View {
         .navigationTitle(section.name ?? "Documents")
         .navigationDestination(for: VaultDoc.self) { doc in
             WatchDocDetailView(doc: doc)
+        }
+        .overlay {
+            if visibleDocs.isEmpty {
+                ContentUnavailableView(
+                    searchText.isEmpty ? "Empty" : "No Matches",
+                    systemImage: searchText.isEmpty ? "tray" : "magnifyingglass",
+                    description: Text(
+                        searchText.isEmpty
+                            ? "Documents you add on your phone, iPad, or Mac appear here."
+                            : "Nothing in this section matches your search."
+                    )
+                )
+            }
+        }
+    }
+}
+
+// MARK: - Search across all sections
+
+struct WatchSearchView: View {
+    @Environment(Library.self) private var library
+
+    @State private var searchText = ""
+
+    private var visibleDocs: [VaultDoc] {
+        let trimmed = searchText.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !trimmed.isEmpty else { return [] }
+        return library.docs(matching: trimmed)
+    }
+
+    var body: some View {
+        List {
+            Section {
+                TextField("Search all documents", text: $searchText)
+                    .autocorrectionDisabled()
+            }
+            ForEach(visibleDocs, id: \.self) { doc in
+                NavigationLink(value: doc) {
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(doc.title ?? "Untitled")
+                        if let section = doc.section {
+                            Text(section.name ?? "No section")
+                                .font(.caption2)
+                                .foregroundStyle(.secondary)
+                        }
+                    }
+                }
+            }
+        }
+        .navigationTitle("Search")
+        .navigationDestination(for: VaultDoc.self) { doc in
+            WatchDocDetailView(doc: doc)
+        }
+        .overlay {
+            if visibleDocs.isEmpty {
+                ContentUnavailableView(
+                    "No Matches",
+                    systemImage: "magnifyingglass",
+                    description: Text("Search by title, file name, notes, or the text inside PDFs and text files.")
+                )
+            }
         }
     }
 }

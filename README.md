@@ -28,6 +28,10 @@ Sections can be renamed, reordered (drag), or deleted at any time.
   **drag & drop** files into a list (Mac/iPad).
 - **Notes** — pure text references (**Add → New Note**).
 - Every document can carry a title, notes, and be moved between sections.
+- **Search** — find documents by title, file name, your notes, or (for PDFs
+  and text files) the *content of the file itself*. Use the toolbar search in
+  the main app, the search field on each watch section page, or the watch's
+  global Search page.
 
 ## How sync works
 
@@ -46,8 +50,10 @@ Sections can be renamed, reordered (drag), or deleted at any time.
 1. Open `NurseVault.xcodeproj` in Xcode (16+ required; 27 tested).
 2. You'll be prompted to pick a **team** — choose your Apple ID (personal team
    is fine for personal use).
-3. The two targets are **NurseVault** (iPhone/iPad/Mac) and **NurseVault
-   Watch**. Each has an iCloud capability with the container
+3. The targets are **NurseVault** (iPhone/iPad/Mac), **NurseVault Watch**,
+   and **NurseVault Watch Widget** (the watch-face complication; it's
+   embedded into the watch app automatically and needs no signing of its
+   own). The two apps each have an iCloud capability with the container
    `iCloud.com.josephwoods.nursevault` preconfigured.
    - If you want your own bundle IDs, change them under
      **Signing & Capabilities** on each target, and update the
@@ -90,13 +96,21 @@ App/                        Main app sources (iPhone, iPad, Mac)
   DocListView.swift         Document list, import menu, drag & drop, sync badge
   DocDetailView.swift       Preview (PDF/image/text) + editing
   ImportView.swift          File / photo / note import flows
+  Assets.xcassets           App icons (iPhone, iPad, Mac)
   NurseVault.entitlements   iCloud + sandbox (main app)
 Watch/                      Apple Watch app (read-only reference)
-  NurseVaultWatchApp.swift  Entry point + section/document views
+  NurseVaultWatchApp.swift  Entry point + section/document/search views
+  Assets.xcassets           Watch app icon
   WatchEntitlements.entitlements
+WatchWidget/                Watch complication (widget extension)
+  NurseVaultComplication.swift  Circular/corner/inline/rectangular faces
+Support/
+  Info.plist                Info.plist for the widget extension
 Packages/NurseVaultCore/    Shared Swift package:
   VaultModels.swift         Core Data model (Section / Doc)
   Library.swift             Store + CloudKit sync engine + offline status
+  Search.swift              Full-text search (titles, notes, PDF/text content)
+  StoreLocation.swift       Shared data location + widget JSON summary
   FileSupport.swift         File import helpers, size limits, doc kinds
   VaultViews.swift          Cross-platform PDF + image viewers
 ```
@@ -114,11 +128,51 @@ Packages/NurseVaultCore/    Shared Swift package:
    other. The sync badge should read **Synced**.
 5. Watch: run the watch simulator paired with your iPhone simulator; it
    inherits the same iCloud sign-in.
+6. Complication: on the watch simulator, edit a watch face, add the
+   **Nurse Vault** complication, and it shows your document count once the
+   watch app has run at least once.
+
+## Building the alpha (v0.1)
+
+The project is versioned **0.1** as a personal-use alpha.
+
+- **In Xcode** (easiest): pick a simulator or *My Mac* as the destination and
+  hit **Run**, or use **Product → Archive** to produce a full build. Your
+  personal (free) Apple ID team is fine for everything on simulators and your
+  own Mac.
+- **From the command line**:
+  ```sh
+  xcodebuild -project NurseVault.xcodeproj -scheme NurseVault \
+      -destination "platform=iOS Simulator,name=iPhone 17" \
+      -allowProvisioningUpdates build
+  ```
+  (Other schemes: `NurseVault Watch`, `NurseVault Watch Widget`,
+  `NurseVaultCore`.
+  For a full archive use `archive` with `-destination "generic/platform=…"`
+  and `-archivePath` — the results in `archives/` were made that way.)
+- All four schemes build **warning-free** in both Debug and Release.
+- **Physical devices and the App Store** still require the paid Developer
+  Program; until then, use simulators and your Mac.
 
 ## Practical notes
 
 - The **watch app is read-only**: browse sections, open PDFs/images/notes.
   Import from the phone, iPad, or Mac — it appears on the watch automatically.
+- **Search** matches titles, file names, notes, and — for PDFs and text
+  files — the file content itself (PDF text is extracted with PDFKit in the
+  background and cached, so searches stay responsive; files over 16 MB are
+  matched on metadata only).
+- The **watch complication** (all four accessory families) shows the total
+  reference count. It reads a small JSON summary the watch app writes next
+  to its data store — the widget shares the watch app's container, so it
+  sees the same file. The watch app asks WidgetKit to refresh the widget
+  whenever the vault changes, so the count stays current instead of waiting
+  for the 30-minute timeline refresh. If the file isn't there yet (fresh
+  install, before the app first runs) it simply shows the app name.
+  Tapping the complication opens Nurse Vault. (The widget extension uses the
+  `com.apple.widgetkit-extension` extension point from the Xcode 27 SDK, so
+  it installs on the current watchOS; the target's 11.0 deployment floor is
+  only relevant if you later distribute to older watches.)
 - Files larger than 48 MB can't be synced (a CloudKit per-record limit);
   the app tells you when a file is too big.
 - Deleting a section deletes its documents (with confirmation). Deleting a

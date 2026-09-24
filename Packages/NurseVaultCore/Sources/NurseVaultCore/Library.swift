@@ -3,6 +3,9 @@ import CoreData
 import CloudKit
 import Network
 import Observation
+#if os(watchOS)
+import WidgetKit
+#endif
 
 /// The shared library of sections and documents.
 ///
@@ -32,6 +35,8 @@ public final class Library {
     @ObservationIgnored private var cloudAvailable = false
     @ObservationIgnored private var isOnline = false
     @ObservationIgnored private var isStoreLoaded = false
+    @ObservationIgnored var searchCache: [URL: SearchEntry] = [:]
+    @ObservationIgnored var searchInflight = Set<URL>()
 
     public init() {
         let model = VaultModel.makeModel()
@@ -70,12 +75,7 @@ public final class Library {
     // MARK: - Store location
 
     nonisolated private static func storeURL() -> URL {
-        let directory = FileManager.default
-            .urls(for: .applicationSupportDirectory, in: .userDomainMask)
-            .first!
-            .appendingPathComponent("NurseVault", isDirectory: true)
-        try? FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
-        return directory.appendingPathComponent("NurseVault.store")
+        VaultStoreLocation.storeURL
     }
 
     // MARK: - Sync status
@@ -186,6 +186,29 @@ public final class Library {
         if let fetched = try? context.fetch(docFetch) {
             docs = fetched
         }
+        maintainSearchIndex()
+        writeSummary()
+    }
+
+    /// Refreshes the small summary the watch widget reads for its complication.
+    private func writeSummary() {
+        VaultSummary.write(
+            .init(
+                sectionCount: sections.count,
+                documentCount: docs.count,
+                updatedAt: Date()
+            )
+        )
+        #if os(watchOS)
+        // The watch app is the only process on the watch, so it can ask
+        // WidgetKit to re-run the widget's timeline right away instead of
+        // letting the complication wait for its 30-minute refresh.
+        // watchOS's WidgetCenter has no no-argument `reloadTimelines()`,
+        // so the kind is passed explicitly (single source of truth in
+        // `VaultWidget.complicationKind`). Other platforms have no Nurse
+        // Vault widget, so this is a no-op there.
+        WidgetCenter.shared.reloadTimelines(ofKind: VaultWidget.complicationKind)
+        #endif
     }
 
     private func save() {
@@ -220,6 +243,7 @@ public final class Library {
         reload()
     }
 
+    @discardableResult
     public func addSection(name: String, icon: String = "folder") -> VaultSection {
         let section = VaultSection(context: context)
         section.name = name
@@ -256,6 +280,7 @@ public final class Library {
 
     // MARK: - Documents
 
+    @discardableResult
     public func addDocument(
         imported: ImportedFile,
         noteText: String? = nil,
@@ -274,6 +299,7 @@ public final class Library {
         return doc
     }
 
+    @discardableResult
     public func addNote(title: String, body: String, to section: VaultSection?) -> VaultDoc {
         let doc = VaultDoc(context: context)
         doc.title = title

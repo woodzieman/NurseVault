@@ -10,9 +10,16 @@ struct DocListView: View {
     @State private var isDropTargeted = false
     @State private var showingImportAlert = false
     @State private var importErrorMessage: String?
+    @State private var searchText = ""
 
     private var visibleDocs: [VaultDoc] {
-        library.docs(in: section)
+        let trimmed = searchText.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !trimmed.isEmpty else {
+            return library.docs(in: section)
+        }
+        let matches = library.docs(matching: trimmed)
+        guard let section else { return matches }
+        return matches.filter { $0.section === section }
     }
 
     var body: some View {
@@ -30,15 +37,25 @@ struct DocListView: View {
             .onDelete(perform: deleteDocuments)
         }
         .navigationTitle(section?.name ?? "All Documents")
+        .searchable(text: $searchText, prompt: "Search documents")
         .overlay {
             if visibleDocs.isEmpty {
                 VStack(spacing: 12) {
-                    Image(systemName: "tray")
-                        .font(.largeTitle)
-                        .foregroundStyle(.secondary)
-                    Text("No documents yet")
-                    Button("Add Documents") {
-                        importKind = .files
+                    if searchText.trimmingCharacters(in: .whitespaces).isEmpty {
+                        Image(systemName: "tray")
+                            .font(.largeTitle)
+                            .foregroundStyle(.secondary)
+                        Text("No documents yet")
+                        Button("Add Documents") {
+                            importKind = .files
+                        }
+                    } else {
+                        Image(systemName: "magnifyingglass")
+                            .font(.largeTitle)
+                            .foregroundStyle(.secondary)
+                        Text("No matches for “\(searchText.trimmingCharacters(in: .whitespaces))”")
+                            .foregroundStyle(.secondary)
+                            .multilineTextAlignment(.center)
                     }
                 }
                 .padding()
@@ -156,7 +173,7 @@ struct DocRow: View {
                     Text("\(fileName) · \(Self.dateString(for: doc))")
                         .font(.caption)
                         .foregroundStyle(.secondary)
-                } else if let added = doc.addedDate {
+                } else if doc.addedDate != nil {
                     Text(Self.dateString(for: doc))
                         .font(.caption)
                         .foregroundStyle(.secondary)

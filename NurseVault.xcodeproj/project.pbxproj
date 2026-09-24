@@ -9,16 +9,45 @@
 /* Begin PBXBuildFile section */
 		AF95AFB43064C33500E29321 /* NurseVaultCore in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000131 /* NurseVaultCore */; };
 		AF95AFB53064C33500E29321 /* NurseVaultCore in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000131 /* NurseVaultCore */; };
+		A10000000000000000000153 /* NurseVaultCore in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000131 /* NurseVaultCore */; };
+		A10000000000000000000154 /* NurseVault Watch Widget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A10000000000000000000112 /* NurseVault Watch Widget.appex */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A10000000000000000000155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10000000000000000000101 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10000000000000000000160;
+			remoteInfo = "NurseVault Watch Widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A10000000000000000000157 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A10000000000000000000154 /* NurseVault Watch Widget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A10000000000000000000110 /* NurseVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NurseVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10000000000000000000111 /* NurseVault Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NurseVault Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000112 /* NurseVault Watch Widget.appex */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NurseVault Watch Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A10000000000000000000106 /* App */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = App; sourceTree = "<group>"; };
 		A10000000000000000000107 /* Watch */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Watch; sourceTree = "<group>"; };
+		A10000000000000000000108 /* WatchWidget */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = WatchWidget; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,14 +67,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A10000000000000000000151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000153 /* NurseVaultCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A10000000000000000000167 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000166 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		A10000000000000000000102 /* =This Project= */ = {
 			isa = PBXGroup;
 			children = (
 				A10000000000000000000106 /* App */,
 				A10000000000000000000107 /* Watch */,
+				A10000000000000000000108 /* WatchWidget */,
+				A10000000000000000000167 /* Support */,
 				A10000000000000000000105 /* Products */,
 			);
 			name = "=This Project=";
@@ -56,6 +103,7 @@
 			children = (
 				A10000000000000000000110 /* NurseVault.app */,
 				A10000000000000000000111 /* NurseVault Watch.app */,
+				A10000000000000000000112 /* NurseVault Watch Widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,10 +141,12 @@
 				A10000000000000000000125 /* Sources */,
 				A10000000000000000000126 /* Frameworks */,
 				A10000000000000000000127 /* Resources */,
+				A10000000000000000000157 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A10000000000000000000156 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				A10000000000000000000107 /* Watch */,
@@ -108,6 +158,29 @@
 			productName = "NurseVault Watch";
 			productReference = A10000000000000000000111 /* NurseVault Watch.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A10000000000000000000160 /* NurseVault Watch Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000163 /* Build configuration list for PBXNativeTarget "NurseVault Watch Widget" */;
+			buildPhases = (
+				A10000000000000000000150 /* Sources */,
+				A10000000000000000000151 /* Frameworks */,
+				A10000000000000000000152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A10000000000000000000108 /* WatchWidget */,
+			);
+			name = "NurseVault Watch Widget";
+			packageProductDependencies = (
+				A10000000000000000000131 /* NurseVaultCore */,
+			);
+			productName = "NurseVault Watch Widget";
+			productReference = A10000000000000000000112 /* NurseVault Watch Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -123,6 +196,9 @@
 						CreatedOnToolsVersion = 26.0;
 					};
 					A10000000000000000000121 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					A10000000000000000000160 = {
 						CreatedOnToolsVersion = 26.0;
 					};
 				};
@@ -145,6 +221,7 @@
 			targets = (
 				A10000000000000000000120 /* NurseVault */,
 				A10000000000000000000121 /* NurseVault Watch */,
+				A10000000000000000000160 /* NurseVault Watch Widget */,
 			);
 		};
 /* End PBXProject section */
@@ -158,6 +235,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A10000000000000000000127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000000152 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -181,12 +265,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A10000000000000000000150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A10000000000000000000156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10000000000000000000160 /* NurseVault Watch Widget */;
+			targetProxy = A10000000000000000000155 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A10000000000000000000140 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = App/NurseVault.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -194,14 +294,17 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Nurse Vault";
-				INFOPLIST_KEY_CFBundleShortVersionString = 1.0;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -215,6 +318,7 @@
 		A10000000000000000000141 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = App/NurseVault.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -222,14 +326,17 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Nurse Vault";
-				INFOPLIST_KEY_CFBundleShortVersionString = 1.0;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -243,6 +350,7 @@
 		A10000000000000000000142 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Watch/WatchEntitlements.entitlements;
 				DEVELOPMENT_TEAM = 2LFBN27WK8;
 				CODE_SIGN_STYLE = Automatic;
@@ -250,11 +358,12 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Nurse Vault";
-				INFOPLIST_KEY_CFBundleShortVersionString = 1.0;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.josephwoods.nursevault;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -270,6 +379,7 @@
 		A10000000000000000000143 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Watch/WatchEntitlements.entitlements;
 				DEVELOPMENT_TEAM = 2LFBN27WK8;
 				CODE_SIGN_STYLE = Automatic;
@@ -277,11 +387,12 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Nurse Vault";
-				INFOPLIST_KEY_CFBundleShortVersionString = 1.0;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.josephwoods.nursevault;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -291,6 +402,48 @@
 				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "4,5,7,8,10,11,12,13,14,15";
 				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		A10000000000000000000161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LFBN27WK8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Support/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault.watchkitapp.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_VERSION = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		A10000000000000000000162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LFBN27WK8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Support/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault.watchkitapp.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_VERSION = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
@@ -430,6 +583,15 @@
 			buildConfigurations = (
 				A10000000000000000000142 /* Debug */,
 				A10000000000000000000143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000163 /* Build configuration list for PBXNativeTarget "NurseVault Watch Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000161 /* Debug */,
+				A10000000000000000000162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -4,6 +4,7 @@ xcuserdata/
 *.xcscmblueprint
 DerivedData/
 build/
+archives/
 *.moved-aside
 
 # macOS

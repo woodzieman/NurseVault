@@ -15,20 +15,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A10000000000000000000121"
-               BuildableName = "NurseVault Watch.app"
-               BlueprintName = "NurseVault Watch"
-               ReferencedContainer = "container:NurseVault.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "A10000000000000000000160"
                BuildableName = "NurseVault Watch Widget.appex"
                BlueprintName = "NurseVault Watch Widget"
@@ -42,7 +28,7 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
-      onlyGenerateCoverageForTheseTargets = "NurseVault Watch">
+      onlyGenerateCoverageForTheseTargets = "NurseVault Watch Widget">
       <Testables>
       </Testables>
    </TestAction>
@@ -60,8 +46,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A10000000000000000000121"
-            BuildableName = "NurseVault Watch.app"
+            BlueprintIdentifier = "A10000000000000000000160"
+            BuildableName = "NurseVault Watch Widget.appex"
             ReferencedContainer = "container:NurseVault.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -76,8 +62,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A10000000000000000000121"
-            BuildableName = "NurseVault Watch.app"
+            BlueprintIdentifier = "A10000000000000000000160"
+            BuildableName = "NurseVault Watch Widget.appex"
             ReferencedContainer = "container:NurseVault.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
