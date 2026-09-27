@@ -7,6 +7,8 @@ enum ImportKind: String, Identifiable, CaseIterable {
     case files
     case photos
     case note
+    case camera
+    case ocr
 
     var id: String { rawValue }
 
@@ -15,6 +17,8 @@ enum ImportKind: String, Identifiable, CaseIterable {
         case .files: "Import Files"
         case .photos: "Import Photos"
         case .note: "New Note"
+        case .camera: "Take Photo"
+        case .ocr: "Scan & OCR"
         }
     }
 
@@ -23,6 +27,8 @@ enum ImportKind: String, Identifiable, CaseIterable {
         case .files: "folder"
         case .photos: "photo"
         case .note: "note.text"
+        case .camera: "camera"
+        case .ocr: "text.viewfinder"
         }
     }
 }
@@ -78,6 +84,17 @@ struct ImportView: View {
                         TextField("Reference text", text: $noteBody, axis: .vertical)
                             .lineLimit(5...16)
                     }
+                case .camera, .ocr:
+                    // The camera capture UI (and its state) lives in a
+                    // dedicated view; keep this `#if` branch a single view
+                    // so no conditionally-compiled captures nest in here.
+                    #if canImport(UIKit)
+                    CameraImportSection(kind: kind, section: section)
+                    #else
+                    Section {
+                        Text("The camera is only available on iPhone and iPad.")
+                    }
+                    #endif
                 }
             }
             .navigationTitle(kind.title)

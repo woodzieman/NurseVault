@@ -27,6 +27,11 @@ Sections can be renamed, reordered (drag), or deleted at any time.
   Import with **Add → Import Files…**, **Add → Import Photos…**, or just
   **drag & drop** files into a list (Mac/iPad).
 - **Notes** — pure text references (**Add → New Note**).
+- **Camera** — **Add → Take Photo** captures from the camera (iPhone,
+  and iPads that have one) and stores it as a syncing image.
+- **Scan & OCR** — **Add → Scan & OCR** points the camera at a printed
+  reference (a drug label, a lab sheet), reads the text with Apple's
+  on-device Vision OCR, and saves it as an editable, searchable note.
 - Every document can carry a title, notes, and be moved between sections.
 - **Search** — find documents by title, file name, your notes, or (for PDFs
   and text files) the *content of the file itself*. Use the toolbar search in
@@ -154,10 +159,41 @@ The project is versioned **0.1** as a personal-use alpha.
 - **Physical devices and the App Store** still require the paid Developer
   Program; until then, use simulators and your Mac.
 
+## UI tests
+
+Three UI test schemes exercise the alpha checklist end-to-end (all in Debug):
+
+| Scheme | What it checks |
+|---|---|
+| `NurseVaultUI-Tests` (iOS) | Import a file from the document picker, content search (in-section + All Documents), note creation + search, sync badge state |
+| `NurseVaultMac-UI-Tests` (macOS) | The same flows in the Mac app |
+| `NurseVault Watch` test action | Watch per-section + global search over the synced document |
+
+Notes:
+
+- A pre-test script (`AppUITests/Support/push-fixture.sh`) puts the
+  `Amiodarone Dosing.pdf` fixture in the simulator's `~/Documents` (or the
+  Mac's, for the Mac scheme) before each run — no manual setup needed.
+- The iOS file-import test skips itself (rather than failing) when the
+  simulator's document picker can't be navigated: the picker lists the
+  Documents folder from the simulator's file index, which is flaky and can
+  report a populated folder as empty. It can recover on its own, so
+  re-running the suite later often gets a full pass (rebooting the
+  simulator sometimes helps too); the import flow itself is verified
+  manually.
+- The iOS and watch suites assume the simulator has an iCloud sign-in
+  (Settings → Apple ID) for the badge check and for phone→watch sync;
+  the badge test reports the observed state and passes for any of them.
+- Run the iOS scheme before the watch one: the watch tests search for the
+  document the iOS import created, which reaches the watch via CloudKit.
+
 ## Practical notes
 
 - The **watch app is read-only**: browse sections, open PDFs/images/notes.
   Import from the phone, iPad, or Mac — it appears on the watch automatically.
+- **Watch Interactions**: 
+  - For PDFs and images, use the **Digital Crown to zoom in (up to 4x)** and **drag your finger to pan** around the document.
+  - Text documents use system body typography for maximum legibility on a small screen and are fully scrollable.
 - **Search** matches titles, file names, notes, and — for PDFs and text
   files — the file content itself (PDF text is extracted with PDFKit in the
   background and cached, so searches stay responsive; files over 16 MB are

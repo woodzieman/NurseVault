@@ -56,7 +56,9 @@ struct RootView: View {
                 }
             }
         } content: {
-            DocListView(section: currentSection)
+            NavigationStack {
+                DocListView(section: currentSection)
+            }
         } detail: {
             ContentUnavailableView {
                 Label("Select a Document", systemImage: "doc.text.magnifyingglass")
@@ -89,6 +91,7 @@ struct RootView: View {
         } message: {
             Text("This also deletes everything stored in the section.")
         }
+        .navigationSplitViewStyle(.balanced)
         .onChange(of: scenePhase) { _, newPhase in
             if newPhase == .active {
                 library.reload()

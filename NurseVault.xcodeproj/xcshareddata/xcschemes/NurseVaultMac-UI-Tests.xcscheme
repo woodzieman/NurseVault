@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeCheck = "2600"
-   LastUpgradeVersion = "2700"
+   LastUpgradeCheck = "2700"
    version = "1.8">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -10,28 +9,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A10000000000000000000121"
-               BuildableName = "NurseVault Watch.app"
-               BlueprintName = "NurseVault Watch"
-               ReferencedContainer = "container:NurseVault.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A10000000000000000000160"
-               BuildableName = "NurseVault Watch Widget.appex"
-               BlueprintName = "NurseVault Watch Widget"
+               BlueprintIdentifier = "A10000000000000000000120"
+               BuildableName = "NurseVault.app"
+               BlueprintName = "NurseVault"
                ReferencedContainer = "container:NurseVault.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A1000000000000000000012A"
-               BuildableName = "NurseVaultWatchUITests.xctest"
-               BlueprintName = "NurseVaultWatchUITests"
+               BlueprintIdentifier = "A10000000000000000000128"
+               BuildableName = "NurseVaultMacUITests.xctest"
+               BlueprintName = "NurseVaultMacUITests"
                ReferencedContainer = "container:NurseVault.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -55,16 +40,21 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      onlyGenerateCoverageForTheseTargets = "NurseVault Watch">
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <ExecutionAction>
+         <ExecutionScript
+            filePath = "AppUITests/Support/push-fixture.sh"
+            showDebugLogs = "YES">
+         </ExecutionScript>
+      </ExecutionAction>
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A1000000000000000000012A"
-               BuildableName = "NurseVaultWatchUITests.xctest"
-               BlueprintName = "NurseVaultWatchUITests"
+               BlueprintIdentifier = "A10000000000000000000128"
+               BuildableName = "NurseVaultMacUITests.xctest"
+               BlueprintName = "NurseVaultMacUITests"
                ReferencedContainer = "container:NurseVault.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -80,15 +70,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A10000000000000000000121"
-            BuildableName = "NurseVault Watch.app"
-            ReferencedContainer = "container:NurseVault.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -96,15 +77,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A10000000000000000000121"
-            BuildableName = "NurseVault Watch.app"
-            ReferencedContainer = "container:NurseVault.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

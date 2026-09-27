@@ -181,12 +181,12 @@ struct WatchDocDetailView: View {
                 if let data = doc.fileData {
                     switch kind {
                     case .pdf:
-                        VaultPDFView(data: data)
+                        WatchZoomablePDFView(data: data)
                     case .image:
-                        VaultImageView(data: data)
+                        WatchZoomableImageView(data: data)
                     case .text:
                         Text(FileSupport.text(from: data) ?? "…")
-                            .font(.caption)
+                            .font(.body) // Use system body size for readability
                     case .other, .note:
                         Label("No preview for this file type", systemImage: "doc")
                             .font(.caption)
@@ -194,7 +194,7 @@ struct WatchDocDetailView: View {
                     }
                 } else if let note = doc.noteText, !note.isEmpty {
                     Text(note)
-                        .font(.caption)
+                        .font(.body) // Use system body size for readability
                 } else {
                     Label("Empty document", systemImage: "doc")
                         .font(.caption)
@@ -206,10 +206,100 @@ struct WatchDocDetailView: View {
                     Text("Notes")
                         .font(.caption.bold())
                     Text(note)
-                        .font(.caption)
+                        .font(.body) // Use system body size for readability
                 }
             }
             .padding()
         }
+    }
+}
+
+/// Specialized image view for the Apple Watch that supports zooming with the Digital Crown
+/// and panning via drag gestures.
+struct WatchZoomableImageView: View {
+    let data: Data
+    @State private var scale: CGFloat = 1.0
+    @State private var offset: CGSize = .zero
+    @State private var lastOffset: CGSize = .zero
+
+    var body: some View {
+        GeometryReader { proxy in
+            if let uiImage = UIImage(data: data) {
+                Image(uiImage: uiImage)
+                    .resizable()
+                    .scaledToFit()
+                    .scaleEffect(scale)
+                    .offset(offset)
+                    .gesture(
+                        DragGesture()
+                            .onChanged { value in
+                                if scale > 1.0 {
+                                    offset = CGSize(
+                                        width: lastOffset.width + value.translation.width,
+                                        height: lastOffset.height + value.translation.height
+                                    )
+                                }
+                            }
+                            .onEnded { _ in
+                                lastOffset = offset
+                                if scale <= 1.0 {
+                                    offset = .zero
+                                    lastOffset = .zero
+                                }
+                            }
+                    )
+                    .focusable()
+                    // Map crown rotation to scale (1x to 4x)
+                    .digitalCrownRotation($scale, from: 1.0, through: 4.0, by: 0.1)
+            } else {
+                Text("No image preview")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+        }
+        // Keep a reasonable aspect ratio to avoid filling the whole screen vertically in the ScrollView
+        .aspectRatio(1, contentMode: .fit)
+        .clipShape(RoundedRectangle(cornerRadius: 8))
+    }
+}
+
+/// Specialized PDF view for the Apple Watch that supports zooming with the Digital Crown
+/// and panning via drag gestures.
+struct WatchZoomablePDFView: View {
+    let data: Data
+    @State private var scale: CGFloat = 1.0
+    @State private var offset: CGSize = .zero
+    @State private var lastOffset: CGSize = .zero
+
+    var body: some View {
+        GeometryReader { proxy in
+            VaultPDFView(data: data)
+                .scaleEffect(scale)
+                .offset(offset)
+                .gesture(
+                    DragGesture()
+                        .onChanged { value in
+                            if scale > 1.0 {
+                                offset = CGSize(
+                                    width: lastOffset.width + value.translation.width,
+                                    height: lastOffset.height + value.translation.height
+                                )
+                            }
+                        }
+                        .onEnded { _ in
+                            lastOffset = offset
+                            if scale <= 1.0 {
+                                offset = .zero
+                                lastOffset = .zero
+                            }
+                        }
+                )
+                .focusable()
+                // Map crown rotation to scale (1x to 4x)
+                .digitalCrownRotation($scale, from: 1.0, through: 4.0, by: 0.1)
+        }
+        // Set a fixed height to allow the ScrollView to work normally and avoid layout loops
+        .frame(height: 200)
+        .clipShape(RoundedRectangle(cornerRadius: 8))
     }
 }

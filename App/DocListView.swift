@@ -36,6 +36,7 @@ struct DocListView: View {
             }
             .onDelete(perform: deleteDocuments)
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
         .navigationTitle(section?.name ?? "All Documents")
         .searchable(text: $searchText, prompt: "Search documents")
         .overlay {
@@ -85,6 +86,16 @@ struct DocListView: View {
                     Button { importKind = .note } label: {
                         Label("New Note", systemImage: "note.text")
                     }
+                    #if canImport(UIKit)
+                    if CameraSupport.isAvailable {
+                        Button { importKind = .camera } label: {
+                            Label("Take Photo", systemImage: "camera")
+                        }
+                        Button { importKind = .ocr } label: {
+                            Label("Scan & OCR", systemImage: "text.viewfinder")
+                        }
+                    }
+                    #endif
                 } label: {
                     Label("Add", systemImage: "plus")
                 }

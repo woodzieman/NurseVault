@@ -4,6 +4,7 @@ xcuserdata/
 *.xcscmblueprint
 DerivedData/
 build/
+build-logs/
 archives/
 *.moved-aside
 
