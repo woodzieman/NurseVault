@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A10000000000000000000153 /* NurseVaultCore in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000131 /* NurseVaultCore */; };
-		A10000000000000000000154 /* NurseVault Watch Widget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A10000000000000000000112 /* NurseVault Watch Widget.appex */; };
+		A10000000000000000000154 /* NurseVault Watch Widget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A10000000000000000000112 /* NurseVault Watch Widget.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A10000000000000000000186 /* NurseVault Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A10000000000000000000111 /* NurseVault Watch.app */; platformFilter = ios; };
 		AF95AFB43064C33500E29321 /* NurseVaultCore in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000131 /* NurseVaultCore */; };
 		AF95AFB53064C33500E29321 /* NurseVaultCore in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000131 /* NurseVaultCore */; };
-		A10000000000000000000186 /* NurseVault Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A10000000000000000000111 /* NurseVault Watch.app */; platformFilter = ios; };
+		AF9F3BB73069E5DB00E8A97A /* TestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = AF9F3BB63069E5DB00E8A97A /* TestPlan.xctestplan */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,17 +94,18 @@
 /* Begin PBXFileReference section */
 		A10000000000000000000110 /* NurseVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NurseVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10000000000000000000111 /* NurseVault Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NurseVault Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A10000000000000000000112 /* NurseVault Watch Widget.appex */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NurseVault Watch Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000112 /* NurseVault Watch Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NurseVault Watch Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10000000000000000000166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A10000000000000000000168 /* NurseVaultUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NurseVaultUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10000000000000000000169 /* NurseVaultMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NurseVaultMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1000000000000000000016A /* NurseVaultWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NurseVaultWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9F3BB63069E5DB00E8A97A /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A10000000000000000000106 /* App */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = App; sourceTree = "<group>"; };
-		A10000000000000000000107 /* Watch */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Watch; sourceTree = "<group>"; };
-		A10000000000000000000108 /* WatchWidget */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = WatchWidget; sourceTree = "<group>"; };
+		A10000000000000000000106 /* App */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Sources/iOS; sourceTree = "<group>"; };
+		A10000000000000000000107 /* Watch */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Sources/Watch; sourceTree = "<group>"; };
+		A10000000000000000000108 /* WatchWidget */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Sources/Widget; sourceTree = "<group>"; };
 		A1000000000000000000016B /* AppUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = AppUITests; sourceTree = "<group>"; };
 		A1000000000000000000016C /* AppUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = AppUITests; sourceTree = "<group>"; };
 		A1000000000000000000016D /* WatchUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = WatchUITests; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 		A10000000000000000000102 /* =This Project= */ = {
 			isa = PBXGroup;
 			children = (
+				AF9F3BB63069E5DB00E8A97A /* TestPlan.xctestplan */,
 				A10000000000000000000106 /* App */,
 				A10000000000000000000107 /* Watch */,
 				A10000000000000000000108 /* WatchWidget */,
@@ -403,6 +406,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF9F3BB73069E5DB00E8A97A /* TestPlan.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,8 +524,18 @@
 				CODE_SIGN_ENTITLEMENTS = App/NurseVault.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2LFBN27WK8;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = YES;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = YES;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Nurse Vault";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
@@ -553,8 +567,18 @@
 				CODE_SIGN_ENTITLEMENTS = App/NurseVault.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2LFBN27WK8;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = YES;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = YES;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Nurse Vault";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
@@ -586,7 +610,6 @@
 				CODE_SIGN_ENTITLEMENTS = Watch/WatchEntitlements.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2LFBN27WK8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Nurse Vault";
@@ -615,7 +638,6 @@
 				CODE_SIGN_ENTITLEMENTS = Watch/WatchEntitlements.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2LFBN27WK8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Nurse Vault";
@@ -666,6 +688,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2LFBN27WK8;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -724,6 +747,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2LFBN27WK8;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -752,14 +776,13 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2LFBN27WK8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Support/Info.plist;
-				MARKETING_VERSION = 0.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault.watchkitapp.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -774,14 +797,13 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2LFBN27WK8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Support/Info.plist;
-				MARKETING_VERSION = 0.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault.watchkitapp.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -796,7 +818,6 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2LFBN27WK8;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 0.1;
@@ -813,7 +834,6 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2LFBN27WK8;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 0.1;
@@ -830,7 +850,6 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2LFBN27WK8;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 0.1;
@@ -847,7 +866,6 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2LFBN27WK8;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 0.1;
@@ -864,7 +882,6 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2LFBN27WK8;
 				GENERATE_INFOPLIST_FILE = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault.watchkitapp.uitests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -880,7 +897,6 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2LFBN27WK8;
 				GENERATE_INFOPLIST_FILE = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault.watchkitapp.uitests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

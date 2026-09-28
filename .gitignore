@@ -8,6 +8,12 @@ build-logs/
 archives/
 *.moved-aside
 
+# Archives (local only)
+NurseVault 2026-09-27 19-09-24/
+
+# API Keys - NEVER commit
+AuthKey_*.p8
+
 # macOS
 .DS_Store
 
