@@ -1,5 +1,30 @@
 # Session handoff — Nurse Vault → TestFlight alpha
 
+## STATUS (2026-09-30, Bionic session) — read this first
+
+- **Canonical project = the ROOT `NurseVault.xcodeproj`** (user decision).
+  The `nursevault 2.0/` v110 experiment folder is **retired** (left on disk,
+  safe to delete; nothing canonical lives there).
+- The app is now **Nurse Vault 2.0**: `MARKETING_VERSION = 2.0` on all targets
+  (commit 910498a), folder feature complete (commit 8bdd0d3: `VaultFolder`
+  model, `VaultListView` drill-down, save-to-folder on every import flow).
+- Watch target fixed for distribution: `DEVELOPMENT_TEAM` +
+  `INFOPLIST_KEY_CFBundleIconName = AppIcon` (validator 90713); the 1024
+  `platform: watchos` icon slot was already in `Sources/Watch`.
+- **The user handles all signing/building themselves** — no further
+  `xcodebuild` signing/export runs from this side. Unsigned sanity builds
+  (app + watch, Release) pass.
+- ASC state: builds 1–2 of `com.josephwoods.nursevault` already exist (v0.1
+  era) → the next 2.0 export will auto-increment to build 3+ (with
+  `manageAppVersionAndBuildNumber`).
+- Upload route: Xcode GUI Distribute (user) or the ASC API once the 401 key
+  issue is resolved (see below). v110 `dstSubfolderSpec` research result
+  (16 + `$(CONTENTS_FOLDER_PATH)/Watch`) is documented in
+  NURSE-VAULT-2.0-REWRITE-PLAN.md for reference; the root v71 file uses the
+  classic Plug-ins layout, proven on-device with v0.1.
+
+---
+
 I'm continuing work on the "Nurse Vault" project in the "Nursing app" folder.
 Goal: get the **v0.1 alpha onto TestFlight** (iPhone/iPad + Watch, plus the Mac
 app). The user has a **paid Apple Developer account** (added to Xcode on this
