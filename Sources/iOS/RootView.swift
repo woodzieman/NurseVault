@@ -10,6 +10,7 @@ struct RootView: View {
     @State private var renameTarget: SectionEditTarget?
     @State private var deleteTarget: VaultSection?
     @State private var showingDeleteDialog = false
+    @State private var showingResetAlert = false
 
     enum SidebarItem: Hashable {
         case all
@@ -57,7 +58,7 @@ struct RootView: View {
             }
         } content: {
             NavigationStack {
-                DocListView(section: currentSection)
+                VaultListView(container: currentContainer)
             }
         } detail: {
             ContentUnavailableView {
@@ -97,6 +98,19 @@ struct RootView: View {
                 library.reload()
             }
         }
+        .onChange(of: library.storeWasReset) { _, reset in
+            if reset {
+                showingResetAlert = true
+            }
+        }
+        .alert("Vault Storage Was Reset", isPresented: $showingResetAlert) {
+            Button("OK") { }
+        } message: {
+            Text(
+                "The 2.0 version added folders, and its new storage format can't open the previous vault. "
+                + "Your vault was re-created, so documents from the earlier alpha build didn't carry over."
+            )
+        }
     }
 
     private var currentSection: VaultSection? {
@@ -105,6 +119,15 @@ struct RootView: View {
             return nil
         case .section(let section):
             return section
+        }
+    }
+
+    private var currentContainer: VaultContainer? {
+        switch selection {
+        case .all, .none:
+            return nil
+        case .section(let section):
+            return .section(section)
         }
     }
 }

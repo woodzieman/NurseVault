@@ -25,8 +25,13 @@ public final class Library {
     }
 
     public private(set) var sections: [VaultSection] = []
+    public private(set) var folders: [VaultFolder] = []
     public private(set) var docs: [VaultDoc] = []
     public private(set) var syncState: SyncState = .syncing
+
+    /// Set when an existing on-disk store was written with an older model
+    /// (before folders existed) and had to be reset so the app can start.
+    public private(set) var storeWasReset = false
 
     @ObservationIgnored private let container: NSPersistentCloudKitContainer
     @ObservationIgnored private let context: NSManagedObjectContext
@@ -48,7 +53,28 @@ public final class Library {
         self.context = container.viewContext
         self.context.name = "NurseVault.main"
 
+        loadStore(container: container, attempt: 0)
+    }
+
+    /// Loads the persistent store, with a one-time reset fallback.
+    ///
+    /// The 2.0 model added the Folder entity and new relationships. A store
+    /// written by the v0.1 model cannot be opened, so instead of failing
+    /// forever (empty app, silent data loss) the store file is deleted once
+    /// and loading retried. This app is a private vault with no public
+    /// builds, so a one-time re-creation is the least-bad option; the flag
+    /// surfaces in the UI so the user knows their old content did not carry
+    /// over.
+    private func loadStore(container: NSPersistentCloudKitContainer, attempt: Int) {
         container.loadPersistentStores { [weak self] _, error in
+            if let error, attempt == 0, Self.deleteStoreFileIfNeeded(container) {
+                NSLog("NurseVault: old store is incompatible with the current model; resetting (\(error.localizedDescription))")
+                Task { @MainActor in
+                    self?.storeWasReset = true
+                    self?.loadStore(container: container, attempt: 1)
+                }
+                return
+            }
             if let error {
                 NSLog("NurseVault: could not load the local store: \(error.localizedDescription)")
             }
@@ -58,6 +84,23 @@ public final class Library {
         }
     }
 
+    /// Removes the on-disk store (and its external blob file) if present.
+    nonisolated private static func deleteStoreFileIfNeeded(_ container: NSPersistentCloudKitContainer) -> Bool {
+        guard let url = container.persistentStoreDescriptions.first?.url,
+              FileManager.default.fileExists(atPath: url.path) else { return false }
+        var removed = false
+        if (try? FileManager.default.removeItem(at: url)) != nil {
+            removed = true
+        }
+        // External binary data (document files) is kept in a sibling `tmp`
+        // file; remove it too so nothing lingers from the old schema.
+        let tmp = url.deletingPathExtension().appendingPathComponent("tmp")
+        if FileManager.default.fileExists(atPath: tmp.path) {
+            try? FileManager.default.removeItem(at: tmp)
+        }
+        return removed
+    }
+
     private func markStoreLoaded() {
         guard !isStoreLoaded else { return }
         isStoreLoaded = true
@@ -65,7 +108,7 @@ public final class Library {
         observeSyncEvents()
         refreshAccountStatus()
         reload()
-        #if !os(watch)
+        #if !os(watchOS)
         if sections.isEmpty {
             ensureDefaultSections()
         }
@@ -182,6 +225,11 @@ public final class Library {
             sections = fetched
         }
 
+        let folderFetch = NSFetchRequest<VaultFolder>(entityName: "Folder")
+        if let fetched = try? context.fetch(folderFetch) {
+            folders = fetched
+        }
+
         let docFetch = NSFetchRequest<VaultDoc>(entityName: "Doc")
         if let fetched = try? context.fetch(docFetch) {
             docs = fetched
@@ -261,8 +309,49 @@ public final class Library {
         reload()
     }
 
+    public func renameFolder(_ folder: VaultFolder, to name: String) {
+        folder.name = name
+        save()
+        reload()
+    }
+
     public func deleteSection(_ section: VaultSection) {
         context.delete(section)
+        save()
+        reload()
+    }
+
+    @discardableResult
+    public func addFolder(name: String, in section: VaultSection? = nil, parent: VaultFolder? = nil) -> VaultFolder {
+        let folder = VaultFolder(context: context)
+        folder.name = name
+        folder.section = parent?.section ?? section
+        folder.parent = parent
+        save()
+        reload()
+        return folder
+    }
+
+    public func deleteFolder(_ folder: VaultFolder) {
+        context.delete(folder)
+        save()
+        reload()
+    }
+
+    /// Moves a folder under a new parent (or to the top level with `nil`).
+    ///
+    /// A folder's `section` always names the top-level section it belongs
+    /// to, so moving under a parent inherits that parent's section. Moving a
+    /// folder into itself or one of its own descendants is refused — that
+    /// would create a cycle and orphan the subtree.
+    public func moveFolder(_ folder: VaultFolder, to parent: VaultFolder? = nil) {
+        // `isAncestor` includes the folder itself, so this single check
+        // refuses both "move into itself" and "move into its own subtree".
+        if let parent, folder.isAncestor(of: parent) {
+            return
+        }
+        folder.parent = parent
+        folder.section = parent?.section
         save()
         reload()
     }
@@ -284,7 +373,8 @@ public final class Library {
     public func addDocument(
         imported: ImportedFile,
         noteText: String? = nil,
-        to section: VaultSection?
+        to section: VaultSection? = nil,
+        in folder: VaultFolder? = nil
     ) -> VaultDoc {
         let doc = VaultDoc(context: context)
         doc.title = imported.title
@@ -293,19 +383,21 @@ public final class Library {
         doc.mimeType = imported.mimeType
         doc.fileData = imported.data
         doc.addedDate = Date()
-        doc.section = section
+        doc.section = folder?.section ?? section
+        doc.folder = folder
         save()
         reload()
         return doc
     }
 
     @discardableResult
-    public func addNote(title: String, body: String, to section: VaultSection?) -> VaultDoc {
+    public func addNote(title: String, body: String, to section: VaultSection?, in folder: VaultFolder? = nil) -> VaultDoc {
         let doc = VaultDoc(context: context)
         doc.title = title
         doc.noteText = body
         doc.addedDate = Date()
-        doc.section = section
+        doc.section = folder?.section ?? section
+        doc.folder = folder
         save()
         reload()
         return doc
@@ -318,20 +410,29 @@ public final class Library {
     }
 
     /// Pass `section: nil` to remove the document from any section.
+    ///
+    /// When `folder` is non-nil it wins over `section`: the document's
+    /// section is derived from the folder, keeping the "a document inside a
+    /// folder belongs to the folder's section" invariant.
     public func updateDocument(
         _ doc: VaultDoc,
         title: String? = nil,
         noteText: String? = nil,
-        section: VaultSection? = nil
+        section: VaultSection? = nil,
+        folder: VaultFolder? = nil
     ) {
         if let title, !title.isEmpty { doc.title = title }
         doc.noteText = noteText
-        doc.section = section
+        doc.section = folder?.section ?? section
+        doc.folder = folder
         save()
         reload()
     }
 
-    /// Documents in one section, or everything when `section` is nil.
+    /// Documents directly in one section, or everything when `section` is
+    /// nil. Documents inside folders of the section count toward the section
+    /// (a document's `section` always names the top-level section it
+    /// belongs to, no matter how deep its folder is).
     public func docs(in section: VaultSection?) -> [VaultDoc] {
         let result: [VaultDoc] = section == nil
             ? docs
@@ -339,5 +440,61 @@ public final class Library {
         return result.sorted {
             ($0.title ?? "").localizedCompare($1.title ?? "") == .orderedAscending
         }
+    }
+
+    /// Documents directly in one folder, or everything when `folder` is nil.
+    public func docs(in folder: VaultFolder?) -> [VaultDoc] {
+        let result: [VaultDoc] = folder == nil
+            ? docs
+            : docs.filter { $0.folder === folder }
+        return result.sorted {
+            ($0.title ?? "").localizedCompare($1.title ?? "") == .orderedAscending
+        }
+    }
+
+    /// Folders directly inside one section (top level of the section's
+    /// hierarchy), or the top-level folders of the whole vault when `nil`.
+    public func folders(in section: VaultSection?) -> [VaultFolder] {
+        let result: [VaultFolder] = section == nil
+            ? folders.filter { $0.parent == nil }
+            : folders.filter { $0.section === section && $0.parent == nil }
+        return result.sorted {
+            ($0.name ?? "").localizedCompare($1.name ?? "") == .orderedAscending
+        }
+    }
+
+    /// Folders directly inside one folder, or everything when `nil`.
+    public func subfolders(of folder: VaultFolder?) -> [VaultFolder] {
+        let result: [VaultFolder] = folder == nil
+            ? folders
+            : folders.filter { $0.parent === folder }
+        return result.sorted {
+            ($0.name ?? "").localizedCompare($1.name ?? "") == .orderedAscending
+        }
+    }
+
+    /// Every folder in the subtree rooted at `root`, including `root`
+    /// itself.
+    public func subtreeFolders(of root: VaultFolder) -> [VaultFolder] {
+        var result: [VaultFolder] = [root]
+        var queue = [root]
+        while !queue.isEmpty {
+            let current = queue.removeFirst()
+            for child in subfolders(of: current) {
+                result.append(child)
+                queue.append(child)
+            }
+        }
+        return result
+    }
+
+    /// Every document in the subtree rooted at `folder` (the folder itself
+    /// and all of its descendants), sorted by title.
+    public func allDocs(in folder: VaultFolder) -> [VaultDoc] {
+        let ids = Set(subtreeFolders(of: folder).map(\.objectID))
+        return docs.filter { $0.folder.map { ids.contains($0.objectID) } ?? false }
+            .sorted {
+                ($0.title ?? "").localizedCompare($1.title ?? "") == .orderedAscending
+            }
     }
 }

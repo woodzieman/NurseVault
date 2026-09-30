@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeCheck = "2700"
+   LastUpgradeVersion = "2700"
    version = "1.8">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -41,12 +42,6 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <ExecutionAction>
-         <ExecutionScript
-            filePath = "AppUITests/Support/push-fixture.sh"
-            showDebugLogs = "YES">
-         </ExecutionScript>
-      </ExecutionAction>
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -59,6 +54,12 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <ExecutionAction>
+         <ExecutionScript
+            filePath = "AppUITests/Support/push-fixture.sh"
+            showDebugLogs = "YES">
+         </ExecutionScript>
+      </ExecutionAction>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"

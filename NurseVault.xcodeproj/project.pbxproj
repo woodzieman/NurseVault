@@ -103,9 +103,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A10000000000000000000106 /* App */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Sources/iOS; sourceTree = "<group>"; };
-		A10000000000000000000107 /* Watch */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Sources/Watch; sourceTree = "<group>"; };
-		A10000000000000000000108 /* WatchWidget */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Sources/Widget; sourceTree = "<group>"; };
+		A10000000000000000000106 /* Sources/iOS */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Sources/iOS; sourceTree = "<group>"; };
+		A10000000000000000000107 /* Sources/Watch */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Sources/Watch; sourceTree = "<group>"; };
+		A10000000000000000000108 /* Sources/Widget */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Sources/Widget; sourceTree = "<group>"; };
 		A1000000000000000000016B /* AppUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = AppUITests; sourceTree = "<group>"; };
 		A1000000000000000000016C /* AppUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = AppUITests; sourceTree = "<group>"; };
 		A1000000000000000000016D /* WatchUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = WatchUITests; sourceTree = "<group>"; };
@@ -164,9 +164,9 @@
 			isa = PBXGroup;
 			children = (
 				AF9F3BB63069E5DB00E8A97A /* TestPlan.xctestplan */,
-				A10000000000000000000106 /* App */,
-				A10000000000000000000107 /* Watch */,
-				A10000000000000000000108 /* WatchWidget */,
+				A10000000000000000000106 /* Sources/iOS */,
+				A10000000000000000000107 /* Sources/Watch */,
+				A10000000000000000000108 /* Sources/Widget */,
 				A1000000000000000000016B /* AppUITests */,
 				A1000000000000000000016D /* WatchUITests */,
 				A10000000000000000000167 /* Support */,
@@ -223,7 +223,7 @@
 				A10000000000000000000189 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				A10000000000000000000106 /* App */,
+				A10000000000000000000106 /* Sources/iOS */,
 			);
 			name = NurseVault;
 			packageProductDependencies = (
@@ -248,7 +248,7 @@
 				A10000000000000000000156 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				A10000000000000000000107 /* Watch */,
+				A10000000000000000000107 /* Sources/Watch */,
 			);
 			name = "NurseVault Watch";
 			packageProductDependencies = (
@@ -336,7 +336,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A10000000000000000000108 /* WatchWidget */,
+				A10000000000000000000108 /* Sources/Widget */,
 			);
 			name = "NurseVault Watch Widget";
 			packageProductDependencies = (
@@ -524,6 +524,7 @@
 				CODE_SIGN_ENTITLEMENTS = App/NurseVault.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LFBN27WK8;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
@@ -567,6 +568,7 @@
 				CODE_SIGN_ENTITLEMENTS = App/NurseVault.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LFBN27WK8;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
@@ -774,8 +776,10 @@
 		A10000000000000000000161 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LFBN27WK8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -785,6 +789,7 @@
 				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault.watchkitapp.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SUPPORTED_PLATFORMS = "watchos watchsimulator";
 				SWIFT_VERSION = 6.0;
@@ -795,8 +800,10 @@
 		A10000000000000000000162 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LFBN27WK8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -806,6 +813,7 @@
 				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault.watchkitapp.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SUPPORTED_PLATFORMS = "watchos watchsimulator";
 				SWIFT_VERSION = 6.0;

@@ -34,6 +34,12 @@ struct CameraImportSection: View {
 
     let kind: ImportKind
     let section: VaultSection?
+    /// The folder the capture started from, if any.
+    var folder: VaultFolder? = nil
+    /// Resolves the save folder at save time (the parent ImportView owns
+    /// folder creation for its "New Folder…" option). When nil, `folder` is
+    /// used as-is.
+    var resolveFolder: (@MainActor () -> VaultFolder?)? = nil
 
     @State private var capturedImage: UIImage?
     @State private var showingCamera = false
@@ -121,7 +127,12 @@ struct CameraImportSection: View {
             suggestedName: name,
             suggestedMIMEType: "image/jpeg"
         ) {
-            library.addDocument(imported: imported, to: section)
+            let targetFolder = resolveFolder?() ?? folder
+            library.addDocument(
+                imported: imported,
+                to: targetFolder?.section ?? section,
+                in: targetFolder
+            )
             dismiss()
         } else {
             errorMessage = "The photo couldn't be imported."
@@ -149,10 +160,12 @@ struct CameraImportSection: View {
     private func saveOCRNote() {
         let trimmed = ocrTitle.trimmingCharacters(in: .whitespaces)
         let date = Date.now.formatted(date: .abbreviated, time: .omitted)
+        let targetFolder = resolveFolder?() ?? folder
         library.addNote(
             title: trimmed.isEmpty ? "Scanned \(date)" : trimmed,
             body: ocrText,
-            to: section
+            to: targetFolder?.section ?? section,
+            in: targetFolder
         )
         dismiss()
     }

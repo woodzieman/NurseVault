@@ -1,6 +1,14 @@
 import SwiftUI
 import NurseVaultCore
 
+private extension Array {
+    /// Bounds-checked subscript for picker indices, which can briefly lag
+    /// behind a changing options list.
+    subscript(safe index: Int) -> Element? {
+        indices.contains(index) ? self[index] : nil
+    }
+}
+
 struct DocDetailView: View {
     @Environment(Library.self) private var library
     let doc: VaultDoc
@@ -111,6 +119,14 @@ struct DocEditView: View {
     @State private var title = ""
     @State private var note = ""
     @State private var selectedSectionIndex: Int?
+    @State private var selectedFolderIndex: Int?
+
+    /// All folders, path-labeled and section-grouped, for the move picker.
+    private var folderOptions: [VaultFolder] {
+        library.folders.sorted {
+            $0.pathLabel.localizedCompare($1.pathLabel) == .orderedAscending
+        }
+    }
 
     var body: some View {
         NavigationStack {
@@ -126,6 +142,23 @@ struct DocEditView: View {
                             .tag(Int?.some(index))
                     }
                 }
+                Picker("Folder", selection: $selectedFolderIndex) {
+                    Text("No Folder")
+                        .tag(Int?.none)
+                    ForEach(Array(folderOptions.enumerated()), id: \.offset) { index, folder in
+                        Text(folder.pathLabel)
+                            .tag(Int?.some(index))
+                    }
+                }
+                .onChange(of: selectedFolderIndex) { _, newIndex in
+                    // A folder's section wins over the picker above.
+                    if let newIndex, let folder = folderOptions[safe: newIndex],
+                       let folderSection = folder.section {
+                        selectedSectionIndex = library.sections.firstIndex {
+                            $0 === folderSection
+                        }
+                    }
+                }
             }
             .navigationTitle("Edit Document")
             .toolbar {
@@ -137,11 +170,15 @@ struct DocEditView: View {
                         let section = selectedSectionIndex.flatMap { index in
                             library.sections.indices.contains(index) ? library.sections[index] : nil
                         }
+                        let folder = selectedFolderIndex.flatMap { index in
+                            folderOptions.indices.contains(index) ? folderOptions[index] : nil
+                        }
                         library.updateDocument(
                             doc,
                             title: title,
                             noteText: note,
-                            section: section
+                            section: section,
+                            folder: folder
                         )
                         dismiss()
                     }
@@ -152,6 +189,9 @@ struct DocEditView: View {
                 note = doc.noteText ?? ""
                 selectedSectionIndex = doc.section.flatMap { saved in
                     library.sections.firstIndex { $0 === saved }
+                }
+                selectedFolderIndex = doc.folder.flatMap { saved in
+                    folderOptions.firstIndex { $0 === saved }
                 }
             }
             #if os(macOS)

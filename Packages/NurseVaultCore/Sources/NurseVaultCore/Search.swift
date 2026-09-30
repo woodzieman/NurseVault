@@ -116,7 +116,7 @@ extension Library {
         let needle = VaultSearch.normalize(
             query.trimmingCharacters(in: .whitespacesAndNewlines)
         )
-        guard !needle.isEmpty else { return docs(in: nil) }
+        guard !needle.isEmpty else { return docs(in: nil as VaultSection?) }
 
         var matches: [VaultDoc] = []
         for doc in docs {

@@ -39,18 +39,75 @@ struct ImportView: View {
 
     let kind: ImportKind
     let section: VaultSection?
+    /// The folder the import was started from, if any. Defaults the
+    /// "Save to" picker to this location.
+    let folder: VaultFolder?
+
+    /// Where the imported content lands.
+    private enum SaveLocation: Hashable {
+        /// The containing section's top level (or the vault root).
+        case section
+        case folder(VaultFolder)
+        case newFolder
+    }
 
     @State private var showingFileImporter = false
     @State private var pickedPhotos: [PhotosPickerItem] = []
     @State private var loadingPhotos = false
     @State private var noteTitle = ""
     @State private var noteBody = ""
+    @State private var saveLocation: SaveLocation?
+    @State private var newFolderName = ""
+    /// The folder created for the "New Folder…" option, created at most
+    /// once per sheet so repeated saves (e.g. a multi-file import) all go
+    /// to the same folder.
+    @State private var createdNewFolder: VaultFolder?
     @State private var showingErrorAlert = false
     @State private var errorMessage: String?
+
+    /// Folders the user can choose: everything in the current section
+    /// (nested included, path-labeled), or the whole vault at the top level.
+    private var candidateFolders: [VaultFolder] {
+        let pool = section == nil
+            ? library.folders
+            : library.folders.filter { $0.section === section }
+        return pool.sorted {
+            $0.pathLabel.localizedCompare($1.pathLabel) == .orderedAscending
+        }
+    }
+
+    private var resolvedLocation: SaveLocation {
+        saveLocation ?? (folder == nil ? .section : .folder(folder!))
+    }
+
+    /// The folder the content should be stored in, or nil for the section
+    /// top level.
+    ///
+    /// This performs a mutation (it may create the "New Folder…" folder), so
+    /// it must only be called from save actions — never from `body`.
+    private func makeSaveFolder() -> VaultFolder? {
+        switch resolvedLocation {
+        case .section:
+            return nil
+        case .folder(let target):
+            return target
+        case .newFolder:
+            if let created = createdNewFolder {
+                return created
+            }
+            let trimmed = newFolderName.trimmingCharacters(in: .whitespaces)
+            guard !trimmed.isEmpty else { return nil }
+            let created = library.addFolder(name: trimmed, in: section, parent: folder)
+            createdNewFolder = created
+            return created
+        }
+    }
 
     var body: some View {
         NavigationStack {
             Form {
+                saveToSection
+
                 switch kind {
                 case .files:
                     Section {
@@ -88,8 +145,15 @@ struct ImportView: View {
                     // The camera capture UI (and its state) lives in a
                     // dedicated view; keep this `#if` branch a single view
                     // so no conditionally-compiled captures nest in here.
+                    // Folder resolution is deferred to save time via the
+                    // closure, because the "New Folder…" folder is created
+                    // by this view, not by the camera section.
                     #if canImport(UIKit)
-                    CameraImportSection(kind: kind, section: section)
+                    CameraImportSection(
+                        kind: kind,
+                        section: section,
+                        folder: folder
+                    ) { makeSaveFolder() }
                     #else
                     Section {
                         Text("The camera is only available on iPhone and iPad.")
@@ -105,13 +169,7 @@ struct ImportView: View {
                 if kind == .note {
                     ToolbarItem(placement: .confirmationAction) {
                         Button("Save") {
-                            let trimmed = noteTitle.trimmingCharacters(in: .whitespaces)
-                            library.addNote(
-                                title: trimmed.isEmpty ? "Untitled Note" : trimmed,
-                                body: noteBody,
-                                to: section
-                            )
-                            dismiss()
+                            saveNote()
                         }
                     }
                 }
@@ -123,11 +181,16 @@ struct ImportView: View {
             ) { result in
                 switch result {
                 case .success(let urls):
+                    let targetFolder = makeSaveFolder()
                     var failures: [String] = []
                     for url in urls {
                         do {
                             let imported = try FileSupport.importFile(at: url)
-                            library.addDocument(imported: imported, to: section)
+                            library.addDocument(
+                                imported: imported,
+                                to: targetFolder?.section ?? section,
+                                in: targetFolder
+                            )
                         } catch {
                             failures.append(error.localizedDescription)
                         }
@@ -155,8 +218,45 @@ struct ImportView: View {
         }
     }
 
+    // MARK: - Save location
+
+    private var saveToSection: some View {
+        Section("Save to") {
+            Picker("Location", selection: Binding(
+                get: { saveLocation ?? (folder == nil ? .section : .folder(folder!)) },
+                set: { saveLocation = $0 }
+            )) {
+                Text(section?.name ?? "No Section")
+                    .tag(SaveLocation.section)
+                ForEach(candidateFolders, id: \.self) { candidate in
+                    Text(candidate.pathLabel)
+                        .tag(SaveLocation.folder(candidate))
+                }
+                Text("New Folder…")
+                    .tag(SaveLocation.newFolder)
+            }
+            if resolvedLocation == .newFolder {
+                TextField("New folder name", text: $newFolderName)
+            }
+        }
+    }
+
+    private func saveNote() {
+        let trimmed = noteTitle.trimmingCharacters(in: .whitespaces)
+        let targetFolder = makeSaveFolder()
+        library.addNote(
+            title: trimmed.isEmpty ? "Untitled Note" : trimmed,
+            body: noteBody,
+            to: targetFolder?.section ?? section,
+            in: targetFolder
+        )
+        dismiss()
+    }
+
     private func importPhotos() {
         loadingPhotos = true
+        let targetFolder = makeSaveFolder()
+        let targetSection = targetFolder?.section ?? section
         Task {
             var failures = 0
             for (index, item) in pickedPhotos.enumerated() {
@@ -167,7 +267,11 @@ struct ImportView: View {
                        suggestedName: name,
                        suggestedMIMEType: "image/jpeg"
                    ) {
-                    library.addDocument(imported: imported, to: section)
+                    library.addDocument(
+                        imported: imported,
+                        to: targetSection,
+                        in: targetFolder
+                    )
                 } else {
                     failures += 1
                 }
