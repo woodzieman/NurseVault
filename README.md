@@ -26,6 +26,10 @@ Sections can be renamed, reordered (drag), or deleted at any time.
   other file up to **48 MB** each (shared via the context menu).
   Import with **Add → Import Files…**, **Add → Import Photos…**, or just
   **drag & drop** files into a list (Mac/iPad).
+- **Folders** — **Add → Import Files or Folders…** (or drag a folder onto a
+  list) imports a whole folder as a vault folder: its files become documents
+  and its subfolders are mirrored as nested vault folders. Files that are too
+  large or unreadable are skipped and reported, never fatal.
 - **Notes** — pure text references (**Add → New Note**).
 - **Camera** — **Add → Take Photo** captures from the camera (iPhone,
   and iPads that have one) and stores it as a syncing image.
@@ -59,7 +63,10 @@ Sections can be renamed, reordered (drag), or deleted at any time.
    and **NurseVault Watch Widget** (the watch-face complication; it's
    embedded into the watch app automatically and needs no signing of its
    own). The two apps each have an iCloud capability with the container
-   `iCloud.com.josephwoods.nursevault` preconfigured.
+   `iCloud.com.josephwoods.nursevault` preconfigured, and the watch app +
+   widget share the App Group `group.com.josephwoods.nursevault` (Xcode
+   registers it automatically the first time you build with automatic
+   signing — it's how the widget reads the watch app's data summary).
    - If you want your own bundle IDs, change them under
      **Signing & Capabilities** on each target, and update the
      `icloud-container-identifiers` entry in the corresponding `.entitlements`
@@ -95,28 +102,30 @@ automatically in your CloudKit dashboard when you sign.
 ## Project layout
 
 ```
-App/                        Main app sources (iPhone, iPad, Mac)
+Sources/iOS/                Main app sources (iPhone, iPad, Mac)
   NurseVaultApp.swift       App entry point
   RootView.swift            Sidebar (sections) + section management
   DocListView.swift         Document list, import menu, drag & drop, sync badge
   DocDetailView.swift       Preview (PDF/image/text) + editing
-  ImportView.swift          File / photo / note import flows
+  ImportView.swift          File / folder / photo / note import flows
+  CameraImport.swift        Camera capture + Scan & OCR (UIKit)
   Assets.xcassets           App icons (iPhone, iPad, Mac)
   NurseVault.entitlements   iCloud + sandbox (main app)
-Watch/                      Apple Watch app (read-only reference)
+Sources/Watch/              Apple Watch app (read-only reference)
   NurseVaultWatchApp.swift  Entry point + section/document/search views
   Assets.xcassets           Watch app icon
-  WatchEntitlements.entitlements
-WatchWidget/                Watch complication (widget extension)
+  WatchEntitlements.entitlements  iCloud + App Group (widget data sharing)
+Sources/Widget/             Watch complication (widget extension)
   NurseVaultComplication.swift  Circular/corner/inline/rectangular faces
+  WatchWidget.entitlements  App Group (widget data sharing)
 Support/
   Info.plist                Info.plist for the widget extension
 Packages/NurseVaultCore/    Shared Swift package:
-  VaultModels.swift         Core Data model (Section / Doc)
-  Library.swift             Store + CloudKit sync engine + offline status
+  VaultModels.swift         Core Data model (Section / Folder / Doc)
+  Library.swift             Store + CloudKit sync + folder import + offline status
   Search.swift              Full-text search (titles, notes, PDF/text content)
-  StoreLocation.swift       Shared data location + widget JSON summary
-  FileSupport.swift         File import helpers, size limits, doc kinds
+  StoreLocation.swift       Data locations + widget JSON summary (App Group on watch)
+  FileSupport.swift         File/folder import helpers, size limits, doc kinds
   VaultViews.swift          Cross-platform PDF + image viewers
 ```
 
@@ -199,12 +208,14 @@ Notes:
   background and cached, so searches stay responsive; files over 16 MB are
   matched on metadata only).
 - The **watch complication** (all four accessory families) shows the total
-  reference count. It reads a small JSON summary the watch app writes next
-  to its data store — the widget shares the watch app's container, so it
-  sees the same file. The watch app asks WidgetKit to refresh the widget
-  whenever the vault changes, so the count stays current instead of waiting
-  for the 30-minute timeline refresh. If the file isn't there yet (fresh
-  install, before the app first runs) it simply shows the app name.
+  reference count. It reads a small JSON summary that the watch app writes
+  into the shared **App Group container** (`group.com.josephwoods.nursevault`):
+  widget extensions run in their own sandbox, so the App Group is the only
+  place both processes are guaranteed to reach. The watch app asks WidgetKit
+  to refresh the widget whenever the vault changes, so the count stays
+  current instead of waiting for the 30-minute timeline refresh. If the file
+  isn't there yet (fresh install, before the app first runs) it simply shows
+  the app name.
   Tapping the complication opens Nurse Vault. (The widget extension uses the
   `com.apple.widgetkit-extension` extension point from the Xcode 27 SDK, so
   it installs on the current watchOS; the target's 11.0 deployment floor is

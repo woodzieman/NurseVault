@@ -4,6 +4,16 @@ import Foundation
 /// reads or writes it (the app, the watch app, the watch widget).
 public enum VaultStoreLocation {
 
+    /// The App Group that the watch app and the watch widget share.
+    ///
+    /// Widget extensions run in their **own** sandbox container — Apple
+    /// only guarantees file sharing between an app and an extension when
+    /// both are members of the same App Group (see "Developing a
+    /// WidgetKit strategy: Store shared data in a group container"). The
+    /// watch app writes the summary file into this group container and
+    /// the widget reads it from there.
+    public static let appGroupID = "group.com.josephwoods.nursevault"
+
     /// `Application Support/NurseVault`, created on demand.
     nonisolated public static var directory: URL {
         let base = FileManager.default
@@ -45,8 +55,29 @@ public enum VaultSummary {
         }
     }
 
+    /// The directory the summary file lives in.
+    ///
+    /// On Apple Watch this is the **shared App Group container**, because
+    /// the watch app and the widget extension have separate containers of
+    /// their own — the only place both are guaranteed to reach. Unsigned
+    /// development builds lack the entitlement, so it falls back to the
+    /// process's own Application Support directory; in that case the file
+    /// is at least consistently located for the writing process, and the
+    /// reading process (without the entitlement) gets the same fallback.
+    nonisolated public static var directory: URL {
+        #if os(watchOS)
+        if let group = FileManager.default
+            .containerURL(forSecurityApplicationGroupIdentifier: VaultStoreLocation.appGroupID) {
+            let directory = group.appendingPathComponent("NurseVault", isDirectory: true)
+            try? FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
+            return directory
+        }
+        #endif
+        return VaultStoreLocation.directory
+    }
+
     nonisolated public static var fileURL: URL {
-        VaultStoreLocation.directory.appendingPathComponent("vault-summary.json")
+        directory.appendingPathComponent("vault-summary.json")
     }
 
     nonisolated public static func write(_ snapshot: Snapshot) {

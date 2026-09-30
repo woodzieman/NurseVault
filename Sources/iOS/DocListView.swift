@@ -294,12 +294,12 @@ struct VaultListView: View {
                 )
             }
         }
-        .alert("Import Problem", isPresented: $showingImportAlert) {
+        .alert("Import", isPresented: $showingImportAlert) {
             Button("OK") { }
         } message: {
             Text(importErrorMessage ?? "")
         }
-        .onDrop(of: [UTType.fileURL], isTargeted: $isDropTargeted) { providers in
+        .onDrop(of: [UTType.fileURL, UTType.folder, UTType.directory], isTargeted: $isDropTargeted) { providers in
             for provider in providers {
                 provider.loadItem(
                     forTypeIdentifier: UTType.fileURL.identifier,
@@ -392,7 +392,16 @@ struct VaultListView: View {
         }
     }
 
+    /// Handles one dropped item. Directories are imported as folders
+    /// (their files and subfolders mirrored into the vault); regular files
+    /// are imported as documents into the current location.
     private func importFileURL(_ url: URL) {
+        if FileSupport.isDirectory(at: url) {
+            let result = library.importFolder(at: url, to: currentSection, in: currentFolder)
+            importErrorMessage = result.summary
+            showingImportAlert = true
+            return
+        }
         do {
             let imported = try FileSupport.importFile(at: url)
             library.addDocument(

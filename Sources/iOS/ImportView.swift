@@ -111,11 +111,14 @@ struct ImportView: View {
                 switch kind {
                 case .files:
                     Section {
-                        Button("Choose Files…") {
+                        Button("Choose Files or Folders…") {
                             showingFileImporter = true
                         }
                     } footer: {
-                        Text("PDFs, images, text files, and more. Files up to \(FileSupport.maxFileBytes / (1024 * 1024)) MB are stored and synced to iCloud.")
+                        Text(
+                            "PDFs, images, text files, and folders. Folders are imported as vault folders with their contents. "
+                            + "You can also drag files or folders onto a list in the app. Files up to \(FileSupport.maxFileBytes / (1024 * 1024)) MB are stored and synced to iCloud."
+                        )
                     }
                 case .photos:
                     Section {
@@ -176,26 +179,39 @@ struct ImportView: View {
             }
             .fileImporter(
                 isPresented: $showingFileImporter,
-                allowedContentTypes: [.pdf, .image, .plainText, .rtf, .item],
+                allowedContentTypes: [.pdf, .image, .plainText, .rtf, .folder, .item],
                 allowsMultipleSelection: true
             ) { result in
                 switch result {
                 case .success(let urls):
                     let targetFolder = makeSaveFolder()
                     var failures: [String] = []
+                    var folderSummaries: [String] = []
                     for url in urls {
-                        do {
-                            let imported = try FileSupport.importFile(at: url)
-                            library.addDocument(
-                                imported: imported,
+                        if FileSupport.isDirectory(at: url) {
+                            let summary = library.importFolder(
+                                at: url,
                                 to: targetFolder?.section ?? section,
                                 in: targetFolder
-                            )
-                        } catch {
-                            failures.append(error.localizedDescription)
+                            ).summary
+                            folderSummaries.append(summary)
+                        } else {
+                            do {
+                                let imported = try FileSupport.importFile(at: url)
+                                library.addDocument(
+                                    imported: imported,
+                                    to: targetFolder?.section ?? section,
+                                    in: targetFolder
+                                )
+                            } catch {
+                                failures.append(error.localizedDescription)
+                            }
                         }
                     }
-                    if let first = failures.first {
+                    if !folderSummaries.isEmpty {
+                        errorMessage = folderSummaries.joined(separator: "\n")
+                        showingErrorAlert = true
+                    } else if let first = failures.first {
                         errorMessage = first
                         showingErrorAlert = true
                     } else {
@@ -206,7 +222,7 @@ struct ImportView: View {
                     showingErrorAlert = true
                 }
             }
-            .alert("Couldn't Import", isPresented: $showingErrorAlert) {
+            .alert("Import", isPresented: $showingErrorAlert) {
                 Button("OK") { }
             } message: {
                 Text(errorMessage ?? "")

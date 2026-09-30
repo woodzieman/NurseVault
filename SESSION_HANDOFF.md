@@ -1,6 +1,47 @@
 # Session handoff — Nurse Vault → TestFlight alpha
 
-## STATUS (2026-09-30, Bionic session) — read this first
+## STATUS (2026-09-30, second Bionic session) — read this first
+
+This session fixed the watch widget and added folder import / drag & drop:
+
+- **Watch widget root cause:** the widget appex runs in its **own sandbox
+  container**; the summary JSON was being written to the watch app's private
+  `Application Support`, which the widget can never see. Fixed the Apple-endorsed way: the watch app and the widget now share **App Group
+  `group.com.josephwoods.nursevault`**, and `VaultSummary` (in NurseVaultCore
+  `StoreLocation.swift`) reads/writes the summary from the group container on
+  watchOS (falls back to Application Support when the entitlement is missing,
+  e.g. unsigned builds). Entitlements: `Sources/Watch/WatchEntitlements
+  .entitlements` (added) and new `Sources/Widget/WatchWidget.entitlements`
+  (pbxproj now points at it; the widget target previously had no
+  entitlements file).
+- **Stale-folder trap fixed:** targets' `CODE_SIGN_ENTITLEMENTS` still pointed
+  at the pre-unification legacy folders `App/` and `Watch/`. Repointed to
+  `Sources/iOS/` and `Sources/Watch/`, and **deleted the legacy `App/`,
+  `Watch/`, `WatchWidget/` folders** (verified byte-identical to `Sources/*`
+  before deletion; git history preserves them).
+- **Folder upload / drag & drop (app):** new `Library.importFolder(at:to:in:)`
+  (NurseVaultCore) mirrors a directory into a vault folder (nested folders →
+  nested `VaultFolder`s; collision-safe " (2)" naming; skips files > 48 MB /
+  unreadable and reports them in a summary; one save + reload at the end).
+  `FileSupport` gained `isDirectory(at:)` / `directoryEntries(at:)` and an
+  early size check in `importFile`. `VaultListView` drop now accepts
+  fileURL + folder + directory UTTypes and routes directories to
+  `importFolder`; `ImportView` file picker allows folders too ("Choose Files
+  or Folders…"). Works on every list level (All / section / folder).
+- **Build state:** `swift build` of the package (macOS) + unsigned
+  `CODE_SIGNING_ALLOWED=NO` xcodebuild sanity builds of NurseVault (iOS +
+  macOS) and NurseVault Watch (incl. widget) all pass. **No signed builds
+  have been made this session** — user rebuilds in Xcode GUI; automatic
+  signing will register the new App Group on first build. Next TestFlight
+  export needs `-allowProvisioningUpdates` so the cloud profile includes the
+  App Group (affects the watch app + widget; the iOS app target is unchanged).
+- README updated (layout → Sources/, folder feature, App Group explanation;
+  the old "widget shares the watch app's container" claim was wrong).
+
+Below: prior session state (TestFlight/ASC), still valid except where it says
+the widget "shares the watch app's container" (it doesn't — see above).
+
+## STATUS (2026-09-30, first Bionic session)
 
 - **Canonical project = the ROOT `NurseVault.xcodeproj`** (user decision).
   The `nursevault 2.0/` v110 experiment folder is **retired** (left on disk,

@@ -37,6 +37,12 @@ public enum FileSupport {
             }
         }
         do {
+            // Check the size before reading so oversized files (common in
+            // folder imports) are rejected without a full file read.
+            if let size = try? url.resourceValues(forKeys: [.fileSizeKey]).fileSize,
+               size > Int64(maxFileBytes) {
+                throw VaultImportError.fileTooLarge(maxMB: maxFileBytes / (1024 * 1024))
+            }
             let data = try Data(contentsOf: url)
             guard data.count <= maxFileBytes else {
                 throw VaultImportError.fileTooLarge(maxMB: maxFileBytes / (1024 * 1024))
@@ -65,6 +71,37 @@ public enum FileSupport {
         let title = URL(fileURLWithPath: name).deletingPathExtension().lastPathComponent
 
         return ImportedFile(data: data, fileName: name, title: title, mimeType: mimeType)
+    }
+
+    /// Whether a URL points at a directory that should be imported as a
+    /// folder rather than read as a file.
+    public static func isDirectory(at url: URL) -> Bool {
+        let values = try? url.resourceValues(forKeys: [.isDirectoryKey])
+        if let isDirectory = values?.isDirectory {
+            return isDirectory
+        }
+        var isDirectory: ObjCBool = false
+        return FileManager.default.fileExists(atPath: url.path, isDirectory: &isDirectory) && isDirectory.boolValue
+    }
+
+    /// The entries of a directory (subdirectories first, both name-sorted),
+    /// excluding hidden items. Returns an empty array when the directory
+    /// can't be read.
+    public static func directoryEntries(at url: URL) -> [URL] {
+        guard let entries = try? FileManager.default.contentsOfDirectory(
+            at: url,
+            includingPropertiesForKeys: [.isDirectoryKey],
+            options: []
+        ) else { return [] }
+        var result: [URL] = []
+        for entry in entries where !entry.lastPathComponent.hasPrefix(".") {
+            result.append(entry)
+        }
+        let directories = result.filter { (try? $0.resourceValues(forKeys: [.isDirectoryKey]))?.isDirectory == true }
+            .sorted { $0.lastPathComponent.localizedCompare($1.lastPathComponent) == .orderedAscending }
+        let files = result.filter { ((try? $0.resourceValues(forKeys: [.isDirectoryKey]))?.isDirectory) != true }
+            .sorted { $0.lastPathComponent.localizedCompare($1.lastPathComponent) == .orderedAscending }
+        return directories + files
     }
 
     /// Best-effort UTF-8/latin1 decoding for text documents.

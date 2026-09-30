@@ -390,6 +390,131 @@ public final class Library {
         return doc
     }
 
+    /// The outcome of a folder import, for the UI to summarize.
+    public struct FolderImportResult: Sendable {
+        public var folderName: String
+        public var importedCount: Int
+        public var skippedNames: [String]
+
+        public var summary: String {
+            let skippedDetails = skippedDetails
+            guard importedCount > 0 else {
+                return skippedNames.isEmpty
+                    ? "“\(folderName)” didn’t contain any importable files."
+                    : "Nothing could be imported from “\(folderName)”.\n\(skippedDetails)"
+            }
+            let imported = importedCount == 1 ? "1 document" : "\(importedCount) documents"
+            let base = "Imported \(imported) into “\(folderName)”."
+            return skippedNames.isEmpty ? base : base + "\n" + skippedDetails
+        }
+
+        private var skippedDetails: String {
+            let count = skippedNames.count
+            let verb = count == 1 ? "1 file was" : "\(count) files were"
+            let names = skippedNames.prefix(5).joined(separator: ", ")
+            let extra = count > 5 ? ", and \(count - 5) more" : ""
+            return "\(verb) skipped (too large or unreadable): \(names)\(extra)"
+        }
+    }
+
+    /// Imports a directory as a new folder, mirroring its subdirectories as
+    /// nested vault folders. Files that are unreadable or over the size
+    /// limit are skipped and reported, never fatal.
+    public func importFolder(
+        at url: URL,
+        to section: VaultSection? = nil,
+        in folder: VaultFolder? = nil
+    ) -> FolderImportResult {
+        let name = url.lastPathComponent
+        let neededScope = url.startAccessingSecurityScopedResource()
+        defer {
+            if neededScope {
+                url.stopAccessingSecurityScopedResource()
+            }
+        }
+
+        // Sibling folders of the destination, for collision-free naming.
+        var destinationNames = Set(
+            folders
+                .filter {
+                    if let folder {
+                        return $0.parent === folder
+                    }
+                    return $0.parent == nil && (section == nil || $0.section === section)
+                }
+                .compactMap { $0.name?.lowercased() }
+        )
+
+        let rootName = Self.uniqueName(name, among: &destinationNames)
+        let root = VaultFolder(context: context)
+        root.name = rootName
+        root.section = folder?.section ?? section
+        root.parent = folder
+
+        let result = importDirectory(url, into: root, section: section, existingNames: destinationNames)
+        save()
+        reload()
+        return .init(folderName: rootName, importedCount: result.imported, skippedNames: result.skipped)
+    }
+
+    /// Walks `url` into `vaultFolder`, creating nested folders and
+    /// documents without saving until the caller finishes the whole tree.
+    private func importDirectory(
+        _ url: URL,
+        into vaultFolder: VaultFolder,
+        section: VaultSection?,
+        existingNames: Set<String>
+    ) -> (imported: Int, skipped: [String]) {
+        var names = existingNames
+        var imported = 0
+        var skipped: [String] = []
+        for entry in FileSupport.directoryEntries(at: url) {
+            if FileSupport.isDirectory(at: entry) {
+                let base = entry.lastPathComponent
+                let unique = Self.uniqueName(base, among: &names)
+                let subfolder = VaultFolder(context: context)
+                subfolder.name = unique
+                subfolder.section = vaultFolder.section ?? section
+                subfolder.parent = vaultFolder
+                names.insert(unique.lowercased())
+                let child = importDirectory(entry, into: subfolder, section: section, existingNames: [])
+                imported += child.imported
+                skipped += child.skipped
+            } else {
+                do {
+                    let file = try FileSupport.importFile(at: entry)
+                    let doc = VaultDoc(context: context)
+                    doc.title = file.title
+                    doc.fileName = file.fileName
+                    doc.mimeType = file.mimeType
+                    doc.fileData = file.data
+                    doc.addedDate = Date()
+                    doc.section = vaultFolder.section ?? section
+                    doc.folder = vaultFolder
+                    imported += 1
+                } catch {
+                    skipped.append(entry.lastPathComponent)
+                }
+            }
+        }
+        return (imported, skipped)
+    }
+
+    /// A name that doesn’t collide with the given sibling names
+    /// (case-insensitive); appends “ (2)”, “ (3)”, and so on.
+    /// The chosen name is recorded in `names` so later calls in the same
+    /// run can’t reuse it.
+    private static func uniqueName(_ base: String, among names: inout Set<String>) -> String {
+        var candidate = base
+        var index = 2
+        while names.contains(candidate.lowercased()) {
+            candidate = "\(base) (\(index))"
+            index += 1
+        }
+        names.insert(candidate.lowercased())
+        return candidate
+    }
+
     @discardableResult
     public func addNote(title: String, body: String, to section: VaultSection?, in folder: VaultFolder? = nil) -> VaultDoc {
         let doc = VaultDoc(context: context)
