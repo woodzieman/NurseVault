@@ -1,6 +1,24 @@
 # Session handoff — Nurse Vault → TestFlight alpha
 
-## STATUS (2026-09-30, evening) — read this first
+## STATUS (2026-10-01) — read this first
+
+- **Root export root cause found:** GUI archives of the root app target are
+  missing `ApplicationProperties` (the Organizer refuses to distribute
+  “generic archives”). The 2.0 project's GUI archives DO have it — the only
+  app-target config difference was `SDKROOT` (root `iphoneos` vs 2.0
+  `auto`, both multiplatform). The root app target is now `SDKROOT = auto`
+  (macosx kept for now). Bundle layout in the archives is correct (watch app
+  in PlugIns, widget in the watch app) and the watch profile already has the
+  App Group. User: re-archive in the GUI with an iOS destination.
+- **2.0 watch aligned with root:** watch `TARGETED_DEVICE_FAMILY =
+  "4,5,7,8,10,11,12,13,14,15"` + widget `WATCHOS_DEPLOYMENT_TARGET = 11.0`
+  (sources + App Group were already synced 9/30). The 2.0 project is the
+  ready export path — its 9/30 GUI archive shows the v110
+  `Watch/`-folder layout + ApplicationProperties + Distributions working.
+- Fallback if the root export still fails: drop `macosx` from the root app
+  target (as in the 2.0). User does all signing/exporting.
+
+## STATUS (2026-09-30, evening)
 
 - The retired `nursevault 2.0/Nurse Vault/` v110 project is **active again**
   (user decision; "now active again"). It is being synced with everything

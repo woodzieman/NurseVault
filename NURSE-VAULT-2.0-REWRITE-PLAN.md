@@ -130,6 +130,51 @@ Next steps (in order):
 
 ---
 
+## Status (2026-10-01) — export root cause found; 2.0 watch aligned
+
+### Root app export — diagnosis (archive forensics)
+
+The user still can't export the root project. Checked
+`~/Library/Developer/Xcode/Archives`:
+
+- Root “NurseVault” GUI archives (9/30 ×2, 10/1 7:38 AM) are **missing the
+  `ApplicationProperties` key** in the archive Info.plist → the Organizer
+  classifies them as a generic archive and the Distribute flow refuses
+  (the known-good v0.1 archives from 9/26 all have it).
+- The bundle layout is perfect: `NurseVault.app/PlugIns/NurseVault
+  Watch.app`, widget in the watch app's PlugIns; the watch app's
+  cloud-managed profile **already includes the App Group**
+  (`group.com.josephwoods.nursevault`).
+- The only app-target config difference vs the 2.0 project (whose GUI
+  archives DO carry ApplicationProperties + a Distributions record): the
+  root app target used `SDKROOT = iphoneos`, the 2.0 used `SDKROOT = auto`
+  (both were multiplatform). → **Root app target is now `SDKROOT = auto`**
+  (macosx left in `SUPPORTED_PLATFORMS` for now). Unsigned builds pass.
+- Fallback if it still fails: drop `macosx` from the root app target (same
+  as the 2.0 project).
+
+### 2.0 — same watch functionality as the root
+
+- Watch target `TARGETED_DEVICE_FAMILY` → `"4,5,7,8,10,11,12,13,14,15"`
+  (was `4`) — matches root, current-generation watches supported.
+- Widget `WATCHOS_DEPLOYMENT_TARGET` → `11.0` (was 10.0) — matches root.
+- Everything else already matched after the 9/30 sync (all sources,
+  App Group entitlements, watch app 10.0 deployment, embed layout).
+- Unsigned app + watch builds pass; committed in the 2.0 repo.
+- The 2.0 project's 9/30 GUI archive proves the pipeline works end-to-end:
+  `Nurse Vault.app/Watch/Nurse Vault Watch.app` layout + ApplicationProperties
+  + Distributions record. **The 2.0 project is the ready export path** — a
+  fresh archive of “Nurse Vault” carries folders + the App Group widget fix.
+
+### Outstanding
+
+- [ ] User: GUI-archive the root “NurseVault” (SDKROOT=auto now) and/or the
+      2.0 “Nurse Vault” project; report the Organizer/export result
+- [ ] If root export works → decide which project stays canonical
+- [ ] If root export still fails → drop `macosx` from the root app target
+
+---
+
 ## Status (2026-09-30, evening) — 2.0 RESURRECTED + root export fix
 
 ### `nursevault 2.0/Nurse Vault/` is active again (user decision)

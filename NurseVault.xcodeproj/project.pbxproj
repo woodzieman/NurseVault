@@ -348,7 +348,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 					PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
+				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 6.0;
@@ -390,7 +390,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 					PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
+				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 6.0;
