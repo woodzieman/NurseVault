@@ -23,20 +23,6 @@
 			remoteGlobalIDString = A10000000000000000000160;
 			remoteInfo = "NurseVault Watch Widget";
 		};
-		A10000000000000000000179 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A10000000000000000000101 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A10000000000000000000120;
-			remoteInfo = NurseVault;
-		};
-		A1000000000000000000017A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A10000000000000000000101 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A10000000000000000000121;
-			remoteInfo = "NurseVault Watch";
-		};
 		A10000000000000000000188 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A10000000000000000000101 /* Project object */;
@@ -54,26 +40,6 @@
 			dstSubfolderSpec = 13;
 			files = (
 				A10000000000000000000154 /* NurseVault Watch Widget.appex in Embed Foundation Extensions */,
-			);
-			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A10000000000000000000177 /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-			);
-			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A10000000000000000000178 /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,9 +62,6 @@
 		A10000000000000000000111 /* NurseVault Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NurseVault Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10000000000000000000112 /* NurseVault Watch Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NurseVault Watch Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10000000000000000000166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A10000000000000000000168 /* NurseVaultUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NurseVaultUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A10000000000000000000169 /* NurseVaultMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NurseVaultMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1000000000000000000016A /* NurseVaultWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NurseVaultWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9F3BB63069E5DB00E8A97A /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,9 +69,6 @@
 		A10000000000000000000106 /* Sources/iOS */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Sources/iOS; sourceTree = "<group>"; };
 		A10000000000000000000107 /* Sources/Watch */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Sources/Watch; sourceTree = "<group>"; };
 		A10000000000000000000108 /* Sources/Widget */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Sources/Widget; sourceTree = "<group>"; };
-		A1000000000000000000016B /* AppUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = AppUITests; sourceTree = "<group>"; };
-		A1000000000000000000016C /* AppUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = AppUITests; sourceTree = "<group>"; };
-		A1000000000000000000016D /* WatchUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = WatchUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,27 +96,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A10000000000000000000171 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A10000000000000000000172 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A10000000000000000000173 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -167,11 +106,8 @@
 				A10000000000000000000106 /* Sources/iOS */,
 				A10000000000000000000107 /* Sources/Watch */,
 				A10000000000000000000108 /* Sources/Widget */,
-				A1000000000000000000016B /* AppUITests */,
-				A1000000000000000000016D /* WatchUITests */,
 				A10000000000000000000167 /* Support */,
 				A10000000000000000000105 /* Products */,
-				AF8E0F243065BFAF00592DFC /* Recovered References */,
 			);
 			name = "=This Project=";
 			sourceTree = "<group>";
@@ -182,9 +118,6 @@
 				A10000000000000000000110 /* NurseVault.app */,
 				A10000000000000000000111 /* NurseVault Watch.app */,
 				A10000000000000000000112 /* NurseVault Watch Widget.appex */,
-				A10000000000000000000168 /* NurseVaultUITests.xctest */,
-				A10000000000000000000169 /* NurseVaultMacUITests.xctest */,
-				A1000000000000000000016A /* NurseVaultWatchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,14 +128,6 @@
 				A10000000000000000000166 /* Info.plist */,
 			);
 			path = Support;
-			sourceTree = "<group>";
-		};
-		AF8E0F243065BFAF00592DFC /* Recovered References */ = {
-			isa = PBXGroup;
-			children = (
-				A1000000000000000000016C /* AppUITests */,
-			);
-			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,71 +183,6 @@
 			productReference = A10000000000000000000111 /* NurseVault Watch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A10000000000000000000128 /* NurseVaultMacUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A10000000000000000000184 /* Build configuration list for PBXNativeTarget "NurseVaultMacUITests" */;
-			buildPhases = (
-				A1000000000000000000016F /* Sources */,
-				A10000000000000000000172 /* Frameworks */,
-				A10000000000000000000175 /* Resources */,
-				A10000000000000000000178 /* Embed Foundation Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A1000000000000000000017B /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				A1000000000000000000016C /* AppUITests */,
-			);
-			name = NurseVaultMacUITests;
-			productName = NurseVaultMacUITests;
-			productReference = A10000000000000000000169 /* NurseVaultMacUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		A10000000000000000000129 /* NurseVaultUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A10000000000000000000183 /* Build configuration list for PBXNativeTarget "NurseVaultUITests" */;
-			buildPhases = (
-				A1000000000000000000016E /* Sources */,
-				A10000000000000000000171 /* Frameworks */,
-				A10000000000000000000174 /* Resources */,
-				A10000000000000000000177 /* Embed Foundation Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A1000000000000000000017B /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				A1000000000000000000016B /* AppUITests */,
-			);
-			name = NurseVaultUITests;
-			productName = NurseVaultUITests;
-			productReference = A10000000000000000000168 /* NurseVaultUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		A1000000000000000000012A /* NurseVaultWatchUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A10000000000000000000185 /* Build configuration list for PBXNativeTarget "NurseVaultWatchUITests" */;
-			buildPhases = (
-				A10000000000000000000170 /* Sources */,
-				A10000000000000000000173 /* Frameworks */,
-				A10000000000000000000176 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A1000000000000000000017C /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				A1000000000000000000016D /* WatchUITests */,
-			);
-			name = NurseVaultWatchUITests;
-			productName = NurseVaultWatchUITests;
-			productReference = A1000000000000000000016A /* NurseVaultWatchUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		A10000000000000000000160 /* NurseVault Watch Widget */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A10000000000000000000163 /* Build configuration list for PBXNativeTarget "NurseVault Watch Widget" */;
@@ -362,14 +222,6 @@
 					A10000000000000000000121 = {
 						CreatedOnToolsVersion = 26.0;
 					};
-					A10000000000000000000128 = {
-						CreatedOnToolsVersion = 26.0;
-						TestTargetID = A10000000000000000000120;
-					};
-					A10000000000000000000129 = {
-						CreatedOnToolsVersion = 26.0;
-						TestTargetID = A10000000000000000000120;
-					};
 					A10000000000000000000160 = {
 						CreatedOnToolsVersion = 26.0;
 					};
@@ -394,9 +246,6 @@
 				A10000000000000000000120 /* NurseVault */,
 				A10000000000000000000121 /* NurseVault Watch */,
 				A10000000000000000000160 /* NurseVault Watch Widget */,
-				A10000000000000000000129 /* NurseVaultUITests */,
-				A10000000000000000000128 /* NurseVaultMacUITests */,
-				A1000000000000000000012A /* NurseVaultWatchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -418,27 +267,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A10000000000000000000152 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A10000000000000000000174 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A10000000000000000000175 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A10000000000000000000176 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -469,27 +297,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1000000000000000000016E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A1000000000000000000016F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A10000000000000000000170 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -497,16 +304,6 @@
 			isa = PBXTargetDependency;
 			target = A10000000000000000000160 /* NurseVault Watch Widget */;
 			targetProxy = A10000000000000000000155 /* PBXContainerItemProxy */;
-		};
-		A1000000000000000000017B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A10000000000000000000120 /* NurseVault */;
-			targetProxy = A10000000000000000000179 /* PBXContainerItemProxy */;
-		};
-		A1000000000000000000017C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A10000000000000000000121 /* NurseVault Watch */;
-			targetProxy = A1000000000000000000017A /* PBXContainerItemProxy */;
 		};
 		A10000000000000000000189 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -819,90 +616,6 @@
 			};
 			name = Release;
 		};
-		A1000000000000000000017D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-					GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-					PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault.uitests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SWIFT_VERSION = 6.0;
-			};
-			name = Debug;
-		};
-		A1000000000000000000017E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-					GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-					PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault.uitests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SWIFT_VERSION = 6.0;
-			};
-			name = Release;
-		};
-		A1000000000000000000017F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-					GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-					PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault.mackuitests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				SWIFT_VERSION = 6.0;
-			};
-			name = Debug;
-		};
-		A10000000000000000000180 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-					GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-					PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault.mackuitests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				SWIFT_VERSION = 6.0;
-			};
-			name = Release;
-		};
-		A10000000000000000000181 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-					GENERATE_INFOPLIST_FILE = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault.watchkitapp.uitests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SUPPORTED_PLATFORMS = "watchos watchsimulator";
-				SWIFT_VERSION = 6.0;
-				WATCHOS_DEPLOYMENT_TARGET = 10.0;
-			};
-			name = Debug;
-		};
-		A10000000000000000000182 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-					GENERATE_INFOPLIST_FILE = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault.watchkitapp.uitests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SUPPORTED_PLATFORMS = "watchos watchsimulator";
-				SWIFT_VERSION = 6.0;
-				WATCHOS_DEPLOYMENT_TARGET = 10.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -938,33 +651,6 @@
 			buildConfigurations = (
 				A10000000000000000000161 /* Debug */,
 				A10000000000000000000162 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A10000000000000000000183 /* Build configuration list for PBXNativeTarget "NurseVaultUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A1000000000000000000017D /* Debug */,
-				A1000000000000000000017E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A10000000000000000000184 /* Build configuration list for PBXNativeTarget "NurseVaultMacUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A1000000000000000000017F /* Debug */,
-				A10000000000000000000180 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A10000000000000000000185 /* Build configuration list for PBXNativeTarget "NurseVaultWatchUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A10000000000000000000181 /* Debug */,
-				A10000000000000000000182 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

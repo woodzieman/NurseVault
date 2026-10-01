@@ -35,20 +35,6 @@
                ReferencedContainer = "container:NurseVault.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A1000000000000000000012A"
-               BuildableName = "NurseVaultWatchUITests.xctest"
-               BlueprintName = "NurseVaultWatchUITests"
-               ReferencedContainer = "container:NurseVault.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -58,16 +44,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       onlyGenerateCoverageForTheseTargets = "NurseVault Watch">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A1000000000000000000012A"
-               BuildableName = "NurseVaultWatchUITests.xctest"
-               BlueprintName = "NurseVaultWatchUITests"
-               ReferencedContainer = "container:NurseVault.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
