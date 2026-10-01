@@ -1,6 +1,21 @@
 # Session handoff — Nurse Vault → TestFlight alpha
 
-## STATUS (2026-09-30, second Bionic session) — read this first
+## STATUS (2026-09-30, evening) — read this first
+
+- The retired `nursevault 2.0/Nurse Vault/` v110 project is **active again**
+  (user decision; "now active again"). It is being synced with everything
+  the root project gained since the Sep 28 fork: folders, folder import /
+  drag & drop, and the watch App Group widget fix. Mac removed from its app
+  target ("without the mac app for now"); all other signing (style, team,
+  bundle IDs, versions) untouched. Full plan:
+  NURSE-VAULT-2.0-REWRITE-PLAN.md ("2.0 RESURRECTED + root export fix").
+- Root project: user reports it "refuses to export, probably because it's
+  mac as well". Experiment: the 3 UI test targets removed (checkpoint
+  committed first; widget kept — "the widget is fine"). If the export still
+  fails: drop `macosx` from the app target's `SUPPORTED_PLATFORMS`.
+- User does all building/signing/exporting themselves.
+
+## STATUS (2026-09-30, second Bionic session)
 
 This session fixed the watch widget and added folder import / drag & drop:
 

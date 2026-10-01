@@ -130,7 +130,62 @@ Next steps (in order):
 
 ---
 
-## Status update (2026-09-30, Bionic session)
+## Status (2026-09-30, evening) — 2.0 RESURRECTED + root export fix
+
+### `nursevault 2.0/Nurse Vault/` is active again (user decision)
+
+The 2.0 project is the full-app path again (all 3 targets: app + watch +
+widget). It is being synced to the root project's current sources so it has
+everything the root gained since the Sep 28 fork:
+
+- **App (`App/`)**: `CameraImport`, `DocDetailView`, `DocListView`,
+  `ImportView`, `RootView` ← root `Sources/iOS` (save-to-folder on every
+  import flow, folder import + drag & drop, `VaultListView` drill-down,
+  store-reset handling).
+- **Package (`Packages/NurseVaultCore`)**: `VaultModels` (VaultFolder),
+  `Library` (`importFolder` + `storeWasReset`), `FileSupport` (folder
+  helpers), `Search`, `StoreLocation` (watch App Group summary) ← root.
+- **Watch changes (the widget fix)**: App Group
+  `group.com.josephwoods.nursevault` added to
+  `Watch/WatchEntitlements.entitlements` + new
+  `WatchWidget/WatchWidget.entitlements` + `CODE_SIGN_ENTITLEMENTS` on the
+  widget target. Without the App Group the widget cannot read the watch
+  app's summary (separate sandbox containers) — the App Group **is** the
+  fix. This is the only signing-adjacent change; signing style, team, bundle
+  IDs, versions all untouched.
+- **Mac removed** from the 2.0 app target for now (user: "make the 2.0
+  without the mac app for now"): `SUPPORTED_PLATFORMS = "iphoneos
+  iphonesimulator"`, `MACOSX_DEPLOYMENT_TARGET` + macOS runpath line gone.
+  (`ENABLE_HARDENED_RUNTIME` left in — inert on iOS, it's a signing flag.)
+
+Export consequence for the user: first signed build/archive of the 2.0
+project will make automatic signing register the App Group and refresh the
+cloud profiles. The 2.0 project shares the root project's bundle IDs + team,
+so it is the same profiles the root export uses; a CLI export needs
+`-allowProvisioningUpdates`.
+
+### Root project — export experiment
+
+User: root app "refuses to export, probably because it's mac as well".
+Experiment (temporary): remove the 3 UI test targets
+(`NurseVaultUITests`, `NurseVaultMacUITests`, `NurseVaultWatchUITests` +
+their 2 shared schemes). **Widget stays** (user: "the widget is fine").
+Kept: `NurseVault` + `NurseVault Watch` + `NurseVault Watch Widget`.
+Fallback if the export still fails: drop `macosx` from the app target's
+`SUPPORTED_PLATFORMS` (same change as the 2.0 project). Revert: `git
+revert <experiment commit>` — checkpoint was committed before the change.
+
+### Outstanding
+
+- [ ] User: archive + export the root app (2.4/3) and report the outcome
+- [ ] Verify the 2.0 sync with unsigned sanity builds (app + watch, widget
+      embedded)
+- [ ] If the root export still fails → remove `macosx` from the root app
+      target, or restore the targets and try the 2.0 project's export
+
+---
+
+## Status update (2026-09-30, Bionic session) [superseded by the section above]
 
 ### Canonical tree — DECIDED: root project (2026-09-30)
 
