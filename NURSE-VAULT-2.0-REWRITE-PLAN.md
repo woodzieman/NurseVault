@@ -175,13 +175,20 @@ Fallback if the export still fails: drop `macosx` from the app target's
 `SUPPORTED_PLATFORMS` (same change as the 2.0 project). Revert: `git
 revert <experiment commit>` — checkpoint was committed before the change.
 
-### Outstanding
+### Outstanding (as of the evening sync)
 
+- [x] 2.0 sync done + verified: all 10 source files byte-identical to root,
+      App Group entitlements in place, macosx gone from the app target,
+      `plutil -lint` OK, unsigned Debug builds of `Nurse Vault` +
+      `Nurse Vault Watch` (widget embedded) pass. Committed in the 2.0 repo
+      ("Resurrect 2.0: sync all sources from root project…").
+- [x] Root export experiment done + verified: 3 UI test targets removed
+      (commit `9fbad3e`), unsigned builds pass. **User: try the export now.**
 - [ ] User: archive + export the root app (2.4/3) and report the outcome
-- [ ] Verify the 2.0 sync with unsigned sanity builds (app + watch, widget
-      embedded)
 - [ ] If the root export still fails → remove `macosx` from the root app
-      target, or restore the targets and try the 2.0 project's export
+      target, or restore the targets (`git revert 9fbad3e`) and use the 2.0
+      project's export instead (same bundle IDs/team; first export registers
+      the App Group via automatic signing)
 
 ---
 
