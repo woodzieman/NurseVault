@@ -1,5 +1,35 @@
 # Session handoff — Nurse Vault → TestFlight alpha
 
+## STATUS (2026-10-02, late morning) — UPLOAD DONE: v2.4 build 3 is on ASC/TestFlight
+
+- **fastlane upload SUCCEEDED** (`fastlane upload` lane): Nurse Vault **2.4 / build 3**
+  archived + exported + uploaded to App Store Connect via API key Y9YADVN9Z2.
+  Verified over the ASC REST API: appStoreVersion "2.4" (IOS) in
+  PREPARE_FOR_SUBMISSION with VALID, APP_STORE_ELIGIBLE builds from today's uploads.
+- **Profile blocker solved**: stale cloud-managed store profiles for watch/widget
+  (Sep 29 — they predate the App Group addition) were deleted from Xcode's profile
+  cache; user then logged into their Apple ID in Xcode. REQUIRED: `xcodebuild` has NO
+  separate CLI sign-in and reads Xcode's account store directly — an empty
+  `DVTDeveloperAccountManagerAppleIDLists` means "No Accounts" on export, and API keys
+  added under Settings → Accounts do NOT count (they can't auto-download profiles).
+  With the Apple ID present, `-allowProvisioningUpdates` fetched fresh store profiles
+  with the App Group.
+- **fastlane 2.240 gotchas** (all fixed in fastlane/Fastfile): `api_key:` must be a
+  Hash `{ key_id:, issuer_id:, key: <raw PEM> }` — string path is rejected and
+  :key_content is NOT the right field (spaceship's Token.create wants :key);
+  `skip_waiting_for_build_processing` and `notify_testflight_external_testers`
+  options no longer exist; deliver's `:ipa` default = newest *.ipa in CWD — stale
+  repo-root .ipas made it pick NurseVault-Debug.ipa (version "0.1"!) so the ipa path
+  is pinned explicitly; precheck runs AFTER binary upload and can't check IAPs via API
+  key → `precheck_include_in_app_purchases: false`.
+- **Quirk**: a deliver run that fails at precheck has ALREADY uploaded its binary —
+  today's failed run left one build record, the successful run added another (same
+  binary; ASC shows both under v2.4).
+- Precheck warning to fix before review submission: metadata copyright year missing.
+- fastlane/ committed (Fastfile/Appfile/README); deliver artifacts gitignored; .p8 keys
+  stay gitignored (`AuthKey_*.p8`). Working ASC keys: Y9YADVN9Z2 + 7969H83JMY (issuer
+  c8e01104-…); old key P24GJ5VLS6 still 401s.
+
 ## STATUS (2026-10-02) — read this first
 
 - **Root cause FOUND AND FIXED** (commit `0ff2d5c`): root-project archives

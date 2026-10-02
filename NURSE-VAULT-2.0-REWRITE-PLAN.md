@@ -130,6 +130,17 @@ Next steps (in order):
 
 ---
 
+## Status (2026-10-02, late morning) — fastlane upload WORKING; v2.4 build 3 on ASC
+
+The root project now uploads end-to-end via `fastlane upload` (full gotcha list in
+SESSION_HANDOFF.md). Nurse Vault **2.4 / build 3** is in App Store Connect — version
+record PREPARE_FOR_SUBMISSION, builds VALID + APP_STORE_ELIGIBLE — and ready to
+distribute on TestFlight. The 2.0 project remains the fallback path but is no longer
+needed for uploads. Remaining metadata fix before review: add a copyright year
+(precheck warning).
+
+---
+
 ## Status (2026-10-02) — ROOT CAUSE FOUND & FIXED: SKIP_INSTALL + Watch/ layout
 
 The missing `ApplicationProperties` is **solved** in the root project

@@ -14,6 +14,12 @@ NurseVault 2026-09-27 19-09-24/
 # API Keys - NEVER commit
 AuthKey_*.p8
 
+# fastlane deliver artifacts (regenerated on every run)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/metadata/
+fastlane/screenshots/
+
 # macOS
 .DS_Store
 
