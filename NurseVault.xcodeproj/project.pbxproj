@@ -47,8 +47,8 @@
 		A10000000000000000000187 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
 			files = (
 				A10000000000000000000186 /* NurseVault Watch.app in Embed Watch Content */,
 			);
@@ -416,6 +416,7 @@
 					PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "watchos watchsimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_WATCH = YES;
@@ -444,6 +445,7 @@
 					PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "watchos watchsimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_WATCH = YES;
