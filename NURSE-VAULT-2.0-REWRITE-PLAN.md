@@ -130,6 +130,54 @@ Next steps (in order):
 
 ---
 
+## Status (2026-10-02) — ROOT CAUSE FOUND & FIXED: SKIP_INSTALL + Watch/ layout
+
+The missing `ApplicationProperties` is **solved** in the root project
+(commit `0ff2d5c`). The 10/1 SDKROOT theory below is **DEAD**.
+
+### Root cause (decoded from Xcode's own binary)
+
+Disassembled IDEDistribution.framework (`+[IDEArchivedApplication
+soleArchivedContentRelativePathInDirectory:]` +
+`+[IDEArchivedContent fillArchivedContentInfoInArchiveInfoDictionary:…]`):
+
+- The archiver lists `Products/Applications/`, keeps entries that are not
+  `OnDemandResources` and don't start with `.`, and requires **exactly one**
+  of them, whose path extension must be `app`. Anything else → nil.
+- When every content class returns nil the caller writes **no
+  ApplicationProperties at all — silently, no error**. That is exactly what a
+  "generic archive" without AppProps is.
+- The root project's watch target lacked **`SKIP_INSTALL = YES`**, so
+  xcodebuild archived `NurseVault Watch.app` as a SECOND top-level product →
+  count = 2 → nil. The 2.0 project's watch target has SKIP_INSTALL=YES — the
+  one real difference between the working and broken archives (SDKROOT,
+  schemes, signing, Xcode version all ruled out).
+
+### Fix applied to `NurseVault.xcodeproj` (mirrors the proven 2.0 project)
+
+1. Watch target Debug + Release: **`SKIP_INSTALL = YES`**.
+2. "Embed Watch Content" phase: `dstPath = "$(CONTENTS_FOLDER_PATH)/Watch"`,
+   `dstSubfolderSpec = 16` (was `""` + 13 → PlugIns/) — also the layout
+   validator **90680** demands.
+
+Verified with an unsigned CLI archive (`CODE_SIGNING_ALLOWED=NO`):
+Info.plist now carries ApplicationProperties
+(`ApplicationPath = Applications/NurseVault.app`, bundle ID, version),
+Products/Applications/ holds exactly one app, watch at
+`NurseVault.app/Watch/NurseVault Watch.app`, widget in its PlugIns/. Also
+committed: TestPlan.xctestplan removed from the app's Resources phase
+(`e2d91be`) — it was being bundled inside NurseVault.app.
+
+### Outstanding (updated)
+
+- [ ] User: GUI-archive “NurseVault” (iOS destination) + Distribute — should
+      work now; report the Organizer result
+- [x] ~~If root export still fails → drop macosx~~ — no longer needed;
+      macosx stays in SUPPORTED_PLATFORMS
+- 2.0 project remains a proven fallback path if anything regresses.
+
+---
+
 ## Status (2026-10-01) — export root cause found; 2.0 watch aligned
 
 ### Root app export — diagnosis (archive forensics)

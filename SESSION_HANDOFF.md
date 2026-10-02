@@ -1,22 +1,34 @@
 # Session handoff — Nurse Vault → TestFlight alpha
 
-## STATUS (2026-10-01) — read this first
+## STATUS (2026-10-02) — read this first
 
-- **Root export root cause found:** GUI archives of the root app target are
-  missing `ApplicationProperties` (the Organizer refuses to distribute
-  “generic archives”). The 2.0 project's GUI archives DO have it — the only
-  app-target config difference was `SDKROOT` (root `iphoneos` vs 2.0
-  `auto`, both multiplatform). The root app target is now `SDKROOT = auto`
-  (macosx kept for now). Bundle layout in the archives is correct (watch app
-  in PlugIns, widget in the watch app) and the watch profile already has the
-  App Group. User: re-archive in the GUI with an iOS destination.
-- **2.0 watch aligned with root:** watch `TARGETED_DEVICE_FAMILY =
-  "4,5,7,8,10,11,12,13,14,15"` + widget `WATCHOS_DEPLOYMENT_TARGET = 11.0`
-  (sources + App Group were already synced 9/30). The 2.0 project is the
-  ready export path — its 9/30 GUI archive shows the v110
-  `Watch/`-folder layout + ApplicationProperties + Distributions working.
-- Fallback if the root export still fails: drop `macosx` from the root app
-  target (as in the 2.0). User does all signing/exporting.
+- **Root cause FOUND AND FIXED** (commit `0ff2d5c`): root-project archives
+  lacked `ApplicationProperties` because the **watch target had no
+  `SKIP_INSTALL = YES`**. Without it, xcodebuild archived the watch app as a
+  SECOND top-level product in `Products/Applications/`. Xcode's own archiver
+  logic (decoded from IDEDistribution.framework,
+  `+[IDEArchivedApplication soleArchivedContentRelativePathInDirectory:]`)
+  requires EXACTLY ONE entry there (excluding OnDemandResources + dotfiles)
+  with extension `.app`; two entries → nil → the caller silently writes no
+  ApplicationProperties, no error. The 2.0 project's watch target has
+  SKIP_INSTALL=YES — that was the real difference all along.
+- **SDKROOT theory is DEAD** (the 10/1 `iphoneos`→`auto` change was a red
+  herring; today's GUI archive still lacked AppProps after it). macosx stays
+  in SUPPORTED_PLATFORMS — no fallback needed anymore.
+- Also fixed the validator-90680 layout: "Embed Watch Content" phase is now
+  `dstPath = "$(CONTENTS_FOLDER_PATH)/Watch"` + `dstSubfolderSpec = 16`
+  (was `""` + 13 → PlugIns/), mirroring the proven-working 2.0 project.
+- Verified with an unsigned CLI archive: Info.plist carries
+  ApplicationProperties, ONE top-level app, watch at
+  `NurseVault.app/Watch/NurseVault Watch.app`, widget in its PlugIns/.
+- **User next step:** re-archive “NurseVault” in the Xcode GUI (iOS
+  destination) and Distribute — Organizer should now accept it. The TestPlan
+  .xctestplan is also no longer bundled inside NurseVault.app (commit
+  `e2d91be`). User does all signing/exporting.
+- **2.0 watch aligned with root** (earlier): watch
+  `TARGETED_DEVICE_FAMILY = "4,5,7,8,10,11,12,13,14,15"` + widget
+  `WATCHOS_DEPLOYMENT_TARGET = 11.0`. The 2.0 project remains a working
+  fallback export path (its 9/30 GUI archive proves the pipeline end-to-end).
 
 ## STATUS (2026-09-30, evening)
 
@@ -159,15 +171,19 @@ third-party servers. Main menu sections: Code Blue, Lab Values, Drugs, Other
      NSNumber @NSManaged, allowsExternalBinaryDataStorage,
      eventChangedNotification, etc.) already handled in code.
 2. The iOS target has the Watch-app wiring (IDs A1…186–189):
-   - `Embed Watch Content` PBXCopyFilesBuildPhase, **dstPath = ""**,
-     **dstSubfolderSpec = 13** (PlugIns). Xcode 26+ treats watchOS apps as
-     Foundation extensions — they MUST be embedded in the parent app's PlugIns/
-     (the legacy `$(CONTENTS_FOLDER_PATH)/Watch` + 16 layout fails with "must be
-     embedded in the parent app bundle's PlugIns directory").
+   - `Embed Watch Content` PBXCopyFilesBuildPhase, **dstPath =
+     "$(CONTENTS_FOLDER_PATH)/Watch"**, **dstSubfolderSpec = 16** — watch app
+     lands in `NurseVault.app/Watch/`. This is what the upload validator
+     (90680) demands AND what makes the archive carry ApplicationProperties
+     (see STATUS 2026-10-02). Do NOT revert to "" + 13.
+   - The **watch target has `SKIP_INSTALL = YES`** in both configs — REQUIRED:
+     without it xcodebuild archives the watch app as a second top-level
+     product and Xcode's sole-app check drops ApplicationProperties from the
+     archive Info.plist (Organizer then refuses to distribute).
    - Its PBXBuildFile (186) and PBXTargetDependency (189) carry
      **`platformFilter = ios`** — required because the app target is
      multiplatform (macOS build must not build/embed the watchOS app).
-   - Do not "tidy" these away; do not revert dstSubfolderSpec to 16.
+   - Do not "tidy" these away.
 3. Widget target has `MARKETING_VERSION = 0.1` and its Info.plist uses
    `$(MARKETING_VERSION)` — extension version must equal parent app version.
 
