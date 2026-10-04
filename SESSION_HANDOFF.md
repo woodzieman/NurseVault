@@ -15,6 +15,20 @@
   sidebar selection when its section is deleted (avoids faulting a deleted
   managed object); README says 2.4 now. Unsigned iOS-sim build passes.
 - **All local work is on origin/main** (user asked to push; done).
+- **Bug fix: "can't add folders on the phone"** (user test 10/04; watch worked).
+  Root cause: `fileImporter` returns **security-scoped** URLs on iOS, and
+  `FileSupport.isDirectory` / `directoryEntries` never started the scope, so
+  `fileExists`/`resourceValues` reported the picked folder as a missing file →
+  the folder was routed to the *file* import path and failed with
+  "Couldn't read …". Mac drag & drop is unscoped, which is why it worked there.
+  Fix: both helpers now bracket their checks in
+  `startAccessingSecurityScopedResource()` (no-op for unscoped URLs).
+- **Build 5 uploaded to TestFlight** (v2.4/5, `fastlane upload`): the first
+  attempt with build 4 was rejected ("already been used") — the user had
+  already uploaded 2.4/4 from Xcode, which is the build they tested. Build 5
+  (with the security-scope fix) is the one to test: on the iPhone, Add →
+  Import Files or Folders… → pick a folder; it should import as a vault
+  folder. (Build number now 5 in the pbxproj; bump to 6+ for future uploads.)
 - Leftover cleanup still needing the USER's call: dead ASC API keys
   (R5U42R887M / RF94CMB28K at repo root, if no longer needed — delete in
   ASC → Integrations, then the .p8 files), and deleting the ignored
