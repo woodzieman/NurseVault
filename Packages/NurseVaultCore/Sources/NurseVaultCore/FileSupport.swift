@@ -75,7 +75,18 @@ public enum FileSupport {
 
     /// Whether a URL points at a directory that should be imported as a
     /// folder rather than read as a file.
+    ///
+    /// File-picked URLs are security-scoped on iOS: until the scope is
+    /// started, `resourceValues` throws and `fileExists` reports false, so a
+    /// picked folder would look like a missing file. Start the scope for the
+    /// duration of the check (a no-op for non-scoped URLs, e.g. Mac drops).
     public static func isDirectory(at url: URL) -> Bool {
+        let neededScope = url.startAccessingSecurityScopedResource()
+        defer {
+            if neededScope {
+                url.stopAccessingSecurityScopedResource()
+            }
+        }
         let values = try? url.resourceValues(forKeys: [.isDirectoryKey])
         if let isDirectory = values?.isDirectory {
             return isDirectory
@@ -88,6 +99,15 @@ public enum FileSupport {
     /// excluding hidden items. Returns an empty array when the directory
     /// can't be read.
     public static func directoryEntries(at url: URL) -> [URL] {
+        // Same scoping rule as `isDirectory`: `contentsOfDirectory` on an
+        // unscoped, security-scoped URL (as file-picked on iOS) throws and
+        // would silently import the folder as empty.
+        let neededScope = url.startAccessingSecurityScopedResource()
+        defer {
+            if neededScope {
+                url.stopAccessingSecurityScopedResource()
+            }
+        }
         guard let entries = try? FileManager.default.contentsOfDirectory(
             at: url,
             includingPropertiesForKeys: [.isDirectoryKey],
