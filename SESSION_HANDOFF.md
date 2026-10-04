@@ -1,5 +1,26 @@
 # Session handoff — Nurse Vault → TestFlight alpha
 
+## STATUS (2026-10-04) — review pass + copyright fixed + pushed
+
+- **Copyright precheck warning FIXED:** user chose "© 2026 Woodzieman". Set in
+  `fastlane/metadata/copyright.txt` and pushed via `fastlane upload_metadata`
+  (the lane works end-to-end; deliver merges remote metadata as the base, so
+  with only copyright.txt present locally it touched only the copyright).
+  Precheck now fully green, incl. "No incorrect or missing copyright date".
+- **Review pass committed** (2 commits): .gitignore now ignores local-only
+  clutter (`*.xctestproducts/`, `*.ipa`, `*.cer`, `nursevault 2.0/`,
+  `project_backup*`, `test 3/4/` — files still on disk, user may delete them,
+  ~400 MB reclaimable if the 2.0 fallback is no longer needed); stale widget
+  "shares the watch app's container" comment → App Group; `RootView` resets
+  sidebar selection when its section is deleted (avoids faulting a deleted
+  managed object); README says 2.4 now. Unsigned iOS-sim build passes.
+- **All local work is on origin/main** (user asked to push; done).
+- Leftover cleanup still needing the USER's call: dead ASC API keys
+  (R5U42R887M / RF94CMB28K at repo root, if no longer needed — delete in
+  ASC → Integrations, then the .p8 files), and deleting the ignored
+  experiment folders listed above. Next gate: user submits v2.4 for review
+  (Xcode or `fastlane submit_for_review` — the upload lane does not submit).
+
 ## STATUS (2026-10-02, late morning) — UPLOAD DONE: v2.4 build 3 is on ASC/TestFlight
 
 - **fastlane upload SUCCEEDED** (`fastlane upload` lane): Nurse Vault **2.4 / build 3**
