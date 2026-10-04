@@ -10,6 +10,18 @@ archives/
 
 # Archives (local only)
 NurseVault 2026-09-27 19-09-24/
+*.xctestproducts/
+
+# Build artifacts (regenerable; never commit)
+*.ipa
+*.cer
+
+# Experiment / backup folders from earlier sessions (local only)
+project_backup/
+project_backup_*.tar.gz
+nursevault 2.0/
+test 3 on fast lane or whatever/
+test 4/
 
 # API Keys - NEVER commit
 AuthKey_*.p8

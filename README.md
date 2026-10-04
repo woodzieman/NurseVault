@@ -146,9 +146,11 @@ Packages/NurseVaultCore/    Shared Swift package:
    **Nurse Vault** complication, and it shows your document count once the
    watch app has run at least once.
 
-## Building the alpha (v0.1)
+## Building the app (v2.x, TestFlight alpha)
 
-The project is versioned **0.1** as a personal-use alpha.
+The project is versioned **2.4** as a personal-use alpha; builds are uploaded
+yourself (Xcode **Distribute**, or `fastlane upload` from the repo root —
+see `fastlane/README.md`).
 
 - **In Xcode** (easiest): pick a simulator or *My Mac* as the destination and
   hit **Run**, or use **Product → Archive** to produce a full build. Your

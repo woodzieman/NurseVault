@@ -30,8 +30,10 @@ struct ComplicationEntry: TimelineEntry {
 
 // MARK: - Provider
 
-/// Reads the summary the app writes next to its Core Data store. The
-/// widget and the watch app share the watch app's container; when the
+/// Reads the summary the app writes next to its Core Data store. Widget
+/// extensions run in their own sandbox, so the watch app and the widget
+/// share the App Group container (`group.com.josephwoods.nursevault`)
+/// instead — that's the only place both are guaranteed to reach. When the
 /// file isn't there yet (fresh install, before the app first runs) the
 /// entry falls back to the plain app name.
 struct ComplicationProvider: TimelineProvider {

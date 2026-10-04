@@ -80,6 +80,12 @@ struct RootView: View {
         ) {
             Button("Delete Section and Documents", role: .destructive) {
                 if let target = deleteTarget {
+                    // Drop the selection first: it holds the section object
+                    // about to be deleted, and touching a deleted managed
+                    // object (e.g. for the list title) would fault.
+                    if selection == .section(target) {
+                        selection = .all
+                    }
                     library.deleteSection(target)
                 }
                 deleteTarget = nil
