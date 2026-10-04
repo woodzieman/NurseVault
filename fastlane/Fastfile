@@ -1,11 +1,20 @@
 # Nurse Vault — fastlane lanes
-# Usage: fastlane upload
+# Usage: fastlane upload            (archive + export + binary & metadata upload)
+#        fastlane upload_metadata   (push fastlane/metadata/ only; no build, no new build record)
 # Credentials: App Store Connect API key (AuthKey_*.p8 are gitignored; never commit them)
 # Auth was verified against api.appstoreconnect.apple.com on 2026-10-02.
 
 ASC_KEY_PATH  = "AuthKey_Y9YADVN9Z2.p8"
 ASC_KEY_ID    = "Y9YADVN9Z2"
 ASC_ISSUER_ID = "c8e01104-d43c-4d1a-9e8f-c09f5bc5dfea"
+
+# fastlane 2.240 requires api_key as a Hash (string path is rejected);
+# spaceship's Token.create expects the raw PEM under :key.
+ASC_API_KEY = {
+  key_id: ASC_KEY_ID,
+  issuer_id: ASC_ISSUER_ID,
+  key: File.read(File.expand_path("../#{ASC_KEY_PATH}", __dir__))
+}
 
 default_platform(:ios)
 
@@ -20,19 +29,27 @@ platform :ios do
       xcargs: ["-allowProvisioningUpdates"]
     )
 
-    # fastlane 2.240 requires api_key as a Hash (string path is rejected).
     upload_to_app_store(
-      api_key: {
-        key_id: ASC_KEY_ID,
-        issuer_id: ASC_ISSUER_ID,
-        # spaceship 2.240 Token.create expects the raw PEM under :key
-        key: File.read(File.expand_path("../#{ASC_KEY_PATH}", __dir__))
-      },
+      api_key: ASC_API_KEY,
       # Pin the ipa explicitly: deliver's :ipa default is "newest *.ipa in cwd",
       # and stale .ipas from earlier sessions sit in the repo root.
       ipa: "build/export/fastlane/NurseVault.ipa",
       force: true,
       # precheck can't verify IAPs via API key (fastlane 2.240 limitation)
+      precheck_include_in_app_purchases: false
+    )
+  end
+
+  # Push fastlane/metadata/ to App Store Connect without building or uploading a binary.
+  lane :upload_metadata do
+    upload_to_app_store(
+      api_key: ASC_API_KEY,
+      # Pin the version explicitly: with no ipa passed, deliver's dynamic :ipa
+      # default (newest *.ipa in cwd) would make it infer the version from a
+      # stale repo-root .ipa.
+      app_version: "2.4",
+      skip_binary_upload: true,
+      force: true,
       precheck_include_in_app_purchases: false
     )
   end
