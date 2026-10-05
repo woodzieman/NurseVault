@@ -123,6 +123,13 @@ public enum VaultModel {
         ]
 
         // --- Relationships ---
+        //
+        // Every relationship must be explicitly added to its destination
+        // entity's properties below. Core Data <= 26 silently adopted a
+        // relationship that only appeared as another relationship's inverse;
+        // Core Data 27 does not, and an orphaned inverse (e.g. the missing
+        // `parent`) crashes the app at store load (EXC_BAD_ACCESS in
+        // NSSQLEntity _generateProperties) on first launch.
 
         // Section <-> Folder
         let sectionFoldersRel = NSRelationshipDescription()
@@ -199,6 +206,7 @@ public enum VaultModel {
         sectionEntity.properties.append(sectionFoldersRel)
         sectionEntity.properties.append(sectionDocsRel)
         folderEntity.properties.append(folderSectionRel)
+        folderEntity.properties.append(folderParentRel)
         folderEntity.properties.append(folderFoldersRel)
         folderEntity.properties.append(folderDocsRel)
         docEntity.properties.append(docSectionRel)
