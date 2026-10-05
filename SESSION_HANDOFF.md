@@ -1,5 +1,32 @@
 # Session handoff — Nurse Vault → TestFlight alpha
 
+## STATUS (2026-10-05) — first-launch CRASH root-caused & fixed, build 6 on TestFlight
+
+- **The "doesn't launch on real device" bug — SOLVED.** User's TestFlight crash log
+  (build 5, iPhone 15 Pro, **iOS 27.0**): EXC_BAD_ACCESS in `NSSQLEntity
+  _generateProperties` during `Library.init()` → store load, 0.2 s after launch.
+  Reproduced in the iOS 27 simulator (erase + install + launch) and in a bare
+  harness: `VaultModel.makeModel()` + `loadPersistentStores` alone.
+  **Root cause:** in `VaultModels.makeModel()` the Folder `parent`
+  relationship was built and wired as the `folders` inverse but **never added
+  to the Folder entity's properties**. Core Data ≤ 26 silently adopted
+  inverse-only relationships; **Core Data 27 does not**, so the orphaned
+  inverse segfaults the new SQL-model generation at first store load. Fix:
+  explicit `folderEntity.properties.append(folderParentRel)` + guard comment.
+- **Verified locally before upload:** harness `LOAD OK`; app launches and
+  renders in the iOS 27 simulator (screenshot: sidebar + sections); nested
+  folder persistence test PASSES (parent/child + section + doc in deep folder
+  survive save/reset/fetch). The 10/04 security-scope folder-import fix is in
+  the same build, so folder import on the phone is covered too.
+- **Build 6 (v2.4/6) uploaded to TestFlight** (`fastlane upload`). User should
+  update in TestFlight; if the phone still has an old in-place store from the
+  2.0 era, the app's one-time store-reset may show (data re-syncs from
+  CloudKit). If it STILL crashes after 6, next suspect: the phone's Core Data
+  vs a store written by Core Data 26 — but the model/store pair is now
+  internally consistent, so a clean install should be bulletproof.
+- Note: the phone (iPhone 15 Pro) is NOT paired with this Mac — only the iPad
+  is. Crash evidence came from TestFlight's share → AirDrop.
+
 ## STATUS (2026-10-04) — review pass + copyright fixed + pushed
 
 - **Copyright precheck warning FIXED:** user chose "© 2026 Woodzieman". Set in
