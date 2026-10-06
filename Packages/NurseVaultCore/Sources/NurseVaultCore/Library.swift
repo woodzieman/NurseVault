@@ -395,6 +395,7 @@ public final class Library {
         public var folderName: String
         public var importedCount: Int
         public var skippedNames: [String]
+        public var skippedByTotalLimit: Int
 
         public var summary: String {
             let skippedDetails = skippedDetails
@@ -405,7 +406,9 @@ public final class Library {
             }
             let imported = importedCount == 1 ? "1 document" : "\(importedCount) documents"
             let base = "Imported \(imported) into “\(folderName)”."
-            return skippedNames.isEmpty ? base : base + "\n" + skippedDetails
+            guard skippedNames.isEmpty else { return base + "\n" + skippedDetails }
+            guard skippedByTotalLimit > 0 else { return base }
+            return base + " (folder total limit reached; \(skippedByTotalLimit) additional file\(skippedByTotalLimit == 1 ? " was" : "s were") skipped due to total import limit)"
         }
 
         private var skippedDetails: String {
@@ -413,7 +416,11 @@ public final class Library {
             let verb = count == 1 ? "1 file was" : "\(count) files were"
             let names = skippedNames.prefix(5).joined(separator: ", ")
             let extra = count > 5 ? ", and \(count - 5) more" : ""
-            return "\(verb) skipped (too large or unreadable): \(names)\(extra)"
+            var text = "\(verb) skipped (too large or unreadable): \(names)\(extra)"
+            if skippedByTotalLimit > 0 {
+                text += "; \(skippedByTotalLimit) additional file\(skippedByTotalLimit == 1 ? " was" : "s were") skipped (total import limit reached)"
+            }
+            return text
         }
     }
 
@@ -451,23 +458,32 @@ public final class Library {
         root.section = folder?.section ?? section
         root.parent = folder
 
-        let result = importDirectory(url, into: root, section: section, existingNames: destinationNames)
+        let result = importDirectory(url, into: root, section: section, existingNames: destinationNames, soFarBytes: 0, skippedByTotalLimit: 0)
         save()
         reload()
-        return .init(folderName: rootName, importedCount: result.imported, skippedNames: result.skipped)
+        return .init(folderName: rootName, importedCount: result.imported, skippedNames: result.skipped, skippedByTotalLimit: result.skippedByTotalLimit)
     }
+
+    /// The maximum total data size for a single folder import. Files beyond
+    /// this limit are skipped (even if they are under 48 MB individually).
+    private static let maxImportBytes = 1 * 1024 * 1024 * 1024  // 1 GB
 
     /// Walks `url` into `vaultFolder`, creating nested folders and
     /// documents without saving until the caller finishes the whole tree.
+    /// Files that would push the total beyond `maxImportBytes` are skipped.
     private func importDirectory(
         _ url: URL,
         into vaultFolder: VaultFolder,
         section: VaultSection?,
-        existingNames: Set<String>
-    ) -> (imported: Int, skipped: [String]) {
+        existingNames: Set<String>,
+        soFarBytes: Int64,
+        skippedByTotalLimit: Int
+    ) -> (imported: Int, skipped: [String], soFarBytes: Int64, skippedByTotalLimit: Int) {
         var names = existingNames
         var imported = 0
         var skipped: [String] = []
+        var currentSoFarBytes = soFarBytes
+        var currentSkippedByTotalLimit = skippedByTotalLimit
         for entry in FileSupport.directoryEntries(at: url) {
             if FileSupport.isDirectory(at: entry) {
                 let base = entry.lastPathComponent
@@ -477,10 +493,21 @@ public final class Library {
                 subfolder.section = vaultFolder.section ?? section
                 subfolder.parent = vaultFolder
                 names.insert(unique.lowercased())
-                let child = importDirectory(entry, into: subfolder, section: section, existingNames: [])
+                let child = importDirectory(entry, into: subfolder, section: section, existingNames: [], soFarBytes: currentSoFarBytes, skippedByTotalLimit: currentSkippedByTotalLimit)
                 imported += child.imported
                 skipped += child.skipped
+                currentSoFarBytes = child.soFarBytes
+                currentSkippedByTotalLimit += child.skippedByTotalLimit
             } else {
+                // Skip files once we've exceeded the total import limit.
+                // This prevents the app from trying to store hundreds of
+                // 48 MB files (or one very large file) when the user
+                // accidentally picks a large folder.
+                if currentSoFarBytes >= Self.maxImportBytes {
+                    currentSkippedByTotalLimit += 1
+                    skipped.append(entry.lastPathComponent)
+                    continue
+                }
                 do {
                     let file = try FileSupport.importFile(at: entry)
                     let doc = VaultDoc(context: context)
@@ -492,12 +519,13 @@ public final class Library {
                     doc.section = vaultFolder.section ?? section
                     doc.folder = vaultFolder
                     imported += 1
+                    currentSoFarBytes += Int64(file.data.count)
                 } catch {
                     skipped.append(entry.lastPathComponent)
                 }
             }
         }
-        return (imported, skipped)
+        return (imported, skipped, currentSoFarBytes, currentSkippedByTotalLimit)
     }
 
     /// A name that doesn’t collide with the given sibling names

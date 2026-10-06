@@ -30,6 +30,10 @@ public enum FileSupport {
     public static let maxFileBytes = 48 * 1024 * 1024
 
     public static func importFile(at url: URL) throws -> ImportedFile {
+        // File-picked URLs are security-scoped on iOS. Without starting the
+        // scope, `resourceValues` and `Data(contentsOf:)` both fail, which
+        // makes every file look unreadable (and large ones never get caught
+        // by the size check, wasting time reading them only to fail).
         let neededScope = url.startAccessingSecurityScopedResource()
         defer {
             if neededScope {
