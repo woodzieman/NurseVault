@@ -1,0 +1,873 @@
+=== Cetuximab (Merck Manual Professional) ===
+Source: https://www.merckmanuals.com/professional/drug-names-generic-and-brand (productid 2710)
+Retrieved: 2026-09-25
+NURSING QUICK-REFERENCE SUMMARY
+Auto-generated on 2026-09-25 from the prescribing information in this file; full details follow below.
+
+Drug Class: Cetuximab is a recombinant, human/mouse chimeric monoclonal antibody that binds specifically to the extracellular domain of the human epidermal growth factor receptor (EGFR), mediating antibody-dependent cellular cytotoxicity (ADCC) against certain human tumor types.
+
+Routes: injection (IV/IM/SC); Common adult doses: 400 mg/m2 IV for the initial dose then 250 mg/m2 IV once weekly for subsequent doses; OR 500 mg/m2 IV every 2 weeks.
+
+Common Side Effects (excluding routine GI upset): angina, cardiac arrest, heart failure, myocardial infarction, respiratory arrest, cough, dyspnea, pneumonitis, aseptic meningitis, infection, pharyngitis, hypocalcemia, hypokalemia, hypomagnesemia, hyponatremia, anxiety, confusion, depression, headache, insomnia, peripheral neuropathy, arthralgia, bone pain, myopathy, asthenia, fatigue, malaise, anemia, leukopenia, lymphopenia
+
+In an Overdose: No overdose/antidote information is listed in this file.
+
+Key Nursing Considerations: Contraindications/precautions: Cetuximab should be used with caution in patients with known murine protein hypersensitivity or hypersensitivity to any component of the product. Severe infusion-related reactions may occur despite the use of prophylactic antihistamines (see Adverse Reactions). Patient counseling: Advise patients to limit sun exposure during treatment and for 2 months after the last dose of cetuximab. Emetic risk: Low
+
+Brand Names
+  - Erbitux
+
+Dosage Forms
+  - Erbitux 100mg/50mL Solution for Injection
+  - Erbitux 200mg/100mL Solution for Injection
+
+Indication Specific Dosing
+  Indications
+    Related Indications
+      Heading
+      for the treatment of KRAS wild-type, EGFR-expressing, metastatic colorectal cancer (mCRC) as a single agent after failure of both irinotecan- and oxaliplatin-based regimens or in patients who are intolerant to irinotecan-based chemotherapy
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          400 mg/m2 IV on day 1, followed by weekly infusions of 250 mg/m2 IV until disease progression or unacceptable toxicity. Alternatively, cetuximab may be administered at a dose of 500 mg/m2 IV every 2 weeks. In a multicenter, randomized, open-label clinical trial of patients with previously treated, recurrent mCRC, cetuximab monotherapy (n = 287) significantly improved median overall survival compared with best supportive care (n = 285) (6.1 months vs. 4.6 months); in the subset of patients with KRAS wild-type tumors (n = 245), cetuximab monotherapy also improved overall survival (8.6 months vs. 5 months).
+      Heading
+      for the treatment of KRAS wild-type, EGFR-expressing, metastatic colorectal cancer (mCRC) in combination with irinotecan in patients who are refractory to irinotecan-based chemotherapy
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          400 mg/m2 IV on day 1, followed by weekly infusions of cetuximab 250 mg/m2 IV until disease progression or unacceptable toxicity, in combination with irinotecan. Alternatively, cetuximab may be administered at a dose of 500 mg/m2 IV every 2 weeks. Multiple dosage regimens of irinotecan have been studied in combination with cetuximab, including irinotecan 180 mg/m2 IV once every 3 weeks; irinotecan 125 mg/m2 IV once weekly for 4 weeks out of 6; and, irinotecan 350 mg/m2 IV once every 3 weeks. In a multicenter clinical trial of patients with recurrent mCRC (tumor specimens not available for KRAS testing), patients were treated with cetuximab alone (n = 111) or cetuximab plus irinotecan (n = 218); in the irinotecan arm, the irinotecan dose and schedule was the same as the patient had previously failed. Of these patients, approximately 2/3 had previously failed oxaliplatin treatment. The objective response rate was 23% for patients treated with cetuximab plus irinotecan, versus 11% for those who received cetuximab alone; the median duration of response was 5.7 months vs. 4.2 months, and the median time to progression was 4.1 months versus 1.5 months, respectively. Response rates to combination therapy and monotherapy were similar for irinotecan refractory patients and patients who had failed both irinotecan and oxaliplatin.
+      Heading
+      for the first-line treatment of KRAS wild-type, EGFR-expressing, metastatic colorectal cancer (mCRC) in combination with FOLFIRI (irinotecan, fluorouracil, leucovorin)
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          400 mg/m2 IV on day 1 followed by weekly infusions of cetuximab 250 mg/m2 IV , administered 1 hour prior to chemotherapy, until disease progression or unacceptable toxicity; alternatively, cetuximab may be administered at a dose of 500 mg/m2 IV every 2 weeks. Administer in combination with the FOLFIRI regimen (irinotecan 180 mg/m2 IV over 30 to 90 minutes on day 1 followed by levoleucovorin 200 mg/m2 IV over 2 hours (or racemic leucovorin 400 mg/m2 IV), followed by fluorouracil 400 mg/m2 IV given as a bolus then 2,400 mg/m2 as a 46-hour continuous IV infusion, repeated every 14 days. In a multicenter, randomized, open-label, phase 3 clinical trial of patients with mCRC, unselected for KRAS mutational status, first-line treatment with cetuximab plus FOLFIRI (n = 599) significantly improved the primary endpoint of median progression-free survival (PFS) compared with FOLFIRI alone (n = 599) (8.9 months vs. 8 months); the overall response rate was 46.9% vs. 38.7%, respectively. Median overall survival was 19.9 months in the cetuximab group compared with 18.6 months in patients treated with FOLFIRI alone. In a subgroup analysis of patients with known KRAS mutational status (KRAS negative, n = 666; KRAS positive, n = 397), the addition of cetuximab to FOLFIRI therapy significantly improved the median PFS (9.9 vs. 8.4 months) and overall survival (23.5 vs. 20 months) times only in patients with KRAS wild type disease.
+      Heading
+      for the treatment of BRAF mutation-positive, RAS wild-type, metastatic colorectal cancer, in combination with irinotecan and vemurafenib†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          500 mg/m2 IV plus irinotecan (180 mg/m2 IV) on day 1, every 14 days, in combination with vemurafenib 960 mg by mouth twice daily, until disease progression or unacceptable toxicity. Reduce the dose of irinotecan by at least one dose level in patients who are homozygous for the UGT1A1*28 allele. Coadministration of certain drugs may need to be avoided or dosage adjustments may be necessary; review drug interactions. In a multicenter, randomized, open-label phase 2 clinical trial, treatment with vemurafenib, cetuximab and irinotecan significantly improved the median progression-free survival (PFS) over treatment with cetuximab plus irinotecan, without vemurafenib (4.4 months vs. 2 months) in patients with BRAF V600E mutation-positive, RAS wild-type, metastatic colorectal cancer (mCRC) received treatment with cetuximab and irinotecan, with or without vemurafenib (a BRAF inhibitor). Approximately 50% of patients in the control arm crossed over to receive vemurafenib after progression; the rate of disease control was also significantly improved in the vemurafenib arm (67% vs. 22%).
+      Heading
+      for the treatment of previously treated metastatic colorectal cancer (mCRC) in patients with a BRAF V600E mutation, in combination with encorafenib
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          400 mg/m2 IV over 120 minutes on day 1 followed by weekly infusions of cetuximab 250 mg/m2 IV over 60 minutes in combination with encorafenib until disease progression or unacceptable toxicity. Coadministration of certain drugs may need to be avoided or dosage adjustments may be necessary; review drug interactions. If cetuximab is discontinued, also discontinue encorafenib. Treatment with encorafenib plus cetuximab significantly improved overall survival (9.3 months vs. 5.9 months), overall response rate (20% vs. 2%; complete response, 3% vs. 0%), and progression-free survival (4.3 months vs. 1.5 months) compared with either irinotecan plus cetuximab or FOLFIRI plus cetuximab in patients with previously treated BRAF V600E mutation-positive metastatic colorectal cancer in a randomized, open-label, phase 3 trial (BEACON); the median duration of response was 6.1 months in the encorafenib arm.
+      Heading
+      for the treatment of metastatic BRAF V600E mutation-positive colorectal cancer (mCRC), in combination with encorafenib and fluorouracil-based chemotherapy†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          500 mg/m2 IV every 2 weeks until disease progression or unacceptable toxicity in combination with encorafenib (300 mg PO once daily) and fluorouracil-based chemotherapy. In the BREAKWATER CRC trial, fluorouracil-based chemotherapy included biweekly mFOLFOX6 (oxaliplatin 85 mg/m2 IV; leucovorin 400 mg/m2 IV; fluorouracil 400 mg/m2 IV bolus followed by fluorouracil 2,400 mg/m2 as a continuous IV infusion (CIV) over 46 to 48 hours) or biweekly FOLFIRI (irinotecan 180 mg/m2); leucovorin 400 mg/m2; and fluorouracil 400 mg/m2 IV bolus followed by fluorouracil 2,400 mg/m2 CIV over 46 to 48 hours). If cetuximab is permanently discontinued, continue encorafenib with mFOLFOX6 or FOLFIRI. If both cetuximab and mFOLFOX6 or FOLFIRI are permanently discontinued, discontinue encorafenib. Coadministration of certain drugs may need to be avoided or dosage adjustments may be necessary; review drug interactions. Treatment with encorafenib, cetuximab, and mFOLFOX6 significantly improved the objective response rate (ORR) (61% vs. 40%; complete response [CR], 2.7% vs. 1.8%), median progression-free survival (12.8 months vs. 7.1 months), and median overall survival (30.3 months vs. 15.1 months) compared with mFOLFOX6 with/without bevacizumab, FOLFOXIRI with/without bevacizumab, or CAPOX with/without bevacizumab in patients with BRAF V600 mutation-positive mCRC in a multicenter, randomized, open-label clinical trial (BREAKWATER CRC); patients had to have received no prior systemic treatment in the metastatic setting and no prior treatment with a selective BRAF or EGFR inhibitor. The median duration of response was 13.9 months in patients treated with encorafenib, cetuximab, and mFOLFOX6. Treatment with encorafenib plus cetuximab and FOLFIRI significantly improved ORR compared with FOLFIRI with or without bevacizumab (64% vs. 39%; CR, 4.1% vs. 1.4%) in another cohort (Cohort 3) of BREAKWATER CRC; the duration of response was at least 6 months in 57% of patients in the encorafenib/cetuximab arm compared with 35% of those in the bevacizumab arm.
+    Routes
+    Heading
+    For the treatment of colorectal cancer
+    Related Indications
+      Heading
+      for the first-line treatment of locally or regionally advanced squamous cell head and neck cancer, in combination with radiation therapy
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          400 mg/m2 IV as an initial loading dose 1 week prior to initiation of a course of radiation therapy, followed by weekly infusions of cetuximab 250 mg/m2 IV for the duration of radiation therapy (6 to 7 weeks). Complete cetuximab administration 1 hour before radiation therapy. In a randomized clinical trial of patients with locally or regionally advanced squamous cell head and neck cancer (n = 424), treatment with cetuximab plus radiation therapy significantly improved the median duration of locoregional control (24.4 months vs. 14.9 months) and overall survival (49 months vs. 29.3 months) compared with radiation therapy alone.
+      Heading
+      for the treatment of recurrent or metastatic squamous cell cancer of the head and neck when prior platinum-based therapy has failed, as monotherapy
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          400 mg/m2 IV on day 1 followed by weekly infusions of 250 mg/m2 IV until disease progression or unacceptable toxicity. Alternatively, cetuximab may be administered at a dose of 500 mg/m2 IV every 2 weeks until disease progression or unacceptable toxicity. In a multicenter, noncomparative trial of patients with recurrent or metastatic squamous cell head and neck cancer with progression within 30 days of platinum-based chemotherapy (n = 103), treatment with cetuximab resulted in an objective response rate of 13% for a median duration of 5.8 months.
+      Heading
+      for the treatment of recurrent or metastatic squamous cell carcinoma of the head and neck in combination with cisplatin†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          400 mg/m2 IV over 120 minutes (maximum infusion rate, 10 mg/minute) on day 1, followed by weekly infusions of cetuximab 250 mg/m2 IV over 60 minutes (maximum infusion rate, 10 mg/minute), in combination with cisplatin (100 mg/m2 IV on day 1), repeated every 4 weeks until disease progression or for 2 treatment cycles after the achievement of a complete response. In a phase 3 clinical trial of patients with recurrent or metastatic head and neck cancer (n = 117), neither progression-free survival (4.2 months vs. 2.7 months) nor overall survival (9.2 months vs. 8 months) were significantly improved with the addition of cetuximab; however the objective response rate was significantly improved (26% vs. 10%).
+      Heading
+      for the first-line treatment of recurrent locoregional disease or metastatic squamous cell head and neck cancer, in combination with platinum-based chemotherapy and fluorouracil
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          400 mg/m2 IV as an initial loading dose on day 1 followed by weekly infusions of cetuximab 250 mg/m2 IV, administered 1 hour prior to chemotherapy, until disease progression or unacceptable toxicity; alternatively, cetuximab may be administered at a dose of 500 mg/m2 IV every 2 weeks. Complete cetuximab administration 1 hour prior to chemotherapy. Administer in combination with cisplatin (100 mg/m2 IV on day 1) or carboplatin (AUC 5 IV on day 1) plus fluorouracil (1,000 mg/m2 IV on days 1, 2, 3, and 4), repeated every 3 weeks for up to 6 cycles. In a randomized, open-label clinical trial of patients with no prior therapy for recurrent locoregional disease or metastatic head and neck cancer (n = 442), the addition of cetuximab to platinum-based chemotherapy plus fluorouracil significantly improved median overall survival (OS) (10.1 months vs. 7.4 months), median progression-free survival (PFS) (5.5 months vs. 3.3 months), and objective response rate (35.6% vs. 19.5%) compared with chemotherapy alone. In exploratory subgroup analyses by initial platinum therapy, the difference in median OS was 3.3 months for patients receiving cetuximab plus cisplatin/fluorouracil and 1.4 months for patients receiving cetuximab plus carboplatin/fluorouracil compared to platinum/fluorouracil alone; the difference in median PFS with the addition of cetuximab compared to chemotherapy alone was 2.1 months and 1.7 months, respectively.
+    Routes
+    Heading
+    For the treatment of head and neck cancer
+    Routes
+      Heading
+      Intravenous dosage
+      Route Age Groups
+        Heading
+        Adults
+        Dosage Description
+        400 mg/m2 IV over 2 hours (maximum infusion rate: 10 mg/minute) the first week with subsequent weekly infusions of 250 mg/m2 IV over 60 minutes (maximum infusion rate: 10 mg/minute) until disease progression or unacceptable toxicity, in combination with up to 6 cycles of cisplatin (80 mg/m2 IV) on day 1 and vinorelbine (25 mg/m2 IV) on days 1 and 8 repeated every 21 days. In a phase 3 trial of 1,125 patients with advanced EGFR-detectable non-small cell lung cancer, the addition of cetuximab to the doublet cisplatin and vinorelbine significantly improved the primary end point overall survival (11.3 months vs. 10.1 months), response rate (36% vs. 29%), and time to treatment failure (4.2 months vs. 3.7 months). Patients who received cetuximab had a significantly higher incidence of febrile neutropenia (22% vs. 15%). A subgroup analysis of patients who developed a rash within the first 21 days of treatment, revealed a positive correlation between outcomes and the development of a first cycle rash. Multiple previous trials of EGFR-targeted tyrosine kinase inhibitors in combination with chemotherapy in the front-line treatment of patients with non-small cell lung cancer have generally shown no additional survival benefit with the addition of the tyrosine kinase inhibitor. Consideration should be given to the use of molecular markers to aid in patient selection as further information about this practice continues to become available.
+    Heading
+    For the first-line treatment of advanced non-small cell lung cancer (NSCLC)† in combination with cisplatin and vinorelbine
+
+Contraindications And Precautions
+  Headline
+  Contraindications/Warnings/Precautions
+  General Information
+  Cetuximab should be used with caution in patients with known murine protein hypersensitivity or hypersensitivity to any component of the product. Severe infusion-related reactions may occur despite the use of prophylactic antihistamines (see Adverse Reactions). Serious infusion reactions occurred with cetuximab administration in approximately 3% of patients in clinical trials; a fatal outcome was reported in less than 1 in 1000. Patients should be monitored for at least 1 hour after administration of cetuximab; longer observation periods may be required in patients who have experienced an infusion reaction. These reactions were characterized by the rapid onset of airway obstruction (acute bronchospasm, stridor, hoarseness), urticaria, and/or hypotension. Although the majority of infusion reactions occurred during the first infusion of cetuximab, caution must be exercised with every cetuximab infusion, as there were patients who experienced their first infusion reaction during later infusions. Adjustments to the infusion rate and continued antihistamine therapy are recommended if a mild to moderate infusion reaction occurs (see Administration and Dosage sections). Severe infusion reactions necessitate immediate interruption and discontinuation of therapy. Appropriate medical therapy including epinephrine, corticosteroids, intravenous antihistamines, bronchodilators, and oxygen should be available for use in the treatment of such a reaction.
+ 
+In the event of acute onset or worsening of pulmonary symptoms, especially in patients with pre-existing pulmonary disease, cetuximab therapy should be interrupted and the etiology of these symptoms investigated. If interstitial lung disease is confirmed, cetuximab therapy should be discontinued. Interstitial lung disease and pulmonary edema has been reported in advanced colorectal cancer patients receiving cetuximab (see Adverse Reactions). Two patients with pre-existing fibrotic lung disease (pulmonary fibrosis) experienced acute exacerbation of their disease during therapy with cetuximab and irinotecan. The onset of symptoms occurred between the fourth and eleventh doses of therapy.
+ 
+During clinical trials, cetuximab therapy was associated with dermatologic toxicities (see Adverse Reactions). Subsequent to the development of severe dermatologic toxicities, complications including S. aureus sepsis and skin abscesses requiring incision and drainage were reported. Patients developing dermatologic toxicities while receiving cetuximab should be monitored for the development of inflammatory sequelae or skin infection and appropriate treatment initiated. Dose modifications of any future dose of cetuximab should be instituted in the case of severe acneform rash (see Dosage). Treatment with topical and/or oral antibiotics should be considered; topical corticosteroids are not recommended. It is recommended that patients limit sunlight (UV) exposure by wearing sunscreen and hats while receiving cetuximab and for 2 months after the last dose, as UV exposure can exacerbate any skin reaction that may occur.
+ 
+Cetuximab in combination with radiation therapy should be used with caution in head and neck cancer patients with a history of cardiac disease, specifically coronary artery disease, congestive heart failure, or cardiac arrhythmias. Cardiopulmonary arrest and/or sudden death occurred in 2% of 208 patients with squamous cell carcinoma of the head and neck treated with cetuximab and radiation therapy (see Adverse Reactions). Fatal events occurred within 1 to 43 days after the last cetuximab treatment. Although the etiology of these events is unknown, electrolyte imbalance may be a risk factor for serious cardiac events such as arrhythmia. Close monitoring of serum electrolytes for hypomagnesemia, hypocalcemia, and hypokalemia is recommended during and for at least 8 weeks after cetuximab therapy. The safety of cetuximab in combination with radiation therapy and cisplatin for the treatment of head and neck cancer has not been established. Serious cardiotoxicity and death were observed in a single arm trial with cetuximab in combination with delayed, accelerated (concomitant boost) fractionation radiation therapy and cisplatin in patients with locally advanced head and neck cancer.
+ 
+Cetuximab is classified as FDA pregnancy risk category C. Animal reproduction studies have not been conducted with cetuximab, and there are no adequate and well-controlled trials of cetuximab in pregnant women. It is not known whether cetuximab can cause fetal harm when administered to a pregnant woman or whether cetuximab can effect reproductive capacity. However, EGFR has been implicated in the control of prenatal development and may be essential for normal organogenesis, proliferation, and differentiation in the developing fetus. In addition, IgG1 is know to cross the placental barrier; therefore, cetuximab has the potential to be transmitted from the mother to the fetus. Cetuximab should only be used in a pregnant woman if the potential benefit justifies the potential risk to the fetus. All patients should be counseled regarding the potential risks of cetuximab treatment to the developing fetus prior to initiation of therapy. Males and females need to use adequate contraception during cetuximab receipt and for 6 months after the last dose. If a patient becomes pregnant while receiving the drug, she should be apprised of the potential risks to the fetus and/or the potential risk for loss of pregnancy.
+ 
+It is not known if cetuximab is secreted in human breast milk; however, IgG is secreted in human milk. The potential for absorption of cetuximab and harm to the infant after ingestion is unknown. It is advised that women avoid breast-feeding during cetuximab therapy and for 60 days after the last dose of cetuximab.
+ 
+The safety and effectiveness of cetuximab in children have not been established.
+ 
+Patients who participated in cetuximab advanced colorectal cancer clinical trials were required to have immunohistochemical evidence of positive EGFR expression using the DakoCytomation EGFr pharmDx test kit. Primary tumor or tumor from a metastatic site was tested. Response rate did not correlate with either the percentage or positive cells or the intensity of EGFR expression. Assessment for EGFR expression should be performed by a laboratory with demonstrated proficiency in the technology. Failure to properly process the assay can lead to unreliable results. Pretreatment assessment for evidence of EGFR expression is not required for patients with squamous cell cancer of the head and neck. Retrospective subset analyses of metastatic colorectal cancer trials have not shown a treatment benefit for cetuximab in patients whose tumors had KRAS mutations in codon 12 or 13. Use of cetuximab is not recommended for the treatment of colorectal cancer with these mutations.
+  Contraindications And Precautions
+    Headline
+    Drug Interactions
+    General Information
+    The coadministration of certain medications may lead to harm and require avoidance or therapy modification; review all drug interactions prior to concomitant use of other medications.
+    Headline
+    Hypersensitivity
+    General Information
+    This medication is contraindicated in patients with a history of hypersensitivity to it or any of its components.
+    Headline
+    alpha-gal syndrome, history of tick bites, infusion-related reactions
+    General Information
+    Serious and fatal infusion-related reactions can occur with cetuximab treatment; patients with a history of tick bites, red meat hypersensitivity, or alpha-gal syndrome (IgE antibodies against galactose-alpha-1,3-galactose) may be at increased risk for anaphylactic reactions. Premedicate with a histamine-1 (H1) receptor antagonist as recommended. Infusion reactions may occur during or several hours following completion of the infusion; most severe infusion reactions (90%) occurred with the first infusion, despite premedication with antihistamines. If a reaction occurs during the infusion, interrupt the infusion. Permanently discontinue cetuximab for serious infusion reactions (grade 3 or 4); the infusion may be resumed at a slower rate for grade 1 or 2 reactions. After each infusion is complete, monitor patients in a setting with resuscitation equipment and other agents necessary to treat anaphylaxis for at least 1 hour. If a patient requires treatment for an infusion reaction, monitor for more than 1 hour afterwards to confirm resolution.
+    Headline
+    cardiac arrest, cardiac arrhythmias, coronary artery disease, heart failure
+    General Information
+    Carefully consider the use of cetuximab for the treatment of squamous cell carcinoma of the head and neck (SCCHN) in combination with radiation therapy or with fluorouracil and platinum-based chemotherapy in patients with a history of coronary artery disease, congestive heart failure, or cardiac arrhythmias. Cardiac arrest or sudden death occurred in patients who received cetuximab in combination with radiation therapy or fluoropyrimidine and platinum-based chemotherapy. Monitor serum electrolytes including magnesium, potassium, and calcium, during cetuximab treatment and for at least 8 weeks after completion of therapy; replete electrolytes as necessary.
+    Headline
+    pulmonary disease
+    General Information
+    Use cetuximab with caution in patients who have a history of pre-existing pulmonary disease; severe pneumonitis/interstitial lung disease has been reported in patients treated with cetuximab. Monitor patients for new or worsening respiratory symptoms including fever, cough, or dyspnea. Immediately interrupt cetuximab therapy in patients with new or worsening respiratory symptoms and permanently discontinue therapy if no other potential causes are identified.
+    Headline
+    pregnancy
+    General Information
+    Cetuximab can cause fetal harm when administered during pregnancy, based on its mechanism of action and data from animal studies. There are no available data on its use during human pregnancy. In mice, EGFR is critically important in reproductive and developmental processes including blastocyst implantation, placental development, and embryo-fetal/postnatal survival and development. Reduction or elimination of embryo-fetal or maternal EGFR signaling can prevent implantation, can cause embryo-fetal loss during various stages of gestation through effects on placental development, and can cause developmental anomalies and early death in surviving fetuses. Disruption or depletion of EGFR in animal models results in impaired placental, lung, cardiac, skin, and neural development. In an animal reproduction study, intravenous administration of cetuximab (1 to 4 times the recommended human dose based on body surface area) to pregnant cynomolgus monkeys during organogenesis resulted in an increased incidence of embryo-lethality and abortion. The American Society of Clinical Oncology provides additional information on the use of certain medications for the management of cancer during pregnancy.
+    Headline
+    people who may become pregnant, reproductive risk
+    General Information
+    Counsel people who may become pregnant about the reproductive risk associated with cetuximab. Cetuximab can cause fetal harm. Verify pregnancy status prior to treatment initiation. People who may become pregnant should use effective contraception while taking cetuximab and for at least 2 months after the last dose. Based on animal studies, cetuximab may impair female fertility.
+    Headline
+    breast-feeding
+    General Information
+    Advise patients to avoid breast-feeding while taking cetuximab and for 2 months after the last dose due to the potential for serious adverse reactions in the breastfed child. It is not known whether cetuximab is present in human milk.
+
+Pregnancy And Lactation
+  Pregnancy
+    General Information
+    Cetuximab can cause fetal harm when administered during pregnancy, based on its mechanism of action and data from animal studies. There are no available data on its use during human pregnancy. In mice, EGFR is critically important in reproductive and developmental processes including blastocyst implantation, placental development, and embryo-fetal/postnatal survival and development. Reduction or elimination of embryo-fetal or maternal EGFR signaling can prevent implantation, can cause embryo-fetal loss during various stages of gestation through effects on placental development, and can cause developmental anomalies and early death in surviving fetuses. Disruption or depletion of EGFR in animal models results in impaired placental, lung, cardiac, skin, and neural development. In an animal reproduction study, intravenous administration of cetuximab (1 to 4 times the recommended human dose based on body surface area) to pregnant cynomolgus monkeys during organogenesis resulted in an increased incidence of embryo-lethality and abortion. The American Society of Clinical Oncology provides additional information on the use of certain medications for the management of cancer during pregnancy.
+  Breastfeeding
+    General Information
+    Advise patients to avoid breast-feeding while taking cetuximab and for 2 months after the last dose due to the potential for serious adverse reactions in the breastfed child. It is not known whether cetuximab is present in human milk.
+
+Interactions
+Cholera Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the live cholera vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to cholera bacteria after receiving the vaccine.
+CISplatin: (Major) Cetuximab is not indicated for the treatment of squamous cell cancer of the head and neck (SCCHN) in combination with radiation and cisplatin due to the risk of increased serious adverse reactions. In a controlled study of patients with locally advanced SCCHN (n = 940), treatment with cetuximab in combination with radiation therapy and cisplatin increased the incidence of grade 3 and 4 mucositis, radiation recall syndrome, acneiform rash, cardiac events, and electrolyte disturbances compared to radiation and cisplatin alone. Myocardial ischemia occurred in 2% of patients in the cetuximab arm compared with 0.9% in the control arm; adverse reactions with fatal outcome were reported in 4% in the cetuximab arm and 3% in the control arm. The addition of cetuximab to radiation and cisplatin did not improve progression free survival.
+Dengue Tetravalent Vaccine, Live: (Contraindicated) Avoid administration of the live dengue virus vaccine with immunosuppressive drug therapy and prior to immune recovery following treatment with immunosuppressive drug therapy. When feasible, administer indicated live virus vaccines at least 4 weeks before planned immunosuppression or wait until at least 3 months after discontinuation. The time to restoration of immune competence may be longer in some patients. Patients with altered immunocompetence may be at increased risk for severe adverse reactions due to uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+SARS-CoV-2 (COVID-19) vaccines: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) mRNA Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) Recombinant Spike Protein Nanoparticle Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+Sodium Iodide I-131: (Moderate) Monitor for bone marrow suppression during concomitant use of sodium iodide I-131 and antineoplastic agents. Concomitant use of bone marrow depressants may enhance the depression of the hematopoietic system caused by the use of large doses of sodium iodide I-131.
+Tuberculin Purified Protein Derivative, PPD: (Moderate) Immunosuppressives may decrease the immunological response to tuberculin purified protein derivative, PPD. This suppressed reactivity can persist for up to 6 weeks after treatment discontinuation. Consider deferring the skin test until completion of the immunosuppressive therapy.
+
+Adverse Reactions
+  Headline
+  Adverse Reactions
+  General Information
+  In a randomized controlled trial in patients with squamous cell carcinoma of the head and neck (SCCHN), cardiac arrest/respiratory arrest and/or sudden death occurred in 4/208 (2%) of patients treated with radiation therapy and cetuximab as compared to none of 212 patients treated with radiation therapy alone. Three patients with a history of coronary artery disease died at home, with myocardial infarction as the presumed cause of death. One of these patients had a cardiac arrhythmia, and one had congestive heart failure. Death occurred 27, 32, and 43 days after the last dose of cetuximab. One patient with no prior history of coronary artery disease died one day after the last dose cetuximab. Etiology of these events is unknown. Carefully consider use of cetuximab in combination with radiation therapy in head and neck cancer patients with a history of coronary artery disease, congestive heart failure, or arrhythmias. Closely monitor serum magnesium, potassium, and calcium concentrations during and after cetuximab therapy.Infusion reactions (any event during a clinical study described as an allergic reaction, anaphylactoid reactions, fever, chills, rigors, or dyspnea) are common with administration of cetuximab. The incidence of all infusion reactions (Grade 1—4) was 15% for head and neck patients treated with cetuximab and radiation therapy. In patients with colorectal cancer, infusion reactions occurred in 19% of patients receiving combination therapy with cetuximab plus irinotecan and in 21% of patients treated with cetuximab alone. Although these reactions usually occur with the initial dose, patients may experience their first severe infusion reaction during later infusions. Approximately 90% of severe infusion reactions were associated with the first infusion of cetuximab, despite the use of prophylactic antihistamines. Severe infusion reactions occurred in 3% (46/1485) of patients receiving cetuximab during clinical trials for colorectal cancer or head and neck cancer, rarely with fatal outcome (< 1/1000). Severe infusion reactions are characterized by rapid onset of airway/respiratory obstruction (bronchospasm, stridor, hoarseness, angioedema), urticaria, hypotension, hypertension, shock, loss of consciousness, myocardial infarction, and/or cardiac arrest. Severe infusion reactions require immediate interruption of the cetuximab infusion and permanent discontinuation of therapy. Among 25 patients who had received cetuximab in the past and who had a hypersensitivity reaction after cetuximab receipt, 17 had IgE antibodies against the drug before treatment whereas only 1 of 51 patients without a hypersensitivity reaction had IgE present. The IgE antibodies were specific for an oligosaccharide, galactose--1,3-galactose, which is present on the Fab portion of the cetuximab heavy chain. IgE antibodies against cetuximab were detected in several patients who never received cetuximab: 15 of 72 samples from control subjects in Tennessee, 3 of 49 samples from northern California, and 2 of 341 samples from Boston. Of the 8 patients who had received cetuximab in the past and had a hypersensitivity reaction but had negative results on the IgE assay, 7 had grade 1 or 2 reactions, and 1 had a grade 3 reaction. Five of the 8 patients were rechallenged; 1 had a second hypersensitivity reaction, and four completed treatment without further reactions. During clinical trials, mild to moderate reactions were managed by decreasing the infusion rate and continued use of antihistamines during subsequent doses. Appropriate medical therapy including epinephrine, corticosteroids, intravenous antihistamines, bronchodilators, and oxygen should be available for use in the event of such a reaction. An observation period of 1 hour is recommended after cetuximab infusion for all patients. Monitor patients in a setting with resuscitation equipment and other agents necessary to treat anaphylaxis. Patients who experience infusion-related reactions may require a prolonged observation period. Dose modifications are recommended based upon the severity of infusion-related reactions (see Dosage); severe infusion reactions necessitate immediate and permanent discontinuation of therapy.Interstitial lung disease (ILD) was reported in 3 of 774 (< 0.5%) patients with advanced colorectal cancer and 1 of 796 patients with head and neck cancer receiving cetuximab during clinical trials. Interstitial pneumonitis with non-cardiogenic pulmonary edema resulting in death was reported in one patient with colorectal cancer. In the 2 other colorectal patients, both had pre-existing fibrotic lung disease and experienced an exacerbation in their symptoms while receiving cetuximab/irinotecan combination therapy. The onset of symptoms occurred between the fourth and eleventh doses in all patients. The onset of acute or worsening pulmonary symptoms should lead to the interruption of cetuximab therapy and investigation into the etiology of symptoms. If ILD is confirmed, cetuximab therapy should be permanently discontinued and the patient treated appropriately.Adverse events to cetuximab therapy during advanced colorectal cancer clinical trials affecting the body as a whole include (cetuximab monotherapy, cetuximab/irinotecan combination therapy, respectively) asthenia/malaise/somnolence (48%, 73%), fever (27%, 34%), pain (unspecified) (17%, 23%), infusion reactions (21%, 19%), infection (14%, 16%), back pain (10%, 16%), peripheral edema (10%, 16%), dehydration (10%, 15%), headache (26%, 14%), insomnia (10%, 12%), and depression (7%, 10%). In patients with colorectal cancer, Grade 3 or 4 dehydration was reported in 5% of patients receiving in combination therapy and in 2% of those receiving monotherapy. In the 208 head and neck cancer patients treated with cetuximab plus radiation therapy during clinical trials, the following adverse reactions affecting the body as whole (vs patients treated radiation alone, n=212) were noted: asthenia (56% vs 49%), fever (29% vs 13%), pharyngitis (26% vs 19%), dehydration (25% vs 19%), increased cough (20% vs 19%), headache (19% vs 8%), infusion reactions (15% vs 2%), infection (13% vs 9%), and chills (16% vs 5%). Grade 3 and 4 toxicities were similar between patients treated with cetuximab plus radiation versus radiation alone, with the exception of severe confusion, which was seen in 2% of patients treated with cetuximab and radiation therapy. The incidence of infection (range, 13—35%) was variable across studies. Sepsis occurred in 1—4% of patients.In clinical studies of cetuximab, dermatologic toxicities including acneiform rash, xerosis (dry skin), skin fissures, hypertrichosis, and inflammatory and infectious sequelae (e.g., blepharitis, cheilitis, cellulitis, cyst formation, conjuctivitis, keratitis) were reported. Acneiform rash was defined as any event during the clinical study described as the following: acne, rash (unspecified), maculopapular rash, pustular rash (vesicular rash), dry skin (xerosis), or exfoliative dermatitis. Acneiform rash was reported in 89% of all treated patients with colorectal cancer and was severe (Grade 3 or 4) in 11% of these patients. Acneiform rash occurred in 87% of head and neck cancer patients treated with cetuximab and radiation as compared to 10% of patients treated with radiation alone. The incidence of severe acneiform rash was markedly increased in patients treated with cetuximab plus radiation versus radiation alone (17% vs 1%). The incidence and severity of cutaneous reactions with combined modality therapy seems to be additive, particularly within the radiation port. The acneiform rash has been associated with other EGFR antagonists; the rash can be severe. The rash appears as folliculitis, typically starting on the face, scalp, upper chest, and back, but may extend to the extremities. The onset of rash is generally within the first 2 weeks of therapy. The rash typically resolves once treatment is stopped; although in nearly half of the cases, the rash continued beyond 28 days. In one clinical trial (n=57 patients with metastatic colorectal cancer), patients with a skin rash of any grade had a superior survival compared to patients with no skin rash. There was a trend toward improved survival with increasing grade of rash, with patients with grade 3 rash appearing to have a longer survival as compared to patients with less severe skin rash. Subsequent to the development of severe dermatologic toxicities, complications including infection, S. aureus sepsis (3%), and skin ulcer/abscesses requiring incision and drainage were reported in patients with colorectal cancer. A nail disorder, occurring in 12% of patients with colorectal cancer treated with cetuximab, was characterized by paronychial inflammation with associated swelling of the lateral nail folds of the toes and fingers, with the great toes and thumbs as the most commonly affected digits. Other dermatologic reactions seen in colorectal patients receiving cetuximab monotherapy or cetuximab/irinotecan combination therapy, respectively, included alopecia (5%, 21%), skin disorder (unspecified) (5%, 15%), pruritus (10%, 10%), and conjunctivitis (7%, 14%). In head and neck cancer patients treated with cetuximab plus radiation, other dermatologic reactions reported included radiation dermatitis (overall 86%; Grade 3 and 4 23%), radiation site reaction (18%) and pruritus (16%). Instruct patients to limit sun exposure during cetuximab receipt, and monitor patients for dermatologic toxicities. Patients developing dermatologic toxicities while receiving cetuximab should be monitored for the development of inflammatory or infectious sequelae. If such complications develop, appropriate management techniques should be initiated. Treatment with topical and/or oral antibiotics should be considered depending on the presentation of the skin reaction; topical corticosteroids are not recommended. Interruption of cetuximab receipt is needed if a Grade 3 or 4 acneiform rash occurs; cetuximab dose modification is needed if the rash occurs a second or third time and improves with drug interruption, and cetuximab discontinuation is needed if the rash does not improve or if it occurs a fourth time (see Dosage).The overall incidence of late radiation toxicity (any grade) was higher in head and neck cancer patients treated with cetuximab plus radiation versus those receiving radiation therapy alone. The following sites were affected: salivary glands (65% vs 56%), larynx (52% vs 32%), esophagus (44% vs 35%), skin (42% vs 33%), brain (11% vs 9%), lung (11% vs 8%), spinal cord (4% vs 3%), and bone (4% vs 5%). The incidence of Grade 3 or 4 late radiation toxicities was generally similar between the two groups.Gastrointestinal adverse reactions to cetuximab therapy (cetuximab monotherapy, cetuximab/irinotecan combination therapy, respectively) occurring during advanced colorectal cancer clinical trials include diarrhea (0.2%, 6%), nausea/vomiting (29%/25%, 55%/41%), anorexia (25%, 36%), constipation (28%, 30%), stomatitis (11%, 26%), weight loss (9%, 21%), and dyspepsia (7%, 14%). Abdominal pain was reported in 45% of patients with colorectal cancer receiving cetuximab plus irinotecan. In patients with colorectal cancer, grade 3 diarrhea was reported in 6% of patients treated with combination therapy and < 1% of those treated with cetuximab monotherapy. In the 208 head and neck cancer patients treated with cetuximab plus radiation therapy during clinical trials, the following GI adverse reactions (vs patients treated radiation alone, n=212): mucositis/stomatitis/oral ulceration (93% vs 94%), weight loss (84% vs 72%), xerostomia (dry mouth) (72% vs 71%), dysphagia (65% vs 63%), nausea/vomiting (49%/29% vs 37%/23%), constipation (35% vs 30%), anorexia (27% vs 23%), diarrhea (19% vs 13%), and dyspepsia (14% vs 9%). Grade 3 and 4 toxicities were similar between patients treated with cetuximab plus radiation versus radiation alone.Little to no neutropenia or thrombocytopenia have been reported with cetuximab monotherapy. Leukopenia was reported in 1% of advanced colorectal cancer patients in clinical trials receiving cetuximab monotherapy and in 25% of patients with colorectal cancer receiving cetuximab/irinotecan combination therapy. Anemia was reported in 10% and 16% of advanced colorectal cancer patients, respectively.Pulmonary embolism (1%) and renal failure (unspecified) (1%) were reported during reported during advanced colorectal cancer clinical trials including patients treated with cetuximab. Elevated hepatic enzymes, AST (43%), ALT (38%), and alkaline phosphatase (33%), were reported in a trial of patients with squamous cell carcinoma of the head and neck. The severity of elevation was grade 3 or 4 in <= 2% of patients.Because cetuximab is a murine-derived therapeutic protein, there is the potential for immunogenicity. Due to limitations in assay performance and sample timing, the incidence of antibody formation in patients receiving cetuximab has not been adequately determined. Non-neutralizing antibodies were detected in 5% (28 of 530) evaluable patients. In patients positive for anti-cetuximab antibody, the median time to onset was 44 days (range 8—281 days). Although the number of seropositive patients is limited, there does not appear to be any relationship between the appearance of the antibodies to cetuximab and the safety or antitumor activity of the drug.Electrolyte abnormalities, specifically hypomagnesemia, have been reported to develop within days to months after the administration of cetuximab. A man who was not taking any drugs known to cause magnesium wasting developed symptomatic hypocalcemia and hypomagnesemia (e.g., severe weakness, paresthesias, muscle fasciculations, and fatigue) after 2—4 weeks of taking cetuximab and irinotecan. Intravenous magnesium supplementation rapidly resolved the symptoms and was required for the duration of cetuximab therapy; oral magnesium supplementation was inadequate. After completion of cetuximab therapy, the electrolyte abnormalities resolved. In addition to the case, 8 of 34 patients who received cetuximab had grade 3 or 4 hypomagnesemia (< 0.9 mg/dl). In patients who received cetuximab in clinical trials, hypomagnesemia occurred in 55% of 365 patients; hypomagnesemia was severe (NCI-CTC Grade 3 and 4) in 6—17% of patients. Cetuximab may impair magnesium reabsorption by blocking the epidermal growth factor receptor (EGFR), which is abundantly expressed in the kidney. A significant amount of filtered magnesium is reabsorbed at the ascending limb of the loop of Henle. Patients should be periodically monitored for hypomagnesemia, and accompanying hypocalcemia and hypokalemia, during and after the completion of cetuximab therapy. Periodic electrolyte monitoring should continue for a duration of 8 weeks following the completion of cetuximab therapy. Magnesium supplementation may correct the hypocalcemia, as parathyroid hormone release and its ability to mobilize calcium from the bone are impaired in the setting of hypomagnesemia. Intravenous electrolyte repletion is necessary for those patients experiencing severe electrolyte depletion.
+  Adverse Reactions
+    Headline
+    angina, cardiac arrest, heart failure, myocardial infarction, respiratory arrest
+    General Information
+    Cardiac arrest, respiratory arrest, and/or sudden death occurred in 2% of patients treated with cetuximab plus radiation therapy in a randomized clinical trial (n = 420). Three patients with prior history of coronary artery disease died at home with myocardial infarction as the presumed cause of death at 27, 32, and 43 days after the last dose of cetuximab; one of these patients had arrhythmia and one had congestive heart failure. One patient with no prior history of coronary artery disease died one day after the last dose of cetuximab. Fatal cardiac disorders and/or sudden death occurred in 3% of patients with advanced squamous cell head and neck cancer treated with a cetuximab product in combination with platinum-based chemotherapy and 5-FU (n = 219) in another clinical trial. Acute myocardial infarction, myocardial ischemia, angina pectoris, prinzmetal angina, and heart failure have all been reported with cetuximab therapy in association with infusion reactions.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      cardiac arrest
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      respiratory arrest
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      myocardial infarction
+      Severity
+      Severe
+      GSTerm Name
+      heart failure
+      Severity
+      Severe
+      GSTerm Name
+      angina
+      Severity
+      Moderate
+    Headline
+    pulmonary embolism
+    General Information
+    Pulmonary embolism was reported in 4.4% of patients with KRAS wild-type, EGFR-positive, metastatic colorectal cancer treated with cetuximab in combination with FOLFIRI compared with 3.4% of those who received FOLFIRI alone in a randomized clinical trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      pulmonary embolism
+      Severity
+      Severe
+    Headline
+    cough, dyspnea, pneumonitis
+    General Information
+    Interstitial lung disease (ILD)/pneumonitis, including 1 fatality, occurred in less than 0.5% of patients receiving cetuximab in clinical trials (n = 1,570). Interrupt cetuximab for acute onset or worsening of pulmonary symptoms and permanently discontinue cetuximab therapy if ILD is confirmed. Symptoms including dyspnea (49% vs. 44%; grade 3 or 4, 16% vs. 13%) and cough (30% vs. 19%; grade 3 or 4, 2% vs. 2%) were also reported more frequently in cetuximab-treated patients with KRAS mutation negative, EGFR-expressing, metastatic colorectal carcinoma (n = 118) compared with those receiving best supportive care (n = 124) in an open-label clinical trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      pneumonitis
+      Severity
+      Moderate
+      GSTerm Name
+      cough
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      dyspnea
+      Severity
+      Severe
+      Incidence To
+    Headline
+    fever
+    General Information
+    Fever was reported in 25% to 29% (grade 3 or 4, 1% to 3%) of patients treated with cetuximab monotherapy or in combination with radiation therapy in clinical trials; it was also reported as one of several components of hypersensitivity reactions associated with cetuximab infusions. Fever occurred with a similar frequency in patients treated with cetuximab plus platinum-based chemotherapy in clinical trials (22% to 26%; grade 3 or 4, 1% or less). The incidence of fever was similar in patients with metastatic colorectal cancer who received cetuximab in combination with encorafenib versus irinotecan or FOLFIRI (17% vs. 15%; grade 3 or 4, 1% vs. 1%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      fever
+      Severity
+      Severe
+      Incidence To
+    Headline
+    anaphylactic shock, anaphylactoid reactions, angioedema, bronchospasm, chills, diaphoresis, flushing, hoarseness, hypertension, hypertensive crisis, hypotension, infusion-related reactions, seizures, serious hypersensitivity reactions or anaphylaxis, sinus tachycardia, syncope, tremor, urticaria
+    General Information
+    Serious and fatal infusion-related reactions, including serious hypersensitivity reactions or anaphylaxis, requiring medical intervention and immediate, permanent discontinuation of cetuximab included rapid onset of bronchospasm, stridor, hoarseness, hypotension, anaphylactic shock, loss of consciousness, myocardial infarction, and/or cardiac arrest. Infusion reactions occurred in 8.4% (grade 3 or 4, 2.2%) of patients treated with cetuximab across clinical trials (n = 1,373); approximately 90% of severe infusion reactions occurred with the first infusion despite premedication with antihistamines. The infusion rate may be decreased for mild to moderate reactions; discontinue cetuximab for serious infusion reactions. In individual clinical trials, chills/rigors were reported in 16% (grade 3 or 4, 1% or less) and infusion reactions in 10% to 18% (grade 3 or 4, 2% to 3%) of patients treated with cetuximab. In these trials, the following terms were additionally included as infusion reactions: allergic reaction, anaphylactoid reactions, angioedema, autonomic seizures, bronchospasm, chills (on the first day of dosing), clonus, convulsion, diaphoresis, dyspnea (on the first day of dosing), epilepsy, fever (on the first day of dosing), flushing, hypersensitivity, abnormal/decreased/increased blood pressure, hypertension, hypertensive crisis, hypertensive emergency, hypotension, rigors, shock, sinus tachycardia, syncope, tremor, and urticaria.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      anaphylactoid reactions
+      Severity
+      Severe
+      GSTerm Name
+      angioedema
+      Severity
+      Severe
+      GSTerm Name
+      bronchospasm
+      Severity
+      Severe
+      GSTerm Name
+      chills
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hoarseness
+      Severity
+      Minor
+      GSTerm Name
+      hypertension
+      Severity
+      Moderate
+      GSTerm Name
+      hypotension
+      Severity
+      Moderate
+      GSTerm Name
+      urticaria
+      Severity
+      Minor
+      GSTerm Name
+      flushing
+      Severity
+      Minor
+      GSTerm Name
+      diaphoresis
+      Severity
+      Minor
+      GSTerm Name
+      sinus tachycardia
+      Severity
+      Moderate
+      GSTerm Name
+      tremor
+      Severity
+      Minor
+      GSTerm Name
+      infusion-related reactions
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      anaphylactic shock
+      Severity
+      Severe
+      GSTerm Name
+      hypertensive crisis
+      Severity
+      Severe
+      GSTerm Name
+      seizures
+      Severity
+      Severe
+      GSTerm Name
+      serious hypersensitivity reactions or anaphylaxis
+      Severity
+      Severe
+      GSTerm Name
+      syncope
+      Severity
+      Minor
+    Headline
+    aseptic meningitis, infection, pharyngitis
+    General Information
+    Infection occurred in 13% to 35% of patients treated with cetuximab across clinical trials, with sepsis occurring in 1% to 4% of patients. In patients with metastatic colorectal cancer, non-neutropenic infection occurred in 38% (grade 3 or 4, 11%) of patients treated with cetuximab monotherapy (n = 118) compared with 19% (grade 3 or 4, 5%) of those treated with best supportive care (n = 124). In a randomized clinical trial of patients with head and neck cancer who received radiation therapy with (n = 208) or without (n = 212) cetuximab, infection was reported in 13% (grade 3 or 4, 1%) compared with 9% (grade 3 or 4, 1%) of patients, while pharyngitis was separately reported at 26% (grade 3 or 4, 3%) versus 19% (grade 3 or 4, 4%) of patients, respectively. Infections were also more common in patients receiving cetuximab plus platinum-based chemotherapy (n = 219) compared with chemotherapy alone (n = 215) (44% vs. 27%; grade 3 or 4, 11% vs. 8%) in a randomized clinical trial. Paronychia was reported in one trial of patients receiving FOLFIRI with (n = 317) or without (n = 350) cetuximab (20% vs. less than 1%; grade 3 or 4, 4% vs. 0%). Dermatologic toxicities have also resulted in infectious sequelae in clinical trials, including S. aureus sepsis, abscess formation, and cellulitis. Aseptic meningitis was reported in postmarketing experience with cetuximab.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      aseptic meningitis
+      Severity
+      Severe
+      GSTerm Name
+      infection
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      pharyngitis
+      Severity
+      Severe
+      Incidence To
+    Headline
+    acne vulgaris, acneiform rash, alopecia, cheilitis, Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS), erythema, exfoliative dermatitis, folliculitis, hypertrichosis, maculopapular rash, palmar-plantar erythrodysesthesia (hand and foot syndrome), pruritus, rash, skin erosion, skin hyperpigmentation, Stevens-Johnson syndrome, telangiectasia, toxic epidermal necrolysis, vesicular rash, xerosis
+    General Information
+    Life-threatening and fatal bullous mucocutaneous disease with blisters, skin erosion, and skin sloughing has been observed in postmarketing reports of patients treated with cetuximab. It was not able to be determined whether the reactions were related to EGFR inhibition or to idiosyncratic immune-related effects (e.g., Stevens-Johnson syndrome or toxic epidermal necrolysis). Dermatologic toxicities including skin fissures, cheilitis, and hypertrichosis also occurred. Acneiform rash is very common with cetuximab therapy, occurring in 82% (grade 3 or 4, 9.7%) of patients treated with cetuximab across clinical trials (n = 1,373) acne, exfoliative dermatitis, erythema, maculopapular rash, pustular rash, butterfly rash, drug reaction with eosinophilia and systemic symptoms (DRESS), folliculitis, genital rash, morbilliform rash, vesicular rash, rubelliform rash, scarlatiniform rash, skin hyperpigmentation, skin plaque, telangiectasia, and xerosis. It usually develops within the first 2 weeks of therapy and has lasted more than 28 days after stopping cetuximab in most patients. The incidence of acneiform rash was lower in cetuximab-treated patients receiving concomitant encorafenib compared with those receiving concomitant irinotecan or FOLFIRI. Rash/desquamation (not reported as acneiform) occurred in 95% (grade 3 or 4, 16%) of patients receiving cetuximab monotherapy in one trial. In combination with chemotherapy and reported separately from "acneiform rash", rash occurred in 28% to 44% (grade 3 or 4, 5% to 9%), acne vulgaris in 14% to 22% (grade 3 or 4, 2%), and acneiform dermatitis in 15% to 26% (grade 3 or 4, 2% to 5%) of cetuximab-treated patients; additional dermatologic adverse reactions reported more often in cetuximab-treated patients compared with control arms in clinical trials included xerosis (14% to 57%) and pruritus (14% to 47%; grade 3 or 4, 2% or less). Mild rash (26%), xerosis (13%), pruritus (14%), and melanocytic nevus (14%) occurred in patients treated with cetuximab plus encorafenib. Alopecia occurred in 12% of patients who received cetuximab plus platinum-based chemotherapy, which was similar to chemotherapy alone. Palmar-plantar erythrodysesthesia (hand and foot syndrome) (19% vs. 4%; grade 3 or 4, 4% vs. less than 1%) and skin fissures (19% vs. 1%); grade 3 or 4, 2% vs. 0%) were more common in patients treated with cetuximab plus FOLFIRI compared with FOLFIRI alone. Nail changes occurred in 31% of patients treated with cetuximab monotherapy compared with 4% of those receiving best supportive care; other dermatology reactions occurred in 35% versus 7% (grade 3 or 4, 0% vs. 2%) of patients, respectively. And finally, radiation dermatitis occurred in 86% (grade 3 or 4, 23%) of patients treated with cetuximab plus radiation compared with 90% (grade 3 or 4, 18%) of those treated with radiation alone; application site reactions occurred in 18% versus 12% (grade 3 or 4, 0% vs. 1%) of patients, respectively. Late radiation toxicities to subcutaneous tissue (49% vs. 45%) and skin (42% vs. 33%) were also more common in the cetuximab arm.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      acneiform rash
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      cheilitis
+      Severity
+      Minor
+      GSTerm Name
+      exfoliative dermatitis
+      Severity
+      Severe
+      GSTerm Name
+      hypertrichosis
+      Severity
+      Minor
+      GSTerm Name
+      maculopapular rash
+      Severity
+      Minor
+      GSTerm Name
+      pruritus
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      rash
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      vesicular rash
+      Severity
+      Minor
+      GSTerm Name
+      xerosis
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      acne vulgaris
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      palmar-plantar erythrodysesthesia (hand and foot syndrome)
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      Stevens-Johnson syndrome
+      Severity
+      Severe
+      GSTerm Name
+      toxic epidermal necrolysis
+      Severity
+      Severe
+      GSTerm Name
+      folliculitis
+      Severity
+      Minor
+      GSTerm Name
+      skin hyperpigmentation
+      Severity
+      Minor
+      GSTerm Name
+      telangiectasia
+      Severity
+      Minor
+      GSTerm Name
+      skin erosion
+      Severity
+      Moderate
+      GSTerm Name
+      alopecia
+      Severity
+      Minor
+      Incidence To
+      GSTerm Name
+      Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)
+      Severity
+      Severe
+      GSTerm Name
+      erythema
+      Severity
+      Moderate
+    Headline
+    dyspepsia, nausea, vomiting
+    General Information
+    In general, the addition of cetuximab to a treatment regimen slightly increases the incidence of gastrointestinal adverse reactions. Nausea (64% vs. 50%; grade 3 or 4, 6% vs. 6%) and vomiting (40% vs. 26%; grade 3 or 4, 5% vs. 5%) were more common in patients with metastatic colorectal cancer (mCRC) treated with cetuximab monotherapy compared to those receiving best supportive care in a randomized clinical trial. In patients with locally advanced squamous cell cancer of the head and neck, nausea (49% vs. 37%; grade 3 or 4, 2% vs. 2%), vomiting (29% vs. 23%; grade 3 or 4, 2% vs. 4%), and dyspepsia (14% vs. 9%; grade 3 or 4, 0% vs. 1%) are also more common in patients treated with cetuximab plus radiation compared with radiation therapy alone. Nausea occurred in 54% of head and neck cancer patients treated with cetuximab plus platinum-based chemotherapy compared with 47% of those treated with platinum-based chemotherapy alone (grade 3 or 4, 4% vs. 4%). Nausea occurred in 41% to 55% (grade 3 or 4, 1% or less), vomiting in 29% or less (grade 3 or 4, 3% or less), and dyspepsia in 16% or less of patients with colorectal cancer treated with cetuximab plus FOLFIRI. The incidence of nausea (34% vs. 41%; grade 3 or 4, 1% vs. 1%) and vomiting (21% vs. 29%; grade 3 or 4, 1% vs. 3%) was lower in mCRC patients treated with cetuximab in combination with encorafenib versus irinotecan or FOLFIRI.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      dyspepsia
+      Severity
+      Minor
+      Incidence To
+      GSTerm Name
+      nausea
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      vomiting
+      Severity
+      Severe
+      Incidence To
+    Headline
+    dehydration, renal failure (unspecified)
+    General Information
+    Renal failure (unspecified) was reported in 1% of patients with colorectal cancer treated with cetuximab in clinical trials. Dehydration, which could potentially lead to or exacerbate renal failure, was reported in 13% to 25% (grade 3 or 4, 5% to 6%) of patients receiving cetuximab monotherapy (n = 118) or in combination with radiation therapy (n = 208).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      renal failure (unspecified)
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      dehydration
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    antibody formation
+    General Information
+    Anti-cetuximab binding antibody formation occurred in less than 5% of cetuximab-treated patients with at least 1 post-baseline blood sample (4 weeks or more after first cetuximab infusion). Anti-cetuximab IgE antibodies were present before treatment in 68% of patients who had previously received cetuximab and subsequently had a hypersensitivity reaction (n = 25), whereas only 2% of patients without a hypersensitivity reaction had anti-cetuximab IgE present (n = 51). The IgE antibodies were specific for an oligosaccharide, galactose--1,3-galactose, which is present on the Fab portion of the cetuximab heavy chain; these antibodies have also been detected in patients who never received cetuximab.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      antibody formation
+      Severity
+      Moderate
+      Incidence To
+    Headline
+    hypocalcemia, hypokalemia, hypomagnesemia, hyponatremia
+    General Information
+    Hypomagnesemia occurred in 55% (grade 3 or 4, 6% to 17%) of patients receiving cetuximab in 3 clinical trials. The mechanism may be impaired magnesium reabsorption due to blocking of the epidermal growth factor receptor (EGFR) by cetuximab, which is abundantly expressed in the kidney. A significant amount of filtered magnesium is reabsorbed at the ascending limb of the loop of Henle. When administered in combination with platinum chemotherapy, the incidence of hypomagnesemia (11% vs. 5%; grade 3 or 4, 5% vs. 1%) as well as hypocalcemia (12% vs. 5%; grade 3 or 4, 4% vs. 1%) and hypokalemia (12% vs. 7%; grade 3 or 4, 7% vs. 5%) was higher in those who received cetuximab compared with those who received chemotherapy alone. In a subgroup analysis, hypomagnesemia occurred in 14% (grade 3 or 4, 7%) of patients receiving cetuximab plus cisplatin/fluorouracil and in 4% of patients receiving cetuximab plus carboplatin/fluorouracil. Hypomagnesemia (19% vs. 22%; grade 3 or 4, 0% vs. 1%) and hyponatremia (11% vs. 13%; grade 3 or 4, 2% vs. 2%) occurred with a similar frequency in patients who received cetuximab plus encorafenib versus cetuximab plus irinotecan or FOLFIRI; hypokalemia was more common in the chemotherapy arm (12% vs. 32%; grade 3 or 4, 3% vs. 5%). Electrolyte abnormalities can develop within days to months after the initiation of cetuximab. Monitor patients for hypomagnesemia, hypocalcemia, and hypokalemia during and for at least 8 weeks after the completion of cetuximab. Replete electrolytes as necessary.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hypocalcemia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hypomagnesemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypokalemia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hyponatremia
+      Severity
+      Moderate
+    Headline
+    anxiety, confusion, depression, headache, insomnia, peripheral neuropathy
+    General Information
+    Headache was reported in 38% (grade 3 or 4, 2%) of patients with metastatic colorectal cancer (mCRC) treated with cetuximab compared with 11% (grade 3 or 4, 0%) of those who received best supportive care (BSC) in a randomized clinical trial. In other trials, headache was also more common in mCRC patients receiving cetuximab plus encorafenib compared with cetuximab plus irinotecan or FOLFIRI (20% vs. 3%) and in head and neck cancer patients receiving cetuximab plus radiation compared with radiation therapy alone (19% vs. 8%; grade 3 or 4, less than 1% vs. less than 1%). Peripheral neuropathy occurred in 12% (grade 3 or 4, 1%) of mCRC patients receiving cetuximab plus encorafenib compared with 6% of those who received cetuximab plus chemotherapy. Insomnia occurred in 27% of patients receiving cetuximab monotherapy and in 13% of patients treated with cetuximab plus encorafenib. Additional neurologic adverse reactions that occurred with cetuximab monotherapy included sensory neuropathy (45%; grade 3 or 4, 1%), confusion (18%; grade 3 or 4, 6%), anxiety (14%; grade 3 or 4, 1%), and depression (14%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      anxiety
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      confusion
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      depression
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      headache
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      insomnia
+      Severity
+      Minor
+      Incidence To
+      GSTerm Name
+      peripheral neuropathy
+      Severity
+      Severe
+      Incidence To
+    Headline
+    elevated hepatic enzymes
+    General Information
+    Elevated hepatic enzymes were reported more often in patients with advanced head and neck cancer treated with cetuximab in combination with radiation therapy compared with those treated with radiation therapy alone, including increased ALT (43% vs. 21%; grade 3 or 4, 2% vs. 1%), increased AST (38% vs. 24%; grade 3 or 4, 1% vs. 1%), and increased alkaline phosphatase (33% vs. 24%; grade 3 or 4, less than 1% vs. 0%). Increased ALT (17% vs. 29%; grade 3 or 4, 0% vs. 3%), increased AST (15% vs. 22%; grade 3 or 4, 1% vs. 2%), and increased alkaline phosphatase (18% vs. 30%; grade 3 or 4, 4% vs. 7%) were less common in patients with metastatic colorectal cancer who received cetuximab plus encorafenib compared with those who received cetuximab plus irinotecan or FOLFIRI in another clinical trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      elevated hepatic enzymes
+      Severity
+      Severe
+      Incidence To
+    Headline
+    arthralgia, bone pain, myopathy
+    General Information
+    Bone pain (15%; grade 3 or 4, 4%) and arthralgia (14%; grade 3 or 4, 3%) occurred more often in patients with metastatic colorectal cancer who received cetuximab plus best supportive care (BSC) compared with patients who received BSC alone in a randomized clinical trial. In another trial, arthralgia (27% vs. 3%; grade 3 or 4, 4% vs. 0%), myopathy (15% vs. 4%; grade 3 or 4, 0% vs. 1%), and extremity pain (10% vs. 1%) were also more common in mCRC patients who received cetuximab plus encorafenib compared to cetuximab plus irinotecan or FOLFIRI. Other types of pain were reported in 59% (grade 3 or 4, 18%) of patients in the cetuximab arm compared with 37% (grade 3 or 4, 10%) of those receiving only BSC.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      bone pain
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      arthralgia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      myopathy
+      Severity
+      Moderate
+    Headline
+    asthenia, fatigue, malaise
+    General Information
+    Fatigue was reported in 91% (grade 3 or 4, 31%) of patients with metastatic colorectal cancer (mCRC) treated with cetuximab monotherapy compared with 79% (grade 3 or 4, 29%) of those receiving best supportive care in a randomized clinical trial. The incidence of fatigue was similar in mCRC patients treated with cetuximab in combination with encorafenib versus irinotecan or FOLFIRI (51% vs. 50%; grade 3 or 4, 7% vs. 8%). Asthenia was also more common in patients with advanced head and neck cancer when cetuximab was added to radiation therapy compared with radiation therapy alone (56% vs. 49%; grade 3 or 4, 4% vs. 5%). Asthenia/malaise was among the most frequently reported adverse reactions in patients treated with cetuximab plus irinotecan in clinical trials (73%; grade 3 or 4, 16%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      fatigue
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      asthenia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      malaise
+      Severity
+      Severe
+      Incidence To
+    Headline
+    anemia, leukopenia, lymphopenia, neutropenia
+    General Information
+    In one clinical trial, patients with metastatic colorectal cancer (mCRC) who received cetuximab in combination with FOLFIRI reported neutropenia more often than those treated with FOLFIRI alone (49% vs. 42%; grade 3 or 4, 31% vs. 24%). Additionally, grade 3 or 4 leukopenia was reported in 17% of patients treated with cetuximab plus irinotecan. In another clinical trial, anemia (34% vs. 48%; grade 3 or 4, 4% vs. 5%) and lymphopenia (24% vs. 35%; grade 3 or 4, 7% vs. 5%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      neutropenia
+      Severity
+      Moderate
+      GSTerm Name
+      leukopenia
+      Severity
+      Severe
+      GSTerm Name
+      anemia
+      Severity
+      Moderate
+      GSTerm Name
+      lymphopenia
+      Severity
+      Moderate
+    Headline
+    blepharitis, conjunctivitis, keratitis, visual impairment
+    General Information
+    Blepharitis, conjunctivitis, keratitis, and ulcerative keratitis with decreased visual acuity (visual impairment) have occurred in patients treated with cetuximab in clinical trials. Conjunctivitis was reported in 10% to 18% of patients treated with cetuximab plus chemotherapy (platinum based chemotherapy or FOLFIRI; n = 536) in two separate clinical trials (grade 3 or 4, less than 1%), compared with 3% or less of patients in the chemotherapy arms (n = 565).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      blepharitis
+      Severity
+      Moderate
+      GSTerm Name
+      conjunctivitis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      keratitis
+      Severity
+      Severe
+      GSTerm Name
+      visual impairment
+      Severity
+      Severe
+    Headline
+    constipation, diarrhea
+    General Information
+    Diarrhea occurred in 42% (grade 3 or 4, 2%) of patients with metastatic colorectal cancer (mCRC) treated with cetuximab monotherapy compared with 23% (grade 3 or 4, 2%) of those receiving best supportive care. Constipation was also more common in the cetuximab arm (53% vs. 38%; grade 3 or 4, 3% vs. 3%). In patients with squamous cell cancer of the head and neck (SCCHN), diarrhea occurred in 19% of patients receiving cetuximab plus radiation compared with 13% of those receiving radiation alone (grade 3 or 4, 2% vs. 1%). In combination with chemotherapy, the addition of cetuximab causes a generally modest increase in the incidence of diarrhea, including in patients with SCCHN receiving platinum-based chemotherapy (26% vs. 16%; grade 3 or 4, 5% vs. 1%) and in patients with mCRC receiving FOLFIRI or irinotecan (48% to 72% vs. 60%; grade 3 or 4, 10% to 22% vs. 10%). The incidence of diarrhea was lower in mCRC patients treated with cetuximab in combination with encorafenib versus irinotecan or FOLFIRI (33% vs. 48%; grade 3 or 4, 2% vs. 10%); the incidence of abdominal pain (30% vs. 32%; grade 3 or 4, 4% vs. 5%) and constipation (15% vs. 18%; grade 3 or 4, 0% vs. 1%) were similar.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      constipation
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      diarrhea
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    anorexia, weight loss
+    General Information
+    Weight loss occurred in 84% of patients with squamous cell cancer of the head and neck (SCCHN) treated with cetuximab plus radiation compared with 72% of those receiving radiation alone in a randomized clinical trial (grade 3 or 4, 11% vs. 7%). Decreased appetite or anorexia has been reported with a slightly higher frequency in patients treated with cetuximab added to chemotherapy compared with chemotherapy alone in several clinical trials, including in patients with SCCHN receiving platinum-based chemotherapy (25% vs. 14%; grade 3 or 4, 5% vs. 1%) and in patients with metastatic colorectal cancer (mCRC) receiving irinotecan or FOLFIRI (27% to 30% vs. 23%; grade 3 or 4, 3% vs. 2%). The incidence of decreased appetite was similar in mCRC patients treated with cetuximab in combination with encorafenib versus irinotecan or FOLFIRI (27% vs. 27%; grade 3 or 4, 2% vs. 3%) in another trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      anorexia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      weight loss
+      Severity
+      Severe
+      Incidence To
+    Headline
+    stomatitis, xerostomia
+    General Information
+    Stomatitis occurred in 32% of patients with metastatic colorectal cancer (mCRC) treated with cetuximab monotherapy compared with 10% of those receiving best supportive care in a randomized clinical trial (grade 3 or 4, 1% vs. 0%). Xerostomia was reported in 12% versus 6% of patients, respectively. The overall incidence of late radiation toxicities of any grade was also higher in patients with squamous cell cancer of the head and neck receiving cetuximab plus radiation therapy compared with radiation therapy alone, with sites including salivary glands (65% vs. 56%), larynx (52% vs. 36%), subcutaneous tissue (49% vs. 45%), mucous membrane (48% vs. 39%), esophagus (44% vs. 35%), and skin (42% vs. 33%); the incidence of grade 3 or 4 late radiation toxicities was similar between treatment arms. Stomatitis occurred in 31% of patients with mCRC receiving cetuximab plus FOLFIRI compared with 19% of those receiving FOLFIRI alone (grade 3 or 4, 3% vs. 1%). Mucosal inflammation has also been reported in postmarketing experience with cetuximab.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      stomatitis
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      xerostomia
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+    Headline
+    dysgeusia
+    General Information
+    Dysgeusia occurred in 10% of patients with metastatic colorectal cancer treated with cetuximab monotherapy compared with 5% of those receiving best supportive care in a randomized clinical trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      dysgeusia
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+    Headline
+    bleeding, prolonged bleeding time
+    General Information
+    Bleeding/hemorrhage occurred in 19% (grade 3 or 4, 2%) of patients with metastatic colorectal cancer treated with cetuximab plus encorafenib compared with 9% of those who received cetuximab plus irinotecan or FOLFIRI in a randomized clinical trial; one patient in the encorafenib arm died. Prolonged bleeding time also occurred, with increased activated partial thromboplastin time (aPTT) reported in 13% (grade 3 or 4, 1%) of patients in the encorafenib arm compared with 7% (grade 3 or 4, 1%) of those in the chemotherapy arm.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      bleeding
+      Severity
+      Moderate
+      GSTerm Name
+      prolonged bleeding time
+      Severity
+      Moderate
+    Headline
+    pancreatitis
+    General Information
+    Pancreatitis occurred in less than 10% of patients with metastatic colorectal cancer treated with cetuximab plus encorafenib in a randomized clinical trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      pancreatitis
+      Severity
+      Severe
+    Headline
+    infertility
+    General Information
+    Based on data from animal studies, cetuximab may cause female infertility.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      infertility
+      Severity
+      Moderate
+
+Description
+  Text
+  Cetuximab is a recombinant, human/mouse chimeric monoclonal antibody that binds specifically to the extracellular domain of the human epidermal growth factor receptor (EGFR), mediating antibody-dependent cellular cytotoxicity (ADCC) against certain human tumor types. It is indicated for the treatment of advanced head and neck cancer in combination with radiation therapy or platinum-based chemotherapy, or as monotherapy following progression after platinum-based therapy; for the treatment of advanced KRAS wild-type, EGFR-positive colorectal cancer (CRC) in combination with FOLFIRI or irinotecan, or as monotherapy in patients who have failed oxaliplatin- and irinotecan-based chemotherapy or are intolerant to irinotecan; and for the treatment of BRAF V600E mutation-positive metastatic CRC in combination with encorafenib. In vitro assays and in vivo animal studies have shown that cetuximab inhibits the growth and survival of tumor cells that express EGFR; no anti-tumor effects were observed in human tumor xenografts lacking EGFR expression. Induction of EGFR-mediated MAPK pathway activation has been identified as a mechanism of resistance to BRAF inhibitors in BRAF-mutant CRC; combinations of a BRAF inhibitor and EGFR inhibitors have overcome this resistance in nonclinical models. Confirmation of EGFR and Ras status, as well as BRAF V600E mutation status if applicable, is required prior to treatment for CRC; because EGFR expression has been detected in nearly all SCCHN tumor specimens, patients are not required to have immunohistochemical evidence of EGFR tumor expression prior to treatment. Treatment with cetuximab can result in severe infusion-related reactions as well as cardiopulmonary arrest and sudden death. Closely monitor serum electrolytes, including serum magnesium, potassium, and calcium, during and after treatment with cetuximab. Mucocutaneous adverse reactions and dermatologic toxicities are also common; patients should be instructed to limit sun exposure.
+
+Mechanism Of Action
+  Text
+  Cetuximab is a recombinant human/mouse chimeric monoclonal antibody that binds specifically to the extracellular domain of the human epidermal growth factor receptor (EGFR). It is composed of the Fv regions of a murine anti-EGFR antibody with human IgG1 heavy and kappa light chain constant regions, and is produced in a mammalian (murine myeloma) cell culture. The EGFR is a transmembrane glycoprotein that is a member of a subfamily of type 1 receptor tyrosine kinases including EGFR, HER2, HER3, and HER4. It is constitutively expressed in many normal epithelial tissues, including the skin and hair follicle, but is also detected in many human cancers including those of the head and neck, colon, and rectum.
+Cetuximab binds to EGFR on both normal and tumor cells, competitively inhibiting the binding of epidermal growth factor (EGF) and other ligands such as transforming growth factor-alpha. In vitro assays and in vivo animal studies have shown that binding of cetuximab to the EGFR blocks phosphorylation and activation of receptor-associated kinases, resulting in inhibition of cell growth, induction of apoptosis, and decreased matrix metalloproteinase and vascular endothelial growth factor (VEGF) production. Signal transduction through EGFR activates wild-type Ras proteins; however, in cells with activating Ras somatic mutations, the resulting mutant Ras proteins are continuously active regardless of EGFR regulation.
+In vitro, cetuximab can mediate antibody-dependent cellular cytotoxicity (ADCC) against certain human tumor types. In vitro assays and in vivo animal studies have shown that cetuximab inhibits the growth and survival of tumor cells that express EGFR; no anti-tumor effects of cetuximab were observed in human tumor xenografts lacking EGFR expression. The addition of cetuximab to radiation therapy or irinotecan in human tumor xenograft models in mice resulted in an increase in anti-tumor effects compared to radiation therapy or chemotherapy alone.
+Induction of EGFR-mediated MAPK pathway activation has been identified as a mechanism of resistance to BRAF inhibitors in patients with BRAF-mutant colorectal cancer. In nonclinical models, combinations of a BRAF inhibitor with an EGFR inhibitor have been shown to overcome this resistance mechanism. Coadministration of cetuximab with encorafenib had an antitumor effect greater than either drug alone in a mouse model of colorectal cancer with mutated BRAF V600E.
+
+Pharmacokinetics
+  Route Specific Pharmacokinetics
+    Name
+    Intravenous Route
+    Description
+    The AUC increased in a greater than dose proportional manner as the dose increased from 20 mg/m2 to 200 mg/m2; at doses greater than 200 mg/m2, the AUC appeared to plateau. Mean peak (Cmax) concentrations across studies ranged from 168 mcg/mL to 235 mcg/mL, while mean trough (Cmin) concentrations ranged from 41 mcg/mL to 85 mcg/mL when administered at the recommended dose regimen (400 mg/m2 initial dose, followed by 250 mg/m2 once weekly). In a population pharmacokinetic analysis from two clinical trials, cetuximab had an approximately 22% (90% confidence interval, 6% to 38%) higher systemic exposure compared to EU-approved cetuximab.
+  Special Populations
+    Name
+    Hepatic Impairment
+    Description
+    Hepatic function did not have a clinically significant effect on the pharmacokinetics of cetuximab.
+    Name
+    Renal Impairment
+    Description
+    Renal function did not have a clinically significant effect on the pharmacokinetics of cetuximab.
+    Name
+    Pediatrics
+    Description
+    The pharmacokinetics of cetuximab in pediatric patients age 1 to 12 years (n = 9) were similar to pediatric patients age 13 to 18 years (n = 6) at the 75 mg/m2 and 150 mg/m2 single dose levels in an open-label, single-arm, dose-finding study of pediatric patients with refractory solid tumors receiving concomitant irinotecan. The volume of distribution appeared to be independent of dose and approximated the vascular space of 2 to 3 Liters/m2. Following a single dose of 150 mg/m2, the geometric mean AUC (CV%) was 17.7 mg x hour/mL (34%) in the younger age group and 13.4 mg x hour/mL in the adolescent group; the mean half-life was 110 hours (range, 69 to 188 hours) and 82 hours (range, 55 to 117 hours), respectively.
+    Name
+    Geriatric
+    Description
+    Age did not have a clinically significant effect on the pharmacokinetics of cetuximab.
+    Name
+    Gender Differences
+    Description
+    Gender did not have a clinically significant effect on the pharmacokinetics of cetuximab.
+    Name
+    Ethnic Differences
+    Description
+    Ethnicity did not have a clinically significant effect on the pharmacokinetics of cetuximab.
+    Name
+    Obesity
+    Description
+    Clearance of cetuximab increased by 1.8-fold as body surface area increased from 1.3 m2 to 2.3 m2, which is consistent with the recommended dosing of cetuximab on a mg/m2 basis.
+  Text
+  Cetuximab is administered as an IV infusion and exhibits nonlinear pharmacokinetics when administered both as monotherapy or in combination with chemotherapy. The volume of distribution (Vd) approximates the vascular space of 2 to 3 Liters/m2 and appears to be independent of dose. Steady-state is reached by the third weekly infusion when administered at the recommended dose regimen (400 mg/m2 initial dose, followed by 250 mg/m2 once weekly); the mean half-life was approximately 112 hours (range, 63 to 230 hours). Clearance of cetuximab decreased from 0.08 Liters/hour/m2 to 0.02 Liters/hour/m2 as the dose increased from 20 mg/m2 to 200 mg/m2.
+
+Administration
+  General Information
+  For storage information, see the specific product information within the How Supplied section.
+Emetic Risk
+Low
+Administer routine antiemetic prophylaxis prior to treatment.
+Premedications
+Administer an IV histamine-1 (H1) receptor antagonist 30 to 60 minutes prior to the first dose or subsequent doses as necessary.
+Patient Counseling
+Advise patients to limit sun exposure during treatment and for 2 months after the last dose of cetuximab.
+  Route Specific Administrations
+    Administration Details
+      Name
+      Intravenous Administration
+      Description
+      Only administer in a hospital or clinic setting with full resuscitation equipment and under the supervision of a physician experienced with chemotherapy administration.
+Premedicate 30 to 60 minutes prior to the first dose or subsequent doses with an IV H1 antagonist (e.g., diphenhydramine 50 mg) as necessary.
+Do not shake or further dilute vial. Do not mix with other medications.
+Administer only as an IV infusion via a controlled rate IV infusion pump or syringe pump with a low-protein binding 0.22 micrometer in-line filter; do not administer as a bolus injection or as an intravenous push.
+Infuse 400 mg/m2 and 500 mg/m2 doses over 2 hours (maximum rate, 10 mg/minute).
+Infuse 250 mg/m2 doses over 1 hour (maximum rate, 10 mg/minute).
+Following completion of infusion, monitor patients for at least one hour. Appropriate medical resources for the treatment of severe infusion reactions should be available during cetuximab infusion (e.g., epinephrine, corticosteroids, IV antihistamines, bronchodilators, and oxygen). For individuals who experience infusion-related reactions, a prolonged observation period may be required to confirm resolution.
+    Name
+    Injectable Administration
+    Description
+    Visually inspect parenteral products for particulate matter and discoloration prior to administration whenever solution and container permit.
+
+Maximum Dosage Limits
+  Age Groups
+    Name
+    Adults
+    Max Dosage
+    400 mg/m2 IV for the initial dose then 250 mg/m2 IV once weekly for subsequent doses; OR 500 mg/m2 IV every 2 weeks.
+    Name
+    Geriatric
+    Max Dosage
+    400 mg/m2 IV for the initial dose then 250 mg/m2 IV once weekly for subsequent doses; OR 500 mg/m2 IV every 2 weeks.
+    Name
+    Adolescents
+    Max Dosage
+    Safety and efficacy have not been established.
+    Name
+    Children
+    Max Dosage
+    Safety and efficacy have not been established.
+
+Dosage Adjustment Guidelines
+  Hepatic Impairment
+  Specific guidelines for dosage adjustments in hepatic impairment are not available; it appears that no dosage adjustments are needed.
+  Renal Impairment
+  Specific guidelines for dosage adjustments in renal impairment are not available; it appears that no dosage adjustments are needed.

@@ -1,0 +1,769 @@
+=== lamiVUDine/Zidovudine (Merck Manual Professional) ===
+Source: https://www.merckmanuals.com/professional/drug-names-generic-and-brand (productid 2266)
+Retrieved: 2026-09-25
+NURSING QUICK-REFERENCE SUMMARY
+Auto-generated on 2026-09-25 from the prescribing information in this file; full details follow below.
+
+Drug Class: Lamivudine; zidovudine is a combination of two nucleoside reverse transcriptase inhibitors (NRTIs), approved for use with other antiretroviral agents to treat human immunodeficiency virus type 1 (HIV-1) infections in adults and pediatric patients weighing at least 30 kg.
+
+Routes: oral; Common adult doses: 300 mg per day lamivudine and 600 mg per day zidovudine PO.
+
+Common Side Effects (excluding routine GI upset): elevated hepatic enzymes, hepatitis b exacerbation, hepatomegaly, hepatotoxicity, hyperbilirubinemia, lactic acidosis, steatosis, anemia, bone marrow suppression, lymphadenopathy, neutropenia, red cell aplasia, splenomegaly, thrombocytopenia, depression, dizziness, headache, insomnia, seizures, arthralgia, elevated creatine kinase, musculoskeletal pain, myalgia, myopathy, rhabdomyolysis, weakness, anaphylactoid reactions, chills, fatigue, fever
+
+In an Overdose: No overdose/antidote information is listed in this file.
+
+Key Nursing Considerations: Contraindications/precautions: Lamivudine, 3TC; zidovudine, ZDV (Combivir®) should not be administered to children weighing less than 30 kg because it is a fixed-dose combination that cannot be adjusted for this patient population. In addition, lamivudine, 3TC; zidovudine, ZDV (Combivir®) should not be used in any patients who... Hazardous drug: NIOSH 2024 List: Table 2
+
+Brand Names
+  - Combivir
+
+Dosage Forms
+  - Lamivudine 150mg, Zidovudine 300mg Oral tablet
+
+Indication Specific Dosing
+  General Information
+  General Dosing Information
+Initiation of therapy for HIV treatment
+For adults, initiation of treatment immediately (or as soon as possible) after HIV diagnosis is recommended in all patients to reduce the risk of disease progression and to prevent the transmission of HIV, including perinatal transmission and transmission to sexual partners.
+Starting antiretroviral therapy early is particularly important for patients with AIDS-defining conditions, those with acute or recent HIV infection, and individuals who are pregnant; delaying therapy in these subpopulations has been associated with high risks of morbidity, mortality, and HIV transmission.
+For patients receiving an HIV diagnosis while hospitalized, it is recommended to initiate treatment during hospitalization whenever possible. Further, ensure a sufficient supply of medication (e.g., at least 2 to 4 weeks) is available to cover until the outpatient clinic appointment.
+For elite controllers (i.e., patients who maintain viral loads below the level of quantification for years without treatment), antiretroviral therapy is still recommended. If deferred, closely monitor these patients as some may experience CD4 count decline, loss of viral control, or HIV-related complications.
+Prior to initiating treatment, obtain baseline plasma HIV RNA (viral load) and CD4 count; results do not need to be available before starting therapy.
+Antiretroviral drug-resistance testing:
+Genotypic drug-resistance testing is recommended prior to initiation of therapy and prior to changing therapy for treatment failure.
+Standard genotypic drug-resistance testing in treatment-naive people should focus on testing for mutations in reverse transcriptase (RT) and protease (PR) genes.
+Testing for mutations in the integrase gene should also be performed if integrase strand transfer inhibitor (INSTI) resistance is a concern (i.e., prior exposure to INSTI for pre-exposure prophylaxis, post-exposure prophylaxis, or treatment).
+For patients who previously received long-acting cabotegravir or cabotegravir; rilpivirine, resistance testing (including INSTI genotypic testing) should be conducted regardless of the time since the last dose as INSTI and NNRTI mutations may emerge months after the last dose.
+Phenotypic resistance testing may be used in conjunction with the genotypic test for patients with known or suspected complex drug-resistance mutation patterns.
+HIV-1 proviral DNA resistance testing is available for use in patients with HIV RNA concentrations below the limits of detection or with low-level viremia (i.e., less than 1,000 copies/mL), where genotypic testing is unlikely to be successful; however, the clinical utility of this assay has not been fully determined.
+It is not necessary to delay treatment until resistance test results are available; however, subsequent modifications to the treatment regimen should be made, if needed, once the test results are available.
+Pediatric guidelines are also available.
+ 
+Place in therapy for HIV infection
+For pregnant women, lamivudine; zidovudine is an alternative 2-NRTI backbone.
+Due to an increased risk for toxicities, use of this drug as part of an initial treatment regimen for non-pregnant, treatment-naive adults and adolescents is not recommended.
+Pediatric guidelines are also available.
+  Indications
+    Routes
+      Heading
+      Oral dosage
+      Route Age Groups
+        Heading
+        Adults weighing 30 kg or more
+        Dosage Description
+        1 tablet (lamivudine 150 mg; zidovudine 300 mg) PO twice daily. Assess patient for the ability to swallow tablets; if a patient is not able to reliably swallow tablets, use the liquid formulation of the individual components.
+        Heading
+        Children and Adolescents weighing 30 kg or more
+        Dosage Description
+        1 tablet (lamivudine 150 mg; zidovudine 300 mg) PO twice daily. Assess patient for the ability to swallow tablets; if a patient is not able to reliably swallow tablets, use the liquid formulation of the individual components.
+    Heading
+    For the treatment of human immunodeficiency virus (HIV) infection in combination with other antiretroviral agents
+
+Contraindications And Precautions
+  Headline
+  Contraindications/Warnings/Precautions
+  General Information
+  Lamivudine, 3TC; zidovudine, ZDV (Combivir®) should not be administered to children weighing less than 30 kg  because it is a fixed-dose combination that cannot be adjusted for this patient population. In addition, lamivudine, 3TC; zidovudine, ZDV (Combivir®) should not be used in any patients who weigh less than 30 kg because reduced doses of lamivudine are recommended for patients with low body weight.
+ 
+Because lamivudine and zidovudine require dose adjustment in the presence of renal insufficiency, lamivudine, 3TC; zidovudine, ZDV (Combivir®) is not recommended for patients with renal impairment or renal failure (i.e., CrCl = 2 times the patient's baseline ALT) in about 20% of patients. A smaller percentage (2—4%) of hepatitis B patients discontinuing lamivudine have had clinically notable post-treatment recurrences of hepatitis (i.e., peak ALT > 500 IU/ml and/or elevation of serum bilirubin). Most events appear to be self-limiting, although fatalities have been reported. Patients should be closely monitored with clinical and laboratory follow-up for several months after stopping treatment. There is not sufficient evidence to determine whether the reinitiation of lamivudine alters the course of post-treatment exacerbations of hepatitis. Lamivudine-resistant HBV strains have been reported in co-infected patients receiving lamivudine as part of their anti-HIV treatment regimen. Perform hepatitis B virus (HBV) screening in any patient who presents with HIV-infection to assure appropriate treatment. Patients who are co-infected with HIV and HBV and require treatment for either infection should be started on a fully suppressive antiretroviral regimen that contains NRTIs with activity against both viruses. Avoid using single-drug therapy to treat HBV (i.e., lamivudine, emtricitabine, or tenofovir as the only active agent) due to the risk of developing resistant strains of HIV. A commonly suggested dual-treatment regimen includes tenofovir plus either emtricitabine or lamivudine; if tenofovir cannot be used, another agent with anti-HBV activity should be used in combination with lamivudine or emtricitabine to assure adequate treatment of HBV infection. Management of HIV should be continued with the goal of maximal suppression.
+ 
+Lamivudine; zidovudine (Combivir®) should be used with caution in patients with dental disease. Zidovudine can cause myelosuppression, which may increase the risk for infection. If hematologic toxicity develops while the patient is receiving lamivudine; zidovudine (Combivir®), dental work should be deferred until blood counts return to normal.
+ 
+Lamivudine; zidovudine should be used with caution in patients with a history of pancreatitis or significant risk factors for the development of pancreatitis. In addition, there appears to be a significant risk of pancreatitis in pediatric patients treated with lamivudine. Lamivudine; zidovudine (Combivir®) should be terminated if any clinical signs or symptoms of pancreatitis develop, or if laboratory abnormalities suggest pancreatitis.
+ 
+Patients with peripheral neuropathy can experience exacerbations during lamivudine; zidovudine (Combivir®) therapy. (see Adverse Reactions).
+ 
+Antiretroviral prophylaxis should be provided to all women during pregnancy, regardless of HIV RNA concentrations or CD4 cell count. Using highly active antiretroviral combination therapy to maximally suppress viral replication is the most effective strategy to prevent the development of resistance and to minimize the risk of perinatal transmission. Lamivudine; zidovudine (Combivir®) is classified as FDA pregnancy risk category C. NRTIs are known to induce mitochondrial dysfunction. An association of mitochondrial dysfunction in infants and in-utero antiretroviral exposure has been suggested, but not established. While the development of severe or fatal mitochondrial disease in exposed infants appears to be extremely rare, more intensive monitoring of hematologic and electrolyte parameters during the first few weeks of life is advised. Nucleoside analogs have been associated with the development of lactic acidosis, especially during pregnancy. It is unclear if pregnancy augments the incidence of lactic acidosis/hepatic steatosis in patients receiving nucleoside analogs. However, because pregnancy itself can mimic some of the early symptoms of the lactic acid/hepatic steatosis syndrome or be associated with other significant disorders of liver metabolism, clinicians need to be alert for early diagnosis of this syndrome. Pregnant women receiving nucleoside analogs should have LFTs and serum electrolytes assessed more frequently during the last trimester of pregnancy and any new symptoms should be evaluated thoroughly. Women who are currently receiving antiretroviral treatment when pregnancy is recognized should continue their treatment regimen if it is currently effective in suppressing viral replication; if there is detectable viremia, perform resistance testing. For women not currently receiving antiretroviral therapy when the pregnancy is recognized, determination of treatment should be based on the same parameters used for non-pregnant patients (including resistance testing prior to treatment). Initiate treatment as soon as possible in women who require immediate treatment for their own health. Women who do not require immediate treatment may consider delaying initiation until after 10—12 weeks gestation. For women not currently receiving treatment, but who have previously received treatment, obtain a complete and accurate history of all prior antiretroviral regimens used and results of prior resistance testing, and perform resistance testing prior to initiating therapy. Zidovudine should be included in the antenatal treatment regimen unless there is severe toxicity associated with use or documented resistance. Regular laboratory monitoring is recommended to determine antiretroviral efficacy. Monitor CD4 counts at the initial visit and at least every 3 months; monitor plasma HIV RNA at the initial visit, 2 to 6 weeks after initiating/changing therapy, monthly until undetectable, and then at least every 2 months, and at 34 to 36 weeks gestation. Perform antiretroviral resistance testing in the presence of persistently detectable HIV RNA despite antiretroviral receipt; assess patient adherence and consult an HIV treatment expert to guide changes in therapy. Given the limited data on the effect of combination therapy on the fetus, second trimester ultrasound to assess fetal anatomy may be prudent in women who received antiretroviral therapy during the first trimester (particularly if the regimen included efavirenz). Perform standard glucose screening in women receiving antiretroviral therapy, although it should be noted that some experts would perform earlier screening with ongoing chronic protease inhibitor-based therapy initiated prior to pregnancy, similar to recommendations for women with high-risk factors for glucose intolerance. All pregnant women should be counseled about the importance of adherence to their antiretroviral regimen to reduce the potential for development of resistance and perinatal transmission. If a woman decides to discontinue therapy, a planned treatment interruption, taking into account the specific pharmacokinetic and administration parameters of each drug, should occur to avoid true or functional monotherapy and the development of resistance. It is strongly recommended that health care providers report cases of antenatal antiretroviral drug exposure to the Antiretroviral Pregnancy Registry; telephone 800—258—4263; fax 800—800—1052; the Antiretroviral Pregnancy Registry is also accessible via the Internet.
+ 
+Breast-feeding is not recommended by the Centers for Disease Control and Prevention by HIV-infected mothers to avoid the risk of postnatal transmission of HIV. Thus, in the US, HIV-infected mothers should be instructed not to breast-feed, even if they are receiving lamivudine; zidovudine (Combivir®).
+ 
+Testing for HIV antimicrobial resistance is recommended in anti-retroviral treatment naive patients who present with HIV RNA > 1,000 copies/ml, regardless of whether treatment will be initiated. Additionally, perform antimicrobial resistance testing prior to initiating or changing any HIV treatment regimen. Transmission of drug-resistant HIV strains has been both well documented and associated with suboptimal virologic response to initial antiretroviral therapy. In the US and Europe, recent studies suggest that 6—16% of transmitted virus will be resistant to at least one antiretroviral drug, with 3—5% exhibiting reduced susceptibility to more than one class of drugs; therefore, resistance testing at baseline can help optimize treatment and, thus, virologic response. In the absence of therapy, resistant viruses may decline over time to less than the detection limit of standard resistance tests, but may still increase the risk of treatment failure when therapy is eventually initiated. Thus, resistance testing during acute HIV infection should be performed with the genotypic resistance test results kept in the patient's medical record until it becomes clinically useful. Additionally, because of the possibility of acquisition of another drug-resistant virus before treatment initiation, repeat resistance testing at the time therapy is initiated would be prudent. As with all other antiretroviral agents, antimicrobial resistance can develop when lamivudine; zidovudine (Combivir®) is used either alone or in combination with other agents. Monotherapy with lamivudine; zidovudine (Combivir®) is not recommended.
+ 
+Immune reconstitution syndrome has been reported in patients treated with combination antiretroviral therapy. During the initial phase of HIV treatment, patients whose immune system responds to antiretroviral therapy may develop an inflammatory response to indolent or residual opportunistic infections (such as mycobacterium avium complex (MAC), cytomegalovirus (CMV), Pneumocystis carinii pneumonia (PCP), or tuberculosis (TB)), which may necessitate further evaluation and treatment.
+ 
+Unplanned antiretroviral therapy interruption may be necessary in specific situations, such as serious drug toxicity, intercurrent illness or surgery precluding oral intake (e.g., gastroenteritis or pancreatitis), severe pregnancy-induced hyperemesis unresponsive to antiemetics, or drug non-availability. If short-term treatment interruption is necessary, in general it is recommended that all antiretroviral agents be discontinued simultaneously, especially if the interruption is because of serious toxicity. However, if a short-term treatment interruption is anticipated in the case of elective surgery, the pharmacokinetic properties and food requirements of specific drugs should be considered. When the antiretroviral regimen contains drugs with differing half-lives, stopping all drugs simultaneously may result in functional monotherapy of the drug with the longest half-life. For example, after discontinuation, the duration of detectable drug concentrations of efavirenz and nevirapine range from 3 weeks. Simultaneously stopping all drugs in a regimen containing these agents may result in functional monotherapy with the NNRTI and may increase the risk of NNRTI-resistant mutations. Planned treatment discontinuation has been suggested as a strategy in certain situations, such as to reduce costs and long-term toxicity in patients who achieve viral suppression or to allow reversion to wild-type virus in patients who experience treatment failure. While research is ongoing, no approaches can be recommended outside of controlled clinical trials; data currently do not support planned treatment interruptions. In particular, treatment interruption is not recommended in patients who have few treatment options available (i.e., exposure to multiple antiretroviral agents, antiretroviral treatment failure, or extensive resistance mutations) unless done in a clinical trial setting. Several clinical trials, yielding conflicting results, have been conducted to better understand the role of treatment interruption in these patients.
+ 
+Monitor patients for signs of myopathy and myositis, as they have been reported, along with pathological changes similar to that produced by HIV, with prolonged use of zidovudine.
+  Contraindications And Precautions
+    Headline
+    Drug Interactions
+    General Information
+    The coadministration of certain medications may lead to harm and require avoidance or therapy modification; review all drug interactions prior to concomitant use of other medications.
+    Headline
+    Child-Pugh class A, Child-Pugh class B, Child-Pugh class C
+    General Information
+    Lamivudine; zidovudine is not recommended for use in persons with mild (Child-Pugh class A), moderate (Child-Pugh class B), or severe (Child-Pugh class C) hepatic impairment. The zidovudine component is eliminated by hepatic metabolism, and increased zidovudine concentrations resulting from reduced metabolism may increase the risk of hematologic toxicities. Frequent monitoring for these toxicities is advised.
+    Headline
+    Hypersensitivity
+    General Information
+    This medication is contraindicated in patients with a history of hypersensitivity to it or any of its components.
+    Headline
+    renal failure, renal impairment
+    General Information
+    The lamivudine; zidovudine combination product is not recommended for use in persons with moderate or severe renal impairment (CrCl less than 50 mL/minute), including those with renal failure. If a dose reduction of the lamivudine or zidovudine components is required for a person with renal impairment, then the individual component should be used.
+    Headline
+    bone marrow suppression, hematologic toxicity
+    General Information
+    Zidovudine-associated hematologic toxicity appears to be related to pretreatment bone marrow reserve and to dose and duration of therapy. Administer lamivudine; zidovudine with extreme caution to patients with bone marrow suppression, especially neutropenia or anemia (e.g., granulocyte count less than 1,000 cells/mm3 or hemoglobin less than 9.5 g/dL). Frequent blood counts are strongly recommended in patients with advanced HIV disease who are receiving treatment with lamivudine; zidovudine. Periodic blood counts are recommended for other drug recipients. An interruption of treatment may be needed if anemia or neutropenia develops.
+    Headline
+    General Information
+    General Information
+    During baseline evaluation of people with HIV, discuss risk reduction measures and the need for status disclosure to sexual or needle-sharing partners, especially with untreated patients who are still at high risk of HIV transmission. Include the importance of adherence to therapy to achieve and maintain a plasma HIV RNA less than 200 copies/mL. Maintaining a plasma HIV RNA less than 200 copies/mL, including any measurable value below this threshold, with antiretroviral therapy prevents sexual transmission of HIV to their partners. Patients may recognize this concept as Undetectable = Untransmittable or U=U. Instruct patients to achieve sustained viral suppression (i.e., 2 recorded measurements of plasma viral loads that are below the limits of detection and taken at least 3 months apart) before attempting to conceive a child in order to maximize their health, prevent HIV sexual transmission, and minimize the risk of HIV transmission to the infant once conception occurs. For partners with different HIV status when the person with HIV is on antiretroviral therapy and has achieved sustained viral suppression, sexual intercourse without a condom allows conception without sexual HIV transmission to the person without HIV; expert consultation is recommended. If the partner with HIV has not been able to achieve viral suppression, has an unknown viral suppression status, or has the potential for inconsistent adherence during the periconception period, the use of pre-exposure prophylaxis (PrEP) by the partner without HIV is an option to reduce the risk of sexual HIV acquisition.
+ 
+Testing for human immunodeficiency virus (HIV) infection resistance is recommended in all antiretroviral treatment-naive patients at the time of HIV diagnosis, regardless of whether treatment will be initiated. Additionally, perform resistance testing prior to initiating or changing any HIV treatment regimen. Transmission of drug-resistant HIV strains has been both well documented and associated with suboptimal virologic response to initial antiretroviral therapy. The prevalence of transmitted drug resistance (TDR) in high-income countries ranges from 9% to 14% and varies by country. In most TDR surveys, non-nucleoside reverse transcriptase inhibitor (NNRTI) resistance and nucleoside reverse transcriptase inhibitor (NRTI) resistance are the most common mutation class types detected, followed by protease inhibitor (PI) and integrase strand transfer inhibitor (INSTI) resistance mutations, respectively. Resistance testing at baseline can help optimize treatment and, thus, virologic response. In the absence of therapy, resistant viruses may decline over time to less than the detection limit of standard resistance tests, but may still increase the risk of treatment failure when therapy is eventually initiated. Thus, if therapy is deferred, resistance testing should still be performed during acute HIV infection with the genotypic resistance test result kept in the patient's medical record until it becomes clinically useful. Additionally, because of the possibility of acquisition of another drug-resistant virus before treatment initiation, repeat resistance testing at the time therapy is initiated would be prudent.
+ 
+Perform hepatitis A virus (HAV) and hepatitis B virus (HBV) screening in any patient who presents with HIV infection to assure appropriate treatment. If the HBV screening is positive, additional testing for hepatitis D virus (HDV) is recommended. Patients with HIV and HBV/HDV coinfection should be referred to an expert in the management of viral hepatitis. Patients with hepatitis B and HIV coinfection should be started on a fully suppressive antiretroviral (ARV) regimen with activity against both viruses (regardless of CD4 counts and HBV DNA concentrations). HIV treatment guidelines recommend these patients receive an ARV regimen that contains a dual NRTI backbone of tenofovir alafenamide or tenofovir disoproxil fumarate with either emtricitabine or lamivudine. Both tenofovir products are active against HBV and can be used as HBV monotherapy. Emtricitabine and lamivudine are also active against HBV; however, they are not recommended for use as monotherapy due to the potential for HBV resistance. Therefore, if tenofovir cannot be used, entecavir should be given in combination with a fully suppressive ARV regimen (NOTE: entecavir should not be considered part of the ARV regimen). Avoid HBV treatment regimens that include adefovir or peginterferon alfa, as these regimens are associated with a higher incidence of toxicities and increased rates of HBV treatment failure. In rare cases, peginterferon alfa can remain a treatment option after consultation with an expert. Most patients with coinfection should continue treatment indefinitely with the goal of maximal HIV suppression and prevention of HBV relapse. If treatment must be discontinued, monitor transaminase concentrations every 6 weeks for the first 3 months, and every 3 to 6 months thereafter. Instruct patients with hepatitis and HIV coinfection to avoid consuming alcohol, and offer vaccinations against hepatitis A and hepatitis B as appropriate.
+ 
+HIV treatment guidelines recommend all patients presenting with HIV infection undergo routine screening for hepatitis C virus (HCV). For HCV seronegative individuals who are at continued high risk of acquiring hepatitis C, specifically men who have sex with men (MSM) or persons who inject drugs, additional HCV screening is recommended annually or as indicated by clinical presentation (e.g., unexplained ALT elevation), risk activities, or exposure. Similarly, the AASLD/IDSA HCV guidelines and the CDC preexposure prophylaxis (PrEP) guidelines recommend HCV serologic testing at baseline and every 12 months for MSM, transgender women, and persons who inject drugs. Use an FDA-approved immunoassay licensed for detection of HCV antibodies (anti-HCV); in settings where acute HCV infection is suspected or in persons with known prior infection that cleared spontaneously or after treatment, use of nucleic acid testing for HCV RNA is recommended. If hepatitis C and HIV coinfection is identified, consider treating both viral infections concurrently. It is recommended to use a fully suppressive antiretroviral therapy and an HCV regimen in all patients with coinfection regardless of CD4 count, as lower CD4 counts do not appear to compromise the efficacy of HCV treatment. In most patients, a simplified pangenotypic HCV regimen (i.e., glecaprevir; pibrentasvir or sofosbuvir; velpatasvir) may be an appropriate choice; however, these regimens are NOT recommended for use in persons with HCV and HIV coinfection who: are treatment-experienced with HCV relapse (reinfection after successful therapy is not an exclusion); have decompensated cirrhosis; on a tenofovir disoproxil fumarate containing regimen with eGFR less than 60 mL/minute; on efavirenz, etravirine, nevirapine, or boosted protease inhibitor; have untreated chronic hepatitis B; are pregnant. Patients with HCV and HIV coinfection who meet these exclusion criteria should be treated for HCV following standard approaches as described in the AASLD/IDSA HCV guidelines. Treatment of HCV infection in children younger than 3 years is not usually recommended; however, treatment should be considered for all children 3 years and older with HCV and HIV coinfection who have no contraindications to treatment. Instruct patients with coinfection to avoid consuming alcohol, limit ingestion of potentially hepatotoxic medications, avoid iron supplementation in the absence of documented iron deficiency, and receive vaccinations against hepatitis A and hepatitis B as appropriate.
+ 
+Patients with HIV who must undergo a solid organ transplant or allogeneic stem cell transplant should be managed by a multidisciplinary team before, during, and after the transplant to ensure comprehensive care. Prior to the transplant, ensure viral suppression is obtained, and the patient is up-to-date on their vaccinations. Review the patient's antiretroviral history, prior drug resistance results, adherence history, and the potential for drug interactions. Bictegravir- or dolutegravir-based regimens are preferred in most patients needing a transplant. Consider using tenofovir alafenamide over tenofovir disoproxil fumarate due to the lower risk of affecting renal function and bone mineral density. In general, avoid use of potent CYP3A4 inhibitors (e.g., ritonavir, cobicistat, protease inhibitors) or CYP3A4 inducing non-nucleoside reverse transcriptase inhibitors (efavirenz, nevirapine, etravirine). If a change in the antiretroviral regimen is necessary, the switch should be completed several weeks before the transplant whenever possible. Renal and hepatic function may fluctuate immediately post-transplant; thus, close monitoring is recommended to ensure appropriate dosing and to avoid potential drug toxicities. Additionally, therapeutic drug monitoring of the immunosuppressive medications should be performed to guide dose adjustments. Make every effort to avoid post-transplant interruption of antiretroviral therapy. If an interruption is necessary, stop all components of the regimen simultaneously and restart treatment as soon as possible.
+    Headline
+    hepatitis B exacerbation
+    General Information
+    Patients with HBV and HIV coinfection who discontinue use of lamivudine may experience a severe acute hepatitis B exacerbation, with some cases resulting in hepatic decompensation and hepatic failure. Close monitoring, both clinical and laboratory, is recommended for several months after stopping treatment with lamivudine; zidovudine. If appropriate, resumption of anti-hepatitis B treatment may be required.
+    Headline
+    myopathy
+    General Information
+    Monitor drug recipients for signs of myopathy and myositis as they have been reported, along with pathological changes similar to that produced by HIV, with prolonged use of zidovudine.
+    Headline
+    pancreatitis
+    General Information
+    Lamivudine; zidovudine should be used with caution in patients with a history of pancreatitis or significant risk factors for the development of pancreatitis. Lamivudine; zidovudine should be discontinued immediately if any clinical signs or symptoms of pancreatitis develop, or if laboratory abnormalities suggest pancreatitis.
+    Headline
+    females, hepatotoxicity or lactic acidosis, obesity
+    General Information
+    Hepatotoxicity or lactic acidosis, including fatal cases, have been reported with the use of nucleoside reverse transcriptase inhibitors, including lamivudine and zidovudine. Typically, these adverse reactions present with symptoms such as enlargement of the liver (hepatomegaly) and fatty liver (steatosis), even in the absence of significant elevations in liver transaminases. A majority of these cases have occurred in females. Female sex and obesity may be risk factors for the development of lactic acidosis and severe hepatotoxicity. Suspend lamivudine; zidovudine treatment in patients who develop clinical or laboratory findings suggestive of lactic acidosis or hepatotoxicity.
+    Headline
+    breast-feeding
+    General Information
+    Provide evidence-based, patient-centered counseling to support shared decision-making regarding infant feeding. Inform individuals that use of replacement feeding (i.e., formula or banked pasteurized donor human milk) eliminates the risk of HIV transmission. It is recommended to use replacement feeding for infants and children of lactating people with HIV who are not on antiretroviral therapy (ART) or do not have suppressed viral load during pregnancy and/or at delivery. For those on ART who have achieved and maintained viral suppression during pregnancy (at minimum throughout the third trimester) and postpartum, the transmission risk from breast-feeding is less than 1%, but not zero. Virologically suppressed patients who choose to breast-feed should be supported in this decision. If breast-feeding is chosen, provide counseling about the importance of adherence to therapy and recommend that the infant be exclusively breast-fed for up to 6 months of age, as exclusive breast-feeding has been associated with a lower rate of HIV transmission as compared to mixed feeding (i.e., breast milk and formula). If a viral load is subsequently detected in a breast-feeding person, it is recommended to discontinue or temporarily stop breast-feeding while the viral load is rechecked, causes of viremia are assessed, adherence counseling is reinforced, and the breast-fed infant undergoes HIV nucleic acid testing (NAT). If the repeated viral load is undetectable, a shared decision should be made regarding resumption of breast-feeding. If the breast-feeding person's HIV RNA is 200 copies/mL or more, most experts recommend permanent discontinuation of breast-feeding and initiation of a 3-drug presumptive ART for the infant. ART(a 1- or 3-drug regimen) for the infant may also be considered if the breast-feeding person's HIV RNA is quantifiable but less than 200 copies/mL; consult an expert for guidance. For breast-feeding individuals who receive a new HIV diagnosis while breast-feeding (acute HIV), it is recommended to immediately transition from breast-feeding to replacement feeding, perform an infant HIV NAT, and initiate 3-drug presumptive ART for the infant. Promptly identify and treat mastitis, thrush, and cracked or bleeding nipples, as these conditions may increase the risk of HIV transmission through breast-feeding. Breast-fed infants should undergo immediate diagnostic and virologic HIV testing. Testing should continue throughout breast-feeding and up to 6 months after cessation of breast-feeding. For expert consultation, care teams may contact the Perinatal HIV Hotline (888-448-8765). Use lamivudine; zidovudine with caution during breast-feeding. Both drug components pass into breast milk. Zidovudine passes into milk in small amounts with a relative infant dose of 0.01% to 0.36%. Lamivudine also has a low relative infant dose of 0.49% to 6.4%. Both agents appear to be well tolerated by infants of HIV-positive, breast-feeding individuals. Zidovudine is infrequently associated with infant anemia, but most infants studied do not have detectable serum levels. A study evaluated lamivudine concentrations in human milk in 20 breast-feeding people with HIV who were administered either 300 mg of lamivudine twice daily as a single agent (n = 10) or lamivudine 150 mg twice daily in combination with zidovudine (n = 10). Mean breast milk concentrations of lamivudine in the respective groups were similar at 1.22 mcg/mL (range less than 0.5 to 6.09 mcg/mL) and 0.9 mcg/mL (range less than 0.5 to 8.2 mcg/mL). Other antiretroviral medications whose passage into human breast milk have been evaluated include nevirapine and nelfinavir.
+    Headline
+    pregnancy
+    General Information
+    Antiretroviral therapy should be provided to all patients during pregnancy, regardless of HIV RNA concentrations or CD4 cell count. Using highly active antiretroviral combination therapy (HAART) to maximally suppress viral replication is the most effective strategy to prevent the development of resistance and to minimize the risk of perinatal transmission. Begin HAART as soon as pregnancy is recognized, or HIV is diagnosed. HIV guidelines recommend the use of lamivudine; zidovudine as an alternative 2-NRTI backbone in people who are pregnant or trying to conceive. Available data from the Antiretroviral Pregnancy Registry, which includes first trimester exposures to lamivudine (5,833 exposures) and zidovudine (4,262 exposures), have shown no difference in the risk of overall major birth defects when compared to the 2.7% background rate among pregnant women in the US. When exposure occurred in the first trimester, the prevalence of defects was 3% (95% CI: 2.6 to 3.5) for lamivudine and 3.2% (95% CI: 2.7 to 3.8) for zidovudine. Regular laboratory monitoring is recommended to determine antiretroviral efficacy. Monitor CD4 counts at the initial visit. Patients who have been on HAART for at least 2 years and have consistent viral suppression and CD4 counts consistently greater than or equal to 300 cells/mm3 do not need CD4 counts monitored after the initial visit during the pregnancy. However, CD4 counts should be monitored every 3 months during pregnancy for patients on HAART less than 2 years and who have CD4 counts less than 300 cells/mm3, patients with inconsistent adherence, or patients with detectable viral loads. For patients on HAART less than 2 years but have CD4 counts greater than or equal to 300 cells/mm3, monitor CD4 counts every 6 months. Monitor plasma HIV RNA at the initial visit (with review of prior levels), 2 to 4 weeks after initiating or changing therapy, monthly until undetectable, and then at least every 3 months during pregnancy. Viral load should also be assessed at approximately 36 weeks gestation, or within 4 weeks of planned delivery, to inform decisions regarding mode of delivery, need for intrapartum zidovudine, and optimal treatment for newborns. Perform resistance testing in patients with virologic failure and HIV RNA levels above 200 copies/mL. Conduct resistance testing before starting therapy in treatment-naive patients who have not been previously tested, starting therapy in treatment-experienced patients (including those who have received pre-exposure or post-exposure prophylaxis), modifying therapy during a new pregnancy or when virologic response during pregnancy is suboptimal. DO NOT delay initiation of antiretroviral therapy while waiting for the results of resistance testing; treatment regimens can be modified, if necessary, once the testing results are known. First trimester ultrasound is recommended to confirm gestational age and provide an accurate estimation of gestational age at delivery. A second trimester ultrasound can be used for both anatomical survey and determination of gestational age in those patients not seen until later in gestation. Perform standard glucose screening in patients receiving antiretroviral therapy at 24 to 28 weeks gestation, although it should be noted that some experts would perform earlier screening with ongoing chronic protease inhibitor-based therapy initiated prior to pregnancy, similar to recommendations for patients with high-risk factors for glucose intolerance. Liver function testing is recommended within 2 to 4 weeks after initiating or changing antiretroviral therapy, and approximately every 3 months thereafter during pregnancy (or as needed). All pregnant patients should be counseled about the importance of adherence to their antiretroviral regimen to reduce the potential for development of resistance and perinatal transmission. It is strongly recommended that antiretroviral therapy, once initiated, not be discontinued. If a patient decides to discontinue therapy, a consultation with an HIV specialist is recommended. There is a pregnancy exposure registry that monitors outcomes in pregnant patients exposed to antiretroviral therapy; information about the registry can be obtained at www.apregistry.com or by calling 1-800-258-4263.
+
+Pregnancy And Lactation
+  Pregnancy
+    General Information
+    Antiretroviral therapy should be provided to all patients during pregnancy, regardless of HIV RNA concentrations or CD4 cell count. Using highly active antiretroviral combination therapy (HAART) to maximally suppress viral replication is the most effective strategy to prevent the development of resistance and to minimize the risk of perinatal transmission. Begin HAART as soon as pregnancy is recognized, or HIV is diagnosed. HIV guidelines recommend the use of lamivudine; zidovudine as an alternative 2-NRTI backbone in people who are pregnant or trying to conceive. Available data from the Antiretroviral Pregnancy Registry, which includes first trimester exposures to lamivudine (5,833 exposures) and zidovudine (4,262 exposures), have shown no difference in the risk of overall major birth defects when compared to the 2.7% background rate among pregnant women in the US. When exposure occurred in the first trimester, the prevalence of defects was 3% (95% CI: 2.6 to 3.5) for lamivudine and 3.2% (95% CI: 2.7 to 3.8) for zidovudine. Regular laboratory monitoring is recommended to determine antiretroviral efficacy. Monitor CD4 counts at the initial visit. Patients who have been on HAART for at least 2 years and have consistent viral suppression and CD4 counts consistently greater than or equal to 300 cells/mm3 do not need CD4 counts monitored after the initial visit during the pregnancy. However, CD4 counts should be monitored every 3 months during pregnancy for patients on HAART less than 2 years and who have CD4 counts less than 300 cells/mm3, patients with inconsistent adherence, or patients with detectable viral loads. For patients on HAART less than 2 years but have CD4 counts greater than or equal to 300 cells/mm3, monitor CD4 counts every 6 months. Monitor plasma HIV RNA at the initial visit (with review of prior levels), 2 to 4 weeks after initiating or changing therapy, monthly until undetectable, and then at least every 3 months during pregnancy. Viral load should also be assessed at approximately 36 weeks gestation, or within 4 weeks of planned delivery, to inform decisions regarding mode of delivery, need for intrapartum zidovudine, and optimal treatment for newborns. Perform resistance testing in patients with virologic failure and HIV RNA levels above 200 copies/mL. Conduct resistance testing before starting therapy in treatment-naive patients who have not been previously tested, starting therapy in treatment-experienced patients (including those who have received pre-exposure or post-exposure prophylaxis), modifying therapy during a new pregnancy or when virologic response during pregnancy is suboptimal. DO NOT delay initiation of antiretroviral therapy while waiting for the results of resistance testing; treatment regimens can be modified, if necessary, once the testing results are known. First trimester ultrasound is recommended to confirm gestational age and provide an accurate estimation of gestational age at delivery. A second trimester ultrasound can be used for both anatomical survey and determination of gestational age in those patients not seen until later in gestation. Perform standard glucose screening in patients receiving antiretroviral therapy at 24 to 28 weeks gestation, although it should be noted that some experts would perform earlier screening with ongoing chronic protease inhibitor-based therapy initiated prior to pregnancy, similar to recommendations for patients with high-risk factors for glucose intolerance. Liver function testing is recommended within 2 to 4 weeks after initiating or changing antiretroviral therapy, and approximately every 3 months thereafter during pregnancy (or as needed). All pregnant patients should be counseled about the importance of adherence to their antiretroviral regimen to reduce the potential for development of resistance and perinatal transmission. It is strongly recommended that antiretroviral therapy, once initiated, not be discontinued. If a patient decides to discontinue therapy, a consultation with an HIV specialist is recommended. There is a pregnancy exposure registry that monitors outcomes in pregnant patients exposed to antiretroviral therapy; information about the registry can be obtained at www.apregistry.com or by calling 1-800-258-4263.
+  Breastfeeding
+    General Information
+    Provide evidence-based, patient-centered counseling to support shared decision-making regarding infant feeding. Inform individuals that use of replacement feeding (i.e., formula or banked pasteurized donor human milk) eliminates the risk of HIV transmission. It is recommended to use replacement feeding for infants and children of lactating people with HIV who are not on antiretroviral therapy (ART) or do not have suppressed viral load during pregnancy and/or at delivery. For those on ART who have achieved and maintained viral suppression during pregnancy (at minimum throughout the third trimester) and postpartum, the transmission risk from breast-feeding is less than 1%, but not zero. Virologically suppressed patients who choose to breast-feed should be supported in this decision. If breast-feeding is chosen, provide counseling about the importance of adherence to therapy and recommend that the infant be exclusively breast-fed for up to 6 months of age, as exclusive breast-feeding has been associated with a lower rate of HIV transmission as compared to mixed feeding (i.e., breast milk and formula). If a viral load is subsequently detected in a breast-feeding person, it is recommended to discontinue or temporarily stop breast-feeding while the viral load is rechecked, causes of viremia are assessed, adherence counseling is reinforced, and the breast-fed infant undergoes HIV nucleic acid testing (NAT). If the repeated viral load is undetectable, a shared decision should be made regarding resumption of breast-feeding. If the breast-feeding person's HIV RNA is 200 copies/mL or more, most experts recommend permanent discontinuation of breast-feeding and initiation of a 3-drug presumptive ART for the infant. ART(a 1- or 3-drug regimen) for the infant may also be considered if the breast-feeding person's HIV RNA is quantifiable but less than 200 copies/mL; consult an expert for guidance. For breast-feeding individuals who receive a new HIV diagnosis while breast-feeding (acute HIV), it is recommended to immediately transition from breast-feeding to replacement feeding, perform an infant HIV NAT, and initiate 3-drug presumptive ART for the infant. Promptly identify and treat mastitis, thrush, and cracked or bleeding nipples, as these conditions may increase the risk of HIV transmission through breast-feeding. Breast-fed infants should undergo immediate diagnostic and virologic HIV testing. Testing should continue throughout breast-feeding and up to 6 months after cessation of breast-feeding. For expert consultation, care teams may contact the Perinatal HIV Hotline (888-448-8765). Use lamivudine; zidovudine with caution during breast-feeding. Both drug components pass into breast milk. Zidovudine passes into milk in small amounts with a relative infant dose of 0.01% to 0.36%. Lamivudine also has a low relative infant dose of 0.49% to 6.4%. Both agents appear to be well tolerated by infants of HIV-positive, breast-feeding individuals. Zidovudine is infrequently associated with infant anemia, but most infants studied do not have detectable serum levels. A study evaluated lamivudine concentrations in human milk in 20 breast-feeding people with HIV who were administered either 300 mg of lamivudine twice daily as a single agent (n = 10) or lamivudine 150 mg twice daily in combination with zidovudine (n = 10). Mean breast milk concentrations of lamivudine in the respective groups were similar at 1.22 mcg/mL (range less than 0.5 to 6.09 mcg/mL) and 0.9 mcg/mL (range less than 0.5 to 8.2 mcg/mL). Other antiretroviral medications whose passage into human breast milk have been evaluated include nevirapine and nelfinavir.
+
+Interactions
+Acetaminophen: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Aspirin, ASA; Caffeine: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Aspirin: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Aspirin; diphenhydrAMINE: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Caffeine: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Caffeine; Dihydrocodeine: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Caffeine; Pyrilamine: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Chlorpheniramine: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Chlorpheniramine; Dextromethorphan: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Chlorpheniramine; Dextromethorphan; Phenylephrine: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Chlorpheniramine; Dextromethorphan; Pseudoephedrine: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Chlorpheniramine; Phenylephrine : (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Codeine: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Dextromethorphan: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Dextromethorphan; Doxylamine: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Dextromethorphan; guaiFENesin; Phenylephrine: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Dextromethorphan; guaiFENesin; Pseudoephedrine: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Dextromethorphan; Phenylephrine: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Dextromethorphan; Pseudoephedrine: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; diphenhydrAMINE: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; guaiFENesin; Phenylephrine: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; HYDROcodone: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Ibuprofen: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; oxyCODONE: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Pamabrom; Pyrilamine: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Phenylephrine: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Acetaminophen; Pseudoephedrine: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Adefovir: (Major) Patients who are concurrently taking adefovir with antiretrovirals (i.e., anti-retroviral nucleoside reverse transcriptase inhibitors (NRTIs)) are at risk of developing lactic acidosis and severe hepatomegaly with steatosis. Lactic acidosis and severe hepatomegaly with steatosis, including fatal cases, have been reported with the use of nucleoside analogs alone or in combination with antiretrovirals. A majority of these cases have been in women; obesity and prolonged nucleoside exposure may also be risk factors. Particular caution should be exercised when administering nucleoside analogs to any patient with known risk factors for hepatic disease; however, cases have also been reported in patients with no known risk factors. Suspend adefovir in any patient who develops clinical or laboratory findings suggestive of lactic acidosis or pronounced hepatotoxicity (which may include hepatomegaly and steatosis even in the absence of marked transaminase elevations).
+Alogliptin; metFORMIN: (Moderate) Certain medications used concomitantly with metformin may increase the risk of lactic acidosis. Cationic drugs that are eliminated by renal tubular secretion, such as lamivudine, may decrease metformin elimination by competing for common renal tubular transport systems.
+aMILoride: (Moderate) Drugs that are actively secreted via cationic tubular secretion, such as amiloride, should be co-administered with caution with lamivudine since they could increase lamivudine plasma concentrations, and therefore lamivudine associated adverse reactions, via potential competition for renal cationic secretion.
+aMILoride; hydroCHLOROthiazide, HCTZ: (Moderate) Drugs that are actively secreted via cationic tubular secretion, such as amiloride, should be co-administered with caution with lamivudine since they could increase lamivudine plasma concentrations, and therefore lamivudine associated adverse reactions, via potential competition for renal cationic secretion.
+Amoxicillin; Clarithromycin; Omeprazole: (Moderate) Administer clarithromycin and zidovudine at least 2 hours apart. Simultaneous oral administration of clarithromycin immediate-release tablets and zidovudine may result in decreased steady-state zidovudine concentrations. The impact of coadministration of clarithromycin extended-release tablets or granules and zidovudine has not been evaluated.
+Amphotericin B lipid complex (ABLC): (Moderate) The use of ABLC with zidovudine, ZDV has lead to an increase in myelotoxicity and nephrotoxicity in dogs. If these medications are used concomitantly, monitor renal and hematologic function closely.
+Aspirin, ASA; Caffeine: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Atidarsagene Autotemcel: (Major) Avoid the use of antiretroviral medications in patients who are receiving gene therapy that utilizes a lentivirus vector (LVV). Discontinue antiretrovirals at least 1 month prior to stem cell mobilization; a longer washout period may be required based on the therapeutic and pharmacokinetic half-life of the antiretroviral. Antiretroviral medications may reduce LVV activity and interfere with gene therapy manufacturing.
+Atovaquone: (Minor) Atovaquone appears to increase the AUC of zidovudine by inhibiting the glucuronidation of zidovudine. Inhibition of zidovudine metabolism by atovaquone could result in an increase in zidovudine-induced adverse effects.
+Atovaquone; Proguanil: (Minor) Atovaquone appears to increase the AUC of zidovudine by inhibiting the glucuronidation of zidovudine. Inhibition of zidovudine metabolism by atovaquone could result in an increase in zidovudine-induced adverse effects.
+azaTHIOprine: (Moderate) Azathioprine may interact with other drugs that are myelosuppressive, such as azathioprine. A significant toxicity of zidovudine, ZDV is myelosuppression and resulting neutropenia and anemia.
+Benzhydrocodone; Acetaminophen: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Betibeglogene Autotemcel: (Major) Avoid the use of antiretroviral medications in patients who are receiving gene therapy that utilizes a lentivirus vector (LVV). Discontinue antiretrovirals at least 1 month prior to stem cell mobilization; a longer washout period may be required based on the therapeutic and pharmacokinetic half-life of the antiretroviral. Antiretroviral medications may reduce LVV activity and interfere with gene therapy manufacturing.
+Bictegravir; Emtricitabine; Tenofovir Alafenamide: (Major) Do not coadminister lamivudine, 3TC-containing products and emtricitabine-containing products due to similarities between emtricitabine and lamivudine.
+Bortezomib: (Minor) Monitor patients for the development of peripheral neuropathy when receiving bortezomib in combination with other drugs that can cause peripheral neuropathy like lamivudine; the risk of peripheral neuropathy may be additive. (Minor) Monitor patients for the development of peripheral neuropathy when receiving bortezomib in combination with other drugs that can cause peripheral neuropathy like zidovudine; the risk of peripheral neuropathy may be additive.
+Butalbital; Acetaminophen: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Butalbital; Acetaminophen; Caffeine: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Butalbital; Acetaminophen; Caffeine; Codeine: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Canagliflozin; metFORMIN: (Moderate) Certain medications used concomitantly with metformin may increase the risk of lactic acidosis. Cationic drugs that are eliminated by renal tubular secretion, such as lamivudine, may decrease metformin elimination by competing for common renal tubular transport systems.
+Cidofovir: (Major) Concomitant use of probenecid with zidovudine may produce substantially higher serum concentrations of zidovudine. Because cidofovir must be given concomitantly with probenecid, the manufacturer of cidofovir recommends that on the days of concomitant cidofovir and probenecid therapy, zidovudine should either be discontinued temporarily or the zidovudine dosage should be reduced by 50%. Limited data suggest that probenecid may inhibit glucuronidation and/or reduce renal excretion of zidovudine.
+Clarithromycin: (Moderate) Administer clarithromycin and zidovudine at least 2 hours apart. Simultaneous oral administration of clarithromycin immediate-release tablets and zidovudine may result in decreased steady-state zidovudine concentrations. The impact of coadministration of clarithromycin extended-release tablets or granules and zidovudine has not been evaluated.
+Clofarabine: (Moderate) Concomitant use of clofarabine and zidovudine, ZDV may result in altered clofarabine levels because both agents are substrates of OAT1 and OAT3. Therefore, monitor for signs of clofarabine toxicity such as gastrointestinal toxicity (e.g., nausea, vomiting, diarrhea, mucosal inflammation), hematologic toxicity, and skin toxicity (e.g., hand and foot syndrome, rash, pruritus) in patients also receiving OAT1 and OAT3 substrates.
+cycloPHOSphamide: (Moderate) Closely monitor complete blood counts if coadministration of cyclophosphamide with zidovudine is necessary as there is an increased risk of hematologic toxicity and immunosuppression.
+Dapagliflozin; metFORMIN: (Moderate) Certain medications used concomitantly with metformin may increase the risk of lactic acidosis. Cationic drugs that are eliminated by renal tubular secretion, such as lamivudine, may decrease metformin elimination by competing for common renal tubular transport systems.
+Dapsone: (Minor) Zidovudine, ZDV should be given with caution to patients also receiving dapsone due to the risk of additive hematologic toxicity.
+Darunavir; Cobicistat; Emtricitabine; Tenofovir alafenamide: (Major) Do not coadminister lamivudine, 3TC-containing products and emtricitabine-containing products due to similarities between emtricitabine and lamivudine.
+Dofetilide: (Moderate) Drugs that are actively secreted via cationic secretion, such as lamivudine, should be co-administered with dofetilide with caution since they could increase dofetilide plasma concentrations via potential competition for renal tubular secretion.
+Donepezil; Memantine: (Moderate) Memantine is excreted in part by renal tubular secretion. Competition of memantine for excretion with other drugs that are also eliminated by tubular secretion, such as lamivudine, could result in elevated serum concentrations of one or both drugs.
+Doravirine; Islatravir: (Contraindicated) Concomitant use of islatravir and lamivudine is contraindicated due to the risk for decreased islatravir exposure, which may result in loss of therapeutic effect and development of resistance. Concomitant use may interfere with the conversion of islatravir to its active form, islatravir-triphosphate (ISL-TP). Islatravir is activated via cellular kinases; lamivudine is a deoxycytidine kinase (dCK) substrate and may compete for this activation pathway. Concomitant use with lamivudine decreased ISL-TP overall exposure by 87%.
+DOXOrubicin Liposomal: (Major) Avoid concomitant administration of zidovudine, ZDV, and doxorubicin as an antagonistic relationship has been demonstrated in vitro.
+DOXOrubicin: (Major) Avoid concomitant administration of zidovudine, ZDV, and doxorubicin as an antagonistic relationship has been demonstrated in vitro.
+Efavirenz; Emtricitabine; Tenofovir Disoproxil Fumarate: (Major) Do not coadminister lamivudine, 3TC-containing products and emtricitabine-containing products due to similarities between emtricitabine and lamivudine.
+Elivaldogene Autotemcel: (Major) Avoid the use of antiretroviral medications in patients who are receiving gene therapy that utilizes a lentivirus vector (LVV). Discontinue antiretrovirals at least 1 month prior to stem cell mobilization; a longer washout period may be required based on the therapeutic and pharmacokinetic half-life of the antiretroviral. Antiretroviral medications may reduce LVV activity and interfere with gene therapy manufacturing.
+Elvitegravir; Cobicistat; Emtricitabine; Tenofovir Alafenamide: (Major) Do not coadminister lamivudine, 3TC-containing products and emtricitabine-containing products due to similarities between emtricitabine and lamivudine.
+Elvitegravir; Cobicistat; Emtricitabine; Tenofovir Disoproxil Fumarate: (Major) Do not coadminister lamivudine, 3TC-containing products and emtricitabine-containing products due to similarities between emtricitabine and lamivudine.
+Empagliflozin; Linagliptin; metFORMIN: (Moderate) Certain medications used concomitantly with metformin may increase the risk of lactic acidosis. Cationic drugs that are eliminated by renal tubular secretion, such as lamivudine, may decrease metformin elimination by competing for common renal tubular transport systems.
+Empagliflozin; metFORMIN: (Moderate) Certain medications used concomitantly with metformin may increase the risk of lactic acidosis. Cationic drugs that are eliminated by renal tubular secretion, such as lamivudine, may decrease metformin elimination by competing for common renal tubular transport systems.
+Emtricitabine: (Major) Do not coadminister lamivudine, 3TC-containing products and emtricitabine-containing products due to similarities between emtricitabine and lamivudine.
+Emtricitabine; Rilpivirine; Tenofovir alafenamide: (Major) Do not coadminister lamivudine, 3TC-containing products and emtricitabine-containing products due to similarities between emtricitabine and lamivudine.
+Emtricitabine; Rilpivirine; Tenofovir Disoproxil Fumarate: (Major) Do not coadminister lamivudine, 3TC-containing products and emtricitabine-containing products due to similarities between emtricitabine and lamivudine.
+Emtricitabine; Tenofovir alafenamide: (Major) Do not coadminister lamivudine, 3TC-containing products and emtricitabine-containing products due to similarities between emtricitabine and lamivudine.
+Emtricitabine; Tenofovir Disoproxil Fumarate: (Major) Do not coadminister lamivudine, 3TC-containing products and emtricitabine-containing products due to similarities between emtricitabine and lamivudine.
+Ertugliflozin; metFORMIN: (Moderate) Certain medications used concomitantly with metformin may increase the risk of lactic acidosis. Cationic drugs that are eliminated by renal tubular secretion, such as lamivudine, may decrease metformin elimination by competing for common renal tubular transport systems.
+Etuvetidigene Autotemcel: (Major) Avoid the use of antiretroviral medications in patients who are receiving gene therapy that utilizes a lentivirus vector (LVV), such as etuvetidigene autotemcel. Discontinue antiretrovirals at least 1 month prior to stem cell mobilization and continue to hold therapy until at least 7 days after etuvetidigene autotemcel infusion; a longer washout period may be required based on the therapeutic and pharmacokinetic half-life of the antiretroviral. Antiretroviral medications may decrease etuvetidigene autotemcel efficacy by reducing LVV activity and interfering with gene therapy manufacturing.
+Fexinidazole: (Moderate) Monitor for a decrease in zidovudine efficacy during concomitant use of zidovudine and fexinidazole. Concomitant use may decrease zidovudine exposure. Zidovudine is a UGT substrate and fexinidazole is a UGT inducer.
+Fluconazole: (Minor) During concomitant administration with fluconazole, the clearance of zidovudine may be reduced. Although the clinical significance of this interaction has not been established, patients receiving fluconazole with zidovudine should be closely monitored for zidovudine-induced adverse effects, especially hematologic toxicity. Zidovudine dosage reduction may be considered.
+Flucytosine: (Moderate) Zidovudine, ZDV should be used cautiously with other drugs that can cause bone marrow suppression, such as flucytosine, because of the increased risk of hematologic toxicity. In some cases, a reduction in the dosage of zidovudine may be warranted.
+Foscarnet: (Minor) Concurrent use of foscarnet and zidovudine, ZDV may be associated with a higher incidence of anemia; clinicians should follow normal recommendations for blood count monitoring and other parameters.
+Fosphenytoin: (Minor) Coadministration with zidovudine may result in either increased or decreased phenytoin concentrations.
+Ganciclovir: (Major) Coadministration of ganciclovir and zidovudine may increase the hematologic toxicity (e.g., neutropenia, anemia) of zidovudine. Some patients may not tolerate concomitant therapy with these drugs at full dosage. If concomitant use is necessary, monitor hematologic parameters closely.
+glipiZIDE; metFORMIN: (Moderate) Certain medications used concomitantly with metformin may increase the risk of lactic acidosis. Cationic drugs that are eliminated by renal tubular secretion, such as lamivudine, may decrease metformin elimination by competing for common renal tubular transport systems.
+glyBURIDE; metFORMIN: (Moderate) Certain medications used concomitantly with metformin may increase the risk of lactic acidosis. Cationic drugs that are eliminated by renal tubular secretion, such as lamivudine, may decrease metformin elimination by competing for common renal tubular transport systems.
+Interferon Alfa-2b: (Major) Use interferons and zidovudine together with caution. Closely monitor patients for treatment-associated toxicities, especially hematologic effects and hepatic decompensation, and manage as recommended for the individual therapies. Coadministration of alpha interferons may increase the hematologic toxicity of zidovudine. Interferons and anti-retroviral nucleoside reverse transcriptase inhibitors (NRTIs) are also associated with hepatotoxicity. Patients with chronic, cirrhotic HCV co-infected with HIV receiving NRTIs and alpha interferons appear to be at increased risk for hepatic decompensation (e.g., Childs-Pugh score 6 or more) compared to patients not receiving HAART. Interferon therapy may also reduce zidovudine clearance. (Moderate) Monitor for treatment-associated toxicities, especially hepatic decompensation, during coadministration of interferons (with or without ribavirin) and lamivudine. Dose reduction or discontinuation of interferon, ribavirin, or both should be considered if worsening clinical toxicities are observed, including hepatic decompensation (e.g., Child-Pugh score greater than 6).
+Interferon Alfa-n3: (Major) Use interferons and zidovudine together with caution. Closely monitor patients for treatment-associated toxicities, especially hematologic effects and hepatic decompensation, and manage as recommended for the individual therapies. Coadministration of alpha interferons may increase the hematologic toxicity of zidovudine. Interferons and anti-retroviral nucleoside reverse transcriptase inhibitors (NRTIs) are also associated with hepatotoxicity. Patients with chronic, cirrhotic HCV co-infected with HIV receiving NRTIs and alpha interferons appear to be at increased risk for hepatic decompensation (e.g., Childs-Pugh score 6 or more) compared to patients not receiving HAART. Interferon therapy may also reduce zidovudine clearance. (Moderate) Monitor for treatment-associated toxicities, especially hepatic decompensation, during coadministration of interferons (with or without ribavirin) and lamivudine. Dose reduction or discontinuation of interferon, ribavirin, or both should be considered if worsening clinical toxicities are observed, including hepatic decompensation (e.g., Child-Pugh score greater than 6).
+Interferon Beta-1a: (Major) Use interferons and zidovudine together with caution. Closely monitor patients for treatment-associated toxicities, especially hematologic effects and hepatic decompensation, and manage as recommended for the individual therapies. Coadministration of alpha interferons may increase the hematologic toxicity of zidovudine. Interferons and anti-retroviral nucleoside reverse transcriptase inhibitors (NRTIs) are also associated with hepatotoxicity. Patients with chronic, cirrhotic HCV co-infected with HIV receiving NRTIs and alpha interferons appear to be at increased risk for hepatic decompensation (e.g., Childs-Pugh score 6 or more) compared to patients not receiving HAART. Interferon therapy may also reduce zidovudine clearance. (Moderate) Monitor for treatment-associated toxicities, especially hepatic decompensation, during coadministration of interferons (with or without ribavirin) and lamivudine. Dose reduction or discontinuation of interferon, ribavirin, or both should be considered if worsening clinical toxicities are observed, including hepatic decompensation (e.g., Child-Pugh score greater than 6).
+Interferon Beta-1b: (Major) Use interferons and zidovudine together with caution. Closely monitor patients for treatment-associated toxicities, especially hematologic effects and hepatic decompensation, and manage as recommended for the individual therapies. Coadministration of alpha interferons may increase the hematologic toxicity of zidovudine. Interferons and anti-retroviral nucleoside reverse transcriptase inhibitors (NRTIs) are also associated with hepatotoxicity. Patients with chronic, cirrhotic HCV co-infected with HIV receiving NRTIs and alpha interferons appear to be at increased risk for hepatic decompensation (e.g., Childs-Pugh score 6 or more) compared to patients not receiving HAART. Interferon therapy may also reduce zidovudine clearance. (Moderate) Monitor for treatment-associated toxicities, especially hepatic decompensation, during coadministration of interferons (with or without ribavirin) and lamivudine. Dose reduction or discontinuation of interferon, ribavirin, or both should be considered if worsening clinical toxicities are observed, including hepatic decompensation (e.g., Child-Pugh score greater than 6).
+Interferon Gamma-1b: (Major) Use interferons and zidovudine together with caution. Closely monitor patients for treatment-associated toxicities, especially hematologic effects and hepatic decompensation, and manage as recommended for the individual therapies. Coadministration of alpha interferons may increase the hematologic toxicity of zidovudine. Interferons and anti-retroviral nucleoside reverse transcriptase inhibitors (NRTIs) are also associated with hepatotoxicity. Patients with chronic, cirrhotic HCV co-infected with HIV receiving NRTIs and alpha interferons appear to be at increased risk for hepatic decompensation (e.g., Childs-Pugh score 6 or more) compared to patients not receiving HAART. Interferon therapy may also reduce zidovudine clearance. (Moderate) Monitor for treatment-associated toxicities, especially hepatic decompensation, during coadministration of interferons (with or without ribavirin) and lamivudine. Dose reduction or discontinuation of interferon, ribavirin, or both should be considered if worsening clinical toxicities are observed, including hepatic decompensation (e.g., Child-Pugh score greater than 6).
+Interferons: (Major) Use interferons and zidovudine together with caution. Closely monitor patients for treatment-associated toxicities, especially hematologic effects and hepatic decompensation, and manage as recommended for the individual therapies. Coadministration of alpha interferons may increase the hematologic toxicity of zidovudine. Interferons and anti-retroviral nucleoside reverse transcriptase inhibitors (NRTIs) are also associated with hepatotoxicity. Patients with chronic, cirrhotic HCV co-infected with HIV receiving NRTIs and alpha interferons appear to be at increased risk for hepatic decompensation (e.g., Childs-Pugh score 6 or more) compared to patients not receiving HAART. Interferon therapy may also reduce zidovudine clearance. (Moderate) Monitor for treatment-associated toxicities, especially hepatic decompensation, during coadministration of interferons (with or without ribavirin) and lamivudine. Dose reduction or discontinuation of interferon, ribavirin, or both should be considered if worsening clinical toxicities are observed, including hepatic decompensation (e.g., Child-Pugh score greater than 6).
+Lansoprazole; Amoxicillin; Clarithromycin: (Moderate) Administer clarithromycin and zidovudine at least 2 hours apart. Simultaneous oral administration of clarithromycin immediate-release tablets and zidovudine may result in decreased steady-state zidovudine concentrations. The impact of coadministration of clarithromycin extended-release tablets or granules and zidovudine has not been evaluated.
+Leflunomide: (Moderate) Closely monitor for zidovudine-induced side effects such as hematologic toxicity when these drugs are used together. In some patients, a dosage reduction of zidovudine may be required. Following oral administration, leflunomide is metabolized to an active metabolite, teriflunomide, which is responsible for essentially all of leflunomide's in vivo activity. Teriflunomide is an inhibitor of the renal uptake organic anion transporter OAT3. Use of teriflunomide with zidovudine, a substrate of OAT3, may increase zidovudine plasma concentrations.
+Lentivirus vector therapy (selected): (Major) Avoid the use of antiretroviral medications in patients who are receiving gene therapy that utilizes a lentivirus vector (LVV). Discontinue antiretrovirals at least 1 month prior to stem cell mobilization; a longer washout period may be required based on the therapeutic and pharmacokinetic half-life of the antiretroviral. Antiretroviral medications may reduce LVV activity and interfere with gene therapy manufacturing.
+Linagliptin; metFORMIN: (Moderate) Certain medications used concomitantly with metformin may increase the risk of lactic acidosis. Cationic drugs that are eliminated by renal tubular secretion, such as lamivudine, may decrease metformin elimination by competing for common renal tubular transport systems.
+Lopinavir; Ritonavir: (Minor) Since ritonavir induces glucuronidation, there is the potential for reduction in zidovudine, ZDV plasma concentrations during concurrent therapy with ritonavir. When coadministered with ritonavir, the AUC and Cmax of zidovudine, ZDV are decreased by 12% and 27%. The clinical significance of this interaction is unknown.
+Lovotibeglogene autotemcel: (Major) Avoid the use of antiretroviral medications in patients who are receiving gene therapy that utilizes a lentivirus vector (LVV). Discontinue antiretrovirals at least 1 month prior to stem cell mobilization; a longer washout period may be required based on the therapeutic and pharmacokinetic half-life of the antiretroviral. Antiretroviral medications may reduce LVV activity and interfere with gene therapy manufacturing.
+Mafenide: (Moderate) Concomitant use of sulfonamides and zidovudine may result in additive hematological abnormalities. Use caution and monitor for hematologic toxicity during concurrent use.
+Marnetegragene Autotemcel: (Major) Avoid the use of antiretroviral medications in patients who are receiving gene therapy that utilizes a lentivirus vector (LVV). Discontinue antiretrovirals at least 1 month prior to stem cell mobilization; a longer washout period may be required based on the therapeutic and pharmacokinetic half-life of the antiretroviral. Antiretroviral medications may reduce LVV activity and interfere with gene therapy manufacturing.
+Memantine: (Moderate) Memantine is excreted in part by renal tubular secretion. Competition of memantine for excretion with other drugs that are also eliminated by tubular secretion, such as lamivudine, could result in elevated serum concentrations of one or both drugs.
+metFORMIN: (Moderate) Certain medications used concomitantly with metformin may increase the risk of lactic acidosis. Cationic drugs that are eliminated by renal tubular secretion, such as lamivudine, may decrease metformin elimination by competing for common renal tubular transport systems.
+metFORMIN; sAXagliptin: (Moderate) Certain medications used concomitantly with metformin may increase the risk of lactic acidosis. Cationic drugs that are eliminated by renal tubular secretion, such as lamivudine, may decrease metformin elimination by competing for common renal tubular transport systems.
+metFORMIN; SITagliptin: (Moderate) Certain medications used concomitantly with metformin may increase the risk of lactic acidosis. Cationic drugs that are eliminated by renal tubular secretion, such as lamivudine, may decrease metformin elimination by competing for common renal tubular transport systems.
+Methadone: (Moderate) Methadone increases exposure zidovudine, ZDV. Patients should be monitored for zidovudine toxicity during concurrent methadone treatment; however, the manufacturer of zidovudine states that routine dosage adjustment of zidovudine is not required during coadministration of methadone. Patients who receive both methadone and zidovudine may experience symptoms characteristic of opiate withdrawal and attribute the cause to decreased methadone levels due to zidovudine. However, it is more likely patients are actually experiencing zidovudine side effects due to increased levels since zidovudine has no effect on methadone metabolism. In one pharmacokinetic study (n=9), coadministration of methadone increased the AUC of zidovudine by about 43% (range: 16-64%). It appears methadone inhibits zidovudine glucuronidation and, to a lesser extent, decreases zidovudine renal clearance.
+Nirmatrelvir; Ritonavir: (Minor) Since ritonavir induces glucuronidation, there is the potential for reduction in zidovudine, ZDV plasma concentrations during concurrent therapy with ritonavir. When coadministered with ritonavir, the AUC and Cmax of zidovudine, ZDV are decreased by 12% and 27%. The clinical significance of this interaction is unknown.
+Omeprazole; Amoxicillin; Rifabutin: (Minor) Rifabutin may accelerate the metabolism of zidovudine. However the effectiveness of zidovudine against HIV does not appear to be altered and no dosage adjustments are required. The CDC currently considers the nucleoside reverse transcriptase inhibitors, including zidovudine, compatible for concomitant use with rifamycins, including rifampin, rifabutin and rifapentine.
+Orlistat: (Moderate) Monitor virologic response if orlistat is required in a patient receiving antiretroviral therapy. Loss of virologic control has been observed in patients concomitantly receiving orlistat and an antiretroviral. Orlistat may reduce the oral absorption of antiretrovirals.
+Peginterferon Alfa-2a: (Major) Use interferons and zidovudine together with caution. Closely monitor patients for treatment-associated toxicities, especially hematologic effects and hepatic decompensation, and manage as recommended for the individual therapies. Coadministration of alpha interferons may increase the hematologic toxicity of zidovudine. Interferons and anti-retroviral nucleoside reverse transcriptase inhibitors (NRTIs) are also associated with hepatotoxicity. Patients with chronic, cirrhotic HCV co-infected with HIV receiving NRTIs and alpha interferons appear to be at increased risk for hepatic decompensation (e.g., Childs-Pugh score 6 or more) compared to patients not receiving HAART. Interferon therapy may also reduce zidovudine clearance. (Moderate) Monitor for treatment-associated toxicities, especially hepatic decompensation, during coadministration of interferons (with or without ribavirin) and lamivudine. Dose reduction or discontinuation of interferon, ribavirin, or both should be considered if worsening clinical toxicities are observed, including hepatic decompensation (e.g., Child-Pugh score greater than 6).
+Peginterferon Alfa-2b: (Major) Use interferons and zidovudine together with caution. Closely monitor patients for treatment-associated toxicities, especially hematologic effects and hepatic decompensation, and manage as recommended for the individual therapies. Coadministration of alpha interferons may increase the hematologic toxicity of zidovudine. Interferons and anti-retroviral nucleoside reverse transcriptase inhibitors (NRTIs) are also associated with hepatotoxicity. Patients with chronic, cirrhotic HCV co-infected with HIV receiving NRTIs and alpha interferons appear to be at increased risk for hepatic decompensation (e.g., Childs-Pugh score 6 or more) compared to patients not receiving HAART. Interferon therapy may also reduce zidovudine clearance. (Moderate) Monitor for treatment-associated toxicities, especially hepatic decompensation, during coadministration of interferons (with or without ribavirin) and lamivudine. Dose reduction or discontinuation of interferon, ribavirin, or both should be considered if worsening clinical toxicities are observed, including hepatic decompensation (e.g., Child-Pugh score greater than 6).
+Peginterferon beta-1a: (Major) Use interferons and zidovudine together with caution. Closely monitor patients for treatment-associated toxicities, especially hematologic effects and hepatic decompensation, and manage as recommended for the individual therapies. Coadministration of alpha interferons may increase the hematologic toxicity of zidovudine. Interferons and anti-retroviral nucleoside reverse transcriptase inhibitors (NRTIs) are also associated with hepatotoxicity. Patients with chronic, cirrhotic HCV co-infected with HIV receiving NRTIs and alpha interferons appear to be at increased risk for hepatic decompensation (e.g., Childs-Pugh score 6 or more) compared to patients not receiving HAART. Interferon therapy may also reduce zidovudine clearance. (Moderate) Monitor for treatment-associated toxicities, especially hepatic decompensation, during coadministration of interferons (with or without ribavirin) and lamivudine. Dose reduction or discontinuation of interferon, ribavirin, or both should be considered if worsening clinical toxicities are observed, including hepatic decompensation (e.g., Child-Pugh score greater than 6).
+Phenytoin: (Minor) Coadministration with zidovudine has resulted in altered phenytoin concentrations. Reports have varied, with increased and decreased phenytoin concentrations being reported. Use combination with caution.
+Pioglitazone; metFORMIN: (Moderate) Certain medications used concomitantly with metformin may increase the risk of lactic acidosis. Cationic drugs that are eliminated by renal tubular secretion, such as lamivudine, may decrease metformin elimination by competing for common renal tubular transport systems.
+Probenecid: (Major) Concomitant use of probenecid with zidovudine, ZDV may produce substantially higher serum concentrations of zidovudine.
+Probenecid; Colchicine: (Major) Concomitant use of probenecid with zidovudine, ZDV may produce substantially higher serum concentrations of zidovudine.
+Procainamide: (Moderate) Cationic drugs that are eliminated by renal tubular secretion such as procainamide may compete with lamivudine for common renal tubular transport systems, thus possibly decreasing the elimination of one of the drugs. Although theoretical, careful patient monitoring of the response to lamivudine and/or procainamide is recommended to individualize dosage. In selected individuals, procainamide serum concentration monitoring may be appropriate.
+Pyrimethamine: (Major) Pyrimethamine should be used cautiously with zidovudine, ZDV because of the potential for the development of blood dyscrasias including megaloblastic anemia, agranulocytosis, or thrombocytopenia. Monitor CBCs routinely in patients receiving both drugs simultaneously; if signs of folate deficiency develop, pyrimethamine should be discontinued.
+Ribavirin: (Moderate) Use lamivudine with ribavirin and interferon with caution and closely monitor for hepatic decompensation and anemia. Dose reduction or discontinuation of interferon, ribavirin, or both should be considered if worsening clinical toxicities are observed, including hepatic decompensation (e.g., Child-Pugh greater than 6). Hepatic decompensation (some fatal) has occurred in HCV/HIV coinfected patients who received both ribavirin/interferon and anti-retroviral nucleoside reverse transcriptase inhibitors (NRTIs) therapies. In addition, ribavirin has been shown in cell culture to inhibit phosphorylation of lamivudine, which could lead to decreased antiretroviral activity; however, while ribavirin inhibits the phosphorylation reactions required to activate lamivudine, no evidence of a pharmacokinetic or pharmacodynamic interaction has been observed. (Moderate) Use zidovudine with ribavirin and interferon with caution and closely monitor for hepatic decompensation and anemia. Dose reduction or discontinuation of interferon, ribavirin, or both should be considered if worsening clinical toxicities are observed, including hepatic decompensation (e.g., Child-Pugh greater than 6). Hepatic decompensation (some fatal) has occurred in HCV/HIV coinfected patients who received both ribavirin/interferon and anti-retroviral nucleoside reverse transcriptase inhibitors (NRTIs) therapies. In addition, ribavirin may antagonize the cell culture antiviral activity of zidovudine against HIV; however, no evidence of a pharmacokinetic or pharmacodynamic interaction has been observed.
+Rifabutin: (Minor) Rifabutin may accelerate the metabolism of zidovudine. However the effectiveness of zidovudine against HIV does not appear to be altered and no dosage adjustments are required. The CDC currently considers the nucleoside reverse transcriptase inhibitors, including zidovudine, compatible for concomitant use with rifamycins, including rifampin, rifabutin and rifapentine.
+rifAMPin: (Minor) Rifampin can accelerate the metabolism of zidovudine, causing a decrease in AUC of approximately 50%. However the effectiveness of zidovudine against HIV does not appear to be altered and no dosage adjustments are required.
+Rifapentine: (Minor) Rifapentine appears to increase the glucuronidation of zidovudine, ZDV similar to other rifamycins. This may cause a decrease in zidovudine AUC. However, the effectiveness of zidovudine against HIV does not appear to be altered. The activity of zidovudine is dependent on the intracellular concentration of the triphosphate metabolite which is not correlated with plasma concentrations of the parent compound. The CDC currently considers the nucleoside reverse transcriptase inhibitors (NRTIs), including zidovudine, compatible for concomitant use with rifamycins (including rifampin, rifabutin and rifapentine). No dosing adjustments are necessary.
+Ritonavir: (Minor) Since ritonavir induces glucuronidation, there is the potential for reduction in zidovudine, ZDV plasma concentrations during concurrent therapy with ritonavir. When coadministered with ritonavir, the AUC and Cmax of zidovudine, ZDV are decreased by 12% and 27%. The clinical significance of this interaction is unknown.
+Ropeginterferon alfa-2b: (Major) Use interferons and zidovudine together with caution. Closely monitor patients for treatment-associated toxicities, especially hematologic effects and hepatic decompensation, and manage as recommended for the individual therapies. Coadministration of alpha interferons may increase the hematologic toxicity of zidovudine. Interferons and anti-retroviral nucleoside reverse transcriptase inhibitors (NRTIs) are also associated with hepatotoxicity. Patients with chronic, cirrhotic HCV co-infected with HIV receiving NRTIs and alpha interferons appear to be at increased risk for hepatic decompensation (e.g., Childs-Pugh score 6 or more) compared to patients not receiving HAART. Interferon therapy may also reduce zidovudine clearance. (Moderate) Monitor for treatment-associated toxicities, especially hepatic decompensation, during coadministration of interferons (with or without ribavirin) and lamivudine. Dose reduction or discontinuation of interferon, ribavirin, or both should be considered if worsening clinical toxicities are observed, including hepatic decompensation (e.g., Child-Pugh score greater than 6).
+Sorbitol: (Major) Avoid coadministration of lamivudine oral solution and sorbitol if possible due to sorbitol dose-dependent reduction in lamivudine exposure. An all-tablet regimen should be used when possible to avoid a potential interaction with sorbitol. Consider more frequent monitoring of viral load when treating with lamivudine oral solution. In a drug interaction study in 16 healthy adult patients, coadministration of a single 300 mg dose of lamivudine oral solution with sorbitol 3.2 g, 10.2 g, or 13.4 g resulted in dose-dependent decreases of 20%, 39%, and 44% in the AUC24 and 28%, 52%, and 55% in the Cmax of lamivudine.
+sulfADIAZINE: (Moderate) Concomitant use of sulfonamides and zidovudine may result in additive hematological abnormalities. Use caution and monitor for hematologic toxicity during concurrent use.
+Sulfamethoxazole; Trimethoprim, SMX-TMP, Cotrimoxazole: (Moderate) Concomitant use of sulfonamides and zidovudine may result in additive hematological abnormalities. Use caution and monitor for hematologic toxicity during concurrent use. (Moderate) Concomitant use of trimethoprim and zidovudine may result in additive hematological abnormalities. Use caution and monitor for hematologic toxicity during concurrent use.
+sulfaSALAzine: (Moderate) Concomitant use of sulfonamides and zidovudine may result in additive hematological abnormalities. Use caution and monitor for hematologic toxicity during concurrent use.
+Sulfonamides: (Moderate) Concomitant use of sulfonamides and zidovudine may result in additive hematological abnormalities. Use caution and monitor for hematologic toxicity during concurrent use.
+Sulopenem Etzadroxil; Probenecid: (Major) Concomitant use of probenecid with zidovudine, ZDV may produce substantially higher serum concentrations of zidovudine.
+Teriflunomide: (Major) Zidovudine, ZDV should be used cautiously with other drugs that can cause bone marrow suppression including teriflunomide because of the increased risk of hematologic toxicity. In some cases, a reduction in the dosage or discontinuation of zidovudine may be warranted. Teriflunomide, an organic anion transporter OAT3 renal updake inhibitor, may cause elevated concentrations of zidovudine, an OAT3 substrate.
+Tipranavir: (Moderate) Concurrent administration of tipranavir and ritonavir with zidovudine results in decreased zidovudine concentrations. The clinical significance of this interaction has not been established, and no recommendations for zidovudine dosage adjustments are available.
+Tramadol; Acetaminophen: (Minor) Both acetaminophen and zidovudine, ZDV undergo glucuronidation. Competition for the metabolic pathway is thought to have caused a case of acetaminophen-related hepatotoxicity. This interaction may be more clinically significant in patients with depleted glutathione stores, such as patients with acquired immunodeficiency syndrome, poor nutrition, or alcoholism.
+Trimethoprim: (Moderate) Concomitant use of trimethoprim and zidovudine may result in additive hematological abnormalities. Use caution and monitor for hematologic toxicity during concurrent use.
+Trospium: (Moderate) Monitor for an increase in adverse effects from both medications if concomitant use of lamivudine and trospium is necessary. Concomitant use may increase lamivudine and trospium exposure. Both medications are eliminated via active tubular secretion and may compete with one another to impair elimination.
+valGANciclovir: (Major) Zidovudine should be used cautiously with other drugs that can cause bone marrow suppression, such as valganciclovir, because of the increased risk of hematologic toxicity. In some cases, a reduction in the dosage of zidovudine may be warranted. Occasionally, discontinuation of therapy or the addition of a hematopoietic colony stimulating factor may be necessary.
+Valproic Acid, Divalproex Sodium: (Minor) Concomitant administration of valproic acid and oral zidovudine may result in increase in the area under the concentration-time curve of zidovudine and a decrease in the AUC of its glucuronide metabolite. This interaction does not appear to be clinically significant unless the patient is experiencing hematologic toxicities. The dose of zidovudine may be reduced in patients who are experiencing pronounced anemia while receiving chronic coadministration of zidovudine and valproic acid.
+Vonoprazan; Amoxicillin; Clarithromycin: (Moderate) Administer clarithromycin and zidovudine at least 2 hours apart. Simultaneous oral administration of clarithromycin immediate-release tablets and zidovudine may result in decreased steady-state zidovudine concentrations. The impact of coadministration of clarithromycin extended-release tablets or granules and zidovudine has not been evaluated.
+Voriconazole: (Minor) Concomitant administration of voriconazole and zidovudine may result in a reduction in the clearance of zidovudine.
+Xanomeline; Trospium: (Moderate) Monitor for an increase in adverse effects from both medications if concomitant use of lamivudine and trospium is necessary. Concomitant use may increase lamivudine and trospium exposure. Both medications are eliminated via active tubular secretion and may compete with one another to impair elimination.
+
+Adverse Reactions
+  Headline
+  Adverse Reactions
+  General Information
+  NOTE: This section discusses adverse reactions reported with the combination product lamivudine, 3TC; zidovudine, ZDV (Combivir®). Refer to the individual monographs for Lamivudine and Zidovudine for information concerning adverse events related to the individual agents.
+ 
+Lactic acidosis and severe hepatomegaly with steatosis, including fatal cases, have been reported with the use of nucleoside reverse transcriptase inhibitors. Many of these cases have occurred in women. Lamivudine, 3TC; zidovudine, ZDV (Combivir®) should be discontinued if a patient develops clinical or laboratory findings suggestive of lactic acidosis or hepatotoxicity, including hepatomegaly and steatosis even in the absence of marked elevated transaminases. In four controlled clinical trials in adult patients taking lamivudine plus zidovudine, elevated hepatic enzymes (ASL/AST > 5 times the upper limit of normal) were reported in 1.7—3.7% of patients. Hyperbilirubinemia (bilirubin > 2.5 times the upper limit of normal) was reported in 0.8% of patients. There have been reports of acute, severe hepatitis B virus (HBV) exacerbation in patients with HBV and HIV co-infection following the discontinuation of lamivudine therapy; close monitoring of clinical (i.e., jaundice) signs and symptoms, including laboratory monitoring, are recommended for several months following discontinuation.
+ 
+Bone marrow suppression resulting in anemia, neutropenia or thrombocytopenia has been reported in some patients receiving lamivudine, 3TC; zidovudine, ZDV (Combivir®). In controlled trials of 240 patients treated with the combination of lamivudine and zidovudine, anemia (Hgb < 8 g/dl) was reported in 2.9% of patients, neutropenia (ANC < 750/mm3) was reported in 7.2% of patients and thrombocytopenia (platelets < 50,000/mm3) was reported in 0.4% of patients.
+ 
+Several CNS reactions have been reported during combination therapy with lamivudine plus zidovudine. Headache is the most common adverse event reported in patients receiving the combination of lamivudine plus zidovudine; controlled clinical trials reported a 35% incidence of headache with this combination. Nervous system effects reported with the combination of lamivudine plus zidovudine include dizziness (10%), insomnia and other sleep disorders (11%), depression (9%).
+ 
+Adverse GI effects occur frequently in patients treated with lamivudine plus zidovudine. The following incidences were reported in patients receiving combination therapy with lamivudine/zidovudine: nausea/vomiting (33%/13%), diarrhea (18%), anorexia (10%), abdominal pain (9%), abdominal cramps (6%), and dyspepsia (5%). With the exception of nausea/vomiting and anorexia, these adverse GI effects occurred with a similar frequency in those who received placebo during controlled clinical trials.
+ 
+Peripheral neuropathy, including paresthesias, has been reported in 12% of patients treated with lamivudine plus zidovudine. It is not known whether neuropathy is dose-related, or whether lamivudine exacerbates zidovudine-induced neuropathy or if peripheral neuropathy is a direct effect of lamivudine.
+ 
+Arthralgia (5%), myalgia (8%), and musculoskeletal pain (12%) have been reported with lamivudine/ zidovudine combination therapy. In controlled clinical trials, these frequencies were similar to those reported with zidovudine monotherapy (5%, 6%, and 10%, respectively).
+ 
+Other adverse events were observed in at least 5% of patients receiving lamivudine; zidovudine include malaise and fatigue (27%), fever or chills (10%), dizziness (10%), nasal signs and symptoms, especially rhinorrhea and/or nasal congestion (20%), cough (18%), and rash (unspecified) (9%).
+ 
+Several adverse events have been identified during post-marketing use of lamivudine and/or zidovudine. Because they are reported voluntarily from a population of unknown size, estimates of frequency cannot be made. These events are included in the product literature for Combivir® due to their seriousness, frequency of reporting, or potential causal connection to Combivir®: alopecia, anaphylactic shock, aplastic anemia, cardiomyopathy, CPK elevation, hyperglycemia, anaphylactoid reactions, rhabdomyolysis, erythema multiforme, lymphadenopathy, myasthenia (muscle weakness), oral mucosal pigmentation, pruritus, pure red cell aplasia, rhabdomyolysis, seizures, Stevens-Johnson syndrome, splenomegaly, stomatitis, urticaria, vasculitis, weakness (asthenia), and wheezing.
+ 
+While more commonly associated with protease inhibitor therapy, a lipodystrophy syndrome consisting of redistribution/accumulation of body fat including central obesity, dorsocervical fat enlargement (buffalo hump), peripheral wasting, accumulation of facial fat, lipomas, gynecomastia and other cushingoid features has been reported in patients receiving long-term highly active antiretroviral therapy (HAART) that includes lamivudine and zidovudine. The mechanism by which nucleoside analogues may cause body fat changes is not known. It has been suggested that nucleoside analogs may damage the mitochondria of adipocytes. An increased incidence of body fat changes is noted in those patients receiving long-term nucleoside therapy and in female patients.
+ 
+During clinical trials, pancreatitis was observed in 0.3% (9/2613) of patients who received lamivudine; zidovudine. Discontinue lamivudine; zidovudine immediately if clinical signs, symptoms, or laboratory results suggestive of pancreatitis develop.
+  Adverse Reactions
+    Headline
+    elevated hepatic enzymes, hepatitis B exacerbation, hepatomegaly, hepatotoxicity, hyperbilirubinemia, lactic acidosis, steatosis
+    General Information
+    Lactic acidosis and severe hepatotoxicity, including fatal cases, have been reported with the use of nucleoside reverse transcriptase inhibitors, including lamivudine and zidovudine. Typically, these adverse reactions present with symptoms such as enlargement of the liver (hepatomegaly) and fatty liver (steatosis), even in the absence of significant elevations in liver transaminases. Suspend lamivudine; zidovudine treatment in patients who develop clinical or laboratory findings suggestive of lactic acidosis or hepatotoxicity. Pooled data from four controlled clinical trials found 1.7% to 3.7% of patients receiving lamivudine plus zidovudine developed elevated hepatic enzymes (AST and ALT greater than 5-times the upper limit of normal). Hyperbilirubinemia (bilirubin greater than 2.5-times the upper limit of normal) was reported in 0.8% of patients. Additionally, there have been reports of severe acute hepatitis B exacerbation in patients with HBV and HIV coinfection following the discontinuation of lamivudine therapy; close monitoring of clinical (i.e., jaundice) signs and symptoms, including laboratory monitoring, are recommended for several months following discontinuation. When appropriated, restarting hepatitis B treatment may be considered.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      elevated hepatic enzymes
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hepatomegaly
+      Severity
+      Moderate
+      GSTerm Name
+      hyperbilirubinemia
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      lactic acidosis
+      Severity
+      Severe
+      GSTerm Name
+      steatosis
+      Severity
+      Moderate
+      GSTerm Name
+      hepatitis B exacerbation
+      Severity
+      Severe
+      GSTerm Name
+      hepatotoxicity
+      Severity
+      Severe
+    Headline
+    anemia, bone marrow suppression, lymphadenopathy, neutropenia, red cell aplasia, splenomegaly, thrombocytopenia
+    General Information
+    Zidovudine has been associated with bone marrow suppression and hematologic toxicities, including neutropenia and severe anemia, particularly in patients with advanced HIV infection. Pooled data from controlled trials of patients treated with lamivudine and zidovudine, found anemia (Hgb less than 8 g/dL) in 2.9% of patients, neutropenia (ANC less than 750/mm3) in 7.2% of patients, and thrombocytopenia (platelets less than 50,000/mm3) in 0.4% of patients. Other hematologic and lymphatic adverse events reported during postmarketing use of lamivudine; zidovudine include anemia (including red cell aplasia and severe anemias progressing on therapy), lymphadenopathy, and splenomegaly. Due to the voluntary nature of postmarketing reports, neither a frequency nor a definitive causal relationship can be established. Administer with caution to patients with evidence of bone marrow suppression (granulocyte count less than 1,000 cells/mm3 or hemoglobin less than 9.5 g/dL). Monitor blood counts frequently in patients with advanced HIV infection; if anemia or neutropenia develops, consider interruption of therapy.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      anemia
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      neutropenia
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      thrombocytopenia
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      lymphadenopathy
+      Severity
+      Moderate
+      GSTerm Name
+      red cell aplasia
+      Severity
+      Severe
+      GSTerm Name
+      splenomegaly
+      Severity
+      Moderate
+      GSTerm Name
+      bone marrow suppression
+      Severity
+      Moderate
+    Headline
+    depression, dizziness, headache, insomnia, seizures
+    General Information
+    Neurologic and psychiatric adverse events that occurred during clinical trials of lamivudine and zidovudine included headache (35%), dizziness (10%), insomnia and other sleep disorders (11%), and depression (9%). There have been postmarketing reports of seizures, though due to the voluntary nature of postmarketing reports, neither a frequency nor a definitive causal relationship can be established.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      depression
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      dizziness
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      headache
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      insomnia
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      seizures
+      Severity
+      Severe
+    Headline
+    abdominal pain, anorexia, diarrhea, dyspepsia, nausea, stomatitis, vomiting
+    General Information
+    Gastrointestinal (GI) events that occurred during combination therapy with lamivudine and zidovudine include nausea (33%), vomiting (13%), diarrhea (18%), anorexia (10%), abdominal pain (9%), abdominal cramps (6%), and dyspepsia (5%). Oral mucosal pigmentation and stomatitis were reported with postmarketing use. Due to the voluntary nature of postmarketing reports, neither a frequency nor a definitive causal relationship can be established.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      abdominal pain
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      anorexia
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      diarrhea
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      dyspepsia
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      nausea
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      vomiting
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      stomatitis
+      Severity
+      Moderate
+    Headline
+    paresthesias, peripheral neuropathy
+    General Information
+    Patients with peripheral neuropathy receiving lamivudine; zidovudine can experience exacerbations during therapy due to the lamivudine component. In one case report involving a 57-year-old male with mild neuropathy, treatment with lamivudine was associated with a fatal peripheral neuropathy exacerbation. The patient had received lamivudine 300 mg daily for treatment of hepatitis. After 3 months of treatment, the patient presented with dysphonia and progressive muscle weakness. Later, the patient developed tetraparesis followed by acute respiratory failure requiring mechanical ventilation. The patient then went into sudden cardiac arrest. Treatment with lamivudine was stopped, and the neuropathy and respiratory capacity improved; however, the patient ultimately died. Neuropathy was reported in 12% of patients receiving lamivudine; zidovudine during clinical trials. Additionally, peripheral neuropathy and paresthesias have been reported with postmarketing use of lamivudine; zidovudine. Due to the voluntary nature of postmarketing reports, neither a frequency nor a definitive causal relationship can be established.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      paresthesias
+      Severity
+      Minor
+      GSTerm Name
+      peripheral neuropathy
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+    Headline
+    arthralgia, elevated creatine kinase, musculoskeletal pain, myalgia, myopathy, rhabdomyolysis, weakness
+    General Information
+    Myopathy and myositis, with pathological changes similar to that produced by the HIV infection, have been associated with prolonged use of zidovudine in an estimated 17% of drug recipients. Common symptoms of zidovudine-induced myopathy include progressive generalized muscle pain, weakness, and fatigue. Patients frequently experience muscle atrophy and increased creatine kinase, indicating muscle damage. Symptoms usually resolve about 4 weeks after stopping treatment. Monitor patients for signs and symptoms of myopathy during treatment with lamivudine; zidovudine. Musculoskeletal adverse events associated with the use of lamivudine and zidovudine during clinical trials include arthralgia (5%), myalgia (8%), and musculoskeletal pain (12%). Cases of muscle weakness, elevated creatine kinase (CK), and rhabdomyolysis have been reported during postmarketing use of lamivudine; zidovudine. Due to the voluntary nature of postmarketing reports, neither a frequency nor a definitive causal relationship can be established.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      arthralgia
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      musculoskeletal pain
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      myalgia
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      myopathy
+      Severity
+      Moderate
+      GSTerm Name
+      rhabdomyolysis
+      Severity
+      Severe
+      GSTerm Name
+      weakness
+      Severity
+      Minor
+      GSTerm Name
+      elevated creatine kinase
+      Severity
+      Moderate
+    Headline
+    anaphylactoid reactions, chills, fatigue, fever, malaise, urticaria
+    General Information
+    Adverse events affecting the body as a whole and observed in at least 5% of patients receiving lamivudine and zidovudine during clinical trials include malaise (27%), fatigue (27%), fever (10%), and chills (10%). Hypersensitivity reactions, including anaphylactoid reactions and urticaria, have been reported with postmarketing use.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      chills
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      fatigue
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      fever
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      malaise
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      anaphylactoid reactions
+      Severity
+      Severe
+      GSTerm Name
+      urticaria
+      Severity
+      Minor
+    Headline
+    cardiomyopathy, hyperglycemia, vasculitis
+    General Information
+    Adverse events identified during postmarketing use of lamivudine and zidovudine include cardiomyopathy, hyperglycemia, and vasculitis. Due to the voluntary nature of postmarketing reports, neither a frequency nor a definitive causal relationship can be established.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      cardiomyopathy
+      Severity
+      Severe
+      GSTerm Name
+      hyperglycemia
+      Severity
+      Moderate
+      GSTerm Name
+      vasculitis
+      Severity
+      Severe
+    Headline
+    lipodystrophy
+    General Information
+    Lipodystrophy, specifically lipoatrophy, has been reported in patients receiving zidovudine. It is characterized by the loss of subcutaneous fat, predominantly affecting areas such as the face, limbs, and buttocks. The incidence and severity of lipoatrophy are related to cumulative exposure to zidovudine. Although some improvement may occur after switching to a non-zidovudine-containing regimen, the reversal of fat loss is often only partial and can take months to years. Regular assessment for signs of lipoatrophy is advised, and transitioning to an alternative regimen should be considered if lipoatrophy is suspected. Postmarketing reports involving lamivudine; zidovudine have additionally noted occurrences of gynecomastia and redistribution or accumulation of body fat.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      lipodystrophy
+      Severity
+      Moderate
+    Headline
+    hyperamylasemia, pancreatitis
+    General Information
+    During lamivudine; zidovudine clinical trials, hyperamylasemia (serum amylase concentrations greater than 2-times the upper limit of normal) was observed in 4.2% of drug recipients. Additionally, pancreatitis was observed in 0.3% (n = 9/2,613) of patients who received lamivudine; zidovudine. Stop treatment immediately if clinical signs, symptoms, or laboratory results suggestive of pancreatitis develop.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      pancreatitis
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hyperamylasemia
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+    Headline
+    alopecia, erythema multiforme, rash, Stevens-Johnson syndrome
+    General Information
+    A skin rash developed in 9% of patients who received lamivudine and zidovudine during clinical trials. Other dermatologic adverse events reported during the postmarketing period include alopecia, Stevens-Johnson syndrome, and erythema multiforme.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      alopecia
+      Severity
+      Minor
+      GSTerm Name
+      erythema multiforme
+      Severity
+      Severe
+      GSTerm Name
+      rash
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      Stevens-Johnson syndrome
+      Severity
+      Severe
+    Headline
+    cough, wheezing
+    General Information
+    Respiratory adverse events experienced by recipients of lamivudine and zidovudine during clinical trials included unspecified nasal symptoms (20%) and cough (18%). Wheezing or abnormal breathing sounds have been reported with postmarketing use.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      cough
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      wheezing
+      Severity
+      Moderate
+    Headline
+    vitamin B12 deficiency
+    General Information
+    Zidovudine is associated with a decrease in vitamin B12 concentrations in patients with HIV and may lead to vitamin B12 deficiency. Regular monitoring and supplementation may be necessary.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      vitamin B12 deficiency
+      Severity
+      Moderate
+    Headline
+    autoimmune disease, Guillain-Barre syndrome, immune reconstitution syndrome
+    General Information
+    Immune reconstitution syndrome has been reported in patients treated with combination antiretroviral therapy, including lamivudine; zidovudine. During the initial phase of HIV treatment, patients whose immune system responds to antiretroviral therapy may develop an inflammatory response to indolent or residual opportunistic infections (such as progressive multifocal leukoencephalopathy (PML), mycobacterium avium complex (MAC), cytomegalovirus (CMV), Pneumocystis pneumonia (PCP), or tuberculosis (TB)), which may necessitate further evaluation and treatment. In addition, autoimmune disease (including Graves' disease, Guillain-Barre syndrome, and polymyositis) may also develop; the time to onset is variable and may occur months after treatment initiation.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      autoimmune disease
+      Severity
+      Severe
+      GSTerm Name
+      Guillain-Barre syndrome
+      Severity
+      Severe
+      GSTerm Name
+      immune reconstitution syndrome
+      Severity
+      Severe
+
+Description
+  Text
+  Lamivudine; zidovudine is a combination of two nucleoside reverse transcriptase inhibitors (NRTIs), approved for use with other antiretroviral agents to treat human immunodeficiency virus type 1 (HIV-1) infections in adults and pediatric patients weighing at least 30 kg. Due to the fixed-dose formulation, dose adjustments cannot be made for reduced renal function (CrCl less than 50 mL/minute), hepatic impairment, low body weight (less than 30 kg), or dose-limiting adverse reactions; thus, use of the drug in patients with these conditions is not recommended. The FDA-approved label contains Black Box Warnings for hematologic toxicity (including neutropenia and severe anemia) linked to zidovudine, symptomatic myopathy with prolonged use of zidovudine, lactic acidosis and severe hepatomegaly with steatosis associated with both components, and severe acute exacerbations of hepatitis B upon discontinuation of lamivudine in patients with both hepatitis B and HIV. Lamivudine; zidovudine was approved by the FDA in 1997.
+
+Mechanism Of Action
+  Text
+  Lamivudine; zidovudine is active against infections caused by human immunodeficiency virus type 1 (HIV-1). Both drug components are synthetic nucleoside analogs, which when phosphorylated intracellularly to their active 5'-triphosphate forms, exert their antiviral effect by inhibiting HIV reverse transcriptase. They inhibit reverse transcriptase by competing with natural substrates for incorporation into viral DNA, leading to chain termination. Because the incorporated nucleoside analogs lack a 3'-hydroxyl group, they prevent the formation of the 5' to 3' phosphodiester linkage essential for DNA chain elongation, thereby inhibiting viral DNA growth. The active metabolite of lamivudine is lamivudine triphosphate (3TC-TP). It is a cystine analog that is more active in resting peripheral blood mononuclear cells than in actively dividing cells. Zidovudine triphosphate (ZDV-TP) is the active metabolite of zidovudine. It is a thymidine analog in which a 3'-azido group replaces the 3'-hydroxyl group and has greater activity in replicating cells.
+ 
+Pharmacodynamics
+Lamivudine: In cell cultures, the EC50 values for lamivudine ranged from 3 to 15,000 nM for HIV-1 and 3 to 120 nM for HIV-2 isolates.
+Zidovudine: In cell cultures, the EC50 values for zidovudine ranged from 10 to 490 nM for HIV-1 and 0.49 to 4 nM for HIV-2 isolates.
+ 
+Resistance
+HIV-1 isolates from patients who receive combination therapy with lamivudine plus zidovudine can become phenotypically and genotypically resistant to lamivudine within 12 weeks. In some patients with a zidovudine-resistant virus at baseline, treatment with lamivudine plus zidovudine restored phenotypic sensitivity to zidovudine by week 12. HIV-1 strains with resistance to both lamivudine and zidovudine have been isolated from patients after prolonged lamivudine; zidovudine therapy. Genotypic analysis has shown that resistance to lamivudine is due to mutations in the HIV-1 reverse transcriptase gene at codon 184 changing methionine to either isoleucine or valine (M184V/I). Genotypic analysis of isolates resistant to zidovudine showed thymine analog mutation (TAMs) substitutions in HIV-1 reverse transcriptase (M41L, D67N, K70R, L210W, T215Y/F, K219E/R/H/Q/N). In general, higher levels of resistance are associated with a greater number of mutations. Cross-resistance between lamivudine and zidovudine has not been reported.
+
+Pharmacokinetics
+  Route Specific Pharmacokinetics
+    Name
+    Oral Route
+    Description
+    One lamivudine; zidovudine tablet has been shown to be bioequivalent to one lamivudine 150 mg tablet and one zidovudine 300 mg tablet following single-dose administration to fasting healthy subjects.
+Lamivudine: Following oral administration, lamivudine is rapidly absorbed with a bioavailability of about 86%. Administering with food does not alter the extent of absorption (AUC).
+Zidovudine: Zidovudine is rapidly absorbed following oral administration with a bioavailability of about 64%. Administering with food does not alter the extent of absorption (AUC).
+  Special Populations
+    Name
+    Hepatic Impairment
+    Description
+    Lamivudine: The pharmacokinetics of lamivudine are not significantly altered in patients with impaired hepatic function. Safety and efficacy have not been established in patients with decompensated liver disease.
+Zidovudine: Zidovudine is primarily eliminated through hepatic metabolism. Limited data indicate that zidovudine clearance is decreased, and plasma concentrations are increased in patients with hepatic impairment.
+    Name
+    Renal Impairment
+    Description
+    Lamivudine: As renal function decreases, lamivudine clearance decreases, leading to higher plasma concentrations (Cmax) and systemic exposure (AUC); however, the time to reach maximum concentration (Tmax) is not significantly affected by renal function. Hemodialysis increases lamivudine clearance; however, a 4-hour hemodialysis session did not significantly alter mean lamivudine exposure after a single dose. The hemodialysis extraction ratio is approximately 53% to 65%. Continuous ambulatory peritoneal dialysis (CAPD) and automated peritoneal dialysis have negligible effects on clearance. After correction of dose for creatinine clearance, no additional dose modifications are necessary after routine hemodialysis or peritoneal dialysis. It is not known if continuous (24-hour) hemodialysis can remove lamivudine. The effect of renal impairment on pharmacokinetic parameters in pediatric patients is not known.
+Zidovudine: Zidovudine clearance is decreased in subjects with impaired renal function, leading to increased half-life and AUC. Hemodialysis and peritoneal dialysis do not significantly remove zidovudine but do enhance the elimination of its metabolite GZDV.
+    Name
+    Other
+    Description
+    Pregnancy
+Lamivudine: Although population pharmacokinetic modeling suggests the oral clearance of lamivudine is increased by 22% during pregnancy; limited data from 2 studies involving 36 pregnant women (16 at 36 weeks, 20 at 38 weeks gestation) found the pharmacokinetic parameters of lamivudine to be similar to those observed in non-pregnant and postpartum adults. No change in dose is indicated. In addition, placental transfer of lamivudine results in drug concentrations that are 2-times greater than maternal serum levels.
+Zidovudine: Zidovudine pharmacokinetics are not significantly altered during pregnancy, and no change in dose is indicated. There is high placental transfer to the fetus.
+  Text
+  Lamivudine; zidovudine is administered orally.
+Lamivudine: Once in systemic circulation, lamivudine is less than 36% bound to human plasma proteins. The apparent volume of distribution is 1.3 +/- 0.4 L/kg, indicating distribution into extravascular spaces. This volume of distribution is independent of dose and does not correlate with body weight. Metabolism is a minor route of elimination, with the only known metabolite being the trans-sulfoxide metabolite (approximately 5% of an oral dose after 12 hours). Approximately 70% of a lamivudine dose is excreted unchanged in the urine through active organic cationic secretion. The single-dose elimination half-life ranges from 5 to 7 hours.
+Zidovudine: Once in systemic circulation, zidovudine has a volume of distribution of 1.6 +/- 0.6 L/kg with low plasma protein binding (less than 38%). Zidovudine penetrates well into the central nervous system, with a median cerebrospinal fluid (CSF):plasma ratio of 0.6. The primary route of elimination is hepatic metabolism, forming a major glucuronidated metabolite 3'-azido-3'-deoxy-5'-O'-beta-D-glucopyranuronosylthymidine (GZDV), which has a systemic exposure (AUC) about 3-times greater than that of zidovudine. A second metabolite, 3'-amino-3'-deoxythymidine (AMT), has an AUC one-fifth that of zidovudine. After an oral dose, approximately 14% is recovered in the urine as unchanged zidovudine and 74% as GZDV. Zidovudine has an elimination half-life of 0.5 to 3 hours; however, its intracellular half-life is 3 to 4 hours.
+ 
+Affected cytochrome P450 isoenzymes: none
+Lamivudine is an in vitro substrate of multidrug and toxic extrusion protein (MATE)1 and MATE2-K and organic cation transporter (OCT)2. Concurrent administration with an inhibitor of these drug transporters did increase lamivudine plasma concentrations; however, the increase was not considered clinically significant. Lamivudine is also a substrate of P-glycoprotein (P-gp) and breast cancer resistance protein (BCRP); however, its high bioavailability suggests minimal impact from efflux transporter inhibitors.
+
+Administration
+  General Information
+  For storage information, see the specific product information within the How Supplied section.
+ 
+NOTE: Interruptions of therapy may be necessary for specific situations.
+If an unanticipated short-term treatment interruption (i.e., less than 1 to 2 days) is necessary, it is generally recommended that all antiretroviral agents be discontinued simultaneously, especially if the interruption occurs in a pregnant patient or is because of serious toxicity.
+If a short-term treatment interruption is anticipated, as in the case of elective surgery, consider the pharmacokinetic properties and food requirements of the specific antiretroviral medications. Stopping a treatment regimen containing medications with differing half-lives may result in functional monotherapy of the antiretroviral with the longest half-life and may increase the risk for resistant mutations.
+Health care providers are advised to restart a complete and effective antiretroviral regimen as soon as possible after a short-term interruption of therapy.
+Planned long-term treatment interruptions are not recommended due to the potential for HIV disease progression (i.e., declining CD4 counts, viral rebound, acute viral syndrome), development of minor HIV-associated manifestations or serious non-AIDS complications, development of drug resistance, increased risk of HIV transmission, and increased risk for opportunistic infections.
+If therapy must be discontinued, counsel the patient on the potential risks and closely monitor for any clinical or laboratory abnormalities.
+ 
+Hazardous Drugs Classification
+NIOSH 2024 List: Table 2
+Observe and exercise appropriate precautions for handling, preparation, administration, and disposal of hazardous drugs.
+Use gloves to handle; double chemotherapy gloves and a protective gown are needed if manipulation is necessary. Cutting, crushing, or otherwise manipulating tablets/capsules will increase exposure.
+  Route Specific Administrations
+    Name
+    Oral Administration
+    Description
+    Administer with or without food.
+
+Maximum Dosage Limits
+  Age Groups
+    Name
+    Adults
+    Max Dosage
+    300 mg per day lamivudine and 600 mg per day zidovudine PO.
+    Name
+    Geriatric
+    Max Dosage
+    300 mg per day lamivudine and 600 mg per day zidovudine PO.
+    Name
+    Adolescents
+    Max Dosage
+    30 kg or more: 300 mg per day lamivudine and 600 mg per day zidovudine PO.
+less than 30 kg: Not recommended.
+    Name
+    Children
+    Max Dosage
+    30 kg or more: 300 mg per day lamivudine and 600 mg per day zidovudine PO.
+less than 30 kg: Not recommended.
+    Name
+    Infants
+    Max Dosage
+    Not recommended.
+    Name
+    Neonates
+    Max Dosage
+    Not recommended.
+
+Dosage Adjustment Guidelines
+  Hepatic Impairment
+  The fixed-dose combination of lamivudine; zidovudine is not recommended for use in persons with impaired hepatic function.
+  Renal Impairment
+  CrCl 50 mL/minutes or more: No dosage adjustment is needed.
+CrCl less than 50 mL/minute: Not recommended.

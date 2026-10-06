@@ -1,0 +1,819 @@
+=== Dostarlimab (Merck Manual Professional) ===
+Source: https://www.merckmanuals.com/professional/drug-names-generic-and-brand (productid 5326)
+Retrieved: 2026-09-25
+NURSING QUICK-REFERENCE SUMMARY
+Auto-generated on 2026-09-25 from the prescribing information in this file; full details follow below.
+
+Drug Class: Dostarlimab is a PD-1 blocking antibody that is indicated as a single agent for the treatment of adults with mismatch repair deficient (dMMR) recurrent or advanced endometrial cancer or other dMMR solid tumors that progressed on or following prior treatment.
+
+Routes: injection (IV/IM/SC); Common adult doses: 500 mg IV every 3 weeks OR 1,000 mg IV every 6 weeks.
+
+Common Side Effects (excluding routine GI upset): cough, dyspnea, interstitial lung disease, pneumonitis, colitis, enterocolitis, elevated hepatic enzymes, hepatitis, hyperbilirubinemia, hypoalbuminemia, adrenocortical insufficiency, hypophysitis, hypopituitarism, hyperthyroidism, hypoparathyroidism, hypothyroidism, thyroiditis, arthralgia, myalgia, renal failure (unspecified), rhabdomyolysis, hyperamylasemia, pancreatitis, myocarditis, pericarditis, vasculitis, encephalopathy, guillain-barre syndrome, meningitis, myasthenia gravis
+
+In an Overdose: No overdose/antidote information is listed in this file.
+
+Key Nursing Considerations: Contraindications/precautions: Use dostarlimab with caution in patients with a history of autoimmune disease, including inflammatory bowel disease. Immune-mediated reactions, which may be severe or fatal, can occur in patients treated with drugs that bind to either the programmed death-receptor 1 (PD-1) or the PD-ligand 1...
+
+Brand Names
+  - Jemperli
+
+Dosage Forms
+  - Jemperli 500mg/10mL Solution for Injection
+
+Indication Specific Dosing
+  Indications
+    Related Indications
+      Heading
+      for the treatment of mismatch repair deficient (dMMR) recurrent or advanced endometrial cancer that progressed on or following treatment with a platinum-containing regimen in any setting, in patients who are not candidates for curative surgery or radiation
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          500 mg IV every 3 weeks for 4 cycles, followed by 1,000 mg IV every 6 weeks until disease progression or unacceptable toxicity. In an interim efficacy analysis, the overall response rate was 45.4% (complete response, 15.6%) in 141 patients with dMMR recurrent or advanced endometrial cancer with disease progression during or after treatment with a platinum-containing chemotherapy regimen who received dostarlimab in a multicenter, multicohort, phase 1 study (GARNET). After a median follow-up of 27.9 months, the median duration of response had not been reached; 85.9% of patients had a response duration of at least 12 months, and 54.7% of patients had a response duration of at least 24 months.
+      Heading
+      for the treatment of primary advanced or recurrent endometrial cancer, in combination with carboplatin and paclitaxel followed by single agent therapy
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          500 mg IV on day 1, in combination with carboplatin AUC 5 on day 1 and paclitaxel 175 mg/m2 on day 1, every 3 weeks for 6 cycles; administer dostarlimab prior to chemotherapy on day 1 of each cycle. After completion of 6 cycles of combination therapy, continue dostarlimab 1,000 mg IV every 6 weeks as monotherapy until disease progression or unacceptable toxicity, for up to 3 years. After a median follow-up of 25.4 months, treatment with dostarlimab plus carboplatin and paclitaxel significantly improved overall survival (OS) (44.6 months vs. 28.2 months) and progression-free survival (PFS) (11.8 months vs. 7.9 months) compared with placebo plus carboplatin/paclitaxel in patients with primary advanced or recurrent endometrial cancer in a multicenter, randomized, double-blind, phase 3 clinical trial (RUBY); OS (not reached vs. 30.8 months) and PFS (30.3 months vs. 7.7 months) were also significantly improved in patients with mismatch repair deficient (dMMR) or microsatellite instability-high (MSI-H) disease. In the overall population, the objective response rate (ORR) was 68% in the dostarlimab arm for a median duration of 10.8 months compared with 57% in the placebo arm (complete response [CR], 20% vs. 12%) for a median duration of 6.4 months; in patients with dMMR or MSI-H disease, the ORR was 74% versus 62%, respectively (CR, 26% vs. 11%), for a median duration that was not reached compared with 5.4 months. In a prespecified exploratory analysis, OS was 32.5 months in patients with mismatch repair proficient (MMRp)/microsatellite stable (MSS) endometrial cancer who received dostarlimab plus carboplatin/paclitaxel compared with 28.2 months for those who received placebo plus carboplatin/paclitaxel; median PFS was 9.8 months versus 7.9 months in these patients, respectively.
+    Routes
+    Heading
+    For the treatment of endometrial cancer
+    Related Indications
+      Heading
+      for the treatment of mismatch repair deficient (dMMR) solid tumors that have progressed on or following prior treatment and who have no satisfactory alternative treatment options
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          500 mg IV every 3 weeks for 4 doses; starting 3 weeks after the fourth dose, give 1,000 mg IV every 6 weeks until disease progression or unacceptable toxicity. Therapy may need to be temporarily withheld or permanently discontinued in patients who develop immune-related reactions. The overall response rate to dostarlimab was 41.6% (complete response, 9.1%) in patients with progressive, advanced, dMMR solid tumors and no satisfactory alternative treatment options in a multicenter, nonrandomized, multicohort trial (GARNET). The median duration of response was 34.7 months, with 95.4% of patients sustaining a response for at least 6 months.
+    Routes
+    Heading
+    For the treatment of mismatch repair deficient solid tumors
+
+Contraindications And Precautions
+  Headline
+  Contraindications/Warnings/Precautions
+  Contraindications And Precautions
+    Headline
+    Drug Interactions
+    General Information
+    The coadministration of certain medications may lead to harm and require avoidance or therapy modification; review all drug interactions prior to concomitant use of other medications.
+    Headline
+    autoimmune disease, inflammatory bowel disease
+    General Information
+    Use dostarlimab with caution in patients with a history of autoimmune disease, including inflammatory bowel disease. Immune-mediated reactions, which may be severe or fatal, can occur in patients treated with drugs that bind to either the programmed death-receptor 1 (PD-1) or the PD-ligand 1 (PD-L1), thus removing inhibition of the immune response, such as dostarlimab. These immune-mediated reactions can occur in any organ system or tissue and can also affect more than one body system simultaneously. Although usually occurring during treatment with PD-1/PD-L1 inhibitors, immune-mediated reactions can occur at any time after starting therapy including after discontinuation of therapy. Because early identification and management is critical to safe usage of PD-1/PD-L1 inhibitors, closely monitor patients for signs and symptoms that may be clinical manifestations of underlying immune-mediated reactions. Initiate an appropriate workup to exclude alternative etiologies including infection in cases of suspected immune-mediated reaction. Begin medical management promptly, including specialty consultation as appropriate. An interruption or discontinuation of dostarlimab therapy may be necessary, depending on the severity of the reaction. In general, if an interruption or discontinuation of therapy is necessary, administer systemic corticosteroids (1 to 2 mg/kg per day of prednisone or equivalent); upon improvement to grade 1 or less, begin a steroid taper over at least 1 month. Consider additional systemic immunosuppression in patients whose symptoms are not controlled with corticosteroid therapy.
+    Headline
+    Hypersensitivity
+    General Information
+    This medication is contraindicated in patients with a history of hypersensitivity to it or any of its components.
+    Headline
+    pulmonary disease, thoracic radiation therapy
+    General Information
+    Use dostarlimab with caution in patients who have a history of pre-existing pulmonary disease; immune-mediated pneumonitis/interstitial lung disease has been reported in patients treated with dostarlimab. The incidence is higher in patients who have received prior thoracic radiation therapy, except in patients with classical Hodgkin lymphoma, where pneumonitis rates were similar regardless of prior thoracic radiation. Monitor patients for signs and symptoms of pneumonitis (e.g., new or worsening cough, chest pain, shortness of breath). If confirmed, dostarlimab therapy may need to be interrupted or discontinued depending on severity; treatment with systemic corticosteroids may be necessary.
+    Headline
+    neurological disease
+    General Information
+    Use dostarlimab with caution in patients who have a history of neurological disease such as myasthenia gravis or Guillain-Barre syndrome. Immune-mediated neurotoxicity has been reported with dostarlimab or other PD-1/PD-L1 inhibitors. Dostarlimab may need to be interrupted or discontinued depending on the severity of the neurotoxicity; treatment with systemic corticosteroids may also be necessary.
+    Headline
+    allogeneic stem cell transplant
+    General Information
+    Perform a risk/benefit analysis prior to starting treatment with a PD-1/PD-L1 blocking antibody, such as dostarlimab, in patients who may receive or who have a history of undergoing an allogeneic stem cell transplant (SCT). Fatal and other serious complications including hyperacute, acute, and chronic graft-versus-host-disease, sinusoidal obstruction syndrome (SOS) previously termed veno-occlusive disease (VOD) after reduced intensity conditioning, and a steroid-requiring febrile syndrome (without an identified infectious cause) have been reported in patients who receive an allogeneic SCT before or after being treated with a PD-1/PD-L1 blocking antibody. Monitor patients closely for evidence of transplant-related complications and intervene promptly. Complications may occur despite intervening therapy between PD-1/PD-L1 blockade and allogeneic SCT.
+    Headline
+    corneal transplant, organ transplant
+    General Information
+    Use dostarlimab with caution in patients who have previously had a solid organ transplant or other transplant (including corneal transplant). Immune-mediated organ transplant rejection has been reported with PD-1/PD-L1 inhibitor therapy.
+    Headline
+    obesity
+    General Information
+    Monitor patients with obesity as well as those who are considered overweight for an increased risk of infusion-related reactions when treated with dostarlimab. Patients with a high BMI have a greater risk even if they have a low metabolic risk (i.e., fewer than 2 of diabetes, dyslipidemia, hypertension).
+    Headline
+    cardiac disease
+    General Information
+    Use dostarlimab with caution in patients with cardiovascular risk factors such as hypertension, heart failure, cardiac disease, and myocardial infarction as they are at increased risk of cardiac immune-related adverse reactions such as myocarditis, vasculitis, and pericarditis.
+    Headline
+    pregnancy
+    General Information
+    Dostarlimab can cause fetal harm when used during pregnancy based on its mechanism of action. There are no available data on the use of dostarlimab during human pregnancy. A central function of the PD-1/PD-L1 pathway is to preserve pregnancy by maintaining immune tolerance to the fetus. Animal studies indicate that PD-1/PD-L1 inhibition may increase the risk of immune-mediated rejection of the developing fetus, resulting in fetal death. Human IgG4 antibodies are known to cross the placenta, so dostarlimab has the potential to be transmitted to the fetus. Fetal exposure to dostarlimab may increase the risk of developing immune-mediated disorders or altering the normal immune response. Patients should be counseled on the potential fetal risks.
+    Headline
+    people who may become pregnant, reproductive risk
+    General Information
+    Counsel people who may become pregnant about the reproductive risk associated with dostarlimab. Dostarlimab can cause fetal harm. Verify pregnancy status prior to treatment initiation. Advise people who may become pregnant to use effective contraception while taking dostarlimab and for 4 months after the last dose.
+    Headline
+    breast-feeding
+    General Information
+    Advise patients to avoid breast-feeding while taking dostarlimab and for 4 months after the last dose due to the potential for serious adverse reactions in the breastfed child. There are no data on the presence of dostarlimab in human milk, its effects on the breast-fed child, or its effects on milk production. Maternal IgG is known to be present in human milk. The effects of localized gastrointestinal exposure and limited systemic exposure in the breastfed child to dostarlimab are unknown.
+
+Pregnancy And Lactation
+  Pregnancy
+    General Information
+    Dostarlimab can cause fetal harm when used during pregnancy based on its mechanism of action. There are no available data on the use of dostarlimab during human pregnancy. A central function of the PD-1/PD-L1 pathway is to preserve pregnancy by maintaining immune tolerance to the fetus. Animal studies indicate that PD-1/PD-L1 inhibition may increase the risk of immune-mediated rejection of the developing fetus, resulting in fetal death. Human IgG4 antibodies are known to cross the placenta, so dostarlimab has the potential to be transmitted to the fetus. Fetal exposure to dostarlimab may increase the risk of developing immune-mediated disorders or altering the normal immune response. Patients should be counseled on the potential fetal risks.
+  Breastfeeding
+    General Information
+    Advise patients to avoid breast-feeding while taking dostarlimab and for 4 months after the last dose due to the potential for serious adverse reactions in the breastfed child. There are no data on the presence of dostarlimab in human milk, its effects on the breast-fed child, or its effects on milk production. Maternal IgG is known to be present in human milk. The effects of localized gastrointestinal exposure and limited systemic exposure in the breastfed child to dostarlimab are unknown.
+
+Interactions
+Cholera Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the live cholera vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to cholera bacteria after receiving the vaccine.
+Dengue Tetravalent Vaccine, Live: (Contraindicated) Avoid administration of the live dengue virus vaccine with immunosuppressive drug therapy and prior to immune recovery following treatment with immunosuppressive drug therapy. When feasible, administer indicated live virus vaccines at least 4 weeks before planned immunosuppression or wait until at least 3 months after discontinuation. The time to restoration of immune competence may be longer in some patients. Patients with altered immunocompetence may be at increased risk for severe adverse reactions due to uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+SARS-CoV-2 (COVID-19) vaccines: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) mRNA Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) Recombinant Spike Protein Nanoparticle Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+Sodium Iodide I-131: (Moderate) Monitor for bone marrow suppression during concomitant use of sodium iodide I-131 and antineoplastic agents. Concomitant use of bone marrow depressants may enhance the depression of the hematopoietic system caused by the use of large doses of sodium iodide I-131.
+Tuberculin Purified Protein Derivative, PPD: (Moderate) Immunosuppressives may decrease the immunological response to tuberculin purified protein derivative, PPD. This suppressed reactivity can persist for up to 6 weeks after treatment discontinuation. Consider deferring the skin test until completion of the immunosuppressive therapy.
+
+Adverse Reactions
+  Headline
+  Adverse Reactions
+  Adverse Reactions
+    Headline
+    cough, dyspnea, interstitial lung disease, pneumonitis
+    General Information
+    Immune-mediated pneumonitis/interstitial lung disease was reported in 2.3% (grade 3 or 4, 1%) of patients with advanced or recurrent solid tumors who received dostarlimab (n = 605) in a multicohort clinical study. Systemic corticosteroids were required in 79% of patients with pneumonitis; pneumonitis resolved in 11 of 14 patients. Of 5 patients who resumed dostarlimab therapy after resolution, pneumonitis recurred in 2. Monitor patients for signs and symptoms of pneumonitis. An interruption or discontinuation of therapy may be necessary as well as treatment with systemic corticosteroids. Cough occurred in 13% to 15% of patients with recurrent or advanced endometrial cancer (EC) or other solid tumors who received dostarlimab monotherapy in 2 cohorts of a multicenter, single-arm study. Grade 3 or 4 dyspnea occurred in 1.7% of advanced EC patients who received dostarlimab plus carboplatin/paclitaxel compared with 0.8% of those who received placebo plus carboplatin/paclitaxel in a randomized clinical trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      cough
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      pneumonitis
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      interstitial lung disease
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      dyspnea
+      Severity
+      Moderate
+    Headline
+    abdominal pain, anorexia, colitis, constipation, diarrhea, enterocolitis, nausea, vomiting
+    General Information
+    Immune-mediated colitis occurred in 1.3% (grade 3, 0.7%) of patients with advanced or recurrent solid tumors who received dostarlimab (n = 605) in a multicohort clinical study. Systemic corticosteroids were administered to 6 of the 8 patients who developed colitis with resolution in 5 patients; colitis recurred in 1 of 4 patients who resumed therapy after resolution. Cytomegalovirus (CMV) or CMV reactivation has been reported in patients who received PD-1/PD-L1 blocking therapy and had steroid-refractory immune-mediated colitis. Monitor patients for symptoms of colitis; an interruption or discontinuation of therapy or treatment with systemic corticosteroids may be necessary depending on severity. In patients with steroid-refractory colitis, consider repeating an infectious workup to exclude alternative etiologies. Other gastrointestinal adverse events included nausea (30% to 32%; grade 3 or 4, 0.7% or less), diarrhea (26% to 29%; grade 3 or 4, 1.9% to 2.7%), constipation (16% to 23%; grade 3 or 4, 0.4% to 0.7%), vomiting (17% to 23%; grade 3 or 4, 0.7% to 1.5%), and decreased appetite/anorexia (12% to 15%; grade 3 or 4, 0.4% or less); severe cases of abdominal pain occurred in 2.7% to 3.7% of patients. Colitis, enterocolitis, and hemorrhagic enterocolitis were reported in less than 10% of dostarlimab patients in these cohorts. Nausea (54% vs. 46%; grade 3 or 4, 2.9% vs. 1.6%), diarrhea (32% vs. 29%; grade 3 or 4, 1.7% vs. 0.8%), decreased appetite (22% vs. 18%; grade 3 or 4, 2.1% vs. 0.4%), and grade 3 or 4 constipation (0.4% vs. 0%), abdominal pain (2.5% vs. 2%), and vomiting (1.7% vs. 1.6%) were more common in patients treated with dostarlimab plus carboplatin/paclitaxel compared with placebo plus carboplatin/paclitaxel in one randomized clinical trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      anorexia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      colitis
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      constipation
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      nausea
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      vomiting
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      diarrhea
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      abdominal pain
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      enterocolitis
+      Severity
+      Severe
+    Headline
+    elevated hepatic enzymes, hepatitis, hyperbilirubinemia, hypoalbuminemia
+    General Information
+    Grade 3 immune-mediated hepatitis was reported in 3 patients (0.5%) with advanced or recurrent solid tumors who received dostarlimab (n = 605) in a multicohort, clinical study. Two patients were treated with systemic corticosteroids; hepatitis resolved in 2 patients and led to discontinuation of therapy in 1 patient. Monitor hepatic function at baseline and periodically during treatment. An interruption or discontinuation of therapy may be necessary depending on the severity and if there is tumor involvement of the liver; treatment with systemic corticosteroids may also be necessary. Elevated hepatic enzymes including increases from baseline in AST and ALT occurred in 12% to 31% (grade 3 or 4, 1.5% to 4.7%) occurred in patients with recurrent or advanced endometrial cancer or other solid tumors who received dostarlimab monotherapy in a multicenter, single-arm trial; increases from baseline in alkaline phosphatase (26% to 31%; grade 3 or 4, 2.7% to 3.4%) and decreases from baseline in albumin (hypoalbuminemia) (26% to 36%; grade 3 or 4, 2.2% to 27%) were also reported in these patients. Hyperbilirubinemia has been reported, with an increases from baseline in total bilirubin occurring in 7% (grade 3 or 4, 1.5%) and hepatocellular injury in less than 10% of patients in the cohort of patients with solid tumors other than endometrial cancer. Increased AST (38% vs. 23%; grade 3 or 4, 3.3% vs. 1.6%), increased ALT (30% vs. 19%; grade 3 or 4, 2.5% vs. 0.8%), decreased albumin (29% vs. 21%; grade 3 or 4, 0.8% vs. 0%), and increased alkaline phosphatase (28% vs. 22%; grade 3 or 4, 1.7% vs. 0.4%) were more common in endometrial cancer patients treated with dostarlimab plus carboplatin/paclitaxel compared with those who received placebo plus carboplatin/paclitaxel in a randomized clinical trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      elevated hepatic enzymes
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hepatitis
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypoalbuminemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hyperbilirubinemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    adrenocortical insufficiency, hypophysitis, hypopituitarism
+    General Information
+    Immune-mediated adrenocortical insufficiency (1.2%; grade 3, 0.7%) occurred in patients with advanced or recurrent solid tumors who received dostarlimab (n = 605) in a multicohort clinical study. Systemic corticosteroids were required in 5 of the 7 patients who developed adrenocortical insufficiency; resolution occurred in 4 of the 7 patients. Grade 2 immune-mediated hypophysitis occurred in 1 patient (0.2%); the event did not resolve after treatment with systemic corticosteroids. Hypophysitis may present with acute symptoms associated with mass effect (e.g., visual field cuts, photophobia, headache) and can cause hypopituitarism. Initiate symptomatic treatment including hormone replacement therapy for grade 2 or higher adrenal insufficiency and for hypophysitis as clinically indicated. Withhold or permanently discontinue therapy depending on the severity of the reaction.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      adrenocortical insufficiency
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypophysitis
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypopituitarism
+      Severity
+      Moderate
+    Headline
+    hyperthyroidism, hypoparathyroidism, hypothyroidism, thyroiditis
+    General Information
+    Immune-mediated thyroid disorders including hypothyroidism (8%), hyperthyroidism (2.3%; grade 3, 0.2%), and thyroiditis (0.5%) occurred in patients with advanced or recurrent solid tumors who received dostarlimab monotherapy (n = 605) in a multicohort clinical study. Hormone replacement therapy was necessary in 45 of 46 patients with hypothyroidism and anti-thyroid therapy was required in 10 of 14 patients with hyperthyroidism; treatment with systemic corticosteroids was not required in these patients. One of 3 patients who developed thyroiditis required treatment with systemic corticosteroids and 2 of 3 required anti-thyroid therapy; none of the thyroiditis cases were resolved. Immune-mediated hypoparathyroidism was reported in less than 1% of patients who received dostarlimab or other PD-1/PD-L1 blocking antibodies. Evaluate thyroid function at baseline and monitor periodically during treatment. Begin hormone replacement for hypothyroidism or medical management of hyperthyroidism as clinically indicated. An interruption or discontinuation of therapy may be necessary depending on severity; treatment with systemic corticosteroids may also be necessary.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hyperthyroidism
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypoparathyroidism
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      hypothyroidism
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      thyroiditis
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+    Headline
+    interstitial nephritis
+    General Information
+    Grade 2 immune-mediated nephritis including tubulo-interstitial nephritis occurred in 3 patients (0.5%) with advanced or recurrent solid tumors who received dostarlimab (n = 605) in a multicohort clinical study. An interruption or discontinuation of therapy may be necessary depending on severity; treatment with systemic corticosteroids may also be necessary. Increased serum creatinine level that worsened from baseline (21% to 33%; grade 3 or 4, 1.1% to 3.4%) and acute kidney injury (grade 3 or 4, 2.2% to 2.7%) occurred in patients with recurrent or advanced endometrial cancer or other solid tumors who received dostarlimab. Increased creatinine occurred in 75% of endometrial cancer patients treated with dostarlimab plus carboplatin and paclitaxel compared with 82% of those who received placebo plus carboplatin/paclitaxel (grade 3 or 4, 1.7% vs. 0.4%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      interstitial nephritis
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    infusion-related reactions
+    General Information
+    Grade 3 infusion-related reactions were reported in 1 patient (0.2%) with advanced or recurrent solid tumors who received dostarlimab (n = 605) in a multicohort, clinical study. Monitor patients for signs and symptoms of infusion. Interrupt or slow the rate of infusion for mild or moderate infusion related reactions (grade 1 or 2); stop the infusion and permanently discontinue dostarlimab for severe or life-threatening infusion-related reactions (grade 3 or 4).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      infusion-related reactions
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    arthralgia, myalgia, renal failure (unspecified), rhabdomyolysis
+    General Information
+    Immune-mediated myositis, rhabdomyolysis and associated sequelae including renal failure (unspecified), arthritis, and polymyalgia rheumatica were reported in less than 1% of patients who received dostarlimab or other PD-1/PD-L1 blocking antibodies in clinical trials; cases may be severe or fatal. An interruption or discontinuation of therapy may be necessary depending on the severity; treatment with systemic corticosteroids may also be necessary. Myalgia occurred in 10% or fewer patients with recurrent or advanced solid tumors who received dostarlimab monotherapy in clinical trials. Arthralgia was reported in 37% of patients who received dostarlimab in combination with carboplatin and paclitaxel compared with 35% of those who received placebo plus carboplatin/paclitaxel in one randomized clinical trial (grade 3 or 4, 1.2% vs. 0.4%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      myalgia
+      Severity
+      Minor
+      Incidence To
+      GSTerm Name
+      renal failure (unspecified)
+      Severity
+      Severe
+      GSTerm Name
+      rhabdomyolysis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      arthralgia
+      Severity
+      Minor
+    Headline
+    gastritis, hyperamylasemia, pancreatitis
+    General Information
+    Immune-mediated pancreatitis, increases in serum amylase (hyperamylasemia) and lipase levels, gastritis, and duodenitis were reported in less than 1% of patients who received dostarlimab or other PD-1/PD-L1 blocking antibodies in clinical trials; cases may be severe or fatal. An interruption or discontinuation of therapy may be necessary depending on the severity; treatment with systemic corticosteroids may also be necessary. Acute pancreatitis and gastritis were each reported in less than 10% of patients with recurrent or advanced endometrial cancer or other solid tumors who received dostarlimab in clinical trials. Increased amylase occurred in 21% of endometrial cancer patients treated with dostarlimab plus carboplatin and paclitaxel compared with 11% of those who received placebo plus carboplatin/paclitaxel (grade 3 or 4, 5% vs. 1.6%); pancreatitis was reported in less than 20% of patients in the dostarlimab arm.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      gastritis
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      hyperamylasemia
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      pancreatitis
+      Severity
+      Severe
+      Incidence To
+    Headline
+    myocarditis, pericarditis, vasculitis
+    General Information
+    Immune-mediated cardiovascular adverse reactions that were reported in less than 1% of patients who received dostarlimab (n = 605) in a multicohort, clinical study or that occurred with the use of other PD-1/PD-L1 blocking antibodies include myocarditis, pericarditis, and vasculitis; cases may be severe or fatal. Dostarlimab therapy may need to be interrupted or discontinued in patients who develop immune-mediated toxicity, depending on the severity of the reaction. Treatment with systemic corticosteroids may be necessary. Permanently discontinue dostarlimab in patients who develop grade 2 or higher myocarditis.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      myocarditis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      pericarditis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      vasculitis
+      Severity
+      Severe
+      Incidence To
+    Headline
+    encephalopathy, Guillain-Barre syndrome, meningitis, myasthenia gravis, myelitis, paresis
+    General Information
+    Immune-mediated meningitis, encephalitis, myelitis and demyelination, myasthenic syndrome/myasthenia gravis, Guillain-Barre syndrome, and nerve paresis were reported in less than 1% of patients who received dostarlimab or other PD-1/PD-L1 blocking antibodies in clinical trials; cases may be severe or fatal. An interruption or discontinuation of therapy may be necessary depending on the severity; treatment with systemic corticosteroids may also be necessary. Encephalopathy was reported in less than 20% of endometrial cancer patients treated with dostarlimab in combination with carboplatin and paclitaxel in a randomized clinical trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      Guillain-Barre syndrome
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      meningitis
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      myasthenia gravis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      myelitis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      paresis
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      encephalopathy
+      Severity
+      Moderate
+    Headline
+    iritis, keratitis, ocular inflammation, retinal detachment, uveitis, visual impairment, Vogt-Koyanagi-Harada syndrome
+    General Information
+    Immune-mediated uveitis, iritis, and other ocular inflammation toxicity were reported in less than 1% of patients who received dostarlimab or other PD-1/PD-L1 blocking antibodies in clinical trials; some cases were associated with retinal detachment. Visual impairment including blindness has also occurred. Consider a diagnosis of Vogt-Koyanagi-Harada syndrome if uveitis occurs in combination with other immune-mediated adverse reactions; systemic corticosteroids may be required to reduce the risk of permanent vision loss. Iridocyclitis and uveitis were reported in less than 10% of patients with recurrent or advanced endometrial cancer or other solid tumors who received dostarlimab monotherapy in clinical studies; keratitis occurred in less than 20% of patients who received dostarlimab plus carboplatin and paclitaxel in 1 randomized clinical trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      iritis
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      ocular inflammation
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      retinal detachment
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      uveitis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      Vogt-Koyanagi-Harada syndrome
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      visual impairment
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      keratitis
+      Severity
+      Severe
+    Headline
+    hemophagocytic lymphohistiocytosis, organ transplant rejection, purpura
+    General Information
+    Immune-mediated adverse reactions that were reported in less than 1% of patients who received dostarlimab (n = 605) in a multi-cohort clinical study or that occurred with the use of other PD-1/PD-L1 blocking antibodies include hemophagocytic lymphohistiocytosis, systemic inflammatory response syndrome, histiocytic necrotizing lymphadenitis (Kikuchi lymphadenitis), sarcoidosis, immune thrombocytopenic purpura, solid organ transplant rejection, and other transplant rejection including corneal graft rejection; cases may be severe or fatal. Dostarlimab therapy may need to be interrupted or discontinued in patients who develop immune-mediated toxicity, depending on the severity of the reaction. Treatment with systemic corticosteroids may be necessary.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hemophagocytic lymphohistiocytosis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      organ transplant rejection
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      purpura
+      Severity
+      Minor
+      Incidence To
+    Headline
+    asthenia, fatigue
+    General Information
+    Fatigue including asthenia occurred in 42% to 49% (grade 3 or 4, 3.3% to 3.4%) of patients with mismatch repair deficient (dMMR) recurrent or advanced endometrial cancer or other solid tumors who received dostarlimab in a clinical study.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      asthenia
+      Severity
+      Minor
+      GSTerm Name
+      fatigue
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    anemia, aplastic anemia, hemolytic anemia, iron deficiency, leukopenia, lymphopenia, neutropenia
+    General Information
+    Anemia occurred in 30% to 35% (grade 3 or 4, 11% to 18%) of patients with recurrent or advanced endometrial cancer or other solid tumors who received dostarlimab monotherapy 2 cohorts of a multicenter, nonrandomized study, including decreased hemoglobin, iron deficiency, and iron deficiency anemia. Lymphopenia, leukopenia, and neutropenia have also occurred, with decreases from baseline in lymphocytes (33% to 46%; grade 3 or 4, 7% to 15%), leukocytes (18% to 21%; grade 3 or 4, 1.1% to 2%), and neutrophils (12% to 17%; grade 3 or 4, 1.5% to 2.7%) also reported in these cohorts. In a randomized clinical trial, decreased leukocytes (62% vs. 58%; grade 3 or 4, 13% vs. 11%) and lymphocytes (44% vs. 39%; grade 3 or 4, 14% vs. 13%) were more common in patients with advanced endometrial cancer treated with dostarlimab plus carboplatin and paclitaxel compared with those who received placebo plus carboplatin/paclitaxel. Immune-mediated autoimmune hemolytic anemia and aplastic anemia were each reported in less than 1% of patients who received dostarlimab or other PD-1/PD-L1 blocking antibodies in clinical trials.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      anemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      iron deficiency
+      Severity
+      Moderate
+      GSTerm Name
+      leukopenia
+      Severity
+      Moderate
+      GSTerm Name
+      lymphopenia
+      Severity
+      Moderate
+      GSTerm Name
+      neutropenia
+      Severity
+      Moderate
+      GSTerm Name
+      aplastic anemia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hemolytic anemia
+      Severity
+      Severe
+      Incidence To
+    Headline
+    cystitis, infection
+    General Information
+    Urinary tract infection (19%; grade 3 or 4, 4%) occurred in 1 cohort of patients with recurrent or advanced endometrial cancer who received dostarlimab monotherapy in a clinical trial; sepsis occurred in 2.6% to 3.3% of patients with endometrial cancer or other solid tumors in this trial. Urinary tract infections including cystitis and pyelonephritis occurred in 21% of endometrial cancer patients treated with dostarlimab in combination with carboplatin and paclitaxel compared with 18% of those who received placebo plus carboplatin/paclitaxel in a randomized clinical trial (grade 3 or 4, 3.3% vs. 1.6%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      infection
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      cystitis
+      Severity
+      Moderate
+    Headline
+    erythema, exfoliative dermatitis, maculopapular rash, palmar-plantar erythrodysesthesia (hand and foot syndrome), pruritus, rash
+    General Information
+    Rash (14% to 21%; grade 3 or 4, 0.4% or less) and pruritus (15% to 19%; grade 3 or 4, 0.4% to 1.3%) occurred in patients with mismatch repair deficient (dMMR) recurrent or advanced endometrial cancer or other solid tumors who received dostarlimab in a clinical trial; the term "rash" included maculopapular rash, erythematous rash, toxic skin eruption, and pemphigoid. Rash which also included palmar-plantar erythrodysesthesia (hand and foot syndrome), exfoliative dermatitis, and vulvovaginal rash was reported in 37% of patients treated with dostarlimab in combination with carboplatin and paclitaxel compared with 18% of those who received placebo plus carboplatin/paclitaxel in a randomized clinical trial (grade 3 or 4, 7% vs. 1.2%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      pruritus
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      erythema
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      maculopapular rash
+      Severity
+      Minor
+      GSTerm Name
+      rash
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      exfoliative dermatitis
+      Severity
+      Severe
+      GSTerm Name
+      palmar-plantar erythrodysesthesia (hand and foot syndrome)
+      Severity
+      Moderate
+    Headline
+    hypercalcemia, hyperkalemia, hypermagnesemia, hypocalcemia, hypokalemia, hypomagnesemia, hyponatremia
+    General Information
+    Electrolyte abnormalities have been reported with dostarlimab therapy including hyponatremia, hypomagnesemia, hypokalemia, hyperkalemia, hypercalcemia, hypermagnesemia, and hypocalcemia. Decreases from baseline in sodium (21% to 29%; grade 3 or 4, 4.9% to 5%), magnesium (16% to 28%; grade 3 or 4, 1.1% to 2%), and potassium (14% to 22%; grade 3 or 4, 1.1% to 2%), as well as an increase from baseline in calcium (6% to 8%; grade 3 or 4, 1.1% to 2%) occurred in patients with recurrent or advanced endometrial cancer or other solid tumors who received dostarlimab in clinical trial. Additionally, increases from baseline in potassium (14%; grade 3 or 4, 1.1%) and magnesium (4.1%; grade 3 or 4, 1.5%) and a decrease from baseline in calcium (2.6%; grade 3 or 4, 1.5%) were reported in 1 cohort of this trial. A decrease from baseline in potassium (30% vs. 19%; grade 3 or 4, 6% vs. 4.1%), sodium (29% vs. 22%; grade 3 or 4, 6% vs. 3.7%), and phosphate (21% vs. 18%; grade 3 or 4, 1.2% vs. 3.7%) were more common in endometrial cancer patients treated with dostarlimab in combination with carboplatin and paclitaxel compared to those who received placebo plus carboplatin/paclitaxel in a randomized clinical trial; grade 3 or 4 decreases in magnesium occurred in 2.1% of patients in the dostarlimab arm compared with 2% of those in the placebo arm.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hypercalcemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypokalemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hyponatremia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hyperkalemia
+      Severity
+      Severe
+      GSTerm Name
+      hypermagnesemia
+      Severity
+      Moderate
+      GSTerm Name
+      hypocalcemia
+      Severity
+      Moderate
+      GSTerm Name
+      hypomagnesemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    antibody formation
+    General Information
+    Antibody formation was reported in 2.1% of patients who received dostarlimab at the recommended dosage (n = 384); 1% of patients developed neutralizing antibodies. The impact of antibody formation on the efficacy or safety of dostarlimab is unknown.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      antibody formation
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+    Headline
+    graft-versus-host disease (GVHD), sinusoidal obstruction syndrome (SOS), veno-occlusive disease (VOD)
+    General Information
+    Fatal and serious adverse events occurred in patients who received an allogeneic hematopoietic stem-cell transplant (HSCT) prior to and after treatment with a PD-1/PD-L1 blocking antibody, such as dostarlimab. Monitor patients closely for evidence of transplant-related complications such as hyperacute graft-versus-host disease (GVHD), acute GVHD, chronic GVHD, sinusoidal obstruction syndrome (SOS) previously termed veno-occlusive disease (VOD) after reduced intensity conditioning, and steroid-requiring febrile syndrome (without an identified infectious cause); treat adverse events promptly. These complications may occur despite intervening therapy between PD-1 blockade and allogeneic HSCT.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      graft-versus-host disease
+      Severity
+      Severe
+      GSTerm Name
+      sinusoidal obstruction syndrome
+      Severity
+      Severe
+      GSTerm Name
+      veno-occlusive disease
+      Severity
+      Severe
+    Headline
+    chills, fever
+    General Information
+    Fever (12% to 13%) and chills (less than 10%) were reported in patients with mismatch repair deficient (dMMR) recurrent or advanced endometrial cancer or other solid tumors who received dostarlimab in a clinical trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      fever
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      chills
+      Severity
+      Minor
+      Incidence To
+    Headline
+    diabetes mellitus, hyperglycemia
+    General Information
+    Grade 3 type 1 diabetes mellitus occurred in 0.2% of patients with advanced or recurrent solid tumors treated with dostarlimab monotherapy in a multicohort clinical trial (n = 605). Monitor patients for hyperglycemia and other signs and symptoms of diabetes; an interruption or discontinuation of therapy may be necessary depending on the severity; administer insulin as clinically indicated. Hyperglycemia has also been reported, with an increase in glucose from baseline reported in 47% of endometrial cancer patients treated with dostarlimab plus carboplatin and paclitaxel compared with 44% of those who received placebo plus carboplatin/paclitaxel in a randomized clinical trial (grade 3 or 4, 10% vs. 10%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      diabetes mellitus
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hyperglycemia
+      Severity
+      Moderate
+    Headline
+    peripheral neuropathy
+    General Information
+    Peripheral neuropathy occurred in 64% of patients with primary advanced or recurrent endometrial cancer treated with dostarlimab in combination with carboplatin and paclitaxel compared with 61% of those who received placebo plus carboplatin/paclitaxel in a randomized clinical trial (grade 3 or 4, 4.1% vs. 2%). An autoimmune neuropathy has been reported in less than 1% of patients who received dostarlimab or other PD-1/PD-L1 blocking antibodies in clinical trials. An interruption or discontinuation of therapy may be necessary for patients who develop immune-mediated toxicity depending on the severity; treatment with systemic corticosteroids may also be necessary.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      peripheral neuropathy
+      Severity
+      Moderate
+    Headline
+    alopecia
+    General Information
+    Alopecia occurred in 54% of patients with primary advanced or recurrent endometrial cancer treated with dostarlimab in combination with carboplatin and paclitaxel compared with 50% of those who received placebo plus carboplatin/paclitaxel in a randomized clinical trial (grade 3 or 4, 0% vs. 1.2%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      alopecia
+      Severity
+      Minor
+    Headline
+    hypertension
+    General Information
+    Hypertension occurred in fewer than 20% of patients with primary advanced or recurrent endometrial cancer treated with dostarlimab in combination with carboplatin and paclitaxel in a randomized clinical trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hypertension
+      Severity
+      Moderate
+    Headline
+    bleeding
+    General Information
+    Hemorrhage/bleeding occurred in fewer than 20% of patients with primary advanced or recurrent endometrial cancer treated with dostarlimab in combination with carboplatin and paclitaxel in a randomized clinical trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      bleeding
+      Severity
+      Moderate
+
+Description
+  Text
+  Dostarlimab is a PD-1 blocking antibody that is indicated as a single agent for the treatment of adults with mismatch repair deficient (dMMR) recurrent or advanced endometrial cancer or other dMMR solid tumors that progressed on or following prior treatment. It is also indicated in combination with carboplatin and paclitaxel for the treatment of primary advanced or recurrent endometrial cancer. Immune-mediated adverse reactions including colitis, pneumonitis, hepatitis, nephritis, and endocrinopathies have been reported with dostarlimab use; treatment with high-dose corticosteroids may be necessary for patients who develop immune-mediated toxicity.
+
+Mechanism Of Action
+  Text
+  Dostarlimab is a recombinant humanized immunoglobulin G4 monoclonal antibody that binds to the programmed death receptor-1 (PD-1) found on T-cells and blocks the interaction of PD ligand-1 (PD-L1) and PD-L2 with PD-1 on the tumor cell. Blocking the PD-1/PD-L1 pathway improves the anti-tumor immune response by reducing the immunosuppressive signals between immune cells and tumor cells that cause inhibition of T-cell proliferation and cytokine production. In mice models, dostarlimab inhibited PD-1 activity resulting in decreased tumor growth. Additionally, mismatch repair deficient (dMMR) endometrial tumors may have higher response rates with immunotherapy, including PD-1 inhibitors such as dostarlimab.
+
+Pharmacokinetics
+  Route Specific Pharmacokinetics
+    Name
+    Intravenous Route
+    Description
+    The pharmacokinetics of dostarlimab increase proportionally over the dose range of 1 to 10 mg/kg IV. When given as a single-agent, the mean cycle 1 Cmax and AUC(0-tau) values were 171 mcg/mL (coefficient of variation (CV), 20%) and 35,730 mcg X hour/mL (CV, 20%), respectively, following dostarlimab 500 mg IV given once every 3 weeks and 309 mcg/mL (CV, 31%) and 95,820 mcg X hour/mL (CV, 29%), respectively, following dostarlimab 1,000 mg IV given once every 6 weeks.
+  Special Populations
+    Name
+    Hepatic Impairment
+    Description
+    Mild to moderate (total bilirubin greater than the upper limit of normal [ULN] to 3 times ULN with any AST) hepatic impairment has no clinically significant impact on the pharmacokinetic parameters of dostarlimab.
+    Name
+    Renal Impairment
+    Description
+    Renal impairment (eGFR greater than 15 mL/min/1.73m2) has no clinically significant impact on the pharmacokinetic parameters of dostarlimab.
+    Name
+    Geriatric
+    Description
+    Age (range, 24 to 86 years) has no clinically significant impact on the pharmacokinetic parameters of dostarlimab.
+    Name
+    Gender Differences
+    Description
+    Gender has no clinically significant impact on the pharmacokinetic parameters of dostarlimab.
+    Name
+    Ethnic Differences
+    Description
+    Race/ethnicity (White [75%], Asian [2%], and African American [5%] patients) has no clinically significant impact on the pharmacokinetic parameters of dostarlimab.
+    Name
+    Other
+    Description
+    Tumor Type
+The type of cancer has no clinically significant impact on the pharmacokinetic parameters of dostarlimab.
+ 
+Pharmacodynamics
+The impact of antibody formation on the pharmacokinetics of dostarlimab is unknown.
+  Text
+  Dostarlimab is administered intravenously. It has a mean volume of distribution at steady state of approximately 5.8 L (coefficient of variation (CV), 15%). The steady-state clearance of dostarlimab was 0.007 L/hour (CV, 30%) and the mean terminal elimination half-life was 23.5 days in patients with various solid tumors, including 546 patients with endometrial cancer. Dostarlimab is metabolized via catabolic pathways into small peptides and amino acids.
+
+Administration
+  General Information
+  For storage information, see the specific product information within the How Supplied section.
+  Route Specific Administrations
+    Administration Details
+      Name
+      Intravenous Administration
+      Description
+      Dostarlimab (50 mg/mL vial) is available as a single-dose vial containing a clear to slightly opalescent, colorless to yellow solution.
+Do not shake the vial.
+Dilution:
+Use a disposable sterile syringe made of polypropylene to withdraw the dostarlimab dose.
+Dostarlimab is compatible with infusion bags made of polyolefin, ethylene vinyl acetate, or polyvinyl chloride with di (2-ethylhexyl) phthalate (DEHP).
+For the 500-mg dose, withdraw 10 mL from the dostarlimab vial and dilute in an infusion bag containing 0.9% Sodium chloride injection or 5% Dextrose injection to a final concentration between 2 and 10 mg/mL (maximum total volume, 250 mL).
+For the 1,000-mg dose, withdraw a total of 20 mL from 2 dostarlimab vials and dilute in an infusion bag containing 0.9% Sodium chloride injection or 5% Dextrose injection to a final concentration between 4 and 10 mg/mL (maximum total volume, 250 mL).
+Mix the diluted solution by gentle inversion; do not shake.
+Discard any unused drug left in the vial.
+Storage following dilution: Store at room temperature for up to 6 hours or refrigerated (2 to 8 degrees C; 36 to 46 degrees F) for up to 24 hours from the time of dilution (includes infusion time).
+Intravenous (IV) Infusion:
+If refrigerated, allow the diluted solution to warm to room temperature prior to administration.
+Administer the diluted solution IV over 30 minutes using a line with tubing made of polyvinyl chloride or platinum cured silicon and tubing fittings made of polyvinyl chloride or polycarbonate.
+Use a sterile, non-pyrogenic, low-protein binding, 0.2-micron, in-line or add-on filter.
+Do not give as an IV push or bolus injection.
+Do not administer other drugs through the same infusion line.
+    Name
+    Injectable Administration
+    Description
+    Visually inspect parenteral products for particulate matter and discoloration prior to administration whenever solution and container permit.
+
+Maximum Dosage Limits
+  Age Groups
+    Name
+    Adults
+    Max Dosage
+    500 mg IV every 3 weeks OR 1,000 mg IV every 6 weeks.
+    Name
+    Geriatric
+    Max Dosage
+    500 mg IV every 3 weeks OR 1,000 mg IV every 6 weeks.
+    Name
+    Adolescents
+    Max Dosage
+    Safety and efficacy not established.
+    Name
+    Children
+    Max Dosage
+    Safety and efficacy not established.
+    Name
+    Infants
+    Max Dosage
+    Safety and efficacy not established.
+
+Dosage Adjustment Guidelines
+  Hepatic Impairment
+  Treatment-Related Immune-Mediated Hepatitis
+No Tumor Involvement of the Liver
+AST or ALT more than 3 to 8 times the upper limit of normal (ULN) or total bilirubin of more than 1.5 to 3 times ULN: Hold dostarlimab and administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper). Resume therapy when the adverse event recovers to grade 1 or less after the corticosteroid taper. Permanently discontinue dostarlimab in patients who do not have a complete or partial resolution of toxicity or who cannot reduce their daily prednisone dose to less than 10 mg (or equivalent) within 12 weeks of initiating steroids.
+AST or ALT more than 8 times the ULN or total bilirubin more than 3 times ULN: Permanently discontinue dostarlimab and administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper starting when the toxicity resolves to grade 1 or less).
+ 
+Tumor Involvement of the Liver
+NOTE: For patients with baseline AST/ALT at the ULN or less, follow the recommendations for hepatitis with no tumor involvement of the liver.
+Baseline AST/ALT more than 1 to 3 times ULN and increasing to more than 5 to 10 times ULN: Hold dostarlimab and administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper). Resume therapy when the adverse event recovers to grade 1 or less after the corticosteroid taper. Permanently discontinue dostarlimab in patients who do not have a complete or partial resolution of toxicity or who cannot reduce their daily prednisone dose to less than 10 mg (or equivalent) within 12 weeks of initiating steroids.
+Baseline AST/ALT more than 3 to 5 times ULN and increasing to more than 8 to 10 times ULN: Hold dostarlimab and administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper). Resume therapy when the adverse event recovers to grade 1 or less after the corticosteroid taper. Permanently discontinue dostarlimab in patients who do not have a complete or partial resolution of toxicity or who cannot reduce their daily prednisone dose to less than 10 mg (or equivalent) within 12 weeks of initiating steroids.
+Any baseline AST/ALT increasing to more than 10 times ULN or total bilirubin more than 3 times ULN: Permanently discontinue dostarlimab and administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper starting when the toxicity resolves to grade 1 or less).
+  Renal Impairment
+  Treatment-Related Immune-Mediated Nephritis with Renal Dysfunction
+Grade 2 or 3 increased SCr: Hold dostarlimab and administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper). Resume therapy when the adverse event recovers to grade 1 or less after the corticosteroid taper. Permanently discontinue dostarlimab in patients who do not have a complete or partial resolution of toxicity or who cannot reduce their daily prednisone dose to less than 10 mg (or equivalent) within 12 weeks of initiating steroids.
+Grade 4 increased SCr: Permanently discontinue dostarlimab and administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper starting when the toxicity resolves to grade 1 or less).

@@ -1,0 +1,844 @@
+=== Tislelizumab (Merck Manual Professional) ===
+Source: https://www.merckmanuals.com/professional/drug-names-generic-and-brand (productid 5522)
+Retrieved: 2026-09-25
+NURSING QUICK-REFERENCE SUMMARY
+Auto-generated on 2026-09-25 from the prescribing information in this file; full details follow below.
+
+Drug Class: Tislelizumab is a programmed death receptor-1 (PD-1) blocking monoclonal antibody that works by preventing the interaction between PD-1 and the PD-L1 and PD-L2 ligands.
+
+Routes: injection (IV/IM/SC); Common adult doses: 150 mg IV every 2 weeks.
+
+Common Side Effects (excluding routine GI upset): cough, dyspnea, interstitial lung disease, pneumonitis, colitis, elevated hepatic enzymes, hepatitis, hyperbilirubinemia, adrenocortical insufficiency, hypophysitis, hypopituitarism, acneiform rash, erythema, maculopapular rash, pruritus, rash, stevens-johnson syndrome, toxic epidermal necrolysis, asthenia, fatigue, malaise, arthralgia, back pain, bone pain, musculoskeletal pain, myalgia, rhabdomyolysis, bleeding, epistaxis, gi bleeding
+
+In an Overdose: No overdose/antidote information is listed in this file.
+
+Key Nursing Considerations: Contraindications/precautions: Use tislelizumab with caution in patients with a history of autoimmune disease, including inflammatory bowel disease. Immune-mediated reactions, which may be severe or fatal, can occur in patients treated with drugs that bind to either the programmed death-receptor 1 (PD-1) or the PD-ligand 1...
+
+Brand Names
+  - TEVIMBRA
+
+Dosage Forms
+  - TEVIMBRA 100mg/10mL Solution for Injection
+  - TEVIMBRA 150mg/15mL Solution for Injection
+
+Indication Specific Dosing
+  Indications
+    Related Indications
+      Heading
+      for the treatment of unresectable or metastatic squamous cell esophageal cancer after prior systemic chemotherapy that did not include a PD-(L)1 inhibitor, as monotherapy
+      Routes
+        Heading
+        Injection dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          200 mg IV on day 1, every 3 weeks until disease progression or unacceptable toxicity; alternatively, tislelizumab may be dosed at 150 mg IV every 2 weeks; or 300 mg IV every 4 weeks; or 400 mg IV every 6 weeks. In a multicenter, randomized, open-label phase 3 clinical trial (RATIONALE-302), treatment with tislelizumab significantly improved overall survival compared with investigator's choice of chemotherapy (paclitaxel, docetaxel, or irinotecan) in patients with previously treated unresectable advanced or metastatic squamous cell esophageal cancer; patients were enrolled regardless of tumor PD-L1 expression (8.6 months vs. 6.3 months); the median progression-free survival was 1.6 months versus 2.1 months, respectively. The objective response rate (ORR) was 15.2% (complete response [CR], 2%) for a median duration of 10.3 months in patients treated with tislelizumab; the ORR was 6.6% (CR, 0.4%) for a median duration of 6.3 months in patients who received chemotherapy.
+      Heading
+      for the first-line treatment of unresectable or metastatic squamous cell esophageal cancer in patients with tumors expressing PD-L1 (tumor area positivity [TAP] greater than or equal to 1), in combination with platinum-containing chemotherapy
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          200 mg IV every 3 weeks in combination with platinum-containing chemotherapy until disease progression or unacceptable toxicity. Tislelizumab may alternatively be dosed at 150 mg IV every 2 weeks; or 300 mg IV every 4 weeks; or 400 mg IV every 6 weeks. In the RATIONALE-306 clinical trial, chemotherapy consisted of the investigator's choice of either cisplatin (60 to 80 mg/m2 IV) or oxaliplatin (130 mg/m2 IV) on day 1 plus a fluoropyrimidine (fluorouracil [750 to 800 mg/m2 IV on days 1 to 5] or capecitabine [1,000 mg/m2 PO twice daily on days 1 to 14]), repeated every 3 weeks; OR either cisplatin (60 to 80 mg/m2 IV) or oxaliplatin (130 mg/m2 IV) on day 1 or 2 plus paclitaxel (175 mg/m2 IV) on day 1, repeated every 3 weeks. First-line treatment with tislelizumab plus platinum-doublet chemotherapy significantly improved median overall survival (16.8 months vs. 9.6 months) and progression-free survival (7.2 months vs. 5.5 months) compared with placebo plus platinum-doublet chemotherapy in patients with unresectable, recurrent, or metastatic squamous cell esophageal cancer and tumor area positivity (TAP) greater than or equal to 1% in a multicenter, randomized, double-blind phase 3 trial (RATIONALE-306). The objective response rate was 58% (complete response [CR], 4.8%) in the tislelizumab arm compared with 36% (CR, 2%) in the placebo arm; the median duration of response was 7.2 months versus 5.7 months, respectively.
+      Heading
+      for the first-line treatment of HER2-positive (IHC 3+ or IHC 2+/ISH+) unresectable locally advanced or metastatic gastric, gastroesophageal junction, or esophageal adenocarcinoma, in combination with fluoropyrimidine- and platinum-containing chemotherapy and zanidatamab
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          200 mg IV every 3 weeks, in combination with zanidatamab (patients weighing 70 kg or more: 2,400 mg IV every 3 weeks OR 1,600 mg IV every 2 weeks; less than 70kg: 1,800 mg IV every 3 weeks OR 1,200 mg IV every 2 weeks) and fluoropyrimidine- and platinum-containing chemotherapy until disease progression or unacceptable toxicity. Tislelizumab may alternatively be dosed at 150 mg IV every 2 weeks; or 300 mg IV every 4 weeks; or 400 mg IV every 6 weeks. Administer zanidatamab first, followed by tislelizumab, and then chemotherapy; if chemotherapy is discontinued for reasons other than disease progression, treatment with tislelizumab and/or zanidatamab can continue until disease progression. Administer recommended premedications and antidiarrheal prophylaxis. In the HERIZON-GEA-01 trial, chemotherapy consisted of either CAPOX (oxaliplatin 130 mg/m2 IV on day 1 plus capecitabine 1,000 mg/m2 PO twice daily on days 1 to 14, followed by 7 days off, every 3 weeks) or FP (cisplatin 80 mg/m2 IV on day 1 plus fluorouracil 800 mg/m2/day by continuous IV infusion on days 1 through 5 [total infusional dose 4,000 mg/m2] every 3 weeks). If a fluorouracil-containing regimen is administered, give fluorouracil as an IV infusion; do NOT administer fluorouracil as an IV bolus due to the potential increase in diarrhea. Treatment with zanidatamab in combination with investigator's choice of CAPOX or FP plus tislelizumab significantly improved progression-free survival (PFS) (12.4 months vs. 8.1 months) and overall survival (26.4 months vs. 19.2 months) compared with trastuzumab plus either CAPOX or FP in patients with advanced or metastatic HER2-positive GEA, including those with gastric, gastroesophageal junction, and esophageal adenocarcinoma in a multicenter, randomized, 3-arm, open-label clinical trial (HERIZON-GEA-01). The objective response rate was 67% versus 63%, respectively (complete response, 20% vs. 12%) for a median duration of 18.9 months in the zanidatamab and tislelizumab arm compared with 8.3 months in the trastuzumab arm. In a prespecified exploratory analysis, the median PFS (16.1 months vs. 7.6 months) and OS (27.3 months vs. 19.8 months) were significantly improved in the HER2 IHC 3+ zanidatamab/tislelizumab arm and 7.6 months in the trastuzumab arm. Median OS was numerically improved in the HER2 IHC2+/ISH+ population (21.5 months vs. 18.7 months); median PFS was 8.6 months versus 10 months, respectively.
+    Routes
+    Heading
+    For the treatment of esophageal cancer
+    Related Indications
+      Heading
+      for the treatment of unresectable or metastatic PD-L1 positive, HER2-negative gastric or gastroesophageal junction (GEJ) adenocarcinoma, in combination with platinum and fluoropyrimidine-based chemotherapy
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          200 mg IV on day 1, every 3 weeks until disease progression or unacceptable toxicity in combination with platinum- and fluoropyrimidine-based chemotherapy. Tislelizumab may alternatively be dosed at 150 mg IV every 2 weeks; or 300 mg IV every 4 weeks; or 400 mg IV every 6 weeks. In the RATIONALE-305 trial, chemotherapy options included oxaliplatin (130 mg/m2 IV on day 1 every 3 weeks for up to 6 cycles) plus capecitabine (1,000 mg/m2 PO twice daily for 14 days followed by 7 days off, every 3 weeks until disease progression or unacceptable toxicity) (CAPOX); OR cisplatin (80 mg/m2 IV on day 1) plus fluorouracil (800 mg/m2 per day on days 1 to 5 as a continuous IV infusion [total infusional dose, 4,000 mg/m2]) every 3 weeks for up to 6 cycles (FP). Treatment with tislelizumab plus platinum- and fluoropyrimidine-based chemotherapy significantly improved median overall survival compared with platinum- and fluoropyrimidine-based chemotherapy plus placebo in the intent-to-treat population of patients with HER2-negative previously untreated unresectable or metastatic gastric or GEJ cancer in a multicenter, randomized, double-blind, phase 3 clinical trial (RATIONALE-305); patients were enrolled regardless of their tumor PD-L1 expression level. Crossover between treatment arms was not allowed. An exploratory analysis indicated that the overall survival results from the intent-to-treat population was primarily due to the results in the subgroup of patients with PD-L1 greater than or equal to 1%. In patients with a PD-L1 combined positive score of 1% or higher, the median overall survival (15.1 months vs. 12.9 months) and progression-free survival (7 months vs. 6.4 months) were significantly improved in the tislelizumab arm compared with the placebo arm. The objective response rate in this population was 49% (complete response [CR], 3.8%) for a median duration of 8.6 months in the tislelizumab arm versus 42% (CR, 3.7%) for a median duration of 7.2 months in the placebo arm.
+      Heading
+      for the first-line treatment of HER2-positive (IHC 3+ or IHC 2+/ISH+) unresectable locally advanced or metastatic gastric, gastroesophageal junction, or esophageal adenocarcinoma, in combination with fluoropyrimidine- and platinum-containing chemotherapy and zanidatamab
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          200 mg IV every 3 weeks in combination with zanidatamab (patients weighing 70 kg or more: 2,400 mg IV every 3 weeks OR 1,600 mg IV every 2 weeks; less than 70 kg: 1,800 mg IV every 3 weeks OR 1,200 mg IV every 2 weeks) and fluoropyrimidine- and platinum-containing chemotherapy until disease progression or unacceptable toxicity. Tislelizumab may alternatively be dosed at 150 mg IV every 2 weeks; or 300 mg IV every 4 weeks; or 400 mg IV every 6 weeks. Administer zanidatamab first, followed by tislelizumab, and then chemotherapy. Administer recommended premedications and antidiarrheal prophylaxis. In the HERIZON-GEA-01 trial, chemotherapy consisted of either CAPOX (oxaliplatin 130 mg/m2 IV on day 1 plus capecitabine 1,000 mg/m2 PO twice daily on days 1 to 14, followed by 7 days off, every 3 weeks) or FP (cisplatin 80 mg/m2 IV on day 1 plus fluorouracil 800 mg/m2/day by continuous IV infusion on days 1 through 5 [total infusional dose 4,000 mg/m2] every 3 weeks). If a fluorouracil-containing regimen is administered, give fluorouracil as an IV infusion; do NOT administer fluorouracil as an IV bolus due to the potential increase in diarrhea. Treatment with zanidatamab in combination with investigator's choice of CAPOX or FP plus tislelizumab significantly improved progression-free survival (PFS) (12.4 months vs. 8.1 months) and overall survival (26.4 months vs. 19.2 months) compared with trastuzumab plus either CAPOX or FP in patients with advanced or metastatic HER2-positive GEA, including those with gastric, gastroesophageal junction, and esophageal adenocarcinoma in a multicenter, randomized, 3-arm, open-label clinical trial (HERIZON-GEA-01). The objective response rate was 67% versus 63%, respectively (complete response, 20% vs. 12%) for a median duration of 18.9 months in the zanidatamab and tislelizumab arm compared with 8.3 months in the trastuzumab arm. In a prespecified exploratory analysis, the median PFS (16.1 months vs. 7.6 months) and OS (27.3 months vs. 19.8 months) were significantly improved in the HER2 IHC 3+ zanidatamab/tislelizumab arm. Median OS was numerically improved in the HER2 IHC2+/ISH+ population (21.5 months vs. 18.7 months); median PFS was 8.6 months versus 10 months, respectively.
+    Routes
+    Heading
+    For the treatment of gastric cancer or gastroesophageal junction (GEJ) cancer
+
+Contraindications And Precautions
+  Headline
+  Contraindications/Warnings/Precautions
+  Contraindications And Precautions
+    Headline
+    Drug Interactions
+    General Information
+    The coadministration of certain medications may lead to harm and require avoidance or therapy modification; review all drug interactions prior to concomitant use of other medications.
+    Headline
+    autoimmune disease, inflammatory bowel disease
+    General Information
+    Use tislelizumab with caution in patients with a history of autoimmune disease, including inflammatory bowel disease. Immune-mediated reactions, which may be severe or fatal, can occur in patients treated with drugs that bind to either the programmed death-receptor 1 (PD-1) or the PD-ligand 1 (PD-L1), thus removing inhibition of the immune response, such as tislelizumab. These immune-mediated reactions can occur in any organ system or tissue and can also affect more than one body system simultaneously. Although usually occurring during treatment with PD-1/PD-L1 inhibitors, immune-mediated reactions can occur at any time after starting therapy including after discontinuation of therapy. Because early identification and management is critical to safe usage of PD-1/PD-L1 inhibitors, closely monitor patients for signs and symptoms that may be clinical manifestations of underlying immune-mediated reactions. Initiate an appropriate workup to exclude alternative etiologies including infection in cases of suspected immune-mediated reaction. Begin medical management promptly, including specialty consultation as appropriate. An interruption or discontinuation of tislelizumab therapy may be necessary, depending on the severity of the reaction. In general, if an interruption or discontinuation of therapy is necessary, administer systemic corticosteroids (1 to 2 mg/kg per day of prednisone or equivalent); upon improvement to grade 1 or less, begin a steroid taper over at least 1 month. Consider additional systemic immunosuppression in patients whose symptoms are not controlled with corticosteroid therapy.
+    Headline
+    Hypersensitivity
+    General Information
+    This medication is contraindicated in patients with a history of hypersensitivity to it or any of its components.
+    Headline
+    pulmonary disease, thoracic radiation therapy
+    General Information
+    Use tislelizumab with caution in patients who have a history of pre-existing pulmonary disease; immune-mediated pneumonitis/interstitial lung disease has been reported in patients treated with tislelizumab. The incidence is higher in patients who have received prior thoracic radiation therapy, except in patients with classical Hodgkin lymphoma, where pneumonitis rates were similar regardless of prior thoracic radiation. Monitor patients for signs and symptoms of pneumonitis (e.g., new or worsening cough, chest pain, shortness of breath). If confirmed, tislelizumab therapy may need to be interrupted or discontinued depending on severity; treatment with systemic corticosteroids may be necessary.
+    Headline
+    allogeneic stem cell transplant
+    General Information
+    Perform a risk/benefit analysis prior to starting treatment with a PD-1/PD-L1 blocking antibody, such as tislelizumab, in patients who may receive or who have a history of undergoing an allogeneic stem cell transplant (SCT). Fatal and other serious complications including hyperacute, acute, and chronic graft-versus-host-disease, sinusoidal obstruction syndrome (SOS) previously termed veno-occlusive disease (VOD) after reduced intensity conditioning, and a steroid-requiring febrile syndrome (without an identified infectious cause) have been reported in patients who receive an allogeneic SCT before or after being treated with a PD-1/PD-L1 blocking antibody. Monitor patients closely for evidence of transplant-related complications and intervene promptly. Complications may occur despite intervening therapy between PD-1/PD-L1 blockade and allogeneic SCT.
+    Headline
+    corneal transplant, organ transplant
+    General Information
+    Use tislelizumab with caution in patients who have previously had a solid organ transplant or other transplant (including corneal transplant). Immune-mediated organ transplant rejection has been reported with PD-1/PD-L1 inhibitor therapy.
+    Headline
+    neurological disease
+    General Information
+    Use tislelizumab with caution in patients who have a history of neurological disease such as myasthenia gravis or Guillain-Barre syndrome. Immune-mediated neurotoxicity has been reported with tislelizumab or other PD-1/PD-L1 inhibitors. Tislelizumab may need to be interrupted or discontinued depending on the severity of the neurotoxicity; treatment with systemic corticosteroids may also be necessary.
+    Headline
+    obesity
+    General Information
+    Monitor patients with obesity as well as those who are considered overweight for an increased risk of infusion-related reactions when treated with tislelizumab. Patients with a high BMI have a greater risk even if they have a low metabolic risk (i.e., fewer than 2 of diabetes, dyslipidemia, hypertension).
+    Headline
+    cardiac disease
+    General Information
+    Use tislelizumab with caution in patients with cardiovascular risk factors such as hypertension, heart failure, cardiac disease, and myocardial infarction as they are at increased risk of cardiac immune-related adverse reactions such as myocarditis, vasculitis, and pericarditis.
+    Headline
+    pregnancy
+    General Information
+    Tislelizumab may cause fetal harm if used during pregnancy, based on its mechanism of action. There is no available data on tislelizumab use during human pregnancy. Tislelizumab is a humanized IgG4 monoclonal antibody; human IgG4 immunoglobulins are known to cross the placenta. Fetal exposure to tislelizumab may increase the risk of developing immune-mediated disorders or altering the normal immune response. The PD-1 pathway is associated with decidual CD8-positive T-cell function and the PD1/PD-L1 interaction is important in maintaining fetal tolerance during pregnancy. Inhibiting PD-1/PDL-1 binding and signaling led to an increase in fetal loss in murine models. Potential risks for blocking the PD-1/PDL-1 pathway include an increased incidence of abortion or stillbirths.
+    Headline
+    people who may become pregnant, reproductive risk
+    General Information
+    Counsel people who may become pregnant about the reproductive risk associated with tislelizumab. Tislelizumab may cause fetal harm. Verify pregnancy status prior to treatment initiation. Advise people who may become pregnant to use effective contraception while taking tislelizumab and for 4 months after the last dose.
+    Headline
+    breast-feeding
+    General Information
+    Advise patients to avoid breast-feeding while taking tislelizumab and for 4 months after the last dose due to the potential to cause serious adverse reactions in breast-fed children. There are no data on the presence of tislelizumab in human milk, its effects on the breast-fed child, or its effects on milk production. Consider the benefits of breast-feeding, the patient's clinical need for treatment, and any potential adverse effects on the breast-fed child from the medication or from the patient's underlying medical condition.
+
+Pregnancy And Lactation
+  Pregnancy
+    General Information
+    Tislelizumab may cause fetal harm if used during pregnancy, based on its mechanism of action. There is no available data on tislelizumab use during human pregnancy. Tislelizumab is a humanized IgG4 monoclonal antibody; human IgG4 immunoglobulins are known to cross the placenta. Fetal exposure to tislelizumab may increase the risk of developing immune-mediated disorders or altering the normal immune response. The PD-1 pathway is associated with decidual CD8-positive T-cell function and the PD1/PD-L1 interaction is important in maintaining fetal tolerance during pregnancy. Inhibiting PD-1/PDL-1 binding and signaling led to an increase in fetal loss in murine models. Potential risks for blocking the PD-1/PDL-1 pathway include an increased incidence of abortion or stillbirths.
+  Breastfeeding
+    General Information
+    Advise patients to avoid breast-feeding while taking tislelizumab and for 4 months after the last dose due to the potential to cause serious adverse reactions in breast-fed children. There are no data on the presence of tislelizumab in human milk, its effects on the breast-fed child, or its effects on milk production. Consider the benefits of breast-feeding, the patient's clinical need for treatment, and any potential adverse effects on the breast-fed child from the medication or from the patient's underlying medical condition.
+
+Interactions
+Cholera Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the live cholera vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to cholera bacteria after receiving the vaccine.
+Dengue Tetravalent Vaccine, Live: (Contraindicated) Avoid administration of the live dengue virus vaccine with immunosuppressive drug therapy and prior to immune recovery following treatment with immunosuppressive drug therapy. When feasible, administer indicated live virus vaccines at least 4 weeks before planned immunosuppression or wait until at least 3 months after discontinuation. The time to restoration of immune competence may be longer in some patients. Patients with altered immunocompetence may be at increased risk for severe adverse reactions due to uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+SARS-CoV-2 (COVID-19) vaccines: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) mRNA Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) Recombinant Spike Protein Nanoparticle Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+
+Adverse Reactions
+  Headline
+  Adverse Reactions
+  Adverse Reactions
+    Headline
+    cough, dyspnea, interstitial lung disease, pneumonitis
+    General Information
+    Immune-mediated interstitial lung disease (ILD)/pneumonitis occurred in 4.7% (grade 3 or 4, 1.7%) of patients in a pooled safety population who were treated with tislelizumab across clinical trials; 0.1% of cases were fatal. In patients treated with other PD-1/PD-L1 inhibitors, the incidence of pneumonitis is higher in patients who have received prior thoracic radiation therapy. Treatment with systemic corticosteroids was required in 71.7% of patients with pneumonitis; resolution occurred in 48.7% of these patients. Upon resolution of pneumonitis, 26 patients reinitiated tislelizumab therapy; 5 of these patients (19%) experienced a recurrence of pneumonitis. Cough occurred in 22% (grade 3 or 4, 0.4%) of patients with advanced esophageal cancer treated with tislelizumab. Dyspnea occurred in less than 10% of patients with advanced gastric or gastroesophageal adenocarcinoma treated with tislelizumab in combination with chemotherapy. If pneumonitis is confirmed, tislelizumab therapy may need to be interrupted or discontinued depending on severity; treatment with systemic corticosteroids may be necessary.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      dyspnea
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      interstitial lung disease
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      pneumonitis
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      cough
+      Severity
+      Severe
+      Incidence To
+    Headline
+    colitis, diarrhea, gastritis
+    General Information
+    Immune-mediated colitis occurred in 0.8% (grade 3, 0.3%) of patients from a pooled safety population who were treated with tislelizumab across clinical trials. Treatment with systemic corticosteroids was required in 89.5% of patients with colitis; resolution occurred in 89.5% of these patients. Upon resolution of colitis, 9 patients reinitiated tislelizumab therapy; 2 patients (22%) experienced a recurrence of colitis. Cytomegalovirus (CMV) viral infection/reactivation has also been reported in patients with steroid-refractory immune-mediated colitis treated with PD-1/PD-L1 inhibitors. Diarrhea including colitis occurred in 13% (grade 3 or 4, 1%) of patients with advanced esophageal cancer treated with tislelizumab. It occurred in at least 20% of patients with advanced gastric or gastroesophageal adenocarcinoma treated with tislelizumab plus platinum- and fluoropyrimidine-based chemotherapy in 1 clinical trial, and in 83% (grade 3 or 4, 26%) of patients in a similar population treated with tislelizumab plus platinum and fluoropyrimidine-based chemotherapy and zanidatamab in another clinical trial. Colitis occurred in less than 10% of patients who received tislelizumab and chemotherapy in 1 of these trials (grade 3 or 4, 2.2%). Tislelizumab therapy may need to be interrupted or discontinued depending on severity; treatment with systemic corticosteroids may be necessary. In patients with steroid-refractory colitis, consider repeating an infectious workup to exclude alternative etiologies. Immune-mediated gastritis and duodenitis have been reported in less than 1% of patients treated with tislelizumab or other PD-1/PD-L1 inhibitors.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      colitis
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      gastritis
+      Severity
+      Moderate
+      GSTerm Name
+      diarrhea
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    elevated hepatic enzymes, hepatitis, hyperbilirubinemia
+    General Information
+    Immune-mediated hepatitis, which can be fatal, occurred in 1.3% (grade 3 or 4, 0.9%) of patients from a pooled safety population who were treated with tislelizumab across clinical trials. Treatment with systemic corticosteroids was required in 83.3% of patients with immune-mediated hepatitis; resolution occurred in 66.7% of these patients. Upon resolution of hepatitis, 7 patients reinitiated tislelizumab therapy; 1 patient experienced a recurrence of hepatitis. Elevated hepatic enzymes including increased AST (27%; grade 3 or 4, 0.8%) and increased ALT (23%; grade 3 or 4, 0.8%), as well as increased alkaline phosphatase (32%; grade 3 or 4, 3%) were reported in patients with advanced esophageal cancer treated with tislelizumab; hyperbilirubinemia occurred in 11% of these patients (grade 3 or 4, 2%). Elevated hepatic enzymes including increased AST (36% to 58%; grade 3 or 4, 3.4% to 6%) and increased AST (28% to 41%; grade 3 or 4, 3.1% to 4.8%) were reported in patients treated with tislelizumab in combination with chemotherapy in 2 additional clinical trials. Tislelizumab therapy may need to be interrupted or discontinued depending on the severity of hepatitis and if there is tumor involvement of the liver; treatment with systemic corticosteroids may also be necessary.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hepatitis
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hyperbilirubinemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      elevated hepatic enzymes
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    hypothyroidism, thyroiditis
+    General Information
+    Immune-mediated hypothyroidism occurred in 12.5% (grade 3 or 4, 0.08%) of patients from a pooled safety population who were treated with tislelizumab across clinical trials, and can follow hyperthyroidism. Two of these 299 patients received treatment with systemic corticosteroids, and 195 patients received hormone replacement therapy; the majority of patients (83.3%) required long-term thyroid hormone replacement. Upon resolution of hypothyroidism, 11 patients reinitiated tislelizumab therapy; 2 patients (18.2%) experienced a recurrence of hypothyroidism. Immune-mediated thyroiditis occurred in 1% of patients; resolution occurred in 36% of these patients. Upon resolution, 5 patients reinitiated tislelizumab therapy; 1 patient (20%) had recurrence of thyroiditis. Begin hormone replacement for hypothyroidism as clinically indicated. Tislelizumab therapy may need to be interrupted or discontinued depending on severity; treatment with systemic corticosteroids may also be necessary.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hypothyroidism
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      thyroiditis
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+    Headline
+    hyperthyroidism
+    General Information
+    Immune-mediated hyperthyroidism occurred in 4.9% (grade 3, 0.04%) of patients from a pooled safety population who were treated with tislelizumab across clinical trials. Three of these 118 patients received treatment with systemic corticosteroids; resolution occurred in 76.3% of patients. Upon symptom resolution, 5 patients (71.4%) reinitiated tislelizumab therapy; none of these patients experienced a recurrence of hyperthyroidism. Begin medical management of hyperthyroidism as clinically indicated. Tislelizumab therapy may need to be interrupted or discontinued depending on severity; treatment with systemic corticosteroids may also be necessary.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hyperthyroidism
+      Severity
+      Severe
+      Incidence To
+    Headline
+    hypoparathyroidism
+    General Information
+    Immune-mediated hypoparathyroidism occurred in fewer than 1% of patients who received tislelizumab or other PD-1/PD-L1 inhibitors in clinical trials.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hypoparathyroidism
+      Severity
+      Moderate
+      Incidence To
+    Headline
+    cystitis, interstitial nephritis
+    General Information
+    Immune-mediated interstitial nephritis with renal impairment occurred in 0.2% (grade 3, 0.04%) of patients from a pooled safety population who were treated with tislelizumab across clinical trials. Three patients (60%) received treatment with systemic corticosteroids, with resolution in 40% of these patients; of the 2 patients who reinitiated therapy after symptom improvement, none had a recurrence of nephritis. Tislelizumab therapy may need to be interrupted or discontinued depending on the severity of renal impairment; treatment with systemic corticosteroids may also be necessary. Immune-mediated cystitis has been reported in less than 1% of patients treated with tislelizumab or other PD-1/PD-L1 inhibitors.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      cystitis
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      interstitial nephritis
+      Severity
+      Severe
+      Incidence To
+    Headline
+    diabetes mellitus, hyperglycemia
+    General Information
+    Hyperglycemia has occurred in patients treated with tislelizumab. An increase in glucose from baseline was reported in 46% to 65% (grade 3 or 4, 4% to 7%) of patients with advanced esophageal cancer who received tislelizumab compared with 40% to 62% (grade 3 or 4, 2% to 5%) of those who received chemotherapy in 2 randomized clinical trials. Diabetes mellitus, which can present with diabetic ketoacidosis, occurred in 0.7% (grade 3 or 4, 0.4%) of patients from a pooled safety population who were treated with tislelizumab across clinical trials. Treatment with insulin was required in 87.5% of these patients; resolution occurred in 12.5% of these patients. Withhold tislelizumab therapy for cases of severe hyperglycemia until blood sugar control is achieved; administer insulin as clinically indicated.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hyperglycemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      diabetes mellitus
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    infusion-related reactions
+    General Information
+    Infusion-related reactions occurred in 4.7% (grade 3 or higher, 0.2%) of patients from a pooled safety population who were treated with tislelizumab across clinical trials. Slow the infusion rate for mild (grade 1) reactions; interrupt the infusion for moderate reactions (grade 2); stop the infusion and permanently discontinue tislelizumab for severe or life-threatening infusion-related reactions (grade 3 or 4).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      infusion-related reactions
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    adrenocortical insufficiency, hypophysitis, hypopituitarism
+    General Information
+    Primary or secondary adrenocortical insufficiency and immune-mediated hypophysitis can occur in patients treated with tislelizumab. Adrenal insufficiency occurred in 0.5% (grade 3 or 4, 0.24%) of patients from a pooled safety population who were treated with tislelizumab across clinical trials. All 12 patients received treatment with systemic corticosteroids, with resolution occurring in 25% of patients. Eight patients reinitiated treatment with tislelizumab upon symptom improvement; none of the patients had recurrence of adrenal insufficiency. Hypophysitis/hypopituitarism occurred in 6 patients (0.3%) and can present with acute symptoms associated with mass effect such as headache, photophobia, or visual field defects. Five patients (83.3%) received systemic corticosteroids; hypophysitis/hypopituitarism resolved in 17% of patients. Initiate symptomatic treatment including hormone replacement therapy for grade 2 or higher adrenal insufficiency and for hypophysitis as clinically indicated. Tislelizumab therapy may need to be interrupted or discontinued depending on severity; treatment with systemic corticosteroids may also be necessary.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      adrenocortical insufficiency
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypopituitarism
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypophysitis
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+    Headline
+    acneiform rash, erythema, maculopapular rash, pruritus, rash, Stevens-Johnson syndrome, toxic epidermal necrolysis
+    General Information
+    Treatment with tislelizumab can cause immune-mediated rash or dermatitis; immune-mediated dermatologic adverse reactions occurred in 13% (grade 3 or 4, 1.2%) of patients from a pooled safety population who were treated with tislelizumab across clinical trials; 14.1% of these patients received treatment with systemic corticosteroids. Resolution occurred in 66.9% of patients with immune-mediated dermatologic reactions; of 26 who reinitiated therapy after symptom improvement, 3 had recurrence of immune-mediated dermatologic adverse reaction. Stevens-Johnson syndrome occurred in 1 patient from the same pooled safety population. Rash, including acneiform rash, eczema, erythema, psoriasis, follicular rash, and maculopapular rash, was reported in 13% to 36% (grade 3 or 4, 0.4% to 5%) of patients treated with tislelizumab with or without chemotherapy in randomized clinical trials. Pruritus was reported in 10% to 17% (grade 3 or 4; 0.2% to 0.7%) of patients who received tislelizumab in combination with chemotherapy and vitiligo was reported in less than 10% of patients treated with tislelizumab in combination with chemotherapy in 1 clinical trial. Cases of toxic epidermal necrolysis (TEN), including fatalities, have been reported in postmarketing experience with tislelizumab. Topical emollients and/or topical corticosteroids may be adequate to treat mild-to-moderate non-exfoliative rashes. Tislelizumab therapy may need to be interrupted or discontinued depending on the severity of rash; treatment with systemic corticosteroids may also be necessary.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      maculopapular rash
+      Severity
+      Minor
+      GSTerm Name
+      Stevens-Johnson syndrome
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      pruritus
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      acneiform rash
+      Severity
+      Minor
+      GSTerm Name
+      erythema
+      Severity
+      Moderate
+      GSTerm Name
+      toxic epidermal necrolysis
+      Severity
+      Severe
+      GSTerm Name
+      rash
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    asthenia, fatigue, malaise
+    General Information
+    Fatigue, including asthenia and malaise, was reported in 28% of patients with advanced esophageal cancer who received tislelizumab compared with 46% of those who received chemotherapy in a randomized clinical trial (grade 3 or 4, 2% vs. 6%). Fatigue was reported in 20% to 45% (grade 3 or 4, 9% or less) of patients who received tislelizumab in combination with platinum-based or platinum and fluoropyrimidine-based chemotherapy in other clinical trials.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      fatigue
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      asthenia
+      Severity
+      Minor
+      GSTerm Name
+      malaise
+      Severity
+      Minor
+    Headline
+    fever
+    General Information
+    Fever was reported in 16% to 20% of patients who received tislelizumab with or without chemotherapy in randomized clinical trials (grade 3 or 4, 0.4% to 1.6%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      fever
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    arthralgia, back pain, bone pain, musculoskeletal pain, myalgia, rhabdomyolysis
+    General Information
+    Musculoskeletal pain was reported in 24% of patients with advanced esophageal cancer who received tislelizumab compared with 25% of those who received chemotherapy in a randomized clinical trial (grade 3 or 4, 1% vs. 1%), including spinal pain, arthralgia, back pain, neck pain, myalgia, extremity pain, noncardiac chest pain, bone pain, and arthritis. An increase in creatine kinase occurred in 13% versus 2% of patients, respectively (grade 3 or 4, 1% vs. 0%). Sjogren's syndrome was reported in less than 10% of patients with advanced gastric or gastroesophageal junction adenocarcinoma receiving tislelizumab in combination with platinum and fluoropyrimidine-based chemotherapy in 1 randomized trial. Immune-mediated myositis/polymyositis/dermatomyositis, rhabdomyolysis (including associated sequelae such as renal failure), arthritis, and polymyalgia rheumatica each occurred in fewer than 1% of patients who received tislelizumab or other PD-1/PD-L1 inhibitors in clinical trials.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      rhabdomyolysis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      back pain
+      Severity
+      Minor
+      GSTerm Name
+      arthralgia
+      Severity
+      Minor
+      GSTerm Name
+      myalgia
+      Severity
+      Minor
+      GSTerm Name
+      musculoskeletal pain
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      bone pain
+      Severity
+      Moderate
+    Headline
+    anorexia, weight loss
+    General Information
+    Weight loss occurred in 20% to 23% of patients treated with tislelizumab with or without chemotherapy in clinical trials (grade 3 or 4, 1% or less); decreased appetite (anorexia) was reported in 16% to 46% (grade 3 or 4, 0.4% to 8%) of patients who received tislelizumab in combination with chemotherapy.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      anorexia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      weight loss
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    abdominal pain, constipation, dysphagia, nausea, stomatitis, vomiting
+    General Information
+    Dysphagia was more common in patients with advanced esophageal cancer who received tislelizumab in combination with chemotherapy or as monotherapy (11% to 14%; grade 3 or 4, 6%) compared with those who received chemotherapy alone (8% to 11%; grade 3 or 4, 3% to 4%) in 2 randomized clinical trials; severe cases of esophageal obstruction (2% or more) and esophageal stenosis (2.2%) occurred in the same population. Other gastrointestinal adverse effects reported in patients with advanced esophageal cancer treated with tislelizumab monotherapy included constipation (15%), abdominal pain (11%; grade 3 or 4, 0.8%), vomiting (11%; grade 3 or 4; 0.8%), nausea (14%; grade 3 or 4, 0.4%), and diarrhea (13%; grade 3 or 4; 1%). Abdominal pain (20% or more), vomiting (20% to 44%; grade 3 or 4, 6% or less), nausea (20% or more; grade 3 or 4, 8% or less), and diarrhea (20% to 28%; grade 3 or 4, 4.3%) were more common in clinical trials when tislelizumab was combined with chemotherapy. Stomatitis was also reported in 22% or less (grade 3 or 4; 4% or less) of patients who received tislelizumab in combination with chemotherapy in 2 clinical trials.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      constipation
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      stomatitis
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      vomiting
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      nausea
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      dysphagia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      abdominal pain
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    infection, meningitis
+    General Information
+    Infection has occurred in patients treated with tislelizumab. Pneumonia occurred in 16% (grade 3 or 4, 6% vs. 7%) of patients who received tislelizumab compared with 12% of those who received chemotherapy in a randomized clinical trial. Severe cases of pneumonia occurred in 3.6% to 5.2% of patients receiving tislelizumab in combination with chemotherapy in clinical trials. Encephalitis and meningitis have occurred in fewer than 1% of patients who received tislelizumab or other PD-1/PD-L1 inhibitors in clinical trials.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      meningitis
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      infection
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    bleeding, epistaxis, GI bleeding, hematuria, hemoptysis
+    General Information
+    Bleeding occurred in 12% of patients with advanced esophageal cancer who received tislelizumab compared with 10% of those who received chemotherapy in a randomized clinical trial (grade 3 or 4, 2% vs. 3%), including epistaxis, esophageal hemorrhage, GI bleeding, gingival bleeding, hematuria, hemoptysis, pulmonary hemorrhage, rectal hemorrhage, stoma site hemorrhage tracheal hemorrhage, and tumor hemorrhage. Severe cases of gastrointestinal hemorrhage occurred in 3% of patients with advanced gastric or gastroesophageal adenocarcinoma receiving tislelizumab in combination with chemotherapy.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hemoptysis
+      Severity
+      Moderate
+      GSTerm Name
+      bleeding
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hematuria
+      Severity
+      Moderate
+      GSTerm Name
+      epistaxis
+      Severity
+      Minor
+      GSTerm Name
+      GI bleeding
+      Severity
+      Severe
+      Incidence To
+    Headline
+    anemia, leukopenia, lymphopenia, neutropenia, thrombocytopenia
+    General Information
+    Anemia occurred in 31% of patients who received tislelizumab monotherapy compared with 45% of those who received chemotherapy in a randomized clinical trial (grade 3 or 4, 6% vs. 11%), with decreases in hemoglobin from baseline reported in 45% versus 61% of patients, respectively (grade 3 or 4, 6% vs. 10%). Lymphopenia and leukopenia were less common in those who received tislelizumab compared with chemotherapy, with decreases from baseline in lymphocytes (43% vs. 60%; grade 3 or 4, 11% vs. 28%), platelets (11% vs. 11%; grade 3 or 4, 1% vs. 0.9%), and leukocytes (10% vs. 66%; grade 3 or 4, 0.8% vs. 31%). Thrombocytopenia also occurred, with a decrease in platelets reported in 11% of patients in each arm (grade 3 or 4, 1% vs. 0.9%). In a separate clinical trial, anemia (61%; grade 3 or 4, 17%) and neutropenia (16%; grade 3 or 4, 7%), including decreases from baseline in neutrophils (75%; grade 3 or 4, 41%), were reported in patients treated with tislelizumab in combination with platinum-based chemotherapy; in another trial, decreases in hemoglobin were reported in 53% of patients receiving tislelizumab plus platinum and fluoropyrimidine-based chemotherapy compared with 46% of those who received chemotherapy alone; thrombocytopenia, anemia, neutropenia, and leukopenia were reported in 20% or more of patients in the same population with severe cases of thrombocytopenia in 3.2% of patients. Decreased hemoglobin was reported in 97% of patients treated with tislelizumab, platinum and fluoropyrimidine-based chemotherapy, and zanidatamab in yet another trial (grade 3 or 4, 19%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      leukopenia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      anemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      lymphopenia
+      Severity
+      Severe
+      Incidence From
+      GSTerm Name
+      thrombocytopenia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      neutropenia
+      Severity
+      Severe
+      Incidence To
+    Headline
+    hypocalcemia, hypokalemia, hypomagnesemia, hyponatremia, hypophosphatemia
+    General Information
+    Hyponatremia, hypophosphatemia, hypocalcemia, hypokalemia, and hypomagnesemia have been reported in patients treated with tislelizumab, with decreases from baseline in sodium (34% to 67%; grade 3 or 4, 2% to 19%), phosphate (15%; grade 3 or 4, 4%), calcium (29% to 62%; grade 3 or 4, 1.7% to 6%), and potassium (13% to 61%; grade 3 or 4, 1% to 27%) reported in patients treated with tislelizumab with or without platinum-based chemotherapy in clinical trials; decreased magnesium levels were reported in 42% of patients who received tislelizumab with fluoropyrimidine- and platinum-containing chemotherapy plus zanidatamab. Other laboratory abnormalities reported in less than 20% of patients receiving tislelizumab with platinum or platinum and fluoropyrimidine-based chemotherapy include increases from baseline in potassium and sodium.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hyponatremia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypomagnesemia
+      Severity
+      Moderate
+      GSTerm Name
+      hypocalcemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypokalemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypophosphatemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    hypoalbuminemia
+    General Information
+    Hypoalbuminemia has been reported in patients treated with tislelizumab in clinical trials, however, decreases from baseline in albumin levels were reported less often in patients with advanced esophageal cancer who received tislelizumab compared with those who received chemotherapy (33% vs. 37%; grade 3 or 4, 0.8% vs. 1%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hypoalbuminemia
+      Severity
+      Severe
+      Incidence To
+    Headline
+    hypoglycemia
+    General Information
+    Hypoglycemia has been reported in patients treated with tislelizumab in clinical trials, with decreases from baseline in glucose levels reported in 10% of patients with advanced esophageal cancer who received tislelizumab compared with 10% of those who received chemotherapy (grade 3 or 4, 0.4% vs. 0.5%) in a randomized clinical trial. Decreases from baseline in glucose levels were also reported in less than 20% of patients with who received tislelizumab in combination with platinum and fluoropyrimidine-based chemotherapy in another clinical trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hypoglycemia
+      Severity
+      Severe
+      Incidence To
+    Headline
+    antibody formation
+    General Information
+    Anti-tislelizumab antibody formation occurred in 14.5% to 22.7% of patients who received tislelizumab in randomized clinical trials. Among anti-tislelizumab antibody-positive patients, 1.5% to 5.6% had neutralizing antibodies. The effect of anti-drug antibodies on the pharmacodynamics, safety, or efficacy of tislelizumab has not been fully characterized.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      antibody formation
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+    Headline
+    myocarditis, pericarditis, vasculitis
+    General Information
+    Immune-mediated myocarditis, pericarditis, and vasculitis were each reported in fewer than 1% of patients who received tislelizumab or other PD-1/PD-L1 inhibitors in clinical trials.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      myocarditis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      pericarditis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      vasculitis
+      Severity
+      Severe
+      Incidence To
+    Headline
+    hyperamylasemia, pancreatitis
+    General Information
+    Pancreatitis was reported in fewer than 10% of patients with advanced gastric or gastroesophageal adenocarcinoma who received tislelizumab in combination with platinum and fluoropyrimidine-based chemotherapy in a randomized clinical trial. Immune-mediated pancreatitis including hyperamylasemia and increases in lipase levels have been reported in fewer than 1% of patients who received tislelizumab or other PD1/PDL1 inhibitors in clinical trials.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      pancreatitis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hyperamylasemia
+      Severity
+      Moderate
+    Headline
+    iritis, ocular inflammation, retinal detachment, uveitis, visual impairment, Vogt-Koyanagi-Harada syndrome
+    General Information
+    Uveitis was reported in fewer than 10% of patients with advanced gastric or gastroesophageal adenocarcinoma who received tislelizumab in combination with platinum and fluoropyrimidine-based chemotherapy in a randomized clinical trial. Immune-mediated uveitis, iritis, and other disorders associated with ocular inflammation can also occur and were reported in fewer than 1% of patients who received tislelizumab or other PD-1/PD-L1 inhibitors in clinical trials; cases can be associated with various grades of visual impairment including blindness, as well as retinal detachment. If uveitis occurs in combination with other immune-mediated adverse reactions, consider a Vogt-Koyanagi-Harada syndrome which may require treatment with systemic steroids to reduce the risk of permanent vision loss.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      uveitis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      iritis
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      ocular inflammation
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      retinal detachment
+      Severity
+      Severe
+      GSTerm Name
+      visual impairment
+      Severity
+      Severe
+      GSTerm Name
+      Vogt-Koyanagi-Harada syndrome
+      Severity
+      Severe
+    Headline
+    Guillain-Barre syndrome, myasthenia gravis, myelitis, paresis, peripheral neuropathy
+    General Information
+    Peripheral neuropathy was reported in 20% or more of patients with advanced gastric or gastroesophageal adenocarcinoma who received tislelizumab in combination with platinum and fluoropyrimidine-based chemotherapy in a randomized clinical trial. Immune-mediated myelitis and demyelination, myasthenic syndrome/myasthenia gravis (including exacerbation), Guillain-Barre syndrome, nerve paresis, and autoimmune neuropathy have been reported in fewer than 1% of patients who received tislelizumab or other PD1/PDL1 inhibitors in clinical trials; a Myocarditis-Myositis-Myasthenia Gravis (or Myasthenia-Like) Overlap Syndrome, reported as the co-occurrence of either two or all three adverse reactions, has also been reported.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      myelitis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      paresis
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      Guillain-Barre syndrome
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      myasthenia gravis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      peripheral neuropathy
+      Severity
+      Moderate
+      Incidence From
+    Headline
+    acute kidney injury
+    General Information
+    Acute kidney injury was reported in 3.7% of patients treated with tislelizumab plus fluoropyrimidine- and platinum-containing chemotherapy and zanidatamab in a clinical trial; increases from baseline in serum creatinine were reported in 34% or fewer patients (grade 3 or 4, 4.1% or less).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      acute kidney injury
+      Severity
+      Severe
+      Incidence To
+
+Description
+  Text
+  Tislelizumab is a programmed death receptor-1 (PD-1) blocking monoclonal antibody that works by preventing the interaction between PD-1 and the PD-L1 and PD-L2 ligands. It is indicated as first-line therapy for advanced PD-L1 positive esophageal squamous cell carcinoma (ESCC) in combination with platinum-containing chemotherapy, for advanced HER2-negative, PD-L1 positive gastric or gastroesophageal junction cancer in combination with platinum- and fluoropyrimidine-based chemotherapy, and for advanced HER2-positive gastroesophageal cancer in combination with platinum- and fluoropyrimidine-based chemotherapy and zanidatamab. It is approved as monotherapy for unresectable or metastatic ESCC after prior systemic chemotherapy that did not include a PD-(L)1 inhibitor. Immune-mediated adverse reactions including colitis, pneumonitis, hepatitis, hypophysitis, nephritis, hypothyroidism/hyperthyroidism, and encephalitis have been reported with tislelizumab use; treatment with high-dose corticosteroids may be necessary for patients who develop immune-mediated toxicity. Tislelizumab was FDA-approved in March 2024.
+
+Mechanism Of Action
+  Text
+  Tislelizumab is a humanized monoclonal IgG4 kappa antibody that binds to the programmed death receptor-1 (PD-1) found on T-cells and blocks the interaction of PD-1 with its ligands, PD-L1 and PD-L2, on the tumor cell. In some tumors, upregulation of PD-1 ligands and PD-1/PD-L1 pathway signaling can contribute to inhibition of active T-cell immune surveillance of tumors. Blocking the PD-1/PD-L1 pathway inhibits T-cell proliferation and cytokine production, releasing PD-1 pathway-mediated inhibition of the immune response (including the anti-tumor immune response). Tislelizumab-jsgr decreased tumor growth in xenograft models and a human PD-1 transgenic mouse model.
+
+Pharmacokinetics
+  Route Specific Pharmacokinetics
+    Name
+    Intravenous Route
+    Description
+    The geometric mean steady-state AUC of tislelizumab is 1,283 mcg/mL/day (CV, 28.7%) and the geometric mean Cmax is 110 mcg/mL (CV, 22.2%) after administration of the recommended dose. Steady-state is reached after 12 weeks of every-3-week dosing; systemic accumulation was 2.14-fold. The Cmax and AUC of tislelizumab increased in a dose proportional manner over the range of 0.5 mg/kg to 10 mg/kg.
+  Special Populations
+    Name
+    Hepatic Impairment
+    Description
+    Mild to moderate hepatic impairment (total bilirubin less than or equal to 3 times the upper limit of normal [ULN] and any AST, estimated by NCI criteria) did not have a clinically significant effect on the pharmacokinetics of tislelizumab. The effect of severe hepatic impairment (total bilirubin greater than 3 times ULN and any AST) on the pharmacokinetics of tislelizumab is unknown.
+    Name
+    Renal Impairment
+    Description
+    Mild to moderate renal impairment (creatinine clearance 30 mL/min or higher) did not have a clinically significant effect on the pharmacokinetics of tislelizumab. The effect of severe renal impairment (creatinine clearance 15 to 29 mL/min) or end stage renal disease (creatinine clearance less than 15 mL/min) on the pharmacokinetics of tislelizumab is unknown.
+    Name
+    Geriatric
+    Description
+    Age (18 to 90 years) did not have a clinically significant effect on the pharmacokinetics of tislelizumab.
+    Name
+    Ethnic Differences
+    Description
+    Race (White, Asian, or Black) did not have a clinically significant effect on the pharmacokinetics of tislelizumab.
+    Name
+    Obesity
+    Description
+    Weight (32 kg to 130 kg) did not have a clinically significant effect on the pharmacokinetics of tislelizumab.
+    Name
+    Other
+    Description
+    Anti-Tislelizumab Antibody Formation
+The presence of anti-tislelizumab antibodies did not have a significant effect on the pharmacokinetics of tislelizumab.
+  Text
+  Tislelizumab is administered intravenously. The steady-state total volume of distribution is 6.42 liters (CV, 32.6%). The total clearance of tislelizumab is 0.153 liters/day (CV, 29.5%) and the terminal half-life is 24 days (CV, 31%).
+
+Administration
+  General Information
+  For storage information, see the specific product information within the How Supplied section.
+  Route Specific Administrations
+    Administration Details
+      Name
+      Intravenous Administration
+      Description
+      Do not shake the tislelizumab vial.
+Dilution is required prior to administration.
+Do not administer other drugs through the same infusion line.
+ 
+Dilution
+Withdraw the appropriate volume from the tislelizumab vials and add to an IV bag containing 0.9% Sodium Chloride Injection to achieve a final concentration between 2 mg/mL and 5 mg/mL.
+Mix by gentle inversion to avoid foaming or excess shearing of the solution. Do not shake.
+Discard any unused tislelizumab remaining in the vials.
+Storage after dilution: Store at room temperature (20 to 25 degrees C or 68 to 77 degrees F) for up to 4 hours including preparation and infusion time, or refrigerated at 2 to 8 degrees C (36 to 46 degrees F) for up to 10 days (240 hours) including preparation and infusion time. If refrigerated, allow the diluted solution to come to room temperature before infusion. Do not freeze.
+ 
+Intravenous Infusion
+Do not administer as an IV push or single bolus injection.
+Infuse through an IV line with a sterile, nonpyrogenic, low-protein binding 0.2 micron or 0.22 micron in-line or add-on filter.
+For 150 mg and 200 mg doses: Administer the first dose over 60 minutes. If tolerated, all subsequent doses may be administered over 30 minutes.
+For 300 mg doses: Administer the first dose over 90 minutes. If tolerated, administer the second dose over 60 minutes. If the second infusion is tolerated, all subsequent doses may be administered over 30 minutes.
+For 400 mg doses: Administer the first dose over 120 minutes. If tolerated, administer the second dose over 60 minutes. If the second infusion is tolerated, all subsequent doses may be administered over 30 minutes.
+Flush the IV line after administration.
+    Name
+    Injectable Administration
+
+Maximum Dosage Limits
+  Age Groups
+    Name
+    Adults
+    Max Dosage
+    150 mg IV every 2 weeks.
+200 mg IV every 3 weeks.
+300 mg IV every 4 weeks.
+400 mg IV every 6 weeks.
+    Name
+    Geriatric
+    Max Dosage
+    150 mg IV every 2 weeks.
+200 mg IV every 3 weeks.
+300 mg IV every 4 weeks.
+400 mg IV every 6 weeks.
+    Name
+    Adolescents
+    Max Dosage
+    Safety and efficacy have not been established.
+    Name
+    Children
+    Max Dosage
+    Safety and efficacy have not been established.
+
+Dosage Adjustment Guidelines
+  Hepatic Impairment
+  Treatment-Related Immune-Mediated Hepatitis
+No tumor involvement of the liver
+AST or ALT more than 3 to 8 times the upper limit of normal (ULN) or total bilirubin more than 1.5 to 3 times ULN: Hold tislelizumab and administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper). Resume therapy when the adverse event recovers to grade 1 or less after the corticosteroid taper. Permanently discontinue tislelizumab in patients who do not have a complete or partial resolution of toxicity or who cannot reduce their daily prednisone dose to less than 10 mg (or equivalent) within 12 weeks of initiating steroids.
+AST or ALT more than 8 times ULN or total bilirubin more than 3 times ULN: Permanently discontinue tislelizumab and administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper starting when the toxicity resolves to grade 1 or less).
+ 
+Tumor involvement of the liver
+NOTE: For patients with baseline AST/ALT at the ULN or less, follow the recommendations for hepatitis with no tumor involvement of the liver.
+Baseline AST/ALT more than 1 to 3 times ULN and increasing to more than 5 to 10 times ULN: Hold tislelizumab and administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper). Resume therapy when the adverse event recovers to grade 1 or less after the corticosteroid taper. Permanently discontinue tislelizumab in patients who do not have a complete or partial resolution of toxicity or who cannot reduce their daily prednisone dose to less than 10 mg (or equivalent) within 12 weeks of initiating steroids.
+Baseline AST/ALT more than 3 to 5 times ULN and increasing to more than 8 to 10 times ULN: Hold tislelizumab and administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper). Resume therapy when the adverse event recovers to grade 1 or less after the corticosteroid taper. Permanently discontinue tislelizumab in patients who do not have a complete or partial resolution of toxicity or who cannot reduce their daily prednisone dose to less than 10 mg (or equivalent) within 12 weeks of initiating steroids.
+Any baseline AST/ALT increasing to more than 10 times ULN or total bilirubin to more than 3 times ULN: Permanently discontinue tislelizumab and administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper starting when the toxicity resolves to grade 1 or less).
+  Renal Impairment
+  Treatment-Related Immune-Mediated Nephritis with Renal Dysfunction
+Grade 2 or 3 increased SCr: Hold tislelizumab and administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper). Resume therapy when the adverse event recovers to grade 1 or less after the corticosteroid taper. Permanently discontinue tislelizumab in patients who do not have a complete or partial resolution of toxicity or who cannot reduce their daily prednisone dose to less than 10 mg (or equivalent) within 12 weeks of initiating steroids.
+Grade 4 increased SCr: Permanently discontinue tislelizumab and administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper starting when the toxicity resolves to grade 1 or less).

@@ -3,6 +3,7 @@ import NurseVaultCore
 
 struct RootView: View {
     @Environment(Library.self) private var library
+    @Environment(DrugLibrary.self) private var drugLibrary
     @Environment(\.scenePhase) private var scenePhase
 
     @State private var selection: SidebarItem? = .all
@@ -15,6 +16,8 @@ struct RootView: View {
     enum SidebarItem: Hashable {
         case all
         case section(VaultSection)
+        /// The read-only drug reference bundled with the app.
+        case drugReference
     }
 
     /// Wrapper so a section can drive a sheet (`item:` requires Identifiable).
@@ -28,6 +31,10 @@ struct RootView: View {
             List(selection: $selection) {
                 Label("All Documents", systemImage: "books.vertical")
                     .tag(SidebarItem.all)
+
+                Label("Drug Reference", systemImage: "cross.case")
+                    .badge(drugLibrary.entries.count)
+                    .tag(SidebarItem.drugReference)
 
                 ForEach(library.sections, id: \.self) { section in
                     Label(section.name ?? "Untitled", systemImage: section.icon ?? "folder")
@@ -57,8 +64,12 @@ struct RootView: View {
                 }
             }
         } content: {
-            NavigationStack {
-                VaultListView(container: currentContainer)
+            if case .drugReference = selection {
+                DrugReferenceView()
+            } else {
+                NavigationStack {
+                    VaultListView(container: currentContainer)
+                }
             }
         } detail: {
             ContentUnavailableView {
@@ -121,7 +132,7 @@ struct RootView: View {
 
     private var currentSection: VaultSection? {
         switch selection {
-        case .all, .none:
+        case .all, .none, .drugReference:
             return nil
         case .section(let section):
             return section
@@ -130,7 +141,7 @@ struct RootView: View {
 
     private var currentContainer: VaultContainer? {
         switch selection {
-        case .all, .none:
+        case .all, .none, .drugReference:
             return nil
         case .section(let section):
             return .section(section)

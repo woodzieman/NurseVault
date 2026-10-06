@@ -1,0 +1,759 @@
+=== Panitumumab (Merck Manual Professional) ===
+Source: https://www.merckmanuals.com/professional/drug-names-generic-and-brand (productid 3502)
+Retrieved: 2026-09-25
+NURSING QUICK-REFERENCE SUMMARY
+Auto-generated on 2026-09-25 from the prescribing information in this file; full details follow below.
+
+Drug Class: Panitumumab is an epidermal growth factor receptor (EGFR) antagonist and a human IgG2 kappa monoclonal antibody produced in genetically engineered mammalian (Chinese hamster ovary) cells.
+
+Routes: injection (IV/IM/SC); Common adult doses: 6 mg/kg IV every 2 weeks.
+
+Common Side Effects (excluding routine GI upset): hyperkalemia, hypocalcemia, hypokalemia, hypomagnesemia, angioedema, bronchospasm, chills, fever, hypotension, infusion-related reactions, dehydration, renal failure, gi obstruction, cheilitis, oral ulceration, interstitial lung disease, pneumonitis, pulmonary fibrosis, conjunctivitis, keratitis, keratoconjunctivitis, ocular toxicity, bleeding, epistaxis, gi bleeding, hematoma, hematospermia, vaginal bleeding, infection, necrotizing fasciitis
+
+In an Overdose: No overdose/antidote information is listed in this file.
+
+Key Nursing Considerations: Contraindications/precautions: In clinical trials, all patients were required to have EGFR expression, defined as at least 1+ membrane staining in > 1 % by the Dako EGFR pharmDx test kit. In addition, retrospective subset analyses of metastatic colorectal cancer trials have not shown a treatment benefit for panitumumab in... Patient counseling: Advise patients receiving panitumumab to wear sunscreen, hats, and limit sunlight (UV) exposure during therapy and for 2 months after the last dose, as UV exposure can exacerbate... Emetic risk: Low
+
+Brand Names
+  - Vectibix
+
+Dosage Forms
+  - Vectibix 100mg/5ml Solution for Injection
+  - Vectibix 400mg/20ml Solution for Injection
+
+Indication Specific Dosing
+  Indications
+    Related Indications
+      Heading
+      for the first-line treatment of wild-type RAS (both KRAS and NRAS) metastatic colorectal cancer (mCRC), in combination with oxaliplatin, leucovorin, and fluorouracil (FOLFOX)
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          6 mg/kg IV on day 1 every 14 days until disease progression or unacceptable toxicity, in combination with fluorouracil, leucovorin, and oxaliplatin (FOLFOX). In the PRIME study, panitumumab was given first on day 1, followed by FOLFOX4: oxaliplatin (85 mg/m2 IV) and leucovorin (200 mg/m2 IV) concurrently via y-site on day 1, followed by fluorouracil (400 mg/m2 IV bolus, followed by 600 mg/m2 as a continuous IV infusion [CIV] over 22 hours). On day 2, leucovorin (200 mg/m2 IV) and fluorouracil (400 mg/m2 IV bolus followed by 600 mg/m2 CIV over 22 hours) were repeated. Panitumumab plus mFOLFOX4 was then repeated every 14 days. Treatment with panitumumab plus FOLFOX4 significantly improved median progression-free survival (PFS) (9.6 months vs. 8 months) compared with FOLFOX4 alone in previously untreated metastatic colorectal cancer patients with wild-type KRAS and no prior oxaliplatin in a multicenter, randomized, open-label trial (PRIME); the overall response rate (ORR) was also improved in the panitumumab arm (54% vs. 47%). In an exploratory analysis based on events in 82% of patients, median overall survival was 23.8 versus 19.4 months in patients with wild-type KRAS; results were similar in patients with wild-type RAS (25.8 vs. 20.2 months). In a retrospective exploratory analysis of the RAS wild-type subgroup, median PFS (10.1 months vs. 7.9 months), OS (25.8 months vs. 20.2 months), and ORR (58% vs. 45%) were all improved in the panitumumab arm.
+      Heading
+      for the treatment of wild-type RAS (both KRAS and NRAS) metastatic colorectal cancer (mCRC) that has progressed during or after fluoropyrimidine-, oxaliplatin-, and irinotecan-containing regimens, as monotherapy
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          6 mg/kg IV on day 1, every 14 days until disease progression or unacceptable toxicity. Panitumumab monotherapy was found to be noninferior to cetuximab in terms of overall survival (OS) in a multicenter, randomized, phase 3 trial (ASPECCT) of patients with chemotherapy -refractory wild-type KRAS mCRC (10.4 months vs. 10 months); the median progression-free survival (PFS) was 4.1 months and 4.4 months, while the objective response rate was 22% and 19%, respectively. In another multicenter, randomized, open-label phase 3 trial in patients with wild-type KRAS mCRC, patients who had received prior therapy with irinotecan, oxaliplatin, and a thymidylate synthase inhibitor had significantly improved OS when treated with panitumumab compared with best supportive care (BSC) (10 months vs. 7.4 months); median PFS was 3.6 months versus 1.7 months, respectively. Median OS (10 months vs. 6.9 months) and PFS (5.2 months vs. 1.7 months) results for patients with wild-type RAS were similar to those with wild-type KRAS compared with BSC. Response to panitumumab monotherapy compared with BSC was limited to patients without KRAS mutations in a final clinical trial.
+      Heading
+      for the treatment of KRAS G12C-mutated metastatic colorectal cancer (mCRC) in patients who have received prior treatment with fluoropyrimidine-, oxaliplatin-, and irinotecan-based chemotherapy, in combination with sotorasib
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          6 mg/kg IV every 14 days in combination with sotorasib (960 mg PO once daily) until disease progression, unacceptable toxicity, or until sotorasib is held or discontinued. Administer the first dose of sotorasib prior to the first infusion of panitumumab. Coadministration of certain drugs may need to be avoided or dosage adjustments may be necessary; review drug interactions. Treatment with panitumumab plus sotorasib significantly improved the median progression-free survival compared with investigator's choice of either trifluridine; tipiracil or regorafenib (5.6 months vs. 2 months) in patients with previously treated KRAS G12C mutated mCRC in a multicenter, randomized, open-label phase 3 trial (CodeBreaK 300); overall survival was not significantly different between arms. The overall response rate was 26% for a median duration of 4.4 months in the panitumumab arm compared with 0% in the ICC arm. Options for ICC included trifluridine/tipiracil or regorafenib.
+    Routes
+    Heading
+    For the treatment of colorectal cancer
+
+Contraindications And Precautions
+  Headline
+  Contraindications/Warnings/Precautions
+  General Information
+  In clinical trials, all patients were required to have EGFR expression, defined as at least 1+ membrane staining in > 1 % by the Dako EGFR pharmDx test kit. In addition, retrospective subset analyses of metastatic colorectal cancer trials have not shown a treatment benefit for panitumumab in patients whose tumors had KRAS mutations in codon 12 or 13. Use of panitumumab is not recommended for the treatment of colorectal cancer with these mutations.
+ 
+Panitumumab should be used with caution in patients with known hamster protein hypersensitivity or hypersensitivity to any component of the product.
+ 
+During clinical trials, severe infusion-related reactions occurred in approximately 1% of patients receiving panitumumab. Manifestations include anaphylactic reactions, acute bronchospasm, fever, chills, and hypotension. Fatal infusions reactions have been reported with monoclonal antibodies, including panitumumab. Adjustments to the infusion rate are recommended if a mild or moderate reaction occurs (see Dosage). Severe infusion reactions necessitate permanent discontinuation of therapy. Appropriate medical therapy including epinephrine, corticosteroids, intravenous antihistamines, bronchodilators, and oxygen should be available for use in the treatment of such a reaction.
+ 
+In trials of patients receiving panitumumab monotherapy, dermatologic toxicities manifesting as dermatitis aciniform, pruritus, erythema, rash (unspecified), skin exfoliation (exfoliative dermatitis), paronychia, dry skin, and skin fissures (see Adverse Reactions) were reported in 89% of patients and were severe (> grade 3) in 12%. Subsequent complications to severe dermatologic toxicities were infection, sepsis, septic death, and abscesses requiring incisions and drainage. Withhold or discontinue panitumumab and monitor for inflammatory or infectious complications in severe dermatologic toxicities; dosage modifications should be instituted for any future doses (see Dosage). It is recommended that patients wear sunscreen, hats, and limit sunlight (UV) exposure while receiving panitumumab and for 2 months after the last dose, as UV exposure can exacerbate any skin reactions that may occur.
+ 
+Pulmonary fibrosis occurred in two patients enrolled in clinical studies of panitumumab. Of these two cases, one patient with underlying idiopathic pulmonary fibrosis who received panitumumab in combination with chemotherapy, died from worsening pulmonary fibrosis after four doses of panitumumab. The second case was characterized by cough and wheezing 8 days following the initial dose, dyspnea on the day of the 7th dose, and persistent symptoms and CT evidence of pulmonary fibrosis following the 11th dose of panitumumab as monotherapy. An additional patient died, with bilateral pulmonary infiltrates of uncertain etiology with hypoxia, after 23 doses of panitumumab in combination with chemotherapy. Use panitumumab with caution in patients with pre-existing pulmonary disease and permanently discontinue treatment in any patient who develops interstitial lung disease, pneumonitis, or lung infiltrates.
+ 
+Panitumumab is classified as FDA pregnancy risk category C. There are no adequate and well-controlled studies in pregnant women. Epidermal growth factor receptor (EGFR) has been implicated in the control of prenatal development and may be essential for normal organogenesis, proliferation, and differentiation in the developing embryo. Panitumumab was associated with significant increases in embryolethal or abortifacient effects in pregnant cynomolgus monkeys when the drug was administered weekly during the period of organogenesis (gestation days 20—50), at doses approximately 1.25 to 5-fold greater than the recommended human dose. No evidence of teratogenesis was seen in panitumumab-treated monkeys; however, panitumumab has the potential to cause fetal harm when administered to pregnant women. As human IgG is known to cross the placental barrier, panitumumab may be transmitted from the mother to the developing fetus. Adequate contraception in both males and females is needed during panitumumab receipt and for 6 months after the last dose. All patients should be counseled regarding the potential risks of panitumumab treatment to the developing fetus prior to initiation of therapy. If a patient becomes pregnant while receiving the drug, she should be apprised of the potential risks to the fetus and/or the potential risk for loss of pregnancy. Women who become pregnant during treatment are encouraged to enroll in Amgen's Pregnancy Surveillance Program by calling 1—800—772—6436.
+ 
+Studies have not been conducted to assess the secretion of panitumumab in human milk. Since human IgG is secreted into human milk, panitumumab might also be secreted. The potential for absorption and harm to the infant after ingestion is unknown. Women should be advised to discontinue breast-feeding during treatment with panitumumab and for 2 months after the last dose of panitumumab.
+ 
+The safety and effectiveness of panitumumab have not been established in children.
+ 
+Panitumumab can cause diarrhea, and when used in combination with irinotecan there is an increased incidence and severity of chemotherapy-induced diarrhea. In a clinical study of 19 patients receiving panitumumab with irinotecan, 5-fluorouracil, and leucovorin (ILF), the incidence of NCI-CTC grade 3 to 4 diarrhea was 58%, and was fatal in 1 patient. In a study of 24 patients receiving panitumumab with FOLFIRI, the incidence of NCI-CTC grade 3 diarrhea was 25%. The combination of panitumumab with IFL is not recommended. Severe diarrhea and dehydration which may lead to acute renal failure and other complications have been observed in patients treated with panitumumab in combination with chemotherapy.
+ 
+In a randomized, controlled clinical trial of panitumumab, hypomagnesemia occurred in 39% of patients with median magnesium concentrations decreasing by 0.1 mmol/L in patients receiving panitumumab; hypomagnesemia (NCI-CTC grade 3 or 4) requiring oral or IV electrolyte repletion occurred in 2% of patients. Hypomagnesemia occurred > 6 weeks after the initiation of panitumumab, and in some patients was associated with hypocalcemia. Electrolytes should be monitored periodically during and for 8 weeks after the completion of panitumumab therapy.
+  Contraindications And Precautions
+    Headline
+    Drug Interactions
+    General Information
+    The coadministration of certain medications may lead to harm and require avoidance or therapy modification; review all drug interactions prior to concomitant use of other medications.
+    Headline
+    Hypersensitivity
+    General Information
+    This medication is contraindicated in patients with a history of hypersensitivity to it or any of its components.
+    Headline
+    dermatologic toxicity
+    General Information
+    Treatment with panitumumab can cause dermatologic toxicity manifested by acneiform dermatitis, pruritus, erythema, serious rash, skin exfoliation, paronychia, dry skin, and skin fissures, among other toxicities. Life-threatening and fatal complications including necrotizing fasciitis, abscesses, and bullous mucocutaneous disease with blisters, erosions, and skin sloughing have also been observed in patients treated with panitumumab. If patients develop dermatologic or soft tissue toxicities, monitor for the development of inflammatory or infectious sequelae. A dose reduction, interruption of therapy, or discontinuation of therapy may be necessary if dermatologic toxicities occur.
+    Headline
+    pulmonary disease
+    General Information
+    Use panitumumab with caution in patients who have a history of pre-existing pulmonary disease including interstitial pneumonitis and pulmonary fibrosis; severe pneumonitis/interstitial lung disease has been reported in patients treated with panitumumab. Monitor patients for new or worsening respiratory symptoms including fever, cough, or dyspnea. Immediately interrupt panitumumab therapy in patients with new or worsening respiratory symptoms and permanently discontinue therapy if no other potential causes are identified.
+    Headline
+    pregnancy
+    General Information
+    Pregnancy should be avoided by females of reproductive potential during panitumumab treatment and for at least 2 months after the last dose. Although there are no adequately controlled studies in pregnant women, panitumumab can cause fetal harm or death when administered during pregnancy based on its mechanism of action and animal studies. Women who are pregnant or who become pregnant while receiving panitumumab should be apprised of the potential hazard to the fetus. Panitumumab is a human IgG monoclonal antibody and may be transferred across the placenta during pregnancy. Based on animal models, EGFR is involved in prenatal development and may be essential for normal organogenesis, proliferation, and differentiation in the developing embryo. Reproduction studies in cynomolgus monkeys treated at exposures of 1.25 to 5 times the recommended human dose of panitumumab during organogenesis resulted in significant embryolethality and abortions; however, no other evidence of teratogenesis was noted in offspring. Panitumumab was not detected in the serum of neonates, but anti-panitumumab antibody titers were present in 14 of 27 offspring.
+    Headline
+    contraception requirements, infertility, reproductive risk
+    General Information
+    Counsel patients about the reproductive risk and contraception requirements during panitumumab treatment. Panitumumab can be embryolethal if taken by the mother during pregnancy. Females of reproductive potential should avoid pregnancy and use effective contraception during and for at least 2 months after treatment with panitumumab. Females of reproductive potential should undergo pregnancy testing prior to initiation of panitumumab. Women who become pregnant while receiving panitumumab should be apprised of the potential hazard to the fetus. Although there are no data regarding the effect of panitumumab on human fertility, female infertility (e.g., prolonged menstrual cycles and/or amenorrhea) has been observed in animal studies; these effects were reversible upon discontinuation of panitumumab treatment. The effects of panitumumab on male fertility have not been studied; however, no adverse effects were observed microscopically in reproductive organs from male cynomolgus monkeys treated for 26 weeks with panitumumab at doses of up to approximately 5-fold the recommended human dose (based on body weight).
+    Headline
+    contact lenses, dry eye disease, keratitis
+    General Information
+    Use panitumumab with caution in patients with a history of keratitis, ulcerative keratitis, or severe dry eye disease. Keratitis has occurred in patients treated with panitumumab; patients who wear contact lenses are also at increased risk. Patients who develop an onset of new eye symptoms or visual disturbance such as ocular pain, inflammation, lacrimation, light sensitivity, blurred vision, and/or red eye should be evaluated and managed appropriately; an interruption or discontinuation of therapy may be necessary.
+    Headline
+    breast-feeding
+    General Information
+    Due to the potential for serious adverse reactions in nursing infants from panitumumab, advise women to discontinue breast-feeding during treatment and for 2 months after the final dose. It is not known whether panitumumab is present in human milk, although many drugs are excreted in human milk. Human IgG is present in human milk, but published data suggest that breast milk antibodies do not enter the neonatal and infant circulation in substantial amounts.
+
+Pregnancy And Lactation
+  Pregnancy
+    General Information
+    Pregnancy should be avoided by females of reproductive potential during panitumumab treatment and for at least 2 months after the last dose. Although there are no adequately controlled studies in pregnant women, panitumumab can cause fetal harm or death when administered during pregnancy based on its mechanism of action and animal studies. Women who are pregnant or who become pregnant while receiving panitumumab should be apprised of the potential hazard to the fetus. Panitumumab is a human IgG monoclonal antibody and may be transferred across the placenta during pregnancy. Based on animal models, EGFR is involved in prenatal development and may be essential for normal organogenesis, proliferation, and differentiation in the developing embryo. Reproduction studies in cynomolgus monkeys treated at exposures of 1.25 to 5 times the recommended human dose of panitumumab during organogenesis resulted in significant embryolethality and abortions; however, no other evidence of teratogenesis was noted in offspring. Panitumumab was not detected in the serum of neonates, but anti-panitumumab antibody titers were present in 14 of 27 offspring.
+  Breastfeeding
+    General Information
+    Due to the potential for serious adverse reactions in nursing infants from panitumumab, advise women to discontinue breast-feeding during treatment and for 2 months after the final dose. It is not known whether panitumumab is present in human milk, although many drugs are excreted in human milk. Human IgG is present in human milk, but published data suggest that breast milk antibodies do not enter the neonatal and infant circulation in substantial amounts.
+
+Interactions
+Bevacizumab: (Major) Do not use panitumumab with bevacizumab in combination with chemotherapy as increased mortality and toxicity may occur. In an interim analysis of an open-label, multicenter, randomized clinical trial of patient with previously untreated metastatic colorectal cancer, the combination of panitumumab, bevacizumab, and chemotherapy resulted in decreased overall survival and an increased incidence of grade 3 to 5 adverse reactions compared with bevacizumab plus chemotherapy without panitumumab, including fatalities. Patients randomized to the panitumumab arm also received a lower mean relative dose intensity of each chemotherapeutic agent (oxaliplatin, irinotecan, and 5-fluorouracil) over the first 24 weeks on study compared with those randomized to bevacizumab and chemotherapy.
+Cholera Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the live cholera vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to cholera bacteria after receiving the vaccine.
+Dengue Tetravalent Vaccine, Live: (Contraindicated) Avoid administration of the live dengue virus vaccine with immunosuppressive drug therapy and prior to immune recovery following treatment with immunosuppressive drug therapy. When feasible, administer indicated live virus vaccines at least 4 weeks before planned immunosuppression or wait until at least 3 months after discontinuation. The time to restoration of immune competence may be longer in some patients. Patients with altered immunocompetence may be at increased risk for severe adverse reactions due to uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+SARS-CoV-2 (COVID-19) vaccines: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) mRNA Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) Recombinant Spike Protein Nanoparticle Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+Sodium Iodide I-131: (Moderate) Monitor for bone marrow suppression during concomitant use of sodium iodide I-131 and antineoplastic agents. Concomitant use of bone marrow depressants may enhance the depression of the hematopoietic system caused by the use of large doses of sodium iodide I-131.
+Tuberculin Purified Protein Derivative, PPD: (Moderate) Immunosuppressives may decrease the immunological response to tuberculin purified protein derivative, PPD. This suppressed reactivity can persist for up to 6 weeks after treatment discontinuation. Consider deferring the skin test until completion of the immunosuppressive therapy.
+
+Adverse Reactions
+  Headline
+  Adverse Reactions
+  General Information
+  In a randomized, controlled trial, dermatologic toxicities were reported in 90% of 229 patients receiving panitumumab monotherapy. Dermatologic toxicity was severe (NCI-CTC grade 3 and higher) in 16% of patients. Of 1293 patients who got panitumumab monotherapy including the 229 patients from the randomized trial, 89% had dermatologic toxicity, which was severe (> grade 3) in 12% of patients. Clinical manifestations noted in the 229 patients included erythema (65%), acneiform rash (57%), rash (unspecified) (22%), pruritus (57%), skin exfoliation (exfoliative dermatitis) (25%), skin fissures (20%), xerosis (10%), and paronychia (25%). Eye-related toxicities occurred in 15% of patients and included conjunctivitis (4%), ocular hyperemia (3%), increased lacrimation (2%), and ocular irritation of the eye and/or eyelid (1%). One patient experienced a NCI-CTC grade 3 event of mucosal inflammation. Subsequent complications to severe dermatologic toxicities were infection, sepsis, septic death, and abscesses requiring incisions and drainage. Dermatologic toxicity generally developed within the first 2 weeks of treatment. The median time to resolution was 84 days following the last dose of panitumumab. Withhold or discontinue panitumumab if severe dermatologic toxicity occurs; dosage modifications should be instituted for any future doses (see Dosage). Patients developing dermatologic toxicities while receiving panitumumab should be monitored for the development of inflammatory or infectious sequelae. If such complications develop, appropriate management techniques should be initiated.
+ 
+Infusional toxicity was defined as allergic reaction (including acute bronchospasm, anaphylactic shock, anaphylactoid reactions), fever, chills, hypotension, or shortness of breath. Premedication to prevent the first or subsequent episodes of infusional toxicity is unknown because the use of premedication was not standardized in clinical trials. Additionally, a case of fatal angioedema occurred in a patient with recurrent metastatic squamous cell carcinoma of the head and neck treated with panitumumab in a clinical trial. The fatal event occurred after re-exposure with panitumumab after a previous episode of angioedema. Both episodes occurred greater than 24 hours after panitumumab administration. Permanently discontinue panitumumab in patients that develop angioedema. Severe infusion reactions (>= grade 3) occurred in approximately 1% of patients in panitumumab trials, excluding trials where combination therapy was given with carboplatin and paclitaxel. Fatal infusions reactions have not been reported but have been seen with other monoclonal antibodies. Adjustments to the infusion rate are recommended if a mild or moderate reaction occurs (see Dosage). Severe infusion reactions necessitate permanent discontinuation of therapy. Appropriate medical therapy including epinephrine, corticosteroids, intravenous antihistamines, bronchodilators, and oxygen should be available for use in the treatment of such a reaction. Pulmonary fibrosis occurred in two patients enrolled in clinical studies of panitumumab. Of these two cases, one patient with underlying idiopathic pulmonary fibrosis who received panitumumab in combination with chemotherapy, died from worsening pulmonary fibrosis after four doses of panitumumab. The second case was characterized by cough and wheezing 8 days after the initial dose, dyspnea on the day of the 7th dose, and persistent symptoms and CT evidence of pulmonary fibrosis after the 11th dose of panitumumab as monotherapy. An additional patient died with bilateral pulmonary infiltrates of uncertain etiology with hypoxia after 23 doses of panitumumab in combination with chemotherapy. After the initial fatality, patients with a history or evidence of interstitial lung disease or pulmonary fibrosis were excluded from clinical studies. Therefore, the estimated risk in a general population that may include such patients is uncertain. Permanently discontinue panitumumab therapy in patients developing interstitial lung disease, pneumonitis, or lung infiltrates. Pulmonary embolism may also be associated with panitumumab. Instruct patients to get immediate medical care if they develop a persistent cough, wheeze, or dyspnea.
+ 
+Panitumumab treatment can cause diarrhea, reported in 21% of patients in randomized, controlled clinical trials. When used in combination with irinotecan, appears to increase the incidence and severity of chemotherapy-induced diarrhea. In a study of 19 patients receiving panitumumab in combination with irinotecan, bolus 5-fluorouracil, and leucovorin (IFL), the incidence of NCI-CTC grade 3-4 diarrhea was 58% and was fatal in one patient. In a study of 24 patients receiving panitumumab plus FOLFIRI, the incidence of NCI-CTC grade 3 diarrhea was 25%. The combination of panitumumab with IFL is not recommended. Severe diarrhea and dehydration, which may lead to acute renal failure (unspecified) and other complications, have been observed in patients treated with panitumumab in combination with chemotherapy.
+ 
+In the randomized, controlled clinical trial of panitumumab, hypomagnesemia occurred in 39% of patients, generally more than 6 weeks after drug initiation. Median magnesium levels decreased by 0.1 mmol/L. Hypomagnesemia (NCI-CTC grade 3 or 4) requiring oral or IV electrolyte repletion occurred in 2% of patients. In some patients hypomagnesemia was associated with hypocalcemia. Monitor electrolytes periodically during and for 8 weeks after the completion of panitumumab therapy.
+ 
+Other reported adverse reactions associated with panitumumab therapy in randomized, controlled clinical trials included cough (14%), fatigue (26%), peripheral edema (12%), and general deterioration (11%).
+ 
+Gastrointestinal side effects associated with panitumumab therapy in randomized, controlled clinical trials included abdominal pain (25%), nausea/vomiting (23%/19%), constipation (21%), stomatitis (7%), and mucosal inflammation (6%).
+ 
+Screening immunoassays have shown anti-panitumumab antibody formation in < 1 to 4.1% of patients. No difference was observed in pharmacokinetic profile or toxicity profile between patients who developed antibodies to panitumumab as detected by screening immunoassays and those who did not.
+  Adverse Reactions
+    Headline
+    acneiform rash, alopecia, bullous rash, erythema, exfoliative dermatitis, flushing, maculopapular rash, palmar-plantar erythrodysesthesia (hand and foot syndrome), photosensitivity, pruritus, rash, skin erosion, skin necrosis, skin ulcer, Stevens-Johnson syndrome, toxic epidermal necrolysis, xerosis
+    General Information
+    Dermatologic toxicity occurred in 90% to 96% of patients treated with panitumumab across clinical trials (grade 3 or 4, 15% to 33%), including acneiform rash, erythema, pruritus, rash, exfoliative dermatitis, paronychia, skin fissures, and xerosis. Erythema (66% vs. less than 1%; grade 3 or 4, 6% vs. 0%), pruritus (58% vs. 2%; grade 3 or 4, 3% vs. 0%), acneiform dermatitis (57% vs. less than 1%; grade 3 or 4, 7% vs. 0%), rash (22% vs. less than 1%; grade 3 or 4, 1% vs. 0%), and skin fissures (20% vs. less than 1%; grade 3 or 4, 1% vs. 0%) were reported more often in patients treated with panitumumab monotherapy compared with best supportive care in a randomized clinical trial; xerosis (23%; grade 3 or 4, 10%), nail disorder (22%; grade 3 or 4, 10%), exfoliative rash (18%; grade 3 or 4, 2%), acne (14%; grade 3 or 4, 1%), skin exfoliation (9%; grade 3 or 4, less than 1%), skin ulcer (6%; grade 3 or 4, less than 1%), pustular rash (4.4%), and papular rash (1.7%) were only reported in patients who received panitumumab. Exposure to sunlight can cause a photosensitivity reaction and exacerbate dermatologic toxicity. The median time to development of dermatologic or nail toxicity was 12 days after the first dose of panitumumab; the median time to resolution after the last dose of panitumumab was 98 days. In another clinical trial, dermatologic toxicities that are often seen with FOLFOX4 that occurred more often in patients who received panitumumab plus FOLFOX 4 versus FOLFOX4 alone include alopecia (15% vs. 9%), palmar-plantar erythrodysesthesia (hand and foot syndrome) (9% vs. 3%; grade 3 or 4, 1% vs. less than 1%), and flushing (3% vs. less than 1%). Rash (87%; grade 3 or 4, 26%) including acneiform dermatitis, dermatosis, eczema, erythema, and maculopapular rash, dry skin (28%), pruritus (17%), nail disorders (17%) including nail avulsion, nail cuticle fissure, and paronychia, skin fissures (13%), and palmar-plantar erythrodysesthesia (13%) were also reported in patients who received panitumumab plus sotorasib. Skin necrosis and life-threatening and fatal mucocutaneous bullous rash with blisters, skin erosion, and skin sloughing has also been observed in postmarketing reports of patients treated with panitumumab; it could not be determined whether these mucocutaneous reactions were directly related to EGFR inhibition or to idiosyncratic immune-related effects such as Stevens-Johnson syndrome or toxic epidermal necrolysis. An interruption of therapy, dose reduction, or discontinuation of therapy may be necessary for dermatologic or soft tissue toxicity.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      maculopapular rash
+      Severity
+      Minor
+      GSTerm Name
+      skin erosion
+      Severity
+      Moderate
+      GSTerm Name
+      flushing
+      Severity
+      Minor
+      Incidence To
+      GSTerm Name
+      photosensitivity
+      Severity
+      Minor
+      GSTerm Name
+      skin ulcer
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      palmar-plantar erythrodysesthesia (hand and foot syndrome)
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      bullous rash
+      Severity
+      Moderate
+      GSTerm Name
+      alopecia
+      Severity
+      Minor
+      Incidence To
+      GSTerm Name
+      toxic epidermal necrolysis
+      Severity
+      Severe
+      GSTerm Name
+      Stevens-Johnson syndrome
+      Severity
+      Severe
+      GSTerm Name
+      skin necrosis
+      Severity
+      Severe
+      GSTerm Name
+      xerosis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      rash
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      pruritus
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      exfoliative dermatitis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      erythema
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      acneiform rash
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    hyperkalemia, hypocalcemia, hypokalemia, hypomagnesemia
+    General Information
+    Hypomagnesemia has been reported with panitumumab monotherapy, including decreases in magnesium from baseline in 38% of patients (grade 3 or 4, 3.9%) in 1 clinical trial. Hypomagnesemia (30% vs. 8%; grade 3 or 4, 7% vs. less than 1%) and hypokalemia (21% vs. 13%; grade 3 or 4, 10% vs. 5%) were more common in patients who received panitumumab plus FOLFOX4 compared with FOLFOX4 alone. Hypomagnesemia, hypocalcemia, hypokalemia, and hyperkalemia were reported in patients who received panitumumab plus sotorasib, with reports of decreases from baseline in magnesium (76%; grade 3 or 4, 24%), corrected calcium (74% vs. 4.3%), and potassium (27%; grade 3 or 4, 7%) as well as reports of increases from baseline (22%; grade 3 or 4, 4.3%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hyperkalemia
+      Severity
+      Severe
+      GSTerm Name
+      hypokalemia
+      Severity
+      Moderate
+      GSTerm Name
+      hypomagnesemia
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypocalcemia
+      Severity
+      Moderate
+    Headline
+    angioedema, bronchospasm, chills, fever, hypotension, infusion-related reactions
+    General Information
+    Infusion-related reactions, manifesting as fever, chills, shortness of breath, bronchospasm, and hypotension, occurred in 3% (grade 3 or 4, less than 1%) of patients treated with panitumumab across clinical trials (n = 725); fatal infusion reactions and angioedema have been reported in postmarketing experience. When administered as monotherapy, chills were reported in 3.1% of panitumumab-treated patients and fever in 16.6%. A decrease in the infusion rate or discontinuation of therapy is necessary for infusion reactions, depending on the severity. The ability of premedication to prevent the first or subsequent episodes of infusional toxicity is unknown because its use was not standardized in clinical trials.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      infusion-related reactions
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hypotension
+      Severity
+      Moderate
+      GSTerm Name
+      fever
+      Severity
+      Minor
+      Incidence To
+      GSTerm Name
+      chills
+      Severity
+      Minor
+      Incidence To
+      GSTerm Name
+      bronchospasm
+      Severity
+      Severe
+      GSTerm Name
+      angioedema
+      Severity
+      Severe
+    Headline
+    dehydration, diarrhea, renal failure
+    General Information
+    Diarrhea occurred in 21% of patients treated with panitumumab monotherapy compared with 11% of those who received supportive care in a randomized clinical trial (grade 3 or 4, 2% vs. 0%), while dehydration was reported in 2.6% versus 1.7% of patients, respectively. The incidence of diarrhea was similar in patients treated with panitumumab plus sotorasib (28%; grade 3 or 4, 6%) including gastroenteritis and hemorrhagic diarrhea. Diarrhea (62% vs. 52%; grade 3 or 4, 18% vs. 9%) and dehydration (8% vs. 3%; grade 3 or 4, 2% vs. 2%) were more common in patients treated with panitumumab plus FOLFOX4 compared with FOLFOX4 alone in another randomized trial. Severe diarrhea and dehydration in patients treated with panitumumab has led to acute renal failure and other complications in patients treated with panitumumab. Acute renal failure occurred in 2% to 3.2% of patients who received panitumumab as monotherapy or in combination with FOLFOX4 or sotorasib in clinical trials (grade 3 or 4, 0.8% to 2%); an interruption of therapy may be necessary. Provide supportive care if diarrhea or dehydration occur; an interruption of therapy may be necessary.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      renal failure
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      diarrhea
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      dehydration
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+    Headline
+    abdominal pain, constipation, GI obstruction, nausea, vomiting
+    General Information
+    Nausea (23% vs. 16%; grade 3 or 4, less than 1% vs. less than 1%) and vomiting (19% vs. 12%; grade 3 or 4, 3% vs. less than 1%) occurred more often in patients treated with panitumumab monotherapy compared with those who received best supportive care in a randomized clinical trial. Nausea (17%; grade 3 or 4, 2.1%) and vomiting (13%; grade 3 or 4, 2.1%) were also reported in patients treated with panitumumab in combination with sotorasib, in addition to constipation (15%; grade 3 or 4, 2.1%), abdominal pain (15%), and GI obstruction (4.3%). Abdominal pain was reported in 28% of patients who received panitumumab plus FOLFOX4 compared with 23% of those who received FOLFOX4 alone.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      constipation
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      GI obstruction
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      vomiting
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      nausea
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      abdominal pain
+      Severity
+      Minor
+      Incidence To
+    Headline
+    proteinuria
+    General Information
+    Proteinuria has been reported in patients treated with panitumumab, with 23% of patients who received panitumumab plus sotorasib experiencing grade 1 or 2 increases from baseline in urine protein levels.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      proteinuria
+      Severity
+      Moderate
+    Headline
+    anorexia, weight loss
+    General Information
+    Weight loss (18% vs. 7%; grade 3 or 4, less than 1% vs. 0%) and anorexia (36% vs. 26%; grade 3 or 4, 4% vs. 2%) were more common in patients treated with panitumumab plus FOLFOX4 compared with FOLFOX4 alone.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      weight loss
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      anorexia
+      Severity
+      Severe
+      Incidence To
+    Headline
+    cheilitis, oral ulceration, stomatitis, xerostomia
+    General Information
+    Stomatitis (7% vs. less than 1%), mucosal inflammation (7% vs. less than 1%; grade 3 or 4, less than 1% vs. 0%), and xerostomia (4.8% vs. 0%) occurred more often in patients treated with panitumumab monotherapy compared with those who received best supportive care in a randomized clinical trial. The incidence of stomatitis (27% vs. 13%; grade 3 or 4, 5% vs. less than 1%) and mucosal inflammation (25% vs. 16%; grade 3 or 4, 4% vs. less than 1%) was also more common in patients treated with panitumumab plus FOLFOX4 compared with FOLFOX4 alone in another randomized clinical trial. Stomatitis occurred in 26% of patients treated with panitumumab in combination with sotorasib, including mucosal inflammation, oral ulceration, angular cheilitis, and cheilitis.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      xerostomia
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      stomatitis
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      oral ulceration
+      Severity
+      Moderate
+      GSTerm Name
+      cheilitis
+      Severity
+      Minor
+    Headline
+    interstitial lung disease, pneumonitis, pulmonary fibrosis
+    General Information
+    Pulmonary fibrosis occurred in less than 1% of patients enrolled in clinical studies of panitumumab (n = 1467). Grade 1 interstitial lung disease/pneumonitis occurred in 0.8% of patients who received panitumumab in combination with sotorasib (n = 126). An interruption or discontinuation of therapy may be necessary if an acute onset or worsening of pulmonary symptoms occur.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      interstitial lung disease
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      pneumonitis
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      pulmonary fibrosis
+      Severity
+      Severe
+      Incidence To
+    Headline
+    cough, dyspnea
+    General Information
+    Dyspnea (18% vs. 13%; grade 3 or 4, 5% vs. 3%) and cough (15% vs. 7%; grade 3 or 4, less than 1% vs. 0%) occurred more often in patients treated with panitumumab monotherapy compared with best supportive care in a randomized clinical trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      dyspnea
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      cough
+      Severity
+      Severe
+      Incidence To
+    Headline
+    conjunctivitis, keratitis, keratoconjunctivitis, ocular toxicity
+    General Information
+    Ocular toxicity was reported in 16% of patients treated with panitumumab in clinical trials including conjunctivitis (4.8%), keratitis and ulcerative keratitis; corneal perforation has been reported in the postmarketing setting with panitumumab. Keratitis occurred in 0.3% of patients who received panitumumab in combination with FOLFOX4. Keratitis (1.6%), ulcerative keratitis (0.8%), and vernal keratoconjunctivitis (0.8%) were reported in patients treated with panitumumab plus sotorasib across clinical studies. The median time to development of ocular toxicity was 12 days after the first dose of panitumumab and the median time to resolution after the last dose was 98 days. An interruption of therapy or discontinuation of therapy may be necessary for acute or worsening keratitis, ulcerative keratitis, or corneal perforation.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      ocular toxicity
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      keratoconjunctivitis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      conjunctivitis
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      keratitis
+      Severity
+      Severe
+      Incidence To
+    Headline
+    hypertrichosis
+    General Information
+    Eyelash growth (eyelash hypertrichosis / trichomegaly) was reported in 6% of patients treated with panitumumab monotherapy in an open-label, randomized clinical trial and was not reported in patients who received only best supportive care.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hypertrichosis
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+    Headline
+    asthenia, fatigue
+    General Information
+    Fatigue was reported in 26% of patients treated with panitumumab monotherapy compared with 15% of those who received best supportive care in a randomized clinical trial (grade 3 or 4, 4% vs. 3%); fatigue including asthenia was reported in 21% of patients who received panitumumab plus sotorasib in another clinical trial. Asthenia was reported more often in patients treated with panitumumab plus FOLFOX4 compared with those who received FOLFOX4 alone in a separate clinical trial (25% vs. 19%; grade 3 or 4, 5% vs. 3%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      asthenia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      fatigue
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    antibody formation
+    General Information
+    Anti-panitumumab antibody formation occurred in 5.2% of patients (n = 1417) who received panitumumab monotherapy (during the 23-week treatment period of panitumumab as monotherapy) in clinical trials. Among anti-panitumumab antibody-positive patients (n = 74), 18.9% had neutralizing antibodies. The incidence of anti-panitumumab antibodies was 3.2% in patients (n = 1470) receiving panitumumab in combination with chemotherapy (during the 23-week treatment period of panitumumab plus chemotherapy) in clinical studies; among anti-panitumumab antibody-positive patients (n = 47), 14.9% had neutralizing antibodies. The effect of anti-drug antibodies on the pharmacodynamics, safety, or efficacy of panitumumab has not been fully characterized.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      antibody formation
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+    Headline
+    pulmonary embolism, thrombosis
+    General Information
+    Pulmonary embolism occurred in 1.3% of patients treated with panitumumab monotherapy compared with no patients who received best supportive care in a randomized clinical trial. Deep vein thrombosis occurred in 5.3% of patients who received panitumumab plus FOLFOX4 compared with 3.1% of those receiving FOLFOX alone in another clinical trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      pulmonary embolism
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      thrombosis
+      Severity
+      Severe
+      Incidence To
+    Headline
+    bleeding, epistaxis, GI bleeding, hematoma, hematospermia, vaginal bleeding
+    General Information
+    Epistaxis occurred more often with panitumumab monotherapy compared with best supportive care in a randomized clinical trial (3.9% vs. 0%); the incidence was higher in patients treated with panitumumab plus FOLFOX4 compared with FOLFOX4 alone in another clinical trial (14% vs. 9%). In a small study, cases of bleeding or hemorrhage occurred in 13% of patients treated with panitumumab plus sotorasib (n = 47; grade 3 or 4, 2.1%), including epistaxis, vaginal bleeding, GI bleeding, rectal hemorrhage, hematochezia, urinary tract hemorrhage, hematospermia, hematoma, and hematuria.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      vaginal bleeding
+      Severity
+      Moderate
+      GSTerm Name
+      hematospermia
+      Severity
+      Minor
+      GSTerm Name
+      hematoma
+      Severity
+      Moderate
+      GSTerm Name
+      GI bleeding
+      Severity
+      Severe
+      GSTerm Name
+      bleeding
+      Severity
+      Moderate
+      GSTerm Name
+      epistaxis
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+    Headline
+    infection, necrotizing fasciitis, sepsis
+    General Information
+    Paronychia occurred in 21% to 25% of patients treated with panitumumab as monotherapy or in combination with FOLFOX4 compared with no patients who received best supportive care or FOLFOX4 alone in randomized clinical trials (grade 3 or 4, 2% to 3%); localized infection (3.7% vs. less than 1%) and cellulitis (2.5% vs. 0%) were also reported more often in patients who received panitumumab plus FOLFOX4 compared with FOLFOX4 alone. In patients receiving monotherapy, sepsis, necrotizing fasciitis, and abscesses requiring incisions and drainage were also reported as infectious complications of severe dermatologic toxicities. Sepsis occurred in 6% of patients treated with panitumumab in combination with sotorasib.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      sepsis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      necrotizing fasciitis
+      Severity
+      Severe
+      GSTerm Name
+      infection
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    arthralgia, back pain, bone pain, musculoskeletal pain, myalgia
+    General Information
+    Musculoskeletal pain occurred in 21% (grade 3 or 4, 2.1%) of patients treated with panitumumab plus sotorasib in a randomized clinical trial, including arthralgia, back pain, bone pain, extremity pain, musculoskeletal chest pain, and myalgia.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      myalgia
+      Severity
+      Minor
+      GSTerm Name
+      musculoskeletal pain
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      bone pain
+      Severity
+      Moderate
+      GSTerm Name
+      back pain
+      Severity
+      Minor
+      GSTerm Name
+      arthralgia
+      Severity
+      Minor
+    Headline
+    elevated hepatic enzymes, hypoalbuminemia
+    General Information
+    Elevated hepatic enzymes including increased AST (39%), increased ALT (28%), and increased alkaline phosphatase (33%; grade 3 or 4, 2.2%) were reported in patients treated with panitumumab plus sotorasib in a randomized clinical trial. Hypoalbuminemia was also reported, with decreases from baseline in albumin levels reported in 26% (grade 3 or 4, 2.2%) of patients in the same population.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hypoalbuminemia
+      Severity
+      Moderate
+      GSTerm Name
+      elevated hepatic enzymes
+      Severity
+      Moderate
+      Incidence To
+    Headline
+    anemia, leukopenia, lymphopenia
+    General Information
+    Anemia, lymphopenia, and leukopenia have occurred in patients treated with panitumumab plus sotorasib, with decreases from baseline in hemoglobin (30%), lymphocytes (26%; grade 3 or 4, 2.2%), and leukocytes (24%) reported in a randomized clinical trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      anemia
+      Severity
+      Moderate
+      GSTerm Name
+      lymphopenia
+      Severity
+      Moderate
+      GSTerm Name
+      leukopenia
+      Severity
+      Moderate
+    Headline
+    hypoglycemia
+    General Information
+    Hypoglycemia has occurred in patients treated with panitumumab plus sotorasib, with a decrease from baseline in glucose levels reported in 22% of patients in a randomized clinical trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hypoglycemia
+      Severity
+      Moderate
+    Headline
+    elevated creatine kinase
+    General Information
+    Elevated creatine kinase levels were reported in 30% of patients treated with panitumumab plus sotorasib in a randomized clinical trial (grade 3 or 4, 2.3%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      elevated creatine kinase
+      Severity
+      Severe
+      Incidence To
+
+Description
+  Text
+  Panitumumab is an epidermal growth factor receptor (EGFR) antagonist and a human IgG2 kappa monoclonal antibody produced in genetically engineered mammalian (Chinese hamster ovary) cells. Panitumumab is FDA-approved as monotherapy and in combination with leucovorin, oxaliplatin, and fluorouracil (FOLFOX) for the treatment of patients with wild-type RAS metastatic colorectal cancer (mCRC), as well as in combination with sotorasib for the treatment of KRAS G12C-mutated mCRC. Dermatologic adverse reactions are common, occurring in approximately 90% of patients treated with panitumumab as monotherapy. Patients who develop dermatologic toxicities should be monitored closely for inflammatory or infectious sequelae. Severe infusion-related reactions may also occur; monitor vital signs closely during and after administration. Panitumumab was first FDA-approved in 2006.
+
+Mechanism Of Action
+  Text
+  Panitumumab is an epidermal growth factor receptor (EGFR) antagonist and human IgG2 kappa monoclonal antibody. EGFR is a transmembrane glycoprotein that is a member of a subfamily of type I receptor tyrosine kinases including EGFR, HER2, HER3, and HER4. It is expressed in normal epithelial tissues, including the skin and hair follicle, and is overexpressed in certain human cancers, such as colorectal cancers. Interaction of EGFR with its normal ligands (e.g., EGF, transforming growth factor-alpha) leads to phosphorylation and activation of a series of intracellular proteins which in turn regulate transcription of genes involved with cellular growth and survival, motility, and proliferation. KRAS (Kirsten rat sarcoma 2 viral oncogene homologue) and NRAS (Neuroblastoma RAS viral oncogene homologue) are highly related members of the RAS oncogene family. Signal transduction through EGFR can result in activation of the wild-type KRAS and NRAS proteins; however, in cells with activating RAS somatic mutations, the RAS-mutant proteins are continuously active and appear independent of EGFR regulation. Panitumumab competitively inhibits the binding ligands for EGFR in both normal cells and tumor cells. Nonclinical studies show that this prevents ligand-induced receptor autophosphorylation and activation of receptor-associated kinases, resulting in inhibition of cell growth, induction of apoptosis, decreased proinflammatory cytokine and vascular growth factor production, and internalization of EGFR. In vitro assays and in vivo animal studies demonstrate that panitumumab inhibits the growth and survival of selected human tumor cell lines expressing EGFR.
+ 
+KRAS G12C-mutant colorectal cancer
+In the setting of KRAS G12C-mutant colorectal cancer, EGFR activation has been identified as a mechanism of resistance to KRAS G12C inhibition. Sotorasib is a KRAS G12C inhibitor; therefore inhibition of EGFR by panitumumab is thought to increase the efficacy of sotorasib. In a murine patient-derived colorectal tumor xenograft model, the combination of panitumumab and sotorasib had increased antitumor activity compared to either panitumumab or sotorasib alone.
+
+Pharmacokinetics
+  Route Specific Pharmacokinetics
+    Name
+    Intravenous Route
+    Description
+    The mean peak concentration (Cmax) of panitumumab is 213 +/- 59 mcg/mL and mean trough concentration (Cmin) is 39 +/- 14 mcg/mL. The mean AUC was 1,306 +/- 374 mcg*day/mL when administered at the recommended dose regimen. Panitumumab concentrations reached steady-state by the third infusion. When administered as a single agent, panitumumab exhibits nonlinear pharmacokinetics. Following a single-dose administration of panitumumab as a 1-hour infusion, the AUC increased in a greater than dose-proportional manner at doses below 2 mg/kg; however, at doses above 2 mg/kg, the AUC increased in an approximately dose-proportional manner.
+  Special Populations
+    Name
+    Hepatic Impairment
+    Description
+    Mild to moderate hepatic impairment (total bilirubin less than or equal to 3 times the upper limit of normal [ULN] and any AST) did not have a clinically significant effect on the pharmacokinetic parameters of panitumumab.
+    Name
+    Renal Impairment
+    Description
+    Mild to moderate renal impairment (CrCl 30 to 89 mL/min) did not have a clinically significant effect on the pharmacokinetic parameters of panitumumab.
+    Name
+    Pediatrics
+    Description
+    Panitumumab exposures were comparable in adult and adolescent patients (age, 12 to 17 years) at doses of 2.5 mg/kg IV weekly, 6 mg/kg IV every 2 weeks, or 9 mg/kg IV every 3 weeks (n = 28). Limited data suggest that pediatric patients (age, 2 to 11 years) had lower panitumumab exposure and higher clearance than in adolescent patients following administration of panitumumab 6 mg/kg IV.
+    Name
+    Geriatric
+    Description
+    Age (21 to 88 years) did not have a clinically significant effect on the pharmacokinetic parameters of panitumumab.
+    Name
+    Gender Differences
+    Description
+    Sex did not have a clinically significant effect on the pharmacokinetic parameters of panitumumab.
+    Name
+    Ethnic Differences
+    Description
+    Ethnicity (White, Black, Asian) did not have a clinically significant effect on the pharmacokinetic parameters of panitumumab.
+    Name
+    Other
+    Description
+    EGFR Membrane Staining
+EGFR membrane-staining intensity (1+, 2+, 3+) in tumor cells did not have a clinically significant effect on the pharmacokinetic parameters of panitumumab.
+  Text
+  Panitumumab is administered as an intravenous infusion. The mean clearance of panitumumab is 4.9 +/- 1.4 mL/kg per day; panitumumab clearance decreased from 30.6 to 4.6 mL/kg per day as the dose increased from 0.75 to 9 mg/kg. The elimination half-life of panitumumab is approximately 7.5 days (range, 3.6 to 10.9 days).
+ 
+Affected cytochrome P450 isoenzymes and drug transporters: None
+
+Administration
+  General Information
+  For storage information, see the specific product information within the How Supplied section.
+Emetic Risk
+Low
+Administer routine antiemetic prophylaxis prior to treatment.
+Patient Counseling
+Advise patients receiving panitumumab to wear sunscreen, hats, and limit sunlight (UV) exposure during therapy and for 2 months after the last dose, as UV exposure can exacerbate any skin reactions that may occur.
+  Route Specific Administrations
+    Administration Details
+      Name
+      Intravenous Administration
+      Description
+      For IV infusion only; do not administer as an IV push or bolus.
+Appropriate medical resources for the treatment of severe infusion reactions should be available. For individuals who experience infusion-related reactions, a prolonged infusion and observation period may be required.
+ 
+Reconstitution
+Using a 21-gauge or larger needle, withdraw the necessary amount for a dose of 6 mg/kg. Do not use needle-free devices (e.g., vial adapters) to withdraw vial contents.
+Do not shake the vial.
+ 
+Preparation
+Dilute doses of 1,000 mg or less to a total volume of 100 mL with 0.9% Sodium Chloride Injection; doses higher than 1,000 mg should be diluted to a total volume of 150 mL.
+The final concentration should not exceed 10 mg/mL.
+Mix the diluted solution by gentle inversion; do not shake.
+Storage: The diluted infusion should be used within 6 hours of preparation if stored at room temperature, or within 24 hours if stored under refrigeration (2 to 8 degrees C or 36 to 46 degrees F); do not freeze.
+ 
+Intermittent IV Infusion
+Administer via infusion pump using a low-protein binding 0.2 micron or 0.22 micron in-line filter.
+Flush line with 0.9% Sodium Chloride Injection before and after administration.
+Do not mix panitumumab with, or administer as an infusion with, other medicines or infusions.
+Dose of 1,000 mg or less: Infuse over 60 minutes through a peripheral line or indwelling IV catheter. If the first infusion is tolerated, subsequent doses may be infused over 30 to 60 minutes.
+Dose greater than 1,000 mg: Infuse over 90 minutes.
+    Name
+    Injectable Administration
+    Description
+    Visually inspect parenteral products for particulate matter and discoloration prior to administration whenever solution and container permit. Panitumumab solution should be colorless, but may contain a small amount of visible translucent-to-white, amorphous, proteinaceous particulates.
+
+Maximum Dosage Limits
+  Age Groups
+    Name
+    Adults
+    Max Dosage
+    6 mg/kg IV every 2 weeks.
+    Name
+    Geriatric
+    Max Dosage
+    6 mg/kg IV every 2 weeks.
+    Name
+    Adolescents
+    Max Dosage
+    Safety and efficacy have not been established.
+    Name
+    Children
+    Max Dosage
+    Safety and efficacy have not been established.
+    Name
+    Infants
+    Max Dosage
+    Safety and efficacy have not been established.
+
+Dosage Adjustment Guidelines
+  Hepatic Impairment
+  Specific guidelines for dosage adjustments in hepatic impairment are not available; it appears that no dosage adjustments are needed.
+  Renal Impairment
+  Specific guidelines for dosage adjustments in renal impairment are not available; it appears that no dosage adjustments are needed.

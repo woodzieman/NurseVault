@@ -13,6 +13,7 @@
 		AF95AFB43064C33500E29321 /* NurseVaultCore in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000131 /* NurseVaultCore */; };
 		AF95AFB53064C33500E29321 /* NurseVaultCore in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000131 /* NurseVaultCore */; };
 		AF9F3BB73069E5DB00E8A97A /* TestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = AF9F3BB63069E5DB00E8A97A /* TestPlan.xctestplan */; };
+		A10000000000000000000202 /* DrugInfo in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000201 /* DrugInfo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		A10000000000000000000112 /* NurseVault Watch Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NurseVault Watch Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10000000000000000000166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF9F3BB63069E5DB00E8A97A /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
+		A10000000000000000000201 /* DrugInfo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DrugInfo; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -107,6 +109,7 @@
 				A10000000000000000000107 /* Sources/Watch */,
 				A10000000000000000000108 /* Sources/Widget */,
 				A10000000000000000000167 /* Support */,
+				A10000000000000000000201 /* DrugInfo */,
 				A10000000000000000000105 /* Products */,
 			);
 			name = "=This Project=";
@@ -255,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10000000000000000000202 /* DrugInfo in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,6 +20,10 @@ The app ships with four sections and a **+** button to add unlimited more:
 
 Sections can be renamed, reordered (drag), or deleted at any time.
 
+There is also a fixed **Drug Reference** entry in the sidebar (badged with
+its count). It is not a user section — it is a read-only reference bundled
+with the app itself (see below).
+
 ## What you can store
 
 - **Files** — PDFs (in-app viewer), images (in-app viewer), text/RTF, and any
@@ -30,6 +34,19 @@ Sections can be renamed, reordered (drag), or deleted at any time.
   list) imports a whole folder as a vault folder: its files become documents
   and its subfolders are mirrored as nested vault folders. Files that are too
   large or unreadable are skipped and reported, never fatal.
+- **Bundled drug reference** — the app ships with a complete
+  [Merck Manual Professional](https://www.merckmanuals.com/professional)
+  drug dataset (2,383 drugs, ~350 MB of text in `DrugInfo/`). It lives in
+  the app **bundle**, not in the vault, so it is always present, needs no
+  importing, works offline, and is never synced to iCloud. From the
+  **Drug Reference** sidebar entry you can search by drug name, brand
+  name (instant), or by the *content* of the full prescribing information
+  (a few-second scan with a “Searching content…” indicator, showing a
+  snippet for each hit). Tap a drug for its full information — the file
+  starts with a generated nursing quick-reference summary — and share it
+  from the toolbar. The reference is read-only; for your own drug notes
+  use the regular **Drugs** section. (The watch app doesn't include the
+  dataset — it's too large for a watch app.)
 - **Notes** — pure text references (**Add → New Note**).
 - **Camera** — **Add → Take Photo** captures from the camera (iPhone,
   and iPads that have one) and stores it as a syncing image.
@@ -109,6 +126,8 @@ Sources/iOS/                Main app sources (iPhone, iPad, Mac)
   DocDetailView.swift       Preview (PDF/image/text) + editing
   ImportView.swift          File / folder / photo / note import flows
   CameraImport.swift        Camera capture + Scan & OCR (UIKit)
+  DrugReference.swift       Bundled drug reference: index + search (DrugLibrary)
+  DrugReferenceViews.swift  Drug reference list + detail views
   Assets.xcassets           App icons (iPhone, iPad, Mac)
   NurseVault.entitlements   iCloud + sandbox (main app)
 Sources/Watch/              Apple Watch app (read-only reference)
@@ -118,6 +137,9 @@ Sources/Watch/              Apple Watch app (read-only reference)
 Sources/Widget/             Watch complication (widget extension)
   NurseVaultComplication.swift  Circular/corner/inline/rectangular faces
   WatchWidget.entitlements  App Group (widget data sharing)
+DrugInfo/                 Bundled drug reference data (one folder per drug:
+                          `names.txt` + `drug-information.txt`); copied into
+                          the app bundle as a folder reference
 Support/
   Info.plist                Info.plist for the widget extension
 Packages/NurseVaultCore/    Shared Swift package:

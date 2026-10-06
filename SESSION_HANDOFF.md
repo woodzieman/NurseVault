@@ -1,5 +1,53 @@
 # Session handoff — Nurse Vault → TestFlight alpha
 
+## STATUS (2026-10-06) — drug reference BUNDLED in the app (no more folder-import pain)
+
+- **User problem:** the 353 MB “Drug info” folder (2,383 drug folders,
+  each `names.txt` + `drug-information.txt`) never imported reliably via the
+  folder picker. User asked to just include the folder in the app itself.
+- **What shipped:** the whole dataset is now a `DrugInfo/` folder resource
+  at the repo root, copied into the NurseVault.app bundle as a **classic
+  folder reference** (NOT via the Xcode 16 sync group: sync groups flatten
+  subfolder structure, which would collide the 2,383 identically named
+  `drug-information.txt` files at the bundle root — verified empirically).
+  New sidebar entry **Drug Reference** (read-only, not a vault section):
+  - index of all 2,383 drugs built in the background on first launch
+    (drug name + brands parsed from `names.txt`), ~2 s;
+  - search by name/brand (instant) or by full prescribing-info content
+    (4-worker parallel scan of the bundled files: fold-once + plain
+    substring, benchmarked 16 s → 2 s; 300 ms debounce; per-keystroke
+    cancellation; “Searching content…” row; per-hit snippet);
+  - tap → full Merck Manual file (143 KB–920 KB) with a Share button;
+    decoded text cached (100 most recent) to keep re-opens instant.
+- **Why not import into Core Data:** the CloudKit container syncs the
+  *whole* store — 353 MB would sync to every device (incl. the watch,
+  which shares the same private DB) on every install. Bundling it keeps
+  it local, read-only, and out of the vault entirely.
+- **Files:** `Sources/iOS/DrugReference.swift` (`DrugLibrary` +
+  `DrugEntry`/`DrugSearchHit`), `Sources/iOS/DrugReferenceViews.swift`,
+  `RootView.swift` (sidebar entry + content column), `NurseVaultApp.swift`
+  (environment injection + `loadIfNeeded()`), `project.pbxproj`
+  (folder reference + Resources build file, IDs …201/…202; iOS target
+  only — the watch app does NOT get the dataset), `DrugInfo/` (data,
+  352 MB, untracked-safe: only .DS_Store ignored).
+- **Verified:** unsigned macOS + iOS-sim builds succeed; bundle contains
+  the complete 352 MB / 2,383-folder / 4,766-file tree, byte-identical to
+  the source; CLI harness against the real data: 2,383 entries, nameHits
+  “amoxicillin”=7 in 10 ms, contentHits=803 in 2.0 s, “hepatitis”=796 in
+  2.2 s, content read instant; app launches in the iOS 27 simulator.
+  UI taps NOT verified — Xcode 27 on this Mac ships **no Simulator.app**
+  (headless sim only), so the user should sanity-check the new sidebar
+  entry in TestFlight.
+- **Size:** installed app grows by ~350 MB; the IPA payload grows much
+  less (text compresses well, roughly +60–100 MB). App Store size on the
+  download page will show the compressed number.
+- Also committed: the previously uncommitted 1 GB *total* folder-import
+  limit + `importFile` scoping comment (large-folder guard for user
+  imports, complementary to the bundled reference).
+- Next: user tests build (sidebar → Drug Reference → search), then submit
+  v2.x for review if happy. If the DrugInfo data is ever refreshed, re-copy
+  the folder and rebuild — nothing else needs to change.
+
 ## STATUS (2026-10-05) — first-launch CRASH root-caused & fixed, build 6 on TestFlight
 
 - **The "doesn't launch on real device" bug — SOLVED.** User's TestFlight crash log
