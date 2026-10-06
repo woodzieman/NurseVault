@@ -30,12 +30,16 @@ struct DrugReferenceView: View {
             .overlay { emptyState }
             .searchable(text: $searchText, prompt: "Name, brand, or content")
             .navigationTitle("Drug Reference")
-            .navigationDestination(for: DrugEntry.self) { entry in
-                DrugDetailView(entry: entry)
-            }
             .task(id: searchText) {
                 await runContentSearch()
             }
+        }
+        // Move navigationDestination to the outer NavigationStack so
+        // NavigationSplitView's own navigationDestination on the parent
+        // content: doesn't intercept it — keeping the drug reference
+        // navigation self-contained with no blank transitional page.
+        .navigationDestination(for: DrugEntry.self) { entry in
+            DrugDetailView(entry: entry)
         }
     }
 
@@ -92,25 +96,22 @@ struct DrugReferenceView: View {
                 systemImage: "cross.case",
                 description: Text("The bundled drug information wasn't found in this app.")
             )
-        } else if query.isEmpty, drugs.isLoading, drugs.entries.isEmpty {
+        } else if query.isEmpty, drugs.isLoading, visibleHits.isEmpty {
             VStack(spacing: 12) {
                 ProgressView()
                 Text("Loading drug reference…")
                     .font(.callout)
                     .foregroundStyle(.secondary)
             }
-        } else if query.isEmpty {
+        } else if visibleHits.isEmpty {
             ContentUnavailableView(
-                "No Drugs",
-                systemImage: "pills",
-                description: Text("The bundled reference is empty.")
-            )
-        } else if !isScanning {
-            ContentUnavailableView(
-                "No Matches",
-                systemImage: "magnifyingglass",
-                description: Text("Nothing in the reference matches “\(query)”.")
-            )
+                query.isEmpty ? "No Drugs" : "No Matches",
+                systemImage: query.isEmpty ? "pills" : "magnifyingglass",
+                description: Text(
+                    query.isEmpty
+                        ? "The bundled reference is empty."
+                        : "Nothing in the reference matches “\(query)”.")
+                )
         }
     }
 }
@@ -159,23 +160,74 @@ struct DrugDetailView: View {
     @Environment(DrugLibrary.self) private var drugs
     let entry: DrugEntry
 
-    @State private var content: String?
+    @State private var parsed: DrugInfoParsed?
     @State private var didLoad = false
 
     var body: some View {
         ScrollView {
-            if let content {
-                Text(content)
-                    .textSelection(.enabled)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-            } else if !entry.hasInfo {
-                ContentUnavailableView(
-                    "No Information",
-                    systemImage: "doc.questionmark",
-                    description: Text("This drug doesn't have an information file.")
-                )
-                .padding()
-            } else if !didLoad {
+            if didLoad {
+                if let parsed {
+                    VStack(alignment: .leading, spacing: 20) {
+                        // Summary Section
+                        if !parsed.summary.isEmpty {
+                            VStack(alignment: .leading, spacing: 8) {
+                                Text("Quick Reference Summary")
+                                    .font(.headline)
+                                    .foregroundStyle(.secondary)
+
+                                ForEach(parsed.summary.sorted(by: { $0.key < $1.key }), id: \.key) { key, value in
+                                    HStack(alignment: .top) {
+                                        Text("\(key):")
+                                            .fontWeight(.medium)
+                                            .frame(width: 120, alignment: .leading)
+                                        Text(value)
+                                    }
+                                }
+                            }
+                            .padding()
+                            .background(Color.secondary.opacity(0.1))
+                            .cornerRadius(8)
+                        }
+
+                        // Detailed Sections
+                        if !parsed.sections.isEmpty {
+                            VStack(alignment: .leading, spacing: 12) {
+                                ForEach(parsed.sections) { section in
+                                    DisclosureGroup(section.title) {
+                                        Text(section.content)
+                                            .textSelection(.enabled)
+                                            .frame(maxWidth: .infinity, alignment: .leading)
+                                            .padding(.vertical, 4)
+                                    }
+                                    .padding(.vertical, 2)
+                                }
+                            }
+                        } else if parsed.summary.isEmpty {
+                           ContentUnavailableView(
+                                "No Detailed Information",
+                                systemImage: "doc.questionmark",
+                                description: Text("Information for this drug is unavailable.")
+                            )
+                        }
+                    }
+                } else if !entry.hasInfo {
+                    ContentUnavailableView(
+                        "No Information",
+                        systemImage: "doc.questionmark",
+                        description: Text("This drug doesn't have an information file.")
+                    )
+                    .padding()
+                } else {
+                    ContentUnavailableView(
+                        "Unable to Load",
+                        systemImage: "doc.badge.exclamationmark",
+                        description: Text(
+                            "The drug information file exists but could not be read."
+                        )
+                    )
+                    .padding()
+                }
+            } else {
                 ProgressView("Loading…")
                     .padding()
             }
@@ -184,16 +236,31 @@ struct DrugDetailView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
         .navigationTitle(entry.drugName)
         .toolbar {
-            if let content {
-                ShareLink(item: content) {
+            if let parsed, let summaryText = Self.shareText(from: parsed) {
+                ShareLink(item: summaryText) {
                     Label("Share", systemImage: "square.and.arrow.up")
                 }
             }
         }
         .task {
-            guard !didLoad else { return }
-            content = await drugs.content(for: entry)
+            parsed = await drugs.detailedContent(for: entry)
             didLoad = true
         }
+    }
+
+    /// Builds a shareable text representation of the drug info.
+    static func shareText(from parsed: DrugInfoParsed) -> String? {
+        var text = ""
+        if !parsed.summary.isEmpty {
+            text += "Quick Reference Summary\n\n"
+            for (key, value) in parsed.summary.sorted(by: { $0.key < $1.key }) {
+                text += "\(key): \(value)\n"
+            }
+            text += "\n"
+        }
+        for section in parsed.sections {
+            text += "\(section.title)\n\(section.content)\n\n"
+        }
+        return text.isEmpty ? nil : text
     }
 }

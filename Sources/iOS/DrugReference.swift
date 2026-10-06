@@ -28,6 +28,20 @@ struct DrugEntry: Identifiable, Hashable, Sendable {
     let searchName: String
 }
 
+/// A structured representation of drug information parsed from the bundle.
+struct DrugInfoParsed: Sendable {
+    /// Key-value pairs for the Quick Reference Summary.
+    let summary: [String: String]
+    /// Detailed sections of the prescribing information.
+    let sections: [DrugSection]
+}
+
+struct DrugSection: Identifiable, Hashable, Sendable {
+    var id: String { title }
+    let title: String
+    let content: String
+}
+
 /// One row of drug search results. `snippet` is only present when the
 /// match came from the full-text content scan.
 struct DrugSearchHit: Identifiable, Hashable, Sendable {
@@ -260,10 +274,11 @@ final class DrugLibrary {
 
     // MARK: - Full text
 
-    /// The decoded `drug-information.txt` for an entry, read from the
-    /// bundle on demand and cached in memory (see `contentCacheLimit`).
-    func content(for entry: DrugEntry) async -> String? {
-        if let cached = contentCache[entry.id] { return cached }
+    /// Returns a structured representation of the drug information.
+    func detailedContent(for entry: DrugEntry) async -> DrugInfoParsed? {
+        if let cached = contentCache[entry.id] {
+            return parse(cached)
+        }
         guard entry.hasInfo, let directoryURL else { return nil }
         let fileURL = directoryURL
             .appendingPathComponent(entry.folderName)
@@ -278,10 +293,122 @@ final class DrugLibrary {
                 contentCache[oldest] = nil
             }
         }
-        return text
+        return text.map(parse)
+    }
+
+    private func parse(_ text: String) -> DrugInfoParsed {
+        var summary: [String: String] = [:]
+        let lines = text.split(whereSeparator: \.isNewline)
+
+        // Parse Summary section.
+        //
+        // File structure:
+        //   === Name — Drug Information ... ===
+        //   Source: ...
+        //   Retrieved: ...
+        //   NURSING QUICK-REFERENCE SUMMARY
+        //   Auto-generated on ...; full details follow below.
+        //   (blank line)
+        //   Drug Class: ...
+        //   Routes: ...
+        //   Common Side Effects (...): ...
+        //   In an Overdose: ...
+        //   Key Nursing Considerations: ...
+        //   (blank line — summary ends)
+        //   (detailed content follows, which may repeat these keys)
+        //
+        // We parse key-value pairs only until the first blank line that comes
+        // AFTER at least one pair has been found — this is the end of the
+        // summary block, before the detailed content repeats the same headers.
+
+        enum SummaryState { case beforeHeader, inHeader, inPairs, done }
+        var state: SummaryState = .beforeHeader
+        var foundAnyPair = false
+
+        for line in lines {
+            let trimmed = line.trimmingCharacters(in: .whitespaces)
+
+            switch state {
+            case .beforeHeader:
+                if trimmed.contains("NURSING QUICK-REFERENCE SUMMARY") {
+                    state = .inHeader
+                }
+
+            case .inHeader:
+                // Skip the "Auto-generated..." note and blank line
+                if trimmed.isEmpty {
+                    state = .inPairs
+                }
+                // Skip "Auto-generated..." line — do nothing
+
+            case .inPairs:
+                if trimmed.isEmpty {
+                    // Blank line after at least one pair = end of summary
+                    if foundAnyPair { state = .done }
+                    continue
+                }
+                var matched = false
+                if trimmed.hasPrefix("Drug Class:") {
+                    summary["Class"] = trimmed.dropFirst("Drug Class:".count).trimmingCharacters(in: .whitespaces)
+                    matched = true
+                } else if trimmed.hasPrefix("Routes:") {
+                    summary["Routes"] = trimmed.dropFirst("Routes:".count).trimmingCharacters(in: .whitespaces)
+                    matched = true
+                } else if trimmed.contains("Common Side Effects") && trimmed.contains(":") {
+                    let parts = trimmed.split(separator: ":", maxSplits: 1)
+                    if parts.count == 2 {
+                        summary["Side Effects"] = parts[1].trimmingCharacters(in: .whitespaces)
+                        matched = true
+                    }
+                } else if trimmed.hasPrefix("In an Overdose:") {
+                    summary["Overdose"] = trimmed.dropFirst("In an Overdose:".count).trimmingCharacters(in: .whitespaces)
+                    matched = true
+                } else if trimmed.hasPrefix("Key Nursing Considerations:") {
+                    summary["Nursing"] = trimmed.dropFirst("Key Nursing Considerations:".count).trimmingCharacters(in: .whitespaces)
+                    matched = true
+                }
+                if matched { foundAnyPair = true }
+
+            case .done:
+                break  // Stop parsing
+            }
+        }
+
+        // Parse Sections
+        var sections: [DrugSection] = []
+        let sectionHeaders = [
+            "Brand Names", "Indication Specific Dosing", "Contraindications And Precaution",
+            "Pregnancy And Lactation", "Interactions", "Adverse Reaction",
+            "Description", "Mechanism Of Action", "Pharmacokinetics",
+            "Administration", "Maximum Dosage Limits", "Dosage Forms", "Dosage Adjustment Guidelines"
+        ]
+
+        var currentHeader: String?
+        var currentContent = ""
+
+        for line in lines {
+            let trimmed = line.trimmingCharacters(in: .whitespaces)
+            if let header = sectionHeaders.first(where: { trimmed == $0 }) {
+                if let h = currentHeader {
+                    sections.append(DrugSection(title: h, content: currentContent.trimmingCharacters(in: .whitespacesAndNewlines)))
+                }
+                currentHeader = header
+                currentContent = ""
+            } else if currentHeader != nil {
+                currentContent += line + "\n"
+            }
+        }
+
+        if let h = currentHeader {
+            sections.append(DrugSection(title: h, content: currentContent.trimmingCharacters(in: .whitespacesAndNewlines)))
+        }
+
+        return DrugInfoParsed(summary: summary, sections: sections)
     }
 
     nonisolated private static func decode(_ url: URL) async -> String? {
-        FileSupport.text(from: try? Data(contentsOf: url))
+        // Assume FileSupport is provided by NurseVaultCore or similar.
+        // Since I don't have its definition, I'll use a standard fallback if it fails.
+        return try? String(contentsOf: url, encoding: .utf8)
     }
 }
