@@ -44,9 +44,24 @@
 - Also committed: the previously uncommitted 1 GB *total* folder-import
   limit + `importFile` scoping comment (large-folder guard for user
   imports, complementary to the bundled reference).
-- Next: user tests build (sidebar → Drug Reference → search), then submit
-  v2.x for review if happy. If the DrugInfo data is ever refreshed, re-copy
-  the folder and rebuild — nothing else needs to change.
+- **Build 8 (2.4/8) is on ASC/TestFlight** — archived + uploaded via
+  `fastlane upload` (IPA 55.8 MB compressed, verified to contain the full
+  7,150-entry DrugInfo tree). Note: build **7 had already been uploaded to
+  ASC on 10/05 13:35** (post-handoff activity — the first upload attempt
+  was rejected with "bundle version must be higher"), so the new build is 8.
+  User should update in TestFlight and check: sidebar → **Drug Reference**
+  → search (name/brand instant; content scan a few seconds) → tap a drug.
+  Then submit v2.x for review if happy. If the DrugInfo data is ever
+  refreshed, re-copy the folder and rebuild — nothing else needs to change.
+- **fastlane 2.240 / spaceship quirk (future sessions):** the bundled
+  spaceship's `get_builds(filter:)` model layer throws
+  `Spaceship::UnexpectedResponse`, and `appStoreVersions/{id}/builds`
+  is a 404 PATH_ERROR in the current ASC API — use `curl` with a JWT
+  (`Token.create(...).text` → Bearer header) against `/v1/builds?filter%5Bapp%5D={id}`
+  and the version's singular `/build` relationship instead. JWTs expire in
+  ~8 min; the `check_builds` one-off action used for this is deleted.
+  Also: ASC app record 6816576078 contains a stale **1.0 MAC_OS** version
+  (v0.1 era) alongside the iOS 2.4 — harmless, but don't be surprised.
 
 ## STATUS (2026-10-05) — first-launch CRASH root-caused & fixed, build 6 on TestFlight
 
