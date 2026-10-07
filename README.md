@@ -7,6 +7,19 @@ securely across all of your devices via **iCloud (CloudKit private database)**.
 No third-party servers, no accounts, no subscriptions. Your data is only ever
 accessible by your own Apple ID.
 
+> 🌐 **Landing page & privacy policy:**
+> [woodzieman.github.io/NurseVault](https://woodzieman.github.io/NurseVault)
+> · [Privacy Policy](site/privacy.html)
+
+## Quick start (for visitors)
+
+1. **View the app's landing page** at [woodzieman.github.io/NurseVault](https://woodzieman.github.io/NurseVault).
+2. **Read the privacy policy** at the link above — it states: *we collect zero data.*
+3. **Install from the App Store** (search "Nurse Vault") or build from source
+   (see below).
+
+---
+
 ## Main menu sections
 
 The app ships with four sections and a **+** button to add unlimited more:
@@ -115,6 +128,38 @@ If you eventually want the app in the App Store, create an app record in
 **Product → Archive** for each target and distribute. No repositories or
 external services are required — the CloudKit container is created
 automatically in your CloudKit dashboard when you sign.
+
+## Drug Reference data format
+
+The bundled `DrugInfo/` dataset contains 2,383 drugs, one folder per drug with
+`names.txt` and `drug-information.txt`. Two source formats are present:
+
+* **Elsevier full-text** – classic folder reference with a table-of-contents list,
+  a "Drug Information Provided by Elsevier" disclaimer, and then the real sections.
+  Section headers are singular e.g. `Contraindications And Precaution`, `Adverse Reaction`.
+* **Merck-native** – indented list style with no Elsevier disclaimer. Section headers
+  are often plural e.g. `Contraindications And Precautions`, `Adverse Reactions`, and
+  the file starts directly with `Brand Names`, `Dosage Forms`, `Indication Specific Dosing`
+  after the nursing quick-reference summary.
+
+For both formats the app normalises headers case-insensitively and maps plural
+variants to the canonical singular names used in the UI. The parser skips empty
+TOC entries, deduplicates by title, and shows a placeholder when a section has no
+content.
+
+### Nursing Quick-Reference Summary block
+
+All `drug-information.txt` files are expected to contain a compact
+`NURSING QUICK-REFERENCE SUMMARY` block right after the file header. The block is
+generated once per drug and contains only where present in the file body:
+
+* **Drug Class** — extracted from the Description section (~100% of files)
+* **Routes of Administration + Common Adult Doses** — derived from dosage forms / maximum dosage limits (~98%)
+* **Common Side Effects (excluding routine GI upset)** — adverse-reaction terms with nausea/vomiting/diarrhea-type entries filtered out (~95%)
+* **In an Overdose** — antidote/management info where mentioned. 415 files have real overdose content; the rest are explicitly labeled "No overdose/antidote information is listed in this file". No dedicated overdose section exists in the source.
+* **Key Nursing Considerations** — contraindications/precautions, patient counseling, plus emetic risk, extravasation risk, and hazardous-drug (NIOSH) flags where those sections exist
+
+Nothing else is touched; a full integrity check confirms each modified file is byte-for-byte the original content with only the new block inserted, and `names.txt` files are left alone.
 
 ## Project layout
 
