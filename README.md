@@ -300,20 +300,41 @@ Notes:
 - Everything is encrypted in transit and at rest by iCloud; data stays on
   Apple's servers, never third parties.
 
-## Watch storage notes (2026-10-09)
+## Watch full reference (2026-10-09, build 47)
 
-The watch app keeps a small searchable index for quick reference:
-- **Drug Reference** — pipe-delimited `WatchDrugIndex.txt` (~0.4 MB, 2,383
-  drugs). Each line is `generic|brand1|brand2|summary`: the generic name, the
-  two most-used brand names, and the nursing drug-class line. Combination
-  (hyphenated) drugs stay whole — each has its own brands and dosing.
-- **Merck Manual** — zlib-compressed pipe-delimited
-  `WatchMerckIndex.txt.zlib` (~0.1 MB, 2,834 topics). Each line is
-  `id|title|specialty|subspecialty|summary`; decompressed at runtime.
-Full prescribing information and full Merck texts remain on iPhone/Mac only.
-The indices are generated from `scripts/build_drug_guide_watch.py` and
-`scripts/build_merck_watch_index.py` and bundled via `NurseVaultCore`.
+The watch now ships the **complete** drug + Merck reference and is fully
+self-contained — no sync of reference data, so the sync-flood OOM class is
+gone by construction. A one-time ~46 MB download with the app is the only
+cost; afterwards it works offline forever.
 
-Build note: `Data.decompressed(using:)` is unavailable to the Swift 6.4 / SDK
-27 toolchain, so the Merck index decompresses via `NSData.decompressed(using:)
-.zlib` instead.
+How it fits on the watch:
+- **Content** — every drug's full prescribing text and every Merck article,
+  individually brotli-compressed (quality 11) and concatenated into one blob
+  per dataset, each entry prefixed with its 8-byte uncompressed size:
+  `Sources/Watch/Resources/WatchReference/{drugs,merck}.content`
+  (355 MB raw → 35 MB, 29 MB raw → 9 MB).
+- **Index** — a few hundred KB of plain-text pipe lines
+  (`title|preview|startByte|endByte|extra`), loaded into RAM at launch.
+  It drives the paged (~25/page) browse list, "Show more", and search — the
+  list and search never touch the content.
+- **On select** — the app opens the blob, seeks to that one entry's byte
+  range, reads just that span, inflates it, and renders it scrollable.
+  RAM stays bounded (largest entry ≈ 863 KB); the rest of the ~44 MB blob
+  never enters memory.
+
+Regenerate after any `MerckTopics/` / `DrugInfo/` refresh:
+`python3 scripts/build_watch_reference.py all` (needs the `brotli` Python
+package), then rebuild.
+
+Compression build note (Swift 6.4 / SDK 27 toolchain): the Compression
+framework has no importable Swift surface, `NSCompression`'s zlib path fails
+at runtime (NSCocoaError 5377), and libcompression's zlib decode silently
+passes its input through. The watch therefore decodes via the
+`CompressionCompat` C shim (libcompression `COMPRESSION_BROTLI`) — the one
+path verified to round-trip, including on the watchOS 27 simulator. The
+index is plain text so loading it never depends on the inflate path.
+
+The older compact package indices (`WatchDrugIndex.txt`,
+`WatchMerckIndex.txt.zlib` in `NurseVaultCore`) still bundle for the legacy
+`WatchDrugLibrary` / `WatchMerckLibrary` code, but the watch UI no longer
+uses them.

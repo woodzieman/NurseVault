@@ -111,21 +111,43 @@
   - Merck kept **out of the vault** (no watch flood); Merck detail scroll fix +
     robust watch index loading retained.
 
+## Completed (2026-10-09, build 47)
+
+- [x] Watch full reference: bundled content + index + lazy load (supersedes the
+  “small index, full text on iPhone” strategy)
+  - Decision: the watch ships the COMPLETE reference, self-contained, no sync
+    (music-app model, taken to its conclusion: a one-time ~46 MB download is
+    fine on a 16–32 GB watch; a slow first launch is OK).
+  - `scripts/build_watch_reference.py`: per-entry **brotli** (q11) content with
+    an 8-byte size prefix — drugs 355 MB raw → 35 MB (90% smaller),
+    Merck 29 MB → 9 MB (69%); plain-text pipe index
+    (`title|preview|startByte|endByte|extra`), 300 + 464 KB; round-trip
+    verified.
+  - `Sources/Watch/WatchReferenceStore.swift`: ~700 KB index in RAM drives the
+    paged (25/page) list + “Show more” + search; on select: seek → read span →
+    inflate → scrollable full text. RAM bounded (largest entry ≈ 863 KB).
+  - `WatchDrugReference` / `WatchMerckReference` rewritten on the store;
+    previews now use the real drug-class line (header/skip rules fixed).
+  - `CompressionCompat` C shim (libcompression `COMPRESSION_BROTLI`) +
+    `Data.inflatingNV()`. **SDK 27 findings:** Compression framework has no
+    importable Swift surface; `NSCompression` zlib fails at runtime
+    (NSCocoaError 5377); libcompression zlib decode silently passes input
+    through; brotli is the one verified decode path (tested on the watchOS 27
+    simulator + the built bundle).
+  - Version 4.1 / build 47; `fastlane upload` running.
+
 ## In Progress / Next
 
-- [ ] On-device verify build 46 (phone Merck tab + drug ref; watch stable after sync)
-- [ ] On-device verify build 43
-  - iPhone: Merck Manual detail shows the full article + scrolls
-  - Watch: after sync, home + sections + Drug/Merck references stay responsive
-    (Merck no longer floods via CloudKit)
-  - Drug reference detail populates; search returns results
-- [ ] Decide Merck full-content delivery for the “other data” (music-app model):
-  keep the bundled index on watch + full text on demand (see compression report)
+- [ ] **On-device verify build 47** (the big one)
+  - Watch: Drug Reference + Merck Manual browse (25/page, show more),
+    search returns results, tap → full text renders + scrolls,
+    biggest drug (Darunavir combo, 863 KB) renders without a crash,
+    watch stays stable across the whole session
+  - iPhone: unchanged behavior (46 baseline) still good
+- [ ] On-device verify build 46 if 47 regresses anything
 - [ ] Core Data expert + cleanse pass on `Library.swift` / `Search.swift`
   - Flatten `importDirectory`, surface save errors, tidy `@MainActor Task` wrappers
-- [ ] Final polish & App Store prep
-  - Run cleanse pass, kick off archive/export, deliver IPA for on-device test
-  - Proceed with fastlane upload when the user approves
+- [ ] Final polish & App Store prep (metadata, screenshots) when the user approves
 
 ## Notes
 
@@ -133,4 +155,7 @@
   - Uses API key `Y9YADVN9Z2`, builds and uploads to App Store Connect
   - Read `fastlane/README.md` for usage
 - Build cadence: new IPA every 2-3 hours until 80% polished
-- Watch storage strategy: small compressed indices for search, full content stays on iPhone/Mac
+- Watch reference strategy (build 47): full content ON the watch (brotli blob,
+  ~45 MB) + plain-text index in RAM + per-entry seek/inflate on select.
+  Regenerate data: `python3 scripts/build_watch_reference.py all` (needs the
+  Python `brotli` package).
