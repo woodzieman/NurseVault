@@ -20,10 +20,19 @@ struct WatchDrugReferenceView: View {
                     .autocorrectionDisabled()
             }
 
-            if query.isEmpty {
+            if library.isMissing {
                 Section {
                     Label(
-                        "Search to look up a drug. Shows class, doses, side effects, and key nursing points.",
+                        "The drug index isn't available on this watch yet.",
+                        systemImage: "exclamationmark.triangle"
+                    )
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                }
+            } else if query.isEmpty {
+                Section {
+                    Label(
+                        "Search a drug or brand. \(library.entries.count) drugs loaded.",
                         systemImage: "pills"
                     )
                     .font(.caption)

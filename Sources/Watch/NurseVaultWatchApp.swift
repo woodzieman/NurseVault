@@ -180,10 +180,15 @@ struct WatchSearchView: View {
         }
         .overlay {
             if visibleDocs.isEmpty && !searchText.isEmpty {
+                let noneSynced = library.watchDocs.isEmpty
                 ContentUnavailableView(
-                    "No Matches",
-                    systemImage: "magnifyingglass",
-                    description: Text("Nothing matches “\(searchText)”. Try different keywords.")
+                    noneSynced ? "No Documents Yet" : "No Matches",
+                    systemImage: noneSynced ? "icloud.slash" : "magnifyingglass",
+                    description: Text(
+                        noneSynced
+                            ? "Nothing is synced to this watch yet. Add documents on your iPhone, then let it sync."
+                            : "Nothing matches “\(searchText)”. Try different keywords."
+                    )
                 )
             }
         }

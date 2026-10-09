@@ -57,8 +57,10 @@ public final class WatchDrugLibrary {
             isLoading = false
             if built.isEmpty {
                 isMissing = true
+                NSLog("NurseVault (watch drug): index loaded 0 entries — resource unavailable; search will return nothing.")
             } else {
                 entries = built
+                NSLog("NurseVault (watch drug): index loaded \(built.count) drugs.")
             }
         }
     }
@@ -74,9 +76,12 @@ public final class WatchDrugLibrary {
     /// keep `omittingEmptySubsequences: false` so that empty slot survives.
     nonisolated private static func build() async -> [WatchDrugEntry] {
         guard
-            let url = Bundle.module.url(forResource: "WatchDrugIndex", withExtension: "txt"),
+            let url = WatchIndexBundle.indexURL(base: "WatchDrugIndex", ext: "txt"),
             let content = try? String(contentsOf: url, encoding: .utf8)
-        else { return [] }
+        else {
+            NSLog("NurseVault (watch drug): could not locate WatchDrugIndex.txt in any bundle.")
+            return []
+        }
 
         var entries: [WatchDrugEntry] = []
         for line in content.split(separator: "\n", omittingEmptySubsequences: true) {

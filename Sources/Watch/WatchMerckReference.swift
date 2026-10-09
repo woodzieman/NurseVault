@@ -17,9 +17,18 @@ struct WatchMerckReferenceView: View {
                     .autocorrectionDisabled()
             }
 
-            if query.isEmpty {
+            if library.isMissing {
                 Section {
-                    Label("Search Merck Manual topics by title or specialty.", systemImage: "book")
+                    Label(
+                        "The Merck index isn't available on this watch yet.",
+                        systemImage: "exclamationmark.triangle"
+                    )
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                }
+            } else if query.isEmpty {
+                Section {
+                    Label("Search topics by title or specialty. \(library.entries.count) topics loaded.", systemImage: "book")
                         .font(.caption)
                         .foregroundStyle(.secondary)
                 }
