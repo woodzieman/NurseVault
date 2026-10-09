@@ -98,8 +98,22 @@
     watch self-heals locally even if the CloudKit deletion hasn’t propagated yet.
     Reads only the light section name per doc (never `noteText`/`fileData`).
 
+## Decision (2026-10-09): "42, made stable" — stop the churn
+
+- User: "build 42 is the best so far, bring it back to that version."
+- Critical-reasoning: a *literal* revert to 42 re-breaks the watch after a sync
+  (42 had the Merck Manual imported into the vault → ~2,834 docs sync to the
+  watch → OOM) and re-breaks Merck scroll. So we do NOT do a pure revert.
+- Instead, build 46 = 42's good parts, stable:
+  - Merck Manual restored as a **browsable sidebar reference tab** (bundled
+    `MerckTopicLibrary`) — the browse-and-read experience the user liked, but it
+    never syncs to iCloud, so the watch stays stable.
+  - Merck kept **out of the vault** (no watch flood); Merck detail scroll fix +
+    robust watch index loading retained.
+
 ## In Progress / Next
 
+- [ ] On-device verify build 46 (phone Merck tab + drug ref; watch stable after sync)
 - [ ] On-device verify build 43
   - iPhone: Merck Manual detail shows the full article + scrolls
   - Watch: after sync, home + sections + Drug/Merck references stay responsive
