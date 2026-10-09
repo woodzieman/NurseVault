@@ -56,6 +56,10 @@ struct RootView: View {
                     .badge(drugLibrary.entries.count)
                     .tag(SidebarItem.drugReference)
 
+                Label("Merck Manual", systemImage: "book")
+                    .badge(merckLibrary.entries.count)
+                    .tag(SidebarItem.merckManual)
+
                 ForEach(library.sections, id: \.self) { section in
                     Label(section.name ?? "Untitled", systemImage: section.icon ?? "folder")
                         .badge(library.docs(in: section).count)
