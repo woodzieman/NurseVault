@@ -1,0 +1,198 @@
+=== Overview of the Endocrine System (Merck Manual Professional) ===
+Section: Endocrinology > Principles of Endocrinology
+Source: https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/principles-of-endocrinology/overview-of-the-endocrine-system
+Retrieved: 2026-09-25
+
+The endocrine system coordinates functioning between different organs through hormones, which are chemicals released into the bloodstream from specific types of cells within endocrine (ductless) glands. Once in circulation, hormones affect function of the target tissues, which may be another endocrine gland or an end organ. Some hormones exert an effect on cells of the organ from which they were released (paracrine effect), some even on the same cell type (autocrine effect).
+
+Hormones can be
+
+Peptides (one or more amino acids linked by chemical bonds) of various sizes
+
+Steroids (derived from cholesterol)
+
+Amino acid derivatives
+
+Hormones bind selectively to receptors located inside or on the surface of target cells. Receptors inside cells interact with hormones that regulate gene function (eg, corticosteroids, vitamin D, thyroid hormone). Receptors on the cell surface bind with hormones that regulate enzyme activity or affect ion channels (eg, growth hormone, thyrotropin-releasing hormone).
+
+Endocrine disorders result from disruptions of the endocrine glands and/or their target tissues.
+
+The Pituitary and Its Target Organs
+
+Female Endocrine System
+
+3D Model
+
+Male Endocrine System
+
+3D Model
+
+Hypothalamic-Pituitary Relationships
+
+Peripheral endocrine organ functions are controlled to varying degrees by pituitary hormones. Some functions (eg, secretion of insulin by the pancreas, primarily controlled by the blood glucose level) are controlled to a minimal extent or are independent of pituitary control (eg, secretion of by the parathyroid glands, primarily in response to blood calcium levels), whereas many (eg, secretion of thyroid or gonadal hormones) are controlled to a great extent. Secretion of pituitary hormones is controlled by the hypothalamus.
+
+The interaction between the hypothalamus and the pituitary (called the hypothalamic-pituitary axis) is a feedback control system. The hypothalamus receives input from virtually all other areas of the central nervous system and uses it to provide input to the pituitary. In response, the pituitary releases various hormones that stimulate certain endocrine glands throughout the body. Changes in circulating levels of hormones produced by these endocrine glands are detected by the hypothalamus, which then increases or decreases its stimulation of the pituitary to maintain homeostasis.
+
+The hypothalamus modulates the activities of the anterior and posterior lobes of the pituitary in different ways. Neurohormones synthesized in the hypothalamus reach the anterior pituitary (adenohypophysis) through a specialized portal vascular system and regulate synthesis and release of the 6 major peptide hormones of the anterior pituitary (see figure The Pituitary and Its Target Organs). These anterior pituitary hormones regulate peripheral endocrine glands (the thyroid, adrenals, and gonads) as well as growth and lactation. No direct neural connection exists between the hypothalamus and the anterior pituitary.
+
+In contrast, the posterior pituitary (neurohypophysis) comprises axons originating from neuronal cell bodies located in the hypothalamus. These axons serve as storage sites for 2 peptide hormones, vasopressin (antidiuretic hormone) and oxytocin, synthesized in the hypothalamus; these hormones act in the periphery to regulate water balance, milk ejection, and uterine contraction.
+
+Virtually all hormones produced by the hypothalamus and the pituitary are released in a pulsatile fashion; periods of such release are interspersed with periods of inactivity. Some hormones (eg, adrenocorticotropic hormone [ACTH], growth hormone, prolactin) have definite circadian rhythms; others (eg, luteinizing hormone and follicle-stimulating hormone during the menstrual cycle) have month-long rhythms with superimposed circadian rhythms.
+
+Table
+
+Hypothalamic Neurohormones
+
+Table
+
+Hypothalamic Neurohormones
+
+Hypothalamic Neurohormones
+
+Neurohormone
+
+Anterior Pituitary Hormones Affected
+
+Effect
+
+Corticotropin-releasing hormone
+
+ACTH
+
+Stimulate
+
+Dopamine
+
+Prolactin
+
+LH
+
+FSH
+
+TSH
+
+Inhibit
+
+Inhibit
+
+Inhibit
+
+Inhibit
+
+Gonadotropin-releasing hormone
+
+LH
+
+FSH
+
+Stimulate*
+
+Stimulate*
+
+Growth hormone–releasing hormone
+
+GH
+
+Stimulate
+
+Prolactin-releasing hormone
+
+Prolactin
+
+Stimulate
+
+Somatostatin
+
+GH
+
+TSH
+
+Inhibit
+
+Inhibit
+
+Thyrotropin-releasing hormone
+
+TSH
+
+Prolactin
+
+Stimulate
+
+Stimulate
+
+* Under physiologic conditions and when administered exogenously in intermittent pulses. Continuous infusion inhibits the release of LH and FSH.
+
+ACTH = adrenocorticotropic hormone (corticotropin); FSH = follicle-stimulating hormone; GH = growth hormone; LH = luteinizing hormone; TSH = thyroid-stimulating hormone.
+
+* Under physiologic conditions and when administered exogenously in intermittent pulses. Continuous infusion inhibits the release of LH and FSH.
+
+ACTH = adrenocorticotropic hormone (corticotropin); FSH = follicle-stimulating hormone; GH = growth hormone; LH = luteinizing hormone; TSH = thyroid-stimulating hormone.
+
+Hypothalamic Controls
+
+Thus far, 7 physiologically important hypothalamic neurohormones have been identified (see table Hypothalamic Neurohormones). Except for the biogenic amine dopamine, all are small peptides. Several are produced in the periphery as well as in the hypothalamus and function in local paracrine systems, especially in the gastrointestinal tract. Vasoactive intestinal peptide, which also stimulates the release of prolactin, is one.
+
+Neurohormones may control the release of multiple pituitary hormones. Regulation of most anterior pituitary hormones depends on stimulatory signals from the hypothalamus; the exception is prolactin, which is regulated by inhibitory stimuli. If the pituitary stalk (which connects the pituitary to the hypothalamus) is severed, prolactin release increases, whereas release of all other anterior pituitary hormones decreases.
+
+Many hypothalamic abnormalities (including tumors and encephalitis and other inflammatory lesions) can alter the release of hypothalamic neurohormones. Because neurohormones are synthesized in different centers within the hypothalamus, some disorders affect only one neuropeptide, whereas others affect several. The result can be undersecretion or oversecretion of neurohormones. Clinical syndromes that result from the ensuing pituitary hormone dysfunction (eg, arginine vasopressin deficiency, acromegaly and, hypopituitarism) are discussed elsewhere.
+
+Anterior Pituitary Function
+
+The cells of the anterior lobe (which constitutes 80% of the pituitary by weight) synthesize and release several hormones necessary for normal growth and development and also stimulate the activity of several target glands.
+
+Adrenocorticotropic hormone (ACTH)
+
+ACTH is also known as corticotropin. Corticotropin-releasing hormone (CRH) is the primary stimulator of ACTH release, but vasopressin plays a role during stress. ACTH induces the adrenal cortex to release cortisol and several weak androgens, such as dehydroepiandrosterone (DHEA). Circulating cortisol and other corticosteroids (including exogenous corticosteroids) inhibit the release of CRH and ACTH. The CRH-ACTH-cortisol axis is a central component of the response to stress. Without ACTH, the adrenal cortex atrophies and cortisol release virtually ceases.
+
+Thyroid-stimulating hormone (TSH)
+
+TSH regulates the structure and function of the thyroid gland and stimulates synthesis and release of thyroid hormones. TSH synthesis and release are stimulated by the hypothalamic hormone thyrotropin-releasing hormone (TRH) and suppressed (by negative feedback) by circulating thyroid hormones.
+
+Luteinizing hormone (LH) and follicle-stimulating hormone (FSH)
+
+LH and FSH control the production of the sex hormones. Synthesis and release of LH and FSH are stimulated mainly by gonadotropin-releasing hormone (GnRH) and suppressed by estrogen and testosterone. One factor controlling GnRH release is kisspeptin, a hypothalamic peptide that is triggered by increased leptin levels at puberty. Two gonadal hormones, activin and inhibin, affect only FSH; activin is stimulative, and inhibin is inhibitory.
+
+In women, LH and FSH stimulate ovarian follicular development and ovulation.
+
+In men, FSH acts on Sertoli cells and is essential for spermatogenesis; LH acts on Leydig cells of the testes to stimulate testosterone biosynthesis.
+
+Growth hormone (GH)
+
+GH stimulates somatic growth and regulates metabolism. Growth hormone–releasing hormone (GHRH) is the major stimulator and somatostatin is the major inhibitor of the synthesis and release of GH. GH controls synthesis of insulin-like growth factor 1 (IGF-1, also called somatomedin-C), which largely controls growth. Although IGF-1 is produced by many tissues, the liver is the major source. A variant of IGF-1 is present in muscle, where it plays a role in enhancing muscle strength. It is less under control of GH than is the liver variant.
+
+The metabolic effects of GH are biphasic. GH initially exerts insulin-like effects, increasing glucose uptake in muscle and fat, stimulating amino acid uptake and protein synthesis in liver and muscle, and inhibiting lipolysis in adipose tissue. Several hours later, more profound anti–insulin-like metabolic effects occur. They include inhibition of glucose uptake and use, causing blood glucose and lipolysis to increase, which increases plasma free fatty acids. GH levels increase during fasting, maintaining blood glucose levels and mobilizing fat as an alternative metabolic fuel. Production of GH decreases with aging. Ghrelin, a hormone produced in the fundus of the stomach, promotes GH release from the pituitary, increases food intake, and in animal models improves memory.
+
+Prolactin
+
+Prolactin is produced in cells called lactotrophs that constitute about 30% of the cells of the anterior pituitary. The pituitary doubles in size during pregnancy, largely because of hyperplasia and hypertrophy of lactotrophs. In humans, the major function of prolactin is stimulating milk production. Also, prolactin release occurs during sexual activity and stress. Prolactin may be a sensitive indicator of pituitary dysfunction; prolactin is the hormone most frequently produced in excess by pituitary tumors, and it may be one of the hormones to become deficient from infiltrative disease or tumor compression of the pituitary.
+
+Other hormones
+
+Several other hormones are produced by the anterior pituitary. These include pro-opiomelanocortin (POMC, which gives rise to ACTH), alpha- and beta-melanocyte-stimulating hormone (MSH), beta-lipotropin (β-LPH), the enkephalins, and the endorphins. POMC and MSH can cause hyperpigmentation of the skin and are only significant clinically in disorders in which ACTH levels are markedly elevated (eg, Addison disease, Nelson syndrome). The function of β-LPH is unknown. Enkephalins and endorphins are endogenous opioids that bind to and activate opioid receptors throughout the central nervous system.
+
+Posterior Pituitary Function
+
+The posterior pituitary releases vasopressin (also called argininevasopressin or antidiuretic hormone [ADH]) and oxytocin. Both hormones are released in response to neural impulses and have half-lives of about 10 minutes.
+
+Vasopressin (antidiuretic hormone, ADH)
+
+Vasopressin acts primarily to promote water conservation by the kidneys by increasing the permeability of the distal tubular epithelium to water. At high concentrations, vasopressin also causes vasoconstriction. Like aldosterone, vasopressin plays an important role in maintaining fluid homeostasis and vascular and cellular hydration. The main stimulus for vasopressin release is increased osmotic pressure of water in the body, which is sensed by osmoreceptors in the hypothalamus.
+
+The other major stimulus is volume depletion, which is sensed by baroreceptors in the left atrium, pulmonary veins, carotid sinus, and aortic arch, and then transmitted to the central nervous system through the vagus and glossopharyngeal nerves. Other stimulants for vasopressin release include pain, stress, emesis, hypoxia, exercise, hypoglycemia, cholinergic agonists, beta-blockers, angiotensin, and prostaglandins. Inhibitors of vasopressin release include alcohol, alpha-blockers, and glucocorticoids.
+
+A lack of vasopressin causes arginine vasopressin deficiency ([AVP-D] also known as central diabetes insipidus). An inability of the kidneys to respond normally to vasopressin causes arginine vasopressin resistance ([AVP-R] also known as nephrogenic diabetes insipidus). Removal of the pituitary gland usually does not result in permanent diabetes insipidus because some of the remaining hypothalamic neurons produce small amounts of vasopressin.
+
+Copeptin is coproduced with vasopressin in the posterior pituitary. Measuring it may be useful in distinguishing the cause of hyponatremia.
+
+Oxytocin
+
+Oxytocin has 2 major targets:
+
+Myoepithelial cells of the breast, which surround the alveoli of the mammary gland
+
+Smooth muscle cells of the uterus
+
+Suckling stimulates the production of oxytocin, which causes the myoepithelial cells to contract. This contraction causes milk to move from the alveoli to large sinuses for ejection (ie, the milk letdown reflex of nursing mothers). Oxytocin stimulates contraction of uterine smooth muscle cells, and uterine sensitivity to oxytocin increases throughout pregnancy. However, plasma levels do not increase sharply during parturition, and the role of oxytocin in the initiation of labor is unclear.
+
+There is no recognized stimulus for oxytocin release in men, although men have extremely low levels.

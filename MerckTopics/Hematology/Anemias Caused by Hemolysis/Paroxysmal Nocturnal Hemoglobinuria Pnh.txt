@@ -1,0 +1,102 @@
+=== Paroxysmal Nocturnal Hemoglobinuria (PNH) (Merck Manual Professional) ===
+Section: Hematology > Anemias Caused by Hemolysis
+Source: https://www.merckmanuals.com/professional/hematology/anemias-caused-by-hemolysis/paroxysmal-nocturnal-hemoglobinuria-pnh
+Retrieved: 2026-09-25
+
+Paroxysmal nocturnal hemoglobinuria (PNH) has a median age of onset in the 30s, but it can occur at any age (1). It occurs about equally in both sexes. Despite what the name implies, hemolysis occurs throughout the day not just at night and only ~30% of patients have overt hemoglobinuria.
+
+General reference
+
+1. de Latour RP, Mary JY, Salanoubat C, et al. Paroxysmal nocturnal hemoglobinuria: natural history of disease subcategories. Blood. 2008;112(8):3099-3106. doi:10.1182/blood-2008-01-133918
+
+Etiology of Paroxysmal Nocturnal Hemoglobinuria
+
+PNH is a clonal disorder caused by an acquired mutation in the PIGA gene in hematopoietic stem cells. PIGA, located on the X chromosome, encodes a protein that is integral for formation of the glycosylphosphatidylinositol (GPI) anchor of membrane proteins. Mutations in PIGA result in loss of all GPI-anchored proteins, including CD55 and CD59, important complement-regulating proteins, on the surface of blood cells. As a consequence, cells are susceptible to complement activation, leading to ongoing intravascular hemolysis of red blood cells (RBCs).
+
+Pathophysiology of Paroxysmal Nocturnal Hemoglobinuria
+
+Both arterial and venous thrombosis can occur, and thrombosis at unusual sites, such as portal veins and cerebral venous sinuses, is common. Thrombosis is a result of increased complement activation.
+
+Protracted urinary hemoglobin loss may result in iron deficiency.
+
+PNH is associated with bone marrow dysfunction, likely due to immunologic attack on hematopoietic stem cells, often leading to leukopenia and thrombocytopenia. Approximately 50% of patients with acquired aplastic anemia, an autoimmune bone marrow failure disorder, have a detectable PNH clone (1).
+
+Pathophysiology reference
+
+1. Babushok DV. When does a PNH clone have clinical significance? Hematology Am Soc Hematol Educ Program. 2021;2021(1):143-152. doi:10.1182/hematology.2021000245
+
+Symptoms and Signs of Paroxysmal Nocturnal Hemoglobinuria
+
+Crises are usually precipitated by a "trigger," such as infection, transfusion, vaccination, or menstruation. Abdominal, chest, and back pain and symptoms of severe anemia may occur.
+
+Manifestations of vascular thrombosis depend on the affected vessel and can cause symptoms such as abdominal pain or headache in addition to leg or arm swelling.
+
+Diagnosis of Paroxysmal Nocturnal Hemoglobinuria
+
+Flow cytometry
+
+PNH is suspected in patients who have typical symptoms of anemia (eg, pallor, fatigue, dizziness) or unexplained normocytic anemia with intravascular hemolysis, particularly if leukopenia or thrombocytopenia and/or thrombotic events are present.
+
+Diagnosis of PNH is with flow cytometry, which is used to determine the absence of specific RBC or white blood cell surface proteins (CD59, CD55, and fluorescein-labeled proaerolysin [FLAER] on leukocytes) in the peripheral blood. Flow cytometry is highly sensitive and specific.
+
+Bone marrow examination is not necessary but, if done to exclude other disorders, usually shows erythroid hyperplasia.
+
+Gross hemoglobinuria is common during crises, and the urine will contain hemosiderin constantly.
+
+Approximately one-third of patients with PNH clones have classic PNH with features of hemolysis and thrombotic risk (1). PNH clones commonly occur in patients with bone marrow failure (acquired aplastic anemia) who do not have PNH-related symptoms. These patients typically have smaller (< 30%), subclinical PNH clones and do not benefit from complement inhibitors; instead, definitive therapy is directed at the aplastic anemia. However, classic PNH can evolve from aplastic anemia, and patients with aplastic anemia should be screened annually for the presence of a PNH clone. Conversely, patients presenting with classic PNH may experience progressive bone marrow failure and ultimately require treatment for aplastic anemia with immunosuppression or bone marrow transplant.
+
+Diagnosis reference
+
+1. Babushok DV. When does a PNH clone have clinical significance? Hematology Am Soc Hematol Educ Program. 2021;2021(1):143-152. doi:10.1182/hematology.2021000245
+
+Treatment of Paroxysmal Nocturnal Hemoglobinuria
+
+Complement inhibitors
+
+Supportive measures
+
+Patients with small clones (ie, < 30% by flow cytometry) who are largely asymptomatic generally do not need treatment. Indications for treatment include:
+
+Symptomatic anemia or a transfusion requirement
+
+Thrombosis
+
+Complement inhibition reduces transfusion requirements, thromboembolism risk, and symptoms and improves quality of life.
+
+Monoclonal antibodies that bind to C5 and act as terminal complement inhibitors (eg, eculizumab, ravulizumab) are often used. In a clinical trial, eculizumab reduced intravascular hemolysis and was effective therapy for PNH (1). Similar findings are reported for the longer half-life product, ravulizumab, which is more commonly used due to decreased frequency of infusions and a better pharmacokinetic profile (2).
+
+The proximal complement inhibitors pegcetacoplan (C3 inhibitor, given by subcutaneous infusion) and iptacopan (oral factor B inhibitor, given orally) block hemolysis through the alternative pathway. Proximal complement inhibitors have the potential to block both intravascular and extravascular hemolysis, which occurs as a consequence of C5 inhibition (3, 4). Danicopan, an oral factor D inhibitor, in combination with a C5 inhibitor, is available as dual complement inhibition for patients with symptomatic extravascular hemolysis who are taking C5 inhibitors alone (5). Both terminal and proximal complement inhibition increases the risk of infection with Neisseria meningitidis, so patients should receive the meningococcal vaccine at least 14 days before starting therapy or initiate prophylactic antibiotic treatment (6).
+
+If complement inhibition is unavailable, glucocorticoids may increase hemoglobin and reduce hemolysis in some patients, but supportive evidence is lacking and overall have a limited role in the management of PNH. Due to the adverse effects of long-term use, glucocorticoids should be avoided for long-term treatment. Complement inhibition does not treat concomitant bone marrow failure.
+
+Supportive measures include oral iron and folic acid supplementation and sometimes transfusions.
+
+Generally, transfusions are reserved for crises or symptomatic anemia. Anticoagulant is given for acute thrombosis but may not be required long term once complement inhibitor therapy is initiated (7, 8).
+
+Treatment references
+
+1. Hillmen P, Young NS, Schubert J, et al. The complement inhibitor eculizumab in paroxysmal nocturnal hemoglobinuria. N Engl J Med. 2006;355(12):1233-1243. doi:10.1056/NEJMoa061648
+
+2. Brodsky RA, Peffault de Latour R, Rottinghaus ST, et al. Characterization of breakthrough hemolysis events observed in the phase 3 randomized studies of ravulizumab versus eculizumab in adults with paroxysmal nocturnal hemoglobinuria. Haematologica. 2021;106(1):230-237. doi:10.3324/haematol.2019.236877
+
+3. Hillmen P, Szer J, Weitz I, et al. Pegcetacoplan versus Eculizumab in Paroxysmal Nocturnal Hemoglobinuria. N Engl J Med. 2021;384(11):1028-1037. doi:10.1056/NEJMoa2029073
+
+4. Peffault de Latour R, Röth A, Kulasekararaj AG, et al. Oral Iptacopan Monotherapy in Paroxysmal Nocturnal Hemoglobinuria. N Engl J Med. 2024;390(11):994-1008. doi:10.1056/NEJMoa2308695
+
+5. Lee JW, Griffin M, Kim JS, et al. Addition of danicopan to ravulizumab or eculizumab in patients with paroxysmal nocturnal haemoglobinuria and clinically significant extravascular haemolysis (ALPHA): a double-blind, randomised, phase 3 trial. Lancet Haematol. 2023;10(12):e955-e965. doi:10.1016/S2352-3026(23)00315-0
+
+6. Socié G, Caby-Tosi MP, Marantz JL, et al. Eculizumab in paroxysmal nocturnal haemoglobinuria and atypical haemolytic uraemic syndrome: 10-year pharmacovigilance analysis. Br J Haematol. 2019;185(2):297-310. doi:10.1111/bjh.15790
+
+7. Gerber GF, DeZern AE, Chaturvedi S, Brodsky RA. A 15-year, single institution experience of anticoagulation management in paroxysmal nocturnal hemoglobinuria patients on terminal complement inhibition with history of thromboembolism. Am J Hematol. 2022;97(2):E59-E62. doi:10.1002/ajh.26414
+
+8. Gurnari C, Awada H, Pagliuca S, et al. Paroxysmal nocturnal hemoglobinuria-related thrombosis in the era of novel therapies: a 2043-patient-year analysis. Blood. 2024;144(2):145-155. doi:10.1182/blood.2024023988
+
+Key Points
+
+Paroxysmal nocturnal hemoglobinuria (PNH) can cause hemolysis at any time of day not only at night.
+
+Common clinical features include hemoglobinuria, pancytopenia, and arterial and more often venous thromboses.
+
+Venous thromboses occur in unusual locations (eg, in hepatic veins, cerebral venous sinus thrombosis).
+
+Treat symptomatic patients or those with thrombosis with complement inhibitors.

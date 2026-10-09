@@ -1,0 +1,44 @@
+=== Drug Distribution to Tissues (Merck Manual Professional) ===
+Section: Clinical Pharmacology > Pharmacokinetics
+Source: https://www.merckmanuals.com/professional/clinical-pharmacology/pharmacokinetics/drug-distribution-to-tissues
+Retrieved: 2026-09-25
+
+After a drug enters the systemic circulation, it is distributed to the body’s tissues. Distribution is generally uneven because of differences in blood perfusion, tissue binding (eg, because of lipid content), regional pH, and permeability of cell membranes.
+
+The entry rate of a drug into a tissue depends on the rate of blood flow to the tissue, tissue mass, and partition characteristics between blood and tissue. Distribution equilibrium (when entry and exit rates are the same) between blood and tissue is reached more rapidly in richly vascularized areas, unless diffusion across cell membranes is the rate-limiting step. After equilibrium, drug concentrations in tissues and in extracellular fluids are reflected by the plasma concentration. Metabolism and excretion occur simultaneously with distribution, making the process dynamic and complex.
+
+After a drug has entered tissues, drug distribution to the interstitial fluid is determined primarily by perfusion. For poorly perfused tissues (eg, muscle, fat), distribution is very slow, especially if the tissue has a high affinity for the drug.
+
+(See also Overview of Pharmacokinetics.)
+
+Volume of distribution
+
+The apparent volume of distribution is the theoretical volume of fluid into which the total drug administered would have to be diluted to produce the concentration in plasma. For example, if 1000 mg of a drug is given and the subsequent plasma concentration is 10 mg/L, that 1000 mg seems to be distributed in 100 L (dose/volume = concentration; 1000 mg/x L = 10 mg/L; therefore, x= 1000 mg/10 mg/L = 100 L).
+
+Volume of distribution has nothing to do with the actual volume of the body or its fluid compartments but rather involves the distribution of the drug within the body. For a drug that is highly tissue-bound, very little drug remains in the circulation; thus, plasma concentration is low and volume of distribution is high. Drugs that remain in the circulation tend to have a low volume of distribution.
+
+Volume of distribution provides a reference for the plasma concentration expected for a given dose but provides little information about the specific pattern of distribution. Each drug is uniquely distributed in the body. Some drugs distribute mostly into fat, others remain in extracellular fluid, and others are bound extensively to specific tissues.
+
+Many acidic drugs (eg, warfarin, aspirin) are highly protein-bound and thus have a small apparent volume of distribution. Many basic drugs (eg, amphetamine, meperidine) are extensively taken up by tissues and thus have an apparent volume of distribution larger than the volume of the entire body.
+
+Binding
+
+The extent of drug distribution into tissues depends on the degree of plasma protein and tissue binding. In the bloodstream, drugs are transported partly in solution as free (unbound) drug and partly reversibly bound to blood components (eg, plasma proteins, blood cells). Of the many plasma proteins that can interact with drugs, the most important are albumin, alpha-1 acid glycoprotein, and lipoproteins. Acidic drugs are usually bound more extensively to albumin; basic drugs are usually bound more extensively to alpha-1 acid glycoprotein, lipoproteins, or both.
+
+Only unbound drug is available for passive diffusion to extravascular or tissue sites where the pharmacologic effects of the drug occur. Therefore, the unbound drug concentration in systemic circulation typically determines drug concentration at the active site and thus the drug's therapeutic efficacy.
+
+At high drug concentrations, the amount of bound drug approaches an upper limit determined by the number of available binding sites. Saturation of binding sites is the basis of displacement interactions among drugs.
+
+Drugs bind to many substances other than proteins. Binding usually occurs when a drug associates with a macromolecule in an aqueous environment, but may also occur when a drug is partitioned into body fat. Because fat is poorly perfused, equilibration time is long, especially if the drug is highly lipophilic.
+
+Accumulation of drugs in tissues or body compartments can prolong drug action because the tissues release the accumulated drug as plasma drug concentration decreases. For example, thiopental is highly lipid soluble, rapidly enters the brain after a single IV injection, and has a marked and rapid anesthetic effect; the effect ends within a few minutes as the drug is redistributed to more slowly perfused fatty tissues. Thiopental is then slowly released from fat storage, maintaining subanesthetic plasma levels. These levels may become significant if doses of thiopental are repeated, causing large amounts to be stored in fat. Thus, storage in fat initially shortens the drug’s effect but then prolongs it.
+
+Some drugs accumulate within cells because the drug binds with proteins, phospholipids, or nucleic acids. For example, chloroquine concentrations in white blood cells and liver cells can be thousands of times higher than those in plasma. A drug in cells is in equilibrium with drug in plasma and moves into plasma as the drug concentration in plasma falls with drug elimination from the body.
+
+Blood-brain barrier
+
+Drugs reach the central nervous system (CNS) via brain capillaries and cerebrospinal fluid (CSF). Although the brain receives approximately one-sixth of cardiac output, drug penetration is restricted because of the brain’s permeability characteristics. Although some lipid-soluble drugs (eg, thiopental) enter the brain readily, polar compounds do not. The reason is the blood-brain barrier, which consists of the endothelium of brain capillaries and the astrocytic sheath. The endothelial cells of brain capillaries, which appear to be more tightly joined to one another than those of most other capillaries, slow the diffusion of water-soluble drugs. The astrocytic sheath consists of a layer of glial connective tissue cells (astrocytes) close to the basement membrane of the capillary endothelium. With aging, the blood-brain barrier may become less effective, allowing increased passage of compounds into the brain.
+
+Drugs may enter ventricular CSF directly via the choroid plexus, then passively diffuse into brain tissue from CSF. Also in the choroid plexus, organic acids (eg, penicillin) are actively transported from CSF to blood.
+
+The drug penetration rate into CSF, similar to other tissue cells, is determined mainly by the extent of protein binding, degree of ionization, and lipid-water partition coefficient of the drug. The penetration rate into the brain is slow for highly protein-bound drugs and nearly nonexistent for the ionized form of weak acids and bases. Because the CNS is so well perfused, the drug distribution rate is determined primarily by permeability.

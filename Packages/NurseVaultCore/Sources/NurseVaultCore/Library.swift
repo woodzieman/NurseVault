@@ -32,6 +32,10 @@ public final class Library {
     /// Set when an existing on-disk store was written with an older model
     /// (before folders existed) and had to be reset so the app can start.
     public private(set) var storeWasReset = false
+    /// True once the Core Data store has finished loading and initial data is available.
+    public private(set) var isReady = false
+    /// Last error encountered when saving Core Data changes. Nil if the last save succeeded.
+    public private(set) var lastSaveError: Error? = nil
 
     @ObservationIgnored private let container: NSPersistentCloudKitContainer
     @ObservationIgnored private let context: NSManagedObjectContext
@@ -42,6 +46,11 @@ public final class Library {
     @ObservationIgnored private var isStoreLoaded = false
     @ObservationIgnored var searchCache: [URL: SearchEntry] = [:]
     @ObservationIgnored var searchInflight = Set<URL>()
+    private var iso8601Formatter: ISO8601DateFormatter = { let f = ISO8601DateFormatter(); return f }()
+
+    /// Watch-friendly summary data, loaded from the App Group file.
+    /// Used on watchOS when the Core Data store is empty.
+    public var watchSummary: WatchVaultSummary.Snapshot? = nil
 
     public init() {
         let model = VaultModel.makeModel()
@@ -112,7 +121,10 @@ public final class Library {
         if sections.isEmpty {
             ensureDefaultSections()
         }
+        // One-time migration: auto-populate Merck Manual topics into the vault
+        ensureMerckManualImported()
         #endif
+        isReady = true
     }
 
     // MARK: - Store location
@@ -140,9 +152,11 @@ public final class Library {
     /// `CKContainer.default()` throws when the app has no CloudKit container
     /// entitlement (e.g. an unsigned development build), so check first.
     nonisolated private static func hasCloudKitEntitlement() -> Bool {
-        let entitlements = Bundle.main.infoDictionary?["Entitlements"] as? [String: Any]
-        let services = entitlements?["com.apple.developer.icloud-services"] as? [String] ?? []
-        return services.contains("CloudKit")
+        // Bundle.infoDictionary does not reliably expose entitlements.
+        // The presence of the CloudKit entitlement can only be tested at runtime
+        // by attempting to use CKContainer. Returning true lets refreshAccountStatus
+        // try the account check and fail gracefully if the entitlement is missing.
+        return true
     }
 
     private func refreshAccountStatus() {
@@ -236,6 +250,103 @@ public final class Library {
         }
         maintainSearchIndex()
         writeSummary()
+        // On watchOS the Core Data store is always empty (separate store URL).
+        // Fall back to the watch-friendly summary written by the main app.
+        #if os(watchOS)
+        if sections.isEmpty {
+            if let summary = WatchVaultSummary.load() {
+                self.watchSummary = summary
+            } else {
+                NSLog("NurseVault (watch): No summary file found. Main app may not have written it yet.")
+            }
+        }
+        #endif
+    }
+
+    // MARK: - Watch-friendly computed properties
+
+    /// Sections available on the watch: Core Data if populated, otherwise from summary.
+    public var watchSections: [WatchSection] {
+        if !sections.isEmpty {
+            // Core Data has data (running on iPhone/Mac) — wrap it.
+            return sections.map { WatchSection(id: $0.objectID.uriRepresentation().absoluteString, name: $0.name, icon: $0.icon) }
+        }
+        // Core Data is empty (watchOS) — use summary.
+        guard let summary = watchSummary else { return [] }
+        return summary.sections.map { WatchSection(
+            id: $0.name ?? "", 
+            name: $0.name, 
+            icon: $0.icon
+        )}
+    }
+
+    /// Documents available on the watch: Core Data if populated, otherwise from summary.
+    public var watchDocs: [WatchDoc] {
+        if !docs.isEmpty {
+            // Core Data has data (running on iPhone/Mac) — wrap it.
+            return docs.map { doc -> WatchDoc in
+                WatchDoc(
+                    id: doc.objectID.uriRepresentation().absoluteString,
+                    title: doc.title,
+                    fileName: doc.fileName,
+                    mimeType: doc.mimeType,
+                    noteText: doc.noteText,
+                    addedDateISO: doc.addedDate.map { iso8601Formatter.string(from: $0) },
+                    sectionName: doc.section?.name,
+                    sectionIcon: doc.section?.icon
+                )
+            }
+        }
+        // Core Data is empty (watchOS) — use summary.
+        guard let summary = watchSummary else { return [] }
+        return summary.documents.enumerated().map { idx, doc -> WatchDoc in
+            WatchDoc(
+                id: doc.title ?? doc.fileName ?? "doc-\(idx)",
+                title: doc.title,
+                fileName: doc.fileName,
+                mimeType: doc.mimeType,
+                noteText: doc.noteText,
+                addedDateISO: doc.addedDateISO,
+                sectionName: doc.sectionName,
+                sectionIcon: doc.sectionIcon
+            )
+        }
+    }
+
+    /// Filtered documents matching the search text, from either source.
+    public func watchDocs(matching query: String) -> [WatchDoc] {
+        let trimmed = query.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !trimmed.isEmpty else { return [] }
+        return watchDocs.filter { doc in
+            (doc.title ?? "").localizedCaseInsensitiveContains(trimmed) ||
+            (doc.fileName ?? "").localizedCaseInsensitiveContains(trimmed) ||
+            (doc.noteText ?? "").localizedCaseInsensitiveContains(trimmed)
+        }
+    }
+
+    /// Documents in a specific watch section.
+    public func watchDocs(in watchSection: WatchSection) -> [WatchDoc] {
+        guard !sections.isEmpty else {
+            // WatchOS: filter from summary.
+            return watchDocs.filter { $0.sectionName == watchSection.name }
+        }
+        // Core Data: wrap from existing method.
+        let targetSection = sections.first { section in
+            section.name == watchSection.name
+        }
+        guard let section = targetSection else { return [] }
+        return docs(in: section).map { doc -> WatchDoc in
+            WatchDoc(
+                id: doc.objectID.uriRepresentation().absoluteString,
+                title: doc.title,
+                fileName: doc.fileName,
+                mimeType: doc.mimeType,
+                noteText: doc.noteText,
+                addedDateISO: doc.addedDate.map { iso8601Formatter.string(from: $0) },
+                sectionName: doc.section?.name,
+                sectionIcon: doc.section?.icon
+            )
+        }
     }
 
     /// Refreshes the small summary the watch widget reads for its complication.
@@ -247,6 +358,7 @@ public final class Library {
                 updatedAt: Date()
             )
         )
+        writeWatchSummary()
         #if os(watchOS)
         // The watch app is the only process on the watch, so it can ask
         // WidgetKit to re-run the widget's timeline right away instead of
@@ -259,12 +371,59 @@ public final class Library {
         #endif
     }
 
-    private func save() {
+    /// Writes the watch-specific summary with actual section and document metadata.
+    private func writeWatchSummary() {
+        writeWatchSummaryInternal()
+    }
+
+    /// Public variant that writes the watch summary even if called from outside
+    /// the normal save/reload cycle. Used by the main app on launch to ensure
+    /// the watch has data immediately.
+    public func writeWatchSummaryForced() {
+        guard isStoreLoaded else { return }
+        writeWatchSummaryInternal()
+    }
+
+    private func writeWatchSummaryInternal() {
+        // Only include sections that are set to sync to watch.
+        let syncedSections = sections.filter { $0.syncToWatch }
+        let sectionEntries = syncedSections.map { WatchVaultSummary.SectionEntry(
+            name: $0.name,
+            icon: $0.icon
+        )}
+        // Only include docs from synced sections.
+        let syncedSectionIDs = Set(syncedSections.map { $0.objectID })
+        let docEntries = docs.filter { doc in
+            guard let section = doc.section else { return false }
+            return syncedSectionIDs.contains(section.objectID)
+        }.map { doc -> WatchVaultSummary.DocEntry in
+            WatchVaultSummary.DocEntry(
+                title: doc.title,
+                fileName: doc.fileName,
+                mimeType: doc.mimeType,
+                noteText: doc.noteText,
+                addedDateISO: doc.addedDate.map { iso8601Formatter.string(from: $0) },
+                sectionName: doc.section?.name,
+                sectionIcon: doc.section?.icon
+            )
+        }
+        WatchVaultSummary.write(
+            .init(
+                sections: sectionEntries,
+                documents: docEntries,
+                updatedAt: Date()
+            )
+        )
+    }
+
+    public func save() {
         guard isStoreLoaded, context.hasChanges else { return }
         do {
             try context.save()
+            lastSaveError = nil
         } catch {
             NSLog("NurseVault: save failed: \(error.localizedDescription)")
+            lastSaveError = error
             context.rollback()
         }
     }
@@ -289,6 +448,73 @@ public final class Library {
         }
         save()
         reload()
+    }
+
+    /// One-time migration: import Merck Manual topics from the app bundle into the vault.
+    private func ensureMerckManualImported() {
+        // Skip on watchOS – watch uses the summary file, not Core Data.
+        #if os(watchOS)
+        return
+        #endif
+        // Check if already imported
+        let sectionFetch = NSFetchRequest<VaultSection>(entityName: "Section")
+        sectionFetch.predicate = NSPredicate(format: "name == %@", "Merck Manual")
+        if let existing = try? context.fetch(sectionFetch).first,
+           let count = existing.docs?.count, count > 0 {
+            return
+        }
+        // Create section
+        let section = VaultSection(context: context)
+        section.name = "Merck Manual"
+        section.icon = "book"
+        let highest = (sections.map { ($0.sortOrder?.int64Value) ?? 0 }.max() ?? -1) + 1
+        section.sortOrder = NSNumber(value: highest)
+        // Import topics in background
+        Task { @MainActor in
+            await self.importMerckTopics(into: section)
+        }
+    }
+
+    private func importMerckTopics(into section: VaultSection) async {
+        guard let bundleURL = Bundle.main.resourceURL?.appendingPathComponent("MerckTopics") else {
+            NSLog("NurseVault: MerckTopics bundle missing")
+            return
+        }
+        var imported = 0
+        let fm = FileManager.default
+        guard let specialties = try? fm.contentsOfDirectory(at: bundleURL, includingPropertiesForKeys: nil, options: [.skipsHiddenFiles]) else { return }
+        for specialtyURL in specialties where specialtyURL.hasDirectoryPath {
+            let specialty = specialtyURL.lastPathComponent
+            guard let subdirs = try? fm.contentsOfDirectory(at: specialtyURL, includingPropertiesForKeys: nil, options: [.skipsHiddenFiles]) else { continue }
+            for subURL in subdirs where subURL.hasDirectoryPath {
+                let subspecialty = subURL.lastPathComponent
+                guard let files = try? fm.contentsOfDirectory(at: subURL, includingPropertiesForKeys: nil, options: [.skipsHiddenFiles]) else { continue }
+                for fileURL in files where fileURL.pathExtension.lowercased() == "txt" {
+                    let title = fileURL.deletingPathExtension().lastPathComponent
+                    let displayTitle = subspecialty.isEmpty ? title : "\(subspecialty): \(title)"
+                    guard let data = try? Data(contentsOf: fileURL) else { continue }
+                    // Limit note size to keep Core Data reasonable
+                    let maxNoteBytes = 64 * 1024
+                    let noteData = data.count > maxNoteBytes ? data.prefix(maxNoteBytes) : data
+                    guard let text = String(data: noteData, encoding: .utf8) else { continue }
+                    let doc = VaultDoc(context: context)
+                    doc.title = displayTitle
+                    doc.fileName = fileURL.lastPathComponent
+                    doc.mimeType = "text/plain"
+                    doc.noteText = text
+                    doc.addedDate = Date()
+                    doc.section = section
+                    imported += 1
+                    // Batch save every 100 docs to avoid huge context
+                    if imported % 100 == 0 {
+                        save()
+                    }
+                }
+            }
+        }
+        save()
+        reload()
+        NSLog("NurseVault: Merck Manual import complete – \(imported) topics imported")
     }
 
     @discardableResult
@@ -535,7 +761,15 @@ public final class Library {
     private static func uniqueName(_ base: String, among names: inout Set<String>) -> String {
         var candidate = base
         var index = 2
+        var attempts = 0
+        let maxAttempts = 1_000
         while names.contains(candidate.lowercased()) {
+            attempts += 1
+            if attempts > maxAttempts {
+                // Prevent pathological infinite loops; return a timestamped name.
+                candidate = "\(base) (\(Int(Date().timeIntervalSince1970)))"
+                break
+            }
             candidate = "\(base) (\(index))"
             index += 1
         }

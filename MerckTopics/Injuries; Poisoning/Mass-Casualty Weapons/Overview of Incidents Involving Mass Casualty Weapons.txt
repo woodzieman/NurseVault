@@ -1,0 +1,298 @@
+=== Overview of Incidents Involving Mass-Casualty Weapons (Merck Manual Professional) ===
+Section: Injuries; Poisoning > Mass-Casualty Weapons
+Source: https://www.merckmanuals.com/professional/injuries-poisoning/mass-casualty-weapons/overview-of-incidents-involving-mass-casualty-weapons
+Retrieved: 2026-09-25
+
+Mass-casualty incidents (MCIs) are events that generate sufficiently high numbers of casualties to overwhelm available medical resources. They include natural disasters like hurricanes and several types of intentional and unintentional man-made events, including transportation disasters, releases of dangerous substances, explosions, and mass shootings.
+
+Mass-casualty weapons (MCWs) are weapons capable of producing mass-casualty incidents (1, 2). They include a variety of:
+
+Biological (infectious) agents
+
+Chemicals
+
+Explosives
+
+Radiation sources
+
+Toxins
+
+The weapon types are sometimes referred to as CBRNE (chemical, biological, radiological, nuclear, explosive) or NBC (nuclear, biological, chemical). The effects of MCW agents on individuals can be local (at or near the site of exposure) or systemic (because of absorption and distribution in the circulation).
+
+MCWs are sometimes termed weapons of mass destruction (WMD), but this term is less appropriate because it implies significant physical destruction of infrastructure, which occurs only with explosive MCWs. Also, although "weapon" signifies intentional use (eg, by warring states or terrorists), most MCWs have unintentional equivalents (eg, an industrial or transportation leak of a toxic or radioactive substance, an infectious disease outbreak, or an industrial explosion) for which the basic principles and response are the same.
+
+Exposure
+
+Exposure most commonly is:
+
+Contact with an epithelial surface
+
+Absorption means:
+
+Penetration of an epithelial barrier to result in an internal dose
+
+For radiation events, exposure also means the passage of electromagnetic radiation through the body (termed irradiation), which may occur without physical contact with the radiation source (3). For all types of MCWs, contamination refers to an agent either present on an epithelial surface (external contamination) or in depots within the body (internal contamination). Internal contamination most commonly refers only to radioactive particles in the body rather than other MCW agents.
+
+Exposure to a MCW may be readily apparent, as occurs with an explosion or visible leak or spill, and may even be announced in advance by a perpetrator. However, NBC (nuclear, biological, chemical).exposure may be hidden, even if the NBC agent is dispersed as a result of an explosion. Because most NBC agents do not have a readily identifiable odor or appearance and because there is usually an appreciable time between exposure and development of symptoms or signs, an explosion may not be recognized as an NBC exposure event until some time later. Covert exposure can be particularly difficult to identify or distinguish from an outbreak of natural illness. An exception occurs with exposures to high doses of certain chemicals (eg, cyanides, nerve agents), which may cause obvious effects after only a few seconds or minutes, especially when they are inhaled.
+
+Once disseminated into the environment, MCWs may exist as a combination of solid, liquid, gas, or vapor (the gaseous form of a substance that is liquid at room temperature). Fine dust particles or small liquid droplets may be suspended in the air as aerosols in the form of smokes, fogs, mists, or fumes. The state of the agent affects its persistence in the environment and the potential routes of exposure. Persistent agents, typically solids and low-volatility liquids, remain in the environment for more than a day under usual conditions; some may persist for weeks. Nonpersistent agents, typically gases and high-volatility liquids, disperse in < 24 hours. Particulate aerosols may settle to the ground in minutes to days, depending upon particle size and weather conditions, but then may still act as surface contaminants.
+
+Besides dose and substance, the route of exposure is a major factor in the clinical manifestations of a MCW event. Gases, vapors, and particulates can be inhaled. Solids and liquids can contaminate the skin, from which they may be absorbed or transferred to the mouth and ingested. Contaminated objects, such as debris from an explosion, can penetrate the skin and thus introduce NBC agents parenterally. Decontamination usually refers to external decontamination, the removal of chemicals, toxins, or infectious agents from epithelial surfaces. The removal of radioactive substances from within the body is termed internal decontamination.
+
+General references
+
+1. Furlow B. Biological, chemical and radiological terrorism. Radiol Technol. 2003;75(2):91-110.
+
+2. Prockop LD. Weapons of mass destruction: Overview of the CBRNEs (Chemical, Biological, Radiological, Nuclear, and Explosives). J Neurol Sci. 2006;249(1):50-54. doi:10.1016/j.jns.2006.06.017
+
+3. U.S. Department of Health and Human Services. Radiation Emergency Medical Management: Guidance on Diagnosis and Treatment for Healthcare Providers. Accessed July 14, 2026.
+
+Initial Approach to Mass-Casualty Incidents
+
+The approach to a MCW incident includes:
+
+Preparedness
+
+Recognition
+
+Primary assessment and triage
+
+Secondary assessment
+
+Treatment
+
+These steps often overlap. Recognition, assessment, and treatment may take place simultaneously depending on the nature, number, and severity of the casualties.
+
+Preparedness
+
+Prevention, which typically is handled by civil rather than medical agencies, eliminates the need for a medical response. But if prevention fails, preparedness efforts are crucial.
+
+Hospitals and prehospital services must have a disaster plan along with appropriate supplies and equipment to respond to a MCW incident (1). Disaster preparedness activities typically include a hazard vulnerability analysis and protocols to activate and deploy additional staff to specified locations and roles and to allocate resources such as beds, operating rooms, and blood. Supplies and equipment typically include designated decontamination areas with contained drainage, floor coverings and protective gear to minimize spread of contamination, and stockpiles of antidotes or formal arrangements to obtain them from other sources. Plans typically include requirements for regular formal drills,which, although only a distant approximation of an actual mass-casualty incident (MCI), help familiarize staff with the process, including the location of written procedures, supplies, and equipment (particularly those for decontamination).
+
+Recognition
+
+Recognizing MCIs involving explosives, firearms, and transportation crashes is straightforward. However, recognizing covert MCW events requires a high degree of clinical suspicion by first responders and physicians. Health care providers must first recognize that an event or cluster of illness may represent the use of a MCW. They must then determine the type of MCW and class of agent.
+
+Recognition of a MCW incident may come via intelligence or announcement by the perpetrators, environmental clues (eg, dead or dying animals, unusual odors), or environmental monitors (chemical, biological, or radiation), which may not be available at every hospital. The only clue may be observations of a large number of people presenting with unusual symptoms. However, initial reports of the identity of the agent or agents used in a MCW incident are often incomplete or in error, and a high index of clinical suspicion is invaluable.
+
+As casualties are evaluated, characteristic symptoms and signs may be recognized. Toxidromes (constellations of symptoms and signs that are typical of exposure to a class of agents) exist for several classes of chemical agents and toxins (see table Common Toxic Syndromes) and are crucial to clinical recognition (2, 3). Ultimately, laboratory analysis of clinical or environmental specimens may be required. However, diagnosis and initial treatment may need to occur without laboratory confirmation, especially for those chemical agents with short latent periods.
+
+Primary assessment and triage
+
+Primary assessment and triage of casualties from an MCI differs from normal trauma assessment and triage (see table Triage Classification) (4, 5). The large number of casualties in an MCI requires initial encounters and decision-making to be brief, particularly when casualties involve agents with short latent periods. Triage can be particularly challenging because many patients affected by MCWs have no visible injuries and because many people at or near an MCI who were not exposed to the agent may have stress reactions (eg, hyperventilation, shaking, nausea, weakness) that mimic effects of MCW agents. In one study, over 40% of casualties evacuated to hospitals following missile attacks in Israel were diagnosed as psychological casualties (6). Differentiating purely psychological effects from toxic, infectious, or radiological effects may be difficult. A good first step is to separate patients who are able to walk from those unable to walk; this differentiation will identify the most seriously affected. However, frequent re-triage of ambulatory patients is needed to detect those beginning to deteriorate after a latent period.
+
+Table
+
+Triage Classification
+
+Triage Classification
+
+Classification
+
+Explanation
+
+Expectant
+
+No pulse
+
+Not breathing
+
+Unlikely to survive given available resources
+
+Immediate
+
+Life-threatening injury or poisoning
+
+Delayed
+
+Serious injury or poisoning but not life-threatening
+
+Minimal
+
+Minor or resolving injury or poisoning
+
+Pearls & Pitfalls
+
+Frequent re-triage of ambulatory patients following a mass-casualty incident is needed to detect those beginning to deteriorate after a latent period.
+
+The hot zone is the area immediately surrounding the release of the MCW agent (7). Risk of contamination of medical providers is greatest in the hot zone,and, normally, only emergency response personnel with appropriate personal protective equipment are allowed into this zone. Such equipment typically includes toxicologic agent protective (TAP) level A gear, which affords full encapsulation with self-contained breathing apparatus.
+
+The warm zone (decontamination corridor) borders the hot zone. Comprehensive, whole-body decontamination (thorough decontamination) should occur in this zone. Medical personnel may need to don protective gear for primary assessment, triage, and initial treatment of casualties, especially patients exposed to chemicals. This gear typically is TAP B gear, which includes air-purifying respirators.
+
+The cold zone (clean zone) includes hospital emergency departments. Because decontamination should have taken place in the warm zone, medical staff in the cold zone should normally be safe with standard precautions. However, hospitals still need decontamination capability because many patients who bypassed site triage and decontamination (ie, left the scene on their own and self-transported) may arrive. Inadvertent entry of contaminated patients into a hospital emergency department will change its classification to a warm or even a hot zone.
+
+Secondary assessment
+
+Because definitive information is often lacking early in an MCI, initial assessment of the agent involved may be wrong or incomplete. Thus, it is essential to systematically reassess individual patients and the overall situation using a fast, reproducible method. Such a method should use a logical progression that addresses each of the 3 components of the epidemiologic triad—agent, environment, and host (patient)—and that considers (or reconsiders):
+
+Possible agent(s)
+
+State(s) of the agent(s) in the environment
+
+Transition of the agent to the patient (routes of entry or routes of exposure and absorption)
+
+Clinical effects of the agent, including whether the effects are local (at or near the entry site), systemic (due to distribution in the bloodstream), or both
+
+Temporal progression (duration of exposure, time of exposure, latent period, current trend of symptoms, and prognosis)
+
+Differential diagnosis and concurrent exposures or conditions
+
+Possible interactions among concurrent exposures or conditions
+
+A useful acronym to facilitate rapid secondary assessment is ASBESTOS (see table ASBESTOS*: Secondary Assessment of Mass Casualties Due to Chemical or Radiological Weapons) (8).
+
+Table
+
+ASBESTOS*: Secondary Assessment of Mass Casualties Due to Chemical or Radiological Weapons
+
+Table
+
+ASBESTOS*: Secondary Assessment of Mass Casualties Due to Chemical or Radiological Weapons
+
+ASBESTOS*: Secondary Assessment of Mass Casualties Due to Chemical or Radiological Weapons
+
+Initial
+
+In Evaluating Chemical Weapon Injuries
+
+In Evaluating Radiological Weapon Injuries
+
+Agents
+
+Type (Is a toxidrome present?)
+
+Estimated dose
+
+Type (alpha, beta, gamma, neutron)
+
+Estimated dose
+
+State(s)
+
+Is the agent a
+
+Solid
+
+Liquid†
+
+Gas
+
+Vapor†
+
+Aerosol
+
+Combination
+
+The same as for chemical weapons
+
+Body site(s)
+
+Routes of entry (exposure and absorption)
+
+Exposure (passage through whole body)? Where?
+
+External contamination? Where?
+
+Internal contamination? Where?
+
+Combinations?
+
+Effect(s)
+
+Distribution
+
+Local
+
+Systemic
+
+Both
+
+The same as for chemical weapons
+
+Severity
+
+Of effects
+
+Of exposure
+
+The same as for chemical weapons
+
+Time course
+
+Past (onset, latent period)
+
+Present (Getting better or worse? Stable?)
+
+Future (expected prognosis)
+
+The same as for chemical weapons
+
+Other diagnoses?
+
+Instead of (differential diagnosis)
+
+In addition to (coexisting diagnoses)
+
+The same as for chemical weapons
+
+Synergism
+
+Combined effects of multiple exposures
+
+The same as for chemical weapons
+
+* The acronym ASBESTOS was introduced by the author, Madsen JM, in Clin Lab Med 21(3):593-605, 2001.
+
+† Most common states
+
+* The acronym ASBESTOS was introduced by the author, Madsen JM, in Clin Lab Med 21(3):593-605, 2001.
+
+† Most common states
+
+Initial approach references
+
+1. Wang T-I, Chen H-T, Chang H. Hospital preparedness for weapons of mass destruction incidents: An initial assessment. Ann Diaster Med. 2004;2:74-79
+
+2. Cieslak TJ, Rowe JR, Kortepeter MG, et al. A field-expedient algorithmic approach to the clinical management of chemical and biological casualties. Mil Med. 2000;165(9):659-662.
+
+3. Ciottone GR. Toxidrome Recognition in Chemical-Weapons Attacks. N Engl J Med. 2018;378(17):1611-1620. doi:10.1056/NEJMra1705224
+
+4. Cone DC, Koenig KL. Mass casualty triage in the chemical, biological, radiological, or nuclear environment. Eur J Emerg Med. 2005;12(6):287-302. doi:10.1097/00063110-200512000-00009
+
+5. Bazyar J, Farrokhi M, Khankeh H. Triage Systems in Mass Casualty Incidents and Disasters: A Review Study with A Worldwide Approach. Open Access Maced J Med Sci. 2019;7(3):482-494. Published 2019 Feb 12. doi:10.3889/oamjms.2019.119
+
+6. Bleich A, Dycian A, Koslowsky M, et al. Psychiatric implications of missile attacks on a civilian population. Israeli lessons from the Persian Gulf War. JAMA. 1992;268(5):613-615.
+
+7. Byers M, Russell M, Lockey DJ. Clinical care in the "Hot Zone". Emerg Med J 2008; 25:108
+
+8. Madsen JM. Toxins as weapons of mass destruction. A comparison and contrast with biological-warfare and chemical-warfare agents. Clin Lab Med. 2001;21(3):593-605.
+
+Treatment of Mass-Casualty Weapon Injuries
+
+Initial management of MCW casualties aims to:
+
+Protect health care providers
+
+Stop exposure to the agent (remove patient from contaminated area, remove contamination from patient)
+
+Stabilize patients medically
+
+A useful aid to memory uses the ABCDDs: Airway, Breathing, Circulation, Immediate Decontamination, and Drugs. However, these steps are performed as nearly simultaneously as possible rather than following a strict order. For example, bronchospasm in patients exposed to nerve agents may be so severe that patients cannot be ventilated (B) until atropine is given (D), and medications may be ineffective as long as chemical agents remain in contact with the patient. As these steps are taken, responders to nuclear, biological, chemical (NBC) emergencies, particularly chemical ones, must be careful to protect themselves from exposure (from the environment and directly from casualties) before administering care.
+
+Airway, Breathing, and Circulation (ABCs) are addressed in standard fashion, as discussed in Cardiopulmonary Resuscitation (CPR) in Adults. These steps are typically performed first, whether the cause is physical or NBC trauma. An exception is with certain patients with chemical exposure (eg, nerve agents) for whom immediate decontamination and administration of antidotes may be lifesaving (and prevent development of or allow effective treatment of airway or breathing problems). Medical stabilization of the ABCs sometimes needs to be performed in the warm zone.
+
+Decontamination priority varies by the type of MCW agent and the medical condition of the patient (1, 2). Patients exposed to dispersed aerosols of biological or radiological agents (see Radiation Exposure and Contamination: External decontamination) typically have skin and/or clothing contamination. Because most such agents cannot quickly penetrate intact skin, disrobing and showering usually suffice for decontamination; such decontamination should not be unduly delayed but is not as urgent as when certain chemical agents are involved. Because certain chemical agents (eg, sulfur mustard, liquid nerve agents) begin penetrating skin upon contact and may also start damaging tissue immediately, patients exposed to such agents need immediate decontamination to stop ongoing absorption and prevent the spread of contamination to other areas on the patient and to medical personnel and facilities.
+
+Immediate decontamination is most effective with a specially formulated commercial reactive topical decontaminant (Reactive Skin Decontamination Lotion or RSDL) that contains a potassium salt of 2,3-butanedione monoxime (DAM), DAM itself, or a solvent of polyethylene glycol monomethyl ether (MPEG) and water (3). RSDL inactivates nerve agents and sulfur mustard on the skin but should not be used in eyes or in wounds. However, soap and water are also effective. Water alone is less effective for oily chemicals but should still be used when soap is unavailable. A 0.5% solution of sodium hypochlorite (made by diluting standard 5% household bleach in a 1:9 ratio of bleach to water) is also effective but should not be used in eyes or in wounds. In an emergency, any available adsorbent (eg, paper towels, tissue, clay-rich soil, bread) can be applied to the affected area, rubbed vigorously for up to 2 minutes, and then removed by copious flushing. Wounds must be inspected and all debris removed; wounds must then be flushed with water or saline.
+
+Medications for initial stabilization should be given as needed as for any unstable patient (4). Most definitive pharmacologic treatment for MCW casualties can wait until admission to a hospital. The exceptions are management of shock and management of acute effects of chemical agents such as cyanides and nerve agents. Appropriate antidotes for these agents should be available for prompt administration in a prehospital setting.
+
+Treatment references
+
+1. Chilcott RP, Amlôt R (eds). Primary Response Incident Scene Management (PRISM) Guidance for Chemical Incidents. Volume 1: Strategic Guidance for Mass Casualty Disrobe and Decontamination. University of Hertfordshire and Public Health England. 2015. Accessed July 15, 2026.
+
+2. Collins S, James T, Carter H, et al. Mass Casualty Decontamination for Chemical Incidents: Research Outcomes and Future Priorities. Int J Environ Res Public Health. 2021;18(6):3079. Published 2021 Mar 17. doi:10.3390/ijerph18063079
+
+3. Schwartz MD, Hurst CG, Kirk MA, et al. Reactive skin decontamination lotion (RSDL) for the decontamination of chemical warfare agent (CWA) dermal exposure. Curr Pharm Biotechnol. 2012; 13:1971-1979.
+
+4. Lawrence DT, Kirk MA. Chemical terrorism attacks: update on antidotes. Emerg Med Clin North Am. 2007;25(2):567-95xi. doi:10.1016/j.emc.2007.02.002

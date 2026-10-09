@@ -30,8 +30,10 @@ struct DrugEntry: Identifiable, Hashable, Sendable {
 
 /// A structured representation of drug information parsed from the bundle.
 struct DrugInfoParsed: Sendable {
-    /// Key-value pairs for the Quick Reference Summary.
-    let summary: [String: String]
+    /// Ordered key-value pairs for the Quick Reference Summary
+    /// (Class, Routes, Side Effects, Overdose, Nursing — display order is
+    /// preserved rather than alphabetical so it reads top-down).
+    let summary: [(key: String, value: String)]
     /// Detailed sections of the prescribing information.
     let sections: [DrugSection]
 }
@@ -297,29 +299,42 @@ final class DrugLibrary {
     }
 
     private func parse(_ text: String) -> DrugInfoParsed {
-        var summary: [String: String] = [:]
-        let lines = text.split(whereSeparator: \.isNewline)
+        // Preserve blank lines: `omittingEmptySubsequences` defaults to true,
+        // which collapses the blank-line delimiters the summary block relies on
+        // and (silently) produced an empty summary for every drug.
+        let lines: [String] = text.split(omittingEmptySubsequences: false, whereSeparator: \.isNewline).map(String.init)
 
-        // Parse Summary section.
+        // MARK: Quick-reference summary block
         //
-        // File structure:
+        // File structure (Elsevier full-text and Merck-native both use it):
         //   === Name — Drug Information ... ===
-        //   Source: ...
-        //   Retrieved: ...
+        //   Source: ... / Retrieved: ...
         //   NURSING QUICK-REFERENCE SUMMARY
         //   Auto-generated on ...; full details follow below.
         //   (blank line)
         //   Drug Class: ...
+        //   (blank line)
         //   Routes: ...
+        //   (blank line)
         //   Common Side Effects (...): ...
+        //   (blank line)
         //   In an Overdose: ...
+        //   (blank line)
         //   Key Nursing Considerations: ...
         //   (blank line — summary ends)
         //   (detailed content follows, which may repeat these keys)
         //
-        // We parse key-value pairs only until the first blank line that comes
-        // AFTER at least one pair has been found — this is the end of the
-        // summary block, before the detailed content repeats the same headers.
+        // We walk the pairs and stop only when we hit a *non-pair, non-blank*
+        // line after at least one pair — that is the start of the detailed
+        // content (e.g. the all-caps drug name / "Close" / table of contents).
+        var summary: [(key: String, value: String)] = []
+        func addSummary(_ key: String, _ value: String) {
+            if let idx = summary.firstIndex(where: { $0.key == key }) {
+                summary[idx].value = value
+            } else {
+                summary.append((key, value))
+            }
+        }
 
         enum SummaryState { case beforeHeader, inHeader, inPairs, done }
         var state: SummaryState = .beforeHeader
@@ -327,80 +342,100 @@ final class DrugLibrary {
 
         for line in lines {
             let trimmed = line.trimmingCharacters(in: .whitespaces)
-
             switch state {
             case .beforeHeader:
-                if trimmed.contains("NURSING QUICK-REFERENCE SUMMARY") {
-                    state = .inHeader
-                }
+                if trimmed.contains("NURSING QUICK-REFERENCE SUMMARY") { state = .inHeader }
 
             case .inHeader:
-                // Skip the "Auto-generated..." note and blank line
-                if trimmed.isEmpty {
-                    state = .inPairs
-                }
-                // Skip "Auto-generated..." line — do nothing
+                if trimmed.isEmpty { state = .inPairs }
+                // else: skip the "Auto-generated ..." note line
 
             case .inPairs:
-                if trimmed.isEmpty {
-                    // Blank line after at least one pair = end of summary
-                    if foundAnyPair { state = .done }
-                    continue
-                }
+                if trimmed.isEmpty { continue }
                 var matched = false
                 if trimmed.hasPrefix("Drug Class:") {
-                    summary["Class"] = trimmed.dropFirst("Drug Class:".count).trimmingCharacters(in: .whitespaces)
+                    addSummary("Class", String(trimmed.dropFirst("Drug Class:".count)).trimmingCharacters(in: .whitespaces))
                     matched = true
                 } else if trimmed.hasPrefix("Routes:") {
-                    summary["Routes"] = trimmed.dropFirst("Routes:".count).trimmingCharacters(in: .whitespaces)
+                    addSummary("Routes", String(trimmed.dropFirst("Routes:".count)).trimmingCharacters(in: .whitespaces))
                     matched = true
-                } else if trimmed.contains("Common Side Effects") && trimmed.contains(":") {
+                } else if trimmed.contains("Common Side Effects"), trimmed.contains(":") {
                     let parts = trimmed.split(separator: ":", maxSplits: 1)
                     if parts.count == 2 {
-                        summary["Side Effects"] = parts[1].trimmingCharacters(in: .whitespaces)
+                        addSummary("Side Effects", String(parts[1]).trimmingCharacters(in: .whitespaces))
                         matched = true
                     }
                 } else if trimmed.hasPrefix("In an Overdose:") {
-                    summary["Overdose"] = trimmed.dropFirst("In an Overdose:".count).trimmingCharacters(in: .whitespaces)
+                    addSummary("Overdose", String(trimmed.dropFirst("In an Overdose:".count)).trimmingCharacters(in: .whitespaces))
                     matched = true
                 } else if trimmed.hasPrefix("Key Nursing Considerations:") {
-                    summary["Nursing"] = trimmed.dropFirst("Key Nursing Considerations:".count).trimmingCharacters(in: .whitespaces)
+                    addSummary("Nursing", String(trimmed.dropFirst("Key Nursing Considerations:".count)).trimmingCharacters(in: .whitespaces))
                     matched = true
                 }
-                if matched { foundAnyPair = true }
+                if matched {
+                    foundAnyPair = true
+                } else if foundAnyPair {
+                    // First non-pair line after we captured pairs = end of the block.
+                    state = .done
+                }
 
             case .done:
-                break  // Stop parsing
+                break
             }
         }
 
-        // Parse Sections
-        var sections: [DrugSection] = []
-        let sectionHeaders = [
-            "Brand Names", "Indication Specific Dosing", "Contraindications And Precaution",
-            "Pregnancy And Lactation", "Interactions", "Adverse Reaction",
-            "Description", "Mechanism Of Action", "Pharmacokinetics",
-            "Administration", "Maximum Dosage Limits", "Dosage Forms", "Dosage Adjustment Guidelines"
+        // MARK: Detailed sections
+        //
+        // Both source styles put a table of contents (a run of bare header
+        // lines) and, for the Elsevier style, an "... by Elsevier" disclaimer
+        // between the TOC and the real content. We map every known header
+        // (singular *and* plural variants) to one canonical title and *append*
+        // to it, so a repeated header (TOC entry + real section) merges into a
+        // single entry and the boilerplate never survives into the display.
+        let canonical: [(variants: [String], display: String)] = [
+            (["Brand Names", "Brand Name"], "Brand Names"),
+            (["Indication Specific Dosing", "Indication-Specific Dosing"], "Indication Specific Dosing"),
+            (["Contraindications And Precaution", "Contraindications And Precautions"], "Contraindications and Precautions"),
+            (["Pregnancy And Lactation"], "Pregnancy and Lactation"),
+            (["Interactions"], "Interactions"),
+            (["Adverse Reaction", "Adverse Reactions"], "Adverse Reactions"),
+            (["Description"], "Description"),
+            (["Mechanism Of Action"], "Mechanism of Action"),
+            (["Pharmacokinetics"], "Pharmacokinetics"),
+            (["Administration"], "Administration"),
+            (["Maximum Dosage Limits", "Maximum Dosage Limit"], "Maximum Dosage Limits"),
+            (["Dosage Forms"], "Dosage Forms"),
+            (["Dosage Adjustment Guidelines", "Dosage Adjustment Guideline"], "Dosage Adjustment Guidelines"),
         ]
+        func canonicalTitle(for header: String) -> String? {
+            let h = header.trimmingCharacters(in: .whitespaces)
+            for entry in canonical where entry.variants.contains(h) { return entry.display }
+            return nil
+        }
+        func isBoilerplate(_ line: String) -> Bool {
+            let t = line.trimmingCharacters(in: .whitespaces)
+            if t == "Close" { return true }
+            if t.hasPrefix("Drug Information Provided by Elsevier") { return true }
+            if t.hasPrefix("This information reflects approved US FDA") { return true }
+            return false
+        }
 
-        var currentHeader: String?
-        var currentContent = ""
-
+        var order: [String] = []
+        var content: [String: [String]] = [:]
+        var current: String?
         for line in lines {
             let trimmed = line.trimmingCharacters(in: .whitespaces)
-            if let header = sectionHeaders.first(where: { trimmed == $0 }) {
-                if let h = currentHeader {
-                    sections.append(DrugSection(title: h, content: currentContent.trimmingCharacters(in: .whitespacesAndNewlines)))
-                }
-                currentHeader = header
-                currentContent = ""
-            } else if currentHeader != nil {
-                currentContent += line + "\n"
+            if let title = canonicalTitle(for: trimmed) {
+                current = title
+                if content[title] == nil { order.append(title); content[title] = [] }
+            } else if let title = current, !isBoilerplate(trimmed) {
+                content[title]?.append(line)
             }
         }
 
-        if let h = currentHeader {
-            sections.append(DrugSection(title: h, content: currentContent.trimmingCharacters(in: .whitespacesAndNewlines)))
+        let sections: [DrugSection] = order.compactMap { title in
+            let body = (content[title] ?? []).joined(separator: "\n").trimmingCharacters(in: .whitespacesAndNewlines)
+            return body.isEmpty ? nil : DrugSection(title: title, content: body)
         }
 
         return DrugInfoParsed(summary: summary, sections: sections)

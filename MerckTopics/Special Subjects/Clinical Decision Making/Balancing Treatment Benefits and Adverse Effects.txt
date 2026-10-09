@@ -1,0 +1,26 @@
+=== Balancing Treatment Benefits and Adverse Effects (Merck Manual Professional) ===
+Section: Special Subjects > Clinical Decision Making
+Source: https://www.merckmanuals.com/professional/special-subjects/clinical-decision-making/balancing-treatment-benefits-and-adverse-effects
+Retrieved: 2026-09-25
+
+Whether or not a medication or other therapeutic intervention is indicated as treatment depends on the balance of its benefits and harms. In making such judgments, clinicians often consider factors that are somewhat subjective, such as personal experience, anecdotes, peer practices, expert opinions, and patient preferences.
+
+The number needed to treat (NNT) is a less subjective accounting of the likely benefits of a medication or any other intervention. NNT is the number of patients who need to be treated for 1 patient to benefit. For example, consider a treatment that decreases mortality of a certain disease from 10% to 5%, an absolute risk reduction of 5% (1 in 20). That means that of 100 patients, 90 would live even without treatment, and thus would not benefit from the medication. Also, 5 of the 100 patients will die even though they take the medication and thus also do not benefit. Only 5 of the 100 patients (1 in 20) benefit from the treatment; thus, 20 need to be treated for 1 to benefit, and the NNT is 20. NNT can be simply calculated as the inverse of the absolute risk reduction; if the absolute risk reduction is 5% (0.05), the NNT = 1/0.05 = 20. NNT can be calculated for adverse effects also, in which case it is sometimes called the number needed to harm (NNH).
+
+Importantly, NNT is based on changes in absolute risk; it cannot be calculated from changes in relative risk. Relative risk is the proportional difference between 2 risk levels. For example, a medication that decreases mortality from 10% to 5% decreases absolute mortality by 5% but decreases relative mortality by 50% (ie, a 5% death rate indicates 50% fewer deaths than a 10% death rate). Most often, benefits are reported in the literature as relative risk reductions because these make a treatment look more effective than the absolute risk reductions (in the previous example, a 50% reduction in mortality sounds much better than a 5% reduction). In contrast, adverse effects are usually reported as absolute risk increases because they make a medication appear safer. For example, if a medication increases the incidence of bleeding from 0.1% to 1%, the increase is more likely to be reported as 0.9% than 1000%.
+
+Pearls & Pitfalls
+
+Calculate the number needed to treat (NNT) based on absolute, rather than relative, changes in risks.
+
+When balancing NNT against NNH, it is important to weigh the magnitude of specific benefits and harms. For example, a given treatment that causes many more harms than benefits may be worth prescribing if those harms are minor (eg, reversible, mild) and the benefits are major (eg, preventing mortality or morbidity). In all cases, patient-oriented outcomes are best used.
+
+Genetic profiling is increasingly being used to identify subgroups of patients who are more susceptible to the benefits and adverse effects of some medications. For example, breast cancers can be analyzed for the HER2 genetic marker that predicts response to particular chemotherapy agents. Patients with HIV infection can be tested for the allele HLA-B*57:01, which predicts hypersensitivity to abacavir, reducing the incidence of hypersensitivity reactions and thus increasing NNH. Genetic variations in various drug-metabolizing enzymes help predict how patients respond to medications (see Pharmacogenetics) and also often affect the probability of benefit, harm, or both.
+
+Clinical Calculators
+
+Benefit Increase / Number Needed to Treat Multicalc
+
+Therapeutic index
+
+One goal in drug development is to have a large difference between the dose that is efficacious and the dose that causes adverse effects. A large difference is called a wide therapeutic index, therapeutic ratio, or therapeutic window. If the therapeutic index is narrow (eg, < 2), factors that are usually clinically inconsequential (eg, food-drug interactions, drug-drug interactions, small errors in dosing) can have harmful clinical effects. For example, warfarin has a narrow therapeutic index and interacts with many drugs (including medications) and foods. Insufficient anticoagulation increases the risk of complications resulting from the disorder being treated by anticoagulation (eg, increased risk of stroke in atrial fibrillation), whereas excessive anticoagulation increases risk of bleeding.

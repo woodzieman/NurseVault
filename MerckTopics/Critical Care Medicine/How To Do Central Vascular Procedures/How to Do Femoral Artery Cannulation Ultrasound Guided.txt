@@ -1,0 +1,372 @@
+=== How To Do Femoral Artery Cannulation (Ultrasound Guided) (Merck Manual Professional) ===
+Section: Critical Care Medicine > How To Do Central Vascular Procedures
+Source: https://www.merckmanuals.com/professional/critical-care-medicine/how-to-do-central-vascular-procedures/how-to-do-femoral-artery-cannulation-ultrasound-guided
+Retrieved: 2026-09-25
+
+Ultrasound (US) guidance should be used whenever equipment and trained personnel are available (1, 2). It is particularly helpful in cannulating nonpalpable arteries (eg, due to obesity or a small artery).
+
+(See also Vascular Access and Central Venous Catheterization.)
+
+Indications for Femoral Artery Cannulation, US-Guided
+
+Clinical indications and rationale:
+
+For continuous blood pressure measurement in refractory shock (non-invasive blood pressure [NIBP] monitoring is inaccurate in low-flow states and with high-dose vasopressor support) or perioperatively
+
+For maintaining mean arterial pressure (MAP) within a target range in shock that requires vasopressors.
+
+In respiratory failure (ARDS), for repeated arterial blood gas (ABG) measurement to monitor partial pressure of oxygen in arterial blood [PO2], partial pressure of carbon dioxide [PCO2], pH, and PaO2/FiO2 ratios
+
+For obtaining repeated blood samples for other laboratory tests
+
+In conjunction with advanced hemodynamic monitoring system platforms, with continuous pulse contour analysis of the arterial waveform to estimate stroke volume variation (SVV) and cardiac output (CO)
+
+Arterial cannulation is also used in settings of major fluid shifts or blood loss (eg, major surgery), hypothermia (including induced), angiography, therapeutic embolization, and hemorrhage.
+
+Central arterial access (femoral) is used when the radial arteries cannot be cannulated, when severe shock or high-dose vasopressors make a peripheral pulse or pressure unreliable, when a larger catheter is needed for advanced hemodynamic monitoring, or when the artery will also be used for mechanical circulatory support.
+
+Contraindications to Femoral Artery Cannulation, US-Guided
+
+Absolute contraindications:
+
+Untrained or inexperienced ultrasound operator
+
+Unsuitable artery: thrombosed, heavily atherosclerotic without a patent vessel, or inaccessible as seen by ultrasound
+
+Injury or suspected injury to the femoral or ipsilateral external iliac artery due to trauma
+
+An artery that is neither palpable nor detectable by ultrasound (ie, an arterial site should never be cannulated if no artery is evident)
+
+Inadequate circulation (eg, thromboangiitis obliterans)
+
+Local infection at the insertion site
+
+Antibiotic-impregnated catheter in a patient with an allergy to the specific antibiotic
+
+Relative contraindications:
+
+Coagulopathy, thrombocytopenia, or anticoagulant/antiplatelet medications*
+
+Local anatomic distortion, traumatic or congenital, or obesity
+
+History of prior surgery or catheterization of the intended site†
+
+Atherosclerosis/peripheral artery disease, including a heavily diseased but still patent vessel.
+
+Inadequate collateral flow
+
+Full-thickness burns
+
+Uncooperative patient (should be sedated if necessary)
+
+* Anticoagulant medications (eg, for atrial fibrillation) increase the risk of bleeding with femoral artery cannulation. Do not reverse anticoagulation solely to place the line; discuss any planned reversal with the clinician managing that therapy and with the patient. If bleeding risk is high, a radial artery is preferred because it is compressible against bone.
+
+† The femoral artery should be avoided after vascular bypass surgery (because of potential injury to the bypass graft) and in patients with distal vascular insufficiency (to avoid precipitating ischemia).
+
+Complications of Femoral Artery Cannulation, US-Guided
+
+Potential complications include:
+
+Hematoma
+
+Infection
+
+Damage to the artery
+
+Thrombosis (due to the catheter itself)
+
+Nerve damage
+
+Air embolism (eg, occurring during flushing of catheters) 
+
+Catheter misplacement
+
+Bladder or bowel perforation
+
+To reduce the risk of central line-associated bloodstream infection (CLABSI), femoral artery catheters should be removed as soon as they are no longer needed.
+
+Clinically important thrombosis and distal ischemia are uncommon after femoral arterial catheterization. Temporary occlusion is more often reported after cannulation of smaller distal arteries (3).
+
+Rare complications include limb ischemia and necrosis, pseudoaneurysm, and arteriovenous fistula. Guidewire, catheter, or cholesterol embolism also rarely occurs.
+
+Equipment for Femoral Artery Cannulation, US-Guided
+
+Sterile procedure, barrier protection
+
+Antiseptic solution (eg, chlorhexidine-alcohol, chlorhexidine, povidone-iodine, alcohol)
+
+Large sterile drapes, towels
+
+Sterile hats, masks, gowns, gloves
+
+Face shields
+
+Ultrasound guidance
+
+Ultrasound machine with a high-frequency (eg, 5 to 10 MHz), linear array probe (transducer)
+
+Ultrasound gel, nonsterile and sterile
+
+Sterile probe cover for probe and probe cord, and sterile rubber bands (alternatively, the probe may be placed within a sterile glove and the cord wrapped within a sterile drape)
+
+Seldinger (catheter-over-guidewire) technique
+
+Local anesthetic (eg, 1% lidocaine without epinephrine, approximately 5 mL)
+
+Small anesthetic needle (eg, 25 to 27 gauge, approximately 3 cm [1 inch] long)
+
+Large anesthetic needle (22 gauge, 4 cm [approximately 1.5 inches] long)
+
+Femoral artery introducer needle (eg, 18 gauge, 7 cm [approximately 2 7/8 inches] long)
+
+3- and 5-mL syringes (use slip-tip syringe for the introducer needle)
+
+Guidewire (30 cm long)
+
+Scalpel (#11 blade)
+
+Femoral arterial catheter (4 French [or 18 or 20 gauge] single lumen, ≥ 15 cm long [6 inches])
+
+Sterile gauze (eg, 10 × 10 cm [4 × 4 inch] squares)
+
+Sterile saline for flushing pressure tubing and arterial catheter
+
+Nonabsorbable nylon or silk suture (eg, 3-0 or 4-0)
+
+Chlorhexidine patch
+
+Transparent occlusive dressing
+
+Arterial pressure monitoring
+
+Arterial line tubing (noncompliant pressure tubing)
+
+Blood pressure transducer and monitor (oscilloscope)
+
+2 three-way stopcocks
+
+Continuous saline flush (0.5 or 1 L bag of normal saline, metered pump, and continuous flush device [permits simultaneous arterial pressure monitoring and slow saline drip to keep catheter patent])
+
+In contrast to the placement of central venous catheters, use of a tissue dilator is discouraged for femoral arterial catheterization, to prevent excess blood loss due to inadvertent arterial dilation or damage.
+
+Do not use catheter-over-needle or catheter-through-needle devices for femoral artery catheterization.
+
+Having 1 or 2 assistants is helpful.
+
+Additional Considerations
+
+The short-axis (cross-sectional, transverse) ultrasound view is easy to obtain and is the better view for identifying veins and arteries and their orientation to each other. Identifying a needle tip in cross section requires some skill because the needle appears as an echogenic (ie, white) dot and the tip can be distinguished only by the dot's disappearance and reappearance as the needle tip traverses back and forth across the imaging plane. The short-axis view typically is used to determine a suitable vascular puncture site and to guide steeply angled (eg, ≥ 45°) needle insertions.
+
+The long-axis (longitudinal, in-plane) ultrasound view is technically more difficult to obtain (must keep probe, artery, and needle in one plane), but it shows the needle longitudinally, so the entire needle—including the tip—can be imaged continuously as it approaches and enters the vessel; this continuous view helps avoid aberrant placement. The long-axis view is helpful when the angle of needle insertion is shallow (eg, in axillary/subclavian cannulations) and to affirm proper longitudinal needle alignment during short-axis insertions.
+
+If a second attempt at cannulation is necessary, use new equipment (ie, do not reuse needles, catheters, or other equipment because they may have become blocked with tissue or blood).
+
+During cardiopulmonary arrest, or even low blood pressure and hypoxia, arterial blood may be dark and not pulsatile and may be mistaken for venous blood.
+
+Relevant Anatomy for Femoral Artery Cannulation, US-Guided
+
+The femoral artery and vein are accessible within the femoral triangle, which is defined by the inguinal ligament superiorly, the adductor longus muscle medially, and the sartorius muscle laterally.
+
+The inguinal ligament is located subcutaneous to a line between the symphysis pubis and the anterior superior iliac spine.
+
+The mnemonic NAVEL serves as a useful guide to the lateral-to-medial orientation of structures in the femoral triangle: Nerve, Artery, Vein, Empty space, Lymphatics. 
+
+The femoral artery is imaged inferior to the midpoint of the inguinal ligament.
+
+The femoral vein is imaged medially adjacent to the artery. With increasing distance from the inguinal ligament, the vein runs under the artery. However, variant orientation of these vessels occurs regularly.
+
+The femoral nerve lies lateral to the artery.
+
+The femoral artery is large and lies deep. Cannulation requires a steep angle of needle insertion (45°) as well as longer and larger diameter needles and catheters and a catheter-over-guidewire (Seldinger) technique.
+
+The skin insertion site is influenced by both the imaging and the dimensions of the transducer tip.
+
+The desired point of femoral arterial puncture is proximal to its bifurcation into the superficial and deep femoral arteries and inferior to the inguinal ligament. Bleeding due to a through-and-through vascular puncture here can be controlled by externally compressing the vessels against the femoral head.
+
+The retroperitoneal space lies superior to the inguinal ligament. A through-and-through vascular puncture here can cause retroperitoneal bleeding, and external compression of the vessels may be impossible.  
+
+Vascular Anatomy of the Femoral Area
+
+3D Model
+
+Positioning for Femoral Artery Cannulation, US-Guided
+
+Raise the bed to a comfortable height for you (ie, so you may stand straight while doing the procedure).
+
+Place the patient supine.
+
+Abduct and externally rotate the leg.
+
+Retract a pannus or a urethral catheter, as appropriate, away from the inguinal area (using tape or an assistant if needed).
+
+Step-by-Step Description of Femoral Artery Cannulation, US-Guided
+
+Check that the ultrasound machine is configured and functioning correctly: Ensure that the screen image you are seeing correlates to the spatial orientation of the probe as you are holding and moving it. The side mark on the probe tip corresponds to the marker dot on the ultrasound screen. Adjust the screen settings and probe position if needed to attain an accurate left-right orientation.
+
+Do a nonsterile ultrasound inspection (ie, using an uncovered probe and nonsterile gel) of the femoral artery approximately 2.5 cm inferior to the inguinal ligament and determine whether the artery is suitable for cannulation. Use a short-axis (cross-sectional) view. Blood vessels are hypoechoic (appear black on the ultrasound screen). Arteries are generally smaller, thick-walled, and round (rather than thin-walled and ovoid) and are less easily compressed (by gentle pressure on overlying skin) than their paired veins.
+
+Use color Doppler mode to identify a patent lumen and spectral Doppler mode to identify pulsatile blood flow in the artery. Cannulate the femoral artery at a site of optimal short-axis imaging (ie, large-diameter cross section of the artery, with no overlying vein).
+
+Excess hair may be clipped but not shaved from the site. Shaving increases the risk of infection (4).
+
+Prepare the equipment
+
+Place sterile equipment on sterilely covered equipment trays.
+
+Use appropriate personal protective equipment.
+
+Draw the local anesthetic into a syringe.
+
+Attach the femoral artery introducer needle to a 5-mL syringe with 1 to 2 mL of sterile saline in it.
+
+Draw sterile saline into a 3- or 5-mL syringe to be used for flushes.
+
+Attach the transducer tubing to the blood pressure transducer and flush the tubing with sterile normal saline.
+
+Prepare the sterile field
+
+Swab a broad area of skin with antiseptic solution, from the anterior superior iliac spine to the midline and extending down 15 cm below the inguinal ligament.
+
+Allow the antiseptic solution to dry for at least 1 minute.
+
+Put on a sterile mask, hat, gown, and gloves.
+
+Place sterile towels around the site.
+
+Place large sterile drapes (eg, a full-body drape) to establish a large sterile field.
+
+Place a sterile cover over the ultrasound probe
+
+Direct your assistant (nonsterile) to coat the probe tip with nonsterile ultrasound gel and then hold the probe, with the tip pointing up, just outside the sterile field.
+
+Insert your gloved dominant hand into the sterile probe cover.
+
+Grasp the tip of the probe with your dominant hand (now covered by the probe cover).
+
+Use your gloved nondominant hand to unroll the sterile cover over the probe and completely down the cord. Do not touch the uncovered cord nor allow it to touch the sterile field as you unroll the cover.
+
+Pull the cover tightly over the probe tip to eliminate all air bubbles and ensure that the probe tip remains coated with ultrasound gel.
+
+Wrap sterile rubber bands around the probe to secure the cover in place.
+
+The covered probe may now rest on the sterile drapes.
+
+Anesthetize the cannulation site
+
+Apply sterile ultrasound gel to the covered probe tip.
+
+Use short-axis ultrasound guidance:
+
+Attain an optimal cross-sectional image of the femoral artery approximately 2.5 cm inferior to the inguinal ligament.
+
+Slide the probe transversely as needed to place the imaged artery at the center of the ultrasound screen. When the artery is centered on the ultrasound screen, the midpoint of the probe becomes a surface marker designating the luminal center of the underlying artery.
+
+Keep the probe in this spot.
+
+On the ultrasound screen, measure the depth to the center of the artery. When using short-axis ultrasound guidance, insert procedural needles (local anesthetic and introducer needles) into the skin at a point distal and perpendicular to the midpoint of the probe by the same distance as the arterial depth. Then, initially advance the needle into the skin at a 45° angle directed toward the midpoint of the probe. Keep gentle negative pressure on the syringe plunger as you advance.
+
+Place a wheal of anesthetic at the needle entry point and then inject anesthetic into the skin and soft tissues along the 45° path leading toward the artery.
+
+Slightly tilt the probe fore and aft as you advance the anesthetic needle to continually identify the needle tip and keep it safely distant from the artery and vein.
+
+Insert the femoral artery introducer needle using ultrasound guidance
+
+Continue to use short-axis ultrasound guidance (as described for the local anesthetic injection).
+
+Insert the introducer needle (with needle bevel facing up).
+
+Advance the needle while aspirating.
+
+Maintain ultrasound visualization of the needle tip as you advance by continually tilting the probe slightly fore and aft (the needle tip appears and disappears as the ultrasound plane sweeps back and forth over it).
+
+If the needle tip strays from the artery, adjust the lateral direction of the needle to keep the needle tip above the center of the artery. If the needle tip is approaching the artery too shallowly, withdraw the needle a bit, increase the angle of insertion, and re-advance.
+
+As the needle tip approaches the artery, modulate your speed and angle of insertion so the needle will enter with as much control as possible. The superficial wall of the artery will indent when the needle tip encounters it. The needle then pops through the wall to enter the lumen, accompanied by a flash of bright red blood (if normally oxygenated) in the barrel of the syringe.
+
+Hold the syringe motionless in this spot and visualize the tip of the needle at all times. Displacement is common, and even a slight movement may displace the needle tip from the artery.
+
+Remove the syringe from the needle using your dominant hand. Note the flow of pulsatile bright red blood.
+
+Then immediately put your thumb over the hub of the needle to stop the blood flow (which can be profuse from an arterial cannulation) and to prevent air from entering the arterial system.
+
+Optional: If the accessible femoral arterial segment is long enough to accommodate the long axis of the probe, you may prefer to use the short-axis (cross-section) view first to aim the needle at the artery and then rotate the probe 90° to attain the long-axis (in-plane, longitudinal) view of the needle and artery, which provides better imaging of the arterial puncture. Move the probe as needed to keep both the needle and the artery in sight (in-plane). Press lightly with the probe tip so the artery remains under the tip and does not roll to the side.
+
+Insert the guidewire
+
+Continue to hold the introducer needle motionless.
+
+Insert the J-curved end of the guidewire into the introducer needle with the J curve facing up. You may use ultrasound guidance (either short- or long-axis) to verify the guidewire entering the artery.
+
+Advance the guidewire through the introducer needle and artery. Do not force the guidewire; it should slide smoothly. Under long-axis ultrasound guidance, you may carefully flatten the needle insertion angle while keeping the needle tip within the artery, which facilitates passage of the wire. Advance the guidewire until at least approximately 8 to 10 cm is within the vessel.
+
+Do not let go of the guidewire at any time. While rare, iatrogenic embolization of the guidewire can occur (5).
+
+Once the guidewire has been inserted, it is important to continue to hold it securely in place with one hand and maintain control of it throughout the remainder of the procedure.
+
+If you feel any resistance as you advance the guidewire, stop and use ultrasound guidance to check the position of the guidewire and the needle. Try to gently withdraw the guidewire slightly, rotate it slightly, and then re-advance it, or try to gently withdraw the guidewire entirely, reestablish the needle tip within the artery (confirmed by venous blood return), and then reinsert the guidewire.
+
+However, if you feel any resistance as you withdraw the guidewire, terminate the procedure and withdraw the needle and guidewire together as a unit (to prevent the needle tip from shearing through the guidewire and leaving a fragment within the patient). Then use gauze squares for 10 minutes to hold external pressure on the area to help prevent bleeding and hematoma.
+
+Ultrasound-Guided Insertion of...
+
+video
+
+Remove the introducer needle (after successful guidewire insertion)
+
+First, securely hold the guidewire distal to the needle as you pull the needle from the skin.
+
+Then, securely hold the guidewire at the skin surface as you slide the needle down the remaining length of the guidewire to remove the needle.
+
+Once the needle has been removed, repeat ultrasound imaging of the artery in both a transverse and longitudinal plane to confirm placement of the guidewire in the artery.
+
+Extend the skin insertion site
+
+Using the scalpel, make a small stab incision (< 5 mm) into the skin insertion site, avoiding contact with the guidewire, to enlarge the site and allow it to accommodate the larger diameter of the femoral arterial catheter. Do not let go of the guidewire.
+
+Place the catheter
+
+Advance the catheter over the guidewire to the skin surface: Hold the guidewire fixed at the skin surface, thread the catheter tip over the distal end of the guidewire, and slide the catheter down to the skin surface at a 45° angle. The distal end of the guidewire should now be protruding from the port hub.
+
+If the distal end of the guidewire is not protruding from the port hub, incrementally advance the guidewire outward from the skin surface while holding the catheter tip close to the surface until the guidewire protrudes.
+
+To advance the catheter into the artery, grasp and control the guidewire where it protrudes from the hub. Hold the catheter near its tip and insert the tip through the skin. Then, using a corkscrew motion as necessary, incrementally advance the entire length of the femoral arterial catheter.
+
+Use ultrasound to verify intra-arterial placement of the catheter.
+
+Maintain your grasp on both the guidewire and the catheter.
+
+Remove the guidewire: Withdraw the guidewire while holding the catheter securely in place at the skin surface. You should see pulsatile bleeding from the catheter. Cover the hub with your thumb.
+
+Attach the arterial pressure transducer tubing (pre-flushed with saline) to the catheter hub and verify an arterial pressure waveform on the monitor screen.
+
+For accurate arterial catheter pressure measurements, ensure that the stopcock on the transducer is appropriately leveled to the heart (phlebostatic axis of the patient, which is the intersection of the fourth intercostal space and the midaxillary line).
+
+Dress the site
+
+If the patient is awake or minimally sedated, use 1% lidocaine to anesthetize the skin at the planned suture locations.
+
+Place a chlorhexidine-impregnated disk on the skin at the catheter insertion point.
+
+Suture the skin to the mounting clip on the catheter.
+
+Apply a sterile occlusive dressing. Transparent membrane dressings are commonly used.
+
+Warning and Common Errors of Femoral Artery Cannulation, US-Guided
+
+Never lose grasp of the guidewire.
+
+During cardiopulmonary arrest, or even low blood pressure and hypoxia, arterial blood may be dark and not pulsatile and may be mistaken for venous blood.
+
+To help prevent air embolism, femoral vascular catheters (arterial or venous) should be removed with the vascular cannulation site positioned superior to the heart, and the patient should be instructed to perform a Valsalva maneuver if possible.
+
+References
+
+1. Lazaar S, Mazaud A, Delsuc C, et al. Ultrasound guidance for urgent arterial and venous catheterisation: randomised controlled study. Br J Anaesth. 2021;127(6):871-878. doi:10.1016/j.bja.2021.07.023
+
+2. Vegas A, Wells B, Braum P, et al. Guidelines for Performing Ultrasound-Guided Vascular Cannulation: Recommendations of the American Society of Echocardiography. J Am Soc Echocardiogr. 2025;38(2):57-91. doi:10.1016/j.echo.2024.12.004
+
+3. Scheer B, Perel A, Pfeiffer UJ. Clinical review: complications and risk factors of peripheral arterial catheters used for haemodynamic monitoring in anaesthesia and intensive care medicine. Crit Care. 2002;6(3):199-204. doi:10.1186/cc1489
+
+4. Allegranzi B, Bischoff P, de Jonge S, et al. New WHO recommendations on preoperative measures for surgical site infection prevention: an evidence-based global perspective. Lancet Infect Dis. 2016;16(12):e276-e287. doi:10.1016/S1473-3099(16)30398-X
+
+5. Carroll MI, Ahanchi SS, Kim JH, Panneton JM. Endovascular foreign body retrieval. J Vasc Surg. 2013;57(2):459-463. doi:10.1016/j.jvs.2012.01.092

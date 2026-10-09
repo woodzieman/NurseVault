@@ -43,8 +43,17 @@ public enum FileSupport {
         do {
             // Check the size before reading so oversized files (common in
             // folder imports) are rejected without a full file read.
-            if let size = try? url.resourceValues(forKeys: [.fileSizeKey]).fileSize,
-               size > Int64(maxFileBytes) {
+            let size: Int64? = {
+                if let s = try? url.resourceValues(forKeys: [.fileSizeKey]).fileSize {
+                    return Int64(s)
+                }
+                if let attrs = try? FileManager.default.attributesOfItem(atPath: url.path),
+                   let s = attrs[.size] as? NSNumber {
+                    return s.int64Value
+                }
+                return nil
+            }()
+            if let size, size > Int64(maxFileBytes) {
                 throw VaultImportError.fileTooLarge(maxMB: maxFileBytes / (1024 * 1024))
             }
             let data = try Data(contentsOf: url)

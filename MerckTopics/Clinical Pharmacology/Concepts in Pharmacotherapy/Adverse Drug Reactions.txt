@@ -1,0 +1,192 @@
+=== Adverse Drug Reactions (Merck Manual Professional) ===
+Section: Clinical Pharmacology > Concepts in Pharmacotherapy
+Source: https://www.merckmanuals.com/professional/clinical-pharmacology/concepts-in-pharmacotherapy/adverse-drug-reactions
+Retrieved: 2026-09-25
+
+In the United States from 2011 to 2024, more than 29 million adverse drug reactions (ADRs) were reported through the FDA Adverse Events Reporting System (FAERS) (1) (see figure FAERS Adverse Events Reporting System). Approximately 3 to 6% of hospital admissions in the United States and 2.5 to 10.6% of admissions in Europe are due to ADRs (2). In low- and middle-income countries, approximately 134 million ADRs occur annually, resulting in 2.6 million deaths.
+
+All medications have the potential for adverse drug reactions (ADRs), and thus, the balance of benefits and risks should be considered whenever a medication is prescribed. ADRs can range from mild to severe. Serious adverse events are those that can cause disability, are life-threatening, result in hospitalization or death, or are congenital anomalies.
+
+The commonly used term side effect is imprecise, often used to refer to the unintended effects of a medication that occur within the medication's therapeutic range.
+
+FDA Adverse Events Reporting System (FAERS) Public Dashboard
+
+Image
+
+This image shows adverse events (AE) reports received by the FDA from 1999 to 2024. Data shown are as of September 30, 2024.
+
+The report types are as follows:
+
+Direct reports: Voluntarily submitted by consumers and health care professionals directly to the FDA via the MedWatch program
+
+Expedited reports: Submitted by manufacturers and have ≥ 1 AE that is not currently described in the product labeling and that resulted in a serious outcome for the patient
+
+Non-expedited reports: Submitted by manufacturers and do not meet the criteria for expedited reports (including adverse events that are reported as expected, nonserious and unexpected, and nonserious and expected)
+
+Biologic safety reports (BSR): Submitted to the FDA as a separate report type involving vaccines and blood products until 2005
+
+Image from the U.S. Food and Drug Administration (FDA).
+
+References
+
+1. FDA Adverse Event Reporting System (FAERS). Public Dashboard, Database and Questions and Answers on FDA's Adverse Event Reporting System (FAERS). Accessed March 4, 2025.
+
+2. Chenchula S, Atal S, Uppugunduri CRS. A review of real-world evidence on preemptive pharmacogenomic testing for preventing adverse drug reactions: a reality for future health care. Pharmacogenomics J. 2024;24(2):9. Published 2024 Mar 15. doi:10.1038/s41397-024-00326-1
+
+Classification of Adverse Drug Reactions
+
+There are various causes, clinical manifestations, and outcomes of ADRs. One classification system categorizes ADRs into 6 types (1):
+
+Type A, intrinsic (also called augmented): Related to the predictable pharmacological actions of a drug; dose-related and typically reversible with decreasing dose or discontinuing the drug; common (eg, hypotension with use of antihypertensives)
+
+Type B, idiosyncratic (also called bizarre): Unpredictable and not related to the dose; uncommon (eg, hypersensitivity reactions, Stevens-Johnson syndrome, malignant hyperthermia with general anesthetics)
+
+Type C, chronic: Occur due to prolonged use of a drug; related to cumulative dose (eg, adrenal suppression with long-term corticosteroid use, jaw osteonecrosis with bisphosphonates)
+
+Type D, delayed: Occurs or becomes apparent some time after the use of the drug; usually dose-related; uncommon (eg, teratogenic effects, carcinogenesis)
+
+Type E, withdrawal: Occurs soon after discontinuation of the drug (eg, withdrawal from opioids)
+
+Type F, failure: Unexpected failure of therapy; may be caused by drug interactions; dose-related; common (eg, reduced efficacy or oral contraceptive used concurrently with rifampin)
+
+Dose-related ADRs are particularly a concern when medications have a narrow therapeutic index (eg, hemorrhage with oral anticoagulants). ADRs may result from decreased drug clearance in patients with impaired renal or hepatic function or from drug-drug interactions.
+
+ADRs can be considered to be a form of toxicity; however, toxicity is usually used to describe the effects of overingestion (accidental or intentional) of a drug or to elevated blood levels or enhanced drug effects that occur during appropriate use of a medication (eg, when drug metabolism is temporarily inhibited by a medical condition or another medication).
+
+ADRs caused by drug hypersensitivity are not dose-related and require prior exposure. Allergies develop when a drug acts as an antigen or allergen. After a patient is sensitized, subsequent exposure to the drug produces one of several different types of allergic reaction. Clinical history and appropriate skin tests can sometimes help predict allergic ADRs.
+
+ADRs are usually classified as mild, moderate, severe, or lethal (see table Classification of Adverse Drug Reactions). Severe or lethal ADRs may be specifically mentioned in black box warnings in the physician prescribing information provided by the manufacturer.
+
+Classification reference
+
+1. Schatz SN, Weber RJ. (2015) Adverse Drug Reactions. In: Lee MW and Murphy JE, Eds., PSAP 2015 Book 2 CNS/Pharmacy Practice, American College of Clinical Pharmacy, Lenexa, 5-26.
+
+Risk Factors for Adverse Drug Reactions
+
+Incidence and severity of ADRs vary by patient characteristics (eg, age, sex, ethnicity, coexisting disorders, genetic or geographic factors) and by characteristics of the medication (eg, type of medication, route of administration, dosage, bioavailability, treatment duration). Risk is higher in older adults and with polypharmacy. The contribution of prescription errors by prescribers and poor adherence by patients to the prescribed drug regimen to the incidence of ADRs is unclear.
+
+Common risk factors or high-risk patient populations include (1):
+
+Older adults
+
+Children
+
+Renal or hepatic impairment
+
+Genetic variations (eg, genetic variants that cause abacavir hypersensitivity)
+
+The incidence and severity of ADRs are higher among older adults (see Drug-Related Problems in Older Adults) although comorbidities, rather than age, may be the primary cause. Fatal ADRs occur mainly in patients older than 75 years of age, according to the World Health Organization's pharmacovigilance database (2). According to the United States' National Electronic Injury Surveillance system, therapeutic use of anticoagulants and diabetes medications were the most common ADR-related cause of emergency department visits in older adults (3). Nontherapeutic use of sedative and hypnotic medications such as benzodiazepines and analgesics also contributed to drug-related harm.
+
+Risk factors references
+
+1. Schatz SN, Weber RJ. (2015) Adverse Drug Reactions. In: Lee MW and Murphy JE, Eds., PSAP 2015 Book 2 CNS/Pharmacy Practice, American College of Clinical Pharmacy, Lenexa, 5-26.
+
+2. Montastruc J-L, Lafaurie M, de Canecaude C, et al. Fatal adverse drug reactions: A worldwide perspective in the World Health Organization pharmacovigilance database. Br J Clin Pharmacol. 87(11):4334-4340, 2021. doi: 10.1111/bcp.14851
+
+3. Budnitz DS, Shehab N, Lovegrove MC, et al. US emergency department visits attributed to medication harms, 2017-2019. JAMA. 326 (13):1-11, 2021. doi: 10.1001/jama.2021.13844
+
+Symptoms and Signs of Adverse Drug Reactions
+
+Symptoms and signs may manifest soon after the first dose or only after a delay or with chronic use. They may obviously result from the drug or be too subtle to identify as related to a specific drug.
+
+Allergic ADRs typically do not occur after first-ever use of a drug. If hypersensitivity develops, an ADR may occur soon after a drug is taken with subsequent use. Symptoms can include itching, rash, fixed-drug eruption, upper or lower airway edema with difficulty breathing, and/or hypotension.
+
+In older adults, subtle ADRs can cause functional deterioration, changes in mental status, failure to thrive, loss of appetite, confusion, and depression.
+
+Diagnosis of Adverse Drug Reactions
+
+History and physical examination
+
+Consideration of rechallenge
+
+Symptoms that occur soon after a medication is taken are often easily connected with use of that medication. If patients develop nonspecific symptoms, ADRs should always be considered before beginning symptomatic treatment.
+
+Diagnosing symptoms due to chronic use of a medication requires a significant level of suspicion and is often complicated. Stopping a medication is sometimes necessary but is difficult if the medication is essential and does not have an acceptable substitute. When proof of the relationship between medication and symptoms is important, rechallenge should be considered, except in the case of serious allergic reactions.
+
+For information on the diagnosis of some specific ADRs, see drug hypersensitivity, drug skin eruptions, and anaphylaxis.
+
+Health care professionals in the United States should report most suspected ADRs to MedWatch (the U.S. Food and Drug Administration's [FDA’s] ADR monitoring program), which is an early alert system. MedWatch also monitors changes in the nature and frequency of ADRs. Online reporting of ADRs is encouraged. Forms for and information about reporting ADRs are available through the FDA Adverse Event Reporting System (FAERS). FAERS also functions as a search tool that facilitates access to data about ADRs.
+
+Treatment of Adverse Drug Reactions
+
+Discontinuation of drug, if necessary
+
+Modification of dosage
+
+For dose-related ADRs, modifying the dose or eliminating or reducing precipitating factors may result in resolution. Increasing the rate of drug elimination is rarely necessary. For information on toxicity of specific medications and substances, see the table Symptoms and Treatment of Specific Poisons.
+
+For drug hypersensitivity, the medication usually should be discontinued and not tried again in most patients. Switching to a different drug class is often required for allergic ADRs and sometimes required for dose-related ADRs. In certain clinical contexts, a drug is the best or only available treatment option, and premedication with antihistamines or corticosteroids (eg, prior to administering chemotherapy to a patient with a hypersensitivity to a particular drug or class of drugs) or desensitization (eg, treatment of syphilis in a pregnant patient with a penicillin allergy) may be recommended.
+
+For information on the treatment of some specific ADRs, see drug hypersensitivity, drug skin eruptions, and anaphylaxis.
+
+Prevention of Adverse Drug Reactions
+
+Prevention of adverse drug reactions (ADRs) requires familiarity with the medication and potential reactions to it. Many causes of ADRs are preventable (see Preventable Causes of Drug-Related Problems.)
+
+Table
+
+Preventable Causes of Drug-Related Problems
+
+Table
+
+Preventable Causes of Drug-Related Problems
+
+Preventable Causes of Drug-Related Problems
+
+Category
+
+Definition
+
+Drug interactions
+
+Use of a drug results in a drug-drug, drug-food, drug-supplement, or drug-disease interaction, leading to adverse effects or decreased efficacy.
+
+Inadequate monitoring
+
+A medical problem is being treated with the correct medication, but the patient is not adequately monitored for complications, effectiveness, or both.
+
+Inappropriate drug selection
+
+A medical problem that requires drug therapy is being treated with a less-than-optimal or ineffective medication for the medical problem.
+
+Inappropriate treatment
+
+A patient is taking a drug for no medically valid reason, or the treatment risks outweigh the potential benefits of the drug.
+
+Lack of patient adherence
+
+The correct medication for a medical problem is prescribed, but the patient is not taking it as directed.
+
+Overdosage
+
+A medical problem is being treated with too much of the correct medication.
+
+Poor communication
+
+Medications are inappropriately dosed, duplicated, continued, or stopped when care is poorly transitioned between providers and/or facilities.
+
+Underprescribing
+
+A medical problem is being treated with too little of the correct medication.
+
+Reporting systems for ADRs (eg, FAERS) provide information to clinicians, patients, regulatory authorities, and manufacturers that may help to avoid subsequent ADRs.
+
+When medications are prescribed through electronic medical record systems, drug-drug interactions can be identified and prevented. In addition, many drug interaction calculators are available online. Similarly, pharmacies often have digital systems to check for drug interactions before dispensing medications.
+
+Medications and initial dosage must be carefully selected for older adults (1 ). In children, many medications are dosed by weight, and weight should be measured before prescribing a new medication.
+
+Various genes have been found to be associated with ADRs. For example, multiple liver enzymes that affect liver metabolism of cytochrome P450 have been characterized, and many are affected by single nucleotide polymorphisms, leading to clinically meaningful effects on the metabolism of a wide range of commonly prescribed medications. Therefore, pharmacogenomic testing may help to predict, reduce, and minimize ADRs (2, 3, 4). A preemptive pharmacogenomic testing trial for preventing ADRs demonstrated a 33% lower risk of ADRs in patients with genetic testing compared to standard care (5 ). However, only a limited number of such tests are used in routine clinical practice (eg, genotype-guided warfarin therapy [6]).
+
+Prevention references
+
+1. 2023 American Geriatrics Society Beers Criteria® Update Expert Panel. American Geriatrics Society 2023 updated AGS Beers Criteria® for potentially inappropriate medication use in older adults. J Am Geriatr Soc. 2023; 71(7): 2052-2081. doi:10.1111/jgs.18372
+
+2. Zhou Z-W, Chen X-W, Sneed KB, et al. Clinical association between pharmacogenomics and adverse drug reactions. Drugs.75:589-631, 2015. doi: 10.1007/s40265-015-0375-0
+
+3. Gerogianni K, Tsezou A, Dimas K. Drug-induced skin adverse reactions: The role of pharmacogenomics in their prevention. Mol Diagn Ther. 22(3): 297-314, 2018. doi: 10.1007/s40291-018-0330-3
+
+4. Micaglio E, Locati ET, Monasky MM, et al. Role of pharmacogenetics in adverse drug reactions: An update towards personalized medicine. Front Pharmacol. 12:651720, 2021 https://doi.org/10.3389/fphar.2021.651720
+
+5. Chenchula S, Atal S, Uppugunduri CRS. A review of real-world evidence on preemptive pharmacogenomic testing for preventing adverse drug reactions: a reality for future health care. Pharmacogenomics J. 2024;24(2):9. Published 2024 Mar 15. doi:10.1038/s41397-024-00326-1
+
+6. Bardolia C, Matos A, Michaud V, et al. Utilizing pharmacogenomics to educe adverse drug events. Am J Biomed Sci & Res. 11(3). doi: 10.34297/AJBSR.2020.11.00163

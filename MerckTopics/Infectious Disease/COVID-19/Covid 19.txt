@@ -1,0 +1,536 @@
+=== COVID-19 (Merck Manual Professional) ===
+Section: Infectious Disease > COVID-19
+Source: https://www.merckmanuals.com/professional/infectious-diseases/covid-19/covid-19
+Retrieved: 2026-09-25
+
+SARS-CoV-2
+
+3D Model
+
+COVID-19 was first reported in late 2019 in Wuhan, China, and declared a pandemic by the World Health Organization (WHO) in March 2020. It is caused by SARS-CoV-2, a coronavirus discovered in 2019.
+
+One Health: Zoonotic Diseases
+
+video
+
+SARS-CoV-2 exhibits bidirectional zoonotic potential. The virus is believed to have originated in bats, its natural reservoir host, with spillover to intermediate animal species such as raccoons, dogs, and pangolins. Reverse zoonosis (transmission from humans to animals) has also been documented in multiple species. For further information on related veterinary disease, see SARS-CoV-2 Infection in Animals.
+
+SARS-CoV-2 infection causes a spectrum of severity of disease, ranging from asymptomatic to acute respiratory failure and death. Risk factors for severe disease include older age, immunocompromise, comorbidities (eg, diabetes, chronic kidney disease), and pregnancy. Vaccines have shown to be somewhat effective in preventing transmission and very effective in preventing severe disease and mortality.
+
+For current information on the number of cases and fatalities, see the Centers for Disease Control and Prevention (CDC): COVID Surveillance and Data Analytics and the WHO: COVID-19 Dashboard.
+
+Transmission of COVID-19
+
+SARS-CoV-2 spreads by close person-to-person contact, mainly via respiratory droplets produced when an infected person coughs, sneezes, sings, exercises, or talks. Large respiratory droplets can travel short distances and land directly on mucosal surfaces or small respiratory particle aerosols can linger in air for several hours and travel longer distances (approximately > 6 feet [2 meters]) before being inhaled. Viral spread may also occur via contact with surfaces contaminated by respiratory secretions (fomites); eg, if a person touches a contaminated surface and then touches a mucous membrane such as their eyes, nose, or mouth.
+
+SARS-CoV-2 spreads easily between people. The risk of transmission is directly related to the amount of virus to which a person is exposed. In general, the closer and longer the interaction with an infected person, the higher the risk of virus spread. Both asymptomatic and symptomatic patients can transmit the virus, making it difficult to control spread. A symptomatic person is most contagious for several days before and after symptom onset, at which time the viral load in respiratory secretions is greatest.
+
+Factors such as distance from infected people, the number of infected people in a room, the duration of time spent with infected people, the size of the air space, aerosol-generating activity (eg, singing, shouting, exercising), ventilation in the location, and the direction and speed of airflow can contribute to the risk of viral transmission.
+
+Genetic variants of SARS-CoV-2 emerge as it evolves. Variants with the potential for increased transmissibility, more severe disease, diagnostic detection failures, or reduced response to available treatments and/or vaccines are tracked by epidemiologists as Variants of Concern and are commonly referred to by their WHO-designated Greek alphabet label or their Pango lineage number. A genetic mutation that confers a fitness advantage, namely increased transmissibility, can rapidly replace previously circulating variants. The progression of dominant SARS-CoV-2 variants worldwide has evolved significantly from the original strains. The early phases of the pandemic were defined by the Alpha, Beta, Delta, and original Omicron variants. Since mid-2025, worldwide transmission has been dominated by recombinant Omicron descendants, primarily XFG (Stratus) and NB.1.8.1 (Nimbus). As of early 2026, a divergent Omicron descendant, BA.3.2 (Cicada) has been reported in 23 countries. Limited emerging data do not suggest additional public health risks relative to the other variants in circulation (1–4). (See also CDC: Variants and Genomic Surveillance.)
+
+Social determinants of health impact a wide range of health risks and outcomes, such as exposure to SARS-CoV-2 infection, severe COVID-19, and death, as well as access to testing, vaccination, and treatment. In the United States, the numbers of COVID-19 cases, hospitalizations, and deaths were initially higher in some racial and ethnic minority groups, including among people who are Black, Hispanic or Latino, American Indian, and Alaska Native, but have become similar among all ethnic and minority groups since 2024.
+
+For people with COVID-19 infection, isolation and precaution measures are recommended in an attempt to limit the spread of SARS-CoV-2. (See also CDC: Preventing Spread of Respiratory Viruses When You’re Sick.) For people exposed to SARS-CoV-2, precautions such as hand hygiene and masking are recommended to help reduce the risk of spreading the virus. (See also CDC: Preventing Respiratory Illnesses.) For specific isolation recommendations, see Precautions to prevent transmission from a person with COVID-19 infection.
+
+Transmission references
+
+1. WHO Team Technical Advisory Group on Virus Evolution (TAG-VE). WHO TAG-VE Risk Evaluation for SARS-CoV-2 Variant Under Monitoring: NB.1.8.1. May 23, 2025. Accessed July 7, 2026.
+
+2. WHO Team Technical Advisory Group on Virus Evolution (TAG-VE). WHO TAG-VE Risk Evaluation for SARS-CoV-2 Variant Under Monitoring: XFG . June 25, 2025. Accessed July 7, 2026.
+
+3. WHO Team Technical Advisory Group on Virus Evolution (TAG-VE). WHO TAG-VE Risk Evaluation for SARS-CoV-2 Variant Under Monitoring: BA.3.2. December 5, 2025. Accessed July 7, 2026.
+
+4. Shakya M, Ma KC, Hughes LJ, et al. Early Detection and Surveillance of the SARS-CoV-2 Variant BA.3.2—Worldwide, November 2024–February 2026. MMWR Morb Mortal Wkly Rep. 2026;75:130-37. doi:10.15585/mmwr.mm7510a1
+
+Symptoms and Signs of COVID-19
+
+The severity and constellation of symptoms vary in people with COVID-19. Some have few to no symptoms, and some become severely ill and die. Symptoms may include:
+
+Fever
+
+Cough
+
+Sore throat
+
+Congestion or rhinorrhea
+
+Dyspnea or difficulty breathing
+
+Chills or repeated shaking with chills
+
+New loss of smell or taste
+
+Fatigue
+
+Myalgias
+
+Headache
+
+Nausea or vomiting
+
+Diarrhea
+
+The incubation period typically ranges from 2 to 10 days, but many of the newer variants have a shorter incubation period; the estimated range for the Omicron variant is 2 to 4 days (1). Many infected people have no symptoms or have only mild disease; the likelihood of this varies depending on the SARS-CoV-2 variant and person's risk of severe disease, including COVID immunization status.
+
+Severe disease is characterized by dyspnea, hypoxia, and extensive lung involvement on imaging. Severe disease can progress to respiratory failure requiring mechanical ventilation, shock, multiorgan failure, and death.
+
+Factors associated with high risk of progression to severe disease
+
+Patients may be considered high risk if they have 1 factor associated with high risk of progression to severe disease. High-risk factors for progression to severe disease and death include immunocompromise due to the following (2):  
+
+Age over 75 years
+
+Congenital agammaglobulinemia
+
+Graft-vs-host disease
+
+Hematologic cancer
+
+HIV infection with CD4 count < 200 cells/mcL
+
+Other severe primary immunodeficiency
+
+Peripheral B cell level < 1% (assessed in the past 6 months)
+
+Solid organ transplant
+
+Solid tumor treated with immunosuppressive therapy within the past year
+
+Stem cell transplant performed < 2 years ago
+
+Therapeutics that predispose to substantial immunosuppression, including:
+
+B-cell–depleting agents in the past 12 months (eg, rituximab, ofatumumab, ocrelizumab)
+
+CAR-T-cell therapy in the past 12 months
+
+Abatacept
+
+Tyrosine kinase inhibitors (eg, ibrutinib, acalabrutinib)
+
+High-dose glucocorticoids (> 20 mg prednisone or equivalent for > 4 weeks)
+
+Anthracycline derivatives
+
+Factors associated with increased (but not high) risk of progression to severe disease
+
+Patients may be considered at increased risk of severe COVID-19 disease or death if they have several factors associated with increased risk of progression, including (2):  
+
+Age 65 to 74 years
+
+Cancer
+
+Chronic heart, lung, kidney, or liver disease
+
+Cerebrovascular disease or stroke
+
+Dementia
+
+Diabetes
+
+HIV infection with CD4 > 200 cells/mcL
+
+Inflammatory bowel disease
+
+Obesity
+
+Parkinson disease
+
+Physical inactivity
+
+Pregnancy (up to 42 days after delivery)
+
+Smoking history
+
+Solid tumors treated with immunosuppressives> 12 months before SARS-CoV-2 exposure
+
+Some mental health conditions (eg, depression, schizophrenia)
+
+Some types of disabilities (eg, Down syndrome, certain birth defects)
+
+Substance use disorder
+
+Tuberculosis
+
+Vaccination lowers the risk of severe illness for all age groups. People who become infected with SARS-CoV-2 and who have been vaccinated against COVID-19 can be asymptomatic or have fewer and less severe symptoms that resolve at a much faster rate compared to unvaccinated people.
+
+Complications
+
+In addition to respiratory disease that can progress to acute respiratory distress syndrome (ARDS) and death, other serious complications include the following:
+
+Heart disorders, including arrhythmias, cardiomyopathy, and acute cardiac injury
+
+Coagulation disorders, including thromboembolism and pulmonary emboli, disseminated intravascular coagulation (DIC), hemorrhage, and arterial clot formation
+
+Sepsis, shock, and multiorgan failure
+
+Guillain-Barré syndrome (rare)
+
+Multisystem inflammatory syndrome in children (MIS-C) is a postinfectious inflammatory syndrome that has been observed as a rare complication of SARS-CoV-2 infection. It has features similar to Kawasaki disease and toxic shock syndrome. Children with MIS-C most commonly present with fever, tachycardia, signs of systemic inflammation, and multisystem involvement (eg, cardiac, gastrointestinal, renal) 2 to 6 months after a generally mild or even asymptomatic SARS-CoV-2 infection. See table Criteria for Diagnosis of Multisystem Inflammatory Syndrome in Children (MIS-C).
+
+Table
+
+Criteria for Diagnosis of Multisystem Inflammatory Syndrome in Children (MIS-C)
+
+Table
+
+Criteria for Diagnosis of Multisystem Inflammatory Syndrome in Children (MIS-C)
+
+Criteria for Diagnosis of Multisystem Inflammatory Syndrome in Children (MIS-C)
+
+Cases that meet all of the following criteria for MIS-C should be reported to local, state, or territorial health departments.
+
+People < 21 years old with fever > 24 hours
+
+Clinical severity requiring hospitalization or resulting in death
+
+Evidence of systemic inflammation (C-reactive protein > 3.0 mg/dL)
+
+New-onset manifestations in ≥ 2 of the following categories:
+
+Cardiac:
+
+Left ventricular ejection fraction < 55%
+
+or
+
+Coronary artery dilatation, aneurysm, ectasia
+
+or
+
+Troponin level above normal laboratory range
+
+Mucocutaneous:
+
+Rash
+
+or
+
+Inflammation of the oral mucosa (eg, mucosal erythema or swelling, drying or fissuring of the lips, strawberry tongue)
+
+or
+
+Conjunctivitis or conjunctival injection
+
+or
+
+Extremity findings (eg, erythema or edema of the hands or feet)
+
+Shock
+
+Gastrointestinal:
+
+Abdominal pain, vomiting, or diarrhea
+
+Hematologic:
+
+Platelet count < 150,000 cells/mcL
+
+or
+
+Absolute lymphocyte count < 1,000 cells/mcL
+
+Laboratory identification of SARS-CoV-2 infection or epidemiologic association with recent (up to 60 days before hospitalization) SARS-CoV-2 infection
+
+Data from Centers for Disease Control and Prevention. Case Definitions and Reporting, MIS-C Case Definition. February 19, 2026. Accessed January 23, 2026.
+
+Data from Centers for Disease Control and Prevention. Case Definitions and Reporting, MIS-C Case Definition. February 19, 2026. Accessed January 23, 2026.
+
+A similar multisystem inflammatory syndrome in young and middle-aged adults (MIS-A) also has been reported (3).
+
+Vaccination appears to be highly protective against the development of MIS-C (4) and MIS-A (5). MIS-C has become less prevalent since the start of the pandemic, likely because of vaccinations and immunity after prior SARS-CoV-2 infection (6).
+
+Symptom resolution
+
+In most patients, symptoms resolve within about a week. However, some patients begin with mild symptoms, then clinically deteriorate after a week, progressing to severe disease, including ARDS. Prolonged illness appears to be more common among patients with severe disease, but even those with mild illness may have persistent symptoms, including dyspnea, cough, and malaise that last for weeks or even months. Viral polymerase chain reaction (PCR) tests may remain positive for at least 3 months regardless of symptoms. However, even patients with lingering symptoms are not considered infectious because the virus is rarely able to be cultured from the upper respiratory tract of patients after 10 days of illness.
+
+Symptoms and signs references
+
+1. Jansen L, Tegomoh B, Lange K, et al. Investigation of a SARS-CoV-2 B.1.1.529 (Omicron) variant cluster - Nebraska, November-December 2021. MMWR Morb Mortal Wkly Rep. 70(5152):1782-2784, 2021. doi:10.15585/mmwr.mm705152e3
+
+2. Bhimraj A, Yngve F-Y, Baden LR, et al. IDSA Guidelines on the Treatment and Management of Patients with COVID-19. Clin Infect Dis. Published online October 14, 2025.
+
+3. Morris SB, Schwartz NG, Patel P, et al. Case series of multisystem inflammatory syndrome in adults associated with SARS-CoV-2 infection — United Kingdom and United States, March–August 2020. MMWR. 69:1450–1456, 2020. doi:10.15585/mmwr.mm6940e1
+
+4. Centers for Disease Control and Prevention. Case Definitions and Reporting, MIS-C Case Definition. February 19, 2026. Accessed January 23, 2026.
+
+5. Zahornacky O, Porubčin Š, Rovnakova A, Jarcuska P. Multisystem Inflammatory Syndrome in Adults Associated with Recent Infection with COVID-19. Diagnostics (Basel). 2023;13(5):983. Published 2023 Mar 4. doi:10.3390/diagnostics13050983
+
+6. Yousaf AR, Lindsey KN, Wu MJ, et al. Notes from the Field: Surveillance for Multisystem Inflammatory Syndrome in Children - United States, 2023. MMWR Morb Mortal Wkly Rep. 2024;73(10):225-228. Published 2024 Mar 14. doi:10.15585/mmwr.mm7310a2
+
+Diagnosis of COVID-19
+
+Real-time reverse transcriptase–polymerase chain reaction (RT-PCR) or other nucleic acid amplification test (NAAT) of upper and lower respiratory secretions
+
+Antigen testing of upper respiratory secretions
+
+Diagnostic testing for COVID-19 is available through laboratories and public testing sites and can also be done at home.
+
+There are 2 main types of diagnostic COVID-19 tests: viral detection (by RT-PCR or other NAAT) and antigen tests. The choice of diagnostic test and its interpretation should be influenced by the likelihood of COVID-19 infection based on the prevalence of SARS-CoV-2 in the population and the presence of COVID-19 symptoms, signs, or close contact with a known case of COVID-19 (1).
+
+RT-PCR has the highest analytical sensitivity and specificity and is the gold standard diagnostic test for COVID-19. Other NAAT platforms are generally slightly less sensitive than RT-PCR with equivalent specificity. Positive viral PCR tests, however, do not always indicate active infection. They can detect nonviable viral nucleic acid fragments and may remain positive for at least 3 months after initial diagnosis regardless of symptoms.
+
+Point-of-care and home-based antigen testing can provide rapid results (1) but are less sensitive than NAATs, particularly at the onset of infection when viral load may be lower. The sensitivity of these tests compared to PCR tests varies by manufacturer and time course of infection, with ranges reported from 40 to 90% (2–5). Antigen tests are less likely to stay positive after resolution of infection because they only detect higher viral loads. However, other factors in addition to viral load can influence infectivity; therefore, antigen test results do not necessarily correlate with infectiousness.
+
+Acceptable specimens for COVID-19 diagnostic testing include nasopharyngeal, oropharyngeal, nasal mid-turbinate, anterior nares, and saliva. Refer to the accepting laboratory's collection instructions or test kit package insert instructions.
+
+For biosafety reasons, local institutions and laboratories should not attempt to isolate the virus in cell culture.
+
+Serologic, or antibody, testing should not be used to diagnose acute COVID-19 infection because antibodies most commonly become detectable only 1 to 3 weeks after symptom onset. Antibody tests that target the SARS-CoV-2 nucleocapsid antigen, spike antigen, and the receptor binding domain of the spike antigen are available. Tests that detect antibody to the nucleocapsid protein are recommended to evaluate for evidence of prior infection in vaccinated people because that antigen is not included in the vaccine. Quantitative and semi-quantitative antibody assays are available, but there is currently no accepted correlate of immunity, and testing is not recommended to determine immune response to vaccination or infection (6).
+
+Evaluating symptomatic patients
+
+Laboratory findings for those with more severe disease include lymphopenia and elevated levels of aminotransferases (ALT, AST), lactate dehydrogenase (LDH), D-dimer, ferritin, and inflammatory markers (eg, C-reactive protein).
+
+Patients with dyspnea, hypoxia on home oximetry, or other concerning symptoms should be seen for in-person medical evaluation, including oxygen saturation measurement, and followed up with for signs of clinical deterioration.
+
+Typical findings on chest imaging are consistent with viral pneumonia and include ground-glass opacities and consolidation on either chest radiograph or chest CT. However, imaging findings can be normal with mild disease but can progress with increasing illness severity. Chest imaging is not recommended as a routine screening tool for COVID-19.
+
+Diagnosis references
+
+1. CDC. Testing for COVID-19. March 10, 2025. Accessed January 23, 2026.
+
+2. Drain PK: Rapid diagnostic testing for SARS-CoV-2. N Engl J Med 386(3):264-272, 2022. doi: 10.1056/NEJMcp2117115
+
+3. Ford L, Lee C, Pray IW, et al: Epidemiologic characteristics associated with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) antigen-based test results, real-time reverse transcription polymerase chain reaction (rRT-PCR) cycle threshold values, subgenomic RNA, and viral culture results from university testing. Clin Infect Dis 73(6):e1348-e1355, 2021. doi: 10.1093/cid/ciab303
+
+4. Wu S, Archuleta S, Lim SM, et al: Serial antigen rapid testing in staff of a large acute hospital. Lancet Infect Dis 22(1):14-15, 2022. doi: 10.1016/S1473-3099(21)00723-4
+
+5. Dinnes J, Sharma P, Berhane S: Rapid, point-of-care antigen tests for diagnosis of SARS-CoV-2 infection. Cochrane Database Sys Rev July 22, 2022. doi: 10.1002/14651858.CD013705.pub3/full
+
+6. Hayden MK, El Mikati IK, Hanson KE, et al. Infectious Diseases Society of America Guidelines on the Diagnosis of COVID-19: Serologic Testing. Clin Infect Dis. Published online March 15, 2024. doi:10.1093/cid/ciae121
+
+Treatment of COVID-19
+
+Supportive care
+
+For mild to moderate illness with high risk of severe disease: Sometimes nirmatrelvir/ritonavir combination; remdesivir (short course); molnupiravir
+
+For severe illness: Remdesivir plus dexamethasone and an immunomodulator
+
+Treatment of COVID-19 depends on the severity of illness and the likelihood that the patient will progress to severe disease. Treatment guidelines are evolving as new data emerge (1, 2).
+
+The IDSA defines 5 categories of severity to target treatment (1):
+
+Mild to moderate COVID-19 (SpO2 > 94% on room air) with high risk of progression to severe disease, hospitalization, or death
+
+Hospitalized for mild to moderate COVID-19 (not hypoxemic)
+
+Hospitalized for severe but not critical COVID-19 (SpO2 ≤ 94% on room air) or needing low-flow supplemental oxygen to maintain adequate oxygen saturation
+
+Hospitalized for critical COVID-19 needing high-flow oxygen or noninvasive ventilation
+
+Hospitalized for critical COVID-19 needing mechanical ventilation or extracorporeal membrane oxygenation (ECMO)
+
+The effectiveness of particular antiviral medications and monoclonal antibodies against locally circulating variants is considered when making treatment decisions. Treatment choice should be based on medication availability, infrastructure to administer the medication, and patient-specific factors that include symptom duration, potential drug interactions, and liver and renal impairment. There are no data regarding combination treatments with the currently available therapies; therefore, only one anti-SARS-CoV-2 medication should be administered.
+
+Early treatment for patients with mild to moderate COVID-19 who are high risk of progression to severe illness
+
+These treatments are intended to prevent progression to severe disease in high-risk patients. They are given to patients within a few days of onset of mild to moderate COVID-19 who are ambulatory (or hospitalized for reasons other than COVID-19); treatment options other than remdesivir have not been studied in patients hospitalized for COVID-19. There are 3 currently available regimens for treatment (1).
+
+Nirmatrelvir/ritonavir is the preferred regimen in the absence of severe drug interaction or other contraindication for use.
+
+Nirmatrelvir is a protease inhibitor that cleaves a SARS-CoV-2 protein and therefore inhibits the virus from replicating. Ritonavir is a strong cytochrome P450 (CYP) 3A4 inhibitor and acts as a boosting agent; it slows down the metabolism of nirmatrelvir, causing it to remain in the body for a longer duration at higher concentrations.
+
+Nirmatrelvir is given in combination with ritonavir for treatment of mild to moderate COVID-19 in adults and has Emergency Use Authorization (EUA) for adolescents ≥ 12 years of age weighing ≥ 40 kilograms who have positive direct SARS-CoV-2 viral testing results and who are at high or increased risk of progression to severe COVID-19 infection. The nirmatrelvir/ritonavir combination should be initiated as soon as possible after diagnosis of COVID-19 and within 5 days of symptom onset. For patients with normal renal function (estimated creatinine clearance > 60 mL/minute), the dosage is 2 150-mg tablets of nirmatrelvir and 1 100-mg tablet of ritonavir taken together orally 2 times a day for 5 days. Dose adjustments are indicated for patients with moderate or severe kidney impairment. (See also the US Food and Drug Administration (FDA) EUA Fact Sheet for Nirmatrelvir/Ritonavir.)
+
+In a randomized trial in unvaccinated patients with a laboratory-confirmed diagnosis of SARS-CoV-2 infection who met criteria for medication treatment, nirmatrelvir/ritonavir reduced the proportion of fatalities and COVID-19–related hospitalizations compared to placebo (0.8 versus 6.3%) (3).
+
+Using the nirmatrelvir/ritonavir combination in people with uncontrolled or undiagnosed HIV-1 infection may lead to HIV-1 drug resistance. The nirmatrelvir/ritonavir combination may cause liver damage, so caution should be exercised in patients with preexisting liver disease, liver enzyme abnormalities, or hepatitis. The medication is not recommended for patients with severe liver disease.
+
+Return of COVID-19 symptoms has been reported in some patients, and symptom return occurs after use of nirmatrelvir/ritonavir or without antiviral treatment (1). PCR and antigen tests for SARS-CoV-2 can become positive again, even in patients who remain asymptomatic. Additional treatment is not currently recommended, but patients should be advised to re-isolate if rebound symptoms or positive test results reoccur. Symptom recurrence is generally mild, and the patient does not require hospitalization.
+
+The nirmatrelvir/ritonavir combination medication has a variety of serious known and possible drug interactions; concomitant drugs must be screened for these prior to initiation of treatment. For a list of these drug interactions see the FDA EUA Fact Sheet.
+
+Remdesivir is an IV antiviral medication for patients who are hospitalized for COVID-19 infection or who are at high or increased risk of progression to severe COVID-19 infection that may result in hospitalization or death. It can be given to patients, including infants who weigh at least 1.5 kg, who have positive direct SARS-Cov-2 viral test results. Remdesivir should be initiated as soon as possible and within 7 days of symptom onset. A 3-day course of remdesivir is administered, which can be extended to 5 days for patients who progress to severe disease.
+
+In a randomized trial in unvaccinated outpatients with symptomatic COVID-19 who met indications for medication treatment, remdesivir reduced the hospitalization or death rate through day 28 compared to placebo (0.7 versus 5.3%) (4).
+
+Molnupiravir is a nucleoside analogue that works by introducing errors into the SARS-CoV-2 viral genome and thereby inhibits viral replication. It has EUA for treatment of mild to moderate COVID-19 in outpatients ≥ 18 years of age who have positive direct SARS-CoV-2 viral testing results and who are at high risk of progression to severe disease, including hospitalization or death, and for whom alternative COVID-19 treatment options are not accessible or clinically appropriate. Molnupiravir should be initiated as soon as possible after diagnosis of COVID-19 and within 5 days of symptom onset. Molnupiravir is administered as 4 200-mg capsules taken orally every 12 hours for 5 days. It is not authorized for use for longer than 5 consecutive days. (See also the FDA EUA Fact Sheet for Molnupiravir.)
+
+A theoretical concern is that molnupiravir may have an effect on the emergence of new SARS-CoV-2 variants; however, the risk is believed to be low based on available genotoxicity data and the limited 5-day treatment course. Molnupiravir is not authorized for use in patients < 18 years of age because it may affect bone and cartilage growth. Molnupiravir is not recommended for use during pregnancy because animal reproduction studies suggest that it may cause fetal harm. Females of childbearing potential are advised to use a reliable method of birth control correctly and consistently during treatment with molnupiravir and for 4 days after the final dose. Males who are sexually active with females of childbearing potential are advised to use a reliable method of birth control correctly and consistently during treatment with molnupiravir and for at least 3 months after the final dose.
+
+In a randomized trial in unvaccinated outpatients with COVID-19 who met criteria for medication treatment, molnupiravir started within 5 days of symptom onset and administered for 5 days reduced the hospitalization or death rate through day 29 compared to placebo (6.8 versus 9.7%) (5).
+
+Bamlanivimab/etesevimab, casirivimab/imdevimab, sotrovimab, and bebtelovimab are neutralizing anti-SARS-CoV-2 monoclonal antibody (mAb) therapies. However, because the dominant Omicron COVID-19 variants are resistant to their neutralizing activity, these therapies are not recommended for treatment of COVID-19 infection.
+
+Treatment for patients with severe COVID-19
+
+Recommended treatment options for severe infection include remdesivir plus dexamethasone and additional immunomodulatory medications such as baricitinib, tofacitinib, tocilizumab, and sarilumab. These medications may be used in combination, and treatment decisions should take into account the patient's phase of illness, often characterized by the degree of hypoxia and need for respiratory support.
+
+Antiviral medications are more likely to provide benefit earlier in the course when illness is a result of active viral replication, whereas anti-inflammatory and immunomodulatory therapies are better suited for later in the course when the host inflammatory response and immune dysregulation are driving the disease state (1).
+
+For patients requiring supplemental oxygen but not additional respiratory support, treatment options include:
+
+Remdesivir plus dexamethasone
+
+Tocilizumab or sarilumab in patients with progressive disease with elevated inflammatory markers
+
+Baricitinib or tofacitinib in patients with stable disease and elevated inflammatory markers
+
+Remdesivir is used to treat adult and pediatric patients ≥ 28 days of age and weighing ≥ 3 kg who require hospitalization for COVID-19. The recommended treatment duration is 5 days, but this can be extended for up to 10 days in patients who require invasive mechanical ventilation and/or extracorporeal membrane oxygenation (ECMO). However, the benefits of antiviral treatment in this group are inconclusive.
+
+In a large randomized trial (ACTT-1), remdesivir shortened the time to recovery, compared to placebo, for patients requiring supplemental oxygen but not mechanical ventilation or other higher levels of support (6). This improved time to recovery was also observed in an outpatient randomized trial (PINETREE) (4). However, benefit was not observed in 2 open-label trials (Solidarity [7] and DisCoVeRy [8]). However, the World Health Organization (WHO) issued a conditional recommendation against the use of remdesivir for hospitalized patients citing no evidence to suggest that it is an effective treatment for COVID-19 (2).
+
+Overall, studies of remdesivir support its use early in infection (before days 7 to 10) when active viral replication is more likely to be contributing to illness. Remdesivir can also be considered in patients who are hospitalized but do not require supplemental oxygen, but definitive data are lacking in this population. Remdesivir is not recommended for patients with an eGFR < 30 mL/minute. Renal function should be monitored before and during remdesivir treatment.
+
+The glucocorticoid dexamethasone is generally recommended in patients with COVID-19 who require supplemental oxygen, but its use is not recommended in patients who do not require supplemental oxygen. Dexamethasone showed a survival benefit for those requiring supplemental oxygen or mechanical ventilation in the RECOVERY trial (9). Its benefit is likely to be greatest in patients whose illness is due to the inflammatory response from infection. If dexamethasone is not available, other glucocorticoids (eg, prednisone, methylprednisolone, hydrocortisone) may be used.
+
+The combination of remdesivir and dexamethasone is commonly used in hospitalized patients requiring supplemental oxygen within the first 10 days of illness when both viral replication and host inflammation may be contributing to the clinical presentation.
+
+For patients requiring noninvasive ventilation (including high-flow oxygen delivery systems), treatment is as follows:
+
+Dexamethasone is recommended for all patients.
+
+Consider addition of remdesivir, particularly for patients within 7 to 10 days of symptom onset.
+
+Consider additional immunomodulatory medications, particularly for patients with rapid deterioration or signs of systemic inflammation.
+
+Additional immunomodulators include the JAK inhibitor baricitinib (or tofacitinib if unavailable) or the IL-6 inhibitor tocilizumab (or sarilumab if unavailable). These recommendations are based on subgroup analyses of numerous randomized (COV-BARRIER [10], ACTT-2 [11]) and open-label (REMAP-CAP [12], RECOVERY [13]) clinical trials that showed survival benefit with addition of one of these medications in patients requiring this level of respiratory support. These medications are potent immunosuppressants, and the potential benefit should be weighed against the additional immunosuppressive risk in patients if there is suspicion of a concomitant serious bacterial or fungal infection or who are at high risk of opportunistic infections because of an underlying immunosuppressive condition.
+
+For patients requiring mechanical ventilation or ECMO, treatment is as follows:
+
+Dexamethasone is recommended for all patients.
+
+Consider addition of tocilizumab for patients within 24 hours of admission to the intensive care unit (ICU).
+
+Many therapies have been considered and are not currently recommended for the treatment or prevention of COVID-19. Therapies likely to be ineffective include:
+
+Vilobelimab, an anti-complement (anti-C5a) monoclonal antibody (14)
+
+Convalescent plasma (15)
+
+Nonspecific immunoglobulin (IVIG) and mesenchymal stem cell therapy 
+
+Additional immunomodulatory therapies, including interferons, kinase inhibitors, and interleukin inhibitors (insufficient data to recommend their routine use outside of clinical trials)
+
+Azithromycin and antiretrovirals, (insufficient data to support use of these medications outside of clinical trials)
+
+The combination retroviral medication lopinavir/ritonavir (used to treat HIV infection) and the medications chloroquine and hydroxychloroquine (used to treat malaria) (16, 17)
+
+The antiparasitic medication ivermectin for the prevention or treatment of COVID-19 (18, 19) (The FDA and other organizations have issued warnings about toxicity resulting from the inappropriate use of ivermectin preparations intended for large animal use [see FDA: Ivermectin and COVID-19].)
+
+The selective serotonin reuptake inhibitor (SSRI) fluvoxamine
+
+Complications of COVID-19 illness should be treated as they arise. Hospitalized patients with COVID-19 may be at increased risk of thromboembolic events. Generally, therapeutic anticoagulation should be considered in nonpregnant, hospitalized patients requiring supplemental oxygen but not intensive care if they have an elevated D-dimer and no serious bleeding risk. The risk of an adverse event from bleeding outweighs the potential benefit in critically ill patients. Pharmacologic venous thromboembolism prophylaxis should be considered for all other hospitalized patients unless there is a contraindication (20).
+
+Medications such as angiotensin-converting enzyme (ACE) inhibitors or angiotensin II receptor blockers (ARB) should be continued if needed for concomitant medical conditions but not started as treatment for COVID-19. There is no evidence that use of nonsteroidal anti-inflammatory drugs (NSAIDs) is linked to worse outcomes, and either acetaminophen or NSAIDs can be used during the treatment of COVID-19.
+
+Respiratory management of patients with COVID-19 infection should take into consideration the tendency toward hypoxia. Nonpharmacologic adjunctive measures for nonintubated patients include frequent repositioning and ambulation.
+
+Treatment references
+
+1. Bhimraj A, Yngve F-Y, Baden LR, et al. IDSA Guidelines on the Treatment and Management of Patients with COVID-19. Clin Infect Dis. Published online October 14, 2025.
+
+2. World Health Organization (WHO). COVID-19 Treatments: Therapeutics for people with COVID-19. Accessed August 5, 2026.
+
+3. Hammond J, Leister-Tebbe H, Gardner A, et al: Oral nirmatrelvir for high-risk, nonhospitalized adults with Covid-19. N Engl J Med. 386(15):1397-1408, 2022. doi:10.1056/NEJMoa2118542
+
+4. Gottlieb RL, Vaca CE, Paredes R et al: Early remdesivir to prevent progression to severe covid-19 in outpatients. N Engl J Med. 386(4):305-315, 2022. doi:10.1056/NEJMoa2116846
+
+5. Jayk Bernal A, Gomes da Silva MM, Musungaie DB, et al: Molnupiravir for oral treatment of Covid-19 in nonhospitalized Patients. N Engl J Med. 386(6):509-520, 2022. doi:10.1056/NEJMoa2116044
+
+6. Beigel JH, Tomashek KM, Dodd LE, et al: Remdesivir for the treatment of Covid-19 - final report. N Engl J Med. 383(19):1813-1826, 2020. doi:10.1056/NEJMoa2007764
+
+7. WHO Solidarity Trial Consortium: Remdesivir and three other drugs for hospitalised patients with COVID-19: final results of the WHO Solidarity randomised trial and updated meta-analyses. Lancet. 399(10339):1941-1953, 2022. doi:10.1016/S0140-6736(22)00519-0
+
+8. Ader F, Bouscambert-Duchamp M, Hites M, et al: Remdesivir plus standard of care versus standard of care alone for the treatment of patients admitted to hospital with COVID-19 (DisCoVeRy): a phase 3, randomised, controlled, open-label trial. Lancet Infect Dis. 22(2):209-221, 2022. doi:10.1016/S1473-3099(21)00485-0
+
+9. RECOVERY Collaborative Group, Horby P, Lim WS, Emberson JR, et al: Dexamethasone in hospitalized patients with Covid-19. N Engl J Med 384(8):693-704, 2021. doi: 10.1056/NEJMoa2021436
+
+10. Marconi VC, Ramanan AV, de Bono S, et al: Efficacy and safety of baricitinib for the treatment of hospitalised adults with COVID-19 (COV-BARRIER): a randomised, double-blind, parallel-group, placebo-controlled phase 3 trial [published correction appears in Lancet Respir Med 2021 Oct;9(10):e102]. Lancet Respir Med 9(12):1407-1418, 2021. doi:10.1016/S2213-2600(21)00331-3
+
+11. Kalil AC, Patterson TF, Mehta AK, et al: Baricitinib plus remdesivir for hospitalized adults with Covid-19. N Engl J Med. 384(9):795-807, 2021. doi:10.1056/NEJMoa2031994
+
+12. REMAP-CAP Investigators, Gordon AC, Mouncey PR, et al: Interleukin-6 receptor antagonists in critically ill patients with Covid-19. N Engl J Med. 384(16):1491-1502, 2021. doi:10.1056/NEJMoa2100433
+
+13. RECOVERY Collaborative Group, Horby P, Lim WS, et al: Dexamethasone in hospitalized patients with Covid-19. N Engl J Med. 384(8):693-704, 2021. doi:10.1056/NEJMoa2021436
+
+14. Vlaar APJ, Witzenrath M, van Paassen P, et al: Anti-C5a antibody (vilobelimab) therapy for critically ill, invasively mechanically ventilated patients with COVID-19 (PANAMO): a multicentre, double-blind, randomised, placebo-controlled, phase 3 trial. Lancet Respir Med. 10(12):1137-1146, 2022. doi:10.1016/S2213-2600(22)00297-1
+
+15. Janiaud P, Axfors C, Schmitt AM, et al: Association of convalescent plasma treatment with clinical outcomes in patients with COVID-19: A systematic review and meta-analysis. JAMA. 325(12);1185-1195, 2021, doi:10.1001/jama.2021.2747
+
+16. Self WH, Semler MW, Leither LM, et al. Effect of hydroxychloroquine on clinical status at 14 days in hospitalized patients with COVID-19: a randomized clinical trial. JAMA. 324(21):2165-2176, 2020. doi:10.1001/jama.2020.22240
+
+17. RECOVERY Collaborative Group, Horby P, Mafham M, et al. Effect of hydroxychloroquine in hospitalized patients with Covid-19. N Engl J Med. 383(21):2030-2040, 2020. doi:10.1056/NEJMoa2022926
+
+18. Popp M, Stegemann M, Metzendorf MI, et al: Ivermectin for preventing and treating COVID-19. Cochrane Database Syst Rev. 7(7):CD015017, 2021. doi:10.1002/14651858.CD015017.pub2
+
+19. Reis G,Silva EASM, Silva DCM, et al: Effect of early treatment with ivermectin among patients with COVID-19. N Engl J Med. 386:1721-1731, 2022. doi:10.1056/NEJMoa2115869
+
+20. Bikdeli B, Madhavan MV, Jimenez D, et al. COVID-19 and Thrombotic or Thromboembolic Disease: Implications for Prevention, Antithrombotic Therapy, and Follow-Up: JACC State-of-the-Art Review. J Am Coll Cardiol. 2020;75(23):2950-2973. doi:10.1016/j.jacc.2020.04.031
+
+Post–COVID-19 Infection and Long-Term Sequelae
+
+Viral PCR tests in patients may remain positive for at least 3 months regardless of symptoms. However, even patients with lingering symptoms are generally not considered infectious because the virus is rarely, if ever, able to be cultured from the upper respiratory tract of patients after 10 days of illness.
+
+Although infection with coronaviruses may confer some degree of immunity to reinfection, the duration and effectiveness of immunity after COVID-19 infection remain difficult to quantify and depend on multiple host and viral factors. Patients who have had COVID-19 infection, including people with prolonged post–COVID-19 symptoms, are still recommended to receive all eligible vaccinations to reduce the risk of reinfection. They can do so once they are clinically recovered from infection and have completed the isolation period. Neutralizing antibodies are detected in most patients after SARS-COV-2 infection, but antibody levels are more variable than in people after vaccinations. The postinfection neutralizing antibodies likely provide protection against clinically apparent reinfection in most immunocompetent people for at least 3 and up to 6 months, but this time frame may be shorter if a new antigenically distinct variant emerges (1). Symptoms associated with reinfection tend to be similar to or milder than those of the initial infection.
+
+COVID-19 may also be associated with long-term sequelae after acute illness (2), and post–COVID-19 symptoms can linger for months. This condition has been referred to by many names, including long COVID, long-haul COVID, and post-acute COVID-19 syndrome or condition. Fatigue, weakness, pain, myalgias, dyspnea, and cognitive dysfunction are commonly reported and can be associated with a poorer quality of life (3).
+
+Risk factors for long-term sequelae may include more severe disease presentation, older age, female sex, and pre-existing lung disease.
+
+An international case definition has been established to aid in the diagnosis and further investigation of this condition (4).
+
+Post–COVID-19 infection and long-term sequelae references
+
+1. Zhong D, Xiao S, Debes AK, et al. Durability of antibody levels after vaccination with mRNA SARS-CoV-2 vaccine in individuals with or without prior infection. JAMA. 2021;326(24):2524-2526. doi:10.1001/jama.2021.19996
+
+2. Nalbandian A, Sehgal K, Gupta A, et al. Post-acute COVID-19 syndrome. Nat Med. 27(4):601-615, 2021. doi:10.1038/s41591-021-01283-z
+
+3. Han JH, Womack KN, Tenforde MW, et al. Associations between persistent symptoms after mild COVID-19 and long-term health status, quality of life, and psychological distress. Influenza Other Respir Viruses. 16(4):680-689, 2022. doi:10.1111/irv.12980
+
+4. Soriano JB, Murthy S, Marshall JC, et al. A clinical case definition of post-COVID-19 condition by a Delphi consensus. Lancet Infect Dis. 22(4):e102-e107, 2022. doi:10.1016/S1473-3099(21)00703-9
+
+Prevention of COVID-19
+
+COVID-19 vaccination
+
+COVID-19 vaccines provide protection against COVID-19, the infection caused by the SARS-CoV-2 virus. Vaccination remains the most effective strategy to prevent severe illness and death from SARS-CoV-2 infection. COVID-19 vaccines are updated annually to target new, currently circulating strains.
+
+Guidance on vaccination schedules evolves over time; various expert organizations have issued differing recommendations. See the American Academy of Pediatrics (AAP), American Academy of Family Physicians (AAFP), Centers for Disease Control and Prevention (CDC), American College of Obstetrics and Gynecology (ACOG), and World Health Organization (WHO) for specific recommendations and further information.
+
+For a detailed discussion of the vaccines approved in the United States, see COVID-19 vaccine.
+
+Monoclonal antibody
+
+Pemivibart, a monoclonal antibody, has EUA in the United States to prevent COVID-19 in people age 12 and older and weighing at least 40 kg (1). It is for people who are not currently infected with SARS-CoV-2, who have not had a known recent exposure to a person infected with SARS-CoV-2, and who have moderate-to-severe immunocompromise and are unlikely to mount an adequate immune response to COVID-19 vaccination. Patients should still receive a COVID-19 vaccine. Pemivibart can be given at least 2 weeks after receiving a COVID-19 vaccine as an additional layer of protection.
+
+Precautions to prevent transmission from a person with COVID-19 infection
+
+For people with COVID-19 infection, isolation and precaution measures are recommended in an attempt to limit the spread of SARS-CoV-2. (See also CDC: Preventing Spread of Respiratory Viruses When You’re Sick.) For people exposed to SARS-CoV-2, precautions such as hand hygiene and masking are recommended to help reduce the risk of spreading the virus. (See also CDC: Preventing Respiratory Illnesses.)
+
+People with COVID-19 infection should stay home and away from others until both of the following are true for at least 24 hours:
+
+Their symptoms are improving.
+
+Their fever has resolved (without the use of fever-reducing medication).
+
+People should take added precautions over the next 5 days, such as practicing good hand hygiene, wearing a mask around others, and physical distancing. Alternatively, people with COVID can serially test their COVID antigen status and stop wearing a mask when the antigen test is negative, or 5 days have elapsed, whichever is sooner.
+
+If fever returns or symptoms worsen, people should self-isolate again until the above criteria are again true.
+
+Exposure prevention
+
+In addition to staying up to date with COVID-19 vaccines, people can avoid being exposed to the virus by washing their hands frequently, wearing face masks, maintaining physical distance, avoiding poorly ventilated spaces and crowds, and taking other preventative measures recommended by the CDC. People should be tested for COVID-19 if they are exposed to an infected person or have symptoms. Symptomatic people should follow recommendations for isolation.
+
+To help prevent spread of SARS-CoV-2 from suspected cases, health care professionals should use standard, contact, and airborne precautions with eye protection (2). Airborne precautions are particularly relevant for patients undergoing aerosol-generating procedures.
+
+Postexposure prophylaxis
+
+Ensitrelvir is an oral antiviral medication that inhibits SARS-CoV-2 3C-like protease. It can be given to people 12 years old and older for postexposure prophylaxis of COVID-19 infection.
+
+In a randomized trial, ensitrelvir administered to household contacts within 72 hours of symptom onset in an index patient with COVID-19 infection reduced the incidence of COVID-19 infection in the contacts (2.9% in the ensitrelvir group vs 9% in the placebo group) (3).
+
+Like nirmatrelvir/ritonavir, ensitrelvir is a strong cytochrome P-450 3a enzyme and interacts with multiple drugs. Its greatest benefit might be for nonpregnant patients at high risk of severe COVID-19 infection.
+
+An alternative to medication for postexposure prophylaxis is symptom monitoring and preventing exposure to others. People who have been exposed to COVID-19 should follow exposure prevention guidance. They should monitor themselves for symptoms such as fever, cough, or fatigue and seek testing if these symptoms appear.
+
+Prevention references
+
+1. COVID-19 update: An EUA for pemivibart (Pemgarda) for pre-exposure prophylaxis. Med Lett Drugs Ther. 2024;66(1702):79-80. doi:10.58347/tml.2024.1702e
+
+2. Centers for Disease Control and Prevention (CDC). Infection Control Guidance: SARS-CoV-2. June 24, 2024. Accessed January 23, 2026.
+
+3. Hayden FG, Shinkai M, Clark TW, et al. Ensitrelvir for Covid-19 Postexposure Prophylaxis in Household Contacts. N Engl J Med. 2026;394(19):1905-1915. doi:10.1056/NEJMoa2509306

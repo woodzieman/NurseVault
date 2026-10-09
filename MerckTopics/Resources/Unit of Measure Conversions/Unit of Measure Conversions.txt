@@ -1,0 +1,374 @@
+=== Unit of Measure Conversions (Merck Manual Professional) ===
+Section: Resources > Unit of Measure Conversions
+Source: https://www.merckmanuals.com/professional/resources/unit-of-measure-conversions/unit-of-measure-conversions
+Retrieved: 2026-09-25
+
+In the United States, most laboratory test results are reported in what are termed conventional units; the rest of the world reports results in Système International d’Unités (SI) or international units (IU). The unit basis for SI is updated periodically by a panel.
+
+Many SI units are the same as units used in the United State system; however, SI units for concentrations are not. SI concentrations are reported as moles (mol) or decimal fractions of a mole (eg, millimole, micromole) per unit volume in liters (L). Conventional units are reported as mass (eg, grams, milligrams) or chemical equivalency (eg, milliequivalents) per unit volume, which may be in liters or decimal fractions of liters (eg, deciliters, milliliters). Results reported in amount per 100 mL (1 dL) are sometimes expressed as percent (eg, 10 mg/dL may be written as 10 mg%).
+
+Moles, milligrams, and milliequivalents: A mole is an Avogadro’s number (6.023 × 1023) of elementary entities (eg, atoms, ions, molecules); the mass of 1 mole of a substance is its atomic weight in grams (eg, 1 mole of sodium = 23 g, 1 mole of calcium = 40 g). Similarly, the mass of a given quantity of substance divided by its atomic weight gives the number of moles (eg, 20 g sodium = 20/23, or 0.87, mol).
+
+An equivalent is a unit that integrates charge and moles; 1 equivalent represents one mole of charges and is calculated by multiplying the number of moles of charged particles in a substance times the valence of that substance. Thus, for ions with a +1 or −1 charge (eg, Na+, K+, Cl−), 1 mole is 1 equivalent (1 × 1 = 1); for ions with a +2 or −2 charge (eg, Ca2+), ½ mole is 1 equivalent (½ × 2 = 1), and so forth for other valence values. A milliequivalent (mEq) is 1/1000 of an equivalent.
+
+The following can be used to convert between mEq, mg, and mmol:
+
+mEq = mg/formula wt × valence = mmol × valence
+
+mg = mEq × formula wt /valence = mmol × formula wt
+
+mmol = mg/formula wt = mEq/valence
+
+(Note: Formula wt = atomic or molecular wt.)
+
+Alternatively, conversion tables are available in print and on the Internet.
+
+Table
+
+Metric System
+
+Table
+
+Metric System
+
+Metric System
+
+Unit
+
+Equivalent Subunit
+
+Mass
+
+1 kilogram (kg)
+
+1000 grams (103 g)
+
+1 gram (g)
+
+1000 milligrams (103 mg)
+
+1 milligram (mg)
+
+1000 micrograms (10-3 g)
+
+1 microgram (μg)
+
+1000 nanograms (10−6 g)
+
+1 nanogram (ng)
+
+1000 picograms (pg; 10−9 g)
+
+Volume
+
+1 liter (L)
+
+1000 milliliters (mL)
+
+1 liter (L)
+
+1000 cubic centimeters (cc)
+
+Table
+
+Metric–Nonmetric Equivalents
+
+Table
+
+Metric–Nonmetric Equivalents
+
+Metric–Nonmetric Equivalents
+
+Metric Unit
+
+Equivalent Nonmetric Unit*
+
+Liquid
+
+30 milliliters (mL)
+
+1 fluid ounce (oz)
+
+250 mL
+
+8 + fluid oz
+
+500 mL
+
+1+ pint
+
+1000 mL (1 liter)
+
+1+ quart
+
+Weight
+
+65 mg
+
+1 grain (gr)
+
+28.35 g
+
+1 oz
+
+1 kg
+
+2.2 pounds (lb)
+
+Linear
+
+1 millimeter (mm)
+
+0.04 inch (in)
+
+1 centimeter (cm)
+
+0.4 in
+
+2.54 cm
+
+1 in
+
+1 meter (m)
+
+39.37 in
+
+Household
+
+5 mL
+
+1 teaspoon†
+
+15 mL
+
+1 tablespoon† (tbsp—½ fluid oz)
+
+240 mL
+
+1 cup (8 fluid oz)
+
+*Approximate
+
+ † Volume is for a standard unit of measure. Typical household spoons may vary in volume and should not be used when a precise volume is required. 
+
+*Approximate
+
+ † Volume is for a standard unit of measure. Typical household spoons may vary in volume and should not be used when a precise volume is required. 
+
+Table
+
+Atomic Weight of Some Elements Important in Medicine
+
+Table
+
+Atomic Weight of Some Elements Important in Medicine
+
+Atomic Weight of Some Elements Important in Medicine
+
+Element
+
+Symbol
+
+Atomic Weight*
+
+Hydrogen
+
+H
+
+1
+
+Carbon
+
+C
+
+12
+
+Nitrogen
+
+N
+
+14
+
+Oxygen
+
+O
+
+16
+
+Sodium
+
+Na
+
+23
+
+Magnesium
+
+Mg
+
+24
+
+Phosphorus
+
+P
+
+31
+
+Chlorine
+
+Cl
+
+35.5
+
+Potassium
+
+K
+
+39
+
+Calcium
+
+Ca
+
+40
+
+*Approximate
+
+*Approximate
+
+Table
+
+Centigrade–Fahrenheit Equivalents*
+
+Table
+
+Centigrade–Fahrenheit Equivalents*
+
+Centigrade–Fahrenheit Equivalents*
+
+Application
+
+°C
+
+°F
+
+Freezing for water at sea level
+
+0
+
+32
+
+Clinical range
+
+36.0
+
+96.8
+
+36.5
+
+97.7
+
+37.0
+
+98.6
+
+37.5
+
+99.5
+
+38.0
+
+100.4
+
+38.5
+
+101.3
+
+39.0
+
+102.2
+
+39.5
+
+103.1
+
+40.0
+
+104.0
+
+40.5
+
+104.9
+
+41.0
+
+105.8
+
+41.5
+
+106.7
+
+42.0
+
+107.6
+
+Pasteurization (holding),† 30 min at
+
+62.8
+
+145.0
+
+Pasteurization (flash),† 15 sec at
+
+71.7
+
+161.0
+
+Boiling for water at sea level
+
+100.0
+
+212.0
+
+*Conversion:
+
+To convert °F to °C, subtract 32, then multiply by 5/9 or 0.555.
+
+To convert °C to °F, multiply by 9/5 or 1.8, then add 32.
+
+†According to the FDA Code of Federal Regulations, 1992.
+
+*Conversion:
+
+To convert °F to °C, subtract 32, then multiply by 5/9 or 0.555.
+
+To convert °C to °F, multiply by 9/5 or 1.8, then add 32.
+
+†According to the FDA Code of Federal Regulations, 1992.
+
+Clinical Calculators
+
+Weight Unit Conversions
+
+Clinical Calculators
+
+Volume Unit Conversions
+
+Clinical Calculators
+
+Temperature Unit Conversions
+
+Clinical Calculators
+
+Flow Unit Conversions
+
+Clinical Calculators
+
+Energy Unit Conversions
+
+Clinical Calculators
+
+Basic Unit Conversions
+
+Clinical Calculators
+
+Length Unit Conversions

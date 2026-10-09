@@ -1,0 +1,656 @@
+=== Pressure Injuries (Merck Manual Professional) ===
+Section: Dermatology > Pressure Injury
+Source: https://www.merckmanuals.com/professional/dermatologic-disorders/pressure-injury/pressure-injuries
+Retrieved: 2026-09-25
+
+Pressure injury is defined as localized injury to the skin and/or underlying tissue, usually over a bony prominence, as a result of pressure alone or in combination with shear (1). Pressure injuries affect up to 3 million adults in the United States annually, with a prevalence of 5% to 15% among hospitalized patients. However, the prevalence may be considerably higher in some long-term care environments and intensive care units (2).
+
+"Pressure injury" has replaced "pressure ulcer" as the preferred terminology recommended by the National Pressure Injury Advisory Panel (NPIAP), as pressure-related skin injury may not lead to skin ulceration in the early stages (see also Staging Systems).
+
+General references
+
+1. Haesler E, ed. National Pressure Ulcer Advisory Panel, European Pressure Ulcer Advisory Panel and Pan Pacific Pressure Injury Alliance. Prevention and Treatment of Pressure Ulcers: Quick Reference Guide. Cambridge Media; 2014.
+
+2. Mervis JS, Phillips TJ. Pressure ulcers: Pathophysiology, epidemiology, risk factors, and presentation. J Am Acad Dermatol 81(4):881-890, 2019. doi: 10.1016/j.jaad.2018.12.069
+
+Etiology of Pressure Injuries
+
+Risk factors for pressure injury include the following:
+
+Age > 65 (possibly due to reduced subcutaneous fat, reduced capillary blood flow, and other age-related degenerative changes in skin) (1)
+
+Decreased mobility (eg, due to prolonged hospital stay, bed rest, coma, spinal cord injury, sedation, weakness that decreases spontaneous movement, and/or cognitive impairment)
+
+Exposure to skin irritants (eg, due to urinary incontinence and/or fecal incontinence)
+
+Impaired capacity for wound healing (eg, due to undernutrition, diabetes, impaired tissue perfusion due to peripheral arterial disease, immobility, venous insufficiency)
+
+Impaired sensation
+
+In children, pressure injury may be seen with severe neurologic impairments such as spina bifida, cerebral palsy, and spinal cord injury.
+
+Several scales (eg, The Norton Scale for Predicting Pressure Ulcer Risk, the Braden Scale) have been developed to predict the risk of pressure injury (2). The Norton Scale is used to determine whether a patient is at high risk of pressure ulcer development based on the sum of the scores of five criteria: physical condition, mental condition, activity, mobility, and incontinence. The Braden scale is used to assess risk based on the sum of the scores of six categories: sensory perception, moisture, activity, mobility, nutrition, and friction/shear (3). Although the use of these scales is considered standard care, they have not been shown to result in fewer pressure injuries than skilled clinical assessment alone. Nevertheless, the use of a risk assessment scale along with skilled clinical assessment is recommended.
+
+Table
+
+The Norton Scale for Predicting Pressure Ulcer Risk*
+
+Table
+
+The Norton Scale for Predicting Pressure Ulcer Risk*
+
+The Norton Scale for Predicting Pressure Ulcer Risk*
+
+Criterion
+
+Score
+
+Physical condition
+
+4 = Good
+
+3 = Fair
+
+2 = Poor
+
+1 = Very bad
+
+Mental condition
+
+4 = Alert
+
+3 = Apathetic
+
+2 = Confused
+
+1 = Stupor
+
+Activity
+
+4 = Ambulant
+
+3 = Walk with help
+
+2 = Chair bound
+
+1 = Bed bound
+
+Mobility
+
+4 = Full
+
+3 = Slightly impaired
+
+2 = Very limited
+
+1 = Immobile
+
+Incontinent
+
+4 = Not
+
+3 = Occasionally
+
+2 = Usually/Urine
+
+1 = Doubly
+
+* Calculated as the sum of the scores in all 5 areas. A score < 14 indicates a high risk of pressure ulcer development.
+
+Adapted from Norton, D: Calculating the risk: Reflections on the Norton scale. Decubitus 2(3):24–31, 1989.
+
+* Calculated as the sum of the scores in all 5 areas. A score < 14 indicates a high risk of pressure ulcer development.
+
+Adapted from Norton, D: Calculating the risk: Reflections on the Norton scale. Decubitus 2(3):24–31, 1989.
+
+Etiology references
+
+1. Farage MA, Miller KW, Elsner P, Maibach HI: Characteristics of the aging skin. Adv Wound Care (New Rochelle) 2(1):5–10, 2013. doi: 10.1089/wound.2011.0356
+
+2. Qaseem A, Mir TP, Starkey M, Denberg TD; Clinical Guidelines Committee of the American College of Physicians. Risk assessment and prevention of pressure ulcers: a clinical practice guideline from the American College of Physicians. Ann Intern Med. 2015;162(5):359-369. doi:10.7326/M14-1567
+
+3. Bergstrom N, Braden BJ, Laguzza A, Holman V: The Braden scale for predicting pressure sore risk. Nurs Res 36(4):205–210, 1987.
+
+Pathophysiology of Pressure Injuries
+
+The main factors contributing to pressure injuries are
+
+Pressure: When soft tissues are compressed for prolonged periods between bony prominences and external surfaces, microvascular occlusion with tissue ischemia and hypoxia occurs (1). Pressures exceeding normal capillary pressure (range is 12 to 32 mm Hg) result in reduced oxygenation and compromise the microcirculation of the affected tissue. If compression is not relieved, a pressure injury can develop in 3 to 4 hours. This most commonly occurs over the sacrum, ischial tuberosities, trochanters, malleoli, and heels, but pressure injuries can develop anywhere.
+
+Friction: Friction (rubbing against clothing or bedding) can lead to the development of skin ulceration by causing local erosion and breaks in the epidermis and superficial dermis.
+
+Shearing forces: Shearing forces, such as those experienced when a patient slides down an inclined surface, stress and damage supporting tissues by causing the deeper tissues (muscles and subcutaneous layers) to move with gravity against the resistance of the more superficial tissues that remain in contact with the external surface. This opposition of forces can impede blood flow to the affected area, leading to potential injury. Shearing forces contribute to pressure injury but are not direct causes.
+
+Moisture: Excess moisture (eg, perspiration, incontinence) may contribute to skin breakdown and maceration, which can initiate ulceration and worsen pressure injuries.
+
+Because muscle is more susceptible to ischemia upon compression compared to skin, muscle ischemia and necrosis may initiate some pressure injuries resulting from prolonged compression.
+
+Ischemia triggers a cascade of inflammatory responses, including neutrophil infiltration and edema. In addition upon reperfusion, mechanical stress further aggravates tissue injury, particularly in muscle and subcutaneous tissues (2), with the extent and depth of injury modulated by intrinsic factors such as skin thickness, tissue stiffness, and vascular reactivity (3). These intrinsic factors are especially compromised in at-risk patients (eg, age >65 years, neonates [4]).
+
+Pathophysiology References
+
+1. Gefen A. The complex interplay between mechanical forces, tissue response and individual susceptibility to pressure ulcers. J Wound Care. 2024;33(9):620-628. doi:10.12968/jowc.2024.0023
+
+2. Van Damme N, Van Hecke A, Remue E, et al. Physiological processes of inflammation and edema initiated by sustained mechanical loading in subcutaneous tissues: A scoping review. Wound Repair Regen. 2020;28(2):242-265. doi:10.1111/wrr.12777
+
+3. Sree VD, Rausch MK, Tepole AB. Linking microvascular collapse to tissue hypoxia in a multiscale model of pressure ulcer initiation. Biomech Model Mechanobiol. 2019;18(6):1947-1964. doi:10.1007/s10237-019-01187-5
+
+4. de Bengy AF, Lamartine J, Sigaudo-Roussel D, et al. Newborn and elderly skin: two fragile skins at higher risk of pressure injury. Biol Rev Camb Philos Soc. 2022;97(3):874-895. doi:10.1111/brv.12827
+
+Symptoms and Signs of Pressure Injuries
+
+Pressure injuries at any stage may be painful or pruritic but are typically not noticed by patients with blunted awareness or sensation.
+
+Staging systems
+
+Several staging systems exist. The most widely used system is from the National Pressure Injury Advisory Panel (NPIAP), which classifies pressure injuries into four stages (1 to 4) according to the depth of tissue damage. However, the numerical staging does not imply linear progression of pressure injuries. That is, pressure injuries do not always manifest as stage 1 and then progress to higher stages. Sometimes, the first sign is a deep, necrotic stage 3 or 4 injury. In a rapidly developing pressure injury, subcutaneous tissue can become necrotic before the epidermis erodes. Thus, a small injury may in fact represent extensive subcutaneous necrosis and damage. Similarly, the scale does not imply that healing progresses from stage 4 through stage 1. The updated NPIAP staging system also includes definitions for unstageable, deep-tissue, medical device-related, and mucosal membrane pressure injuries (1).
+
+Stage 1 pressure injuries manifest as intact skin with nonblanchable erythema, usually over a bony prominence. Color changes may not be as visible in dark skin. The lesion may also be warmer, cooler, firmer, softer, or more tender than adjacent or contralateral tissue. An actual ulcer (a defect of skin into the dermis) is not yet present. However, ulceration may occur with continued pressure, shear, friction, and/or moisture.
+
+Stage 2 pressure injuries are characterized by partial-thickness skin loss, with loss of epidermis (erosion or blister) with or without true ulceration (defect beyond the level of the epidermis); subcutaneous tissue is not exposed. The injury is shallow with a pink to red base. No necrotic tissue is present in the base. Stage 2 also includes intact or partially ruptured blisters secondary to pressure. (NOTE: Non–pressure-related causes of erosion, ulceration, or blistering, such as skin tears, tape burns, maceration, and excoriation, are excluded from stage 2.)
+
+Stage 3 pressure injuries manifest as full-thickness skin loss with involvement of subcutaneous tissue extending down to (but not including) the underlying fascia. The ulcers are crater-like but without underlying muscle or bone exposure.
+
+Stage 4 pressure injuries manifest as full-thickness skin loss with extensive destruction, tissue necrosis, and exposure of underlying muscle, tendon, or bone.
+
+Unstageable pressure injuries are characterized by full-thickness skin loss in which the extent of tissue damage cannot be determined because it is obscured by debris, slough, or eschar. If the slough or eschar is removed, a stage 3 or stage 4 pressure injury is revealed. However, stable, nonfluctuant lesions with dry eschar should never be debrided solely for the sake of staging.
+
+Deep-tissue pressure injury is characterized by intact or nonintact skin with a localized area of damage to underlying tissue due to excessive pressure and/or shearing forces at the muscle-bone interface. Findings include persistent, nonblanchable, purple to maroon discoloration of intact skin, and blood-filled vesicles or bullae. The area may feel firmer, boggier, warmer, or cooler compared with surrounding tissue. In this context, the term deep-tissue pressure injury should not be used to describe underlying vascular, traumatic, neuropathic, or dermatologic conditions.
+
+Medical device–related pressure injury results from the use of devices designed and applied for therapeutic purposes (eg, casts, splints). Prolonged use of poorly placed, ill-fitted medical devices can cause pressure injury to skin or mucosal membranes. Injury typically conforms to the pattern or shape of the device. The injury should be staged using the NPIAP staging system. Medical device–related pressure injury has been extended to include injury caused by personal protective equipment (PPE), including face masks, continuous positive airway pressure (CPAP) masks, oxygen tubing, and other devices that are used to prevent or manage respiratory conditions such as COPD or COVID-19.
+
+Mucosal membrane pressure injury appears on mucous membranes where medical devices have been in use (eg, misfitting dentures, endotracheal tubes). Because of the anatomy of the tissue, these injuries cannot be staged.
+
+When estimating the depth of pressure injuries for purposes of staging, it is important to take into account the anatomical location, especially in the case of stage 3 injuries. For example, the bridge of the nose, ear, occiput, and malleolus have minimal subcutaneous tissue and, consequently, pressure injuries in those locations are very shallow. However, they are still graded as stage 3 because they are as significant as deeper stage 3 injuries over locations with significant subcutaneous tissue (eg, the sacral region).
+
+Manifestations of Pressure Injury Stages 1 to 4
+
+Stage 1 Pressure Injury (Buttocks)
+
+This photo of a stage 1 pressure injury shows nonblanchable redness but no break in the skin.
+
+This photo of a stage 1 pressure injury shows nonblanchable redness but no break in the skin.
+
+Photo from Gordian Medical, Inc. dba American Medical Technologies; used with permission.
+
+Stage 2 Pressure Injury
+
+This patient has a stage 2 pressure injury on the upper right buttock (arrow). There is loss of epidermis and an erythematous base. Subcutaneous tissue is not exposed. Note surrounding areas of stage 1 pressure injury (for an example, see arrowhead) with nonblanching erythema over intact epidermis.
+
+This patient has a stage 2 pressure injury on the upper right buttock (arrow). There is loss of epidermis and an erythe
+
+... read more
+
+BOILERSHOT PHOTO/SCIENCE PHOTO LIBRARY
+
+Stage 3 Pressure Injury (Foot)
+
+This photo of a stage 3 pressure injury shows full thickness skin loss but no exposure of muscle or bone.
+
+This photo of a stage 3 pressure injury shows full thickness skin loss but no exposure of muscle or bone.
+
+Roberto A. Penne-Casanova/SCIENCE PHOTO LIBRARY
+
+Stage 3 Pressure Injury (Base of Spine)
+
+This photo of a stage 3 pressure injury shows subcutaneous tissue but no muscle or bone.
+
+This photo of a stage 3 pressure injury shows subcutaneous tissue but no muscle or bone.
+
+DR BARRY SLAVEN/SCIENCE PHOTO LIBRARY
+
+Stage 4 Pressure Injury (Knee)
+
+This photo of a stage 4 pressure injury shows visible deep structures, such as tendon and joint.
+
+This photo of a stage 4 pressure injury shows visible deep structures, such as tendon and joint.
+
+Photo from Gordian Medical, Inc. dba American Medical Technologies; used with permission.
+
+Stage 1 Pressure Injury (Buttocks)
+
+This photo of a stage 1 pressure injury shows nonblanchable redness but no break in the skin.
+
+This photo of a stage 1 pressure injury shows nonblanchable redness but no break in the skin.
+
+Photo from Gordian Medical, Inc. dba American Medical Technologies; used with permission.
+
+Stage 2 Pressure Injury
+
+This patient has a stage 2 pressure injury on the upper right buttock (arrow). There is loss of epidermis and an erythematous base. Subcutaneous tissue is not exposed. Note surrounding areas of stage 1 pressure injury (for an example, see arrowhead) with nonblanching erythema over intact epidermis.
+
+This patient has a stage 2 pressure injury on the upper right buttock (arrow). There is loss of epidermis and an erythe
+
+... read more
+
+BOILERSHOT PHOTO/SCIENCE PHOTO LIBRARY
+
+Stage 3 Pressure Injury (Foot)
+
+This photo of a stage 3 pressure injury shows full thickness skin loss but no exposure of muscle or bone.
+
+This photo of a stage 3 pressure injury shows full thickness skin loss but no exposure of muscle or bone.
+
+Roberto A. Penne-Casanova/SCIENCE PHOTO LIBRARY
+
+Stage 3 Pressure Injury (Base of Spine)
+
+This photo of a stage 3 pressure injury shows subcutaneous tissue but no muscle or bone.
+
+This photo of a stage 3 pressure injury shows subcutaneous tissue but no muscle or bone.
+
+DR BARRY SLAVEN/SCIENCE PHOTO LIBRARY
+
+Stage 4 Pressure Injury (Knee)
+
+This photo of a stage 4 pressure injury shows visible deep structures, such as tendon and joint.
+
+This photo of a stage 4 pressure injury shows visible deep structures, such as tendon and joint.
+
+Photo from Gordian Medical, Inc. dba American Medical Technologies; used with permission.
+
+Pearls & Pitfalls
+
+Suspect deeper tissue damage than is clinically evident in patients who have pressure injury.
+
+Staging definition reference
+
+1. Editors of Nursing: Pressure ulcers get new terminology and staging definitions. Nursing 47(3):68–69, 2017. doi: 10.1097/01.NURSE.0000512498.50808.2b
+
+Complications of Pressure Injuries
+
+Pressure injuries are a reservoir for hospital-acquired antibiotic-resistant microorganisms. High bacteria counts within the wound can weaken the immune response or hinder the normal tissue healing process. Infections are the most common complications of pressure injury. Infections include cellulitis, abscess, infectious bursitis, infectious arthritis, and necrotizing fasciitis. If wound healing is delayed despite proper treatment, underlying osteomyelitis (present in up to 32% of patients) or rarely squamous cell carcinoma within the ulcer (Marjolin ulcer) should be suspected.
+
+Other local complications of nonhealing pressure injury include tissue calcification and sinus tracts, which can be superficial or connect a pressure ulcer to deep adjacent structures (eg, sinus tracts from a sacral ulcer to the bowel).
+
+Systemic infectious complications can include bacteremia, meningitis, and endocarditis. The risk of these complications increases with the severity of the pressure injury. 
+
+Diagnosis of Pressure Injuries
+
+Primarily history and physical examination
+
+Nutritional assessment
+
+Rarely, imaging studies (MRI with or without contrast)
+
+The diagnosis of pressure injury is based on clinical evaluation. A pressure injury is typically identified by its characteristic appearance and by its location over a bony prominence. The sacrum is the most common location, followed by the heels. Injuries caused by arterial and venous insufficiency or diabetic neuropathy may mimic pressure injuries, particularly on the lower extremities, and can also be worsened by the same factors (ie, shearing forces, friction, and moisture) that cause or worsen pressure injuries.
+
+The depth and extent of pressure injuries can be difficult to determine. Serial staging and photography of wounds is essential for monitoring injury progression or healing. Many healing scales are available. The Pressure Ulcer Scale for Healing (PUSH), designed as a companion to the NPIAP staging system, has been adopted by many institutions (1).
+
+Routine wound culture is not recommended because all pressure injuries are heavily colonized by bacteria.
+
+A nutritional assessment is recommended in patients with pressure injury, particularly those with stage 3 or 4 pressure injuries. Nutritional status assessment is best accomplished by history and physical examination because traditional blood markers such as albumin and prealbumin are not reliable by themselves in determining nutritional status (2). Undernutrition requires further evaluation and treatment.
+
+Nonhealing wounds may occur due to inadequate treatment but their presence should raise suspicion for a complication. Tenderness, erythema of surrounding skin, exudate, or foul odor suggests an underlying infection. Fever and leukocytosis should raise suspicion for cellulitis, bacteremia, or underlying osteomyelitis. If osteomyelitis is suspected, a complete blood count and blood cultures as well as erythrocyte sedimentation rate, C-reactive protein, and/or procalcitonin are recommended. The diagnosis of osteomyelitis is established by bone biopsy and culture, but this is not always feasible.
+
+Imaging tests lack the combination of high sensitivity and specificity. MRI is sensitive but not specific and can help define the extent of pressure injury spread. MRI with gadolinium can help identify draining or communicating sinus tracts.
+
+Diagnosis references
+
+1. National Pressure Injury Advisory Panel. Pressure Ulcer Scale for Healing. Accessed July 30, 2025.
+
+2. Bharadwaj S, Ginoya S, Tandon P, et al. Malnutrition: Laboratory markers vs nutritional assessment. Gastroenterol Rep (Oxf) 4(4):272–280, 2016. doi: 10.1093/gastro/gow013
+
+Treatment of Pressure Injuries
+
+Pressure reduction
+
+Direct wound care
+
+Management of pain
+
+Control of infection
+
+Assessment of nutritional needs
+
+Adjunctive therapy or surgery
+
+A multifaceted approach is recommended for the treatment of pressure injuries. Pressure reduction (via regular repositioning, use of appropriate support surfaces, and reduction of friction and moisture) as well as direct wound care, (ie, dressing, debridement, and wound cleansing) are standard treatment options (1). Controlling pain with analgesics and treating wound infections with antibiotics may be necessary. Nutritional supplementation in patients with protein deficiencies should also be instituted. Surgical repair is reserved for advanced-stage or extensive ulcers.
+
+Pressure reduction
+
+Reducing tissue pressure is accomplished through careful positioning of the patient, protective devices, and use of support surfaces (2, 3).
+
+Frequent repositioning (and selection of the proper position) is the most important factor in maintaining pressure reduction. A written schedule should be used to direct and document repositioning of the patient. Patients confined to a bed should be turned a minimum of every 2 hours and should be placed at a 30° angle to the mattress when on their side (lateral decubitus) to avoid direct trochanteric pressure (4). Elevation of the head of the bed should be minimal to avoid the effects of shearing forces (ie, the forces the patient may experience in needing to change position). When repositioning patients, lifting devices (eg, a Stryker frame) or bed linen should be used instead of dragging patients to avoid unnecessary friction. Patients placed in chairs should be repositioned every hour and encouraged to change position on their own every 15 minutes.
+
+Protective padding such as pillows, foam wedges, and heel protectors can be placed between and/or under the knees, ankles, and heels when patients are supine or on their side. Windows should be cut out of plaster casts at pressure sites in patients immobilized by fractures. Soft seat cushions should be provided for patients able to sit in a chair.
+
+Support surfaces under patients confined to a bed can be changed to reduce pressure. They may be static or dynamic. They are often combined with other measures when treating pressure injuries. Support surfaces are classified based on whether they require electricity to operate. Static surfaces do not require electricity, whereas dynamic surfaces do.
+
+Static surfaces include air, foam, gel, and water overlays and mattresses. Egg-crate mattresses offer no advantage. In general, static surfaces increase surface support area and decrease pressure and shearing forces. Static surfaces have traditionally been used for pressure injury prevention or stage 1 pressure injuries.
+
+Dynamic surfaces include alternating-air mattresses, low-air-loss mattresses, and air-fluidized mattresses. In addition to reducing pressure, some dynamic mattresses increase the area of support, reduce heat and promote cooling, and decrease shear. Alternating-air mattresses have air cells that are alternately inflated and deflated by a pump, thus shifting supportive pressure from site to site. Low-air-loss mattresses are giant air-permeable pillows that are continuously inflated with air; the air flow has a drying effect on tissues. These specialized mattresses are indicated for patients with stage 1 pressure injuries who develop hyperemia on static surfaces and for patients with stage 3 or 4 pressure injuries. Air-fluidized (high-air-loss) mattresses contain silicone-coated beads that liquefy when air is pumped through the bed. The advantages of dynamic support surfaces include reduction of moisture and cooling. These mattresses are indicated for patients with nonhealing stages 3 and 4 pressure injuries or numerous truncal injuries (see table Options for Support Surfaces).
+
+Compared with some static surfaces (eg, foam) reactive air surfaces (eg, alternating-air mattresses) may reduce pressure ulcer risk and may increase complete ulcer healing, however the certainty of available evidence is low (5). 
+
+Friction reduction using barrier protectants such as petroleum jelly has been shown to reduce the friction caused by personal protective equipment immediately after application. However, frequent reapplication (every hour) is necessary to maintain the protective effect, limiting their potential usefulness.
+
+Moisture reduction strategies, such as promptly addressing incontinence and keeping the skin clean, dry, and protected from excessive dampness by the use of appropriate barrier creams or dressings, may additionally help in preventing the development of moisture-associated skin damage and pressure injury.
+
+Table
+
+Options for Support Surfaces
+
+Table
+
+Options for Support Surfaces
+
+Options for Support Surfaces
+
+Static
+
+Dynamic
+
+Support Goal
+
+Standard Hospital Mattress
+
+Foam
+
+Static Flotation (Air or Water)
+
+Alternating Air
+
+Low Air Loss
+
+Air Fluidized (High Air Loss)
+
+Support area increase
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Pressure reduction
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Shear reduction
+
+No
+
+No
+
+Yes
+
+Yes
+
+Unknown
+
+Yes
+
+Heat reduction
+
+No
+
+No
+
+No
+
+No
+
+Yes
+
+Yes
+
+Low moisture retention
+
+No
+
+No
+
+No
+
+No
+
+Yes
+
+Yes
+
+Cost
+
+Low
+
+Low
+
+Low
+
+Moderate
+
+High
+
+High
+
+Adapted from: Pressure ulcer treatment. Agency for Health Care Policy and Research. Clin Pract Guidel Quick Ref Guide Clin, (15):1-25, 1994.
+
+Adapted from: Pressure ulcer treatment. Agency for Health Care Policy and Research. Clin Pract Guidel Quick Ref Guide Clin, (15):1-25, 1994.
+
+Direct wound care
+
+Appropriate wound care involves cleaning, debridement, and dressings.
+
+Cleaning should be performed initially and also with each dressing change. Normal saline is usually the best choice of a cleansing agent. Cleaning often involves irrigation at pressures sufficient to remove bacteria without traumatizing tissue; commercial syringes, squeeze bottles, or electrically pressurized systems can be used. Irrigation may also help remove necrotic tissue (debridement). Alternatively, a 35-mL syringe and an 18-gauge IV catheter can be used. Irrigation should continue until no further debris can be loosened. Antiseptics and antiseptic washes (eg, iodine, hydrogen peroxide, sodium hypochlorite) can destroy healthy granulation tissue and keratinocytes and thus should generally be avoided. However, hypochlorous acid–based wound cleansers have been developed that reduce microbial burden without impairing normal cell function and, thus, may be used in many treatment settings (6).
+
+Debridement is necessary to remove necrotic tissue. Necrotic tissue serves as a medium for bacterial growth and blocks normal wound healing. Methods include:
+
+Mechanical debridement: This method includes hydrotherapy (eg, whirlpool baths, pulsatile lavage) and most commonly wet-to-dry dressings. Cleaning wounds by irrigation at sufficient pressures can also accomplish mechanical debridement. Mechanical debridement removes necrotic debris on the wound’s surface and should only be performed on wounds with very loose exudate. In wet-to-dry dressings, exudate and necrotic tissue adhere to a gauze dressing as it dries so that removal of the gauze thus debrides the wound; this method must be used cautiously because dressing changes are painful and may remove underlying healthy granulation tissue (ie, tissue necessary for proper healing).
+
+Sharp (surgical) debridement: This method involves using a sterile scalpel or scissors to remove eschar and thick necrosis. Modest amounts of eschar or tissue can be debrided at the patient’s bedside, but extensive or deep areas (eg, if underlying bone, tendon, or joints are exposed) should be debrided in the operating room.
+
+Autolytic debridement: Synthetic occlusive (hydrocolloids/hydrogels) dressings or semi-occlusive (transparent film) dressings are used to facilitate the digestion of dead tissues by the enzymes already normally present in the wound. Autolytic debridement may be used for smaller wounds with little exudate. This method should not be used if a wound infection is suspected.
+
+Enzymatic debridement: This technique (using collagenase, papain, fibrinolysin, deoxyribonuclease, or streptokinase/streptodornase) can be used for patients with mild fibrotic or necrotic tissue within the ulcer. It can also be used for patients whose caretakers are not trained to perform mechanical debridement or for patients unable to tolerate surgery. It is most effective after careful and judicious cross-hatching of the wound with a scalpel to improve penetration.
+
+Biological debridement: Medical maggot therapy is useful for selectively removing dead necrotic tissue; maggots (fly larvae) eat only dead tissue. This method is most helpful in patients who have exposed bone, tendons, and joints in the wound where sharp debridement is contraindicated.
+
+Dressings are helpful for protecting the wound and facilitating the healing process. They should be used for stage 1 pressure injuries that are subject to friction or incontinence and for all other pressure injuries (see table Options for Pressure Injury Dressings).
+
+In stage 1 pressure injuries subject to increased friction, transparent films are sufficient. For injuries with minimal exudate, transparent films or hydrogels, which are cross-linked polymer dressings that come in sheets or gels, are used to protect the wound from infection and create a moist environment that optimizes physiologic healing processes. Transparent films or hydrogels should be changed every 3 to 7 days.
+
+Hydrocolloids, which combine gelatin, pectin, and carboxymethylcellulose in the form of wafers and powders, are indicated for pressure injuries with light exudate and can be left in place for up to 1 week depending on the amount of drainage.
+
+Alginates (polysaccharide seaweed derivatives containing alginic acid), which come as pads, ropes, ribbons, and gelling fiber dressings are indicated for absorbing extensive exudate. Alginates also have hemostatic properties useful for controlling bleeding after surgical debridement. Both of these dressings can be placed for up to 7 days but must be changed earlier if they become saturated.
+
+Foam dressings can be used in wounds with various levels of exudate and provide a moist protective environment for wound healing. Foam dressings can often stay in place for up to 7 days but must be changed once saturated. Waterproof versions protect the skin from incontinence.
+
+Table
+
+Options for Pressure Injury Dressings
+
+Table
+
+Options for Pressure Injury Dressings
+
+Options for Pressure Injury Dressings
+
+Injury Type*
+
+Description
+
+Objective
+
+Dressing
+
+Shallow (stage 2)
+
+Dry with minimal exudate
+
+Create or retain moisture
+
+Protect from infection
+
+Film, hydrocolloid, or hydrogel
+
+Wet with moderate-to-extensive exudate
+
+Absorb exudate
+
+Facilitate autolysis
+
+Maintain moisture
+
+Protect from infection
+
+Foam, alginate, or gelling fiber
+
+Deep (stages 3 and 4)
+
+Mild to moderate exudate
+
+Fill cavities
+
+Maintain or reduce moisture
+
+Protect from infection
+
+Foam
+
+Wet with moderate-to-extensive exudate
+
+Fill cavities
+
+Absorb exudate
+
+Maintain moisture
+
+Protect from infection
+
+Alginate, gelling fiber, or foam
+
+* Dressings are not usually needed for stage 1 pressure injuries unless subject to friction or incontinence.
+
+* Dressings are not usually needed for stage 1 pressure injuries unless subject to friction or incontinence.
+
+Management of pain
+
+Pressure injuries can cause significant pain. Pain should be monitored regularly using a pain scale.
+
+Primary treatment of pain is treatment of the injury itself, but a nonsteroidal anti-inflammatory drug (NSAID) or acetaminophen is useful for mild-to-moderate pain. Opioids should be avoided if possible because sedation promotes immobility. However, opioids or topical nonopioid preparations such as mixtures of local anesthetics may be necessary during dressing changes and debridement.
+
+In cognitively impaired patients, changes in vital signs can be used as indicators of pain (eg, tachycardia, tachypnea).
+
+Control of infection
+
+Pressure injuries should be continually assessed for signs of bacterial infection such as increased erythema, foul odor, warmth, drainage, fever, and elevated white blood cell count. Impaired wound healing should also raise concern of infection. These abnormal findings indicate a wound culture should be performed. However, because all pressure ulcers are colonized, results should be interpreted with caution; bacterial count rather than bacterial presence should guide treatment.
+
+Superficial skin infection or critical colonization can be treated topically with agents such as silver sulfadiazine, mupirocin, polymyxin B, and metronidazole. Silver sulfadiazine and similar opaque topical agents should be used cautiously because they can impair visualization of the underlying wound and can be difficult to remove.
+
+Systemic antibiotics should be given for cellulitis, bacteremia, or osteomyelitis. Tissue culture and/or blood cultures should be obtained, followed by initiation of empiric antibiotics until culture growth and sensitivity results can be obtained. Treatment should then be narrowed as appropriate based on tissue culture growth and sensitivity results. Tissue culture is always preferred to surface swab culture when possible. Limiting the use of broad-spectrum antibiotics is important to help prevent adverse effects, minimize bacterial resistance, and limit disruption of the skin and gut microbiome.
+
+Assessment of nutritional needs
+
+Evidence from various studies (including clinical trials) underscores the importance of personalized nutritional interventions in managing pressure injury (7). Undernutrition is common among patients with pressure injuries and is a risk factor for delayed healing. Markers of undernutrition include albumin < 3.5 g/dL (< 35 g/L) or weight < 80% of ideal. Protein intake of 1.25 to 1.5 g/kg/day, sometimes requiring oral, nasogastric, or parenteral supplementation, is desirable for optimal healing.
+
+Adjunctive therapy
+
+Multiple adjunctive therapies to promote healing are being evaluated, and their benefit remains uncertain (3). These therapies include the following:
+
+Negative-pressure wound therapy (vacuum-assisted closure, or VAC): This therapy is used to apply suction to the wound. It can be applied to clean wounds. High-quality evidence of efficacy does not yet exist, but negative-pressure wound therapy has shown some promise in small studies.
+
+Topical recombinant growth factors: Some evidence suggests that topical recombinant growth factors (eg, nerve growth factor, platelet-derived growth factor) facilitate wound healing.
+
+Cellular and tissue-based products: Cellular and acellular matrices (ie, skin substitutes) have been used to treat a variety of chronic wounds and have been reported to show benefit in advanced pressure injuries, but evidence is preliminary and randomized trials are lacking.
+
+Electrical stimulation therapy: Electrical stimulation therapy combined with standard wound therapy can increase wound healing.
+
+Hyperbaric oxygen therapy:This therapy not established as a standard treatment and its role remains investigational. It may be considered as an adjunct in select refractory cases of chronic nonhealing wounds.
+
+Therapeutic ultrasound: Ultrasound is sometimes used, but there is no good evidence of benefit or harm.
+
+Electromagnetic, phototherapy (laser) heat, massage: No evidence supports efficacy of these treatments.
+
+Surgery
+
+Large defects require surgical closure, especially when there is associated exposure of underlying musculoskeletal structures.
+
+Skin grafts are useful for large, shallow defects. However, because grafts do not add to blood supply, measures must be taken to prevent pressure from developing to the point of ischemia and further breakdown.
+
+Skin flaps, including myocutaneous, fasciocutaneous, and perforator-based flaps, are preferred and are the closures of choice over large bony prominences (usually the sacrum, ischia, and trochanters) (8).
+
+Surgery may rapidly improve the quality of life in patients with pressure injuries. Surgical outcomes are best if preceded by optimal treatment of underlying risk factors such as undernutrition and comorbid disorders.
+
+Treatment references
+
+1. Mervis JS, Phillips TJ. Pressure ulcers: Prevention and management. J Am Acad Dermatol. 2019;81(4):893-902. doi:10.1016/j.jaad.2018.12.068
+
+2. Reddy M, Gill SS, Kalkar SR, et al. Treatment of pressure ulcers: a systematic review. JAMA. 2008;300(22):2647-2662. doi:10.1001/jama.2008.778
+
+3. Qaseem A, Humphrey LL, Forciea MA, et al; Clinical Guidelines Committee of the American College of Physicians. Treatment of pressure ulcers: a clinical practice guideline from the American College of Physicians. Ann Intern Med. 2015;162(5):370-379. doi:10.7326/M14-1568
+
+4. National Clinical Guideline Centre (UK). The Prevention and Management of Pressure Ulcers in Primary and Secondary Care: NICE Clinical Guidelines, No. 179. London: National Institute for Health and Care Excellence (NICE); 2014. Accessed July 30, 2025.
+
+5. Shi C, Dumville JC, Cullum N, et al. Beds, overlays and mattresses for preventing and treating pressure ulcers: an overview of Cochrane Reviews and network meta-analysis. Cochrane Database Syst Rev. 2021;8(8):CD013761. Published 2021 Aug 16. doi:10.1002/14651858.CD013761.pub2
+
+6. Mallow PJ, Black J, Chaffin AE, et al. The economic and quality effects of wound cleansing with pure hypochlorous acid: evidence-based evaluation and clinical experience. Wounds. 2024;36(10):S1-S13. doi:10.25270/wnds/24101
+
+7. Kassym L, Zhetmekova Z, Kussainova A, et al. Pressure Ulcers and Nutrients: From Established Evidence to Gaps in Knowledge. Curr Med Chem. Published online November 4, 2024. doi:10.2174/0109298673322825241018174928
+
+8. Sameem M, Au M, Wood T, et al: A systematic review of complication and recurrence rates of musculocutaneous, fasciocutaneous, and perforator-based flaps for treatment of pressure sores. Plast Reconstr Surg 130(1):67e–77e, 2012. doi: 10.1097/PRS.0b013e318254b19f
+
+Prognosis for Pressure Injuries
+
+The prognosis for early-stage pressure injuries is excellent with timely, appropriate treatment, but healing typically requires weeks. More advanced pressure injuries require longer healing time.
+
+Pressure injuries often develop in patients who are receiving suboptimal care and/or have significant disorders that impair wound healing (eg, diabetes, undernutrition, peripheral arterial disease). If care of the injury and management of concurrent disorders cannot be optimized, long-term outcomes may be poor, even if short-term wound healing is accomplished.
+
+Prevention of Pressure Injuries
+
+Prevention requires:
+
+Identification of high-risk patients
+
+Repositioning
+
+Conscientious skin care and hygiene
+
+Avoidance of immobilization
+
+Patient risk should be estimated based on the assessment of skilled clinicians and use of risk assessment scales (eg, The Norton Scale for Predicting Pressure Ulcer Risk, the Braden Scale).
+
+Treatment and prevention overlap considerably. The mainstay of prevention is pressure reduction through frequent repositioning. Pressure should not continue over any bony surface for > 2 hours. Patients who cannot move themselves must be repositioned and cushioned with pillows. Patients must be turned even when they are lying on low-pressure mattresses. Pressure points should be checked for erythema or trauma at least once per day under adequate lighting. Patients and family members must be taught a routine of daily visual inspection and palpation of sites for potential injury formation.
+
+Daily attention to hygiene and dryness is necessary to prevent maceration and secondary infection. Protective padding, pillows, or sheepskin can be used to separate body surfaces. Bedding and clothing should be changed frequently. In incontinent patients, injuries should be protected from contamination; synthetic dressings can help. Skin breakdown can be prevented with careful cleansing and drying (patting and not rubbing the skin) and using anticandidal creams and powders, moisture barrier creams containing zinc oxide, or skin-protective wipes. Use of adhesive tape should be minimized, because it can irritate and even tear fragile skin.
+
+Most importantly, immobilization should be avoided. Sedatives should be minimized, and patients should be mobilized as quickly and safely as possible.
+
+Key Points
+
+Pressure injuries can develop secondary to immobilization and hospitalization, particularly in patients who are > 65 years old or neonates, and those with incontinence, or undernourishment.
+
+Base the risk of pressure injury on a standardized scaling system as well as on the assessment of skilled clinicians.
+
+Pressure injuries are staged according to depth, but tissue damage may be deeper and more severe than is evident from the physical examination alone.
+
+Assess patients with pressure injuries for local wound infection (sometimes manifesting as failure to heal), sinus tracts, cellulitis, bacteremic spread (eg, with endocarditis or meningitis), osteomyelitis, and undernutrition.
+
+Treat and help prevent pressure injuries by reducing skin pressure, repositioning frequently, and using protective padding and support surfaces that can be dynamic (powered electrically) or static (not powered electrically).
+
+Clean and dress wounds frequently to reduce bacterial counts and facilitate healing.
+
+Apply transparent films, hydrocolloids, or hydrogels (if exudate is minimal), alginates or gelling fiber dressings (if exudate is extensive), or foam dressings (for varying amounts of exudate).
+
+Treat pain with analgesics and treat cellulitis or systemic infections with targeted systemic antibiotics.
+
+Surgically close large defects, especially those with exposed musculoskeletal structures.
+
+Optimize nutritional status and treatment of comorbid disorders before surgery.
+
+Help prevent pressure injuries in at-risk patients with meticulous wound care, pressure reduction, and avoidance of any unnecessary immobilization.

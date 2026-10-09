@@ -1,0 +1,210 @@
+=== Risks of Medical Radiation (Merck Manual Professional) ===
+Section: Special Subjects > Principles of Radiologic Imaging
+Source: https://www.merckmanuals.com/professional/special-subjects/principles-of-radiologic-imaging/risks-of-medical-radiation
+Retrieved: 2026-09-25
+
+Ionizing radiation (see also Radiation Exposure and Contamination) includes:
+
+High-energy electromagnetic waves (x-rays, gamma rays)
+
+Particles (alpha particles, beta particles, neutrons)
+
+Ionizing radiation is emitted by radioactive elements and by equipment such as x-ray and radiation therapy machines.
+
+Most diagnostic tests that use ionizing radiation (eg, x-rays, CT, radionuclide scanning) expose patients to relatively low doses of radiation that are generally considered safe. However, all ionizing radiation is potentially harmful, and there is no threshold below which no harmful effect occurs, so every effort is made to minimize radiation exposure.
+
+There are various ways to quantify radiation exposure:
+
+The absorbed dose is the amount of radiation absorbed per unit mass. It is expressed in units of gray (Gy) and milligray (mGy). It was previously expressed as radiation-absorbed dose (rad); 1 mGy = 0.1 rad.
+
+The equivalent dose is the absorbed dose multiplied by a radiation weighting factor that adjusts for tissue effects based on the type of radiation delivered (eg, x-rays, gamma rays, electrons). It is expressed in sieverts (Sv) and millisieverts (mSv). It was previously expressed in roentgen equivalents in man (rem; 1 mSv = 0.1 rem). For radiography, including CT, the radiation weighting factor is 1.
+
+The effective dose is a measure used to estimate tissue reactions (or stochastic effects) of exposure to ionizing radiation; it adjusts the equivalent dose based on the susceptibility of the tissue exposed to radiation (eg, gonads are most susceptible). It is expressed in Sv and mSv. The effective dose is higher in young people. The effective dose helps clinicians assess and compare health risks associated with various medical radiation procedures and can also be compared to an assigned occupational dose in radiation protection standards.
+
+Medical imaging is only one source of exposure to ionizing radiation (see table Typical Radiation Doses). Another source is environmental background exposure (from cosmic radiation and natural isotopes), which can be significant, particularly at high altitudes; airplane flights result in increased exposure to environmental radiation as follows:
+
+From a single coast-to-coast airplane flight: 0.01 to 0.03 mSv
+
+From average yearly background radiation exposure in the United States: About 3 mSv
+
+From yearly exposure at high altitudes (eg, Colorado, New Mexico): About 1.5 mSv additional over background
+
+Table
+
+Typical Radiation Doses*
+
+Table
+
+Typical Radiation Doses*
+
+Typical Radiation Doses*
+
+Imaging Test
+
+Average Effective Radiation Dose (mSv)
+
+Dual-energy x-ray absorptiometry (DEXA)
+
+0.001
+
+X-ray, chest (posteroanterior view)
+
+0.02
+
+X-ray, chest (2 views: posteroanterior and lateral)
+
+0.1
+
+X-ray, lumbar spine (1 view lateral)
+
+1.5
+
+X-ray, extremity (1 view: hand, foot, etc.)
+
+0.001
+
+X-ray, abdomen (1 view)
+
+0.7
+
+X-ray, barium enema (lower gastrointestinal study)
+
+6
+
+X-ray, upper gastrointestinal study with barium
+
+6
+
+Screening digital mammography
+
+0.21
+
+CT, head
+
+2
+
+CT, chest
+
+6.1
+
+CT, abdomen and pelvis
+
+7.7
+
+Coronary angiogram
+
+7
+
+Coronary angiogram with interventions
+
+15
+
+Lung perfusion scan
+
+2
+
+PET scan (without whole-body CT)
+
+7
+
+Bone scan (nuclear medicine)
+
+6.3
+
+Hepatobiliary scan
+
+2.1–3.1
+
+Technetium sestimibi heart scan
+
+9.4–12.8
+
+* Doses may vary.
+
+Data from
+
+Mettler FA, Huda W, Yoshizumi TT, Mahesh M: Effective doses in radiology and diagnostic nuclear medicine: A catalog. Radiology 248:254-263, 2008.
+
+American College of Radiology(ACR): Radiation Dose to Adults From Common Imaging Examinations. April 15, 2025. Accessed August 25, 2025.
+
+* Doses may vary.
+
+Data from
+
+Mettler FA, Huda W, Yoshizumi TT, Mahesh M: Effective doses in radiology and diagnostic nuclear medicine: A catalog. Radiology 248:254-263, 2008.
+
+American College of Radiology(ACR): Radiation Dose to Adults From Common Imaging Examinations. April 15, 2025. Accessed August 25, 2025.
+
+Radiation may be harmful if the total accumulated dose for a person is high, as when multiple CT scans are done, because CT scans require a higher doses than most other imaging studies.
+
+Radiation exposure is also a concern in certain high-risk situations, as during the following:
+
+Pregnancy
+
+Infancy
+
+Early childhood
+
+Young adulthood for women who require mammography
+
+The National Council on Radiation Protection and Measurements in United States indicates that between 2006 and 2016, the estimated nontherapeutic medical radiation dose declined by 15 to 20% (1). The estimated average individual effective dose per person in the United States was 2.92 mSv in 2006 and 2.16 mSv in 2016.
+
+Multidetector CT scanners, which are the type most commonly used in the United States, deliver about 40 to 70% more radiation per scan than do single detector CT scanners. However, technological advances (eg, automated exposure control, iterative reconstruction algorithms, third-generation CT detectors) are likely to significantly lower radiation doses used for CT scans. The American College of Radiology has initiated programs—Image Gently (for children) and Image Wisely (for adults)—to provide imaging professionals with resources and information about minimizing radiation exposure.
+
+Radiation and cancer
+
+The estimated risk of cancer due to radiation exposure in diagnostic imaging has been extrapolated from studies of people exposed to very high radiation doses (eg, survivors of the atomic bomb explosions at Hiroshima and Nagasaki). Direct epidemiologic evidence from human populations demonstrates that exposure to ionizing radiation increases the risk of some cancers when doses exceed approximately 50 to 100 mSv for protracted exposure (eg, in occupational settings) or 10 to 50 mSv for acute exposure (eg, from atomic bomb exposure) (2).
+
+Risk is higher in young patients because:
+
+They live longer, giving cancers more time to develop.
+
+More cellular growth (and thus susceptibility to DNA damage) occurs in the young.
+
+For a 1-year-old who has a CT scan of the abdomen, estimated lifetime risk of cancer mortality is increased by 0.18% (3). If an older patient has this test, risk is lower.
+
+Risk also depends on the tissue being irradiated. Lymphoid tissue, bone marrow, blood, testes, ovaries, and intestines are considered very radiosensitive; in adults, the central nervous and musculoskeletal systems are relatively radioresistant.
+
+Radiation during pregnancy
+
+Risks of radiation depend on:
+
+Dose
+
+Type of test
+
+Area being examined
+
+Gestational age of pregnancy
+
+The fetus may be exposed to much less radiation than the mother; exposure to the fetus is negligible during radiographs of the following:
+
+Head
+
+Cervical spine
+
+Extremities
+
+Breasts (mammography) when the uterus is shielded
+
+The extent of uterine exposure depends on gestational age and thus uterine size. The effects of radiation depend on the age of the conceptus (the time from conception).
+
+The period of highest risk from radiation during pregnancy is when the fetal organs are forming, typically between the fifth and tenth weeks. Exposure during this time can lead to birth defects. In the very early stages of pregnancy, radiation is more likely to cause a miscarriage. After the tenth week, the likelihood of miscarriage or serious birth defects decreases (4).
+
+Recommendations
+
+Diagnostic imaging using ionizing radiation, especially CT, should be done only when clearly required. Alternatives should be considered. For example, in young children, minor head injury can often be diagnosed and treated based on clinical findings, and appendicitis can often be diagnosed by ultrasound. However, necessary tests should not be withheld, even if the radiation dose is high (eg, as with CT scans), as long as the potential benefit outweighs the potential harm.
+
+Before diagnostic tests are done in women of child-bearing age, pregnancy should be considered, particularly because risks of radiation exposure are highest during early (first trimester), often unrecognized, pregnancy.
+
+Historically, pelvic shielding was employed primarily to provide reassurance to patients; however, contemporary evidence demonstrates that its use may increase internal scatter and, paradoxically, elevate fetal radiation dose. Advances in imaging technology, including automatic exposure control and iterative reconstruction techniques in modern CT scanners, have substantially reduced patient exposure. Accordingly, the routine application of pelvic shielding in pregnant patients is no longer recommended in radiologic practice (4).
+
+References
+
+1. National Council on Radiation Protection and Measurements (NCRP). Report No. 184 – Medical Radiation Exposure of Patients in the United States (2019). Bethesda, MD, NCRP.
+
+2. Brenner DJ, Doll R, Goodhead DT, et al. Cancer risks attributable to low doses of ionizing radiation: assessing what we really know. Proc Natl Acad Sci U S A. 2003;100(24):13761-13766. doi:10.1073/pnas.2235592100
+
+3. Brenner D, Elliston C, Hall E, Berdon W. Estimated risks of radiation-induced fatal cancer from pediatric CT. AJR Am J Roentgenol. 2001;176(2):289-296. doi:10.2214/ajr.176.2.1760289
+
+4. American College of Radiology. ACR–SPR practice parameter for imaging pregnant or potentially pregnant patients with ionizing radiation. 2023. Accessed August 25, 2025.

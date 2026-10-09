@@ -85,7 +85,7 @@ struct DocDetailView: View {
             VaultPDFView(data: data)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
         case .image:
-            VaultImageView(data: data)
+            ZoomableImageView(data: data)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
         case .text:
             ScrollView {

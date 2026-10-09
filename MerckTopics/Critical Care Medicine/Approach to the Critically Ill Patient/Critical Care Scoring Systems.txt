@@ -1,0 +1,388 @@
+=== Critical Care Scoring Systems (Merck Manual Professional) ===
+Section: Critical Care Medicine > Approach to the Critically Ill Patient
+Source: https://www.merckmanuals.com/professional/critical-care-medicine/approach-to-the-critically-ill-patient/critical-care-scoring-systems
+Retrieved: 2026-09-25
+
+Several scoring systems have been developed to grade the severity of illness in critically ill patients. These systems are moderately accurate in predicting individual survival. However, these systems are more valuable for monitoring quality of care and for conducting research studies because they allow comparison of outcomes among groups of critically ill patients with similar illness severity.
+
+One of the most commonly used systems is the second version of the Acute Physiologic Assessment and Chronic Health Evaluation II (APACHE II) score introduced in 1985. It generates a point score ranging from 0 to 71 based on 12 physiologic variables, age, and underlying health (see table APACHE II Scoring System). The APACHE III system was developed in 1991, and the APACHE IV system was developed in 2006. These systems are more complex with a greater number of physiologic variables but are more cumbersome and are somewhat less used.
+
+There are many other systems, including the second Simplified Acute Physiology Score (SAPS II), the Mortality Prediction Model (MPM), and the Sequential Organ Failure Assessment (SOFA) score.
+
+Critical Care Clinical Calculators
+
+Clinical Calculators
+
+APACHE II Scoring System and Mortality Estimates (Acute Physiology and Chronic Health Disease Classification System II)
+
+Clinical Calculators
+
+Sequential Organ Failure Assessment (SOFA)
+
+Clinical Calculators
+
+Glasgow Coma Scale
+
+Clinical Calculators
+
+APACHE II Scoring System and Mortality Estimates (Acute Physiology and Chronic Health Disease Classification System II)
+
+Clinical Calculators
+
+Sequential Organ Failure Assessment (SOFA)
+
+Clinical Calculators
+
+Glasgow Coma Scale
+
+Table
+
+Acute Physiologic Assessment and Chronic Health Evaluation (APACHE) II Scoring System*
+
+Table
+
+Acute Physiologic Assessment and Chronic Health Evaluation (APACHE) II Scoring System*
+
+Acute Physiologic Assessment and Chronic Health Evaluation (APACHE) II Scoring System*
+
+Physiologic Variable†
+
+Point Score
+
++4
+
++3
+
++2
+
++1
+
+0
+
++1
+
++2
+
++3
+
++4
+
+1
+
+Temperature, core (°C)
+
+≥41°
+
+39–40.9°
+
+—
+
+38.5–38.9°
+
+36–38.4°
+
+34–35.9°
+
+32–33.9°
+
+30–31.9°
+
+≤29.9°
+
+2
+
+Mean arterial pressure (mm Hg)
+
+≥ 160
+
+130–159
+
+110–129
+
+—
+
+70–109
+
+—
+
+50–69
+
+—
+
+≤ 49
+
+3
+
+Heart rate
+
+≥ 180
+
+140–179
+
+110–139
+
+—
+
+70–109
+
+—
+
+55–69
+
+40–54
+
+≤ 39
+
+4
+
+Respiratory rate (nonventilated or ventilated)
+
+≥ 50
+
+35–49
+
+—
+
+25–34
+
+12–24
+
+10–11
+
+6–9
+
+—
+
+≤ 5
+
+5
+
+Oxygenation: a) FIO2 ≥ 0.5: use A-aDO2
+
+≥ 500
+
+350–499
+
+200–349
+
+—
+
+< 200
+
+—
+
+—
+
+—
+
+—
+
+b) FIO2 < 0.5: use PAO2 (mm Hg)
+
+—
+
+—
+
+—
+
+—
+
+> 70
+
+61–70
+
+—
+
+55–60
+
+< 55
+
+6
+
+Arterial pH
+
+≥ 7.7
+
+7.6–7.69
+
+—
+
+7.5–7.59
+
+7.33–7.49
+
+—
+
+7.25–7.32
+
+7.15–7.24
+
+< 7.15
+
+7
+
+Serum sodium (mmol/L or mEq/L)
+
+≥ 180
+
+160–179
+
+155–159
+
+150–154
+
+130–149
+
+—
+
+120–129
+
+111–119
+
+≤ 110
+
+8
+
+Serum potassium (mmol/L or mEq/L)
+
+≥ 7
+
+6–6.9
+
+—
+
+5.5–5.9
+
+3.5–5.4
+
+3–3.4
+
+2.5–2.9
+
+—
+
+< 2.5
+
+9
+
+Serum creatinine (micromol/L or mg/dL); double point score for patients with acute renal failure
+
+≥ 3.5
+
+2–3.4
+
+1.5–1.9
+
+—
+
+0.6–1.4
+
+—
+
+< 0.6
+
+—
+
+—
+
+10
+
+Hematocrit (%)
+
+≥ 60
+
+—
+
+50–59.9
+
+46–49.9
+
+30–45.9
+
+—
+
+20–29.9
+
+—
+
+< 20
+
+11
+
+White blood cells (in 1000s)
+
+≥ 40
+
+—
+
+20–39.9
+
+15–19.9
+
+3–14.9
+
+—
+
+1–2.9
+
+—
+
+< 1
+
+12
+
+Glasgow coma score (GCS)
+
+Score = 15 minus actual GCS (see table Glasgow Coma Scale)
+
+Acute physiology score is the sum of the 12 individual variable points.
+
+Add 0 points for age < 44 years; 2 points, 45–54 years; 3 points, 55–64 years; 5 points, 65–74 years; 6 points ≥ 75 years.
+
+Add chronic health status points: 2 points for elective postoperative patient with immunocompromise or history of severe organ insufficiency; 5 points for nonoperative patient or emergency postoperative patient with immunocompromise or severe organ insufficiency.‡
+
+(13)§
+
+Serum bicarbonate (venous–mmol/L or mEq/L)
+
+≥ 52
+
+41–51.9
+
+—
+
+32–40.9
+
+22–31.9
+
+—
+
+18–21.9
+
+15–17.9
+
+< 15
+
+* APACHE II score = acute physiology score + age points + chronic health points. Minimum score = 0; maximum score = 71. Increasing score is associated with increasing risk of hospital mortality.
+
+† Choose worst value in the past 24 hours.
+
+‡ Chronic health status: Organ insufficiency (eg, hepatic, cardiovascular, renal, pulmonary) or immunocompromised state must have preceded current admission.
+
+§ This variable is optional; use only if no arterial blood gases are available.
+
+A-a DO2 = alveolar–arterial oxygen gradient; FIO2 = fractional inspired oxygen.
+
+Adapted from Knaus WA, Draper EA, Wagner DP, Zimmerman JE: APACHE II: A severity of disease classification system. Critical Care Medicine 13:818–829, 1985.
+
+* APACHE II score = acute physiology score + age points + chronic health points. Minimum score = 0; maximum score = 71. Increasing score is associated with increasing risk of hospital mortality.
+
+† Choose worst value in the past 24 hours.
+
+‡ Chronic health status: Organ insufficiency (eg, hepatic, cardiovascular, renal, pulmonary) or immunocompromised state must have preceded current admission.
+
+§ This variable is optional; use only if no arterial blood gases are available.
+
+A-a DO2 = alveolar–arterial oxygen gradient; FIO2 = fractional inspired oxygen.
+
+Adapted from Knaus WA, Draper EA, Wagner DP, Zimmerman JE: APACHE II: A severity of disease classification system. Critical Care Medicine 13:818–829, 1985.

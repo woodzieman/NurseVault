@@ -36,7 +36,11 @@ platform :ios do
       ipa: "build/export/fastlane/NurseVault.ipa",
       force: true,
       # precheck can't verify IAPs via API key (fastlane 2.240 limitation)
-      precheck_include_in_app_purchases: false
+      precheck_include_in_app_purchases: false,
+      # Skip metadata/screenshots (locale "en-us" already exists as a bug in ASC API)
+      skip_metadata: true,
+      skip_screenshots: true,
+      skip_binary_upload: false
     )
   end
 

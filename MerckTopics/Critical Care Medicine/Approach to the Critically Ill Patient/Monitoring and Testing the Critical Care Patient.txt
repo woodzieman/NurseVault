@@ -1,0 +1,400 @@
+=== Monitoring and Testing the Critical Care Patient (Merck Manual Professional) ===
+Section: Critical Care Medicine > Approach to the Critically Ill Patient
+Source: https://www.merckmanuals.com/professional/critical-care-medicine/approach-to-the-critically-ill-patient/monitoring-and-testing-the-critical-care-patient
+Retrieved: 2026-09-25
+
+Monitoring of critical care patients may be intermittent and based on direct observation and physical examination, with the frequency depending on the patient’s illness. Other types of monitoring are continuous, provided by non-invasive (eg, pulse oximeter) or invasive (eg, central line) devices. Monitoring devices typically generate an alarm if abnormal physiologic parameters are detected. Every intensive care unit (ICU) should follow strict protocols for determining appropriate monitoring to ensure timely response to alarms (1). As critical care equipment has advanced and the number and frequency of alarms have increased, a phenomenon called "alarm fatigue" has been recognized, which is an excessive exposure of ICU personnel to monitor alarms, causing desensitization and leading to missed alarms or delayed responses (2).
+
+Monitoring usually includes measurement of vital signs (temperature, blood pressure, pulse, and respiration rate), oxygen saturation (usually with a transcutaneous pulse oximeter), quantification of all fluid intake and output, and daily weight as well as other parameters based on clinical condition (eg, intracranial pressure, pulmonary or cardiac blood pressures). Blood pressure may be recorded by an automated sphygmomanometer or an arterial catheter can be used for continuous blood pressure monitoring.
+
+General references
+
+1. Sandau KE, Funk M, Auerbach A, et al. Update to Practice Standards for Electrocardiographic Monitoring in Hospital Settings: A Scientific Statement From the American Heart Association. Circulation. 2017;136(19):e273-e344. doi:10.1161/CIR.0000000000000527
+
+2. Lewandowska K, Weisbrot M, Cieloszyk A, Mędrzycka-Dąbrowska W, Krupa S, Ozga D. Impact of Alarm Fatigue on the Work of Nurses in an Intensive Care Environment-A Systematic Review. Int J Environ Res Public Health. 2020;17(22):8409. Published 2020 Nov 13. doi:10.3390/ijerph17228409
+
+Blood Tests
+
+ICU patients typically have routine daily blood tests. Generally, laboratory tests are focused on clinical condition and may include complete blood count (CBC), kidney and liver function, and electrolytes (eg, sodium, potassium, magnesium, phosphate, and ionized calcium) (1). Patients receiving parenteral nutrition require monitoring of liver function and coagulation profiles to monitor for parenteral nutrition–associated liver disease (2). Other tests (eg, blood cultures for suspected infection) are performed as needed. However, frequent phlebotomy causes pain and can cause iatrogenic anemia. Placement of a central venous catheter or arterial catheter facilitates blood sampling without the need for repeated peripheral needle sticks, but the risk of complications must be considered.
+
+Point-of-care testing devices are available for certain blood tests, allowing testing and rapid results at the patient’s bedside or unit (particularly ICU, emergency department, and operating room). Commonly available tests include blood chemistries, glucose, arterial blood gases (ABGs), CBC, cardiac biomarkers, and coagulation tests. Many of these devices provide results in < 2 minutes and require < 0.5 mL blood.
+
+Blood tests references
+
+1. Eaton KP, Levy K, Soong C, et al. Evidence-Based Guidelines to Eliminate Repetitive Laboratory Testing. JAMA Intern Med. 2017;177(12):1833-1839. doi:10.1001/jamainternmed.2017.5152
+
+2. Nowak K. Parenteral Nutrition-Associated Liver Disease. Clin Liver Dis (Hoboken). 2020;15(2):59-62. doi:10.1002/cld.888
+
+Cardiac Monitoring
+
+Cardiac monitoring in critical care patients is typically done with a 3-lead system; signals are usually transmitted to a central monitoring station by a small radio transmitter worn by the patient. Automated systems generate alarms for abnormal rates and rhythms and store abnormal tracings for subsequent review.
+
+Some specialized cardiac monitors track advanced parameters associated with coronary ischemia, although their clinical benefit is unclear. These parameters include continuous ST segment monitoring and heart rate variability. Loss of normal beat-to-beat variability signals a reduction in autonomic activity and possibly coronary ischemia and increased risk of mortality.
+
+Pulmonary Artery Catheter (PAC) Monitoring
+
+Use of a pulmonary artery catheter (PAC, or Swan-Ganz catheter) may be beneficial for ICU patients with complex hemodynamic instability, especially in patients with heart failure. This balloon-tipped, flow-directed catheter is inserted via central veins through the right side of the heart into the pulmonary artery. The catheter typically contains several ports that can monitor pressure or inject fluids. Some PACs also include a sensor to measure central (mixed) venous oxygen saturation. Data from PACs are used mainly to determine cardiac output and preload. Preload is most commonly estimated by the pulmonary artery occlusion pressure. However, preload may be more accurately determined by right ventricular end-diastolic volume, which is measured using fast-response thermistors gated to heart rate.
+
+Routine use of PACs has not been shown to reduce morbidity and mortality (1). This finding may be explained by complications of PAC use and misinterpretation of the data obtained. Nevertheless, some physicians believe PACs, when combined with other objective and clinical data, aid in the management of certain critically ill patients. As with many physiologic measurements, a changing trend is typically more significant than a single abnormal value. Possible indications for PACs are listed in the table Potential Indications for Pulmonary Artery Catheterization.
+
+Table
+
+Potential Indications for Pulmonary Artery Catheterization
+
+Potential Indications for Pulmonary Artery Catheterization
+
+Cardiac disorders
+
+Acute valvular regurgitation
+
+Cardiac tamponade
+
+Complicated heart failure
+
+Complicated myocardial infarction
+
+Ventricular septal rupture
+
+Hemodynamic instability*
+
+Assessment of volume status
+
+Shock
+
+Hemodynamic monitoring
+
+Cardiac surgery
+
+Postoperative care in critically ill patients
+
+Surgery and postoperative care in patients with significant heart disease
+
+Pulmonary disorders
+
+Complicated pulmonary embolism
+
+Pulmonary hypertension
+
+* Particularly if inotropic medications are required.
+
+* Particularly if inotropic medications are required.
+
+Radiograph Showing Correct Placement of a Swan-Ganz Catheter
+
+Image
+
+The arrow points to the tip of a Swan-Ganz (pulmonary artery) catheter placed appropriately in the right pulmonary artery.
+
+© 2017 Elliot K. Fishman, MD.
+
+Procedure
+
+The pulmonary artery catheter (PAC) is inserted through a special catheter in the subclavian vein (usually left), internal jugular vein (usually right), or, less often, a femoral vein. Insertion occurs with the balloon (at the tip of the catheter) deflated. Once the catheter tip reaches the superior vena cava, inflation of the balloon permits blood flow to guide the catheter. The position of the catheter tip is usually determined by monitoring intracardiac and great vessel pressures (see table Normal Pressures in the Heart and Great Vessels) or occasionally by fluoroscopy.
+
+Entry into the right ventricle is indicated by a sudden increase in systolic pressure to about 30 mm Hg; diastolic pressure remains unchanged from right atrial or vena caval pressure. When the catheter enters the pulmonary artery, systolic pressure does not change, but diastolic pressure rises above right ventricular end-diastolic pressure or central venous pressure (CVP); ie, the pulse pressure (the difference between the systolic and diastolic pressures) narrows. Further movement of the catheter wedges the balloon in a distal pulmonary artery. Once in place in the pulmonary artery, the balloon should be deflated. A chest radiograph confirms proper placement.
+
+Pulmonary Artery Catheter Inse...
+
+video
+
+Table
+
+Normal Pressures in the Heart and Great Vessels
+
+Table
+
+Normal Pressures in the Heart and Great Vessels
+
+Normal Pressures in the Heart and Great Vessels
+
+Type of Pressure
+
+Average (mm Hg)
+
+Range (mm Hg)
+
+Right atrium
+
+3
+
+0–8
+
+Right ventricle
+
+Peak-systolic
+
+25
+
+15–30
+
+End-diastolic
+
+4
+
+0–8
+
+Pulmonary artery
+
+Mean
+
+15
+
+9–16
+
+Peak-systolic
+
+25
+
+15–30
+
+End-diastolic
+
+9
+
+4–14
+
+Pulmonary artery occlusion (pulmonary artery wedge)
+
+Mean
+
+9
+
+2–12
+
+Left atrium
+
+Mean
+
+8
+
+2–12
+
+A wave
+
+10
+
+4–16
+
+V wave
+
+13
+
+6–12
+
+Left ventricle
+
+Peak-systolic
+
+130
+
+90–140
+
+End-diastolic
+
+9
+
+5–12
+
+Brachial artery
+
+Mean
+
+85
+
+70–150
+
+Peak-systolic
+
+130
+
+90–140
+
+End-diastolic
+
+70
+
+60–90
+
+Adapted from Fowler NO: Cardiac Diagnosis and Treatment, ed 3. Philadelphia, JB Lippincott, 1980, p. 11.
+
+Adapted from Fowler NO: Cardiac Diagnosis and Treatment, ed 3. Philadelphia, JB Lippincott, 1980, p. 11.
+
+The systolic pressure (normal, 15 to 30 mm Hg) and diastolic pressure (normal, 5 to 13 mm Hg) are recorded with the catheter balloon deflated. The diastolic pressure corresponds well to the occlusion pressure, although diastolic pressure can exceed occlusion pressure when pulmonary vascular resistance is elevated secondary to primary pulmonary disease (eg, pulmonary fibrosis, pulmonary hypertension).
+
+Pulmonary artery occlusion pressure (pulmonary artery wedge pressure)
+
+With the balloon inflated, pressure at the tip of the pulmonary artery catheter reflects the static back pressure of the pulmonary veins. The balloon must not remain inflated for > 30 seconds to prevent pulmonary infarction. Normally, pulmonary artery occlusion pressure (PAOP) approximates mean left atrial pressure, which in turn approximates left ventricular end-diastolic pressure (LVEDP). LVEDP reflects left ventricular end-diastolic volume (LVEDV). The LVEDV represents preload, which is the actual target parameter. Many factors cause PAOP to reflect LVEDV inaccurately. These factors include:
+
+Mitral stenosis
+
+Mitral regurgitation
+
+High levels of positive end-expiratory pressure (> 10 cm H2O)
+
+Changes in left ventricular compliance (eg, due to myocardial infarction, pericardial effusion, or increased afterload)
+
+Technical difficulties result from excessive balloon inflation, improper catheter position, alveolar pressure exceeding pulmonary venous pressure, or severe pulmonary hypertension (which may make the balloon difficult to wedge).
+
+Elevated PAOP occurs in left-sided heart failure. Decreased PAOP occurs in hypovolemia or decreased preload.
+
+Mixed venous oxygenation
+
+Mixed venous blood comprises blood from the superior and inferior vena cava that has passed through the right heart to the pulmonary artery. The blood may be sampled from the distal port of the PAC (mixed venous oxygen saturation [SvO2]), but some catheters have embedded fiberoptic sensors that directly measure oxygen saturation. SvO2 is normally 65 to 75% (2).
+
+Causes of low SvO2 include inadequate delivery of oxygen (eg, anemia, pulmonary disease, carboxyhemoglobinemia, low cardiac output) and increased tissue metabolic needs. Arterial oxygen saturation minus mixed venous oxygen saturation (SaO2 - SvO2) represents the amount of oxygen extracted by tissues. The difference between arterial oxygen saturation and mixed venous oxygen saturation determines the adequacy of oxygen delivery and peripheral tissue oxygen utilization (3).
+
+Cardiac output (CO)
+
+Cardiac output is measured by intermittent bolus injection of ice water or with continuous warm thermodilution (see Measurement of cardiac output and flow). The cardiac index divides the cardiac output by body surface area to correct for patient size (see table Normal Values for Cardiac Index and Related Measures).
+
+Clinical Calculators
+
+Body Surface Area (Du Bois Method)
+
+Clinical Calculators
+
+Cardiac Output MultiCalc
+
+Clinical Calculators
+
+Cardiac Output
+
+Other variables can be calculated from cardiac output. They include:
+
+Systemic vascular resistance
+
+Pulmonary vascular resistance
+
+Right ventricular stroke work (RVSW)
+
+Left ventricular stroke work (LVSW)
+
+Table
+
+Normal Values for Cardiac Index and Related Measurements
+
+Table
+
+Normal Values for Cardiac Index and Related Measurements
+
+Normal Values for Cardiac Index and Related Measurements
+
+Measurement
+
+Units ± SD
+
+Oxygen uptake
+
+143 ± 14.3 mL/minute/m2
+
+Arteriovenous oxygen difference
+
+4.1 ± 0.6 dL
+
+Cardiac index
+
+3.5 ± 0.7 L/minute/m2
+
+Stroke index
+
+46 ± 8.1 mL/beat/m2
+
+Total systemic resistance
+
+1130 ± 178 dynes-second-cm-5
+
+Total pulmonary resistance
+
+205 ± 51 dynes-second-cm-5
+
+Pulmonary arteriolar resistance
+
+67 ± 23 dynes-second-cm-5
+
+SD = standard deviation.
+
+Adapted from Barratt-Boyes BG, Wood EH. Cardiac output and related measurements and pressure values in the right heart and associated vessels, together with an analysis of the hemodynamic response to the inhalation of high oxygen mixtures in healthy subjects. Journal of Laboratory and Clinical Medicine. 51:72–90, 1958.
+
+SD = standard deviation.
+
+Adapted from Barratt-Boyes BG, Wood EH. Cardiac output and related measurements and pressure values in the right heart and associated vessels, together with an analysis of the hemodynamic response to the inhalation of high oxygen mixtures in healthy subjects. Journal of Laboratory and Clinical Medicine. 51:72–90, 1958.
+
+Complications
+
+Pulmonary artery catheters may be difficult to insert. Cardiac arrhythmias, particularly ventricular arrhythmias, are the most common complication. Pulmonary infarction secondary to overinflated or permanently wedged balloons, pulmonary artery perforation, intracardiac perforation, valvular injury, and endocarditis may occur. Rarely, the catheter may curl into a knot within the right ventricle (especially in patients with heart failure, cardiomyopathy, or increased pulmonary pressure).
+
+Pulmonary artery rupture occurs in an estimated 0.03 to 0.2 % of PAC insertions (4). This catastrophic complication is often fatal and occurs immediately on wedging the catheter either initially or during a subsequent occlusion pressure check. Thus, many physicians prefer to monitor pulmonary artery diastolic pressures which can be used as a surrogate measurement for pulmonary artery occlusion pressures (5).
+
+Pulmonary artery catheter monitoring references
+
+1. Hadian M, Pinsky MR. Evidence-based review of the use of the pulmonary artery catheter: impact data and complications. Crit Care. 2006;10 Suppl 3(Suppl 3):S8. doi:10.1186/cc4834
+
+2. Squara P. Central venous oxygenation: when physiology explains apparent discrepancies. Crit Care. 2014;18(6):579. doi:10.1186/s13054-014-0579-9
+
+3. Shepherd SJ, Pearse RM. Role of central and mixed venous oxygen saturation measurement in perioperative care. Anesthesiology. 2009;111(3):649-656. doi:10.1097/ALN.0b013e3181af59aa
+
+4. American Society of Anesthesiologists Task Force on Pulmonary Artery Catheterization. Practice guidelines for pulmonary artery catheterization: an updated report by the American Society of Anesthesiologists Task Force on Pulmonary Artery Catheterization. Anesthesiology. 2003;99(4):988-1014. doi:10.1097/00000542-200310000-00036
+
+5. Papolos AI, Kenigsberg BB, Singam NSV, et al. Pulmonary Artery Diastolic Pressure as a Surrogate for Pulmonary Capillary Wedge Pressure in Cardiogenic Shock. J Card Fail. 2024;30(6):853-856. doi:10.1016/j.cardfail.2024.02.021
+
+Noninvasive Cardiac Output Assessment
+
+Other methods of determining cardiac output, such as point-of-care ultrasound, esophageal Doppler monitoring, and thoracic bioimpedance, can be used to avoid the complications of pulmonary artery catheters (PACs). Although these methods are potentially useful, none is as reliable as a PAC.
+
+Point-of-care ultrasound
+
+Point-of-care ultrasound is indispensable in critical care for rapid diagnosis of functional and anatomic abnormalities. Hand-held ultrasound devices are portable and thus save time and obviate the need to transport the patient out of a critical care unit. They can sometimes eliminate the need for conventional imaging techniques. Judicious use of ultrasound decreases exposure to ionizing radiation. In acute care, point-of-care ultrasound is particularly useful for evaluating the abdomen, thorax, and heart. It can sometimes be used to diagnose deep vein thrombosis.
+
+Abdominal ultrasound can be used to identify free (extravascular) fluid, typically as part of focused assessment with sonography for trauma (FAST—usually performed during trauma evaluation and resuscitation). In a trauma patient who is hypotensive, free fluid is likely to be blood. When the patient only transiently responds or does not respond to blood transfusion, free fluid can be an indication for surgical intervention. Ultrasound can also be used to evaluate other abdominal organs.
+
+Cardiac ultrasound is essential for evaluating anatomy as well as hemodynamic status by assessing chamber size, wall motion, contractility, and ejection fraction. A focused rapid echocardiographic evaluation (FREE) is one example of a structured, dynamic ultrasound assessment. FREE is performed using the 4 standard echocardiographic windows: the parasternal long axis, parasternal short axis, apical window, and subxyphoid window. FREE evaluates left ventricular ejection fraction (EF), stroke volume (SV), cardiac output (CO), and cardiac index (CI) and allows for the evaluation of patients with hypotension (1). In evaluating patients with hypotension, ultrasound is indispensable in confirming the following:
+
+Hypovolemia: Even if the inferior vena cava looks full (as can occur in a hypovolemic ventilated patient), hypovolemia is suggested by a hyperdynamic left ventricle with almost no blood at the end of systole and little at the end of diastole.
+
+Left ventricular dysfunction: Left ventricular dysfunction is suggested by wall motion abnormalities and decreased ejection fraction that is either measured or estimated (by an experienced operator who assesses the overall size and apparent contractility and inward movement and thickening of the various segments of the left ventricular wall).
+
+Right ventricular failure: The right ventricle should be 60% the size of the left ventricle, triangular, and have a rough inside surface (from trabeculae carneae and papillary muscles). A dilated right ventricle indicates right ventricular failure and may suggest pulmonary embolism.
+
+Pericardial effusions and resultant cardiac tamponade decreases cardiac output because of diminished venous return and preload.
+
+Thoracic ultrasound can be used to identify pleural fluid (eg, hemothorax) and pneumothorax with higher sensitivity and negative predictive value than with plain radiographs. For example, loss of lung sliding in an area spanning over 3 anterior intercostal spaces and A-lines (horizontal artifacts) are each nearly 100% sensitive, and, when visualized together are highly specific for pneumothorax. The echogenicity of pleural fluid and changes in the pleura and adjacent lung parenchyma in the posterolateral regions also help determine the etiology of pleural fluid. (See How To Do E-FAST Examination.)
+
+Point-of-care ultrasound is also useful for looking for deep venous thrombosis and sometimes identifying intra-abdominal organ injury (eg, splenic rupture).
+
+Esophageal Doppler monitor (EDM)
+
+This device is a soft catheter that is passed orally or nasopharyngeally into the esophagus and positioned behind the heart. A Doppler flow probe at its tip allows continuous monitoring of cardiac output and stroke volume (2, 3). Unlike the invasive pulmonary artery catheter, the esophageal Doppler monitor (EDM) placement does not cause pneumothorax, arrhythmia, or infection. An EDM may be more accurate than a PAC in certain patients with cardiac valvular lesions, septal defects, arrhythmias, or pulmonary hypertension (4). However, the EDM may provide inconsistent information because slight positional changes of the patient or catheter may produce dampened waveforms and therefore inaccurate readings.
+
+Thoracic bioimpedance
+
+Thoracic bioimpedance systems use topical electrodes on the anterior chest and neck to measure electrical impedance of the thorax. The electrical impedance value varies with beat-to-beat changes in thoracic blood volume and hence can estimate cardiac output (5). The system is noninvasive and provides values quickly (within 2 to 5 minutes); however, the technique is very sensitive to alteration of the electrode contact with the patient. Thoracic bioimpedance is more valuable in recognizing changes in cardiac output in a given patient than in precisely measuring its absolute value.
+
+Noninvasive cardiac output assessment references
+
+1. Murthi SB, Hess JR, Hess A, et al. Focused rapid echocardiographic evaluation versus vascular catheter-based assessment of cardiac output and function in critically ill trauma patients. J Trauma Acute Care Surg. 2012;72 (5):1158–1164. doi: 10.1097/TA.0b013e31824d1112
+
+2. Cholley BP, Singer M. Esophageal Doppler: noninvasive cardiac output monitor. Echocardiography. 2003;20(8):763-769. doi:10.1111/j.0742-2822.2003.03033.x
+
+3. Dark PM, Singer M. The validity of trans-esophageal Doppler ultrasonography as a measure of cardiac output in critically ill adults. Intensive Care Med. 2004;30(11):2060-2066. doi:10.1007/s00134-004-2430-2
+
+4. Eachempati SR, Barie PS. Minimally invasive and noninvasive diagnosis and therapy in critically ill and injured patients. Arch Surg. 1999;134(11):1189-1196. doi:10.1001/archsurg.134.11.1189
+
+5. Moshkovitz Y, Kaluski E, Milo O, Vered Z, Cotter G. Recent developments in cardiac output determination by bioimpedance: comparison with invasive cardiac output and potential cardiovascular applications. Curr Opin Cardiol. 2004;19(3):229-237. doi:10.1097/00001573-200405000-00008
+
+Intracranial Pressure (ICP) Monitoring
+
+Intracranial pressure monitoring is standard for patients with severe closed head injury and is occasionally used for some other brain disorders, such as in selected cases of hydrocephalus and idiopathic intracranial hypertension (pseudotumor cerebri) or in postoperative or postembolic management of arteriovenous malformations. These devices are used to monitor ICP (normally 5 to 15 mm Hg) and to optimize cerebral perfusion pressure (mean arterial pressure minus intracranial pressure). Typically, the cerebral perfusion pressure should be kept > 60 mm Hg.
+
+Several types of intracranial pressure monitors are available. Extraventricular drain (EVD) is the most useful method; a catheter is placed through the skull into a cerebral ventricle (ventriculostomy catheter). This device is preferred because the catheter can also drain cerebrospinal fluid (CSF) and hence decrease intracranial pressure. However, the EVD is also the most invasive method, has the highest infection rate, and is the most difficult to place. Occasionally, the EVD becomes occluded due to severe brain edema.
+
+Other types of intracranial devices include an intraparenchymal monitor, subarachnoid bolt, subdural bolt, and an epidural bolt inserted between the skull and the dura through which a pressure sensor is passed. Of these, the intraparenchymal monitor is more commonly used. All intracranial pressure devices should usually be changed or removed after 5 to 7 days because infection is a risk.
+
+Near Infrared Spectroscopy (NIRS)
+
+NIRS is a noninvasive method of continuously monitoring end-organ oxygenation and perfusion. NIRS sensors are usually placed on the skin above the target tissue (eg, scalp for transcranial cerebral oxygenation and perfusion monitoring, gastrocnemius for assessing peripheral tissue oxygenation) (1). NIRS can be used to determine cerebral autoregulation indices such as cerebral oximetry index (Cox), tissue oxygen index (Tox), and hemoglobin volume index (HVx) (2). NIRS may also help diagnose acute compartment syndromes (eg, in trauma) or ischemia after reconstruction with free tissue transfer and may be helpful in postoperative monitoring of lower-extremity vascular bypass grafts. NIRS monitoring of small-bowel pH may be used to gauge the adequacy of resuscitation.
+
+Near infrared spectroscopy references
+
+1. Ali J, Cody J, Maldonado Y, Ramakrishna H. Near-Infrared Spectroscopy (NIRS) for Cerebral and Tissue Oximetry: Analysis of Evolving Applications. J Cardiothorac Vasc Anesth. 2022;36(8 Pt A):2758-2766. doi:10.1053/j.jvca.2021.07.015
+
+2. Viderman D, Abdildin YG. Near-Infrared Spectroscopy in Neurocritical Care: A Review of Recent Updates. World Neurosurg. 2021;151:23-28. doi:10.1016/j.wneu.2021.04.054

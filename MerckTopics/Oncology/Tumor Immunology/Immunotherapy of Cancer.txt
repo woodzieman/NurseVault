@@ -1,0 +1,164 @@
+=== Immunotherapy of Cancer (Merck Manual Professional) ===
+Section: Oncology > Tumor Immunology
+Source: https://www.merckmanuals.com/professional/oncology/tumor-immunology/immunotherapy-of-cancer
+Retrieved: 2026-09-25
+
+A number of immunologic interventions, both passive and active, can be directed against tumor cells. (See also Immunotherapeutics.)
+
+Passive Cellular Immunotherapy
+
+In passive cellular immunotherapy, specific effector cells are directly infused, and are not induced within the patient.
+
+Lymphokine-activated killer (LAK) cells are produced from the patient’s T cells or NK cells, which are extracted from the blood and grown in a cell culture system with the lymphokine interleukin-2 (IL-2). The LAK cells produced are then returned to the patient’s blood or can be injected into the cancer. Animal studies have shown that LAK cells are more effective against cancer cells than are endogenous T cells, presumably because of their greater number. Clinical trials of LAK cells in humans are ongoing, but this approach has not gained widespread use, and is generally considered less effective than other cell therapies (1, 2, 3, 4).
+
+Tumor-infiltrating lymphocytes (TILs) may have greater anti-cancer activity than LAK cells. These cells are grown in culture in a manner similar to LAK cells. However, the progenitor cells consist of T cells isolated from resected tumor tissue. This process theoretically provides a line of T cells with greater tumor specificity than those obtained from the blood. Clinical studies have shown promise (5).
+
+Genetically modified T cells can express
+
+T-cell receptors (TCR) recognize tumor-associated antigens (TAAs) with high specificity to tumor cells. This approach has generally given way to CAR-T cell (see below)
+
+Chimeric antigen receptors (CAR) recognize specific proteins on the surface of tumor cells. CAR T cells are used for patients with B-cell lymphomas, acute lymphoblastic leukemia, and plasma cell myeloma (6, 7, 8, 9, 10).
+
+In contrast to TCR T cells, CAR T cells recognize only relatively large proteins on the surface of tumor cells. Therefore CAR T cells and TCR T cells may represent complementary approaches to cancer therapy.
+
+Concomitant use of interferon enhances the expression of major histocompatibility complex (MHC) antigens and TAAs on tumor cells, thereby augmenting the killing of tumor cells by the infused effector cells.
+
+Passive cellular immunotherapy references
+
+1. Eberlein TJ, Schoof DD, Jung SE, et al: A new regimen of interleukin 2 and lymphokine-activated killer cells. Efficacy without significant toxicity. Arch Intern Med 1988;148(12):2571–2576, 1988. doi:10.1001/archinte.1988.00380120039008
+
+2. Mandriani B, Pelle' E, Pezzicoli G, et al: Adoptive T-cell immunotherapy in digestive tract malignancies: Current challenges and future perspectives. Cancer Treat Rev 100:102288, 2021. doi:10.1016/j.ctrv.2021.102288
+
+3. Page A, Chuvin N, Valladeau-Guilemond J, Depil S: Development of NK cell-based cancer immunotherapies through receptor engineering. Cell Mol Immunol 21(4):315–331, 2024. doi:10.1038/s41423-024-01145-x
+
+4. Saito H, Ando S, Morishita N, et al: A combined lymphokine-activated killer (LAK) cell immunotherapy and adenovirus-p53 gene therapy for head and neck squamous cell carcinoma. Anticancer Res 34(7):3365–3370, 2014.
+
+5. Wang S, Sun J, Chen K, et al: Perspectives of tumor-infiltrating lymphocyte treatment in solid tumors. BMC Med 19, 140 (2021). https://doi.org/10.1186/s12916-021-02006-4
+
+6. Cappell KM, Kochenderfer JN: Long-term outcomes following CAR T cell therapy: what we know so far. Nat Rev Clin Oncol 20(6):359–371, 2023. doi:10.1038/s41571-023-00754-1
+
+7. Dabas P, Danda A: Revolutionizing cancer treatment: a comprehensive review of CAR-T cell therapy. Med Oncol 40(9):275, 2023. doi:10.1007/s12032-023-02146-y
+
+8. June CH, O'Connor RS, Kawalekar OU, et al: CAR T cell immunotherapy for human cancer. Science 359(6382):1361-1365, 2018. doi:10.1126/science.aar6711
+
+9. Sadelain M, Brentjens R, Rivière I: The basic principles of chimeric antigen receptor design. Cancer Discov 3(4):388-398, 2013. doi:10.1158/2159-8290.CD-12-0548
+
+10. Sterner RC, Sterner RM: CAR-T cell therapy: current limitations and potential strategies. Blood Cancer J 11(4):69, 2021. doi:10.1038/s41408-021-00459-7
+
+Passive Humoral Immunotherapy
+
+Administration of exogenous antibodies constitutes passive humoral immunotherapy. Although antilymphocyte serum was used in the treatment of chronic lymphocytic leukemia and in T-cell and B-cell lymphomas, resulting in temporary decreases in lymphocyte counts or lymph node size, newer humoral immunotherapeutic modalities have been developed.
+
+T-cell engagers are bispecific antibodies that recruit cytotoxic T cells to kill tumor cells. The most frequently used engagers are antibodies targeting one tumor antigen and one molecule on T cells (mostly CD3). Antibodies targeting two tumor antigens and CD3 are being tested. T-cell engagers are effective in patients with B-cell precursor acute lymphoblastic leukemia and some other hematologic cancers. Efficacy in solid tumors is being studied (1, 2, 3).
+
+Antibody-drug conjugates (ADC) may be used. Monoclonal antitumor antibodies may also be conjugated with different cell toxic drugs or with radioisotopes so that the antibodies deliver these toxic drugs selectively to the tumor cells. For example, a phase III trial of human epidermal growth factor receptor 2 (HER2; ERB2B)–targeting antibody conjugated with the topoisomerase I inhibitor demonstrated clinical benefits in patients with HER2-positive metastatic breast cancer (4). Other antibody-drug conjugates include gemtuzumab ozogamicin (acute myeloid leukemia), brentuximab vedotin (Hodgkin lymphoma), inotuzumab ozogamicin (acute lymphoblastic leukemia, chronic lymphocytic leukemia), and polatuzumab vedotin (non-Hodgkin lymphoma) (5, 6).
+
+Passive humoral immunity references
+
+1. Baeuerle PA, Wesche H: T-cell-engaging antibodies for the treatment of solid tumors: challenges and opportunities. Curr Opin Oncol 34(5):552-558, 2022. doi:10.1097/CCO.0000000000000869
+
+2. Cech P, Skórka K, Dziki L, Giannopoulos K: T-Cell Engagers-The Structure and Functional Principle and Application in Hematological Malignancies. Cancers (Basel) 16(8):1580, 2024. doi:10.3390/cancers16081580
+
+3. Farhangnia P, Ghomi SM, Akbarpour M, Delbandi AA: Bispecific antibodies targeting CTLA-4: game-changer troopers in cancer immunotherapy. Front Immunol 14:1155778, 2023. doi:10.3389/fimmu.2023.1155778
+
+4. Cortes J, Kim SB, Chung WP, et al: Trastuzumab deruxtecan versus trastuzumab emtansine for breast cancer. N Engl J Med 386(12):1143–1154, 2022. doi: 10.1056/NEJMoa2115022
+
+5. Sliwkowski MX, Mellman I: Antibody therapeutics in cancer. Science 341(6151):1192-1198, 2013. doi:10.1126/science.1241145
+
+6. Weiner LM, Murray JC, Shuptrine CW: Antibody-based immunotherapy of cancer. Cell 148(6):1081-1084, 2012. doi:10.1016/j.cell.2012.02.034
+
+Active Specific Immunotherapy
+
+Inducing cellular immunity (involving cytotoxic T cells) in a host that failed to spontaneously develop an effective response generally involves methods to enhance presentation of tumor antigens to host effector cells. Cellular immunity can be induced to specific, very well-defined antigens. Several techniques can be used to stimulate a host response; these techniques may involve giving peptides, DNA, or tumor cells (from the host or another patient). Peptides and DNA can be delivered directly, transcutaneously to myeloid or dendritic cells using electroporation or injection with adjuvants, or indirectly using antigen-presenting cells (dendritic cells). These dendritic cells can also be genetically modified to secrete additional immune-response stimulants (eg, granulocyte-macrophage colony-stimulating factor [GM-CSF]).
+
+Peptide-based vaccines use peptides from defined TAAs. An increasing number of TAAs have been identified as the targets of T cells in cancer patients and are being tested in clinical trials. Recent data indicate that responses are most potent if the TAAs are delivered using dendritic cells. These cells are obtained from the patient, loaded with the desired TAA, and then reintroduced intradermally; they stimulate endogenous T cells to respond to the TAA. The peptides also can be delivered by co-administration with immunogenic adjuvants (1, 2).
+
+DNA vaccines use recombinant DNA that encodes a specific (defined) antigenic protein. The DNA is delivered directly via transcutaneous electroporation, incorporated into viruses that are injected directly into patients, or introduced into dendritic cells obtained from the patients, which are then injected back into them. The DNA expresses the target antigen, which triggers or enhances patients’ immune response. Clinical trials of DNA vaccines have shown promising results (3).
+
+Allogeneic tumor cells (cells taken from other patients) have been used in patients with acute lymphoblastic leukemia and acute myeloid leukemia. Remission is induced by intensive chemotherapy and radiation therapy. Then, irradiated allogeneic tumor cells that have been modified either genetically or chemically to increase their immunogenic potential are injected into the patient. Sometimes patients are also given bacille Calmette-Guérin (BCG) vaccine or other adjuvants (a therapeutic approach called nonspecific immunotherapy) to enhance the immune response against the tumor. Prolonged remissions or improved reinduction rates have been reported in some series but not in most (4).
+
+Messenger RNA (mRNA) vaccines were successfully used during the SARS-CoV-2 pandemic, which has sparked interest in developing them as an immunotherapeutic treatment for cancer (4).
+
+Active specific immunotherapy references
+
+1. Keskin DB, Anandappa A, Sun J, et al: Neoantigen vaccine generates intratumoral T cell responses in phase Ib glioblastoma trial. Nature 565:234–239, 2019. doi: 10.1038/s41586-018-0792-9
+
+2. Stephens AJ, Burgess-Brown NA, Jiang S: Beyond Just Peptide Antigens: The Complex World of Peptide-Based Cancer Vaccines. Front Immunol 12:696791, 2021. Published 2021 Jun 30. doi:10.3389/fimmu.2021.696791
+
+3. Lopes A, Vandermeulen G, Préat V: Cancer DNA vaccines: current preclinical and clinical developments and future perspectives. J Exp Clin Cancer Res 38(1):146, 2019. doi:10.1186/s13046-019-1154-7
+
+4. Lin MJ, Svensson-Arvelund J, Lubitz GS, et al: Cancer vaccines: the next immunotherapy frontier. Nat Cancer 3 (8):911–926, 2022. doi: 10.1038/s43018-022-00418-6
+
+Immunotherapy and Targeting Inhibitors of Immune Responses
+
+Immune checkpoint inhibitors are antibodies that target molecules involved in natural inhibition of immune responses. These target molecules include the following:
+
+Cytotoxic T lymphocyte-associated protein 4 (CTLA4)
+
+Programmed cell death protein 1 (PD1) and programmed cell death ligands 1 (PD-L1) and 2 (PD-L2)
+
+Others
+
+Cytotoxic T lymphocyte-associated protein 4 (CTLA-4) on the T-cell surface inhibits the interaction of T cells against cancer cells. Antibodies to CTLA4 allow immune T-cells to kill cancer cells. The anti-CTLA-4 antibody ipilimumab prolongs survival in metastatic melanoma (1). Tremelimumab, another anti-CTLA-4 antibody is used to treat non-small cell lung cancer (NSCLC) and other tumors (2).
+
+PD-1 and PD ligand 1 and 2 are present on the surface of immune cells, including T cells, and inhibit killing of cancer cells. Antibodies to PD-1 and PD-L1 or PD-L2 block this inhibition and allow cancer cells to be killed. Nivolumab and pembrolizumab are IgG4 PD-1 inhibitors that increase T-cell activation and infiltration of tumors and prolong survival in metastatic melanoma, non-small cell lung cancer, head and neck squamous cell cancer, kidney cancer, bladder cancer, and Hodgkin lymphoma (3, 4).
+
+Lymphocyte activator gene 3 (LAG-3) increases T cell regulator activity by interacting with MHC on tumor cells. Blockade of LAG3 with monoclonal antibody has demonstrated strong clinical benefit in patients with unresectable metastatic melanoma (5).
+
+Others targeting inhibitors under study are generally in earlier stages of clinical development. These include, for example,
+
+B- and T-cell lymphocyte attenuator (BTLA), which decreases production of cytokines and CD4 cell proliferation (6)
+
+T-cell immunoglobulin and mucin domain 3 (TIM-3), which kills helper Th1 cells (7)
+
+V-domain Ig suppressor of T-cell activation (VISTA), inhibition of which increases T-cell activity in tumors (8)
+
+Bispecific antibodies that target several of these molecules together have been developed and currently are being tested in clinical trials (9).
+
+Combinations of immune checkpoint inhibitors (eg, blockade of CTLA-4 and PD-1 for metastatic melanoma or advanced kidney cancer) are under investigation. Clinical trials have demonstrated substantial clinical benefits, but combinations of immune checkpoint inhibitors are associated with higher toxicity than monotherapy (2).
+
+Combining immunotherapy and chemotherapy is a novel approach to cancer treatment. It has shown some success (vs historic controls) in nonrandomized phase I and phase II clinical trials involving various cancers, types of vaccines, and chemotherapy. The combination of the checkpoint inhibitor pembrolizumab with chemotherapy is used as first-line treatment of metastatic squamous non–small cell lung cancer (10). The combination of the checkpoint inhibitor atezolizumab with chemotherapy can be used to treat patients with triple-negative breast cancer (11). The PD-L1 checkpoint inhibitor durvalumab in combination with chemotherapy has demonstrated efficacy in patients with small cell lung cancer and after conventional chemotherapy in patients with non-small cell lung cancer (10).
+
+Immunotherapy and immune inhibitors references
+
+1. Hodi FS, O'Day SJ, McDermott DF, et al: Improved survival with ipilimumab in patients with metastatic melanoma [published correction appears in N Engl J Med 363(13):1290, 2010]. N Engl J Med 363(8):711-723, 2010. doi:10.1056/NEJMoa1003466
+
+2. Johnson ML, Cho BC, Luft A, et al: Durvalumab with or without tremelimumab in combination with chemotherapy as first-line therapy for metastatic non-small-cell lung cancer: The Phase III POSEIDON Study. J Clin Oncol 41(6):1213-1227, 2023. doi:10.1200/JCO.22.00975
+
+3. Tawbi HA, Schadendorf D, Lipson EJ, et al: Relatlimab and nivolumab versus nivolumab in untreated advanced melanoma. N Engl J Med 386(1):24–34, 2022. doi: 10.1056/NEJMoa2109970
+
+4. Gandhi L, Rodriguez-Abreu D, Gadgeel S, et al: Pembrolizumab plus chemotherapy in metastatic non-small-cell lung cancer. N Engl J Med 378(22):2078–2092, 2018. doi: 10.1056/NEJMoa1801005
+
+5. Ruffo E, Wu RC, Bruno TC, et al: Lymphocyte-activation gene 3 (LAG3): The next immune checkpoint receptor. Semin Immunol 42:101305, 2019. doi:10.1016/j.smim.2019.101305
+
+6. Ning Z, Liu K, Xiong H: Roles of BTLA in Immunity and Immune Disorders. Front Immunol 12:654960, 2021. doi:10.3389/fimmu.2021.654960
+
+7. Acharya N, Sabatos-Peyton C, Anderson AC: Tim-3 finds its place in the cancer immunotherapy landscape. J Immunother Cancer. 2020;8(1):e000911. doi:10.1136/jitc-2020-000911
+
+8. Hosseinkhani N, Derakhshani A, Shadbad MA, et al: The role of V-domain Ig suppressor of T cell activation (VISTA) in cancer therapy: Lessons learned and the road ahead. Front Immunol 12:676181, 2021. doi:10.3389/fimmu.2021.676181
+
+9. Ordonez-Reyes C, Garcia-Robledo JE, Chamorro DF, et al: Bispecific antibodies in cancer immunotherapy: A novel response to an old question. Pharmaceutics 14(6):1243, 2022. doi:10.3390/pharmaceutics14061243
+
+10. Paz-Ares L, Dvorkin M, Chen Y, et al: Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN): a randomised, controlled, open-label, phase 3 trial. Lancet 394(10212):1929–1939, 2019. doi: 10.1016/S0140-6736(19)32222-6
+
+11. Schmid P, Adams S, Rugo HS, et al: Atezolizumab and Nab-Paclitaxel in advanced triple-negative breast cancer. N Engl J Med 379(22):2108–2121, 2018. doi: 10.1056/NEJMoa1809615
+
+Nonspecific Immunotherapy
+
+Interferons (IFN-alpha, IFN-beta, IFN-gamma) are glycoproteins that have antitumor and antiviral activity. Depending on dose, interferons may either enhance or decrease cellular immune function and humoral immune function. Interferons also inhibit cell division and certain synthetic processes in a variety of cells.
+
+Interferons have antitumor activity in various cancers, including hairy cell leukemia, chronic myeloid leukemia, myeloproliferative neoplasms, AIDS-associated Kaposi sarcoma, non-Hodgkin lymphoma, multiple myeloma, and ovarian cancer (1). However, interferons can have significant adverse effects, such as fever, malaise, leukopenia, alopecia, myalgia, cognitive and depressive effects, cardiac arrhythmias, liver toxicity, and hypothyroidism.
+
+Certain bacterial adjuvants (eg, bacille Calmette–Guérin [BCG] and derivatives, killed suspensions of Corynebacterium parvum) have tumoricidal properties. They have been used with or without added tumor antigen to treat a variety of cancers, usually along with intensive chemotherapy or radiation therapy. For example, direct injection of BCG into cancerous tissues has resulted in regression of melanoma and prolongation of disease-free intervals in superficial bladder cancers and may help prolong drug-induced remission in acute myeloid leukemia, ovarian cancer, and non-Hodgkin lymphoma (2).
+
+Nonspecific immunotherapy references
+
+1. Arico E, Castiello L, Capone I, et al: Type I interferons and cancer: An evolving story demanding novel clinical applications. Cancers (Basel) 11(12):1943, 2019. doi:10.3390/cancers11121943
+
+2. Gupta P, Chen C, Chaluvally-Raghavan P, Pradeep S: B Cells as an immune-regulatory signature in ovarian cancer. Cancers (Basel) 11(7):894, 2019. doi:10.3390/cancers11070894
+
+More Information
+
+The following English-language resource may be useful. Please note that THE MANUAL is not responsible for the content of this resource.
+
+Peterson C, Denlinger N, Yang Y: Recent Advances and Challenges in Cancer Immunotherapy. Cancers (Basel) 14(16):3972, 2022. Published 2022 Aug 17. doi:10.3390/cancers14163972

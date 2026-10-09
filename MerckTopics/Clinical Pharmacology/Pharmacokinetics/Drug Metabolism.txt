@@ -1,0 +1,460 @@
+=== Drug Metabolism (Merck Manual Professional) ===
+Section: Clinical Pharmacology > Pharmacokinetics
+Source: https://www.merckmanuals.com/professional/clinical-pharmacology/pharmacokinetics/drug-metabolism
+Retrieved: 2026-09-25
+
+The liver is the principal site of drug metabolism (1). Although metabolism typically inactivates drugs, some drug metabolites are pharmacologically active—sometimes even more so than the parent compound. An inactive or weakly active substance that has an active metabolite is called a prodrug, especially if the prodrug is specifically designed to deliver the active moiety more effectively.
+
+Drugs can be metabolized by oxidation, reduction, hydrolysis, hydration, conjugation, condensation, or isomerization; whatever the process, the goal is to make the drug easier to excrete. The enzymes involved in metabolism are present in many tissues but generally are more concentrated in the liver.
+
+Drug metabolism rates vary among patients. Some patients metabolize a drug so rapidly that therapeutically effective blood and tissue concentrations are not reached; in other patients, metabolism may be so slow that usual doses have toxic effects. Individual drug metabolism rates are influenced by genetic factors, coexisting disorders (particularly chronic liver disorders and advanced heart failure), and drug interactions (especially those involving induction or inhibition of metabolism).
+
+For many drugs, metabolism occurs in 2 phases.
+
+Phase I reactions involve formation of a new or modified functional group or cleavage (oxidation, reduction, hydrolysis); these reactions are nonsynthetic.
+
+Phase II reactions involve conjugation with an endogenous substance (eg, glucuronic acid, sulfate, glycine); these reactions are synthetic.
+
+Metabolites formed in synthetic reactions are more polar and thus more readily excreted by the kidneys (in urine) and the liver (in bile) than those formed in nonsynthetic reactions. Some drugs undergo only phase I or phase II reactions; thus, phase numbers reflect functional rather than sequential classification.
+
+Hepatic drug transporters are present throughout parenchymal liver cells and affect a drug’s liver disposition, metabolism, and elimination (1, 2). The 2 primary types of transporters are:
+
+Influx, which translocate molecules into the liver
+
+Efflux, which mediate excretion of drugs into the blood or bile
+
+Genetic polymorphisms can variably affect the expression and function of hepatic drug transporters to potentially alter a patient's susceptibility to drug adverse effects, including drug-induced liver injury. For example, individuals who are treated with statins for hypercholesterolemia and who carry certain transporter genotypes exhibit increased blood levels of statins and are more susceptible to statin-induced myopathy (1, 2).
+
+(See also Overview of Pharmacokinetics.)
+
+Rate
+
+For almost all drugs, the metabolism rate in any given pathway has an upper limit (capacity limitation). However, at therapeutic concentrations of most drugs, usually only a small fraction of the metabolizing enzyme’s sites are occupied, and the metabolism rate increases with drug concentration. This is called first-order elimination (or kinetics), in which the metabolism rate of the drug is a constant fraction of the drug remaining in the body (ie, the drug has a specific half-life).
+
+For example, if 500 mg is present in the body at time zero, after metabolism, 250 mg may be present at 1 hour and 125 mg at 2 hours (illustrating a half-life of 1 hour). However, when most of the enzyme sites are occupied, metabolism occurs at its maximal rate and does not change in proportion to drug concentration; instead, a fixed amount of drug is metabolized per unit time (zero-order kinetics). In this case, if 500 mg is present in the body at time zero, after metabolism, 450 mg may be present at 1 hour and 400 mg at 2 hours (illustrating a maximal clearance of 50 mg/hour and no specific half-life). As drug concentration increases, metabolism shifts from first-order to zero-order kinetics.
+
+Cytochrome P-450
+
+The most important enzyme system of phase I metabolism is cytochrome P-450 (CYP450), a microsomal superfamily of isoenzymes that catalyzes the oxidation of many drugs. The electrons are supplied by nicotinamide adenine dinucleotide phosphate (NADPH)–CYP450 reductase, a flavoprotein that transfers electrons from NADPH (the reduced form of nicotinamide adenine dinucleotide phosphate) to CYP450.
+
+CYP450 enzymes can be induced or inhibited by many drugs and substances. This results in drug interactions in which one drug enhances the toxicity or reduces the therapeutic effect of another drug. For examples of drugs that interact with specific enzymes, see tables Common Substances That Interact With Cytochrome P-450 Enzymes and Drug Interactions.
+
+Table
+
+Common Substances That Interact With Cytochrome P-450 Enzymes
+
+Table
+
+Common Substances That Interact With Cytochrome P-450 Enzymes 
+
+Common Substances That Interact With Cytochrome P-450 Enzymes
+
+Enzyme
+
+Substrates
+
+Inhibitors
+
+Inducers
+
+CYP1A2
+
+Acetaminophen
+
+Caffeine
+
+Clarithromycin
+
+Estradiol
+
+Haloperidol
+
+Lidocaine
+
+Methadone
+
+Olanzapine
+
+Propranolol
+
+Ritonavir
+
+Tacrine
+
+Theophylline
+
+Tricyclic antidepressants
+
+Verapamil
+
+(R)-Warfarin
+
+Amiodarone
+
+Cimetidine
+
+Ciprofloxacin
+
+Erythromycin
+
+Fluvoxamine
+
+Ticlopidine
+
+Charcoal-broiled beef
+
+Cigarette smoke
+
+Omeprazole
+
+Phenobarbital
+
+Phenytoin
+
+Rifampin
+
+CYP2C9
+
+Celecoxib
+
+Diclofenac
+
+Fluoxetine
+
+Glipizide
+
+Glyburide
+
+Indomethacin
+
+Nifedipine
+
+Phenytoin
+
+Piroxicam
+
+Progesterone
+
+Testosterone
+
+Tricyclic antidepressants
+
+Valproic acid
+
+Voriconazole
+
+(S)-Warfarin
+
+Amiodarone
+
+Cimetidine
+
+Fluconazole
+
+Lovastatin
+
+Ritonavir
+
+Sertraline
+
+Sulfamethoxazole
+
+Topiramate
+
+Trimethoprim
+
+Voriconazole
+
+Zafirlukast
+
+Dexamethasone
+
+Phenobarbital
+
+Other barbiturates
+
+Phenytoin
+
+Rifampin
+
+CYP2C19
+
+Diazepam
+
+(S)-Mephenytoin
+
+Omeprazole
+
+Pentamidine
+
+Propranolol
+
+Voriconazole
+
+(R)-Warfarin
+
+Cimetidine
+
+Fluoxetine
+
+Fluvoxamine
+
+Ketoconazole
+
+Lansoprazole
+
+Omeprazole
+
+Paroxetine
+
+Ticlopidine
+
+Carbamazepine
+
+Phenobarbital
+
+Prednisone
+
+Rifampin
+
+CYP2D6
+
+Beta blockers
+
+Codeine
+
+Dextromethorphan
+
+Flecainide
+
+Haloperidol
+
+Lidocaine
+
+Mexiletine
+
+Morphine
+
+Omeprazole
+
+Phenothiazines
+
+Quinidine
+
+Risperidone
+
+Selective serotonin reuptake inhibitors
+
+Tamoxifen
+
+Testosterone
+
+Tramadol
+
+Trazodone
+
+Tricyclic antidepressants
+
+Venlafaxine
+
+Amiodarone
+
+Bupropion
+
+Celecoxib
+
+Cimetidine
+
+Fluoxetine
+
+Fluvoxamine
+
+Metoclopramide
+
+Methadone
+
+Paroxetine
+
+Quinidine
+
+Ritonavir
+
+Sertraline
+
+Carbamazepine
+
+Dexamethasone
+
+Phenobarbital
+
+Phenytoin
+
+Rifampin
+
+CYP2E1
+
+Acetaminophen
+
+Alcohol
+
+Disulfiram
+
+Alcohol
+
+Isoniazid
+
+Tobacco use
+
+CYP3A4
+
+Amiodarone
+
+Aprepitant
+
+Azole antifungals
+
+Benzodiazepines
+
+Calcium channel blockers
+
+Caffeine
+
+Carbamazepine
+
+Clarithromycin
+
+Cyclosporine
+
+Delavirdine
+
+Enalapril
+
+Estradiol
+
+Estrogen
+
+Erythromycin
+
+Fentanyl
+
+Finasteride
+
+Indinavir
+
+Lidocaine
+
+Lopinavir
+
+Loratadine
+
+Methadone
+
+Nelfinavir
+
+Omeprazole
+
+Opioid analgesics
+
+Prednisone
+
+Progesterone
+
+Ritonavir
+
+Saquinavir
+
+Sildenafil
+
+Sirolimus
+
+Statins
+
+Tacrolimus
+
+Tamoxifen
+
+Tricyclic antidepressants
+
+(R)-Warfarin
+
+Amiodarone
+
+Amprenavir
+
+Atazanavir
+
+Azole antifungals
+
+Cimetidine
+
+Ciprofloxacin
+
+Clarithromycin
+
+Delavirdine
+
+Diltiazem
+
+Erythromycin
+
+Fluoxetine
+
+Fluvoxamine
+
+Grapefruit juice
+
+Indinavir
+
+Metronidazole
+
+Nefazodone
+
+Nelfinavir
+
+Nifedipine
+
+Omeprazole
+
+Paroxetine
+
+Posaconazole
+
+Propoxyphene
+
+Ritonavir
+
+Saquinavir
+
+Sertraline
+
+Verapamil
+
+Voriconazole
+
+Carbamazepine
+
+Dexamethasone
+
+Isoniazid
+
+Phenobarbital
+
+Phenytoin
+
+Prednisone
+
+Rifampin
+
+With aging, the liver’s capacity for metabolism through the CYP450 enzyme system is reduced by ≥ 30% because hepatic volume and blood flow are decreased. (See Pharmacodynamics in Older Adults.) Thus, drugs that are metabolized through this system reach higher levels and have prolonged half-lives in older adults (see figure Comparison of Pharmacokinetic Outcomes for Diazepam in a Younger Man (A)... ). Because neonates have partially developed hepatic microsomal enzyme systems, they also have difficulty metabolizing many drugs. (See Pharmacokinetics in Children.)
+
+Conjugation
+
+Glucuronidation, a type of conjugation and the most common phase II reaction, is the only one that occurs in the liver microsomal enzyme system. Glucuronides are secreted in bile and eliminated in urine. Thus, conjugation makes most drugs more soluble and easily excreted by the kidneys. Amino acid conjugation with glutamine or glycine produces conjugates that are readily excreted in urine but not extensively secreted in bile. Aging does not affect glucuronidation. However, in neonates, conversion to glucuronide is slow, potentially resulting in serious effects (eg, as with chloramphenicol).
+
+Conjugation may also occur through acetylation or sulfoconjugation. Sulfate esters are polar and readily excreted in urine. Aging does not affect these processes.
+
+References
+
+1. Patel M, Taskar KS, Zamek-Gliszczynski MJ: Importance of hepatic transporters in clinical disposition of drugs and their metabolites. J Clin Pharmacol 56(Suppl 7):S23–S39, 2016.  doi: 10.1002/jcph.671
+
+2. Pan G: Roles of hepatic drug transporters in drug disposition and liver toxicity. Adv Exp Med Biol1141:293-340, 2019. doi:10.1007/978-981-13-7647-4_6

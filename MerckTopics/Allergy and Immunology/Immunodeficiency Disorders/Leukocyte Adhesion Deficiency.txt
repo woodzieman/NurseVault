@@ -1,0 +1,58 @@
+=== Leukocyte Adhesion Deficiency (Merck Manual Professional) ===
+Section: Allergy and Immunology > Immunodeficiency Disorders
+Source: https://www.merckmanuals.com/professional/immunology-allergic-disorders/immunodeficiency-disorders/leukocyte-adhesion-deficiency
+Retrieved: 2026-09-25
+
+(See also Overview of Immunodeficiency Disorders and Approach to the Patient With an Immunodeficiency Disorder.)
+
+Leukocyte adhesion deficiency is a primary immunodeficiency disorder that involves phagocytic cell defects. Inheritance is autosomal recessive.
+
+Leukocyte adhesion deficiency is caused by deficiency of adhesive glycoproteins (eg, integrins, selectins) on the surfaces of white blood cells (WBCs); these glycoproteins facilitate cellular interactions, cell attachment to blood vessel walls, cell movement, and interaction with complement fragments. Deficiencies impair the ability of granulocytes (and lymphocytes) to migrate out of the intravascular compartment, to engage in cytotoxic reactions, and to phagocytose bacteria. Severity of disease correlates with degree of deficiency.
+
+Three different types of syndromes have been identified:
+
+Leukocyte adhesion deficiency 1: Deficient or defective beta-2 integrin family
+
+Leukocyte adhesion deficiency 2: Absent fucosylated carbohydrate ligands for selectins
+
+Leukocyte adhesion deficiency 3: Defective activation of all beta integrins (1, 2, and 3)
+
+Type 1 results from mutations in the integrin beta-2 gene (ITGB2), encoding CD18 beta-2 integrins. Type 2 results from mutations in the glucose diphosphate (GDP)-fucose transporter gene. Type 3 is caused by mutations in the FERMT3 gene (11q13.1), which encodes kindlin-3 in hematopoietic cells.
+
+Symptoms and Signs of Leukocyte Adhesion Deficiency
+
+Manifestations of leukocyte adhesion deficiency usually begin in infancy.
+
+Severely affected infants have recurrent or progressive necrotic soft-tissue infections with staphylococcal and gram-negative bacteria, periodontitis, poor wound healing, no pus formation, leukocytosis, and delayed (> 3 weeks) umbilical cord detachment. WBC counts remain high even between infections. Infections become increasingly difficult to control.
+
+Less severely affected infants have few serious infections and mild alterations in blood counts.
+
+Developmental delay is common in type 2 leukocyte adhesion deficiency.
+
+Diagnosis of Leukocyte Adhesion Deficiency
+
+Testing for adhesive glycoproteins on the surface of WBCs
+
+Diagnosis of leukocyte adhesion deficiency is by detecting absence or severe deficiency of adhesive glycoproteins on the surface of WBCs using monoclonal antibodies (eg, anti-CD11, anti-CD18) and flow cytometry. Leukocytosis detected by complete blood count is common but nonspecific.
+
+Genetic testing is recommended for siblings.
+
+Treatment of Leukocyte Adhesion Deficiency
+
+Supportive care using prophylactic antibiotics and granulocyte transfusions
+
+Hematopoietic stem cell transplantation
+
+Treatment of leukocyte adhesion deficiency is with prophylactic antibiotics, often given continuously (usually trimethoprim/sulfamethoxazole). Granulocyte transfusions can also help.
+
+Hematopoietic stem cell transplantation is the only effective treatment and can be curative.
+
+Gene therapy, which is under study, appears promising (1).
+
+For patients with type 2 leukocyte adhesion deficiency, correcting the underlying defect with fucose supplementation should be tried.
+
+Patients with mild or moderate disease can survive into young adulthood. Most patients with severe disease die by age 5 unless treated successfully with hematopoietic stem cell transplantation.
+
+Treatment reference
+
+1. Mesa-Núñez C, Damián C, Fernández-García M, et al. Preclinical safety and efficacy of lentiviral-mediated gene therapy for leukocyte adhesion deficiency type I. Mol Ther Methods Clin Dev 2022;26:459-470. doi:10.1016/j.omtm.2022.07.015

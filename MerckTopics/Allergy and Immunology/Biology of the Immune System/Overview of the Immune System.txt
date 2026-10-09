@@ -1,0 +1,186 @@
+=== Overview of the Immune System (Merck Manual Professional) ===
+Section: Allergy and Immunology > Biology of the Immune System
+Source: https://www.merckmanuals.com/professional/immunology-allergic-disorders/biology-of-the-immune-system/overview-of-the-immune-system
+Retrieved: 2026-09-25
+
+The immune system distinguishes self from nonself and eliminates potentially harmful nonself molecules and cells from the body. The immune system also has the capacity to recognize and destroy abnormal cells that originate from host tissues. Any molecule capable of being recognized by the immune system is considered an antigen (Ag).
+
+The skin, corneas, and mucosa of the respiratory, gastrointestinal, and genitourinary tracts form a physical barrier that is the body's first line of defense. Some of these barriers also have active immune functions:
+
+Outer, keratinized epidermis: Keratinocytes in the skin secrete antimicrobial peptides (defensins), and sebaceous and sweat glands secrete microbe-inhibiting substances (eg, lactic acid, fatty acids). Also, many immune cells (eg, mast cells, intraepithelial lymphocytes, antigen-sampling Langerhans cells) reside in the skin (1).
+
+Corneas: Tears contain defensins. Macrophages and dendritic cells reside in the corneas, and other immune cells, including T cells and phagocytic neutrophils, are recruited through the limbal vasculature during infection (2).
+
+Mucosa of the respiratory, gastrointestinal, and genitourinary tracts: The mucus secreted by the epithelial lining of these tracts contains antimicrobial substances, such as lysozyme, lactoferrin, and secretory immunoglobulin (Ig) A antibody (SIgA) (3, 4).
+
+Breaching of physical barriers can trigger 2 types of immune response:
+
+Innate
+
+Acquired
+
+Many molecular components (eg, complement, cytokines, acute phase reactants) participate in both innate and acquired immunity.
+
+Cellular Components of the Immune System
+
+Image
+
+Copyright © 2025 Merck & Co., Inc., Rahway, NJ, USA and its affiliates. All rights reserved.
+
+Innate immunity
+
+Innate (natural) immunity refers to the components of the immune system that are present from birth and do not require prior exposure to an antigen (ie, requiring the development of immunologic memory) to be fully effective (5). Thus, it can respond immediately to an invader. Innate immunity uses pattern recognition receptors (PRRs) to detect foreign pathogen-associated molecular patterns (PAMPs) and host damage-associated molecular patterns (DAMPs) (6, 7). Some examples of PRRs include toll-like receptors (TLRs), C-type lectin receptors (CLRs), nucleotide-binding oligomerization domain-like receptors (NLRs), and AIM2-like receptors (ALRs).
+
+Because the innate immune system does not develop immunologic memory, its responses remain pattern-specific rather than antigen-specific.
+
+Components include:
+
+Phagocytic cells (eg, neutrophils, monocytes, macrophages)
+
+Polymorphonuclear leukocytes (in addition to phagocytic neutrophils, including eosinophils and basophils)
+
+Innate lymphoid cells (eg, natural killer [NK] cells)
+
+Dendritic cells
+
+Phagocytic cells (neutrophils in blood and tissues, monocytes in blood, macrophages in tissues) ingest and destroy invading antigens. Attack by phagocytic cells can be facilitated when antigens are coated with antibody (Ab), which is produced as part of acquired immunity, or when complement proteins opsonize (ie, coating or modifying immunogenic material to enable phagocytosis) antigens.
+
+Polymorphonuclear leukocytes (neutrophils, eosinophils, basophils) and mononuclear cells (monocytes, macrophages, mast cells) also release inflammatory mediators.
+
+Innate lymphoid cells (ILCs) are a family of tissue-resident immune cells that belong to the lymphoid lineage and function as innate immune system-counterparts to T helper cells. Natural killer cells are a type of ILC (ILC1s) that kill virus-infected cells and some tumor cells.
+
+Dendritic cells are antigen-presenting cells that are responsible for initiating primary immune responses by presenting antigens to naive T-cells.
+
+Acquired immunity
+
+Acquired (adaptive) immunity refers to the components of the immune system that are acquired after birth, are more specifically targeted, and require prior exposure to an antigen to be fully effective. Acquired immunity takes time to develop after the initial encounter with a new invader. Thereafter, response is quick because of the development and recruitment of immunologic memory responses.
+
+Acquired immune responses remember past exposures and are antigen-specific.
+
+Components include:
+
+B cells
+
+T cells
+
+Acquired immunity includes:
+
+Humoral immunity: Derived from B-cell responses (B cells develop into plasma cells, which secrete soluble antigen-specific antibody)
+
+Cell-mediated immunity: Derived from certain T-cell responses
+
+B cells and T cells reach maturity within the primary lymphoid tissues. B cells generally mature in the bone marrow, and T cells generally mature in the thymus. Mature B cells and T cells subsequently work together to destroy invaders. Tissue-based antigen-presenting cells are needed to present antigens to most types of T cell.
+
+How T Cells Recognize Antigens
+
+T cells are part of the immune surveillance system. They travel through the bloodstream and lymphatic system. When they reach the lymph nodes or another secondary lymphoid organ, they look for foreign substances (antigens) in the body. However, before they can fully recognize and respond to a foreign antigen, the antigen must be processed and presented to the T cell by another white blood cell, called an antigen-presenting cell. Antigen-presenting cells consist of dendritic cells (which are the most effective), macrophages, and B cells.
+
+General references
+
+1. Fukuda K, Ito Y, Amagai M. Barrier Integrity and Immunity: Exploring the Cutaneous Front Line in Health and Disease. Annu Rev Immunol. 2025;43(1):219-252. doi:10.1146/annurev-immunol-082323-030832
+
+2. Wu M, Fletcher EL, Chinnery HR, Downie LE, Mueller SN. Redefining our vision: an updated guide to the ocular immune system. Nat Rev Immunol. 2024;24(12):896-911. doi:10.1038/s41577-024-01064-y
+
+3. Hockenberry A, Slack E, Stadtmueller BM. License to Clump: Secretory IgA Structure-Function Relationships Across Scales. Annu Rev Microbiol. 2023;77:645-668. doi:10.1146/annurev-micro-032521-041803
+
+4. Pabst O, Izcue A. Secretory IgA: controlling the gut microbiota. Nat Rev Gastroenterol Hepatol. 2022;19(3):149-150. doi:10.1038/s41575-021-00563-w
+
+5. Carpenter S, O'Neill LAJ. From periphery to center stage: 50 years of advancements in innate immunity. Cell. 2024;187(9):2030-2051. doi:10.1016/j.cell.2024.03.036
+
+6. Chen R, Zou J, Chen J, Zhong X, Kang R, Tang D. Pattern recognition receptors: function, regulation and therapeutic potential. Signal Transduct Target Ther. 2025;10(1):216. doi:10.1038/s41392-025-02264-1
+
+7. Ma M, Jiang W, Zhou R. DAMPs and DAMP-sensing receptors in inflammation and diseases. Immunity. 2024;57(4):752-771. doi:10.1016/j.immuni.2024.03.002
+
+Immune Response
+
+Successful immune defense requires activation, regulation, and resolution of the immune response.
+
+Activation
+
+The cells of the immune system are activated when a foreign antigen (Ag) is recognized by cell surface receptors. These cell surface receptors may be specific for:
+
+Structures (PAMPs) that are associated with a number of different pathogens (eg, recognition by PRRs such as Toll-like, mannose, and scavenger receptors on dendritic cells, macrophages, and other phagocytes)
+
+Structures that are specifically associated with particular pathogens (recognition by transmembrane antibodies expressed on B cells or by T-cell receptors expressed on T cells)
+
+PRRs are germ-line encoded and recognize common microbial PAMPs such as gram-negative lipopolysaccharide, gram-positive peptidoglycans, bacterial flagellin, unmethylated cytosine-guanosine dinucleotides (CpG motifs), and viral double-stranded RNA (1). These receptors can also recognize molecules (DAMPs) that are released by stressed, damaged, or dying human cells (eg, after infection).
+
+Activation may also occur when antibody-antigen and complement-microorganism complexes bind to surface receptors for the crystallizable fragment (Fc) region of IgG (Fc-gamma R) and for C3b and inactivated C3b (iC3b), which are protein fragments arising from the complement pathway (2).
+
+Once recognized, an antigen, antigen-antibody complex or complement-microorganism complex is phagocytosed. Most microorganisms can be killed after they are phagocytosed, but others inhibit the phagocyte’s intracellular killing ability (eg, mycobacteria that have been engulfed by a macrophage inhibit that cell's killing ability). In such cases, T cell–derived cytokines, particularly interferon-gamma (IFN-gamma), stimulate the phagocyte to produce more lytic enzymes and other microbicidal products and thus enhance its ability to kill or sequester the microorganism.
+
+Unless the antigen is rapidly phagocytosed and entirely degraded (an uncommon event), the acquired immune response is recruited via recognition of antigen by the highly specific receptors on the surface of B cells and T cells. This response begins in the secondary lymphoid tissues:
+
+The spleen for circulating antigen
+
+Regional lymph nodes for tissue antigen
+
+Mucosa-associated lymphoid tissues (eg, tonsils, adenoids, Peyer patches) for mucosal antigen
+
+For example, Langerhans dendritic cells in the skin phagocytose antigen and migrate to local lymph nodes (3). In the lymph nodes, peptides derived from the antigen are expressed on the surface of dendritic cells within class II major histocompatibility complex (MHC) molecules, which present the peptide to cluster of differentiation (CD) 4 helper T (Th) cells. The CD nomenclature system identifies and classifies cell surface receptors. When the Th cell engages the MHC-peptide complex and receives various costimulatory signals (which can be inhibited by some immunosuppressive medications), it is activated to express receptors for the cytokine interleukin (IL)-2 and secretes several cytokines. Each subset of differentiated Th cells secretes different combinations of substances and thus effects different immune responses, based on the prevailing cytokine environment. Th1 cells secrete IFN-gamma and IL-2 to control infections, and Th2 cells produce IL-4, IL-5, and IL-13 for humoral, allergic, and antiparasitic responses. Another key subset is Th17 cells (producing IL-17A, IL-17F) for inflammatory responses in autoimmune disorders.
+
+Some of the Th cells become specialized as T follicular helper (Tfh) cells, which migrate into B cell-predominant areas of the secondary lymphoid tissues (4). During an active immune response, structures called germinal centers develop within secondary lymphoid tissues where the Tfh cells assist in B-cell activation, proliferation, antibody class switching, affinity maturation of the antibody response, and B-cell differentiation in memory B cells and into the precursors of the antibody-secreting plasma cells (5, 6). Also within the germinal centers are follicular dendritic cells (an entirely different cell type than conventional dendritic cells), which present intact antigen (in antigen-antibody complexes) to the B cell.
+
+Class II MHC molecules typically present peptides derived from extracellular (exogenous) antigen (eg, from many bacteria) to CD4 Th cells; in contrast, class I MHC molecules typically present peptides derived from intracellular (endogenous) antigens (eg, from viruses) to CD8 cytotoxic T cells. The activated cytotoxic T cell then kills the infected cell.
+
+Regulation
+
+The immune response must be appropriately regulated to prevent overwhelming damage to the host (eg, anaphylaxis, cytokine storm, cytokine release syndrome, and widespread tissue destruction). Regulatory T cells (most of which express Foxp3 transcription factor) help control the immune response via secretion of immunosuppressive cytokines, such as IL-10 and transforming growth factor-beta (TGF-beta), or via cell contact-dependent mechanisms (7).
+
+These regulatory cells help prevent the development of autoimmune responses and help resolve ongoing responses to nonself antigens.
+
+Resolution
+
+The immune response typically resolves when antigen is sequestered or eliminated from the body. Without continued stimulation by antigen, cytokine secretion ceases, and activated cytotoxic T cells undergo cell death via the specific process of apoptosis. Apoptosis tags a cell for immediate phagocytosis, which prevents spillage of the cellular contents and the development of subsequent inflammation. T cells and B cells that have differentiated into memory cells are spared this fate.
+
+Pearls & Pitfalls
+
+B cells can become plasma cells and secrete antibodies (immunoglobulins).
+
+CD8 cells primarily secrete IL-2, TNF-alpha, IFN-gamma.
+
+CD4 Th1 cells primarily secrete IL-2, IFN-gamma, and TNF.
+
+CD4 Th2 cells primarily secrete IL-4, IL-5, and IL-13.
+
+CD4 Th17 cells primarily secrete IL-17, IL-21, and IL-22.
+
+T-regulatory cells primarily secrete IL-10, IL-35, and TGF-beta.
+
+Immune response references
+
+1. Chen R, Zou J, Chen J, Zhong X, Kang R, Tang D. Pattern recognition receptors: function, regulation and therapeutic potential. Signal Transduct Target Ther. 2025;10(1):216. doi:10.1038/s41392-025-02264-1
+
+2. Junker F, Gordon J, Qureshi O. Fc Gamma Receptors and Their Role in Antigen Uptake, Presentation, and T Cell Activation. Front Immunol. 2020;11:1393. doi:10.3389/fimmu.2020.01393
+
+3. Zhu R, Yao X, Li W. Langerhans cells and skin immune diseases. Eur J Immunol. 2024;54(10):e2250280. doi:10.1002/eji.202250280
+
+4. Crotty S. T Follicular Helper Cell Biology: A Decade of Discovery and Diseases. Immunity. 2019;50(5):1132-1148. doi:10.1016/j.immuni.2019.04.011
+
+5. Heesters BA, Myers RC, Carroll MC. Follicular dendritic cells: dynamic antigen libraries. Nat Rev Immunol. 2014;14(7):495-504. doi:10.1038/nri3689
+
+6. Victora GD, Nussenzweig MC. Germinal Centers. Annu Rev Immunol. 2022;40:413-442. doi:10.1146/annurev-immunol-120419-022408
+
+7. Sumida TS, Cheru NT, Hafler DA. The regulation and differentiation of regulatory T cells and their dysfunction in autoimmune diseases. Nat Rev Immunol. 2024;24(7):503-517. doi:10.1038/s41577-024-00994-x
+
+Geriatrics Essentials: Immune System
+
+With aging, the immune system becomes less effective in the following ways:
+
+The immune system becomes less able to distinguish self from nonself, making the development of autoantibodies and autoimmune disorders more common.
+
+Macrophages destroy bacteria, cancer cells, and other antigens more slowly, contributing to the increased incidence of cancer among older adults (1).
+
+T cells respond less quickly to antigens.
+
+There are fewer lymphocytes that can respond to new antigens (2).
+
+The aging body produces less complement in response to bacterial infections.
+
+Although the overall antibody concentration does not decline significantly, the binding affinity of antibody to antigen is decreased, possibly contributing to the increased incidence of pneumonia, influenza, infective endocarditis, and tetanus and the increased risk of death due to these disorders among older adults. These changes may also partly explain why vaccines are less effectively able to contribute to the formation of immunologic memory in older adults.
+
+Geriatrics essentials references
+
+1. Dolan M, Libby KA, Ringel AE, van Galen P, McAllister SS. Ageing, immune fitness and cancer. Nat Rev Cancer. 2025;25(11):848-872. doi:10.1038/s41568-025-00858-z
+
+2. Lagunas-Rangel FA. Neutrophil-to-lymphocyte ratio in aging: Trends and clinical implications. Exp Gerontol. Published online September 22, 2025. doi:10.1016/j.exger.2025.112908

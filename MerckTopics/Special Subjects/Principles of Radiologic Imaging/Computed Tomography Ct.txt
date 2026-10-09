@@ -1,0 +1,106 @@
+=== Computed Tomography (CT) (Merck Manual Professional) ===
+Section: Special Subjects > Principles of Radiologic Imaging
+Source: https://www.merckmanuals.com/professional/special-subjects/principles-of-radiologic-imaging/computed-tomography-ct
+Retrieved: 2026-09-25
+
+In CT, an x-ray source and an x-ray detector housed in a doughnut-shaped assembly move circularly around a patient who lies on a motorized table that is moved through the machine. Data from the detectors essentially represent a series of x-ray images taken from multiple angles all around the patient. The images are not viewed directly but are sent to a computer, which quickly reconstructs them into 2-dimensional images (tomograms) representing a slice of the body in any plane desired. Data can also be used to construct detailed 3-dimensional images.
+
+Multidetector CT (MDCT) scanners typically have multiple rows of detectors, with the number depending on the specific model and generation, ranging from 4 to 320 detectors, with some advanced models featuring up to 640 detectors. Scanners with more rows are generally preferred, as they allow for faster scanning and higher-resolution images, which are especially important for imaging the heart and abdominal organs. MDCT operates by rotating an x-ray tube around the patient, while multiple rows of detectors capture the x-rays that pass through the body. As the patient moves through the scanner, it creates a spiral motion that enables continuous data acquisition. This results in faster scans and higher image detail than traditional CT systems. A computer processes the captured data and reconstructs it into cross-sectional slices, which can be viewed in both 2 and 3 dimensions. MDCT is widely used for imaging the heart, blood vessels, and abdomen and for examining trauma patients due to its speed and high-resolution images.
+
+These same concepts of tomographic imaging can also be applied to radionuclide scanning, in which the sensors for emitted radiation encircle the patient and computer techniques convert the sensor data into tomographic images; examples include single-photon emission CT (SPECT) and positron-emission tomography (PET).
+
+CT of the Head
+
+Image
+
+CT shows an acute hemorrhage in the left basal ganglia that is consistent with hypertensive intracerebral hemorrhage.
+
+Image courtesy of Mustafa Mafraji, MD.
+
+Uses of CT
+
+CT provides better differentiation between various soft-tissue densities than do x-rays. Because CT provides more information, it is preferred to conventional x-rays for imaging most intracranial, head and neck, spinal, intrathoracic, and intra-abdominal structures. Three-dimensional images of lesions can help surgeons plan surgery.
+
+CT is the most accurate study for detecting and localizing urinary calculi.
+
+CT may be done with or without IV contrast.
+
+Noncontrast CT is used:
+
+To detect acute hemorrhage in the brain, urinary calculi, and lung nodules
+
+To characterize bone fractures and other skeletal abnormalities
+
+IV contrast is used:
+
+To improve imaging of tumors, infection, inflammation, and trauma in soft tissues
+
+To assess the vascular system, as when pulmonary embolism, aortic aneurysm, or aortic dissection is suspected
+
+Oral or occasionally rectal contrast is used for abdominal imaging; sometimes gas is used to distend the lower gastrointestinal (GI) tract and make it more visible. Contrast in the GI tract helps distinguish the GI tract from surrounding structures. Standard oral contrast is barium-based, but low-osmolar iodinated contrast should be used when intestinal perforation is suspected.
+
+Variations of CT
+
+Virtual colonoscopy and CT enterography
+
+Virtual (CT) colonoscopy (CT colonography) is an alternative to conventional colonoscopy. For virtual colonoscopy, oral contrast is given and air is introduced into the rectum via a flexible, thin-diameter rubber catheter; then thin-section CT of the entire colon is done. CT colonoscopy produces high-resolution 3-dimensional images of the colon that closely simulate the detail and appearance of conventional colonoscopy. This technique can show colon polyps and colon mucosal lesions as small as 5 mm.
+
+Virtual colonoscopy is more comfortable than conventional colonoscopy and does not require conscious sedation. It provides clearer, more detailed images than a conventional lower gastrointestinal (GI) series and can show extrinsic soft-tissue masses. The entire colon is visualized during virtual colonoscopy while, in contrast, with conventional colonoscopy, the right colon is incompletely visualized in approximately 1 in 10 patients.
+
+Disadvantages of virtual colonoscopy include:
+
+Inability to biopsy the polyps at the time of examination, and thus the need for a follow-up conventional colonoscopy to obtain tissue samples if a polyp is found
+
+Radiation exposure
+
+CT enterography is similar, but it provides images of the stomach and entire small intestine. A large volume of low-density oral contrast agent (eg, 1300 to 2100 mL of 0.1% barium sulfate) is given to distend the entire small intestine; use of neutral or low-density contrast helps show detail of intestinal mucosa that might be obscured by use of contrast that is more radiopaque. CT enterography often involves using IV contrast. Thin-slice high-resolution CT images of the entire abdomen and pelvis are obtained. These images are reconstructed in multiple anatomic planes, forming 3-dimensional reconstructions.
+
+The unique advantage of CT enterography is in:
+
+Identifying inflammatory bowel disease
+
+CT enterography can also be used to detect other bowel disorders, including the following:
+
+Lesions obstructing the small intestine
+
+Tumors
+
+Abscesses
+
+Fistulas
+
+Bleeding sources
+
+CT IV pyelography (CT IVP) or CT urography
+
+IV contrast is injected to produce detailed images of the kidneys, ureters, and bladder. IV contrast concentrates in the kidneys and is excreted into the renal-collecting structures, ureters, and bladder. Multiple CT images are obtained at different time intervals, producing high-resolution images of the urinary tract during maximal contrast opacification.
+
+CT urography has replaced conventional IV urography in most institutions.
+
+CT angiography
+
+After a rapid bolus injection of IV contrast, thin-slice images are rapidly taken as the contrast opacifies arteries and veins. Computer graphics techniques are used to remove images of surrounding soft tissues and to provide highly detailed images of blood vessels similar to those of conventional angiography.
+
+CT angiography is a safer, less invasive alternative to conventional angiography.
+
+Coronal Reconstruction CT Pulmonary Angiography
+
+Image
+
+Coronal reconstruction CT pulmonary angiogram shows an extensive pulmonary embolus in both pulmonary arteries (arrows).
+
+Image courtesy of Hakan Ilaslan, MD.
+
+Disadvantages of CT
+
+CT accounts for most diagnostic radiation exposure to patients collectively. The risk of radiation exposure versus benefit of the examination must always be considered. Radiation exposure is particularly high if multiple scans are done, placing the patient at potential risk (see Risks of Medical Radiation). Patients who have recurrent urinary tract stones or who have had major trauma are most likely to have multiple CT scans. The effective radiation dose of one abdomen/pelvis CT is equal to approximately 385 single-view chest x-rays.
+
+CT scanning should use the lowest radiation dose possible. Modern CT scanners and revised imaging protocols have dramatically lowered radiation exposure from CT. Protocols are under investigation to evaluate the use of even lower radiation doses for certain CT scans and certain indications; in some cases, these doses would be comparable to the radiation delivered by x-rays.
+
+Some CT scans use IV contrast, which has certain risks (see Radiographic Contrast Agents and Contrast Reactions). However, oral and rectal contrast also have risks, such as the following:
+
+Barium, given orally or rectally, may extravasate outside a perforated or highly inflamed gastrointestinal tract lumen. Extravasated barium can induce severe inflammation in the peritoneal cavity. Iodinated oral contrast agents are used if there is a risk of intestinal perforation.
+
+Iodinated contrast agents, if aspirated, can induce severe chemical pneumonitis.
+
+Barium, if retained in the intestinal tract, can become hard and inspissated, potentially causing intestinal obstruction.

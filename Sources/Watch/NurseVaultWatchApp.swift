@@ -10,6 +10,10 @@ struct NurseVaultWatchApp: App {
             WatchHomeView()
                 .environment(library)
                 .onAppear {
+                    // On watchOS, Core Data store is separate and always empty.
+                    // We rely on the JSON summary written by the main app.
+                    // Try loading it immediately; if not available yet, show
+                    // a helpful message rather than an empty list.
                     library.reload()
                 }
         }
@@ -21,6 +25,8 @@ struct NurseVaultWatchApp: App {
 /// A non-document destination for the watch home screen.
 enum WatchHomeDestination: Hashable {
     case search
+    case drugReference
+    case merckReference
 }
 
 struct WatchHomeView: View {
@@ -29,31 +35,52 @@ struct WatchHomeView: View {
     var body: some View {
         NavigationStack {
             List {
+                Button(action: {
+                    library.reload()
+                }) {
+                    Label("Refresh", systemImage: "arrow.clockwise")
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                }
+                .buttonStyle(.plain)
+
                 NavigationLink(value: WatchHomeDestination.search) {
                     Label("Search", systemImage: "magnifyingglass")
                 }
-                ForEach(library.sections, id: \.self) { section in
-                    NavigationLink(value: section) {
-                        Label(section.name ?? "Untitled", systemImage: section.icon ?? "folder")
+
+                NavigationLink(value: WatchHomeDestination.drugReference) {
+                    Label("Drug Reference", systemImage: "pills")
+                }
+
+                NavigationLink(value: WatchHomeDestination.merckReference) {
+                    Label("Merck Manual", systemImage: "book")
+                }
+
+                if !library.watchSections.isEmpty {
+                    ForEach(library.watchSections) { watchSection in
+                        NavigationLink(value: watchSection) {
+                            Label(watchSection.name ?? "Untitled", systemImage: watchSection.icon ?? "folder")
+                        }
+                    }
+                } else {
+                    Section {
+                        Text("No sections yet. Add documents on your iPhone or Mac.")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
                     }
                 }
             }
             .navigationTitle("Nurse Vault")
-            .navigationDestination(for: VaultSection.self) { section in
-                WatchDocListView(section: section)
+            .navigationDestination(for: WatchSection.self) { watchSection in
+                WatchDocListView(watchSection: watchSection)
             }
             .navigationDestination(for: WatchHomeDestination.self) { destination in
-                if destination == .search {
+                switch destination {
+                case .search:
                     WatchSearchView()
-                }
-            }
-            .overlay {
-                if library.sections.isEmpty {
-                    ContentUnavailableView(
-                        "No Sections",
-                        systemImage: "books.vertical",
-                        description: Text("Add sections in the Nurse Vault app on your phone or Mac.")
-                    )
+                case .drugReference:
+                    WatchDrugReferenceView()
+                case .merckReference:
+                    WatchMerckReferenceView()
                 }
             }
         }
@@ -64,32 +91,31 @@ struct WatchHomeView: View {
 
 struct WatchDocListView: View {
     @Environment(Library.self) private var library
-    let section: VaultSection
+    let watchSection: WatchSection
 
     @State private var searchText = ""
 
-    private var visibleDocs: [VaultDoc] {
+    private var visibleDocs: [WatchDoc] {
         let trimmed = searchText.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !trimmed.isEmpty else {
-            return library.docs(in: section)
+            return library.watchDocs(in: watchSection)
         }
-        let matches = library.docs(matching: trimmed)
-        return matches.filter { $0.section === section }
+        return library.watchDocs(matching: trimmed).filter { $0.sectionName == watchSection.name }
     }
 
     var body: some View {
         List {
             Section {
-                TextField("Search \(section.name ?? "this section")", text: $searchText)
+                TextField("Search \(watchSection.name ?? "this section")", text: $searchText)
                     .autocorrectionDisabled()
             }
             Section {
-                ForEach(visibleDocs, id: \.self) { doc in
+                ForEach(visibleDocs) { doc in
                     NavigationLink(value: doc) {
                         VStack(alignment: .leading, spacing: 2) {
-                            Text(doc.title ?? "Untitled")
-                            if let added = doc.addedDate {
-                                Text(added, style: .date)
+                            Text(doc.title ?? doc.fileName ?? "Untitled")
+                            if let dateStr = doc.addedDateISO {
+                                Text(dateStr)
                                     .font(.caption2)
                                     .foregroundStyle(.secondary)
                             }
@@ -98,19 +124,19 @@ struct WatchDocListView: View {
                 }
             }
         }
-        .navigationTitle(section.name ?? "Documents")
-        .navigationDestination(for: VaultDoc.self) { doc in
+        .navigationTitle(watchSection.name ?? "Documents")
+        .navigationDestination(for: WatchDoc.self) { doc in
             WatchDocDetailView(doc: doc)
         }
         .overlay {
             if visibleDocs.isEmpty {
                 ContentUnavailableView(
-                    searchText.isEmpty ? "Empty" : "No Matches",
-                    systemImage: searchText.isEmpty ? "tray" : "magnifyingglass",
+                    searchText.isEmpty ? "No Documents" : "No Matches",
+                    systemImage: searchText.isEmpty ? "doc.text.magnifyingglass" : "magnifyingglass",
                     description: Text(
                         searchText.isEmpty
-                            ? "Documents you add on your phone, iPad, or Mac appear here."
-                            : "Nothing in this section matches your search."
+                            ? "Add documents to \(watchSection.name ?? "this section") on your iPhone or Mac."
+                            : "Nothing matches “\(searchText)” in this section."
                     )
                 )
             }
@@ -125,10 +151,10 @@ struct WatchSearchView: View {
 
     @State private var searchText = ""
 
-    private var visibleDocs: [VaultDoc] {
+    private var visibleDocs: [WatchDoc] {
         let trimmed = searchText.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !trimmed.isEmpty else { return [] }
-        return library.docs(matching: trimmed)
+        return library.watchDocs(matching: trimmed)
     }
 
     var body: some View {
@@ -137,80 +163,91 @@ struct WatchSearchView: View {
                 TextField("Search all documents", text: $searchText)
                     .autocorrectionDisabled()
             }
-            ForEach(visibleDocs, id: \.self) { doc in
+            ForEach(visibleDocs) { doc in
                 NavigationLink(value: doc) {
                     VStack(alignment: .leading, spacing: 2) {
-                        Text(doc.title ?? "Untitled")
-                        if let section = doc.section {
-                            Text(section.name ?? "No section")
-                                .font(.caption2)
-                                .foregroundStyle(.secondary)
-                        }
+                        Text(doc.title ?? doc.fileName ?? "Untitled")
+                        Text(doc.sectionNameForDisplay)
+                            .font(.caption2)
+                            .foregroundStyle(.secondary)
                     }
                 }
             }
         }
         .navigationTitle("Search")
-        .navigationDestination(for: VaultDoc.self) { doc in
+        .navigationDestination(for: WatchDoc.self) { doc in
             WatchDocDetailView(doc: doc)
         }
         .overlay {
-            if visibleDocs.isEmpty {
+            if visibleDocs.isEmpty && !searchText.isEmpty {
                 ContentUnavailableView(
                     "No Matches",
                     systemImage: "magnifyingglass",
-                    description: Text("Search by title, file name, notes, or the text inside PDFs and text files.")
+                    description: Text("Nothing matches “\(searchText)”. Try different keywords.")
                 )
             }
         }
     }
 }
 
-// MARK: - Document detail
+// MARK: - Document detail (from summary metadata)
 
 struct WatchDocDetailView: View {
-    let doc: VaultDoc
-
-    private var kind: DocKind {
-        DocKind.kind(mimeType: doc.mimeType, fileName: doc.fileName, hasFile: doc.fileData != nil)
-    }
+    let doc: WatchDoc
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 8) {
-                if let data = doc.fileData {
-                    switch kind {
-                    case .pdf:
-                        WatchZoomablePDFView(data: data)
-                    case .image:
-                        WatchZoomableImageView(data: data)
-                    case .text:
-                        Text(FileSupport.text(from: data) ?? "…")
-                            .font(.body) // Use system body size for readability
-                    case .other, .note:
-                        Label("No preview for this file type", systemImage: "doc")
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
-                    }
-                } else if let note = doc.noteText, !note.isEmpty {
+                // Show notes if present (watch summary includes note text)
+                if let note = doc.noteText, !note.isEmpty {
                     Text(note)
-                        .font(.body) // Use system body size for readability
+                        .font(.body)
+                } else if let mimeType = doc.mimeType, mimeType.hasPrefix("text/") {
+                    // For text files, we can't show content without the actual file data
+                    Text("File: \(doc.fileName ?? "unknown")")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                } else if let mimeType = doc.mimeType, mimeType.hasPrefix("image/") {
+                    Text("Image: \(doc.fileName ?? "unknown")")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                } else if let mimeType = doc.mimeType, mimeType == "application/pdf" {
+                    Text("PDF: \(doc.fileName ?? "unknown")")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
                 } else {
-                    Label("Empty document", systemImage: "doc")
+                    // For other file types
+                    Text(doc.fileName ?? "Document")
                         .font(.caption)
                         .foregroundStyle(.secondary)
                 }
 
-                if let note = doc.noteText, !note.isEmpty, doc.fileData != nil {
-                    Divider()
-                    Text("Notes")
-                        .font(.caption.bold())
-                    Text(note)
-                        .font(.body) // Use system body size for readability
+                // Metadata
+                VStack(alignment: .leading, spacing: 4) {
+                    if let title = doc.title, !title.isEmpty {
+                        Text("Title: \(title)")
+                            .font(.caption)
+                    }
+                    if let fileName = doc.fileName, !fileName.isEmpty {
+                        Text("File: \(fileName)")
+                            .font(.caption)
+                    }
+                    if let sectionName = doc.sectionName,
+                       !sectionName.isEmpty,
+                       sectionName != "Uncategorized" {
+                        Text("Section: \(sectionName)")
+                            .font(.caption)
+                    }
+                    if let dateStr = doc.addedDateISO, !dateStr.isEmpty {
+                        Text("Added: \(dateStr)")
+                            .font(.caption)
+                    }
                 }
+                .foregroundStyle(.secondary)
             }
             .padding()
         }
+        .navigationTitle(doc.title ?? doc.fileName ?? "Untitled")
     }
 }
 

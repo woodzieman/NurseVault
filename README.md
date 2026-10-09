@@ -9,12 +9,12 @@ accessible by your own Apple ID.
 
 > 🌐 **Landing page & privacy policy:**
 > [woodzieman.github.io/NurseVault](https://woodzieman.github.io/NurseVault)
-> · [Privacy Policy](site/privacy.html)
+> · [Privacy Policy](https://woodzieman.github.io/NurseVault/privacy.html)
 
 ## Quick start (for visitors)
 
 1. **View the app's landing page** at [woodzieman.github.io/NurseVault](https://woodzieman.github.io/NurseVault).
-2. **Read the privacy policy** at the link above — it states: *we collect zero data.*
+2. **Read the privacy policy** at [woodzieman.github.io/NurseVault/privacy.html](https://woodzieman.github.io/NurseVault/privacy.html) — it states: *we collect zero data.*
 3. **Install from the App Store** (search "Nurse Vault") or build from source
    (see below).
 
@@ -22,13 +22,14 @@ accessible by your own Apple ID.
 
 ## Main menu sections
 
-The app ships with four sections and a **+** button to add unlimited more:
+The app ships with six read-only reference entries (plus user sections) and a **+** button to add unlimited more:
 
 | Section | Icon | Typical use |
 |---|---|---|
 | Code Blue | cross.vial | ACL/Code Blue flows, resuscitation checklists |
 | Lab Values | test tubes | Normal lab ranges, critical values |
 | Drugs | pills | Dose tables, drug references |
+| Merck Manual | book.pages | Medical topics by specialty (2,834 articles, 28 specialties) |
 | Other | folder | Anything else |
 
 Sections can be renamed, reordered (drag), or deleted at any time.
@@ -185,6 +186,9 @@ Sources/Widget/             Watch complication (widget extension)
 DrugInfo/                 Bundled drug reference data (one folder per drug:
                           `names.txt` + `drug-information.txt`); copied into
                           the app bundle as a folder reference
+MerckTopics/              Bundled Merck Manual medical topics (~2,834 .txt files,
+                          27 specialties); copied into the app bundle as a
+                          folder reference with `merck_topics_index.json`
 Support/
   Info.plist                Info.plist for the widget extension
 Packages/NurseVaultCore/    Shared Swift package:
@@ -295,3 +299,21 @@ Notes:
   document from any device removes it everywhere.
 - Everything is encrypted in transit and at rest by iCloud; data stays on
   Apple's servers, never third parties.
+
+## Watch storage notes (2026-10-09)
+
+The watch app keeps a small searchable index for quick reference:
+- **Drug Reference** — pipe-delimited `WatchDrugIndex.txt` (~0.4 MB, 2,383
+  drugs). Each line is `generic|brand1|brand2|summary`: the generic name, the
+  two most-used brand names, and the nursing drug-class line. Combination
+  (hyphenated) drugs stay whole — each has its own brands and dosing.
+- **Merck Manual** — zlib-compressed pipe-delimited
+  `WatchMerckIndex.txt.zlib` (~0.1 MB, 2,834 topics). Each line is
+  `id|title|specialty|subspecialty|summary`; decompressed at runtime.
+Full prescribing information and full Merck texts remain on iPhone/Mac only.
+The indices are generated from `scripts/build_drug_guide_watch.py` and
+`scripts/build_merck_watch_index.py` and bundled via `NurseVaultCore`.
+
+Build note: `Data.decompressed(using:)` is unavailable to the Swift 6.4 / SDK
+27 toolchain, so the Merck index decompresses via `NSData.decompressed(using:)
+.zlib` instead.

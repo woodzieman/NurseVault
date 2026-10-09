@@ -1,0 +1,92 @@
+=== E. coli Gastroenteritis (Merck Manual Professional) ===
+Section: Gastroenterology > Gastroenteritis
+Source: https://www.merckmanuals.com/professional/gastrointestinal-disorders/gastroenteritis/e-coli-gastroenteritis
+Retrieved: 2026-09-25
+
+E. coli normally inhabit the gastrointestinal tract; however, some strains have acquired genes that enable them to cause intestinal infection. When ingested, the following strains can cause diarrhea:
+
+Enterohemorrhagic E. coli is the most clinically significant subtype in the United States. It produces Shiga toxin, which causes bloody diarrhea (hemorrhagic colitis). Thus, this subtype is sometimes termed Shiga toxin–producing E. coli (STEC). E. coli O157:H7 is the most common strain of this subtype in the United States. Undercooked ground beef, unpasteurized milk and juice, and contaminated water are possible sources. Person-to-person transmission is common in the day care setting. Outbreaks associated with exposure to water in recreational settings (eg, pools, lakes, water parks) have also been reported. Hemolytic-uremic syndrome is a serious complication that develops in 5 to 10% of STEC cases (and in 10 to 15% of O157:H7 cases), most commonly among the young and old.
+
+Enterotoxigenic E. coli produces 2 toxins (one similar to cholera toxin) that cause watery diarrhea. This subtype is the most common cause of traveler’s diarrhea in people visiting low- and middle-income countries.
+
+Enteropathogenic E. coli causes watery diarrhea. Once a common cause of diarrhea outbreaks in nurseries, this subtype is now rare.
+
+Enteroinvasive E. coli causes bloody or nonbloody diarrhea, primarily in low- and middle-income countries. It is rare in the United States.
+
+Enteroaggregative E. coli causes diarrhea of lesser severity but longer duration than the other subtypes. As with some of the other subtypes, it is more common in low- and middle-income countries and can be a cause of traveler's diarrhea.
+
+Other strains of E. coli are capable of causing extraintestinal infection (see Escherichia coli Infections).
+
+(See also Overview of Gastroenteritis.)
+
+Symptoms and Signs of E. coli Gastroenteritis
+
+Symptoms of hemorrhagic E. coli are severe abdominal cramps which begin suddenly along with watery diarrhea, which may become bloody within 24 hours. The diarrhea usually lasts 1 to 8 days.
+
+Fever is usually absent or mild but occasionally can exceed 39° C (102° F ).
+
+Signs and symptoms of hemolytic-uremic syndrome can include fatigue, pallor, hypertension, abdominal pain, and dark urine.
+
+Diagnosis of E. coli Gastroenteritis
+
+Sometimes stool culture
+
+Sometimes stool testing aimed at Shiga toxin
+
+Sometimes stool PCR testing
+
+Stool studies for a bacterial cause are indicated in patients with bloody or heme-positive stool, fever, moderate to severe diarrhea, or diarrhea lasting more than 7 days, in patients 70 years old or older, or in those with inflammatory bowel disease or immunocompromising disorders such as severe HIV infection. Stool studies are also indicated for those at high risk of spreading disease to others (eg, health care, day care, or food service workers) and during known or suspected outbreaks.
+
+A rapid stool assay for Shiga toxin or, when available, a test for the gene that encodes the toxin may be helpful (1).
+
+Each of the E. coli subtypes can be detected in stool by polymerase chain reaction (PCR) testing, typically using a multiplex PCR panel. Sometimes more than one organism is detected simultaneously, the clinical significance of which is unclear.
+
+Diagnosis reference
+
+1. Freedman SB, van de Kar NCAJ, Tarr PI: Shiga Toxin-Producing Escherichia coli and the Hemolytic-Uremic Syndrome. N Engl J Med 389(15):1402-1414, 2023. doi:10.1056/NEJMra2108739
+
+Treatment of E. coli Gastroenteritis
+
+Oral or IV rehydration
+
+Sometimes antibiotics
+
+Supportive care including rehydration with fluids and electrolytes is the mainstay of treatment and is all that is needed for most adults. Oral glucose-electrolyte solutions, broth, or bouillon may prevent dehydration or treat mild dehydration. Children may become dehydrated more quickly and should be given an appropriate rehydration solution (several are available commercially—see Oral Rehydration). Isotonic IV fluids such as Ringer’s lactate and normal saline solution should be given when there is severe dehydration, shock, or altered mental status and ileus or failure of oral rehydration therapy (1). In severe dehydration, IV rehydration should be continued until pulse, perfusion, and mental status normalize.
+
+Antidiarrheal (antimotility) agents (eg, loperamide) should not be given to children < 18 years of age with acute diarrhea (1). Antidiarrheals are generally safe for adult patients with watery diarrhea (as shown by heme-negative stool). However, antidiarrheals may cause deterioration of patients with E. coli O157:H7 infection (as well as Clostridioides difficile) and thus should not be given to any patients with recent antibiotic use, bloody diarrhea, heme-positive stool, or diarrhea with fever, pending specific diagnosis.
+
+Empiric antibioticsfor suspected E. coli enteritis is generally not recommended prior to stool testing results, because antibiotics increase the risk of hemolytic-uremic syndrome in patients infected with E. coli O157:H7 (2). Stool culture results are particularly important in children, who have a higher rate of infection with E. coli O157:H7.
+
+The use of probiotics is not recommended for suspected E. coli gastroenteritis (3, 4).
+
+Treatment references
+
+1. Shane AL, Mody RK, Crump JA, et al: 2017 Infectious Diseases Society of America Clinical Practice Guidelines for the Diagnosis and Management of Infectious Diarrhea. Clin Infect Dis 65(12):e45-e80, 2017. doi:10.1093/cid/cix669
+
+2. Freedman SB, van de Kar NCAJ, Tarr PI: Shiga Toxin-Producing Escherichia coli and the Hemolytic-Uremic Syndrome. N Engl J Med 389(15):1402-1414, 2023. doi:10.1056/NEJMra2108739
+
+3. Riddle MS, DuPont HL, Connor BA: ACG Clinical Guideline: Diagnosis, Treatment, and Prevention of Acute Diarrheal Infections in Adults. Am J Gastroenterol 111(5):602-622, 2016. doi:10.1038/ajg.2016.126
+
+4. Su GL, Ko CW, Bercik P, et al: AGA Clinical Practice Guidelines on the Role of Probiotics in the Management of Gastrointestinal Disorders. Gastroenterology 159(2):697-705, 2020. doi:10.1053/j.gastro.2020.05.059
+
+Key Points
+
+Different strains of E. coli can cause diarrhea by various mechanisms.
+
+Enterohemorrhagic E. coli produces Shiga toxin, which causes hemorrhagic colitis and sometimes hemolytic-uremic syndrome; E. coli O157:H7 is the most common strain of this subtype in the United States.
+
+Stool testing is not needed routinely, but if an enterohemorrhagic strain is suspected, a rapid stool assay for Shiga toxin or gene-based testing should be done.
+
+Antibiotics are generally not needed and can increase the risk of hemolytic-uremic syndrome when Shiga toxin–producing strains are involved.
+
+Antidiarrheal (antimotility) agents are safe for adults with watery diarrhea but should be avoided in children < 18 years of age and in any patient with recent antibiotic use, bloody diarrhea, heme-positive stool, or diarrhea with fever.
+
+More Information
+
+The following English-language resources may be useful. Please note that The Manual is not responsible for the content of these resources.
+
+Infectious Diseases Society of America: Clinical practice guidelines for the diagnosis and management of infectious diarrhea (2017)
+
+American College of Gastroenterology: Clinical guideline: Diagnosis, treatment, and prevention of acute diarrheal infections in adults (2016)
+
+American Gastroenterological Association: Clinical practice guidelines on the role of probiotics in the management of gastrointestinal disorders (2020)

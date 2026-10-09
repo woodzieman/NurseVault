@@ -1,0 +1,38 @@
+=== X-linked Agammaglobulinemia (Merck Manual Professional) ===
+Section: Allergy and Immunology > Immunodeficiency Disorders
+Source: https://www.merckmanuals.com/professional/immunology-allergic-disorders/immunodeficiency-disorders/x-linked-agammaglobulinemia
+Retrieved: 2026-09-25
+
+(See also Overview of Immunodeficiency Disorders and Approach to the Patient With an Immunodeficiency Disorder.)
+
+X-linked agammaglobulinemia is a primary immunodeficiency disorder that involves humoral immunity deficiencies. It results from mutations in a gene on the X chromosome that encodes Bruton tyrosine kinase (BTK). BTK is essential for B-cell development and maturation; without it, maturation stops before the B-cell development, resulting in no mature B cells and hence no antibodies.
+
+As a result, male infants have very small tonsils and do not develop lymph nodes. They have recurrent pyogenic lung, sinus, and skin infections with encapsulated bacteria (eg, Streptococcus pneumoniae, Haemophilus influenzae). Patients are also susceptible to persistent central nervous system (CNS) infections resulting from live-attenuated oral polio vaccine and from echoviruses and coxsackieviruses; these infections can also manifest as progressive dermatomyositis with or without encephalitis. Risk of infectious arthritis, bronchiectasis, and certain cancers is also increased.
+
+With early diagnosis and appropriate treatment, prognosis is good unless viral infections of the central nervous system develop.
+
+Diagnosis of X-linked Agammaglobulinemia
+
+Immunoglobulin levels
+
+Lymphocyte flow cytometry
+
+Genetic testing
+
+Diagnosis of X-linked agammaglobulinemia is by detecting low (at least 2 standard deviations below the mean) levels of immunoglobulins (IgG, IgA, IgM) and absent B cells (< 1% of all lymphocytes are CD19+ cells, detected by flow cytometry). Transient neutropenia may also be present.
+
+Genetic testing can be used to confirm a diagnosis but is not required. Genetic testing is usually recommended for first-degree relatives. If the mutation has been identified in family members, mutational analysis of chorionic villus, amniocentesis, or percutaneous umbilical cord blood samples can provide prenatal diagnosis.
+
+Treatment of X-linked Agammaglobulinemia
+
+Immune globulin replacement therapy
+
+Treatment of X-linked agammaglobulinemia is immune globulin replacement therapy. Hematopoietic stem cell transplantation and gene therapy are also under investigation (1, 2).
+
+Prompt use of adequate antibiotics for each infection is crucial; bronchiectasis may require frequent rotation of antibiotics. Live-virus vaccines are contraindicated.
+
+Treatment references
+
+1. Abu-Arja RF, Chernin LR, Abusin G, et al. Successful hematopoietic cell transplantation in a patient with X-linked agammaglobulinemia and acute myeloid leukemia. Pediatr Blood Cancer 62(9):1674-1676, 2015. doi:10.1002/pbc.25554
+
+2. Gray DH, Villegas I, Long J, et al. Optimizing Integration and Expression of Transgenic Bruton's Tyrosine Kinase for CRISPR-Cas9-Mediated Gene Editing of X-Linked Agammaglobulinemia. CRISPR J 4(2):191-206, 2021. doi:10.1089/crispr.2020.0080

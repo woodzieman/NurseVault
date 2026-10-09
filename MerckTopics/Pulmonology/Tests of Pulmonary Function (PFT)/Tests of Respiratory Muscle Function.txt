@@ -1,0 +1,26 @@
+=== Tests of Respiratory Muscle Function (Merck Manual Professional) ===
+Section: Pulmonology > Tests of Pulmonary Function (PFT)
+Source: https://www.merckmanuals.com/professional/pulmonary-disorders/tests-of-pulmonary-function-pft/tests-of-respiratory-muscle-function
+Retrieved: 2026-09-25
+
+Maximal inspiratory pressure (MIP) and maximal expiratory pressure (MEP) measurements may aid in evaluating respiratory muscle weakness (1).
+
+MIP is the pressure generated during maximal inspiratory effort against a closed system. It is usually measured at residual volume (RV) because inspiratory muscle strength is inversely related to lung volume (in a curvilinear fashion).
+
+MEP is measured during a similar maneuver at total lung capacity (TLC) because expiratory muscle strength is directly related to lung volume (again in a curvilinear fashion).
+
+The information available from these maneuvers is nonspecific, however, and cannot distinguish between insufficient effort, muscle weakness, and a neurologic disorder.
+
+The maximal voluntary ventilation (MVV) is another measure of the neuromuscular and respiratory systems. The MVV is the total volume of air exhaled during 12 seconds of rapid, deep breathing, which can be compared with a predicted MVV defined as the forced expiratory volume in 1 second (FEV1) × 35 or 40 (2). A significant difference between the predicted and measured MVV may indicate insufficient neuromuscular reserve, abnormal respiratory mechanics, or an inadequate effort. Progressive reduction of tidal volumes during the test is consistent with neuromuscular abnormalities but also occurs with gas trapping as a result of disorders that cause airflow limitation.
+
+Diaphragm fluoroscopy (also called the sniff test) is sometimes used in suspected cases of diaphragmatic paralysis or paresis. During continuous fluoroscopic examination, the patient makes a quick, short, strong inspiratory effort (“sniff”). This maneuver minimizes the contribution of the other muscles of respiration (eg, intercostals). A weakened hemidiaphragm may have decreased excursion compared with the contralateral diaphragm or may move upward paradoxically. Postural changes in vital capacity, assessed by comparing upright and supine measurements, can detect diaphragm weakness, with a decrease of > 25% suggesting significant diaphragm dysfunction (3). Occasionally, electromyographic interrogation of the diaphragm and phrenic nerve is done, but carrying out and interpreting the results of this test require considerable expertise, and the diagnostic accuracy of the test is uncertain.
+
+Muscle and nerve biopsies may be helpful in selected cases.
+
+References
+
+1. Rochester CL. Respiratory Muscle Testing. Clin Chest Med. 2025;46(3):525-542. doi:10.1016/j.ccm.2025.04.013
+
+2. Miller MR, Hankinson J, Brusasco V, et al. Standardisation of spirometry. Eur Respir J. 2005;26(2):319-338. doi:10.1183/09031936.05.00034805
+
+3. Mamarabadi M, Mauney S, Li Y, Aboussouan LS. Evaluation and management of dyspnea as the dominant presenting feature in neuromuscular disorders. Muscle Nerve. 2024;70(5):916-928. doi:10.1002/mus.28243

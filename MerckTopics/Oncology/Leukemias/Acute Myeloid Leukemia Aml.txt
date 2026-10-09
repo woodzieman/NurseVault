@@ -1,0 +1,402 @@
+=== Acute Myeloid Leukemia (AML) (Merck Manual Professional) ===
+Section: Oncology > Leukemias
+Source: https://www.merckmanuals.com/professional/oncology/leukemias/acute-myeloid-leukemia-aml
+Retrieved: 2026-09-25
+
+(See also Overview of Leukemia.)
+
+In the United States in 2025 there were approximately 22,010 new cases of acute myeloid leukemia (AML) and approximately 11,090 deaths, almost all in adults (1). AML is slightly more common among men than women, but the average lifetime risk in both sexes is approximately 0.5% (1 in 200 Americans).
+
+AML comprises approximately 15% of childhood leukemias, often developing in the first year of life (2). However, the incidence of AML increases with age; it is the most common acute leukemia in adults, with a median age of onset of 68 years. AML also may occur as a secondary cancer after chemotherapy or radiation therapy for a different type of cancer. Secondary AML is difficult to treat with chemotherapy alone.
+
+Overview of Acute Leukemia
+
+video
+
+General references
+
+1. American Cancer Society. Key Statistics for Acute Myeloid Leukemia (AML). Accessed February 6, 2026.
+
+2. Ward E, DeSantis C, Robbins A, et al. Childhood and adolescent cancer statistics, 2014. CA Cancer J Clin. 2014;64(2):83-103. doi: 10.3322/caac.21219. doi:10.3322/caac.21219
+
+Pathophysiology of AML
+
+Similar to acute lymphoblastic leukemia, acute myeloid leukemia is caused by a series of acquired genetic aberrations. Malignant transformation usually occurs at the pluripotent stem cell level, although it sometimes involves a committed stem cell with more limited capacity for self-renewal. Abnormal proliferation, clonal expansion, aberrant differentiation, and diminished apoptosis (programmed cell death) lead to replacement of normal blood elements with malignant cells.
+
+Classification of AML
+
+The International Consensus Classification (ICC) has classified the AML subtypes (1); like the WHO classification (2), it is based mainly on the gene or chromosome changes in the AML cells:
+
+Acute promyelocytic leukemia (APL) with t(15;17)(q24.1;q21.2)/PML::RARA (≥ 10%; in the WHO criteria, a minimum blast or promyelocyte percentage is not required)
+
+APL with other RARA rearrangements (≥ 10%)
+
+AML with t(8;21)(q22;q22.1)/RUNX1::RUNX1T1 (≥ 10%; in WHO criteria a minimum blast percentage is not required)
+
+AML with inv(16)(p13.1q22) or t(16;16)(p13.1;q22)/CBFB::MYH11 (≥ 10%; in WHO criteria a minimum blast percentage is not required)
+
+AML with t(9;11)(p21.3;q23.3)/MLLT3-::KMT2A (≥ 10%)
+
+AML with other KMT2A rearrangements (≥ 10%)
+
+AML with t(6;9)(p22.3;q34.1)/DEK::NUP214 (≥ 10%)
+
+AML with inv(3)(q21.3q26.2) or t(3;3)(q21.3;q26.2)/GATA2; MECOM(EVI1) (≥ 10%)
+
+AML with other MECOM rearrangements (≥ 10%)
+
+AML with t(9;22)(q34.1;q11.2)/BCR::ABL1 (≥ 20%)
+
+AML with mutated NPM1 (≥ 10%)
+
+AML with in-frame bZIP CEBPA mutations (≥ 10%)
+
+AML with mutated TP53 (10 to 19% [MDS/AML] and ≥ 20% [AML]) 
+
+AML with myelodysplasia-related gene mutations (defined by mutations in ASXL1, BCOR, EZH2, RUNX1, SF3B1, SRSF2, STAG2, U2AF1, or ZRSR2) (10 to 19% [MDS/AML] and ≥ 20% [AML])
+
+AML with myelodysplasia-related cytogenetic abnormalities (defined by detecting a complex karyotype [≥ 3 unrelated clonal chromosomal abnormalities in the absence of other class-defining recurring genetic abnormalities]), (del(5q)/t(5q)/add(5q), -7/del(7q), +8, del(12p)/t(12p)/add(12p), i(17q), −17/add(17p); or del(17p), del(20q), and/or idic(X)(q13) clonal abnormalities) (10 to 19% [MDS/AML] and ≥ 20% [AML])
+
+AML, not otherwise specified (NOS) (10 to 19% [MDS/AML] and ≥ 20% [AML])
+
+Myeloid sarcoma
+
+Morphologic criteria from the previous French-American-British (FAB) classification system are used for subtypes that are NOS.
+
+Acute promyelocytic leukemia (APL) is a subtype of AML with recurrent genetic abnormalities. APL is a particularly important subtype, representing 10 to 15% of all cases of AML, striking a younger age group (median age 31 years) and particular ethnicity (Hispanics). Patients commonly present with a coagulation disorder (eg, disseminated intravascular coagulation [DIC]).
+
+Therapy-related myeloid neoplasm (t-MN) is a subtype of MDS/AML caused by prior treatment with certain antineoplastic medications (eg, alkylating agents, hydroxyurea, and topoisomerase II inhibitors). Most t-MNs occur 1 to 10 years after initial therapy, with a longer latency for alkylating agents (mean latency 5 to 7 years) and hydroxyurea (10 to 20 years) than for topoisomerase II inhibitors (mean latency 6 months to 3 years). Alkylating agents cause chromosomal deletions and unbalanced translocations. Hydroxyurea causes del(17p), TP53 mutations and complex karyotypes, including del(5q,7q and 7), and inhibits TP53. Topoisomerase II inhibitors lead to balanced chromosomal translocations, particularly KMT2A rearrangements.
+
+Myeloid sarcoma is characterized by extramedullary myeloblastic infiltration of skin (leukemia cutis), gingiva, and other mucosal surfaces.
+
+Classification references
+
+1. Weinberg OK, Porwit A, Orazi A, et al. The International Consensus Classification of acute myeloid leukemia. Virchows Arch. 2023;482(1):27-37. doi: 10.1007/s00428-022-03430-4
+
+2. Swerdlow SH, Campo E, Pileri SA, et al. The 2016 revision of the World Health Organization classification of lymphoid neoplasms. Blood. 2016;127(20):2375-2390. doi:10.1182/blood-2016-01-643569
+
+Symptoms and Signs of AML
+
+Symptoms of acute myeloid leukemia may be present for only days to weeks before diagnosis. The most common presenting symptoms are due to disrupted hematopoiesis with ensuing:
+
+Anemia
+
+Thrombocytopenia
+
+Granulocytopenia
+
+Anemia can manifest with fatigue, weakness, pallor, malaise, dyspnea on exertion, tachycardia, and exertional chest pain.
+
+Thrombocytopenia can cause mucosal bleeding, easy bruising, petechiae/purpura, epistaxis, bleeding gums, and heavy menstrual bleeding. Hematuria and gastrointestinal bleeding are uncommon. Patients can present with spontaneous hemorrhage, including intracranial or intra-abdominal hematomas.
+
+Granulocytopenia (neutropenia) can lead to a high risk of infections, including those of bacterial, fungal, and viral etiologies. Patients may present with fevers and a severe and/or recurrent infection. The cause of fever often is not found, although granulocytopenia may lead to a rapidly progressing and potentially life-threatening bacterial infection.
+
+Leukemia Cutis (Localized)
+
+Image
+
+Leukemia cutis manifesting as erythematous papules, some with eroded surfaces, in a patient with acute myeloid leukemia.
+
+© Springer Science+Business Media
+
+Leukemia cutis is caused by leukemia cell infiltration of the skin and can have various appearances, including papules or nodules, and plaques, and may be erythematous, brown, hemorrhagic, or violaceous/gray-blue.
+
+Leukemia Cutis (Disseminated)
+
+Image
+
+This photo shows disseminated erythematous papulonodular lesions in a patient with acute myeloid leukemia.
+
+© Springer Science+Business Media
+
+Leukemic cell infiltration of other organ systems tends to be less common in AML than in ALL; however:
+
+Infiltration can enlarge the liver, spleen, and lymph nodes.
+
+Bone marrow and periosteal infiltration may cause bone and joint pain.
+
+Meningeal infiltration can result in cranial nerve palsies, headache, visual or auditory symptoms, altered mental status, and transient ischemic attack/stroke.
+
+Diagnosis of AML
+
+Complete blood count (CBC) and peripheral blood smear
+
+Bone marrow examination (aspiration and needle biopsy)
+
+Histochemical studies, cytogenetics, immunophenotyping, and molecular biology studies
+
+Peripheral Blood Blast Cell
+
+Image
+
+By permission of the publisher. From Chang K, Forman S. In Atlas of Clinical Hematology. Edited by JO Armitage. Philadelphia, Current Medicine, 2004.
+
+CBC and peripheral smear are the first tests performed; pancytopenia and peripheral blasts suggest acute leukemia. Blast cells in the peripheral smear may approach 90% of white blood cell (WBC) count. Auer rods may be seen in the myeloblasts.
+
+Aplastic anemia, viral infections (eg, infectious mononucleosis), vitamin B12 deficiency, and folate deficiency should be considered in the differential diagnosis of severe pancytopenia. Leukemoid reactions (marked granulocytic leukocytosis [ie, WBC > 50,000/mcL, > 50 × 109/L] produced by normal bone marrow) to infectious disease never manifest with high blast counts.
+
+Bone marrow examination (aspiration and needle biopsy) is routinely performed. Blast cells in the bone marrow are typically between 25 and 95% in patients with AML.
+
+Histochemical studies, cytogenetics, immunophenotyping, and molecular biology studies help distinguish the blasts of ALL from those of AML or other diseases. Histochemical studies include staining for myeloperoxidase, which is positive in cells of myeloid origin. Crystallization of myeloperoxidase-rich granules leads to formation of Auer rods (linear azurophilic inclusions in the cytoplasm of blast cells), which are pathognomic for AML. Detection of specific immunophenotypic markers (eg, CD13, CD33, CD34, CD117) is essential in classifying the acute leukemias.
+
+For AML with recurrent genetic abnormalities as well as MDS-related cytogenetic abnormalities, see Classification of AML.
+
+The results of a CBC and differential and bone marrow aspiration and biopsy can be used in the following multistep algorithm to establish a genetic diagnosis of acute myeloid leukemia (AML) (see Classification of AML). It is applied in patients who have ≥ 10% myeloid blasts or blast equivalents in the bone marrow or peripheral blood who have undergone cytogenetic testing.
+
+Step 1: Are AML-defining recurrent genetic abnormalities present? Yes → Diagnosis: AML with recurrent genetic abnormality; No → Proceed to Step 2
+
+Step 2: Is TP53 mutated with variant allele frequency (VAF) ≥ 10%? Yes → If blasts ≥ 20% → AML with mutated TP53 or If blasts 10 to 19% → MDS/AML with mutated TP53; No → Proceed to Step 3
+
+Step 3: Are there mutations in MDS genes based on the AML classification? Yes → If blasts ≥ 20% → AML with myelodysplasia-related gene mutation, or if blasts 10 to 19% → MDS/AML with myelodysplasia-related gene mutation; No → Proceed to Step 4
+
+Step 4: Are there myelodysplasia-related cytogenetic abnormalities based on the AML classification? Yes → If blasts ≥ 20% → AML with myelodysplasia-related cytogenetic abnormality or If blasts 10 to 19% → MDS/AML with myelodysplasia-related cytogenetic abnormality; No → Proceed to Step 5
+
+Step 5: If none of these conditions apply: If blasts ≥ 20% → AML, not otherwise specified (AML-NOS) or If blasts 10 to 19% → MDS/AML, not otherwise specified (MDS/AML-NOS)
+
+Algorithm for Diagnosis of Acute Myeloid Leukemia (AML)
+
+MDS = myelodysplastic syndromes; VAF = variant allele frequency.
+
+Complications of AML may be present even before treatment and require additional diagnostic tests:
+
+Coagulation tests in patients with bleeding and cultures in those with signs of infection
+
+Serum chemistry testing to uncover possible abnormalities including elevated levels of hepatic transaminases and creatinine or low glucose suggesting pseudohypoglycemia
+
+CT of the head in patients with central nervous system symptoms and signs
+
+Echocardiography or multi-gated acquisition (MUGA) scan to assess baseline cardiac function prior to giving anthracyclines, which are cardiotoxic
+
+Treatment of AML
+
+For medically fit patients: Chemotherapy (induction and consolidation) with or without allogeneic hematopoietic stem cell transplantation
+
+For medically frail patients: Less intensive therapies
+
+For all: Supportive care
+
+Treatment of acute myeloid leukemia (AML) depends on the patient's overall medical condition. Medically fit patients tend to be younger and have lower-risk cytogenetic abnormalities, better functional status, and fewer comorbidities than medically frail patients.
+
+Because treatment of AML is complex and evolving, it is best done at the most specialized center available, particularly during critical phases (eg, remission induction); for the majority of patients, clinical trials are the first choice when available.
+
+Medically fit patients with AML
+
+In medically fit patients, initial treatment is induction chemotherapy to try to induce complete remission (1). Patients in remission then undergo consolidation therapy that may include allogeneic hematopoietic stem cell transplantation.
+
+Complete remission is defined as < 5% blast cells in the bone marrow, absolute neutrophil count > 1000/mcL (> 1 × 109/L), platelet count > 100,000/mcL (> 100 × 109/L), and independence from blood transfusion.
+
+The basic induction regimen (known as 7+3) includes cytarabine by continuous IV infusion for 7 days and daunorubicin or idarubicin given IV for 3 days during this time. Treatment usually results in significant myelosuppression, with infection or bleeding. There is significant latency before marrow recovery. During this time, meticulous preventive and supportive care are vital.
+
+Complete remission rates with 7+3 are approximately 70 to 85% (favorable genetics), 60 to 75% (intermediate genetics), and 25 to 40% (adverse genetics) (1)(see Risk Classification of Acute Myeloid Leukemia Based on Genetic Signatures at Initial Diagnosis). Complete remission rates also depend on patient-specific and other disease risk factors (eg, secondary versus de novo AML). However, most patients who achieve a complete remission with 7+3 (or another conventional induction regimen) ultimately relapse.
+
+Re-induction is usually recommended for patients with residual leukemia on day 14, although there is no high-quality evidence that it improves outcome. Residual leukemia is defined variably as bone marrow blasts > 10% with bone marrow cellularity > 20%. The various recommended re-induction regimens include different dosages of cytarabine. Some include anthracyclines with or without a third agent.
+
+Several medications can be used with or instead of traditional 7+3 chemotherapy. Addition of midostaurin, a kinase inhibitor to 7+3 appears to prolong survival in certain patients (eg, adults < 60 years with newly diagnosed FLT3-mutated AML) ( 2).
+
+Quizartinib (an oral tyrosine kinase inhibitor) can be used in combination with standard cytarabine and anthracycline induction chemotherapy, followed by cytarabine consolidation, and continued as maintenance monotherapy for adult patients with newly diagnosed AML harboring FLT3‑internal tandem duplication mutations. Alternatively, addition of quizartinib to 7+3 resulted in doubling of survival (32 months) (3) compared to approximately 15 months with chemotherapy alone arm (15 months).  
+
+Gemtuzumab ozogamicin (a CD33-directed antibody-drug conjugate) can be combined with chemotherapy in patients with newly diagnosed CD33-positive AML. Gemtuzumab ozogamicin is also sometimes used as monotherapy for induction and consolidation.
+
+A consolidation phase follows remission in many regimens. This can be done with the same medications used for induction or other medications. High-dose cytarabine (HiDAC) regimens may lengthen remission duration, particularly when given for consolidation in patients < 60 years old. For patients with favorable cytogenetic nonacute promyelocytic (APL) AML in first complete remission, consolidation with high-dose cytarabine is considered standard postinduction therapy.
+
+Maintenance therapy with an oral formulation of azacitidine has been associated with significantly longer overall survival and relapse-free survival than placebo among patients > 55 years who were in first remission after intensive chemotherapy and were not candidates for hematopoietic stem cell transplantation (4). Quizartinib is used as maintenance therapy for newly diagnosed AML with FLT3‑internal tandem duplication mutations after consolidation, if the patient does not undergo allogeneic transplant. Midostaurin can be continued for maintenance after consolidation. Quizartinib is not indicated as maintenance therapy following allogeneic hematopoietic stem cell transplantation.
+
+A liposomal combination of daunorubicin and cytarabine is available for the treatment of adults with newly diagnosed therapy-related AML (t-AML) or AML with myelodysplasia-related changes (AML-MRC). This combination showed superiority in overall survival compared with the standard-of-care cytarabine plus daunorubicin (7+3 regimen) in patients 60 to 75 years of age with newly diagnosed t-AML(a subtype of t-MN) or AML-MRC (another type of secondary AML) (5).
+
+Allogeneic stem cell transplantation performed during the first complete remission can generally improve outcome in patients with intermediate or adverse-risk cytogenetics. Generally, it takes 6 to 12 weeks to prepare for stem cell transplantation. Recommendations are to proceed with standard high-dose cytarabine consolidation chemotherapy while awaiting definitive stem cell transplantation. Conditions that may render patients ineligible for allogenic stem cell transplantation include poor overall performance status and moderate to severe impairment of pulmonary, liver, kidney, or cardiac function.
+
+In acute promyelocytic leukemia (APL) and some other cases of AML, disseminated intravascular coagulation (DIC) may be present when leukemia is diagnosed and may worsen as leukemic cell lysis releases procoagulant chemicals. In APL with the translocation t(15;17), all-trans retinoic acid (tretinoin) corrects the DIC in 2 to 5 days; historically combined with daunorubicin or idarubicin, this regimen can induce remission in 80% to 90% of patients and bring about long-term survival in 65% to 70% (6). Arsenic trioxide is also very active in APL. Targeted therapy with tretinoin and arsenic trioxide without conventional cytotoxic chemotherapy is very well tolerated and has become the standard of care in low- and intermediate-risk APL with a 100% complete remission rate and > 90% cure rate (7).
+
+Medically frail patients with AML
+
+In older and medically frail patients, initial therapy is typically less intensive.
+
+Because the median age for diagnosis of AML is 68 years, most newly diagnosed patients are considered older. Older patients are more likely to have comorbidities that limit their therapeutic options. Older patients also are much more likely to have high-risk cytogenetic abnormalities (eg, complex karyotype, monosomy 7), secondary AML arising from the myelodysplastic syndromes or a myeloproliferative neoplasm, or AML that is resistant to multiple medications.
+
+Although intensive chemotherapy is typically not used in older patients, it nevertheless improves the rate of complete remission and overall survival in patients < 80 years, particularly those with favorable-risk karyotypes. Achieving complete remission also improves quality of life by reducing hospitalizations, infections, and transfusion requirements.
+
+The DNA methyltransferase inhibitors decitabine and azacitidine are pyrimidine nucleoside analogs that modulate DNA by reducing methylation of the promoter region of tumor suppressor genes. They improve clinical outcomes in older patients with de novo AML as well as those with s-AML (AML preceded by a myelodysplastic syndrome), t-AML (therapy-related AML), and AML harboring TP53 mutations. One of these medications can be given alone as first-line treatment for many older patients, particularly those with compromised functional/performance status, organ dysfunction, or tumor biology (eg, karyotype, molecular aberrations) that predicts poor response to intensive chemotherapy.
+
+Venetoclax, an inhibitor of the anti-apoptotic B-cell lymphoma-2 protein (BCL-2, is used in combination with azacitidine, decitabine, or low-dose cytarabine for the treatment of newly diagnosed AML in adults who are ≥ 75 years or who have comorbidities that preclude use of intensive induction chemotherapy (8). In a phase 3 study, previously untreated patients with confirmed AML who were ineligible for standard induction therapy were randomized to receive azacitidine plus either venetoclax or a placebo. The incidence of remission was higher and overall survival was longer among patients who received azacitidine plus venetoclax than among those who received azacitidine alone (9).
+
+Glasdegib, a hedgehog pathway inhibitor, may also be used in combination with low-dose cytarabine for treatment of newly diagnosed AML in patients age ≥ 75 years or in patients who have comorbidities that preclude use of intensive induction chemotherapy.
+
+Ivosidenib, an isocitrate dehydrogenase-1 (IDH1) inhibitor, is also used as monotherapy for patients with newly diagnosed IDH1-mutant AML who are age ≥ 75 years or who have comorbidities that preclude use of intensive induction chemotherapy. Ivosidenib is also used in combination with azacitidine for frontline treatment and has shown improved survival rates compared with azacitidine alone (10).
+
+Following induction therapy and provided their performance status is appropriate, older patients may undergo allogeneic hematopoietic stem cell. Allogeneic hematopoietic stem cell transplantation prolongs survival in older patients. If patients are not candidates for full-intensity regimens, reduced-intensity (non-myeloablative) regimens can be used. Older and frail patients who do not undergo transplantation usually proceed to consolidation chemotherapy (eg, cytarabine or combined cytarabine and anthracycline at lower doses than used for induction).
+
+Relapsed or resistant AML
+
+Patients who have not responded (are resistant) to treatment and patients who have relapsed generally have a poor prognosis. A second remission can be achieved in 30 to 70% of patients who relapsed following a first remission (11). These second remissions are achieved more readily in patients with initial remissions > 1 year and/or with favorable cytogenetics and are generally shorter in duration than first remissions.
+
+Patients with relapsed or resistant AML may be candidates for allogeneic stem cell transplantation preceded by re-induction salvage chemotherapy. Many salvage chemotherapeutic regimens include various dosages of cytarabine combined with medications such as idarubicin, daunorubicin, mitoxantrone, etoposide, antimetabolites (eg, cladribine, clofarabine, fludarabine), and asparaginase. Regimens containing decitabine and azacitidine are sometimes used.
+
+Donor lymphocyte infusion is another option in relapsed or resistant AML if initial allogeneic stem cell transplant is unsuccessful. Other treatment strategies include enasidenib, an isocitrate dehydrogenase-2 (IDH2) inhibitor or ivosidenib and olutasidenib, isocitrate dehydrogenase-1 (IDH1) inhibitors, which may be useful for adult patients with relapsed or refractory AML who have an IDH2 or an IDH1 mutation. Gemtuzumab ozogamicin may be used as monotherapy for relapsed or refractory AML.
+
+Gilteritinib is a kinase inhibitor used for the treatment of adult patients who have relapsed or refractory AML with an FLT3 mutation. In the phase 3 study, patients randomized to receive gilteritinib had significantly longer survival than patients treated with chemotherapy (12).
+
+Revumenib, a first-in-class menin inhibitor, can be used for treatment of relapsed or refractory acute leukemia (including AML) with KMT2A translocation in adults and children age ≥ 1 year (13).
+
+Supportive care
+
+Supportive care is similar in the acute leukemias and may include:
+
+Transfusions
+
+Antimicrobials
+
+Hydration and urine alkalinization
+
+Psychological support
+
+Transfusions of red blood cells and platelets are administered as needed to patients with anemia or bleeding. Prophylactic platelet transfusion is performed when platelets fall to < 10,000/mcL (< 10 × 109/L). Anemia (hemoglobin < 7 or 8 g/dL [< 70 or 80 g/L]) is treated with transfusions of packed red blood cells. Granulocyte transfusions are not routinely used.
+
+Antimicrobials are often needed for prophylaxis and treatment because patients are immunosuppressed; in such patients, infections can progress quickly with little clinical prodrome. After appropriate studies and cultures have been performed, febrile patients with neutrophil counts < 500/mcL (< 0.5 × 109/L) should begin treatment with a broad-spectrum bactericidal antibiotic that is effective against gram-positive and gram-negative organisms (eg, ceftazidime, piperacillin/tazobactam, meropenem). Fungal infections, especially pneumonias, are difficult to diagnose, so chest CT to detect fungal pneumonia should be performed early (ie, within 72 hours of presentation with neutropenic fever depending on the degree of suspicion). Empiric antifungal therapy should be given if antibacterial therapy is not effective within 72 hours. In patients with refractory pneumonitis, Pneumocystis jirovecii infection or a viral infection should be suspected and confirmed by bronchoscopy and bronchoalveolar lavage and treated appropriately. Posaconazole, a second-generation triazole antifungal agent, is indicated for primary prophylaxis in patients age > 13 years who are at high risk of developing invasive Aspergillus or Candida infections because of immunosuppression. Acyclovir or valacyclovir prophylaxis is generally recommended for all patients.
+
+Hydration and allopurinol or rasburicase are used for treatment of hyperuricemia, hyperphosphatemia, hypocalcemia, and hyperkalemia (ie, a tumor lysis syndrome) caused by the rapid lysis of leukemic cells during initial therapy in AML.
+
+Psychological support may help patients and their families with the shock of illness and the rigors of treatment for a potentially life-threatening condition.
+
+Treatment references
+
+1. National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines). Acute Myeloid Leukemia, version 3.2026. https://www.nccn.org/professionals/physician_gls/pdf/aml.pdf
+
+2. Stone RM, Mandrekar SJ, Sanford BL, et al: Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. N Engl J Med. 2017;377(5):454-464. doi:10.1056/NEJMoa1614359
+
+3. Erba HP, Montesinos P, Kim HJ, et al; QuANTUM-First Study Group. Quizartinib plus chemotherapy in newly diagnosed patients with FLT3-internal-tandem-duplication-positive acute myeloid leukaemia (QuANTUM-First): a randomised, double-blind, placebo-controlled, phase 3 trial. Lancet. 2023;401(10388):1571-1583. doi: 10.1016/S0140-6736(23)00464-6
+
+4. Wei AH, Dohner H, Pocock C, et al: Oral azacitidine maintenance therapy for acute myeloid leukemia in first remission. N Engl J Med. 2020;383(26):2526-2537. doi: 10.1056/NEJMoa2004444
+
+5. Lancet JE, Uy GL, Cortes JE, et al: CPX-351 (cytarabine and daunorubicin) liposome for injection versus conventional cytarabine plus daunorubicin in older patients with newly diagnosed secondary acute myeloid leukemia. J Clin Oncol. 2018;36(26):2684-2692. doi:10.1200/JCO.2017.77.6112
+
+6. Tallman MS, Andersen JW, Schiffer CA, et al. All-trans-retinoic acid in acute promyelocytic leukemia. N Engl J Med. 1997;337(15):1021-1028. doi:10.1056/NEJM199710093371501
+
+7. Lo-Coco F, Avvisati G, Vignetti M, et al: Retinoic acid and arsenic trioxide for acute promyelocytic leukemia. N Engl J Med. 2013;369(2):111-121. doi: 10.1056/NEJMoa1300874
+
+8. Estey E, Karp JE, Emadi A, et al. Recent drug approvals for newly diagnosed acute myeloid leukemia: gifts or a Trojan horse?. Leukemia. 2020;34(3):671-681. doi:10.1038/s41375-019-0704-5
+
+9. DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and Venetoclax in Previously Untreated Acute Myeloid Leukemia. N Engl J Med. 2020;383(7):617-629. doi:10.1056/NEJMoa2012971
+
+10. Sanz MA, Lo-Coco F. Modern approaches to treating acute promyelocytic leukemia. J Clin Oncol. 2011;29(5):495-503. doi:10.1200/JCO.2010.32.1067
+
+11. Patzke CL, Duffy AP, Duong VH, et al. Comparison of High-Dose Cytarabine, Mitoxantrone, and Pegaspargase (HAM-pegA) to High-Dose Cytarabine, Mitoxantrone, Cladribine, and Filgrastim (CLAG-M) as First-Line Salvage Cytotoxic Chemotherapy for Relapsed/Refractory Acute Myeloid Leukemia. J Clin Med. 2020;9(2):536. Published 2020 Feb 16. doi:10.3390/jcm9020536
+
+12. Perl AE, Martinelli G, Cortes JE, et al: Gilteritinib or chemotherapy for relapsed or refractory FLT3-mutated AML. N Engl J Med. 2019;381(18):1728-1740. doi: 10.1056/NEJMx220003
+
+13. Issa GC, Aldoss I, Thirman MJ, et al. Menin Inhibition With Revumenib for KMT2A-Rearranged Relapsed or Refractory Acute Leukemia (AUGMENT-101). J Clin Oncol. 2025;43(1):75-84. doi:10.1200/JCO.24.00826
+
+Prognosis for AML
+
+Remission induction rate ranges from 50 to 85% (1). Long-term (more than 5 years) disease-free survival is approximately 30 to 40% overall but is 40 to 50% in younger patients treated with intensive chemotherapy or stem cell transplantation.
+
+Prognostic factors help determine treatment protocol and intensity; patients with strongly negative prognostic features are usually given intense forms of therapy followed by allogeneic stem cell transplantation. In these patients, the potential benefits of intense therapy are thought to justify the increased treatment toxicity.
+
+The leukemia cell karyotype is the strongest predictor of clinical outcome. Based on the specific chromosomal rearrangements, 3 clinical groups have been identified: favorable, intermediate, and poor (see table Risk Classification of Acute Myeloid Leukemia Based on Genetic Signatures at Initial Diagnosis).
+
+Table
+
+Risk Classification of Acute Myeloid Leukemia Based on Genetic Signatures at Initial Diagnosis
+
+Table
+
+Risk Classification of Acute Myeloid Leukemia Based on Genetic Signatures at Initial Diagnosis
+
+Risk Classification of Acute Myeloid Leukemia Based on Genetic Signatures at Initial Diagnosis
+
+Prognosis
+
+Genetic Abnormality
+
+Favorable
+
+t(15;17)(q24.1;q24.1)/PML::RARA
+
+t(16;16) or inv(16)(p13.1q22)/CBFB::MYH11
+
+t(8;21)/(q22;q22.1)/RUNX1::RUNX1T1
+
+Mutated NPM1 without FLT3-ITD
+
+bZIP in-frame mutated CEBPA
+
+Intermediate
+
+Normal karyotype with mutated NPM1 with FLT3-ITD
+
+Wild-type NPM1 with FLT3-ITD (without adverse-risk genetic lesions)
+
+t(9;11)(p21.3;q23.3)/MLLT3::KMT2A
+
+Cytogenetic and/or molecular abnormalities not classified as favorable or adverse 
+
+Poor
+
+inv(3)(q21.3q26.2) or t(3;3)(q21.3;q26.2)/GATA2::MECOM(EVI1)
+
+t(3q26.2;v)/MECOM(EVI1)-rearranged
+
+−5 or del(5q); −7; −17/abn(17p)
+
+t(6;9)(p23.3;q34.1)/DEK::NUP214
+
+t(v;11q23.3)/KMT2A-rearranged
+
+t(9;22)(q34.1;q11.2)/BCR::ABL1
+
+t(8;16)(p11.2;p13.3)/KAT6A::CREBBP
+
+Monosomal karyotype
+
+Complex karyotype defined as ≥ 3 unrelated chromosome abnormalities in the absence of other class-defining recurring genetic abnormalities; excluding hyperdiploid karyotypes with ≥ 3 trisomies (or polysomies) without structural abnormalities
+
+Mutated ASXL1, BCOR, EZH2, RUNX1, SF3B1, SRSF2, STAG2, U2AF1, and/or ZRSR2
+
+Mutated TP53
+
+ITD = internal tandem duplication.
+
+Döhner H, Wei AH, Appelbaum FR, et al. Diagnosis and management of AML in adults: 2022 recommendations from an international expert panel on behalf of the ELN. Blood 2022;140(12):1345-1377. doi:10.1182/blood.2022016867
+
+ITD = internal tandem duplication.
+
+Döhner H, Wei AH, Appelbaum FR, et al. Diagnosis and management of AML in adults: 2022 recommendations from an international expert panel on behalf of the ELN. Blood 2022;140(12):1345-1377. doi:10.1182/blood.2022016867
+
+Other factors that suggest a poorer prognosis include a:
+
+Preceding myelodysplastic phase
+
+Therapy-related AML
+
+Patient-specific adverse prognostic factors include age ≥ 65 years, poor performance status, and comorbidities. Older patients are more likely to have high-risk cytogenetic abnormalities, secondary AML, and AML that is resistant to multiple medications.
+
+Minimal residual disease (MRD) is defined as having < 0.1 to 0.01% (based on the assay used) leukemic cells in bone marrow. In AML, MRD can be assessed by multiparameter flow cytometry detection of leukemia-associated immunophenotype or by mutation-specific polymerase chain reaction (PCR). These tools are prognostically accurate but are not routinely used in clinical practice (2).
+
+Detectable MRD prior to transplantation is an independent prognostic factor for adverse outcomes after transplantation (3). Nonetheless, in patients in first complete remission with a positive test for MRD, there is insufficient evidence to support the administration of additional cycles of intensive chemotherapy before transplantation. A negative MRD test does not necessarily indicate complete eradication of AML, but rather it indicates the presence of disease below the detection threshold of the assay in the tested sample. Conversely, not all patients with detectable MRD will ultimately relapse. Importantly, molecular MRD may persist at low levels without prognostic significance and is therefore considered "operationally negative" if values remain below thresholds associated with risk of relapse. For example, in core-binding factor [inv(16) and t(8;21)]-AML and NPM1-mutated AML, persistent low-level transcript expression may be observed following therapy, but does not predict relapse (4).
+
+Prognosis references
+
+1. Döhner H, Wei AH, Appelbaum FR, et al. Diagnosis and management of AML in adults: 2022 recommendations from an international expert panel on behalf of the ELN. Blood. 2022;140(12):1345-1377. doi:10.1182/blood.2022016867
+
+2. Cloos J, Valk PJM, Thiede C, et al. 2025 Update on MRD in Acute Myeloid Leukemia: A Consensus Document from the ELN-DAVID MRD Working Party. Blood. Published online December 15, 2025. doi:10.1182/blood.2025031480
+
+3. Sanz J, Bug G, Ciceri F, et al. Measurable residual disease-guided interventions in patients with acute myeloid leukaemia undergoing allogeneic haematopoietic cell transplantation: best practice recommendations from the European Society for Blood and Marrow Transplantation Practice Harmonisation and Guidelines Committee. Lancet Oncol. 2025 Nov;26(11):e586-e596. doi: 10.1016/S1470-2045(25)00426-7
+
+4. Puckrin R, Atenafu EG, Claudio JO, et al. Measurable residual disease monitoring provides insufficient lead-time to prevent morphologic relapse in the majority of patients with core-binding factor acute myeloid leukemia. Haematologica. 2021;106(1):56-63. Published 2021 Jan 1. doi:10.3324/haematol.2019.235721
+
+Key Points
+
+Acute myeloid leukemia (AML) is the most common acute leukemia in adults.
+
+Chromosomal and molecular genetic abnormalities are common and have implications for prognosis and treatment.
+
+In medically fit patients, treat with induction and consolidation chemotherapy followed by allogeneic hematopoietic stem cell transplantation (in patients with intermediate and unfavorable genetic features).
+
+In medically frail patients, treat with less intensive regimens such as DNA methyltransferase inhibitors in combination with the B-cell lymphoma-2 (BCL-2) inhibitor venetoclax and consider allogeneic hematopoietic stem cell transplantation.
+
+In patients with relapsed and/or resistant disease, treat with salvage chemotherapy followed by allogeneic hematopoietic stem cell transplantation when feasible, or use targeted therapies.
+
+More Information
+
+The following English-language resource may be useful. Please note that The Manual is not responsible for the content of this resource.
+
+Blood Cancer United: Resources for Healthcare Professionals

@@ -1,0 +1,94 @@
+=== Overview of Pharmacokinetics (Merck Manual Professional) ===
+Section: Clinical Pharmacology > Pharmacokinetics
+Source: https://www.merckmanuals.com/professional/clinical-pharmacology/pharmacokinetics/overview-of-pharmacokinetics
+Retrieved: 2026-09-25
+
+Pharmacokinetics, sometimes described as what the body does to a drug, refers to the movement of a drug into, through, and out of the body—the time course of its absorption, bioavailability, distribution, metabolism, and excretion.
+
+Pharmacodynamics, described as what a drug does to the body, involves receptor binding, postreceptor effects, and chemical interactions.
+
+Drug pharmacokinetics determines the onset, duration, and intensity of a drug’s effect. Formulas relating these processes summarize the pharmacokinetic behavior of most drugs (see table Formulas Defining Basic Pharmacokinetic Parameters).
+
+Table
+
+Formulas Defining Basic Pharmacokinetic Parameters
+
+Table
+
+Formulas Defining Basic Pharmacokinetic Parameters
+
+Formulas Defining Basic Pharmacokinetic Parameters
+
+Category
+
+Parameter
+
+Formula
+
+Absorption
+
+Absorption rate constant
+
+Rate of drug absorption ÷ amount of drug remaining to be absorbed
+
+Bioavailability
+
+Amount of drug absorbed ÷ drug dose
+
+Distribution
+
+Apparent volume of distribution
+
+Amount of drug in body ÷ plasma drug concentration
+
+Unbound fraction
+
+Plasma concentration of unbound drug ÷ total plasma drug concentration
+
+Elimination (metabolism and excretion)
+
+Rate of elimination
+
+Renal excretion + extrarenal (usually metabolic) elimination
+
+Clearance
+
+Rate of drug elimination ÷ plasma drug concentration, or elimination rate constant × apparent volume of distribution
+
+Renal clearance
+
+Rate of renal excretion of drug ÷ plasma drug concentration
+
+Metabolic clearance
+
+Rate of drug metabolism ÷ plasma drug concentration
+
+Fraction excreted unchanged
+
+Rate of renal excretion of drug ÷ rate of drug elimination
+
+Elimination rate constant
+
+Rate of drug elimination ÷ amount of drug in body
+
+Clearance ÷ volume of distribution
+
+Biologic half-life
+
+0.693 ÷ elimination rate constant (for first-order elimination only―see Rate)
+
+Pharmacokinetics of a drug depends on patient-related factors as well as on the drug’s chemical properties. Some patient-related factors (eg, renal function, genetic makeup, sex, age) can be used to predict the pharmacokinetic parameters in populations. For example, the half-life of some drugs, especially those that require both metabolism and excretion, may be remarkably long in older adults (see figure Comparison of Pharmacokinetic Outcomes for Diazepam in a Younger Man [A] and an Older Man [B]). In fact, physiologic changes with aging affect many aspects of pharmacokinetics (see Pharmacokinetics in Older Adults and Pharmacokinetics in Children) (1, 2).
+
+Other factors are related to individual physiology. The effects of some individual factors (eg, renal failure, obesity, hepatic failure, dehydration) can be reasonably predicted, but other factors are idiosyncratic and thus have unpredictable effects. Because of individual differences, drug administration must be based on each patient’s needs—traditionally, by empirically adjusting dosage until the therapeutic objective is met. This approach is frequently inadequate because it can delay optimal response or result in adverse effects.
+
+Knowledge of pharmacokinetic principles helps prescribers adjust dosage more accurately and rapidly. Application of pharmacokinetic principles to individualize pharmacotherapy is termed therapeutic drug monitoring.
+
+Comparison of Pharmacokinetic Outcomes for Diazepam in a Younger Man (A) and an Older Man (B)
+
+Diazepam is metabolized in the liver to desmethyldiazepam through P-450 enzymes. Desmethyldiazepam is an active sedative, which is excreted by the kidneys. 0 = time of dosing. (Adapted from Greenblatt DJ, Allen MD, Harmatz JS, Shader RI: Diazepam disposition determinants. Clin Pharmacol Ther 27:301–312, 1980. doi: 10.1038/clpt.1980.40)
+
+References
+
+1. Le J, Bradley JS. Optimizing Antibiotic Drug Therapy in Pediatrics: Current State and Future Needs. J Clin Pharmacol 2018;58 Suppl 10:S108-S122. doi:10.1002/jcph.1128
+
+2. Mangoni AA, Jackson SH. Age-related changes in pharmacokinetics and pharmacodynamics: basic principles and practical applications. Br J Clin Pharmacol 2004;57(1):6-14. doi:10.1046/j.1365-2125.2003.02007.x

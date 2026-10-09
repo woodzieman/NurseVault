@@ -5,15 +5,21 @@ import NurseVaultCore
 struct NurseVaultApp: App {
     @State private var library = Library()
     @State private var drugLibrary = DrugLibrary()
+    @State private var merckLibrary = MerckTopicLibrary()
 
     var body: some Scene {
         WindowGroup {
             RootView()
                 .environment(library)
                 .environment(drugLibrary)
+                .environment(merckLibrary)
                 .onAppear {
+                    // Ensure default sections exist and write the watch summary
+                    // immediately so the watch app has data as soon as possible.
                     library.ensureDefaultSections()
+                    library.writeWatchSummaryForced()
                     drugLibrary.loadIfNeeded()
+                    merckLibrary.loadIfNeeded()
                 }
         }
         #if os(macOS)

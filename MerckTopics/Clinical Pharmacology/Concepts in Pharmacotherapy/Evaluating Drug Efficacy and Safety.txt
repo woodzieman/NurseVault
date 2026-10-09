@@ -1,0 +1,112 @@
+=== Evaluating Drug Efficacy and Safety (Merck Manual Professional) ===
+Section: Clinical Pharmacology > Concepts in Pharmacotherapy
+Source: https://www.merckmanuals.com/professional/clinical-pharmacology/concepts-in-pharmacotherapy/evaluating-drug-efficacy-and-safety
+Retrieved: 2026-09-25
+
+A medication (or any medical treatment) should be used only when it will benefit a patient. Benefit takes into account both whether the medication produces the desired result (efficacy) and the type and likelihood of adverse effects (safety). Cost is commonly also balanced with benefit (see Economic Analyses in Clinical Decision Making).
+
+When new drugs are developed, they are evaluated in clinical trials, which evaluate for efficacy and safety.
+
+Clinical Drug Trials
+
+Promising compounds can be identified by mass screening of hundreds or thousands of molecules for biologic activity. In other cases, knowledge of the specific molecular pathophysiology of a target disease allows for rational drug design via computer modeling or modification of existing pharmaceutical agents.
+
+The safety of newly developed drugs is initially evaluated in vitro in preclinical research in human cell cultures or in animal models.
+
+Clinical research in humans to evaluate the safety and efficacy of new drugs involves clinical trials conducted in phases (see U.S. Food & Drug Administration: Clinical Research):
+
+Phase 1 evaluates safety and dosage in humans. Varying amounts of the compound are given to a small number (often 20 to 100) of healthy volunteers to determine the dose at which toxicity first appears.
+
+Phase 2 evaluates efficacy in treating the target disease and side effects. The compound is given to a larger group of people (up to several hundred) for treatment of the target disease. An additional goal is to determine an optimal dose-response range.
+
+Phase 3 evaluates the drug’s therapeutic effect in larger (often hundreds to thousands of people), more heterogeneous populations with the target disease and compares the drug with existing treatments, a placebo, or both. The purpose is to verify efficacy and detect adverse effects that may not have been observed during phases 1 and 2. This phase provides most of the safety data.
+
+Phase 4 (postmarketing surveillance, pharmacovigilance) in the United States occurs after the drug has been approved by the U.S. Food and Drug Administration (FDA) and can include formal research studies along with ongoing reporting of adverse effects. Phase 4 trials may detect uncommon or slowly developing adverse effects that are unlikely to be recognized in smaller, shorter-term studies that include only participants who were required to meet strict inclusion criteria. Often, special subpopulations (eg, pregnant women, children, older adults) are studied. Some drugs approved by the FDA after Phase 3 subsequently have been withdrawn from the market after newly recognized and serious adverse effects occurred in Phase 4.
+
+Efficacy and Effectiveness
+
+Efficacy is the capacity of an intervention to produce a particular benefit (eg, lower blood pressure) under ideal conditions.
+
+Efficacy is measured under expert supervision in a group of patients most likely to have a response to a drug, such as in a controlled clinical trial.
+
+Effectiveness is the capacity of an intervention to produce a particular benefit in a real-world setting.
+
+A drug that is efficacious in clinical trials may not be as effective in actual use. For example, a medication may have high efficacy in lowering blood pressure but may have low effectiveness because it causes so many adverse effects that patients stop taking it.
+
+Patient-centered outcomes
+
+Patient-centered (also called patient-important) outcomes measure how patients feel, function, or survive. In clinical trials, they are the clinical outcomes of interest that should be used to judge efficacy and effectiveness. They involve one or more of the following:
+
+Prolongation of life
+
+Improved function (eg, prevention of disability)
+
+Relief of symptoms
+
+Intermediate and surrogate outcomes
+
+Intermediate outcomes are factors that represent a step in the causal chain between an exposure (such as a medication) and disease. They may include laboratory test results, imaging results, or physiologic measures.
+
+Surrogate outcomes are intermediate outcomes that are used as substitutes for clinical outcomes of interest, often because patient-centered outcomes may be difficult to measure (1).
+
+Surrogate outcomes are thought to predict actual patient-centered outcomes. For example, clinicians typically presume that lowering blood pressure will prevent the patient-centered outcome of death caused by complications of uncontrolled hypertension (eg, due to myocardial infarction or stroke). However, it is conceivable that a medication could lower blood pressure but not decrease mortality. Thus, surrogate outcomes are less desirable measures of efficacy than patient-centered outcomes, but are often more feasible to use.
+
+Surrogate outcomes should ideally be proven to correlate with patient-centered outcomes. There are many studies in which such correlation appeared reasonable but was not actually present. For example, treatment of postmenopausal women with estrogen and progesterone resulted in a more favorable lipid profile but failed to achieve the hypothesized reduction in myocardial infarction or cardiac death. Another example is that some oral antihyperglycemic medications lower blood glucose and HbA1C concentrations but do not decrease the risk of cardiac events. Some antihypertensive medications decrease blood pressure but do not decrease the risk of stroke.
+
+Efficacy and effectiveness references
+
+1. Christensen R, Ciani O, Manyara AM, Taylor RS. Surrogate endpoints: a key concept in clinical epidemiology. J Clin Epidemiol. 2024;167:111242. doi:10.1016/j.jclinepi.2023.111242
+
+2. Califf RM. Biomarker definitions and their applications. Exp Biol Med. (Maywood). 2018;243(3):213-221. doi:10.1177/1535370217750088
+
+Placebos
+
+The term placebo (Latin for “I will please”) initially referred to an inactive, harmless substance given to patients to make them feel better by the power of suggestion.
+
+A placebo is used in a clinical trial as a comparator for the active treatment. "Placebo" commonly refers to a substance used as a comparator to the medication being investigated, but can also refer to use of a sham intervention in trials of medical procedures (eg, mock electrical stimulation, simulated surgical procedures).
+
+Placebo compounds, even though they are intended to be inactive substances, may still have effects and are sometimes used as therapy in clinical practice.
+
+Placebo effects
+
+Placebos, although physiologically inactive, may be associated with benefits or harms. These effects seem to be related to anticipation that the intervention will work; anticipation of adverse effects is sometimes called the nocebo effect. The placebo effect typically occurs more with subjective responses (eg, pain, nausea) rather than objective ones (eg, rate of healing of leg ulcers, infection rate of burn wounds).
+
+The magnitude of the response to a placebo varies with many factors, including the:
+
+Expressed confidence of the clinician ("this is going to make you feel a lot better" vs "there is a chance this might help")
+
+Certainty of the patient's beliefs (effect is larger when patients are sure they are receiving an active medication than when they know there is a chance they are getting a placebo)
+
+Type of placebo (eg, injected substances have a larger placebo effect than oral ones)
+
+Individual or trial participant population characteristics may impact the tendency to respond to placebos (1, 2).
+
+Use of placebos in clinical trials
+
+Many clinical trials randomly assign participants to treatment with either a medication or a placebo, to identify the treatment effect; to be meaningful, a clinically and statistically significant difference in outcome between the two groups is required. In some studies, outcomes improved in both the treatment and placebo groups, making it more difficult to demonstrate the active treatment’s efficacy.
+
+Use of placebos in clinical practice
+
+Rarely today, when a clinician determines that a patient has a mild, self-limited disorder for which an active medication does not exist or is not indicated (eg, nonspecific malaise or tiredness), a placebo may be prescribed. The reasoning is that the placebo satisfies patients’ requests for treatment without exposing them to potential adverse effects and often makes them feel better—due to the placebo effect or spontaneous improvement.
+
+Placebos and ethical considerations
+
+Participants in clinical trials are informed as part of the informed consent process that they may receive the treatment or a placebo.
+
+Sometimes, the ethical consideration is whether a placebo should be given at all. When effective treatment exists (eg, opioid analgesics for severe pain), it is typically considered unethical to deprive study participants of treatment by giving a placebo; in such cases, an established treatment is used as a comparator to the studied intervention.
+
+When a placebo is given in medical practice, patients are not told they are receiving an inactive treatment. This deception is controversial. Some clinicians argue that it is prima facie (Latin for “at first view”) unethical and, if discovered, may damage the clinician-patient relationship. Others suggest that it is more unethical to not give something that may make patients feel better. Giving an active treatment solely for placebo effect may be further considered unethical because it exposes patients to actual adverse effects (as opposed to nocebo adverse effects).
+
+Placebos references
+
+1. Hafliðadóttir SH, Juhl CB, Nielsen SM, et al. Placebo response and effect in randomized clinical trials: meta-research with focus on contextual effects. Trials. 2021;22(1):493. Published 2021 Jul 26. doi:10.1186/s13063-021-05454-8
+
+2. Kern A, Kramm C, Witt CM, Barth J. The influence of personality traits on the placebo/nocebo response: A systematic review. J Psychosom Res. 2020;128:109866. doi:10.1016/j.jpsychores.2019.109866
+
+Drug Safety
+
+Adverse drug reaction (also called adverse drug effect) is a broad term referring to an unintended effect of a medication that is undesirable, unpleasant, or harmful. Serious adverse events include those that are life-threatening or result in hospitalization, disability, or congenital anomalies.
+
+Safety of medications is defined by patient-centered outcomes. Surrogate adverse effects (eg, alteration of concentrations of serum markers) are often used in clinical trials but should ideally correlate with patient-centered adverse effects.
+
+Carefully designed clinical trials to prove efficacy may not identify adverse effects if the time needed to develop an adverse effect is longer than the time needed for benefit to occur or if the adverse effect is rare. For example, proton pump inhibitors can relieve gastroesophageal reflux disease symptoms within a few days, and thus their efficacy can be shown in a comparatively brief study. However, long-term use has been associated with vitamin B12 malabsorption not detectable in short-term trials. For this reason, and because clinical trials may exclude certain patient populations and high-risk patients, adverse effects may not be fully known until a medication has been in widespread clinical use for years.

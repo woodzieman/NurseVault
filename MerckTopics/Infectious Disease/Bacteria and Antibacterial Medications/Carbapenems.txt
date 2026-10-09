@@ -1,0 +1,50 @@
+=== Carbapenems (Merck Manual Professional) ===
+Section: Infectious Disease > Bacteria and Antibacterial Medications
+Source: https://www.merckmanuals.com/professional/infectious-diseases/bacteria-and-antibacterial-medications/carbapenems
+Retrieved: 2026-09-25
+
+Carbapenems include
+
+Ertapenem
+
+Imipenem
+
+Meropenem
+
+Tebipenem
+
+Carbapenems are parenteral bactericidal beta-lactam antibiotics that have an extremely broad spectrum. They are active against
+
+Gram-negative bacilli
+
+Anaerobes
+
+Most Enterobacterales (including those that produce AmpC beta-lactamase and extended-spectrum beta-lactamase [ESBL], although Proteus mirabilis tends to have a higher imipenem minimum inhibitory concentration [MIC])
+
+Methicillin-sensitive staphylococci and streptococci, including Streptococcus pneumoniae (except possibly strains with reduced penicillin sensitivity)
+
+Most Enterococcus faecalis and many Pseudomonas aeruginosa strains, including those resistant to broad-spectrum penicillins and cephalosporins, are susceptible to imipenem and meropenem but are resistant to ertapenem. However, meropenem is less active against E. faecalis than imipenem. Carbapenems are active synergistically with aminoglycosides against P. aeruginosa. However, E. faecium, Stenotrophomonas maltophilia, and methicillin-resistant staphylococci are resistant.
+
+Imipenem and meropenem penetrate into cerebrospinal fluid when meninges are inflamed. Meropenem is used for gram-negative bacillary meningitis; imipenem is not used in meningitis because it may cause seizures. Most seizures occur in patients who have central nervous system abnormalities or renal insufficiency and who are given inappropriately high doses.
+
+Carbapenem resistance
+
+Expanded use of carbapenems has resulted in some carbapenem resistance. This development is concerning because carbapenems are often the last resort for treating multidrug-resistant gram-negative organisms, particularly those that produce AmpC and extended-spectrum beta-lactamases, which destroy most beta-lactams except for carbapenems.
+
+The most common mechanism of carbapenem resistance is
+
+Carbapenemase production
+
+However, carbapenem resistance may also be mediated by the loss or alteration of porin channels, the expression of efflux pumps, or penicillin-binding protein (PBP) modification.
+
+Many carbapenemases are encoded on plasmids, facilitating the spread of resistance genes among organisms of the same species or even different bacterial species. If carbapenemase-producing pathogens are identified in a patient, infection control precautions and enhanced environmental cleaning should be instituted to prevent further transmission.
+
+The novel beta-lactamase inhibitors, avibactam, relebactam, and vaborbactam, can inhibit most carbapenemases but are ineffective against metallo-beta-lactamases (a type of carbapenemase that uses reactive zinc at the active site to destroy the carbapenem). The coformulation of avibactam with ceftazidime, vaborbactam with meropenem, or relebactam with imipenem increases activity against pathogens that produce serine carbapenemases. Examples of serine carbapenemases include Klebsiella pneumoniae carbapenemase (KPC) and OXA beta-lactamases.
+
+Use of Carbapenems During Pregnancy and Breastfeeding
+
+Some animal studies suggest that carbapenems, specifically imipenem, may be associated with fetal toxicity, but these effects vary by animal model and carbapenem agent used.
+
+There are limited safety data in pregnant patients, and fetal risk cannot be ruled out. Carbapenems should only be used in pregnant patients when safer antibiotics are not an option.
+
+Carbapenems are excreted in breast milk at relatively low concentrations, but data are limited and infant risk cannot be completely ruled out. If carbapenems are used during breastfeeding, they may alter bowel microbiota in infants, so infants should be monitored for GI toxicity.

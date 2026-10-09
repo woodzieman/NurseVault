@@ -1,0 +1,196 @@
+=== Overview of Antibacterial Medications (Merck Manual Professional) ===
+Section: Infectious Disease > Bacteria and Antibacterial Medications
+Source: https://www.merckmanuals.com/professional/infectious-diseases/bacteria-and-antibacterial-medications/overview-of-antibacterial-medications
+Retrieved: 2026-09-25
+
+Antibacterial medications are derived from bacteria or molds or are synthesized de novo. Technically, “antibiotic” refers only to antimicrobials derived from bacteria or molds but is often (including in THE MANUAL) used synonymously with “antibacterial medication.”
+
+Antibiotics have many mechanisms of action, including the following:
+
+Inhibiting cell wall synthesis
+
+Increasing cell membrane permeability
+
+Interfering with protein synthesis, nucleic acid metabolism, and other metabolic processes (eg, folic acid synthesis)
+
+Antibiotics sometimes interact with other medications, raising or lowering serum levels of other medications by increasing or decreasing their metabolism or by various other mechanisms. The most clinically important interactions involve medications with a low therapeutic ratio (ie, toxic levels are close to therapeutic levels). Also, other medications can increase or decrease levels of antibiotics.
+
+Mechanisms of Action: Protein Synthesis Inhibitors
+
+Image
+
+Copyright © 2023 Merck & Co., Inc., Rahway, NJ, USA and its affiliates. All rights reserved.
+
+Many antibiotics are chemically related and are thus grouped into classes. Although drugs within each class share structural and functional similarities, they often have different pharmacology and spectra of activity.
+
+Selection and Use of Antibiotics
+
+Antibiotics should be used only if clinical or laboratory evidence suggests bacterial infection. Use for viral illness or undifferentiated fever is inappropriate in most cases; it exposes patients to antibiotic-related complications, disrupts healthy normal microbiota, and contributes to bacterial resistance without any benefit. Antimicrobial-resistant organisms were associated with nearly 5 million deaths around the world in 2019 (1), and antibiotic misuse is an unnecessary driver of resistance rates. Extensive information about antimicrobial resistance is available from the Centers for Disease Control and Prevention (2) and the World Health Organization (3).
+
+Certain bacterial infections (eg, abscesses, infections with foreign bodies) require surgical intervention and do not respond to antibiotics alone.
+
+In general, clinicians should use antibiotics with the narrowest spectrum of activity and for the shortest duration.
+
+(See also Antibiotics in Neonates.)
+
+Spectrum of activity
+
+Cultures and antibiotic susceptibility testing are essential for selecting an antibiotic for serious infections. However, treatment must often begin before culture results are available, necessitating selection according to the most likely pathogens (empiric antibiotic selection).
+
+Whether chosen according to culture results or not, antibiotics with the narrowest spectrum of activity that can control the infection should be used. For empiric treatment of serious infections that may involve any one of several pathogens (eg, fever in neutropenic patients) or that may be due to multiple pathogens (eg, polymicrobial anaerobic infection), a broad spectrum of activity is desirable. The most likely pathogens and their susceptibility to antibiotics vary according to geographic location (within cities or even within a hospital) and can change over time. Susceptibility data should be compiled into antibiograms and used to direct empiric treatment whenever possible. Antibiograms summarize regional facility-specific (or location-specific) antibiotic susceptibility patterns of common pathogens to commonly used antibiotics.
+
+For serious infections, combinations of antibiotics are often necessary because multiple species of bacteria may be present or because combinations act synergistically against a single species of bacteria. Synergism is usually defined as a more rapid and complete bactericidal action from a combination of antibiotics than occurs with either antibiotic alone. A common example is a cell wall–active antibiotic (eg, a beta-lactam, vancomycin) plus an aminoglycoside.
+
+Effectiveness
+
+In vivo antibiotic effectiveness is affected by many factors, including
+
+Pharmacokinetics: The time course of antibiotic levels, which are affected by factors such as absorption, distribution (concentration in fluids and tissues, protein binding), rate of metabolism, and excretion
+
+Pharmacodynamics: The antimicrobial activity of local antibiotic concentrations on the target pathogen and that pathogen's response, including resistance
+
+Presence of foreign materials
+
+Control of source of infection
+
+Drug interactions or inhibiting substances
+
+Host defense mechanisms
+
+Bactericidal antibiotics kill bacteria. Bacteriostatic antibiotics slow or stop in vitro bacterial growth. These definitions are not absolute; bacteriostatic antibiotics may kill some susceptible bacterial species, and bactericidal antibiotics may only inhibit growth of some susceptible bacterial species. More precise quantitative methods identify the minimum in vitro concentration at which an antibiotic can inhibit growth (minimum inhibitory concentration [MIC]) or kill (minimum bactericidal concentration [MBC]). An antibiotic with bactericidal activity may improve bacterial killing when host defenses are impaired locally at the site of infection (eg, in meningitis or endocarditis) or systemically (eg, in patients who are neutropenic or immunocompromised in other ways). However, there are limited clinical data indicating that a bactericidal antibiotic should be selected over a bacteriostatic antibiotic simply on the basis of that classification. Antibiotic selection for optimal efficacy should be based on how the drug concentration varies over time in relation to the MIC rather than whether the antibiotic has bactericidal or bacteriostatic activity.
+
+Antibiotics can be grouped into 3 general categories (4) based on the pharmacokinetics that optimizes antimicrobial activity (pharmacodynamics):
+
+Concentration-dependent: The magnitude by which the peak concentration exceeds the MIC (typically expressed as the peak-to-MIC ratio) best correlates with antimicrobial activity
+
+Time-dependent: The duration of the dosing interval in which the antibiotic concentration exceeds the MIC (typically expressed as the percentage of time above MIC) best correlates with antimicrobial activity
+
+Exposure-dependent: The amount of drug given relative to the MIC (the amount of drug is the 24-hour area under the concentration-time curve [AUC24]; the AUC24-to-MIC ratio best correlates with antimicrobial activity)
+
+Aminoglycosides, fluoroquinolones, and daptomycin exhibit concentration-dependent bactericidal activity. Increasing their concentrations from levels slightly above the MIC to levels far above the MIC increases the rate and extent of their bactericidal activity. In addition, if concentrations exceed the MIC even briefly, aminoglycosides and fluoroquinolones have a post-antibiotic effect (PAE) on residual bacteria; duration of PAE is also concentration-dependent. If PAEs are long, drug levels can be below the MIC for extended periods without loss of efficacy, allowing less frequent dosing. Consequently, aminoglycosides and fluoroquinolones are usually most effective as intermittent boluses that reach peak free serum levels (ie, the portion of the antibiotic not bound to serum protein) ≥ 10 times the MIC of the bacteria.
+
+Beta-lactams, clarithromycin, and erythromycin exhibit time-dependent bactericidal activity. Increasing their free serum concentration above the MIC does not increase their bactericidal activity, and their in vivo killing is generally slow. In addition, because there is no or very brief residual inhibition of bacterial growth after concentrations fall below the MIC (ie, minimal post-antibiotic effect), beta-lactams are most often effective when serum levels of free drug (drug not bound to serum protein) exceed the MIC for ≥ 50% of the time. Because ceftriaxone has a long serum half-life (about 8 hours), free serum levels exceed the MIC of very susceptible pathogens for the entire 24-hour dosing interval. However, for beta-lactams that have serum half-lives of ≤ 2 hours, frequent dosing or continuous infusion is required to optimize the time above the MIC.
+
+Most antimicrobials have exposure-dependent antibacterial activity best characterized by the AUC-to-MIC ratio (see figure Time vs Concentration of a Single Dose of a Theoretical Antibiotic). Vancomycin, tetracyclines, and clindamycin are examples.
+
+Time vs Concentration of a Single Dose of a Theoretical Antibiotic
+
+There are 3 pharmacokinetic/pharmacodynamic parameters related to antimicrobial efficacy:
+
+Ratio of peak serum concentration to MIC
+
+Percent time above MIC
+
+Ratio of 24-hour AUC to MIC
+
+Route
+
+For many antibiotics, oral administration results in therapeutic blood levels nearly as rapidly as IV administration. However, IV administration of orally available antibiotics is preferred in the following circumstances:
+
+Oral antibiotics cannot be tolerated (eg, because of vomiting).
+
+Oral antibiotics are poorly absorbed (eg, because of malabsorption after intestinal surgery, impaired intestinal motility [eg, due to opioid use]).
+
+Patients are critically ill, possibly impairing gastrointestinal tract perfusion or making even the brief delay with oral administration detrimental.
+
+Special populations
+
+Doses and scheduling of antibiotics may need to be adjusted for the following:
+
+Infants
+
+Older adults
+
+Patients with renal failure
+
+Patients with hepatic insufficiency (most commonly for cefoperazone, chloramphenicol, metronidazole, rifabutin, and rifampin)
+
+Patients with obesity
+
+Patients with cystic fibrosis
+
+Pregnancy and breastfeeding affect choice of antibiotic. Penicillins, cephalosporins, and erythromycin are among the safest antibiotics during pregnancy; tetracyclines are contraindicated. Most antibiotics reach sufficient concentrations in breast milk to affect a breastfed baby, sometimes contraindicating their use in women who are breastfeeding.
+
+Duration
+
+Antibiotics should be continued until objective evidence of systemic infection (eg, fever, symptoms, abnormal laboratory findings) is absent for several days. For some infections (eg, endocarditis, tuberculosis, osteomyelitis, leprosy), antibiotics are continued for weeks or months to prevent relapse.
+
+Complications
+
+Complications of antibiotic therapy include superinfection by nonsusceptible bacteria or fungi and cutaneous, renal, hematologic, neurologic, and gastrointestinal adverse effects.
+
+Adverse effects frequently require stopping the causative antibiotic and substituting another antibiotic to which the bacteria are susceptible; sometimes, no alternatives exist.
+
+Overview of Mechanisms of Anti...
+
+video
+
+Selection and use of antibiotics references
+
+1. Antimicrobial Resistance Collaborators. Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis [published correction appears in Lancet. 2022 Oct 1;400(10358):1102]. Lancet. 2022;399(10325):629-655. doi:10.1016/S0140-6736(21)02724-0
+
+2. Centers for Disease Control and Prevention: Antibiotic resistance threats in the United States, 2019. Accessed February 12, 2024.
+
+3. World Health Organization: Global antimicrobial resistance and use surveillance system (‎GLASS)‎ report: 2022. Accessed February 12, 2024.
+
+4. A PK/PD Approach to Antibiotic Therapy. RxKinetics. Accessed February 12, 2024.
+
+Antibiotic Resistance
+
+Resistance to an antibiotic may be inherent in a particular bacterial species or may be acquired through mutations or acquisition of genes for antibiotic resistance that are obtained from another organism. Different mechanisms for resistance are encoded by these genes (see table Common Mechanisms of Antibiotic Resistance). Resistance genes can be transmitted between 2 bacterial cells by the following mechanisms:
+
+Transformation (uptake of naked DNA from another organism)
+
+Transduction (infection by a bacteriophage)
+
+Conjugation (exchange of genetic material in the form of either plasmids, which are pieces of independently replicating extrachromosomal DNA, or transposons, which are movable pieces of chromosomal DNA)
+
+Plasmids and transposons can rapidly disseminate resistance genes.
+
+Antibiotic use preferentially eliminates nonresistant bacteria, increasing the proportion of resistant bacteria that remain. Antibiotic use has this effect not only on pathogenic bacteria but also on normal microbiota; resistant normal microbiota can become a reservoir for resistance genes that can spread to pathogens.
+
+Table
+
+Common Mechanisms of Antibiotic Resistance
+
+Table
+
+Common Mechanisms of Antibiotic Resistance
+
+Common Mechanisms of Antibiotic Resistance
+
+Mechanism
+
+Example
+
+Decreased outer membrane permeability
+
+Loss of outer membrane D2 porin in imipenem-resistant Pseudomonas aeruginosa
+
+Enzymatic inactivation
+
+Production of beta-lactamases that inactivate penicillins in penicillin-resistant Staphylococcus aureus, Haemophilus influenzae, and Escherichia coli
+
+Production of aminoglycoside-inactivating enzymes in gentamicin-resistant enterococci
+
+Changes in target
+
+Decreased affinity of penicillin-binding proteins for beta-lactam antibiotics (eg, in methicillin-resistant Staphylococcus aureus [MRSA] and Streptococcus pneumoniae with reduced penicillin susceptibility)
+
+Decreased affinity of methylated ribosomal RNA target for macrolides, clindamycin, and quinupristin in MLSB-resistant S. aureus
+
+Decreased affinity of altered cell wall precursor for vancomycin (eg, in Enterococcus faecium)
+
+Decreased affinity of DNA gyrase for fluoroquinolones in fluoroquinolone-resistant S. aureus
+
+Increased antibiotic efflux pump
+
+Increased efflux of tetracycline, macrolides, clindamycin, or fluoroquinolones (eg, in S. aureus)
+
+Bypass of antibiotic inhibition and target overproduction
+
+Development of bacterial mutants that can subsist on products (eg, thymidine) present in the environment, not just products synthesized within the bacteria or may overproduce the drug target, thus minimizing its effects on that pathway (eg, in certain bacteria exposed to trimethoprim/sulfamethoxazole)
+
+MLSB = macrolide, lincoside, streptogramin B.
+
+MLSB = macrolide, lincoside, streptogramin B.

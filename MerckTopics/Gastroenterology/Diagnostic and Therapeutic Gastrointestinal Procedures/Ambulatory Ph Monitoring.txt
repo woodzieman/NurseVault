@@ -1,0 +1,50 @@
+=== Ambulatory pH Monitoring (Merck Manual Professional) ===
+Section: Gastroenterology > Diagnostic and Therapeutic Gastrointestinal Procedures
+Source: https://www.merckmanuals.com/professional/gastrointestinal-disorders/diagnostic-and-therapeutic-gastrointestinal-procedures/ambulatory-ph-monitoring
+Retrieved: 2026-09-25
+
+Ambulatory 24-hour esophageal pH monitoring with or without intraluminal impedance testing is currently the most common test for quantifying gastroesophageal reflux (1). The principal indications are
+
+To document excessive acid or nonacid reflux
+
+To correlate symptoms with reflux episodes
+
+To identify candidates for antireflux surgery
+
+To evaluate the effectiveness of medical or surgical treatments
+
+Ambulatory pH monitoring can be done whether the patient is on or off acid-suppressing therapy.
+
+When monitoring is done while the patient is off acid-suppressing therapy, the diagnosis of gastroesophageal reflux disease can be confirmed or excluded. If monitoring is done while the patient is off acid-suppressing therapy and no acidic pH is found in the stomach, the diagnosis of achlorhydria is confirmed.
+
+When monitoring is done while the patient is on acid-suppressing therapy, the adequacy of gastric acid suppression and the presence of esophageal acid exposure in patients who have been referred for testing because acid-suppressing therapy failed can be determined.
+
+Tests may use a transnasal continuous reflux-monitoring catheter or a wireless pH-monitoring device that is endoscopically attached to the distal esophagus.
+
+Complications are very rare. Patients must have nothing by mouth (npo) after midnight but are free to eat as usual after the monitoring device is placed.
+
+Catheter-Based pH Monitoring
+
+A thin tube containing a pH probe is positioned 5 cm above the lower esophageal sphincter.
+
+The patient records symptoms, meals, and sleep for 24 hours. Esophageal acid exposure is defined by the percentage of the total recording time that the pH is < 4.0. If the time spent with pH < 4.0 is > 4.3%, this result is considered abnormal if the patient has not been taking an acid-suppressing therapy, and a result > 1.3% is abnormal if the patient has been taking acid-suppressing therapy for the duration of the test. Additional sensors along the more proximal regions of the pH probe allow identification of proximal reflux episodes.
+
+A dual-channel esophageal and gastric pH probe has 2 separate pH sensors along the catheter; 1 sensor is placed 5 cm above the lower esophageal sphincter, and the other sensor is placed in the stomach. The 2 sensors allow for simultaneous measurement of the pH level in the distal esophagus and in the stomach. This test is most useful for evaluating the efficacy and adequacy of acid-suppressing medications.
+
+Combined pH-impedance monitoring devices also do multichannel intraluminal impedance testing, which identifies reflux of any gastric contents into the esophagus regardless of pH level. In addition to acid reflux, this test helps detect weakly acidic reflux (pH between 4.0 and 7) and nonacidic reflux (pH > 7), which would be missed by conventional pH monitoring.
+
+The correlation between patient-reported symptoms and reflux events can be assessed using the symptom index or symptom association probability. A significant symptom index value or symptom association probability value suggests that the correlation between symptoms and reflux events is not due to chance. Excessive reflux and significant symptom-reflux correlation are positive predictors of a favorable outcome from antireflux surgery or transoral incisionless fundoplication (TIF).
+
+Wireless pH Monitoring
+
+Ambulatory esophageal pH monitoring can also be done using a wireless pH-sensing capsule that is attached to the distal esophagus.
+
+The device is endoscopically placed 5 cm above the lower esophageal sphincter and continuously monitors esophageal acid exposure (defined as pH < 4.0), typically for 24 hours but sometimes up to 96 hours (2). Similar to what is done in the probe-based test, patients record symptoms, meals, and sleep for the duration of the test, and excessive acid exposure and symptom-reflux correlation (symptom index or symptom association probability) are identified. However, because the capsule is a pure pH sensor, only acid reflux is detected.
+
+The capsule usually falls off within a week of placement and is spontaneously passed in the stool. The capsule transmits data wirelessly while attached and does not need to be retrieved.
+
+References
+
+1. Katz PO, Dunbar KB, Schnoll-Sussman FH, Greer KB, Yadlapati R, Spechler SJ. ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease. Am J Gastroenterol. 2022;117(1):27-56. doi:10.14309/ajg.0000000000001538
+
+2. Hasak S, Yadlapati R, Altayar O, et al. Prolonged Wireless pH Monitoring in Patients With Persistent Reflux Symptoms Despite Proton Pump Inhibitor Therapy. Clin Gastroenterol Hepatol. 2020;18(13):2912-2919. doi:10.1016/j.cgh.2020.01.031

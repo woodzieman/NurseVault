@@ -1,0 +1,72 @@
+=== Antiphospholipid Syndrome (APS) (Merck Manual Professional) ===
+Section: Hematology > Thrombotic Disorders
+Source: https://www.merckmanuals.com/professional/hematology/thrombotic-disorders/antiphospholipid-syndrome-aps
+Retrieved: 2026-09-25
+
+(See also Overview of Thrombotic Disorders.)
+
+The antiphospholipid syndrome (APS) is an autoimmune disorder that is characterized by arterial, venous, or microvascular thrombosis or recurrent pregnancy loss caused by antibodies directed against one or more phospholipid-bound proteins (eg, beta-2 glycoprotein 1, prothrombin, annexin A5). In the clinical laboratory, antiphospholipid syndrome is associated with anticardiolipin antibodies, beta-2 glycoprotein 1 antibodies, and lupus anticoagulant (or lupus inhibitor), which causes prolongation of phospholipid-dependent coagulation assays such as the partial thromboplastin time (PTT) or dilute Russell viper venom time (dRVVT). The antibodies that cause prolongation of coagulation tests were originally called lupus anticoagulants because they were initially identified in patients with systemic lupus erythematosus (SLE). It is important to remember that APS or an antiphospholipid antibody that results in prolongation of phospholipid-dependent coagulation tests (lupus anticoagulant) may occur in patients without systemic lupus erythematosus (1).
+
+The pathogenesis of thrombosis in APS is unclear. Beta-2 glycoprotein 1 in plasma binds to phospholipid-rich surfaces. Antibodies to beta-2 glycoprotein 1 upregulate cellular adhesion proteins such as E selectin, and procoagulant proteins such as tissue factor. Tissue factor is a receptor and cofactor for factor VII and is expressed on epithelial cells to help form a hemostatic barrier. In addition, antibodies to beta-2 glycoprotein 1 downregulate expression of tissue factor pathway inhibitor, an endogenous anticoagulant protein. Antiphospholipid antibodies also activate neutrophils and monocytes, which activate tissue factor, as well as platelets and complement. Each of these derangements may contribute to the hypercoagulable state associated with antiphospholipid syndrome.
+
+Clinical manifestations of APS include arterial or venous thrombosis, recurrent pregnancy loss, thrombocytopenia, hemolytic anemia, or thrombotic microangiopathy, which can cause renal or neurologic dysfunction.
+
+Catastrophic antiphospholipid syndrome
+
+In a small proportion of patients with APS, widespread thromboses occur in small vessels supplying multiple organs, often including the brain (causing neurologic defects). This condition is called catastrophic APS (CAPS) and can be confused with disseminated intravascular coagulation (DIC), heparin-induced thrombocytopenia (HIT), and thrombotic microangiopathy (TMA).
+
+The diagnosis of CAPS should be considered in patients with multiorgan failure (dysfunction of ≥ three organs) who have positive laboratory test results for APS (2). Acute kidney injury, encephalopathy, adrenal hemorrhage (due to thrombosis), skin necrosis, and diffuse alveolar hemorrhage are known manifestations.
+
+Treatment includes high-dose glucocorticoids, anticoagulation, plasma exchange and/or intravenous immunoglobulin, and sometimes rituximab (an anti-CD20 monoclonal antibody) or eculizumab (an anti-complement component C5 monoclonal antibody).
+
+General references
+
+1. Devreese KMJ, Bertolaccini ML, Branch DW, et al. An update on laboratory detection and interpretation of antiphospholipid antibodies for diagnosis of antiphospholipid syndrome: guidance from the ISTH-SSC Subcommittee on Lupus Anticoagulant/Antiphospholipid Antibodies. J Thromb Haemost. 2025;23(2):731-744. doi:10.1016/j.jtha.2024.10.022
+
+2. Cervera R, Rodríguez-Pintó I, Espinosa G. The diagnosis and clinical management of the catastrophic antiphospholipid syndrome: A comprehensive review. J Autoimmun. 2018;92:1-11. doi:10.1016/j.jaut.2018.05.007
+
+Diagnosis of Antiphospholipid Syndrome
+
+Clinical events (arterial or venous thrombosis, or specific pregnancy morbidity)
+
+Laboratory testing for antiphospholipid antibodies
+
+The diagnosis of APS is based on unexplained thrombotic events or specific pregnancy morbidities in the setting of persistently positive antiphospholipid antibodies (1, 2). The specific pregnancy morbidities include unexplained fetal death at ≥ 10 weeks, multiple unexplained consecutive miscarriages < 10 weeks gestation, or premature birth due to eclampsia, preeclampsia, or placental insufficiency.
+
+In patients with clinical events (ie, thrombosis or pregnancy loss) that suggest APS, the following antiphospholipid antibody laboratory testing should be performed (3):
+
+Lupus anticoagulant (LA)
+
+Anticardiolipin antibodies (aCL) IgG or IgM
+
+Anti-β2 glycoprotein I (aβ2GPI) IgG or IgM
+
+Antiphospholipid antibody tests should be repeated after ≥ 12 weeks if any were initially positive to confirm they are persistently elevated.
+
+In the presence of antiphospholipid antibodies, the PTT is prolonged and does not correct with 1:1 or 4:1 mixing with normal plasma. Correction of the PTT after adding excess purified phospholipids is consistent with the presence of an antiphospholipid antibody.
+
+The dilute Russell viper venom time (DRVVT) is another coagulation assay used to detect antiphospholipid antibodies. It is more sensitive than the PTT to the presence of antiphospholipid antibodies. The venom causes coagulation by activating factor X. The presence of antiphospholipid antibodies can prolong the clotting process. Normal plasma has no effect on the clotting time, and addition of excess phospholipid reverses the prolongation.
+
+Diagnosis references
+
+1. Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR Antiphospholipid Syndrome Classification Criteria. Arthritis Rheumatol. 2023;75(10):1687-1702. doi:10.1002/art.42624
+
+2. Garcia D, Erkan D. Diagnosis and Management of the Antiphospholipid Syndrome. N Engl J Med. 2018;378(21):2010-2021. doi:10.1056/NEJMra1705454.
+
+3. Atsumi T, Chighizola CB, Fujieda Y, et al. 16th International congress on antiphospholipid antibodies task force report on antiphospholipid syndrome laboratory diagnostics and trends. Lupus. 2023;32(14):1625-1636. doi:10.1177/09612033231211820
+
+Treatment of Antiphospholipid Syndrome
+
+Anticoagulation
+
+In patients with thrombotic antiphospholipid syndrome (APS), indefinite treatment with warfarin with a target INR of 2 to 3 is the standard approach (1). Higher rates of recurrent thromboembolism with direct oral anticoagulants (DOACs) have been noted, particularly in patients with arterial thrombosis or in those in whom all 3 diagnostic tests are positive. Therefore, DOACs should not be used for these high-risk patients with APS. DOACs have been used in lower risk APS, but use of DOACs requires a cautious approach after carefully assessing higher risk of recurrent thrombosis compared to warfarin) but lower risk of bleeding.
+
+Some experts recommend giving aspirin in addition to warfarin or warfarin with a higher target INR in the 3 to 4 range in patients with APS and arterial thrombosis, but high-quality evidence for the superiority of these approaches is lacking (2).
+
+Unfractionated heparin or low molecular weight heparin plus low-dose aspirin is used during pregnancy to prevent recurrent pregnancy losses in women with APS. After delivery, unfractionated heparin or low molecular weight heparin is continued for 6 weeks for thromboprophylaxis.
+
+Treatment references
+
+1. Garcia D, Erkan D. Diagnosis and Management of the Antiphospholipid Syndrome. N Engl J Med. 2018;378(21):2010-2021. doi:10.1056/NEJMra1705454.
+
+2. Knight JS, Branch DW, Ortel TL. Antiphospholipid syndrome: advances in diagnosis, pathogenesis, and management. BMJ. 2023;380:e069717. Published 2023 Feb 27. doi:10.1136/bmj-2021-069717

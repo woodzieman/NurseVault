@@ -1,0 +1,412 @@
+=== Laboratory Tests of the Liver and Gallbladder (Merck Manual Professional) ===
+Section: Hepatology > Testing for Hepatic and Biliary Disorders
+Source: https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/testing-for-hepatic-and-biliary-disorders/laboratory-tests-of-the-liver-and-gallbladder
+Retrieved: 2026-09-25
+
+Laboratory tests are generally effective for the following:
+
+Detecting hepatic synthetic and hepatobiliary dysfunction
+
+Assessing the severity of liver injury
+
+Monitoring the course of liver diseases and the response to treatment
+
+Refining diagnoses
+
+(See also American College of Gastroenterology [ACG] Clinical Guideline: Evaluation of Abnormal Liver Chemistries and the European Association for Study of Liver–Asociación Latinoamericana para el Estudio del Hígado Clinical Practice Guidelines.)
+
+Many tests of liver biochemistry measure enzymes that are released into the bloodstream by hepatocytes or other cells in the liver (eg, release of aminotransferases from injured liver cells or of alkaline phosphatase due to cholestasis), or assess liver function by evaluating hepatobiliary excretion (eg, bilirubin). Other tests are used to evaluate the liver’s synthetic capability (eg, prothrombin time [PT], usually reported as the international normalized ratio [INR]) and albumin.
+
+The most useful laboratory tests to screen for liver disorders are serum aminotransferases (the most commonly used liver tests), bilirubin, and alkaline phosphatase. Certain patterns of biochemical abnormalities help distinguish hepatocellular injury from impaired bile excretion (cholestasis—see table Common Patterns of Laboratory Test Abnormalities). Tests that detect viral hepatitis and altered immunoregulation include hepatitis serologic tests and measurement of immunoglobulins, antibodies, and autoantibodies.
+
+Identifying the etiology of abnormal liver tests requires a combination of history and laboratory testing. A systematic approach including laboratory tests, imaging studies, and liver biopsy should be used.
+
+A few laboratory tests are diagnostic or highly suggestive by themselves:
+
+IgM antibody to hepatitis A virus (anti-HAV) for acute hepatitis A
+
+Hepatitis B surface antigen (HBsAg) for acute and/or chronic hepatitis B
+
+Antibody to hepatitis C virus (anti-HCV) and HCV-RNA for acute and/or chronic hepatitis C
+
+Antimitochondrial antibody for primary biliary cholangitis (previously called primary biliary cirrhosis)
+
+Serum ceruloplasmin (reduced) and urinary copper (elevated) for Wilson disease
+
+Serum alpha-1 antitrypsin level (reduced) and phenotypic/genetic testing for alpha-1 antitrypsin deficiency
+
+Other etiologies of liver disease are diagnoses of exclusion and are made through characteristic patterns in laboratory results, together with patient history and exclusion of other causes.
+
+Table
+
+Common Patterns of Laboratory Test Abnormalities
+
+Table
+
+Common Patterns of Laboratory Test Abnormalities
+
+Common Patterns of Laboratory Test Abnormalities
+
+Pattern
+
+Aminotransferase Elevations
+
+Alkaline Phosphatase Elevation
+
+Prothrombin Time (PT) Prolongation
+
+Acute necrosis or injury
+
+Marked
+
+Often present but may be mild
+
+Prolonged if hepatic function is severely impaired
+
+Chronic hepatocellular disease
+
+Mild to moderate
+
+Often present but may be mild
+
+Prolonged in the setting of cirrhosis
+
+Cholestasis
+
+Often present but may be mild
+
+Marked
+
+Prolonged if chronic steatorrhea causes vitamin K malabsorption
+
+Can be corrected with parenteral (subcutaneous or intravenous) vitamin K
+
+Infiltration
+
+Mild
+
+Mild to moderate
+
+Not usually prolonged
+
+Tests for Liver Injury
+
+Aminotransferases
+
+Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) leak from damaged hepatocytes; thus, these enzymes are sensitive indicators of hepatocyte injury. The true normal values for ALT range from 29 to 33 IU/L in men and 19 to 25 IU/L in women, which are lower than reported by many commercial laboratories (1).
+
+Markedly high values (> 500 IU/L) indicate acute hepatocellular necrosis or injury and usually result from the following:
+
+Acute viral hepatitis (usually hepatis A or B)
+
+Toxin- or drug-induced hepatitis
+
+Ischemic/hypoxic hepatitis or hepatic infarction
+
+Autoimmune hepatitis (occasionally)
+
+High levels persist usually for days to weeks, depending on the etiology of the injury. The degree of elevation may not reflect the extent of liver injury. Serial measurements better reflect severity and prognosis than does a single measurement. A fall to normal indicates recovery unless accompanied by an increase in bilirubin and in prothrombin time (PT) or international normalized ratio (INR), which may indicate acute liver failure, also called fulminant liver failure. In acute liver failure, enzyme levels can normalize because fewer hepatocytes remain; thus, such normalization does not indicate improved liver function.
+
+Aminotransferase levels may also be markedly high in the following:
+
+Acute exacerbation of autoimmune hepatitis
+
+Reactivation of chronic hepatitis B
+
+Drug- or toxin-induced liver disease
+
+Passage of a common duct stone
+
+Acute Budd-Chiari syndrome
+
+Acute fatty liver of pregnancy
+
+Acute Wilson disease
+
+Modest elevations (300 to 500 IU/L) persist in chronic liver disorders (eg, chronic hepatitis) and in biliary obstruction, except when passage of a common duct stone can transiently result in markedly high levels.
+
+Mild increases (< 300 IU/L) are nonspecific and often present in disorders such as
+
+Cirrhosis
+
+Chronic viral hepatitis
+
+Metabolic dysfunction-associated steatotic liver disease (MASLD)
+
+Cholestatic liver disorders
+
+Hepatocellular carcinoma, cholangiocarcinoma, and hepatic metastatic cancer
+
+Alcohol-related liver disease and alcohol-associated hepatitis
+
+Drug-induced liver disease
+
+Aminotransferases can be mildly elevated or even normal in certain liver disorders, such as
+
+Hemochromatosis
+
+Drug-induced liver disease (such as methotrexate- or amiodarone-induced liver injury)
+
+Chronic hepatitis B and chronic hepatitis C
+
+MASLD
+
+Infiltrative liver disorders (eg, hepatic sarcoidosis, amyloidosis)
+
+Alpha-1 antitrypsin deficiency
+
+Primary biliary cholangitis
+
+Primary sclerosing cholangitis
+
+Cirrhosis
+
+Elevated ALT is somewhat specific for liver injury. Because AST is present in the heart, skeletal muscle, kidneys, red blood cells, and pancreas, elevated AST may reflect myocardial infarction or ischemia, rhabdomyolysis, or other injury to these tissues. In most liver disorders, the ratio of AST to ALT is < 1. However, in alcohol-related liver disease, the ratio is characteristically > 2 (though it can be higher) because pyridoxal-5'-phosphate, required for ALT synthesis but is less essential for AST synthesis, is commonly deficient in patients with alcohol-use disorders. This also explains why elevations of ALT and AST are typically low (< 300 IU/L) in these patients.
+
+Lactate dehydrogenase (LDH)
+
+LDH, commonly included in routine analysis, is present in many other tissues and is insensitive and nonspecific for hepatocellular injury. LDH is typically elevated in ischemic/hypoxic hepatitis and cancers that extensively infiltrate the liver.
+
+Tests for liver injury reference
+
+1. Kwo PY, Cohen SM, Lim JK. ACG Clinical Guideline: Evaluation of Abnormal Liver Chemistries. Am J Gastroenterol. 2017;112(1):18-35. doi:10.1038/ajg.2016.517
+
+Tests for Cholestasis
+
+Bilirubin
+
+Bilirubin, the pigment in bile, is produced from the breakdown of heme proteins, mostly from the heme moiety of hemoglobin in senescent red blood cells. Unconjugated (free, or indirect) bilirubin is insoluble in water and thus cannot be excreted in urine; most unconjugated bilirubin is bound to albumin in plasma. Bilirubin is conjugated in the liver with glucuronic acid to form the more water-soluble bilirubin diglucuronide. Conjugated (or direct) bilirubin is then excreted through the biliary tract into the duodenum, where it is metabolized into urobilinogens (some of which are reabsorbed and resecreted into bile), then into orange-colored urobilins (most of which are eliminated in feces). These bile pigments give stool its typical color.
+
+Hyperbilirubinemia results from 1 or more of the following:
+
+Increased bilirubin production
+
+Decreased liver uptake or conjugation
+
+Decreased biliary excretion (see Jaundice)
+
+Normally, total bilirubin is mostly unconjugated, with values of < 1.2 mg/dL (< 20 micromol/L). Fractionation measures the proportion of bilirubin that is conjugated (ie, direct, so-called because it is measured directly, without the need for solvents). Fractionation is most helpful for evaluating neonatal jaundice and for evaluating elevated bilirubin when other liver test results are normal, suggesting that hepatobiliary dysfunction is not the cause.
+
+Unconjugated hyperbilirubinemia (indirect bilirubin fraction > 85%) reflects increased bilirubin production (eg, in hemolysis) or defective liver uptake or conjugation (eg, in Gilbert syndrome). Such increases in unconjugated bilirubin are usually < 5 times normal (< 6 mg/dL [< 100 micromol/L]) unless there is concurrent liver injury.
+
+Conjugated hyperbilirubinemia (direct bilirubin fraction > 50%) results from decreased bile formation or excretion (cholestasis). When associated with other liver test abnormalities, a high serum bilirubin indicates hepatocellular and/or biliary tract dysfunction. Serum bilirubin is somewhat insensitive for liver dysfunction. However, the development of severe hyperbilirubinemia in primary biliary cholangitis (previously called primary biliary cirrhosis), primary sclerosing cholangitis, alcohol-related hepatitis, and acute liver failure suggests a poor prognosis (1–3).
+
+Mixed hyperbilirubinemia that does not fit neatly into the typical unconjugated or conjugated categories often indicates overlapping processes (eg, simultaneous hepatocellular injury and impaired bilirubin conjugation or excretion). 
+
+Bilirubinuria reflects the presence of conjugated bilirubin in urine; bilirubin spills into urine because blood levels are markedly elevated, indicating severe disease. Unconjugated bilirubin is water insoluble and bound to albumin and so cannot be excreted in urine. Bilirubinuria can be detected at the bedside with commercial urine test strips in acute viral hepatitis or other hepatobiliary disorders, even before jaundice appears. However, the diagnostic accuracy of such urine tests is limited. Results can be falsely negative when the urine specimen has been stored a long time, vitamin C has been ingested, or urine contains nitrates (eg, due to urinary tract infections). Similarly, increases in urobilinogen are neither specific nor sensitive.
+
+Alkaline phosphatase (ALP)
+
+An increase in levels of this hepatocyte enzyme suggests cholestasis. Results may not be specific because alkaline phosphatase consists of several isoenzymes and has a widespread extrahepatic distribution (eg, in the placenta, the small intestine, white blood cells, kidneys, and particularly bone). Normal alkaline phosphatase levels in children and adolescents are higher than in adults due to bone growth and turnover.
+
+Alkaline phosphatase levels increase to ≥ 4 times normal 1 to 2 days after onset of biliary obstruction, regardless of the site of obstruction. Levels may remain elevated for several days after the obstruction resolves because the half-life of alkaline phosphatase is about 7 days.
+
+Increases of up to 3 times normal occur in many liver disorders, including
+
+Chronic cholestatic liver disorders with hepatitis (ie, viral hepatitis, primary biliary cholangitis, primary sclerosing cholangitis, drug-induced liver injury)
+
+Cirrhosis
+
+Space-occupying lesions (eg, carcinoma, abscesses)
+
+Infiltrative disorders (eg, amyloidosis, sarcoidosis, tuberculosis, metastases)
+
+Syphilitic hepatitis (alkaline phosphatase may be disproportionately elevated compared with modest changes in other liver tests)
+
+Post–liver transplant rejection
+
+Isolated elevations (ie, when other liver test results are normal) may accompany
+
+Focal liver lesions (eg, abscess, tumor)
+
+Partial or intermittent bile duct obstruction (eg, stone, stricture, sclerosing cholangitis, cholangiocarcinoma)
+
+Syphilitic hepatitis
+
+Infiltrative disorders
+
+Chronic cholestatic liver disorders (ie, primary biliary cholangitis, primary sclerosing cholangitis, drug-induced liver injury)
+
+Post–liver transplant rejection
+
+Isolated elevations also occur in the absence of any apparent liver or biliary disorder, as in the following:
+
+Some cancers without apparent liver involvement (eg, bronchogenic carcinoma, Hodgkin lymphoma, renal cell carcinoma)
+
+After ingestion of fatty meals (because of an enzyme produced in the small intestine)
+
+Pregnancy (because of an enzyme produced in the placenta)
+
+Children and adolescents who are still growing (because of bone growth)
+
+Chronic renal failure (because of an enzyme produced in the intestine and bone)
+
+Congestive hepatopathy (leads to increased hepatic sinusoid pressure and impaired bile flow)
+
+Levels of gamma-glutamyl transpeptidase or 5′-nucleotidase, which are more specific to the liver, can differentiate hepatic from extrahepatic sources of alkaline phosphatase better than fractionation of alkaline phosphatase, which is technically difficult. In otherwise asymptomatic older adults, an increase in alkaline phosphatase usually originates in bone (eg, in Paget disease) and may not require further investigation for liver injury. Similarly, normal values for alkaline phosphatase are higher in children and adolescents than in adults due to bone growth.
+
+Gamma–glutamyl transpeptidase (GGT)
+
+Levels of this enzyme increase in hepatobiliary dysfunction, especially cholestasis, and correlate loosely with levels of alkaline phosphatase and 5′-nucleotidase. GGT is more sensitive for a hepatic origin of cholestasis than alkaline phosphatase and may be used as a confirmatory test in the face of an elevated screening alkaline phosphatase (4). Alone, however, it is not specific for cholestatic liver disease. Elevated GGT in the setting of a normal alkaline phosphatase can be seen in alcohol-associated hepatitis. Levels do not increase because of bone lesions, during childhood, or during pregnancy. However, alcohol and certain drugs (eg, some antiseizure medications, warfarin), herbs, and foods can induce hepatic microsomal (cytochrome P-450) enzymes, markedly increasing GGT and thus somewhat limiting its specificity.
+
+5′-Nucleotidase
+
+Increases in levels of this enzyme are as sensitive as alkaline phosphatase for detecting cholestasis and biliary obstruction but are more specific, almost always indicating hepatobiliary dysfunction. Because levels of alkaline phosphatase and 5′-nucleotidase do not always correlate, one can be normal while the other is increased. 5' NT is not widely used in the clinical setting.
+
+Tests for cholestasis references
+
+1. Bowlus CL, Arrivé L, Bergquist A, et al. AASLD practice guidance on primary sclerosing cholangitis and cholangiocarcinoma. Hepatology. 2023;77(2):659-702. doi:10.1002/hep.32771
+
+2. Qiao L, Tan W, Wang X, et al. Different Effects of Total Bilirubin on 90-Day Mortality in Hospitalized Patients With Cirrhosis and Advanced Fibrosis: A Quantitative Analysis. Front Med (Lausanne). 2021;8:704452. Published 2021 Jun 23. doi:10.3389/fmed.2021.704452
+
+3. Shingina A, Mukhtar N, Wakim-Fleming J, et al. Acute Liver Failure Guidelines. Am J Gastroenterol. 2023;118(7):1128-1153. doi:10.14309/ajg.0000000000002340
+
+4. Kwo PY, Cohen SM, Lim JK. ACG Clinical Guideline: Evaluation of Abnormal Liver Chemistries. Am J Gastroenterol. 2017;112(1):18-35. doi:10.1038/ajg.2016.517
+
+Tests of Hepatic Synthetic Function
+
+Prothrombin time (PT) and international normalized ratio (INR)
+
+PT may be expressed in time (seconds) or, preferably, as a ratio of the patient’s measured PT to the laboratory’s control value (INR—see Testing). The INR is more accurate than PT for monitoring anticoagulation. PT or INR is a valuable measure of the liver’s ability to synthesize fibrinogen and vitamin K–dependent clotting factors: factors II (prothrombin), VII, IX, and X. Changes can occur rapidly because some of the involved clotting factors have short biologic half-lives (eg, 6 hours for factor VII). Abnormalities indicate severe hepatocellular dysfunction, an ominous sign in acute liver disorders (1). In chronic liver disorders, an increasing PT or INR indicates progressive liver failure. The PT or INR does not increase in mild hepatocellular dysfunction and is often normal in compensated cirrhosis.
+
+A prolonged PT and an abnormal INR can result from coagulation disorders such as a consumptive coagulopathy or vitamin K deficiency. Fat malabsorption, including cholestasis, can cause vitamin K deficiency. In chronic cholestasis, marked hepatocellular dysfunction can be ruled out if vitamin K replacement (10 mg subcutaneously or intravenously) corrects PT by ≥ 30% within 24 hours (2).
+
+Serum proteins
+
+Hepatocytes synthesize most serum proteins, including alpha- and beta-globulins, albumin, and most clotting factors (but not factor VIII, produced by the vascular endothelium, or gamma-globulin, produced by B cells). Hepatocytes also make proteins that aid in the diagnosis of specific disorders:
+
+Alpha-1 antitrypsin (absent or decreased in alpha-1 antitrypsin deficiency)
+
+Ceruloplasmin (reduced in Wilson disease)
+
+Transferrin (saturated with iron in hemochromatosis)
+
+Ferritin (greatly increased in hemochromatosis and alcohol-related liver disease)
+
+These proteins usually increase in response to inflammation or damage of various tissues, so that elevations may not specifically reflect liver disorders. Conversely, serum levels of these proteins may decrease in cirrhosis.
+
+Serum albumin commonly decreases in chronic liver disorders because of an increase in volume of distribution (eg, due to ascites), a decrease in hepatic synthesis, or both. Values < 3 g/dL (< 30 g/L) suggest decreased synthesis, caused by 1 of the following:
+
+Advanced cirrhosis (the most common cause)
+
+Alcohol-related liver disease
+
+Chronic inflammation
+
+Protein undernutrition
+
+Hypoalbuminemia can also result from excessive loss of albumin from the kidneys (eg, nephrotic syndrome), gut (eg, due to protein-losing gastroenteropathies), or skin (eg, due to burns or exfoliative dermatitis).
+
+Because albumin has a half-life of about 20 days, serum levels typically take weeks to increase or decrease, though changes can be rapid in critical illness.
+
+Tests of hepatic synthetic function references
+
+1. Koch DG, Speiser JL, Durkalski V, et al. The Natural History of Severe Acute Liver Injury. Am J Gastroenterol. 2017;112(9):1389-1396. doi:10.1038/ajg.2017.98
+
+2. Raj G, Kumar R, McKinney WP. Time course of reversal of anticoagulant effect of warfarin by intravenous and subcutaneous phytonadione. Arch Intern Med.1999;159(22):2721-2724. doi:10.1001/archinte.159.22.2721
+
+Other Laboratory Tests
+
+Ammonia
+
+Nitrogen compounds that enter the colon (eg, ingested protein, secreted urea) are degraded by resident bacteria, liberating ammonia. The ammonia is then absorbed and transported via the portal vein to the liver. The healthy liver readily clears the ammonia from the portal vein and converts it to glutamine, which is metabolized by the kidneys into urea to be excreted.
+
+In acute liver failure, elevated arterial ammonia levels occur due to severe acute hepatocyte dysfunction and/or necrosis, as opposed to portosystemic shunting. Elevated ammonia levels in acute liver failure can lead to severe cerebral edema, and persistent hyperammonemia in acute liver failure predicts increased risk of complications and death (1, 2).
+
+Although not directly caused by portosystemic shunting, elevated ammonia levels can occur in hepatic encephalopathy. However, this level has limited usefulness in the diagnosis or monitoring of response to therapy because the degree of elevation in the ammonia level correlates poorly with severity of hepatic encephalopathy in chronic liver disease (3, 4).
+
+In advanced liver disorders, the following may increase ammonia levels:
+
+High-protein meals
+
+Gastrointestinal bleeding
+
+Hypokalemia
+
+Infection
+
+Metabolic alkalosis
+
+Certain drugs (eg, alcohol, barbiturates, diuretics, opioids, valproate)
+
+High-dose chemotherapy
+
+Parenteral nutrition
+
+Renal insufficiency
+
+Extreme muscle exertion and muscle wasting
+
+Salicylate intoxication
+
+Shock
+
+Ureterosigmoidostomy
+
+Urinary tract infection with a urease-producing organism (eg, Proteus mirabilis)
+
+Serum immunoglobulins
+
+In chronic liver disorders, serum immunoglobulins often increase. However, elevations are not specific and may not be helpful clinically. Levels increase slightly in acute hepatitis, moderately in chronic active hepatitis, and markedly in autoimmune hepatitis. The pattern of immunoglobulin elevation adds little information, although different immunoglobulins are usually very high in different disorders:
+
+IgM in primary biliary cholangitis (previously called primary biliary cirrhosis)
+
+IgA in alcohol-related liver disease
+
+IgG in autoimmune hepatitis and viral hepatitis
+
+Antimitochondrial antibodies
+
+These heterogeneous antibodies are positive, usually in high titers, in approximately 90% of patients with primary biliary cholangitis (5). They are also occasionally present in the following:
+
+Autoimmune hepatitis
+
+Drug-induced hepatitis
+
+Other autoimmune disorders, such as connective tissue disorders, myasthenia gravis, autoimmune thyroiditis, Addison disease, and autoimmune hemolytic anemia
+
+Antimitochondrial antibodies can help determine the cause of cholestasis because they are usually absent in extrahepatic biliary obstruction and primary sclerosing cholangitis.
+
+Other antibodies
+
+Other antibodies may help in diagnosis of the following:
+
+Autoimmune hepatitis: Smooth muscle antibodies against actin, antinuclear antibodies (ANA) that provide a homogeneous (diffuse) fluorescence, and antibodies to liver-kidney microsome type 1 (anti-LKM1) are often present.
+
+Primary biliary cholangitis: Antimitochondrial antibody is key to the diagnosis. Anti-gp210 and anti-sp100 can sometimes also be positive.
+
+Primary sclerosing cholangitis: Perinuclear antineutrophil cytoplasmic antibodies (p-ANCA) can help raise the index of suspicion.
+
+IgG4 cholangiopathy: Immunoglobulin G4 is frequently elevated.
+
+Isolated abnormalities of any of these antibodies are never diagnostic and do not elucidate pathogenesis.
+
+Alpha-fetoprotein (AFP)
+
+AFP, a glycoprotein normally synthesized by the yolk sac in the embryo and then by the fetal liver, is elevated in neonates and hence the pregnant mother. AFP decreases rapidly during the first year of life, reaching adult values (normally, < 10 to 20 ng/mL or < 10 to 20 mg/L depending on the laboratory) by the age of 1 year.
+
+An increase in AFP, no matter how small, should prompt consideration of primary hepatocellular carcinoma (HCC). Serum AFP generally correlates with tumor size, differentiation and metastatic involvement. Because small tumors may produce low levels of AFP, increasing values suggest the presence of HCC, especially when tumors are > 3 cm in diameter. AFP also helps predict prognosis.
+
+Mild AFP elevations also occur in acute and chronic hepatitis, probably reflecting liver regeneration; AFP can occasionally increase to 500 ng/mL (500 mcg/L) in acute (fulminant) liver failure. High AFP levels can occur in a few other disorders (eg, embryonic teratocarcinomas, hepatoblastomas in children, some hepatic metastases from gastrointestinal tract cancers, some cholangiocarcinomas), but these circumstances are not common and usually can be differentiated based on clinical and histopathologic grounds.
+
+Sensitivity, specificity, and peak levels of AFP in patients with HCC vary by population, reflecting differences in factors such as hepatitis prevalence and ethnicity. In areas with a relatively low prevalence of hepatitis (eg, North America, western Europe), AFP cutoff values of 20 ng/mL to 100 ng/mL (20 mcg/L to 100 mcg/L) have a sensitivity of 61% and a specificity of 86% (6). However, only approximately 60 to 70% of all HCCs produce AFP. Thus, AFP is not an ideal screening test but does have a role in detecting HCC and may be used to monitor response to treatment. Levels exceeding normal (> 20 ng/mL [20 mcg/L]), especially when increasing, strongly suggest HCC. In cirrhotic patients with a mass and a high value (eg, > 200 ng/mL [200 mcg/L]), the predictive value is high. The combined use of AFP and ultrasound typically provides adequate screening.
+
+Tests for hepatic fibrosis
+
+The degree of hepatic fibrosis can be assessed using multiple noninvasive blood tests. These include tests based on common laboratory results, including AST, ALT, and platelets, such as APRI, FIB4, and metabolic dysfunction-associated steatotic liver disease (MASLD) fibrosis score, and proprietary scores, such as FibroTest (known as FibroSure in the United States), which incorporates multiple parameters, and Enhanced Liver Fibrosis (ELF), which incorporates components of extracellular matrix . These blood panels can differentiate between patients with no fibrosis and those with advanced fibrosis but are largely unable to differentiate between the stages of fibrosis (7). These blood test panels are often used in combination with ultrasound elastography or vibration-controlled transient elastography to assess hepatic fibrosis, particularly in patients with chronic hepatitis C and MASLD.
+
+Other laboratory tests references
+
+1. Kumar R, Shalimar, Sharma H, et al. Persistent hyperammonemia is associated with complications and poor outcomes in patients with acute liver failure. Clin Gastroenterol Hepatol. 2012;10(8):925-931. doi:10.1016/j.cgh.2012.04.011
+
+2. Cardoso FS, Kim M, Pereira R, et al. Early serum ammonia variation in critically ill patients with cirrhosis: A multicentre cohort study. Aliment Pharmacol Ther. 2023;58(7):715-724. doi:10.1111/apt.17650
+
+3. Haj M, Rockey DC. Ammonia Levels Do Not Guide Clinical Management of Patients With Hepatic Encephalopathy Caused by Cirrhosis. Am J Gastroenterol. 2020;115(5):723-728. doi:10.14309/ajg.0000000000000343
+
+4. Vilstrup H, Amodio P, Bajaj J, et al. Hepatic encephalopathy in chronic liver disease: 2014 Practice Guideline by the American Association for the Study of Liver Diseases and the European Association for the Study of the Liver. Hepatology. 2014;60(2):715-735. doi:10.1002/hep.27210
+
+5. Xu Q, Zhu W, Yin Y. Diagnostic value of anti-mitochondrial antibody in patients with primary biliary cholangitis: A systemic review and meta-analysis. Medicine (Baltimore). 2023;102(45):e36039. doi:10.1097/MD.0000000000036039
+
+6. Zhang J, Chen G, Zhang P, et al: The threshold of alpha-fetoprotein (AFP) for the diagnosis of hepatocellular carcinoma: A systematic review and meta-analysis. PLoS One 15(2):e0228857, 2020. doi: 10.1371/journal.pone.0228857
+
+7. Sterling RK, Patel K, Duarte-Rojo A, et al. AASLD Practice Guideline on blood-based noninvasive liver disease assessment of hepatic fibrosis and steatosis. Hepatology. 2025;81(1):321-357. doi:10.1097/HEP.0000000000000845

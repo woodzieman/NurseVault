@@ -1,0 +1,90 @@
+=== Dengue (Merck Manual Professional) ===
+Section: Infectious Disease > Arboviruses, Arenaviridae, and Filoviridae
+Source: https://www.merckmanuals.com/professional/infectious-diseases/arboviruses-arenaviridae-and-filoviridae/dengue
+Retrieved: 2026-09-25
+
+Dengue is endemic in over 100 countries across Africa, the Americas, the Mediterranean, southeast Asia, and the western Pacific (1), mostly in tropical regions of the world in latitudes from about 35° north to 35° south. Outbreaks are most prevalent in Southeast Asia but also occur in the Caribbean, including Puerto Rico and the U.S. Virgin Islands, Oceania, the Indian subcontinent, and Central and South America. In 2024, approximately 3,500 cases of dengue were reported to have been imported to the United States by returning tourists, but an estimated 50 to 100 million cases occur worldwide, with about 20,000 deaths (2, 3).
+
+One Health: Zoonotic Diseases
+
+video
+
+The causative agents, enveloped single-strand RNA viruses from the genus Flavivirus with 4 serotypes, are transmitted by the bite of Aedes mosquitoes. Individual mosquitoes may bite repeatedly, potentially exposing multiple people to infection. The virus circulates in the blood of infected humans for 2 to 7 days; Aedes mosquitoes may acquire the virus when they feed on humans during this period. Vertical transmission may occur during pregnancy or around the time of birth, or by blood transfusion and organ transplantation, but rates are low (1, 2, 4).
+
+General references
+
+1. World Health Organization: Dengue and severe dengue. Geneva, WHO. April 23, 2024. Accessed June 16, 2025.
+
+2. Centers for Disease Control and Prevention: Dengue: Historic Data (2-10-2024). June 11, 2025. Accessed June 16, 2025.
+
+3. Clarke J, Lim A, Gupte P, Pigott DM, van Panhuis WG, Brady OJ: A global dataset of publicly available dengue case count data. Sci Data 11(1):296, 2024. Published 2024 Mar 14. doi:10.1038/s41597-024-03120-7
+
+4. Paz-Bailey G, Adams LE, Deen J, Anderson KB, Katzelnick LC: Dengue. Lancet 403(10427):667-682, 2024. doi: 10.1016/S0140-6736(23)02576-X
+
+Symptoms and Signs of Dengue
+
+After an incubation period of 3 to 15 days, fever, chills, headache, retro-orbital pain with eye movement, lumbar pain, and severe prostration begin abruptly. Extreme aching in the legs and joints occurs during the first hours, accounting for the traditional name of breakbone fever. The temperature rises rapidly to up to 40° C, with relative bradycardia. Bulbar and palpebral conjunctival injection and a transient flushing or macular rash (particularly of the face) may occur. Cervical, epitrochlear, and inguinal lymph nodes are often enlarged.
+
+Fever and other symptoms persist for 48 to 96 hours, followed by rapid defervescence with profuse sweating. Patients then feel well for about 24 hours, after which fever may occur again (saddleback pattern), typically with a lower peak temperature than the first. Simultaneously, a blanching maculopapular rash spreads from the trunk to the extremities and face.
+
+Sore throat, gastrointestinal symptoms (eg, nausea, vomiting), and hemorrhagic symptoms can occur. Days 4 to 7 of dengue infection are considered the critical phase. Patients who develop certain warning signs (abdominal pain or tenderness, persistent vomiting, mucosal bleeding, hepatomegaly, lethargy or restlessness, or hemoconcentration) during the critical phase are at higher risk of developing Dengue hemorrhagic fever, characterized by a drop on platelets count, plasma leakage, and bleeding. If shock develops, the composite illness is called Dengue shock syndrome.
+
+Neurologic symptoms are uncommon and can include encephalopathy and seizures; some patients develop Guillain-Barré syndrome.
+
+Mild cases of dengue, usually lacking lymphadenopathy, remit in < 72 hours. In more severe disease, asthenia may last several weeks. Death is rare. Immunity to the infecting virus strain is long-lasting, whereas broader immunity to other strains lasts only 2 to 12 months.
+
+More severe disease may result from antibody-dependent enhancement of infection, in which patients have a non-neutralizing antibody from a previous infection with one dengue serotype and then have another infection with a different dengue serotype.
+
+Diagnosis of Dengue
+
+Acute and convalescent serologic testing
+
+Dengue is suspected in patients who live in or have traveled to endemic areas if they develop sudden fever, severe retro-orbital headache, myalgias, and adenopathy, particularly with the characteristic rash or recurrent fever. Evaluation should exclude alternative diagnoses, especially malaria, Zika virus infection, chikungunya disease, and leptospirosis.
+
+Diagnostic studies include acute and convalescent serologic testing, antigen detection of dengue non-structural protein 1 (NS1), and virus genome detection by polymerase chain reaction (PCR) of a blood sample (1, 2). Serologic testing involves hemagglutination inhibition or complement fixation tests using paired sera, but cross-reactions with other flavivirus antibodies, especially to Zika virus, are possible. Plaque-reduction neutralization tests are more specific and are considered the gold standard for serologic diagnosis. Antigen detection is available in some parts of the world (not in the United States), and PCR is usually done only in laboratories with special expertise.
+
+Although rarely done and difficult, cultures can be done using inoculated Toxorhynchites mosquitoes or specialized cell lines in specialized laboratories.
+
+Complete blood count may show leukopenia by the second day of fever; by the fourth or fifth day, the white blood cell count may be 2000 to 4000/mcL (2 to 4 × 109/L) with only 20 to 40% granulocytes. Patients with severe dengue may show an acute increase in hematocrit with a simultaneous decrease in platelet count around day 4 to 6 of illness. Urinalysis may show moderate albuminuria and a few casts.
+
+Diagnosis references
+
+1. World Health Organization: Dengue and severe dengue. Geneva, WHO. April 23, 2024. Accessed June 16, 2025.
+
+2. Paz-Bailey G, Adams LE, Deen J, Anderson KB, Katzelnick LC: Dengue. Lancet 403(10427):667-682, 2024. doi: 10.1016/S0140-6736(23)02576-X
+
+Treatment of Dengue
+
+Supportive care
+
+Treatment of dengue is symptomatic. Acetaminophen can be used, but NSAIDs (nonsteroidal anti-inflammatory drugs), including aspirin, should be avoided because bleeding is a risk. Additionally, aspirin increases the risk of Reye syndrome in children.
+
+Prevention of Dengue
+
+People in endemic areas should try to prevent mosquito bites. To prevent further transmission by mosquitoes, patients with dengue should stay under mosquito netting until the second bout of fever has resolved.
+
+In the United States, the dengue vaccine CYD-TDV is approved for use in children and adolescents 9 to 16 years of age who have laboratory-confirmed previous dengue virus infection and are living in an area where dengue is endemic (1, 2). However, this vaccine is available only in Puerto Rico, where dengue is endemic. The vaccine decreases the risk of hospitalization and severe disease in seropositive recipients, but it appears to increase the risk of more severe disease in patients who have never had dengue if they subsequently become infected. The World Health Organization (3) and the U. S. Food and Drug Administration (FDA) recommend pre-vaccination screening for serologic evidence of previous dengue infection and vaccinating only seropositive patients (4). Three doses are given at 6-month intervals.
+
+Another dengue vaccine candidate (TAK-003) for the prevention of the viral disease caused by any serotype is available for use in Argentina, Brazil, Indonesia, the European Union, and the United Kingdom and is being evaluated in the United States. 
+
+Prevention references
+
+1. Paz-Bailey G, Adams L, Wong JM, et al. Dengue Vaccine: Recommendations of the Advisory Committee on Immunization Practices, United States, 2021. MMWR Recomm Rep 70(6):1-16, 2021. doi:10.15585/mmwr.rr7006a1
+
+2. Paz-Bailey G, Adams LE, Deen J, Anderson KB, Katzelnick LC: Dengue. Lancet 403(10427):667-682, 2024. doi: 10.1016/S0140-6736(23)02576-X
+
+3. World Health Organization: WHO position paper on Dengue vaccines—May 2024. Accessed June 16, 2025.
+
+4. Centers for Disease Control and Prevention: Dengue: Dengue Vaccine. May 15, 2025. Accessed June 16, 2025.
+
+Key Points
+
+The dengue virus is transmitted by the bite of Aedes mosquitoes.
+
+Dengue fever typically causes sudden fever, severe retro-orbital headache, myalgias, adenopathy, a characteristic rash, and extreme aching in the legs and joints during the first hours.
+
+Dengue fever can cause a potentially fatal hemorrhagic fever with a bleeding tendency and shock (dengue hemorrhagic fever and dengue shock syndrome).
+
+Suspect dengue fever if patients who live in or have traveled to endemic areas if they have typical symptoms; diagnose using serologic tests, antigen tests, or PCR of blood.
+
+Management of dengue is focused on supportive care and symptom relief.

@@ -4,20 +4,24 @@ import NurseVaultCore
 struct RootView: View {
     @Environment(Library.self) private var library
     @Environment(DrugLibrary.self) private var drugLibrary
+    @Environment(MerckTopicLibrary.self) private var merckLibrary
     @Environment(\.scenePhase) private var scenePhase
 
-    @State private var selection: SidebarItem? = .all
+    @State private var selection: SidebarItem?
     @State private var showingNewSection = false
     @State private var renameTarget: SectionEditTarget?
     @State private var deleteTarget: VaultSection?
     @State private var showingDeleteDialog = false
     @State private var showingResetAlert = false
+    @State private var showingSettings = false
 
     enum SidebarItem: Hashable {
         case all
         case section(VaultSection)
         /// The read-only drug reference bundled with the app.
         case drugReference
+        /// The read-only Merck Manual medical topics bundled with the app.
+        case merckManual
     }
 
     /// Wrapper so a section can drive a sheet (`item:` requires Identifiable).
@@ -27,6 +31,22 @@ struct RootView: View {
     }
 
     var body: some View {
+        Group {
+            if library.isReady {
+                readyContent
+            } else {
+                loadingView
+            }
+        }
+    }
+
+    private var loadingView: some View {
+        ProgressView("Loading Nurse Vault…")
+            .scaleEffect(1.2)
+            .padding()
+    }
+
+    private var readyContent: some View {
         NavigationSplitView {
             List(selection: $selection) {
                 Label("All Documents", systemImage: "books.vertical")
@@ -55,6 +75,13 @@ struct RootView: View {
             }
             .navigationTitle("Nurse Vault")
             .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    Button {
+                        showingSettings = true
+                    } label: {
+                        Image(systemName: "gearshape")
+                    }
+                }
                 ToolbarItem(placement: .primaryAction) {
                     Button {
                         showingNewSection = true
@@ -64,9 +91,12 @@ struct RootView: View {
                 }
             }
         } content: {
-            if case .drugReference = selection {
+            switch selection {
+            case .drugReference:
                 DrugReferenceView()
-            } else {
+            case .merckManual:
+                MerckManualView()
+            case .all, .section, .none:
                 NavigationStack {
                     VaultListView(container: currentContainer)
                 }
@@ -77,6 +107,9 @@ struct RootView: View {
             } description: {
                 Text("Choose a reference from the list.")
             }
+        }
+        .sheet(isPresented: $showingSettings) {
+            WatchSyncSettingsView()
         }
         .sheet(isPresented: $showingNewSection) {
             NewSectionView()
@@ -132,7 +165,7 @@ struct RootView: View {
 
     private var currentSection: VaultSection? {
         switch selection {
-        case .all, .none, .drugReference:
+        case .all, .none, .drugReference, .merckManual:
             return nil
         case .section(let section):
             return section
@@ -141,7 +174,7 @@ struct RootView: View {
 
     private var currentContainer: VaultContainer? {
         switch selection {
-        case .all, .none, .drugReference:
+        case .all, .none, .drugReference, .merckManual:
             return nil
         case .section(let section):
             return .section(section)
@@ -191,6 +224,46 @@ struct NewSectionView: View {
             .formStyle(.grouped)
             .frame(width: 400, height: 260)
             #endif
+        }
+    }
+}
+
+// MARK: - Watch Sync Settings
+
+struct WatchSyncSettingsView: View {
+    @Environment(Library.self) private var library
+    @Environment(\.dismiss) private var dismiss
+
+    var body: some View {
+        NavigationStack {
+            Form {
+                Section("Watch Sync") {
+                    Text("Choose which sections appear on your Apple Watch.")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
+
+                Section("Sections") {
+                    ForEach(library.sections, id: \.self) { section in
+                        Toggle(isOn: Binding(
+                            get: { section.syncToWatch },
+                            set: { newValue in
+                                section.syncToWatch = newValue
+                                library.save()
+                                library.writeWatchSummaryForced()
+                            }
+                        )) {
+                            Label(section.name ?? "Untitled", systemImage: section.icon ?? "folder")
+                        }
+                    }
+                }
+            }
+            .navigationTitle("Settings")
+            .toolbar {
+                ToolbarItem(placement: .confirmationAction) {
+                    Button("Done") { dismiss() }
+                }
+            }
         }
     }
 }

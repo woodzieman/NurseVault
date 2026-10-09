@@ -1,0 +1,96 @@
+=== Cognitive Errors in Clinical Decision Making (Merck Manual Professional) ===
+Section: Special Subjects > Clinical Decision Making
+Source: https://www.merckmanuals.com/professional/special-subjects/clinical-decision-making/cognitive-errors-in-clinical-decision-making
+Retrieved: 2026-09-25
+
+Although quantitative mathematical models can guide clinical decision making, clinicians can only rarely use formal computations to make patient care decisions in day-to-day practice. Rather, an intuitive understanding of probabilities is combined with cognitive processes called heuristics to guide clinical judgment (1).
+
+Heuristics are often referred to as rules of thumb, educated guesses, or mental shortcuts. Heuristics usually involve pattern recognition and rely on a subconscious integration of patient data with prior experience rather than on a conscious generation of a rigorous differential diagnosis that is formally evaluated using specific data from the literature.
+
+Such informal reasoning is useful but fallible because heuristics may cause several types of unconscious errors (cognitive errors). Studies suggest that more medical errors involve cognitive error than lack of knowledge or information.
+
+Reference
+
+1. Restrepo D, Armstrong KA, Metlay JP. Annals Clinical Decision Making: Avoiding Cognitive Errors in Clinical Decision Making. Ann Intern Med. 2020;172(11):747-751. doi:10.7326/M19-3692
+
+Types of Cognitive Error
+
+There are many types of cognitive (reasoning) errors, and although it is obviously more important to avoid errors than to properly classify them once made, being aware of common types of cognitive errors can help clinicians recognize and avoid them.
+
+Cognitive errors may roughly be classified as those involving
+
+Faulty assessment of pre-test probability (overestimating or underestimating disease likelihood)
+
+Failure to seriously consider all relevant possibilities
+
+Pearls & Pitfalls
+
+There are numerous named types of cognitive error, but they tend to fall into 2 groups: faulty assessment of pre-test probability and failure to seriously consider all relevant possibilities.
+
+Both types of error can easily lead to improper testing (too much or too little) and missed or delayed diagnoses.
+
+Availability error
+
+Availability error occurs when clinicians choose the first thing that comes to their mind. This can underestimate the actual pre-test probability of a disease because a recent or memorable experience makes a given diagnosis more "available" to come to mind.
+
+Experience often leads to overestimation of probability when there is memory of a case that was dramatic, involved a patient who fared poorly, or a lawsuit. For example, a clinician who recently missed the diagnosis of pulmonary embolism in a healthy young woman who had vague chest discomfort but no other findings or apparent risk factors might then overestimate the risk of pulmonary embolism in similar patients and become more likely to order chest CT angiography for similar patients despite what others would consider a low probability of disease.
+
+Limited experience can also lead to underestimation. For example, a junior resident who has seen only a few patients with chest pain, all of whom turned out to have benign causes, may do a cursory evaluation for cardiovascular or thromboembolic disease even among patient populations in whom the disease prevalence is not low.
+
+Representation error
+
+Representation error occurs when clinicians focus on the presence or absence of classic manifestations of a disease without taking into account disease prevalence. For example, although several hours of vague chest discomfort in a thin, athletic, healthy-appearing 60-year-old man who has no known medical problems and who now looks and feels well does not match the typical profile of a myocardial infarction, it would be unwise to dismiss that possibility because myocardial infarction is common among men of that age and has highly variable manifestations. Conversely, a 20-year-old healthy man with sudden onset of severe, sharp chest pain and back pain may be suspected of having a dissecting thoracic aortic aneurysm because those clinical features are common in aortic dissection. The cognitive error is not taking into account the fact that aortic dissections are exceptionally rare in a 20-year-old, otherwise healthy patient without a family history of such events; thus, other, more likely causes (eg, pneumothorax, pleuritis) should be considered first. Representation error also occurs when clinicians fail to recognize that positive test results (for any test with a less than 100% specificity) in a population where the tested disease is rare are more likely to be false positive than true positive.
+
+Premature closure
+
+Premature closure is jumping to and holding on to a presumptive diagnosis. This is one of the most common errors; clinicians make an initial diagnosis (often based on pattern recognition), fail to consider other possible diagnoses, and prematurely stop collecting data to confirm the diagnosis by appropriate testing. Premature closure errors are particularly common when patients seem to be having an exacerbation of a known disorder—eg, if a woman with a long history of migraine presents with a severe headache (and actually has a new subarachnoid hemorrhage), the headache may be mistakenly assumed to be another attack of migraine. A variation of premature closure occurs when subsequent clinicians (eg, consultants on a complicated case) unquestioningly accept a previous working diagnosis without independently collecting and reviewing relevant data. Electronic medical records may exacerbate premature closure errors because the incorrect diagnoses, which may have been initially listed as probable, are often propagated in many notes and become increasingly entrenched as correct.
+
+Anchoring errors
+
+Anchoring errors occur when clinicians steadfastly cling to an initial impression even as conflicting and contradictory data accumulate. For example, a working diagnosis of acute pancreatitis is quite reasonable in a 60-year-old man who has epigastric pain and nausea, who is sitting forward clutching his abdomen, and who has a history of several bouts of alcoholic pancreatitis that he states have felt similar to what he is currently feeling. However, despite the fact that the patient states that he has had no alcohol in many years and has normal blood levels of pancreatic enzymes, clinicians may minimize these data (eg, the patient is lying, his pancreas is burned out, the laboratory made a mistake), thus committing an anchoring error and delaying an accurate diagnosis of a penetrating gastric ulcer. Clinicians should regard any conflicting data as evidence of the need to continue to seek an alternative diagnosis rather than as anomalies to be disregarded.
+
+Confirmation bias
+
+Confirmation bias is "cherry-picking," which means clinicians selectively accept clinical data that support a desired hypothesis and ignore data that do not. Confirmation bias often compounds an anchoring error when the clinician uses confirmatory data to support the anchored hypothesis even when contradictory evidence is also available. For example, a clinician may steadfastly cling to patient history elements suggesting acute coronary syndrome (ACS) to confirm the original suspicion of ACS even when serial ECGs and cardiac enzymes are normal.
+
+Attribution errors
+
+Attribution errors involve making decisions based on negative stereotypes, which can lead clinicians to ignore or minimize the possibility of serious disease. For example, clinicians might assume that an unconscious patient with an odor of alcohol is intoxicated and miss hypoglycemia, diabetic ketoacidosis, or intracranial injury, or they might assume that a patient with substance use disorder who has back pain is simply seeking drugs and miss an epidural abscess. Psychiatric patients who develop a physical disorder are particularly subject to attribution errors because not only may they be subject to negative stereotyping but they often describe their symptoms in unclear, inconsistent, or confusing ways, leading unwary clinicians to assume their complaints are functional in nature.
+
+Affective error
+
+Affective error involves letting personal feelings (positive or negative) about a patient affect decisions. For example, avoiding unpleasant but necessary tests or examinations because of fondness or sympathy for the patient (eg, avoiding a pelvic examination and testing for sexually transmitted infections on a patient who is religious or a highly positioned executive or avoiding blood cultures on a seriously ill patient who has poor veins). Similarly, affective error includes failing to pursue a standard evaluation on an unlikeable patient (eg, minimizing the significance of dyspnea in a verbally abusive patient or in someone with chronic obstructive pulmonary disease who continues to smoke).
+
+Risk Factors for Cognitive Error
+
+Internal and external factors can increase the risk of cognitive error.
+
+Internal factors include
+
+Medical knowledge, training, and experience
+
+Overconfidence in oneself or in consultants
+
+Fatigue/sleep deprivation
+
+Balance between accepting risk and being risk averse
+
+External factors include
+
+Workload
+
+Distractions
+
+Team resource management and peer pressures
+
+Minimizing cognitive errors
+
+Some specific strategies can help minimize cognitive errors. Typically, after history and physical examination are done, clinicians often form a working diagnosis based on heuristics. At this point, it is relatively easy to insert a formal pause for reflection, asking several questions:
+
+If it is not the working diagnosis, what else could it be?
+
+What are the most dangerous things it could be?
+
+Is there any evidence that is at odds with the working diagnosis?
+
+These questions can help expand the differential diagnosis to include things that may have been left out because of cognitive errors and thus trigger clinicians to obtain further necessary information.

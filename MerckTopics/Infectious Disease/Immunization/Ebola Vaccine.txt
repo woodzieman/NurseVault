@@ -1,0 +1,128 @@
+=== Ebola Vaccine (Merck Manual Professional) ===
+Section: Infectious Disease > Immunization
+Source: https://www.merckmanuals.com/professional/infectious-diseases/immunization/ebola-vaccine
+Retrieved: 2026-09-25
+
+Of the 3 currently available Ebola virus vaccines worldwide, rVSV-ZEBOV is the only one available in the United States for prevention of Ebola virus disease. It is also authorized for use in the European Union, Canada, and in several countries in Central, East, and West Africa.
+
+Ad26.ZEBOV and MVA-BN-Filo are a successive regimen of 2 vaccines, both of which have received Marketing Authorization by the European Commission (EC) (1, 2). The International Coordinating Group (ICG) on Vaccine Provision has established a global Ebola vaccine stockpile in Switzerland for use during outbreaks.
+
+(See also Overview of Immunization.)
+
+General references
+
+1. European Medicines Agency. Zabdeno. Accessed April 17, 2025.
+
+2. European Medicines Agency. Mvabea. Accessed April 17, 2025.
+
+Preparations of Ebola Vaccine
+
+rVSV-ZEBOV is a live-attenuated recombinant viral vaccine. It provides protection against the Zaire ebolavirus species but does not protect against other species of Ebola virus or Marburg virus (1).
+
+Ad26.ZEBOV and MVA-BN-Filo are separate vaccines administered as a 2-dose series. They contain vaccine vectors that are genetically modified so that they cannot replicate in human cells. These vector vaccines carry the genetic code of several Ebola virus proteins to trigger an immune response:
+
+Ad26.ZEBOV is a recombinant DNA vaccine based on adenovirus type 26 (Ad26).
+
+MVA-BN-Filo is a recombinant DNA vaccine based on modified vaccinia Ankara (MVA).
+
+Preparations reference
+
+1. PREVAC Study Team, Kieh M, Richert L, et al. Randomized Trial of Vaccines for Zaire Ebola Virus Disease. N Engl J Med. 2022;387(26):2411-2424. doi:10.1056/NEJMoa2200072
+
+Indications for Ebola Vaccine
+
+rVSV-ZEBOV is indicated for the prevention of Ebola virus disease caused by Z. ebolavirus species in people 18 years of age and older in the United States who are at high risk of occupational exposure to Ebola using a reactive ring vaccination strategy (ie, identifying and vaccinating people who are recent contacts of a person with a confirmed case of Ebola virus disease, as well as the contacts of those contacts, creating a ring of immunity) (1) because they are involved in the following (2):
+
+Responding to an outbreak of Ebola virus disease
+
+Working as health care personnel at federally designated Ebola treatment centers in the United States
+
+Working as laboratory personnel or as other staff at biosafety level 4 facilities in the United States
+
+Working as laboratory personnel or support staff members at Laboratory Response Network facilities
+
+Ad26.ZEBOV and MVA-BN-Filo are indicated for the prevention of Ebola virus disease caused by the Z. ebolavirus species in people 1 year of age and older in endemic and at-risk areas.
+
+Indications references
+
+1. Muyembe JJ, Pan H, Peto R, et al. Ebola Outbreak Response in the DRC with rVSV-ZEBOV-GP Ring Vaccination. N Engl J Med. 2024;391(24):2327-2336. doi:10.1056/NEJMoa1904387
+
+2. Malenfant JH, Joyce A, Choi MJ, et al. Use of Ebola Vaccine: Expansion of Recommendations of the Advisory Committee on Immunization Practices To Include Two Additional Populations - United States, 2021. MMWR Morb Mortal Wkly Rep. 2022;71(8):290-292. Published 2022 Feb 25. doi:10.15585/mmwr.mm7108a2
+
+Contraindications and Precautions for Ebola Vaccine
+
+The main contraindications for all 3 Ebola vaccines are the following:
+
+Severe allergic reaction (eg, anaphylaxis) to any component of the vaccine, including rice-derived recombinant human serum albumin
+
+History of severe allergic reaction to rice protein
+
+The main precaution for all 3 Ebola vaccines is:
+
+Thrombocytopenia or any coagulation disorder
+
+Anaphylaxis has occurred after administration of these vaccines. After vaccination, people should be observed for at least 15 minutes for early signs of anaphylaxis or anaphylactoid reactions. Appropriate medical treatment and supervision must be available in the event anaphylaxis occurs.
+
+The vaccines should be administered with caution to people with thrombocytopenia or any coagulation disorder because bleeding or bruising may occur after the vaccines are administered.
+
+The main precaution for rVSV-ZEBOV is:
+
+Immunocompromise
+
+The safety and effectiveness of rVSV-ZEBOV have not been assessed in immunocompromised people, and effectiveness may be diminished in immunocompromised people. The risk of vaccination with rVSV-ZEBOV, a live-virus vaccine, in immunocompromised people should be weighed against the risk of disease due to Z. ebolavirus.
+
+Precautions for Ad26.ZEBOV and MVA-BN-Filo include the following:
+
+Immunocompromise
+
+Acute severe febrile illness or acute infection (especially if it leads to febrile seizures)
+
+Pregnant and breastfeeding (chestfeeding) patients
+
+The safety and immunogenicity of the Ad26.ZEBOV and MVA-BN-Filo vaccines regimen have not been thoroughly evaluated in immunocompromised people, including those receiving immunosuppressive therapy. One clinical trial involving immunocompetent people with HIV (ie, adequate CD4 count on antiretroviral therapy) showed vaccine immunogenicity, but these results may not be generalizable to immunocompromised individuals, who may not respond as well as immunocompetent people to the vaccine regimen (1).
+
+Vaccination with Ad26.ZEBOV and MVA-BN-Filo should be postponed in people who have an acute severe febrile illness or acute infection, unless the benefit of immediate vaccination outweighs the potential risks. The presence of a minor infection, a low-grade fever, or both should not delay vaccination.
+
+Vaccination in pregnant and breastfeeding patients requires additional considerations. The Ad26.ZEBOV and MVA-BN-Filo vaccines have been assessed using an open label-clinical trial in pregnant patients, and although no serious adverse events related to vaccination were reported, additional data was deemed necessary to comprehensively establish their safety in this population (2). The vaccine regimen was generally well-tolerated among pregnant patients; however, the decision to vaccinate should take into account the elevated risk of Ebola virus disease in pregnant patients during outbreaks. Because of limited data in breastfeeding patients, the potential benefits of vaccination should be weighed against any unknown risks.
+
+Contraindications and precautions references
+
+1. Barry H, Mutua G, Kibuuka H, et al. Safety and immunogenicity of 2-dose heterologous Ad26.ZEBOV, MVA-BN-Filo Ebola vaccination in healthy and HIV-infected adults: A randomised, placebo-controlled Phase II clinical trial in Africa. PLoS Med. 2021;18(10):e1003813. Published 2021 Oct 29. doi:10.1371/journal.pmed.1003813
+
+2. Kavunga-Membo H, Watson-Jones D, Kasonia K, et al. Delivery and Safety of a Two-Dose Preventive Ebola Virus Disease Vaccine in Pregnant and Non-Pregnant Participants during an Outbreak in the Democratic Republic of the Congo. Vaccines (Basel). 2024;12(8):825. Published 2024 Jul 23. doi:10.3390/vaccines12080825
+
+Dose and Administration of Ebola Vaccine
+
+The rVSV-ZEBOV vaccine dose is 1.0 mL IM.
+
+The Ad26.ZEBOV and MVA-BN-Filo vaccine dose is 0.5 mL IM, administered in a 2-dose series:
+
+Ad26.ZEBOV (red cap vial) is administered first.
+
+MVA-BN-Filo (yellow cap vial) is administered 8 weeks later.
+
+Adverse Effects of Ebola Vaccine
+
+For all 3 vaccines, the most common adverse effects include injection site pain and swelling, myalgias, arthralgias, headache, and fatigue.
+
+For rVSV-ZEBOV, other common adverse effects include injection site erythema, feverishness, nausea, arthritis, rash, and abnormal sweating.
+
+For Ad26.ZEBOV and MVA-BN-Filo, other common adverse effects include injection site warmth and chills. In children 1 to 17 years of age, the most common adverse effects reported are the following:
+
+Injection site pain
+
+Fatigue
+
+Decreased activity
+
+Decreased appetite
+
+Irritability
+
+For more information about adverse effects of these vaccines, refer to the prescribing information.
+
+More Information
+
+The following English-language resource may be useful. Please note that The Manual is not responsible for the content of this resource.
+
+Advisory Committee on Immunization Practices (ACIP): ACIP Recommendations: Ebola Vaccine

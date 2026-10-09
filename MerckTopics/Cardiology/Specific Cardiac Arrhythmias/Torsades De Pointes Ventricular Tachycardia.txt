@@ -1,0 +1,144 @@
+=== Torsades de Pointes Ventricular Tachycardia (Merck Manual Professional) ===
+Section: Cardiology > Specific Cardiac Arrhythmias
+Source: https://www.merckmanuals.com/professional/cardiovascular-disorders/specific-cardiac-arrhythmias/torsades-de-pointes-ventricular-tachycardia
+Retrieved: 2026-09-25
+
+The long QT interval responsible for torsades de pointes ventricular tachycardia (TdeP VT) can be acquired, congenital or a combination.
+
+QT-interval prolongation predisposes to early after-depolarizations and spatial dispersion of ventricular refractoriness, which can lead to arrhythmias. (For discussion of congenital causes, see Long QT Interval Syndromes, and see also Overview of Arrhythmias.)
+
+Overview of Long QT Syndrome
+
+video
+
+Pathophysiology of Torsades de Pointes Ventricular Tachycardia
+
+TdeP VT results from any disorder of cardiac ion channel function or regulation that prolongs ventricular myocyte action potential duration as evidenced by prolongation of the rate-corrected QT interval on the ECG (QTc), which is typically calculated using Bazett's formula. The risk of TdeP VT is dependent on the degree of QTc prolongation, particularly if it is > 0.50 seconds.
+
+TdeP VT may result from
+
+Loss of function of repolarizing potassium current channels OR
+
+Gain of function of depolarizing sodium or depolarizing calcium current channels
+
+Each of these factors predisposes to TdeP VT by prolonging repolarization, which induces early after-depolarizations (secondary depolarization events during the plateau of the action potential) and spatial dispersion of ventricular refractoriness. The dispersion of refractoriness permits propagation of the early after-depolarizations and initiation of torsade de pointes ventricular tachycardia.
+
+Predisposing factors
+
+The most common predisposing factor in acquired TdeP VT is a
+
+QT interval–prolonging medication, especially a class Ia, class Ic, or class III antiarrhythmic medication
+
+Other medications that can induce TdeP VT include tricyclic antidepressants, phenothiazines, and certain antivirals and antifungals (see CredibleMeds for up-to-date information).
+
+In most cases, there are several predisposing causes, which may include (1):
+
+Female sex
+
+Older age
+
+Hypokalemia
+
+Hypomagnesemia
+
+Hypothyroidism
+
+Slow ventricular rate
+
+Irregular ventricular rate
+
+Major acute brain damage (eg, bleeding, stroke, traumatic brain injury)
+
+Eating disorders
+
+Organophosphate poisoning
+
+Structural heart disease (especially acute ischemia, myocarditis, and ventricular hypertrophy)
+
+Pathophysiology reference
+
+1.  El-Sherif N, Turitto G, Boutjdir M: Acquired Long QT Syndrome and Electrophysiology of Torsade de Pointes. Arrhythm Electrophysiol Rev 8(2):122–130, 2019. doi: 10.15420/aer.2019.8.3
+
+Symptoms and Signs of Torsades de Pointes Ventricular Tachycardia
+
+TdeP VT often causes syncope because the underlying rate (200 to 250 beats/minute) is nonperfusing. Palpitations are common among patients who are conscious.
+
+Because the QT interval shortens with increased ventricular rates, TdeP VT is often self-terminating. However, it instead may degenerate into ventricular fibrillation and cause sudden death. Sometimes the long QT interval is detected after resuscitation.
+
+Diagnosis of Torsades de Pointes Ventricular Tachycardia
+
+Electrocardiography (ECG)
+
+Diagnosis is by ECG showing an undulating QRS axis, with the polarity of complexes shifting around the baseline (see figure Torsades de Pointes Ventricular Tachycardia). ECG between episodes shows a long QT interval after correction for heart rate (QTc). Normal QTc values are < 0.43 second for males and < 0.45 second for females. Values are considered prolonged when they are > 0.45 second for males or > 0.47 second for females (1). A family history may suggest a congenital syndrome.
+
+ECG warning signs of impending TdeP VT in addition to prolongation of the QT interval include
+
+T-wave and U-wave fusion (sometimes with giant TU waves)
+
+Post-extrasystolic changes in repolarization pattern
+
+Macroscopic T-wave alternans (visible alternation of two different appearing T-waves)
+
+Frequent polymorphic ventricular premature beats representing single beats of TdeP (often in bigeminy)
+
+Repetitive short runs of polymorphic ventricular tachycardia
+
+Warning Signs of Torsades de Pointes Ventricular Tachycardia
+
+Image
+
+(First rhythm strip) Post-pause repolarization changes, compared to the patient's usual T-wave and U-wave morphology (dot). After the pause created by a pair of ventricular premature beats, the next sinus beat shows a different repolarization pattern with fusion of the T-wave and the U-wave and QTU interval prolongation. (Second rhythm strip) Macroscopic T-wave alternans. Every second sinus beat shows a T-wave and a U-wave morphology (dots) that are slightly different (smaller in height and shorter in duration) than that of every other second sinus beat (stars). (Third rhythm strip) Frequent polymorphic ventricular premature beats (arrows) often, as shown here, in a bigeminal pattern. This rhythm strip also shows post-pause change in the repolarization pattern (the T-wave and U-wave under the star) compared to the patient's usual T-wave and U-wave (under the dot). (Fourth rhythm strip) Giant TU waves with QTU interval prolongation (arrow). This rhythm strip also shows ventricular premature beat bigeminy followed by a run of torsade de pointes ventricular tachycardia initiated by the typical short-long-short initiation sequence.
+
+Images courtesy of L. Brent Mitchell, MD.
+
+The TdeP VT is suspected by recognizing a rapid, polymorphic VT, often that self-terminates. Onset typically follows a short-long-short RR interval initiation sequence (although this sequence is not specific for TdeP VT): the first short RR interval is between a baseline beat (usually a normal beat) and a premature beat (usually a ventricular premature beat). The long RR interval is the post-extrasystolic pause and ends with a baseline beat (usually a normal beat). The pause further prolongs the QT interval of this baseline beat, and it is followed by a short RR interval when the TdeP VT begins. Although patients may have a normal QTc at other times, the QTc is usually substantially prolonged around the time of TdeP VT and the QT interval of the last QRS complex prior to TdeP VT must be long (often with a giant TU wave).
+
+Pearls & Pitfalls
+
+Torsades de pointe ventricular tachycardia typically follows a short-long-short RR interval initiation sequence and the QT interval of the last QRS complex prior to TdeP VT must be long.
+
+Torsades de Pointes Ventricular Tachycardia
+
+Clinical Calculators
+
+QT Interval Correction (EKG)
+
+Diagnosis reference
+
+1. Goldenberg I, Moss AJ, Zareba W:  QT interval: how to measure it and what is "normal". J Cardiovasc Electrophysiol 17(3):333–336, 2006. doi: 10.1111/j.1540-8167.2006.00408.x
+
+Treatment of Torsades de Pointes Ventricular Tachycardia
+
+Unsynchronized direct current cardioversion for ventricular fibrillation
+
+Correction of electrolyte abnormalities, especially hypokalemia
+
+Magnesium sulfate (MgSO4) IV
+
+Treatments to increase basal heart rate, including pacing or IV isoproterenol
+
+Treatment of cause
+
+An acute episode prolonged enough to cause hemodynamic compromise is treated with unsynchronized cardioversion, beginning with biphasic 120 to 200 joules (or monophasic 360 joules). Nevertheless, early recurrence is the rule.
+
+Electrolyte abnormalities (eg, hypokalemia), which can exacerbate the risk of ventricular arrhythmias, should be corrected. Patients often respond to magnesium, usually magnesium sulfate 2 g IV over 1 to 2 minutes. If this treatment is unsuccessful, a second bolus is given in 5 to 10 minutes, and a magnesium infusion of 3 to 20 mg/minute may be started in patients without renal insufficiency (1). Lidocaine (a class Ib antiarrhythmic medication) shortens the QT interval and may be effective especially for medication-induced torsades de pointes (2). Class Ia, Ic, and III antiarrhythmics are avoided.
+
+If a medication is the cause, it is stopped, but until medication clearance is complete, patients with frequent or long runs of TdeP VT require treatment to shorten the QT interval. Because increasing the heart rate shortens the QT interval, temporary pacing, IV isoproterenol, or both are often effective. Increasing heart rate will also shorten the “long” in the “short-long-short” initiation sequences of TdeP VT (1).
+
+Long-term treatment is avoidance of conditions that prolong the QT interval. Some patients with an acquired long QT-interval syndrome have an underlying subclinical congenital long QT-interval syndrome suggested by persistent QTc interval prolongation after removal of exogenous QTc prolonging influences (2).
+
+Treatment references
+
+1.  Al-Khatib SM, Stevenson WG, Ackerman MJ, et al: 2017 AHA/ACC/HRS guideline for management of patients with ventricular arrhythmias and the prevention of sudden cardiac death: a report of the American College of Cardiology Foundation/American Heart Association Task Force on Clinical Practice Guidelines and the Heart Rhythm Society. J Am Coll Cardiol 72:e91–e220, 2018. doi: 10.1016/j.jacc.2017.10.054
+
+2. Davies RA, Ladouceur VB, Green MS, et al: The 2023 Canadian Cardiovascular Society Clinical Practice Update on Management of the Patient With a Prolonged QT Interval. Can J Cardiol 39(10):1285–1301, 2023. doi: 10.1016/j.cjca.2023.06.011
+
+Key Points
+
+The long QT interval responsible for torsades de pointes ventricular tachycardia can be congenital or acquired.
+
+Torsades de pointes runs are usually self-terminating but frequently recurrent.
+
+Unsynchronized defibrillation is required if a torsades de pointes run induces ventricular fibrillation.
+
+The torsades rhythm is treated with magnesium sulfate 2 g IV over 1 to 2 minutes, correction of hypokalemia, pacing or isoproterenol to increase heart rate, and correction of the cause.

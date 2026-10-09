@@ -1,0 +1,132 @@
+=== Cytomegalovirus (CMV) Infection (Merck Manual Professional) ===
+Section: Infectious Disease > Herpesviruses
+Source: https://www.merckmanuals.com/professional/infectious-diseases/herpesviruses/cytomegalovirus-cmv-infection
+Retrieved: 2026-09-25
+
+CMV (human herpesvirus type 5) is transmitted through blood, body fluids (including human breast milk), or transplanted organs. Infection may also be acquired transplacentally or during birth, or through sexual contact.
+
+The prevalence of CMV increases with age. Approximately 80% of adults have CMV infection worldwide (resulting in lifelong latent infection) (1). People in lower socioeconomic groups and those residing in resource-limited settings generally have higher seroprevalence. In North America, by young adulthood, nearly half of females in the United States and a quarter of females in Canada have acquired CMV (2).
+
+(See also Overview of Herpesvirus Infections and Congenital and Perinatal Cytomegalovirus Infection.)
+
+General references
+
+1. Zuhair M, Smit GSA, Wallis G, et al. Estimation of the worldwide seroprevalence of cytomegalovirus: A systematic review and meta-analysis. Rev Med Virol. 2019;29(3):e2034. doi:10.1002/rmv.2034
+
+2. Dana Flanders W, Lally C, Dilley A, Diaz-Decaro J. Estimated cytomegalovirus seroprevalence in the general population of the United States and Canada. J Med Virol. 2024;96(3):e29525. doi:10.1002/jmv.29525
+
+Symptoms and Signs of Cytomegalovirus
+
+Acquired infections can often be asymptomatic.
+
+An acute febrile illness, termed CMV mononucleosis, may cause hepatitis with elevated aminotransferases (usually subclinical without jaundice), and atypical lymphocytosis similar to infectious mononucleosis due to Epstein-Barr virus (EBV).
+
+Postperfusion/posttransfusion syndrome can develop 2 to 4 weeks after transfusion with blood products containing CMV. It causes fever lasting 2 to 3 weeks and the same manifestations as CMV mononucleosis.
+
+Congenital CMV infection may be asymptomatic or may cause abortion, stillbirth, or postnatal death. Complications include extensive hepatic and central nervous system (CNS) damage.
+
+In patients who are immunocompromised, CMV is a major cause of morbidity and mortality. Disease often results from reactivation of latent virus. The lungs, gastrointestinal tract, or CNS may be involved. In the gastrointestinal tract, ulcerative disease of the colon (with abdominal pain and gastrointestinal bleeding) or of the esophagus (with odynophagia) may also occur. CMV can be prevalent in the posttransplant setting (1). In patients with advanced HIV, CMV can cause retinitis in about 30% of patients with funduscopically visible retinal abnormalities (2). However, in the post-antiretroviral therapy (ART) era, the incidence of CMV retinitis has significantly declined.
+
+Symptoms and signs references
+
+1. Atabani SF, Smith C, Atkinson C, et al. Cytomegalovirus replication kinetics in solid organ transplant recipients managed by preemptive therapy. Am J Transplant. 2012;12(9):2457-2464. doi:10.1111/j.1600-6143.2012.04087.x
+
+2. Ude IN, Yeh S, Shantha JG. Cytomegalovirus retinitis in the highly active anti-retroviral therapy era. Ann Eye Sci. 2022;7:5. doi:10.21037/aes-21-1814
+
+Diagnosis of Cytomegalovirus
+
+Detection of CMV antigen or DNA (via polymerase chain reaction [PCR])
+
+Serologic testing
+
+Biopsy of tissue for histopathological examination in patients who are immunocompromised
+
+Sometimes viral culture
+
+Urinary detection of CMV in infants
+
+CMV infection is suspected in
+
+Immunocompetent people with mononucleosis-like syndromes
+
+Patients who are immunocompromised and have gastrointestinal, lung, CNS, or retinal symptoms
+
+Neonates with systemic disease
+
+Laboratory confirmation of primary CMV infection in immunocompetent individuals is necessary only to differentiate it from other, particularly treatable, conditions or serious disease, such as primary HIV.
+
+If there is clinical suspicion, infection is established by laboratory detection of the virus in appropriate specimens; however, detection of CMV in blood or tissue by PCR or culture alone does not confirm disease; for tissue-invasive disease, histopathologic evidence remains the gold standard. However, when biopsy is not practical or feasible (eg, in transplantation) CMV blood viral load or antigenemia is often measured, as this can often predict disease in the appropriate clinical setting, especially when levels are high or rising (1). In infants, the diagnosis can be made by detecting CMV in urine or saliva using PCR; viral culture is slower and more labor intensive so rarely performed (2).
+
+Serologic tests (eg, detection of IgM, IgG) can also be helpful; seroconversion can be demonstrated by development of CMV IgM antibodies and indicates new CMV infection. However, CMV disease can also result from reactivation of latent disease in immunocompromised hosts. Reactivation of CMV can result in detectable virus in the urine, other body fluids, or tissues and may represent viral shedding instead of active infection. Therefore, biopsy and histopathological confirmation may be required to demonstrate invasive disease. If tissue infection is present, CMV inclusion bodies ("owl's eye" nuclei) may be visible. Quantitative detection of CMV antigen or DNA in the peripheral blood can also be very helpful because an elevated or rising CMV viral load is often highly suggestive of invasive disease. Such CMV detection can be particularly helpful in patients who are severely immunocompromised with compatible clinical syndromes in whom biopsy may not be feasible.
+
+CMV mononucleosis can be differentiated from infectious (EBV) mononucleosis by the usual lack of pharyngitis, a negative heterophile antibody test, and positive CMV serologic testing. CMV infection affecting the liver can be differentiated from other viral hepatitis infections by hepatitis serologic testing.
+
+Diagnosis references
+
+1. Miller JM, Binnicker MJ, Campbell S, et al. Guide to Utilization of the Microbiology Laboratory for Diagnosis of Infectious Diseases: 2024 Update by the Infectious Diseases Society of America (IDSA) and the American Society for Microbiology (ASM). Clin Infect Dis. Published online March 5, 2024. doi:10.1093/cid/ciae104
+
+2. Leber AL. Maternal and congenital human cytomegalovirus infection: laboratory testing for detection and diagnosis. J Clin Microbiol. 2024;62(4):e0031323. doi:10.1128/jcm.00313-23
+
+Treatment of Cytomegalovirus
+
+For serious disease, antivirals (eg, ganciclovir, valganciclovir, foscarnet, cidofovir, maribavir)
+
+Treatment of CMV infection is with systemic antiviral therapy. Oral valganciclovir and IV ganciclovir are typically first-line options; IV administration may be needed for severe disease. Foscarnet and cidofovir are generally considered second-line agents and may be used if there is resistance or intolerance to ganciclovir; however, their use is limited by nephrotoxicity. 
+
+Maribavir is a newer oral antiviral that can be used in refractory or resistant posttransplant CMV and offers a favorable safety profile (1). 
+
+Reduction of immunosuppression is typically necessary in transplant patients to facilitate viral clearance.
+
+CMV retinitis
+
+Medications used to treat CMV retinitis in induction and maintenance regimens include the following (2):
+
+Ganciclovir or valganciclovir
+
+Foscarnet, with or without ganciclovir
+
+Cidofovir
+
+Maribavir
+
+Most patients receive induction therapy with IV ganciclovir or oral valganciclovir.
+
+Maintenance (suppressive) therapy with ganciclovir or valganciclovir is given after induction.
+
+Alternatively, IV foscarnet can be given with or without ganciclovir. Adverse effects of IV foscarnet are significant and include nephrotoxicity, symptomatic hypocalcemia, hypomagnesemia, hyperphosphatemia, and hypokalemia.
+
+Cidofovir therapy is another alternative. Efficacy of cidofovir is similar to that of ganciclovir or foscarnet. Significant adverse effects, including renal failure, limit its use. Cidofovir may cause iritis or ocular hypotony (low intraocular pressure). The potential for nephrotoxicity can be reduced by giving probenecid and prehydration with each dose. However, the adverse effects of probenecid, including rash, headache, and fever, may be significant enough to prevent its use.
+
+Maribavir is an oral medication for treatment of refractory CMV disease. Maribavir has a novel mechanism of action, targeting the viral UL97 kinase, and prevents viral maturation. It is active against CMV that is resistant to ganciclovir. Maribavir cannot be coadministered with ganciclovir or valganciclovir.
+
+Intravitreal antiviral therapy should be used in combination with systemic therapy for patients with CMV retinitis that immediately threatens sight (ie, disease involving or close to the optic nerve or macula). Even patients receiving ocular injections need systemic therapy to prevent CMV in the contralateral eye and extraocular tissues.
+
+With any of the maintenance regimens, clinicians can consider stopping maintenance therapy after 3 months of CMV therapy in people with HIV who are taking antiretroviral therapy (ART) and have had a CD4 count of ≥ 100 cells/mL for 3 months (2).
+
+Treatment references
+
+1. Monday LM, Keri V, Chandrasekar PH. Advances in pharmacotherapies for cytomegalovirus infection: what is the current state of play?. Expert Opin Pharmacother. 2024;25(6):685-694. doi:10.1080/14656566.2024.2353627
+
+2. National Institutes of Health; Centers for Disease Control and Prevention; HIV Medicine Association of the Infectious Diseases Society of America Panel on Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents with HIV— A Working Group of the Office of AIDS Research Advisory Council (OARAC). Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents with HIV: Cytomegalovirus Disease. July 14, 2025. Accessed October 17, 2025.
+
+Prevention of Cytomegalovirus
+
+Prophylaxis or preemptive treatment (actively monitoring patients by viral load and giving antivirals to those with evidence of infection) is effective for preventing CMV disease in solid organ or hematopoietic cell transplant recipients infected with CMV and at risk of CMV disease. Medications used include ganciclovir, valganciclovir, and foscarnet. Letermovir is a newer agent with a novel mechanism of action that is not approved for treatment of active CMV disease but can be used for prophylaxis in bone marrow or renal transplantation (1). It has many significant drug interactions, including with cyclosporine, tacrolimus, sirolimus, and voriconazole.
+
+Prevention reference
+
+1. Monday LM, Keri V, Chandrasekar PH. Advances in pharmacotherapies for cytomegalovirus infection: what is the current state of play?. Expert Opin Pharmacother. 2024;25(6):685-694. doi:10.1080/14656566.2024.2353627
+
+Key Points
+
+Fifty to 80% of adults have latent CMV infection.
+
+Immunocompetent children and adults can have mild, nonspecific symptoms or sometimes a mononucleosis-like syndrome when first infected with CMV.
+
+Congenital infection may cause stillbirth or severe, sometimes fatal postnatal complications, including extensive hepatic or CNS damage.
+
+Patients who are severely immunocompromised may have severe disease involving the retina, lungs, gastrointestinal tract, or CNS.
+
+Antivirals may help treat retinitis or other CMV disease.
+
+Transplant patients at risk of CMV infection require prophylactic antivirals or close monitoring for early indications of infection.

@@ -1,0 +1,94 @@
+=== Gestational Age (Merck Manual Professional) ===
+Section: Pediatrics > Perinatal Problems
+Source: https://www.merckmanuals.com/professional/pediatrics/perinatal-problems/gestational-age
+Retrieved: 2026-09-25
+
+Gestational age, prenatal history, and growth parameters help identify the risk of neonatal pathology. Gestational age at birth is the primary determinant of organ maturity.
+
+The standard definition of neonatal gestational age is the number of weeks from the first day of a pregnant patient's last normal menstrual period to the date of delivery. Defining gestational age by the last menstrual period is the universal standard used by obstetricians and neonatologists for discussing fetal maturation, but it is not an accurate measure of weeks of fetal development. This is because ovulation and conception occur in the middle of the menstrual cycle, thus the gestational age is counted beginning approximately 2 weeks before conception. Also, determining gestational age based on the last menstrual period may be even more inaccurate if a pregnant patient has irregular menses.
+
+Embryologic age is the time elapsed from the date of conception to the date of delivery and is typically 2 weeks less than the gestational age. Women may estimate the date of conception based on their time of ovulation by using in-home hormonal testing and/or basal body temperature measurements to estimate when ovulation occurs. However, the date of conception is definitively known only when in vitro fertilization or other assisted reproductive technologies are used.
+
+In addition to the standard method of estimating gestational age by the last menstrual period, gestational age may also be estimated based on
+
+Date of ovulation or conception
+
+Fetal ultrasound
+
+Physical parameters after birth (eg, using the new Ballard score)
+
+Clinical Calculators
+
+Pregnancy Gestation by LMP and Ultrasound Biometry
+
+The estimated date of delivery (EDD) is the date birth is expected (due date). The EDD can be calculated as
+
+The date of conception + 266 days
+
+The last menstrual period (LMP) + 280 days (40 weeks) for women with regular, 28-day menstrual cycles
+
+The LMP + 280 days + (cycle length – 28 days) for women with regular menstrual cycles other than 28 days duration
+
+When periods are regular, the menstrual history is a relatively reliable method of determining EDD.
+
+When other information is lacking, ultrasound measurements of the fetus in the first trimester give the most accurate estimate of gestational age. When the date of conception is unknown and menstrual cycles are irregular or information about them is not available, ultrasound may be the sole source of the EDD.
+
+The gestational age based on the last menstrual period and based on the first fetal ultrasound in the current pregnancy are compared. If these age estimates are inconsistent, the EDD (and, thus, the estimated gestational age) may be changed, depending on the number of weeks of pregnancy and the degree of inconsistency. The American College of Obstetricians and Gynecologists (ACOG) (1) recommends using the EDD based on ultrasound measurements if it differs from the menstrual date by
+
+At ≤ 8 6/7 weeks of gestation: > 5 days
+
+At 9 to 15 6/7 weeks of gestation: > 7 days
+
+At 16 to 21 6/7 weeks of gestation: > 10 days
+
+At 22 to 27 6/7 weeks of gestation: > 14 days
+
+At ≥ 28 weeks of gestation: > 21 days
+
+The menstrual and ultrasound dates are reconciled only after the first ultrasound in the current pregnancy—EDD is not changed based on subsequent ultrasounds. Because ultrasound estimates are less accurate later in pregnancy, second and third trimester ultrasound results should rarely be used to change estimated gestational age, and, if changing the EDD is considered, a specialist in fetal ultrasonography should be consulted. Accuracy of gestational age assessments in the second and third trimesters can be improved by including > 1 fetal measurement (eg, femur length and head circumference) in the determination (2).
+
+Newborn physical examination findings are also used by clinicians to estimate gestational age, using the new Ballard score. The new Ballard score, which replaced the Ballard Maturational score, was refined and expanded to achieve greater accuracy and to include extremely premature neonates (3); however, the new Ballard score is accurate only within plus or minus 2 weeks. Newborn clinical assessments of gestational age have been found to overestimate gestational age in preterm infants and underestimate gestational age in small-for-gestational-age infants (4). Therefore, physical examination assessment of gestational age should be used to assign gestational age and for decisions regarding care only when there is no reliable obstetric information about the EDD or there is a major discrepancy between the obstetrically defined gestational age and the findings on physical examination.
+
+The new Ballard score is based on the neonate's physical and neuromuscular maturity and can be used up to 4 days after birth (in practice, the new Ballard score is usually used in the first 24 hours). The neuromuscular components are more consistent over time because the physical components mature quickly after birth. However, the neuromuscular components can be affected by illness and medications (eg, magnesium sulfate given during labor).
+
+Assessment of Gestational Age—New Ballard Score
+
+Scores from neuromuscular and physical domains are added to obtain total score.
+
+(Adapted from Ballard JL, Khoury JC, Wedig K, et al. New Ballard score, expanded to include extremely premature infants. The Journal of Pediatrics. 1991;119(3):417–423. doi:10.1016/s0022-3476(05)82056-6; used with permission of the CV Mosby Company.)
+
+Based on gestational age, the American College of Obstetricians and Gynecologists classifies neonates as (5)
+
+Preterm: < 37 weeks of gestation
+
+Late preterm: 34 to 36 6/7 weeks
+
+Early term: 37 0/7 weeks through 38 6/7 weeks
+
+Full term: 39 0/7 weeks through 40 6/7 weeks
+
+Late term: 41 0/7 weeks through 41 6/7 weeks
+
+Postterm: ≥ 42 0/7 weeks
+
+The World Health Organization (WHO) further classifies preterm neonates as (6)
+
+Extremely preterm: < 28 weeks of gestation
+
+Very preterm: 28 0/7 through 31 6/7 weeks
+
+Moderate preterm: 32 0/7 through 33 6/7 weeks
+
+References
+
+1. Committee Opinion No 700: Methods for Estimating the Due Date. Obstet Gynecol. 2017;129(5):e150-e154. doi:10.1097/AOG.0000000000002046. Reaffirmed 2022.
+
+2. Self A, Schlussel M, Collins GS, et al. External validation of models to estimate gestational age in the second and third trimester using ultrasound: A prospective multicentre observational study. BJOG. 2024;131(13):1862-1873. doi:10.1111/1471-0528.17922
+
+3. Ballard JL, Khoury JC, Wedig K, Wang L, Eilers-Walsman BL, Lipp R. New Ballard Score, expanded to include extremely premature infants. J Pediatr. 1991;119(3):417-423. doi:10.1016/s0022-3476(05)82056-6
+
+4. Lee AC, Panchal P, Folger L, et al. Diagnostic accuracy of neonatal assessment for gestational age determination: A systematic review. Pediatrics. 2017;140(6):e20171423. doi:10.1542/peds.2017-1423
+
+5. ACOG Committee Opinion No 579. Definition of term pregnancy. Obstet Gynecol. 2013;122(5):1139-1140. doi:10.1097/01.AOG.0000437385.88715.4a
+
+6. Quinn JA, Munoz FM, Gonik B, et al. Preterm birth: Case definition & guidelines for data collection, analysis, and presentation of immunisation safety data. Vaccine. 2016;34(49):6047-6056. doi:10.1016/j.vaccine.2016.03.045

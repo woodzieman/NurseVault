@@ -1,0 +1,64 @@
+=== Escherichia coli Infections (Merck Manual Professional) ===
+Section: Infectious Disease > Gram-Negative Bacilli
+Source: https://www.merckmanuals.com/professional/infectious-diseases/gram-negative-bacilli/escherichia-coli-infections
+Retrieved: 2026-09-25
+
+Diseases caused by E. coli
+
+Urinary tract infection (UTI; most common)
+
+Enteric infection (certain strains)
+
+Invasive infection (rare, except in neonates)
+
+Infection at other sites
+
+Most commonly, E. coli cause UTIs, which usually represent ascending infection (ie, from the perineum via the urethra). E. coli may also cause prostatitis and pelvic inflammatory disease (PID).
+
+One Health: Zoonotic Diseases
+
+video
+
+E. coli normally inhabit the gastrointestinal tract; however, some strains have acquired genes that enable them to cause intestinal infection. When ingested, the following strains can cause diarrhea:
+
+Enterohemorrhagic: These strains (including serotype O157:H7 and others) produce several cytotoxins, neurotoxins, and enterotoxins, including Shiga toxin (verotoxin), and cause bloody diarrhea; hemolytic-uremic syndrome develops in 2 to 7% of cases. Such strains have most often been acquired from undercooked ground beef but may also be acquired from infected people by the fecal-oral route when hygiene is inadequate.
+
+Enterotoxigenic: These strains can cause watery diarrhea, particularly in infants and travelers (traveler's diarrhea).
+
+Enteroinvasive: These strains can cause inflammatory diarrhea.
+
+Enteropathogenic: These strains can cause watery diarrhea, particularly in infants.
+
+Enteroaggregative: Some strains are emerging as potentially important causes of persistent diarrhea in patients with HIV/AIDS and in children in tropical areas.
+
+Other strains are capable of causing extraintestinal infection if normal intestinal anatomic barriers are disrupted (eg, by ischemia, inflammatory bowel disease, colonic diverticulitis, or trauma), in which case the organism may spread to adjacent structures or invade the bloodstream. Hepatobiliary, peritoneal, cutaneous, and pulmonary infections also occur. E. coli bacteremia may also occur without an evident portal of entry.
+
+In neonates, particularly preterm infants, E. coli bacteremia and meningitis (usually caused by strains with the K1 capsule, a marker for neuroinvasiveness) are common.
+
+Diagnosis of E. coli Infections
+
+Culture or molecular testing
+
+Samples of blood or other clinical material are sent for culture; samples of stool are sent for culture or molecular testing.
+
+If an enterohemorrhagic strain is suspected, the laboratory must be notified because special culture media are required.
+
+Treatment of E. coli Infections
+
+Various antibiotics depending on site of infection and susceptibility testing
+
+Treatment of E. coli infections must be started empirically based on the site and severity of infection (eg, mild bladder infection, urosepsis) and then modified based on antibiotic susceptibility testing. Many strains are resistant to ampicillin and tetracyclines, so other antibiotics should be used; they include piperacillin, some beta-lactam/beta-lactamase inhibitors, cephalosporins, aztreonam, carbapenems, fosfomycin, nitrofurantoin, aminoglycosides, trimethoprim/sulfamethoxazole (TMP/SMX), and fluoroquinolones.
+
+Surgery may be required to control the source of infection (eg, to drain pus, debride necrotic lesions, or remove foreign bodies).
+
+Enterohemorrhagic E. coli (EHEC) gastrointestinal infection is not treated with antibiotics.
+
+Drug resistance
+
+Besides being resistant to ampicillin and tetracycline, E. coli have become increasingly resistant to TMP/SMX and fluoroquinolones. Also, multidrug-resistant strains that produce extended-spectrum beta-lactamases (ESBLs) have emerged as an important cause of community-acquired UTI and sepsis. ESBLs can hydrolyze most beta-lactams, including penicillins and broad-spectrum cephalosporins and monobactams but not carbapenems (imipenem, meropenem, doripenem, ertapenem); carbapenems or newer beta-lactam/beta-lactamase inhibitor combination antibiotics, cefiderocol, and eravacycline may be used for most ESBL-producing E. coli.
+
+E. coli have also acquired resistance genes that encode AmpC beta-lactamases, serine carbapenemases, and metallo-carbapenemases. The tetracycline–like agents (eg, tigecycline, eravacycline) and cefiderocol (an injectable siderophore cephalosporin) are also active against ESBL-producing strains as well as AmpC beta-lactamase–, serine carbapenemase–, and metallo-carbapenemase–producing strains. Fosfomycin has activity against multidrug-resistant strains and is an oral alternative for lower UTIs (1).
+
+Treatment reference
+
+1. Tamma PD, Aitken SL, Bonomo RA, Mathers AJ, van Duin D, Clancy CJ. Infectious Diseases Society of America 2023 Guidance on the Treatment of Antimicrobial Resistant Gram-Negative Infections. Clin Infect Dis. Published online July 18, 2023. doi:10.1093/cid/ciad428

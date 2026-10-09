@@ -1,0 +1,78 @@
+=== Glucagonoma (Merck Manual Professional) ===
+Section: Oncology > Gastrointestinal and Pancreatic Neuroendocrine Tumors (NETs)
+Source: https://www.merckmanuals.com/professional/oncology/gastrointestinal-and-pancreatic-neuroendocrine-tumors-nets/glucagonoma
+Retrieved: 2026-09-25
+
+Glucagon is a hormone normally secreted by the pancreas when blood glucose levels fall. It stimulates glycogenolysis in the liver and thus increases blood glucose.
+
+Glucagonomas are a type of pancreatic endocrine tumor that arises from the alpha cells of the pancreas. They are very rare but similar to other islet cell tumors in that the primary and metastatic lesions are slow-growing: 15-year survival is common. Most glucagonomas are malignant.
+
+The average age at symptom onset is 50 years; 80% of patients are female (1). A few patients have multiple endocrine neoplasia type 1.
+
+General reference
+
+1. Song X, Zheng S, Yang G, et al. Glucagonoma and the glucagonoma syndrome. Oncol Lett. 2018;15(3):2749-2755. doi:10.3892/ol.2017.7703
+
+Symptoms and Signs of Glucagonoma
+
+Because glucagonomas produce glucagon, which raises blood glucose, the symptoms are the same as symptoms of diabetes.
+
+Frequently, weight loss, normochromic anemia, hypoaminoacidemia, and hypolipidemia are present.
+
+Necrolytic Migratory Erythema
+
+Image
+
+This photo shows necrolytic migratory erythema on the legs of a 55-year-old patient. This lesion is caused by a tumor in the alpha cells of the pancreas that secretes excessive amounts of glucagon. This overproduction leads to necrolytic migratory erythema.
+
+PDC/SCIENCE PHOTO LIBRARY
+
+The most distinctive clinical feature is a chronic eruption involving the extremities, often associated with a smooth, shiny, vermilion tongue and cheilitis. The exfoliating, erythematous lesion with superficial necrolysis is termed necrolytic migratory erythema.
+
+Diagnosis of Glucagonoma
+
+Serum glucagon level
+
+CT and endoscopic ultrasound to localize
+
+Most patients with glucagonoma have glucagon levels > 1000 pg/mL (> 1000 ng/L; normal is < 200 pg/mL [< 200 ng/L]) (1). However, moderate elevations occur in renal insufficiency, acute pancreatitis, severe stress, and fasting. Correlation with symptoms is required.
+
+Patients should have abdominal CT followed by endoscopic ultrasound; MRI or positron emission tomography (PET) may be used if CT is unrevealing.
+
+Patients with necrolytic migratory erythema may have low levels of amino acid, zinc, and essential fatty acids.
+
+Diagnosis reference
+
+1. Hofland J, Falconi M, Christ E, et al. European Neuroendocrine Tumor Society 2023 guidance paper for functioning pancreatic neuroendocrine tumour syndromes. J Neuroendocrinol. 2023;35(8):e13318. doi:10.1111/jne.13318
+
+Staging of Glucagonoma
+
+Staging of gastrinomas uses the American Joint Committee on Cancer (AJCC) tumor, nodes, metastases (TNM) system for well-differentiated NETs of the pancreas (1).
+
+Staging reference
+
+1. American College of Surgeons. AJCC Cancer Staging System, version 9: Neuroendocrine Tumors. Accessed March 16, 2026.
+
+Treatment of Glucagonoma
+
+Surgical resection for localized disease
+
+Somatostatin analogs, peptide receptor radionuclide therapy, targeted therapies, or chemotherapy for metastatic disease
+
+Octreotide or lanreotide to suppress glucagon production
+
+Resection of the tumor alleviates all symptoms.
+
+Octreotide injections partially suppress glucagon production and relieve the erythema, but glucose tolerance may also decrease because octreotide decreases insulin secretion. Octreotide may quickly reverse anorexia and weight loss caused by the catabolic effect of glucagon excess. Patients who respond may be converted to a long-acting octreotide formulation given 20 to 30 mg IM once a month. Patients using octreotide may also need to take supplemental pancreatic enzymes because octreotide suppresses pancreatic enzyme secretion.
+
+Locally applied, oral, or parenteral zinc may cause the erythema to disappear, but resolution may occur after simple hydration or IV administration of amino or fatty acids, suggesting that the erythema is not solely caused by zinc deficiency.
+
+For most metastatic well-differentiated gastrointestinal NETs and somatostatin receptor (SSTR)–positive pancreatic NETs, somatostatin analogs (octreotide or lanreotide) are first-line systemic therapy (1). Observation is sometimes appropriate for asymptomatic, low-volume, slow-growing disease. If disease progresses after initial therapy, treatment is guided largely by SSTR status: peptide receptor radionuclide therapy is preferred for SSTR-positive tumors, while everolimus (and for pancreatic NETs, also chemotherapy or sunitinib) are alternatives, particularly for SSTR-negative disease. For grade 3 gastroenteropancreatic NETs, chemotherapy (eg, capecitabine and temozolomide [CAPTEM]) is typically administered.
+
+Unresectable, metastatic, or recurrent tumors are treated with combination streptozocin and doxorubicin, which may decrease levels of circulating immunoreactive glucagon, lessen symptoms, and improve response rates (50%) but are unlikely to improve survival (2).
+
+Treatment references
+
+1. Del Rivero J, Perez K, Kennedy EB, et al. Systemic Therapy for Tumor Control in Metastatic Well-Differentiated Gastroenteropancreatic Neuroendocrine Tumors: ASCO Guideline. J Clin Oncol. 2023;41(32):5049-5067. doi:10.1200/JCO.23.01529
+
+2. Mastoraki A, Spyropoulos D, Stamatiadi S, et al. Glucagonoma of the pancreas: diagnostic approach and therapeutic algorithm for a rare nosological entity. Ann Gastroenterol. 2026;39(2):184-190. doi:10.20524/aog.2026.1037

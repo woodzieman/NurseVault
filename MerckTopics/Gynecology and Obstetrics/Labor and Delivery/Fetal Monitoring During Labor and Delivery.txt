@@ -1,0 +1,138 @@
+=== Fetal Monitoring During Labor and Delivery (Merck Manual Professional) ===
+Section: Gynecology and Obstetrics > Labor and Delivery
+Source: https://www.merckmanuals.com/professional/gynecology-and-obstetrics/labor-and-delivery/fetal-monitoring-during-labor-and-delivery
+Retrieved: 2026-09-25
+
+Fetal status must be monitored during labor. The main method is monitoring fetal heart rate patterns, usually in relation to uterine contractions. This is combined with ultrasonography in some assessment methods.
+
+Fetal Monitoring Methods
+
+Fetal heart rate (HR) monitoring can be manual and intermittent, using a fetoscope for auscultation of fetal HR. However, in the United States, electronic fetal HR monitoring (external or internal) has become standard of care for high-risk pregnancies, and many clinicians use it for all laboring patients. The value of routine use of electronic monitoring in low-risk deliveries is often debated. Electronic fetal monitoring has not been shown to reduce overall mortality rates in large clinical trials and has been shown to increase rate of cesarean delivery, probably because many apparent abnormalities are false positives (1). Thus, the rate of cesarean delivery is higher among women monitored electronically than among those monitored by auscultation.
+
+If manual auscultation of fetal HR is used, it must be done throughout labor according to specific guidelines, and one-on-one nursing care is needed.
+
+For low-risk pregnancies with normal labor, fetal HR must be checked after each contraction or at least every 30 minutes during the first stage of labor and every 15 minutes during the second stage.
+
+For high-risk pregnancies, fetal HR must be checked every 15 minutes during the first stage and every 3 to 5 minutes during the second stage.
+
+Listening for at least 1 to 2 minutes beginning at a contraction’s peak is recommended to check for late deceleration. Periodic auscultation has a lower false-positive rate for abnormalities and incidence of intervention than continuous electronic monitoring, and it provides opportunities for more personal contact with women during labor. However, following the standard guidelines for auscultation is often difficult and may not be cost-effective. Also, unless done accurately, auscultation may not detect abnormalities.
+
+Electronic fetal HR monitoring may be
+
+External: Devices are applied to the maternal abdomen to record fetal heart sounds and uterine contractions.
+
+Internal: Amniotic membranes must be ruptured. Then, leads are inserted through the cervix; an electrode is attached to the fetal scalp to monitor HR and, if needed to precisely time uterine contractions, a catheter is placed in the uterine cavity to measure intrauterine pressure.
+
+Usually, external and internal monitoring are similarly reliable. External devices are used for women in normal labor; internal methods are used when external monitoring does not supply enough information about fetal well-being or uterine contraction intensity (eg, if the external device is not functioning correctly).
+
+Other fetal monitoring techniques have been developed and are mostly used in research, including fetal pulse oximetry and fetal ST-segment and T-wave analysis in labor (checks the fetal ECG for ST-segment elevation or depression).
+
+Fetal monitoring methods reference
+
+1. Alfirevic Z, Devane D, Gyte GM, Cuthbert A: Continuous cardiotocography (CTG) as a form of electronic fetal monitoring (EFM) for fetal assessment during labour. Cochrane Database Syst Rev 2(2):CD006066, 2017. Published 2017 Feb 3. doi:10.1002/14651858.CD006066.pub3
+
+Fetal Heart Rate Monitoring Interpretation
+
+The main parameters are baseline fetal heart rate (HR) and fetal HR variability, particularly how they change in response to uterine contractions and fetal movement. Because interpretation of fetal HR can be subjective, certain parameters have been defined (see table Fetal Heart Rate Monitoring Definitions).
+
+Table
+
+Fetal Heart Rate Monitoring Definitions
+
+Table
+
+Fetal Heart Rate Monitoring Definitions
+
+Fetal Heart Rate Monitoring Definitions
+
+Parameter
+
+Definition
+
+FHR: Baseline
+
+Mean FHR over a 10-minute period, excluding periods of large variability (> 25 bpm), rounded to closest 0 or 5
+
+Must be identified for ≥ 2 minutes (but not necessarily 2 consecutive minutes)
+
+FHR: Variability
+
+Fluctuations in the baseline FHR that are irregular in amplitude and frequency (excluding accelerations and decelerations)
+
+Fluctuations visually quantitated as the amplitude of the peak-to-trough in bpm
+
+FHR acceleration: Gestational age-appropriate
+
+Visually apparent abrupt increase in the FHR < 32 weeks: Peak ≥ 10 beats/minute > baseline FHR for ≥ 10 seconds
+
+≥ 32 weeks EGA: Peak ≥ 15 beats/minute > baseline FHR for ≥ 15 seconds
+
+FHR deceleration: Relation to uterine contractions
+
+Late: Temporary, gradual decrease in FHR that begins after the peak of a uterine contraction and takes ≥ 30 seconds to reach its nadir, which occurs after peak of contraction
+
+Onset, peak, and end of deceleration usually later than the onset, peak, and end of contraction
+
+Early: Temporary, gradual decrease in FHR that begins near the start of a uterine contraction and takes ≥ 30 seconds to reach its nadir, which occurs near peak of uterine contraction
+
+Onset, peak, and end of deceleration usually near the onset, peak, and end of contraction
+
+Variable: Temporary, abrupt decrease of ≥ 15 beats/minute in FHR that reaches its nadir < 30 seconds after deceleration begins and lasts between 15 seconds and 2 minutes; decelerations that may or may not be associated with uterine contractions
+
+Onset, depth, and duration commonly varying between successive uterine contractions
+
+bpm = beats per minute; EGA = estimated gestational age; FHR = fetal heart rate.
+
+Macones GA, Hankins GD, Spong CY, Hauth J, Moore T: The 2008 National Institute of Child Health and Human Development workshop report on electronic fetal monitoring: update on definitions, interpretation, and research guidelines. Obstet Gynecol 112(3):661-666, 2008. doi:10.1097/AOG.0b013e3181841395
+
+bpm = beats per minute; EGA = estimated gestational age; FHR = fetal heart rate.
+
+Macones GA, Hankins GD, Spong CY, Hauth J, Moore T: The 2008 National Institute of Child Health and Human Development workshop report on electronic fetal monitoring: update on definitions, interpretation, and research guidelines. Obstet Gynecol 112(3):661-666, 2008. doi:10.1097/AOG.0b013e3181841395
+
+Several fetal HR patterns are recognized; they are classified into 3 tiers (categories [1]), which usually correlate with the acid-base status of the fetus:
+
+Category I: Normal
+
+Category II: Indeterminate
+
+Category III: Abnormal
+
+A normal pattern strongly predicts normal fetal acid-base status at the time of observation. This pattern has all of the following characteristics:
+
+HR 110 to 160 beats/minute at baseline
+
+Moderate HR variability (by 6 to 25 beats) at baseline and with movement or contractions
+
+No late or variable decelerations during contractions
+
+Early decelerations and age-appropriate accelerations may be present or absent in a normal pattern.
+
+An indeterminate pattern is any pattern not clearly categorized as normal or abnormal. Many patterns qualify as indeterminate. Whether the fetus is acidotic cannot be determined from the pattern. Indeterminate patterns require close fetal monitoring so that any deterioration can be recognized as soon as possible.
+
+An abnormal pattern usually indicates fetal metabolic acidosis at the time of observation. This pattern is characterized by one of the following:
+
+Absent baseline HR variability plus recurrent late decelerations
+
+Absent baseline HR variability plus recurrent variable decelerations
+
+Absent baseline HR variability plus bradycardia (HR < 110 beats/minute without variability or < 100 beats/minute)
+
+Sinusoidal pattern (fixed variability of about 5 to 40 beats/minute at about 3 to 5 cycles/minute, resembling a sine wave)
+
+Abnormal patterns require prompt actions to correct them (eg, supplemental oxygen, repositioning, treatment of maternal hypotension, discontinuation of oxytocin) or preparation for an expedited delivery.
+
+Patterns reflect fetal status at a particular point in time; patterns can and do change.
+
+Fetal monitoring interpretation reference
+
+1. Macones GA, Hankins GD, Spong CY, Hauth J, Moore T: The 2008 National Institute of Child Health and Human Development workshop report on electronic fetal monitoring: update on definitions, interpretation, and research guidelines. Obstet Gynecol 112(3):661-666, 2008. doi:10.1097/AOG.0b013e3181841395
+
+Fetal Assessment Tests
+
+A nonstress test records fetal HR and uterine contractions using external electronic monitors and correlates the HR with fetal movements (reported by the mother); it is called nonstress because no stressors are applied to the fetus during the test, although sounds (eg, vibroacoustic stimulator) may be used to wake the fetus. HR is expected to increase when the fetus is moving and at other intervals. The nonstress test is typically done for 20 minutes (occasionally for 40 minutes). Results are considered reactive (reassuring) if there are 2 accelerations of 15 beats/minute over 20 minutes. Absence of accelerations is considered nonreactive (nonreassuring). Presence of late decelerations suggests hypoxemia, potential for fetal acidosis, and the need for intervention.
+
+A biophysical profile is usually done after a nonreassuring nonstress test. The biophysical profile adds ultrasonographic assessment of amniotic fluid volume, fetal movement, tone, and breathing to the nonstress test. A nonstress test and biophysical profile are frequently used to monitor complicated or high-risk pregnancies (eg, complicated by maternal diabetes, hypertension, stillbirth in a prior pregnancy, or fetal growth restriction or fetal anomaly).
+
+Contraction stress testing (oxytocin challenge test) is now rarely done. In this test, fetal movements and HR are monitored (typically externally) during contractions induced by oxytocin. When done, contraction stress testing must be done in a hospital.
+
+If a problem (eg, fetal HR decelerations, lack of normal fetal HR variability) is detected during labor, intrauterine fetal resuscitation is tried; women may be given rapid IV fluid infusion or may be positioned laterally. If fetal HR pattern does not improve in a reasonable period and delivery is not imminent, urgent delivery by cesarean is needed.

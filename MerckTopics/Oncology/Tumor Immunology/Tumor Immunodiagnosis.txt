@@ -1,0 +1,50 @@
+=== Tumor Immunodiagnosis (Merck Manual Professional) ===
+Section: Oncology > Tumor Immunology
+Source: https://www.merckmanuals.com/professional/oncology/tumor-immunology/tumor-immunodiagnosis
+Retrieved: 2026-09-25
+
+Tumor-associated antigens (TAAs) can help diagnose various tumors and sometimes determine the response to therapy or recurrence (1). An ideal tumor marker would
+
+Be released only from tumor tissue
+
+Be specific for a given tumor type
+
+Be detectable at low levels of tumor cell burden
+
+Have a direct relationship to the tumor cell burden
+
+Be present in all patients with the tumor
+
+Although most tumors release detectable antigenic macromolecules into the blood, no tumor marker has all the requisite characteristics to provide enough specificity or sensitivity to be used in early diagnosis or mass cancer screening programs.
+
+Carcinoembryonic antigen (CEA) is a protein-polysaccharide complex present in colon cancers and in normal fetal intestine, pancreas, and liver. Blood levels are elevated in patients with colon cancer, but the specificity is relatively low because positive results also occur in people with a history of ≥ 20 pack-years of cigarette smoking and in patients with cirrhosis, ulcerative colitis, or other cancers (eg, breast, pancreas, bladder, ovary, cervix). Monitoring CEA levels may be useful for detecting cancer recurrence after tumor excision if the patient initially had an elevated CEA and for refining estimates of prognosis by stage.
+
+Alpha-fetoprotein, a normal product of fetal liver cells, is also present in the sera of patients with primary hepatocellular cancer, nonseminomatous germ cell tumors, and, frequently, ovarian or testicular embryonal cancer. Levels are sometimes useful for estimating prognosis or, less often, for diagnosis.
+
+Beta subunit of human chorionic gonadotropin (beta-hCG), measured by immunoassay, is the major clinical marker in women with gestational trophoblastic neoplasia (GTN)—a disease spectrum that includes hydatidiform mole, nonmetastatic GTN, and metastatic GTN—and in about two thirds of men with testicular embryonal cancer or choriocarcinoma. The beta subunit is measured because it is specific for hCG. This marker is present in low levels in healthy people. Levels are elevated during pregnancy.
+
+Prostate-specific antigen (PSA), a glycoprotein located in ductal epithelial cells of the prostate gland, can be detected in low concentrations in the sera of healthy men. Using an appropriate upper limit of normal, assays with monoclonal antibodies detect elevated serum levels of PSA in about 90% of patients with advanced prostate cancer, even in the absence of defined metastatic disease. It is more sensitive than prostatic acid phosphatase. However, because PSA is elevated in other conditions (eg, benign prostatic hyperplasia, prostatitis, recent genitourinary tract instrumentation), it is less specific. PSA can be used to monitor recurrence after prostate cancer has been diagnosed and treated.
+
+CA 125 is clinically useful for diagnosing and monitoring therapy for ovarian cancer, although any peritoneal inflammatory process and some other cancers can increase levels.
+
+Beta-2 microglobulin is often elevated in multiple myeloma and in some lymphomas. Its primary use is in prognosis.
+
+CA 19-9 was originally developed to detect colorectal cancer but proved more sensitive for pancreatic cancer. It is primarily used to judge the response to treatment in patients with advanced pancreatic cancers. CA 19-9 can also be elevated in other gastrointestinal cancers, particularly cancer of the bile ducts, and some benign bile duct and cholestatic disorders.
+
+CA 15-3 and CA 27-29 are elevated in most patients with metastatic breast cancer. Levels may also be elevated in other conditions. These markers are primarily used to monitor the response to therapy.
+
+Chromogranin A is used as a marker for carcinoid and other neuroendocrine tumors. Sensitivity and specificity for neuroendocrine tumors can exceed 75%, and diagnostic accuracy is higher with diffuse than with localized tumors (2). Levels can be elevated in other cancers, such as lung and prostate, and some benign disorders (eg, primary hypertension, chronic kidney disease, chronic atrophic gastritis).
+
+Thyroglobulin is produced by the thyroid and may be elevated in various thyroid disorders. It is primarily used as a marker after complete thyroidectomy to detect recurrent thyroid cancer and to monitor the response to treatment in metastatic thyroid cancer.
+
+TA-90 is a highly immunogenic subunit of a urinary tumor–associated antigen that is present in over 70% of melanomas (3); soft-tissue sarcomas; and cancers of the breast, colon, and lung. Some studies have shown that TA-90 levels can accurately predict survival and the presence of subclinical disease after surgery for melanoma (4).
+
+References
+
+1.Passaro A, Al Bakir M, Hamilton EG, et al: Cancer biomarkers: Emerging trends and clinical implications for personalized treatment. Cell 187(7):1617–1635, 2024. doi:10.1016/j.cell.2024.02.041
+
+2. Kanakis G, Kaltsas G: Biochemical markers for gastroenteropancreatic neuroendocrine tumours (GEP-NETs). Best Pract Res Clin Gastroenterol 26(6):791–802, 2012. doi:10.1016/j.bpg.2012.12.006
+
+3. Kelley MC, Jones RC, Gupta RK, et al: Tumor-associated antigen TA-90 immune complex assay predicts subclinical metastasis and survival for patients with early stage melanoma. Cancer 83(7):1355–1361, 1998. doi:10.1002/(sici)1097-0142(19981001)83:7<1355::aid-cncr12>3.0.co;2-3
+
+4. Kelley MC, Gupta RK, Hsueh EC, Yee R, Stern S, Morton DL: Tumor-associated antigen TA90 immune complex assay predicts recurrence and survival after surgical treatment of stage I-III melanoma. J Clin Oncol 19(4):1176–1182, 2001. doi:10.1200/JCO.2001.19.4.1176

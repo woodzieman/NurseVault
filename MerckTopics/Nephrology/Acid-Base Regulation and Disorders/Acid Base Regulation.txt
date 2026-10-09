@@ -1,0 +1,104 @@
+=== Acid-Base Regulation (Merck Manual Professional) ===
+Section: Nephrology > Acid-Base Regulation and Disorders
+Source: https://www.merckmanuals.com/professional/nephrology/acid-base-regulation-and-disorders/acid-base-regulation
+Retrieved: 2026-09-25
+
+Metabolic processes in the human body continually produce acid and, to a lesser degree, base. Hydrogen ion (H+) is especially reactive; it can attach to negatively charged proteins and, in high concentrations, alter their overall charge, configuration, and function. To maintain cellular function, the body has elaborate mechanisms that maintain blood H+ concentration within a narrow range—typically 37 to 43 nEq/L (37 to 43 nmol/L) with a pH of 7.43 to 7.37, where pH =−log [H+]. Ideally, H+ is 40 nEq/L (40 nmol/L) and pH = 7.40. Disturbances of these mechanisms can have serious clinical consequences.
+
+Acid-base equilibrium is closely tied to fluid metabolism and electrolyte balance, and disturbances in these systems often impact the other.
+
+Acid-Base Physiology
+
+The main source of acid in the body is metabolism of carbohydrates and fats.
+
+Metabolism of carbohydrates and fats generates 15,000 to 20,000 mmol of carbon dioxide (CO2) daily. CO2 is not an acid itself, but in the presence of a member of the carbonic anhydrase family of enzymes, CO2 combines with water (H2O) in the blood to create carbonic acid (H2CO3), which dissociates into hydrogen ion (H+) and bicarbonate (HCO3−). The H+ binds with hemoglobin in red blood cells and is released with oxygenation in the alveoli, at which time the reaction is reversed by another form of carbonic anhydrase, creating H2O, which is excreted by the kidneys, and CO2, which is exhaled in each breath.
+
+Other sources of organic acid are
+
+Incomplete metabolism of glucose and fatty acids into lactic acid and ketoacids
+
+Metabolism of sulfur-containing amino acids (cysteine, methionine) into sulfuric acid
+
+Metabolism of cationic amino acids (arginine, lysine)
+
+Hydrolysis of dietary phosphate
+
+This “fixed” or “metabolic” acid load cannot be exhaled and therefore must be neutralized or excreted by the kidneys.
+
+Most base in the body comes from
+
+Metabolism of anionic amino acids (glutamate, aspartate)
+
+Oxidation and consumption of organic anions such as lactate and citrate, which produce HCO3−
+
+Acid-Base Balance
+
+Acid-base balance is maintained by
+
+Chemical buffering
+
+Pulmonary activity
+
+Renal activity
+
+Overview of Physiologic pH and...
+
+video
+
+Chemical buffering
+
+Chemical buffers are solutions that resist changes in pH. Intracellular and extracellular buffers provide an immediate response to acid-base disturbances. Bone also plays an important buffering role, especially of acid loads.
+
+A buffer is made up of a weak acid and its conjugate base. The conjugate base can accept H+ and the weak acid can relinquish it, thereby minimizing changes in free H+ concentration. A buffer system works best to minimize changes in pH near its equilibrium constant (pKa); so, although there are potentially many buffer pairs in the body, only some are physiologically relevant.
+
+The relationship between the pH of a buffer system and the concentration of its components is described by the Henderson-Hasselbalch equation:
+
+where pKa is the dissociation constant of the weak acid
+
+The most important extracellular buffer is the HCO3−/CO2 system, described by the equation:
+
+An increase in H+ drives the equation to the right and generates CO2.
+
+This important buffer system is highly regulated; CO2 concentrations can be finely controlled by alveolar ventilation, and H+ and HCO3− concentrations can be finely regulated by renal excretion.
+
+Overview of Buffering and the ...
+
+video
+
+The relationship between pH, HCO3−, and CO2 in the system as described by the Henderson-Hasselbalch equation is thus:
+
+where HCO3- is measured in mEq/L and PCO2 is the partial pressure of CO2 measured in mmHg.
+
+Or similarly, by the Kassirer-Bleich equation, derived from the Henderson-Hasselbalch equation:
+
+Note: to convert arterial pH to [H+] use:
+
+or
+
+Both equations illustrate that acid-base balance depends on the ratio of partial pressure of carbon dioxide (Pco2) and serum or plasma concentration of HCO3−, not on the absolute value of either one alone. With these formulas, any 2 variables can be used to calculate the third.
+
+Other important chemical buffers include intracellular organic and inorganic phosphates and proteins, including hemoglobin in red blood cells. Less important are extracellular phosphate and plasma proteins.
+
+Bone becomes an important buffer after consumption of an acid load. Bone initially releases sodium bicarbonate (NaHCO3) and potassium bicarbonate (KHCO3) in exchange for H+. With prolonged acid loads, bone releases calcium carbonate (CaCO3) and calcium phosphate (CaPO4). Long-standing acidemia therefore contributes to bone demineralization and osteoporosis.
+
+Clinical Calculators
+
+Henderson-Hasselbalch Equation
+
+Pulmonary pH regulation
+
+CO2 concentration is finely regulated by changes in tidal volume and respiratory rate (minute ventilation). A decrease in pH is sensed by arterial chemoreceptors and leads to increases in tidal volume or respiratory rate; CO2 is exhaled and blood pH increases. In contrast to chemical buffering, which is immediate, pulmonary regulation occurs over minutes to hours. It is about 50 to 75% effective and does not completely normalize pH.
+
+Renal pH regulation
+
+The kidneys control pH by adjusting the amount of HCO3− that is excreted or reabsorbed. Reabsorption of HCO3− is equivalent to excreting free H+. Changes in renal acid-base handling occur hours to days after changes in acid-base status.
+
+Overview of the Role of the Ki...
+
+video
+
+All of the HCO3− in serum is filtered as it passes through the glomerulus. HCO3− reabsorption occurs mostly in the proximal tubule and, to a lesser degree, in the collecting tubule. The H2O within the distal tubular cell dissociates into H+ and hydroxide (OH−); in the presence of carbonic anhydrase, the OH− combines with CO2 to form HCO3−, which is transported back into the peritubular capillary, while the H+ is secreted into the tubular lumen and joins with freely filtered HCO3− to form CO2 and H2O, which are also reabsorbed. Thus, the distally reabsorbed HCO3− ions are newly generated and not the same as those that were filtered.
+
+Decreases in effective circulating volume (such as occur with diuretic therapy) increase HCO3− reabsorption, while increases in parathyroid hormone in response to an acid load decrease HCO3− reabsorption. Also, increased Pco2 leads to increased HCO3− reabsorption, while chloride ion (Cl−) depletion (typically due to volume depletion) leads to increased sodium ion (Na+) reabsorption and HCO3− generation by the proximal tubule.
+
+Acid is actively excreted into the proximal and distal tubules where it combines with urinary buffers—primarily freely filtered phosphate (HPO4−2), creatinine, uric acid, and ammonia—to be transported outside the body. The ammonia buffering system is especially important because other buffers are filtered in fixed concentrations and can be depleted by high acid loads; by contrast, tubular cells actively regulate ammonia production in response to changes in acid load. Arterial pH is the main determinant of acid secretion, but excretion is also influenced by potassium (K+), Cl−, and aldosterone levels. Intracellular K+ concentration and H+ secretion are reciprocally related; K+ depletion causes increased H+ secretion and hence metabolic alkalosis.

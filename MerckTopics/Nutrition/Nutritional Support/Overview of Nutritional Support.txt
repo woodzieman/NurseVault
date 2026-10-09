@@ -1,0 +1,148 @@
+=== Overview of Nutritional Support (Merck Manual Professional) ===
+Section: Nutrition > Nutritional Support
+Source: https://www.merckmanuals.com/professional/nutritional-disorders/nutritional-support/overview-of-nutritional-support
+Retrieved: 2026-09-25
+
+Many undernourished patients need nutritional support. Nutritional support is aimed at maintaining or increasing the proportion of lean body mass. Oral feeding can be difficult for some patients with anorexia or with eating or absorption problems. Nutritional support is often needed for critically ill patients (1, 2).
+
+Behavioral measures that sometimes enhance oral intake include the following:
+
+Encouraging patients to eat
+
+Heating or seasoning foods
+
+Providing favorite or strongly flavored foods
+
+Encouraging patients to eat small portions
+
+Scheduling other care or activities around meals
+
+Assisting patients with feeding
+
+Coordinating mealtimes with family and/or friends
+
+If behavioral measures are ineffective, nutritional support—oral nutrition, enteral nutrition, or parenteral nutrition—is indicated, except sometimes for patients who are dying or have severe dementia.
+
+General references
+
+1. Compher C, Bingham AL, McCall M, et al. Guidelines for the provision of nutrition support therapy in the adult critically ill patient: The American Society for Parenteral and Enteral Nutrition [published correction appears in JPEN J Parenter Enteral Nutr. 2022 Aug;46(6):1458-1459. doi: 10.1002/jpen.2419]. JPEN J Parenter Enteral Nutr. 2022;46(1):12-41. doi:10.1002/jpen.2267
+
+2. McClave SA, Taylor BE, Martindale RG, et al. Guidelines for the Provision and Assessment of Nutrition Support Therapy in the Adult Critically Ill Patient: Society of Critical Care Medicine (SCCM) and American Society for Parenteral and Enteral Nutrition (A.S.P.E.N.) [published correction appears in JPEN J Parenter Enteral Nutr. 2016 Nov;40(8):1200]. JPEN J Parenter Enteral Nutr. 2016;40(2):159-211. doi:10.1177/0148607115621863
+
+Predicting Nutritional Requirements
+
+Nutritional requirements are predicted so that interventions can be planned. Requirements can be estimated by formulas or measured by indirect calorimetry. Indirect calorimetry requires use of a metabolic cart (a closed rebreathing system that determines energy expenditure based on oxygen consumption and total CO2 production). Indirect calorimetry is the preferred method for determining energy requirements, but it requires special expertise and is not always available. Thus, total energy expenditure and protein requirements usually are estimated.
+
+Energy expenditure
+
+Total energy expenditure (TEE) varies based on the patient’s weight, activity level, and degree of metabolic stress (metabolic demands). TEE can range widely in adults, from as low as 20 kcal/kg/day to up to 45 kcal/kg/day for people with severe metabolic stress such as trauma or burns (1, 2).
+
+The TEE equals the sum of the following:
+
+Resting metabolic rate (RMR), or resting energy expenditure rate (REE), which is normally about 70% of TEE
+
+Energy dissipated by metabolism of food (10% of TEE)
+
+Energy expended during physical activity (20% of TEE)
+
+Undernutrition can decrease RMR up to 20%. Conditions that increase metabolic stress (eg, critical illness, infection, inflammation, trauma, surgery) can increase RMR but rarely by > 50%.
+
+The Mifflin–St. Jeor equation estimates RMR more precisely and with fewer errors than the commonly used Harris-Benedict equation, usually providing results that are within 20% of those measured by indirect calorimetry.
+
+TEE can be estimated by adding approximately 10% (for people who are sedentary) and approximately 40% (for people who are critically ill) to RMR.
+
+Clinical Calculators
+
+Mifflin-St. Jeor Resting Energy Expenditure (REE)
+
+Protein requirements
+
+For healthy people, protein requirements are weight-based and are estimated at 0.8 g/kg/day. However, requirements may be higher (see table Estimated Adult Daily Protein Requirement) for the following:
+
+Patients with metabolic stress
+
+Patients with kidney failure requiring dialysis
+
+Patients > 70 years
+
+Table
+
+Estimated Adult Daily Protein Requirement
+
+Table
+
+Estimated Adult Daily Protein Requirement
+
+Estimated Adult Daily Protein Requirement
+
+Condition
+
+Requirement (g/kg of ideal body weight/day)
+
+Healthy adult
+
+0.8
+
+Age > 70 years
+
+1.0
+
+Kidney failure without dialysis (glomerular filtration rate < 25 mL/minute/1.73 m2)
+
+0.6–0.75
+
+Kidney failure with dialysis
+
+1.2
+
+Metabolic stress (eg, critical illness, trauma, burns, surgery)
+
+1.2–2.0*
+
+* McClave SA, Taylor BE, Martindale RG, et al. Guidelines for the Provision and Assessment of Nutrition Support Therapy in the Adult Critically Ill Patient: Society of Critical Care Medicine (SCCM) and American Society for Parenteral and Enteral Nutrition (A.S.P.E.N.) [published correction appears in JPEN J Parenter Enteral Nutr. 2016 Nov;40(8):1200]. JPEN J Parenter Enteral Nutr. 2016;40(2):159-211. doi:10.1177/0148607115621863
+
+* McClave SA, Taylor BE, Martindale RG, et al. Guidelines for the Provision and Assessment of Nutrition Support Therapy in the Adult Critically Ill Patient: Society of Critical Care Medicine (SCCM) and American Society for Parenteral and Enteral Nutrition (A.S.P.E.N.) [published correction appears in JPEN J Parenter Enteral Nutr. 2016 Nov;40(8):1200]. JPEN J Parenter Enteral Nutr. 2016;40(2):159-211. doi:10.1177/0148607115621863
+
+Requirements references
+
+1. Compher C, Bingham AL, McCall M, et al. Guidelines for the provision of nutrition support therapy in the adult critically ill patient: The American Society for Parenteral and Enteral Nutrition [published correction appears in JPEN J Parenter Enteral Nutr. 2022 Aug;46(6):1458-1459]. JPEN J Parenter Enteral Nutr. 2022;46(1):12-41. doi:10.1002/jpen.2267
+
+2. McClave SA, Taylor BE, Martindale RG, et al. Guidelines for the Provision and Assessment of Nutrition Support Therapy in the Adult Critically Ill Patient: Society of Critical Care Medicine (SCCM) and American Society for Parenteral and Enteral Nutrition (A.S.P.E.N.) [published correction appears in JPEN J Parenter Enteral Nutr. 2016 Nov;40(8):1200. doi: 10.1177/0148607116670155]. JPEN J Parenter Enteral Nutr. 2016;40(2):159-211. doi:10.1177/0148607115621863
+
+Assessing Response to Nutritional Support
+
+There is no gold standard to assess response to nutritional support. Clinicians may use change in body mass index (BMI) for severely underweight patients, with a goal of promoting weight gain to the normal BMI range. However, routinely using BMI as an indicator for response to nutritional support may be limited by gains in fluid (commonly seen with parenteral nutrition) rather than true gain of lean body mass. Body composition analysis and assessment of body fat distribution can be monitored but may require specialized equipment that may not be available in clinics or hospitals. The clinical response to nutritional support is important to monitor, including wound healing, improvement in strength, and improvement in endurance. (Additional assessment information is available in Evaluation of Undernutrition: Physical examination.)
+
+If patients require long-term nutritional support, gains in lean body mass can be assessed by using body composition measurements.
+
+Other measurements such as nitrogen balance and muscle strength measurement can also be used to assess response to nutritional support, but their use is limited by availability.
+
+Nitrogen balance, which reflects the balance between protein needs and supplies, is the difference between the amount of nitrogen ingested and the amount lost. A positive balance (ie, more ingested than lost) implies adequate intake. Precise measurement is impractical, but estimates help assess response to nutritional support, particularly when serial measurements (eg, 1 to 2 times/week) are done:
+
+Nitrogen intake is estimated from protein intake: Nitrogen (g) equals protein (g)/6.25.
+
+Estimated nitrogen losses consist of urinary nitrogen losses (estimated by measuring urea nitrogen content of an accurately obtained 24-hour urine collection) plus stool losses (estimated at 1 g/day if stool is produced; negligible if stool is not produced) plus insensible and other unmeasured losses (estimated at 3 g).
+
+Muscle strength indirectly reflects increases in lean body mass. It can be measured quantitatively, by hand-grip dynamometry, or electrophysiologically (typically by stimulating the ulnar nerve with an electrode).
+
+Levels of acute-phase reactant serum proteins (particularly short-lived proteins such as prealbumin [transthyretin], retinol-binding protein, and transferrin) sometimes correlate with improved nutritional status, but these levels correlate better with inflammatory conditions (1).
+
+Clinical Calculators
+
+Body Mass Index (Quetelet's index)
+
+Assessing response reference
+
+1. Evans DC, Corkins MR, Malone A, et al. The Use of Visceral Proteins as Nutrition Markers: An ASPEN Position Paper [published correction appears in Nutr Clin Pract. 2021 Aug;36(4):909]. Nutr Clin Pract. 2021;36(1):22-28. doi:10.1002/ncp.10588
+
+Key Points
+
+Behavioral measures may avert the need for nutritional support.
+
+Predict the patient's energy requirements based on weight, sex, activity level, and degree of metabolic stress (eg, due to critical illness, trauma, burns, or recent surgery).
+
+Normal protein requirement is 0.8 g/kg/day, but this amount is adjusted if age is > 70 or if the patient has kidney failure or metabolic stress.
+
+Assess the response to nutritional support by using clinical indicators such as wound healing, improvement in strength, and improvement in endurance.
+
+If patients require long-term nutritional support, assess gains in lean body mass by using body composition measurements.

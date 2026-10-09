@@ -1,0 +1,778 @@
+=== Acute Myocardial Infarction (MI) (Merck Manual Professional) ===
+Section: Cardiology > Coronary Artery Disease
+Source: https://www.merckmanuals.com/professional/cardiovascular-disorders/coronary-artery-disease/acute-myocardial-infarction-mi
+Retrieved: 2026-09-25
+
+In the United States, approximately 800,000 myocardial infarctions (MI) occur annually (1), resulting in death for approximately 100,000 people. Worldwide, 1.4 million deaths are attributed to ischemic heart disease, making it the leading cause of death globally (2).
+
+Acute MI, along with unstable angina, is considered an acute coronary syndrome. Acute MI includes both non–ST-segment elevation myocardial infarction (NSTEMI) and ST-segment elevation myocardial infarction (STEMI). Distinction between NSTEMI and STEMI is vital as treatment strategies and timing of treatment are different for these 2 entities. NSTEMI is classified, along with unstable angina, as a non-ST-segment elevation acute coronary syndrome (NSTE-ACS) and shares the same diagnostic, risk stratification, and treatment pathway.
+
+Heart Attack and Cardiac Arrest Myths
+
+podcast
+
+General references
+
+1. Martin SS, Aday AW, Almarzooq ZI, et al. 2024 Heart Disease and Stroke Statistics: A Report of US and Global Data From the American Heart Association. Circulation. 2024;149(8):e347-e913. doi:10.1161/CIR.0000000000001209
+
+2. GBD 2023 Causes of Death Collaborators. Global burden of 292 causes of death in 204 countries and territories and 660 subnational locations, 1990-2023: a systematic analysis for the Global Burden of Disease Study 2023. Lancet. 2025;406(10513):1811-1872. doi:10.1016/S0140-6736(25)01917-8
+
+Pathophysiology of Acute MI
+
+Myocardial infarction is defined as myocardial necrosis in a clinical setting consistent with myocardial ischemia (1). These conditions can be satisfied by a rise of cardiac troponin (cTn) above the 99th percentile of the upper reference limit (URL) plus at least one of the following:
+
+Symptoms of ischemia
+
+ECG changes indicative of new ischemia (significant ST-segment or T wave changes, or new left bundle branch block in the appropriate clinical context)
+
+Development of pathologic Q waves
+
+Imaging evidence of new loss of myocardium or new regional wall motion abnormality
+
+Angiography or autopsy evidence of intracoronary thrombus
+
+Slightly different criteria are used to diagnose MI during and after percutaneous coronary intervention or coronary artery bypass grafting, and as the cause of sudden death.
+
+MI can be classified based on etiology and circumstances (1):
+
+Type 1: Spontaneous MI caused by ischemia due to a primary coronary event (eg, plaque rupture, erosion, or fissuring; coronary dissection)
+
+Type 2: Ischemia due to increased oxygen demand (eg, hypertension) or decreased supply (eg, coronary artery spasm or embolism, arrhythmia, hypotension)
+
+Type 3: Related to sudden unexpected cardiac death
+
+Type 4a: Associated with percutaneous coronary intervention (signs and symptoms of myocardial infarction with cTn values > 5 × 99th percentile URL)
+
+Type 4b: Associated with documented stent thrombosis
+
+Type 5: Associated with coronary artery bypass grafting (signs and symptoms of myocardial infarction with cTn values > 10 × 99th percentile URL)
+
+Infarct location
+
+MI affects predominantly the left ventricle (LV), but damage may extend into the right ventricle (RV) or the atria.
+
+Right ventricular infarction usually results from obstruction of the proximal right coronary artery or a marginal branch; it is characterized by high RV filling pressure, often with severe tricuspid regurgitation and reduced cardiac output.
+
+An inferoposterior infarction, usually reflecting right coronary or dominant left circumflex artery obstruction, causes some degree of RV dysfunction in about half of patients, with a hemodynamic abnormality in a significant fraction of those (2, 3). RV dysfunction should be considered in any patient who has inferoposterior infarction and elevated central venous pressure with hypotension or shock. RV infarction complicating LV infarction is associated with increased mortality and risk of shock and arrhythmia (4).
+
+Anterior infarcts tend to be larger and result in a worse prognosis than inferoposterior infarcts. They are usually due to left coronary artery obstruction, especially in the anterior descending artery.
+
+Infarct extent
+
+Infarction may be:
+
+Transmural
+
+Nontransmural
+
+Transmural infarcts involve the whole thickness of myocardium from epicardium to endocardium and are usually characterized by ST-segment elevation and, later, by the development of abnormal Q waves on ECG.
+
+Nontransmural (including subendocardial) infarcts do not extend through the ventricular wall and cause only ST-segment and T-wave (ST-T) abnormalities. Subendocardial infarcts usually involve the inner one-third of myocardium, where wall tension is highest and myocardial blood flow is most vulnerable to circulatory changes. These infarcts may follow prolonged hypotension.
+
+Because the transmural depth of necrosis cannot be precisely determined clinically, infarcts are usually classified as STEMI or NSTEMI by the presence or absence of ST-segment elevation or Q waves on the ECG. Volume of myocardium destroyed can be roughly estimated by cardiac troponin levels and evaluated more precisely by later cardiac MRI.
+
+Non–ST-segment elevation myocardial infarction (NSTEMI, subendocardial MI) is myocardial necrosis (evidenced by elevated cardiac troponin in blood) without acute ST-segment elevation. ECG changes such as ST-segment depression, T-wave inversion, or both may be present. NSTEMI is usually not transmural, although approximately 25% of NSTEMI are associated with a total occlusion of a coronary artery or branch and thus have the potential to become transmural if treatment is delayed (5).
+
+ST-segment elevation myocardial infarction (STEMI, transmural MI) is myocardial necrosis with ECG changes showing ST-segment elevation that is not quickly reversed by nitroglycerin. Troponin is elevated. STEMI is typically transmural, although timely reperfusion, especially with an infarct territory that is small or has collateral vessels, may lead to a non-transmural area of myonecrosis (6).
+
+MRI Findings of Subendocardial Myocardial Infarct
+
+Image
+
+This cardiac MRI shows the right ventricle (red arrow) and left ventricle (green arrow) separated by the septal myocardium (blue arrow). There is late gadolinium subendocardial enhancement characteristic of a small myocardial infarct in the lateral wall of the left ventricle (white arrow).
+
+© 2017 Elliot K. Fishman, MD.
+
+Myocardial infarction in the absence of obstructive coronary artery disease (MINOCA)
+
+Myocardial infarction in the absence of obstructive coronary artery disease (MINOCA) is found in approximately 5 to 6% of patients with acute MI who undergo coronary angiography (7). Patients with MINOCA tend to be younger, female, and without dyslipidemia. They tend to have myocardial necrosis without significant coronary atherosclerosis. Plaque disruption in arteries without significant stenosis, coronary vasospasm, coronary thrombosis or embolism, and spontaneous coronary artery dissection are causes of MINOCA. Medical management should be based on the underlying mechanism for MINOCA in each patient.
+
+Pathophysiology references
+
+1. Thygesen K, Alpert JS, Jaffe AS, et al: Fourth Universal Definition of Myocardial Infarction (2018). J Am Coll Cardiol 72(18):2231–2264, 2018. doi:10.1016/j.jacc.2018.08.1038
+
+2. Konstam MA, Kiernan MS, Bernstein D, et al. Evaluation and Management of Right-Sided Heart Failure: A Scientific Statement From the American Heart Association. Circulation. 2018;137(20):e578-e622. doi:10.1161/CIR.0000000000000560
+
+3. Ondrus T, Kanovsky J, Novotny T, Andrsova I, Spinar J, Kala P. Right ventricular myocardial infarction: From pathophysiology to prognosis. Exp Clin Cardiol. 2013;18(1):27-30.
+
+4. Hamon M, Agostini D, Le Page O, Riddell JW, Hamon M. Prognostic impact of right ventricular involvement in patients with acute myocardial infarction: meta-analysis. Crit Care Med. 2008;36(7):2023-2033. doi:10.1097/CCM.0b013e31817d213d
+
+5. Kraler S, Mueller C, Libby P, Bhatt DL. Acute coronary syndromes: mechanisms, challenges, and new opportunities. Eur Heart J. 2025;46(29):2866-2889. doi:10.1093/eurheartj/ehaf289
+
+6. Greulich S, Mayr A, Gloekler S, et al. Time-Dependent Myocardial Necrosis in Patients With ST-Segment-Elevation Myocardial Infarction Without Angiographic Collateral Flow Visualized by Cardiac Magnetic Resonance Imaging: Results From the Multicenter STEMI-SCAR Project. J Am Heart Assoc. 2019;8(12):e012429. doi:10.1161/JAHA.119.012429
+
+7. Tamis-Holland JE, Jneid H, Reynolds HR, et al. Contemporary diagnosis and management of patients with myocardial infarction in the absence of obstructive coronary artery disease: A scientific statement from the American Heart Association. Circulation. 2019;139(18):e891-e908. doi.org/10.1161/CIR.0000000000000670
+
+Symptoms and Signs of Acute MI
+
+Symptoms of NSTEMI and STEMI are the same. Days to weeks before the event, patients may experience prodromal symptoms, including unstable or crescendo angina, dyspnea, fatigue, sleep disturbances, anxiety, headache, and gastrointestinal complaints (1).
+
+Often, the first symptom of infarction is deep, substernal, visceral pain, described as aching or pressure, often radiating to the back, jaw, left arm, right arm, shoulders, or all of these areas. The pain is similar to stable angina but is usually more severe and long-lasting; more often accompanied by dyspnea, diaphoresis, nausea, and/or vomiting; and relieved little or only temporarily by rest or nitroglycerin.
+
+However, discomfort may be mild; in the general population, approximately 20% of acute MIs are silent (2, 3), and up to 30% may be silent in patients with diabetes. Silent MIs are those that are asymptomatic or are causing vague symptoms that are not recognized as illness by the patient. Silent MIs are also more common in patients with a history of coronary artery disease. Patients often interpret their discomfort as indigestion, particularly because spontaneous relief may be falsely attributed to belching or antacid consumption.
+
+Silent ischemia (which can cause a silent MI) sometimes manifests as transient asymptomatic ST-T abnormalities seen during stress testing or 24-hour Holter monitoring. Radionuclide studies can sometimes document asymptomatic myocardial ischemia during physical or mental stress. Silent ischemia and stable angina may coexist, occurring at different times.
+
+Some patients present with syncope.
+
+Chest pain is the predominant symptom in both males and females, but females are more likely to experience additional symptoms and atypical chest pain, and they are less likely to have prodromal symptoms attributed to heart disease (4). Older patients may report dyspnea more than ischemic-type chest pain (5).
+
+In severe ischemic episodes, the patient often has significant pain and feels restless and apprehensive. Nausea and vomiting may occur, especially with inferior MI. Dyspnea and weakness due to LV failure, pulmonary edema, shock, or significant arrhythmia may dominate.
+
+Skin may be pale, cool, and diaphoretic. Peripheral or central cyanosis may be present. Pulse may be thready, and blood pressure is variable, although many patients initially have some degree of hypertension during pain.
+
+Heart sounds are usually somewhat distant; a fourth heart sound (S4) is almost universally present. A soft systolic blowing apical murmur (reflecting papillary muscle dysfunction causing mitral regurgitation) may occur. During initial examination, a friction rub or more striking murmurs suggest a preexisting heart disorder or another diagnosis. Detection of a friction rub within a few hours after onset of MI symptoms suggests acute pericarditis rather than MI. However, friction rubs, usually evanescent, are common on days 2 and 3 post-STEMI. In some patients, the chest wall is tender when palpated.
+
+In right ventricular (RV) infarction, signs include elevated RV filling pressure, distended jugular veins (often with Kussmaul sign), clear lung fields, and hypotension.
+
+Symptoms and signs references
+
+1. Jurgens CY, Lee CS, Aycock DM, et al. State of the Science: The Relevance of Symptoms in Cardiovascular Disease and Research: A Scientific Statement From the American Heart Association. Circulation. 2022;146(12):e173-e184. doi:10.1161/CIR.0000000000001089
+
+2. Arenja N, Mueller C, Ehl NF, et al. Prevalence, extent, and independent predictors of silent myocardial infarction. Am J Med. 2013;126(6):515-522. doi:10.1016/j.amjmed.2012.11.028
+
+3. Parmley WW. Prevalence and clinical significance of silent myocardial ischemia. Circulation. 1989;80(6 Suppl):IV68-IV73.
+
+4. Lichtman JH, Leifheit EC, Safdar B, et al. Sex Differences in the Presentation and Perception of Symptoms Among Young Patients With Myocardial Infarction: Evidence from the VIRGO Study (Variation in Recovery: Role of Gender on Outcomes of Young AMI Patients). Circulation. 2018;137(8):781-790. doi:10.1161/CIRCULATIONAHA.117.031650
+
+5. Damluji AA, Forman DE, Wang TY, et al. Management of Acute Coronary Syndrome in the Older Adult Population: A Scientific Statement From the American Heart Association. Circulation. 2023;147(3):e32-e62. doi:10.1161/CIR.0000000000001112
+
+Diagnosis of Acute MI
+
+Serial ECGs
+
+Serial cardiac troponin assays, preferably high-sensitivity
+
+Immediate coronary angiography (unless fibrinolytics are given) for patients with STEMI or NSTE-ACS with complications (eg, refractory chest pain, new or worsening heart failure, hemodynamic instability, cardiogenic shock, or unstable arrhythmias)
+
+Delayed coronary angiography for patients with NSTEMI (< 24 hours for high-risk, < 72 hours for intermediate risk)
+
+Evaluation begins with initial and serial ECG and serial measurements of cardiac troponin to help distinguish between unstable angina, ST-segment elevation myocardial infarction (STEMI), and non–ST-segment elevation myocardial infarction (NSTEMI). Urgent or emergent cardiac catheterization is indicated for patients with acute STEMI but not generally for those with NSTEMI.
+
+ECG
+
+ECG is the most important test and should be performed as soon as possible (eg, within 10 minutes of presentation).
+
+For STEMI, initial ECG is usually diagnostic, showing ST-segment elevation ≥ 1 mm in 2 or more contiguous leads subtending the damaged area; or in V2-V3 ≥ 2 mm in males 40 years or older, ≥ 2.5 mm in males younger than 40 years, and 1.5 mm in females of all ages (1). Reciprocal depression may be present in other leads. Pathologic Q waves often develop over time but are not necessary for the diagnosis (see figures Acute Lateral Left Ventricular Infarction, Lateral Left Ventricular Infarction, Lateral Left Ventricular Infarction (several days later), Acute Inferior (Diaphragmatic) Left Ventricular Infarction, Inferior (Diaphragmatic) Left Ventricular Infarction, and Inferior (Diaphragmatic) Left Ventricular Infarction (several days later)).
+
+Acute Lateral Left Ventricular Infarction (Tracing Obtained Within a Few Hours of Illness Onset)
+
+There is striking hyperacute ST-segment elevation in leads I, aVL, V4, and V6 and reciprocal depression in other leads.
+
+Lateral Left Ventricular Infarction (After the First 24 Hours)
+
+ST segments are less elevated; significant Q waves develop and R waves are lost in leads I, aVL, V4, and V6.
+
+Lateral Left Ventricular Infarction (Several Days Later)
+
+Significant Q waves and loss of R-wave voltage persist. ST segments are now essentially isoelectric. The ECG will probably change only slowly over the next several months.
+
+Acute Inferior (Diaphragmatic) Left Ventricular Infarction (Tracing Obtained Within a Few Hours of Illness Onset)
+
+There is hyperacute ST-segment elevation in leads II, III, and aVF and reciprocal depression in other leads.
+
+Inferior (Diaphragmatic) Left Ventricular Infarction (After the First 24 Hours)
+
+Significant Q waves develop with decreasing ST-segment elevation in leads II, III, and aVF.
+
+Inferior (Diaphragmatic) Left Ventricular Infarction (Several Days Later)
+
+ST segments are now isoelectric. Abnormal Q waves in leads II, III, and aVF indicate that myocardial scars persist.
+
+The ECG must be read carefully because ST-segment elevation may be subtle, particularly in the inferior leads (II, III, aVF); sometimes the reader’s attention is mistakenly focused on leads with ST-segment depression. If symptoms are present, ST-segment elevation on ECG has a specificity of 98 to 99% and a sensitivity of 35 to 56% for diagnosing myocardial infarction (2, 3). Serial tracings (obtained every 8 hours for 1 day, then daily) showing a gradual evolution toward a stable, more normal pattern or development of abnormal Q waves over a few days tends to confirm the diagnosis.
+
+Left-sided posterior leads (V7-V9) should be used to detect left circumflex occlusion when ST-elevation in V1-V3 is present but does not meet criteria for STEMI (1). If right ventricular (RV) infarction is suspected ; additional leads are placed at V4-6R.
+
+Right-Sided (V1R–V6R) and Posterior (V7–V9) Leads
+
+Image
+
+The chest electrode of ECG includes conventional chest lead V6, posterior wall leads V7-V9 (right illustration), and right ventricular leads V1R-V6R (left illustration).
+
+凌鲲 宋/stock.adobe.com
+
+For NSTEMI, characteristic ECG findings include new downsloping or horizontal ST depression (≥ 0.5 mm in at least 2 contiguous leads), T-wave inversion (> 1 mm in at least 2 contiguous leads with prominent R wave or R/S ratio > 1), or transient ST-segment elevation.
+
+NSTEMI
+
+Image
+
+This ECG of a patient in NSTEMI shows sinus tachycardia with right bundle branch block and inferolateral ST depressions and T wave inversions.
+
+© Springer Science+Business Media
+
+ECG diagnosis of MI is more difficult when a left bundle branch block configuration is present because it resembles STEMI changes. ST-segment elevation concordant with the QRS complex strongly suggests MI as does > 5-mm ST-segment elevation in at least 2 precordial leads. Although STEMI must be suspected in any patient with suggestive symptoms and new-onset (or not known to be old) left bundle branch block, a new left bundle branch block is not considered a STEMI equivalent in isolation (1, 4).
+
+Clinical Calculators
+
+M.I. Criteria for Likelihood in Chest Pain with LBBB
+
+Cardiac troponin
+
+Cardiac troponins (cTn), preferably using a high-sensitivity assay (hs-cTN), are the biomarkers used in the diagnosis of myocardial infarction. An abnormal cTn level, using an appropriate cutoff, is the primary distinguishing factor between unstable angina and myocardial infarction, particularly when ST elevation is not present.
+
+Patients suspected of having an acute coronary syndrome should have an hs-cTn assay performed on presentation and again 1 to 2 hours later. Troponin should be measured at 0 and 3 to 6 hours if a standard cTn assay is used. Because troponin elevation lags behind the onset of myocardial injury, angiography and treatment in patients with STEMI, or in unstable patients with a NSTE-ACS, should not be delayed because of an initially normal troponin level.
+
+Standard cardiac troponin assays, which have been in use for many years, are sensitive and specific but unlikely to detect cardiac troponins except in patients who had an acute cardiac disorder such as a myocardial infarction. Thus, a "positive" cTn test (ie, above the limit of detection) is very specific. Highly sensitive assays of cardiac troponin (hs-cTn) can detect small amounts of troponin in many healthy people, and conditions besides a myocardial infarction can cause an elevation in troponin (see Causes of Elevated Troponin Levels). Thus, troponin levels detected with hs-cTn tests need to be referenced to the normal range, and findings are defined as "elevated" with regard to MI diagnosis only when higher than 99% of the reference population (1).
+
+Although diagnostic criteria for MI are well-established (1), an hs-cTn assay must be interpreted based on the patient's pre-test probability of disease. A high pre-test probability plus an elevated troponin level detected with an hs-cTn assay is highly suggestive of myocardial infarction, whereas a low pre-test probability plus a normal hs-cTn assay result is unlikely to represent myocardial infarction. Diagnosis is more challenging when test results are discordant with pre-test probability, in which case serial hs-cTn assays often help. A patient with low pre-test probability and an initially slightly elevated troponin level detected with a hs-cTn assay that remains stable on repeat testing probably has non-ACS cardiac disease (eg, heart failure, stable coronary artery disease). However, if the repeat level rises significantly (ie, > 20 to 50%), the likelihood of myocardial infarction becomes much higher. If a patient with high pre-test probability has a normal troponin level detected with a hs-cTn assay that rises > 50% on repeat testing, myocardial infarction is likely; continued normal levels (often including at 6 hours and beyond when suspicion is high) suggest the need to pursue an alternate diagnosis.
+
+Coronary angiography
+
+Coronary angiography most often combines diagnosis with percutaneous coronary intervention (PCI—ie, angioplasty, stent placement). When possible, emergency coronary angiography and PCI are performed as soon as possible after the onset of acute myocardial infarction (primary PCI). In many studies, a shorter interval to PCI ("door to balloon" or "onset to balloon" time) is associated with significantly lower morbidity and mortality and improved long-term outcomes (5, 6, 7, 8).
+
+Angiography is obtained urgently for patients with STEMI, and for those with cardiogenic shock, new or worsening heart failure, chest pain refractory to treatment, or hemodynamic instability (including due to arrhythmia). Patients with high- or intermediate-risk NSTEMI typically undergo angiography within the first 24 to 72 hours of hospitalization to detect lesions that may require treatment; those with low-risk NSTE-ACS, including unstable angina, may undergo angiography prior to discharge or noninvasive testing such as stress testing or coronary CT angiography, followed by angiography if indicated after noninvasive testing (eg by inducible myocardial ischemia on stress testing) (1).
+
+Diagnosis references
+
+1. Rao SV, O'Donoghue ML, Ruel M, et al. 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2025;151(13):e771-e862. doi:10.1161/CIR.0000000000001309
+
+2. Hillinger P, Strebel I, Abächerli R, et al. Prospective validation of current quantitative electrocardiographic criteria for ST-elevation myocardial infarction. Int J Cardiol. 2019;292:1-12. doi:10.1016/j.ijcard.2019.04.041
+
+3. Wang JJ, Pahlm O, Warren JW, Sapp JL, Horáček BM. Criteria for ECG detection of acute myocardial ischemia: Sensitivity versus specificity. J Electrocardiol. 2018;51(6S):S12-S17. doi:10.1016/j.jelectrocard.2018.08.018
+
+4. Writing Committee, Kontos MC, de Lemos JA, et al. 2022 ACC Expert Consensus Decision Pathway on the Evaluation and Disposition of Acute Chest Pain in the Emergency Department: A Report of the American College of Cardiology Solution Set Oversight Committee. J Am Coll Cardiol. 2022;80(20):1925-1960. doi:10.1016/j.jacc.2022.08.750
+
+5. Foo CY, Bonsu KO, Nallamothu BK, et al. Coronary intervention door-to-balloon time and outcomes in ST-elevation myocardial infarction: a meta-analysis. Heart. 2018;104(16):1362-1369. doi:10.1136/heartjnl-2017-312517
+
+6. Mills EHA, Møller AL, Engstrøm T, et al. Time From Distress Call to Percutaneous Coronary Intervention and Outcomes in Myocardial Infarction. JACC Adv. 2024;3(7):101005. doi:10.1016/j.jacadv.2024.101005
+
+7. Nallamothu BK, Normand SL, Wang Y, et al. Relation between door-to-balloon times and mortality after primary percutaneous coronary intervention over time: a retrospective study. Lancet. 2015;385(9973):1114-1122. doi:10.1016/S0140-6736(14)61932-2
+
+8. Park J, Choi KH, Lee JM, et al. Prognostic Implications of Door-to-Balloon Time and Onset-to-Door Time on Mortality in Patients With ST-Segment-Elevation Myocardial Infarction Treated With Primary Percutaneous Coronary Intervention. J Am Heart Assoc. 2019;8(9):e012188. doi:10.1161/JAHA.119.012188
+
+Treatment of Acute MI
+
+Prehospital care: Oxygen, aspirin, and nitrates and triage to an appropriate medical center
+
+In-hospital pharmacologic therapy: Additional antiplatelet agents, analgesics, anticoagulants, and in some cases other medications
+
+Usually, reperfusion with percutaneous coronary intervention (PCI), coronary artery bypass grafting (CABG), or fibrinolytics for STEMI when PCI is not available
+
+Supportive care
+
+Post-discharge cardiac rehabilitation and chronic management of coronary artery disease
+
+Choice of pharmacologic therapy and choice of reperfusion strategy are discussed elsewhere.
+
+Prehospital care
+
+Oxygen
+
+Aspirin
+
+Nitrates
+
+Triage to appropriate medical center
+
+A reliable IV route must be established, oxygen given (typically 2 L by nasal cannula), and continuous ECG monitoring started. Prehospital interventions by emergency medical personnel (including ECG, chewed aspirin [160 to 325 mg], and pain management with nitroglycerin) can reduce risk of mortality and complications (1). Early diagnostic data and response to treatment can help determine the need for and timing of revascularization, and guide triage to the appropriate hospital.
+
+Hospital admission
+
+Risk-stratify patient and choose reperfusion strategy (PCI, CABG, or fibrinolytic therapy)
+
+Pharmacologic therapy with antiplatelets, anticoagulants and other medications based on reperfusion strategy
+
+On arrival to the emergency department, the patient's diagnosis is confirmed. Pharmacologic therapy and timing of revascularization depend on the clinical picture and diagnosis.
+
+For STEMI, reperfusion strategy can include immediate PCI, or fibrinolytic therapy when PCI is not available within 90 to 120 minutes. For patients with NSTEMI classified as intermediate- or high-risk (see Risk Stratification in ACS), angiography may be performed within 24 to 72 hours of admission if the patient is clinically stable. If the patient is unstable (eg, ongoing symptoms, hypotension, or sustained arrhythmias), angiography must be done immediately (see figure Approach to Acute Myocardial Infarction).
+
+Approach to Acute Myocardial Infarction
+
+a Use morphine or fentanyl judiciously if nitroglycerin is contraindicated or if the patient has symptoms despite nitroglycerin therapy; they may attenuate the effect of P2Y12 inhibitors.
+
+b See Antiplatelet Agents for more detail.
+
+c Based on risk scores, troponin, symptoms, and ECG changes.
+
+d Unstable patients include those with cardiogenic shock, new or worsening heart failure symptoms, refractory ischemic symptoms, and hemodynamic or electrical instability.
+
+e 90 minutes if patient is in the United States and calls 911 or presents to a PCI-capable hospital; 120 minutes with hospital-to-hospital transfer.
+
+f CABG may be preferred to PCI for patients with the following: High complexity coronary disease that involves the left main coronary artery, diabetes and multivessel disease involving the left anterior descending artery, multivessel or diffuse disease, or severe left ventricular dysfunction with multivessel or complex left main disease.
+
+ACE = angiotensin-converting enzyme inhibitor; ARB = angiotensin II receptor blocker; CABG = coronary artery bypass grafting; CCTA = coronary CT angiography; NSTE–ACS = non–ST-segment elevation–acute coronary syndrome; MINOCA = myocardial infarction with non-obstructive coronary arteries; PCI = percutaneous intervention; SL = sublingual; STEMI = ST-segment elevation myocardial infarction.
+
+Data from Rao SV, O'Donoghue ML, Ruel M, et al. 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2025;151(13):e771-e862. doi:10.1161/CIR.0000000000001309.
+
+Pharmacologic treatment of acute myocardial infarction
+
+All patients should be given antiplatelet agents, anticoagulants, and if chest pain is present, antianginal medications. The specific medications used depend on the reperfusion strategy and other factors; medication selection and use are discussed in Medications for Acute Coronary Syndromes. Other medications, such as beta-blockers, angiotensin-converting enzyme (ACE) inhibitors or angiotensin II receptor blockers (ARBs), and statins, should also be given (see Post-ACS Treatment of Acute Coronary Syndromes and the table Medications for Acute Coronary Syndromes and Chronic Coronary Artery Disease).
+
+Patients with acute myocardial infarction should be given the following (unless contraindicated):
+
+Antiplatelet agents: Aspirin and prasugrel, ticagrelor, or clopidogrel
+
+Anticoagulants: A heparin (unfractionated or low molecular weight heparin) or bivalirudin
+
+Sometimes a glycoprotein IIb/IIIa inhibitor when PCI is performed
+
+Antianginal therapy, usually nitroglycerin
+
+Beta-blocker
+
+Angiotensin-converting enzyme (ACE) inhibitor or angiotensin II receptor blocker (ARB)
+
+Statin and sometimes additional lipid-lowering agents
+
+Sometimes mineralocorticoid receptor-antagonists or sodium-glucose co-transorter-2 (SGLT2) inhibitors
+
+All patients are given aspirin 160 to 325 mg (not enteric-coated), if not contraindicated. Chewing the first dose before swallowing quickens absorption. Aspirin reduces short- and long-term mortality risk (2). In patients undergoing PCI, a loading dose of prasugrel (60 mg orally once), ticagrelor (180 mg orally once), or clopidogrel (300 to 600 mg orally once) is recommended to reduce ischemic events and improve outcomes. (3). For urgent PCI, prasugrel and ticagrelor are more rapid in onset and may be preferred. IV cangrelor may also be used during PCI to reduce ischemic events in patients who are P2Y12-inhibitor naive (4).
+
+Either a low molecular weight heparin (LMWH), unfractionated heparin, or bivalirudin is given routinely to patients with myocardial infarction unless contraindicated (eg, by active bleeding) (4). Unfractionated heparin is more complicated to use because it requires frequent (every 6 hours) dosing adjustments to achieve target activated partial thromboplastin time (aPTT). The LMWHs have better bioavailability, are given by simple weight-based dose without monitoring aPTT and dose titration, and have lower risk of heparin-induced thrombocytopenia; they are recommended when an early invasive strategy is not planned. Bivalirudin is recommended for patients with a known or suspected history of heparin-induced thrombocytopenia who are undergoing PCI. Anticoagulants are continued for:
+
+Duration of PCI in patients undergoing this procedure
+
+Duration of hospital stay (in patients on LMWH) or 48 hours (in patients on unfractionated heparin) in all other cases
+
+Consider a glycoprotein IIb/IIIa inhibitor during (or sometimes before) PCI for patients with high-risk lesions (high thrombus burden, no reflow). Abciximab, tirofiban, and eptifibatide appear to have equivalent efficacy, and the choice of medication should depend on other factors (eg, cost, availability, familiarity). Glycoprotein IIb/IIIa inhibitors are continued for 6 to 24 hours (4).
+
+Chest pain can be treated with sublingual or intravenous nitroglycerin, or sometimes morphine or fentanyl. Nitroglycerin is preferable to opioids, which should be used judiciously (eg, if a patient has a contraindication to nitroglycerin or is in pain despite maximal nitroglycerin therapy) (4). Nitroglycerin is initially given sublingually, followed by continuous IV drip if needed. Morphine, given 2 to 4 mg IV, repeated every 15 minutes as needed, is highly effective but can depress respiration, can reduce myocardial contractility, and is a potent venous vasodilator. Evidence also suggests that morphine and fentanyl interfere with some P2Y12 receptor inhibitor activity. A large retrospective trial showed that morphine may increase mortality in patients with acute myocardial infarction (5, 6, 7). Hypotension and bradycardia secondary to morphine can usually be overcome by prompt elevation of the lower extremities.
+
+Post-acute pharmacologic treatment
+
+Dual antiplatelet therapy with aspirin and a P2Y12 inhibitor (eg, ticagrelor, clopidogrel) for up to 1 year is recommended (4, 8, 9). A proton pump inhibitor should be given with dual antiplatelet therapy. If PCI was performed, options for tapering to monotherapy sooner than 12 months, with aspirin or a P2Y12 inhibitor, are discussed in more detail under Treatment of Acute Coronary Syndromes and Medications for Acute Coronary Syndromes.
+
+Standard therapy for all patients with acute coronary syndromes, including myocardial infarction, includes beta-blockers, ACE inhibitors or ARBs, and statins (3, 4). Beta-blockers are recommended unless contraindicated (eg, by bradycardia, heart block, hypotension, or asthma), especially for high-risk patients. Beta-blockers reduce heart rate, arterial pressure, and contractility, thereby reducing cardiac workload and oxygen demand. However, beta-blockers may have limited benefit in patients with preserved LV ejection fraction (10, 11). ACE inhibitors or ARBs may provide long-term cardioprotection by improving endothelial function (12), particularly in patients with heart failure, hypertension, diabetes, or chronic kidney disease. Statins are also standard therapy regardless of lipid levels (13) and should be continued indefinitely, with the addition of other lipid-lowering medications as needed.
+
+Mineralocorticoid receptor antagonists (spironolactone or eplerenone) are indicated for patients with left ventricular dysfunction and either heart failure symptoms or diabetes following ACS, to reduce morbidity and mortality (4). In patients with heart failure, data also support blockade of the sodium–glucose co-transporter 2 (SGLT2) after MI, regardless of diabetes status, to reduce the risk of worsening heart failure, cardiovascular mortality, or both (4, 14).
+
+Reperfusion therapy in acute myocardial infarction
+
+For patients with STEMI: Immediate percutaneous coronary intervention (PCI) or fibrinolytics if immediate angiography and PCI are not available at presentation hospital
+
+For patients with NSTEMI: Immediate PCI for unstable patients or within 24 to 48 hours for stable patients
+
+For patients with STEMI, emergency PCI is the preferred treatment of ST-segment elevation myocardial infarction when available in a timely fashion (door to balloon-inflation time < 90 minutes, or < 120 minutes if hospital-to-hospital transfer is involved) by an experienced operator (4). If there is likely to be a significant delay in availability of PCI, thrombolysis should be performed for patients with STEMI meeting criteria (see Infarct extent). Reperfusion using fibrinolytics is most effective if given in the first few minutes to hours after onset of myocardial infarction. The earlier a fibrinolytic is begun, the better. The goal is a door-to-needle time of 30 to 60 minutes. Greatest benefit occurs within 3 hours, but the medications may be effective up to 12 hours. Characteristics and selection of fibrinolytic medications are discussed elsewhere. Patients with STEMI treated with fibrinolysis should undergo subsequent angiography with the intent to perform PCI between 2 and 24 hours afterwards in most patients but immediately if reperfusion with fibrinolytics failed.
+
+Patients with unstable NSTE-ACS (including NSTEMI and unstable angina) (ie, those with shock, ongoing symptoms, hypotension, or sustained arrhythmias) should be taken directly to the cardiac catheterization laboratory for angiography to identify coronary lesions requiring PCI or coronary artery bypass grafting (CABG) (4).
+
+For patients with uncomplicated NSTEMI, reperfusion is not as urgent because a completely occluded infarct-related artery at presentation is uncommon. Such patients typically undergo angiography within the first 24 to 72 hours of hospitalization to identify coronary lesions requiring PCI or CABG (4). Patients with low-risk NSTEMI may also undergo non-invasive risk stratification with stress testing or coronary CT angiography prior to or in lieu of angiography.
+
+Fibrinolytics are not indicated for any patients with NSTE-ACS, including NSTEMI. Risk outweighs potential benefit.
+
+Choice of reperfusion strategy is further discussed in Revascularization for Acute Coronary Syndromes.
+
+Rehabilitation and post-discharge treatment
+
+Functional evaluation
+
+Cardiac rehabilitation
+
+Changes in lifestyle: Regular exercise, diet modification, weight loss, smoking cessation
+
+Post-acute pharmacologic therapy is discussed elsewhere.
+
+Patients who did not have coronary angiography during admission, have no high-risk features (eg, heart failure, recurrent angina, ventricular tachycardia or ventricular fibrillation after 24 hours, mechanical complications such as new murmurs, shock), and have an ejection fraction > 40% whether or not they received fibrinolytics usually should have stress testing of some sort before or shortly after discharge (see table Functional Evaluation After Myocardial Infarction).
+
+Table
+
+Functional Evaluation After Myocardial Infarction
+
+Functional Evaluation After Myocardial Infarction
+
+Exercise Capacity
+
+If ECG Is Interpretable
+
+If ECG Is Not Interpretable
+
+Able to exercise
+
+Submaximal or symptom-limited stress ECG before or after discharge
+
+Exercise echocardiography or nuclear scanning
+
+Unable to exercise
+
+Pharmacologic stress testing (echocardiography or nuclear scanning)
+
+Pharmacologic stress testing (echocardiography or nuclear scanning)
+
+Supervised cardiac rehabilitation programs based in clinics or hospitals or home-based programs are recommended for all patients after acute coronary syndromes (4); these programs decrease cardiovascular mortality after revascularization (15).
+
+The acute illness and treatment of myocardial infarction should serve as a catalyst for discussion of modifiable cardiovascular risk factors. Evaluating the patient’s physical and emotional status and discussing them with the patient, advising about lifestyle (eg, smoking, diet, work and play habits, exercise), and aggressively managing risk factors may improve prognosis.
+
+Treatment references
+
+1. Nakayama N, Yamamoto T, Kikuchi M, et al. Prehospital Administration of Aspirin and Nitroglycerin for Patients With Suspected Acute Coronary Syndrome—A Systematic Review. Circ Rep. 2022;4(10):449-457. doi:10.1253/circrep.CR-22-0060
+
+2. Antithrombotic Trialists' Collaboration. Collaborative meta-analysis of randomised trials of antiplatelet therapy for prevention of death, myocardial infarction, and stroke in high risk patients. BMJ. 2002;324(7329):71-86. doi:10.1136/bmj.324.7329.71
+
+3. Lawton JS, Tamis-Holland JE, Bangalore S, et al. 2021 ACC/AHA/SCAI Guideline for Coronary Artery Revascularization: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2022;145(3):e18-e114. doi:10.1161/CIR.0000000000001038
+
+4. Rao SV, O'Donoghue ML, Ruel M, et al. 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2025;151(13):e771-e862. doi:10.1161/CIR.0000000000001309
+
+5. Ibrahim K, Shah R, Goli RR, et al. Fentanyl Delays the Platelet Inhibition Effects of Oral Ticagrelor: Full Report of the PACIFY Randomized Clinical Trial. Thromb Haemost. 2018;118(8):1409-1418. doi:10.1055/s-0038-1666862
+
+6. Kubica J, Adamski P, Ostrowska M, et al: Morphine delays and attenuates ticagrelor exposure and action in patients with myocardial infarction: the randomized, double-blind, placebo-controlled IMPRESSION trial. Eur Heart J 37(3):245–252, 2016. doi: 10.1093/eurheartj/ehv547
+
+7. Meine TJ, Roe MT, Chen AY, et al: Association of intravenous morphine use and outcomes in acute coronary syndromes: results from the CRUSADE Quality Improvement Initiative. Am Heart J 149(6):1043–1049, 2005. doi 10.1016/j.ahj.2005.02.010
+
+8. Visseren FLJ, Mach F, Smulders YM, et al. 2021 ESC Guidelines on cardiovascular disease prevention in clinical practice: Developed by the Task Force for cardiovascular disease prevention in clinical practice with representatives of the European Society of Cardiology and 12 medical societies With the special contribution of the European Association of Preventive Cardiology (EAPC). Rev Esp Cardiol (Engl Ed). 2022;75(5):429. doi:10.1016/j.rec.2022.04.003
+
+9. Wallentin L, Becker RC, Budaj A, et al. Ticagrelor versus clopidogrel in patients with acute coronary syndromes. N Engl J Med. 2009;361(11):1045-1057. doi:10.1056/NEJMoa0904327
+
+10. Ibanez B, Latini R, Rossello X, et al. Beta-Blockers after Myocardial Infarction without Reduced Ejection Fraction. N Engl J Med. 2025;393(19):1889-1900. doi:10.1056/NEJMoa2504735
+
+11. Munkhaugen J, Kristensen AMD, Halvorsen S, et al. Beta-Blockers after Myocardial Infarction in Patients without Heart Failure. N Engl J Med. 2025;393(19):1901-1911. doi:10.1056/NEJMoa2505985
+
+12. Heart Outcomes Prevention Evaluation Study Investigators, Yusuf S, Sleight P, et al. Effects of an angiotensin-converting-enzyme inhibitor, ramipril, on cardiovascular events in high-risk patients. N Engl J Med. 2000;342(3):145-153. doi:10.1056/NEJM200001203420301
+
+13. Wang WT, Hellkamp A, Doll JA, et al. Lipid Testing and Statin Dosing After Acute Myocardial Infarction. J Am Heart Assoc. 2018;7(3):e006460. Published 2018 Jan 25. doi:10.1161/JAHA.117.006460
+
+14. Byrne RA, Rossello X, Coughlan JJ, et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-3826. doi:10.1093/eurheartj/ehad191
+
+15. Dibben G, Faulkner J, Oldridge N, et al. Exercise-based cardiac rehabilitation for coronary heart disease. Cochrane Database Syst Rev. 2021;11(11):CD001800. doi:10.1002/14651858.CD001800.pub4
+
+Prognosis for Acute MI
+
+Risk should be estimated via formal clinical risk scores (eg, Thrombosis in Myocardial Infarction [TIMI]—see tables Mortality Risk at 30 Days in STEMI and Risk of Adverse Events at 14 Days in Unstable Angina or NSTEMI), the Global Registry of Acute Coronary Events [GRACE] score, or a combination of the following high-risk features:
+
+Recurrent angina/ischemia at rest or during low-level activity
+
+Heart failure
+
+Worsening mitral regurgitation
+
+High-risk stress test result (test stopped in ≤ 5 minutes due to symptoms, marked ECG abnormalities, hypotension, or complex ventricular arrhythmias)
+
+Hemodynamic instability
+
+Sustained ventricular tachycardia
+
+Diabetes mellitus
+
+PCI within past 6 months
+
+Prior coronary artery bypass grafting (CABG)
+
+LV ejection fraction < 0.40
+
+The Killip classification categorizes patients with an acute MI based on physical examination findings suggestive of left ventricular failure, and higher scores predicting higher mortality risk (1) (see table Killip Classification and Mortality Rate of Acute MI), and is incorporated into both the TIMI and GRACE scores.
+
+In-hospital mortality of myocardial infarction is approximately 3 to 8% (2, 3), compared with 30% prior to the widespread use of PCI and fibrinolytics. In-hospital mortality is generally lower for NSTEMI than for STEMI. Mortality rates tend to be higher in females and in patients with diabetes (4, 5).
+
+Cardiogenic shock is the largest cause of in-hospital mortality in patients with STEMI undergoing PCI. Most fatalities among patients who do survive initial hospitalization occur in the first year after diagnosis (6). Factors associated with higher risk of adverse events in the year after discharge include decreased LV ejection fraction, progression of heart failure, diabetes, and poor renal function (7, 8). Assessment of ejection fraction, usually with echocardiography, is recommended prior to discharge after acute MI (9).
+
+Many authorities recommend stress ECG before hospital discharge or within 6 weeks of MI. Good exercise performance without ECG abnormalities is associated with a favorable prognosis; further evaluation is usually not required. Poor exercise performance is associated with a poor prognosis.
+
+Cardiac performance after recovery depends largely on how much functioning myocardium survives the acute attack. Acute damage adds to scars from previous infarcts.
+
+Table
+
+Killip Classification of Acute Myocardial Infarction*
+
+Table
+
+Killip Classification of Acute Myocardial Infarction*
+
+Killip Classification of Acute Myocardial Infarction*
+
+Class
+
+PAO2†
+
+Clinical Description
+
+1
+
+Normal
+
+No clinical evidence of left ventricular (LV) failure
+
+2
+
+Slightly reduced
+
+Mild to moderate LV failure
+
+3
+
+Abnormal
+
+Severe LV failure, pulmonary edema
+
+4
+
+Severely abnormal
+
+Cardiogenic shock: hypotension, tachycardia, mental obtundation, cool extremities, oliguria, hypoxia
+
+* Determined by repeated examination of the patient during the course of illness.
+
+† Determined while the patient is breathing room air.
+
+Modified from Killip T 3rd, Kimball JT. Treatment of myocardial infarction in a coronary care unit. A two-year experience with 250 patients. Am J Cardiol. 1967;20(4):457-464. doi:10.1016/0002-9149(67)90023-9
+
+* Determined by repeated examination of the patient during the course of illness.
+
+† Determined while the patient is breathing room air.
+
+Modified from Killip T 3rd, Kimball JT. Treatment of myocardial infarction in a coronary care unit. A two-year experience with 250 patients. Am J Cardiol. 1967;20(4):457-464. doi:10.1016/0002-9149(67)90023-9
+
+Table
+
+Mortality Risk at 30 Days in STEMI
+
+Table
+
+Mortality Risk at 30 Days in STEMI
+
+Mortality Risk at 30 Days in STEMI
+
+Risk Factor
+
+Points
+
+Age ≥ 75 years
+
+3
+
+Age 65–74 years
+
+2
+
+Diabetes mellitus, hypertension, or angina
+
+1
+
+Systolic blood pressure < 100 mm Hg
+
+3
+
+Heart rate > 100 beats/minute
+
+2
+
+Killip class II–IV
+
+2
+
+Weight < 67 kg
+
+1
+
+Anterior ST-elevation or left branch bundle block
+
+1
+
+Time to treatment > 4 hours
+
+1
+
+Total points possible
+
+0–14
+
+Risk
+
+Total Points
+
+Mortality Rate at 30 Days (%)
+
+0
+
+0.8
+
+1
+
+1.6
+
+2
+
+2.2
+
+3
+
+4.4
+
+4
+
+7.3
+
+5
+
+12.4
+
+6
+
+16.1
+
+7
+
+23.4
+
+8
+
+26.8
+
+> 8
+
+35.9
+
+MI = myocardial infarction; STEMI = ST-segment elevation MI; TIMI = thrombolysis in MI.
+
+Based on Morrow DA, Antman EM, Charlesworth A, et al. TIMI risk score for ST-elevation myocardial infarction: a convenient, bedside, clinical score for risk assessment at presentation: An intravenous nPA for treatment of infarcting myocardium early II trial substudy. Circulation. 2000;102 (17):2031-2037. doi:10.1161/01.cir.102.17.2031 and Rao SV, O'Donoghue ML, Ruel M, et al. 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2025;151(13):e771-e862. doi:10.1161/CIR.0000000000001309.
+
+MI = myocardial infarction; STEMI = ST-segment elevation MI; TIMI = thrombolysis in MI.
+
+Based on Morrow DA, Antman EM, Charlesworth A, et al. TIMI risk score for ST-elevation myocardial infarction: a convenient, bedside, clinical score for risk assessment at presentation: An intravenous nPA for treatment of infarcting myocardium early II trial substudy. Circulation. 2000;102 (17):2031-2037. doi:10.1161/01.cir.102.17.2031 and Rao SV, O'Donoghue ML, Ruel M, et al. 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2025;151(13):e771-e862. doi:10.1161/CIR.0000000000001309.
+
+Table
+
+Risk of Adverse Events* at 14 Days in Unstable Angina or NSTEMI
+
+Table
+
+Risk of Adverse Events* at 14 Days in Unstable Angina or NSTEMI
+
+Risk of Adverse Events* at 14 Days in Unstable Angina or NSTEMI
+
+Scoring
+
+Risk Factor
+
+Points
+
+Age > 65 years
+
+1
+
+CAD risk factors (must have ≥ 3 for 1 point):
+
+Family history
+
+Hypertension
+
+Current smoking
+
+High cholesterol
+
+Diabetes mellitus
+
+1
+
+Known CAD (stenosis ≥ 50%)
+
+1
+
+Previous chronic use of aspirin
+
+1
+
+Two episodes of rest angina in past 24 hours
+
+1
+
+Elevated cardiac biomarkers
+
+1
+
+ST elevation ≥ 0.5 mm
+
+1
+
+Risk level is based on total points:
+
+1–2 = low
+
+3–4 = intermediate
+
+5–7 = high
+
+Absolute risk
+
+Total Points
+
+Risk of Events at 14 Days (%)*
+
+0 or 1
+
+4.7
+
+2
+
+8.3
+
+3
+
+13.2
+
+4
+
+19.9
+
+5
+
+26.2
+
+6 or 7
+
+40.9
+
+* Events include all-cause mortality, myocardial infarction, and recurrent ischemia requiring urgent revascularization.
+
+CAD = coronary artery disease; MI = myocardial infarction; NSTEMI = non–ST-segment elevation MI; TIMI = thrombolysis in MI.
+
+Based on Antman EM, Cohen M, Bernink PJ, et al. The TIMI risk score for unstable angina/non-ST elevation MI: A method of prognostication and therapeutic decision making. JAMA. 2000;284(7):835-842. doi:10.1001/jama.284.7.835
+
+* Events include all-cause mortality, myocardial infarction, and recurrent ischemia requiring urgent revascularization.
+
+CAD = coronary artery disease; MI = myocardial infarction; NSTEMI = non–ST-segment elevation MI; TIMI = thrombolysis in MI.
+
+Based on Antman EM, Cohen M, Bernink PJ, et al. The TIMI risk score for unstable angina/non-ST elevation MI: A method of prognostication and therapeutic decision making. JAMA. 2000;284(7):835-842. doi:10.1001/jama.284.7.835
+
+Clinical Calculators
+
+Thrombolysis in Myocardial Infarction (TIMI) Score for Unstable Angina Non ST Elevation Myocardial Infarction
+
+Clinical Calculators
+
+Thrombolysis in Myocardial Infarction (TIMI) Score for ST Elevation Acute Myocardial Infarction
+
+Clinical Calculators
+
+GRACE 2.0 Score for Acute Coronary Syndrome Prognosis (non-linear model 2014)
+
+Prognosis references
+
+1. De Luca G, van 't Hof AW, de Boer MJ, et al. Impaired myocardial perfusion is a major explanation of the poor outcome observed in patients undergoing primary angioplasty for ST-segment-elevation myocardial infarction and signs of heart failure. Circulation 2004;109(8):958-961. doi:10.1161/01.CIR.0000120504.31457.28
+
+2. Roe MT, Messenger JC, Weintraub WS, et al. Treatments, trends, and outcomes of acute myocardial infarction and percutaneous coronary intervention. J Am Coll Cardiol. 2010;56(4):254-263. doi:10.1016/j.jacc.2010.05.008
+
+3. Masoudi FA, Ponirakis A, de Lemos JA, et al. Trends in U.S. Cardiovascular Care: 2016 Report From 4 ACC National Cardiovascular Data Registries. J Am Coll Cardiol. 2017;69(11):1427-1450. doi:10.1016/j.jacc.2016.12.005
+
+4. Milazzo V, Cosentino N, Genovese S, et al. Diabetes Mellitus and Acute Myocardial Infarction: Impact on Short and Long-Term Mortality. Adv Exp Med Biol. 2021;1307:153-169. doi:10.1007/5584_2020_481
+
+5. Solola Nussbaum S, Henry S, Yong CM, Daugherty SL, Mehran R, Poppas A. Sex-Specific Considerations in the Presentation, Diagnosis, and Management of Ischemic Heart Disease: JACC Focus Seminar 2/7. J Am Coll Cardiol. 2022;79(14):1398-1406. doi:10.1016/j.jacc.2021.11.065
+
+6. Maimaitiming M, Li S, Huang K, et al. Risk factors for cardiogenic shock incidence and mortality after acute myocardial infarction: a systematic review and meta-analysis. Commun Med (Lond). 2025;5(1):200. doi:10.1038/s43856-025-00874-y
+
+7. Im MS, Kim HL, Kim SH, et al. Different prognostic factors according to left ventricular systolic function in patients with acute myocardial infarction. Int J Cardiol. 2016;221:90-96. doi:10.1016/j.ijcard.2016.06.100
+
+8. Ye Q, Zhang J, Ma L. Predictors of all-cause 1-year mortality in myocardial infarction patients. Medicine (Baltimore). 2020;99(29):e21288. doi:10.1097/MD.0000000000021288
+
+9. Rao SV, O'Donoghue ML, Ruel M, et al. 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2025;151(13):e771-e862. doi:10.1161/CIR.0000000000001309
+
+Key Points
+
+Acute myocardial infarction (MI) is myocardial necrosis of heart muscle tissue, usually due to acute obstruction of a coronary artery.
+
+Infarction location (right ventricle, inferoposterior, or anterior) and extent (transmural or nontransmural) affect symptoms, treatment, and prognosis.
+
+Symptoms typically include substernal aching or pressure (with or without radiation to the neck, back, or arms) dyspnea, diaphoresis, nausea, and/or vomiting.
+
+Females, older adults, and patients with diabetes are more likely to have atypical symptoms, and 20% of acute MIs are silent (asymptomatic).
+
+Diagnose with serial ECGs and cardiac troponin.
+
+Treat immediately with oxygen, antiplatelets, nitrates, and anticoagulants.
+
+For patients with ST-segment elevation MI (STEMI), treat with immediate angiography and percutaneous coronary intervention (PCI); if immediate PCI is not available, give intravenous fibrinolytics.
+
+For most patients with non-ST-segment elevation MI (NSTEMI), perform angiography and PCI within 24 to 72 hours if stable; do immediate PCI for unstable patients (persistent chest pain, shock, hypotension, unstable arrhythmias, or markedly elevated biomarkers).
+
+Initiate or continue antiplatelets, beta-blockers, ACE inhibitors (or angiotensin II receptor blockers), and statins following initial treatment.
+
+After hospital discharge, arrange functional evaluation and cardiac rehabilitation, and manage risk factors (eg, hypertension, diabetes, smoking), and promote healthy diet and exercise.

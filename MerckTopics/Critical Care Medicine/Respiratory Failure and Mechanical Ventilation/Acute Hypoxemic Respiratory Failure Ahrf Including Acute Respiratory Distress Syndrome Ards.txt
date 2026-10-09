@@ -1,0 +1,404 @@
+=== Acute Hypoxemic Respiratory Failure (AHRF), Including Acute Respiratory Distress Syndrome (ARDS) (Merck Manual Professional) ===
+Section: Critical Care Medicine > Respiratory Failure and Mechanical Ventilation
+Source: https://www.merckmanuals.com/professional/critical-care-medicine/respiratory-failure-and-mechanical-ventilation/acute-hypoxemic-respiratory-failure-ahrf-including-acute-respiratory-distress-syndrome-ards
+Retrieved: 2026-09-25
+
+Clinical Calculators
+
+PaO2 / FIO2 Ratio (for MODS Calculation)
+
+Etiology of AHRF
+
+Airspace filling in acute hypoxemic respiratory failure (AHRF) may result from:
+
+Elevated alveolar capillary hydrostatic pressure, as occurs in left ventricular failure (causing pulmonary edema) or hypervolemia
+
+Increased alveolar capillary permeability, as occurs in any of the conditions predisposing to acute respiratory distress syndrome (ARDS)
+
+Blood (as occurs in diffuse alveolar hemorrhage) or inflammatory exudates (as occur in pneumonia or other inflammatory lung conditions)
+
+Hypoxia due to right-to-left intracardiac shunts, in which deoxygenated venous blood bypasses the lungs and enters the systemic circulation, usually occurs as a long-term complication of large, untreated left-to-right shunts (eg, due to patent foramen ovale, atrial septal defect). This phenomenon is termed Eisenmenger syndrome. This discussion focuses on refractory hypoxemia due to pulmonary causes.
+
+Pathophysiology of AHRF
+
+ARDS
+
+ARDS is a diffuse, inflammatory lung injury that is a cause of AHRF (1) that accounts for about two-thirds of AHRF cases (2). ARDS is divided into 3 categories of severity: mild, moderate, and severe based on oxygenation defects and clinical criteria. The mild category corresponds to the previous category termed acute lung injury (ALI).
+
+In ARDS, pulmonary or systemic inflammation leads to release of cytokines and other proinflammatory molecules. The cytokines activate alveolar macrophages and recruit neutrophils to the lungs, which in turn release leukotrienes, oxidants, platelet-activating factor, and proteases, contributing to tissue damage in the lungs as well as other organs (biotrauma). These substances damage capillary endothelium and alveolar epithelium, disrupting the barriers between capillaries and airspaces. Edema fluid, protein, and cellular debris flood the airspaces and interstitium, causing disruption of surfactant, airspace collapse, ventilation-perfusion mismatch, shunting, and pulmonary hypertension. The airspace collapse more commonly occurs in dependent lung zones. This early phase of ARDS is termed exudative. Later, there is proliferation of alveolar epithelium and fibrosis, constituting the fibro-proliferative phase.
+
+Table
+
+Berlin Definition of ARDS
+
+Table
+
+Berlin Definition of ARDS
+
+Berlin Definition of ARDS
+
+ARDS Category
+
+Oxygenation
+
+Level of severity
+
+Mild
+
+200 mm Hg < PaO2/FIO2≤ 300 mm Hg* with PEEP or CPAP ≥ 5 cm H2O
+
+Moderate
+
+100 mm Hg < PaO2/FIO2≤ 200 mm Hg with PEEP ≥ 5 cm H2O
+
+Severe
+
+PaO2/FIO2≤ 100 mm Hg with PEEP ≥ 5 cm H2O
+
+Clinical criteria
+
+Timing
+
+Onset within 1 week of known insult or of new or worsening respiratory symptoms
+
+Imaging (radiograph or CT of chest)
+
+Bilateral opacities not fully explained by effusions, lobar or lung collapse, or nodules
+
+Origin of edema
+
+Respiratory failure not fully explained by heart failure or fluid overload
+
+* PaO2 in mm Hg; FIO2 in decimal fraction (eg, 0.5).
+
+ARDS = acute respiratory distress syndrome; CPAP = continuous positive airway pressure; FIO2 = fraction of inspired oxygen; PaO2 = partial pressure of arterial oxygen; PEEP = positive end-expiratory pressure.
+
+Adapted from ARDS Definition Task Force, Ranieri VM, Rubenfeld GD, et al. Acute respiratory distress syndrome: The Berlin definition. JAMA. 2012;307(23):2526-2533. doi: 10.1001/jama.2012.5669
+
+* PaO2 in mm Hg; FIO2 in decimal fraction (eg, 0.5).
+
+ARDS = acute respiratory distress syndrome; CPAP = continuous positive airway pressure; FIO2 = fraction of inspired oxygen; PaO2 = partial pressure of arterial oxygen; PEEP = positive end-expiratory pressure.
+
+Adapted from ARDS Definition Task Force, Ranieri VM, Rubenfeld GD, et al. Acute respiratory distress syndrome: The Berlin definition. JAMA. 2012;307(23):2526-2533. doi: 10.1001/jama.2012.5669
+
+Diagnosis of ARDS based on the Berlin definition is challenging because of the widespread use of high-flow nasal cannula and pulse oximetry, and it often cannot be applied in low-resource settings (due to lack of routine access to chest radiography, arterial blood gas sampling, and mechanical ventilation). Therefore, a consensus panel has proposed modifying the Berlin definition to include ultrasound for confirmation of bilateral opacities; use of positive end-expiratory pressure (PEEP) and high flow oxygen (of at least 30 L/minute); and oxygen saturation/fraction of inspired oxygen (FiO2) ≤ 315 if the oxygen saturation is ≤ 97% (3). The new definitions for low-resource settings do not classify severity.
+
+Causes of ARDS may involve direct or indirect lung injury.
+
+Common causes of direct lung injury are:
+
+Gastric acid aspiration
+
+Pneumonia
+
+Less common causes of direct lung injury are:
+
+Diffuse alveolar hemorrhage
+
+Pulmonary contusion
+
+Nonfatal drowning
+
+Lung transplantation
+
+Fat embolism
+
+Irritant gas inhalation
+
+Amniotic fluid embolism
+
+Common causes of indirect lung injury include:
+
+Sepsis
+
+Trauma with prolonged hypovolemic shock
+
+Less common causes of indirect lung injury include:
+
+Pancreatitis
+
+Transfusion-related acute lung injury
+
+Massive blood transfusion (eg, > 15 units)
+
+Bone marrow transplantation
+
+Burns
+
+Cardiopulmonary bypass
+
+Drug overdose or toxicity (eg, aspirin, cocaine, opioids, phenothiazines, tricyclic antidepressants)
+
+Neurogenic pulmonary edema due to stroke, seizure, head trauma, anoxia
+
+Preeclampsia
+
+Septic abortion
+
+Radiographic contrast (rare)
+
+Sepsis and pneumonia account for the majority of ARDS (4, 5).
+
+Refractory hypoxemia
+
+Whatever the cause of airspace filling in AHRF, flooded or collapsed airspaces allow no inspired gas to enter, so the blood perfusing those alveoli remains at the mixed venous oxygen content level no matter how high the FIO2. This effect ensures constant admixture of deoxygenated blood into the pulmonary vein and hence arterial hypoxemia. However, due to the heterogenous airspace disease in ARDS, healthier areas may allow adequate ventilation to avoid significant hypercapnia.
+
+In contrast, hypoxemia that results from ventilating alveoli that have low ventilation-to-perfusion ratios (as occur in asthma or chronic obstructive pulmonary disease [COPD] and, to some extent, in ARDS) is readily corrected by supplemental oxygen, which increases the alveolar oxygen pressure and drives diffusion into the blood. Thus respiratory failure caused by asthma or COPD is more often ventilatory than purely hypoxemic respiratory failure. Note that caution should be used in administering supplemental oxygen to patients with COPD and chronic hypoventilation, as excessive correction of hypoxemia may reduce respiratory drive.
+
+Pathophysiology references
+
+1. Grasselli G, Calfee CS, Camporota L, et al. ESICM guidelines on acute respiratory distress syndrome: definition, phenotyping and respiratory support strategies. Intensive Care Med. 2023;49(7):727-759. doi:10.1007/s00134-023-07050-7
+
+2. Bellani G, Laffey JG, Pham T, et al. Epidemiology, Patterns of Care, and Mortality for Patients With Acute Respiratory Distress Syndrome in Intensive Care Units in 50 Countries. JAMA. 2016;315(8):788-800. doi:10.1001/jama.2016.0291
+
+3. Matthay MA, Arabi Y, Arroliga AC, et al. A New Global Definition of Acute Respiratory Distress Syndrome. Am J Respir Crit Care Med. 2024;209(1):37-47. doi:10.1164/rccm.202303-0558WS
+
+4. Bos LDJ, Ware LB. Acute respiratory distress syndrome: causes, pathophysiology, and phenotypes. Lancet. 2022;400(10358):1145-1156. doi:10.1016/S0140-6736(22)01485-4
+
+5. Eworuke E, Major JM, Gilbert McClain LI. National incidence rates for Acute Respiratory Distress Syndrome (ARDS) and ARDS cause-specific factors in the United States (2006-2014). J Crit Care. 2018;47:192-197. doi:10.1016/j.jcrc.2018.07.002
+
+Symptoms and Signs of AHRF
+
+Acute hypoxemia (see also Oxygen Desaturation) may cause dyspnea, restlessness, and anxiety. Signs include confusion or alteration of consciousness, cyanosis, tachypnea, tachycardia, and diaphoresis. Cardiac arrhythmia and coma can result.
+
+Inspiratory opening of closed airways causes crackles, detected during chest auscultation; the crackles are typically diffuse but sometimes worse at the lung bases, particularly in the left lower lobe because the weight of the heart increases atelectasis. Jugular venous distention occurs with high levels of positive end-expiratory pressure (PEEP) or right ventricular failure.
+
+Diagnosis of AHRF
+
+Chest radiograph, pulse oximetry, and arterial blood gas (ABG) measurement
+
+Clinical definition (see table Berlin Definition of ARDS)
+
+Hypoxemia is usually first recognized using pulse oximetry. Patients with low oxygen saturation should have a chest radiograph and be treated with supplemental oxygen while awaiting test results. Not all patients with low oxygen saturation require ABG measurement.
+
+If supplemental oxygen does not improve the oxygen saturation to > 90%, right-to-left shunting of blood should be suspected. An obvious alveolar infiltrate on chest radiograph implicates alveolar flooding as the cause, rather than an intracardiac shunt. However, at the onset of illness, hypoxemia can occur before changes are seen on radiograph.
+
+Once AHRF is diagnosed, the cause must be determined. Both pulmonary and extrapulmonary causes should be considered. Sometimes a known ongoing disorder (eg, acute myocardial infarction, pancreatitis, sepsis) is an obvious cause. In other cases, history is suggestive; pneumonia is suspected in a patient who is immunocompromised, and alveolar hemorrhage is suspected after bone marrow transplantation or in a patient with a systemic rheumatic disease. Frequently, however, patients who are critically ill have received a large volume of IV fluids for resuscitation, and high-pressure AHRF (elevated alveolar capillary hydrostatic pressure, as in pulmonary edema due to heart failure or after massive volume resuscitation) must be distinguished from an underlying low-pressure AHRF (increased permeability of the alveolar-capillary membrane, as in sepsis or pneumonia).
+
+Pulmonary Edema (Radiograph)
+
+Image
+
+This chest radiograph shows features of acute pulmonary edema due to left ventricular failure, including cardiomegaly and pulmonary congestion concentrated in the area of the hilar vessels.
+
+© 2017 Elliot K. Fishman, MD.
+
+High-pressure pulmonary edema due to left ventricular failure is suggested by a third heart sound (S3), jugular venous distention, and peripheral edema on examination and by the presence of diffuse central infiltrates, cardiomegaly, and an abnormally wide vascular pedicle on chest radiograph. The diffuse, bilateral opacities of ARDS are generally more peripheral. Focal opacities are typically caused by lobar pneumonia, atelectasis, or lung contusion. Although echocardiography may show left ventricular dysfunction, implying a cardiac origin, this finding is not specific because sepsis can also reduce myocardial contractility.
+
+Chest Images of ARDS
+
+Acute Respiratory Distress Syndrome
+
+This upright chest radiograph shows diffuse bilateral opacities characteristic of acute respiratory distress syndrome (ARDS).
+
+This upright chest radiograph shows diffuse bilateral opacities characteristic of acute respiratory distress syndrome (
+
+... read more
+
+By permission of the publisher. From Herdegen J, Bone R. In Atlas of Infectious Diseases: Pleuropulmonary and Bronchial Infections. Edited by G Mandell (series editor) and MS Simberkoff. Philadelphia, Current Medicine, 1996.
+
+CT of a Patient with ARDS
+
+The red arrow points to the diffuse, heterogenous alveolar opacities in a patient with ARDS (acute respiratory distress syndrome). The patient also has cardiomegaly, a triple lead automated implantable cardioverter defibrillator with leads visible in the right atrium and ventricle, and a Swan Ganz catheter visible in the pulmonary artery.
+
+The red arrow points to the diffuse, heterogenous alveolar opacities in a patient with ARDS (acute respiratory distress
+
+... read more
+
+© 2017 Elliot K. Fishman, MD.
+
+Chest Radiograph of a Patient with ARDS
+
+The arrow points to diffuse alveolar opacities in a patient with ARDS (acute respiratory distress syndrome). Implanted device, leads, and pulmonary artery catheter, as well as external monitoring electrodes, are also visible.
+
+The arrow points to diffuse alveolar opacities in a patient with ARDS (acute respiratory distress syndrome). Implanted
+
+... read more
+
+© 2017 Elliot K. Fishman, MD.
+
+Acute Respiratory Distress Syndrome
+
+This upright chest radiograph shows diffuse bilateral opacities characteristic of acute respiratory distress syndrome (ARDS).
+
+This upright chest radiograph shows diffuse bilateral opacities characteristic of acute respiratory distress syndrome (
+
+... read more
+
+By permission of the publisher. From Herdegen J, Bone R. In Atlas of Infectious Diseases: Pleuropulmonary and Bronchial Infections. Edited by G Mandell (series editor) and MS Simberkoff. Philadelphia, Current Medicine, 1996.
+
+CT of a Patient with ARDS
+
+The red arrow points to the diffuse, heterogenous alveolar opacities in a patient with ARDS (acute respiratory distress syndrome). The patient also has cardiomegaly, a triple lead automated implantable cardioverter defibrillator with leads visible in the right atrium and ventricle, and a Swan Ganz catheter visible in the pulmonary artery.
+
+The red arrow points to the diffuse, heterogenous alveolar opacities in a patient with ARDS (acute respiratory distress
+
+... read more
+
+© 2017 Elliot K. Fishman, MD.
+
+Chest Radiograph of a Patient with ARDS
+
+The arrow points to diffuse alveolar opacities in a patient with ARDS (acute respiratory distress syndrome). Implanted device, leads, and pulmonary artery catheter, as well as external monitoring electrodes, are also visible.
+
+The arrow points to diffuse alveolar opacities in a patient with ARDS (acute respiratory distress syndrome). Implanted
+
+... read more
+
+© 2017 Elliot K. Fishman, MD.
+
+When ARDS is diagnosed but the cause is not obvious (eg, trauma, sepsis, severe pulmonary infection, pancreatitis), a review of illicit drugs, medications, and recent diagnostic tests, procedures, and treatments may suggest an unrecognized cause, such as use of a radiographic contrast agent, air embolism, or transfusion reaction or transfusion-related lung injury (TRALI). When no predisposing cause can be uncovered, some experts recommend doing bronchoscopy with bronchoalveolar lavage to exclude alveolar hemorrhage and eosinophilic pneumonia and, if this procedure is not revealing, a lung biopsy to exclude other disorders (eg, hypersensitivity pneumonitis, acute interstitial pneumonia).
+
+Treatment of AHRF
+
+Noninvasive oxygenation support
+
+Mechanical ventilation if oxygen saturation is < 90% on high-flow oxygen
+
+AHRF is usually initially treated with 70 to 100% oxygen delivered noninvasively (eg, with a non-rebreather face mask) (1). However, the use of noninvasive oxygen support, such as high-flow nasal oxygen (HFNO, also called high-flow nasal cannula) and noninvasive positive pressure ventilation (NIPPV), for the initial management of acute hypoxemic respiratory failure have potential ventilator sparing effects (2, 3).
+
+While noninvasive support may help avoid endotracheal intubation and its complications, spontaneous breathing with excessive effort may induce lung damage (known as patient self-inflicted lung injury). One clinical trial comparing the efficacy of HFNC, face mask NIPPV, and standard oxygen for the prevention of endotracheal intubation suggested that HFNC may prevent endotracheal intubation in patients with a PaO2/FiO2 ratio < 200 (4). There was increased 90-day mortality noted in patients randomized to face mask NIPPV and standard oxygen compared to HFNC. One explanation for this excess mortality in the face mask NIPPV group may be that excessive tidal volumes worsened lung injury.
+
+Another small clinical trial comparing oxygen delivery by helmet with oxygen delivery by face mask found lower rates of endotracheal intubation and mortality when the helmet was used (5). There are limited data comparing the use of helmet NIPPV to HFNC in patients with COVID-19–related acute hypoxemic respiratory failure, suggesting that helmet NIPPV may reduce endotracheal intubation rates but does not increase the days free of respiratory support (6); another trial suggests that continuous positive airway pressure (CPAP), but not HFNC, reduces both need for endotracheal intubation and mortality compared with supplemental oxygen alone in the same population (3). Given concerns regarding increased mortality possibly due to delayed intubation in patients with a PaO2/FiO2 ratio ≤ 150, noninvasive support in moderate-to-severe hypoxemia should be used with caution (7).
+
+If noninvasive support does not result in improvement in oxygen saturation to > 90%, mechanical ventilation should be considered. Specific management varies by underlying condition.
+
+Clinical Calculators
+
+Ideal Body Weight
+
+Mechanical ventilation in cardiogenic pulmonary edema
+
+Mechanical ventilation affects the failing left ventricle in several ways. Positive inspiratory pressure reduces left and right ventricular preload and left ventricular afterload and reduces the work of breathing. Reducing the work of breathing may allow redistribution of a limited cardiac output away from overworked respiratory muscles. Expiratory pressure (expiratory positive airway pressure [EPAP] or PEEP) redistributes pulmonary edema from alveoli to the interstitium, allowing more alveoli to participate in gas exchange. (However, in liberating patients with low cardiac output from mechanical ventilation to noninvasive ventilation, the transition from positive to negative airway pressure can increase afterload and result in acute pulmonary edema or worsening hypotension.) While optimizing PEEP will also improve right ventricular hemodynamics, excessive PEEP increases right ventricular afterload.
+
+Noninvasive positive pressure ventilation (NIPPV), whether continuous positive pressure ventilation (CPAP) or bilevel ventilation (BiPAP), is useful in averting endotracheal intubation, especially patients in whom pharmacotherapy (eg, diuretics) will lead to rapid improvement. Typical settings are inspiratory positive airway pressure (IPAP) of 10 to 15 cm H2O and expiratory positive airway pressure (EPAP) of 5 to 8 cm H2O.
+
+Conventional mechanical ventilation can use several ventilator modes. Most often, assist-control (A/C) is used in the acute setting, when full ventilatory support is desired. Initial settings are tidal volume of 6 to 8 mL/kg ideal body weight, respiratory rate of 25/minute, FIO2 of 1.0, and PEEP of 5 to 8 cm H2O. PEEP may then be titrated upward in 2.5-cm H2O increments while the FIO2 is decreased to nontoxic levels.
+
+Pressure support ventilation can also be used (with similar levels of PEEP). The initial inspiratory airway pressure delivered should be sufficient to rest the respiratory muscles as judged by subjective patient assessment, respiratory rate, and accessory muscle use. Typically, a pressure support level of 10 to 20 cm H2O over PEEP is required.
+
+Mechanical ventilation in ARDS
+
+Nearly all patients with ARDS require mechanical ventilation (1), which, in addition to improving oxygenation, reduces oxygen demand by resting respiratory muscles. Targets include:
+
+Plateau alveolar pressures < 30 cm H2O (factors that potentially decrease chest wall and abdominal compliance considered)
+
+Tidal volume of 6 mL/kg ideal body weight to minimize further lung injury
+
+FIO2 as low as is possible to maintain adequate oxygen saturation to minimize possible oxygen toxicity
+
+PEEP should be high enough to maintain open alveoli and minimize FIO2 until a plateau pressure of 28 to 30 cm H2O is reached. Patients with moderate to severe ARDS are the most likely to have mortality reduced by use of higher PEEP.
+
+Noninvasive positive pressure ventilation (NIPPV) is occasionally useful in ARDS and is used primarily in mild ARDS (8). However, compared with treatment of cardiogenic pulmonary edema, higher levels of support for a longer duration are often required, and EPAP of 8 to 12 cm H2O is often necessary to maintain adequate oxygenation. Achieving this expiratory pressure requires inspiratory pressures > 18 to 20 cm H2O, which are poorly tolerated; maintaining an adequate seal becomes difficult, the mask becomes more uncomfortable, and skin necrosis and gastric insufflation may occur. Also, patients treated with NIPPV who subsequently need intubation have generally progressed to a more advanced condition than if they had been intubated earlier; thus, critical desaturation is possible at the time of intubation. Intensive monitoring and careful selection of patients for NIPPV are required.
+
+Conventional mechanical ventilation in ARDS previously focused on normalizing arterial blood gas values. It is clear that ventilating with lower tidal volumes reduces mortality. Accordingly, in most patients, tidal volume should be set at or below 6 mL/kg ideal body weight (see sidebar Initial Ventilator Management in ARDS). This setting necessitates an increase in respiratory rate, even up to 35/minute, to produce sufficient alveolar ventilation to allow for adequate carbon dioxide removal. On occasion, however, respiratory acidosis develops, some degree of which is accepted for the greater good of limiting ventilator-associated lung injury and is generally well tolerated, particularly when pH is ≥ 7.15. If pH drops below 7.15, bicarbonate infusion may be helpful. Similarly, oxygen saturation below "normal" levels may be accepted; target saturation of 88 to 95% limits exposure to excessive toxic levels of FiO2 and still has survival benefit (9, 10).
+
+Sedation in patients with ARDS who are receiving mechanical ventilation is governed by multiple factors: analgesia and patient comfort, patient-ventilator synchrony, and the benefits of maintaining some spontaneous breathing. In addition to pharmacologic sedation, mechanical ventilator settings are adjusted to minimize the degree of sedation needed (11). Sedation is preferred to neuromuscular blockade because blockade still requires sedation and may cause residual weakness. (See also Sedation and Comfort.)
+
+PEEP improves oxygenation in ARDS by increasing the volume of aerated lung through alveolar recruitment, permitting the use of a lower FIO2. The optimal level of PEEP and the way to identify it have been debated. Routine use of recruitment maneuvers (eg, titration of PEEP to maximal pressure of 35 to 40 cm H2O and held for 1 minute) followed by decremental PEEP titration was found to be associated with an increased 28-day mortality (12). Therefore, many clinicians simply use the least amount of PEEP that results in an adequate arterial oxygen saturation on a nontoxic FIO2. In most patients, this level is a PEEP of 8 to 15 cm H2O, although, occasionally, patients with severe ARDS require levels > 20 cm H2O. In these cases, close attention must be paid to other means of optimizing oxygen delivery and minimizing oxygen consumption.
+
+The best indicator of alveolar overdistention is measurement of a plateau pressure through an end-inspiratory hold maneuver; plateau pressure should be checked every 4 hours and after each change in PEEP or tidal volume. The target plateau pressure is < 30 cm H2O in patients with normal chest wall compliance. To avoid hypoventilation, the plateau pressure target may need to be higher in patients with abnormal chest wall compliance (eg, ascites, pleural effusion, acute abdominal distension, chest trauma). In contrast, if the plateau pressure exceeds 30 cm H2O and there is no problem with the chest wall that could be contributing, the clinician should reduce the tidal volume in increments of 0.5 mL/kg to 1.0 mL/kg as tolerated to a minimum of 4 mL/kg, raising the respiratory rate to compensate for the reduction in minute ventilation and inspecting the ventilator waveform display to ensure that full exhalation occurs. The respiratory rate may often be raised as high as 35/minute before overt gas trapping due to incomplete exhalation results. If plateau pressure is < 25 cm H2O and tidal volume is < 6 mL/kg, tidal volume may be increased to 6 mL/kg or until plateau pressure is > 25 cm H2O.
+
+Some investigators believe pressure control ventilation protects the lungs better than volume control, but evidence is inconclusive (13). With pressure control ventilation, it is necessary to continually monitor the tidal volume and adjust the inspiratory pressure to ensure that the patient is not receiving too high or too low a tidal volume.
+
+Initial Ventilator Management in ARDS
+
+Generally, the following approach is recommended for ventilator management in ARDS:
+
+Assist-control mode is used initially with a tidal volume 6 mL/kg ideal body weight, respiratory rate 25/minute, flow rate 60 L/minute, FIO2 1.0, and PEEP 5 cm H2O.
+
+Once oxygen saturation is > 90%, FIO2 is decreased.
+
+Then, PEEP is increased in 2 to 3-cm H2O increments as tolerated to find the least PEEP associated with an arterial oxygen saturation of 90% on an FIO2 of ≤ 0.6.
+
+The respiratory rate is increased up to 35/minute to achieve a pH of > 7.15, or until the expiratory flow tracing shows end-expiratory flow.
+
+Ideal body weight (IBW) rather than actual body weight is used to determine the appropriate tidal volume for patients with lung disease who are receiving mechanical ventilation.
+
+Prone positioning improves oxygenation in some patients by allowing recruitment of nonventilating lung regions. Prone positioning for at least 12 hours daily is recommended for patients with moderate to severe ARDS (1, 14, 15). Evidence suggests this positioning substantially improves survival (16, 17). Interestingly, the mortality benefit from prone positioning is not related to the degree of hypoxemia or the extent of gas exchange abnormality but possibly to mitigating ventilator-associated lung injury.
+
+Optimal fluid management in patients with ARDS balances the requirement for an adequate circulating volume to preserve end-organ perfusion with the goal of lowering pulmonary capillary hydrostatic pressure and thereby limiting transudation of fluid in the lungs. A large multicenter trial has shown that a conservative approach to fluid management, in which less fluid is given, shortens the duration of mechanical ventilation and length of stay in the intensive care unit when compared with a more liberal strategy (18). Moreover, there was no difference in survival between the 2 approaches, and use of a pulmonary artery catheter also did not improve outcome. Patients who are not in shock are candidates a conservative approach to fluid management but should be monitored closely for evidence of decreased end-organ perfusion, such as hypotension, oliguria, thready pulses, or cool extremities.
+
+A definitive pharmacologic treatment for ARDS that reduces morbidity and mortality remains elusive. Inhaled nitric oxide, surfactant replacement, activated protein C (drotrecogin alfa), and many other agents directed at modulating the inflammatory response have been studied and found not to reduce morbidity or mortality (19). Data on glucocorticoid efficacy in ARDS are inconclusive (20). An unblinded clinical trial of dexamethasone administered early in moderate to severe ARDS suggested improvements in ventilator-free days and mortality, but the trial was stopped early due to slow enrollment, which may magnify the treatment effects (21). In patients with COVID-19, including those with ARDS, a course of dexamethasone is recommended (22), although the role of glucocorticoids in ARDS in general remains uncertain, and more data are needed.
+
+Rescue therapies in ARDS
+
+Veno-venous extracorporeal membrane oxygenation (VV-ECMO) can be used to support gas exchange in cases in which the ventilator falls short. With VV-ECMO, venous blood is passed through a membrane oxygenator to remove carbon dioxide and add oxygen. VV-ECMO can be considered in patients who have severe hypoxia (PaO2/FiO2 < 50 for > 3 hours, or PaO2/FiO2 < 80 for > 6 hours) or severe hypercapnea (pH < 7.25 with PaCO2 ≤ 60 mm Hg for > 6 hours) despite a respiratory rate of 35 breaths per minute and lung-protective ventilator settings. A clinical trial of VV-ECMO in patients with severe ARDS may improve survival based on a post-hoc Bayesian analysis (23, 24). Thus the European Society of Intensive Care Medicine ARDS guidelines recommended the use of VV-ECMO in patients with severe ARDS, in specialized ECMO centers, to improve outcomes (1). High-frequency oscillatory ventilation is not recommended as a previous clinical trial was stopped early due to excess harm (25).
+
+Treatment references
+
+1. Grasselli G, Calfee CS, Camporota L, et al. ESICM guidelines on acute respiratory distress syndrome: definition, phenotyping and respiratory support strategies. Intensive Care Med. 2023;49(7):727-759. doi:10.1007/s00134-023-07050-7
+
+2. Frat JP, Quenot JP, Guitton C, et al. High-Flow or Standard Oxygen in Acute Hypoxemic Respiratory Failure. N Engl J Med. 2026;394(21):2095-2106. doi:10.1056/NEJMoa2516087
+
+3. Perkins GD, Ji C, Connolly BA, et al. Effect of Noninvasive Respiratory Strategies on Intubation or Mortality Among Patients With Acute Hypoxemic Respiratory Failure and COVID-19: The RECOVERY-RS Randomized Clinical Trial. JAMA. 2022;327(6):546-558. doi:10.1001/jama.2022.0028
+
+4. Frat JP, Thille AW, Mercat A, et al. High-flow oxygen through nasal cannula in acute hypoxemic respiratory failure. N Engl J Med. 2015;372(23):2185-2196. doi: 10.1056/NEJMoa1503326
+
+5. Patel BK, Wolfe KS, Pohlman AS, et al. Effect of noninvasive ventilation delivered by helmet vs face mask on the rate of endotracheal intubation in patients with acute respiratory distress syndrome: A randomized clinical trial. J AMA. 2016;315(22):2435-2441. doi: 10.1001/jama.2016.6338
+
+6. Grieco DL, Menga LS, Cesarano M, et al. Effect of helmet noninvasive ventilation vs high-flow nasal oxygen on days free of respiratory support in patients With COVID-19 and moderate to severe hypoxemic respiratory failure: The HENIVOT randomized clinical trial. JAMA. 2021;325(17):1731-1743. doi: 10.1001/jama.2021.4682
+
+7. Bellani G, Laffey JG, Pham T, et al. Noninvasive ventilation of patients with acute respiratory distress syndrome. Insights from the LUNG SAFE study. Am J Respir Crit Care Med. 2017;195(1):67-77. doi: 10.1164/rccm.201606-1306OC
+
+8. Gorman EA, O'Kane CM, McAuley DF. Acute respiratory distress syndrome in adults: diagnosis, outcomes, long-term sequelae, and management. Lancet. 2022;400(10358):1157-1170. doi:10.1016/S0140-6736(22)01439-8
+
+9. Barrot L, Asfar P, Mauny F, et al. Liberal or Conservative Oxygen Therapy for Acute Respiratory Distress Syndrome. N Engl J Med. 2020;382(11):999-1008. doi:10.1056/NEJMoa1916431
+
+10. Chu DK, Kim LH, Young PJ, et al. Mortality and morbidity in acutely ill adults treated with liberal versus conservative oxygen therapy (IOTA): a systematic review and meta-analysis. Lancet. 2018;391(10131):1693-1705. doi:10.1016/S0140-6736(18)30479-3
+
+11. Chanques G, Constantin JM, Devlin JW, et al. Analgesia and sedation in patients with ARDS. Intensive Care Med. 2020;46(12):2342-2356. doi:10.1007/s00134-020-06307-9
+
+12. Writing Group for the Alveolar Recruitment for Acute Respiratory Distress Syndrome Trial (ART) Investigators, Cavalcanti AB, Suzumura ÉA, et al. Effect of lung recruitment and titrated positive end-expiratory pressure (PEEP) vs low PEEP on mortality in patients with acute respiratory distress syndrome: A randomized clinical trial. JAMA. 2017;318(14):1335-1345. doi: 10.1001/jama.2017.14171
+
+13. Chacko B, Peter JV, Tharyan P, John G, Jeyaseelan L. Pressure-controlled versus volume-controlled ventilation for acute respiratory failure due to acute lung injury (ALI) or acute respiratory distress syndrome (ARDS). Cochrane Database Syst Rev. 2015;1(1):CD008807. doi:10.1002/14651858.CD008807.pub2
+
+14. Evans L, Rhodes A, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-e1143. doi:10.1097/CCM.0000000000005337
+
+15. Fan E, Del Sorbo L, Goligher EC, et al. An Official American Thoracic Society/European Society of Intensive Care Medicine/Society of Critical Care Medicine Clinical Practice Guideline: Mechanical Ventilation in Adult Patients with Acute Respiratory Distress Syndrome. Am J Respir Crit Care Med. 2017;195(9):1253-1263. doi:10.1164/rccm.201703-0548ST
+
+16. Guérin C, Reignier J, Richard JC, et al. Prone positioning in severe acute respiratory distress syndrome. N Engl J Med. 2013;368(23):2159-2168. doi: 10.1056/NEJMoa1214103
+
+17. Scholten EL, Beitler JR, Prisk GK, et al. Treatment of ARDS with prone positioning. Chest. 2017;151:215-224. doi: 10.1016/j.chest.2016.06.032
+
+18. National Heart, Lung, and Blood Institute Acute Respiratory Distress Syndrome (ARDS) Clinical Trials Network, Wiedemann HP, Wheeler AP, et al. Comparison of two fluid-management strategies in acute lung injury. N Engl J Med. 2006;354(24):2564-2575. doi: 10.1056/NEJMoa062200
+
+19. Qadir N, Chang SY. Pharmacologic Treatments for Acute Respiratory Distress Syndrome. Crit Care Clin. 2021;37(4):877-893. doi:10.1016/j.ccc.2021.05.009
+
+20. Lewis SR, Pritchard MW, Thomas CM, Smith AF. Pharmacological agents for adults with acute respiratory distress syndrome. Cochrane Database Syst Rev. 2019;7(7):CD004477. doi:10.1002/14651858.CD004477.pub3
+
+21. Villar J, Ferrando C, Martinez D, et al. Dexamethasone treatment for the acute respiratory distress syndrome: a multicentre, randomised controlled trial. Lancet Respir Med. 2020;8(3):267-276. doi: 10.1016/S2213-2600(19)30417-5
+
+22. Alhazzani W, Evans L, Alshamsi F, et al. Surviving Sepsis Campaign Guidelines on the Management of Adults With Coronavirus Disease 2019 (COVID-19) in the ICU: First Update. Crit Care Med. 2021;49(3):e219-e234. doi:10.1097/CCM.0000000000004899
+
+23. Combes A, Hajage D, Capellier G, et al. Extracorporeal Membrane Oxygenation for Severe Acute Respiratory Distress Syndrome. N Engl J Med. 2018;378(21):1965-1975. doi:10.1056/NEJMoa1800385
+
+24. Goligher EC, Tomlinson G, Hajage D, et al. Extracorporeal Membrane Oxygenation for Severe Acute Respiratory Distress Syndrome and Posterior Probability of Mortality Benefit in a Post Hoc Bayesian Analysis of a Randomized Clinical Trial. JAMA. 2018;320(21):2251-2259. doi:10.1001/jama.2018.14276
+
+25. Ferguson ND, Cook DJ, Guyatt GH, et al. High-frequency oscillation in early acute respiratory distress syndrome. N Engl J Med. 2013;368(9):795-805. doi:10.1056/NEJMoa1215554
+
+Prognosis for AHRF
+
+Prognosis is highly variable and depends on a variety of factors, including:
+
+Etiology of respiratory failure
+
+Severity of disease
+
+Age
+
+Chronic health status
+
+For ARDS, 28-day mortality in large, relatively recent studies is approximately 30 to 35% (1, 2). For patients with severe ARDS (ie, those with a PaO2/FIO2 < 100 mm Hg), mortality remains very high (> 40%).
+
+Most often, death is not caused by respiratory dysfunction but by sepsis and multiorgan failure. Persistence of neutrophils and high cytokine levels in bronchoalveolar lavage fluid predict a poor prognosis. Mortality otherwise increases with age, presence of sepsis, and severity of preexisting organ insufficiency or coexisting organ dysfunction.
+
+Pulmonary function returns to close to normal in 6 to 12 months in most patients who survive ARDS (3); however, patients with a protracted clinical course or severe disease may have residual pulmonary symptoms, and many have persistent neuromuscular weakness, exercise limitation, and cognitive impairment.
+
+Prognosis references
+
+1. Bellani G, Laffey JG, Pham T, et al. Epidemiology, Patterns of Care, and Mortality for Patients With Acute Respiratory Distress Syndrome in Intensive Care Units in 50 Countries. JAMA. 2016;315(8):788-800. doi:10.1001/jama.2016.0291
+
+2. Saha R, Assouline B, Mason G, Douiri A, Summers C, Shankar-Hari M. Impact of differences in acute respiratory distress syndrome randomised controlled trial inclusion and exclusion criteria: systematic review and meta-analysis. Br J Anaesth. 2021;127(1):85-101. doi:10.1016/j.bja.2021.02.027
+
+3. Herridge MS, Cheung AM, Tansey CM, et al. One-year outcomes in survivors of the acute respiratory distress syndrome. N Engl J Med. 2003;348(8):683-693. doi:10.1056/NEJMoa022450

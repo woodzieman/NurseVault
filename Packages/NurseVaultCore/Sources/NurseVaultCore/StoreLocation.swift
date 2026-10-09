@@ -95,3 +95,96 @@ public enum VaultSummary {
         return try? decoder.decode(Snapshot.self, from: data)
     }
 }
+
+/// A structured summary of the vault intended for the watch app.
+///
+/// The main app writes this once after any change so the watch can display
+/// section names, document titles, and MIME types without opening the full
+/// Core Data store (which would be empty on the watch since it has its own
+/// separate store URL).
+public enum WatchVaultSummary {
+
+    /// One document record the watch needs to display the document list.
+    public struct DocEntry: Codable, Sendable {
+        public var title: String?
+        public var fileName: String?
+        public var mimeType: String?
+        public var noteText: String?
+        public var addedDateISO: String?
+        public var sectionName: String?
+        public var sectionIcon: String?
+
+        public init(
+            title: String? = nil,
+            fileName: String? = nil,
+            mimeType: String? = nil,
+            noteText: String? = nil,
+            addedDateISO: String? = nil,
+            sectionName: String? = nil,
+            sectionIcon: String? = nil
+        ) {
+            self.title = title
+            self.fileName = fileName
+            self.mimeType = mimeType
+            self.noteText = noteText
+            self.addedDateISO = addedDateISO
+            self.sectionName = sectionName
+            self.sectionIcon = sectionIcon
+        }
+    }
+
+    /// One section record the watch needs.
+    public struct SectionEntry: Codable, Sendable {
+        public var name: String?
+        public var icon: String?
+
+        public init(name: String? = nil, icon: String? = nil) {
+            self.name = name
+            self.icon = icon
+        }
+    }
+
+    /// The full watch-friendly summary.
+    public struct Snapshot: Codable, Sendable {
+        public var sections: [SectionEntry]
+        public var documents: [DocEntry]
+        public var updatedAt: Date
+
+        public init(sections: [SectionEntry], documents: [DocEntry], updatedAt: Date) {
+            self.sections = sections
+            self.documents = documents
+            self.updatedAt = updatedAt
+        }
+    }
+
+    /// Directory inside the App Group for watch-specific summaries.
+    nonisolated public static var directory: URL {
+        #if os(watchOS)
+        if let group = FileManager.default
+            .containerURL(forSecurityApplicationGroupIdentifier: VaultStoreLocation.appGroupID) {
+            let directory = group.appendingPathComponent("NurseVault", isDirectory: true)
+            try? FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
+            return directory
+        }
+        #endif
+        return VaultStoreLocation.directory
+    }
+
+    nonisolated public static var fileURL: URL {
+        directory.appendingPathComponent("watch-vault-summary.json")
+    }
+
+    nonisolated public static func write(_ snapshot: Snapshot) {
+        let encoder = JSONEncoder()
+        encoder.dateEncodingStrategy = .iso8601
+        guard let data = try? encoder.encode(snapshot) else { return }
+        try? data.write(to: fileURL, options: .atomic)
+    }
+
+    nonisolated public static func load() -> Snapshot? {
+        guard let data = try? Data(contentsOf: fileURL) else { return nil }
+        let decoder = JSONDecoder()
+        decoder.dateDecodingStrategy = .iso8601
+        return try? decoder.decode(Snapshot.self, from: data)
+    }
+}

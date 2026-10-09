@@ -175,12 +175,12 @@ struct DrugDetailView: View {
                                     .font(.headline)
                                     .foregroundStyle(.secondary)
 
-                                ForEach(parsed.summary.sorted(by: { $0.key < $1.key }), id: \.key) { key, value in
+                                ForEach(parsed.summary, id: \.key) { pair in
                                     HStack(alignment: .top) {
-                                        Text("\(key):")
+                                        Text("\(pair.key):")
                                             .fontWeight(.medium)
                                             .frame(width: 120, alignment: .leading)
-                                        Text(value)
+                                        Text(pair.value)
                                     }
                                 }
                             }
@@ -253,8 +253,8 @@ struct DrugDetailView: View {
         var text = ""
         if !parsed.summary.isEmpty {
             text += "Quick Reference Summary\n\n"
-            for (key, value) in parsed.summary.sorted(by: { $0.key < $1.key }) {
-                text += "\(key): \(value)\n"
+            for pair in parsed.summary {
+                text += "\(pair.key): \(pair.value)\n"
             }
             text += "\n"
         }

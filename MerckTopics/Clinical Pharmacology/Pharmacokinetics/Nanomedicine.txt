@@ -1,0 +1,28 @@
+=== Nanomedicine (Merck Manual Professional) ===
+Section: Clinical Pharmacology > Pharmacokinetics
+Source: https://www.merckmanuals.com/professional/clinical-pharmacology/pharmacokinetics/nanomedicine
+Retrieved: 2026-09-25
+
+Nanomedicine uses the tools of nanotechnology (ie, biocompatible nanoparticles and nanorobots) to deliver drugs, diagnose disease, and conduct in vivo imaging. Nanotechnology has advanced drug delivery by enabling the conjugation or encapsulation of drugs within nanoparticles that target specific organs, improving therapeutic efficacy and minimizing toxicity. The nanoparticle size (usually ranging from 1 to 100 nm), shape, and surface chemistry are important factors that contribute to its pharmacokinetics, including the degree of absorption, bioavailability, cellular uptake, biodistribution, and clearance (1, 2, 3). 
+
+Most nanomedicines are administered orally or intravenously and achieve their effects through passive targeting, which relies on nonspecific accumulation in tissues, including tumors (2). Liposomes were the first nanomedicines and remain one of the most successful nanoparticles conjugated to chemotherapeutic agents, such as doxorubicin and irinotecan, to improve their biodistribution (2, 4).
+
+Polymeric nanoparticles (eg, peg-filgrastim) increase a drug’s half-life and bioavailability and have been used in controlled-release applications. Micelles are used to encapsulate poorly water-soluble drugs (eg, estradiol) to enhance their dissolution in aqueous solution and hence their absorption. 
+
+Nanocrystals are comprised of only the drug, at nanoscale dimension (eg, sirolimus), that leads to increased surface area for dissolution and solubility. With the burgeoning interest in nanomedicine-based drugs, the pharmacokinetics and pharmacodynamics of these drugs must be closely evaluated to optimize drug delivery to the target site while minimizing adverse effects since nanoparticles are designed to be long-lasting with minimal excretion within organs. 
+
+Physiologically based pharmacokinetic (PBPK) modeling is a powerful mathematical tool for quantifying absorption, distribution, metabolism, and excretion (ADME) kinetic processes, particularly drug distribution into organs and tissues; this tool offers significant utility for understanding the mechanisms involved in nanomedicine pharmacokinetics and sources of variability. Significant variability in nanoparticle distribution can occur in certain organs such as liver, spleen, and lungs due to nanoparticle physicochemical properties such as size and material (5). When applied with pharmacodynamic models that evaluate pharmacologic effects in target tissues, PBPK modeling can forecast efficacy and toxicity while limiting the use of animal models.
+
+(See also Overview of Pharmacokinetics.)
+
+References
+
+1. Astruc D. Introduction to nanomedicine. Molecules. 2015;21(1):E4. doi: 10.3390/molecules21010004
+
+2. Bobo D, Robinson KJ,  Islam J, et al. Nanoparticle-based medicines: A review of FDA-approved materials and clinical trials to date. Pharmaceutical Research.  2016;33(10):2373–2387. doi: 10.1007/s11095-016-1958-5
+
+3. Abdelbaky SB, Ibrahim MT, Samy H, et al. Cancer immunotherapy from biology to nanomedicine. J Controlled Release. 2021;336(10):410-432. doi.org/10.1016/j.jconrel.2021.06.025
+
+4. Allen TM, Cullis PR. Liposomal drug delivery systems: From concept to clinical applications. Adv Drug Deliv Rev. 2013;65(1):36-48. doi: 10.1016/j.addr.2012.09.037
+
+5. Kumar M, Kulkarni P, Liu S, Chemuturi N, Shah DK. Nanoparticle biodistribution coefficients: A quantitative approach for understanding the tissue distribution of nanoparticles. Adv Drug Deliv Rev. 2023;194:114708. doi:10.1016/j.addr.2023.114708

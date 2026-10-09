@@ -1,0 +1,56 @@
+=== Pharmacogenetics (Merck Manual Professional) ===
+Section: Clinical Pharmacology > Factors Affecting Response to Medications
+Source: https://www.merckmanuals.com/professional/clinical-pharmacology/factors-affecting-response-to-medications/pharmacogenetics
+Retrieved: 2026-09-25
+
+The activity of drug-metabolizing enzymes often varies widely among healthy people, making metabolism highly variable. Drug elimination rates vary up to 40-fold. Genetic factors and aging seem to account for most of these variations.
+
+Pharmacogenetic variation (eg, in acetylation, hydrolysis, oxidation, or drug-metabolizing enzymes) can have clinical consequences (see table Examples of Pharmacogenetic Variations). If patients metabolize certain medications rapidly, they may require higher, more frequent doses to achieve therapeutic concentrations; if patients metabolize certain medications slowly, they may need lower, less frequent doses to avoid toxicity, particularly of medications with a narrow margin of safety. For example, patients with inflammatory bowel disease who require azathioprine or 6-mercaptopurine therapy are now routinely tested for thiopurine methyltransferase (TPMT) genotype to determine the most appropriate starting dose for drug therapy. Most genetic differences cannot be predicted before drug therapy, but for an increasing number of medications (eg, carbamazepine, clopidogrel, warfarin), changes in effectiveness and risk of toxicity have been specifically associated with certain genetic variations. Also, many environmental and developmental factors can interact with each other and with genetic factors to affect drug response (see figure Genetic, environmental, and developmental factors that can interact, causing variations in medication response among patients).
+
+Table
+
+Examples of Pharmacogenetic Variations
+
+Table
+
+Examples of Pharmacogenetic Variations
+
+Examples of Pharmacogenetic Variations
+
+Examples of Effects
+
+Acetylation, fast
+
+Need for higher or more frequent doses of medications that are acetylated (eg, isoniazid) to produce the desired therapeutic response
+
+Acetylation, slow (medication inactivation by hepatic N-acetyltransferase)
+
+Increased susceptibility to adverse effects of medications that are acetylated (eg, isoniazid causing peripheral neuritis; hydralazine or procainamide causing drug-induced lupus)
+
+Aldehyde dehydrogenase-2 deficiency
+
+With alcohol ingestion, marked elevations of blood acetaldehyde, causing facial flushing, increased heart rate, diaphoresis, muscle weakness, and sometimes catecholamine-mediated vasodilation with euphoria
+
+CYP2C19 genetic polymorphisms
+
+Reduced enzymatic activation of clopidogrel, resulting in reduced antiplatelet effect and increased risk of thrombosis in high-risk patients
+
+G6PD deficiency
+
+With use of oxidant medications, such as certain antimalarials (eg, chloroquine, primaquine), increased risk of hemolytic anemia
+
+Genetic polymorphisms of CYP2C9 and vitamin K epoxide reductase complex subunit 1 (VKORC1)
+
+Increased action of warfarin, increasing risk of bleeding events
+
+HLA-B*1502
+
+Increased risk of adverse reactions to carbamazepine, including serious dermatologic reactions (eg, Stevens-Johnson syndrome)
+
+Plasma pseudocholinesterase deficiency
+
+Decreased succinylcholine inactivation
+
+With conventional succinylcholine doses, prolonged paralysis of respiratory muscles and sometimes persistent apnea requiring mechanical ventilation until the medication can be eliminated by alternate pathways
+
+Genetic, environmental, and developmental factors that can interact, causing variations in medication response among patients

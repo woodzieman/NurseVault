@@ -1,0 +1,34 @@
+=== Drug Excretion (Merck Manual Professional) ===
+Section: Clinical Pharmacology > Pharmacokinetics
+Source: https://www.merckmanuals.com/professional/clinical-pharmacology/pharmacokinetics/drug-excretion
+Retrieved: 2026-09-25
+
+The kidneys are the principal organs for excreting water-soluble substances. The biliary system also contributes to drug excretion to the degree that a drug is not reabsorbed from the gastrointestinal (GI) tract. Generally, the contribution to excretion of the intestine, saliva, sweat, breast milk, and lungs is small, except for exhalation of volatile anesthetics. Excretion via breast milk may affect the breastfeeding infant.
+
+Hepatic metabolism often increases drug polarity and water solubility. The resulting metabolites are then more readily excreted.
+
+(See also Overview of Pharmacokinetics.)
+
+Renal excretion
+
+Renal filtration accounts for most drug excretion. Approximately one-fifth of the plasma reaching the glomeruli is filtered through pores in the glomerular endothelium; nearly all water and most electrolytes are passively and actively reabsorbed from the renal tubules back into the circulation. However, polar compounds, which account for most drug metabolites, cannot diffuse back into the circulation and are excreted unless a specific transport mechanism exists for their reabsorption (eg, as for glucose, ascorbic acid, and B vitamins). With aging, renal drug excretion decreases; at age 80 years, clearance is typically reduced to half of what it was at age 30. Renal drug excretion may also change with various health conditions. In patients who are critically ill, kidney injury may temporarily decrease renal drug excretion; in contrast, augmented renal clearance (for example, in some younger critically ill patients with intact kidney function) may enhance renal drug excretion, resulting in subtherapeutic plasma concentrations of certain drugs, especially antimicrobials, in both children and adults (1).
+
+The principles of transmembrane passage govern renal handling of drugs. Drugs bound to plasma proteins remain in the circulation; only unbound drug is contained in the glomerular filtrate. Un-ionized forms of drugs and their metabolites tend to be reabsorbed readily from tubular fluids.
+
+Urine pH, which varies from 4.5 to 8.0, may markedly affect drug reabsorption and excretion because urine pH determines the ionization state of a weak acid or base (see Passive diffusion). Acidification of urine increases reabsorption and decreases excretion of weak acids; in contrast, it decreases reabsorption of weak bases. Alkalinization of urine has the opposite effect. In some cases of overdose treatment, these principles are used to enhance the excretion of weak bases or acids; eg, urine is alkalinized to enhance excretion of acetylsalicylic acid. The extent to which changes in urinary pH alter the rate of drug elimination depends on the contribution of the renal route to total elimination, the polarity of the un-ionized form, and the molecule’s degree of ionization.
+
+Active tubular secretion in the proximal tubule is important in the elimination of many drugs. This energy-dependent process may be blocked by metabolic inhibitors. When drug concentration is high, secretory transport can reach an upper limit (transport maximum); each substance has a characteristic transport maximum.
+
+Anions and cations are handled by separate transport mechanisms. Normally, the anion secretory system eliminates metabolites conjugated with glycine, sulfate, or glucuronic acid. Anions compete with each other for secretion. This competition can be used therapeutically; eg, probenecid blocks the normally rapid tubular secretion of penicillin, resulting in higher plasma penicillin concentrations for a longer time. In the cation transport system, cations or organic bases (eg, pramipexole, dofetilide) are secreted by the renal tubules; this process can be inhibited by cimetidine, trimethoprim, prochlorperazine, megestrol, or ketoconazole.
+
+Excretion reference
+
+1. Bilbao-Meseguer I, Rodríguez-Gascón A, Barrasa H, et al: Augmented renal clearance in critically ill patients: A systematic review. Clin Pharmacokinet 57(9):1107-1121, 2018. doi:10.1007/s40262-018-0636-7
+
+Biliary excretion
+
+Some drugs and their metabolites are extensively excreted in bile. Because they are transported across the biliary epithelium against a concentration gradient, active secretory transport is required. When plasma drug concentrations are high, secretory transport may approach an upper limit (transport maximum). Substances with similar physicochemical properties may compete for excretion.
+
+Drugs with a molecular weight > 300 g/mol and with both polar and lipophilic groups are more likely to be excreted in bile; smaller molecules are generally excreted in bile only in negligible amounts. Conjugation, particularly with glucuronic acid, facilitates biliary excretion.
+
+In the enterohepatic cycle, a drug secreted in bile is reabsorbed into the circulation from the intestine. Biliary excretion eliminates substances from the body only to the extent that enterohepatic cycling is incomplete—when some of the secreted drug is not reabsorbed from the intestine.

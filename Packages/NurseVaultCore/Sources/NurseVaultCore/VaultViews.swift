@@ -114,3 +114,161 @@ public struct VaultImageView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
+
+/// An image preview that supports pinch-to-zoom (up to 4x) and pan.
+///
+/// Use this for images that the user adds so they can inspect details.
+/// Double-tap resets zoom.
+public struct ZoomableImageView: View {
+    public let data: Data
+
+    @State private var scale: CGFloat = 1.0
+    @State private var offset: CGSize = .zero
+    @State private var lastOffset: CGSize = .zero
+
+    public init(data: Data) {
+        self.data = data
+    }
+
+    public var body: some View {
+        #if os(watchOS)
+        // On watch, delegate to the existing WatchZoomableImageView which
+        // handles Digital Crown + drag gestures.
+        GeometryReader { proxy in
+            if let image = UIImage(data: data) {
+                WatchZoomableImageView(data: data)
+            } else {
+                placeholder
+            }
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        #else
+        GeometryReader { proxy in
+            if let image = UIImage(data: data) {
+                Image(uiImage: image)
+                    .resizable()
+                    .scaledToFit()
+                    .scaleEffect(scale)
+                    .offset(offset)
+                    .gesture(
+                        MagnificationGesture()
+                            .onChanged { value in
+                                scale = clampScale(scale * value.magnitude)
+                            }
+                            .onEnded { _ in
+                                scale = clampScale(scale)
+                            }
+                    )
+                    .gesture(
+                        DragGesture()
+                            .onChanged { value in
+                                if scale > 1.0 {
+                                    offset = CGSize(
+                                        width: lastOffset.width + value.translation.width,
+                                        height: lastOffset.height + value.translation.height
+                                    )
+                                }
+                            }
+                            .onEnded { _ in
+                                lastOffset = offset
+                                if scale <= 1.0 {
+                                    offset = .zero
+                                    lastOffset = .zero
+                                }
+                            }
+                    )
+                    .onTapGesture(count: 2) {
+                        withAnimation(.spring(response: 0.35)) {
+                            resetZoom()
+                        }
+                    }
+            } else {
+                placeholder
+            }
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        #endif
+    }
+
+    private func clampScale(_ s: CGFloat) -> CGFloat {
+        if s < 1.0 { return 1.0 }
+        if s > 4.0 { return 4.0 }
+        return s
+    }
+
+    private func resetZoom() {
+        scale = 1.0
+        offset = .zero
+        lastOffset = .zero
+    }
+
+    private var placeholder: some View {
+        VStack(spacing: 8) {
+            Image(systemName: "photo")
+                .font(.largeTitle)
+                .foregroundStyle(.secondary)
+            Text("No image preview")
+                .font(.caption)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+    }
+}
+
+// MARK: - Watch Zoomable Image (for watchOS only)
+
+#if os(watchOS)
+/// Specialized image view for the Apple Watch that supports zooming with the Digital Crown
+/// and panning via drag gestures.
+public struct WatchZoomableImageView: View {
+    public let data: Data
+    @State private var scale: CGFloat = 1.0
+    @State private var offset: CGSize = .zero
+    @State private var lastOffset: CGSize = .zero
+
+    public init(data: Data) {
+        self.data = data
+    }
+
+    public var body: some View {
+        GeometryReader { proxy in
+            if let uiImage = UIImage(data: data) {
+                Image(uiImage: uiImage)
+                    .resizable()
+                    .scaledToFit()
+                    .scaleEffect(scale)
+                    .offset(offset)
+                    .gesture(
+                        DragGesture()
+                            .onChanged { value in
+                                if scale > 1.0 {
+                                    offset = CGSize(
+                                        width: lastOffset.width + value.translation.width,
+                                        height: lastOffset.height + value.translation.height
+                                    )
+                                }
+                            }
+                            .onEnded { _ in
+                                lastOffset = offset
+                                if scale <= 1.0 {
+                                    offset = .zero
+                                    lastOffset = .zero
+                                }
+                            }
+                    )
+                    .focusable()
+                    // Map crown rotation to scale (1x to 4x)
+                    .digitalCrownRotation($scale, from: 1.0, through: 4.0, by: 0.1)
+            } else {
+                Text("No image preview")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+        }
+        // Keep a reasonable aspect ratio to avoid filling the whole screen vertically in the ScrollView
+        .aspectRatio(1, contentMode: .fit)
+        .clipShape(RoundedRectangle(cornerRadius: 8))
+    }
+}
+#endif
+
+

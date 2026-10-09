@@ -1,0 +1,60 @@
+=== Clinical Applications of Genetics (Merck Manual Professional) ===
+Section: Special Subjects > General Principles of Medical Genetics
+Source: https://www.merckmanuals.com/professional/special-subjects/general-principles-of-medical-genetics/clinical-applications-of-genetics
+Retrieved: 2026-09-25
+
+The elucidation of the principles and mechanisms of genetics has advanced understanding of many diseases and prompted improvement in screening, diagnosis, and treatment of those diseases.
+
+Genetics has also advanced understanding of many disorders, sometimes allowing them to be reclassified. For example, the classification of many spinocerebellar ataxias has been changed from one based on clinical criteria to one based on genetic criteria.
+
+The Online Mendelian Inheritance in Man (OMIM) database is a searchable catalog of human genes and genetic disorders.
+
+(See also Overview of Genetics.)
+
+Diagnosis of Genetic Disorders
+
+Genetic testing is used to diagnose many disorders (eg, Turner syndrome, Klinefelter syndrome, hemochromatosis). Diagnosis of a genetic disorder often indicates that relatives of the affected person should be screened for the genetic defect or for carrier status. A catalog of genetic tests and reviews of many genetic diseases with diagnostic strategies and recommendations for risk counseling are available from the Genetic Testing Registry.
+
+Genetic Screening in At-Risk Populations
+
+Genetic screening may be indicated in patient populations at risk of a particular genetic disorder. The usual criteria for genetic screening are
+
+Genetic inheritance patterns are known.
+
+Effective therapy is available.
+
+Screening tests are sufficiently valid, reliable, sensitive and specific, noninvasive, and safe.
+
+Prevalence in a defined population must be high enough to justify the cost of screening.
+
+Preconception or prenatal carrier testing aims to identify parents at risk of having a child with a hereditary disorder (ie, those who are carriers for a recessive disorder though they are phenotypically normal). However, family history suggests that these parents may carry genes that pose a risk for a disease with incomplete penetrance. Examples of screening that is offered includeTay-Sachs disease for people with Ashkenazi Jewish ancestry, sickle cell disease for those with African ancestry, thalassemia for several regional ancestries, or Huntington disease for family members of affected individuals.
+
+If preconception or prenatal carrier testing results identify a genetic risk, parents are counseled about options for further testing or interventions prior to (eg, preimplantation genetic diagnosis) or during a pregnancy (eg, amniocentesis, chorionic villus sampling, umbilical cord blood sampling, maternal blood sampling, fetal imaging). In some cases, genetic disorders diagnosed prenatally can subsequently be treated, preventing complications. For instance, special diets or replacement therapies can minimize or eliminate the effects of phenylketonuria, galactosemia, and hypothyroidism. Corticosteroids given to the mother before birth may decrease the severity of congenital virilizing adrenal hypoplasia.
+
+Treatment of Genetic Disorders
+
+Understanding the genetic and molecular basis of disorders may help guide therapy. For example, dietary restriction can eliminate compounds toxic to patients with certain genetic defects, such as phenylketonuria or homocystinuria. Vitamins or other agents can modify a biochemical pathway and thus reduce toxic levels of a compound; eg, folate (folic acid) reduces homocysteine levels in people with 5,10-methylene tetrahydrofolate reductase polymorphism. Therapy could also involve replacing a deficient compound or blocking an overactive pathway.
+
+Pharmacogenomics
+
+Pharmacogenomics is the science of how genetic characteristics affect the response to drugs. One aspect of pharmacogenomics is how genes affect pharmacokinetics. Genetic characteristics of a person may help predict response to treatments. For example, the metabolism of warfarin is determined partly by variants in genes for the CYP2C9 enzyme and for the vitamin K epoxide reductase complex protein 1. Genetic variations (eg, in production of UDP [uridine diphosphate]-glucuronosyltransferase 1A1) also help predict whether the anticancer drug irinotecan will have intolerable adverse effects.
+
+Another aspect of pharmacogenomics is pharmacodynamics (how drugs interact with cell receptors). Genetic and thus receptor characteristics of disordered tissue can help provide more precise targets when developing drugs (eg, anticancer drugs). For example, trastuzumab can target specific cancer cell receptors in metastatic breast cancers that amplify the HER2/neu gene. Presence of the Philadelphia chromosome in patients with chronic myeloid leukemia (CML) helps guide chemotherapy.
+
+Gene therapy
+
+Gene therapy can broadly be considered any treatment that changes gene function. However, gene therapy is often considered specifically the insertion of normal genes into the cells of a person who lacks such normal genes because of a specific genetic disorder. The normal genes can be manufactured, using polymerase chain reaction (PCR) methodology, from normal DNA donated by another person. Because most genetic disorders are recessive, usually a dominant normal gene is inserted. Currently, such insertion gene therapy is most likely to be effective in the prevention or cure of single-gene defects, such as cystic fibrosis.
+
+Viral transfection is one way to transfer DNA into host cells. The normal DNA is inserted into a virus, which then transfects the host cells, thereby transmitting the DNA into the cell nucleus. Some important concerns about insertion using a virus include reactions to the virus, rapid loss of (failure to propagate) the new normal DNA, and damage to the virus by antibodies developed against the virus, viral vector, or transfected protein, which the immune system recognizes as foreign. Another way to transfer DNA uses liposomes, which are absorbed by the host cells and thereby deliver their DNA to the cell nucleus. Potential problems with liposome insertion methods include failure to absorb the liposomes into the cells, rapid degradation of the new normal DNA, and rapid loss of integration of the DNA.
+
+With antisense technology, rather than inserting normal genes, gene expression can be altered. Modified RNA can be used to target specific parts of the DNA or RNA to prevent or decrease gene expression. Antisense technology is currently being tried for cancer therapy and some neurologic disorders but is still very experimental. However, it seems to hold more promise than gene insertion therapy because the success rates may be higher and complications may be fewer. Antisense oligonucleotides are available for clinical use for the treatment of spinal muscular atrophies and Duchenne muscular dystrophy.
+
+Another approach to gene therapy is to modify gene expression chemically (eg, by modifying DNA methylation). Such methods have been tried experimentally in treating cancer. Chemical modification may also affect genomic imprinting, although this effect is not as clear.
+
+Gene therapy is also being studied experimentally in transplantation surgery. Altering the genes of the transplanted organs to make them more compatible with the recipient’s genes makes rejection (and thus the need for immunosuppressive drugs) less likely. However, thus far this process works only rarely.
+
+CRISPR-CAS9 (clustered regularly interspaced short palindromic repeats–CRISPR-associated protein 9) uses a versatile RNA-guided DNA gene-editing platform adapted from bacterial biology to manipulate and modify an organism's genetic makeup. While still experimental, CRISPR-CAS9 is rapidly moving toward human therapeutics.
+
+Key Points
+
+Genetic screening is justified only if disease prevalence is high enough, treatment is feasible, and tests are accurate enough.

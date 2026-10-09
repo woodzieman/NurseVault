@@ -1,0 +1,140 @@
+=== Helicobacter pylori Infection (Merck Manual Professional) ===
+Section: Gastroenterology > Gastritis and Peptic Ulcer Disease
+Source: https://www.merckmanuals.com/professional/gastrointestinal-disorders/gastritis-and-peptic-ulcer-disease/helicobacter-pylori-infection
+Retrieved: 2026-09-25
+
+(See also Overview of Acid Secretion and Overview of Gastritis.)
+
+H. pylori is a spiral-shaped, gram-negative organism that has adapted to thrive in acid. In low- and middle-income countries, it commonly causes chronic infections and is usually acquired during childhood. In North America, estimates of the prevalence of H. pylori infection range between 30 and 40% (1). Infection is less common among children but increases with age. Infection is most common among Black, Hispanic, and Asian people.
+
+The organism has been cultured from stool, saliva, and dental plaque, which suggests oral-oral or fecal-oral transmission. Infections tend to cluster in families and in residents of custodial institutions. Nurses and gastroenterologists seem to be at high risk because bacteria can be transmitted by improperly disinfected endoscopes.
+
+General reference
+
+1. Chey WD, Howden CW, Moss SF, et al: ACG Clinical Guideline: Treatment of Helicobacter pylori Infection. Am J Gastroenterol 119(9):1730–1753, 2024. doi: 10.14309/ajg.0000000000002968
+
+Pathophysiology of H. pylori Infection
+
+Effects of H. pylori infection vary depending on the location within the stomach.
+
+Antral-predominant infection results in increased gastrin production, probably via local impairment of somatostatin release. Resultant hypersecretion of acid predisposes to prepyloric and duodenal ulcer.
+
+Body-predominant infection leads to gastric atrophy and decreased acid production, possibly via increased local production of interleukin-1 beta. Patients with body-predominant infection are predisposed to gastric ulcer and gastric adenocarcinoma.
+
+Some patients have mixed infection of both antrum and body with varying clinical effects. Many patients with H. pylori infection have no noticeable clinical effects.
+
+Ammonia produced by H. pylori enables the organism to survive in the acidic environment of the stomach and may erode the mucus barrier. About 10% of people infected with H. pylori develop a peptic ulcer, compared with 1% of those not infected with H. pylori (1). Cytotoxins and mucolytic enzymes (eg, bacterial protease, lipase) produced by H. pylori may play a role in mucosal damage and subsequent ulcerogenesis.
+
+Infected people are more likely to develop stomach cancer (2, 3). H. pylori is a group 1 carcinogen (carcinogenic to humans) (4). H. pylori infection is associated with intestinal-type adenocarcinoma of the gastric body and antrum but not cancer of the gastric cardia. Other associated cancers include gastric lymphoma and mucosa-associated lymphoid tissue (MALT) lymphoma, a monoclonally restricted B-cell tumor.
+
+Pathophysiology references
+
+1. Vakil N: Peptic Ulcer Disease: A Review. JAMA 332(21):1832–1842, 2024. doi:10.1001/jama.2024.19094
+
+2. Huang JQ, Sridhar S, Chen Y, Hunt RH: Meta-analysis of the relationship between Helicobacter pylori seropositivity and gastric cancer. Gastroenterology 114(6):1169–1179, 1998. doi:10.1016/s0016-5085(98)70422-6
+
+3. Eslick GD, Lim LL, Byles JE, Xia HH, Talley NJ: Association of Helicobacter pylori infection with gastric carcinoma: a meta-analysis. Am J Gastroenterol 94(9):2373–2379, 1999. doi:10.1111/j.1572-0241.1999.01360.x
+
+4. American Cancer Society: Known and probable human carcinogens. 2024. Accessed 11/12/2024.
+
+Diagnosis of H. pylori Infection
+
+Urea breath testing and stool antigen testing
+
+Screening of asymptomatic patients is not warranted. Tests are done during evaluation for peptic ulcer and gastritis. Posttreatment testing is typically done to confirm eradication of the organism.
+
+Noninvasive tests
+
+Laboratory and office-based serologic assays for antibodies to H. pylori were previously considered the noninvasive tests of choice for initial documentation of H. pylori infection. However, as the prevalence of infection has declined, the percentage of false-positive results with serologic assays has increased significantly, making these tests too unreliable in most countries and regions. As a result, urea breath testing and stool antigen testing are preferred for initial diagnosis (1). Qualitative assays remain positive for up to 3 years after successful treatment and because quantitative antibody levels do not decline significantly for 6 to 12 months after treatment, serologic assays are not usually used to assess cure.
+
+Urea breath tests use an oral dose of 13C- or 14C-labeled urea. In a patient with H. pylori infection, the organism metabolizes the urea and liberates labeled carbon dioxide (CO2), which is exhaled and can be quantified in breath samples taken 20 to 30 minutes after ingestion of the urea. Sensitivity and specificity are high. Urea breath tests are well suited for confirming eradication of the organism after therapy. False-negative results are possible with recent antibiotic use or concomitant proton pump inhibitor therapy; therefore, follow-up testing should be delayed ≥ 4 weeks after antibiotic therapy and 1 week after proton pump inhibitor therapy. Histamine-2 receptor antagonists do not affect the test.
+
+Stool antigen assays have a sensitivity and specificity similar to that of urea breath tests, particularly for initial diagnosis; an office-based stool test is not available. Molecular tests for antimicrobial resistance in H. pylori are available in the United States.
+
+Invasive tests
+
+Endoscopy is used to obtain mucosal biopsy samples for a rapid urease test (RUT) or histologic staining. Bacterial culture is of limited use because of the fastidious nature of the organism. Endoscopy is not recommended solely for diagnosis of H. pylori; noninvasive tests are preferred unless endoscopy is indicated for other reasons.
+
+The RUT, in which presence of bacterial urease in the biopsy sample causes a color change on a special medium, is the diagnostic method of choice on tissue samples. Histologic staining of biopsy samples should be done for patients with negative RUT results but suspicious clinical findings, recent antibiotic use, or treatment with proton pump inhibitors. RUT and histologic staining each have a high sensitivity and specificity. Immunohistochemistry is routinely used in some hospital systems and adds to the value of histology because it can be used to detect a very small number of organisms.
+
+Diagnosis reference
+
+1. Vaira D, Vakil N: Blood, urine, stool, breath, money, and Helicobacter pylori. Gut 48(3):287–289, 2001. doi:10.1136/gut.48.3.287
+
+Treatment of H. pylori Infection
+
+Antibiotics (various regimens) plus a proton pump inhibitor
+
+For confirmation of cure, urea breath test, stool antigen assay, or upper endoscopy
+
+Patients with complications (eg, ulcer, cancer) should have the organism eradicated. Eradication of H. pylori can even cure some cases of MALT lymphoma (but not other infection-related cancers) (1).
+
+Treatment of asymptomatic infection has been controversial, but the recognition of the role of H. pylori in cancer has led to a recommendation for treatment in patients with a family history of gastric cancer and immigrants from countries with a high rate of gastric cancer (1).
+
+Vaccines, both preventive and therapeutic (ie, as an adjunct to treatment of infected patients) have not been successful in human studies (2).
+
+H. pylori eradication requires multidrug therapy, typically antibiotics plus acid suppressants (3). Proton pump inhibitors suppress H. pylori, and the increased gastric pH accompanying their use can enhance tissue concentration and efficacy of antimicrobials, creating a hostile environment for H. pylori.
+
+Quadruple therapy is the best initial therapy in areas where the clarithromycin resistance rate is > 15% or in patients in whom microbial resistance data are not available and is recommended in both the European guidelines (4) and in the ACG guidelines (1). In quadruple therapy, the following oral medications are given for 14 days (5):
+
+A proton pump inhibitor (lansoprazole 30 mg 2 times a day, omeprazole 20 mg 2 times a day, pantoprazole 40 mg 2 times a day, rabeprazole 20 mg 2 times a day, or esomeprazole 40 mg once a day)
+
+Bismuth subsalicylate 524 mg 4 times a day
+
+Metronidazole 250 mg 4 times a day
+
+Tetracycline 500 mg 4 times a day
+
+In regions where H. pylori clarithromycin resistance is known to be < 15% and in patients with no previous history of macrolide exposure, triple therapy with the following oral medications for 14 days remains an initial treatment option (1, 4):
+
+A proton pump inhibitor (lansoprazole 30 mg 2 times a day, omeprazole 20 mg 2 times a day, pantoprazole 40 mg 2 times a day, rabeprazole 20 mg 2 times a day, or esomeprazole 40 mg once a day)
+
+Amoxicillin 1 g 2 times a day or metronidazole 250 mg 4 times a day
+
+Clarithromycin 500 mg 2 times a day
+
+If quadruple therapy fails, the European guidelines suggest dual therapy with a high-dose PPI and amoxicillin or triple therapy with a PPI, amoxicillin, and a fluoroquinolone (4). There is a high prevalence of fluoroquinolone resistance in the United States, so this strategy may not be applicable there. Triple therapy with low-dose rifabutin, amoxicillin, and a PPI is an alternative (6). For multidrug-resistant strains of H. pylori, triple therapy with a PPI, rifabutin, and amoxicillin seems to be effective (7). An alternative is dual therapy with vonoprazan and amoxicillin, which is effective in patients with clarithromycin-resistant strains of H. pylori (8).
+
+The ACG guidelines recommend that triple therapy with clarithromycin not be used if quadruple therapy fails (1).
+
+The European guidelines suggest double or triple therapy with a potassium-competitive acid inhibitor instead of a proton pump inhibitor as the acid suppressant may be superior or noninferior to standard triple therapy but the superiority of vonoprazan has not been established outside Asia (4, 8).
+
+Infected patients with duodenal or gastric ulcer require continuation of the acid suppression for at least 4 weeks. Eradication may be confirmed by a urea breath test, stool antigen test (9), or upper endoscopy done ≥ 4 weeks after completion of therapy. Confirmation of eradication is reasonable in all treated patients but is mandatory in patients who have serious manifestations of H. pylori infection (eg, bleeding ulcer). Recurrent bleeding ulcer is likely if the infection is not eradicated.
+
+If either quadruple or triple therapy fails to eradicate H. pylori, treatment is repeated. If 2 courses are unsuccessful, some authorities recommend endoscopy to obtain cultures for sensitivity testing. Next-generation sequencing of a stool sample is an alternative to determine the resistance of H. pylori to antibiotics (10). If bismuth quadruple therapy fails, clinicians should engage in a shared decision-making discussion with patients to determine whether they should receive levofloxacin triple therapy (with amoxicillin), rifabutin triple therapy, or an alternate bismuth-containing therapy or undergo testing for resistance with personalized treatment based on the results (11).
+
+Treatment references
+
+1. Chey WD, Howden CW, Moss SF, et al: ACG Clinical Guideline: Treatment of Helicobacter pylori Infection. Am J Gastroenterol 119(9):1730–1753, 2024. doi: 10.14309/ajg.0000000000002968
+
+2. Zhang S, Moise L, Moss SF: H. pylori vaccines: why we still don't have any. Hum Vaccin 7(11):1153–1157, 2011. doi:10.4161/hv.7.11.17655
+
+3. Yang JC, Lin CJ, Wang HL, et al: High-dose dual therapy is superior to standard first-line or rescue therapy for Helicobacter pylori infection. Clin Gastroenterol Hepatol 13(5):895–905.e5, 2015. doi: 10.1016/j.cgh.2014.10.036
+
+4. Malfertheiner P, Megraud F, Rokkas T, et al: Management of Helicobacter pylori infection: The Maastricht VI/Florence consensus report. Gut gutjnl-2022-327745, 2022. doi: 10.1136/gutjnl-2022-327745
+
+5. Fallone CA, Chiba N, van Zanten SV, et al: The Toronto consensus for the treatment of Helicobacter pylori infection in adults. Gastroenterology 151(1):51–69, 2016. doi: 10.1053/j.gastro.2016.04.006
+
+6. Graham DY, Canaan Y, Maher J, et al: Rifabutin-based triple therapy (RHB-105) for Helicobacter pylori eradication: A double-blind, randomized, controlled trial. Ann Intern Med 172(12):795–802, 2020. doi: 10.7326/M19-3734
+
+7. Fiorini G, Zullo A, Vakil N, et al: Rifabutin triple therapy is effective in patients with multidrug-resistant strains of Helicobacter pylori. J Clin Gastroenterol 52(2):137–140, 2018. doi: 10.1097/MCG.0000000000000540
+
+8. Chey WD, Mégraud F, Laine L, et al: Vonoprazan triple and dual therapy for Helicobacter pylori infection in the United States and Europe: Randomized clinical trial. Gastroenterology 163(3):608–619, 2022. doi: 10.1053/j.gastro.2022.05.055
+
+9. Vaira D, Vakil N, Menegatti M, et al: The stool antigen test for detection of Helicobacter pylori after eradication therapy. Ann Intern Med 136(4):280–287, 2002. doi:10.7326/0003-4819-136-4-200202190-00007
+
+10. Moss SF, Dang LP, Chua D, Sobrado J, Zhou Y, Graham DY: Comparable Results of Helicobacter pylori Antibiotic Resistance Testing of Stools vs Gastric Biopsies Using Next-Generation Sequencing. Gastroenterology 162(7):2095–2097.e2, 2022. doi:10.1053/j.gastro.2022.02.027
+
+11. Shah SC, Iyer PG, Moss SF: AGA clinical practice update on the management of refractory Helicobacter pylori infection: Expert review. Gastroenterology 160(5):1831–1841, 2021. doi: 10.1053/j.gastro.2020.11.059
+
+Key Points
+
+H. pylori is a gram-negative organism that is highly adapted to an acid environment and often infects the stomach; incidence of infection increases with age.
+
+Infection predisposes to gastric, prepyloric, and duodenal ulcers and increases risk of gastric adenocarcinoma and lymphoma.
+
+Make initial diagnosis with a urea breath test or stool antigen assay; if endoscopy is being done for other reasons, analyze biopsy samples using a rapid urease test or histologic staining.
+
+Give treatment to eradicate the organism in patients with complications (eg, ulcer, cancer); a typical regimen includes quadruple therapy in areas that have resistance rates to clarithromycin of > 15% or a proton pump inhibitor plus 2 antibiotics (eg, clarithromycin plus either amoxicillin or metronidazole).
+
+Confirm cure using a urea breath test, stool antigen test, or upper endoscopy.

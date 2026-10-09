@@ -7,6 +7,7 @@ public final class VaultSection: NSManagedObject {
     @NSManaged public var name: String?
     @NSManaged public var icon: String?
     @NSManaged public var sortOrder: NSNumber?
+    @NSManaged public var syncToWatch: Bool
     @NSManaged public var folders: Set<VaultFolder>?
     @NSManaged public var docs: Set<VaultDoc>?
 }
@@ -30,6 +31,59 @@ public final class VaultDoc: NSManagedObject {
     @NSManaged public var addedDate: Date?
     @NSManaged public var section: VaultSection?
     @NSManaged public var folder: VaultFolder?
+}
+
+// MARK: - Watch Display Types
+
+/// A simple value type for displaying section info on the watch (from summary).
+public struct WatchSection: Identifiable, Hashable {
+    public let id: String
+    public var name: String?
+    public var icon: String?
+
+    public init(id: String, name: String?, icon: String?) {
+        self.id = id
+        self.name = name
+        self.icon = icon
+    }
+}
+
+/// A simple value type for displaying document info on the watch (from summary).
+/// Does NOT contain fileData (too large for watch), only metadata.
+public struct WatchDoc: Identifiable, Hashable {
+    public let id: String
+    public var title: String?
+    public var fileName: String?
+    public var mimeType: String?
+    public var noteText: String?
+    public var addedDateISO: String?
+    public var sectionName: String?
+    public var sectionIcon: String?
+
+    /// The resolved section name from the document, for display.
+    public var sectionNameForDisplay: String {
+        sectionName ?? "Uncategorized"
+    }
+
+    public init(
+        id: String,
+        title: String?,
+        fileName: String?,
+        mimeType: String?,
+        noteText: String?,
+        addedDateISO: String?,
+        sectionName: String?,
+        sectionIcon: String?
+    ) {
+        self.id = id
+        self.title = title
+        self.fileName = fileName
+        self.mimeType = mimeType
+        self.noteText = noteText
+        self.addedDateISO = addedDateISO
+        self.sectionName = sectionName
+        self.sectionIcon = sectionIcon
+    }
 }
 
 extension VaultFolder {
@@ -98,7 +152,15 @@ public enum VaultModel {
         sectionEntity.properties = [
             attribute("name", .stringAttributeType),
             attribute("icon", .stringAttributeType),
-            attribute("sortOrder", .integer64AttributeType)
+            attribute("sortOrder", .integer64AttributeType),
+            {
+                let attr = NSAttributeDescription()
+                attr.name = "syncToWatch"
+                attr.attributeType = .booleanAttributeType
+                attr.isOptional = false
+                attr.defaultValue = true
+                return attr
+            }()
         ]
 
         // --- Folder Entity ---

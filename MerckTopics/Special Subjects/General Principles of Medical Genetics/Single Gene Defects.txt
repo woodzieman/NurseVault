@@ -1,0 +1,130 @@
+=== Single-Gene Defects (Merck Manual Professional) ===
+Section: Special Subjects > General Principles of Medical Genetics
+Source: https://www.merckmanuals.com/professional/special-subjects/general-principles-of-medical-genetics/single-gene-defects
+Retrieved: 2026-09-25
+
+Every human can carry approximately 400 abnormal genes (1). Genetic disorders determined by a single gene (Mendelian disorders) are easiest to analyze and the most well understood. If the expression of a trait requires only 1 copy of a gene (1 allele), that trait is considered dominant. If the expression of a trait requires 2 copies of a gene (2 alleles), that trait is considered recessive. One exception is X-linked disorders. Because males usually have no paired allele to offset the effects of most alleles on the X chromosome, the X chromosome allele is expressed in males even if the trait is recessive. Other exceptions, such as mitochondrial disorders, exist as well. Mitochondrial genes are typically inherited only from the maternal oocyte. However, the proteins responsible for mitochondrial structure and function originate both from mitochondrial and nuclear genes. (See also Overview of Genetics.)
+
+Many specific single-gene disorders have been described.
+
+Table
+
+Examples of Single-Gene (Mendelian) Disorders
+
+Examples of Single-Gene (Mendelian) Disorders
+
+Gene
+
+Dominant
+
+Recessive
+
+Non–X-linked
+
+Marfan syndrome
+
+Huntington disease
+
+Cystic fibrosis
+
+X-linked
+
+Familial rickets
+
+Hereditary nephritis
+
+Red–green color blindness
+
+Hemophilia
+
+Reference
+
+1. Xue Y, Chen Y, Ayub Q, et al. Deleterious- and disease-allele prevalence in healthy individuals: insights from current predictions, mutation databases, and population-scale resequencing. Am J Hum Genet. 2012;91(6):1022-1032. doi:10.1016/j.ajhg.2012.10.015
+
+Autosomal Dominant
+
+Only 1 abnormal allele of a gene is needed to express an autosomal dominant trait; ie, both heterozygotes and homozygotes carrying the abnormal gene are affected (ie, they exhibit the trait). A typical pedigree of an autosomal dominant trait is shown in figure Autosomal Dominant Inheritance.
+
+In general, the following rules apply:
+
+An affected person has an affected parent.
+
+A heterozygous affected parent and an unaffected parent have, on average, an equal number of affected and unaffected children; ie, risk of occurrence for each child of an affected parent is 50%.
+
+Unaffected children of an affected parent do not have the abnormal gene and therefore do not transmit the trait to their descendants.
+
+Males and females are equally likely to be affected.
+
+Autosomal Dominant Inheritance
+
+Autosomal Recessive
+
+Two copies of an abnormal allele are needed to express an autosomal recessive trait. An example of a pedigree is shown in figure Autosomal Recessive Inheritance.
+
+In general, the following rules of inheritance apply:
+
+Heterozygotes are unaffected (ie, the genotype is abnormal but the phenotype is normal). Heterozygotes are called carriers of the abnormal gene.
+
+If unaffected (phenotypically normal) parents have an affected child, that reveals that both parents are heterozygotes. On average, one-fourth of their children are affected, half are heterozygotes, and one- fourth are neither affected nor carriers (genotypically normal). Therefore, among the children, the chance of being unaffected (that is, either being a carrier or being genotypically normal) is three-fourths, and among the unaffected children, the chance of being a carrier is two-thirds.
+
+All children of an affected parent and a parent who is not a carrier are unaffected heterozygotes.
+
+On average, half the children of an affected parent and a heterozygote are affected, and half are heterozygotes.
+
+All children of 2 affected parents are affected.
+
+An unaffected (phenotypically normal) person with unaffected parents but affected siblings has a 66% chance of being a carrier of the abnormal gene.
+
+Males and females are equally likely to be affected.
+
+Autosomal Recessive Inheritance
+
+Relatives are more likely to carry the same mutant allele. Procreation between close relatives (consanguinity) increases the likelihood of having affected children due to the higher likelihood of both parents carrying the same recessive genetic mutations. This is because related individuals share a significant proportion of their genetic material, which increases the chances that both parents will pass on the same deleterious alleles to their offspring.
+
+In certain populations, the percentage of heterozygotes (carriers) is high because of a founder effect (ie, the group started with few members, one of whom was a carrier) or because carriers have a selective advantage (eg, heterozygosity for sickle cell trait protects against malaria).
+
+If the trait results in a defect of a specific protein (eg, an enzyme), heterozygotes usually have a reduced amount of that protein. This phenomenon is due to the presence of 1 normal allele, which typically produces enough functional protein for normal physiologic function.
+
+If the mutation is known, molecular genetic techniques can identify heterozygous phenotypically normal people (eg, most of the time, people with cystic fibrosis).
+
+X-Linked Dominant
+
+X-linked dominant traits are carried on the X chromosome; an individual with only 1 copy of the mutated gene on 1 of their X chromosomes will express the trait or disease. Most of these are rare, because they tend to be severe or lethal traits and the affected individual often does not survive to reproductive age. Usually, males are more severely affected because the abnormal allele on the X chromosome has no paired allele on the Y chromosome (because most genes on the X chromosome do not have a paired allele in males, ie, X and Y chromosomes are heterologous). Females who have 1 abnormal allele and 1 normal allele are affected but less severely. A typical pedigree is shown in figure X-Linked Dominant Inheritance.
+
+In general, the following rules of inheritance apply:
+
+Affected males transmit the trait to all of their daughters but to none of their sons.
+
+Heterozygous females transmit the trait to half of their children, regardless of sex.
+
+Homozygous females transmit the trait to all of their children.
+
+Heterozygous females are also affected, albeit less severely.
+
+Because females can be heterozygous or homozygous, more females have the trait than males. The difference between the sexes is even larger if the disorder is lethal in males.
+
+X-Linked Dominant Inheritance
+
+X-linked dominant inheritance may be difficult to differentiate from autosomal dominant inheritance by studying only inheritance patterns. Large pedigrees are required, with particular attention to children of affected males because male-to-male transmission rules out X-linkage (males pass only their Y chromosomes to their sons).
+
+X-Linked Recessive
+
+X-linked recessive traits are carried on the X chromosome. Thus, nearly all affected people are male because most females who possess 1 abnormal allele also have 1 normal copy of the involved gene (ie, they are heterozygous). A typical pedigree is shown in figure X-Linked recessive Inheritance.
+
+In general, the following rules of inheritance apply:
+
+Nearly all affected people are male.
+
+Heterozygous females are usually unaffected (phenotypically normal) but, as carriers, transmit the abnormal gene to half of their children.
+
+Half the sons of a carrier female are affected, and half the daughters are carriers.
+
+An affected male never transmits the trait to his sons.
+
+All daughters of an affected male are carriers.
+
+No daughters of a carrier female and an unaffected father who is not a carrier are affected, but half are carriers.
+
+X-Linked Recessive Inheritance
+
+Occasionally, females who are heterozygous for X-linked mutations show some expression, but they are rarely affected as severely as affected males.

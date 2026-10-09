@@ -1,0 +1,18 @@
+=== Plasma Membrane Proteins (Merck Manual Professional) ===
+Section: Clinical Pharmacology > Pharmacokinetics
+Source: https://www.merckmanuals.com/professional/clinical-pharmacology/pharmacokinetics/plasma-membrane-proteins
+Retrieved: 2026-09-25
+
+Plasma membrane transporters affect pharmacologic activity of drugs by mediating their absorption, distribution, metabolism, and excretion (1). Drug-drug interactions arise when drugs compete to bind a drug transporter, altering drug responses and causing potentially toxic adverse effects (2, 3). The 2 major transporters are adenosine triphosphate (ATP)–binding cassette (ABC, also referred to as P-glycoprotein) and the solute carrier (SLC) transporters. SLC transporters include emerging clinically significant transporters called multidrug and toxin extrusion (MATE) transporters that contribute to the renal elimination of metformin and interactions of cimetidine with other drugs (2). The expression of these drug transporters appears low during the fetal and neonatal periods, but increases after 7 years of age (4).
+
+(See also Overview of Pharmacokinetics.)
+
+References
+
+1. Mao Q, Lai Y, Wang J. Drug Transporters in Xenobiotic Disposition and Pharmacokinetic Prediction. Drug Metab Dispos. 2018;46(5):561–566, 2018. doi:10.1124/dmd.118.081356
+
+2. Paglialunga S, Benrimoh N, van Haarst A. Innovative Approaches to Optimize Clinical Transporter Drug-Drug Interaction Studies. Pharmaceutics. 2024;16(8):992, 2024. doi: 10.3390/pharmaceutics16080992
+
+3. Ivanyuk A, Livio F, Biollaz J, Buclin T. Renal Drug Transporters and Drug Interactions. Clin Pharmacokinet. 2017;56(8):825–892. doi: 10.1007/s40262-017-0506-8
+
+4. Mooij MG, Nies AT, Knibbe CA, et al. Development of Human Membrane Transporters: Drug Disposition and Pharmacogenetics. Clin Pharmacokinet. 2016;55(5): 507-524, 2016. doi: 10.1007/s40262-015-0328-5

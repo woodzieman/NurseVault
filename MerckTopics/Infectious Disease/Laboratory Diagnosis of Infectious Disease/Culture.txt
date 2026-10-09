@@ -1,0 +1,148 @@
+=== Culture (Merck Manual Professional) ===
+Section: Infectious Disease > Laboratory Diagnosis of Infectious Disease
+Source: https://www.merckmanuals.com/professional/infectious-diseases/laboratory-diagnosis-of-infectious-disease/culture
+Retrieved: 2026-09-25
+
+Culture is microbial growth on or in a nutritional solid or liquid medium; increased numbers of organisms simplify identification. Culture also facilitates testing of antimicrobial susceptibility.
+
+Communication with the laboratory is essential. Although most specimens are placed on general purpose media (eg, blood or chocolate agar), some pathogens require inclusion of specific nutrients and inhibitors (see table Selective Media for Isolation of Common Bacteria) or other special conditions for incubation (eg, a specific temperature, oxygen or carbon dioxide concentration, or duration). If one of these more fastidious pathogens is suspected or if the patient has been taking antimicrobials, the laboratory should be advised. The specimen’s source is reported so that the laboratory can differentiate pathogens from site-specific normal flora.
+
+Table
+
+Selective Media for Isolation of Common Bacteria
+
+Table
+
+Selective Media for Isolation of Common Bacteria
+
+Selective Media for Isolation of Common Bacteria
+
+Organism
+
+Preferred Medium
+
+Bacteroides species
+
+Kanamycin-vancomycin laked blood agar
+
+Bacteroides fragilis
+
+Bacteroides bile-esculin (with gentamicin and bile)
+
+Bordetella pertussis
+
+Bordet-Gengou agar plus methicillin or cephalexin
+
+Regan-Lowe cephalexin agar
+
+Horse blood–charcoal agar
+
+Burkholderia cepacia
+
+Burkholderia cepacia agar
+
+Campylobacter jejuni or C. coli
+
+Campylobacter–selective agars (eg, cefoperazone-vancomycin agar)
+
+Corynebacterium diphtheriae
+
+Tinsdale agar
+
+Cystine-tellurite blood agar
+
+Löffler coagulated serum medium
+
+Escherichia coli or enterohemorrhagic pathogens (Shiga toxin producers, including O157-H7)
+
+MacConkey-sorbitol agar
+
+Francisella tularensis
+
+Blood-cystine agar or chocolate-cystine agar
+
+Legionella species
+
+Buffered charcoal yeast extract agar
+
+Leptospira species
+
+Fletcher or Stuart medium with rabbit serum or Leptospira medium with bovine serum albumin–Tween 80
+
+Mycobacterium tuberculosis
+
+Lowenstein-Jensen agar
+
+Neisseria gonorrhoeae or N. meningitidis
+
+Modified Thayer-Martin agar
+
+New York City agar
+
+Salmonella and Shigella species
+
+May grow on standard MacConkey or eosin-methylene blue
+
+Alternative: Hektoen or xylose-lysine-desoxycholate, Salmonella-Shigella agar, gram-negative or selenite enrichment broth
+
+Vibrio species
+
+Thiosulfate-citrate-bile salts–sucrose agar
+
+Yersinia species
+
+Cefsulodin-Irgasan-novobiocin agar
+
+Specimen Collection
+
+Specimen collection is important. For diagnosis of infectious disease, the rule of thumb is sample where the infection is. For skin lesions, the leading edge, not the center, should be sampled.
+
+Use of swabs is discouraged. However, if a swab is used, a flocked swab is preferred because it can recover more specimen. Swabs used for molecular assays must be compatible for the specific molecular assay for which they are intended. The wrong type of swab can produce false-negative results. Wooden-shafted swabs are toxic to some viruses. Cotton-tipped swabs are toxic to some bacteria, including chlamydiae.
+
+Blood cultures require decontamination and disinfection of the skin (eg, skin should be scrubbed with 70% isopropyl alcohol–based solution combined with chlorhexidine gluconate and/or tincture of iodine) (1). Multiple samples, each taken from a different site, are generally used; they are taken nearly simultaneously with fever spikes if possible. Normal flora of skin that grows in only a single blood sample is usually interpreted as contamination. Unfortunately, blood cultures are frequently contaminated, which has potential for negative patient outcomes as well as substantial cost (2).
+
+If a blood specimen is obtained from a central line, a peripheral blood specimen should also be obtained to help differentiate systemic bacteremia from catheter infection. Cultures from infected catheters generally turn positive more quickly and contain more organisms than simultaneously drawn peripheral blood cultures. Some fungi, particularly molds (eg, Aspergillus species), usually cannot be cultured from blood.
+
+All specimens must be transported rapidly, in the correct medium, and in conditions that limit growth of any potentially contaminating normal flora. For accurate quantification of the pathogen, additional pathogen growth must be prevented; specimens should be transported to the laboratory immediately or, if transport is delayed, refrigerated (in most cases).
+
+References
+
+1. CLSI. Principles and Procedures for Blood Cultures. 2nd ed. CLSI guideline M47. Clinical and Laboratory Standards Institute; 2022.
+
+2. Doern GV, Carroll KC, Diekema DJ, et al. Practical Guidance for Clinical Microbiology Laboratories: A Comprehensive Update on the Problem of Blood Culture Contamination and a Discussion of Methods for Addressing the Problem. Clin Microbiol Rev. 2019;33(1):e00009-19. Published 2019 Oct 30. doi:10.1128/CMR.00009-19
+
+Special Considerations for Culture
+
+Certain cultures have special considerations.
+
+Anaerobes
+
+Anaerobic bacteria should not be cultured from sites where they are part of the normal flora because differentiation of pathogens from normal flora may be impossible. Specimens must be shielded from air, which can be difficult.
+
+For swab specimens, anaerobic transport media are available. However, fluid specimens (eg, abscess contents) are superior to swab specimens for recovery of anaerobic bacteria. Fluid specimens should be collected with a syringe from which all air was expressed (to minimize contact of the specimen with oxygen) and sent to a laboratory in the syringe (capped without the needle) or transferred to an anaerobic transport vial.
+
+Mycobacteria
+
+Mycobacteria are difficult to culture. Specimens containing normal flora (eg, sputum) must first be decontaminated and concentrated.
+
+Mycobacterium tuberculosis and some other mycobacteria grow slowly. Growth of M. tuberculosis is typically faster in liquid than in solid media; routine use of automated systems with liquid media can result in growth within 2 weeks vs ≥ 4 weeks on solid media such as Lowenstein-Jensen agar. In addition, few organisms may be present in a specimen. Multiple specimens from the same site may help maximize yield. Specimens should be allowed to grow for 8 weeks before being discarded. M. ulcerans, which causes Buruli ulcer, requires up to 12 weeks at 32° C on Lowenstein-Jensen agar.
+
+If an atypical mycobacterium is suspected, the laboratory should be notified.
+
+Viruses
+
+Viruses are generally cultured from swabs and tissue specimens. They are usually transported in media that contain antibacterial and antifungal agents.
+
+Specimens are inoculated onto tissue cultures that support the suspected virus and inhibit all other microbes. Viruses that are highly labile (eg, varicella zoster) should be inoculated onto tissue cultures within 1 hour of collection. Standard tissue cultures are most sensitive. The shell vial culture technique, in which the specimen is centrifuged onto a cell monolayer within a vial, provides more rapid results (2 days vs 7 to 14 days).
+
+Some common viruses cannot be detected using routine culture methods and require alternative methods for diagnosis. In addition, many clinical laboratories no longer perform viral cultures. Nucleic acid–based methods have replaced viral culture for most common viruses (Diagnostic Tests for Some Viral Pathogens), as for the following:
+
+Enzyme immunoassay for Epstein-Barr virus, hepatitis B virus, hepatitis E virus, HIV, and human T-lymphotropic virus
+
+Serologic tests for hepatitis A virus and hepatitis D virus
+
+Nucleic acid–based methods for HIV, influenza, respiratory syncytial virus (RSV), SARS-CoV2
+
+Fungi
+
+Fungal specimens obtained from nonsterile sites must be inoculated onto media containing antibacterial agents. Specimens should be allowed to grow for 3 to 4 weeks before being deemed negative and discarded.

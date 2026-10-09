@@ -1,0 +1,120 @@
+=== Severe Combined Immunodeficiency (SCID) (Merck Manual Professional) ===
+Section: Allergy and Immunology > Immunodeficiency Disorders
+Source: https://www.merckmanuals.com/professional/immunology-allergic-disorders/immunodeficiency-disorders/severe-combined-immunodeficiency-scid
+Retrieved: 2026-09-25
+
+(See also Overview of Immunodeficiency Disorders and Approach to the Patient With an Immunodeficiency Disorder.)
+
+Severe combined immunodeficiency (SCID) is a primary immunodeficiency disorder that involves combined humoral and cellular immunity deficiencies. It is caused by mutations in any one of many different genes (eg, for autosomal recessive forms, Janus kinase 3 [JAK3], protein tyrosine phosphatase, receptor type, C [PTPRC, or CD45], recombination activating genes 1 [RAG1] and 2 [RAG2]). There are various forms of SCID that are autosomal recessive defects, so for the infant to be affected with SCID, the same gene must be mutated on both chromosomes.
+
+There are 4 different abnormal lymphocyte phenotypes:
+
+T-B+NK+
+
+T-B+NK-
+
+T-B-NK+
+
+T-B-NK-
+
+In most forms of SCID, T cells are absent (T-); the number of B cells and/or natural killer cells may be low or none (B-; NK-) or high or normal (B+; NK+), depending on the form of SCID. However, B cells, even when normal in number, cannot function because T cells are absent. Natural killer cell function is usually impaired.
+
+The most common form of SCID is X-linked. It affects the interleukin (IL)-2 receptor common gamma chain (a component of at least 6 cytokine receptors) and thus causes severe disease; phenotype is T- B+ NK-. It results from a mutation in the IL-2 receptor gamma gene (IL-2RG).
+
+The second most common form results from adenosine deaminase (ADA) deficiency, which leads to apoptosis of precursors for B, T, and NK cells; phenotype is T- B- NK-.
+
+The next most common form results from IL-7 receptor alpha-chain deficiency; phenotype is T- B+ NK+.
+
+Mutations in recombination activating gene 1-2 (RAG1 or RAG2) represent a T-B-NK+ SCID phenotype.
+
+Omenn syndrome is another T-B-NK+ SCID phenotype. It typically is the result of one defective RAG allele and therefore is commonly referred to as atypical SCID, or leaky SCID. It is an autosomal recessive form of SCID. Frequently the levels of IgA, IgG, and IgM are low while the levels of IgE and eosinophils are elevated. These patients usually have a varying degree of lymphopenia with low numbers of T and B cells and present with inflammation and lymphadenopathy.
+
+Artemis-deficient SCID is a rare type that occurs primarily in children of Apache or Navajo descent. It results from a mutation in DCLRE1C. Clinically, it resembles SCID with a T-B-NK+ phenotype.
+
+All forms of SCID are fatal during infancy unless they are diagnosed and treated early.
+
+Symptoms and Signs of SCID
+
+By age 6 months, most infants with SCID develop systemic candidiasis, persistent viral infections, Pneumocystis jirovecii pneumonia, and diarrhea, leading to failure to thrive. Some have graft-vs-host disease due to maternal lymphocytes or blood transfusions. Other infants present at age 6 to 12 months.
+
+In most forms, the thymus is extremely small, and lymphoid tissue may be decreased or absent.
+
+ADA deficiency may cause bone abnormalities.
+
+Patients with Omenn syndrome may develop exfoliative dermatitis, erythroderma, desquamation, alopecia, chronic diarrhea, failure to thrive, lymphadenopathy, eosinophilia, hepatosplenomegaly, and elevated serum IgE levels.
+
+Diagnosis of SCID
+
+Routine neonatal screening using the T-cell receptor excision circle (TREC) test
+
+History of persistent infections
+
+White blood cell (WBC) count
+
+Mitogen and vaccine antigen stimulation assays
+
+Screening all neonates using the TREC test is often recommended and is done routinely in many U. S. states.
+
+Severe combined immunodeficiency is suspected in infants with a history of persistent infections or other characteristic manifestations. Complete blood count, including absolute WBC count and differential, is done; immunoglobulin levels are measured. Responses to mitogens and to standard vaccine antigens are determined to evaluate WBC and antibody function.
+
+The disorder is diagnosed in patients with the following (1):
+
+Lymphopenia
+
+A low number of or no T cells
+
+Absent lymphocyte proliferative responses to mitogens
+
+Other tests are done to determine the type of SCID; they include flow cytometry to determine T, B, and natural killer cell counts. ADA and purine nucleoside phosphorylase levels in WBCs, red blood cells, and fibroblasts are measured. X-inactivation tests may be done to determine whether SCID is X-linked.
+
+To help determine severity and prognosis, clinicians often test patients for common mutations that are characteristic of SCID (eg, IL-2RG, RAG1 and RAG2, JAK3, Artemis [DCLRE1C]).
+
+Genetic testing of relatives is not recommended.
+
+Diagnosis reference
+
+1. Bonilla FA, Khan DA, Ballas ZK, et al: Practice parameter for the diagnosis and management of primary immunodeficiency. J Allergy Clin Immunol 136(5):1186–205.e2078, 2015. doi:10.1016/j.jaci.2015.04.049
+
+Treatment of SCID
+
+Reverse isolation
+
+Supportive care using immune globulin replacement therapy, antibiotics, and antifungals
+
+Hematopoietic stem cell transplantation
+
+Enzyme replacement for ADA deficiency
+
+Gene therapy for SCID caused by ADA deficiency and other specific mutations
+
+Patients with severe combined immunodeficiency must be kept in reverse isolation.
+
+Treatment with immune globulin replacement therapy, antibiotics (including P. jirovecii prophylaxis), and antifungals can help prevent infections but is not curative.
+
+In 90 to 100% of infants with SCID or its variants, hematopoietic stem cell transplantation from an HLA-identical, mixed leukocyte culture–matched sibling restores immunity. When an HLA-identical sibling is not available, transplantation from a parent of haploidentical hematopoietic stem cells that have been rigorously depleted of T cells can be used. If SCID is diagnosed by age 3 months, the survival rate after transplantation with either type of hematopoietic stem cells is 96% (1). Pretransplantation chemotherapy is unnecessary because patients do not have T cells and therefore cannot reject a graft.
+
+Patients with ADA deficiency who do not receive a hematopoietic stem cell transplant may be treated with injections of polyethylene glycol–modified bovine ADA once or twice a week.
+
+Gene therapy has been successful in ADA-deficient SCID, and no posttreatment leukemias or lymphomas have been reported. One publication showed highly favorable results of gene therapy in 50 ADA-SCID (2). Gene therapy has also been successful in X-linked SCID but has caused T-cell leukemias, precluding its use. Gene therapy for other forms of SCID is under study, including open enrollment in clinical trials for ADA-SCID and X-linked SCID. A small trial showed favorable results of gene therapy in Artemis-deficient SCID (3).
+
+Treatment references
+
+1. Heimall J, Logan BR, Cowan MJ, et al: Immune reconstitution and survival of 100 SCID patients post-hematopoietic cell transplant: a PIDTC natural history study. Blood 130(25):2718–2727, 2017. doi:10.1182/blood-2017-05-781849
+
+2. Kohn DB, Booth C, Shaw KL, et al: Autologous ex vivo lentiviral gene therapy for adenosine deaminase deficiency. N Engl J Med 384(21):2002–2013, 2021. doi:10.1056/NEJMoa2027675
+
+3. Cowan MJ, Yu J, Facchino J, et al: Lentiviral gene therapy for Artemis-deficient SCID. N Engl J Med 387(25):2344–2355, 2022. doi:10.1056/NEJMoa2206575
+
+Key Points
+
+Suspect severe combined immunodeficiency (SCID) if infants have recurrent infections, graft-vs-host disease, or exfoliative dermatitis.
+
+The diagnosis is confirmed if patients have lymphopenia, deficient numbers of T cells, and no lymphocyte proliferative responses to mitogens.
+
+Determine T, B, and natural killer cell counts to identify the type of SCID.
+
+Give prophylactic immune globulin and antimicrobials.
+
+Do hematopoietic stem cell transplantation early whenever possible.
+
+If patients with ADA-deficient SCID do not receive hematopoietic stem cell transplantation, use ADA replacement and sometimes gene therapy.
