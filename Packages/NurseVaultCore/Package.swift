@@ -13,7 +13,18 @@ let package = Package(
     ],
     targets: [
         .target(
+            name: "CompressionCompat",
+            publicHeadersPath: "include",
+            cSettings: [],
+            linkerSettings: [
+                // Apple's libcompression (COMPRESSION_BROTLI). System library;
+                // present on every platform this package supports.
+                .linkedLibrary("compression")
+            ]
+        ),
+        .target(
             name: "NurseVaultCore",
+            dependencies: ["CompressionCompat"],
             resources: [
                 // Compact, watch-sized drug index (name + brand names + the
                 // auto-generated nursing quick-reference summary) generated

@@ -1,96 +1,45 @@
 import SwiftUI
 import NurseVaultCore
 
+/// The watch's Merck Manual: the **full** bundled articles, paged ~25 topics
+/// at a time with a short preview per row. Selecting a topic reads just that
+/// topic's text from the on-watch content blob (see `WatchReference`), so the
+/// watch holds the whole manual without ever loading it all into RAM.
 struct WatchMerckReferenceView: View {
-    @State private var library = WatchMerckLibrary()
+    @State private var reference = WatchReference(.merck)
     @State private var searchText = ""
     @State private var query = ""
+    @State private var visibleCount = 25
 
-    private var results: [WatchMerckEntry] {
-        library.search(query)
+    private var all: [WatchReferenceEntry] {
+        query.isEmpty ? reference.entries : reference.search(query)
     }
 
     var body: some View {
-        List {
-            Section {
-                TextField("Topic search", text: $searchText)
-                    .autocorrectionDisabled()
-            }
-
-            if library.isMissing {
-                Section {
-                    Label(
-                        "The Merck index isn't available on this watch yet.",
-                        systemImage: "exclamationmark.triangle"
-                    )
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-                }
-            } else if query.isEmpty {
-                Section {
-                    Label("Search topics by title or specialty. \(library.entries.count) topics loaded.", systemImage: "book")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                }
-            } else if results.isEmpty {
-                Section {
-                    Text("No topics match “\(query)”.")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                }
-            } else {
-                ForEach(results.prefix(25)) { entry in
-                    NavigationLink(value: entry) {
-                        VStack(alignment: .leading, spacing: 2) {
-                            Text(entry.title)
-                                .font(.footnote)
-                            Text(entry.specialty)
-                                .font(.caption2)
-                                .foregroundStyle(.secondary)
-                        }
-                    }
-                }
-            }
+        WatchReferenceListView(
+            reference: reference,
+            placeholder: "Topic, specialty, or condition",
+            browseHint: "Browse or search \(reference.entries.count) topics",
+            searchText: $searchText,
+            all: all,
+            visibleCount: $visibleCount
+        )
+        .navigationTitle(reference.name.label)
+        .navigationDestination(for: WatchReferenceEntry.self) { entry in
+            WatchReferenceDetailView(reference: reference, entry: entry)
         }
-        .navigationTitle("Merck Manual")
-        .navigationDestination(for: WatchMerckEntry.self) { entry in
-            WatchMerckDetailView(entry: entry)
-        }
-        .task { library.loadIfNeeded() }
+        .task { reference.loadIfNeeded() }
         .onChange(of: searchText) { _, newValue in
+            // Short debounce keeps the crown/typing responsive without
+            // re-filtering on every intermediate keystroke.
             let text = newValue
             Task {
                 try? await Task.sleep(for: .milliseconds(150))
                 if !Task.isCancelled && searchText == text {
                     query = text
+                    visibleCount = 25
                 }
             }
         }
-    }
-}
-
-struct WatchMerckDetailView: View {
-    let entry: WatchMerckEntry
-
-    var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 8) {
-                Text(entry.specialty)
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-                if !entry.subspecialty.isEmpty {
-                    Text(entry.subspecialty)
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                }
-                Text(entry.summary)
-                    .font(.caption)
-                Text("Full article is available in the Nurse Vault app on your iPhone or Mac.")
-                    .font(.caption2)
-                    .foregroundStyle(.secondary)
-            }
-            .padding()
-        }
-        .navigationTitle(entry.title)
     }
 }

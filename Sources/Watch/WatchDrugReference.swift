@@ -1,71 +1,35 @@
 import SwiftUI
 import NurseVaultCore
 
-/// The watch's Drug Reference: a searchable, offline, at-a-glance lookup of
-/// the bundled drug index. (The full prescribing text lives only in the
-/// iPhone/Mac app.) Shown from the home screen as a top-level entry.
+/// The watch's Drug Reference: the **full** bundled prescribing data, paged
+/// ~25 rows at a time with a short preview per row. Selecting a drug reads
+/// just that drug's text from the on-watch content blob (see
+/// `WatchReference`), so the watch holds the whole reference without ever
+/// loading it all into RAM.
 struct WatchDrugReferenceView: View {
-    @State private var library = WatchDrugLibrary()
+    @State private var reference = WatchReference(.drugs)
     @State private var searchText = ""
     @State private var query = ""
+    @State private var visibleCount = 25
 
-    private var results: [WatchDrugEntry] {
-        library.search(query)
+    private var all: [WatchReferenceEntry] {
+        query.isEmpty ? reference.entries : reference.search(query)
     }
 
     var body: some View {
-        List {
-            Section {
-                TextField("Drug name or brand", text: $searchText)
-                    .autocorrectionDisabled()
-            }
-
-            if library.isMissing {
-                Section {
-                    Label(
-                        "The drug index isn't available on this watch yet.",
-                        systemImage: "exclamationmark.triangle"
-                    )
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-                }
-            } else if query.isEmpty {
-                Section {
-                    Label(
-                        "Search a drug or brand. \(library.entries.count) drugs loaded.",
-                        systemImage: "pills"
-                    )
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-                }
-            } else if results.isEmpty {
-                Section {
-                    Text("No drugs match “\(query)”.")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                }
-            } else {
-                ForEach(results.prefix(25)) { drug in
-                    NavigationLink(value: drug) {
-                        VStack(alignment: .leading, spacing: 2) {
-                            Text(drug.name)
-                                .font(.footnote)
-                            if !drug.brands.isEmpty {
-                                Text(drug.brands.joined(separator: ", "))
-                                    .font(.caption2)
-                                    .foregroundStyle(.secondary)
-                                    .lineLimit(1)
-                            }
-                        }
-                    }
-                }
-            }
+        WatchReferenceListView(
+            reference: reference,
+            placeholder: "Drug name, brand, or class",
+            browseHint: "Browse or search \(reference.entries.count) drugs",
+            searchText: $searchText,
+            all: all,
+            visibleCount: $visibleCount
+        )
+        .navigationTitle(reference.name.label)
+        .navigationDestination(for: WatchReferenceEntry.self) { entry in
+            WatchReferenceDetailView(reference: reference, entry: entry)
         }
-        .navigationTitle("Drug Reference")
-        .navigationDestination(for: WatchDrugEntry.self) { drug in
-            WatchDrugDetailView(drug: drug)
-        }
-        .task { library.loadIfNeeded() }
+        .task { reference.loadIfNeeded() }
         .onChange(of: searchText) { _, newValue in
             // Short debounce keeps the crown/typing responsive without
             // re-filtering on every intermediate keystroke.
@@ -74,38 +38,142 @@ struct WatchDrugReferenceView: View {
                 try? await Task.sleep(for: .milliseconds(150))
                 if !Task.isCancelled && searchText == text {
                     query = text
+                    visibleCount = 25
                 }
             }
         }
     }
 }
 
-/// A single drug's quick-reference summary, rendered for the watch's small
-/// screen.
-struct WatchDrugDetailView: View {
-    let drug: WatchDrugEntry
+/// Shared paged list for a `WatchReference` dataset: search field, ~25 rows
+/// (growable via "Show more"), title + preview per row.
+struct WatchReferenceListView: View {
+    let reference: WatchReference
+    let placeholder: String
+    let browseHint: String
+    @Binding var searchText: String
+    let all: [WatchReferenceEntry]
+    @Binding var visibleCount: Int
+
+    private static let pageSize = 25
+
+    private var isSearching: Bool {
+        !searchText.trimmingCharacters(in: .whitespaces).isEmpty
+    }
+
+    var body: some View {
+        List {
+            Section {
+                TextField(placeholder, text: $searchText)
+                    .autocorrectionDisabled()
+            }
+
+            if reference.isMissing {
+                Section {
+                    Label(
+                        "The reference data isn't available on this watch yet.",
+                        systemImage: "exclamationmark.triangle"
+                    )
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                }
+            } else if all.isEmpty {
+                Section {
+                    if isSearching {
+                        Text("No matches for “\(searchText)”.")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    } else if reference.isLoading {
+                        ProgressView()
+                    } else {
+                        Text(browseHint)
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    }
+                }
+            } else {
+                Section {
+                    ForEach(all.prefix(visibleCount)) { entry in
+                        NavigationLink(value: entry) {
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(entry.title)
+                                    .font(.footnote)
+                                if !entry.preview.isEmpty {
+                                    Text(entry.preview)
+                                        .font(.caption2)
+                                        .foregroundStyle(.secondary)
+                                        .lineLimit(1)
+                                }
+                            }
+                        }
+                    }
+                    if all.count > visibleCount {
+                        Button {
+                            visibleCount += Self.pageSize
+                        } label: {
+                            Text("Show \(min(Self.pageSize, all.count - visibleCount)) more")
+                                .font(.caption)
+                                .frame(maxWidth: .infinity)
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/// The full text of one reference entry: seek + read + inflate of that entry
+/// only, rendered scrollable on the watch.
+struct WatchReferenceDetailView: View {
+    let reference: WatchReference
+    let entry: WatchReferenceEntry
+
+    @State private var text: String?
+    @State private var isLoading = true
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 8) {
-                // Generic name + up to two brand names (kept short for a watch).
-                if !drug.brands.isEmpty {
-                    Text("Brands: \(drug.brands.joined(separator: ", "))")
-                        .font(.footnote)
+                if !entry.extra.isEmpty {
+                    Text(entry.extra)
+                        .font(.caption)
                         .foregroundStyle(.secondary)
                 }
-
-                if !drug.summary.isEmpty {
-                    Text(drug.summary)
+                if let text {
+                    Text(Self.bodyText(for: text))
+                        .font(.footnote)
+                } else if isLoading {
+                    ProgressView("Loading…")
+                } else {
+                    Text("This entry's text couldn't be loaded.")
                         .font(.caption)
+                        .foregroundStyle(.secondary)
                 }
-
-                Text("Full prescribing information is in the Nurse Vault app on your iPhone or Mac.")
-                    .font(.caption2)
-                    .foregroundStyle(.secondary)
             }
             .padding()
         }
-        .navigationTitle(drug.name)
+        .navigationTitle(entry.title)
+        .task {
+            text = await reference.text(for: entry)
+            isLoading = false
+        }
+    }
+
+    /// Drops the leading metadata header (`===` / `Source:` / `Retrieved:` /
+    /// `Section:` lines) so the article starts at real content. Everything
+    /// else — including the nursing quick-reference summary block — stays.
+    private static func bodyText(for text: String) -> String {
+        let headerPrefixes = ["===", "Section:", "Source:", "Retrieved:"]
+        var lines = text.split(separator: "\n", omittingEmptySubsequences: false).map(String.init)
+        var index = 0
+        while index < lines.count {
+            let trimmed = lines[index].trimmingCharacters(in: .whitespaces)
+            if trimmed.isEmpty || headerPrefixes.contains(where: trimmed.hasPrefix) {
+                index += 1
+                continue
+            }
+            break
+        }
+        return lines.dropFirst(index).joined(separator: "\n")
     }
 }
