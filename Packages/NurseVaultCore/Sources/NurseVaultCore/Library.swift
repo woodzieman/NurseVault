@@ -121,9 +121,12 @@ public final class Library {
         if sections.isEmpty {
             ensureDefaultSections()
         }
-        // One-time migration: auto-populate Merck Manual topics into the vault
-        ensureMerckManualImported()
         #endif
+        // One-time migration (all platforms): remove the legacy Merck vault import.
+        // Merck is a bundled read-only reference (like the Drug Reference), never in
+        // the vault. Runs on the watch too, so the watch self-heals locally even if
+        // the CloudKit deletion of those docs has not propagated yet.
+        applyMerckVaultMigration()
         isReady = true
     }
 
@@ -450,73 +453,46 @@ public final class Library {
         reload()
     }
 
-    /// One-time migration: import Merck Manual topics from the app bundle into the vault.
-    private func ensureMerckManualImported() {
-        // The one-time Merck import is an iPhone/Mac-only action. The watch
-        // app has no Core Data vault (it reads the summary file), so the whole
-        // body is compiled out on watchOS. (An early `return` here would trip a
-        // "code after 'return' will never be executed" warning in the watchOS
-        // build of this shared file.)
-        #if !os(watchOS)
-        // Check if already imported
+    /// Merck Manual is a **bundled, read-only reference** — presented through
+    /// `MerckManualView` (iPhone/Mac) and `WatchMerckLibrary` (watch) — exactly
+    /// like the Drug Reference. By design it is **never** stored in the Core
+    /// Data vault, so it is never pushed to iCloud and never imported onto the
+    /// watch.
+    ///
+    /// An earlier build shipped a one-time migration that imported the ~2,834
+    /// Merck topics into the vault as documents. Because `syncToWatch` defaults
+    /// on, that set syncs to CloudKit and then to the watch, where materializing
+    /// thousands of large documents overwhelms the watch app and leaves it
+    /// unresponsive after a sync. This one-time migration reverses that on every
+    /// platform: it deletes the legacy "Merck Manual" section and its documents
+    /// so the vault (and the watch) hold only the user's own content. It reads
+    /// only the light section name per document — never `noteText`/`fileData` —
+    /// so it stays cheap even on the watch.
+    private static let legacyMerckRemovedKey = "nursevault.legacyMerckVaultRemoved.v1"
+
+    private func applyMerckVaultMigration() {
+        guard !UserDefaults.standard.bool(forKey: Self.legacyMerckRemovedKey) else { return }
+
         let sectionFetch = NSFetchRequest<VaultSection>(entityName: "Section")
         sectionFetch.predicate = NSPredicate(format: "name == %@", "Merck Manual")
-        if let existing = try? context.fetch(sectionFetch).first,
-           let count = existing.docs?.count, count > 0 {
+        guard let legacySection = try? context.fetch(sectionFetch).first else {
+            UserDefaults.standard.set(true, forKey: Self.legacyMerckRemovedKey)
             return
         }
-        // Create section
-        let section = VaultSection(context: context)
-        section.name = "Merck Manual"
-        section.icon = "book"
-        let highest = (sections.map { ($0.sortOrder?.int64Value) ?? 0 }.max() ?? -1) + 1
-        section.sortOrder = NSNumber(value: highest)
-        // Import topics in background
-        Task { @MainActor in
-            await self.importMerckTopics(into: section)
-        }
-        #endif
-    }
 
-    private func importMerckTopics(into section: VaultSection) async {
-        guard let bundleURL = Bundle.main.resourceURL?.appendingPathComponent("MerckTopics") else {
-            NSLog("NurseVault: MerckTopics bundle missing")
-            return
+        let docFetch = NSFetchRequest<VaultDoc>(entityName: "Doc")
+        docFetch.predicate = NSPredicate { _, dict in
+            guard let dict,
+                  let section = dict["section"] as? NSManagedObject,
+                  let name = section.value(forKey: "name") as? String else { return false }
+            return name == "Merck Manual"
         }
-        var imported = 0
-        let fm = FileManager.default
-        guard let specialties = try? fm.contentsOfDirectory(at: bundleURL, includingPropertiesForKeys: nil, options: [.skipsHiddenFiles]) else { return }
-        for specialtyURL in specialties where specialtyURL.hasDirectoryPath {
-            guard let subdirs = try? fm.contentsOfDirectory(at: specialtyURL, includingPropertiesForKeys: nil, options: [.skipsHiddenFiles]) else { continue }
-            for subURL in subdirs where subURL.hasDirectoryPath {
-                let subspecialty = subURL.lastPathComponent
-                guard let files = try? fm.contentsOfDirectory(at: subURL, includingPropertiesForKeys: nil, options: [.skipsHiddenFiles]) else { continue }
-                for fileURL in files where fileURL.pathExtension.lowercased() == "txt" {
-                    let title = fileURL.deletingPathExtension().lastPathComponent
-                    let displayTitle = subspecialty.isEmpty ? title : "\(subspecialty): \(title)"
-                    guard let data = try? Data(contentsOf: fileURL) else { continue }
-                    // Limit note size to keep Core Data reasonable
-                    let maxNoteBytes = 64 * 1024
-                    let noteData = data.count > maxNoteBytes ? data.prefix(maxNoteBytes) : data
-                    guard let text = String(data: noteData, encoding: .utf8) else { continue }
-                    let doc = VaultDoc(context: context)
-                    doc.title = displayTitle
-                    doc.fileName = fileURL.lastPathComponent
-                    doc.mimeType = "text/plain"
-                    doc.noteText = text
-                    doc.addedDate = Date()
-                    doc.section = section
-                    imported += 1
-                    // Batch save every 100 docs to avoid huge context
-                    if imported % 100 == 0 {
-                        save()
-                    }
-                }
-            }
-        }
+        let docs = (try? context.fetch(docFetch)) ?? []
+        for doc in docs { context.delete(doc) }
+        context.delete(legacySection)
         save()
-        reload()
-        NSLog("NurseVault: Merck Manual import complete – \(imported) topics imported")
+        NSLog("NurseVault: Merck vault migration removed \(docs.count) legacy doc(s); Merck is now bundled-only.")
+        UserDefaults.standard.set(true, forKey: Self.legacyMerckRemovedKey)
     }
 
     @discardableResult

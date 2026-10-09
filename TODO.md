@@ -32,6 +32,8 @@
 - [x] One-time Merck Manual migration into vault
   - `Library.ensureMerckManualImported()` implemented, creates “Merck Manual” section and imports topics from bundle as `VaultDoc` notes
   - 64 KB cap per doc, background import, skips if already imported
+  - **SUPERSEDED** — reverted by `applyMerckVaultMigration()` (see 2026-10-09 build 43): the vault copy
+    syncs ~2,834 large docs to CloudKit → watch and OOMs the watch app.
 
 ## Completed (2026-10-09, v4.1 breakage)
 
@@ -73,13 +75,38 @@
     (first-paragraph summary). `WatchMerckIndex.txt.zlib` is now **96 KB**
     (was 606 KB). Removed the stale duplicate `Resources` folder + `.json`.
 
+## Completed (2026-10-09, build 43 — user-reported breakage)
+
+- [x] Fix iPhone Merck Manual detail: “only first page appears, doesn’t scroll”
+  - **Root cause:** `MerckTopicDetailView.bodyText` rendered only the lines from
+    the first `References` marker onward, dropping the whole article body (which
+    sits *before* the references) — so the user saw just the short references tail.
+  - Fixed: skip the leading metadata header (`===` / `Section:` / `Source:` /
+    `Retrieved:` + leading blanks) and render the **entire** article, references
+    included, so the full topic shows and scrolls.
+
+- [x] Fix watch “completely broken after sync” — decouple Merck from the CloudKit vault
+  - **Root cause:** the legacy one-time Merck import put ~2,834 topics (each up to
+    64 KB text) into the CloudKit-synced Core Data vault; `syncToWatch` defaults on,
+    so that set syncs to the watch, whose `reload()` materializes all of it and the
+    low-memory watch app OOMs/freezes after a sync.
+  - Merck is now a **bundled read-only reference** (like the Drug Reference):
+    `MerckManualView` on iPhone + `WatchMerckLibrary` on the watch — never in the
+    vault, never pushed to iCloud, never imported onto the watch.
+  - `applyMerckVaultMigration()` (all platforms, one-time, `UserDefaults`-gated)
+    deletes the legacy “Merck Manual” section + docs. Runs on the watch too, so the
+    watch self-heals locally even if the CloudKit deletion hasn’t propagated yet.
+    Reads only the light section name per doc (never `noteText`/`fileData`).
+
 ## In Progress / Next
 
-- [ ] Verify search + sync + 3 GB PDF on the on-device test device
-  - Drug reference detail now populates (Class/Routes/Side Effects/Overdose/
-    Nursing + real sections); confirm on the phone
-  - Search (name/brand/content) and the sync badge state
-  - Confirm the size guards prevent the 3 GB PDF crash / OOM
+- [ ] On-device verify build 43
+  - iPhone: Merck Manual detail shows the full article + scrolls
+  - Watch: after sync, home + sections + Drug/Merck references stay responsive
+    (Merck no longer floods via CloudKit)
+  - Drug reference detail populates; search returns results
+- [ ] Decide Merck full-content delivery for the “other data” (music-app model):
+  keep the bundled index on watch + full text on demand (see compression report)
 - [ ] Core Data expert + cleanse pass on `Library.swift` / `Search.swift`
   - Flatten `importDirectory`, surface save errors, tidy `@MainActor Task` wrappers
 - [ ] Final polish & App Store prep

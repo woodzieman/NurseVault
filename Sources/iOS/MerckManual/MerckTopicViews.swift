@@ -219,24 +219,32 @@ struct MerckTopicDetailView: View {
         }
     }
 
-    // MARK: - Body text (skip the header block)
+    // MARK: - Body text (the full article, minus the metadata header)
     private func bodyText(_ text: String) -> some View {
-        let lines = text.split(whereSeparator: \.isNewline)
+        let lines = text.split(omittingEmptySubsequences: false, whereSeparator: \.isNewline)
 
-        // Body text starts from References section onward
-        var bodyLines: [String.SubSequence] = []
-        var inReferences = false
+        // The file opens with a small metadata header — the `=== Title ===` line
+        // plus `Section:` / `Source:` / `Retrieved:` — which the header view above
+        // already renders. Skip that leading run (and any leading blank lines) and
+        // show the *entire* article body, including the references, so the whole
+        // topic is readable and scrollable rather than just a short tail.
+        var bodyLines: [String] = []
+        var pastHeader = false
         for line in lines {
-            let trimmed = line.trimmingCharacters(in: .whitespaces)
-            if trimmed.hasPrefix("References") {
-                inReferences = true
+            if !pastHeader {
+                let trimmed = line.trimmingCharacters(in: .whitespaces)
+                let isHeader = trimmed.hasPrefix("===")
+                    || trimmed.hasPrefix("Section:")
+                    || trimmed.hasPrefix("Source:")
+                    || trimmed.hasPrefix("Retrieved:")
+                    || trimmed.isEmpty
+                if isHeader { continue }
+                pastHeader = true
             }
-            if inReferences {
-                bodyLines.append(line)
-            }
+            bodyLines.append(String(line))
         }
 
-        return Text(String(bodyLines.joined(separator: "\n")))
+        return Text(bodyLines.joined(separator: "\n"))
             .font(.body)
             .fixedSize(horizontal: false, vertical: true)
             .textSelection(.enabled)
