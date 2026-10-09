@@ -452,10 +452,12 @@ public final class Library {
 
     /// One-time migration: import Merck Manual topics from the app bundle into the vault.
     private func ensureMerckManualImported() {
-        // Skip on watchOS – watch uses the summary file, not Core Data.
-        #if os(watchOS)
-        return
-        #endif
+        // The one-time Merck import is an iPhone/Mac-only action. The watch
+        // app has no Core Data vault (it reads the summary file), so the whole
+        // body is compiled out on watchOS. (An early `return` here would trip a
+        // "code after 'return' will never be executed" warning in the watchOS
+        // build of this shared file.)
+        #if !os(watchOS)
         // Check if already imported
         let sectionFetch = NSFetchRequest<VaultSection>(entityName: "Section")
         sectionFetch.predicate = NSPredicate(format: "name == %@", "Merck Manual")
@@ -473,6 +475,7 @@ public final class Library {
         Task { @MainActor in
             await self.importMerckTopics(into: section)
         }
+        #endif
     }
 
     private func importMerckTopics(into section: VaultSection) async {
@@ -484,7 +487,6 @@ public final class Library {
         let fm = FileManager.default
         guard let specialties = try? fm.contentsOfDirectory(at: bundleURL, includingPropertiesForKeys: nil, options: [.skipsHiddenFiles]) else { return }
         for specialtyURL in specialties where specialtyURL.hasDirectoryPath {
-            let specialty = specialtyURL.lastPathComponent
             guard let subdirs = try? fm.contentsOfDirectory(at: specialtyURL, includingPropertiesForKeys: nil, options: [.skipsHiddenFiles]) else { continue }
             for subURL in subdirs where subURL.hasDirectoryPath {
                 let subspecialty = subURL.lastPathComponent
