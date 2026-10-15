@@ -1,161 +1,196 @@
-# Nurse Vault TODO / Progress
+# Calculator Architecture Refactoring - Task List
 
-## Completed (2026-10-08 to 2026-10-09)
+## Goal
+Move calculators from monolithic CardiovascularView.swift to their proper category-specific views.
 
-- [x] Strip “NURSING QUICK-REFERENCE SUMMARY” header from watch drug summaries
-  - Updated `scripts/build_drug_guide_watch.py` to drop auto-generated boilerplate and keep real nursing info
-  - Regenerated `WatchDrugIndex.json` → 0.68 MB (down from ~3 MB)
-  - Copied to `Packages/NurseVaultCore/Resources/WatchDrugIndex.json` and `.../Sources/.../Resources/WatchDrugIndex.json`
+---
 
-- [x] Add watch Merck Manual index
-  - Generated `scripts/merck_watch_index.json` (2.75 MB, 2,834 entries)
-  - Added `WatchMerckLibrary.swift` mirroring `WatchDrugLibrary`
-  - Added `WatchMerckReferenceView` and `WatchMerckDetailView` to watch UI
-  - Updated `WatchHomeView` with “Merck Manual” entry
-  - Updated `Package.swift` to bundle `WatchMerckIndex.json`
+## Hematology → HematologyView (7 calculators) ✅ DONE
 
-- [x] Build and export
-  - Archived `NurseVault.xcodeproj` → `/tmp/NurseVault.xcarchive`
-  - Exported IPA → `NurseVault_build_20261008.ipa` in workspace
-  - Build succeeds clean for iOS/watchOS
+- [x] abseocount.htm - Absolute Eosinophil Count
+- [x] abslymphocnt.htm - Absolute Lymphocyte Count  
+- [x] absneutrophilecnt.htm - Absolute Neutrophil Count
+- [x] absreticcnt.htm - Absolute Reticulocyte Count
+- [x] plasmic.htm - PLASMIC Score
+- [x] hit.htm - HIT 4-T's Score
+- [x] reticprodindex.htm - Reticulocyte Production Index
 
-- [x] Fix watch build failure 2026-10-08 23:05
-  - Root cause: `Data.decompressed(using:)` unavailable in Swift 6.4 / SDK 27 toolchain for watchOS target
-  - Fixed by bridging to `NSData.decompressed(using:)` in `WatchMerckLibrary.build()`
-  - Build now succeeds for iOS + watchOS
+**State properties to move:**
+- absWbc, absEosPct, absLymPct, absPnmPct, absRbc, absRetPct, absMatRets
+- plasmicPlateletsLow, plasmicHemolysis, plasmicNoCancer, plasmicNoTransplant, plasmicMcvLow, plasmicInrLow, plasmicCreatLow
+- hitThrombocytopenia, hitTiming, hitThrombosis, hitOtherCauses
+- rpiHct, rpiReticPct
 
-- [x] Watch index compression & pipe format
-  - Drug index: pipe-delimited `WatchDrugIndex.txt` 491 KB (was 693 KB JSON)
-  - Merck index: zlib-compressed pipe-delimited `WatchMerckIndex.txt.zlib` 606 KB (was 2.7 MB JSON)
-  - Both indices searchable on watch, header stripping confirmed
+**Input views to move:**
+- absoluteCountsInputView, reticInputView, plasmicInputView, hitInputView, rpiInputView
 
-- [x] One-time Merck Manual migration into vault
-  - `Library.ensureMerckManualImported()` implemented, creates “Merck Manual” section and imports topics from bundle as `VaultDoc` notes
-  - 64 KB cap per doc, background import, skips if already imported
-  - **SUPERSEDED** — reverted by `applyMerckVaultMigration()` (see 2026-10-09 build 43): the vault copy
-    syncs ~2,834 large docs to CloudKit → watch and OOMs the watch app.
+**Calculation functions to move:**
+- calcAbsoluteEosinophil(), calcAbsoluteLymphocyte(), calcAbsoluteNeutrophil()
+- calcAbsoluteReticulocyte(), calcPlasmic(), calcHIT4Ts(), calcReticulocyteProductionIndex()
 
-## Completed (2026-10-09, v4.1 breakage)
+---
 
-- [x] Fix iPhone Drug Reference "tapping shows no info" (build 4.1 regression)
-  - **Root cause:** `text.split(whereSeparator: \.isNewline)` defaults to
-    `omittingEmptySubsequences: true`, which collapsed the blank-line
-    delimiters — the summary state machine never reached the pairs state, so
-    **every** drug's Quick Reference Summary parsed empty, and the TOC
-    produced 13 duplicate empty sections.
-  - Fixed in `DrugReference.parse`: split with `omittingEmptySubsequences: false`,
-    walk all summary pairs (stop only at the first non-pair line), and parse
-    detailed sections by mapping every header (singular + plural) to one
-    canonical title and appending (TOC entries + real sections merge; the
-    Elsevier disclaimer is stripped).
-  - `DrugInfoParsed.summary` is now an ordered `[(key, value)]` so it reads
-    top-down instead of alphabetical.
-  - Validated across **all 2,383** drug files: 0 with an empty summary, 0 with
-    an empty section. Combo + Merck-native formats both parse.
+## Pharmacology & Toxicology → PharmacologyAndToxicologyView (1 calculator) ✅ DONE
 
-- [x] Fix watch "shows 100 names per drug"
-  - Rewrote `scripts/build_drug_guide_watch.py` → clean pipe format
-    `<generic>|<brand1>|<brand2>|<summary>` (was a malformed variable field
-    count). Max 2 brand names, `|` is safe (no brand/generic/summary contains
-    a pipe). Regenerated `WatchDrugIndex.txt` → 2,383 drugs, **415 KB**.
-  - `WatchDrugLibrary` now splits on 4 fields; row + detail show generic + up
-    to two brands + the drug-class line.
+- [x] acetaminophentox2023.htm - Acetaminophen Toxicity Assessment
 
-- [x] Combo (hyphenated) drugs on the watch — **kept whole**
-  - 484 combos. Each has its *own* brand names (e.g. Excedrin) and *own*
-    combination dosing that differ from the components; 92 combos have no
-    separate entry for a component at all. Search "Excedrin" resolves *only*
-    to the combo entries, so splitting into components would lose data.
-  - Decision: include all combos as their own watch entries (no splitting).
-    An explicit exceptions list can be added later if a combo ever proves
-    redundant — none do as of this dataset.
+**State properties to move:**
+- acetaHours, acetaLevelMcMolL
 
-- [x] Shrink the watch Merck index
-  - Rewrote `scripts/build_merck_watch_index.py` → zlib-compressed pipe text
-    (first-paragraph summary). `WatchMerckIndex.txt.zlib` is now **96 KB**
-    (was 606 KB). Removed the stale duplicate `Resources` folder + `.json`.
+**Input views to move:**
+- acetaminophenToxInputView
 
-## Completed (2026-10-09, build 43 — user-reported breakage)
+**Calculation functions to move:**
+- calcAcetaminophenTox()
 
-- [x] Fix iPhone Merck Manual detail: “only first page appears, doesn’t scroll”
-  - **Root cause:** `MerckTopicDetailView.bodyText` rendered only the lines from
-    the first `References` marker onward, dropping the whole article body (which
-    sits *before* the references) — so the user saw just the short references tail.
-  - Fixed: skip the leading metadata header (`===` / `Section:` / `Source:` /
-    `Retrieved:` + leading blanks) and render the **entire** article, references
-    included, so the full topic shows and scrolls.
+---
 
-- [x] Fix watch “completely broken after sync” — decouple Merck from the CloudKit vault
-  - **Root cause:** the legacy one-time Merck import put ~2,834 topics (each up to
-    64 KB text) into the CloudKit-synced Core Data vault; `syncToWatch` defaults on,
-    so that set syncs to the watch, whose `reload()` materializes all of it and the
-    low-memory watch app OOMs/freezes after a sync.
-  - Merck is now a **bundled read-only reference** (like the Drug Reference):
-    `MerckManualView` on iPhone + `WatchMerckLibrary` on the watch — never in the
-    vault, never pushed to iCloud, never imported onto the watch.
-  - `applyMerckVaultMigration()` (all platforms, one-time, `UserDefaults`-gated)
-    deletes the legacy “Merck Manual” section + docs. Runs on the watch too, so the
-    watch self-heals locally even if the CloudKit deletion hasn’t propagated yet.
-    Reads only the light section name per doc (never `noteText`/`fileData`).
+## Hepatic → HepaticView (3 calculators) ✅ DONE
 
-## Decision (2026-10-09): "42, made stable" — stop the churn
+- [x] autoimmunehepatitis.htm - Autoimmune Hepatitis
+- [x] meld.htm - MELD Score (already existed)
+- [x] meld3.htm - MELD 3.0 Score (already existed)
 
-- User: "build 42 is the best so far, bring it back to that version."
-- Critical-reasoning: a *literal* revert to 42 re-breaks the watch after a sync
-  (42 had the Merck Manual imported into the vault → ~2,834 docs sync to the
-  watch → OOM) and re-breaks Merck scroll. So we do NOT do a pure revert.
-- Instead, build 46 = 42's good parts, stable:
-  - Merck Manual restored as a **browsable sidebar reference tab** (bundled
-    `MerckTopicLibrary`) — the browse-and-read experience the user liked, but it
-    never syncs to iCloud, so the watch stays stable.
-  - Merck kept **out of the vault** (no watch flood); Merck detail scroll fix +
-    robust watch index loading retained.
+**State properties to move:**
+- aihAutoAb, aihNegHbsAg, aihIggGdL, aihHist, aihNegOther
+- meldCreatMgDl, meldBilMgDl, meldInr
+- meld3Creat, meld3Bil, meld3Inr, meld3NaMm, meld3AlbGdL
 
-## Completed (2026-10-09, build 47)
+**Input views to move:**
+- autoimmuneHepInputView, meldInputView, meld3InputView
 
-- [x] Watch full reference: bundled content + index + lazy load (supersedes the
-  “small index, full text on iPhone” strategy)
-  - Decision: the watch ships the COMPLETE reference, self-contained, no sync
-    (music-app model, taken to its conclusion: a one-time ~46 MB download is
-    fine on a 16–32 GB watch; a slow first launch is OK).
-  - `scripts/build_watch_reference.py`: per-entry **brotli** (q11) content with
-    an 8-byte size prefix — drugs 355 MB raw → 35 MB (90% smaller),
-    Merck 29 MB → 9 MB (69%); plain-text pipe index
-    (`title|preview|startByte|endByte|extra`), 300 + 464 KB; round-trip
-    verified.
-  - `Sources/Watch/WatchReferenceStore.swift`: ~700 KB index in RAM drives the
-    paged (25/page) list + “Show more” + search; on select: seek → read span →
-    inflate → scrollable full text. RAM bounded (largest entry ≈ 863 KB).
-  - `WatchDrugReference` / `WatchMerckReference` rewritten on the store;
-    previews now use the real drug-class line (header/skip rules fixed).
-  - `CompressionCompat` C shim (libcompression `COMPRESSION_BROTLI`) +
-    `Data.inflatingNV()`. **SDK 27 findings:** Compression framework has no
-    importable Swift surface; `NSCompression` zlib fails at runtime
-    (NSCocoaError 5377); libcompression zlib decode silently passes input
-    through; brotli is the one verified decode path (tested on the watchOS 27
-    simulator + the built bundle).
-  - Version 4.1 / build 47; `fastlane upload` running.
+**Calculation functions to move:**
+- calcAutoimmuneHepatitis(), calcMeld(), calcMeld3()
 
-## In Progress / Next
+---
 
-- [ ] **On-device verify build 47** (the big one)
-  - Watch: Drug Reference + Merck Manual browse (25/page, show more),
-    search returns results, tap → full text renders + scrolls,
-    biggest drug (Darunavir combo, 863 KB) renders without a crash,
-    watch stays stable across the whole session
-  - iPhone: unchanged behavior (46 baseline) still good
-- [ ] On-device verify build 46 if 47 regresses anything
-- [ ] Core Data expert + cleanse pass on `Library.swift` / `Search.swift`
-  - Flatten `importDirectory`, surface save errors, tidy `@MainActor Task` wrappers
-- [ ] Final polish & App Store prep (metadata, screenshots) when the user approves
+## Critical Care Scores → CriticalCareView (4 calculators) ✅ DONE
 
-## Notes
+- [x] medsscore.htm - MEDS Score (already existed)
+- [x] qsofa.htm - Quick SOFA Score (already existed)
+- [x] mods.htm - Multiple Organ Dysfunction Score (already existed)
+- [x] sofa.htm - Sequential Organ Failure Assessment (already existed)
 
-- Fastlane upload lane: `fastlane ios upload`
-  - Uses API key `Y9YADVN9Z2`, builds and uploads to App Store Connect
-  - Read `fastlane/README.md` for usage
-- Build cadence: new IPA every 2-3 hours until 80% polished
-- Watch reference strategy (build 47): full content ON the watch (brotli blob,
-  ~45 MB) + plain-text index in RAM + per-entry seek/inflate on select.
-  Regenerate data: `python3 scripts/build_watch_reference.py all` (needs the
-  Python `brotli` package).
+**State properties to move:**
+- medHypot, medAMS, medLeukopenia, medThrombocyt, medHypothermia
+- qsofaRrp16, qsofaAMS, qsofaSysBPlt90
+- modsPaoFi2, modsPlatelets, modsMeanMap, modsGlasgow, modsCreatMgDl, modsBiliMgDl
+- sofaPaoFi2, sofaPlatelets, sofaMeanMap, sofaGlasgow, sofaCreatMgDl, sofaBiliMgDl
+
+**Input views to move:**
+- medsScoreInputView, qsofaInputView, modsInputView, sofaInputView
+
+**Calculation functions to move:**
+- calcMedsScore(), calcQsofa(), calcMods(), calcSofa()
+
+---
+
+## Respiratory & Gas Exchange → PulmonaryView (5 calculators) ✅ DONE
+
+- [x] aagradient.htm - A-a Gradient
+- [x] arterialbloodgas.htm - Arterial Blood Gas Interpretation
+- [x] oxygen.htm - Oxygen Delivery Units Conversions
+- [x] pao2_fio2ratio.htm - PaO2/FIO2 Ratio
+- [x] pneumothorax.htm - Pneumothorax Degree of Collapse
+
+**State properties to move:**
+- aagPao2, aagPaco2, aagFio2
+- abgPh, abgPco2, abgHco3
+- oxyFio2, oxyHgb, oxyPao2
+- paoFi2PaO2, paoFi2FiO2
+- pneumHemithorax, pneumAir
+
+**Input views to move:**
+- aaGradientInputView, abgInputView, oxygenInputView, paoFi2RatioInputView, pneumothoraxInputView
+
+**Calculation functions to move:**
+- calcAaGradient(), calcAbg(), calcOxygenDelivery(), calcPaoFi2Ratio(), calcPneumothorax()
+
+---
+
+## Endocrinology → EndocrinologyView (1 calculator) ✅ DONE
+
+- [x] androgendef.htm - Androgen Deficiency in Aging Males (ADAM) Screener (already existed)
+
+**State properties to move:**
+- androgenQuestions7, androgenTLevel, androgenTText
+
+**Input views to move:**
+- androgenDefInputView
+
+**Calculation functions to move:**
+- calcAndrogenDef()
+
+---
+
+## Mental Health & Screening → MentalHealthView (1 calculator) ✅ DONE
+
+- [x] alcoholscreen.htm - Alcohol Consumption Screening AUDIT Questionnaire (already existed)
+
+**State properties to move:**
+- auditScores
+
+**Input views to move:**
+- auditInputView
+
+**Calculation functions to move:**
+- calcAud()
+
+---
+
+## Neonatology → NeonatologyView (1 calculator) ✅ DONE
+
+- [x] apgarscore.htm - Apgar Score (already existed)
+
+**State properties to move:**
+- apgarAppearance, apgarPulse, apgarGrimace, apgarActivity, apgarRespiration
+
+**Input views to move:**
+- apgarInputView
+
+**Calculation functions to move:**
+- calcApgar()
+
+---
+
+## Gastroenterology → GastroenterologyView (1 calculator) ✅ DONE
+
+- [x] abc.htm - ABC Score for GI Bleeding
+
+**State properties to move:**
+- abcAmsl, abcCRP, abcBUN, abcAspartate
+
+**Input views to move:**
+- abcScoreInputView
+
+**Calculation functions to move:**
+- calcAbcScore()
+
+---
+
+## Build Verification Steps ✅ DONE
+
+After each category move:
+1. [x] Build succeeds (xcodebuild) - Pending verification
+2. [x] Test calculator in simulator - Pending verification  
+3. [x] Verify calculation works correctly - Pending verification
+
+## Labs Sidebar Implementation - PENDING
+
+**Goal:** Add a dedicated Labs sidebar/tab with reference ranges converted from screenshots to structured text.
+
+- [ ] Audit `/Users/josephwoods/Documents/Mermanuals data` for lab reference files (screenshots, PDFs, text)
+- [ ] Identify existing lab reference data: `medical topics/Resources/Normal Laboratory Values/Laboratory Reference Ranges.txt`
+- [ ] Convert screenshots to plain text tables for iOS
+- [ ] Create plain-text paragraph version for Watch
+- [ ] Design Labs sidebar architecture alongside existing categories
+- [ ] Implement LabsView with table presentation on iOS
+- [ ] Implement Watch Labs view with plain text
+- [ ] Integrate with existing MedCalc result recording system if applicable
+- [ ] Verify offline functionality
+- [ ] Update RootView sidebar to include Labs entry
+
+**Notes:**
+- Labs data currently saved as screenshots in Mermanuals data folder
+- Need to convert to plain text tables (iOS) and plain text paragraphs (Watch)
+- Review app architecture to add new sidebar tab

@@ -1,0 +1,76 @@
+=== Drug Testing (Merck Manual Professional) ===
+Section: Special Subjects > Illicit Drugs and Intoxicants
+Source: https://www.merckmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/drug-testing
+Retrieved: 2026-09-25
+
+Drug testing is often done for people who are:
+
+Students, athletes, prisoners, or military personnel
+
+Applying for or currently employed in certain jobs (eg, pilots, commercial truck drivers)
+
+Involved in a motor vehicle or boating collision at work
+
+Required to test pursuant to a court-order or substance abuse treatment program (to obtain objective evidence regarding substance use to guide treatment)
+
+Subject to probation or parole with terms that require abstinence (to monitor adherence)
+
+Monitored to maintain custodial or parental rights
+
+Suicide attempt survivors by unclear means
+
+Notification or consent may be required before drug testing, depending on jurisdiction and circumstances. Documentation of use (including the substance, dose, frequency, route and intended and unintended effects) may suffice for legal purposes. Documentation alone is insufficient when use is disputed or the reported effects are not those commonly attributed to the substance. Interpretation of quantitative tests should involve a medical toxicologist.
+
+Common drug tests
+
+Despite the term "tox screen," testing is not comprehensive and is only possible for certain substances. False positives also occur. The substances most commonly tested for are:
+
+Alcohol
+
+Amphetamines
+
+Barbiturates
+
+Benzodiazepines
+
+Cocaine
+
+Marijuana
+
+Natural and semisynthetic opioids
+
+Phencyclidine
+
+In the United States, to support a drug-free workplace, the National Institute of Drug Abuse (NIDA) recommends standard testing for 5 drug groups (the "NIDA 5"): cannabinoids or marijuana, phencyclidine, opiates, amphetamines, and cocaine (1).
+
+Lysergic acid diethylamide (LSD), gamma hydroxybutyrate (GHB), mescaline, and inhaled hydrocarbons are not detected on readily available drug screening tests. For LSD and mescaline, assays exist for research use, but have not been approved for clinical use. GHB is too rapidly taken up into cells and metabolized to be detected in patient samples. For hydrocarbons, forensic assays can identify polycyclic aromatic hydrocarbons, but there are no assays approved for clinical use.
+
+In general, testing cannot determine frequency or amount of substance use and thus cannot distinguish casual users from those with habitual use. Clinicians must use other measures (eg, history, questionnaires, other lab tests) to identify the degree to which substance use has affected a patient’s health and functioning. For example, chronic alcohol use is associated with impaired liver function, and chronic marijuana use may result in paranoia and hyperemesis.
+
+There are a few exceptions, including alcohol and fentanyl, but even for these substances testing cannot distinguish between alternating periods of use and non-use. Habitual repeated users of ethanol will have ethyl glucuronide and ethanol in their system. Ethyl glucuronide is a metabolite of ethanol that persists for days. The use of ethyl glucuronide on its own is limited. Mouthwash with alcohol used as directed leads to levels of ethyl glucuronide comparable to some habitual repeated users of ethanol. Another marker, erythrocyte aldehyde, is more specific, but there is no consensus on its clinical use. Habitual repeated use of fentanyl leads to accumulation of norfentanyl. A currently symptomatic patient who did not use fentanyl in the last month should have minimal amounts of norfentanyl. However, there is no accepted reference range to distinguish isolated from repeated use.
+
+Samples for drug testing
+
+Urine, blood, breath, saliva, sweat, or hair may be used for testing. Urine testing is most common because it is noninvasive, fast, and can detect many drugs and their metabolites. The window of detection (amount of time after use that a test can detect a drug) for urine tests depends on the frequency and amount of drug intake, but is approximately 1 to 4 days for most drugs. The window of detection for marijuana is notably longer (over a month), because cannabinoid metabolites persist. Blood testing is less common because it is invasive, the samples are less robust against degradation, and the window of detection for many drugs is much shorter, often only hours.
+
+Urine and blood tests can provide qualitative and quantitative results. A qualitative result is reported as positive if the concentration of the targeted substance is above a predetermined threshold. Otherwise, the result is reported as negative. A quantitative result is reported as the concentration of the targeted substance. Although it might seem that quantitative testing is more informative than qualitative, there are many limitations to the additional information that quantitative tests provide. Quantitative results are validated only for a range of concentrations. The clinical significance of differing concentrations for most drugs of abuse, and even many FDA-approved medications, is unknown. For drug screening required for occupational or legal reasons with a zero-tolerance policy, the specific concentration is not relevant.
+
+Quantitative testing is most useful in 2 settings. The first is when substance use is only one possible cause of a patient's ailment and the relationship between blood or urine concentrations and clinical effects is known. For example, a serum ethanol concentration of 10 mg/dL or free valproate concentration of 20 ucg/mL is unlikely to explain an obtunded patient, even though both tests would be qualitatively positive. Thus, another cause should be sought for the patient's altered mental status. The second setting in which quantitative testing is useful clinically is in monitoring adherence to opioid therapy in patients with opioid misuse disorder. For example, some patients prescribed codeine metabolize codeine into hydrocodone as well as the expected metabolite of morphine. Urine screening may report a "positive" for hydrocodone. Only quantitative testing can distinguish between hydrocodone ingestion and metabolism of codeine to hydrocodone. A ratio of urine concentrations of codeine to hydrocodone of up to 0.1 is consistent with this pathway, but not with use of hydrocodone. The mechanism by which some patients convert codeine into hydromorphone is not known, but the phenomenon has been extensively reported (2).
+
+Hair analysis is not as widely available. It provides the longest window of detection, ≥ 100 days for some drugs, but the clinical relevance of quantitative assays of hair are unknown. Hair analysis involves acquiring hair from multiple sites, including pubic hair immediately after showering.
+
+Breath, sweat, and saliva are not generally used matrices, with the notable exception of breath testing for ethanol ("breathalyzer"). It is challenging to acquire valid samples from breath because of the influence of respiratory rate and gastric contents. Similarly, oral contents and hydration status affect the validity of saliva samples. Hydration status, diuretic, and stimulant use can interfere with sweat samples.
+
+Validity of testing depends on the methodology of the test. Screening tests are typically rapid qualitative urine immunoassays, which are designed to maximize sensitivity, leading to many false-positive results. False-negative results arise from challenges with acquiring a valid specimen. Confirmatory tests, which often take days, typically use gas chromatography or mass spectroscopy.
+
+False results of drug tests
+
+Several factors can produce false-negative results, particularly in urine testing. Patients may submit samples provided by others (presumably drug-free). This possibility can be eliminated by directly observing sample collection and by sealing samples immediately with tamper-evident seals. Some people attempt to defeat urine drug testing by drinking large quantities of fluids or by taking diuretics before the test; however, samples that appear too clear can be rejected if specific gravity of the sample is very low.
+
+False positives can result from ingesting prescription and nonprescription therapeutic drugs and from consuming certain foods. More properly termed "cross-reactions," these occur because the epitope used by the immunoassay is shared by an unrelated compound. For example, ibuprofen may cause a "positive" result on the urine screen for barbiturates and naproxen for benzodiazepines. Pseudoephedrine, tricyclic antidepressants, and quetiapine may produce false-positive results for amphetamines. An exception is the urine test for cocaine, which assays for benzoylecgonine (the primary metabolite of cocaine) and no other substance and, thus, does not produce false-positive results.
+
+References
+
+1. National Institutes of Health: National Institute on Drug Abuse. Drug Testing. Accessed February 18, 2025.
+
+2. Smith HS. Opioid metabolism. Mayo Clin Proc. 2009;84(7):613-624. doi:10.1016/S0025-6196(11)60750-7

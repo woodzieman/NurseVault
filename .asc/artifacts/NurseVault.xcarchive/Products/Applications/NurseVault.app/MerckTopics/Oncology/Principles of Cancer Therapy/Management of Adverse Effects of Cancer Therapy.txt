@@ -1,0 +1,194 @@
+=== Management of Adverse Effects of Cancer Therapy (Merck Manual Professional) ===
+Section: Oncology > Principles of Cancer Therapy
+Source: https://www.merckmanuals.com/professional/oncology/principles-of-cancer-therapy/management-of-adverse-effects-of-cancer-therapy
+Retrieved: 2026-09-25
+
+Adverse effects, including cytopenias, gastrointestinal effects, and tumor lysis and cytokine release syndromes, are common in patients receiving most types of cancer therapy. Patients may also have adverse effects resulting from their cancer (eg, depression, pain). Successfully managing these adverse effects is important because it improves quality of life (see also Overview of Cancer Therapy).
+
+Cytopenias
+
+Decreased blood concentrations of red blood cells (RBCs), white blood cells (WBC), especially granulocytes, and platelets result from diverse systemic cancer therapies, especially conventional chemotherapy agents, and radiation therapy.
+
+Anemia
+
+Decreased levels of RBCs are common in patients with cancer. Decreases in RBCs result from a direct effect of the cancer (especially in blood and bone marrow cancers such as leukemias, lymphomas, and multiple myeloma) and from effects of cancer therapy, especially conventional cancer (chemotherapy) agents.
+
+Often anemia requires no therapy. Some patients, especially those with comorbidities such as arteriosclerotic cardiovascular disease, may benefit from RBC transfusions. Others may benefit from receiving recombinant erythropoietin, which can substitute for RBC transfusions. Some data suggest erythropoietin use can have adverse effects on cancer prognosis and is prothrombotic (1). Guidelines on RBC transfusion and erythropoietin use are available (2).
+
+Thrombocytopenia
+
+A decrease in the platelet count is common in patients with cancer. Decreases in platelets result from a direct effect of the cancer (especially blood and bone marrow cancers such as leukemias, lymphomas, and multiple myeloma) and from effects of cancer therapy, especially conventional chemotherapy agents. The risk of bleeding is inversely proportional to the platelet count (see table Platelet Count and Bleeding Risk). Platelet concentrations < 10,000/microL (10 × 109/L) are dangerous and require platelet transfusions. Molecularly cloned hormones, such as eltrombopag and avatrombopag, which stimulate megakaryocytes to produce platelets, have been used.
+
+Leukocyte depletion of transfused blood products may prevent alloimmunization to platelets and should be used in patients expected to need platelet transfusions during multiple courses of chemotherapy or for candidates for hematopoietic stem cell transplantation. Leukocyte depletion also lowers the probability of acquiring a cytomegalovirus infection.
+
+Neutropenia
+
+A decreased granulocyte count is common in patients with cancer. Neutropenia is defined as a reduction in the blood neutrophil count to < 1500/mcL (< 1.5 × 109/L); however, baseline neutrophil counts tend to be lower in Black patients than in White patients (3). Decreases in granulocytes can result from a direct effect of the cancer (especially blood and bone marrow cancers such as leukemias, lymphomas, and multiple myeloma) and from effects of cancer therapy, especially conventional chemotherapy agents.
+
+The risk of infection is inversely proportional to the granulocyte count. A granulocyte concentration < 500/microL (0.5 × 109/L) markedly increases the risk of infection. Measures to protect against infection, including wearing a mask, hand washing, and protective isolation, are important. Laminar air flow (LAF) rooms are sometimes used but have not proved effective. Oral nonabsorbable antibiotics are sometimes given prophylactically. When a prolonged interval of low granulocytes is anticipated, prophylactic antifungal and antivirals are sometimes given, including medications to prevent Pneumocystis jirovecii. In patients with cancer who are receiving chemotherapy, in whom there is an expected incidence of febrile neutropenia > 20 %, prophylactic myeloid growth factors such as filgrastim, sargramostim, or pegfilgrastim are given with the chemotherapy (4, 5).
+
+Afebrile patients with neutropenia require close outpatient follow-up for detection of fever. These patients should be instructed to avoid contact with sick people and areas frequented by large numbers of people (eg, shopping malls, airports). Although most patients do not require antibiotics, patients with severe immunosuppression are sometimes given trimethoprim/sulfamethoxazole (one double-strength tablet/day) as prophylaxis for Pneumocystis jirovecii. In patients who have undergone hematopoietic stem cell transplantation or others receiving high-dose chemotherapy, antiviral prophylaxis (acyclovir 800 mg orally twice a day or 400 mg IV every 12 hours) should be considered if serologic tests are positive for herpes simplex virus.
+
+Fever > 38.5° C on ≥ 2 occasions in a patient with neutropenia is a medical emergency. An extensive evaluation for potential infection sources should be made and blood cultures done. Typically, systemic broad-spectrum antibiotics are given before culture results are known and therapy modified as needed. Patients with persistent fever that is unresponsive to antibiotics are often started on systemic antifungal and sometimes antivirals. Evaluation should include immediate chest radiographs and cultures of blood, sputum, urine, stool, and any suspect skin lesions. Examination includes possible abscess sites (eg, skin, ears, sinuses, perirectal area), skin and mucosa for presence of herpetic lesions, retina for vascular lesions suggestive of infectious emboli, and catheter sites. Rectal examination and use of rectal thermometers should be avoided. Other evaluation should be guided by clinical findings.
+
+Patients who are febrile and neutropenic should receive broad-spectrum antibiotics chosen on the basis of the most likely organism. Typical regimens include cefepime or ceftazidime, initiated immediately after samples for culture are obtained. If diffuse pulmonary infiltrates are present, sputum should be tested for P. jirovecii, and if positive, appropriate therapy should be started. If fever resolves within 72 hours after starting empiric antibiotics, they are continued until the neutrophil count is > 500/microL (0.5 × 109/L). If fever continues, antifungals should be added. Reassessment for infection, often including CT of the chest and abdomen, is also done.
+
+Granulocyte concentrations can be increased by giving molecularly cloned myeloid growth factors such as granulocyte (G) or granulocyte/macrophage (GM) colony stimulating factors (CSFs) such as filgrastim, sargramostim, and pegfilgrastim. Guidelines for appropriate use of these agents are available (4). In selected patients with neutropenia related to chemotherapy, especially after high-dose chemotherapy, granulocyte colony-stimulating factor (G-CSF) or granulocyte-macrophage colony-stimulating factor (GM-CSF) may be started to shorten the duration of neutropenia. G-CSF 5 mcg/kg subcutaneously once/day up to 14 days and longer-acting forms (eg, pegfilgrastim 6 mg subcutaneously single dose once per chemotherapy cycle) may be used to accelerate WBC recovery. These agents should not be given in the first 24 hours after chemotherapy, and for pegfilgrastim, at least 14 days should elapse until the next planned chemotherapy dose. These agents are begun at the onset of fever or sepsis or, in patients who are afebrile but at high risk, when the neutrophil count falls to < 500/microL (0.5 × 109/L).
+
+Many cancer treatment centers use outpatient treatment with G-CSF in selected patients with fever and neutropenia who are at low risk of infection. Candidates must not have hypotension, altered mental status, respiratory distress, uncontrolled pain, or serious comorbid illnesses, such as diabetes, heart disease, or hypercalcemia. The regimen in such cases requires daily follow-up and often involves visiting nurse services and home antibiotic infusion. Some regimens involve oral antibiotics, such as ciprofloxacin plus amoxicillin/clavulanate. If no defined institutional program for follow-up and treatment of neutropenic fever is available in an outpatient setting, then hospitalization is required.
+
+Clinical Calculators
+
+Absolute Neutrophil Count
+
+Cytopenia references
+
+1. Heregger R, Greil R: Erythropoiesis-stimulating agents—benefits and harms in the treatment of anemia in cancer patients. memo 16: 259–262, 2023. https://doi.org/10.1007/s12254-023-00902-4
+
+2. Bohlius J, Bohlke K, Castelli R, et al: Management of cancer-associated anemia with erythropoiesis-stimulating agents: ASCO/ASH Clinical Practice Guideline Update. J Clin Oncol 37(15):1336–1351, 2019. doi: 10.1200/JCO.18.02142
+
+3. Borinstein SC, Agamasu D, Schildcrout JS, et al: Frequency of benign neutropenia among Black versus White individuals undergoing a bone marrow assessment. J Cell Mol Med 26(13):3628–3635, 2022. doi:10.1111/jcmm.17346
+
+4. Crawford J, Becker PS, Armitage JO, et al: Myeloid Growth Factors, Version 2.2017, NCCN Clinical Practice Guidelines in Oncology. J Natl Compr Canc Netw 15, 12; 10.6004/jnccn.2017.0175
+
+5. Smith TJ, Bohlke K, Lyman GH, et al: Recommendations for the Use of WBC Growth Factors: American Society of Clinical Oncology Clinical Practice Guideline Update. J Clin Oncol 33(28):3199–3212, 2015. doi: 10.1200/JCO.2015.62.3488
+
+Gastrointestinal Effects
+
+Gastrointestinal adverse effects are common in patients with cancer. These effects may be caused by the cancer itself, cancer therapy, or both.
+
+Anorexia
+
+Anorexia is common in patients with cancer and may be caused by the cancer directly or as a consequence of cancer therapy(ies). Loss of more than 10% of ideal body weight predicts an adverse prognosis. Efforts should be made to maintain reasonable nutrition. Sometimes parenteral nutrition (PN) is needed. Patients with surgical interruption of the gastrointestinal tract may need a feeding gastrostomy. Medications that may increase appetite include corticosteroids, megestrol acetate, androgenic steroids, and dronabinol. Whether these medications convincingly reduce anorexia, reverse weight loss, improve quality of life, or prolong survival is unclear. Anabolic steroids, such as testosterone, are contraindicated in patients with prostate or liver cancer.
+
+Constipation
+
+Constipation is common in patients with cancer and is often exacerbated by opioids used to treat pain. A stimulant laxative such as senna 2 tablets orally at bedtime (maximum 8 tablets/day) or bisacodyl 5 to 15 mg orally at bedtime should be initiated when repeated opioid use is anticipated. Established constipation can be treated with various medications (eg, bisacodyl 5 to 15 mg orally every 24 hours, milk of magnesia 15 to 30 mL orally at bedtime, lactulose 15 to 30 mL [10 to 20 g] every 12 to 24 hours, magnesium citrate 195 to 300 mL once every 24 hours). Enemas and suppositories should be avoided in patients with neutropenia or thrombocytopenia.
+
+Diarrhea
+
+Diarrhea is common after chemotherapy, targeted therapy, and radiation therapy, especially if the abdomen and/or pelvis is included in the radiation field. It is usually treated with loperamide 2 to 4 mg orally after each loose stool, or diphenoxylate/atropine 2.5 mg to 5 mg orally every 6 hours. However, doses depend on various factors. Patients with cancer who are taking broad-spectrum antibiotics may become infected with Clostridioides (formerly Clostridium) difficile, which should be tested for and treated with vancomycin. Patients with lower colorectal cancers may have a diverting colostomy, which complicates diarrhea management. For diarrhea or an abnormally functioning intestine, parenteral alimentation may be needed.
+
+Oral mucositis
+
+Mouth lesions such as inflammation and ulcers are common in patients receiving chemotherapy and/or radiation therapy. Sometimes these lesions are complicated by infection, often with Candida albicans. Candidiasis is usually treated with nystatin.
+
+Oral candidiasis can be treated with nystatin oral suspension, clotrimazole troches, or fluconazole.
+
+Mucositis due to radiation therapy can cause pain and preclude sufficient oral intake, leading to undernutrition and weight loss. Rinses with analgesics and topical anesthetics (2% viscous lidocaine 5 to 10 mL every 2 hours or other commercially available mixtures) before meals, a bland diet without citrus food or juices, and avoidance of temperature extremes may allow patients to eat and maintain weight. If not, a feeding tube may be helpful if the small intestine is functional. For severe mucositis, parenteral alimentation may be needed.
+
+Nausea and vomiting
+
+Nausea and vomiting are common in patients with cancer whether or not they are receiving cancer therapy and decrease quality of life. Variables that predict the likelihood of causing nausea and vomiting secondary to cancer therapy are
+
+Type of medication(s)
+
+Route of administration
+
+Dose
+
+Dosing frequency
+
+Drug-drug interactions
+
+Some chemotherapy agents are especially likely to cause nausea and vomiting, including platinum-containing agents such as cisplatin and oxaliplatin. Patients treated with other cancer modalities, including radiation therapy, hormones, targeted therapy, and immune therapy can also have nausea and vomiting. Several medications are effective in controlling and/or preventing nausea and vomiting:
+
+Serotonin-receptor antagonists are the most effective medications. Virtually no toxicity occurs with granisetron and ondansetron aside from headache and orthostatic hypotension. The efficacy against highly emetogenic agents, such as the platinum-containing agents, can be improved with coadministration of dexamethasone 8 mg IV given 30 minutes before chemotherapy with repeat doses of 4 mg IV every 8 hours.
+
+A substance P/neurokinin-1 antagonist, aprepitant, can limit nausea and vomiting resulting from highly emetogenic chemotherapy. Dosage is 125 mg orally 1 hour before chemotherapy on day 1, then 80 mg orally 1 hour before chemotherapy on days 2 and 3.
+
+Other traditional antiemetics, including phenothiazines (eg, prochlorperazine or promethazine) and metoclopramide given before and often repeated during or after chemotherapy, are alternatives restricted to patients with mild to moderate nausea and vomiting.
+
+Dronabinol (Δ-9-tetrahydrocannabinol [THC]) is an alternative treatment for nausea and vomiting caused by chemotherapy. THC is the principal psychoactive component of marijuana. Its mechanism of antiemetic action is unknown, but cannabinoids bind to opioid receptors in the forebrain and may indirectly inhibit the vomiting center. Dronabinol is administered in doses of 5 mg/m2 orally 1 to 3 hours before chemotherapy, with repeated doses every 2 to 4 hours after the start of chemotherapy (maximum of 4 to 6 doses/day). However, it has variable oral bioavailability, is not effective for inhibiting the nausea and vomiting of platinum-based chemotherapy regimens, and has significant adverse effects (eg, drowsiness, orthostatic hypotension, dry mouth, mood changes, visual and time sense alterations). Smoking marijuana may be more effective. Marijuana for relieving nausea and vomiting can be obtained legally in some states, although federal law still prohibits its use. It is used less commonly because of barriers to availability and because many patients cannot tolerate smoking.
+
+Benzodiazepines, such as lorazepam 1 to 2 mg orally or IV given 10 to 20 minutes before chemotherapy with repeated doses every 4 to 6 hours as needed, are sometimes helpful for refractory or anticipatory nausea and vomiting.
+
+Pain
+
+Pain, including chronic and/or neuropathic pain, is common in patients with cancer and should be anticipated and aggressively treated.
+
+Treatment of pain might include acetaminophen or nonsteroidal anti-inflammatory drugs. However, these medications are often ineffective in controlling cancer pain, and opioids (eg, morphine, oxycodone, hydromorphone, fentanyl, methadone, and oxymorphone) may be needed. An appropriate dose and schedule of these medications are essential for adequate pain control (see table Opioid Analgesics). Usually the patient with cancer is the best judge of when analgesics are needed. Patient-controlled anesthesia (PCA) using an indwelling pump allows the patient to manage dose and timing of analgesics.
+
+Use of multiple drug classes may provide better pain control with fewer or less severe adverse effects than use of a single drug class. Aspirin and nonsteroidal anti-inflammatory drugs (NSAIDs) should be avoided in patients with thrombocytopenia.
+
+Neuropathic pain can be treated with gabapentin; the dose required is high (up to 1200 mg orally 3 times a day) but must be started low (eg, 300 mg 3 times a day) and then increased over a few weeks. Alternatively, a tricyclic antidepressant (eg, nortriptyline, 25 to 75 mg orally at bedtime) can be tried. Doses can vary to a large degree between patients.
+
+Opioids are the mainstay of pain control in patients with cancer and are often underused. Pain medication should be given at doses and schedules which achieve the target level of pain control. Too often people with cancer receive inadequate pain control.
+
+Other approaches may be needed to control pain under special circumstances. For example, radiation therapy often is needed for bone pain. Nerve blockade and surgery may be done to interrupt the nerve pathways.
+
+Depression and Anxiety
+
+Anxiety is common in people with cancer. Depression is often overlooked. It may occur in response to the disease (its symptoms and feared consequences), adverse effects of the treatments, or both. Patients receiving interferon can develop depression. Alopecia as a result of radiation therapy or chemotherapy can contribute to depression. Frank discussion of a patient’s fears can often relieve anxiety. Treatment of depression or anxiety with medications and/or psychotherapy can often be effective.
+
+Tumor Lysis and Cytokine Release Syndromes
+
+Tumor lysis syndrome
+
+Tumor lysis syndrome occurs because rapid death of cancer cells, resulting from cytotoxic drugs and some types of immune therapy (eg CAR-T-cell treatment), releases intracellular components into the bloodstream, particularly nucleic acids (which are broken down into uric acid, causing hyperuricemia). Tumor lysis syndrome also causes hyperphosphatemia, hypocalcemia, and hyperkalemia. Uric acid can precipitate in the renal tubules and cause acute kidney injury (see also Acute Urate Nephropathy). Depending on the phosphate × calcium product, hyperphosphatemia can cause calcium phosphate deposition in the renal tubules and in the cardiac conduction system; it also may lead to hypocalcemia which may cause tetany. Hyperkalemia may cause cardiac arrhythmias. Symptoms of tumor lysis include lethargy, anorexia, nausea, vomiting, and seizures.
+
+Tumor lysis syndrome occurs mainly in leukemias and lymphomas but can also occur in other hematologic cancers and, uncommonly, after treatment of solid cancers. T-cell vaccines used to treat B-cell leukemias may precipitate life-threatening tumor lysis and cytokine release days to weeks after vaccination.
+
+Diagnostic criteria for tumor lysis syndrome include
+
+Acute kidney injury
+
+Hypocalcemia (calcium < 7 mg/dL [< 1.75 mmol/L])
+
+Hyperuricemia (uric acid > 8 mg/dL [> 0.48 mmol/L] )
+
+Hyperphosphatemia (phosphorus > 6.5 mg/dL [> 2 mmol/L])
+
+Hyperkalemia (potassium > 6 mEq/L [> 6 mmol/L])
+
+Treatment of tumor lysis syndrome is with allopurinol 200 to 400 mg/m2 once a day, maximum 600 mg/day, and normal saline IV to achieve urine output > 2 L/day should be initiated with close laboratory and cardiac monitoring. Although some physicians advocate sodium bicarbonate IV to alkalinize the urine and increase solubilization of uric acid, alkalinization may promote calcium phosphate deposition in patients with hyperphosphatemia, and a pH of > 7 should be avoided. Treatment of hyperkalemia is given depending on the serum potassium level and may involve oral potassium-lowering drugs, IV calcium, and IV glucose and insulin. Treatment of hypocalcemia is with IV calcium, but because this can cause increased precipitation of calcium phosphate, calcium should not be given for asymptomatic hypocalcemia unless the hyperphosphatemia is corrected. Patients with hypocalcemia who have symptoms (eg, arrhythmias, tetany) should receive IV calcium regardless of the serum phosphate level.
+
+Prevention of tumor lysis syndrome is desirable. Often it is possible to anticipate development of tumor lysis syndrome (eg, when treating cancers with rapid cell turnover) and to give large volumes of fluids and allopurinol or rasburicase before starting chemotherapy and sometimes prior to immune therapy (such as bi-specific monoclonal antibodies or CAR-T-cells) to protect the kidneys from damage from uric acid. Patients should receive vigorous IV hydration to establish a urine output of at least 100 mL/hour before treatment. Patients also should receive allopurinol for at least 2 days before and during chemotherapy; for patients with a high cell burden, this regimen can be continued for 10 to 14 days after therapy. Rasburicase is an enzyme that oxidizes uric acid to allantoin (a more soluble molecule) and is given at 0.15 to 0.2 mg/kg IV over 30 minutes once a day for 5 to 7 days, typically started 4 to 24 hours before the first chemotherapy treatment. Adverse effects may include anaphylaxis, hemolysis, hemoglobinuria, and methemoglobinemia.
+
+Guidelines regarding evaluation and management of tumor lysis syndrome are available (1, 2).
+
+Cytokine release syndrome
+
+Cytokine release syndrome (CRS) is related to but distinct from tumor lysis syndrome. Cytokine release syndrome occurs when large numbers of immune cells are activated and release inflammatory cytokines, including interleukin (IL)-6 and interferon gamma. It is a frequent complication of immune therapies such as bispecific monoclonal antibodies or CAR-T-cells (3).
+
+Clinical features include fever, fatigue, loss of appetite, muscle and joint pain, nausea, vomiting, diarrhea, rash, and headache. Tachypnea, tachycardia, hypotension, tremor, loss of coordination, seizures, and delirium may occur.
+
+Typical features include
+
+Hypoxia
+
+Widened pulse pressure
+
+Increased or decreased cardiac output
+
+Increased blood urea nitrogen (BUN), D-dimer, liver enzymes, and bilirubin
+
+Low fibrinogen level
+
+Grading of cytokine release syndrome (4) is as follows:
+
+Grade 1: Symptoms (eg, fever, nausea, fatigue, headache, myalgias, malaise) are not life-threatening and require symptomatic treatment only.
+
+Grade 2: Symptoms including hypoxia that requires and responds to moderate intervention with oxygen supplementation up to 40% fraction of inspired oxygen (FiO2) or hypotension that is responsive to fluids or low-dose vasopressor. These abnormalities represent grade 2 organ toxicity.
+
+Grade 3: Symptoms including hypoxia that requires and responds to aggressive intervention with oxygen supplementation ≥ 40% FiO2 or hypotension requires high-dose or multiple vasopressors, indicating grade 3 organ toxicity, or marked increase in liver tests, indicating grade 4 transaminitis.
+
+Grade 4: Symptoms are life threatening, including need for ventilator support, indicating grade 4 organ toxicity (excluding transaminitis).
+
+Grade 5: Death
+
+Therapy of low-grade (ie, grade 1) CRS is supportive. Moderate-grade CRS (ie, grades 2 and 3) requires oxygen therapy and fluids and one or more antihypotensive medications to raise blood pressure. Moderate and severe-grade (ie, grades 3 and 4) CRS are treated with immune suppressants such as corticosteroids. Tocilizumab, an anti-interleukin-6 (IL-6) monoclonal antibody, is also used in severe CRS.
+
+Immune effector cell-associated neurotoxicity syndrome (ICANS) is a neuropsychiatric syndrome that can occur in some cancer patients treated with immune therapy. It occurs in some but not all patients with cytokine release syndrome and has been called cytokine release encephalopathy syndrome (CRES). Symptoms include confusion, depressed level of consciousness, disturbance in attention, lethargy, mental status changes, delirium, dizziness, muscle spasms, and muscle weakness (4).
+
+Mild neurotoxicity is managed supportively. More severe neurotoxicity is treated with dexamethasone or methylprednisolone. Patients with severe neurotoxicity may need treatment in the intensive care unit.
+
+Tumor lysis syndrome and cytokine release syndrome references
+
+1. Cairo MS, Coiffier B, Reiter A, et al: Recommendations for the evaluation of risk and prophylaxis of tumour lysis syndrome (TLS) in adults and children with malignant diseases: an expert TLS panel consensus. Br J Haematol 149(4):578–586, 2010. doi: 10.1111/j.1365-2141.2010.08143.x
+
+2. Coiffier B, Altman A, Pui CH, et al: Guidelines for the management of pediatric and adult tumor lysis syndrome: an evidence-based review. J Clin Oncol 26(16):2767–2778, 2008. doi: 10.1200/JCO.2007.15.0177
+
+3. Shi X, Wu H: Recent advances in the prevention and management of cytokine release syndrome after chimeric antigen receptor T-cell therapy. European Journal of Inflammation 2022;20. doi:10.1177/1721727X221078727
+
+4. Lee DW, Santomasso BD, Locke FL, et al: ASTCT consensus grading for cytokine release syndrome and neurologic toxicity associated with immune effector cells. Biol Blood Marrow Transplant 25(4):625–638, 2019. doi: 10.1016/j.bbmt.2018.12.758

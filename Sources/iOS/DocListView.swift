@@ -192,9 +192,11 @@ struct VaultListView: View {
                             Button("New Folder") {
                                 showingNewFolder = true
                             }
+                            .accessibilityLabel("Create a new folder to organize documents")
                             Button("Add Documents") {
                                 importKind = .files
                             }
+                            .accessibilityLabel("Import files from your device or cloud storage")
                         }
                     } else {
                         Image(systemName: "magnifyingglass")
@@ -300,16 +302,10 @@ struct VaultListView: View {
             Text(importErrorMessage ?? "")
         }
         .onDrop(of: [UTType.fileURL, UTType.folder, UTType.directory], isTargeted: $isDropTargeted) { providers in
-            for provider in providers {
-                provider.loadItem(
-                    forTypeIdentifier: UTType.fileURL.identifier,
-                    options: nil
-                ) { item, _ in
-                    guard let url = item as? URL else { return }
-                    Task { @MainActor in
-                        importFileURL(url)
-                    }
-                }
+            let urls = collectDroppedURLs(from: providers)
+            guard !urls.isEmpty else { return false }
+            Task { @MainActor in
+                importMultiple(urls)
             }
             return true
         }
@@ -392,25 +388,72 @@ struct VaultListView: View {
         }
     }
 
-    /// Handles one dropped item. Directories are imported as folders
-    /// (their files and subfolders mirrored into the vault); regular files
-    /// are imported as documents into the current location.
-    private func importFileURL(_ url: URL) {
-        if FileSupport.isDirectory(at: url) {
-            let result = library.importFolder(at: url, to: currentSection, in: currentFolder)
-            importErrorMessage = result.summary
-            showingImportAlert = true
-            return
+    /// Extracts file URLs from drop providers. On macOS, Finder drops may
+    /// use different type identifiers, so we try multiple.
+    private func collectDroppedURLs(from providers: [NSItemProvider]) -> [URL] {
+        var urls: [URL] = []
+        for provider in providers {
+            if let url = loadURL(from: provider) {
+                urls.append(url)
+            }
         }
-        do {
-            let imported = try FileSupport.importFile(at: url)
-            library.addDocument(
-                imported: imported,
-                to: currentSection,
-                in: currentFolder
-            )
-        } catch {
-            importErrorMessage = error.localizedDescription
+        return urls
+    }
+
+    private func loadURL(from provider: NSItemProvider) -> URL? {
+        // Try fileURL first (most common on macOS).
+        if provider.hasItemConformingToTypeIdentifier(UTType.fileURL.identifier) {
+            let lock = NSLock()
+            var result: URL?
+            let semaphore = DispatchSemaphore(value: 0)
+            provider.loadItem(forTypeIdentifier: UTType.fileURL.identifier, options: nil) { item, _ in
+                lock.lock()
+                result = item as? URL
+                lock.unlock()
+                semaphore.signal()
+            }
+            _ = semaphore.wait(timeout: .now() + 5)
+            return result
+        }
+        // Fall back to public.url for some Finder drops.
+        if provider.hasItemConformingToTypeIdentifier(UTType.url.identifier) {
+            let lock = NSLock()
+            var result: URL?
+            let semaphore = DispatchSemaphore(value: 0)
+            provider.loadItem(forTypeIdentifier: UTType.url.identifier, options: nil) { item, _ in
+                lock.lock()
+                result = item as? URL
+                lock.unlock()
+                semaphore.signal()
+            }
+            _ = semaphore.wait(timeout: .now() + 5)
+            return result
+        }
+        return nil
+    }
+
+    /// Imports multiple dropped items and shows a single aggregated alert.
+    private func importMultiple(_ urls: [URL]) {
+        var messages: [String] = []
+        for url in urls {
+            if FileSupport.isDirectory(at: url) {
+                let result = library.importFolder(at: url, to: currentSection, in: currentFolder)
+                messages.append(result.summary)
+            } else {
+                do {
+                    let imported = try FileSupport.importFile(at: url)
+                    library.addDocument(
+                        imported: imported,
+                        to: currentSection,
+                        in: currentFolder
+                    )
+                } catch {
+                    messages.append("Failed to import \(url.lastPathComponent): \(error.localizedDescription)")
+                }
+            }
+        }
+        if !messages.isEmpty {
+            importErrorMessage = messages.joined(separator: "\n\n")
             showingImportAlert = true
         }
     }

@@ -1,0 +1,44 @@
+=== Susceptibility Testing (Merck Manual Professional) ===
+Section: Infectious Disease > Laboratory Diagnosis of Infectious Disease
+Source: https://www.merckmanuals.com/professional/infectious-diseases/laboratory-diagnosis-of-infectious-disease/susceptibility-testing
+Retrieved: 2026-09-25
+
+Susceptibility tests determine a microbe’s vulnerability to antimicrobials by exposing a standardized concentration of organism to specific concentrations of antimicrobials. Susceptibility testing can be done for bacteria, fungi, and viruses. For some organisms, results obtained with one antimicrobial predict results with similar antimicrobials. Thus, not all potentially useful antimicrobials are tested.
+
+Susceptibility testing occurs in vitro and may not account for many in vivo factors (eg, pharmacodynamics and pharmacokinetics, site-specific drug concentrations, host immune status, site-specific host defenses) that influence treatment success. Thus, susceptibility test results do not always predict treatment outcome.
+
+Susceptibility testing can be done qualitatively, semiquantitatively, or by using nucleic acid–based methods. Testing can also determine the effect of combining different antimicrobials (synergy testing).
+
+Qualitative methods
+
+Qualitative methods are less precise than semiquantitative. Results are usually reported as 1 of the following:
+
+Susceptible (S)
+
+Intermediate (I)
+
+Resistant (R)
+
+Some strains that do not have established criteria for resistance may be reported only as susceptible or nonsusceptible. Establishment of which specific drug concentrations represent S, I, and R is based on multiple factors, particularly pharmacokinetic, pharmacodynamic, clinical, and microbiologic data.
+
+The commonly used disk diffusion method (also known as the Kirby-Bauer test) is appropriate for rapidly growing organisms. It places antibiotic-impregnated disks on agar plates inoculated with the test organism. After incubation (typically 16 to 18 hours), the diameter of the zone of inhibition around each disk is measured. Each organism–antibiotic combination has different diameters signifying S, I, or R.
+
+Semiquantitative methods
+
+Semiquantitative methods determine the minimal concentration of an antimicrobial that inhibits growth of a particular organism in vitro. This minimum inhibitory concentration (MIC) is reported as a numerical value that may then be translated to 1 of 4 groupings: S (sensitive), I (intermediate), R (resistant), or sometimes nonsusceptible. MIC determination is used primarily for isolates of bacteria, including mycobacteria and anaerobes, and sometimes for fungi, especially Candida species.
+
+Minimal killing (bactericidal) concentration (MBC) can also be determined but is technically difficult, and standards for interpretation have not been agreed on. The value of MBC testing is that it indicates whether an antimicrobial may be bacteriostatic or bactericidal.
+
+The antimicrobial can be diluted in agar or broth, which is then inoculated with the organism. Broth dilution is the gold standard but is labor intensive because only one drug concentration can be tested per tube. A more efficient method uses a strip of polyester film impregnated with antimicrobial in a concentration gradient along its length. The strip is laid on an agar plate containing the inoculum, and the MIC is determined by the location on the strip where inhibition begins; multiple antimicrobials can be tested on one plate.
+
+The MIC allows correlation between drug susceptibility of the organism and the achievable tissue concentration of free drug (ie, drug not bound to protein). If the tissue concentration of free drug is higher than the MIC, successful treatment is likely. Designations of S, I, and R derived from the MIC study usually correlate with achievable serum, plasma, or urine concentrations of free drug.
+
+Nucleic acid–based methods
+
+These tests incorporate nucleic acid techniques similar to those used for organism identification but modified to detect known resistance genes or mutations. An example is mecA, a gene for oxacillin resistance in S. aureus; if this gene is present, the organism is considered resistant to most beta-lactams regardless of apparent susceptibility results. However, although a number of such genes are known, their presence does not uniformly confer in vivo resistance. Also, because new mutations or other resistance genes may be present, their absence does not guarantee drug susceptibility. For these reasons, routine, phenotypic susceptibility testing methods remain the standard approach for assessing susceptibility of bacteria and fungi to antimicrobials.
+
+However, nucleic acid–based methods are preferred for
+
+Rapid diagnosis of multidrug-resistant tuberculosis in at-risk groups
+
+Rapid detection of possible resistance in organisms directly obtained from positive blood cultures

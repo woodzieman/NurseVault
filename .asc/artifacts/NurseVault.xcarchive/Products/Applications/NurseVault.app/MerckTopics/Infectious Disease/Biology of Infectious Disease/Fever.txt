@@ -1,0 +1,436 @@
+=== Fever (Merck Manual Professional) ===
+Section: Infectious Disease > Biology of Infectious Disease
+Source: https://www.merckmanuals.com/professional/infectious-diseases/biology-of-infectious-disease/fever
+Retrieved: 2026-09-25
+
+Fever is an elevated body temperature that occurs when the body's thermostat (located in the hypothalamus) resets at a higher temperature, primarily in response to an infection. Elevated body temperature that is not caused by a resetting of the temperature set point is called hyperthermia.
+
+Normal body temperature varies by
+
+Site of measurement
+
+Time of day
+
+The most common sites at which temperature is measured are the oral cavity and the rectum. Other sites include the tympanic membrane, the skin of the forehead, and, much less preferably, the skin of the axilla. Rectal and tympanic membrane temperatures are about 0.6° C higher than oral temperatures, whereas skin temperatures are about 0.6° C lower. Oral and rectal temperature is now typically measured using an electronic thermometer; older mercury thermometers take longer to equilibrate and are more difficult to read. Forehead and tympanic membrane temperatures are typically measured using an infrared scanning device.
+
+During a 24-hour period, temperature varies from lowest levels in the early morning to highest in late afternoon. Maximum variation is about 0.6° C.
+
+Oral temperatures are defined as elevated when they are
+
+≥ 37.2° C in the early morning OR
+
+≥ 37.8° C at any time after the early morning OR
+
+Higher than a person’s known normal daily value
+
+These cutoffs are adjusted as above when temperature is measured from other sites.
+
+Many patients use “fever” very loosely, often meaning that they feel too warm, too cold, or sweaty, but they have not actually measured their temperature.
+
+Symptoms are due mainly to the condition causing the fever, although fever itself can cause chills, sweats, and discomfort and make patients feel flushed and warm.
+
+Pathophysiology of Fever
+
+Body temperature is determined by the balance between heat production by tissues, particularly the liver and muscles, and heat loss from the periphery. Normally, the hypothalamic thermoregulatory center maintains the internal temperature between 37° and 38° C. Fever results when something raises the hypothalamic set point, triggering vasoconstriction and shunting of blood from the periphery to decrease heat loss; sometimes shivering, which increases heat production, is induced. These processes continue until the temperature of the blood bathing the hypothalamus reaches the new set point. Resetting the hypothalamic set point downward (eg, with antipyretics) initiates heat loss through sweating and vasodilation.
+
+The capacity to generate a fever is reduced in certain people (eg, those who are very old, very young, or who have an alcohol use disorder).
+
+Pyrogens are substances that cause fever. Exogenous pyrogens are usually microbes or their products. The best studied are the lipopolysaccharides of gram-negative bacteria (commonly called endotoxins) and Staphylococcus aureus toxin, which causes toxic shock syndrome. Fever is the result of exogenous pyrogens that induce release of endogenous pyrogens, such as interleukin-1 (IL-1), tumor necrosis factor-alpha (TNF-alpha), and IL-6 and other cytokines, which then trigger cytokine receptors, or of exogenous pyrogens that directly trigger Toll-like receptors in the different intestinal epithelial lineages.
+
+Prostaglandin E2 synthesis appears to play a critical role.
+
+Consequences of fever
+
+Although many patients worry that fever itself can cause harm, the modest transient core temperature elevations (ie, 38 to 40° C) caused by most acute infections are well tolerated by healthy adults. The body's innate febrile response to an infection mitigates and resolves the infection, improves survival by stimulating various immunologic mechanisms, and inhibits the growth of some microorganisms.
+
+However, extreme temperature elevation (typically > 41° C) may be damaging. Such elevation is more typical of severe environmental hyperthermia but sometimes results from exposure to illicit drugs (eg, cocaine, phencyclidine), anesthetics, or antipsychotics (see Neuroleptic Malignant Syndrome). At this temperature, protein denaturation occurs, and inflammatory cytokines that activate the inflammatory cascade are released. As a result, cellular dysfunction occurs, leading to malfunction and ultimately failure of most organs; the coagulation cascade is also activated, leading to disseminated intravascular coagulation (DIC).
+
+Because fever can increase the basal metabolic rate by about 10 to 12% for every 1° C increase over 37° C, fever may physiologically stress adults with preexisting cardiac or pulmonary insufficiency. Fever can also worsen mental status in patients with dementia.
+
+Fever in healthy children can cause febrile seizures.
+
+Etiology of Fever
+
+Many disorders can cause fever. They are broadly categorized as
+
+Infectious (most common)
+
+Neoplastic
+
+Inflammatory (including rheumatic, nonrheumatic, and drug-related)
+
+The cause of an acute (ie, duration ≤ 4 days) fever in adults is highly likely to be infectious. When patients present with fever due to a noninfectious cause, the fever is almost always chronic or recurrent. Also, an isolated, acute febrile event in patients with a known inflammatory or neoplastic disorder is still most likely to be infectious. In healthy people, an acute febrile event is unlikely to be the initial manifestation of a chronic illness.
+
+Infectious causes
+
+Virtually all infectious illnesses can cause fever. But overall, the most likely causes are
+
+Upper and lower respiratory tract infections
+
+Gastrointestinal infections
+
+Urinary tract infections
+
+Skin infections
+
+Most acute respiratory tract and gastrointestinal infections are viral.
+
+Specific patient and external factors also influence which causes are most likely.
+
+Patient factors include health status, age, occupation, and risk factors (eg, hospitalization, recent invasive procedures, presence of IV or urinary catheters, use of mechanical ventilation).
+
+External factors are those that expose patients to specific diseases—eg, through infected contacts, local outbreaks, disease vectors (eg, mosquitoes, ticks), a common vehicle (eg, food, water), or geographic location (eg, residence in or recent travel to an endemic area).
+
+Some causes appear to predominate based on these factors (see table Some Causes of Acute Fever).
+
+Table
+
+Some Causes of Acute Fever
+
+Table
+
+Some Causes of Acute Fever
+
+Some Causes of Acute Fever
+
+Predisposing Factor
+
+Cause
+
+None (healthy)
+
+Upper or lower respiratory tract infection
+
+Gastrointestinal infection
+
+Urinary tract infection
+
+Skin infection
+
+Hospitalization
+
+IV catheter–associated bloodstream infection
+
+Urinary tract infection (particularly in patients with an indwelling catheter)
+
+Pneumonia (particularly in patients using a ventilator)
+
+Atelectasis
+
+Surgical site infection (postoperatively)
+
+Deep venous thrombosis or pulmonary embolism
+
+Diarrhea (Clostridioides difficile–induced)
+
+Medications
+
+Hematoma
+
+Transfusion reaction
+
+Pressure injuries (decubitus ulcers)
+
+Travel to endemic areas
+
+Coccidioidomycosis
+
+Dengue fever (less common)
+
+Diarrheal disorders
+
+Hantavirus
+
+Histoplasmosis
+
+Legionnaires' disease
+
+Malaria
+
+Rickettsial infections (eg, African tick typhus, Mediterranean spotted fever)
+
+Multidrug-resistant bacteria
+
+Plague
+
+Tularemia
+
+Typhoid fever
+
+Viral hepatitis
+
+Zika virus infection, chikungunya, Ebola, Japanese encephalitis, rabies, measles, and yellow fever
+
+Vector exposure (in United States)
+
+Ticks: Rickettsiosis, ehrlichiosis, anaplasmosis, Lyme disease, babesiosis, tularemia
+
+Mosquitoes: Arboviral encephalitis
+
+Wild animals: Tularemia, rabies, hantavirus infection, monkeypox
+
+Fleas: Plague
+
+Domestic animals: Brucellosis, cat-scratch disease, Q fever, toxoplasmosis
+
+Birds: Psittacosis, avian influenza
+
+Reptiles: Salmonella infection
+
+Bats: Rabies, histoplasmosis
+
+Immunocompromise
+
+Viruses: Varicella-zoster virus or cytomegalovirus infection
+
+Bacteria: Infection due to encapsulated organisms (eg, pneumococci, meningococci), Staphylococcus aureus, gram-negative bacteria (eg, Pseudomonas aeruginosa), Nocardia species, or mycobacteria species
+
+Fungi: Infection due to Candida, Aspergillus, Histoplasma, or Coccidioides species; microsporidia, Pneumocystis jirovecii; or fungi that cause mucormycosis
+
+Parasites: Infection due to Toxoplasma gondii, Strongyloides stercoralis, Cryptosporidium species, or Cystoisospora (previously Isospora belli)
+
+Medications and illicit drugs that can alter thermoregulation
+
+Amphetamines
+
+Cocaine
+
+Methylenedioxymethamphetamine (MDMA, or Ecstasy)
+
+Antipsychotics (can cause neuroleptic malignant syndrome)
+
+Anesthetics (inhaled anesthetics such as halothane can cause malignant hyperthermia)
+
+Methamphetamine
+
+Thyroxine
+
+Interferons
+
+Medications that can trigger fever by a hypersensitivity reaction
+
+Beta-lactam antibiotics
+
+Sulfa drugs
+
+Phenytoin
+
+Carbamazepine
+
+Procainamide
+
+Quinidine
+
+Amphotericin B
+
+Evaluation of Fever
+
+Two general issues are important in the initial evaluation of acute fever:
+
+Identifying any localizing symptoms (eg, headache, cough): These symptoms help narrow the range of possible causes. The localizing symptom may be part of the patient’s chief complaint or identified only by specific questioning.
+
+Determining whether the patient is seriously or chronically ill (particularly if such illness is unrecognized): Many causes of fever in healthy people are self-limited, and many of the possible viral infections are difficult to diagnose specifically. Limiting testing to patients who are seriously or chronically ill can help avoid many expensive, unnecessary, and often fruitless searches.
+
+History
+
+History of present illness should cover magnitude and duration of fever and method used to take the temperature. True rigors (severe, shaking, teeth-chattering chills—not simply feeling cold) suggest fever due to infection but are not otherwise specific. Pain is an important clue to the possible source; the patient should be asked about pain in the ears, head, neck, teeth, throat, chest, abdomen, flank, rectum, muscles, and joints.
+
+Other localizing symptoms include nasal congestion and/or discharge, cough, diarrhea, and urinary symptoms (frequency, urgency, dysuria). Presence of rash (including nature, location, and time of onset in relation to other symptoms) and lymphadenopathy may help.
+
+Infected contacts and their diagnosis should be identified.
+
+Review of systems should identify symptoms of chronic illness, including recurrent fevers, night sweats, and weight loss.
+
+Past medical history should particularly cover the following:
+
+Recent surgery
+
+Known conditions that predispose to infection (eg, HIV infection, diabetes, cancer, organ transplantation, sickle cell disease, valvular heart disorders—particularly if an artificial valve is present)
+
+Other known disorders that predispose to fever (eg, systemic rheumatic disorders, systemic lupus erythematosus, gout, sarcoidosis, hyperthyroidism, cancer)
+
+Questions to ask about recent travel include location, time since return, locale (eg, in back country, only in cities), vaccinations received before travel, and any use of prophylactic antimalarials (if required).
+
+All patients should be asked about possible exposures. Examples include unsafe food (eg, unpasteurized milk and milk products, raw or undercooked meat, fish, shellfish) or water; insect, tick, or other arthropod vector bites; animal contact; unprotected sex; and occupational or recreational exposures (eg, hunting, hiking, water sports).
+
+Vaccination history, particularly against hepatitis A and B and against organisms that cause meningitis, influenza, or pneumococcal infection, should be noted.
+
+Drug history should include specific questions about the following:
+
+Drugs known to cause fever (see table Some Causes of Acute Fever)
+
+Medications that predispose to increased risk of infection (eg, corticosteroids, anti-tumor necrosis factor medications, chemotherapeutic and antirejection medications, other immunosuppressants)
+
+Illicit drug injection (predisposing to endocarditis, hepatitis, septic pulmonary emboli, and skin and soft-tissue infections)
+
+Physical examination
+
+Physical examination begins with confirmation of fever. Fever is most accurately diagnosed by measuring rectal temperature. Oral temperatures are normally about 0.6° C lower and may be falsely even lower for many reasons, such as recent ingestion of a cold drink, mouth breathing, hyperventilation, and inadequate measurement time (up to several minutes are required with mercury thermometers). Measurement of tympanic membrane temperature by infrared sensor is less accurate than rectal temperature but is still acceptable. Monitoring skin temperature using temperature-sensitive crystals incorporated into plastic strips placed on the forehead or placing a standard thermometer in the axilla is insensitive for detecting elevations in the core temperature and not recommended. Because of the COVID-19 pandemic, use of infrared devices to measure skin temperature (eg, of the forehead) to screen people for fever prior to entry in public places has become common despite lack of sensitivity; skin temperature varies significantly depending on vasoconstriction, sweating, and other factors and is not considered an accurate measure of core temperature. However, elevated skin temperature is reasonably specific.
+
+Other vital signs are reviewed for presence of tachypnea, tachycardia, or hypotension.
+
+For patients with localizing symptoms, examination proceeds as discussed elsewhere in THE MANUAL. For febrile patients without localizing symptoms, a complete examination is necessary because clues to the diagnosis may be in any organ system.
+
+The patient’s general appearance, including any weakness, lethargy, confusion, cachexia, and distress, should be noted.
+
+All of the skin should be inspected for rash, particularly petechial or hemorrhagic rash and any lesions (eg, eschar) or areas of erythema or blistering suggesting skin or soft-tissue infection. Neck, axillae, and epitrochlear and inguinal areas should be examined for adenopathy.
+
+In hospitalized patients, presence of any IVs, nasogastric tubes, urinary catheters, and any other tubes or lines inserted into the body should be noted. If patients have had recent surgery, surgical sites should be thoroughly inspected.
+
+For the head and neck examination, the following should be done:
+
+Tympanic membranes: Examined for infection
+
+Sinuses (frontal and maxillary): Percussed
+
+Temporal arteries: Palpated for tenderness
+
+Nose: Inspected for congestion and discharge (clear or purulent)
+
+Eyes: Inspected for conjunctivitis or icterus
+
+Fundi: Inspected for Roth spots (suggesting endocarditis)
+
+Oropharynx and gingiva: Inspected for inflammation or ulceration (including any lesions of candidiasis, which suggests immunocompromise)
+
+Neck: Flexed to detect discomfort, stiffness, or both, indicating meningismus, and palpated for adenopathy
+
+The lungs are examined for crackles or signs of consolidation, and the heart is auscultated for murmurs (suggesting possible endocarditis).
+
+The abdomen is palpated for hepatosplenomegaly and tenderness (suggesting infection).
+
+The flanks are percussed for tenderness over the kidneys (suggesting pyelonephritis).
+
+A pelvic examination is done in women to check for cervical motion or adnexal tenderness; a genital examination is done in men to check for urethral discharge and local tenderness.
+
+The rectum is examined for tenderness and swelling, suggesting perirectal abscess (which may be occult in patients who are immunosuppressed).
+
+All major joints are examined for swelling, erythema, and tenderness (suggesting a joint infection or rheumatologic disorder). The hands and feet are inspected for signs of endocarditis, including splinter hemorrhages under the nails, painful erythematous subcutaneous nodules on the tips of digits (Osler nodes), and nontender hemorrhagic macules on the palms or soles (Janeway lesions).
+
+The spine is percussed for focal tenderness.
+
+Neurologic examination is done to detect focal deficits.
+
+Red flags
+
+The following findings are of particular concern:
+
+Altered mental status
+
+Headache, stiff neck, or both
+
+Petechial rash
+
+Hypotension
+
+Dyspnea
+
+Significant tachycardia or tachypnea
+
+Temperature > 40° C or < 35° C
+
+Recent travel to an area where serious diseases (eg, malaria) are endemic
+
+Recent use of immunosuppressants
+
+Interpretation of findings
+
+The degree of elevation in temperature usually does not predict the likelihood or cause of infection. Fever pattern, once thought to be significant, rarely is helpful with the possible exceptions of tertian and quartan malaria and relapsing episodes (eg, brucellosis).
+
+Likelihood of serious illness is considered. If serious illness is suspected, immediate and aggressive testing and often hospital admission are needed.
+
+Red flag findings strongly suggest a serious disorder, as in the following:
+
+Headache, stiff neck, and petechial or purpuric rash suggest meningitis.
+
+Tachycardia (beyond the modest elevation normally present with fever) and tachypnea, with or without hypotension or mental status changes, suggest sepsis.
+
+Malaria and other arthropod vector–transmitted infections should be suspected in patients who have recently traveled to an endemic area.
+
+Immunocompromise, whether caused by a known disorder or use of immunosuppressants or suggested by examination findings (eg, weight loss, oral candidiasis), is also of concern, as are other known chronic illnesses, injection drug use, and heart murmur.
+
+Older adults, particularly those in nursing homes, are at particular risk of serious bacterial or viral (eg, COVID-19) infection (see Geriatrics Essentials: Fever).
+
+Localizing findings identified by history or physical examination are evaluated and interpreted (see elsewhere in THE MANUAL). Other suggestive findings include generalized adenopathy and rash.
+
+Generalized adenopathy may occur in older children and younger adults who have acute mononucleosis; it is usually accompanied by significant pharyngitis, malaise, and hepatosplenomegaly. Primary HIV infection or secondary syphilis should be suspected in patients with generalized adenopathy, sometimes accompanied by arthralgias, rash, or both. HIV infection develops 2 to 6 weeks after exposure (although patients may not always report unprotected sexual contact or other risk factors). Secondary syphilis is usually preceded by a chancre, with systemic symptoms developing 4 to 10 weeks later. However, patients may not notice a chancre because it is painless and may be located out of sight in the rectum, vagina, or oral cavity.
+
+Fever and rash have many infectious and drug causes. Petechial or purpuric rash is of particular concern; it suggests possible meningococcemia, Rocky Mountain spotted fever (particularly if the palms or soles are involved), or, less commonly, some viral infections (eg, dengue fever, hemorrhagic fevers). Other suggestive skin lesions include the classic erythema migrans rash of Lyme disease, target lesions of Stevens-Johnson syndrome, and the painful, tender erythema of cellulitis and other bacterial soft-tissue infections. The possibility of delayed drug hypersensitivity (even after long periods of use) should be kept in mind.
+
+If no localizing findings are present, healthy people with acute fever and only nonspecific findings (eg, malaise, generalized aches) most likely have a self-limited viral illness, unless a history of exposure to infected contacts (including a new, unprotected sexual contact), to disease vectors, or in an endemic area (including recent travel) suggests otherwise.
+
+Patients with significant underlying disorders are more likely to have an occult bacterial or parasitic infection. People who inject illicit drugs and patients with a prosthetic heart valve or intracardiac foreign material (eg, pacemaker) may have endocarditis. Patients with intravascular foreign material (eg, vascular graft) may have infective endarteritis. Patients who are immunocompromised are predisposed to infection caused by certain microorganisms (see table Some Causes of Acute Fever).
+
+Drug fever (with or without rash) is a diagnosis of exclusion, often requiring a trial of stopping the drug. One difficulty is that if antibiotics are the cause, the illness being treated may also cause fever. Sometimes a clue is that the fever and rash begin after clinical improvement from the initial infection and without worsening or reappearance of the original symptoms (eg, in a patient being treated for pneumonia, fever reappears without cough, dyspnea, or hypoxia).
+
+Testing
+
+Testing depends on whether localized findings are present.
+
+If localizing findings are present, testing is guided by clinical suspicion and findings (see also elsewhere in THE MANUAL), as for the following:
+
+Mononucleosis or HIV infection: Serologic testing
+
+Rocky Mountain spotted fever: Biopsy of skin lesions to confirm the diagnosis (acute serologic testing is unhelpful)
+
+Bacterial or fungal infection: Blood cultures to detect possible bloodstream infections
+
+Meningitis: Immediate lumbar puncture and IV dexamethasone and antibiotics (head CT should be done before lumbar puncture if patients are at risk of brain herniation; IV dexamethasone and antibiotics must be given immediately after blood cultures are obtained and before head CT is done)
+
+Specific disorders based on exposure (eg, to contacts, to vectors, or in endemic areas): Testing for those disorders, particularly a peripheral blood smear for malaria
+
+Respiratory infection: Rapid molecular tests (nucleic acid–based identification) for common viral and bacterial community-acquired respiratory tract infections and procalcitonin blood level measurement may help distinguish between a bacterial and viral etiology; urinary antigen test for legionnaires' disease
+
+If no localizing findings are present in otherwise healthy patients and serious illness is not suspected, patients can usually be observed at home without testing. In most, symptoms resolve quickly; the few who develop worrisome or localizing symptoms should be reevaluated and tested based on the new findings.
+
+If serious illness is suspected in patients who have no localizing findings, testing is needed. Patients with red flag findings suggesting sepsis require cultures (urine and blood), chest radiograph, and evaluation for metabolic abnormalities with measurement of serum electrolytes, glucose, blood urea nitrogen, creatinine, lactate, and liver enzymes. Complete blood count is typically done, but sensitivity and specificity for diagnosing serious bacterial infection are low. However, white blood cell (WBC) count is important prognostically for patients who may be immunosuppressed (ie, a low WBC count may be associated with a poor prognosis), and a high percentage of WBC band forms is suggestive of a bacterial infection. C-reactive protein elevation is a sensitive but nonspecific indicator of sepsis. An elevated procalcitonin level is indicative of a bacterial process but lacks sufficient sensitivity to warrant routine use.
+
+Patients with certain underlying disorders may need testing even if they have no localizing findings and do not appear seriously ill. Because of the risk and devastating consequences of endocarditis, febrile patients who inject illicit drugs are usually admitted to the hospital for serial blood cultures and often echocardiography. Patients taking immunosuppressants require complete blood count; if neutropenia is present, testing is initiated and chest radiograph is done, as are cultures of blood, sputum, urine, stool, and any suspicious skin lesions. Because bacteremia and sepsis are frequent causes of fever in patients with severe neutropenia, empiric broad-spectrum IV antibiotics should be given promptly, without waiting for culture results.
+
+Febrile older adults often require testing (see Geriatrics Essentials: Fever).
+
+Treatment of Fever
+
+Specific causes of fever are treated with anti-infective therapy. Empiric anti-infective therapy that is based on the most likely anatomic site and the pathogens involved is required when suspicion of serious infection is high taking into account the potential risk that infection involves a multidrug-resistant bacterial pathogen.
+
+Whether fever due to infection should be treated with antipyretics is controversial. Experimental evidence, but not clinical studies, suggests that fever enhances host defenses. However, studies have not shown whether the provision of antipyretic therapy has any benefit in patients diagnosed with sepsis (1).
+
+Fever should probably be treated in certain patients at particular risk, including adults with cardiac or pulmonary insufficiency or with dementia.
+
+Medications that inhibit brain cyclooxygenase effectively reduce fever:
+
+Acetaminophen
+
+Aspirin and nonsteroidal anti-inflammatory drugs (NSAIDs)
+
+Corticosteroids
+
+The daily dose of acetaminophen should not exceed 4 g to avoid toxicity; patients should be warned not to simultaneously take nonprescription cold or flu remedies that contain acetaminophen. Other NSAIDs (eg, aspirin, naproxen) are also effective antipyretics. Salicylates should not be used to treat fever in children with viral illnesses because use has been associated with Reye syndrome. Corticosteroids differ in their ability to block the transcription of pyogenic cytokines but are generally not used for the treatment of fever.
+
+If temperature is ≥ 41° C, other cooling measures (eg, evaporative cooling with tepid water mist, cooling blankets) should also be started.
+
+Treatment reference
+
+1. Russell JA. Control of fever in septic shock: should we care or intervene?. Am J Respir Crit Care Med. 2012;185(10):1040-1041. doi:10.1164/rccm.201202-0346ED
+
+Geriatrics Essentials: Fever
+
+In frail older adults, infection is less likely to cause fever, and even when elevated by infection, temperature may be lower than the standard definition of fever. Similarly, other inflammatory symptoms, such as focal pain, may be less prominent. Frequently, alteration of mental status or decline in daily functioning may be the only other initial manifestations of pneumonia or urinary tract infection. However, is it important to clinically differentiate an active infection from bacterial colonization (eg, asymptomatic bacteriuria) to avoid the use of unwarranted antimicrobial therapy and the potential deleterious consequences that may be associated with such practice (1).
+
+In spite of their less severe manifestations of illness, febrile older adults are significantly more likely to have a serious bacterial illness than are febrile younger adults. As in younger adults, the cause is commonly a respiratory infection or urinary tract infection, but, in older adults, skin and soft-tissue infections are among the top causes. Older adults with respiratory virus infections such as influenza, COVID-19, or respiratory syncytial virus (RSV) are also more likely to have serious manifestations.
+
+Focal findings are evaluated as for younger patients. But older adults probably also require urinalysis, urine culture, and chest radiograph. Blood cultures should be done to exclude bacteremia; if bacteremia is suspected or vital signs are abnormal, patients should be admitted to the hospital.
+
+Reference
+
+1. Nicolle LE, Gupta K, Bradley SF, et al. Clinical Practice Guideline for the Management of Asymptomatic Bacteriuria: 2019 Update by the Infectious Diseases Society of America. Clin Infect Dis. 2019;68(10):e83-e110. doi:10.1093/cid/ciy1121
+
+Key Points
+
+Most fevers in healthy people are due to viral respiratory tract or gastrointestinal infections.
+
+Localizing symptoms guide evaluation.
+
+In the absence of localizing symptoms, limiting testing to patients who appear seriously or chronically ill can help avoid many unnecessary evaluations.
+
+Consider underlying chronic disorders, particularly those impairing the immune system.

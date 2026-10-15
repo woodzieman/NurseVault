@@ -183,7 +183,9 @@ struct MerckTopicDetailView: View {
             }
         }
         .navigationTitle(entry.title)
+        #if os(iOS)
         .navigationBarTitleDisplayMode(.inline)
+        #endif
         .task {
             await loadContent()
         }

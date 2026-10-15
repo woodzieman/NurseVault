@@ -58,7 +58,7 @@ struct DrugSearchHit: Identifiable, Hashable, Sendable {
 /// actor). (File scope, not a class static: static stored properties of a
 /// `@MainActor` class are actor-isolated, which the nonisolated scan can't
 /// read without an `await`.)
-private let drugScanWorkers = 4
+private let drugScanWorkers = AppLimits.scanWorkers
 
 /// Loads and searches the bundled drug reference.
 @MainActor
@@ -79,7 +79,7 @@ final class DrugLibrary {
     /// How many decoded drug texts to keep in memory before evicting the
     /// oldest; keeps re-opening a recently viewed drug instant without
     /// holding the whole 350 MB of the reference in RAM.
-    private static let contentCacheLimit = 100
+    private static let contentCacheLimit = AppLimits.contentCacheLimit
 
     init(bundle: Bundle = .main) {
         // Folder references land in `resourceURL`: the bundle root on

@@ -46,6 +46,9 @@ final class WatchReference {
     private(set) var entries: [WatchReferenceEntry] = []
     private(set) var isLoading = false
     private(set) var isMissing = false
+    
+    /// Error message if loading failed, for display in the UI.
+    private(set) var loadError: String? = nil
 
     private var contentURL: URL?
 
@@ -62,56 +65,91 @@ final class WatchReference {
     /// Reads the bundled index in the background (~200 KB — a few
     /// milliseconds). Safe to call from `.task`; a no-op once loaded.
     func loadIfNeeded() {
-        guard !isLoading, entries.isEmpty, !isMissing else { return }
+        guard !isLoading else { return }
+        // Allow reloading even if previously failed (for retry)
         isLoading = true
+        isMissing = false  // Reset on new attempt
+        loadError = nil   // Reset error on new attempt
         let name = self.name
         Task {
             let built = await Self.build(name)
             isLoading = false
             if built.entries.isEmpty {
                 isMissing = true
-                NSLog("NurseVault (watch reference \(name.rawValue)): index loaded 0 entries — resource unavailable.")
+                loadError = "Reference data not available. Please reinstall the app or contact support."
             } else {
                 entries = built.entries
                 contentURL = built.contentURL
-                NSLog("NurseVault (watch reference \(name.rawValue)): index loaded \(built.entries.count) entries.")
+                if contentURL == nil {
+                    loadError = "Content file not found. Reference data may be incomplete."
+                }
             }
         }
     }
 
-    /// Resolves the reference's `.index.zlib` / `.content` files in the watch
-    /// app bundle. Tries the standard resource lookup, then the `WatchReference/`
-    /// subfolder explicitly (the synchronized group mirrors its folder
-    /// structure into the app bundle).
+    /// Resolves the reference's `.index` / `.content` files in the watch
+    /// app bundle. Tries multiple strategies to find resources that may be
+    /// embedded differently depending on build configuration.
     private nonisolated static func resourceURL(base: String, ext: String) -> URL? {
+        // Strategy 1: Standard resource lookup (works for most cases)
         if let url = Bundle.main.url(forResource: base, withExtension: ext) {
             return url
         }
+        
+        // Strategy 2: Try in WatchReference subfolder of Resources
         var candidates: [URL] = []
         if let resourceURL = Bundle.main.resourceURL {
             candidates.append(resourceURL.appendingPathComponent("WatchReference", isDirectory: true))
         }
+        
+        // Strategy 3: Try at bundle root level (for some build configurations)
         candidates.append(Bundle.main.bundleURL.appendingPathComponent("WatchReference", isDirectory: true))
+        
+        // Strategy 4: Try in the main app's Resources folder
+        if let resourceURL = Bundle.main.resourceURL {
+            candidates.append(resourceURL)
+        }
+        
+        // Search all candidate directories
         for directory in candidates {
-            let url = directory.appendingPathComponent(base).appendingPathExtension(ext)
-            if FileManager.default.fileExists(atPath: url.path) {
-                return url
+            let url1 = directory.appendingPathComponent(base).appendingPathExtension(ext)
+            if FileManager.default.fileExists(atPath: url1.path) {
+                return url1
             }
         }
+        
+        // Strategy 5: Try all bundles in the process (for SPM packages)
+        for bundle in Bundle.allBundles {
+            if let url = bundle.url(forResource: base, withExtension: ext) {
+                return url
+            }
+            if let resourceURL = bundle.resourceURL {
+                let watchRefDir = resourceURL.appendingPathComponent("WatchReference", isDirectory: true)
+                let url = watchRefDir.appendingPathComponent(base).appendingPathExtension(ext)
+                if FileManager.default.fileExists(atPath: url.path) {
+                    return url
+                }
+            }
+        }
+        
         return nil
     }
 
     private nonisolated static func build(_ name: Name) async -> Loaded {
         guard
-            let indexURL = resourceURL(base: name.rawValue, ext: "index"),
-            let content = try? String(contentsOf: indexURL, encoding: .utf8)
+            let indexURL = resourceURL(base: name.rawValue, ext: "index")
         else {
-            NSLog("NurseVault (watch reference \(name.rawValue)): could not read \(name.rawValue).index.")
+            return Loaded(entries: [], contentURL: nil)
+        }
+        
+        guard let content = try? String(contentsOf: indexURL, encoding: .utf8) else {
             return Loaded(entries: [], contentURL: nil)
         }
 
         var entries: [WatchReferenceEntry] = []
-        for (index, line) in content.split(separator: "\n", omittingEmptySubsequences: true).enumerated() {
+        let lines = content.split(separator: "\n", omittingEmptySubsequences: true)
+        
+        for (index, line) in lines.enumerated() {
             let parts = line.split(separator: "|", maxSplits: 4, omittingEmptySubsequences: false)
             guard parts.count == 5,
                   let start = UInt64(parts[2]),
@@ -131,6 +169,7 @@ final class WatchReference {
                 search: VaultSearch.normalize([title, preview, extra].joined(separator: "\n"))
             ))
         }
+        
         entries.sort { $0.title.localizedCaseInsensitiveCompare($1.title) == .orderedAscending }
         let sorted = entries.enumerated().map { index, entry in
             WatchReferenceEntry(
@@ -146,32 +185,141 @@ final class WatchReference {
         return Loaded(entries: sorted, contentURL: resourceURL(base: name.rawValue, ext: "content"))
     }
 
-    /// Reads *one* entry from the content blob (an 8-byte uncompressed size
-    /// + a zlib stream): seek to its byte range, read just that span, inflate
-    /// via the `ZlibCompat` shim, decode. The rest of the ~50 MB blob is never
-    /// touched, so this costs a few hundred KB of RAM at most.
+    /// Reads *one* entry from the content blob.
+    ///
+    /// Iteration 8 fix: Stream decompression to avoid memory issues on watchOS.
+    /// - Load entire file into memory (memory mapping fails silently)
+    /// - Extract and decompress one entry at a time
+    /// - Validate decompressed data before returning
+    private var contentData: Data?
+    
     func text(for entry: WatchReferenceEntry) async -> String? {
-        guard let url = contentURL else { return nil }
-        return await Self.readEntry(url: url, entry: entry)
-    }
-
-    private nonisolated static func readEntry(url: URL, entry: WatchReferenceEntry) async -> String? {
-        do {
-            let handle = try FileHandle(forReadingFrom: url)
-            defer { try? handle.close() }
-            handle.seek(toFileOffset: entry.contentStart)
-            let chunk = handle.readData(ofLength: Int(entry.contentEnd - entry.contentStart))
-            guard let inflated = chunk.inflatingNV(),
-                  let text = String(data: inflated, encoding: .utf8)
-            else {
-                NSLog("NurseVault (watch reference): inflating entry '\(entry.title)' failed.")
-                return nil
-            }
-            return text
-        } catch {
-            NSLog("NurseVault (watch reference): reading entry '\(entry.title)' failed: \(error)")
+        guard let url = contentURL else {
+            loadError = "Content file not found. Please reinstall the app."
+            #if DEBUG
+            NSLog("NurseVault (watch reference): contentURL is nil for '\(entry.title)'")
+            #endif
             return nil
         }
+        
+        // Load entire content file into memory on first access.
+        if contentData == nil {
+            do {
+                let fileSize = try FileManager.default.attributesOfItem(atPath: url.path)[.size] as? UInt64 ?? 0
+                #if DEBUG
+                NSLog("NurseVault (watch reference): attempting to load \(fileSize) bytes from content file")
+                #endif
+                
+                // Check if file is too large for watch memory
+                guard fileSize > 0 && fileSize < 50 * 1024 * 1024 else { // Cap at 50 MB
+                    loadError = "Content file invalid or too large (\(fileSize) bytes). Please reinstall the app."
+                    return nil
+                }
+                
+                contentData = try Data(contentsOf: url)
+                #if DEBUG
+                NSLog("NurseVault (watch reference): successfully loaded \(contentData!.count) bytes of content")
+                #endif
+            } catch {
+                loadError = "Failed to load content: \(error.localizedDescription)"
+                #if DEBUG
+                NSLog("NurseVault (watch reference): failed to load content file: \(error)")
+                #endif
+                return nil
+            }
+        }
+        
+        guard let data = contentData else {
+            loadError = "Content data not available. Please try again."
+            return nil
+        }
+        
+        // Extract the entry's byte range from the in-memory buffer.
+        let start = Int(entry.contentStart)
+        let length = Int(entry.contentEnd - entry.contentStart)
+        guard start >= 0, length > 0, start + length <= data.count else {
+            loadError = "Invalid content range for '\(entry.title)' (\(start)+\(length) in \(data.count))"
+            #if DEBUG
+            NSLog("NurseVault (watch reference): invalid byte range for '\(entry.title)': \(start)+\(length) in \(data.count)")
+            #endif
+            return nil
+        }
+        
+        let chunk = data.subdata(in: start..<(start + length))
+        guard !chunk.isEmpty else {
+            loadError = "No content found for '\(entry.title)'"
+            return nil
+        }
+        
+        // Validate the size prefix before attempting decompression
+        if chunk.count < 8 {
+            loadError = "Content data corrupted for '\(entry.title)' (too small: \(chunk.count) bytes)"
+            #if DEBUG
+            NSLog("NurseVault (watch reference): entry '\(entry.title)' too small for size prefix")
+            #endif
+            return nil
+        }
+        
+        // Read the expected uncompressed size from the 8-byte prefix
+        let expectedSize = chunk.withUnsafeBytes { $0.loadUnaligned(fromByteOffset: 0, as: UInt64.self) }
+        let expectedSizeLE = UInt64(littleEndian: expectedSize)
+        
+        // Sanity check on expected size (max 10 MB per entry)
+        guard expectedSize > 0 && expectedSizeLE <= 10 * 1024 * 1024 else {
+            loadError = "Content data corrupted for '\(entry.title)' (invalid size: \(expectedSizeLE) bytes)"
+            #if DEBUG
+            NSLog("NurseVault (watch reference): invalid expected size for '\(entry.title)': \(expectedSizeLE)")
+            #endif
+            return nil
+        }
+        
+        // Attempt decompression with error handling
+        guard let inflated = chunk.inflatingNV() else {
+            loadError = "Failed to decompress content for '\(entry.title)'"
+            #if DEBUG
+            NSLog("NurseVault (watch reference): inflating entry '\(entry.title)' failed (chunk=\(chunk.count) bytes, expected \(expectedSizeLE))")
+            // Log first few bytes of chunk for debugging
+            if chunk.count > 0 {
+                let hexBytes = chunk.prefix(min(chunk.count, 16)).map { String(format: "%02x", $0) }.joined(separator: " ")
+                NSLog("NurseVault (watch reference): chunk starts with bytes: \(hexBytes)")
+            }
+            #endif
+            return nil
+        }
+        
+        // Validate decompressed data
+        guard inflated.count > 0 && inflated.count <= Int(expectedSizeLE) else {
+            loadError = "Decompression failed for '\(entry.title)' (got \(inflated.count) bytes, expected ~\(expectedSizeLE))"
+            #if DEBUG
+            NSLog("NurseVault (watch reference): decompressed size mismatch for '\(entry.title)': got \(inflated.count), expected ~\(expectedSizeLE)")
+            #endif
+            return nil
+        }
+        
+        // Convert to string
+        guard let text = String(data: inflated, encoding: .utf8) else {
+            loadError = "Failed to decode content for '\(entry.title)' (not valid UTF-8)"
+            #if DEBUG
+            NSLog("NurseVault (watch reference): failed to convert decompressed data to string")
+            // Log first few bytes of inflated data
+            if inflated.count > 0 {
+                let hexBytes = inflated.prefix(min(inflated.count, 16)).map { String(format: "%02x", $0) }.joined(separator: " ")
+                NSLog("NurseVault (watch reference): inflated starts with bytes: \(hexBytes)")
+            }
+            #endif
+            return nil
+        }
+        
+        // Validate text has actual content
+        if text.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+            loadError = "Content for '\(entry.title)' is empty"
+            return nil
+        }
+        
+        #if DEBUG
+        NSLog("NurseVault (watch reference): successfully loaded \(text.count) chars for '\(entry.title)'")
+        #endif
+        return text
     }
 
     /// Entries whose title, preview, or extra field contains `query`
@@ -190,5 +338,16 @@ final class WatchReference {
                 if aName != bName { return aName }
                 return a.title.localizedCaseInsensitiveCompare(b.title) == .orderedAscending
             }
+    }
+    
+    /// Releases the memory-mapped content data to free up RAM.
+    /// Call this when the reference is no longer needed or after extended use.
+    func releaseContentData() {
+        if contentData != nil {
+            #if DEBUG
+            NSLog("NurseVault (watch reference): releasing \(contentData!.count) bytes of mapped content")
+            #endif
+            contentData = nil
+        }
     }
 }

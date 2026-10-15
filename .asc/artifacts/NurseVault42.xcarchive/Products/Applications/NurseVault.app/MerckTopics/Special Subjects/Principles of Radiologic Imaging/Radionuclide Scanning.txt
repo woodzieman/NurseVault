@@ -1,0 +1,66 @@
+=== Radionuclide Scanning (Merck Manual Professional) ===
+Section: Special Subjects > Principles of Radiologic Imaging
+Source: https://www.merckmanuals.com/professional/special-subjects/principles-of-radiologic-imaging/radionuclide-scanning
+Retrieved: 2026-09-25
+
+Radionuclide scanning uses the radiation released by radionuclides (called nuclear decay) to produce images. A radionuclide is an unstable isotope that becomes more stable by releasing energy as radiation. This radiation can include gamma-ray photons or particulate emission (such as positrons, used in positron emission tomography).
+
+Radiation produced by radionuclides may be used for imaging or for treatment of certain disorders (eg, thyroid disorders).
+
+A radionuclide, usually technetium-99m, is combined with different stable, metabolically active compounds to form a radiopharmaceutical that localizes to a particular anatomic or diseased structure (target tissue). The radiopharmaceutical is given by mouth or by injection. After the radionuclide has had time to reach the target tissue, images are taken with a gamma camera. Gamma rays emitted by the radionuclide interact with scintillation crystals in the camera, creating light photons that are converted into electrical signals by photomultiplier tubes. A computer summarizes and analyzes the signals and integrates them into 2-dimensional images. However, only signals near the camera’s face can be accurately analyzed; thus, imaging is limited by the thickness of the tissue and the range of the camera.
+
+Portable gamma cameras can provide radionuclide imaging at the bedside.
+
+Generally, radionuclide scanning is considered safe; it uses a relatively low dose of radiation and provides valuable information (eg, it enables clinicians to image the entire skeleton when they suspect cancer has metastasized to bone).
+
+Bone Scintigraphy of the Whole Body
+
+Image
+
+Delayed whole-body technetium-99m bone scintigraphic image shows multiple foci of increased uptake consistent with metastatic disease.
+
+Image courtesy of Hakan Ilaslan, MD.
+
+Uses of Radionuclide Scanning
+
+The target tissue or indication for scanning determines which compound is labeled with the radionuclide:
+
+For imaging the skeleton, technetium-99m is combined with diphosphonate and used to check for bone metastasis or infection.
+
+For identifying inflammation, white blood cells are labeled and used to identify focal inflammation.
+
+For localizing gastrointestinal bleeding, red blood cells are labeled to determine whether they have been extravasated from blood vessels.
+
+For imaging the liver, spleen, or bone marrow, sulfur colloid is labeled.
+
+For imaging the biliary tract, iminodiacetic acid derivatives are labeled and used to check for biliary obstruction, bile leaks, and gallbladder disorders.
+
+Radionuclide scanning is also used to image the thyroid gland and the cerebrovascular, cardiovascular, respiratory, and genitourinary systems. For example, in myocardial perfusion imaging, heart tissue takes up radionuclides (eg, thallium) in proportion to perfusion. This technique can be combined with stress testing.
+
+Radionuclide scanning is also used to evaluate tumors.
+
+Variations of Radionuclide Scanning
+
+Single-photon emission CT (SPECT)
+
+SPECT uses a gamma camera that rotates around the patient. The resultant series of images are reconstructed by computer into 2-dimensional tomographic slices in a manner similar to that done in conventional CT. The 2-dimensional images can be used for tomographic reconstruction to yield 3-dimensional images.
+
+Disadvantages of Radionuclide Scanning
+
+Radiation exposure depends on the radionuclide and dose used. Effective doses tend to range from 1.5 to 17 mSv, as in the following (1):
+
+For lung scans: About 2 mSv
+
+For bone and hepatobiliary scans: About 3 to 6 mSv
+
+For technetium sestimibi heart scans: About 9 to 12 mSv
+
+Reactions to radionuclides are rare.
+
+The area that can be imaged accurately is limited because only signals near the gamma camera’s face can be accurately localized. Image detail may also be limited.
+
+Often, imaging must be delayed for up to several hours to give the radionuclide time to reach the target tissue.
+
+Reference
+
+1. Radiologyinfo.org: Effective Radiation Dose in Adults. April 15, 2005. Accessed July 28, 2025.

@@ -1,0 +1,820 @@
+=== Community-Acquired Pneumonia (Merck Manual Professional) ===
+Section: Pulmonology > Pneumonia
+Source: https://www.merckmanuals.com/professional/pulmonary-disorders/pneumonia/community-acquired-pneumonia
+Retrieved: 2026-09-25
+
+Epidemiology of Community-Acquired Pneumonia
+
+Community-acquired pneumonia is the leading infectious cause of morbidity and mortality worldwide (1). In 2021, lower respiratory infections (including pneumonia) accounted for approximately 4,350 new cases per 100,000 people worldwide, or 344 million new cases overall. The global mortality rate due to lower respiratory infection was approximately 27.7 deaths per 100,000 people, or approximately 2.2 million deaths overall.
+
+In the United States, community-acquired pneumonia results in > 1.5 million hospitalizations annually, with an age-adjusted incidence of approximately 650 hospitalizations per 100,000 adults annually (2). Mortality rates have declined in recent decades, with overall age-adjusted mortality due to pneumonia declining from 35.9 to 17.2 per 100,000 between 1999 and 2022 (3). However, pneumonia remains a leading cause of death in the United States; approximately 1 of 3 patients hospitalized with community-acquired pneumonia die within 1 year (2).
+
+Children < 5 years of age, adults aged > 70 years, and immunocompromised patients are at the highest risk of mortality due to community-acquired pneumonia (4).
+
+Epidemiology references
+
+1. Reyes LF, Conway Morris A, Serrano-Mayorga C, Derde LPG, Dickson RP, Martin-Loeches I. Community-acquired pneumonia. Lancet. 2025;406(10517):2371-2388. doi:10.1016/S0140-6736(25)01493-X
+
+2. Ramirez JA, Wiemken TL, Peyrani P, et al. Adults Hospitalized With Pneumonia in the United States: Incidence, Epidemiology, and Mortality. Clin Infect Dis. 2017;65(11):1806-1812. doi:10.1093/cid/cix647
+
+3. Holland E, Jabbar ABA, Asghar MS, et al. Demographic and regional trends of pneumonia mortality in the United States, 1999 to 2022. Sci Rep. 2025;15(1):10103. doi:10.1038/s41598-025-94715-6
+
+4. Dadonaite B, Roser M. Pneumonia. Our World in Data. November 2019. Updated February 2024. Accessed February 18, 2026.
+
+Etiology of Community-Acquired Pneumonia
+
+Many organisms cause community-acquired pneumonia, including bacteria, viruses, and fungi. Pathogens vary by patient age and other factors (see table Community-Acquired Pneumonia in Adults), but the relative importance of each as a cause of community-acquired pneumonia is uncertain because most patients do not undergo testing to determine the causative organism. Even with testing, specific organisms are identified in only approximately 40% of hospitalized patients (1).
+
+Bacterial causes
+
+The most common bacterial causes are (2):
+
+Streptococcus pneumoniae
+
+Hemophilus influenzae
+
+Staphylococcus aureus
+
+Enterobacterales species
+
+Atypical organisms causing pneumonia include (2):
+
+Chlamydia pneumoniae
+
+Mycoplasma pneumoniae
+
+Legionella pneumophila
+
+Streptococcus pneumoniae is the most common bacterial cause of community-acquired pneumonia worldwide (albeit declining in the United States [3]), followed by Haemophilus influenzae, Staphylococcus aureus, and Gram-negative organisms (2). S. pneumoniae and S. aureus (including MRSA) can also cause necrotizing pneumonia.
+
+Identification of possible MRSA pneumonia is based on an assessment of risk factors that include known MRSA colonization (nasal), prior MRSA infection, compatible gram stain, hospitalization or antibiotic use in the previous 3 months, immunosuppression, necrotizing or cavitary pneumonia, recent influenza, or empyema (4).
+
+The atypical bacterial pathogens Mycoplasma pneumoniae, Chlamydia pneumoniae, and Legionella pneumophila account for 3 to11% of cases of community-acquired pneumonia (2). Pneumonias caused by chlamydia and mycoplasma are often clinically indistinguishable from other pneumonias.
+
+C. pneumoniae is commonly responsible for outbreaks of respiratory infection within families, in college dormitories, and in military training camps. It causes a relatively benign form of pneumonia that infrequently requires hospitalization. Chlamydia psittaci pneumonia (psittacosis) is rare and occurs in patients who own or are often exposed to psittacine birds (ie, parrots, parakeets, macaws).
+
+Since initial increases beginning in the late 1990s, the incidence of community-acquired methicillin-resistant S. aureus (CA-MRSA) skin infections has plateaued and declined in resource-rich settings (5). This pathogen can rarely cause severe, cavitating pneumonia and tends to affect young adults.
+
+S. pneumoniae and S. aureus (including MRSA) can cause necrotizing pneumonia.
+
+Identification of possible MRSA pneumonia is based on an assessment of risk factors that include known MRSA colonization (nasal), prior MRSA infection, compatible gram stain, hospitalization or antibiotic use in the previous 3 months, immunosuppression, necrotizing or cavitary pneumonia, recent influenza, empyema.
+
+Gram-negative organisms are important pathogens in selected patients. For example, identification of possible P. aeruginosa pneumonia is based on assessment of risk factors that include known Pseudomonas colonization, prior Pseudomonas infection, hospitalization or antibiotic use in the previous 3 months, severe chronic obstructive pulmonary disease (COPD) or other structural lung disease, and immunosuppression.
+
+Q fever, tularemia, anthrax, and plague are uncommon bacterial syndromes that can occur in humans subsequent to exposure to infected animals or animal products; pneumonia may be a prominent feature of such syndromes. In particular, tularemia, anthrax, and plague should raise the suspicion of bioterrorism.
+
+For information on related veterinary disease, see Coxiellosis in Animals, Tularemia in Animals, Anthrax in Animals, and Plague in Animals.
+
+Viral causes
+
+Bacterial superinfection can make distinguishing viral from bacterial infection difficult in clinical practice. However, it is likely that a significant proportion (up to 30%) of pneumonias are caused by a virus alone (6).
+
+Common viral causes include:
+
+Influenza viruses
+
+Respiratory syncytial virus (RSV)
+
+Human rhinovirus
+
+Adenoviruses
+
+Coronaviruses
+
+Metapneumovirus
+
+Parainfluenza viruses
+
+Seasonal influenza can rarely cause a direct viral pneumonia but often predisposes patients to the development of a serious secondary bacterial pneumonia (7). Lower respiratory tract bacterial coinfection with influenza carries significant morbidity (ie, development of severe or critical illness) and mortality. Evidence suggests that the mortality risk is increased approximately 3-fold in patients hospitalized with influenza and bacterial pneumonia, compared to those with influenza alone (8).
+
+Epstein-Barr virus and coxsackievirus are common viruses that can rarely cause pneumonia. Varicella virus can also cause lung infection as part of the clinical course of adult chickenpox. Coronaviruses cause severe acute respiratory syndrome (SARS), the Middle East respiratory syndrome (MERS), and COVID-19.
+
+Hantavirus pulmonary syndrome is a viral zoonotic disease transmitted via inhalation of aerosolized rodent excreta (particularly deer mice), characterized by the development on noncardiogenic pulmonary edema, and in untreated cases, by high mortality.
+
+Other causes
+
+Common fungal pathogens include Histoplasma capsulatum (histoplasmosis) and Coccidioides immitis (coccidioidomycosis). Less common fungal pathogens include Blastomyces dermatitidis (blastomycosis) and Paracoccidioides braziliensis (paracoccidioidomycosis). These infections are primarily contracted via contact with specific environmental exposures (eg, contact with soil containing infected bird or bat droppings in caves) and are considered fungal sapronoses (ie, infections caused by fungi that arise from the environment, such as soil, water, or decaying organic matter).
+
+Pneumocystis jirovecii commonly causes pneumonia in patients who have human immunodeficiency virus (HIV) infection or are immunosuppressed (see Pneumonia in Immunocompromised Patients).
+
+Parasites causing lung infection in higher income countries include Toxocara canis or T. catis (toxocariasis), Dirofilaria immitis (dirofilariasis), and Paragonimus westermani (paragonimiasis).
+
+Pulmonary tuberculosis and nontuberculous mycobacterial infections are discussed elsewhere.
+
+Pneumonia in children
+
+In children, the most common causes of pneumonia depend on age:
+
+< 5 years: Most often viruses; among bacteria, S. pneumoniae, S. aureus, and S. pyogenes, are common
+
+≥ 5 years: Most often the bacteria S. pneumoniae, M. pneumoniae, or Chlamydia pneumoniae
+
+Viral etiologies are especially predominant in very young children < 2 years of age, with respiratory syncytial virus (RSV), adenoviruses, human metapneumovirus (hMPV), influenza A and B viruses, parainfluenza viruses, coronaviruses, and rhinovirus contributing to the development of pneumonia (9). Some children may be infected with 2 or more viruses simultaneously, or they may have a bacterial coinfection with viral pneumonia.
+
+Pneumonia in neonates is discussed elsewhere.
+
+Etiology references
+
+1. Vaughn VM, Dickson RP, Horowitz JK, Flanders SA. Community-Acquired Pneumonia: A Review. JAMA. 2024;332(15):1282-1295. doi:10.1001/jama.2024.14796
+
+2. Miller JM, Binnicker MJ, Campbell S, et al. Guide to Utilization of the Microbiology Laboratory for Diagnosis of Infectious Diseases: 2024 Update by the Infectious Diseases Society of America (IDSA) and the American Society for Microbiology (ASM). Clin Infect Dis. 2024; Mar 5:ciae104. Published online March 5, 2024. doi:10.1093/cid/ciae104
+
+3. Wunderink RG, Feldman C. Community-Acquired Pneumonia: A Global Perspective. Semin Respir Crit Care Med. 2020;41(4):453-454. doi:10.1055/s-0040-1713003
+
+4. Mandell LA, Wunderink R. Methicillin-resistant Staphylococcus aureus and community-acquired pneumonia: an evolving relationship. Clin Infect Dis. 2012;54(8):1134-1136. doi:10.1093/cid/cis045
+
+5. Burillo A, Bouza E. Community-acquired methicillin-resistant Staphylococcus aureus: is it still a significant pathogen for skin and soft tissue infections? A 30-year overview. Curr Opin Infect Dis. 2025;38(2):78-91. doi:10.1097/QCO.0000000000001086
+
+6. Shoar S, Musher DM. Etiology of community-acquired pneumonia in adults: a systematic review. Pneumonia (Nathan). 2020;12:11. doi:10.1186/s41479-020-00074-3
+
+7. Uyeki TM, Hui DS, Zambon M, Wentworth DE, Monto AS. Influenza. Lancet. 2022;400(10353):693-706. doi:10.1016/S0140-6736(22)00982-5
+
+8. Arranz-Herrero J, Presa J, Rius-Rocabert S, et al. Determinants of poor clinical outcome in patients with influenza pneumonia: A systematic review and meta-analysis. Int J Infect Dis. 2023;131:173-179. doi:10.1016/j.ijid.2023.04.003
+
+9. Bradley JS, Byington CL, Shah SS, et al. The management of community-acquired pneumonia in infants and children older than 3 months of age: clinical practice guidelines by the Pediatric Infectious Diseases Society and the Infectious Diseases Society of America. Clin Infect Dis. 2011;53(7):e25-e76. doi:10.1093/cid/cir531
+
+Symptoms and Signs of Community-Acquired Pneumonia
+
+Symptoms of community-acquired pneumonia include malaise, chills, rigor, fever, cough, dyspnea, and chest pain. Cough is typically productive in older children and adults and dry in infants, young children, and older adults. Dyspnea is usually mild and exertional and is rarely present at rest. Chest pain is pleuritic and is adjacent to the infected area. Pneumonia may manifest as upper abdominal pain when lower lobe infection irritates the diaphragm. Gastrointestinal symptoms (nausea, vomiting, diarrhea) are not uncommon.
+
+Symptoms are variable at the extremes of age. Infection in infants may manifest as nonspecific irritability, restlessness, and altered (typically reduced) feeding and voiding (1). In older adults, infection may manifest as confusion and obtundation. Delirium is present in approximately 20% of patients; its presence is a significant risk factor for increased mortality (2).
+
+Signs of community-acquired pneumonia include fever, tachypnea, tachycardia, crackles, bronchial breath sounds, egophony (E to A change— when, during auscultation, a patient says the letter “E” and through the stethoscope the examiner hears the letter “A”), and dullness to percussion. Signs of pleural effusion may also be present. Nasal flaring, use of accessory muscles, and cyanosis are common among infants. Fever is frequently absent in older patients.
+
+The clinical features of community acquired pneumonia have been thought to differ by type of pathogen. However, manifestations in patients with typical and atypical pathogens overlap considerably. In addition, no single symptom or sign is considered sensitive or specific enough to identify the underlying pathogen (3). Symptoms and signs are of community-acquired pneumonia may also be similar to those of other noninfective inflammatory lung diseases such as acute hypersensitivity pneumonitis and organizing pneumonia.
+
+Symptoms and signs references
+
+1. Smith DK, Kuckel DP, Recidoro AM. Community-Acquired Pneumonia in Children: Rapid Evidence Review. Am Fam Physician. 2021;104(6):618-625.
+
+2. Juarez-Martinez EL, Araia A, Prasad D, et al. Five-decade prevalence of delirium in pneumonia, risk factors and associated mortality: a systematic review and meta-analysis. Eur Respir Rev. 2025;34(177):250111. doi:10.1183/16000617.0111-2025
+
+3. Ruuskanen O, Lahti E, Jennings LC, Murdoch DR. Viral pneumonia. Lancet. 2011;377(9773):1264-1275. doi:10.1016/S0140-6736(10)61459-6
+
+Diagnosis of Community-Acquired Pneumonia
+
+Chest imaging
+
+Consideration of alternative diagnoses (eg, heart failure, pulmonary embolism, inflammatory lung conditions)
+
+Sometimes identification of pathogen
+
+Evaluation of severity and risk stratification
+
+The diagnosis of pneumonia is suspected on the basis of clinical presentation and findings on chest imaging (1). The severity of pneumonia is estimated using a variety of clinical and laboratory factors (see Risk Stratification), which are sometimes organized using quantitative scoring systems.
+
+The initial imaging test commonly performed is chest radiography, on which infiltrates may be seen (1). Lung ultrasound is considered an acceptable alternative to chest radiography to diagnose pneumonia when performed by clinicians with appropriate expertise. When there is high clinical suspicion of pneumonia and the chest radiograph and/or lung ultrasound does not reveal an infiltrate, performing computed tomography (CT) or repeating the chest radiograph in 24 to 48 hours is recommended. Testing typically also includes measurements of oxygen saturation, complete and differential blood count, and a complete metabolic profile.
+
+In general, the clinical severity (ie, risk stratification) of the pneumonia determines the treatment setting (ie, outpatient versus inpatient). This in turn dictates the need for microbiological confirmation of the causative organism and further associated testing. Microbiologic confirmation with respiratory panels (using nucleic acid amplification testing) can detect viral and atypical pathogens that blood and sputum cultures cannot easily identify; however, thus far the impact of this testing on reducing antibiotic use and improving outcomes has been limited (2).
+
+In outpatients with mild pneumonia, with the exception of COVID-19, influenza, and RSV testing during the appropriate seasons, no further diagnostic testing is typically needed (see table Risk Stratification for Community-Acquired Pneumonia). For patients with moderate or severe pneumonia who require hospitalization, 2 sets of blood cultures are obtained to assess for bacteremia and sepsis. Additional tests for these patients include sputum Gram stain and culture, urine pneumococcal and Legionella antigen testing, and HIV screening. A respiratory viral panel that relies on nucleic acid amplification testing is indicated in severely ill patients and those who are immunocompromised (3). In selected severely ill patients, especially if they are immunocompromised, bronchoscopy to obtain lower airway specimens is indicated as the spectrum of possible pathogens is much wider in these patients than immunocompetent patients (4).
+
+Pathogen identification
+
+A thorough history must be obtained. Specifically, identification of relevant exposures, travel, pets, and hobbies, is essential to raise suspicion of less common organisms. For example, exposure to farm animals may suggest Q fever, and a recent hotel or cruise ship stay may suggest Legionella infection.
+
+Diagnosing the underlying infectious organism can be difficult. In particular, distinguishing between bacterial and viral causes is frequently challenging. Identification of a virus also does not always preclude concomitant infection with a bacterium. Many studies have investigated the utility of clinical, imaging, and routine blood tests in differentiating viral from bacterial causes, but no single test is considered absolutely reliable in making this differentiation (4). However, identification of the pathogen can be useful to direct therapy and verify bacterial susceptibilities to antibiotics.
+
+Because of the limitations of current diagnostic tests and the success of empiric antibiotic treatment, experts recommend limiting attempts at microbiologic identification (eg, cultures, specific antigen testing) unless patients are at high risk or have complications (eg, severe pneumonia, immunocompromise, asplenia, failure to respond to empiric therapy). In general, the milder the pneumonia, the less such diagnostic testing is required. Critically ill patients, patients in whom an antibiotic-resistant or unusual organism (eg, Mycobacterium tuberculosis, P. jirovecii) is suspected, and patients whose condition is deteriorating or who are not responding to treatment within 72 hours require the most intensive testing.
+
+Chest radiography findings generally cannot distinguish one type of infection from another, although the following findings are suggestive:
+
+Multilobar opacities suggest S. pneumoniae or Legionella pneumophila infection.
+
+Interstitial pneumonia (on chest radiography, appearing as increased interstitial markings and subpleural reticular opacities that increase from the apex to the bases of the lungs) suggests viral or mycoplasmal etiology.
+
+Cavitating pneumonia suggests S. aureus or infection due to anaerobes, fungi, or mycobacteria.
+
+Chest Radiograph Findings in Pneumonia
+
+Pneumonia of the Right Middle Lobe With Silhouette Sign
+
+This chest radiograph shows an opacity that appears to blend with the right heart border (silhouette sign). The silhouette sign indicates contiguous positioning of the 2 structures that have similar radiodensity; the part of the lung contiguous with the right heart border is the right middle lobe, so that is the part with the infiltrate and pneumonia.
+
+This chest radiograph shows an opacity that appears to blend with the right heart border (silhouette sign). The silhoue
+
+... read more
+
+SCIENCE PHOTO LIBRARY
+
+Pneumonia of the Right Lower Lobe
+
+This chest radiograph shows an opacity that does not obscure the right heart border (ie, there is no silhouette sign). Because the silhouette sign develops when 2 contiguous structures have a similar radiodensity, the part of the lung affected by this infiltrate is the part not contiguous with the right heart border; that part is the right lower lobe.
+
+This chest radiograph shows an opacity that does not obscure the right heart border (ie, there is no silhouette sign).
+
+... read more
+
+LIVING ART ENTERPRISES, LLC/SCIENCE PHOTO LIBRARY
+
+Left Lower Lobe Opacity
+
+This radiograph shows alveolar opacity of the left lower lobe in a male with bacterial pneumonia.
+
+This radiograph shows alveolar opacity of the left lower lobe in a male with bacterial pneumonia.
+
+By permission of the publisher. From Roberts R. In Atlas of Infectious Diseases: Pleuropulmonary and Bronchial Infections. Edited by GL Mandell (series editor) and MS Simberkoff. Philadelphia, Current Medicine, 1996.
+
+Multilobar Pneumonia
+
+This radiograph shows consolidation of the right upper, middle, and lower lobes in a 64-year-old male with pneumococcal pneumonia.
+
+This radiograph shows consolidation of the right upper, middle, and lower lobes in a 64-year-old male with pneumococcal
+
+... read more
+
+By permission of the publisher. From Roberts R. In Atlas of Infectious Diseases: Pleuropulmonary and Bronchial Infections. Edited by GL Mandell (series editor) and MS Simberkoff. Philadelphia, Current Medicine, 1996.
+
+Interstitial Opacities
+
+This radiograph shows bilateral interstitial opacities in an older male with respiratory syncytial virus pneumonia.
+
+This radiograph shows bilateral interstitial opacities in an older male with respiratory syncytial virus pneumonia.
+
+By permission of the publisher. From Betts R, Falsey A, Hall C, et al. In Atlas of Infectious Diseases: Pleuropulmonary and Bronchial Infections. Edited by GL Mandell (series editor) and MS Simberkoff. Philadelphia, Current Medicine, 1996.
+
+Severe Pneumonia
+
+This patient who is intubated has multiple bilateral infiltrates, most prominently in the right upper lobe. Arrow indicates the right horizontal fissure.
+
+This patient who is intubated has multiple bilateral infiltrates, most prominently in the right upper lobe. Arrow indic
+
+... read more
+
+Photo courtesy of Thomas M. File, Jr., MD MSc MACP FIDSA FCCP.
+
+Pneumonia of the Right Middle Lobe With Silhouette Sign
+
+This chest radiograph shows an opacity that appears to blend with the right heart border (silhouette sign). The silhouette sign indicates contiguous positioning of the 2 structures that have similar radiodensity; the part of the lung contiguous with the right heart border is the right middle lobe, so that is the part with the infiltrate and pneumonia.
+
+This chest radiograph shows an opacity that appears to blend with the right heart border (silhouette sign). The silhoue
+
+... read more
+
+SCIENCE PHOTO LIBRARY
+
+Pneumonia of the Right Lower Lobe
+
+This chest radiograph shows an opacity that does not obscure the right heart border (ie, there is no silhouette sign). Because the silhouette sign develops when 2 contiguous structures have a similar radiodensity, the part of the lung affected by this infiltrate is the part not contiguous with the right heart border; that part is the right lower lobe.
+
+This chest radiograph shows an opacity that does not obscure the right heart border (ie, there is no silhouette sign).
+
+... read more
+
+LIVING ART ENTERPRISES, LLC/SCIENCE PHOTO LIBRARY
+
+Left Lower Lobe Opacity
+
+This radiograph shows alveolar opacity of the left lower lobe in a male with bacterial pneumonia.
+
+This radiograph shows alveolar opacity of the left lower lobe in a male with bacterial pneumonia.
+
+By permission of the publisher. From Roberts R. In Atlas of Infectious Diseases: Pleuropulmonary and Bronchial Infections. Edited by GL Mandell (series editor) and MS Simberkoff. Philadelphia, Current Medicine, 1996.
+
+Multilobar Pneumonia
+
+This radiograph shows consolidation of the right upper, middle, and lower lobes in a 64-year-old male with pneumococcal pneumonia.
+
+This radiograph shows consolidation of the right upper, middle, and lower lobes in a 64-year-old male with pneumococcal
+
+... read more
+
+By permission of the publisher. From Roberts R. In Atlas of Infectious Diseases: Pleuropulmonary and Bronchial Infections. Edited by GL Mandell (series editor) and MS Simberkoff. Philadelphia, Current Medicine, 1996.
+
+Interstitial Opacities
+
+This radiograph shows bilateral interstitial opacities in an older male with respiratory syncytial virus pneumonia.
+
+This radiograph shows bilateral interstitial opacities in an older male with respiratory syncytial virus pneumonia.
+
+By permission of the publisher. From Betts R, Falsey A, Hall C, et al. In Atlas of Infectious Diseases: Pleuropulmonary and Bronchial Infections. Edited by GL Mandell (series editor) and MS Simberkoff. Philadelphia, Current Medicine, 1996.
+
+Severe Pneumonia
+
+This patient who is intubated has multiple bilateral infiltrates, most prominently in the right upper lobe. Arrow indicates the right horizontal fissure.
+
+This patient who is intubated has multiple bilateral infiltrates, most prominently in the right upper lobe. Arrow indic
+
+... read more
+
+Photo courtesy of Thomas M. File, Jr., MD MSc MACP FIDSA FCCP.
+
+Nasopharyngeal swabs, sputum, and bronchoscopic samples can also be tested using nucleic-acid amplification tests (NAAT) such as polymerase chain reaction (PCR) for other viruses, including influenza, RSV, and other respiratory viruses, atypical pathogens, and bacteria (6). These results should be interpreted with caution because of baseline colonization and incomplete validation with lower respiratory tract samples. Routine PCR testing for non-influenza viral etiologies is not suggested for outpatients or most inpatients with suspected community-acquired pneumonia; however, it is recommended for those hospitalized patients who are immunocompromised or have severe community-acquired pneumonia (3). Blood cultures, which are often obtained in patients hospitalized for pneumonia, can identify causative bacterial pathogens if bacteremia is present. Approximately 7 to 12% of all patients hospitalized with pneumonia have bacteremia; S. pneumoniae is the most frequent pathogen in such cases (5).
+
+Sputum testing usually includes Gram stain and culture with antibiotic susceptibility testing for identification of any pathogen isolated. Sputum testing is recommended for patients hospitalized for pneumonia (4). The clinical value of sputum testing is uncertain because specimens often are contaminated with oral flora and the overall diagnostic yield is low. To mitigate these concerns and optimize pathogen yield, it is recommended that laboratories have a mechanism in place that screen sputum specimens for acceptability (2). Regardless, typical Gram stain findings can raise suspicion for MRSA or P. aeruginosa, and identification of a bacterial pathogen in sputum cultures allows for susceptibility testing. Obtaining sputum samples also allows for testing for viral pathogens via direct fluorescence antibody testing or polymerase chain reaction (PCR), but caution needs to be exercised in interpretation because up to 15% of healthy adults carry a respiratory virus or potential bacterial pathogen. In patients whose condition is deteriorating and in those unresponsive to broad-spectrum antibiotics, sputum should be tested with mycobacterial and fungal stains and cultures.
+
+Sputum samples can be obtained, ideally before antibiotic administration, via noninvasive means such as simple expectoration or, for patients unable to produce sputum, after hypertonic saline nebulization (induced sputum). Alternatively, patients can undergo bronchoscopy or endotracheal suctioning. Either of these procedures can be readily done through an endotracheal tube in patients who are being mechanically ventilated. Otherwise, bronchoscopic sampling is usually done only for patients with other risk factors (eg, immunocompromise, failure of empiric therapy). Quantitative cultures of lower respiratory tract specimens can help distinguish between bacterial colonization (ie, presence of microorganisms at levels that provoke neither symptoms nor an inflammatory response) and infection.
+
+Urine testing for Legionella antigen and pneumococcal antigen should be considered in patients hospitalized with community-acquired pneumonia (4). These tests are simple and rapid and have high sensitivity and specificity (7, 8). Urinary Legionella antigen testing is indicated in non-severe cases in outbreak settings or when there is a history of travel (eg, on cruise ships) (2); however, it should be noted that the test detects only L. pneumophila serogroup 1.
+
+COVID-19 test using reverse transcriptase-polymerase chain reaction (RT-PCR) testing of respiratory secretions (nasopharyngeal specimen is preferred) is recommended in patients presenting with pneumonia.
+
+Serum procalcitonin can help distinguish bacterial infection from other causes of infection or inflammation. However, use of the serum procalcitonin level as a criterion to initiate antibiotic therapy in community-acquired pneumonia is not recommended. It can be used, along with clinical judgement, to guide early discontinuation of antibiotics in lower respiratory tract infections.
+
+Differential diagnosis
+
+Several conditions should be considered among the differential diagnosis in patients presenting with pneumonia-like symptoms (eg, cough, fever, dyspnea).
+
+The most serious common misdiagnosis is pulmonary embolism, which may be more likely in patients with acute onset of dyspnea, minimal sputum production, no accompanying upper respiratory infection or systemic symptoms, and risk factors for thromboembolism (see table Risk Factors for Deep Venous Thrombosis and Pulmonary Embolism); thus, testing for pulmonary embolism should be considered in all patients with such symptoms and risk factors.
+
+Other conditions that may mimic community-acquired pneumonia include:
+
+Acute bronchitis (infiltrates are absent)
+
+Chronic obstructive pulmonary disease (COPD) exacerbation (infiltrates are absent)
+
+Heart failure (presence of edema of the extremities or elevated jugular venous pressure)
+
+Organizing pneumonia (failure of response to antibiotics)
+
+Hypersensitivity pneumonitis (presence of triggering occupational or other exposure, centrilobular nodules and/or fibrosis on imaging)
+
+Diagnosis references
+
+1. Jones BE, Ramirez JA, Oren E, et al. Diagnosis and Management of Community-acquired Pneumonia. An Official American Thoracic Society Clinical Practice Guideline. Am J Respir Crit Care Med Published online July 18, 2025. doi:10.1164/rccm.202507-1692ST
+
+2. Miller JM, Binnicker MJ, Campbell S, et al. Guide to Utilization of the Microbiology Laboratory for Diagnosis of Infectious Diseases: 2024 Update by the Infectious Diseases Society of America (IDSA) and the American Society for Microbiology (ASM). Clin Infect Dis. 2024; Mar 5:ciae104. Published online March 5, 2024. doi:10.1093/cid/ciae104
+
+3. Evans SE, Jennerich AL, Azar MM, et al. Nucleic Acid-based Testing for Noninfluenza Viral Pathogens in Adults with Suspected Community-acquired Pneumonia. An Official American Thoracic Society Clinical Practice Guideline. Am J Respir Crit Care Med. 2021;203(9):1070-1087. doi:10.1164/rccm.202102-0498ST
+
+4. Metlay JP, Waterer GW, Long AC, et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia. An Official Clinical Practice Guideline of the American Thoracic Society and Infectious Diseases Society of America. Am J Respir Crit Care Med. 2019;200(7):e45-e67. doi:10.1164/rccm.201908-1581ST
+
+5. Metersky ML, Ma A, Bratzler DW, Houck PM. Predicting bacteremia in patients with community-acquired pneumonia. Am J Respir Crit Care Med. 2004;169(3):342-347. doi:10.1164/rccm.200309-1248OC
+
+6. Bigaud B, Marjanovic N, Deroche L, et al. Impact of multiplex PCR point-of-care platform implementation for respiratory pathogen detection in an emergency department with high daily patient volume. J Clin Microbiol. 2026;64(1):e0131325. doi:10.1128/jcm.01313-25
+
+7. Edelstein PH, Jørgensen CS, Wolf LA. Performance of the ImmuView and BinaxNOW assays for the detection of urine and cerebrospinal fluid Streptococcus pneumoniae and Legionella pneumophila serogroup 1 antigen in patients with Legionnaires' disease or pneumococcal pneumonia and meningitis. PLoS One. 2020;15(8):e0238479. doi:10.1371/journal.pone.0238479
+
+8. Viasus D, Calatayud L, McBrown MV, Ardanuy C, Carratalà J. Urinary antigen testing in community-acquired pneumonia in adults: an update. Expert Rev Anti Infect Ther. 2019;17(2):107-115. doi:10.1080/14787210.2019.1565994
+
+Treatment of Community-Acquired Pneumonia
+
+Risk stratification for determination of site of care
+
+Antibiotics
+
+Antivirals for influenza or varicella
+
+Systemic glucocorticoids in selected critically ill patients
+
+Supportive measures
+
+Treatment approaches in community-acquired pneumonia generally depend on risk stratification (eg, patient age, clinical status, comorbidities), the clinical setting (ie, outpatient vs inpatient), a history of recent antibiotic use, and knowledge of local resistance patterns.
+
+Risk stratification
+
+Risk stratification via risk prediction rules may be used to estimate mortality risk and thus help guide decisions regarding hospitalization (1). These rules have been used to identify patients who can be safely treated as outpatients and those who require hospitalization because of high risk of complications (see table Risk Stratification for Community-Acquired Pneumonia). However, these prediction rules should supplement, not replace, clinical judgment because many unrepresented factors, such as likelihood of adherence, ability to care for self, and ability to maintain oral intake, should also influence triage decisions.
+
+The Pneumonia Severity Index (PSI) is the preferred validated prediction score (1). However, because the PSI is complex and requires several laboratory assessments, simpler rules such as CURB-65 are useful alternatives. Use of these prediction rules has led to a reduction in unnecessary hospitalizations for patients who have milder illness.
+
+Clinical Calculators
+
+Community-Acquired Pneumonia Severity Index (PSI) for Adults
+
+In CURB-65, 1 point is allotted for each of the following risk factors:
+
+Confusion
+
+Uremia (blood urea nitrogen [BUN] ≥ 19 mg/dL [6.8 mmol/L])
+
+Respiratory rate > 30 breaths/minute
+
+Systolic Blood pressure < 90 mm Hg or diastolic blood pressure ≤ 60 mm Hg
+
+Age ≥ 65 years
+
+Scores can be used as follows:
+
+0 or 1 points: Risk of death is < 3%. Outpatient therapy is usually appropriate, especially if the only point is related to age.
+
+2 points: Risk of death is 9%. Hospitalization should be considered.
+
+≥ 3 points: Risk of death is 15 to 40%. Hospitalization is indicated, and, particularly with 4 or 5 points, ICU admission should be considered.
+
+In clinical settings where access to a BUN measurement is not readily available, a CRB-65 score can be used instead. Use of CRB-65 scores is similar to that for CURB-65, with 0 points: appropriate for outpatient therapy; 1 to 2 points: consider hospitalization; ≥ 3 points: consider intensive care unit (ICU) admission. An international validation study has been performed on the CURB-65 score (2).
+
+Table
+
+Risk Stratification for Community-Acquired Pneumonia (the Pneumonia Severity Index)
+
+Table
+
+Risk Stratification for Community-Acquired Pneumonia (the Pneumonia Severity Index)
+
+Risk Stratification for Community-Acquired Pneumonia (the Pneumonia Severity Index)
+
+Factor
+
+Points
+
+Patient demographics
+
+Male
+
+Age (in years)
+
+Female
+
+Age (in years) − 10
+
+Nursing home resident
+
+10
+
+Coexisting illness
+
+Cancer
+
+30
+
+Liver disease
+
+20
+
+Heart failure
+
+10
+
+Cerebrovascular disease
+
+10
+
+Renal disease
+
+10
+
+Physical examination
+
+Altered mental status
+
+20
+
+Respiratory rate ≥ 30 breaths/minute
+
+20
+
+Systolic blood pressure < 90 mm Hg
+
+20
+
+Temperature ≥ 40° C or < 35°C
+
+15
+
+Heart rate ≥ 125 beats/minute
+
+10
+
+Test results
+
+Arterial pH < 7.35
+
+30
+
+Blood urea nitrogen ≥ 30 mg/dL (11 mmol/L)
+
+20
+
+Sodium < 130 mEq/L (130 mmol/L)
+
+20
+
+Glucose ≥ 250 mg/dL (14 mmol/L)
+
+10
+
+Hematocrit < 30%
+
+10
+
+PaO2< 60 mm Hg or
+
+Oxygen saturation < 90%*
+
+10
+
+Pleural effusion
+
+10
+
+Points
+
+ Mortality
+
+Recommendation
+
+≤ 70
+
+  < 1%
+
+Outpatient treatment†
+
+71−90
+
+< 5%
+
+Outpatient treatment†
+
+91−130
+
+5−15%
+
+Admit
+
+> 130
+
+  > 15%  
+
+Admit
+
+* Many clinicians consider hypoxemia an absolute indication for admission.
+
+† Acute care admission, subacute care admission, observation period, home IV antibiotics, or home nursing visits should be considered for patients who are frail, isolated, or living in unstable environments.
+
+PaO2 = partial pressure of arterial oxygen.
+
+Adapted from Fine MJ, Auble TE, Yealy DM, et al. A prediction rule to identify low-risk patients with community-acquired pneumonia. N Engl J Med. 1997;336(4):243-250. doi:10.1056/NEJM199701233360402.
+
+* Many clinicians consider hypoxemia an absolute indication for admission.
+
+† Acute care admission, subacute care admission, observation period, home IV antibiotics, or home nursing visits should be considered for patients who are frail, isolated, or living in unstable environments.
+
+PaO2 = partial pressure of arterial oxygen.
+
+Adapted from Fine MJ, Auble TE, Yealy DM, et al. A prediction rule to identify low-risk patients with community-acquired pneumonia. N Engl J Med. 1997;336(4):243-250. doi:10.1056/NEJM199701233360402.
+
+Among patients with moderate to severe pneumonia who require hospitalization, the severity of the pneumonia can guide the decision for admission to intensive care. Major and minor criteria for severe pneumonia can help objectively identify severe pneumonia and can also guide the intensity of initial diagnostic testing and empiric antibiotic treatment.
+
+Major criteria (1 or more) include (1):
+
+Need for mechanical ventilation
+
+Presence of hypotension (systolic blood pressure ≤ 90 mm Hg) that is unresponsive to volume resuscitation
+
+Minor criteria (3 or more) include:
+
+Hypotension requiring fluid support
+
+Respiratory rate > 30/minute
+
+Partial pressure of arterial oxygen (PaO2)/fraction of inspired oxygen (FIO2) < 250
+
+Multilobar pneumonia
+
+Confusion
+
+BUN > 19.6 mg/dL (> 7 mmol/L)
+
+Leukocyte count < 4000 cells/microL (< 4 × 109/L)
+
+Platelet count < 100,000/microL (< 100 × 109/L)
+
+Temperature < 36° C
+
+Antimicrobials
+
+Antibiotics
+
+Antibiotic therapy is the mainstay of treatment for most patients with community-acquired pneumonia (1). Patients with community-acquired pneumonia who have a positive respiratory viral panel, no comorbidities (eg, underlying respiratory disease, immunocompromise), no clinical indicators of bacterial infection or complications of pneumonia, and who do not require hospitalization may not require antibiotic therapy (3). In immunocompromised patients, empiric broad-spectrum antibiotic therapy is usually necessary (4).
+
+For patients in whom antibiotics are indicated, appropriate treatment involves starting empiric antibiotics as soon as possible, preferably ≤ 4 hours after presentation. Because pathogen identification is difficult and takes time, the empiric antibiotic regimen is selected based on likely pathogens, presence of comorbidities, and severity of illness. Consensus guidelines have been developed by many professional organizations (1, 3, 4); one widely used set is detailed in the table Antibiotic Therapy for Bacterial Community-Acquired Pneumonia in Adults. In addition to the antibiotics outlined in the table, the broad-spectrum antibiotics omadacycline and lefamulin can be considered, especially when the first-line agents are contraindicated or ineffective. Anaerobic antibiotic coverage for suspected aspiration pneumonia should not be routinely added unless lung abscess or empyema is suspected (1).
+
+Traditionally, at least 5 days of antibiotics have been recommended in the treatment of pneumonia. The 2025 guideline update from the ATS recommends a shorter duration (3 to 4 days) for outpatients or inpatients with nonsevere community-acquired pneumonia, provided they reach clinical stability and have close follow-up (3). In all other circumstances, a minimum of 5 days is still recommended.
+
+Guidelines should be adapted to local susceptibility patterns, drug formularies, and individual patient circumstances (eg, specific exposures). If a pathogen is subsequently identified, the results of antibiotic susceptibility testing can help guide any changes in antibiotic therapy.
+
+With empiric treatment, the majority of patients with bacterial pneumonia improve. Clinical improvement typically manifests as decreased cough and dyspnea, defervescence, relief of chest pain, and a decline in white blood cell count. Failure to improve should trigger suspicion of:
+
+An unusual organism
+
+Resistance to the antimicrobial used for treatment
+
+Empyema
+
+Coinfection or superinfection with a second infectious agent
+
+An obstructive endobronchial lesion
+
+Immunosuppression
+
+Metastatic focus of infection with reseeding (in the case of pneumococcal infection)
+
+Nonadherence to treatment (in the case of outpatients)
+
+Wrong diagnosis (ie, a noninfectious cause of the illness such as acute hypersensitivity pneumonitis)
+
+When usual therapy has failed, consultation with a pulmonary and/or infectious disease specialist is indicated.
+
+Antivirals
+
+Antiviral therapy may be indicated for select viral pneumonias (eg, pneumonias due to influenza, varicella, and RSV).
+
+For influenza, neuraminidase inhibitors (oral oseltamivir, aerosolized zanamivir) given for 5 days reduce the duration and severity of symptoms in patients who develop influenza infection, regardless of the duration of illness before symptom onset. However, initiating treatment within 48 hours of onset has been associated with the best outcomes (1). Alternatively, IV peramivir or oral baloxavir started within 48 hours of symptom onset can be given as single doses. Patients hospitalized with confirmed influenza infection should receive neuraminidase inhibitors; in such patients, administration may be beneficial even if initiated 48 hours after symptom onset (1).
+
+For varicella lung infections, acyclovir is recommended for children and adults (5).
+
+For respiratory syncytial virus (RSV) pneumonia, adults and children are generally managed with supportive care alone.
+
+Table
+
+Antibiotic Therapy for Bacterial Community-Acquired Pneumonia in Adults
+
+Table
+
+Antibiotic Therapy for Bacterial Community-Acquired Pneumonia in Adults 
+
+Antibiotic Therapy for Bacterial Community-Acquired Pneumonia in Adults
+
+Group
+
+Likely Organisms
+
+Empiric Treatment
+
+I. Outpatients—no comorbidities or risk factors for MRSA and Pseudomonas aeruginosa present*
+
+Streptococcus pneumoniae, Mycoplasma pneumoniae, Chlamydia pneumoniae, Haemophilus influenzae, respiratory viruses, miscellaneous organisms (eg, Legionella, Mycobacterium tuberculosis, endemic fungi)
+
+Amoxicillin
+
+plus either
+
+Macrolide (azithromycin or clarithromycin)
+
+or
+
+Doxycycline (if allergic to macrolides)
+
+II. Outpatients—comorbidities present*
+
+S. pneumoniae, including antibiotic-resistant forms; M. pneumoniae; C. pneumoniae; mixed infection (bacteria + atypical pathogen or virus); H. influenzae; enteric gram-negative organisms; respiratory viruses; miscellaneous organisms (eg, Moraxella catarrhalis, Legionella, anaerobes [aspiration], M. tuberculosis, endemic fungi)
+
+Beta-lactam (cefpodoxime, cefuroxime, amoxicillin, or amoxicillin/clavulanic acid)
+
+plus either
+
+Macrolide or doxycycline
+
+or
+
+Monotherapy with antipneumococcal fluoroquinolone (eg, moxifloxacin, levofloxacin)
+
+III. Inpatient—not in intensive care unit (ICU), no risk factors for MRSA or P. aeruginosa
+
+S. pneumoniae, H. influenzae, M. pneumoniae, C. pneumoniae, mixed infection (bacteria + atypical pathogen or virus), respiratory viruses, Legionella, miscellaneous organisms (eg, M. tuberculosis, endemic fungi, Pneumocystis jirovecii)
+
+Azithromycin
+
+plus
+
+Beta-lactam (eg, cefotaxime, ceftriaxone, ceftaroline)
+
+or
+
+Antipneumococcal fluoroquinolone orally or intravenously (alone)
+
+IVA. ICU patient—no risk factors for MRSA or P. aeruginosa
+
+S. pneumoniae, including antibiotic-resistant forms; Legionella; H. influenzae; enteric gram-negative organisms; Staphylococcus aureus; M. pneumoniae; respiratory viruses; miscellaneous organisms (eg, C. pneumoniae, M. tuberculosis, endemic fungi)
+
+Beta-lactam (cefotaxime or ceftriaxone)
+
+plus either
+
+Antipneumococcal fluoroquinolone
+
+or
+
+Azithromycin
+
+IVB. Inpatient or ICU patient—MRSA or Pseudomonas risk factors present (if prior isolation is the only risk factor, add initial coverage for that pathogen only and obtain cultures)
+
+Same as those for category IVA (above) plus MRSA or Pseudomonas
+
+Linezolid or vancomycin
+
+or/plus
+
+Antipseudomonal beta-lactam (cefepime, ceftazidime, imipenem, meropenem, piperacillin/tazobactam) or aztreonam (if allergic to or intolerant of beta-lactams)
+
+* Modifying factors:
+
+Comorbid conditions: Chronic heart, lung, liver, or renal disease; diabetes mellitus; alcohol use disorder; cancer; asplenia.
+
+Risk factors for MRSA or Pseudomonas aeruginosa include prior respiratory isolation of MRSA or P. aeruginosa or recent hospitalization + receipt of parenteral antibiotics (in the last 90 days).
+
+MRSA = methicillin-resistant Staphylococcus aureus
+
+Data from Metlay JP, Waterer GW, Long AC, et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia. An Official Clinical Practice Guideline of the American Thoracic Society and Infectious Diseases Society of America. Am J Respir Crit Care Med. 2019;200(7):e45-e67. doi:10.1164/rccm.201908-1581ST
+
+* Modifying factors:
+
+Comorbid conditions: Chronic heart, lung, liver, or renal disease; diabetes mellitus; alcohol use disorder; cancer; asplenia.
+
+Risk factors for MRSA or Pseudomonas aeruginosa include prior respiratory isolation of MRSA or P. aeruginosa or recent hospitalization + receipt of parenteral antibiotics (in the last 90 days).
+
+MRSA = methicillin-resistant Staphylococcus aureus
+
+Data from Metlay JP, Waterer GW, Long AC, et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia. An Official Clinical Practice Guideline of the American Thoracic Society and Infectious Diseases Society of America. Am J Respir Crit Care Med. 2019;200(7):e45-e67. doi:10.1164/rccm.201908-1581ST
+
+Management in children
+
+For children, treatment depends on age, previous vaccinations, and whether treatment is to be initiated in the outpatient or inpatient setting (6). Antimicrobial therapy is not routinely required for preschool-aged children with community-acquired pneumonia, because there is strong evidence to support that viral pathogens are responsible for the great majority of clinical disease.
+
+If antibiotic therapy is appropriate, several agents are available. In addition to antibiotic therapy, antiviral coverage with neuraminidase inhibitors (eg, oseltamivir) should be administered as quickly as possible, seasonally (during known periods of circulation), in children with symptoms compatible with viral moderate to severe community-acquired pneumonia (6).
+
+For children treated as outpatients, treatments are dictated by age (6):
+
+< 5 years: Amoxicillin is usually the medication of choice. Amoxicillin/clavulanic acid is an alternative. If epidemiology suggests an atypical pathogen as the cause and clinical findings are compatible, a macrolide (eg, azithromycin, clarithromycin) can be used instead. Some experts suggest not using antibiotics if clinical features strongly suggest viral pneumonia.
+
+≥ 5 years: Amoxicillin or (particularly if an atypical pathogen cannot be excluded) amoxicillin plus a macrolide. Amoxicillin/clavulanic acid is an alternative. If the cause appears to be an atypical pathogen, a macrolide alone can be used.
+
+For children treated as inpatients, antibiotic therapy tends to be more broad-spectrum and depends on the child's previous vaccinations:
+
+Fully immunized (against S. pneumoniae and H. influenzae type b): Ampicillin or penicillin G. Alternatives are ceftriaxone or cefotaxime. If S. Aureus (including MRSA) is suspected, vancomycin or clindamycin is added. If an atypical pathogen cannot be excluded, a macrolide is added.
+
+Not fully immunized: Ceftriaxone or cefotaxime (alternative is levofloxacin). If MRSA is suspected, vancomycin or clindamycin is added. If an atypical pathogen cannot be excluded, a macrolide is added.
+
+Supportive care
+
+Supportive care includes fluids, antipyretics (as needed for high-grade fever), analgesics, and, for patients with hypoxemia, oxygen. Prophylaxis against thromboembolic disease and early mobilization improve outcomes for patients hospitalized with pneumonia. Cessation counseling should also be done for patients who smoke.
+
+Adjunctive glucocorticoids are recommended in immunocompetent inpatients who have severe community-acquired pneumonia (7). Randomized trials have demonstrated reduced mortality and morbidity with early initiation of intravenous hydrocortisone 200 mg daily by continuous infusion for 4 to 7 days in immunocompetent patients with severe pneumonia (7). However, a subsequent randomized trial in hospitalized adults admitted to the intensive care unit with hydrocortisone use demonstrated a less favorable benefit-risk ratio than was previously reported (8). Such treatment is not advised in influenza-associated pneumonia, for less severe pneumonia, in immunocompromised patients, or when viral or fungal pneumonia is suspected.
+
+Follow-up
+
+Early outpatient follow-up with a primary care clinician is encouraged to reduce readmission risk (9) and assess for post-acute sequelae (eg, myocardial infarction, stroke, post-intensive care syndrome) (10). Follow-up radiographs are generally not recommended in patients whose pneumonia resolves clinically as expected within 5 to 7 days (1). Resolution of radiographic abnormalities can lag behind clinical resolution by several weeks. Chest radiographs should be considered in patients with pneumonia symptoms that do not resolve or that worsen over time.
+
+Treatment references
+
+1. Metlay JP, Waterer GW, Long AC, et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia. An Official Clinical Practice Guideline of the American Thoracic Society and Infectious Diseases Society of America. Am J Respir Crit Care Med 2019;200(7):e45-e67. doi:10.1164/rccm.201908-1581ST
+
+2. Lim WS, van der Eerden MM, Laing R, et al. Defining community acquired pneumonia severity on presentation to hospital: an international derivation and validation study. Thorax. 2003;58(5):377-382. doi:10.1136/thorax.58.5.377
+
+3. Jones BE, Ramirez JA, Oren E, et al. Diagnosis and Management of Community-acquired Pneumonia. An Official American Thoracic Society Clinical Practice Guideline. Am J Respir Crit Care Med Published online July 18, 2025. doi:10.1164/rccm.202507-1692ST
+
+4. Ramirez JA, Musher DM, Evans SE, et al. Treatment of Community-Acquired Pneumonia in Immunocompromised Adults: A Consensus Statement Regarding Initial Strategies. Chest. 2020;158(5):1896-1911. doi:10.1016/j.chest.2020.05.598
+
+5. Ruuskanen O, Lahti E, Jennings LC, Murdoch DR. Viral pneumonia. Lancet. 2011;377(9773):1264-1275. doi:10.1016/S0140-6736(10)61459-6
+
+6. Bradley JS, Byington CL, Shah SS, et al. The management of community-acquired pneumonia in infants and children older than 3 months of age: clinical practice guidelines by the Pediatric Infectious Diseases Society and the Infectious Diseases Society of America. Clin Infect Dis. 2011;53(7):e25-e76. doi:10.1093/cid/cir531
+
+7. Dequin PF, Meziani F, Quenot JP, et al. Hydrocortisone in Severe Community-Acquired Pneumonia. N Engl J Med. 2023;388(21):1931-1941. doi:10.1056/NEJMoa2215145
+
+8. REMAP-CAP Investigators, Angus DC. Effect of hydrocortisone on mortality in patients with severe community-acquired pneumonia: The REMAP-CAP Corticosteroid Domain Randomized Clinical Trial. Intensive Care Med. 2025;51(4):665-680. doi:10.1007/s00134-025-07861-w
+
+9. File TM Jr, Ramirez JA. Community-Acquired Pneumonia. N Engl J Med. 2023;389(7):632-641. doi:10.1056/NEJMcp2303286
+
+10. Reyes LF, Conway Morris A, Serrano-Mayorga C, Derde LPG, Dickson RP, Martin-Loeches I. Community-acquired pneumonia. Lancet. 2025;406(10517):2371-2388. doi:10.1016/S0140-6736(25)01493-X
+
+Prognosis for Community-Acquired Pneumonia
+
+Short-term mortality is related to severity of illness. Mortality is very low in patients who are candidates for outpatient treatment. Among patients hospitalized for community-acquired pneumonia, 30-day mortality ranges between 4.1% to 9.6% ; however, patients hospitalized in intensive care units may experience much higher mortality (1). Death may be caused by pneumonia itself, progression to sepsis syndrome, or exacerbation of coexisting conditions. In patients hospitalized for pneumonia, risk of death is increased substantially during the year after hospital discharge; about 1 in 3 patients die within 1 year (2).
+
+Mortality varies to some extent by pathogen. Mortality rates are highest with gram-negative bacteria and MRSA. However, because these pathogens are relatively infrequent causes of community-acquired pneumonia, S. pneumoniae remains the most common cause of death in patients with community-acquired pneumonia. Atypical pathogens such as Mycoplasma have a good prognosis. Mortality is higher in patients who do not respond to initial empiric antibiotics and in those whose treatment regimen does not conform with guidelines.
+
+Prognosis references
+
+1. Reyes LF, Conway Morris A, Serrano-Mayorga C, Derde LPG, Dickson RP, Martin-Loeches I. Community-acquired pneumonia. Lancet. 2025;406(10517):2371-2388. doi:10.1016/S0140-6736(25)01493-X
+
+2. Ramirez JA, Wiemken TL, Peyrani P, et al. Adults Hospitalized With Pneumonia in the United States: Incidence, Epidemiology, and Mortality. Clin Infect Dis. 2017;65(11):1806-1812. doi:10.1093/cid/cix647
+
+Prevention of Community-Acquired Pneumonia
+
+Several vaccines are available to prevent some forms of community-acquired pneumonia (1, 2, 3):
+
+Pneumococcal vaccine
+
+H. influenzae type b (Hib) vaccine
+
+Varicella vaccine
+
+Respiratory syncytial virus (RSV) vaccine
+
+Influenza vaccine
+
+Available vaccine formulations and dosing schedules are discussed in detail separately. For more information, see Immunization.
+
+In high-risk patients who are not vaccinated against influenza and household contacts of patients with influenza, oseltamivir 75 mg orally once/day or zanamivir 10 mg orally mg once/day can be given as prophylaxis for 2 weeks, which differs from the dosing regimens for treatment. If started within 48 hours of exposure, these antivirals may prevent influenza (although resistance has been described for oseltamivir).
+
+Smoking cessation can reduce the risk of developing pneumonia.
+
+Prevention references
+
+1. O'Leary ST; Committee on Infectious Diseases. Recommended Childhood and Adolescent Immunization Schedule: United States, 2026: Policy Statement. Pediatrics.  2026;157(3):e2025075754. doi:10.1542/peds.2025-075754
+
+2. American College of Physicians (ACP). Adult Immunization. Accessed February 23, 2026.
+
+3. Centers for Disease Control and Prevention (CDC). Healthcare Professionals: Child and Adolescent Immunization Schedule by Age. October 7, 2025. Accessed February 23, 2026.
+
+Key Points
+
+Community-acquired pneumonia is a leading cause of death in the United States and around the world.
+
+Common symptoms and signs include cough (nonproductive in children and older adults), fever, chills, fatigue, dyspnea, and pleuritic chest pain.
+
+Treat patients with mild or moderate risk pneumonia with empiric antibiotics without testing designed to identify the underlying pathogen.
+
+Hospitalize patients at high risk, as delineated by risk assessment tools; severe pneumonia requires prompt identification and management.
+
+Consider alternate diagnoses, including pulmonary embolism, particularly if pneumonia-like signs and symptoms are not typical.

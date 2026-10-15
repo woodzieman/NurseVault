@@ -1,0 +1,72 @@
+=== Overview of Chromosomal Abnormalities (Merck Manual Professional) ===
+Section: Pediatrics > Chromosome and Gene Abnormalities
+Source: https://www.merckmanuals.com/professional/pediatrics/chromosome-and-gene-abnormalities/overview-of-chromosomal-abnormalities
+Retrieved: 2026-09-25
+
+Chromosomal abnormalities are genetic alterations involving the number or structure of chromosomes. These abnormalities cause various disorders. Abnormalities that affect the autosomes (the 22 paired chromosomes that are alike in males and females) are more common than those that affect the sex chromosomes (X and Y) (1).
+
+Numerical abnormalities may involve a part of, or the entire, chromosome.
+
+Numerical abnormalities include:
+
+Trisomy (an extra chromosome)
+
+Monosomy (a missing chromosome)
+
+Structural abnormalities include:
+
+Translocations (abnormalities in which a whole chromosome or segments of chromosomes inappropriately join with other chromosomes)
+
+Deletions and duplications of various parts of chromosomes
+
+Terminology
+
+Some specific terms from the field of genetics are important for describing chromosomal abnormalities:
+
+Aneuploidy: The most common chromosomal abnormality caused by an extra or missing chromosome.
+
+Karyotype: The full set of chromosomes in a person's cells.
+
+Genotype: The genetic constitution determined by the karyotype.
+
+Phenotype: The person's clinical findings including outward appearance—the biochemical, physiologic, and physical makeup as determined by the genotype and environmental factors (see General Principles of Medical Genetics).
+
+Mosaicism: The presence of ≥ 2 cell lines differing in genotype in a person who has developed from a single fertilized egg.
+
+General reference
+
+1. Suciu N, Plaiasu V. A time stamp comparative analysis of frequent chromosomal abnormalities in Romanian patients. J Matern Fetal Neonatal Med. 2014;27(1):1-6. doi:10.3109/14767058.2013.794215
+
+Diagnosis of Chromosomal Abnormalities
+
+Chromosomal analysis (karyotyping)
+
+Banding
+
+Fluorescent in situ hybridization (FISH)
+
+Chromosomal microarray analysis (array comparative genomic hybridization)
+
+(See also Next-generation sequencing technologies.)
+
+Larger chromosomal abnormalities are visible at the microscopic level (eg, on a karyotype) compared to microdeletions, microduplications, and single-gene defects (such as base-pair insertions, deletions, inversions, or substitutions), which require more specialized testing. Mitosis is the focus of analysis in many chromosomal studies because it produces somatic cells with a conspicuous diploid chromosome, where abnormalities are easily visualized. The phases of mitosis in chronological order are prophase, prometaphase, metaphase (where chromosomes are most condensed), anaphase, and telophase.
+
+Chromosomal analysis typically involves the use of lymphocytes, except prenatally, when amniocytes or cells from placental chorionic villi are used (see Amniocentesis and Chorionic Villus Sampling). A karyotype analysis involves blocking cells in mitosis during metaphase and staining the condensed chromosomes. Chromosomes from single cells are photographed with digital imaging capture systems, and their images are arranged, forming a karyotype.
+
+Several techniques are used to better delineate the chromosomes:
+
+Classical banding (eg, G [Giemsa]-banding, Q [fluorescent]-banding, and C-banding) uses a dye to stain bands on the chromosomes.
+
+High-resolution chromosome analysis uses special culture methods to obtain a high percentage of prophase and prometaphase spreads. Because of the predominance of prophase and prometaphase, the chromosomes are less condensed than in routine metaphase analysis, and the number of identifiable bands is expanded, allowing a more sensitive karyotype analysis.
+
+Spectral karyotyping analysis (also called chromosome painting) uses multicolor chromosome-specific fluorescent in situ hybridization (FISH) techniques that improve the visibility of certain defects, including translocations and inversions.
+
+Chromosomal microarray analysis (CMA), also called array comparative genomic hybridization (aCGH), is a single-step technique that allows the entire genome to be scanned for chromosome dosage abnormalities, including increases (duplications) or decreases (deletions), which may also be suggestive of an unbalanced translocation. Single nucleotide polymorphism (SNP) microarray analysis is a type of CMA that has the additional ability to detect regions of homozygosity, which may be seen in cases where parents share common ancestry (consanguinity), and also when there is uniparental disomy (ie, both copies of a chromosome, or part of a chromosome, are inherited from one parent, instead of 1 copy from the mother and 1 copy from the father). It is important to note that CMA does not detect balanced rearrangements (eg, translocations, inversions), which are not associated with deletions or duplications.
+
+Screening
+
+Noninvasive prenatal screening (NIPS) methods are used for prenatal genetic screening tests (1). These methods involve obtaining cell-free fetal DNA sequences from a maternal blood sample, primarily for trisomy 21 (Down syndrome), trisomy 13, trisomy 18, and sex chromosome aneuploidy. NIPS has also been used as a screening test for common microdeletion syndromes (eg, 22q11 deletion). The sensitivity and specificity of NIPS varies for different chromosomal abnormalities. It is recommended that any abnormality detected with NIPS should be confirmed with a diagnostic test.
+
+Screening reference
+
+1. American College of Obstetricians and Gynecologists’ Committee on Practice Bulletins—Obstetrics; Committee on Genetics; Society for Maternal-Fetal Medicine. Screening for fetal chromosomal abnormalities: ACOG Practice Bulletin, Number 226. Obstet Gynecol. 2020;136(4):e48-e69. doi:10.1097/AOG.0000000000004084

@@ -1,0 +1,84 @@
+=== Drug Absorption (Merck Manual Professional) ===
+Section: Clinical Pharmacology > Pharmacokinetics
+Source: https://www.merckmanuals.com/professional/clinical-pharmacology/pharmacokinetics/drug-absorption
+Retrieved: 2026-09-25
+
+Drug absorption is determined by the drug’s physicochemical properties, formulation, and route of administration. Dosage forms (eg, tablets, capsules, solutions), consisting of the drug plus other ingredients, are formulated to be given by various routes (eg, oral, buccal, sublingual, rectal, parenteral, topical, inhalational). Regardless of the route of administration, drugs must be in solution to be absorbed. Thus, solid forms (eg, tablets) must be able to disintegrate and deaggregate.
+
+Unless given intravenously, a drug must cross several semipermeable cell membranes before it reaches the systemic circulation. Cell membranes are biologic barriers that selectively inhibit passage of drug molecules. The membranes are composed primarily of a bimolecular lipid matrix, which determines membrane permeability characteristics. Drugs may cross cell membranes by:
+
+Passive diffusion
+
+Facilitated passive diffusion
+
+Active transport
+
+Pinocytosis
+
+Sometimes various globular proteins embedded in the matrix function as receptors and help transport molecules across the membrane.
+
+(See also Overview of Pharmacokinetics.)
+
+Passive diffusion
+
+Drugs diffuse across a cell membrane from a region of high concentration (eg, gastrointestinal fluids) to one of low concentration (eg, blood). Diffusion rate is directly proportional to the concentration gradient but also depends on the molecule’s lipid solubility, size, degree of ionization, and the area of absorptive surface. Because the cell membrane is lipoid, lipid-soluble drugs diffuse most rapidly. Small molecules tend to penetrate membranes more rapidly than larger ones.
+
+Most drugs are weak organic acids or bases, existing in un-ionized and ionized forms in an aqueous environment. The un-ionized form is usually lipid soluble (lipophilic) and diffuses readily across cell membranes. The ionized form has low lipid solubility (but high water solubility—ie, hydrophilic) and high electrical resistance, and thus cannot penetrate cell membranes easily.
+
+The proportion of the un-ionized form present (and thus the drug’s ability to cross a membrane) is determined by the environmental pH and the drug’s pKa (acid dissociation constant). The pKa is the pH at which concentrations of ionized and un-ionized forms are equal. When the pH is lower than the pKa, the un-ionized form of a weak acid predominates, but the ionized form of a weak base predominates. Thus, in plasma (pH 7.4), the ratio of un-ionized to ionized forms for a weak acid (eg, with a pKa of 4.4) is 1:1000; in gastric fluid (pH 1.4), the ratio is reversed (1000:1). Therefore, when a weak acid is given orally, most of the drug in the stomach is un-ionized, favoring diffusion through the gastric mucosa. For a weak base with a pKa of 4.4, the outcome is reversed; most of the drug in the stomach is ionized.
+
+Theoretically, weakly acidic drugs (eg, aspirin) are more readily absorbed from an acid medium (stomach) than are weakly basic drugs (eg, quinidine). However, whether a drug is acidic or basic, most absorption occurs in the small intestine because the surface area is larger and membranes are more permeable (see Oral Administration).
+
+Facilitated passive diffusion
+
+Certain molecules with low lipid solubility (eg, glucose) penetrate membranes more rapidly than expected. One theory is facilitated passive diffusion: A carrier molecule in the membrane combines reversibly with the substrate molecule outside the cell membrane, and the carrier-substrate complex diffuses rapidly across the membrane, releasing the substrate at the interior surface. In such cases, the membrane transports only substrates with a relatively specific molecular configuration, and the availability of carriers limits the process. The process does not require energy expenditure, and transport against a concentration gradient cannot occur.
+
+Active transport
+
+Active transport is selective, requires energy expenditure, and may involve transport against a concentration gradient. Active transport seems to be limited to drugs structurally similar to endogenous substances (eg, ions, some vitamins, sugars, amino acids). These drugs are usually absorbed from specific sites in the small intestine.
+
+Pinocytosis
+
+In pinocytosis, fluid or particles are engulfed by a cell. The cell membrane invaginates, encloses the fluid or particles, then fuses again, forming a vesicle that later detaches and moves to the cell interior. Energy expenditure is required. Pinocytosis probably plays a small role in drug transport overall, but plays a more significant role in transport of protein drugs.
+
+Oral Administration
+
+To be absorbed, a drug given orally must survive encounters with low pH environments and numerous gastrointestinal (GI) secretions, including potentially degrading enzymes. Peptide drugs (eg, insulin) are particularly susceptible to degradation and are not given orally. Absorption of oral drugs involves transport across membranes of the epithelial cells in the GI tract. Absorption is affected by:
+
+Differences in luminal pH along the GI tract
+
+Surface area per luminal volume
+
+Blood perfusion
+
+Presence of bile and mucus
+
+The nature of epithelial membranes
+
+The oral mucosa has a thin epithelium and rich vascularity, which favor absorption; however, contact is usually too brief for substantial absorption. A drug placed between the gums and cheek (buccal administration) or under the tongue (sublingual administration) is retained longer, enhancing absorption.
+
+The stomach is normally the first organ in which intense contact between a drug given orally and GI fluids occurs (1). Although the stomach has a relatively large epithelial surface, its thick mucous layer and short transit time limit drug absorption. These properties of the stomach can influence drug formulation and behavior. Because most absorption occurs in the small intestine, gastric emptying is often the rate-limiting step. Food, especially fatty food, slows gastric emptying (and the rate of drug absorption), explaining why taking some drugs on an empty stomach speeds absorption. Drugs that affect gastric emptying (eg, parasympatholytic drugs) affect the absorption rate of other drugs. Food may enhance the extent of absorption for poorly soluble drugs (eg, griseofulvin), reduce it for drugs degraded in the stomach (eg, penicillin G), or have little or no effect.
+
+In the GI tract, the small intestine has the largest surface area for drug absorption, and its membranes are more permeable than those in the stomach. For these reasons, most drugs are absorbed primarily in the small intestine, and acids, despite their ability as un-ionized drugs to readily cross membranes, are absorbed faster in the intestine than in the stomach (1). The intraluminal pH is 4 to 5 in the duodenum but becomes progressively more alkaline, approaching 8 in the lower ileum. GI microflora may reduce absorption. Decreased blood flow (eg, in hypotension or shock) may lower the concentration gradient across the intestinal mucosa and reduce absorption by passive diffusion.
+
+Intestinal transit time can influence drug absorption, particularly for drugs that are absorbed by active transport (eg, B vitamins), that dissolve slowly (eg, griseofulvin), or that are polar (ie, with low lipid solubility; eg, many antibiotics).
+
+To maximize adherence, clinicians should prescribe oral suspensions and chewable tablets for children < 8 years of age. In adolescents and adults, most drugs are given orally as tablets or capsules primarily for convenience, economy, stability, and patient acceptance. Because solid drug forms must dissolve before absorption can occur, dissolution rate determines availability of the drug for absorption. Dissolution, if slower than absorption, becomes the rate-limiting step. Manipulating the formulation (ie, the drug’s form as salt, crystal, or hydrate) can change the dissolution rate and thus control overall absorption.
+
+Reference
+
+1. Vertzoni M, Augustijns P, Grimm M, et al. Impact of regional differences along the gastrointestinal tract of healthy adults on oral drug absorption: An UNGAP review. Eur J Pharm Sci 2019;134:153-175. doi:10.1016/j.ejps.2019.04.013
+
+Parenteral Administration
+
+Drugs given IV enter the systemic circulation directly. However, drugs injected intramuscularly (IM) or subcutaneously (sc) must cross one or more biologic membranes to reach the systemic circulation. If protein drugs with a molecular mass > 20,000 g/mol are injected IM or sc, movement across capillary membranes is so slow that most absorption occurs via the lymphatic system. In such cases, drug delivery to systemic circulation is slow and often incomplete because of first-pass metabolism (metabolism of a drug before it reaches systemic circulation) by proteolytic enzymes in the lymphatics.
+
+Perfusion (blood flow/gram of tissue) greatly affects capillary absorption of small molecules injected IM or subcutaneously. Thus, injection site can affect absorption rate. Absorption after IM or subcutaneous injection may be delayed or erratic for salts of poorly soluble bases and acids (eg, parenteral form of phenytoin) and in patients with poor peripheral perfusion (eg, during hypotension or shock).
+
+Controlled-Release Forms
+
+Controlled-release forms of oral medications are designed to reduce dosing frequency for drugs with a short elimination half-life and duration of effect. These forms also limit fluctuation in plasma drug concentration, providing a more uniform therapeutic effect while minimizing adverse effects. Absorption rate is slowed by coating drug particles with wax or other water-insoluble material, by embedding the drug in a matrix that releases it slowly during transit through the gastrointestinal tract, or by complexing the drug with ion-exchange resins. Absorption of these forms mostly occurs in the large intestine. Crushing or otherwise disturbing a controlled-release tablet or capsule can often be dangerous.
+
+Transdermal controlled-release forms are designed to release the drug for extended periods, sometimes for several days. Drugs for transdermal delivery must have suitable skin-penetration characteristics and high potency because the penetration rate and area of application are limited.
+
+Many non-IV parenteral forms are designed to sustain plasma drug concentrations. Absorption of antimicrobials can be extended by using their relatively insoluble salt form (eg, penicillin G benzathine) injected IM. For other drugs, suspensions or solutions in nonaqueous vehicles (eg, crystalline suspensions for insulin) are designed to delay absorption.

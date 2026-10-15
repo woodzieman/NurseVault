@@ -1,0 +1,950 @@
+=== Lung Carcinoma (Merck Manual Professional) ===
+Section: Oncology > Tumors of the Lungs
+Source: https://www.merckmanuals.com/professional/oncology/tumors-of-the-lungs/lung-carcinoma
+Retrieved: 2026-09-25
+
+Lung cancer is the leading cause of cancer death worldwide, with the International Agency for Research on Cancer estimating 2.5 million incident cases and 1.8 million deaths in 2022 (1). Lung cancer accounts for approximately 12% of all new cancer diagnoses and nearly 19% of cancer deaths globally. There is significant variation in the occurrence of lung cancer worldwide, with some areas having higher incidence rates (eg, Australia, New Zealand) and some lower (eg, West Africa). There is a male predominance. These variations by sex and region may in part be explained by differing prevalences of smoking and levels of economic development (2).
+
+In the United States, an estimated 226,650 new cases of lung cancer are expected to be diagnosed in 2025 (about 110,680 in men and 115,970 in women), and 124,730 people are expected to die from the disease (3).
+
+General references
+
+1. Bray F, Laversanne M, Sung H, et al. Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA Cancer J Clin. 2024;74(3):229-263. doi:10.3322/caac.21834
+
+2. Leiter A, Veluswamy RR, Wisnivesky JP. The global burden of lung cancer: current status and future trends. Nat Rev Clin Oncol. 2023;20(9):624-639. doi:10.1038/s41571-023-00798-3
+
+3. SEER Cancer Stat Facts. Lung and Bronchus Cancer. Surveillance, Epidemiology, and End Results (SEER) Program, 2025. Available at: https://seer.cancer.gov/statfacts/html/lungb.html. Accessed September 3, 2025.
+
+Etiology of Lung Carcinoma
+
+The most important cause of lung cancer, accounting for approximately 85% of cases, is cigarette smoking (1). Both active smoking (including cigars) and exposure to secondhand smoke are causes, with a clear dose-response relationship between the amount (ie, intensity) and duration of smoking and lung cancer risk. The risk of cancer also varies by age and sex.
+
+The risk of lung cancer increases with combined exposure to toxins and cigarette smoking; however, smoking rates have in general been declining in many parts of the world. Other confirmed or possible risk factors include air pollution, marijuana smoking, and exposure to carcinogens (eg, asbestos, formaldehyde, dioxins, cobalt, arsenic, cadmium, chromium, nickel, chloromethyl ethers, polycyclic aromatic hydrocarbons, mustard gas, coke-oven emissions, smoke from primitive cooking or heating fires in huts) (2). A family history of lung cancer and a personal history of cancer are also thought to confer increased genetic risks (3). Electronic nicotine delivery systems (eg, e-cigarettes) are associated with exposure to carcinogenic compounds and cellular changes that are plausibly linked to lung cancer, but direct evidence of increased lung cancer risk remains limited.
+
+The risk of cancer declines after smoking cessation, but it never returns to the baseline risk in people who have never smoked. Approximately 15 to 20% of people who develop lung cancer have never smoked or have smoked minimally (3).
+
+Exposure to ionizing radiation is of particular concern; for instance, chronic exposure to household radon increases lung cancer risk and is the second leading cause of lung cancer in the United States (4).
+
+Chronic inflammation also increases the risk of many cancers, including lung cancer. For example, chronic obstructive pulmonary disease (COPD), alpha-1 antitrypsin deficiency, and pulmonary fibrosis increase susceptibility to lung cancer. People whose lungs are scarred by other lung diseases (eg, tuberculosis) are potentially at increased risk of lung cancer. People who are active smokers and also take beta-carotene supplements have been found to be at increased risk of developing lung cancer (5).
+
+Etiology references
+
+1.  Centers for Disease Control and Prevention. Lung Cancer Risk Factors. February 13, 2025. Accessed November 14, 2025.
+
+2. Shehata SA, Toraih EA, Ismail EA, Hagras AM, Elmorsy E, Fawzy MS. Vaping, Environmental Toxicants Exposure, and Lung Cancer Risk. Cancers (Basel). 2023;15(18):4525. doi:10.3390/cancers15184525
+
+3. Murphy C, Pandya T, Swanton C, Solomon BJ. Lung Cancer in Nonsmoking Individuals: A Review. JAMA. Published online October 20, 2025. doi:10.1001/jama.2025.17695
+
+4. American Cancer Society. Cancer Prevention & Early Detection  Facts & Figures 2025-2026.
+
+5. O'Connor EA, Evans CV, Ivlev I, et al. Vitamin and Mineral Supplements for the Primary Prevention of Cardiovascular Disease and Cancer: Updated Evidence Report and Systematic Review for the US Preventive Services Task Force. JAMA. 2022;327(23):2334-2347. doi:10.1001/jama.2021.15650
+
+Pathogenesis of Lung Cancer
+
+Lung cancer pathogenesis involves a multistep process driven by genetic (both germline and somatic mutations), epigenetic, and environmental (predominantly tobacco exposure) factors. Respiratory epithelial cells require prolonged exposure to carcinogenic agents and the accumulation of recurrent and sequential genetic mutations before becoming neoplastic (an effect called field carcinogenesis) (1).
+
+In some patients with lung cancer, secondary or additional mutations in genes that stimulate cell growth (KRAS, MYC) or cause abnormalities in growth factor receptor signaling (EGFR, ERBB2[HER2]) can contribute to the uncontrolled proliferation of abnormal cells. In addition, mutations that inhibit tumor-suppressor genes (eg, TP53, APC) can lead to cancer. Other mutations that may be responsible include the EML4::ALK translocation and mutations in ROS1, BRAF, and PIK3CA (2).
+
+Genes that are primarily responsible for lung cancer are called oncogenic driver mutations. Genetic susceptibility that is conferred by oncogenic driver mutations plays a particularly significant role in people who have never smoked; pre-existing germline variants and familial aggregation contribute to the cumulative risk. In 2014, the Lung Cancer Mutation Consortium (LCMC) found driver mutations in 64% of 733 lung cancers. Cancers in this group included those in people who smoke and in people who do not smoke (25% KRAS mutations, 17% EGFR mutations, 8% EML4::ALK mutations, 3% ERBB2 (HER2) mutations, and 2% BRAF mutations) (3). In a subsequent LCMC study including 904 patients with stage IV lung cancer who had at least 1 of 14 cancer-related genes tested, oncogenic driver mutations were identified in more than half of patients with adenocarcinoma, and treatment with targeted therapies was associated with improved survival (3, 4).
+
+Lung cancer is histologically classified into small cell lung cancer (SCLC) and non-small-cell lung cancer (NSCLC).
+
+Distinct molecular pathways undergo recurrent alterations in different lung cancer subtypes.
+
+Oncogenic driver alterations in NSCLC are clinically significant because they can be identified through routine molecular testing, and targeted therapies for several mutations are available. The following genetic pathways have been implicated in NSCLC (5):
+
+Adenocarcinoma: Characterized by frequent activating mutations in oncogenes KRAS (33%), EGFR (14%), BRAF (10%), PIK3CA (7%), and MET (7%) and inactivating mutations in tumor suppressors TP53 (46%), STK11 (17%), KEAP1 (17%), NF1 (11%), RB1 (4%), and CDKN2A (4%). Constitutive activation of the KRAS pathway (RTK/RAS/RAF) in particular drives unchecked tumor proliferation. Mutations in chromatin-modifying and RNA-splicing genes account for 10% of cases. NTRK gene fusions (eg, NTRK1, NTRK2, NTRK3) are also implicated. Mutations are differentially distributed by smoking status.
+
+Squamous cell carcinoma: Characterized by a higher frequency of TP53 (91%) and CDKN2A (17%) mutations, but fewer receptor tyrosine kinase (RTK) gene mutations. There is a greater prevalence of tumor suppressor inactivation, notably in NOTCH1 and NOTCH2 (together, 13%), PTEN (8%), and RB1 (7%).
+
+In contrast, oncogenic driver mutations in SCLC are not as clinically relevant because mutations implicated typically cannot be directly targeted with current therapies. SCLC is characterized by nearly universal loss-of-function mutations in tumor suppressor genes TP53 (92%) and RB1 (75%), as well as frequent alterations in genes such as MYC, NOTCH1 (and to a lesser extent, NOTCH2), and others, but rarely harbors the oncogenic driver mutations seen in NSCLC (5). 
+
+Pathogenesis references
+
+1. Mantovani A, Allavena P, Sica A, Balkwill F. Cancer-related inflammation. Nature. 2008;454(7203):436-444. doi:10.1038/nature07205
+
+2. Nana-Sinkam SP, Powell CA. Molecular biology of lung cancer: Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines. Chest. 2013;143(5 Suppl):e30S-e39S. doi:10.1378/chest.12-2346
+
+3. Kris MG, Johnson BE, Berry LD, et al: Using multiplexed assays of oncogenic drivers in lung cancers to select targeted drugs. JAMA.2014; 311(19):1998–2006. doi: 10.1001/jama.2014.3741
+
+4. Sholl LM, Aisner DL, Varella-Garcia M, et al. Multi-institutional Oncogenic Driver Mutation Analysis in Lung Adenocarcinoma: The Lung Cancer Mutation Consortium Experience. J Thorac Oncol. 2015;10(5):768-777. doi:10.1097/JTO.0000000000000516
+
+5. Swanton C, Govindan R. Clinical Implications of Genomic Discoveries in Lung Cancer. N Engl J Med. 2016;374(19):1864-1873. doi:10.1056/NEJMra1504688
+
+Classification of Lung Carcinoma
+
+Lung cancer is classified into 2 major categories:
+
+Small cell lung cancer (SCLC), about 15% of cases
+
+Non–small cell lung cancer (NSCLC), about 85% of cases
+
+SCLC is highly aggressive and almost always occurs in people who smoke. It is rapidly growing. Approximately 70% to 80% of patients have metastatic disease at the time of diagnosis (1).
+
+The clinical behavior of NSCLC is more variable and depends on histologic type. One report found that approximately 44% of patients with NSCLC will have metastatic disease outside of the chest at the time of diagnosis (2). Oncogenic driver mutations have been identified primarily in adenocarcinoma, and attempts are being made to identify similar mutations in squamous cell carcinoma.
+
+Histologically, NSCLC is further subclassified into (3):
+
+Adenocarcinoma: The most common subtype, especially in people who have never smoked, includes variants such as adenocarcinoma in situ, minimally invasive adenocarcinoma, and invasive adenocarcinoma (with acinar, papillary, micropapillary, lepidic, or solid patterns)
+
+Squamous cell carcinoma: Characterized by keratinization and/or intercellular bridges, or by immunohistochemical markers of squamous differentiation
+
+Large cell carcinoma: An undifferentiated NSCLC lacking features of adenocarcinoma or squamous cell carcinoma, diagnosed only on resection specimens after exclusion of other subtypes by immunohistochemistry
+
+Adenosquamous carcinoma: Contains both adenocarcinoma and squamous cell carcinoma components, each constituting at least 10% of the tumor
+
+Sarcomatoid carcinoma: Includes pleomorphic carcinoma, carcinosarcoma, and pulmonary blastoma
+
+Other features of the 2 categories (eg, location, risks, treatment, complications) also vary (see table Features of Lung Cancer).
+
+Table
+
+Features of Lung Cancer
+
+Table
+
+Features of Lung Cancer
+
+Features of Lung Cancer
+
+Feature
+
+Small Cell
+
+Non–Small Cell*
+
+Adenocarcinoma
+
+Squamous Cell
+
+Large Cell
+
+% of lung cancers
+
+13–15%
+
+40%
+
+25–30%
+
+10–15%
+
+Location
+
+Submucosa of airways, perihilar mass
+
+Peripheral nodule or mass
+
+Central, endobronchial
+
+Peripheral nodule or mass
+
+Risk factors
+
+Smoking
+
+Smoking (for 80‒85% of patients; 15‒20% never smoked or smoked only minimally); patients particularly those who never smoked often have oncogenic driver mutations
+
+Environmental and occupational exposures (mainly to radon, asbestos, radiation, secondhand smoke, polycyclic aromatic hydrocarbons, arsenic, chromates, or nickel)
+
+Treatment
+
+Etoposide plus cisplatin or carboplatin
+
+Immunotherapy for extensive stage and limited stage SCLC
+
+Concurrent radiation therapy in limited-stage disease
+
+No role for surgery unless patient presented with a solitary pulmonary nodule without apparent lymph node or distant spread
+
+Stage IA: Surgery or stereotactic radiotherapy (SBRT)
+
+Stage IB: Surgery plus adjuvant chemotherapy, targeted therapy if EGFR positive, or immunotherapy
+
+Stage IIA and IIB: Surgery with or without neoadjuvant or adjuvant chemotherapy with or without immunotherapy
+
+Stage IIIA: Choice of therapy depends on the extent and localization of disease and may include surgery with adjuvant therapy (chemotherapy, immunotherapy, or targeted therapy); neoadjuvant therapy (chemotherapy and immunotherapy) followed by surgery if there is a response
+
+Stage IIIB: Concurrent chemotherapy and radiation therapy followed by immunotherapy
+
+Stage IV: Systemic targeted therapy, chemotherapy, or immunotherapy—each with or without palliative radiation therapy
+
+Factors that influence the treatment modality and sequence of therapies include histology (adenocarcinoma vs squamous vs other), presence of actionable genomic mutations, PD-L1 expression (for immunotherapy), and patient-specific factors (eg, age, comorbid diseases, treatment preferences)
+
+Advanced NSCLC generally requires the sequential use of multiple systemic therapies (chemotherapy, radiation therapy, immunotherapy, targeted [biologic] therapy) to improve overall survival
+
+Complications
+
+SVC syndrome
+
+Paraneoplastic syndromes
+
+Hemoptysis, airway obstruction, pneumonia, pleuritic involvement with pain, pleural effusion, SVC syndrome, Pancoast tumor (causing shoulder or arm pain), hoarseness due to laryngeal nerve involvement, neurologic symptoms due to brain metastasis, pathologic fractures due to bone metastasis, jaundice due to liver metastasis
+
+5-year survival with treatment
+
+Limited: 16–28%
+
+Extensive: 12%
+
+Stage I: 65–80%
+
+Stage II: 30–60%
+
+Stage III: 13–36%
+
+Stage IV: 5-62%
+
+Non-small cell lung cancer survival data derived from Goldstraw P, Chansky K, Crowley J, et al: The IASLC Lung Cancer Staging Project: Proposals for Revision of the TNM Stage Groupings in the Forthcoming (Eighth) Edition of the TNM Classification for Lung Cancer. J Thorac Oncol. 2016;11(1):39-51. doi:10.1016/j.jtho.2015.09.009; Asamura H, Farjah F, Gill R, et al. AJCC Cancer Staging System: Lung (Version 9). Chicago: Springer; 2024; Kim SY, Park HS, Chiang AC. Small Cell Lung Cancer: A Review. JAMA. 2025;333(21):1906-1917. doi:10.1001/jama.2025.0560
+
+*This list only includes the most common subtypes of NSCLC; other rarer subtypes of NSCLC include sarcomatoid carcinoma and adenosquamous carcinoma.
+
+NSCLC = non–small cell lung cancer; PD-L1 = programmed death-ligand 1; SCLC = small cell lung cancer; SVC = superior vena cava.
+
+Non-small cell lung cancer survival data derived from Goldstraw P, Chansky K, Crowley J, et al: The IASLC Lung Cancer Staging Project: Proposals for Revision of the TNM Stage Groupings in the Forthcoming (Eighth) Edition of the TNM Classification for Lung Cancer. J Thorac Oncol. 2016;11(1):39-51. doi:10.1016/j.jtho.2015.09.009; Asamura H, Farjah F, Gill R, et al. AJCC Cancer Staging System: Lung (Version 9). Chicago: Springer; 2024; Kim SY, Park HS, Chiang AC. Small Cell Lung Cancer: A Review. JAMA. 2025;333(21):1906-1917. doi:10.1001/jama.2025.0560
+
+*This list only includes the most common subtypes of NSCLC; other rarer subtypes of NSCLC include sarcomatoid carcinoma and adenosquamous carcinoma.
+
+NSCLC = non–small cell lung cancer; PD-L1 = programmed death-ligand 1; SCLC = small cell lung cancer; SVC = superior vena cava.
+
+Classification references
+
+1. Saida Y, Watanabe S, Kikuchi T. Extensive-Stage Small-Cell Lung Cancer: Current Landscape and Future Prospects. Onco Targets Ther. 2023;16:657-671. doi:10.2147/OTT.S272552
+
+2. Ganti AK, Klein AB, Cotarla I, Seal B, Chou E. Update of Incidence, Prevalence, Survival, and Initial Treatment in Patients With Non-Small Cell Lung Cancer in the US. JAMA Oncol. 2021;7(12):1824-1832. doi:10.1001/jamaoncol.2021.4932
+
+3. National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines). Non-Small Cell Lung Cancer, version 1.2026. https://nccn.org/guidelines/category_1. Accessed November 7, 2025.
+
+Symptoms and Signs of Lung Carcinoma
+
+Approximately 25% of patients with lung cancer are asymptomatic, and the disease is detected incidentally with chest imaging obtained for another reason (1). Symptoms and signs can result from local tumor progression, regional spread, or distant metastases. Paraneoplastic syndromes, more common in small cell lung cancer, and constitutional symptoms may occur at any stage of the disease. Although symptoms are not specific to the classification or histology of the cancer, certain complications may be more likely with different types (see table Features of Lung Cancer).
+
+Local tumor
+
+Local tumors can cause cough, most commonly non-productive, that is chronic or persistent. Less commonly, local tumors can cause dyspnea due to airway obstruction, postobstructive atelectasis, or pneumonia and parenchymal loss due to lymphangitic spread. Fever may occur with postobstructive pneumonia. Hemoptysis is also less common, and blood loss is minimal, except in rare instances when the tumor erodes into a major artery, causing massive hemorrhage and often death by asphyxiation or exsanguination. Hemoptysis may be the presenting symptom in approximately 30% of patients (2). Wheezing may be experienced by patients with peribronchial or bronchial tumors (2). About 18% of patients may report vague or localized chest pain that is usually characterized as a dull ache.
+
+Regional spread
+
+Regional spread of tumor may cause pleuritic chest pain or dyspnea due to the development of a pleural effusion, hoarseness due to tumor encroachment on the recurrent laryngeal nerve, and dyspnea and hypoxia from diaphragmatic paralysis (leading to hemidiaphragmatic elevation) due to involvement of the phrenic nerve.
+
+Superior vena cava (SVC) syndrome results from compression or invasion of the SVC and can cause headache or a sensation of head fullness, facial or upper-extremity swelling, breathlessness when supine, dilated veins in the neck, face, and upper trunk, and facial and truncal flushing (also called plethora).
+
+Pancoast syndrome occurs when apical tumors, usually NSCLC (Pancoast tumor), invade the brachial plexus, pleura, or ribs, causing shoulder and upper-extremity pain and weakness or atrophy of the ipsilateral hand. Pancoast syndrome can also include Horner syndrome.
+
+Horner syndrome results when the paravertebral sympathetic chain or the cervical stellate ganglion is involved, causing ipsilateral ptosis, miosis, and anhidrosis.
+
+Spread of the tumor to the pericardium may be asymptomatic or lead to pericardial effusions, constrictive pericarditis, or cardiac tamponade.
+
+In rare cases, esophageal compression by the tumor leads to dysphagia.
+
+Superior Vena Cava Syndrome
+
+Image
+
+The image on the left shows a patient with the plethoric face and neck and dilated neck and chest veins typical of superior vena cava syndrome. The image on the right shows the same patient after relief of the vena cava compression.
+
+© Springer Science+Business Media
+
+Metastases
+
+Metastases eventually cause symptoms that vary by location. Constitutional symptoms in patients with advanced metastatic disease include anorexia/cachexia, weight loss, and fatigue. Metastases can spread to the:
+
+Liver, causing pain, nausea, early satiety, jaundice and ultimately hepatic insufficiency
+
+Brain, causing behavioral changes, confusion, aphasia, seizures, gait instability, paresis or paralysis, nausea and vomiting, and ultimately coma and death
+
+Bones, causing severe pain and pathologic fractures
+
+Adrenal glands, rarely causing adrenal insufficiency
+
+Paraneoplastic syndromes
+
+Paraneoplastic syndromes are symptoms that occur at sites distant from a tumor or its metastases. Common paraneoplastic syndromes in patients with lung cancer include:
+
+Hypercalcemia (in patients with squamous cell carcinoma, which results from the tumor producing parathyroid hormone–related protein, or because of extensive bone metastases that cause production of osteoclast-activating factors )
+
+Syndrome of inappropriate antidiuretic hormone (SIADH) secretion (in patients with small cell lung cancer)
+
+Finger clubbing with or without hypertrophic pulmonary osteoarthropathy (most common in non-small cell lung cancer)
+
+Hypercoagulability with migratory superficial thrombophlebitis (Trousseau syndrome)
+
+Myasthenia-like symptoms (Lambert-Eaton syndrome, most common in small cell lung cancer)
+
+Cushing syndrome (most common in small cell lung cancer)
+
+Various other neurologic syndromes (most common in small cell lung cancer)
+
+Other neurologic syndromes include neuropathies, encephalopathies, encephalitides, myelopathies, and cerebellar disease. Mechanisms for neuromuscular syndromes involve tumor expression of autoantigens with production of autoantibodies such as in Lambert-Eaton myasthenic syndrome, but the cause of most other syndromes is unknown.
+
+Symptoms and signs references
+
+1. Polanco D, Pinilla L, Gracia-Lavedan E, et al. Prognostic value of symptoms at lung cancer diagnosis: a three-year observational study. J Thorac Dis. 2021;13(3):1485-1494. doi:10.21037/jtd-20-3075
+
+2. Xing PY, Zhu YX, Wang L, et al. What are the clinical symptoms and physical signs for non-small cell lung cancer before diagnosis is made? A nation-wide multicenter 10-year retrospective study in China. Cancer Med. 2019;8(8):4055-4069. doi:10.1002/cam4.2256
+
+Diagnosis of Lung Carcinoma
+
+Chest radiography and chest CT
+
+CT combined with positron emission tomography (PET)–CT
+
+Cytopathology examination of pleural fluid
+
+Bronchoscopy-guided or percutaneous transthoracic biopsy and core biopsy
+
+Bronchoscopy with ultrasound-guided lymph node aspiration
+
+Thoracoscopic surgical lung biopsy
+
+Histopathologic analysis of biopsied tissue
+
+Molecular (genetic) analysis of biopsied tissue
+
+Diagnosis begins with a heightened index of clinical suspicion based on risk factors (smoking or other related exposures), the presence of local, regional, or metastatic clinical features (eg, cough, hemoptysis, weight loss, those of paraneoplastic syndromes), and imaging findings (chest CT, PET–CT) (1).The possibility of lung cancer should also be suspected in patients undergoing lung cancer screening, based on findings from low-dose CT imaging. Establishing the diagnosis of lung cancer requires pathologic confirmation of malignancy in a pulmonary or metastatic lesion through tissue sampling for histologic and molecular analysis. The sampling approach that is used is based on clinical and radiologic considerations, with multidisciplinary input as appropriate.
+
+Imaging
+
+Chest radiography is often the initial imaging test. It may show clearly defined abnormalities, such as a single mass, multifocal masses, a solitary pulmonary nodule, an enlarged hilum, a widened mediastinum, tracheobronchial narrowing, atelectasis, nonresolving parenchymal infiltrates, cavitary lesions, or unexplained pleural thickening or effusion. These findings are suggestive but not diagnostic of lung cancer and require follow-up with CT scans or combined PET–CT scans. Definitive diagnosis and staging is confirmed with cytopathologic testing.
+
+Primary Lung Cancer
+
+Image
+
+Chest radiography shows a left upper lobe non–small cell lung cancer with mediastinal and left hilar adenopathy. The primary tumor is cavitated and an air-fluid level is present.
+
+Image courtesy of Anne S. Tsao, MD.
+
+CT shows many characteristic anatomic patterns and appearances that may strongly suggest the diagnosis. If a lesion found on a plain radiograph is highly suggestive of lung cancer (ie, based on risk factors such as age, tobacco use, symptoms), PET–CT may be done to assist in directing the diagnostic evaluation and staging. This study combines anatomic imaging from CT with functional imaging (via the use of a radioactive tracer to highlight metabolic activity) from PET, which can help differentiate inflammatory and malignant processes. Both CT and PET–CT can help direct core needle biopsy of lesions not amenable to bronchoscopic biopsy. PET images may also detect lymph node enlargement and distant metastatic disease.
+
+Cytology
+
+The method used to obtain cells or tissue for confirmation depends on the accessibility of tissue and the location of lesions. Cytology examination is generally the least invasive method that can sometimes confirm the diagnosis of lung cancer. Cytology examination of sputum or pleural fluid is the least invasive method to confirm the diagnosis and staging of lung cancer.
+
+Sputum cytology has limited sensitivity for accurate histologic assessment and there is often insufficient sample for molecular characterization (2, 3). When classic cytomorphologic features are present, sputum cytology can distinguish between SCLC and NSCLC. Sputum samples may offer higher yields in SCLC, where tumors are more likely to be endobronchial or centrally located. Pleural fluid is another convenient source of cells; a malignant effusion is a poor prognostic sign and indicates advanced stage disease.
+
+In general, false-negative cytology readings can be minimized by obtaining cell blocks from biopsy or aspirate specimens (eg, pleural fluid) so that molecular characterization can be performed. Molecular (genetic) studies may also be performed on paraffin-embedded tumor cell pellets from pleural fluid if the fluid is spun down and the cell pellet preserved in a timely fashion.
+
+Procedures
+
+Percutaneous biopsy is the next least invasive procedure. It is more useful for tumor involving extrathoracic sites (eg, supraclavicular or other peripheral lymph nodes, pleura, liver, adrenals) than for lung lesions. Risks include an approximately 25% chance of pneumothorax (primarily in patients with significant emphysema) following CT-guided transthoracic percutaneous lung biopsy and the risk of obtaining a false-negative result (4).
+
+A core biopsy is preferable to a fine-needle biopsy because the latter retrieves too little tissue for accurate genetic studies to be performed.
+
+Bronchoscopy with endobronchial ultrasound-guided lymph node aspiration (EBUS) is the procedure most often used for diagnosing and staging lung cancer. Advances in techniques to guide the bronchoscope have increased the diagnostic yield and the accuracy of sampling more peripheral lesions. EBUS can be done during bronchoscopy and has an excellent yield; it is the preferred method for staging the mediastinum, except in cases where the lymph nodes cannot be sampled due to anatomic considerations. Navigational bronchoscopy is also used to sample more peripheral lesions with improved diagnostic accuracy. Robotic bronchoscopy has been implemented at select centers, to improve the diagnostic yield and limit the number of thoracic surgical procedures.
+
+In theory, the procedure of choice for obtaining tissue is the one that is least invasive; however, in practice, bronchoscopy with EBUS is often done in addition to or instead of less invasive procedures because diagnostic yields are greater and because bronchoscopy with EBUS is also important for staging. A combination of washings, brushings, and biopsies of visible endobronchial lesions and of paratracheal, subcarinal, mediastinal, and hilar lymph nodes often yields a tissue diagnosis and confirms staging of lymph nodes.
+
+Mediastinoscopy had been the standard test for evaluating mediastinal lymph nodes but with the introduction of EBUS, it is not as commonly required for staging the hilar and mediastinal nodes.
+
+Surgical lung biopsy, done via video or robotic assistance, is indicated when less invasive methods do not provide a diagnosis in patients whose clinical characteristics and radiographic features strongly suggest that the tumor is resectable.
+
+Diagnosis references
+
+1. Rivera MP, Mehta AC, Wahidi MM. Establishing the diagnosis of lung cancer: Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines. Chest. 2013;143(5 Suppl):e142S-e165S. doi:10.1378/chest.12-2353
+
+2. National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines). Non-Small Cell Lung Cancer, version 1.2026. https://nccn.org/guidelines/category_1. Accessed November 7, 2025.
+
+3. National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines). Small Cell Lung Cancer, version 2.2026. https://nccn.org/guidelines/category_1. Accessed November 7, 2025.
+
+4. Huo YR, Chan MV, Habib AR, Lui I, Ridley L. Pneumothorax rates in CT-Guided lung biopsies: a comprehensive systematic review and meta-analysis of risk factors. Br J Radiol. 2020;93(1108):20190866. doi:10.1259/bjr.20190866
+
+Staging of Lung Carcinoma
+
+Lung carcinoma is staged using the International Staging System (TNM system), which assesses the anatomic extent of disease based on Tumor size and characteristics (T), regional lymph Node involvement (N), and presence of distant Metastasis (M). Staging currently follows the 9th edition of the American Joint Committee on Cancer (AJCC) system (1, 2).
+
+In addition to the TNM classification, SCLC should be further classified into the following 2 stages (3):
+
+Limited
+
+Extensive
+
+Limited-stage SCLC disease refers to cancer confined to one hemithorax (including ipsilateral lymph nodes) that can be encompassed within one tolerable radiation therapy port, unless there is a pleural or pericardial effusion.
+
+Extensive-stage disease refers to cancer outside a single hemithorax or the presence of malignant cells detected in pleural or pericardial effusions. Only about 1 in 3 patients with SCLC will present with limited-stage disease; the remainder of patients often have extensive distant metastases at the time of diagnosis (4).
+
+SCLC has 4 stages, I through IV which uses the same TNM system as NSCLC; however, in practice, this classification is reported less than the limited- or extensive- stage disease classification (see table International Staging System for Lung Cancer).
+
+Tests for initial evaluation and staging
+
+Some components of staging are part of the typical diagnostic evaluation, for example, endobronchial ultrasound-guided biopsy (EBUS) can be used to sample enlarged lymph nodes at the same time a lung lesion is biopsied.
+
+Patients with lung cancer need imaging to determine whether the disease has spread. Different combinations of tests can be done. Some tests are performed routinely, and others may be performed depending on whether the results would impact treatment decisions:
+
+PET–CT
+
+Contrast-enhanced CT of the chest, abdomen, and pelvis (done if PET–CT is not available)
+
+MRI of chest (to diagnose Pancoast tumors)
+
+Biopsy of questionable nodes (if PET is indeterminate)
+
+Brain MRI or head CT with contrast
+
+Blood tests
+
+Integrated PET–CT, in which images are combined into a single image by scanners in a single gantry (the circular component of the machine that holds rotatory radiation detectors), is a noninvasive test used to identify hypermetabolic activity in lung nodules or masses, hilar or mediastinal lymph nodes, and extrathoracic lesions (distant metastases) for metabolic staging. The use of PET and integrated PET–CT is limited by cost, availability, and specificity (ie, the test is quite sensitive and has an excellent negative predictive value, lower positive predictive values, and imperfect specificity). PET–CT may not be appropriate for small lesions (< 8 mm, such as solitary pulmonary nodules), tumors with low metabolic activity, or lesions with low cellularity (5). Integrated PET–CT scans are favored over PET scans or CT scans because of significantly higher specificity and sensitivity than either modality used alone (6).
+
+If PET–CT is not available, contrast-enhanced CT of the chest, abdomen, and pelvis (to detect cervical and supraclavicular and hepatic and adrenal metastases) can be performed in the evaluation of suspected lung cancer (either SCLC and NSCLC).
+
+While imaging studies are important to evaluate for enlarged nodes and extrathoracic lesions suggestive of metastatic disease, definitive diagnosis, staging, and choice of treatment require cytologic or histopathologic confirmation. Bronchoscopy with endobronchial ultrasound is the test of choice for biopsy of hilar and mediastinal nodes. Mediastinoscopy, or video-assisted thoracoscopic surgery (VATS) can also be used to biopsy questionable mediastinal lymph nodes. Hepatic or adrenal lesions must additionally be evaluated by needle biopsy.
+
+MRI of the chest is slightly more accurate than chest CT for staging apical (Pancoast) tumors and allows for evaluation of vasculature and nerve invasion by the tumor. MRI can also help determine whether surgical resection can be considered.
+
+Blood tests include calcium and alkaline phosphatase levels. Elevation of these values suggests possible bone metastases. Other blood tests, such as complete blood count, aspartate aminotransferase, alanine aminotransferase, total bilirubin, electrolytes, serum albumin, and creatinine levels, have no role in staging but provide important prognostic information about comorbidities and may disclose findings suggestive of paraneoplastic syndromes (eg, hyponatremia, hypercalcemia). Patients with bone pain or elevated serum calcium or alkaline phosphatase levels should undergo PET–CT (or radionuclide bone scanning if PET–CT is not available).
+
+After diagnosis, patients with suspected or confirmed SCLC should undergo brain imaging even in the absence of neurologic symptoms. In patients with NSCLC, brain imaging should be performed in patients with neurologic symptoms (headache, visual changes, nausea or vomiting) or non-specific symptoms such as anorexia and weight loss, and it is recommended in those without neurologic symptoms who have stage II, III, or IV lung cancer. MRI is preferred to CT.
+
+Table
+
+International Staging System for Lung Cancer
+
+Table
+
+International Staging System for Lung Cancer
+
+International Staging System for Lung Cancer
+
+Category
+
+Description
+
+Primary tumor (T)
+
+Tis
+
+Carcinoma in situ
+
+T1
+
+Tumor ≤ 3 cm without invasion more proximal than the lobar bronchus
+
+T1mi
+
+Minimally invasive adenocarcinoma
+
+T1a
+
+Tumor ≤ 1 cm
+
+or
+
+Tumor of any size whose invasive component is limited to the bronchial wall and may extend proximal to the main bronchus
+
+T1b
+
+Tumor > 1 cm but ≤ 2 cm
+
+T1c
+
+Tumor > 2 cm but ≤ 3 cm
+
+T2
+
+Tumor > 3 cm but ≤ 5 cm or with any of the following:
+
+or
+
+Tumor ≤ 4 cm with one or more of the following features:
+
+Invades the visceral pleura
+
+Invades an adjacent lobe
+
+Involves the main bronchus (up to but not including the carina)
+
+or
+
+Associated with atelectasis or obstructive pneumonitis, extending to the hilar regions, involving either part of or the entire lung
+
+T2a
+
+Tumor > 3 but ≤ 4 cm
+
+or
+
+Tumor ≤ 4 cm in greatest dimension with one or more of the following features:
+
+Invades the visceral pleura
+
+Invades an adjacent lobe
+
+Involves the main bronchus (up to but not including the carina)
+
+or
+
+Associated with atelectasis or obstructive pneumonitis, extending to the hilar regions, involving either part of or the entire lung
+
+T2b
+
+Tumor > 4 but ≤ 5 cm in greatest dimension with or without any of the following features:
+
+Invades the visceral pleura
+
+Invades an adjacent lobe
+
+Involves the main bronchus (up to but not including the carina)
+
+or
+
+Associated with atelectasis or obstructive pneumonitis, extending to the hilar regions, involving either part of or the entire lung
+
+T3
+
+Tumor > 5 cm but ≤ 7 cm
+
+or
+
+Tumor ≤ 7 cm with one or more of the following features:
+
+Invades the parietal pleura or chest wall
+
+Invades the pericardium, phrenic nerve or azygos vein
+
+Invades thoracic nerve roots or stellate ganglion
+
+Separate tumor nodule(s) in the same lobe as the primary
+
+T4
+
+Tumor > 7 cm or with either of the following:
+
+Invades the diaphragm, mediastinum, heart, great vessels, trachea, recurrent laryngeal nerve, esophagus, vertebral body, or carina
+
+≥ 1 Satellite tumors in a different ipsilateral lobe
+
+Regional lymph nodes (N)
+
+N0
+
+No regional lymph node metastasis
+
+N1
+
+Metastasis to ipsilateral peribronchial or ipsilateral hilar lymph node or both and to intrapulmonary nodes, including that by direct extension of the primary tumor
+
+N2
+
+Metastasis to ipsilateral mediastinal or subcarinal lymph node or both
+
+N2a
+
+Involvement of a single N2 lymph node station
+
+N2b
+
+Involvement of multiple N2 stations
+
+N3
+
+Metastasis to contralateral mediastinal, contralateral hilar, ipsilateral or contralateral scalene, or supraclavicular lymph node, or a combination
+
+Distant metastasis (M)
+
+M0
+
+No distant metastasis
+
+M1
+
+Distant metastasis
+
+M1a
+
+Tumor with any of the following:
+
+≥ 1 Tumor nodules in the contralateral lung
+
+Pleural or pericardial nodules
+
+Malignant pleural or pericardial effusion
+
+M1b
+
+Single extrathoracic metastasis in a single organ
+
+M1c
+
+Multiple extrathoracic metastases in one or several organs
+
+M1c1
+
+Multiple extrathoracic metastases in a single organ system
+
+M1c2
+
+Multiple extrathoracic metastases in multiple organ systems
+
+Stage groupings
+
+Stage 0: Tis N0 M0
+
+Stage IA1: T1mi–T1a N0 M0
+
+Stage IA2: T1b N0 M0
+
+Stage IA3: T1c N0 M0
+
+Stage IB: T2a N0 M0
+
+Stage IIA: T2b N0 M0 or T1 N1 M0
+
+Stage IIB: T1-T2b N2a-N0a M0 or T3 N0 M0
+
+Stage IIIA: T1 N2b M0 or T2-T3 N2a M0 or T3-T4 N1-N0 M0
+
+Stage IIIB: T1-T2 N3 M0 or T2-T3 N2b M0 or T4 N2a-N2b M0
+
+Stage IIIC: T3-T4 N3 M0
+
+Stage IVA: T (any) N (any) M1a–M1b
+
+Stage IVB: T (any) N (any) M1c
+
+Data from Asamura H, Yotsukura M, Rami-Porta R, Rusch VW. Updates on the Version 9 American Joint Committee on Cancer Staging System for Lung Cancer. Ann Surg Oncol. 2025;32(7):4569-4571. doi:10.1245/s10434-025-17327-4
+
+Data from Asamura H, Yotsukura M, Rami-Porta R, Rusch VW. Updates on the Version 9 American Joint Committee on Cancer Staging System for Lung Cancer. Ann Surg Oncol. 2025;32(7):4569-4571. doi:10.1245/s10434-025-17327-4
+
+Staging references
+
+1. Detterbeck FC, Woodard GA, Bader AS, et al. The Proposed Ninth Edition TNM Classification of Lung Cancer. Chest. 2024;166(4):882-895. doi:10.1016/j.chest.2024.05.026
+
+2. International Association for the Study of Lung Cancer: IASLC Staging Project: Lung Cancer, Thymic Tumors, and Mesothelioma. Accessed November 12, 2025.
+
+3. Micke P, Faldum A, Metz T, et al. Staging small cell lung cancer: Veterans Administration Lung Study Group versus International Association for the Study of Lung Cancer--what limits limited disease?. Lung Cancer. 2002;37(3):271-276. doi:10.1016/s0169-5002(02)00072-7
+
+4. American Cancer Society: Small Cell Lung Cancer Stages. January 29, 2024. Accessed November 12, 2025.
+
+5. Expert Panel on Thoracic Imaging, Martin MD, Henry TS, et al. ACR Appropriateness Criteria® Incidentally Detected Indeterminate Pulmonary Nodule. J Am Coll Radiol. 2023;20(11S):S455-S470. doi:10.1016/j.jacr.2023.08.024
+
+6. Wu Y, Li P, Zhang H, et al. Diagnostic value of fluorine 18 fluorodeoxyglucose positron emission tomography/computed tomography for the detection of metastases in non-small-cell lung cancer patients. Int J Cancer. 2013;132(2):E37-E47. doi:10.1002/ijc.27779
+
+Treatment of Lung Carcinoma
+
+Surgery (depending on cell type and stage)
+
+Chemotherapy
+
+Radiation therapy
+
+Immunotherapy
+
+Targeted therapies
+
+The treatment of lung cancer varies by histological type, stage of disease, and molecular biomarkers. Many patient-specific factors unrelated to the tumor can affect the choice of treatment. In general, measures of patient fitness such as poor cardiopulmonary reserve, undernutrition, frailty or poor physical performance status (assessed by, eg, Karnofsky performance status [KPS] or Eastern Cooperative Oncology Group performance status [ECOGPS]), comorbidities, including cytopenias, and psychiatric or cognitive illness can all lead to a decision for palliative over curative treatment, or even for no treatment at all, despite the possibility of cure with aggressive therapy.
+
+Clinical Calculators
+
+ECOG Performance Status
+
+Overall treatment approaches in SCLC generally consist of systemic therapy with platinum-based chemotherapy and immunotherapy, such as a PD-L1 inhibitor. For patients with limited-stage disease, radiation is often concurrently given with chemotherapy.
+
+Overall treatment approaches in of NSCLC depend on the stage; treatment paradigms have changed significantly over the last few years to incorporate immunotherapy and targeted agents. Surgical resection is the primary curative modality for early stage disease (stages I to III). For patients with early stage disease who are not surgical candidates other options include radiation and radiofrequency ablation. For patients with stage II-III NSCLC, platinum-based adjuvant chemotherapy is usually indicated. For patients with locally advanced disease therapeutic strategies may include a combination of radiation with chemotherapy followed by immunotherapy or targeted therapies, chemotherapy in combination with immunotherapy, immunotherapy as monotherapy or targeted therapies.
+
+Small cell lung cancer
+
+Small cell lung cancer (SCLC) of any stage is typically initially responsive to treatment, but responses are usually short-lived (1). Chemotherapy and immunotherapy with or without radiation therapy are given depending on the stage of disease. In many patients, chemotherapy prolongs survival and improves quality of life enough to warrant its use. Surgery generally plays a limited role in treatment of SCLC, although it may be curative in the rare patient who has a small focal tumor without spread (such as a solitary pulmonary nodule) who underwent surgical resection before the tumor was identified as SCLC.
+
+Pearls & Pitfalls
+
+Surgery generally plays a limited role in treatment of SCLC, although it may be curative in the rare patient who has a small focal tumor without spread.
+
+Chemotherapy regimens of topoisomerase inhibitors and a platinum compound (either cisplatin or carboplatin) are commonly used in combination with or followed by immunotherapy.
+
+In limited-stage disease, treatment is typically with concurrent chemotherapy and radiation (chemoradiotherapy) in patients with good performance status (2). When disease is confined to a hemithorax, radiation therapy (including early thoracic radiation) further improves clinical outcomes (1); such response to radiation therapy has been the basis for the definition of limited-stage disease. The use of prophylactic cranial irradiation to prevent brain metastases is also advocated in certain cases; micrometastases are common in SCLC, and chemotherapy has less ability to cross the blood-brain barrier.
+
+In extensive-stage disease, treatment is based on chemotherapy (usually platinum-based compounds plus topoisomerase inhibitors) and immunotherapy rather than radiation therapy, although radiation therapy is often used as palliative treatment for metastases to bone or brain. Systemic chemoimmunotherapy (eg, chemotherapy plus atezolizumab or durvalumab) is typically administered for patients with extensive-stage disease because it improves survival and symptom control in these patients (2). The overall clinical benefit of replacing standard etoposide-based chemotherapy regimens with other topoisomerase inhibitors (irinotecan or topotecan) is unclear (3). These other topoisomerase inhibitors alone or in combination with immunotherapy are also commonly used in refractory disease and in cancers of either stage that has recurred.
+
+In patients with extensive-stage disease who have had an excellent response to chemoimmunotherapy, prophylactic cranial irradiation is sometimes used as in limited-stage SCLC to prevent the growth of SCLC in the brain. In rare, selected patients who have a near-complete response to chemotherapy, thoracic radiation therapy may improve disease control (4). Types of radiation include prophylactic cranial radiotherapy and thoracic consolidation for extensive-stage SCLC.
+
+In general, recurrent SCLC carries a poor prognosis, although patients who maintain a good performance status should be offered further treatment in a clinical trial.
+
+Non–small cell lung cancer
+
+Treatment for non–small cell lung cancer (NSCLC) typically involves assessment of eligibility for surgery followed by surgery, chemotherapy (including targeted therapy and immunotherapy), radiation therapy, or a combination of modalities as appropriate, depending on the tumor type and stage (5).
+
+Preoperative pulmonary function is assessed using spirometry and diffusing capacity (DLCO). Surgery is done only if patients with NSCLC will have adequate pulmonary reserve once a lobe or lung is resected (6). Patients with forced expiratory volume in 1 second (FEV1) or diffusion capacity of the lung for carbon dioxide (DLCO) ≥ 80% do not require further testing before surgery. Patients with a predicted postoperative FEV1 or DLCO between 30% and 60% of predicted need to undergo further testing with exercise testing (eg, stair climbing test, shuttle walk test). Inability to climb at least 22 meters on a stair climbing test or walk at least 400 meters (or 25 shuttles) on the shuttle walk test identifies patients at increased risk for perioperative death and cardiopulmonary complications, and these patients should then undergo formal cardiopulmonary exercise testing that includes measurement of maximal oxygen consumption (VO₂max).
+
+Stage I and II disease
+
+The standard approach is surgical resection with lobectomy combined with mediastinal lymph node sampling or complete lymph node dissection if node sampling is being performed during surgery. Lesser resections, including segmentectomy and wedge resection, may be superior to lobectomy for some patients, especially if tumors are small (≤ 2 cm) and/or peripheral in location (7). Outcomes appear better when surgical resection is done by a thoracic oncologic surgeon with expertise in lung cancer (8, 9). Patients with early-stage disease for whom surgery is high risk may instead have local, non-surgical treatment, such as radiation therapy (stereotactic or conventional) or radiofrequency ablation (10). In one study, 82% of patients with stage I disease underwent surgery; 5-year survival was approximately 54% (11). In another study of patients with stage II disease, 80% of whom underwent surgery, 5-year survival was approximately 44% overall (12).
+
+Neoadjuvant therapy in early-stage NSCLC is also commonly used and consists of 4 cycles of a platinum-doublet (usually a combination of a cisplatin and another chemotherapy agent, such as vinorelbine, docetaxel, or paclitaxel) or 3 cycles of a platinum-doublet plus immunotherapy. In patients who cannot receive cisplatin, carboplatin can be substituted.
+
+Adjuvant therapy after surgery is standard practice for patients with stage II or stage III disease and possibly also for patients with stage IB disease and tumors > 4 cm. However, due to the potential for adverse effects, the decision to use adjuvant chemotherapy depends on the patient’s comorbidities and risk assessment. A commonly used chemotherapy regimen is a platinum-based doublet. Other targeted therapies directed at EGFR mutations and ALK rearrangements (eg, alectinib) are also used (13, 14). Adjuvant chemotherapy generally increases 5-year survival rates (45% for adjuvant chemotherapy following surgical resection, compared to 40% for observation alone) (5).
+
+Stage III disease
+
+Treatment involves either chemotherapy, radiation therapy, surgery, immunotherapy or a combination of these; the sequence and choice of treatment depend on the location of the patient's disease and comorbidities. In general, concurrent chemotherapy and radiation therapy followed by immunotherapy is considered standard treatment for unresectable clinically staged III disease. Patients with locally advanced tumors invading the heart, great vessels, mediastinum, or spine should receive radiation therapy. In some patients (ie, those with T4 N0 M0 tumors), surgical resection with either neoadjuvant or adjuvant combined chemotherapy and radiation therapy may be feasible.
+
+Stage IV disease
+
+Prolonging survival and palliation of symptoms are the goals of treatment for stage IV disease. Chemotherapy, immunotherapy, targeted therapy, and radiation therapy may be used to reduce tumor burden, relieve symptoms, and/or improve quality of life. Surgical palliative procedures may be required and may include thoracentesis and pleurodesis of recurrent effusions, placement of indwelling pleural drainage catheters, bronchoscopic fulguration of tumors involving the trachea and mainstem bronchi, placement of stents to prevent airway occlusion, and, in some cases, spinal stabilization for impending spinal cord compression. If no mutation treatable with a targeted medication is identified, median survival is approximately 12 months (15).
+
+Biomarker-directed therapy for NSCLC
+
+NSCLC treatment is based on precision medicine, with comprehensive molecular testing performed to guide selection of both immunotherapy and targeted therapy. For immunotherapy selection, PD-L1 expression by immunohistochemistry is performed to identify patients most likely to respond to immune checkpoint inhibitors. For targeted therapy selection, biomarker testing identifies actionable oncogenic driver mutations that are present in some patients with NSCLC (see table Some Targeted and Immune Checkpoint Therapies for Non–Small Cell Lung Cancer).
+
+Immune checkpoint inhibitors
+
+Several immune checkpoint inhibitors (nivolumab, ipilimumab, pembrolizumab, durvalumab, cemiplimab, atezolizumab) are available for NSCLC treatment (16). These drugs stimulate immune responsiveness, assist in the cancer being recognized as foreign by the body's immune system, and inhibit the tumor's ability to block the natural immune response (17). Specifically, immune checkpoint inhibitors targeting receptors such as PD-1 and CTLA-4, and their ligands (PD-L1), to block the inhibitory signals that cancer cells use to evade immune destruction.
+
+Numerous randomized trials have demonstrated the efficacy of immune checkpoint inhibitors (eg, pembrolizumab, cemiplimab, nivolumab, ipilimumab) in patients with advanced NSCLC, particularly among those without oncogenic driver mutations that can be targeted (18). For example, long-term follow-up across 3 randomized trials including patients with stage IV NSCLC who received pembrolizumab-based regimens co-administered with chemotherapy demonstrated durable survival benefits (ie, significantly improved 5-year overall survival) when compared to chemotherapy alone (19, 20, 21). In another randomized trial of patients with advanced NSCLC, cemiplimab plus platinum-doublet chemotherapy significantly improved overall survival and progression-free survival compared to chemotherapy alone (22). Finally, another randomized trial showed that nivolumab plus ipilimumab in combination with 2 cycles of chemotherapy significantly improved overall survival and progression-free survival compared to 4 cycles of chemotherapy alone (23).
+
+Targeted therapies
+
+Driver mutations are not common in SCLC (compared to NSCLC); therefore, targeted therapy is not routinely used in SCLC. For tumors bearing an oncogenic driver mutation, targeted therapies are used first. In patients with stage IV disease and sensitive mutations (eg, EGFR deletion exon 19, exon 21 L858 mutation, ALK translocations, ROS1), targeted therapy directed at the actionable mutation should be given as first-line therapy. Response rates and progression-free survival with first-line targeted therapies, regardless of PD-L1 status, are better than those obtained using standard chemotherapy (5).
+
+Osimertinib is the treatment of choice for EGFR-mutant NSCLC (5). It may be coadministered with chemotherapy. In one randomized trial, median overall survival was 47.5 months in patients receiving osimertinib plus a platinum compound plus pemetrexed compared to 37.6 months in patients receiving osimertinib alone (24). Amivantamab plus lazertinib is another option. In patients with NSCLC without an oncogenic driver mutation, the treatment of choice is chemotherapy plus immunotherapy (15, 25).
+
+Patients who have EML4::ALK translocations should receive alectinib or lorlatinib (26).
+
+Patients with BRAF mutations benefit from the BRAF inhibitors (eg, dabrafenib, trametinib). Encorafenib plus binimetinib, and vemurafenib with or without cobimetinib are other options.
+
+Many other targeted biologic agents are under investigation, including some that specifically target cancer cell signal transduction pathways or the angiogenesis pathways that supply oxygen and nutrition to growing tumor cells.
+
+Table
+
+Some Targeted and Immune Checkpoint Therapies for Non–Small Cell Lung Cancer
+
+Table
+
+Some Targeted and Immune Checkpoint Therapies for Non–Small Cell Lung Cancer
+
+Some Targeted and Immune Checkpoint Therapies for Non–Small Cell Lung Cancer
+
+Target
+
+Drug
+
+ALK rearrangement
+
+Alectinib
+
+Brigatinib
+
+Ensartinib
+
+Lorlatinib
+
+BRAF mutation
+
+Dabrafenib + trametinib
+
+Encorafenib + binimetinib
+
+EGFR mutation
+
+Amivantamab + lazertinib
+
+Osimertinib
+
+EGFR exon 20
+
+Amivantamab
+
+Inhibit blood vessel growth
+
+Bevacizumab
+
+Ramucirumab
+
+Immune activation (checkpoint inhibitors)
+
+Atezolizumab
+
+Cemiplimab
+
+Durvalumab
+
+Ipilimumab
+
+Nivolumab
+
+Pembrolizumab
+
+ROS rearrangement
+
+Crizotinib
+
+Entrectinib
+
+Repotrectinib
+
+Taletrectinib
+
+MET exon 14 skipping mutation
+
+Capmatinib
+
+Tepotinib
+
+RET rearrangement
+
+Pralsetinib
+
+Selpercatinib
+
+NTRK1, NRTK2, or NRTK3 gene fusion
+
+Entrectinib
+
+Larotrectinib
+
+Repotrectinib
+
+NSCLC = Non–small cell lung cancer.
+
+NSCLC = Non–small cell lung cancer.
+
+Recurrent lung cancer
+
+Treatment options for lung cancer that recurs after definitive treatment vary by location (local, regional, distant), prior therapies, molecular profile, and other patient-specific factors. Options include repeat chemotherapy or targeted drugs for metastases, radiation therapy for local recurrence or pain caused by metastases, and brachytherapy for endobronchial disease when additional external radiation cannot be tolerated. Rarely, surgical resection of a solitary metastasis or for palliative purposes may be considered Most relapses are metastatic and incurable, but selected patients with limited recurrence may be eligible for curative approaches (eg, radical surgery, radiation).
+
+The treatment of a locally recurrent NSCLC follows the same guidelines as for primary tumor stages I to III. If surgery was used initially, radiation therapy is the main modality. If the recurrence manifests as distant metastases, patients are treated as if they have stage IV disease with a focus on palliation.
+
+Treatment for recurrent or metastatic stage IV NSCLC includes chemotherapy, immunotherapy, or targeted drugs. The choice depends on tumor histology, mutational profile, patient functional status, and patient preference (5). When NSCLC progresses, repeat biopsies are commonly done to repeat the molecular and PD-L1 analysis, which can help guide future treatment. In addition, participation in clinical trials evaluating emerging therapies (chemotherapy, immunotherapy, targeted therapy, or a combination of these approaches) may be considered after an explanation of the risks and benefits to the patient.
+
+Treatment of lung cancer complications
+
+Lung cancer can cause a range of complications. These include local (respiratory), regional, and distant (metastatic) complications.
+
+Local manifestations are often treated symptomatically. As examples, an intractable cough secondary to the tumor may be treated with opioid agents or glucocorticoids; dyspnea may be treated with oxygen or bronchodilators; hemoptysis may be treated with bronchoscopic ablation; and pneumonia treated with appropriate antibiotics.
+
+Asymptomatic malignant pleural effusions require no treatment. Initial treatment of a symptomatic effusion is with thoracentesis (27). Symptomatic effusions that recur despite multiple thoracenteses are drained through a chest tube. Infusion of talc (or occasionally, tetracycline or bleomycin) into the pleural space (a procedure called pleurodesis) scars the pleura, eliminates the pleural space, and is effective in > 90% of cases (28). Pleurodesis can also be done surgically, often with a video-assisted thoracoscopic surgery (VATS) procedure.
+
+Treatment of superior vena cava syndrome is the same as treatment of lung cancer, with chemotherapy (SCLC), radiation therapy (NSCLC), or both (NSCLC).
+
+Treatment of Horner syndrome caused by apical tumors is with surgery with or without preoperative radiation therapy or with radiation therapy with or without adjuvant chemotherapy.
+
+Treatment of paraneoplastic syndromes varies by syndrome.
+
+Palliative care
+
+Based on poor overall survival, the need for end-of-life care should be anticipated. Randomized trials have reported that early palliative care intervention leads to less end-of-life chemotherapy use and may even extend life (ie, by avoiding adverse effects of aggressive treatments) (29).
+
+Dyspnea can be treated with supplemental oxygen and bronchodilators. Pre-terminal breathlessness can be treated with opioids.
+
+Pain, anxiety, nausea, and anorexia are especially common and can be treated with parenteral morphine; other opioids (oral, transdermal, or parenteral); and antiemetics.
+
+Hospice care is highly valued by patients and families for its quality, symptom management, and support, but it remains markedly underused in many regions of the world, including the United States. A number of systemic barriers impact utilization rates (30). Concurrent care with both disease-directed therapy and hospice care can increase hospice use and length of stay by removing the barrier of having to forego curative treatments (31).
+
+Treatment references
+
+Prognosis for Lung Carcinoma
+
+For SCLC, the overall prognosis remains poor (see table Features of Lung Cancer). The median survival time for limited-stage SCLC is 25 to 56 months, with a 5-year survival rate of 16 to 28% (1). Patients with extensive-stage SCLC do especially poorly, with a median survival of 12 to 13 months and a 5-year survival rate of 12%. The treatment intent for most patients with limited-stage SCLC is curative, which may in part explain longer survival, compared to extensive-stage SCLC, where the treatment intent is primarily palliative.
+
+For NSCLC, the 5-year survival rate varies by stage, from 65 to 80% for patients with stage I, 30 to 60% for stage II, 13 to 36 % for patients with stage III and 5 to 62% for stage IV disease (2, 3, 4, 5). On average, untreated patients with metastatic NSCLC survive 6 months, whereas the median survival for treated patients is about 9 months. Patient survival has improved in both early and later stage NSCLC. Evidence shows improved survival in early-stage disease (stages IB to IIIB) when platinum-based chemotherapy regimens are used after surgical resection.
+
+Targeted therapies have improved survival in patients with stage IV NSCLC, in particular patients with an EGFR mutation, or EML4::ALK or ROS1 translocations. Targeted therapies and improved sequential treatments are incrementally prolonging survival, particularly in later stage disease (6).
+
+Prognosis references
+
+1. Kim SY, Park HS, Chiang AC. Small Cell Lung Cancer: A Review. JAMA. 2025;333(21):1906-1917. doi:10.1001/jama.2025.0560
+
+2. Hirsch FR, Scagliotti GV, Mulshine JL, et al. Lung cancer: current therapies and new targeted treatments. Lancet. 2017;389(10066):299-311. doi:10.1016/S0140-6736(16)30958-8
+
+3. Thai AA, Solomon BJ, Sequist LV, Gainor JF, Heist RS. Lung cancer. Lancet. 2021;398(10299):535-554. doi:10.1016/S0140-6736(21)00312-3
+
+4. Wagle NS, Nogueira L, Devasia TP, et al. Cancer treatment and survivorship statistics, 2025. CA Cancer J Clin. 2025;75(4):308-340. doi:10.3322/caac.70011
+
+5. Wang C, Shao J, Song L, Ren P, Liu D, Li W. Persistent increase and improved survival of stage I lung cancer based on a large-scale real-world sample of 26,226 cases. Chin Med J (Engl). 2023;136(16):1937-1948. doi:10.1097/CM9.0000000000002729
+
+6. Debieuvre D, Falchero L, Molinier O, et al. Survival of Patients with Lung Adenocarcinoma Diagnosed in 2000, 2010, and 2020. NEJM Evid. 2025;4(7):EVIDoa2400443. doi:10.1056/EVIDoa2400443
+
+Screening for Lung Cancer
+
+Screening for lung cancer is recommended for most high-risk individuals. The most widely used criteria for lung cancer screening in the United States are the US Preventive Services Task Force (USPSTF) recommendations (1), which recommend annual low-dose CT in adults with all of the following characteristics:
+
+Age 50 to 80 years
+
+Currently smoke or quit within the past 15 years
+
+≥ 20 pack-year smoking history (or ≥ 20 year history of smoking cigarettes)
+
+Screening can be discontinued after 15 years of not smoking or when health problems limit life expectancy or the ability to undergo curative surgery. This approach is generally consistent with that of other professional societies, including the National Comprehensive Cancer Network (NCCN) (2) and American Cancer Society (ACS) (3).
+
+This approach is supported by evidence from randomized trials that lung cancer screening with low-dose CT in high-risk adults reduces lung cancer mortality and improves survival. In a large systematic review, screening high-risk adults with low dose-computed tomography (LDCT) was found to reduce lung cancer mortality (4). The National Lung Screening Trial has shown that annual screening using LDCT resulted in a 20% relative decrease in lung cancer deaths compared to screening using chest radiographs (5). Another study of screening in high-risk patients showed improved survival in patients receiving LDCT screening based on nodule volume and volume-doubling time (6).
+
+Shared clinical decision-making between a clinician and the patient is recommended prior to screening because the benefits of screening vary with individual risk, and there may be potential harms (eg, false-positives, unnecessary invasive procedures) (1). Shared decision-making should include discussions to exclude patients who would not benefit from early detection, such as those who would refuse treatment or be unable to complete treatment due to other serious medical conditions. In the United States, screening is not generally recommended for people who have never smoked. A screening risk calculator can be used to help in making a decision for screening. Additionally, it is recommended that LDCT screening be done at facilities with demonstrated LDCT proficiency and adherence to established protocols for follow-up diagnosis and treatment.
+
+Despite strong evidence that low-dose CT screening reduces lung cancer mortality, fewer than 1 in 20 eligible high-risk adults in the United States receive annual screening, with notably lower rates in Southern states compared with the Northeast (where the prevalence of lung cancer is lower) (7). Given the established impact of screening on mortality reduction, encouraging screening is of vital importance.
+
+Screening is also recommended for high-risk populations worldwide. For example, the World Health Organization (WHO) advocates for early detection programs and encourages countries to implement screening measures for high-risk populations (8). These efforts (similar to those of the USPSTF) are aimed at detecting lung cancer as early as possible, which allows for more effective treatment options and improved clinical outcomes (including survival).
+
+In the future, lung cancer screening may involve some combination of molecular analysis for genetic markers (eg, KRAS, TP53, EGFR), sputum cytometry, and detection of cancer-related volatile organic compounds (eg, alkane, benzene) in exhaled breath.
+
+Screening references
+
+1. US Preventive Services Task Force, Krist AH, Davidson KW, et al. Screening for Lung Cancer: US Preventive Services Task Force Recommendation Statement. JAMA. 2021;325(10):962-970. doi:10.1001/jama.2021.1117
+
+2. National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines). Lung Cancer Screening, version 1.2026. https://nccn.org/guidelines/category_2. Accessed November 12, 2025.
+
+3. Wolf AMD, Oeffinger KC, Shih TY, et al. Screening for lung cancer: 2023 guideline update from the American Cancer Society. CA Cancer J Clin. 2024;74(1):50-81. doi:10.3322/caac.21811
+
+4. Jonas DE, Reuland DS, Reddy SM, et al. Screening for Lung Cancer With Low-Dose Computed Tomography: Updated Evidence Report and Systematic Review for the US Preventive Services Task Force. JAMA. 2021;325(10):971-987. doi:10.1001/jama.2021.0377
+
+5. National Lung Screening Trial Research Team, Aberle DR, Adams AM, et al. Reduced lung-cancer mortality with low-dose computed tomographic screening. New Engl J Med. 2011;365 (5):395–409. doi: 10.1056/NEJMoa1102873.
+
+6. de Koning HJ, van der Aalst CM, de Jong PA, et al. Reduced lung-cancer mortality With volume CT screening in a randomized trial. New Engl J Med. 2020;382:503–513. doi: 10.1056/NEJMoa1911793
+
+7. Fedewa SA, Kazerooni EA, Studts JL, et al. State Variation in Low-Dose Computed Tomography Scanning for Lung Cancer Screening in the United States. J Natl Cancer Inst. 2021;113(8):1044-1052. doi:10.1093/jnci/djaa170
+
+8. World Health Organization. Lung Cancer. June 26, 2023. Accessed November 12, 2025.
+
+Prevention of Lung Carcinoma
+
+The most effective strategies for the prevention of lung carcinoma are smoking prevention and cessation, reduction of exposure to known carcinogens, and screening in high-risk populations.
+
+Smoking prevention and cessation are the cornerstone of lung cancer prevention, because approximately 85 to 90% of cases may be attributable to active or passive cigarette smoking (1). Public health policies (preventing smoking initiation, comprehensive tobacco control measures) are vital. For individuals who smoke, behavioral counseling and sometimes pharmacotherapy (eg, nicotine replacement, bupropion, varenicline) have been shown to reduce lung cancer risk and mortality (2).
+
+Remediation of high radon levels in private residences removes known cancer-promoting radiation. Reducing exposure to asbestos and diesel exhaust emissions is also important.
+
+Increasing dietary intake of fruits and vegetables high in retinoids and beta-carotene appears to have no effect on lung cancer incidence (3). Vitamin supplementation is either unproven (vitamin E) or harmful (beta-carotene) in people who smoke. Evidence suggesting that nonsteroidal anti-inflammatory drugs (NSAIDs) and vitamin E supplementation may protect people who formerly smoked from lung cancer has not been confirmed.
+
+Molecular approaches targeting cell signaling and cell cycle pathways and tumor-associated antigens (precision chemoprevention) are under investigation.
+
+Prevention references
+
+1. Alberg AJ, Brock MV, Ford JG, Samet JM, Spivack SD. Epidemiology of lung cancer: Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines. Chest. 2013;143(5 Suppl):e1S-e29S. doi:10.1378/chest.12-2345
+
+2. US Preventive Services Task Force, Krist AH, Davidson KW, et al. Interventions for Tobacco Smoking Cessation in Adults, Including Pregnant Persons: US Preventive Services Task Force Recommendation Statement. JAMA. 2021;325(3):265-279. doi:10.1001/jama.2020.25019
+
+3. Szabo E, Mao JT, Lam S, Reid ME, Keith RL. Chemoprevention of lung cancer: Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines. Chest. 2013;143(5 Suppl):e40S-e60S. doi:10.1378/chest.12-2348
+
+Key Points
+
+The main factor contributing to lung cancer is smoking.
+
+Approximately 55% of all lung cancer patients have suspected driver mutations.
+
+Lung cancer can be small cell lung carcinoma (SCLC) or non–small cell lung carcinoma (NSCLC).
+
+Several genetic driver mutations that are amenable to targeted therapies have been identified in NSCLC; newly diagnosed adenocarcinoma should be tested for EGFR, ALK, BRAF, and ROS1 among other genomic alterations. Tumors should also have PD-L1 immunostaining.
+
+Manifestations can include cough, fever, hoarseness, pleural effusion, pneumonia, Pancoast tumor, paraneoplastic syndromes, superior vena cava syndrome, Horner syndrome, and metastases to the brain, liver, and bone.
+
+Suspect the diagnosis based on clinical information and imaging studies (eg, CT, PET-CT), and confirm it histologically (eg, by cytology of pleural fluid or core biopsy).
+
+Recommend annual lung cancer screening with low-dose CT for people who currently smoke and those who formerly smoked who are 50 to 80 years of age and at high risk (> 20 pack-years of smoking, people who are current smokers or who formerly smoked and quit < 15 years ago); shared decision making should occur before imaging is pursued.
+
+Perform testing, beginning with whole-body imaging.
+
+Confirm the diagnosis and staging with cytology or histopathology.
+
+Treat early-stage NSCLC with resection when pulmonary reserve is adequate.
+
+Treat advanced stage SCLC and NSCLC with targeted therapies if a specific mutation is found or chemotherapy and/or immunotherapy.
+
+Molecular characterization of the tumor should be completed on all patients with adenocarcinoma, undifferentiated NSCLC, or adenosquamous NSCLC regardless of smoking status to define treatment regimens in those with actionable mutations.
+
+More Information
+
+The following English language resources may be useful. Please note that The Manual is not responsible for the content of these resources.
+
+Lung Cancer Mutation Consortium: A group of cancer centers that conduct clinical trials
+
+US Preventive Services Task Force Recommendations for Lung Cancer Screening
+
+Eastern Cooperative Oncology Group: A multidisciplinary organization that designs and conducts cancer research

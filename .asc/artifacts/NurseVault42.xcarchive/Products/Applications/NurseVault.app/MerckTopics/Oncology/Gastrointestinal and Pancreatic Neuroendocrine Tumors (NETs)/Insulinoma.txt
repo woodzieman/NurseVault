@@ -1,0 +1,94 @@
+=== Insulinoma (Merck Manual Professional) ===
+Section: Oncology > Gastrointestinal and Pancreatic Neuroendocrine Tumors (NETs)
+Source: https://www.merckmanuals.com/professional/oncology/gastrointestinal-and-pancreatic-neuroendocrine-tumors-nets/insulinoma
+Retrieved: 2026-09-25
+
+Insulinomas are a type of pancreatic endocrine tumor that arises from islet cells (1). Of all insulinomas, 80% are single and may be curatively resected if identified. Only 10% of insulinomas are malignant.
+
+Insulinoma occurs in 1/250,000 at a median age of 50 years, except in multiple endocrine neoplasia (MEN) type 1 (about 10% of insulinomas), when it occurs in the 20s. Insulinomas associated with MEN 1 are more likely to be multiple (1).
+
+Surreptitious administration of exogenous insulin can cause episodic hypoglycemia mimicking insulinoma.
+
+General reference
+
+1. Giannis D, Moris D, Karachaliou GS, et al. Insulinomas: from diagnosis to treatment. A review of the literature. J BUON. 2020;25(3):1302-1314.
+
+Symptoms and Signs of Insulinoma
+
+Hypoglycemia secondary to an insulinoma occurs during fasting. Symptoms of hypoglycemia due to insulinoma are insidious and may mimic various psychiatric and neurologic disorders. Central nervous system disturbances include headache, confusion, visual disturbances, motor weakness, palsy, ataxia, marked personality changes, and possible progression to loss of consciousness, seizures, and coma.
+
+Symptoms of sympathetic stimulation (faintness, weakness, tremulousness, palpitation, sweating, hunger, and nervousness) due to a rapid fall in blood glucose are often present.
+
+Diagnosis of Insulinoma
+
+Insulin level
+
+Sometimes C-peptide or proinsulin levels
+
+Endoscopic ultrasound
+
+Plasma glucose should be measured during symptoms while fasting. If hypoglycemia is present during symptoms (glucose < 55 mg/dL [3.0 mmol/L]) or without symptoms (glucose < 40 mg/dL [2.2 mmol/L]), an insulin level should be measured on a simultaneous sample. Hyperinsulinemia of > 6 mcU/mL (42 pmol/L) suggests an insulin-mediated cause, as does a serum insulin to plasma glucose ratio > 0.3 (mcU/mL)/(mg/dL) (38.2 when using SI units [pmol/L]/[mmol/L]).
+
+Insulin is secreted as proinsulin, consisting of an alpha chain and beta chain connected by a C-peptide. Because pharmaceutical insulin consists only of the beta chain, surreptitious insulin administration can be detected by measuring C-peptide and proinsulin levels. In patients with insulinoma, C-peptide is ≥ 0.6 ng/mL (0.2 nmol/L) and proinsulin is ≥ 5 pmol/L. These levels are normal or low in patients with surreptitious insulin administration.
+
+Because many patients have no symptoms (and hence no hypoglycemia) at the time of evaluation, diagnosis of insulinoma requires admission to the hospital for a 48- or 72-hour fast. Nearly all (98%) patients with insulinoma develop symptoms within 48 hours of fasting; 70 to 80% develop symptoms within 24 hours (1). Hypoglycemia as the cause of the symptoms is established by the Whipple triad:
+
+Symptoms occur during the fast.
+
+Symptoms occur in the presence of hypoglycemia.
+
+Ingestion of carbohydrates relieves the symptoms.
+
+Hormone levels are obtained as described above when the patient is having symptoms.
+
+If the Whipple triad is not observed after prolonged fasting and the plasma glucose after an overnight fast is > 50 mg/dL (> 2.8 mmol/L), a C-peptide suppression test can be done. During insulin infusion (0.1 U/kg/hour), patients with insulinoma do not suppress C-peptide to normal levels (≤ 1.2 ng/mL [≤ 0.40 nmol/L]).
+
+Endoscopic ultrasound has > 90% sensitivity and helps localize the tumor. Positron emission tomography (PET) also may be used.
+
+CT has not proved useful, and arteriography or selective portal and splenic vein catheterization is generally unnecessary.
+
+Diagnosis reference
+
+1. Giannis D, Moris D, Karachaliou GS, et al. Insulinomas: from diagnosis to treatment. A review of the literature. J BUON. 2020;25(3):1302-1314.
+
+Staging of Insulinoma
+
+Staging of insulinomas uses the American Joint Committee on Cancer (AJCC) tumor, nodes, metastases (TNM) system for well-differentiated NETs of the pancreas (1).
+
+Staging reference
+
+1. American College of Surgeons. AJCC Cancer Staging System, version 9: Neuroendocrine Tumors. Accessed March 16, 2026.
+
+Treatment of Insulinoma
+
+Surgical resection
+
+Diazoxide or sometimes octreotide or lanreotide for hypoglycemia
+
+Chemotherapy
+
+Overall surgical cure rates are approximately 90% (1). A small, single insulinoma at or near the surface of the pancreas can usually be enucleated surgically. If a single large or deep adenoma is within the pancreatic body or tail, if there are multiple lesions of the body or tail (or both), or if no insulinoma is found (an unusual circumstance), a distal, subtotal pancreatectomy is performed. In < 1% of cases, the insulinoma is ectopically located in peripancreatic sites of the duodenal wall or periduodenal area and can be found only by diligent search during surgery. Pancreatoduodenectomy (Whipple procedure) is performed for resectable malignant insulinomas of the proximal pancreas. Total pancreatectomy is performed if a previous subtotal pancreatectomy proves inadequate.
+
+If hypoglycemia continues, diazoxide with a natriuretic can be used. A somatostatin analog, octreotide, is variably effective and should be considered for patients with continuing hypoglycemia refractory to diazoxide. Patients who respond may be converted to a long-acting octreotide formulation. Patients using octreotide may also need to take supplemental pancreatic enzymes because octreotide suppresses pancreatic enzyme secretion. Lanreotide also may be effective for reducing insulin secretion. Other medications that have modest and variable effect on insulin secretion include verapamil, diltiazem, and phenytoin.
+
+If symptoms are not controlled, chemotherapy may be tried, but response is limited. Streptozotocin has a 30 to 40% response rate and, when combined with 5-fluorouracil, a 60% response rate lasting up to 2 years (2). Other agents include doxorubicin, chlorozotocin, and interferon. Other systemic therapies for insulinoma include temozolomide-based regimens, everolimus, sunitinib, and cabozantinib (1, 3).
+
+Treatment references
+
+1. Magi L, Marasco M, Rinzivillo M, Faggiano A, Panzuto F. Management of Functional Pancreatic Neuroendocrine Neoplasms. Curr Treat Options Oncol. 2023;24(7):725-741. doi:10.1007/s11864-023-01085-0
+
+2. Müller C, Kreissl MC, Klose S, Krause A, Keitel V, Venerito M. Long-term treatment with streptozocin/5-fluorouracil chemotherapy in patients with metastatic pancreatic neuroendocrine tumors: Case series. Medicine (Baltimore). 2022;101(4):e28610. doi:10.1097/MD.0000000000028610
+
+3. Del Rivero J, Perez K, Kennedy EB, et al. Systemic Therapy for Tumor Control in Metastatic Well-Differentiated Gastroenteropancreatic Neuroendocrine Tumors: ASCO Guideline. J Clin Oncol. 2023;41(32):5049-5067. doi:10.1200/JCO.23.01529
+
+Key Points
+
+Only approximately 10% of insulinomas are malignant, but all cause fasting hypoglycemia.
+
+Glucose and insulin levels are measured during symptoms (either spontaneous or induced by fasting during hospitalization); if these tests are not definitive, C-peptide and proinsulin levels are measured or a C-peptide suppression test can be performed.
+
+Endoscopic ultrasound has > 90% sensitivity for locating the tumor; positron emission tomography (PET) also may be used, but CT is not useful.
+
+Approximately 90% of insulinomas can be resected surgically.
+
+Control symptoms of hypoglycemia with diazoxide or sometimes octreotide.

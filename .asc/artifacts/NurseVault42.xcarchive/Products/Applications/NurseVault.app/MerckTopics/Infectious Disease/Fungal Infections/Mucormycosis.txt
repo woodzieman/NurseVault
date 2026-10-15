@@ -1,0 +1,84 @@
+=== Mucormycosis (Merck Manual Professional) ===
+Section: Infectious Disease > Fungal Infections
+Source: https://www.merckmanuals.com/professional/infectious-diseases/fungal-infections/mucormycosis
+Retrieved: 2026-09-25
+
+(See also Overview of Fungal Infections.)
+
+Many different species of fungi can cause mucormycosis. These molds are commonly found in soil, fallen leaves, compost, animal waste, and air (1) and include many common bread molds. Each species causes similar symptoms.
+
+Mucormycosis is most common among immunocompromised patients (ie, those with neutropenia, leukemia, lymphoma, advanced HIV infection, or a solid organ transplant), patients with poorly controlled diabetes mellitus (particularly those with diabetic ketoacidosis), and patients receiving the iron-chelating medication deferoxamine (because the fungi bind to the medication and use iron bound to it for growth) (2). COVID-19 infection is a significant risk factor for mucormycosis. During the pandemic, a surge in cases of mucormycosis was noted, particularly in India (3). Most cases occurred in patients with poorly controlled diabetes and in those receiving adjunctive glucocorticoids for the management of COVID-19 infection.
+
+The most common form of mucormycosis is rhino-orbital. The disease can potentially spread to the brain (rhino-orbital-cerebral mucormycosis).
+
+Cutaneous Rhizopus infections have developed under occlusive dressings but more often result from trauma when the injured areas are contaminated with soil containing fungal spores, as may occur in natural disasters or in combat-related blast injuries. Cutaneous infections may develop in immunocompetent hosts if the wound is contaminated with fungal spores.
+
+Other disease forms include pulmonary and gastrointestinal mucormycosis. Hematogenous dissemination may occur.
+
+General references
+
+1. World Health Organization (WHO). Mucormycosis. Accessed August 26, 2025.
+
+2. Centers for Disease Control and Prevention (CDC). Clinical Overview of Mucormycosis. April 24, 2024.
+
+3. Skiada A, Drogari-Apiranthitou M, Roilides E, et al. A Global Analysis of Cases of Mucormycosis Recorded in the European Confederation of Medical Mycology / International Society for Human and Animal Mycology (ECMM / ISHAM) Zygomyco.net Registry from 2009 to 2022. Mycopathologia. 2025;190(4):53. Published 2025 Jun 10. doi:10.1007/s11046-025-00954-6
+
+Symptoms and Signs of Mucormycosis
+
+Rhino-orbital-cerebral mucormycosis is severe and frequently fatal unless diagnosed early and treated aggressively.
+
+Necrotic lesions appear on the nasal mucosa or sometimes the palate. Vascular invasion by hyphae leads to thrombosis and to progressive tissue necrosis that may involve the nasal septum, palate, and bones surrounding the orbit or sinuses. Manifestations may include pain, fever, orbital cellulitis, proptosis, ophthalmoplegia, loss of vision, purulent nasal discharge, and mucosal necrosis.
+
+Progressive extension of necrosis to the brain can cause signs of cavernous sinus thrombosis, seizures, aphasia, hemiplegia, and coma.
+
+Rhino-Orbital Mucormycosis
+
+Hide Details
+
+This photo shows tissue necrosis of the orbit in this person with rhino-orbital mucormycosis.
+
+CDC/ Dr. Libero Ajello
+
+Pulmonary mucormycosis resembles invasive aspergillosis. Symptoms include productive cough, dyspnea, and fever. If not promptly diagnosed and treated, the disease can rapidly progress, invading the pleura and chest wall.
+
+Cutaneous mucormycosis typically presents as rapidly progressive, painful, erythematous or violaceous skin lesions that may evolve into necrotic ulcers with black eschar, often after trauma or direct inoculation. Angioinvasive disease can occur and lead to deep tissue necrosis and, in severe cases, dissemination. 
+
+Gastrointestinal mucormycosis most commonly manifests with nonspecific symptoms such as abdominal pain, fever, gastrointestinal bleeding, and, in advanced cases, bowel perforation or infarction. It is more common among immunocompromised patients or patients with poor nutritional status and can progress rapidly. Gastrointestinal mucormycosis may have a high case fatality rate.
+
+Diagnosis of Mucormycosis
+
+Examination of tissue samples for broad, ribbon-like, nonseptate hyphae
+
+Culture
+
+Detection of microbial DNA (polymerase chain reaction [PCR] or cell-free next-generation sequencing)
+
+The diagnosis of mucormycosis requires a high index of clinical suspicion and, most importantly, direct demonstration of large nonseptate hyphae with irregular diameters and right-angle branching patterns in tissue samples; the examination must be thorough because fungal elements may not be clearly visible, particularly within necrotic debris (1). For unclear reasons, cultures may be negative, even when hyphae are clearly visible in tissues.
+
+Quantitative PCR assays are the most widely used test to detect fungal DNA in clinical samples (2). Microbial cell-free DNA next-generation sequencing of plasma samples may aid in the diagnosis.
+
+Radiographic imaging often reveals pulmonary nodules, consolidations, or masses, sometimes accompanied by cavitation. CT scans and radiographs often underestimate or miss significant bone destruction; however, they may be useful adjuncts in the diagnosis along with histopathologic examination or microbial DNA detection.
+
+Diagnosis references
+
+1. Lass-Flörl C. Zygomycosis: conventional laboratory diagnosis. Clin Microbiol Infect. 2009;15 Suppl 5:60-65. doi:10.1111/j.1469-0691.2009.02999.x
+
+2. Lackner N, Posch W, Lass-Flörl C. Microbiological and Molecular Diagnosis of Mucormycosis: From Old to New. Microorganisms. 2021;9(7):1518. Published 2021 Jul 16. doi:10.3390/microorganisms9071518
+
+Treatment of Mucormycosis
+
+Control of underlying condition
+
+Lipid formulations of amphotericin B
+
+Isavuconazonium
+
+Surgical debridement
+
+(See also Antifungal Medications.)
+
+Effective therapy requires that diabetes be controlled or, if at all possible, immunosuppression be reversed or deferoxamine be stopped.
+
+IV liposomal amphotericin B once a day is recommended as initial therapy. Isavuconazonium is approved for primary therapy. However, clinical experience with isavuconazonium is relatively limited, and, in severely ill patients, amphotericin B remains the treatment of choice. Posaconazole may also be effective, especially as consolidation therapy.
+
+Complete surgical debridement of necrotic tissue is critical.

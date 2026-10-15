@@ -1,0 +1,38 @@
+=== Liberation from Mechanical Ventilation (Merck Manual Professional) ===
+Section: Critical Care Medicine > Respiratory Failure and Mechanical Ventilation
+Source: https://www.merckmanuals.com/professional/critical-care-medicine/respiratory-failure-and-mechanical-ventilation/liberation-from-mechanical-ventilation
+Retrieved: 2026-09-25
+
+Once precipitants of respiratory failure have been eliminated, the ventilator is no longer necessary. However, if precipitants are still present or recovery is incomplete, reducing needed ventilatory support too rapidly is more likely to delay recovery.
+
+Once the patient is no longer in shock, has an adequate arterial saturation (≥ 90%) on a fractional inspired oxygen (FIO2) ≤ 0.4 to 0.5 with a positive end-expiratory pressure (PEEP) ≤ 8 cm H2O, and has a sustainable respiratory load (eg, respiratory rate  < 35 breaths/minute) (1, 2), a daily spontaneous breathing trial is done using a T-piece or continuous positive airway pressure (CPAP) of 5 cm H2O.
+
+Inspiratory pressure support is recommended for the initial spontaneous breathing trial (2, 3). Trials show the use of pressure support over a T-piece results in a shorter time to extubation and higher probability of extubation success, although not necessarily a decreased likelihood of reintubation (2, 4, 5).
+
+Patients capable of sustaining spontaneous breathing generally breathe slowly and deeply, instead of rapidly and shallowly. This observation has been formalized as the rapid shallow breathing (RSB) index, determined by dividing the patient’s unassisted respiratory rate (in breaths/minute) by the tidal volume (in L). A value < 105 suggests that spontaneous breathing is likely to be successful, although a single isolated measurement is not perfectly predictive of success (6, 7).
+
+The decision of whether to extubate a patient after a spontaneous breathing trial relies on clinical assessment during the course of the trial, supplemented by measuring arterial blood gases (ABGs). Patients who fare well during a brief 1- to 2-hour spontaneous breathing trial and who have favorable ABGs are good candidates for extubation. The decision to extubate is a separate one from the decision to stop ventilatory support and requires evaluation of the patient’s mentation and airway protective reflexes, as well as the patency of the airway. Patients at high risk for re-intubation (> 65 years old, underlying chronic cardiac or respiratory disorder) who have passed a spontaneous breathing trial should be extubated, initially, to noninvasive ventilation (3).
+
+Sedatives and opioids may prolong mechanical ventilation. Such medications may accumulate and cause protracted sedation, frustrating attempts to do spontaneous breathing trials even when the cause of respiratory failure has been corrected. The level of sedation should be continually assessed, and progressive sedative withdrawal should be begun as soon as possible (3). Formal protocols can be used, or simple daily interruption can be carried out. The infusion is stopped until the patient is either awake and following commands or needs re-sedation for agitation, breathing asynchronously with the ventilator, or other physiologic derangements. If sedation is still needed, it is restarted at half the previous dose and titrated as necessary. Some, but not all, evidence suggests that the mean duration of mechanical ventilation is reduced in institutions that use either daily "sedation vacations" or other sedation protocols (8, 9, 10).
+
+References
+
+1. Shahu A, Banna S, Applefeld W, et al. Liberation From Mechanical Ventilation in the Cardiac Intensive Care Unit. JACC Adv. 2023;2(1):100173. doi:10.1016/j.jacadv.2022.100173
+
+2. Thille AW, Gacouin A, Coudroy R, et al. Spontaneous-Breathing Trials with Pressure-Support Ventilation or a T-Piece. N Engl J Med. 2022;387(20):1843-1854. doi:10.1056/NEJMoa2209041
+
+3. Ouellette DR, Patel S, Girard TD, et al. Liberation From Mechanical Ventilation in Critically Ill Adults: An Official American College of Chest Physicians/American Thoracic Society Clinical Practice Guideline: Inspiratory Pressure Augmentation During Spontaneous Breathing Trials, Protocols Minimizing Sedation, and Noninvasive Ventilation Immediately After Extubation. Chest. 2017;151(1):166-180. doi:10.1016/j.chest.2016.10.036
+
+4. Burns KEA, Khan J, Phoophiboon V, et al. Spontaneous Breathing Trial Techniques for Extubating Adults and Children Who Are Critically Ill: A Systematic Review and Meta-Analysis. JAMA Netw Open. 2024;7(2):e2356794. doi:10.1001/jamanetworkopen.2023.56794
+
+5. Subira C, Hernandez G, Vazquez A, et al. Effect of pressure support vs T-piece ventilation strategies during spontaneous breathing trials on successful extubation among patients receiving mechanical ventilation: A randomized clinical trial. JAMA. 2019;321(22):2175-2182. doi: 10.1001/jama.2019.7234
+
+6. Karthika M, Al Enezi FA, Pillai LV, Arabi YM. Rapid shallow breathing index. Ann Thorac Med. 2016;11(3):167-176. doi: 10.4103/1817-1737.176876
+
+7. Trivedi V, Chaudhuri D, Jinah R, et al. The Usefulness of the Rapid Shallow Breathing Index in Predicting Successful Extubation: A Systematic Review and Meta-analysis. Chest. 2022;161(1):97-111. doi:10.1016/j.chest.2021.06.030
+
+8. Burry L, Rose L, McCullagh IJ, Fergusson DA, Ferguson ND, Mehta S. Daily sedation interruption versus no daily sedation interruption for critically ill adult patients requiring invasive mechanical ventilation. Cochrane Database Syst Rev. 2014;2014(7):CD009176. doi:10.1002/14651858.CD009176.pub2
+
+9. Girard TD, Kress JP, Fuchs BD, et al. Efficacy and safety of a paired sedation and ventilator weaning protocol for mechanically ventilated patients in intensive care (Awakening and Breathing Controlled trial): a randomised controlled trial. Lancet. 2008;371(9607):126-134. doi:10.1016/S0140-6736(08)60105-1
+
+10. Kress JP, Pohlman AS, O'Connor MF, Hall JB. Daily interruption of sedative infusions in critically ill patients undergoing mechanical ventilation. N Engl J Med. 2000;342(20):1471-1477. doi:10.1056/NEJM200005183422002

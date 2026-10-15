@@ -1,0 +1,54 @@
+=== Confidentiality and HIPAA (Merck Manual Professional) ===
+Section: Special Subjects > Medicolegal Issues
+Source: https://www.merckmanuals.com/professional/special-subjects/medicolegal-issues/confidentiality-and-hipaa
+Retrieved: 2026-09-25
+
+Traditionally, ethical health care has always included the need to keep patients’ medical information confidential. However, in the United States, the Health Insurance Portability and Accountability Act (HIPAA, see Pub. L 104-191 (1996))) codified the responsibility of health care providers, health plans, health care clearinghouses, and their business associates who electronically transmit health and related information (eg, health records, enrollment, billing, eligibility verification). Collectively, these are covered entities under HIPAA. (See also U.S. Department of Health and Human Services: HIPAA for Professionals.)
+
+Key provisions of HIPAA are embodied in the following three rules (now contained in an omnibus rule), all of which are intended to protect the privacy and security of individually identifiable health information, referred to as protected health information (PHI):
+
+Privacy Rule: Sets standards for the protection of PHI and gives patients important rights with respect to their health information
+
+Security Rule: Establishes safeguards that covered entities and their business associates must implement to protect the privacy, integrity, and security of electronic PHI
+
+Breach Notification Rule: Requires covered entities to notify affected individuals, the federal government, and in some cases, the media of a breach of unsecured PHI
+
+The Office for Civil Rights in the U.S. Department of Health and Human Services enforces these rules and provides guidance on complying with the rules.
+
+Key aspects of the Privacy Rule are elaborated below.
+
+Access to medical records
+
+Typically, patients or their authorized representatives should be able to see and obtain copies of their medical records and request corrections if they identify errors. For purposes of the Privacy Rule, an authorized "personal representative" of the patient is a guardian or conservator with authority over health decisions, an agent or proxy appointed in an advance directive or durable power of attorney for health care, or a family member or friend authorized to serve as a surrogate for health decisions under state law.  Patients also have the right to give another person access to all or part of their medical records by a signed, written authorization. 
+
+Notice of privacy practices
+
+Health care providers must provide a notice about their possible uses of PHI and about patient rights under HIPAA regulations.
+
+Limits on use of protected health information (PHI)
+
+HIPAA limits how health care providers may use PHI. The act does not restrict physicians, nurses, and other health care professionals from sharing information needed to treat their patients. Disclosures to health information exchanges and public health agencies for public health purposes during events such as the COVID-19 pandemic are also permissible disclosures under guidelines of the Office for Civil Rights in the U.S. Department of Health and Human Services. However, health care professionals may use or share only the minimum amount of protected information needed for a particular purpose. In most situations, PHI may not be used for purposes unrelated to health care. For example, a patient must sign a specific authorization before a health care provider can release medical information to a life insurer, a bank, a marketing firm, or another outside business for purposes unrelated to the patient’s current health care needs.
+
+Marketing
+
+Marketing is communication designed to encourage people to purchase a particular product or service. HIPAA requires that the patient’s specific authorization must be obtained before disclosing PHI for marketing purposes. Health care providers must disclose any payments that will be received as a result of marketing. However, health care providers can freely communicate with patients about treatment options, products, and other health-related services, including disease-management programs.
+
+Confidential communications
+
+Health care professionals should take reasonable steps to ensure that their communications with the patient are confidential and in accord with patient preferences. For example, clinician-patient medical discussions generally should be in private, or a patient might prefer that the clinician call their office rather than home. Nonetheless, unless the patient objects, clinicians can share PHI with a patient’s immediate family members or someone known to be a close personal friend if the information relates to that person’s involvement with the patient’s care or payment for care and the information is limited to what is necessary to that person’s involvement. Clinicians are expected to exercise professional judgment.
+
+An authorized personal representative of the patient should be treated the same as the patient with respect to access to information and participation in decision-making. Thus, the representative has the same access to information and may exercise the same rights regarding confidentiality of information. Nevertheless, health care professionals may restrict information or access if there are reasonable concerns about domestic violence, abuse, or neglect by the representative.
+
+Some communication cannot remain confidential. Health care professionals are sometimes required by state or local law to disclose certain information, usually because the condition may present a danger to other people. HIPAA permits disclosure of PHI to public health authorities that are legally authorized to receive such information for the purpose of preventing or controlling disease, injury, or disability (1). (See also U.S. Department of Health and Human Services: HIPAA for Professionals: Disclosures for Public Health Activities.) For example, certain infectious diseases (eg, COVID-19, HIV, syphilis, tuberculosis) must be reported to state or local public health agencies. Signs of child abuse and, in many states, adult or elder abuse or neglect, typically must be reported to protective services. In some states, conditions that might seriously impair a patient’s ability to drive, such as dementia or recent seizures, must be reported to the Department of Motor Vehicles..
+
+Complaints
+
+Patients may file complaints about compliance with these privacy practices. Complaints can be made directly to the health care professional, the Office for Civil Rights in the U.S. Department of Health and Human Services, or the privacy compliance officer designated by the institution in compliance with HIPAA. Although patients do not have a right to file a private lawsuit under HIPAA, they may bring lawsuits under other laws protecting privacy and confidentiality. The Office for Civil Rights regularly imposes civil and criminal penalties for improper disclosure of personal health information. The soundest course for health care professionals is to be well informed about HIPAA, to act in good faith, and make reasonable attempts to comply.
+
+Reference
+
+1. United States Code of Federal Regulations (CFR): 45 CFR §164.512. Accessed September 22, 2023.
+
+More Information
+
+U.S. Department of Health and Human Services: HIPAA for Professionals: Provides detailed information about HIPAA and its rules and administration, including frequently asked questions about HIPAA.

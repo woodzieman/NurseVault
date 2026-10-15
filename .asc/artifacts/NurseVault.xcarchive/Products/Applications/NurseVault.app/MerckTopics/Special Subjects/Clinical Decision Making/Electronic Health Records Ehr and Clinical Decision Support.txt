@@ -1,0 +1,48 @@
+=== Electronic Health Records (EHR) and Clinical Decision Support (Merck Manual Professional) ===
+Section: Special Subjects > Clinical Decision Making
+Source: https://www.merckmanuals.com/professional/special-subjects/clinical-decision-making/electronic-health-records-ehr-and-clinical-decision-support
+Retrieved: 2026-09-25
+
+The electronic health record (EHR) has enabled changes in health care delivery by making available vast amounts of patient data and clinical information to be used for clinical decision support (CDS), as well as allowing patients to have direct access to much of the same information.
+
+In the United States, legislation has created financial incentives to adopt an EHR and, more importantly, to derive meaningful use from it. Although adoption of the EHR has been brisk in the United States, its ultimate impact on patient care and physician wellness and professional satisfaction is unclear and will likely continue to evolve for many years as new uses and challenges are discovered.
+
+The sheer amount of patient information available in a single, often digitally searchable, electronic location rather than in volumes of paper can assist clinical decision making, even if the EHR serves as nothing more than a repository of information and images that can be searched, reviewed, and compared.
+
+Following are some potential benefits of the EHR:
+
+The EHR eliminates legibility problems with handwritten records (although it may introduce errors from voice recognition software).
+
+The EHR enables multiple providers to view a record simultaneously, from various locations.
+
+Automated drug interaction and allergy alerts and dosing error detection may reduce medication errors.
+
+Clinically relevant links embedded in the EHR to information regarding diseases, appropriate screening, immunizations, and treatment may encourage the clinician to access the most current information on the patient’s problem set in real time.
+
+Clinical scoring tools and pre-test probability calculators linked to or embedded within the EHR can cull information from a specific patient's medical record to assist the clinician with diagnosis and treatment decisions and allow intervention earlier in the course of disease. Real language screening of physician entries by artificial intelligence algorithms can offer diagnostic considerations as well as facilitate the conduct of clinical research.
+
+Clinical parameters (eg, vital signs, test results) contained within the EHR can be used to create alerts that notify the clinician or even trigger predetermined orders or order sets, diagnostic and therapeutic bundles, or clinical pathways. As an example, in a recent study, pediatric patients between the ages of 10 and 17 were randomized to usual care or care bolstered by EHR-linked clinical decision support (CDS) during visits where blood pressure was measured at each encounter. The CDS tool displayed blood pressures and percentiles, identified incident hypertension, and offered tailored order sets. Hypertension was identified in 1.7% of 31,579 patients over a 2-year period. When CDS was available, 17.1% of hypertensive patients were referred for weight loss and exercise counseling; 9.4% had additional testing for hypertension. However, when usual care was provided, only 3.9% of hypertensive patients were referred for counseling and 4.2% had additional testing. The authors conclude that EHR-linked clinical decision support had a significant and beneficial effect on the recognition of pediatric hypertension (1).
+
+Providing EHR-linked CDS at the time of diagnostic test ordering may decrease the use of low yield or inappropriate diagnostic testing. In a recent study, clinicians who, at the time of order entry, were presented with appropriateness criteria for imaging studies promulgated by the American College of Radiology (ACR) ordered fewer low-utility MRI, CT, nuclear medicine, PET, and ultrasound studies. Clinicians were prompted to select a structured indication for the desired test. The selected indication was mapped by a commercially available CDS tool (ACR Select) to the ACR criteria which characterized the test selected as: low utility or usually not appropriate, marginal or intermediate utility, and well indicated or usually appropriate. This CDS support reduced the frequency of low-utility tests from 11% to 5.4% and increased the frequency of high-utility tests from 64.5% to 84%. Improvement was seen among attending physicians, resident physicians, and advanced practice providers (nurse practitioners and physician assistants) and was most pronounced in resident physicians (2).
+
+In general, these measures aim to reduce variation in clinical practice by guiding clinicians to what is considered best practice as determined by expert panels, professional associations, insurance providers, or health care institutions. Because the EHR records when such triggers or prompts are provided to clinicians, adherence to protocols or guidelines can be measured. These examples illustrate the yet-to-be realized potential of the EHR in CDS. Maturing EHR systems and refined EHR-CDS will augment traditional medical decision making in the future. Moreover, the incorporation of artificial intelligence software and machine learning into the EHR, although still in its early stages, has the potential to change how clinicians both gather and analyze patient information (3). AI tools are now available to record and edit clinician-patient encounters in real time and generate an initial structured note in the EHR (including a summary written for the patient) that can be fully edited by the clinician. This hopefully results in higher- quality shared decision making with the patient that will enhance the likelihood that clinical decisions will be successfully enacted.
+
+On the other hand, potential detrimental effects of the EHR have also been noted:
+
+Marked increase in the amount of provider time spent on documentation and keyboarding (including during the patient encounter, significantly changing the social nature of the interaction); use of the EHR is a well-recognized contributor to physician burnout. (AI-generated office notes save time in the initial keyboarding of notes, and permit more face-face time with the patient. However, these notes must subsequently be edited for accuracy and nuance and clinicians have noted concerns regarding organizational consequences in using this technology [4].)
+
+Increased volume of documentation in the chart making it more difficult to identify relevant information (eg, copying content from earlier notes and pasting it undated into current encounter notes, possibly for convenience or to justify billing level, creates confusion and skepticism of the accuracy of the rest of the note)
+
+Pull-down menus for order entry increase likelihood for mis-selection (5)
+
+References
+
+1. Armoundas AA, Narayan SM, Arnett DK, et al. Use of Artificial Intelligence in Improving Outcomes in Heart Disease: A Scientific Statement From the American Heart Association. Circulation. 2024;149(14):e1028-e1050. doi:10.1161/CIR.0000000000001201
+
+2. Goh KH, Wang L, Yeow AYK, et al. Artificial intelligence in sepsis early prediction and diagnosis using unstructured data in healthcare. Nat Commun. 2021;12(1):711. Published 2021 Jan 29. doi:10.1038/s41467-021-20910-4
+
+3. Haug CJ, Drazen JM. Artificial Intelligence and Machine Learning in Clinical Medicine, 2023. N Engl J Med. 2023;388(13):1201-1208. doi:10.1056/NEJMra2302038
+
+4. Bundy H, Gerhart J, Baek S, et al. Can the Administrative Loads of Physicians be Alleviated by AI-Facilitated Clinical Documentation?. J Gen Intern Med. 2024;39(15):2995-3000. doi:10.1007/s11606-024-08870-z
+
+5. Carayon P, Du S, Brown R, Cartmill R, Johnson M, Wetterneck TB. EHR-related medication errors in two ICUs. J Healthc Risk Manag. 2017;36(3):6-15. doi:10.1002/jhrm.21259

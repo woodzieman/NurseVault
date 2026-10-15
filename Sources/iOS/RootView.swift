@@ -22,6 +22,8 @@ struct RootView: View {
         case drugReference
         /// The read-only Merck Manual medical topics bundled with the app.
         case merckManual
+        /// 174 clinical calculators (MedCalc library).
+        case mediCalc
     }
 
     /// Wrapper so a section can drive a sheet (`item:` requires Identifiable).
@@ -46,6 +48,14 @@ struct RootView: View {
             .padding()
     }
 
+    /// Handles deep links like `nursevault://calculator/<id>` by navigating to Clinical
+    /// Calculators and opening the specified calculator.
+    private func handleDeeplink(_ url: URL) {
+        guard let id = MedCalcDeepLink.calculatorID(from: url),
+              MedCalcCatalog.calculator(withID: id) != nil else { return }
+        selection = .mediCalc
+    }
+
     private var readyContent: some View {
         NavigationSplitView {
             List(selection: $selection) {
@@ -55,6 +65,10 @@ struct RootView: View {
                 Label("Drug Reference", systemImage: "cross.case")
                     .badge(drugLibrary.entries.count)
                     .tag(SidebarItem.drugReference)
+
+                Label("Clinical Calculators", systemImage: "calculator.fill")
+                    .badge(MedCalcCatalog.all.count)
+                    .tag(SidebarItem.mediCalc)
 
                 Label("Merck Manual", systemImage: "book")
                     .badge(merckLibrary.entries.count)
@@ -79,6 +93,7 @@ struct RootView: View {
             }
             .navigationTitle("Nurse Vault")
             .toolbar {
+                #if os(iOS)
                 ToolbarItem(placement: .topBarLeading) {
                     Button {
                         showingSettings = true
@@ -86,21 +101,39 @@ struct RootView: View {
                         Image(systemName: "gearshape")
                     }
                 }
+                #endif
+                #if os(macOS)
+                ToolbarItem(placement: .navigation) {
+                    Button {
+                        showingSettings = true
+                    } label: {
+                        Image(systemName: "gearshape")
+                    }
+                    .keyboardShortcut(",", modifiers: .command)
+                }
+                #endif
                 ToolbarItem(placement: .primaryAction) {
                     Button {
                         showingNewSection = true
                     } label: {
                         Label("New Section", systemImage: "folder.badge.plus")
                     }
+                    #if os(macOS)
+                    .keyboardShortcut("N", modifiers: .command)
+                    #endif
                 }
             }
         } content: {
             switch selection {
             case .drugReference:
                 DrugReferenceView()
+            case .mediCalc:
+                NavigationStack {
+                    CategoryListView()
+                }
             case .merckManual:
                 MerckManualView()
-            case .all, .section, .none:
+            case .all, .section(_), .none:
                 NavigationStack {
                     VaultListView(container: currentContainer)
                 }
@@ -147,6 +180,10 @@ struct RootView: View {
             Text("This also deletes everything stored in the section.")
         }
         .navigationSplitViewStyle(.balanced)
+        #if os(macOS)
+        .navigationSplitViewColumnWidth(min: 200, ideal: 240, max: 320)
+        .navigationSplitViewColumnWidth(min: 280, ideal: 360, max: 500)
+        #endif
         .onChange(of: scenePhase) { _, newPhase in
             if newPhase == .active {
                 library.reload()
@@ -165,6 +202,9 @@ struct RootView: View {
                 + "Your vault was re-created, so documents from the earlier alpha build didn't carry over."
             )
         }
+        .onOpenURL { url in
+            handleDeeplink(url)
+        }
     }
 
     private var currentSection: VaultSection? {
@@ -173,12 +213,25 @@ struct RootView: View {
             return nil
         case .section(let section):
             return section
+        case .some(.mediCalc):
+            // MediCalc is not a VaultSection, so return nil
+            return nil
         }
     }
 
     private var currentContainer: VaultContainer? {
+        // MediCalc selection is handled separately — no VaultContainer needed.
         switch selection {
-        case .all, .none, .drugReference, .merckManual:
+        case .mediCalc:
+            return nil
+        default:
+            return containerFromSelection()
+        }
+    }
+
+    private func containerFromSelection() -> VaultContainer? {
+        switch selection {
+        case .all, .none, .drugReference, .merckManual, .mediCalc:
             return nil
         case .section(let section):
             return .section(section)
@@ -253,7 +306,7 @@ struct WatchSyncSettingsView: View {
                             get: { section.syncToWatch },
                             set: { newValue in
                                 section.syncToWatch = newValue
-                                library.save()
+                                _ = library.save()
                                 library.writeWatchSummaryForced()
                             }
                         )) {

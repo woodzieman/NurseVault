@@ -16,9 +16,12 @@ public enum VaultStoreLocation {
 
     /// `Application Support/NurseVault`, created on demand.
     nonisolated public static var directory: URL {
-        let base = FileManager.default
+        guard let base = FileManager.default
             .urls(for: .applicationSupportDirectory, in: .userDomainMask)
-            .first!
+            .first else {
+            // Fallback to documents directory if Application Support is unavailable
+            return FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent("NurseVault", isDirectory: true) ?? URL(fileURLWithPath: NSTemporaryDirectory()).appendingPathComponent("NurseVault")
+        }
         let directory = base.appendingPathComponent("NurseVault", isDirectory: true)
         try? FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
         return directory

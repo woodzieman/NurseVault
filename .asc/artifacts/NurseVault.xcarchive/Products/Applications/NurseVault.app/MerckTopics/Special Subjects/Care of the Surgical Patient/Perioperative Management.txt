@@ -1,0 +1,114 @@
+=== Perioperative Management (Merck Manual Professional) ===
+Section: Special Subjects > Care of the Surgical Patient
+Source: https://www.merckmanuals.com/professional/special-subjects/care-of-the-surgical-patient/perioperative-management
+Retrieved: 2026-09-25
+
+Perioperative care is based on individual as well as general recommendations and is aimed at preventing perioperative complications and optimizing outcomes. Planning and preparation are done in the weeks or days before a nonemergent procedure, if feasible, with measures that are appropriate for each patient based on the planned procedure, indication for surgery, medical history, medications, and patient preferences.
+
+Enhanced Recovery After Surgery (ERAS) guidelines have been developed and validated with the aim of standardizing perioperative care and improving overall surgical outcomes for various surgical specialties (see ERAS Society).
+
+Preoperative Medication and Comorbidity Management
+
+Patients with chronic medical disorders, particularly cardiovascular, pulmonary, or renal disease may require management to prepare for surgery. In addition, many medications can interact with anesthetic agents or have adverse effects during or after surgery. Thus, usually before surgery the patient's medications are reviewed and which should be taken on the day of surgery is decided.
+
+Anticoagulants and antiplatelets
+
+Anticoagulation should be discontinued in patients undergoing elective surgery with a low‐to‐moderate thromboembolic risk at least 48 hours before surgery and resumed within 12 to 24 hours after surgery. For patients at high risk of thromboembolism, such as those with coronary artery stents or mechanical heart valves, the risk of death due to thrombosis may outweigh the risk of surgical bleeding. The decision to discontinue anticoagulation therapy should be individualized and involve a multidisciplinary team. For patients with stents, factors to consider include the type of stent (bare or drug-eluting), time since placement, type of surgery, and whether an elective procedure can be postponed until periods of increased risk have passed (1).
+
+In most cases, antiplatelet agents (eg, aspirin) are stopped 5 to 7 days before surgery. For direct oral anticoagulants (DOACs), the timing of discontinuation and resumption should be based on the drug's half‐life and renal function; bridging therapy (giving a short-acting anticoagulant such as low molecular weight heparin until the anticoagulant effect of the DOAC becomes therapeutic) is generally not recommended due to the shorter half‐life of these agents and the lack of specific reversal agents (2).
+
+Dabigatran should be stopped before elective procedures and may be resumed within 24 to 48 hours in patients with low bleeding risk, but should be resumed later (typically 3 to 5 days postoperatively) for high-risk procedures or patients (3). If necessary, dabigatran may be reversed with idarucizumab, a monoclonal antibody fragment that binds to dabigatran and rapidly neutralizes its anticoagulant effect (4). Other reversal agents, such as prothrombin complex concentrate (PCC) or activated PCC (aPCC), may also be effective in reversing the anticoagulant effect of dabigatran, but their use is less well established.
+
+Except for certain minor procedures, warfarin is stopped for 5 days before surgery; INR (international normalized ratio) at the time of surgery should be ≤ 1.5. Some patients are given bridging therapy with a short-acting anticoagulant such as low molecular weight heparin after stopping warfarin (5). Routine bridging therapy with heparin is not recommended for patients undergoing surgery who are at low‐to‐moderate risk of thromboembolism. Bridging therapy should be considered for patients at high risk of thromboembolism, such as those with a history of venous thromboembolism or mechanical heart valves, and should be based on the patient's individual risk and bleeding profile (6, 7).
+
+Because it takes up to 5 days for warfarin to achieve therapeutic anticoagulation, it can be started the day of or after surgery unless the risk of postoperative bleeding is high. Patients should receive bridging anticoagulation until the INR has reached the therapeutic target.
+
+In patients receiving anticoagulant therapy, the decision to use regional anesthesia should be made on a case‐by‐case basis, taking into account the risks of bleeding and thrombosis. Epidural catheters should not be removed until at least 12 hours after the last dose of a DOAC.
+
+Corticosteroids
+
+Patients may require supplemental corticosteroids to help prevent inadequate responses to perioperative stress if they have taken > 5 mg of prednisone daily (or an equivalent dose of another corticosteroid) for > 3 weeks within the past year. Empiric stress dose corticosteroid coverage is also often given when the dose and duration of corticosteroid therapy is unknown.
+
+Other medications for chronic disorders
+
+Most medications taken to control chronic disorders, especially cardiovascular medications (including antihypertensives), should be continued throughout the perioperative period. Most oral medications can be given with a small sip of water on the day of surgery. Other medications may have to be given parenterally or delayed until after surgery. Anticonvulsant levels should be measured preoperatively in patients with a seizure disorder.
+
+Diabetes
+
+On the day of surgery, patients with insulin-dependent diabetes are typically given one third of their usual insulin dose in the morning. Patients who take oral medications are given half of their usual dose. If possible, surgery is done early in the day. The anesthesiologist monitors glucose levels during surgery and gives additional insulin or dextrose as needed. Close monitoring with fingerstick testing continues throughout the perioperative period. In the immediate postoperative period, insulin is given on a sliding scale. The usual at-home insulin regimen is not restarted until patients resume their regular diet. Oral hypoglycemic agents are usually restarted when the patient is discharged from the hospital.
+
+Heart disease
+
+Patients with known coronary artery disease or heart failure should undergo preoperative evaluation and risk stratification by their cardiologist. If patients are not medically optimized, they should undergo additional testing before elective surgery.
+
+Pulmonary disease
+
+Preoperative pulmonary function tests can help quantify the degree of obstructive, restrictive, or reactive airway disease. Pulmonary function should be optimized by carefully adjusting the use and doses of inhalers, other medications, and airway clearance techniques.
+
+Substance use
+
+Patients who smoke cigarettes are advised to stop smoking as early as possible before any procedure involving the chest or abdomen. Several weeks of smoking cessation are required for ciliary mechanisms to recover. An incentive inspirometer should be used before and after surgery.
+
+For patients with frequent or heavy use of cannabinoids, American Society of Regional Anesthesia and Pain Medicine guidelines recommend counseling about potential risks (eg, increased postoperative nausea and vomiting, myocardial infarction) of continued use during the perioperative period, postponing elective surgery in patients with altered mental status or impaired decision‐making capacity due to acute cannabis intoxication, and delaying nonemergent surgery for a minimum of 2 hours after smoking or ingesting cannabis because of increased risk of myocardial infarction (8).
+
+Patients who are dependent on illicit drugs or alcohol may experience withdrawal during the perioperative period. Patients with alcohol use disorder should be given prophylactic benzodiazepines (eg, chlordiazepoxide, diazepam, lorazepam) starting at admission. Patients with opioid use disorder may be given opioid analgesics to prevent withdrawal; for pain relief, they may require larger doses than patients who are not addicted. Rarely, people with opioid use disorder require methadone to prevent withdrawal during the perioperative period.
+
+References
+
+1. Fleisher LA, Fleischmann KE, Auerbach AD, et al: 2014 ACC/AHA guideline on perioperative cardiovascular evaluation and management of patients undergoing noncardiac surgery: A report of the American College of Cardiology/American Heart Association Task Force on practice guidelines. J Am Coll Cardiol 64(22):e77-e137, 2014. doi:10.1016/j.jacc.2014.07.944
+
+2. Douketis JD, Healey JS, Brueckmann M, et al: Perioperative bridging anticoagulation during dabigatran or warfarin interruption among patients who had an elective surgery or procedure. Substudy of the RE-LY trial. Thromb Haemost 113(3):625-632, 2015. doi:10.1160/TH14-04-0305
+
+3. Schulman S, Carrier M, Lee AY, et al: Perioperative management of dabigatran: a prospective cohort study. Circulation 132(3):167-173, 2015. doi:10.1161/CIRCULATIONAHA.115.015688
+
+4. Pollack CV Jr, Reilly PA, van Ryn J, et al: Idarucizumab for dabigatran reversal - full cohort analysis. N Engl J Med 377(5):431-441, 2017. doi:10.1056/NEJMoa1707278
+
+5. Keeling D, Baglin T, Tait C, et al: Guidelines on oral anticoagulation with warfarin - fourth edition. Br J Haematol 154(3):311-324, 2011. doi:10.1111/j.1365-2141.2011.08753.x
+
+6. Kuo HC, Liu FL, Chen JT, et al: Thromboembolic and bleeding risk of periprocedural bridging anticoagulation: A systematic review and meta-analysis. Clin Cardiol 43(5):441-449, 2020. doi:10.1002/clc.23336
+
+7. Douketis JD, Spyropoulos AC, Kaatz S, et al: Perioperative bridging anticoagulation in patients with atrial fibrillation. N Engl J Med 373(9):823-833, 2015. doi:10.1056/NEJMoa1501035
+
+8. Goel A, McGuinness B, Jivraj NK, et al: Cannabis use disorder and perioperative outcomes in major elective surgeries: a retrospective cohort analysis. Anesthesiology 132(4):625-635, 2020. doi:10.1097/ALN.0000000000003067
+
+Preparation on Day of Surgery
+
+The Surgical Care Improvement Project (SCIP) in the United States is a project that implements measures to reduce perioperative morbidity and mortality. The SCIP guidelines were adopted and published in the Specifications Manual for Joint Commission National Quality Core Measures (Specifications Manual).
+
+General SCIP recommendations are as follows:
+
+Ensure controlled 6:00 AM postoperative blood glucose level in cardiac surgery patients.
+
+Use clippers or depilatory methods, not a blade, to remove hair from the surgical site immediately before surgery.
+
+Remove urinary catheters within the first 2 postoperative days except when required by specific clinical circumstances.
+
+Standardize antibiotic choices based on type of surgery and patient factors (see Specifications Manual: Prophylactic Antibiotic Regimen Selection For Surgery and also see table Antibiotic Coverage for Certain Surgical Procedures).
+
+Oral intake and bowel preparation
+
+The American Society of Anesthesiologists (ASA) recommendations regarding oral intake are as follows (1):
+
+8 hours preoperatively: Stop intake of meat or fried or fatty foods
+
+6 hours: Limit intake to a light meal (eg, toast and a clear liquid), then only clear liquids allowed
+
+2 hours: Stop all oral intake, including food, liquids, and medications
+
+For certain gastrointestinal procedures, cleansing enemas or oral antibiotic bowel preparations must be started 1 to 2 days before surgery.
+
+Preprocedural checklist
+
+In the United States, the Joint Commission Universal Protocol providing preprocedure operating room guidance was developed with the goal of preventing surgical errors involving the wrong patient, procedure, or part of the body. Part of the protocol is holding a preprocedure time out during which the team confirms several important factors:
+
+Patient identity
+
+Verification of correct procedure and location and side of the operative site
+
+Availability of all needed equipment
+
+Verification of administration of indicated prophylaxis (eg, antibiotics, anticoagulants, beta-blockers)
+
+Preparation on day of surgery reference
+
+1. Practice Guidelines for Preoperative Fasting and the Use of Pharmacologic Agents to Reduce the Risk of Pulmonary Aspiration: Application to Healthy Patients Undergoing Elective Procedures: An Updated Report by the American Society of Anesthesiologists Task Force on Preoperative Fasting and the Use of Pharmacologic Agents to Reduce the Risk of Pulmonary Aspiration. Anesthesiology. 2017;126(3):376-393. doi:10.1097/ALN.0000000000001452

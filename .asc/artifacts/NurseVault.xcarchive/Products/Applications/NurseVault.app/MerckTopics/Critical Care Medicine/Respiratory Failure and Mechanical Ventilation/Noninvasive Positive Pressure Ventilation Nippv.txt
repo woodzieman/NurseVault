@@ -1,0 +1,44 @@
+=== Noninvasive Positive Pressure Ventilation (NIPPV) (Merck Manual Professional) ===
+Section: Critical Care Medicine > Respiratory Failure and Mechanical Ventilation
+Source: https://www.merckmanuals.com/professional/critical-care-medicine/respiratory-failure-and-mechanical-ventilation/noninvasive-positive-pressure-ventilation-nippv
+Retrieved: 2026-09-25
+
+Helmets that deliver NIPPV are an alternative for patients who cannot tolerate the standard tight-fitting face masks. Because of its use in spontaneously breathing patients, NIPPV is primarily applied as a form of pressure support ventilation or to deliver end-expiratory pressure, although volume control can be used. (See also How To Do Noninvasive Positive Pressure Ventilation.)
+
+Noninvasive Positive Pressure ...
+
+video
+
+NIPPV can be given as:
+
+Continuous positive airway pressure (CPAP)
+
+Bilevel positive airway pressure (BiPAP)
+
+In CPAP, constant pressure is maintained throughout the respiratory cycle with no additional inspiratory support.
+
+With BiPAP, the physician sets both the expiratory positive airway pressure (EPAP) and the inspiratory positive airway pressure (IPAP), with respirations triggered by the patient.
+
+In either mode, because the airway is unprotected, aspiration is possible, so patients must have adequate mentation and airway protective reflexes and no imminent indication for surgery or transport off the floor for prolonged procedures. Obtunded patients and patients with copious secretions are not good candidates. NIPPV also should be avoided in patients who are hemodynamically unstable and in those with evidence of impaired gastric emptying, as occurs with ileus, bowel obstruction, or pregnancy. In such circumstances, swallowing large quantities of air may result in vomiting and life-threatening aspiration. Also, IPAP must be set below esophageal opening pressure (20 cm H2O) to avoid gastric insufflation.
+
+Indications for conversion to endotracheal intubation and conventional mechanical ventilation include the development of shock or frequent arrhythmias, myocardial ischemia, high work of breathing, and transport to a cardiac catheterization laboratory or surgical suite where control of the airway and full ventilatory support are desired.
+
+NIPPV can be used in the outpatient setting. For example, CPAP is often used for patients with obstructive sleep apnea, whereas BiPAP can be used for patients with concomitant obesity-hypoventilation syndrome or for chronic ventilation in patients with neuromuscular or chest wall diseases.
+
+High flow nasal oxygen (HFNO)
+
+HFNO delivers heated humidified oxygen at flow rates up to 60 L/minute.
+
+Higher flow rates wash out anatomical dead space, deliver more consistent FiO2, and may provide a low level of positive airway pressure (3 to 5 cm H2O) when the mouth is closed. When applying HFNO, initial settings typically involve an FiO2 of 100% and a flow rate of 40 L/minute. The flow rate should be titrated up to improve respiratory rate and work of breathing up to 60 L/minute as tolerated. Once the work of breathing is improved, the FiO2 can be titrated downward to achieve an adequate saturation.
+
+Clinical trials comparing HFNO to conventional oxygen (low-flow rates of < 15 L/minute) have shown a reduction in intubation rates but not mortality (1, 2, 3). Consequently, some guidelines recommended the use of HFNO in comparison to conventional oxygen to prevent intubation. However, given the conflicting and limited evidence, there is no clear recommendation for choosing between HFNO, CPAP, or BiPAP for the management of acute hypoxic respiratory failure (4).
+
+References
+
+1. Frat JP, Quenot JP, Badie J, et al. Effect of High-Flow Nasal Cannula Oxygen vs Standard Oxygen Therapy on Mortality in Patients With Respiratory Failure Due to COVID-19: The SOHO-COVID Randomized Clinical Trial. JAMA. 2022;328(12):1212-1222. doi:10.1001/jama.2022.15613
+
+2. Frat JP, Quenot JP, Guitton C, et al. High-Flow or Standard Oxygen in Acute Hypoxemic Respiratory Failure. N Engl J Med. Published online March 17, 2026. doi:10.1056/NEJMoa2516087
+
+3. Ospina-Tascón GA, Calderón-Tapia LE, García AF, et al. Effect of High-Flow Oxygen Therapy vs Conventional Oxygen Therapy on Invasive Mechanical Ventilation and Clinical Recovery in Patients With Severe COVID-19: A Randomized Clinical Trial. JAMA. 2021;326(21):2161-2171. doi:10.1001/jama.2021.20714
+
+4. Grasselli G, Calfee CS, Camporota L, et al. ESICM guidelines on acute respiratory distress syndrome: definition, phenotyping and respiratory support strategies. Intensive Care Med. 2023;49(7):727-759. doi:10.1007/s00134-023-07050-7

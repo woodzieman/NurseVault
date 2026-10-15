@@ -1,0 +1,40 @@
+=== Non-Nucleic Acid–Based Identification Methods for Infectious Disease (Merck Manual Professional) ===
+Section: Infectious Disease > Laboratory Diagnosis of Infectious Disease
+Source: https://www.merckmanuals.com/professional/infectious-diseases/laboratory-diagnosis-of-infectious-disease/non-nucleic-acid-based-identification-methods-for-infectious-disease
+Retrieved: 2026-09-25
+
+Once an organism has been isolated by culture, it must be identified. Identification is important in determining management (eg, medications, isolation measures). Non-nucleic acid–based identification methods use phenotypic (functional or morphologic) characteristics of organisms rather than genotypic (eg, NAAT) characteristics.
+
+Characteristics of an organism’s growth on culture media, such as colony size, color, and shape, provide clues to species identification and, combined with Gram stain, direct further testing.
+
+Numerous biochemical tests are available; each is restricted to organisms of a certain type (eg, aerobic or anaerobic bacteria). Some assess an organism’s ability to use different substrates for growth. Others assess presence or activity of key enzymes (eg, coagulase, catalase). Tests are done sequentially, with previous results determining the next test to be used. The sequences of tests are myriad and differ somewhat among laboratories.
+
+Non-nucleic acid–based identification tests may involve
+
+Manual methods
+
+Automated systems
+
+Serologic assays
+
+Chromatographic methods
+
+Mass spectrometry
+
+Some commercially available kits contain a battery of individual tests that may be done simultaneously using a single inoculum of a microorganism and may be useful for a wider range of organisms. Multiple test systems can be highly accurate but may require several days to yield results.
+
+Serologic assays
+
+Serologic assays (immunologic or biochemical) can be used to detect the humoral response, specifically antibodies produced in response to antigens released from infectious agents or against the antigens themselves (eg, those associated with syphilis or cryptococcus).
+
+Chromatographic methods
+
+Microbial components or products are separated and identified using high-performance liquid chromatography (HPLC) or gas chromatography. Usually, identification is by comparison of an organism’s fatty acids to a database.
+
+Chromatographic methods can be used to identify aerobic and anaerobic bacteria, mycobacteria, and fungi. Test accuracy depends on the conditions used to culture the specimen and the quality of the database, which may be inaccurate or incomplete.
+
+Mass spectrometry
+
+Mass spectrometry can detect various proteins of different masses in a specimen. Specific pathogens have unique proteins, and the relative mass and abundance of each protein can sometimes be used to identify a microorganism. Mass spectrometry is one of a number of innovative technologies that are being or have been developed for detection and identification of biological warfare and bioterrorism agents. However, this method is limited because it, unlike some nucleic acid–based methods, is not readily deployable in the field.
+
+Currently, a form of mass spectrometry called matrix-assisted laser desorption ionization–time of flight (MALDI-TOF) is being used to identify bacteria (including mycobacteria), yeasts, molds, and potentially viruses. The advantage of this method is that microorganisms can be identified in < 1 hour; traditional methods may require 24 to 48 hours.

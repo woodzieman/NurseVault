@@ -1,0 +1,42 @@
+=== Protein C Deficiency (Merck Manual Professional) ===
+Section: Hematology > Thrombotic Disorders
+Source: https://www.merckmanuals.com/professional/hematology/thrombotic-disorders/protein-c-deficiency
+Retrieved: 2026-09-25
+
+(See also Overview of Thrombotic Disorders.)
+
+Protein C is a vitamin K–dependent protein, as are coagulation factors II (prothrombin), VII, IX, and X and proteins S and Z. Because activated protein C (APC) degrades factors Va and VIIIa, APC is a natural plasma anticoagulant. Decreased protein C due to a genetic or an acquired abnormality predisposes to venous thrombosis (1).
+
+Heterozygous deficiency of plasma protein C has a prevalence of 0.2 to 0.5% (2); in family studies of symptomatic probands, the life-time risk of venous thromboembolism (VTE) is high. Also, the risk of recurrent VTE is high (3). It is important to recognize that outcomes observed in family studies may not be generalizable to all patients with protein C deficiency.
+
+Homozygous deficiency or doubly heterozygous deficiency causes neonatal purpura fulminans, a severe neonatal form of disseminated intravascular coagulation (DIC), which manifests with ecchymoses and extensive venous and arterial thromboses, usually on the first day of life.
+
+Acquired decreases in protein C occur in patients with liver disease or disseminated intravascular coagulation (DIC) and during warfarin therapy.
+
+Diagnosis is based on antigenic and functional plasma assays of protein C.
+
+General references
+
+1. Dinarvand P, Moser KA. Protein C Deficiency. Arch Pathol Lab Med. 2019;143(10):1281-1285. doi:10.5858/arpa.2017-0403-RS
+
+2. Tait RC, Walker ID, Reitsma PH, et al. Prevalence of protein C deficiency in the healthy population. Thromb Haemost. 1995;73(1):87-93.
+
+3. Lijfering WM, Brouwer JL, Veeger NJ, et al. Selective testing for thrombophilia in patients with first venous thrombosis: results from a retrospective family cohort study on absolute thrombotic risk for currently known thrombophilic defects in 2479 relatives. Blood. 2009;113(21):5314-5322. doi:10.1182/blood-2008-10-184879
+
+Treatment of Protein C Deficiency
+
+Anticoagulation
+
+Patients with symptomatic thrombosis can be treated with direct oral anticoagulants (DOACs) or warfarin.
+
+When initiating warfarin therapy, it is important for clinicians to use therapeutic doses of heparin or low molecular weight heparin for initial anticoagulation and avoid warfarin loading doses. Instead, once patients are therapeutically anticoagulated with a parenteral agent, warfarin should be started at the estimated maintenance dose (eg, 5 mg daily) and parenteral anticoagulation with heparin should continue for at least 5 days and until the INR is ≥ 2.
+
+Since protein C is a vitamin K–dependent protein and has a short half-life compared to factors II and X, discontinuation of parenteral anticoagulants such as unfractionated or low molecular weight heparin before factor II and X levels have fallen sufficiently (to 20 to 40% of normal activity) can precipitate warfarin skin necrosis. This complication can be avoided by using DOACs, which appear to be as effective as warfarin for prevention of venous thromboembolism in patients with protein C deficiency. When using dabigatran or edoxaban, initial parenteral anticoagulation with unfractionated heparin or low molecular weight heparin for at least the first 5 days is recommended (1, 2). Since DOACs have a short onset of action, they can be started when heparin is stopped without a period of overlap of the 2 drugs.
+
+Neonatal purpura fulminans is a form of deficiency that is fatal without replacement of protein C (using normal plasma or purified concentrate) along with anticoagulation with heparin or low molecular weight heparin.
+
+Treatment references
+
+1. Schulman S, Kearon C, Kakkar AK, et al. Dabigatran versus warfarin in the treatment of acute venous thromboembolism. N Engl J Med. 2009;361(24):2342-2352. doi:10.1056/NEJMoa0906598
+
+2. Hokusai-VTE Investigators, Büller HR, Décousus H, et al. Edoxaban versus warfarin for the treatment of symptomatic venous thromboembolism [published correction appears in N Engl J Med. 2014 Jan 23;370(4):390]. N Engl J Med. 2013;369(15):1406-1415. doi:10.1056/NEJMoa1306638

@@ -1,0 +1,224 @@
+=== Antiretroviral Treatment of Human Immunodeficiency Virus (HIV) Infection (Merck Manual Professional) ===
+Section: Infectious Disease > Human Immunodeficiency Virus (HIV) Infection
+Source: https://www.merckmanuals.com/professional/infectious-diseases/human-immunodeficiency-virus-hiv-infection/antiretroviral-treatment-of-human-immunodeficiency-virus-hiv-infection
+Retrieved: 2026-09-25
+
+Because disease-related complications can occur in untreated patients with a high CD4 count and because less toxic medications have been developed, treatment with antiretroviral therapy (ART) is now recommended for all patients. The benefits of ART outweigh the risks in every patient group and setting that has been carefully studied.
+
+The primary goals of ART are to:
+
+Reduce the plasma HIV RNA level, also called viral load, to undetectable (ie, < 20 to 50 copies/mL)
+
+Restore the CD4 count to a normal level (immune restoration or reconstitution)
+
+ART goals can usually be achieved if patients take their medications > 95% of the time.
+
+If treatment fails, drug susceptibility (resistance) assays can determine the susceptibility of the dominant HIV strain to all available medications. Genotype assays may also be helpful.
+
+Many patients with human immunodeficiency virus (HIV) infection follow complex regimens involving multiple pills. With the availability of coformulated HIV medications, many patients could benefit from simplification of their ART regimen.
+
+(See also Treatment of HIV Infection.)
+
+Classes of Antiretroviral Medications
+
+Multiple classes of antiretroviral medications are used in ART. Two classes inhibit HIV entry, and the others inhibit 1 of the 3 HIV enzymes needed to replicate inside human cells. Three classes inhibit reverse transcriptase by blocking its RNA-dependent and DNA-dependent DNA polymerase activity.
+
+Nucleoside reverse transcriptase inhibitors (NRTIs) are phosphorylated to active metabolites that compete for incorporation into viral DNA. They inhibit the HIV reverse transcriptase enzyme competitively and terminate synthesis of DNA chains.
+
+Nucleotide reverse transcriptase inhibitors (nRTIs) competitively inhibit the HIV reverse transcriptase enzyme, as do NRTIs, but do not require initial phosphorylation.
+
+Non-nucleoside reverse transcriptase inhibitors (NNRTIs) bind directly to the reverse transcriptase enzyme.
+
+Protease inhibitors (PIs) inhibit the viral protease enzyme that is crucial to maturation of immature HIV virions after they bud from host cells.
+
+Entry inhibitors (EIs), sometimes called fusion inhibitors, interfere with the binding of HIV to CD4+ receptors and chemokine co-receptors; this binding is required for HIV to enter cells. For example, CCR5 inhibitors block the CCR5 receptor.
+
+Post-attachment inhibitors bind to the CD4 receptor and prevent HIV (that also binds to the CD4 receptor) from entering the cell.
+
+Integrase strand transfer inhibitors (INSTIs) prevent HIV DNA from being integrated into human DNA.
+
+Attachment inhibitors bind directly to the viral envelope glycoprotein 120 (gp120), close to the CD4+ binding site, which prohibits the conformational change necessary for initial interaction between the virus and the surface receptors on CD4 cells, thereby preventing attachment and subsequent entry into host T cells and other immune cells.
+
+Capsid inhibitors interfere with the protein shell (HIV capsid) that protects HIV's genetic material and enzymes required for replication.
+
+Antiretroviral Regimens
+
+To maximize adherence, regimens should be well-tolerated, and once-daily or twice-daily dosing is preferred when possible. Initial ART for adults who have not received treatment typically consists of a combination of 2 or 3 antiretroviral medications from different drug classes to achieve durable suppression of wild-type HIV. Regimen selection is based on the following (1):
+
+Anticipated adverse effects
+
+Simplicity of regimen
+
+Concomitant conditions (eg, hepatic or renal dysfunction)
+
+Other medications being taken (to avoid drug interactions)
+
+Established efficacy, safety, and ease of use
+
+A well-tolerated, once- or twice-daily regimen should be chosen when available. Common options for most adults who have not received ART before include INSTI-based combinations such as bictegravir/tenofovir alafenamide/emtricitabine; dolutegravir plus either tenofovir alafenamide or tenofovir disoproxil fumarate plus emtricitabine or lamivudine; and dolutegravir/lamivudine in appropriate patients.
+
+Dolutegravir/lamivudine should not be used in patients with HIV RNA > 500,000 copies/mL or hepatitis B virus coinfection, or when ART is initiated before results of HIV genotypic resistance testing or hepatitis B testing are available.
+
+For patients with prior exposure to long-acting cabotegravir for preexposure prophylaxis (PrEP), integrase resistance testing should be performed when feasible before regimen selection. If ART must be initiated before resistance testing results are available, a boosted PI-based regimen (eg, darunavir/cobicistat or darunavir/ritonavir plus emtricitabine or lamivudine) may be used as a temporary empiric option pending results.
+
+Guidelines from expert panels for initiating and modifying ART are updated regularly. Similarly, special issues concerning treatment of women and children change regularly and are updated on the U.S. Department of Health and Human Services website, ClinicalInfo.HIV.gov.
+
+Tablets containing fixed combinations of ≥ 2 medications are widely used to simplify regimens and improve adherence. Some combinations include cobicistat, which is a pharmacokinetic booster without antiretroviral activity that increases drug exposure of coformulated agents. Adverse effects of combination tablets reflect those of their individual components.
+
+Antiretroviral regimens reference
+
+1. ClinicalInfo.HIV.gov. Guidelines for the Use of Antiretroviral Agents in Adults and Adolescents With HIV. What to Start: Initial Combination Antiretroviral Regimens for People With HIV. September 24, 2024. Accessed April 10, 2026.
+
+Intramuscular Injectable Long-Acting Medications
+
+Long‑acting injectable medications are important additions to the HIV treatment armamentarium, because they allow flexibility in dosing schedules and potentially improve adherence and quality of life for patients with HIV infection (1). Where available, regimen selection should be guided by resistance testing, comorbidities, and patient preference.
+
+Cabotegravir and rilpivirine
+
+This regimen consists of 2 antiretroviral medications with a long-acting suspension formulation: rilpivirine, a non-nucleoside reverse transcriptase inhibitor (NNRTI), and cabotegravir, an integrase inhibitor.
+
+The regimen can be administered as an intramuscular injection every 2 months. Patients with HIV infection who wish to consider this injectable regimen must be adults who are on an otherwise stable regimen and who are virologically suppressed (HIV-1 viral load < 50 copies/mL) with no history of treatment failure and with no known or suspected resistance to either rilpivirine or cabotegravir. Patients with active hepatitis B infection are often excluded, because this regimen does not have treatment spectrum against hepatitis B.
+
+Patients often start their treatment with oral cabotegravir and rilpivirine for 4 weeks to assess how well they tolerate the medications. Common adverse effects are injection site pain, low-grade fever, and headaches. Postinjection hypersensitivity reactions are rare (2).
+
+Lenacapavir
+
+Lenacapavir is a long‑acting capsid inhibitor that is used in heavily treatment-experienced adults with multidrug resistance. It is typically administered as an intramuscular injection every 6 months as part of an optimized background antiretroviral regimen tailored to resistance testing, providing an option for patients with limited remaining oral treatment options.
+
+Several randomized trials have demonstrated potent viral suppression with lenacapavir in patients with multidrug-resistant HIV-1 (3). Lenacapavir expands treatment choices for patients who may benefit from less frequent dosing (4).
+
+Common adverse effects include injection site reactions and transient laboratory abnormalities.
+
+Intramuscular injectable long-acting medications references
+
+1. HIVInfo.NIH.gov. HIV Treatment: Long-Acting HIV Medicine. April 17, 2026. Accessed April 10, 2026.
+
+2. Overton ET, Richmond G, Rizzardini G, et al. Long-Acting Cabotegravir and Rilpivirine Dosed Every 2 Months in Adults With Human Immunodeficiency Virus 1 Type 1 Infection: 152-Week Results From ATLAS-2M, a Randomized, Open-Label, Phase 3b, Noninferiority Study. Clin Infect Dis. 2023;76(9):1646-1654. doi:10.1093/cid/ciad020
+
+3. Mukuhlani BT, Assaré RK. Efficacy and safety of long-acting lenacapavir for HIV treatment and prevention: A systematic review of randomized trials. Int J Infect Dis. Published online March 21, 2026. doi:10.1016/j.ijid.2026.108580
+
+4. Hagins D, Berhe M, Crofoot GE, et al. Final efficacy and safety of twice-yearly subcutaneous lenacapavir in treatment-naive people with HIV. AIDS. 2026;40(3):302-311. doi:10.1097/QAD.0000000000004372
+
+Drug Interactions
+
+Interactions between antiretroviral medications may increase or decrease efficacy depending on the medication involved (1).
+
+For example, the efficacy of protease inhibitors (PIs) can be enhanced by co-administering a low dose of oral ritonavir (eg, 100 mg once daily), which inhibits the hepatic enzyme that metabolizes the other PIs (eg, darunavir, atazanavir). By slowing clearance of the therapeutically dosed PI, ritonavir increases the levels of any coadministered PIs, maintains the increased levels longer, decreases the dosing interval, and increases efficacy.
+
+Some NRTI combinations demonstrate synergy. For example, lamivudine (3TC) and zidovudine (ZDV) together can be more effective than either alone, because mutations conferring resistance to 3TC can increase susceptibility to ZDV. Conversely, certain medication combinations may reduce efficacy or increase toxicity. Therefore, the selection of antiretroviral combination should aim to follow current guideline recommendations (1).
+
+Combining medications often increases the risk that either medication will have an adverse effect. Possible mechanisms include the following:
+
+Hepatic metabolism of PIs by cytochrome P-450: The result is decreased metabolism and, therefore, increased levels of other medications.
+
+Additive toxicities: Using tenofovir disoproxil fumarate (TDF) in a ritonavir-boosted regimen increases the plasma levels of tenofovir disoproxil and, in susceptible patients with certain comorbidities, causes renal dysfunction.
+
+Many medications may interfere with antiretroviral medications. Thus, drug interactions should always be checked before any new medication is started (1). For example, coformulated bictegravir is contraindicated when co-administered with a tuberculosis treatment containing rifampin or rifabutin. Rifampin and rifabutin strongly induce the metabolism of bictegravir, reducing its levels and predisposing the patient to ART failure. Interactions with herbs or supplements may also occur, for example, St. John's wort can enhance metabolism of PIs and NNRTIs and thus decreases plasma PI and NNRTI levels. Long-acting injectable antiretroviral medications also require consideration of potential drug interactions. Cabotegravir and lenacapavir are highly effective when used appropriately, but strong inducers of UGT1A1 (for cabotegravir) or CYP3A/UGT1A1 (for lenacapavir) can reduce medication levels and should be avoided. Because cabotegravir and lenacapavir are administered infrequently (every 2 or 6 months), adjusting dosing after injection is not recommended, so identification of drug interaction potential is critical before initiation.
+
+Drug interactions reference
+
+1. ClinicalInfo.HIV.gov. Guidelines for the Use of Antiretroviral Agents in Adults and Adolescents With HIV. Drug-Drug Interactions. September 12, 2024. Accessed April 10, 2026.
+
+Adverse Effects of Antiretroviral Medications
+
+Antiretroviral medications may be associated with serious adverse effects. Some of these effects, notably anemia, hepatitis, renal insufficiency, pancreatitis, and glucose intolerance, can be detected by blood tests before they cause symptoms. Patients should be screened regularly, both clinically and with appropriate laboratory testing (eg, complete blood count; blood tests for hyperglycemia, hyperlipidemia, hepatic and pancreatic damage, and renal function; urinalysis), especially after new medications are started or unexplained symptoms develop.
+
+Metabolic adverse effects
+
+Metabolic adverse effects are dose-dependent and often begin in the first 1 to 2 years of treatment. These effects consist of interrelated syndromes of fat redistribution, hyperlipidemia, and insulin resistance. Subcutaneous fat is commonly redistributed from the face and extremities to the trunk, neck, breasts, and abdomen—a cosmetic effect called lipodystrophy that can stigmatize and distress patients. Treating the resulting deep facial grooves with injected collagen or polylactic acid can be beneficial.
+
+Lipodystrophy (Lipoatrophy) in HIV Infection
+
+Lipodystrophy (Lipoatrophy) in HIV Infection (1)
+
+These images show clinical signs of lipodystrophy and lipoatrophy. The left panel shows the accumulation of fat tissue in the posterior cervical areas known as “buffalo hump” (red arrow). The right panel shows increased abdominal fat. The abdominal fat that people with HIV experience is deep inside the organ cavity (visceral fat). The right panel also shows the loss of fat under the skin in the arms and legs, known as lipoatrophy.
+
+These images show clinical signs of lipodystrophy and lipoatrophy. The left panel shows the accumulation of fat tissue
+
+... read more
+
+Edward R. Cachay, MD, MAS
+
+Lipodystrophy (Lipoatrophy) in HIV Infection (2)
+
+With use of antiretroviral medications, body fat can be redistributed from the face and extremities (left panel) to the trunk, breasts, and abdomen (center panel) and neck (right panel).
+
+With use of antiretroviral medications, body fat can be redistributed from the face and extremities (left panel) to the
+
+... read more
+
+© Springer Science+Business Media
+
+Lipodystrophy (Lipoatrophy) in HIV Infection (1)
+
+These images show clinical signs of lipodystrophy and lipoatrophy. The left panel shows the accumulation of fat tissue in the posterior cervical areas known as “buffalo hump” (red arrow). The right panel shows increased abdominal fat. The abdominal fat that people with HIV experience is deep inside the organ cavity (visceral fat). The right panel also shows the loss of fat under the skin in the arms and legs, known as lipoatrophy.
+
+These images show clinical signs of lipodystrophy and lipoatrophy. The left panel shows the accumulation of fat tissue
+
+... read more
+
+Edward R. Cachay, MD, MAS
+
+Lipodystrophy (Lipoatrophy) in HIV Infection (2)
+
+With use of antiretroviral medications, body fat can be redistributed from the face and extremities (left panel) to the trunk, breasts, and abdomen (center panel) and neck (right panel).
+
+With use of antiretroviral medications, body fat can be redistributed from the face and extremities (left panel) to the
+
+... read more
+
+© Springer Science+Business Media
+
+Abdominal obesity, a high triglyceride level, a low high-density lipoprotein (HDL) cholesterol level, hypertension, and a high fasting plasma glucose level are the diagnostic criteria for metabolic syndrome, which increases the risk of myocardial infarction, stroke, and dementia. Metabolic syndrome is diagnosed in patients who have ≥ 3 of these criteria.
+
+Antiviral medications from all classes may contribute to metabolic effects (1), but PIs (particularly older PIs such as lopinavir and ritonavir) are the most commonly implicated in causing dyslipidemia (2). Integrase inhibitors are most commonly implicated in causing weight gain (3). Others, such as tenofovir disoproxil fumarate, etravirine, atazanavir or darunavir (even when combined with low-dose ritonavir), raltegravir, and maraviroc, appear to have small to minimal effects on lipid levels.
+
+Mechanisms for metabolic effects appear to be multiple; one is mitochondrial toxicity. Risk of metabolic effects (highest with PIs) and mitochondrial toxicity (highest with NRTIs) varies by medication class and within medication classes (eg, among NRTIs, highest with d4T).
+
+Lactic acidosis is uncommon but can be lethal.
+
+Nonalcoholic fatty liver disease is being increasingly recognized among patients with HIV infection. Certain early-generation ART medications caused steatosis, and as their use decreased, incidence of steatosis decreased. Nonetheless, even with newer-generation ART medications, there appears to be a risk of steatosis.
+
+The long-term effects and optimal management of metabolic effects are less well established. The HIV Medicine Association of the Infectious Diseases Society of America recommends statin therapy for primary prevention of cardiovascular disease for people with HIV infection age 40 to 75 years with low to intermediate atherosclerotic cardiovascular disease (ASCVD) risk, with HIV infection considered a risk-enhancing condition (4). The preferred medication is oral pitavastatin 4 mg once daily;, atorvastatin 20 mg once daily and rosuvastatin 10 mg once daily may be used as alternatives (5). The REPRIEVE trial, a randomized study of 7769 participants, demonstrated that pitavastatin 4 mg once daily reduced major adverse cardiovascular events by 35% in people with HIV infection with low to intermediate ASCVD risk (6).
+
+Glucagon-like peptide-1 (GLP-1; eg, semaglutide) may help treat weight gain in patients with HIV infection after initiation of ART (7). Patients should be counseled about maintaining a healthy diet and regular physical activity as ways to help promote health.
+
+Bone adverse effects
+
+Bone complications of ART commonly include asymptomatic osteopenia and osteoporosis. Uncommonly, osteonecrosis of large joints such as the hip and shoulder causes severe joint pain and dysfunction.
+
+Mechanisms of bone complications are poorly understood.
+
+Immune reconstitution inflammatory syndrome (IRIS)
+
+Patients beginning ART sometimes deteriorate clinically, even though HIV levels in their blood are suppressed and their CD4 count increases, because of an immune reaction to subclinical opportunistic infections or to residual microbial antigens after successful treatment of opportunistic infections (see IRIS for a more detailed discussion).
+
+Adverse effects of antiretroviral medications references
+
+1. Dubé MP, Stein JH, Aberg JA, et al. Guidelines for the evaluation and management of dyslipidemia in human immunodeficiency virus (HIV)-infected adults receiving antiretroviral therapy: recommendations of the HIV Medical Association of the Infectious Disease Society of America and the Adult AIDS Clinical Trials Group. Clin Infect Dis. 2003;37(5):613-627. doi:10.1086/378131
+
+2. Kalra DK, Vorla M, Michos ED, et al. Dyslipidemia in Human Immunodeficiency Virus Disease: JACC Review Topic of the Week. J Am Coll Cardiol. 2023;82(2):171-181. doi:10.1016/j.jacc.2023.04.050
+
+3. Zhang L, Chen L, Tang J, et al. Pharmacovigilance study of INSTIs associated with weight gain and glucose/lipid metabolism adverse events based on the FDA adverse event reporting system. HIV Med. Published online March 3, 2026. doi:10.1111/hiv.70205
+
+4. Horberg M, Thompson M, Agwu A, et al. Primary Care Guidance for Providers of Care for Persons With Human Immunodeficiency Virus: 2024 Update by the HIV Medicine Association of the Infectious Diseases Society of America. Clin Infect Dis. Published online October 12, 2024. doi:10.1093/cid/ciae479
+
+5. ClinicalInfo.HIV.gov. Guidelines for the Use of Antiretroviral Agents in Adults and Adolescents With HIV. Cardiovascular and Metabolic Complications in People With HIV. Statin Therapy as Primary Prevention of Atherosclerotic Cardiovascular Disease in People With HIV. September 25, 2025. Accessed April 10, 2026.
+
+6. Grinspoon SK, Fitch KV, Zanni MV, et al. Pitavastatin to Prevent Cardiovascular Disease in HIV Infection. N Engl J Med. 2023;389(8):687-699. doi:10.1056/NEJMoa2304146
+
+7. ClinicalInfo.HIV.gov. Guidelines for the Use of Antiretroviral Agents in Adults and Adolescents With HIV. Cardiovascular and Metabolic Complications in People With HIV. Weight Gain in People With Treated HIV. September 25, 2025. Accessed April 10, 2026.
+
+Interruption of ART
+
+Interruption of ART is usually safe if all medications are stopped simultaneously, but levels of slowly metabolized medications (eg, nevirapine) may remain high and thus increase the risk of resistance. Interruption may be necessary if intervening illnesses require treatment or if medication toxicity is intolerable or needs to be evaluated. After interruption to determine which medication is responsible for toxicity, clinicians can safely restart most medications as monotherapy for up to a few days.
+
+Pearls & Pitfalls
+
+Patients who had an adverse reaction to abacavir should not be given the medication again. If they are reexposed to the medication, they may have a severe, potentially fatal hypersensitivity reaction. Risk of an adverse reaction to abacavir is 100-fold higher in patients with HLA-B*5701, which can be detected by genetic testing.
+
+NOTE: The most important exception is abacavir; patients who had fever or rash during previous exposure to abacavir may develop severe, potentially fatal hypersensitivity reactions with reexposure. Risk of an adverse reaction to abacavir is 100-fold higher in patients with HLA-B*5701, which can be detected by genetic testing (1).
+
+Interruption of ART reference
+
+1. ClinicalInfo.HIV.gov. Guidelines for the Use of Antiretroviral Agents in Adults and Adolescents With HIV. Laboratory Testing for Initial Assessment and Monitoring of People With HIV. HLA-B* 5701 Screening. January 10, 2011. Accessed April 9, 2026.

@@ -1,0 +1,170 @@
+=== Systemic Cancer Therapy (Merck Manual Professional) ===
+Section: Oncology > Principles of Cancer Therapy
+Source: https://www.merckmanuals.com/professional/oncology/principles-of-cancer-therapy/systemic-cancer-therapy
+Retrieved: 2026-09-25
+
+Systemic cancer therapy includes chemotherapy (ie, conventional or cytotoxic chemotherapy), hormone therapy, targeted therapy, and immune therapy (see also Overview of Cancer Therapy). The number of available cancer therapies is increasing rapidly. The National Cancer Institute maintains an up-to-date list of medications used to treat cancer. The list provides a brief summary of each medication's uses and links to additional information.
+
+The ideal agent would target only cancer cells and have no adverse effects on normal cells. Although older chemotherapeutic agents are often toxic to normal cells, advances in genetics and cellular and molecular biology have led to development of more selective drugs.
+
+Most cancer medications are given systemically, usually intravenously or subcutaneously, but some are given orally. Frequent dosing for extended periods may necessitate intravenous implanted access devices (port).
+
+Resistance to cancer therapies is common. Mechanisms include
+
+Over-expression of target genes
+
+Mutation of target genes
+
+Development of alternative drug metabolic pathways
+
+Drug inactivation by cancer cells
+
+Defective apoptosis in cancer cells
+
+Loss of receptors for hormones
+
+For chemotherapy, one of the best characterized resistance mechanisms is overexpression of MDR1, a cell membrane transporter that causes efflux of certain agents (eg, vinca alkaloids such as [vinblastine, vincristine], taxanes [such as, paclitaxel, docetaxel], and anthracyclines such as daunorubicin, doxorubicin]) (1).
+
+General reference
+
+1. Bossennec M, Di Roio A, Caux C, Ménétrier-Caux C: MDR1 in immunity: friend or foe? Oncoimmunology 7(12):e1499388, 2018. doi:10.1080/2162402X.2018.1499388
+
+Chemotherapy
+
+Cytotoxic chemotherapy agents are classified as (1)
+
+Alkylating agents (including nitrosoureas), which damage DNA (eg, busulfan, chlorambucil, cisplatin)
+
+Antimetabolites, which block DNA (eg, azacitidine, fluorouracil, methotrexate)
+
+Antitumor antibiotics (including anthracyclines), which interfere with DNA (eg, bleomycin, daunorubicin, doxorubicin)
+
+Mitotic inhibitors, which disrupt cell division (eg, docetaxel, paclitaxel, vincristine)
+
+Topoisomerase inhibitors, which stop the activity of enzymes in cancer cells (eg, etoposide, irinotecan)
+
+Other chemotherapy agents that do not fit into specific categories (eg, asparaginase)
+
+Cytotoxic drugs damage DNA and kill many normal cells as well as cancer cells. Antimetabolites such as fluorouracil and methotrexate are cell cycle–specific and have a nonlinear dose-response relationship. In contrast, other drugs (eg, alkylating agents, also known as DNA cross-linkers) have a linear dose-response relationship, killing more cancer cells at higher doses. At high doses, alkylating agents damage the bone marrow.
+
+Single agents may cure selected cancers (eg, choriocarcinoma, hairy cell leukemia). More commonly, multidrug regimens incorporating drugs with different mechanisms of action and different toxicities are used to increase efficacy, reduce dose-related toxicity, and decrease the probability of drug resistance. These regimens result in substantial cure rates (eg, in acute leukemia, testicular cancer, lymphomas, and, less commonly, solid cancers such as lung and nasopharyngeal cancers). Multidrug regimens typically are given as repetitive cycles of a fixed combination of drugs. The interval between cycles should be the shortest one that allows recovery of normal tissues. Continuous infusion may increase cell kill with some cell cycle–specific agents (eg, fluorouracil).
+
+For each patient, the probability of adverse effects should be weighed against the likelihood of benefit. End-organ function should be assessed before giving chemotherapy with organ-specific toxicities. Dose modification or exclusion of certain agents may be necessary in patients with lung disease (eg, bleomycin), kidney failure (eg, methotrexate), liver dysfunction (eg, taxanes) or heart disease (daunorubicin, cyclophosphamide).
+
+Despite these precautions, adverse effects commonly result from cytotoxic chemotherapy. The normal tissues most commonly affected are those with the highest intrinsic turnover rate: bone marrow, hair follicles, and the gastrointestinal epithelium.
+
+Imaging (CT, MRI, PET) is frequently done after 2 to 3 cycles of therapy to evaluate response. Therapy continues in patients whose cancer responds to the chemotherapy and in those with stable disease. In patients whose cancer progresses, the regimen is often changed or stopped.
+
+Chemotherapy reference
+
+1. National Cancer Institute: Major Categories of Chemotherapy Agents. SEER Training Modules. December 21, 2023.
+
+Endocrine (Hormonal) Therapy
+
+Endocrine therapy uses agonists or antagonists, typically to decrease the serum level of a specific hormone, to treat, to prevent recurrence, or sometimes to prevent development of cancer. It may be used alone or combined with other therapies.
+
+Endocrine therapy is particularly useful in estrogen receptor–positive breast cancers and in prostate cancer, which grows in response to androgens. Other cancers with hormone receptors, such as endometrial cancers or some histologic types of ovarian cancer (eg, low-grade serous), are sometimes treated with endocrine therapy.
+
+Several classes of medications with differing mechanisms are used as endocrine therapy for cancer treatment. Most endocrine therapies decrease hormone levels. One exception is the use of progestins in advanced endometrial cancer.
+
+Endocrine therapies that decrease estrogen levels include:
+
+Aromatase inhibitors (eg, letrozole, anastrozole, exemestane): Prevent conversion of androgens to estrogens by inhibiting the enzyme aromatase
+
+Selective estrogen receptor modulators (SERMs; eg, tamoxifen, toremifene, raloxifene): Competitively bind to estrogen receptors in the target malignant tissue (eg, breast); typically act as an estrogen receptor agonist in other selected tissues (eg, tamoxifen is an agonist of the estrogen receptor in the endometrium)
+
+Selective estrogen receptor downregulators (SERDs; eg, fulvestrant): Competitively bind to estrogen receptors in all tissues by competitive binding and downregulation of the estrogen receptor
+
+In addition, some premenopausal women with estrogen receptor–positive breast cancer are managed with ovarian suppression using gonadotropin-releasing hormone (GnRH) agonists (eg, leuprolide) or antagonists (eg, elagolix). This is not used as direct endocrine therapy, but rather to induce a menopausal state and allow use of aromatase inhibitors.
+
+Endocrine therapies that decrease androgen levels include:
+
+GnRH antagonists and agonists: Decrease GnRH secretion (agonists initially increase, but then decrease, secretion), resulting in a decrease in luteinizing hormone and follicle-stimulating hormone and subsequent decrease in testosterone production
+
+Antiandrogens (eg, flutamide, enzalutamide): Competitively bind to androgen receptors
+
+Endocrine therapies that decrease hormone levels cause symptoms related to hormone deficiency, including hot flashes. The androgen antagonists also induce a metabolic syndrome that increases the risk of diabetes and heart disease.
+
+Immune Therapy
+
+Immune therapy (see also Immunotherapy of Cancer) is divided into 2 forms:
+
+Active: Treatment is mediated by active immunity and aims to provoke or amplify a patient's anticancer immune response
+
+Adoptive: Treatment is mediated by passive immunity and involves giving anticancer antibodies or cells
+
+Active immune therapy can involve vaccines, modified T-cells from the patient (eg chimeric antigen receptor (CAR)-T-cells), or certain types of monoclonal antibodies that activate the patient's immune system against the cancer (eg, checkpoint inhibitors). Another example of active immune therapy is instilling bacille Calmette–Guérin (BCG) in the bladder of patients with bladder cancer.
+
+Adoptive immune therapy often involves giving monoclonal antibodies produced in the laboratory or giving modified T cells or natural-killer (NK) cells from a healthy person to someone with cancer. Sometimes these cells are genetically modified by inserting an anticancer chimeric antigen receptor (CAR). Other forms of adoptive immune therapy include lymphokines and cytokines such as interferons and interleukins. These small signaling peptides facilitate interaction between cells involved in the immune response but are less widely used in cancer therapy.
+
+Vaccines
+
+Vaccines designed to trigger or enhance immune system response to cancer cells have been extensively studied and have typically provided little benefit. However, sipuleucel-T, an autologous dendritic cell–derived vaccine is available for treatment of prostate cancer, and BCG is used in treating superficial bladder cancer.
+
+More important are vaccines designed to prevent virus-related cancer. Examples include vaccines to human papillomavirus (HPV), which can prevent cervical and anal cancers (and possibly head and neck and tonsil cancers) and vaccines to hepatitis B virus (HBV), which can prevent liver cancer.
+
+Modified T cells
+
+In this technique, T cells are removed from the blood of a patient with cancer, modified genetically to recognize a cancer-related antigen, and reinfused into the patient. The most common example of this strategy is termed chimeric antigen receptor (CAR)-T-cells. CAR-T-cells are an effective therapy in patients with acute lymphoblastic leukemia, B-cell lymphomas, and multiple myeloma (1). CAR-T-cell therapies include tisagenlecleucel for young patients with advanced acute lymphoblastic leukemia, axicabtagene ciloleucel for advanced lymphomas brexucabtagene autoleucel and lisocabtagene maraleucel for patients with B-cell lymphomas, and idecabtagene vicleucel and ciltacabtagene autoleucel for multiple myeloma. They are not yet proved effective in solid cancers.
+
+Related techniques involve growing the extracted T cells in a culture and activating them by exposure to lymphokine interleukin-2 (IL-2). Alternatively, T cells may be extracted from the patient's tumor, cultured to create a larger amount, and then reinfused.
+
+Monoclonal antibodies
+
+Monoclonal antibodies are widely used to treat some cancers. Monoclonal antibodies can be directed against antigens that are cancer-specific or over-expressed on cancer cells. They can also be directed toward lineage-specific antigens also present on normal cells.
+
+Some monoclonal antibodies are given directly; others are linked to a radionuclide or toxin. These linked antibodies are referred to as antibody-drug conjugates (ADCs). Some antibodies are bi-specific, with one receptor directed to a cancer-related antigen and another to an antigen on T cells. The goal is to bring T cells to the cancer to eradicate it.
+
+Trastuzumab, an antibody directed against a protein called ERBB2, is active in breast cancers that express this antigen. Antibodies to CD19 and CD20 on normal B cells (rituximab) are used to treat lymphomas, anti-CD30 antibodies (brentuximab vedotin) are used to treat Hodgkin lymphoma, and anti-CD33 antibodies (gemtuzumab ozogamicin) are used to treat acute myeloid leukemia.
+
+Several monoclonal antibodies activate dormant or blocked anti-cancer immunity (active immune therapy) by binding immune checkpoint inhibitors, molecules involved in natural inhibition of immune responses. Blocking this inhibition releases a patient's immune response suppressed by the tumor. Target molecules include cytotoxic T lymphocyte-associated protein 4 (CTLA4), programmed cell death protein 1 (PD1), and programmed cell death ligands 1 (PD-L1) and 2 (PD-L2). CTLA4 inhibitors include ipilimumab and tremelimumab. PD1 blockers include cemiplimab, dostarlimab, nivolumab, and pembrolizumab, and PD-1L blockers include atezolizumab, avelumab, and durvalumab. These medications are used to treat diverse solid cancers, alone or combined with chemotherapy; they are not typically effective against blood and bone marrow cancers.
+
+Anticancer monoclonal antibodies that target 2 or 3 antigens have been developed. These monoclonal antibodies typically target cancer-related antigens and T-cell antigens to enhance T-cell killing of cancer cells. Blinatumomab, which targets CD19 on acute lymphoblastic leukemia cells and CD3 on T cells, is an example.
+
+Immune therapy reference
+
+1. Cappell KM, Kochenderfer JN. Long-term outcomes following CAR T cell therapy: what we know so far. Nat Rev Clin Oncol 2023;20(6):359-371. doi:10.1038/s41571-023-00754-1
+
+Differentiating Agents
+
+These agents induce differentiation of cancer cells. All-trans-retinoic acid and arsenic are capable of curing acute promyelocytic leukemia. Other agents in this class include hypo-methylating agents, such as azacitidine and decitabine, and agents with target mutations that block differentiation. Examples include enasidenib and ivosidenib, which counteract mutations in IDH2 and IDH1. Another approach uses venetoclax, which reverses a differentiation block caused by BCL2. Differentiating agents are ineffective in most cancers.
+
+Angiogenesis Inhibitors
+
+Solid cancers produce growth factors that form new blood vessels necessary to support cancer growth. Several medications that inhibit this process are available. Bevacizumab, a monoclonal antibody to vascular endothelial growth factor (VEGF), is effective against renal cancers and colon cancer. VEGF receptor inhibitors, such as sorafenib and sunitinib, are also effective in kidney and liver cancers.
+
+Targeted Therapies
+
+Most targeted therapies are directed against tyrosine kinase–mediated cell signaling pathways. The best example are tyrosine kinase inhibitors, including imatinib, dasatinib, ponatinib, bosutinib, asciminib, and nilotinib, which are extremely effective in chronic myeloid leukemia.
+
+Many epithelial cancers have mutations that activate signaling pathways without the need for a receptor-ligand interaction, resulting in continuous proliferation of cancer cells. These mutated genes include those for growth factor receptors and the downstream proteins that transmit messages to the nucleus. Examples of such targeted therapies include erlotinib, gefitinib, and osimertinib, which inhibit the epidermal growth factor receptor (EGFR) signaling pathway. These medications are especially useful in lung cancer. Poly-adenosine diphosphate (ADP) ribose polymerase (PARP) inhibitors are used to treat ovary and hereditary breast cancers and include olaparib, rucaparib, niraparib, and talaparib. Other examples include the nonspecific JAK1/2 inhibitors ruxolitinib, fedratinib, pacritinib, and momelotinib, which are used to treat myeloproliferative neoplasms, and selinexor, which inhibits transport of proteins from the nucleus to cytoplasm, decreases cell proliferation, and is effective in multiple myeloma.
+
+Another direction in targeted cancer therapy is to use agents that inhibit the gene product of a mutation independent of cancer type. Examples are drugs such as vemurafenib, dabrafenib, and encorafenib, which inhibit the protein produced by a mutation in BRAF. This mutation is common in melanoma but also occurs in some leukemias. Another example is drugs that inhibit abnormal proteins resulting from MEK mutations, including trametinib, cobimetinib, and binimetinib.
+
+Gene Therapy
+
+Cancer therapy that alters genes has not been successful so far except for the development of chimeric antigen receptor (CAR)-T-cells.
+
+Gene editing
+
+CRISPR (clustered regularly interspaced short palindromic repeat)/Cas9 (CRISPR-associated protein 9) gene editing may be useful in some cancers alone or combined with other anticancer therapies. An example in synthetic biology is altering antigen expression on normal cells such that they are not killed by CAR-T-cell or bi-specific monoclonal antibodies. CRISPR/Cas9 gene therapy is used to treat severe sickle cell disease and transfusion-dependent beta-thalassemia.
+
+Targeted gene therapy
+
+Targeted gene therapy refers to therapies directed against a specific gene or gene product thought to be important in the cause or progression of a cancer rather than the anatomic site (eg, breast) or even cell type. For example, patients with a BRAF mutation might receive a BRAF inhibitor regardless of whether they have a melanoma or leukemia. Therapy targets are typically identified by genetic analysis of a patient’s cancer. An example of targeted therapy is the use of tyrosine kinase inhibitors (eg, imatinib, dasatinib, nilotinib) in chronic myeloid leukemia, a cancer caused by one mutation (BCR:ABL1). However, most cancers are caused by 10s or even 100s of mutations, making this approach considerably more complex.
+
+Drugs directed against the FLT3 mutation (midostaurin), the isocitrate dehydrogenase-2 (IDH2) mutation (enasidenib), and IDH1 (ivosidenib) are available to treat some forms of acute myeloid leukemia and systemic mastocytosis (midostaurin). Other agents that target receptors for VEGF and EGFR are mostly small molecule kinase inhibitors (eg, sorafenib, erlotinib, gefitinib, osimertinib, sunitinib, regorafenib).
+
+In some hematologic conditions, such as polycythemia vera and myeloproliferative neoplasm–associated myelofibrosis, JAK2- inhibitors (ruxolitinib, fedratinib, pacritinib) are used.
+
+Drugs directed against poly adenosine diphosphate (ADP) ribose polymerase (PARP) are available for BRCA-mutated ovarian cancer, fallopian tube cancer, and peritoneal cancer. These agents include olaparib, rucaparib, and niraparib. Adverse effects include bone marrow toxicity (eg, infection, bleeding), fatigue, diarrhea, headaches, dizziness, and liver and kidney abnormalities.
+
+Oncolytic Viruses
+
+Some viruses, termed oncolytic viruses, appear to selectively or relatively selectively kill cancer cells, stimulate the immune system to target cancer cells, or both. The only available oncolytic virus in the United States is talimogene laherparepvec, which is injected into the cancer in patients with melanoma. This virus, a modified herpesvirus, is engineered to produce a protein that stimulates an immune-mediated anticancer response and to express a protein that has similar effects. Because the virus is genetically engineered, it might be regarded as an indirect form of gene therapy.
+
+More Information
+
+The following English-language resource may be useful. Please note that THE MANUAL is not responsible for the content of this resource.
+
+National Cancer Institute's up-to-date list of agents used to treat cancer

@@ -1,0 +1,932 @@
+=== Human Immunodeficiency Virus (HIV) Infection in Infants and Children (Merck Manual Professional) ===
+Section: Pediatrics > Human Immunodeficiency Virus (HIV) Infection in Infants and Children
+Source: https://www.merckmanuals.com/professional/pediatrics/human-immunodeficiency-virus-hiv-infection-in-infants-and-children/human-immunodeficiency-virus-hiv-infection-in-infants-and-children
+Retrieved: 2026-09-25
+
+(See also Human Immunodeficiency Virus (HIV) Infection in adults.)
+
+The general natural history and pathophysiology of pediatric HIV infection is similar to that in adults; however, the method of infection, clinical presentations, and treatments often differ (1).
+
+Children with HIV infection may also experience unique social integration issues.
+
+General reference
+
+1. Weinberg GA, Abuogi L, Siberry GK. Pediatric human immunodeficiency virus infection. In Mandell, Douglas and Bennett’s Principles and Practice of Infectious Diseases, ed. 10, edited by Blaser MJ, Holland S, Cohen JI. Philadelphia, Elsevier, 2025, p. 129.
+
+Epidemiology of HIV Infection in Infants and Children
+
+Worldwide, in 2024, approximately 1.4 million children < 15 years old had HIV infection (approximately 3% of the total caseload worldwide), and approximately 120,000 of those were new infections (approximately 9% of all new infections) (1). In the United States, since HIV infection was first recognized, more than 10,000 cases have been reported in children and young adolescents, but this number represents only 1% of total cases. In 2022, 62 new cases were diagnosed in children < 13 years of age (2).
+
+The majority of children in the United States with HIV infection acquired the infection through either antenatal or perinatal transmission (also called vertical transmission or mother-to-child transmission [MTCT]). Most of the remainder (including children with hemophilia or other coagulation disorders) received contaminated blood or blood products, but this is rare. Some cases were the result of sexual abuse.
+
+MTCT has declined significantly in the United States from approximately 25% in 1991 (resulting in > 1600 infected children annually) to ≤ 1% in 2024 (resulting in < 50 children infected annually) (3). MTCT has been reduced by using comprehensive serologic screening and by treating infected pregnant patients during both pregnancy and delivery and by providing short-term antiretroviral prophylaxis to exposed neonates. Approximately 3500 pregnant patients with HIV infection give birth annually in the United States, so attention to preventing MTCT remains critical in preventing HIV infection in infants and children.
+
+Incidence
+
+Simplified HIV Life Cycle
+
+HIV attaches to and penetrates host T cells, then releases HIV RNA and enzymes into the host cell. HIV reverse transcriptase copies viral RNA as proviral DNA. Proviral DNA enters the host cell’s nucleus, and HIV integrase facilitates the proviral DNA’s integration into the host’s DNA. The host cell then produces HIV RNA and HIV proteins. HIV proteins are assembled into HIV virions and bud from the cell surface. HIV protease cleaves viral proteins, converting the immature virion to a mature, infectious virus.
+
+The number of children and adolescents newly infected with HIV annually in the United States has been declining slowly in recent years. The marked success in decreasing perinatal HIV infection has been tempered by slight recent increases in newly diagnosed infection among adolescents 13 to 24 years of age. In 2022, over 38,000 new cases of HIV infection in the United States were diagnosed; 19% of these new cases were among adolescents and young adults 13 to 24 years of age (the majority of whom were 20 years of age or older) (2). Males are most affected, making up almost 80% of new diagnoses. Reducing the transmission of HIV among young men who have sex with men continues to be an important focus of HIV control efforts as is continuing the reduction of maternal to child transmission (MTCT).
+
+Mortality
+
+In 2023 in the United States and affiliated territories, < 10 children aged 13 or older (and 1 child under 13) died out of a total of 4,496 HIV-related deaths among people of all ages (1, 4). Deaths due to advanced HIV infection have decreased by 70% since the peak in 2004 and by 54% since 2010. In 2024, approximately 75,000 children died across the globe (1).
+
+Wherever improved delivery of antiretroviral therapy (ART) to pregnant patients and children exists, marked reductions in the annual number of new childhood infections and childhood deaths follow. However, infected children across the globe still do not receive ART nearly as often as adults, and interrupting vertical transmission (MTCT) and providing treatment to children with HIV infection remain the two most important goals of global pediatric HIV medicine.
+
+Epidemiology references
+
+1. UNAIDS. Global HIV & AIDS statistics—Fact Sheet 2025. Accessed June 19, 2025.
+
+2. Centers for Disease Control and Prevention (CDC). Diagnoses, Deaths, and Prevalence of HIV in the United States and 6 Territories and Freely Associated States, 2022. HIV Surveillance Report, 2022. Vol. 35. Published May 2024. Accessed June 19, 2025.
+
+3. Centers for Disease Control and Prevention; HIV Medicine Association of the Infectious Diseases Society of America; Pediatric Infectious Diseases Society; HHS Panel on Treatment of HIV During Pregnancy and Prevention of Perinatal Transmission—A Working Group of the Office of AIDS Research Advisory Council (OARAC). Recommendations for the Use of Antiretroviral Drugs During Pregnancy and Interventions to Reduce Perinatal HIV Transmission in the United States. [Updated 2025 Jun 12]. In: ClinicalInfo.HIV.gov [Internet]. Rockville (MD): US Department of Health and Human Services; 2002-.
+
+4. CDC. HIV Data: HIV Diagnoses, Deaths, and Prevalence: 2025 Update. April 29, 2025. Accessed October 7, 2025.
+
+Transmission of HIV Infection in Infants and Children
+
+Approximately 15 to 40% of pregnant or breastfeeding (chestfeeding) patients with HIV who did not receive ART will transmit HIV to their infant (1).
+
+Risk factors for MTCT include:
+
+Seroconversion during pregnancy or breastfeeding (major risk)
+
+High plasma viral RNA concentrations during pregnancy or breastfeeding (major risk)
+
+Advanced maternal disease
+
+Low maternal peripheral CD4+ T-cell counts
+
+Prolonged rupture of membranes is no longer thought to be an important risk factor.
+
+Cesarean delivery before the onset of active labor reduces the risk of MTCT in people with plasma HIV viral concentrations > 1000 copies/mL. However, it is clear that MTCT is reduced significantly in all pregnant patients by giving combination ART, usually including zidovudine (ZDV), to the mother and neonate (see Prevention of HIV Infection in Infants and Children) (2). ZDV monotherapy reduces MTCT from 25% to approximately 8% (3), and current combination ART, when taken throughout pregnancy and resulting in sustained maternal viral suppression, reduces it to ≤ 1% (4).
+
+HIV has been detected in both the cellular and cell-free fractions of human milk. Estimates of the overall risk of transmission through breastfeeding are approximately 15%, and the risk increases with increased duration of breastfeeding (5). Transmission by breastfeeding is greatest in mothers with high plasma viral RNA concentrations (eg, patients who become infected during pregnancy or during the period of breastfeeding). However, MTCT via breastfeeding from a mother with HIV who is receiving ART and is consistently virally suppressed is estimated to be < 1% (6).
+
+Early in the HIV pandemic, HIV was transmitted to young children via contaminated blood products (eg, whole blood or cellular or plasma blood components such as packed red blood cells, intravenous immune globulin); however, transmission via this route is rare when blood products are screened for HIV (and, in the case of immune globulin, also prepared with viral inactivation steps).
+
+Transmission of HIV via sexual activity in adolescents is similar to that of adults (see Transmission of HIV Infection in adults).
+
+Transmission references
+
+1. Eke AC, Lockman S, Mofenson LM. Antiretroviral Treatment of HIV/AIDS During Pregnancy. JAMA. 2023;329(15):1308-1309. doi:10.1001/jama.2023.5076
+
+2. ClinicalInfo.HIV.gov. Guidelines for the Use of Antiretroviral Agents in Pediatric HIV Infection. April 11, 2022. Accessed June 19, 2025.
+
+3. Connor EM, Sperling RS, Gelber R, et al. Reduction of maternal-infant transmission of human immunodeficiency virus type 1 with zidovudine treatment. Pediatric AIDS Clinical Trials Group Protocol 076 Study Group. N Engl J Med. 1994;331(18):1173-1180. doi:10.1056/NEJM199411033311801
+
+4. Fowler MG, Qin M, Fiscus SA, et al. Benefits and Risks of Antiretroviral Therapy for Perinatal HIV Prevention. N Engl J Med. 2016;375(18):1726-1737. doi:10.1056/NEJMoa1511691
+
+5. Chadwick EG, Ezeanolue EE; COMMITTEE ON PEDIATRIC AIDS. Evaluation and Management of the Infant Exposed to HIV in the United States. Pediatrics. 2020;146(5):e2020029058. doi:10.1542/peds.2020-029058
+
+6. Abuogi L, Noble L, Smith C; COMMITTEE ON PEDIATRIC AND ADOLESCENT HIV; SECTION ON BREASTFEEDING. Infant Feeding for Persons Living With and at Risk for HIV in the United States: Clinical Report. Pediatrics. 2024;153(6):e2024066843. doi:10.1542/peds.2024-066843
+
+Classification of HIV Infection in Infants and Children
+
+HIV infection causes a broad spectrum of disease. Past classification schemes established by the Centers for Disease Control and Prevention (CDC) defined the progression of clinical and immunologic decline. These clinical and immunologic categories have become less relevant in the era of combination ART because when ART is taken as prescribed, it almost invariably increases CD4+ T-cell counts and suppresses viral load (ie, HIV RNA), thereby reducing the likelihood of infectious complications. However, immunologic staging based on CD4+ T-cell counts continues to remain valuable for planning opportunistic pathogen prophylaxis.
+
+The clinical categories (stages 1 to 3) in children < 13 years are shown in the table Immunologic Categories (HIV Infection Stages) for Children < 13 Years With HIV Infection Based on Age-Specific CD4+ T-Cell Count or Percentage. In infants and children, HIV infection and disease may progress more rapidly than in adolescents and adults. It is important to note that the presence of a stage 3–defining (previously termed AIDS-defining) opportunistic infection automatically classifies a person as having stage 3 HIV infection, irrespective of their CD4+ T-cell count (1).
+
+Table
+
+Immunologic Categories (HIV Infection Stages) for Children < 13 Years With HIV Infection Based on Age-Specific CD4+ T-Cell Count or Percentage
+
+Table
+
+Immunologic Categories (HIV Infection Stages) for Children < 13 Years With HIV Infection Based on Age-Specific CD4+ T-Cell Count or Percentage
+
+Immunologic Categories (HIV Infection Stages) for Children <span class='symbol' ><</span> 13 Years With HIV Infection Based on Age-Specific CD4+ T-Cell Count or Percentage
+
+Immunologic Categories (Stages)*
+
+< 1 year
+
+1 to < 6 years
+
+≥ 6 years
+
+CD4+ T-cells/mcL
+
+CD4+ T-cell %
+
+CD4+ T-cells/mcL
+
+CD4+ T-cell %
+
+CD4+ T-cells/mcL
+
+CD4+ T-cell %
+
+1
+
+≥ 1500
+
+≥ 34
+
+≥ 1000
+
+≥ 30
+
+≥ 500
+
+≥ 26
+
+2
+
+750–1499
+
+26–33
+
+500–999
+
+22–29
+
+200–499
+
+14–25
+
+3†
+
+< 750
+
+< 26
+
+< 500
+
+< 22
+
+< 200
+
+< 14
+
+* The stage is based primarily on the CD4 cell count. The CD4 cell count takes precedence over the CD4 percentage, and the percentage is considered only if the count is missing or otherwise unavailable. If a stage 3–defining opportunistic infection has been diagnosed, the stage is classified as 3 regardless of CD4 test results.
+
+† Sometimes called advanced HIV infection.
+
+Data from ClinicalInfo.HIV.gov. Appendix C: CDC Pediatric HIV CD4 Cell Count/Percentage and HIV-Related Diseases Categorization. April 11, 2022. Accessed August 20, 2025, and from Centers for Disease Control and Prevention. Revised surveillance case definitions for HIV infection—United States, 2014. Morbidity and Mortality Weekly Report. 2014;63(RR–3):1–10.
+
+* The stage is based primarily on the CD4 cell count. The CD4 cell count takes precedence over the CD4 percentage, and the percentage is considered only if the count is missing or otherwise unavailable. If a stage 3–defining opportunistic infection has been diagnosed, the stage is classified as 3 regardless of CD4 test results.
+
+† Sometimes called advanced HIV infection.
+
+Data from ClinicalInfo.HIV.gov. Appendix C: CDC Pediatric HIV CD4 Cell Count/Percentage and HIV-Related Diseases Categorization. April 11, 2022. Accessed August 20, 2025, and from Centers for Disease Control and Prevention. Revised surveillance case definitions for HIV infection—United States, 2014. Morbidity and Mortality Weekly Report. 2014;63(RR–3):1–10.
+
+Classification reference
+
+1. ClinicalInfo.HIV.gov. Guidelines for the Use of Antiretroviral Agents in Pediatric HIV Infection. April 11, 2022. Accessed August 20, 2025.
+
+Symptoms and Signs of HIV Infection in Infants and Children
+
+Children receiving combination antiretroviral therapy (ART)
+
+Combination ART has significantly changed the clinical manifestations of pediatric HIV infection. Although bacterial pneumonia and other bacterial infections (eg, bacteremia, recurrent otitis media) still occur more often in children with HIV infection, opportunistic infections and growth faltering are much less frequent than in the pre-ART era. New problems, such as alterations in serum lipids, hyperglycemia, fat maldistribution (lipodystrophy and lipoatrophy), nephropathy, and osteonecrosis, are reported; however, the incidence is lower in children than in adults with HIV infection.
+
+Although combination ART clearly improves some neurodevelopmental outcomes (1), there seems to be an increased rate of behavioral, developmental, and cognitive problems in treated children with HIV infection. It is unclear whether these problems are caused by HIV infection itself, medications used for its treatment, or other biopsychosocial factors that occur among children with HIV infection.
+
+The long-term consequences of HIV infection or ART during critical periods of growth and development are poorly characterized, as is whether they may manifest later in adult life. To detect long-term consequences, providers need to monitor children with HIV infection over time.
+
+Natural history of disease in untreated children
+
+Infants infected perinatally usually are asymptomatic during the first few months of life, even if no combination ART is begun. Although the median age of symptom onset is about 3 years (2), some children may even remain asymptomatic for > 5 years and, with appropriate ART, are expected to survive to adulthood.
+
+In the pre-ART era, approximately 20 to 25% of children had rapid disease progression, with symptoms, advanced disease, or even death, occurring in the first year of life (3). The risk of death occurring by 2 to 5 years of age was also greatly increased (4), and these children were thought to have acquired HIV infection earlier in utero. However, most children likely acquired infection at or near the time of birth and had slower disease progression (surviving beyond 5 years, even before ART was used routinely).
+
+Oral Candidiasis Due to HIV
+
+Image
+
+This photo shows fluffy white exudate (thrush) on the tongue of a child with HIV infection.
+
+© Springer Science+Business Media
+
+Disease manifestations in infants who have not received ART include growth and weight faltering (formerly failure to thrive), neurodevelopmental problems (eg, loss or delay in motor, language, and social skills; irritability; poor head growth), and opportunistic infections such as Pneumocystis pneumonia.
+
+Disease manifestations in older children who have not received ART include recurrent otitis media, sinusitis, bacterial pneumonia, bacteremia, herpes zoster, and lymphoid interstitial pneumonia.
+
+Older children and adolescents who have not received ART whose disease manifests late in childhood (called slow progressors or nonprogressors) may present with persistent generalized lymphadenopathy, recurrent oral and esophageal candidiasis, and lymphoma of the brain or other sites, which is similar to manifestations in adults who have not received ART.
+
+In a few untreated children, arrhythmias and heart failure may occur.
+
+All of these manifestations, including opportunistic infections, are rare in people who receive combination ART.
+
+Complications of HIV in children
+
+When complications occur, they typically involve opportunistic infections, neurologic and gastrointestinal abnormalities, and rarely cancer (5). Combination ART has made such presentations uncommon, and they now occur mainly in undiagnosed children who have not yet received ART or in children who are not adherent to ART.
+
+When opportunistic infections occur, Pneumocystis jirovecii pneumonia is the most common and serious and has high mortality. Pneumocystis pneumonia can occur as early as age 4 to 6 weeks but occurs mostly in infants aged 3 to 6 months who acquired infection before or at birth. Infants and older children with Pneumocystis pneumonia characteristically develop a subacute, diffuse pneumonitis with dyspnea at rest, tachypnea, oxygen desaturation, nonproductive cough, and fever (in contrast to non–HIV-infected immunocompromised children and adults, in whom onset is often more acute and fulminant).
+
+Other opportunistic infections in children with advanced HIV infection include Candida esophagitis, disseminated cytomegalovirus infection, chronic or disseminated herpes simplex virus infection and varicella-zoster virus infection, and, less commonly, Mycobacterium tuberculosis and M. avium complex infections, chronic enteritis caused by Cryptosporidium or other organisms, and disseminated or central nervous system (CNS) cryptococcal or Toxoplasma gondii infection.
+
+Untreated children may also develop hepatitis (especially types B and C) and HIV-associated nephropathy (eg, immune-complex glomerulonephritis).
+
+Cancers in immunocompromised children with HIV infection are relatively uncommon, but leiomyosarcomas and certain lymphomas, including CNS lymphomas and non-Hodgkin B-cell lymphomas (Burkitt type), occur much more often than in immunocompetent children. Kaposi sarcoma is very rare in children with HIV infection. (See Cancers Common Among Patients with HIV Infection.)
+
+Children may also present with growth faltering or growth delays, chronic diarrhea, and generalized lymphadenopathy (6). Neurologic complications are prominent, including HIV encephalopathy, epilepsy, peripheral neuropathy, and developmental delays or other neurocognitive impairment (7).
+
+Symptoms and signs references
+
+1. Laughton B, Cornell M, Grove D, et al. Early antiretroviral therapy improves neurodevelopmental outcomes in infants. AIDS. 2012;26(13):1685-1690. doi:10.1097/QAD.0b013e328355d0ce
+
+2. Sturt AS, Halpern MS, Sullivan B, Maldonado YA. Timing of antiretroviral therapy initiation and its impact on disease progression in perinatal human immunodeficiency virus-1 infection. Pediatr Infect Dis J. 2012;31(1):53-60. doi:10.1097/INF.0b013e31823515a2
+
+3. Tovo PA, de Martino M, Gabiano C, et al. Prognostic factors and survival in children with perinatal HIV-1 infection. The Italian Register for HIV Infections in Children. Lancet. 1992;339(8804):1249-1253. doi:10.1016/0140-6736(92)91592-v
+
+4. Spira R, Lepage P, Msellati P, et al. Natural history of human immunodeficiency virus type 1 infection in children: a five-year prospective study in Rwanda. Mother-to-Child HIV-1 Transmission Study Group. Pediatrics. 1999;104(5):e56. doi:10.1542/peds.104.5.e56
+
+5. Melkamu MW, Gebeyehu MT, Afenigus AD, et al. Incidence of common opportunistic infections among HIV-infected children on ART at Debre Markos referral hospital, Northwest Ethiopia: a retrospective cohort study. BMC Infect Dis. 2020;20(1):50. Published 2020 Jan 16. doi:10.1186/s12879-020-4772-y
+
+6. Horberg M, Thompson M, Agwu A, et al. Primary Care Guidance for Providers of Care for Persons With Human Immunodeficiency Virus: 2024 Update by the HIV Medicine Association of the Infectious Diseases Society of America. Clin Infect Dis. Published online October 12, 2024. doi:10.1093/cid/ciae479
+
+7. Govender R, Eley B, Walker K, Petersen R, Wilmshurst JM. Neurologic and neurobehavioral sequelae in children with human immunodeficiency virus (HIV-1) infection. J Child Neurol. 2011;26(11):1355-1364. doi:10.1177/0883073811405203
+
+Diagnosis of HIV Infection in Infants and Children
+
+Serum antibody tests
+
+Viral nucleic acid tests (includes HIV RNA/DNA or HIV RNA assays)
+
+HIV-specific tests
+
+Children < 18 months retain maternal (transplacentally derived) HIV antibody, causing clinically false-positive results, even with the advanced-generation HIV-1/2 antigen/antibody combination immunoassay. Therefore, in these children, the diagnosis must be made by HIV virologic assays, or nucleic acid tests (NATs) as they are known collectively, such as qualitative RNA or RNA/DNA assays. Real-time RNA or RNA/DNA assays can be used to diagnose about 25 to 60% of infants at birth and nearly 100% of infants by 4 to 6 months of age, including children with non-subtype B and group O strains of HIV more commonly found outside of the United States (1). HIV viral culture has acceptable sensitivity and specificity but has been replaced by NATs because viral culture is expensive, not as widely available, and logistically more challenging to perform (2).
+
+In children > 18 months, the diagnosis of HIV infection is made using serologic (antibody or antibody and antigen tests) rather than viral NATs:
+
+A serum advanced-generation HIV-1/2 antigen/antibody combination immunoassay
+
+A serum antibody test followed by a second-generation HIV-1/2 antibody differentiation assay
+
+An HIV-1 qualitative RNA assay (if required)
+
+This diagnostic testing algorithm has supplanted the previous sequential testing by serum immunoassay and Western blot confirmation. Transplacentally derived antibodies are normally no longer present in children in this age group. Furthermore, only very rarely does a child > 18 months with HIV infection not have circulating HIV antibodies as a result of significant hypogammaglobulinemia and, thus, has false-negative results on antibody testing.
+
+The quantitative HIV RNA assay is most commonly used to determine HIV plasma viral load for monitoring efficacy of treatment. It may also be used for infant diagnostic testing; however, care must be taken because test specificity is uncertain at very low RNA concentrations (< 5000 copies/mL), and sensitivity is unknown in infants of mothers with complete treatment-mediated viral suppression at the time of delivery.
+
+Rapid point-of-care tests may be done using rapid immunoassay tests for HIV antibody because these tests may provide results in minutes to hours using oral secretions, whole blood, or serum. In the United States, these tests are most useful in labor and delivery units to test women of unknown HIV serostatus, thus allowing perinatal counseling, commencement of ART to prevent MTCT, and testing of the infant by viral NATs to be arranged during the birth visit. These tests provide similar advantages in other episodic care settings (eg, emergency departments, adolescent medicine clinics, sexually transmitted infection clinics) and in medically underserved areas of the world.
+
+If rapid immunoassays are used, they typically require confirmatory tests such as a second antigen/antibody assay, an HIV-1/2 antibody differentiation assay, or an NAT. These confirmatory tests are especially important because in areas where the expected HIV prevalence is low, even a specific rapid assay yields mostly false-positive results (low positive predictive value by Bayes theorem). The higher the pre-test probability of HIV (ie, seroprevalence), the higher the positive predictive value of the test. In addition, rapid immunoassays are thought to be less sensitive than advanced-generation HIV-1/2 antigen/antibody combination immunoassays.
+
+Adoption of same-day advanced-generation HIV-1/2 antigen/antibody combination immunoassays by more laboratories is expected to diminish reliance on older, less sensitive and specific rapid immunoassays. Again, neither rapid immunoassays nor advanced-generation HIV1/2 antigen/antibody assays are sensitive enough for HIV diagnosis in a child < 18 months of age.
+
+Pre-test counseling before HIV testing of a child involves discussing the possible psychosocial risks and benefits of testing with the mother or primary caregiver (and the child, if old enough). Most jurisdictions in the United States (in line with CDC recommendations) follow an opt-out, oral discussion rather than requiring formal oral (or written) consent. Providers should act in accordance with their state/country and with local and hospital laws and regulations. Counseling and consent requirements should not deter testing if it is medically indicated; refusal of a patient or guardian to give consent does not relieve providers of their professional and legal responsibilities, and sometimes authorization for testing must be obtained by other means (eg, court order).
+
+Test results should be discussed in person with the family, the primary caregiver, and, if old enough, the child. If the child is HIV-positive, appropriate counseling and subsequent follow-up care must be provided. In all cases, maintaining confidentiality is essential.
+
+Children and adolescents with HIV infection or stage 3-defining disease must be reported to the appropriate public health department in accordance with state/country, local, and hospital laws.
+
+(For questions regarding neonatal diagnosis in the United States, clinicians can call the Perinatal HIV Hotline: 1-888-448-8765.)
+
+HIV testing schedules for pregnant patients and neonates
+
+HIV infection testing for all pregnant patients should be done before pregnancy or early in pregnancy so that combination ART may be given for their own health and to prevent MTCT (3–5). Current recommendations suggest repeat testing in the third trimester to detect newly acquired HIV infection—the treatment of which even late in pregnancy will still improve the patient's health and help lessen MTCT (3). In the United States, repeat HIV testing during pregnancy is mandated in some jurisdictions so that a total of 3 tests are done: in the first trimester or at entry to care, in the third trimester, and at the time of delivery. Third trimester testing is most conveniently done between 28 and 36 weeks gestation and may be combined with testing for syphilis or gestational diabetes.
+
+HIV infection testing for neonates is done at varying intervals, depending on whether an infant perinatally exposed to HIV by a mother with HIV infection is considered at low or higher risk of transmission; higher-risk infants are tested more frequently.
+
+Low risk of perinatal HIV transmission is defined by the following:
+
+The mother received ART during pregnancy.
+
+The mother had sustained virologic suppression as shown by plasma HIV viral RNA of < 50 copies/mL from 20 weeks gestation through delivery (ideally sustained virologic suppression near delivery should be documented by ≥ 2 consecutive tests ≥ 4 weeks apart with HIV RNA < 50 copies/mL).
+
+The mother did not have early (acute or recent) HIV at any point during pregnancy.
+
+There were no concerns about the mother's adherence to ART.
+
+Testing of infants at low risk is recommended at the following ages:
+
+14 to 21 days
+
+1 to 2 months (at least 2 weeks after cessation of antiretroviral prophylaxis)
+
+4 to 6 months
+
+Higher risk of perinatal HIV transmission is defined as a mother with HIV infection who has ≥ 1 of the following factors:
+
+Did not receive prenatal care
+
+Did not receive ART during pregnancy, or received only intrapartum ART
+
+Initiated ART late in pregnancy (during the late second or third trimester)
+
+Had an unknown or a detectable (≥ 50 copies/mL) HIV plasma viral load in the 4 weeks preceding delivery (particularly when delivery was vaginal)
+
+Had acute or primary HIV infection during pregnancy or breastfeeding (in which case breastfeeding should be stopped)
+
+Testing of infants at higher risk is recommended at the following ages:
+
+Birth (blood sample should be from neonate, not from umbilical cord blood)
+
+14 to 21 days
+
+1 to 2 months
+
+2 to 3 months (2 to 6 weeks after cessation of antiretroviral prophylaxis)
+
+4 to 6 months
+
+A positive test should be confirmed immediately using the same or another virologic test; two positive tests confirm HIV infection.
+
+For testing of breastfed infants in the United States and other high-resource countries, see Prevention of perinatal transmission.
+
+If the serial HIV virologic tests are negative at ≥ 2 weeks and at ≥ 4 weeks after birth and in the absence of any stage 3–defining illness, the infant is considered presumptively uninfected (ie, with > 95% accuracy). If HIV virologic tests are also negative at ≥ 4 weeks and at ≥ 4 months, and again in the absence of any stage 3-defining illness, the infant is considered definitively uninfected.
+
+In general, no additional HIV testing of any kind (eg, NAT, antibody, antigen/antibody) is needed routinely for nonbreastfed infants who meet the criteria for definitive exclusion of HIV and who have had no known or suspected postnatal HIV exposure. Rarely, additional HIV testing is indicated if an infant is thought to have postnatal exposure (eg, from human milk, percutaneous exposure, or sexual abuse). Seroreversion of maternal transplacental antibodies in the infant occurs at a median of 14 months of age; late seroreversion occasionally occurs up to 18 to 24 months of age, complicating the interpretation of antibodies in perinatally exposed infants. Expert consultation should be sought, if feasible, and repeated testing (along with viral NATs) is indicated for the perinatally exposed toddler with positive antibodies.
+
+If an infant < 18 months with a positive antibody test but negative virologic tests develops a stage 3–defining illness (see table Immunologic Categories (HIV Infection Stages) for Children 13 Years With HIV Infection Based on Age-Specific CD4+ T-Cell Count or Percentage), HIV infection is diagnosed.
+
+Additional tests after HIV diagnosis
+
+Once infection is diagnosed, other tests are done:
+
+CD4+ T-cell count
+
+CD8+ T-cell count
+
+Plasma viral RNA concentration
+
+Infected children require measurement of absolute CD4+ and CD8+ T-cell counts and plasma viral RNA concentration (viral load) to help determine their degree of illness, prognosis, and the effectiveness of therapy. CD4+ counts may be normal (eg, above the age-specific cutoffs of category 1 in table Immunologic Categories (HIV Infection Stages) for Children < 13 Years With HIV Infection Based on Age-Specific CD4+ T-Cell Count or Percentage) initially but fall eventually. CD8+ counts usually increase initially and do not fall until late in the infection. These changes in cell populations result in a decrease in the CD4+:CD8+ cell ratio, a characteristic of HIV infection (although sometimes occurring in other infections). Plasma viral RNA concentrations in untreated children < 12 months are typically very high (mean of about 200,000 RNA copies/mL). By 24 months, viral concentrations in untreated children decrease (to a mean of about 40,000 RNA copies/mL).
+
+Although the wide range of HIV RNA concentrations in children make the data less predictive of morbidity and mortality than in adults, determining plasma viral concentrations in conjunction with CD4+ counts still yields more accurate prognostic information than does determining either marker alone. Less expensive alternative surrogate markers such as total lymphocyte counts and serum albumin levels may also predict mortality resulting from advanced HIV infection (ie, stage 3-defining illness) in children, which may be useful in areas where more sophisticated testing is not available.
+
+Although not routinely measured, serum immunoglobulin concentrations, particularly IgG and IgA, are often markedly elevated, but occasionally some children develop panhypogammaglobulinemia. Patients may be anergic to skin test antigens (eg, candidal antigens, tuberculin skin test antigens).
+
+In addition to the initial immunologic and virologic assessments, HIV genotypic resistance testing at the time of diagnosis can help guide antiretroviral regimen selection (2, 3). Genotypic resistance testing can be performed concurrently with ART initiation because delaying therapy is not advised in infants and children because of the risk of rapid disease progression. See Monitoring for further information.
+
+Diagnosis references
+
+1. Panel on Antiretroviral Therapy and Medical Management of Children Living With HIV. Recommendations for the Use of Antiretroviral Drugs During Pregnancy and Interventions to Reduce Perinatal HIV Transmission in the United States. Care of Infants With Perinatal Exposure to HIV. December 19, 2024. Accessed December 27, 2025.
+
+2. Panel on Antiretroviral Therapy and Medical Management of Children Living With HIV. Guidelines for the Use of Antiretroviral Agents in Pediatric HIV Infection. September 30, 2025. Accessed June 19, 2025.
+
+3. Panel on Antiretroviral Therapy and Medical Management of Children Living With HIV. Recommendations for the Use of Antiretroviral Drugs During Pregnancy and Interventions to Reduce Perinatal HIV Transmission in the United States. June 12, 2025. Accessed June 19, 2025.
+
+4. Panel on Antiretroviral Therapy and Medical Management of Children Living With HIV. Pregnancy and Postpartum HIV Testing and Identification of Perinatal and Postnatal HIV Exposure. May 19, 2025. Accessed October 7, 2025.
+
+5. U.S. Preventive Services Task Force. Human Immunodeficiency Virus (HIV) Infection: Screening. June 11, 2019. Accessed January 9, 2026.
+
+Treatment of HIV Infection in Infants and Children
+
+Combinations of antiretroviral medications (antiretroviral therapy [ART])
+
+Supportive care
+
+In infants and children, treatment of HIV infection generally involves urgent initiation and lifelong administration of a multi-drug antiretroviral therapy (ART) regimen to suppress viral replication, preserve immune function, and ensure normal growth and development. Regimens must be carefully individualized and adjusted for rapid growth (ie, weight gain) and developmental stage (1).
+
+Individualization requires that combination ART be tailored to the child but follows the very similar principles of treatment for adolescents and adults, largely because medication regimens for these age groups include the same 3 antiretroviral medications (1, 2):
+
+Two nucleoside/nucleotide reverse transcriptase inhibitors (NRTIs) plus
+
+One integrase strand transfer inhibitor (INSTI)
+
+Rarely, a boosted protease inhibitor or a non-nucleoside reverse transcriptase inhibitor (NNRTI) is given with 2 NRTIs.
+
+Because of the success of combination ART, much of the current focus is on the management of HIV infection as a chronic disease, addressing both medical and social issues. Important long-term medical issues include the need to manage HIV-related and drug-related metabolic complications and to account for age-related changes in drug pharmacokinetics and pharmacodynamics. Social issues include the need to cope with peer pressure, ensure school success and appropriate career choice, and educate children about transmission risk. Adolescents often have difficulty accessing and adhering to health care advice, particularly in regard to treatment plans.
+
+Challenges for infants and young children include the lack of pediatric pharmacokinetic data for newer compounds, palatability and tolerability of liquid formulations, and fewer small fixed-dosed combination tablets.
+
+Children and adolescents should be managed in collaboration with experts who have experience in the management of pediatric HIV infection.
+
+Indications for ART in children
+
+Initiation of ART for children is similar to that in adults; essentially, all children with HIV infection should be given ART immediately or as soon as possible (rapid initiation, within 1 to 2 weeks of diagnosis). There is both strong consensus and clinical trial evidence for early initiation of ART in infants with HIV infection (3).
+
+The goal of therapy in all age groups is similar:
+
+Suppress HIV replication (as measured by HIV plasma viral load).
+
+Maintain or achieve age-normal CD4+ counts and percentages with the least amount of drug toxicity.
+
+Because expert opinions on therapeutic strategies change rapidly, consultation with experts is strongly advised.
+
+Adherence to ART
+
+ART is successful only if the family and child are able to adhere to a possibly complex medical regimen. Nonadherence not only leads to failure to control HIV but also contributes to the development of drug-resistant HIV strains, which reduces future therapeutic choices.
+
+Barriers to adherence to ART are multifactorial and include regimen-related, caregiver-related, psychosocial, and logistic challenges. Barriers to adherence should be addressed before starting treatment and include the following:
+
+Availability and palatability of pills or suspensions
+
+Complex preparations and administration requirements (ie, measuring, mixing, crushing, dissolving medications, refrigeration or special storage)
+
+Adverse effects (including those due to drug interactions with current therapy)
+
+The need to take some medications with food or in a fasting state
+
+Child dependence on others to administer medications
+
+Parents with HIV infection may have problems with remembering to take their own medications. Newer once- or twice-daily combination regimens and more palatable pediatric formulations help improve adherence, and the growing availability of once-daily fixed-dose combination tablets for older children and adults has helped many young children with HIV infection.
+
+Psychosocial factors impacting adherence may be especially problematic in adolescents regardless of whether they were infected perinatally or acquired HIV infection later on through sexual activity or injection drug use. Adolescents have complex biopsychosocial issues, such as low self-esteem, chaotic and unstructured lifestyles, fear of being singled out because of illness, and sometimes a lack of family support, all of which may reduce ART adherence. In addition, adolescents may not be developmentally able to understand why ART is necessary during periods of asymptomatic infection and they may worry greatly about adverse effects.
+
+Despite frequent contact with the medical system, perinatally infected adolescents may fear or deny their HIV infection, distrust information provided by the health care team, and poorly make the transition to the adult health care system (see Transition to Adult Care). Logistical challenges such as transportation difficulties, financial constraints, and limited access to health care facilities may also contribute to medication nonadherence.
+
+Thus, treatment regimens for adolescents must be made in consideration of these issues. Although the goal is to have the adolescent adhere to a maximally potent regimen of ART, a realistic assessment of the adolescent's maturity and support systems may suggest that the treatment plan begin by focusing on avoidance of opportunistic illness and providing information about reproductive health services, housing, and how to succeed in school. Once care team members are confident the adolescent is receiving proper support, they can decide exactly which ART regimen is best.
+
+Monitoring
+
+Clinical and laboratory monitoring are important for identifying drug toxicity and therapeutic failure (4):
+
+At entry into care and at initiation of ART (and if changing ART regimen): Physical examination, adherence evaluation, complete blood count, serum chemistry values including electrolytes, liver and kidney tests, HIV plasma viral load, CD4+ lymphocyte counts, and, for adolescent girls, a pregnancy test (5)
+
+Every 3 to 4 months: Physical examination, adherence evaluation, complete blood count, serum chemistry values including electrolytes, liver and kidney tests, HIV plasma viral load, and CD4+ lymphocyte counts
+
+Every 6 to 12 months: Lipid profiles and urinalysis; complete blood count and serum chemistry values including electrolytes, and liver and kidney tests if not done already in those with a stable clinical status; adherence evaluation
+
+HIV genotypic resistance testing should be done at entry into care and when ART is changed because of presumed virologic failure. Other tests frequently performed at entry into care include screening for hepatitis B, hepatitis C, and tuberculosis and a neurodevelopmental assessment.
+
+If abacavir is to be given, HLA-B*5701 status must be tested; abacavir should be given only to patients who are HLA-B*5701–negative (4). This testing is most often done at entry into care so that safety of possible future use of abacavir is known.
+
+For patients receiving tenofovir, annual or semiannual lipid profiles and urinalysis must be performed.
+
+If children have a stable treatment status, ie, nondetectable HIV RNA and normal age-adjusted CD4+ lymphocyte counts without clinical signs of toxicity for at least 12 months, and a stable family support system, many clinicians extend the interval of laboratory evaluations to every 6 to 12 months. However, clinical care visits every 3 months with measurement of HIV plasma viral load are valuable because clinicians have the opportunity to review adherence, monitor growth and clinical symptoms, and update weight-based dosing of antiretroviral medications as needed.
+
+Prevention of opportunistic infections
+
+Prophylactic treatment is recommended in certain children with HIV infection for prevention of Pneumocystis pneumonia and M. avium complex infections. Data are limited on the use of prophylaxis for opportunistic infection by other organisms, such as cytomegalovirus or fungi. Prophylaxis against Toxoplasma is generally achieved by prophylaxis that is given for Pneumocystis (6).
+
+Prophylaxis against Pneumocystis pneumonia is indicated for (6):
+
+Infants born to women with HIV infection (beginning at 4 to 6 weeks of age) until HIV infection is either presumptively excluded by documentation of 2 negative virologic test results (1 at ≥ 2 weeks of age and 1 at ≥ 4 weeks of age) or definitively excluded by documentation of 2 negative virologic test results (1 at ≥ 1 month of age and 1 at ≥ 4 months of age)
+
+Infants with HIV infection who are < 12 months of age regardless of CD4+ count or percentage
+
+Children with HIV infection who are 1 to < 6 years of age with CD4+ count < 500 cells/mcL or CD4+ percentage < 22%
+
+Children with HIV infection who are ≥ 6 years of age with CD4+ count < 200 cells/mcL or CD4+ percentage < 14%
+
+Once immune reconstitution with combination ART occurs (ie, increases to age-normal CD4+ T-cell counts and decreases in HIV viral load), discontinuation of Pneumocystis pneumonia prophylaxis may be considered for children with HIV infection who have received combination ART for > 6 months and whose CD4+ percentage and CD4+ count have remained higher than the previously described treatment thresholds for > 3 consecutive months. Subsequently, the CD4+ percentage and count should be reevaluated at least every 3 months; prophylaxis is reinstituted if the original criteria are met.
+
+The medication of choice for Pneumocystis prophylaxis at any age is oral trimethoprim/sulfamethoxazole (TMP/SMX).
+
+For patients who cannot tolerate TMP/SMX, oral dapsone once a day is an alternative, especially for those < 5 years of age. Oral atovaquone given once a day or aerosolized pentamidine (eg, 300 mg via specially designed inhaler for children ≥ 5 years) given once a month is an additional alternative. IV pentamidine has also been used but is less effective and more toxic.
+
+Prophylaxis against M. avium complex infection is indicated for (6):
+
+Children < 1 year with CD4+ count < 750 cells/mcL
+
+Children 1 to < 2 years with CD4+ count < 500 cells/mcL
+
+Children 2 to < 6 years with CD4+ count < 75 cells/mcL
+
+Children ≥ 6 years with CD4+ count < 50 cells/mcL
+
+Weekly azithromycin or daily clarithromycin is the medication of choice, and daily rifabutin (if available) is an alternative if macrolides are not tolerated.
+
+Psychosocial approach to children with HIV infection
+
+HIV infection in a child can impact the entire family. Multidisciplinary support is essential. Physicians involved in the care of children and adolescents with HIV should integrate social work and mental health and case management services (where available) and direct caregivers to community resources.
+
+Serologic testing of siblings and parents is recommended for families with a child with perinatally acquired infection. This testing may not be necessary for families without known HIV infection who adopt a child with HIV infection. The physician must provide education and ongoing counseling.
+
+Children with HIV infection should be taught good hygiene and behaviors that reduce risk to others. How much and when children are told about the illness depends on age and maturity. Older children and adolescents should be made aware of their diagnosis and the possibility of sexual transmission and should be counseled appropriately. Families may be unwilling to share the diagnosis with people outside the immediate family because it can create social isolation. Feelings of guilt are common. Family members, including children, can become clinically depressed and require counseling.
+
+Because HIV infection is not acquired through the typical types of contact that occur among children (eg, through saliva or tears), children with HIV infection should be allowed to attend school without restrictions. Similarly, there are no inherent reasons to restrict foster care, adoptive placement, or child care of children with HIV infection. Conditions that may pose an increased risk to others (eg, aggressive biting or the presence of exudative, weeping skin lesions that cannot be covered) may require special precautions.
+
+The number of school personnel aware of the child’s condition should be kept to the minimum needed to ensure proper care. The family has the right to inform the school, but people involved in the care and education of a child with HIV infection must respect the child’s right to privacy. Disclosures of information should be made only with the informed consent of the parents or legal guardians and age-appropriate assent of the child.
+
+Routine vaccinations
+
+Routine pediatric vaccination protocols (including for COVID-19) are recommended for children with HIV infection, with several exceptions.
+
+The main exception is that nearly all vaccines containing live organisms (eg, bacille Calmette–Guérin [BCG], measles, varicella) should be avoided or used only in certain circumstances.
+
+Live-attenuated oral poliovirus vaccine (which is not available in the United States but is still used in other parts of the world) and live-attenuated influenza vaccine are not recommended; however, inactivated poliovirus vaccine should be given according to the routine schedule, and inactivated influenza vaccination should be given yearly.
+
+The live measles-mumps-rubella (MMR) vaccine and varicella vaccine should not be given to children with manifestations of severe immunosuppression. However, the MMR and varicella-zoster virus (VZV) vaccines (separately; not combined as MMRV vaccine, which has a higher titer of attenuated varicella virus, the safety of which has not been shown in this population) can be given to asymptomatic patients following the routine schedule and to patients who have had HIV symptoms but who are not severely immunocompromised (ie, not in category 3 [see table Immunologic Categories (HIV Infection Stages) for Children < 13 Years With HIV Infection Based on Age-Specific CD4+ T-Cell Count or Percentage], including having a CD4+ T-cell percentage of ≥ 15% or total CD4+ T-cell count > 200 cells/mcL). If possible, the MMR and VZV vaccines should be given starting at age 12 months in symptomatic patients to enhance the likelihood of an immune response, ie, before the immune system deteriorates. The second dose of each may be given as soon as 4 weeks later in an attempt to induce seroconversion as early as possible, although typically a 3-month interval between VZV doses is preferred in noninfected children < 13 years. If the risk of exposure to measles is increased, such as during an outbreak, the MMR vaccine should be given at an earlier age, such as 6 to 9 months.
+
+The live-attenuated oral rotavirus vaccine may be given to infants with HIV according to the routine schedule. The maximum age for the first dose in the rotavirus vaccine series is 14 weeks and 6 days (7).
+
+The BCG vaccine is not recommended in the United States because it is an area of low tuberculosis (TB) prevalence. However, elsewhere in the world, especially in countries where TB prevalence is high, BCG vaccine is routinely used; some of these countries also have high HIV prevalence among childbearing patients. BCG as a live bacterial vaccine has caused some harm in children with HIV infection but likely protects children who do not have HIV infection and even some children who do have HIV infection from acquiring TB. The World Health Organization (WHO) recommends that children who live in areas with high TB or leprosy burdens, who are known to have HIV infection, who are receiving ART, and who are clinically well and immunologically stable (CD4+ T-cell percentage of > 25% for children < 5 years or total CD4+ T-cell count ≥ 200 cells/mL for children > 5 years) should be given BCG vaccine. Neonates born to women of unknown HIV status also should be given the vaccine because the benefits of BCG vaccination outweigh the risks. Neonates of unknown HIV status born to women who have HIV infection should be vaccinated if they have no clinical evidence suggesting HIV infection, regardless of whether the mother is receiving ART. For neonates with HIV infection confirmed by early virologic testing, BCG vaccination should be delayed until ART has been started and the neonate is confirmed to be immunologically stable (CD4 > 25%) (8).
+
+In some areas of the world, children are routinely vaccinated against yellow fever virus, dengue virus, and Japanese encephalitis virus; these live-virus vaccines should be given only to those without symptomatic HIV infection or severe immunosuppression.
+
+Because children with symptomatic HIV infection may have an attenuated immunologic responses to vaccines, they should be considered susceptible when they are exposed to a vaccine-preventable disease (eg, measles, tetanus, varicella) regardless of their vaccination history. Such children should receive passive immunization with IV immune globulin. IV immune globulin should also be given to any nonimmunized household member who is exposed to measles.
+
+Seronegative children living with a person with symptomatic HIV infection should receive inactivated poliovirus vaccine rather than oral poliovirus vaccine. Influenza (inactivated or live), MMR, varicella, and rotavirus vaccines may be given to household contacts of children with HIV infection because these vaccine viruses are not commonly transmitted by the vaccinee. Adult household contacts should receive annual influenza vaccination (inactivated or live) to reduce the risk of transmitting influenza to the person with HIV infection.
+
+The monoclonal antibody nirsevimab can be given to infants with HIV whose mother did not receive appropriate RSV vaccination during pregnancy.
+
+Other vaccine-specific guidance for hepatitis B and the pneumococcal and meningococcal conjugate vaccines in children with HIV infection exists in different areas of the world.
+
+Treatment references
+
+1. Panel on Antiretroviral Therapy and Medical Management of Children Living with HIV. Guidelines for the Use of Antiretroviral Agents in Pediatric HIV Infection. September 30, 2025. Accessed June 19, 2025.
+
+2. Panel on Antiretroviral Therapy and Medical Management of Children Living With HIV. Appendix A: Pediatric Antiretroviral Drug Information. September 30, 2025. Accessed October 7, 2025.
+
+3. Penazzato M, Prendergast AJ, Muhe LM, Tindyebwa D, Abrams EJ. Optimization of antiretroviral therapy in HIV-infected children under 3 years of age: a systematic review. AIDS. 2014;28 Suppl 2:S137-S146. doi:10.1097/QAD.0000000000000240
+
+4. Panel on Antiretroviral Therapy and Medical Management of Children Living with HIV. Clinical and Laboratory Monitoring of Pediatric HIV Infection. September 30, 2025. Accessed October 7, 2025.
+
+5. Panel on Antiretroviral Therapy and Medical Management of Children Living With HIV. Considerations for Antiretroviral Use in Special Populations: Women with HIV: Antiretroviral Regimen Considerations for Individuals Who Are Trying to Conceive. September 12, 2024. Accessed October 7, 2025.
+
+6. Panel on Antiretroviral Therapy and Medical Management of Children Living With HIV. Guidelines for the Prevention and Treatment of Opportunistic Infections in Children With and Exposed to HIV: Pneumocystis pneumonia. December 22, 2025. Accessed September 2, 2025.
+
+7. Panel on Antiretroviral Therapy and Medical Management of Children Living With HIV. Guidelines for the Prevention and Treatment of Opportunistic Infections in Children With and Exposed to HIV: Recommended Immunization Schedule for Children with HIV Aged 0 through 18 Years; United States, 2025: Rotavirus Vaccine (RV). June 05, 2025. Accessed January 9, 2026.
+
+8. WHO consolidated guidelines on tuberculosis: Module 5: Management of tuberculosis in children and adolescents [Internet]. Geneva: World Health Organization; 2022. Table 4, WHO recommendations on TB infection prevention and control, BCG vaccination and TPT relevant to children and adolescents.
+
+Transition to Adult Care in Adolescents with HIV Infection
+
+Transition of youth with HIV infection from the pediatric health care model to the adult health care model takes time and advance planning. This process is one that requires active and ongoing coordination (1).
+
+The pediatric health care model is typically family-centered, and the care team includes a multidisciplinary team of physicians, nurses, social workers, and mental health professionals; perinatally infected youth may have been cared for by such a team for their entire life.
+
+In contrast, the typical adult health care model tends to be individual-centered, and the health care professionals involved may be located in separate offices requiring multiple visits. Health care professionals at adult care clinics and offices are often managing high patient volumes, and the consequences of lateness or missed appointments (which may be more common among adolescents) are stricter. Finally, changes in insurance coverage in adolescence or young adulthood can complicate transition of medical care as well.
+
+Planning the transition over several months and having adolescents have discussions or joint visits with the pediatric and adult health care professionals can lead to a smoother and more successful transition (1). A resource for transition of youth with HIV infection into adult health care is available (2).
+
+Transition to adult care references
+
+1. Panel on Antiretroviral Therapy and Medical Management of Children Living With HIV. Guidelines for the Use of Antiretroviral Agents in Adults and Adolescents With HIV: Considerations for Antiretroviral Use in Special Populations: Adolescents and Young Adults With HIV: Transitioning to Adult HIV Care. June 03, 2021. Accessed October 9, 2025.
+
+2. Committee On Pediatric Aids. Transitioning HIV-infected youth into adult health care. Pediatrics. 2013;132(1):192-197. doi:10.1542/peds.2013-1073
+
+Prognosis for HIV Infection in Infants and Children
+
+In the pre-ART era, approximately 10 to 20% of children from high-resource countries and 60 to 70% of children from low-resource countries died before age 5 years (1); however, with appropriate combination ART regimens, most perinatally infected children survive well into adulthood. Increasing numbers of these surviving perinatally infected young adults have had their own children.
+
+Nevertheless, if opportunistic infections occur, particularly Pneumocystis pneumonia, progressive neurologic disease, or severe wasting, the prognosis is poor unless virologic and immunologic control is regained with combination ART. Mortality due to Pneumocystis pneumonia ranges from 5 to 30% if treated (2) and is nearly always fatal if untreated. Prognosis is also poor for children in whom virus is detected early (ie, by 7 days of life) or who develop symptoms in the first year of life and do not receive combination ART.
+
+There have been several reported cases of adults in whom replication-competent HIV was eradicated (ie, these people were "cured" for > 5 years) (3). These adults each required a hematopoietic stem cell transplant for leukemia. The donor cells were homozygous for the CCR5-delta 32 mutation, which made the engrafted lymphocytes resistant to infection with CCR5-tropic HIV; subsequently, HIV has remained undetectable. It is likely that the combination of ART, bone marrow ablation, and graft-vs-host disease also contributed to these cures. No infants or children have been permanently cured of HIV infection.
+
+HIV infection is a treatable infection that is already compatible with long-term survival if effective ART is given. Ongoing and future research studies are expected to improve ART tolerance, efficacy, and perhaps help achieve the goal of curative therapy.
+
+At present, interruption of ART at any age is not recommended.
+
+Prognosis references
+
+1. Tudor-Williams G. HIV infection in children in developing countries. Trans R Soc Trop Med Hyg. 2000;94(1):3-4. doi:10.1016/s0035-9203(00)90414-0
+
+2. McMullan B, Kim HY, Alastruey-Izquierdo A, et al. Features and global impact of invasive fungal infections caused by Pneumocystis jirovecii: A systematic review to inform the World Health Organization fungal priority pathogens list. Med Mycol. 2024;62(6):myae038. doi:10.1093/mmy/myae038
+
+3. Xiao Q, He S, Wang C, et al. Deep Thought on the HIV Cured Cases: Where Have We Been and What Lies Ahead?. Biomolecules. 2025;15(3):378. Published 2025 Mar 5. doi:10.3390/biom15030378
+
+Prevention of HIV Infection in Infants and Children
+
+For pre-exposure prevention, see Pre-exposure prophylaxis (PrEP).
+
+For postexposure prevention, see Postexposure prophylaxis (PEP).
+
+Prevention of perinatal transmission
+
+Appropriate prenatal ART must be instituted to optimize maternal health, interrupt MTCT, and minimize in utero drug toxicity. In the United States and other countries where ART and HIV testing are readily available, ART is standard for all pregnant patients with HIV infection (see treatment of HIV infection in adults). Rapid HIV testing of pregnant patients who present in labor without documentation of their HIV serostatus may allow immediate institution of such measures.
+
+All pregnant patients with HIV infection should initiate combination ART to prevent MTCT, as well as for their own health, as soon as the diagnosis of HIV infection is made and they are ready to adhere to ART. Combination ART is continued throughout pregnancy. Pregnancy is not a contraindication to administration of combination ART regimens; specifically, neither dolutegravir nor efavirenz is contraindicated during the first trimester. Although a clinical trial in Botswana initially showed a link between periconceptional exposure to dolutegravir and a small increase in infant neural tube defects (1), the apparent increase was not present after further study (2), and it is unknown whether this increase was truly due to dolutegravir or to another factor, such as folate deficiency. There is considerable evidence that women with HIV infection who are already receiving effective combination ART (with viral suppression) who become pregnant should continue such therapy, even early during the first trimester (3). This recommendation is based on the principle that preconception ART shows high antiviral efficacy and low rates of adverse birth outcomes.
+
+Elective cesarean delivery before onset of labor is recommended only if the maternal HIV plasma viral load is > 1000 copies/mL. If labor has already begun, it is less certain whether cesarean delivery reduces MTCT.
+
+When patients present in labor, zidovudine (ZDV) is given at 2 mg/kg IV for the first hour and then at 1 mg/kg/hour IV until delivery to all patients who have ≥ 1 of the following:
+
+Recent HIV plasma viral load > 1000 copies/mL
+
+Unknown HIV plasma viral load near delivery
+
+Are thought to have had incomplete adherence to ART
+
+Many experts now believe that IV ZDV is not required during labor for patients receiving combination ART who have achieved HIV plasma viral loads < 50 copies/mL near delivery. However, IV ZDV should be considered for patients with a viral load of 50 to 999 copies/mL at or near delivery; it may provide additional protection against perinatal transmission.
+
+After delivery, combination ART is continued for all patients, even those who had not previously received ART.
+
+All neonates exposed to HIV should receive a preventive postpartum ART regimen to reduce the risk of HIV infection. The preventive regimen should begin as soon as possible, preferably within 6 hours of delivery. The ART regimen is determined by maternal and infant risk factors for perinatal HIV transmission, especially maternal HIV RNA levels (4).
+
+Preventive regimens are categorized as:
+
+Antiretroviral prophylaxis
+
+Presumptive HIV therapy
+
+Low-risk infants are candidates for antiretroviral prophylaxis. Low-risk infants are defined as full-term neonates born to women who have had sustained virologic suppression with ART, who have no concerns related to adherence to ART, and who did not have acute or early HIV infection diagnosed in pregnancy. Sustained virologic suppression is shown by HIV RNA < 50 copies/mL from 20 weeks gestation through delivery that is ideally documented by at least 2 consecutive tests at least 4 weeks apart.
+
+Low-risk infants should be given antiretroviral prophylaxis with ZDV 4 mg/kg orally twice daily for the first 2 weeks of life. ZDV is the backbone of infant prophylaxis and is used for all infants born to women with HIV infection regardless of the risk factors.
+
+High-risk infants are defined as those born to women who had no prenatal care, who did not receive appropriate ART antenatally and intrapartum, who had an elevated HIV plasma viral load in the 4 weeks preceding delivery, and who had early or acute HIV infection during pregnancy and infants who are breastfeeding when HIV infection is diagnosed in the mother. These infants are given presumptive HIV therapy (see table Neonatal Antiretroviral Management According to Risk of HIV Infection) with a 3-drug regimen of ZDV, lamivudine (3TC), and either nevirapine (NVP) or raltegravir (RAL) (for dosing, see table Antiretroviral Dosing for Neonates with Perinatal HIV Exposure) for up to 6 weeks. The optimal duration of 3-drug regimens for infants at high risk of in utero HIV acquisition is unknown; all infants should receive the ZDV component of the 3-drug regimen for 6 weeks. The other two components, 3TC and NVP or 3TC and RAL, may be administered for 2 to 6 weeks; the recommended duration for these medications varies depending on infant HIV NAT results, maternal viral load at the time of delivery, and additional risk factors for HIV transmission. Presumptive therapy initially serves as prophylaxis but also as preliminary treatment for infants later confirmed to have HIV. Consultation with an expert in pediatric HIV infection is recommended when selecting a therapy duration because this decision should be based on case-specific risk factors and interim infant HIV NAT results.
+
+Selected infants who are neither low nor high risk may be given 2 to 6 weeks of 1 to 3 drugs in combination; however, there is no consensus among experts for the best ART regimen in this situation (see figure Antiretroviral Management for Infants With In Utero or Intrapartum HIV Exposure by Risk of HIV Transmission).
+
+Antiretroviral Management for Infants With In Utero or Intrapartum HIV Exposure by Risk of HIV Transmission
+
+* Early (acute or recent) HIV infection in pregnancy may result in a situation where viremia occurs early in gestation but is suppressed after 20 weeks and through the remainder of pregnancy until delivery. In this situation, decision making guided by the clinical scenario is recommended. See table Neonatal Antiretroviral Management According to Risk of HIV Infection.
+
+† ZDV prophylaxis is administered for 6 weeks total even if other medications are given for a shorter duration.
+
+‡ If birth HIV NAT is negative.
+
+NAT = nucleic acid test; PCR = polymerase chain reaction; ZDV = zidovudine.
+
+Data from Panel on Antiretroviral Therapy and Medical Management of Children Living With HIV. Recommendations for the Use of Antiretroviral Drugs During Pregnancy and Interventions to Reduce Perinatal HIV Transmission in the United States. Care of Infants With Perinatal Exposure to HIV. December 19, 2024. Accessed June 19, 2025.
+
+Very few ARV medications (notably ZDV, nevirapine, lamivudine, abacavir, and raltegravir) are considered safe and effective for infants < 14 days postnatal age, and fewer still (only ZDV, lamivudine, nevirapine, and, for late preterm infants, raltegravir) have dosing data available for preterm infants. The optimal regimen for neonates born to women with drug-resistant virus is unknown.
+
+Infants who had negative testing initially but subsequently have a positive HIV virologic test (eg, negative at birth but positive at 1 month of age) are given ART with 3 medications as appropriate for treatment of known HIV infection. An expert in pediatric or maternal HIV infection should be immediately consulted (see information at ClinicalInfo.HIV.gov or at the National Clinician Consultation Center). Clinicians also can call the Perinatal HIV Hotline at 1-888-448-8765 for questions regarding interventions to decrease vertical HIV transmission, neonatal diagnosis, or other concerns. In the event that the mother has HIV-2 infection or coinfection with both HIV-1 and HIV-2, raltegravir rather than nevirapine should be included in the presumptive therapy regimen because HIV-2 infection is not susceptible to nevirapine.
+
+Table
+
+Neonatal Antiretroviral Management According to Risk of HIV Infection
+
+Table
+
+Neonatal Antiretroviral Management According to Risk of HIV Infection
+
+Neonatal Antiretroviral Management According to Risk of HIV Infection
+
+Perinatal HIV Transmission Risk
+
+Maternal/Neonatal Factors
+
+Neonatal HIV Management*
+
+Low
+
+Mother received ART during pregnancy.
+
+Mother did not have acute or early HIV infection diagnosed during pregnancy.
+
+Mother had sustained virologic suppression (as shown by HIV plasma viral load < 50 copies/mL from 20 weeks gestation through delivery).
+
+There were no concerns about mother's adherence to ART.
+
+Antiretroviral prophylaxis: ZDV for 2 weeks
+
+High
+
+Mother did not receive ART during pregnancy.
+
+Mother did not receive antepartum or intrapartum ART.
+
+Mother received only intrapartum ART.
+
+Mother received antepartum and intrapartum ART but had an unknown or a detectable (≥ 50 copies/mL) HIV plasma viral load in the 4 weeks before delivery.
+
+Mother had early or acute HIV infection during pregnancy or breastfeeding (chestfeeding) (in which case breastfeeding should be stopped immediately).
+
+Mother had unconfirmed HIV status with ≥ 1 positive HIV test at delivery or postpartum.
+
+Three-drug presumptive HIV therapy: ZDV, lamivudine, and either nevirapine or raltegravir (combination given from birth for 2 to 6 weeks)
+
+* Antiretroviral medications should begin as soon as possible, preferably within 6 hours of delivery. See table Antiretroviral Dosing for Neonates With Perinatal HIV Exposure for dosing specifics.
+
+ART = antiretroviral therapy; ZDV = zidovudine.
+
+Data derived and further information regarding other less common categories of transmission risk available from the Panel on Antiretroviral Therapy and Medical Management of Children Living With HIV. Guidelines for the Use of Antiretroviral Agents in Pediatric HIV Infection. September 30, 2025. Accessed June 19, 2025.
+
+* Antiretroviral medications should begin as soon as possible, preferably within 6 hours of delivery. See table Antiretroviral Dosing for Neonates With Perinatal HIV Exposure for dosing specifics.
+
+ART = antiretroviral therapy; ZDV = zidovudine.
+
+Data derived and further information regarding other less common categories of transmission risk available from the Panel on Antiretroviral Therapy and Medical Management of Children Living With HIV. Guidelines for the Use of Antiretroviral Agents in Pediatric HIV Infection. September 30, 2025. Accessed June 19, 2025.
+
+Table
+
+Antiretroviral Dosing for Neonates With Perinatal HIV Exposure
+
+Table
+
+Antiretroviral Dosing for Neonates With Perinatal HIV Exposure
+
+Antiretroviral Dosing for Neonates With Perinatal HIV Exposure
+
+Medication (Oral)*
+
+Low-Risk Prophylaxis (2 Weeks Total Treatment)
+
+High-Risk Therapy (6 Weeks Total Treatment)‡
+
+Zidovudine (ZDV)†
+
+≥ 35 weeks gestation at birth: ZDV 4 mg/kg twice daily
+
+≥ 35 weeks gestation at birth: ZDV 4 mg/kg twice daily
+
+≥ 30 to < 35 weeks gestation at birth:
+
+ZDV 2 mg/kg twice daily
+
+≥ 30 to < 35 weeks gestation at birth:
+
+Birth to age 2 weeks: ZDV 2 mg/kg twice daily
+
+Age 2–6 weeks: ZDV 3 mg/kg twice daily
+
+< 30 weeks gestation at birth:
+
+ZDV 2 mg/kg twice daily
+
+< 30 weeks gestation at birth:
+
+Birth to age 4 weeks: ZDV 2 mg/kg twice daily for 4 weeks
+
+Age 4–6 weeks: ZDV 3 mg/kg twice daily
+
+Lamivudine (3TC)
+
+Not applicable
+
+≥ 32 weeks gestation at birth:
+
+Birth to age 4 weeks: 3TC 2 mg/kg twice daily
+
+Age 4–6 weeks: 3TC 4 mg/kg twice daily
+
+Nevirapine (NVP)
+
+Not applicable
+
+≥ 37 weeks gestation at birth:
+
+NVP 6 mg/kg twice daily
+
+34 to < 37 weeks gestation at birth:
+
+Birth to age 1 week: NVP 4 mg/kg twice daily
+
+Age 1–6 weeks: NVP 6 mg/kg twice daily
+
+32 to 34 weeks gestation at birth:
+
+Birth to age 2 weeks: NVP 2 mg/kg twice daily
+
+Age 2–4 weeks: NVP 4 mg/kg twice daily
+
+Age 4–6 weeks: NVP 6 mg/kg twice daily 
+
+Raltegravir (RAL)
+
+Not applicable
+
+≥ 37 weeks gestation at birth and weighing ≥ 2 kg:
+
+Birth to age 1 week: About 1.5 mg/kg once a day
+
+Age 1–4 weeks: About 3 mg/kg twice daily
+
+Age 4–6 weeks: About 6 mg/kg twice daily
+
+* Antiretroviral medications should begin as soon as possible, preferably within 6 hours of delivery. See table Neonatal Antiretroviral Management According to Risk of HIV Infection for details regarding risk of perinatal transmission. Consulting an expert in pediatric HIV is recommended when selecting a therapy duration based on case-specific risk factors and interim HIV test results. For antiretroviral management after the neonatal period, see the Guidelines for the Use of Antiretroviral Agents in Pediatric HIV Infection.
+
+† For neonates who cannot tolerate oral medications, ZDV can be given IV at 75% of the oral dose, using the same dosing interval.
+
+‡ The optimal duration of 3-drug regimens for infants at high risk of HIV acquisition is unknown; all infants should receive the ZDV component of the 3-drug regimen for 6 weeks. The other two components, 3TC and NVP or 3TC and RAL, may be administered for 2 to 6 weeks; the recommended duration for these medications varies depending on infant HIV NAT results, maternal viral load at the time of delivery, and additional risk factors for HIV transmission. Consultation with an expert in pediatric HIV infection is recommended when selecting a therapy duration because this decision should be based on case-specific risk factors and interim infant HIV NAT results.
+
+ART = antiretroviral therapy.
+
+Data from the Panel on Antiretroviral Therapy and Medical Management of Children Living With HIV. Guidelines for the Use of Antiretroviral Agents in Pediatric HIV Infection. Accessed June 19, 2025.
+
+* Antiretroviral medications should begin as soon as possible, preferably within 6 hours of delivery. See table Neonatal Antiretroviral Management According to Risk of HIV Infection for details regarding risk of perinatal transmission. Consulting an expert in pediatric HIV is recommended when selecting a therapy duration based on case-specific risk factors and interim HIV test results. For antiretroviral management after the neonatal period, see the Guidelines for the Use of Antiretroviral Agents in Pediatric HIV Infection.
+
+† For neonates who cannot tolerate oral medications, ZDV can be given IV at 75% of the oral dose, using the same dosing interval.
+
+‡ The optimal duration of 3-drug regimens for infants at high risk of HIV acquisition is unknown; all infants should receive the ZDV component of the 3-drug regimen for 6 weeks. The other two components, 3TC and NVP or 3TC and RAL, may be administered for 2 to 6 weeks; the recommended duration for these medications varies depending on infant HIV NAT results, maternal viral load at the time of delivery, and additional risk factors for HIV transmission. Consultation with an expert in pediatric HIV infection is recommended when selecting a therapy duration because this decision should be based on case-specific risk factors and interim infant HIV NAT results.
+
+ART = antiretroviral therapy.
+
+Data from the Panel on Antiretroviral Therapy and Medical Management of Children Living With HIV. Guidelines for the Use of Antiretroviral Agents in Pediatric HIV Infection. Accessed June 19, 2025.
+
+Prevention of perinatal transmission via human milk
+
+Avoiding breastfeeding (chestfeeding) and using properly prepared formula or pasteurized donor milk from a milk bank are the only infant feeding options that entirely eliminate the risk of postnatal HIV transmission through breastfeeding. For this reason, replacement feeding with properly prepared formulas or pasteurized, banked donor milk was previously recommended as the only option for infant feeding in the United States and in countries where infant formula was safe, available, and affordable. However, breastfeeding provides certain benefits to the breastfeeding mother and child that are not possible with formula or donor milk feeding. In addition, the risk of transmission through breastfeeding is very low (but not zero) for women on ART who have a sustained undetectable HIV viral load.
+
+Clinicians should engage parents in patient-centered counseling and shared decision making regarding infant feeding for patients with HIV who desire to breastfeed and who meet the following criteria (5–9):
+
+Initiated ART before or very early in pregnancy
+
+Have evidence of sustained viral suppression (HIV viral load < 50 copies/mL) throughout the pregnancy to delivery
+
+Are committed to consistently taking ART and to giving their infant antiretroviral prophylaxis
+
+Anticipate continuous access to ART without interruption in medication supply
+
+Providers and parents should discuss that replacement feeding with formula or pasteurized donor milk from a milk bank eliminates the risk of postnatal transmission of HIV and that the risk associated with breastfeeding while meeting the criteria above is low but not zero (estimated to be < 1%). The breastfeeding parent should be counseled on the likely use of infant antiretroviral prophylaxis during breastfeeding in addition to the antiretroviral prophylaxis recommended for all infants with perinatal HIV exposure, and that continued ART for the breastfeeding parent is of critical importance. Increased diagnostic testing frequency is recommended for both the breastfeeding parent and the infant if breastfeeding is anticipated. Ideally, these discussions should take place during pregnancy as well as at delivery, with reminders for ART adherence and monitoring throughout the duration of breastfeeding. If the breastfeeding parent's viral load becomes detectable, breastfeeding should be stopped.
+
+Recommendations for the composition and length of neonatal antiretroviral prophylaxis and for the schedule of increased diagnostic testing frequency during the period of breastfeeding have been suggested, but a consensus has not yet been reached (7–11). One approach is to continue the breastfeeding parent's current ART regimen, administer nevirapine or lamivudine to the breastfeeding infant every day, and perform an HIV RNA nucleic acid test on the breastfeeding parent every 1 to 2 months during breastfeeding. Breastfeeding is stopped if the parent has a detectable viral load or clinical mastitis or cracked or bleeding nipples. No solid foods should be given to the infant for the 6-month period of breastfeeding, and weaning should take place gradually over several weeks. Infant nevirapine or lamivudine and infant HIV testing are continued for 1 to 3 months after weaning. An expert in pediatric HIV infection should be consulted wherever feasible.
+
+In contrast, in countries where infectious diseases and undernutrition are major causes of early childhood mortality and safe, affordable infant formula is not available, the protection breastfeeding offers against the mortality risks of respiratory and gastrointestinal infections may counterbalance the risk of HIV transmission. In these countries, the World Health Organization (WHO) recommends mothers with HIV infection continue to breastfeed for at least 12 months of the infant's life (12).
+
+Donating to milk banks is contraindicated for women with HIV infection in the United States and in other countries where safe and affordable alternative sources of feeding are readily available.
+
+Premastication (prechewing) of food, practiced by some mothers of young infants, is also contraindicated for women with HIV infection.
+
+Prevention of adolescent transmission
+
+Because adolescents are at special risk of HIV infection, they should receive education, have access to HIV testing, and know their serostatus.
+
+Education should include information about transmission, implications of infection, and strategies for prevention, including abstaining from high-risk behaviors and engaging in safer sex practices (eg, correct and consistent use of condoms) for those who are sexually active. Efforts should be made to include adolescents at high risk of HIV infection, in particular Black and Hispanic adolescent men who have sex with men because, in the United States, these demographics have the highest diagnosis rates of new HIV infections. In addition, all adolescents, regardless of risk factors, should receive risk-reduction education.
+
+In most states in the United States, informed consent is necessary for testing and the release of information regarding HIV serostatus. Decisions regarding the disclosure of HIV status to a sex partner without the patient’s consent should be based on the following:
+
+Possibility of intimate partner violence to the patient after disclosure to the partner
+
+Likelihood that the partner is at risk
+
+Whether the partner has reasonable cause to suspect the risk and to take precautions
+
+Presence of a legal requirement to withhold or disclose such information
+
+Pre-exposure prophylaxis (PrEP)
+
+PrEP is the use of antiretroviral medications by people who are not infected with HIV but who are at high risk of becoming infected (eg, by having a sex partner with HIV infection). PrEP is usually prescribed as a fixed-dose combination tablet of tenofovir disoproxil fumarate/emtricitabine (TDF/FTC); sometimes, PrEP is prescribed as a fixed-dose combination tablet of tenofovir alafenamide/emtricitabine (TAF/FTC), which also has very high efficacy but may be subject to logistical challenges such as cost and lack of availability of or access to generic medication. PrEP does not eliminate the need to use other methods of reducing risk of HIV infection, including using condoms correctly and avoiding high-risk behaviors (eg, needle sharing).
+
+Data regarding infants of pregnant patients taking TDF/FTC PrEP during pregnancy are incomplete, but, currently, no adverse effects have been reported in children born to patients with HIV infection treated with TDF/FTC during pregnancy (13). Use of PrEP to reduce the risk of HIV infection in injection drug users is being studied (14).
+
+Adolescents in the United States often face barriers to obtaining PrEP and, more generally, to seeking services for sexually transmitted infection and HIV, which may in part be because of feared breaches of confidentiality (ie, that their parents or caregivers will be told). Logistical challenges may also be more complex in adolescents compared to adults. Despite these potential barriers, PrEP for sexually active adolescents or transgender adolescents, particularly those with high-risk sexual behavior, should be strongly considered. A recent compendium of minor consent laws for sexually transmitted infections and HIV services is available to help guide clinicians (15).
+
+Long-acting injectable antiretroviral medications such as cabotegravir and lenacapavir are available for older adolescents and may further improve PrEP in high-risk populations with poor medication adherence or in those who would prefer an injection every 2 (cabotegravir) or 6 (lenacapavir) months rather than a daily medication. Disadvantages of the injectable PrEP medications include expense and relatively large volume of injection (2 injections of 1.5 mL each per dosing interval). For current CDC recommendations, see HIV prevention: PrEP guidelines.
+
+Prevention references
+
+1. Eke AC, Mirochnick M, Lockman S. Antiretroviral Therapy and Adverse Pregnancy Outcomes in People Living with HIV. N Engl J Med. 2023;388(4):344-356. doi:10.1056/NEJMra2212877
+
+2. Zash R, Holmes LB, Diseko M, et al. Update on neural tube defects with antiretroviral exposure in the Tsepamo Study, Botswana. Paper presented at: 24th International AIDS Conference; 2022;. Montreal, Quebec, Canada, July 29–August 2, 2022.
+
+3. Gandhi RT, Landovitz RJ, Sax PE, et al. Antiretroviral Drugs for Treatment and Prevention of HIV in Adults: 2024 Recommendations of the International Antiviral Society-USA Panel. JAMA. 2025;333(7):609-628. doi:10.1001/jama.2024.24543
+
+4. Centers for Disease Control and Prevention; HIV Medicine Association of the Infectious Diseases Society of America; Pediatric Infectious Diseases Society; HHS Panel on Treatment of HIV During Pregnancy and Prevention of Perinatal Transmission—A Working Group of the Office of AIDS Research Advisory Council (OARAC). Recommendations for the Use of Antiretroviral Drugs During Pregnancy and Interventions to Reduce Perinatal HIV Transmission in the United States. [Updated 2025 Jun 12]. In: ClinicalInfo.HIV.gov [Internet]. Rockville (MD): US Department of Health and Human Services; 2002-.
+
+5. Powell A, Agwu A. In Support of Breast-/Chestfeeding by People With HIV in High-Income Settings. Clin Infect Dis. 2024;79(1):202-207. doi:10.1093/cid/ciae027
+
+6. Horberg M, Thompson M, Agwu A, et al. Primary Care Guidance for Providers of Care for Persons With Human Immunodeficiency Virus: 2024 Update by the HIV Medicine Association of the Infectious Diseases Society of America. Clin Infect Dis. Published online October 12, 2024. doi:10.1093/cid/ciae479
+
+7. Panel on Antiretroviral Therapy and Medical Management of Children Living With HIV. Guidelines for the Use of Antiretroviral Agents in Pediatric HIV Infection. Accessed June 19, 2025.
+
+8. Panel on Antiretroviral Therapy and Medical Management of Children Living With HIV. Recommendations for the Use of Antiretroviral Drugs During Pregnancy and Interventions to Reduce Perinatal HIV Transmission in the United States. June 12, 2025. Accessed June 19, 2025.
+
+9. Abuogi L, Noble L, Smith C; COMMITTEE ON PEDIATRIC AND ADOLESCENT HIV; SECTION ON BREASTFEEDING. Infant Feeding for Persons Living With and at Risk for HIV in the United States: Clinical Report. Pediatrics. 2024;153(6):e2024066843. doi:10.1542/peds.2024-066843
+
+10. Boyce TG, Havens PL, Henderson SL, Vicetti Miguel CP. From Guidelines to Practice: A Programmatic Model for Implementation of the Updated Infant Feeding Recommendations for People Living with HIV. J Pediatric Infect Dis Soc. 2024;13(7):381-385. doi:10.1093/jpids/piae045
+
+11. Weinberg GA, Nachman S. Breastfeeding by Women Living with HIV in the United States: Are the Risks Truly Manageable?. J Pediatric Infect Dis Soc. 2022;11(3):92-93. doi:10.1093/jpids/piab129
+
+12. World Health Organization (WHO). Guideline: updates on HIV and infant feeding. January 1, 2016. Accessed October 8, 2025.
+
+13. Moodley D, Lombard C, Govender V, et al. Pregnancy and neonatal safety outcomes of timing of initiation of daily oral tenofovir disoproxil fumarate and emtricitabine pre-exposure prophylaxis for HIV prevention (CAP016): an open-label, randomised, non-inferiority trial. Lancet HIV. 2023;10(3):e154-e163. doi:10.1016/S2352-3018(22)00369-1
+
+14. ClinicalTrials.gov. Pre-exposure Prophylaxis (PrEP) for Health (PrEP). September 2021. Accessed September 22, 2025.
+
+15. Nelson KM, Skinner A, Underhill K. Minor consent laws for sexually transmitted infection and HIV services. JAMA. 2022;328(7):674–676. doi:10.1001/jama.2022.10777
+
+Key Points
+
+Most cases of HIV infection in infants and children result from mother-to-child transmission (MTCT) before or during birth, or from breastfeeding in countries where safe and affordable infant formula or pasteurized donor milk from a milk bank is not available.
+
+Maternal antiretroviral therapy (ART) can reduce incidence of MTCT from about 25% to < 1%.
+
+Neonates born to women with HIV infection are treated for a short time with antiretroviral (ARV) medications to interrupt MTCT.
+
+Diagnose children < 18 months using qualitative (or, if needed, quantitative) HIV RNA or RNA/DNA assays (eg, transcription-mediated amplification of RNA).
+
+Diagnose children > 18 months using an advanced-generation HIV-1/2 antigen/antibody combination immunoassay followed by a second-generation HIV-1/2 antibody differentiation assay and, if required, an HIV-1 qualitative (or quantitative) RNA assay.
+
+Urgently treat (using rapid initiation) all infants with HIV infection < 12 months of age; those 1 to < 6 years of age who have stage 3–defining opportunistic infections or CD4 counts < 500 cells/mcL; and those ≥ 6 years of age who have stage 3–defining opportunistic infections or CD4 counts < 200 cells/mcL.
+
+Treat all other children and adolescents with HIV infection as soon as issues of adherence are more fully assessed and addressed with the children and their caretakers.
+
+Combination ART is given, preferably using a fixed-dose combination product if feasible, for increased adherence.
+
+Replacement feeding with formula or pasteurized donor milk from a milk bank eliminates the risk of postnatal HIV infection; based on certain criteria, some women in the United States may breastfeed after counseling and shared decision making that the risk of postnatal HIV infection of the infant is low but not zero.
+
+Adolescents who do not have HIV infection but who are at high risk of infection may be given PrEP to prevent acquisition of HIV infection, but issues of confidentiality and cost may be more problematic than for adults receiving PrEP.
+
+Give prophylaxis for opportunistic infections based on age and CD4+ count.
+
+More Information
+
+The following English-language resources may be useful. Please note that The Manual is not responsible for the content of these resources.
+
+ClinicalInfo.HIV.gov/Panel on Antiretroviral Therapy and Medical Management of Children Living with HIV: Guidelines for the Use of Antiretroviral Agents in Pediatric HIV Infection
+
+ClinicalInfo.HIV.gov: Recommendations for the Use of Antiretroviral Drugs During Pregnancy and Interventions to Reduce Perinatal HIV Transmission in the United States
+
+ClinicalInfo.HIV.gov: Appendix C: CDC Pediatric HIV CD4 Cell Count/Percentage and HIV-Related Diseases Categorization
+
+ClinicalInfo.HIV.gov: Diagnosis of HIV Infection in Infants and Children
+
+ClinicalInfo.HIV.gov: Maternal HIV Testing and Identification of Perinatal HIV Exposure
+
+ClinicalInfo.HIV.gov: Appendix A: Pediatric Antiretroviral Drug Information
+
+ClinicalInfo.HIV.gov: Management of Infants Born to People with HIV Infection
+
+ClinicalInfo.HIV.gov: Guidelines for the Use of Antiretroviral Agents in Adults and Adolescents with HIV
+
+ClinicalInfo.HIV.gov: Guidelines for the Prevention and Treatment of Opportunistic Infections in Children with and Exposed to HIV
+
+ClinicalInfo.HIV.gov: Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents with HIV
+
+ClinicalInfo.HIV.gov: Infant Feeding for Individuals with HIV in the United States
+
+World Health Organization: Guideline: Updates on HIV and Infant Feeding
+
+Centers for Disease Control and Prevention (CDC): Pre-Exposure Prophylaxis (PrEP)
+
+U.S. Preventive Services Task Force (USPSTF): Human Immunodeficiency Virus (HIV) Infection: Screening
+
+New York State Department of Health AIDS Institute HIV Clinical Guidelines Program
+
+UNAIDS
+
+National Clinician Consultation Center
+
+Transitioning HIV-Infected Youth Into Adult Health Care
+
+Perinatal HIV Services Hotline 1-888-448-8765

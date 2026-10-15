@@ -1,0 +1,946 @@
+=== Asthma (Merck Manual Professional) ===
+Section: Pulmonology > Asthma and Related Disorders
+Source: https://www.merckmanuals.com/professional/pulmonary-disorders/asthma-and-related-disorders/asthma
+Retrieved: 2026-09-25
+
+Asthma is a common chronic respiratory disease that is noncommunicable. It is a heterogenous disease and usually characterized by chronic airway inflammation and hyperresponsiveness (1). It is defined by a history of respiratory symptoms such as wheeze, shortness of breath, chest tightness, and cough that vary over time and in intensity, together with variable expiratory airflow limitation. (See also Wheezing and Asthma in Infants and Young Children.)
+
+General reference
+
+1. Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention, 2025. Updated May 2025. Accessed May 20, 2025. Available from www.ginasthma.org
+
+Epidemiology of Asthma
+
+The global prevalence of asthma varies significantly among different regions and populations, influenced by factors such as socioeconomic status, environmental exposures, and genetic predisposition. One meta-analysis estimated that 260 million individuals worldwide were affected by asthma in 2021, with the age-adjusted prevalence rate of asthma being 3340 per 100,000 people worldwide (1). Asthma accounts for around 420,000 deaths each year globally (2).
+
+The United States has higher asthma prevalence rates than most other countries worldwide. A meta-analysis of global asthma trends revealed that the United States had the highest age-adjusted prevalence rate at 10,400 per 100,000 people (3). Another study of NHANES (National Health and Nutrition Examination Survey) data in adults over 20 years old between 1999 and 2020 reported an overall asthma prevalence of 8.7% (4). Approximately 25 million people in the United States are estimated to be affected (5). Asthma occurs more frequently in non-Hispanic Black people and people of Puerto Rican ancestry. In adults, asthma is more commonly reported in women (6).
+
+In the United States, about 10,000 deaths occur annually as a result of asthma, and the mortality rate is declining (7). However, the death rate is 2 to 3 times higher for Black patients than for White patients. The mortality rate is higher for adults than children and is especially high in adults over 65 years. Asthma is estimated to cost the United States $82 billion/year in medical care and lost productivity (8).
+
+Asthma is one of the most common chronic diseases of childhood, affecting about 6.5% (4.6 million) of children in the United States (9). Asthma is among the leading causes of hospitalization in children and is a leading cause of school absenteeism (10). In contrast to adults, asthma in childhood has a male predominance (11).
+
+Epidemiology references
+
+Etiology of Asthma
+
+The development of asthma is multifactorial and depends on the interactions among multiple susceptibility genes and environmental factors. Asthma may be classified into 2 broad endotypes based on immunopathologic mechanisms; these are type 2 (T2)-high endotype and type 2 (T2)-low endotype. T2-high endotypes are characterized by eosinophilic airway inflammation (sometimes also called eosinophilic asthma) and responsiveness to corticosteroids and biologics. T2-low endotypes are characterized by the absence of eosinophilic inflammation and may be further classified to include neutrophilic type or paucigranulocytic type, which are based on the presence or absence of neutrophils; both types are characterized by relative glucocorticoid resistance.
+
+Numerous asthma susceptibility genes have been identified. Many are thought to involve the broad category of T-helper cells type 2 (Th2) and may play a role in inflammation. Examples include the FCER1B gene, which encodes the β-chain of the high-affinity IgE receptor; the genes encoding certain interleukins (IL) and their receptors, such as IL-4, IL-13, and the IL-4 receptor; genes responsible for innate immunity (HLA-DRB1, HLA-DQB1, CD14); and genes participating in cellular inflammation (eg, genes encoding granulocyte-monocyte colony-stimulating factor [GM-CSF] and tumor necrosis factor-alpha [TNF-α]). Also, the ADAM33 gene, which encodes a protein that stimulates airway smooth muscle and fibroblast proliferation and remodeling, was the first asthma risk locus found with whole-genome family linkage studies.
+
+Genome-wide association studies have identified multiple susceptibility loci as risk factors for developing asthma. The most replicated is at the chromosome 17q21 locus. This locus contains the ORMDL3 gene, which is an allergen and cytokine (IL-4/IL-13)–inducible gene implicated in epithelial cell remodeling and sphingolipid metabolism to affect bronchial hyperreactivity. Another susceptibility locus is thymic stromal lymphopoietin, TSLP; single nucleotide polymorphisms in TSLP are responsible for initiating airway inflammation (1).
+
+Epigenetic factors are also thought to contribute to the development of asthma. One epigenome-wide association study of blood DNA methylation levels in adults with non-atopic and atopic asthma identified numerous differentially methylated sites (ie, evidence of epigenetic modifications) for both conditions (2). Atopic asthma had evidence of greater relative methylation.
+
+Environmental risk factors for asthma may include the following:
+
+Environmental exposures (allergens, infections, pollutants)
+
+Diet and obesity
+
+Perinatal factors
+
+Socioeconomic status
+
+Genetic and environmental components may interact. Evidence clearly implicates household allergens (eg, dust mite, cockroach, pet) and other environmental allergens (eg, pollen) in disease development in older children and adults.
+
+Several endotypes (subtypes of a disease defined by a distinct pathophysiological mechanism) of asthma exist. Infants may be born with a predisposition toward proallergic and proinflammatory type 2 (T2) immune responses (immune responses related to T-helper 2 cells). The hygiene hypothesis posits that early childhood exposure to bacterial and viral infections may shift the body toward T-helper cells type 1 (Th1) responses, which suppress Th2 cells and induce tolerance. Type 1 (T1) responses are characterized by a proliferation of Th1 cells. Trends toward having smaller families with fewer children, cleaner indoor environments, and early use of vaccinations and antibiotics may deprive children of these T2-suppressing, tolerance-inducing exposures and may partly explain the increase in asthma prevalence in higher income countries. Endotoxin exposure (from lipopolysaccharide components in the outer membrane of some Gram-negative bacteria) early in life can induce tolerance and may be protective. The body's microbiome also plays an important role in regulating immune responses. A diverse microbiome is thought to promote a balanced immune response, whereas a lack of microbial diversity (often prevalent in highly sanitized indoor environments) can lead to dysregulation of immune responses that contribute to asthma development (3). Air pollution is not definitively linked to asthma development, although it may trigger exacerbations.
+
+Diets low in vitamins C and E and in omega–3 fatty acids have been linked to asthma; however, several studies supporting dietary influence are limited by sample size or did not account for differences in socioeconomic, environmental, and demographic factors. Dietary supplementation with these substances does not appear to prevent asthma. Asthma has also been linked to perinatal factors, such as young maternal age, poor maternal nutrition, prematurity, low birthweight, and lack of breastfeeding.
+
+Obesity is considered an important modifiable risk factor for asthma and often precedes the diagnosis of asthma. Key mediators implicated by observational and cross-sectional studies include leptin, adipokines, and serum interleukin (IL)-6. However, underlying mechanisms are not known. Multiple studies have shown decreases in asthma severity and exacerbations after weight loss (4).
+
+Lower socioeconomic status, active smoking, and a family history of asthma have also been found to be risk factors for the development of asthma (5).
+
+Reactive airways dysfunction syndrome (RADS) and irritant-induced asthma
+
+Reactive airways dysfunction syndrome (RADS) is the rapid onset (minutes to hours, but not > 24 hours) of an asthma-like syndrome that
+
+Develops in people with no history of asthma
+
+Occurs following a single, specific inhalation exposure to a significant amount of an irritating gas or particulate
+
+Persists for ≥ 3 months
+
+Numerous substances have been implicated, including chlorine gas, nitrogen oxide, and volatile organic compounds (eg, from paints, solvents, adhesives). The exposure event is usually obvious to the patient, particularly when symptoms begin almost immediately.
+
+Irritant-induced asthma refers to a similar, persistent asthma-like response following multiple or chronic inhalational exposure to high levels of similar irritants. Manifestations are sometimes more insidious, and thus the connection to the inhalational exposure is clear only in retrospect. See Work-Related Asthma for more information.
+
+RADS and chronic irritant-induced asthma have many clinical similarities to asthma (eg, wheezing, dyspnea, cough, presence of airflow limitation, bronchial hyperresponsiveness) and respond significantly to bronchodilators and often glucocorticoids. Unlike in asthma, the reaction to the inhaled substance is not thought to be an IgE-mediated immune response; low-level exposures do not cause either RADS or irritant-induced asthma. However, repeated exposure to the initiating agent may trigger additional symptoms.
+
+Etiology references
+
+1. Murrison LB, Ren X, Preusse K, et al: TSLP disease-associated genetic variants combined with airway TSLP expression influence asthma risk. J Allergy Clin Immunol 149(1):79–88, 2022. doi:10.1016/j.jaci.2021.05.033
+
+2. Hoang TT, Sikdar S, Xu CJ, et al: Epigenome-wide association study of DNA methylation and adult asthma in the Agricultural Lung Health Study. Eur Respir J 56(3):2000217, 2020. Published 2020 Sep 3. doi:10.1183/13993003.00217-2020
+
+3. Kozik AJ, Holguin F, Segal LN, et al: Microbiome, Metabolism, and Immunoregulation of Asthma: An American Thoracic Society and National Institute of Allergy and Infectious Diseases Workshop Report. Am J Respir Cell Mol Biol 67(2):155–163, 2022. doi:10.1165/rcmb.2022-0216ST
+
+4. Peters U, Dixon AE, Forno E: Obesity and asthma. J Allergy Clin Immunol 141(4):1169–1179, 2018. doi: 10.1016/j.jaci.2018.02.004
+
+5. Wang Y, Guo D, Chen X, Wang S, Hu J, Liu X: Trends in asthma among adults in the United States, National Health and Nutrition Examination Survey 2005 to 2018. Ann Allergy Asthma Immunol 129(1):71–78.e2, 2022. doi:10.1016/j.anai.2022.02.019
+
+Pathophysiology of Asthma
+
+Asthma involves:
+
+Bronchoconstriction
+
+Airway edema and inflammation
+
+Airway hyperreactivity
+
+Airway remodeling
+
+In patients with asthma, T-helper 2 (Th2) cells (a subset of CD4+ T lymphocytes), and other cell types—notably, eosinophils and mast cells, but also other CD4+ T cells, neutrophils, and natural killer T cells —form an extensive inflammatory infiltrate in the airway epithelium and smooth muscle, leading to airway remodeling (ie, desquamation, subepithelial fibrosis, angiogenesis, and smooth muscle hypertrophy). Hypertrophy of smooth muscle narrows the airways and increases reactivity to triggers such as allergens, infections, irritants, and parasympathetic stimulation. Exposure to triggers then causes release of proinflammatory neuropeptides, such as substance P, neurokinin A, and calcitonin gene-related peptide, and other mediators (eg, inflammatory cytokines) implicated in bronchoconstriction.
+
+The pathophysiology of T2-low asthma (also called non-T2), is complex and influenced by various factors, including viral infections, smoking, obesity, and environmental pollutants. T2-low endotypes include neutrophilic asthma and paucigranulocytic asthma (1). In contrast with the T2-high (eosinophilic) endotype, neutrophilic asthma is often associated with increased levels of Th1 and Th17 cytokines, such as IL-6 and IL-17, which promote neutrophil recruitment and activation. Neutrophil extracellular traps and inflammasome (multi-protein complex that acts as a key component of the innate immune system, triggering inflammatory responses) activation promote local airway inflammation and are implicated in the pathogenesis of severe neutrophilic asthma. Paucigranulocytic asthma is characterized by minimal granulocytic inflammation (ie, eosinophilic and neutrophilic) and uncoupling of airway inflammation, hyperresponsiveness, and eventual remodeling (2).
+
+The primary cytokines involved in the pathogenesis of asthma are IL-4, IL-5, IL-13 (3). IL-4 promotes the differentiation of undifferentiated T cells into Th2 cells and induces B-lymphocyte immunoglobulin class switching to synthesis of IgE production. IL-4 also induces endothelial cell expression of adhesion molecules responsible for the recruitment of eosinophils, basophils, and T cells. IL-5 serves as the primary hematopoietic cytokine regulating eosinophil maturation and survival. IL-13 contributes to airway eosinophilia, mucus gland hyperplasia, airway fibrosis, and remodeling. Epithelial cells in patients with asthma often secrete increased amounts of alarmins, including thymic stromal lymphopoietin (TSLP) and IL-33. Alarmins activate Th2 cells and other innate immune cells. These pathways are clinically significant as they have been identified as therapeutic targets in the management of severe asthma.
+
+Asthma occurring as a part of aspirin-exacerbated respiratory disease is characterized by a dysregulation of arachidonic acid metabolism.
+
+Additional contributors to airway hyperreactivity include loss of inhibitors of bronchoconstriction (epithelium-derived relaxing factor, prostaglandin E2) and loss of other substances called endopeptidases that metabolize endogenous bronchoconstrictors. Mucus plugging and peripheral blood eosinophilia are additional classic findings in asthma and may be epiphenomena of airway inflammation. However, not all patients with asthma have eosinophilia.
+
+Allergic Eosinophilic Asthma
+
+3D Model
+
+Asthma triggers
+
+Common triggers of an asthma exacerbation include the following:
+
+Environmental and occupational allergens (numerous)
+
+Cold, dry air
+
+Infections
+
+Exercise
+
+Inhaled irritants
+
+Emotion
+
+Aspirin and other nonsteroidal anti-inflammatory drugs (NSAIDs)
+
+Gastroesophageal reflux disease (GERD)
+
+Atopy (the genetic predisposition to form allergen-induced IgE responses) is the most significant identifiable risk factor for developing asthma (4). Allergic rhinitis often coexists with asthma; allergic triggers responsible for the inflammatory response in the upper airway (ie, rhinitis) may also be involved in causing similar responses in the lower airway (ie, asthma). Multiple studies have shown that rhinitis itself, even without allergen inhalation, can be an independent risk factor for asthma through shared mechanisms of airway inflammation and nasal-bronchial reflexes (5, 6).
+
+Infectious triggers in young children include respiratory syncytial virus, rhinovirus, and parainfluenza virus infection. In older children and adults, upper respiratory infections (particularly with rhinovirus) and pneumonia are common infectious triggers. Exercise can be a trigger, especially in cold or dry environments, and cold air alone can also trigger bronchoconstriction. Inhaled irritants, such as air pollution, cigarette smoke, perfumes, and cleaning products can also trigger symptoms in patients with asthma. Inhaled irritants that trigger asthma exacerbations do so by inducing a T2 response, in contrast to what happens in reactive airways dysfunction syndrome and chronic irritant-induced asthma. Emotions such as anxiety, anger, and excitement sometimes trigger exacerbations.
+
+Aspirin and other NSAIDs are triggers for exacerbations in up to 30% of patients with nasal polyps and in approximately 9% of all patients with asthma (7). Aspirin -exacerbated respiratory disease is typically accompanied by chronic rhinosinusitis with nasal polyposis. This condition is also known as Samter's triad (asthma, nasal polyposis, and sensitivity to aspirin and other cyclooxygenase-1 [COX-1]-inhibiting NSAIDs).
+
+GERD is a common trigger among some patients with asthma, possibly via esophageal acid-induced reflex bronchoconstriction or by microaspiration of acid. However, treatment of asymptomatic GERD (eg, with proton pump inhibitors) does not seem to improve asthma control.
+
+Response
+
+In the presence of triggers, there is reversible airway narrowing and uneven lung ventilation. In lung regions distal to narrowed airways, relative perfusion exceeds relative ventilation; thus, alveolar oxygen tensions decrease and alveolar carbon dioxide tensions increase. Usually, regional hypoxia and hypercarbia trigger compensatory pulmonary vasoconstriction to match regional ventilation and perfusion; however, these compensatory mechanisms can fail during an asthma exacerbation due to the vasodilatory effects of prostaglandins that are upregulated during an exacerbation. Most patients can compensate by hyperventilating, but during severe exacerbations, diffuse bronchoconstriction may lead to severe air trapping. Bronchoconstriction coupled with air trapping places the respiratory muscles at a marked mechanical disadvantage so that the work of breathing increases. Under these conditions, hypoxemia worsens and PaCO2 rises. Respiratory acidosis and metabolic acidosis may result and, if left untreated, cause respiratory and cardiac arrest.
+
+Pathophysiology references
+
+1. Hudey SN, Ledford DK, Cardet JC: Mechanisms of non-type 2 asthma. Curr Opin Immunol 66:123–128, 2020. doi:10.1016/j.coi.2020.10.002
+
+2. Tliba O, Panettieri RA Jr: Paucigranulocytic asthma: Uncoupling of airway obstruction from inflammation. J Allergy Clin Immunol 143(4):1287–1294, 2019. doi:10.1016/j.jaci.2018.06.008
+
+3. Busse WW, Lemanske RF Jr: Asthma. N Engl J Med 344(5):350–362, 2001. doi:10.1056/NEJM200102013440507
+
+4. National Asthma Education and Prevention Program, Third Expert Panel on the Diagnosis and Management of Asthma. Expert Panel Report 3: Guidelines for the Diagnosis and Management of Asthma. Bethesda (MD): National Heart, Lung, and Blood Institute (US); 2007 Aug. Section 2, Definition, Pathophysiology and Pathogenesis of Asthma, and Natural History of Asthma. Available from: https://www.ncbi.nlm.nih.gov/books/NBK7223/
+
+5. Leynaert B, Bousquet J, Neukirch C, Liard R, Neukirch F: Perennial rhinitis: An independent risk factor for asthma in nonatopic subjects: results from the European Community Respiratory Health Survey. J Allergy Clin Immunol 104(2 Pt 1):301–304, 1999. doi:10.1016/s0091-6749(99)70370-2
+
+6. Shaaban R, Zureik M, Soussan D, et al: Rhinitis and onset of asthma: a longitudinal population-based study. Lancet 372(9643):1049–1057, 2008. doi:10.1016/S0140-6736(08)61446-4
+
+7. American Academy of Allergy, Asthma, and Immunology: Aspirin-Exacerbated Respiratory Disease (AERD). October 31, 2023. Accessed May 20, 2025.
+
+Classification of Asthma
+
+Asthma causes a number of clinical and testing abnormalities and manifestations typically wax and wane. Thus, because of variations in the clinical presentation, monitoring (and studying) asthma requires a consistent terminology and defined benchmarks.
+
+Asthma can be classified in several ways, including based on severity (intermittent versus persistent), clinical phenotypes (eg, allergic, non-allergic, adult-onset) and mechanistic endotypes (T2-high, T2-low).
+
+The term status asthmaticus describes severe, intense, prolonged bronchospasm that is resistant to treatment.
+
+Severity
+
+Severity is the intrinsic intensity of the disease process (ie, how bad it is—see table Classification of Asthma Severity). Severity can usually be assessed directly only before treatment is started, because patients who have responded well to treatment by definition have few symptoms. Asthma severity is categorized as:
+
+Intermittent
+
+Mild persistent
+
+Moderate persistent
+
+Severe persistent
+
+It is important to remember that the severity category does not predict how serious an exacerbation a patient may have. For example, a patient who has mild asthma with long periods of no or mild symptoms and normal pulmonary function may have a severe, life-threatening exacerbation.
+
+Table
+
+Classification of Asthma Severity*
+
+Table
+
+Classification of Asthma Severity*
+
+Classification of Asthma Severity*
+
+Components of Severity
+
+Intermittent
+
+Mild Persistent
+
+Moderate Persistent
+
+Severe Persistent
+
+Symptoms and risk measures
+
+All ages: ≤ 2 days/week
+
+All ages: > 2 days/week, not daily
+
+All ages: Daily
+
+All ages: Throughout the day
+
+Nighttime awakenings
+
+Adults and children ≥ 5 years: ≤ 2 times/month
+
+Children 0–4 years: 0
+
+Adults and children ≥ 5 years: 3–4 times/month
+
+Children 0–4 years: 1–2 times/month
+
+Adults and children ≥ 5 years: > 1 time/week but not nightly
+
+Children 0–4 years: 3–4 times/month
+
+Adults and children ≥ 5 years: Often 7 times/week
+
+Children 0–4 years: > 1 time/week
+
+Reliever use†, ‡ for symptoms (not to prevent EIB)
+
+≤ 2 days/week
+
+Adults and children ≥ 5 years: > 2 days/week but not daily
+
+Children 0–4 years: > 2 days/week but not daily
+
+Daily
+
+Several times per day
+
+Interference with normal activity
+
+None
+
+Minor limitation
+
+Some limitation
+
+Extreme limitation
+
+FEV1
+
+Adults and children ≥ 5 years: > 80%
+
+Children 0–4 years: Not applicable
+
+Adults and children ≥ 5 years: > 80%
+
+Children 0–4 years: Not applicable
+
+Adults and children ≥ 5 years: 60–80%
+
+Children 0–4 years: Not applicable
+
+Adults and children ≥ 5 years: < 60%
+
+Children 0–4 years: Not applicable
+
+FEV1/FVC
+
+Adults and children ≥ 12 years: Normal†
+
+Children 5–11 years: > 85%
+
+Children 0–4 years: Not applicable
+
+Adults and children ≥ 12 years: Normal†
+
+Children 5–11 years: > 80%
+
+Children 0–4 years: Not applicable
+
+Adults and children ≥ 12 years: Reduced 5%†
+
+Children 5–11 years: 75–80%
+
+Children 0–4 years: Not applicable
+
+Adults and children ≥ 12 years: Reduced > 5%†
+
+Children 5–11 years: < 75%
+
+Children 0–4 years: Not applicable
+
+Risk of an asthma exacerbations requiring oral glucocorticoid bursts¶
+
+0–1/year
+
+Adults and children ≥ 5 years: ≥ 2/year
+
+Children 0–4 years: ≥ 2 in 6 months or wheezing ≥ 4 times/year lasting > 1 day AND risk factors for persistent asthma
+
+More frequent and intense events indicate greater severity
+
+More frequent and intense events indicate greater severity
+
+* Severity is categorized based on degree of impairment and risk of exacerbations requiring oral glucocorticoids. Impairment is assessed over the previous 2–4 weeks, and risk is assessed over the past year. After controller therapy is initiated, severity should be assessed by the level of treatment required to maintain adequate control.
+
+† Evidence for airflow obstruction is based on an FEV1/FVC ratio less than expected normal values by age group. Normal FEV1/FVC ratios by age group: 8–19 years = 85%; 20–39 years = 80%; 40–59 years = 75%; 60–80 years = 70%.
+
+‡ Relievers, also called rescue inhalers, include a short-acting beta-2-agonist, an inhaled glucocorticoid plus a short-acting beta-2-agonist, or an inhaled glucocorticoid plus a long-acting beta-2-agonist.
+
+¶ At present, there are inadequate data to correlate frequencies of exacerbations with different levels of asthma severity. In general, more frequent and intense exacerbations (eg, requiring urgent, unscheduled care such as visits to the emergency department, hospitalization, or intensive care unit admission) indicate greater underlying disease severity. For treatment purposes, patients with ≥ 2 exacerbations in the preceding 12 months may be considered to have persistent asthma.
+
+EIB = exercise-induced bronchoconstriction; FEV1 = forced expiratory volume in 1 second; FVC = forced vital capacity; ICS = inhaled corticosteroid (glucocorticoid); SABA = short-acting beta-2 agonist.
+
+Adapted from National Heart, Lung, and Blood Institute: Expert Panel Report 3: Guidelines for the diagnosis and management of asthma—full report 2007. August 28, 2007. Available at http://www.nhlbi.nih.gov/guidelines/asthma/asthgdln.htm and Expert Panel Working Group of the National Heart, Lung, and Blood Institute (NHLBI) administered and coordinated National Asthma Education and Prevention Program Coordinating Committee (NAEPPCC), Cloutier MM, Baptist AP, et al: 2020 Focused Updates to the Asthma Management Guidelines: A Report from the National Asthma Education and Prevention Program Coordinating Committee Expert Panel Working Group [published correction appears in J Allergy Clin Immunol 2021 Apr;147(4):1528-1530. doi: 10.1016/j.jaci.2021.02.010]. J Allergy Clin Immunol 146(6):1217–1270, 2020. doi:10.1016/j.jaci.2020.10.003..
+
+For additional information, see Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention, 2025. Updated May 2025. Accessed May 20, 2025. Available from www.ginasthma.org
+
+* Severity is categorized based on degree of impairment and risk of exacerbations requiring oral glucocorticoids. Impairment is assessed over the previous 2–4 weeks, and risk is assessed over the past year. After controller therapy is initiated, severity should be assessed by the level of treatment required to maintain adequate control.
+
+† Evidence for airflow obstruction is based on an FEV1/FVC ratio less than expected normal values by age group. Normal FEV1/FVC ratios by age group: 8–19 years = 85%; 20–39 years = 80%; 40–59 years = 75%; 60–80 years = 70%.
+
+‡ Relievers, also called rescue inhalers, include a short-acting beta-2-agonist, an inhaled glucocorticoid plus a short-acting beta-2-agonist, or an inhaled glucocorticoid plus a long-acting beta-2-agonist.
+
+¶ At present, there are inadequate data to correlate frequencies of exacerbations with different levels of asthma severity. In general, more frequent and intense exacerbations (eg, requiring urgent, unscheduled care such as visits to the emergency department, hospitalization, or intensive care unit admission) indicate greater underlying disease severity. For treatment purposes, patients with ≥ 2 exacerbations in the preceding 12 months may be considered to have persistent asthma.
+
+EIB = exercise-induced bronchoconstriction; FEV1 = forced expiratory volume in 1 second; FVC = forced vital capacity; ICS = inhaled corticosteroid (glucocorticoid); SABA = short-acting beta-2 agonist.
+
+Adapted from National Heart, Lung, and Blood Institute: Expert Panel Report 3: Guidelines for the diagnosis and management of asthma—full report 2007. August 28, 2007. Available at http://www.nhlbi.nih.gov/guidelines/asthma/asthgdln.htm and Expert Panel Working Group of the National Heart, Lung, and Blood Institute (NHLBI) administered and coordinated National Asthma Education and Prevention Program Coordinating Committee (NAEPPCC), Cloutier MM, Baptist AP, et al: 2020 Focused Updates to the Asthma Management Guidelines: A Report from the National Asthma Education and Prevention Program Coordinating Committee Expert Panel Working Group [published correction appears in J Allergy Clin Immunol 2021 Apr;147(4):1528-1530. doi: 10.1016/j.jaci.2021.02.010]. J Allergy Clin Immunol 146(6):1217–1270, 2020. doi:10.1016/j.jaci.2020.10.003..
+
+For additional information, see Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention, 2025. Updated May 2025. Accessed May 20, 2025. Available from www.ginasthma.org
+
+Control
+
+Control is the degree to which symptoms, impairments, and risks are minimized by treatment. Control is the parameter assessed in patients receiving treatment. The goal is for all patients to have well-controlled asthma regardless of disease severity. Control is classified as:
+
+Well controlled
+
+Not well controlled
+
+Very poorly controlled
+
+Severity and control are assessed in terms of patient impairment and risk (see tables Classification of Asthma Severity and Classification of Asthma Control).
+
+Table
+
+Classification of Asthma Control*,†
+
+Table
+
+Classification of Asthma Control*,†
+
+Classification of Asthma Control*,†
+
+Component
+
+Well Controlled
+
+Not Well Controlled
+
+Very Poorly Controlled
+
+Symptoms
+
+All ages except children 5–11 years: ≤ 2 days/week
+
+Children 5–11 years: ≤ 2 days/week but not > once/day
+
+All ages except children 5–11 years: > 2 days/week
+
+Children 5–11 years: > 2 days/week or multiple times on ≤ 2 days/week
+
+For all ages: Throughout the day
+
+Nighttime awakenings
+
+Adults and children ≥ 12 years: ≤ 2/month
+
+Children 5–11 years: ≤ 1 /month
+
+Children 0–4 years: ≤ 1/month
+
+Adults and children ≥ 12 years: 1–3/week
+
+Children 5–11 years: ≥ 2/month
+
+Children 0–4 years: > 1/month
+
+Adults and children ≥ 12 years: ≥ 4/week
+
+Children 5–11 years: ≥ 2/week
+
+Children 0–4 years: > 1/week
+
+Interference with normal activity
+
+None
+
+Some limitation
+
+Extreme limitation
+
+Use of a reliever‡ for symptom control (not prevention of exercise-induced bronchoconstriction)
+
+≤ 2 days/week
+
+> 2 days/week
+
+Several times/day
+
+FEV1 or peak flow
+
+> 80% predicted/personal best
+
+60–80% predicted/personal best
+
+< 60% predicted/personal best
+
+FEV1/FVC (children 5–11 years)
+
+> 80%
+
+75–80%
+
+< 75%
+
+Exacerbations requiring oral systemic glucocorticoids¶
+
+0–1/year
+
+Adults and children ≥ 5 years: ≥ 2/year
+
+Children 0–4 years: 2–3/year
+
+Adults and children ≥ 5 years: ≥ 2/year
+
+Children 0–4 years:> 3/year
+
+Validated questionnaires:
+
+ATAQ
+
+0
+
+1–2
+
+3−4
+
+ACQ
+
+≤ 0.75†
+
+≥ 1.5
+
+Ν/Α
+
+ACT
+
+≥ 20
+
+16−19
+
+≤ 15
+
+Recommended action
+
+Maintain current step
+
+Follow up every 1–6 months
+
+Consider step down if well controlled for ≥ 3 months
+
+Step up 1 step
+
+Reevaluate in 2–6 weeks
+
+For adverse effects, consider treatment options
+
+Consider short course of systemic glucocorticoids
+
+Step up 1 or 2 steps
+
+Re-evaluate in 2 weeks
+
+For adverse effects, consider treatment options
+
+* All ages unless specified differently.
+
+† Relievers, also called rescue inhalers, include a short-acting beta-2-agonist, an inhaled glucocorticoid plus a short-acting beta-2-agonist, or an inhaled glucocorticoid plus a long-acting beta-2-agonist.
+
+‡ Level of control is based on the most severe impairment or risk category. Additional factors to consider are progressive loss of lung function on pulmonary function tests, significant adverse effects, and severity and interval between exacerbations (ie, one exacerbation requiring intubation or 2 hospitalizations within 1 month may be considered very poor control).
+
+¶ At present, there are inadequate data to correlate frequencies of exacerbations with different levels of asthma control. In general, more frequent and intense exacerbations (eg, requiring urgent, unscheduled care such as visits to the emergency department, hospitalization, or intensive care unit admission) indicate poorer asthma control.
+
+ACQ = asthma control questionnaire; ACT = asthma control test; ATAQ = asthma therapy assessment questionnaire; FEV1 = forced expiratory volume in 1 second; FVC = forced vital capacity.
+
+Adapted from National Heart, Lung, and Blood Institute: Expert Panel Report 3: Guidelines for the diagnosis and management of asthma—full report 2007. August 28, 2007. Available at http://www.nhlbi.nih.gov/guidelines/asthma/asthgdln.htm and Expert Panel Working Group of the National Heart, Lung, and Blood Institute (NHLBI) administered and coordinated National Asthma Education and Prevention Program Coordinating Committee (NAEPPCC), Cloutier MM, Baptist AP, et al: 2020 Focused Updates to the Asthma Management Guidelines: A Report from the National Asthma Education and Prevention Program Coordinating Committee Expert Panel Working Group [published correction appears in J Allergy Clin Immunol 2021 Apr;147(4):1528-1530. doi: 10.1016/j.jaci.2021.02.010]. J Allergy Clin Immunol 146(6):1217–1270, 2020. doi:10.1016/j.jaci.2020.10.003.
+
+For additional information, see Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention, 2025. Updated May 2025. Accessed May 20, 2025. Available from www.ginasthma.org
+
+* All ages unless specified differently.
+
+† Relievers, also called rescue inhalers, include a short-acting beta-2-agonist, an inhaled glucocorticoid plus a short-acting beta-2-agonist, or an inhaled glucocorticoid plus a long-acting beta-2-agonist.
+
+‡ Level of control is based on the most severe impairment or risk category. Additional factors to consider are progressive loss of lung function on pulmonary function tests, significant adverse effects, and severity and interval between exacerbations (ie, one exacerbation requiring intubation or 2 hospitalizations within 1 month may be considered very poor control).
+
+¶ At present, there are inadequate data to correlate frequencies of exacerbations with different levels of asthma control. In general, more frequent and intense exacerbations (eg, requiring urgent, unscheduled care such as visits to the emergency department, hospitalization, or intensive care unit admission) indicate poorer asthma control.
+
+ACQ = asthma control questionnaire; ACT = asthma control test; ATAQ = asthma therapy assessment questionnaire; FEV1 = forced expiratory volume in 1 second; FVC = forced vital capacity.
+
+Adapted from National Heart, Lung, and Blood Institute: Expert Panel Report 3: Guidelines for the diagnosis and management of asthma—full report 2007. August 28, 2007. Available at http://www.nhlbi.nih.gov/guidelines/asthma/asthgdln.htm and Expert Panel Working Group of the National Heart, Lung, and Blood Institute (NHLBI) administered and coordinated National Asthma Education and Prevention Program Coordinating Committee (NAEPPCC), Cloutier MM, Baptist AP, et al: 2020 Focused Updates to the Asthma Management Guidelines: A Report from the National Asthma Education and Prevention Program Coordinating Committee Expert Panel Working Group [published correction appears in J Allergy Clin Immunol 2021 Apr;147(4):1528-1530. doi: 10.1016/j.jaci.2021.02.010]. J Allergy Clin Immunol 146(6):1217–1270, 2020. doi:10.1016/j.jaci.2020.10.003.
+
+For additional information, see Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention, 2025. Updated May 2025. Accessed May 20, 2025. Available from www.ginasthma.org
+
+Asthma Attack
+
+3D Model
+
+Impairment
+
+Impairment refers to the frequency and intensity of patients' symptoms and functional limitations (see table Classification of Asthma Severity). Impairment is assessed using similar criteria to severity, but differs from severity by its emphasis on symptoms and functional limitations rather than the intrinsic intensity of the disease process. Lung function or physiologic, objective impairment can be measured by spirometry, mainly forced expiratory volume in 1 second (FEV1) and the ratio of FEV1 to forced vital capacity (FVC), which correlate strongly with subjective components of asthma control that includes symptoms and clinical features such as the following:
+
+How often symptoms are experienced
+
+How often the patient awakens at night
+
+How often the patient uses a reliever (rescue inhaler) for symptom relief
+
+How often asthma interferes with normal activity
+
+Risk
+
+Risk refers to the likelihood of future exacerbations or decline in lung function and the risk of adverse medication effects. Risk is assessed by long-term trends in spirometry and clinical features such as:
+
+Frequency of need for oral glucocorticoids
+
+Need for hospitalization
+
+Need for intensive care unit (ICU) admission
+
+Need for intubation
+
+Symptoms and Signs of Asthma
+
+The clinical features of asthma can range in intensity from mild to severe. All symptoms and signs are nonspecific, are usually reversible with timely treatment, and are usually brought on by exposure to one or more triggers. Patients with mild asthma are typically asymptomatic between exacerbations. Patients with more severe disease and those with exacerbations experience dyspnea, chest tightness, audible wheezing, and coughing. Coughing may be the only symptom in some patients (cough-variant asthma). Symptoms can follow a circadian rhythm and worsen during sleep, often around 4 AM. Many patients with more severe disease experience nighttime awakenings (nocturnal asthma).
+
+Signs include wheezing, pulsus paradoxus (ie, a fall of systolic blood pressure [BP] > 10 mm Hg during inspiration), tachypnea, tachycardia, and visible efforts to breathe (use of neck and suprasternal [accessory] muscles, upright posture, pursed lips, speech limited by dyspnea). When severe, the expiratory phase of respiration is prolonged, with an inspiratory:expiratory ratio of at least 1:3. Wheezes can be present through both phases of respiration (severe) or just on expiration (mild). Patients with severe bronchoconstriction may have no audible wheezing because of markedly limited airflow, which is sometimes referred to as a silent chest and may indicate disease progression or impending respiratory failure.
+
+Patients with a severe exacerbation and impending respiratory failure typically have some combination of altered consciousness, cyanosis, pulsus paradoxus > 15 mm Hg, oxygen saturation < 90%, PaO2 < 60 mm Hg, and PaCO2 > 45 mm Hg. Chest radiographs reveal hyperinflation often and pneumothorax or pneumomediastinum rarely. It is important to note that in patients with dark skin who have hypoxemia, pulse oximeters may overestimate oxygen saturation.
+
+Symptoms and signs may disappear between exacerbations, although soft wheezes may be audible during forced expiration at rest, or after exercise, in some asymptomatic patients. Hyperinflation of the lungs may alter the chest wall in patients with long-standing uncontrolled asthma, causing a barrel-shaped thorax.
+
+Diagnosis of Asthma
+
+History and physical examination
+
+Confirmatory pulmonary function testing
+
+Sometimes other tests
+
+Diagnosis is suspected based on history and physical examination and is usually confirmed with pulmonary function tests (1). Diagnosis of causes and the exclusion of other disorders that cause wheezing are important.
+
+Asthma and chronic obstructive pulmonary disease (COPD) are sometimes easily confused; they cause similar symptoms and produce similar results on pulmonary function tests but differ in important biologic ways that are not always clinically apparent. The T2-high endotype, because of allergic inflammation, is most commonly characterized by elevated exhaled nitric oxide, blood eosinophil counts, and serum IgE and is the most commonly recognized asthma subgroup. The T2-low endotype (also T1 cell-mediated immunity) is associated with elevated interferon-gamma, tumor necrosis factor, and neutrophilic inflammation; these findings have traditionally been associated with COPD but can occur in asthma subgroups not driven by T2 inflammation. These biologic mechanisms are not exclusive to either disease and can overlap between asthma and COPD.
+
+Asthma-COPD overlap (ACO) is a unique entity that presents with persistent airflow obstruction and several features of both asthma and COPD. Key features include fixed airway obstruction not responsive to bronchodilators, significant exposure to tobacco smoking or pollutants, and traditional asthma features, including blood or sputum eosinophilia and reversible airflow obstruction. ACO represents an important subset of patients with asthma (up to 25%) and COPD (up to 33%) that might respond to medications not typically indicated for the disorder corresponding to the patient's main diagnosis (eg, prescribing roflumilast and azithromycin in a patient diagnosed with asthma or T2 biologic therapies in a patient diagnosed with COPD) (2).
+
+Asthma that is difficult to control or refractory to commonly used controller therapies should be further evaluated for alternative causes of episodic wheezing, cough, and dyspnea such as allergic bronchopulmonary aspergillosis, bronchiectasis, asthma-COPD overlap, alpha-1 antitrypsin deficiency, cystic fibrosis, vocal fold dysfunction, and heart failure.
+
+Pulmonary function tests
+
+Patients suspected of having asthma should undergo pulmonary function testing to confirm and quantify the severity and reversibility of airway obstruction. Pulmonary function data quality is effort-dependent and requires patient instruction before the test. If it is safe to do so, bronchodilators should be discontinued before the test: 4 hours for short-acting beta-2 agonists (eg, albuterol); 24 hours for long-acting beta-2 agonists (eg, salmeterol, formoterol); 36 to 48 hours for ultra-long acting beta-2 agonists (eg, indacaterol, vilanterol); 12 hours for muscarinic antagonists that are short-acting (eg, ipratropium); and 48 hours for long-acting ones (eg, tiotropium).
+
+Spirometry should be performed before and after inhalation of a short-acting bronchodilator. Signs of airflow limitation before bronchodilator inhalation include reduced FEV1 and a reduced FEV1/FVC ratio. The FVC may also be decreased because of air trapping, such that lung volume measurements may show an increase in the residual volume, the functional residual capacity, or both. A bronchodilator response should be determined by the following equation:
+
+where predicted value is either FEV1 or FVC. A change of > 10% is considered a positive bronchodilator response (3). (Absence of a positive bronchodilator response should not preclude a therapeutic trial of long-acting bronchodilators.
+
+Flow-volume loops should also be reviewed to diagnose vocal fold dysfunction, a common cause of upper airway obstruction that mimics asthma. However, vocal fold dysfunction is intermittent, and normal flow-volume loops do not exclude this condition.
+
+Provocative testing, in which inhaled methacholine (or alternatives, such as inhaled histamine, adenosine, or bradykinin, or exercise testing) is used to provoke bronchoconstriction, is indicated for patients suspected of having asthma who have normal findings on spirometry and flow-volume testing and for patients suspected of having cough-variant asthma, provided there are no contraindications. Contraindications include FEV1 < 1 L or < 50% predicted, recent myocardial infarction or stroke, and severe hypertension (systolic BP > 200 mm Hg; diastolic BP > 100 mm Hg). A decline in FEV1 of ≥ 20% (> 12% in children) from baseline on a provocative testing protocol is relatively specific for the diagnosis of asthma (4). However, FEV1 may decline in response to medications used in provocative testing in other disorders, such as COPD. If FEV1 decreases by < 20% by the end of the testing protocol, asthma is less likely to be present.
+
+Other tests
+
+Other tests may be helpful in some circumstances:
+
+Diffusing capacity for carbon monoxide (DLCO)
+
+Chest radiography
+
+Allergy testing
+
+Fractional exhaled nitric oxide (FeNO)
+
+DLCO testing can help distinguish asthma from COPD. Values are normal or slightly elevated in asthma and usually reduced in COPD, particularly in patients with emphysema.
+
+A chest radiograph may help exclude some causes of asthma or alternative diagnoses, such as heart failure or pneumonia. The chest radiograph in asthma is usually normal but may show hyperinflation or segmental atelectasis, a sign of mucous plugging. Infiltrates, especially those that come and go and that are associated with findings of central bronchiectasis, suggest allergic bronchopulmonary aspergillosis.
+
+Allergy testing in the skin or blood may be indicated for children whose history suggests allergic triggers (particularly for allergic rhinitis) because these children may benefit from immunotherapy. It should be considered for adults whose history indicates relief of symptoms with allergen avoidance and for those in whom a trial of therapeutic anti-IgE antibody therapy is being considered. Skin testing and measurement of allergen-specific IgE via radioallergosorbent testing (RAST) can identify specific allergic triggers.
+
+Blood tests may be indicated. Elevated blood eosinophils (>150 to 300 cells/mcL [> 0.15 × 109 /L to 0.3 × 109/L]) and elevated nonspecific IgE levels are suggestive but are neither sensitive nor specific for a diagnosis of allergic asthma. Furthermore, some studies have indicated that eosinophil levels may vary diurnally and with other factors (5). Generally, blood eosinophil levels are higher in the morning, and there may be falsely low eosinophil counts when samples are collected in the afternoon. The diurnal fluctuations in eosinophil levels highlight the importance of carefully timing sample collection and conducting multiple measurements to ensure accurate asthma diagnosis and management.
+
+In patients ≥ 5 years who are glucocorticoid-naive, FeNO may be used in the evaluation when the diagnosis of asthma is unclear, especially in children, and it can be used as a biomarker to monitor disease severity and therapeutic efficacy (6). FeNO levels > 50 ppb are consistent with allergic airways inflammation, supporting an asthma diagnosis. A level < 25 ppb is more consistent with an alternative diagnosis. Levels between 25 and 50 ppb are indeterminate. Treatment with glucocorticoids reduces eosinophilic airway inflammation; therefore, FeNO thresholds are lower in patients taking glucocorticoids (4). For patients treated with medium-dose inhaled glucocorticoids, a FeNO level ≥ 25 ppb is considered consistent with allergic airway inflammation; for patients treated with high-dose inhaled glucocorticoids, a FeNO level ≥ 20 ppb is considered consistent.
+
+Sputum evaluation for eosinophils is not commonly done; finding large numbers of eosinophils is suggestive of asthma but not sensitive or specific.
+
+Peak expiratory flow (PEF) measurements with handheld flow meters are recommended for home monitoring of disease severity and for guiding therapy.
+
+Clinical Calculators
+
+Peak Expiratory Flow Prediction
+
+Evaluation of exacerbations
+
+Patients with asthma with an acute exacerbation are evaluated based on clinical criteria but should sometimes also have certain tests:
+
+Pulse oximetry
+
+Sometimes peak expiratory flow (PEF) measurement
+
+FeNO
+
+The decision to treat an exacerbation is based primarily on an assessment of signs and symptoms. PEF measures can help establish the severity of an exacerbation but are most commonly used to monitor response to treatment in outpatients. PEF values are interpreted in light of the patient’s personal best, which may vary widely among patients who are equally well controlled. A 15 to 20% reduction from this baseline indicates a significant exacerbation. When baseline values are not known, the percent predicted PEF based on age, height, and sex may be used, but this is less accurate than a comparison to the patient's personal best.
+
+Although spirometry (eg, FEV1) reflects airflow more accurately than PEF, it is impractical in most urgent outpatient and emergency department settings (ie, in patients with a severe exacerbation needing emergent treatment). It may be used for office-based monitoring of treatment or when objective measures are required (eg, when an exacerbation appears to be more severe than perceived by the patient or is not recognized).
+
+Chest radiograph is not necessary for most exacerbations but should be performed in patients with symptoms or signs suggestive of pneumonia, pneumothorax, or pneumomediastinum.
+
+Arterial or venous blood gas measurements should be initiated in patients with marked respiratory distress or symptoms and signs of impending respiratory failure.
+
+FeNO measurement has been proposed as an adjunct in evaluation of asthma control in patients with confusing or unclear histories or clinical scenarios. Higher baseline FeNO levels are linked to improved asthma control and reduced exacerbation rates. FeNO remains detectable during treatment with immunomodulatory medications, however, its dynamics while on such treatments require further investigation (7).
+
+Diagnosis references
+
+1. Asthma: Updated Diagnosis and Management Recommendations from GINA [practice guideline]. Am Fam Physician 101(12):762-763, 2020.
+
+2. Leung JM, Sin DD: Asthma-COPD overlap syndrome: pathogenesis, clinical features, and therapeutic targets. BMJ 358:j3772, 2017. Published 2017 Sep 25. doi:10.1136/bmj.j3772
+
+3. Stanojevic S, Kaminsky DA, Miller MR, et al: ERS/ATS technical standard on interpretive strategies for routine lung function tests. Eur Respir J 60(1):2101499, 2022. Published 2022 Jul 13. doi:10.1183/13993003.01499-2021
+
+4. Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention, 2025. Updated May 2025. Accessed May 20, 2025. Available from www.ginasthma.org
+
+5. Gibson PG: Variability of blood eosinophils as a biomarker in asthma and COPD. Respirology 23(1):12–13, 2018. doi: 10.1111/resp.13200
+
+6. Expert Panel Working Group of the National Heart, Lung, and Blood Institute (NHLBI) administered and coordinated National Asthma Education and Prevention Program Coordinating Committee (NAEPPCC), Cloutier MM, Baptist AP, et al: 2020 Focused Updates to the Asthma Management Guidelines: A Report from the National Asthma Education and Prevention Program Coordinating Committee Expert Panel Working Group. J Allergy Clin Immunol 146(6):1217–1270, 2020. doi: 10.1016/j.jaci.2020.10.003
+
+7. Pianigiani T, Alderighi L, Meocci M, et al: Exploring the Interaction between Fractional Exhaled Nitric Oxide and Biologic Treatment in Severe Asthma: A Systematic Review. Antioxidants (Basel). 12(2):400, 2023. doi:10.3390/antiox12020400
+
+Treatment of Asthma
+
+Control of triggers
+
+Pharmacotherapy
+
+Monitoring
+
+Patient education
+
+Treatment of acute exacerbations
+
+Treatment objectives are to minimize impairment and risk, including preventing exacerbations and minimizing chronic symptoms, including nocturnal awakenings; to minimize the need for emergency department visits or hospitalizations; to maintain baseline (normal) pulmonary function and activity levels; and to avoid adverse treatment effects.
+
+Control of triggering factors
+
+Exposure to triggering factors in some patients may be controlled with use of synthetic fiber pillows and impermeable mattress covers and frequent washing of bed sheets, pillowcases, and blankets in hot water. Ideally, upholstered furniture, soft toys, carpets, curtains, and pets should be removed, at least from the bedroom, to reduce dust mites and animal dander. Dehumidifiers should be used in basements and in other poorly aerated, damp rooms to reduce mold. Steam cleaning of carpeting and upholstery reduces dust mite allergens. House cleaning and extermination to eliminate cockroach exposure are especially important. Although control of triggering factors is more difficult in urban environments, their significance remains unchanged.
+
+High-efficiency particulate air (HEPA) vacuums and filters may relieve symptoms, but no beneficial effects on pulmonary function and on the need for medications have been observed.
+
+Sulfite-sensitive patients should avoid sulfite-containing food (eg, certain wines and salad dressings).
+
+Nonallergenic triggers, such as cigarette smoke, strong odors, irritant fumes, cold temperatures, and high humidity should also be avoided or controlled when possible. Limiting exposure to people with viral upper respiratory infections is also important. However, exercise-induced bronchoconstriction is not treated with exercise avoidance because exercise is important for health reasons. Instead, a short-acting bronchodilator is given prophylactically before exercise and as needed during or after exercise (reliever); controller therapy (step 2 and above in Table Steps of Asthma Management) should be started if exercise-induced symptoms are not responsive to reliever therapy or occur daily or more frequently.
+
+Patients with aspirin-exacerbated respiratory disease should avoid cyclooxygenase-1 (COX-1) inhibitors, such as aspirin. When these patients need a pain reliever, they can use acetaminophen, choline magnesium salicylate, or a COX-2-specific inhibitor, such as celecoxib. Aspirin desensitization allows patients to tolerate aspirin and, by extension, COX-1 inhibition when maintained on a daily dose of aspirin post-desensitization.
+
+Asthma is a relative contraindication to the use of nonselective beta-blockers (eg, propranolol, timolol, carvedilol, nadolol, sotalol), including topical formulations, but cardioselective medications (eg, metoprolol, atenolol) probably have no adverse effects.
+
+Pharmacotherapy
+
+Major medications classes commonly used in the treatment of asthma and asthma exacerbations include:
+
+Bronchodilators (beta or beta-2 adrenergic receptor agonists, anticholinergics)
+
+Glucocorticoids
+
+Leukotriene receptor antagonists
+
+Mast cell stabilizers
+
+Methylxanthines
+
+Biologic medications
+
+Medications in these classes (see table Pharmacologic Treatment of Asthma) are inhaled, taken orally, or injected subcutaneously or intravenously; inhaled medications come in aerosolized and powdered forms. Use of aerosolized forms with a spacer or holding chamber facilitates deposition of the medication in the airways rather than the pharynx; patients are advised to wash and dry their spacers after each use to prevent bacterial contamination. In addition, use of aerosolized forms requires coordination between actuation of the inhaler (drug delivery) and inhalation; powdered forms reduce the need for coordination, because medication is delivered only when the patient inhales. For details, see Pharmacologic Treatment of Asthma.
+
+Bronchial thermoplasty
+
+Bronchial thermoplasty is a bronchoscopic technique in which heat is applied through a device that transfers localized controlled radiofrequency waves to the airways. The heat decreases the amount of airway smooth muscle remodeling (and thus the smooth muscle mass) that occurs with asthma. In both experimental and observational studies in patients with severe persistent asthma not controlled with multiple therapies, there have been modest decreases in exacerbation frequency and improvement in asthma symptom control (1, 2). However, some patients have experienced an immediate worsening of symptoms, sometimes requiring hospitalization immediately after the procedure. Expert recommendations are to avoid bronchial thermoplasty unless a patient places a low value on the potential for adverse outcomes and a high value on short-term potential benefits. If possible, bronchial thermoplasty should be done in centers with experience in the procedure (3).
+
+Criteria for consideration of bronchial thermoplasty include severe asthma not controlled with inhaled glucocorticoids and long-acting beta agonists, intermittent or continuous use of oral glucocorticoids, FEV1 ≥ 50% of predicted, and no history of life-threatening exacerbations. Patients should understand the risk of post-procedure asthma exacerbation and need for hospitalization before proceeding with the procedure. There are limited data in patients with > 3 exacerbations per year or an FEV1 < 50% of predicted because these patients were excluded from the clinical trials (4).
+
+Monitoring response to treatment
+
+Guidelines recommend office use of spirometry (FEV1, FEV1/FVC, FVC) to measure airflow limitation and assess impairment and risk. Spirometry should be repeated at least every 1 to 2 years in patients with asthma to monitor disease progression. A step-up in therapy might be required if lung function declines or becomes impaired with evidence of increased airflow obstruction (see table Classification of Asthma Control). Outside the office, home peak expiratory flow (PEF) monitoring, in conjunction with patient symptom diaries and the use of an asthma action plan, is especially useful for charting disease progression and response to treatment in patients with moderate to severe persistent asthma. When asthma is quiescent, one PEF measurement in the morning suffices. Should PEF measurements fall to < 80% of the patient’s personal best, then twice per day monitoring to assess circadian variation is useful. Circadian variation of > 20% indicates airway instability and the need to re-evaluate the therapeutic regimen (5).
+
+Patient education
+
+The importance of patient education cannot be overemphasized. Patients do better when they know more about asthma—what triggers an exacerbation, what medication to use when, proper inhaler technique, how to use a spacer with a metered-dose inhaler (MDI), and the importance of early use of glucocorticoids in exacerbations. Every patient should have a written action plan for day-to-day management, especially for management of acute exacerbations, that is based on the patient’s best personal peak flow rather than on a predicted normal value. Such a plan leads to much better asthma control, largely attributable to improved adherence to therapies.
+
+Treatment of acute asthma exacerbation
+
+The goal of asthma exacerbation treatment is to relieve symptoms and return patients to their best lung function. Treatment includes:
+
+Inhaled bronchodilators (beta-2 agonists and anticholinergics)
+
+Usually systemic glucocorticoids
+
+Details of the treatment of acute asthma exacerbations, including of severe attacks requiring hospitalization, are discussed elsewhere.
+
+Treatment of chronic asthma
+
+Asthma guidelines recommend treatment based on the severity classification (3, 6). Continuing therapy is based on assessment of control (see table Classification of Asthma Control). Therapy is increased in a stepwise fashion (see table Steps of Asthma Management) until the best control of impairment and risk is achieved (step-up). Before therapy is stepped up, adherence, exposure to environmental factors (eg, trigger exposure), and presence of comorbid conditions (eg, obesity, allergic rhinitis, gastroesophageal reflux disease, chronic obstructive pulmonary disease, obstructive sleep apnea, vocal fold dysfunction, inhaled cocaine use) are reviewed. These factors should be addressed before escalating (stepping up) medication therapy. Once asthma has been well controlled for at least 3 months, pharmacotherapy is reduced if possible to the minimum that maintains good control (step-down). For specific medications, see table Pharmacologic Treatment of Chronic Asthma.
+
+Table
+
+Steps of Asthma Management*
+
+Table
+
+Steps of Asthma Management*
+
+Steps of Asthma Management*
+
+Step
+
+Preferred Treatment†
+
+Alternate Treatment
+
+1 (starting point for intermittent asthma)
+
+Low-dose inhaled glucocorticoid plus formoterol as needed†
+
+Short-acting beta-2 agonist as needed, along with low-dose inhaled glucocorticoid†
+
+—
+
+2 (starting point for mild persistent asthma)
+
+Daily low-dose inhaled glucocorticoid and as-needed short-acting beta-2 agonist
+
+or
+
+For ages 12 years and older, as-needed use of concomitant inhaled glucocorticoid and short-acting beta-2 agonist
+
+Mast cell stabilizer, leukotriene receptor antagonist, theophylline, or zileuton (for ages 12 and older), either with as-needed (rescue, or reliever) short-acting beta-2 agonist therapy
+
+3 (starting point for moderate persistent asthma)
+
+Daily and as-needed combination therapy with low-dose inhaled glucocorticoid plus formoterol‡
+
+Daily medium-dose inhaled glucocorticoid and as-needed (reliever) short-acting beta-2 agonist
+
+or
+
+Daily low-dose inhaled glucocorticoid plus one of the following:
+
+Long-acting beta-2 agonist
+
+Leukotriene receptor antagonist
+
+Theophylline
+
+Each with as-needed (reliever) short-acting beta-2 agonist therapy
+
+or
+
+For ages 12 years and older, daily low-dose inhaled glucocorticoid plus a long-acting muscarinic antagonist or zileuton, either with as-needed (reliever) short-acting beta-2 agonist therapy
+
+4
+
+Daily and as-needed combination therapy with medium-dose inhaled glucocorticoid plus formoterol‡
+
+Daily medium-dose inhaled glucocorticoid plus long-acting beta-2 agonist with as-needed (reliever) short-acting beta-2 agonist therapy
+
+or
+
+For ages 12 years and older, daily medium-dose inhaled glucocorticoid plus long-acting muscarinic antagonist with as-needed (reliever) short-acting beta-2 agonist therapy
+
+or
+
+Daily medium-dose inhaled glucocorticoid plus one of the following:
+
+Leukotriene receptor antagonist
+
+Theophylline
+
+Zileuton (ages 12 and older)
+
+Each with as-needed (reliever) short-acting beta-2 agonist therapy
+
+5 (starting point for severe persistent asthma)
+
+For ages 5–11 years, daily high-dose inhaled glucocorticoid plus long-acting beta-2 agonist combination therapy with as-needed short-acting beta-2 agonist therapy
+
+or
+
+For ages 12 and older, daily medium-high dose inhaled glucocorticoid plus long-acting beta-2 agonist combination with long-acting muscarinic antagonist and as-needed short-acting beta-2 agonist therapy
+
+and
+
+Consider adding asthma biologics (includes anti-IgE, anti-IL5, anti-IL5R, anti-IL4/IL13)
+
+For ages 5–11 years, daily high-dose inhaled glucocorticoid plus leukotriene receptor antagonist or daily high-dose inhaled glucocorticoid plus theophylline, either with as-needed (reliever) short-acting beta-2 agonist therapy
+
+or
+
+For ages 12 and older, daily medium- to high-dose inhaled glucocorticoid plus long-acting beta-2 agonist or daily high-dose inhaled glucocorticoid plus leukotriene receptor antagonist, either with as-needed (rreliever) short-acting beta-2 agonist therapy
+
+and
+
+Consider adding asthma biologics (includes anti-IgE, anti-IL5, anti-IL5R, anti-IL-4/IL13)
+
+6
+
+Daily high-dose inhaled glucocorticoid plus long-acting beta-2 agonist plus oral glucocorticoid with as-needed short-acting beta-2 agonist therapy
+
+and
+
+Consider adding asthma biologics (includes anti-IgE, anti-IL5, anti-IL5R, anti-IL4/IL13)
+
+For ages 5–11 years, daily high-dose inhaled glucocorticoid plus leukotriene receptor antagonist and oral systemic glucocorticoid or daily high-dose inhaled glucocorticoid plus theophylline plus oral glucocorticoid, either with as-needed (reliever) short-acting beta-2 agonist therapy
+
+and
+
+Consider adding asthma biologics (includes anti-IgE, anti-IL5, anti-IL5R, anti-IL4/IL13)
+
+* Before stepping up, adherence, environmental factors (eg, trigger exposure), and comorbid conditions should be reviewed and managed if needed.
+
+† A short-acting beta-2 agonist is indicated to provide quick relief at all steps and to prevent exercise-induced bronchoconstriction.
+
+‡ The updated NAEPP Asthma Management Guidelines' preferred rescue option (also called reliever therapy) for steps 3 and 4 include the use of 1 to 2 puffs of as-needed formoterol in combination with an inhaled glucocorticoid, not to exceed a daily maximum dose of 8 puffs of formoterol (36 mcg) over a 24-hour period for ages 5–11 years, and 12 puffs of formoterol (54 mcg) over a 24-hour period for patients ≥ 12 years.
+
+Adapted from the Expert Panel Working Group of the National Heart, Lung, and Blood Institute (NHLBI) administered and coordinated National Asthma Education and Prevention Program Coordinating Committee (NAEPPCC), Cloutier MM, Baptist AP, et al: 2020 Focused Updates to the Asthma Management Guidelines: A Report from the National Asthma Education and Prevention Program Coordinating Committee Expert Panel Working Group. J Allergy Clin Immunol 146(6):1217–1270, 2020. doi: 10.1016/j.jaci.2020.10.003
+
+For additional information, see Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention, 2025. Updated May 2025. Accessed May 20, 2025. Available from www.ginasthma.org. Note GINA does not recognize a step 6 for the management of severe asthma. Refer to guidelines for comparisons on the management of severe asthma for step 5 and above.
+
+* Before stepping up, adherence, environmental factors (eg, trigger exposure), and comorbid conditions should be reviewed and managed if needed.
+
+† A short-acting beta-2 agonist is indicated to provide quick relief at all steps and to prevent exercise-induced bronchoconstriction.
+
+‡ The updated NAEPP Asthma Management Guidelines' preferred rescue option (also called reliever therapy) for steps 3 and 4 include the use of 1 to 2 puffs of as-needed formoterol in combination with an inhaled glucocorticoid, not to exceed a daily maximum dose of 8 puffs of formoterol (36 mcg) over a 24-hour period for ages 5–11 years, and 12 puffs of formoterol (54 mcg) over a 24-hour period for patients ≥ 12 years.
+
+Adapted from the Expert Panel Working Group of the National Heart, Lung, and Blood Institute (NHLBI) administered and coordinated National Asthma Education and Prevention Program Coordinating Committee (NAEPPCC), Cloutier MM, Baptist AP, et al: 2020 Focused Updates to the Asthma Management Guidelines: A Report from the National Asthma Education and Prevention Program Coordinating Committee Expert Panel Working Group. J Allergy Clin Immunol 146(6):1217–1270, 2020. doi: 10.1016/j.jaci.2020.10.003
+
+For additional information, see Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention, 2025. Updated May 2025. Accessed May 20, 2025. Available from www.ginasthma.org. Note GINA does not recognize a step 6 for the management of severe asthma. Refer to guidelines for comparisons on the management of severe asthma for step 5 and above.
+
+Exercise-induced bronchoconstriction
+
+Exercise-induced bronchoconstriction can generally be prevented by prophylactic inhalation of a short-acting beta-2 agonist or mast cell stabilizer before starting the exercise. If beta-2 agonists are not effective or if exercise-induced bronchoconstriction causes symptoms daily or more frequently, the patient requires controller therapy.
+
+Aspirin-exacerbated respiratory disease
+
+The primary treatment for aspirin-exacerbated respiratory disease is avoidance of aspirin and other NSAIDs. Celecoxib does not appear to be a trigger. Leukotriene receptor antagonists can blunt the response to NSAIDs. Alternatively, desensitization can be done in either the inpatient or outpatient clinic setting depending on the severity of aspirin sensitivity and asthma severity; desensitization has been successful in the majority of patients who are able to continue desensitization treatment for more than one year.
+
+Investigational therapies
+
+Multiple therapies are being developed to target specific components of the inflammatory cascade. Therapies directed at interleukin 6 (IL-6), tumor necrosis factor-alpha, other chemokines, and cytokines or their receptors are all under investigation or consideration as therapeutic targets.
+
+Treatment references
+
+1. Chupp G, Kline JN, Khatri SB, et al: Bronchial Thermoplasty in Patients With Severe Asthma at 5 Years: The Post-FDA Approval Clinical Trial Evaluating Bronchial Thermoplasty in Severe Persistent Asthma Study. Chest 161(3):614–628, 2022. doi:10.1016/j.chest.2021.10.044
+
+2. Torrego A, Herth FJ, Munoz-Fernandez AM, et al: Bronchial Thermoplasty Global Registry (BTGR): 2-year results. BMJ Open 11(12):e053854, 2021. doi:10.1136/bmjopen-2021-053854
+
+3. Expert Panel Working Group of the National Heart, Lung, and Blood Institute (NHLBI) administered and coordinated National Asthma Education and Prevention Program Coordinating Committee (NAEPPCC), Cloutier MM, Baptist AP, et al: 2020 Focused Updates to the Asthma Management Guidelines: A Report from the National Asthma Education and Prevention Program Coordinating Committee Expert Panel Working Group. J Allergy Clin Immunol 146(6):1217–1270, 2020. doi: 10.1016/j.jaci.2020.10.003
+
+4. Langton D, Ing A, Fielding D, et al: Safety and Effectiveness of Bronchial Thermoplasty When FEV1 Is Less Than 50. Chest 157(3):509–515, 2020. doi:10.1016/j.chest.2019.08.2193
+
+5. Künzli N, Stutz EZ, Perruchoud AP, et al: Peak flow variability in the SAPALDIA study and its validity in screening for asthma-related conditions. The SPALDIA Team. Am J Respir Crit Care Med 160(2):427–434, 1999. doi:10.1164/ajrccm.160.2.9807008
+
+6. Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention, 2025. Updated May 2025. Accessed May 20, 2025. Available from www.ginasthma.org
+
+Special Populations
+
+Infants, children, and adolescents
+
+Asthma is difficult to diagnose in infants; thus, under-recognition and undertreatment are common (see also Wheezing and Asthma in Infants and Young Children). Empiric trials of inhaled bronchodilators and anti-inflammatory medications may be helpful. Medications may be given by nebulizer or metered-dose inhaler (MDI) with a holding chamber with or without a face mask. Infants and children < 5 years who require treatment > 2 times/week should be given daily anti-inflammatory therapy with inhaled glucocorticoids (preferred), leukotriene receptor antagonists, or cromolyn. The nebulized route of administration is preferred in children under the age of 2 years.
+
+Children > 5 years and adolescents with asthma should not receive long-acting muscarinic antagonists. Also, zileuton should only be used in children ≥ 12 years. Children > 5 years of age and adolescents with asthma should be encouraged to maintain physical activities, exercise, and sports participation. Predicted norms for pulmonary function tests in adolescents are closer to childhood (not adult) standards. Adolescents and mature younger children should participate in developing their own asthma management plans and establishing their own goals for therapy to improve adherence. The action plan should be understood by teachers and school nurses to ensure reliable and prompt access to rescue (reliever) medications. Cromolyn and nedocromil are often tried in this group but are not as beneficial as inhaled glucocorticoids. Long-acting medications may prevent the problems (eg, inconvenience, embarrassment) of having to take medications at school. However, older children and adolescents may be educated and instructed to carry albuterol for self-directed use prior to planned exercise to prevent exercise-induced bronchoconstriction.
+
+Pregnant patients
+
+Approximately 60% of pregnant patients with asthma notice worsening (at times to a severe degree), and 40% notice no change (1). Gastroesophageal reflux disease (GERD) may be an important contributor to symptomatic disease in pregnancy. Asthma control during pregnancy is crucial because poorly controlled maternal disease can result in increased prenatal mortality, premature delivery, and low birth weight.
+
+Asthma medications have not been shown to have adverse fetal effects, but safety data are lacking. ( In general, uncontrolled asthma is more of a risk to mother and fetus than adverse effects due to asthma medications. During pregnancy, normal blood PCO2 level is about 32 mm Hg (2). Therefore, carbon dioxide retention is probably occurring if PCO2 approaches 40 mm Hg.
+
+Pearls & Pitfalls
+
+Suspect carbon dioxide retention and respiratory failure in pregnant women with uncontrolled asthma and PCO2 levels near 40 mm Hg.
+
+Older patients
+
+Older patients have a high prevalence of other obstructive lung disease (eg, COPD), so it is important to determine the magnitude of the reversible component of airflow obstruction (eg, by administering a 2- to 3-week trial of inhaled glucocorticoids or pulmonary function testing with bronchodilator challenge). Older patients may be more sensitive to adverse effects of beta-2 agonists and inhaled glucocorticoids. Patients requiring inhaled glucocorticoids, particularly those with risk factors for osteoporosis, may benefit from measures to preserve bone density (eg, calcium and vitamin D supplements, bisphosphonates).
+
+Special populations references
+
+1. Stevens DR, Perkins N, Chen Z, et al: Determining the Clinical Course of Asthma in Pregnancy. J Allergy Clin Immunol Pract 10(3):793-802.e10, 2022. doi:10.1016/j.jaip.2021.09.048
+
+2. Jensen D, Duffin J, Lam YM, et al: Physiological mechanisms of hyperventilation during human pregnancy. Respir Physiol Neurobiol 161(1):76–86, 2008. doi:10.1016/j.resp.2008.01.001
+
+Prognosis for Asthma
+
+Asthma resolves in many children. However, about 25% of children with clinically diagnosed asthma are at risk of accelerated declines in lung function (1). In a similar proportion of children, wheezing persists into adulthood or relapse occurs in later years (2). Female sex, smoking, earlier age of onset, and sensitization to household dust mites are risk factors for persistence and relapse.
+
+Although a significant number of deaths each year are attributable to asthma, most of these deaths are preventable with treatment. Thus, the prognosis is good with adequate access and adherence to treatment. Risk factors for death include increasing requirements for oral glucocorticoids before hospitalization, previous hospitalization for acute exacerbations, and lower peak expiratory flow values at presentation. Several studies show that the use of inhaled glucocorticoids decreases hospital admission and mortality rates (3).
+
+Over time, the airways in some patients with asthma undergo permanent structural changes (remodeling) and progress to baseline airflow obstruction that is not completely reversible. Early and aggressive use of anti-inflammatory medications may help prevent this remodeling.
+
+Prognosis references
+
+1. Grad R, Morgan WJ: Long-term outcomes of early-onset wheeze and asthma. J Allergy Clin Immunol 130(2):299–307, 2012. doi:10.1016/j.jaci.2012.05.022
+
+2. Sears MR, Greene JM, Willan AR, et al: A longitudinal, population-based, cohort study of childhood asthma followed to adulthood. N Engl J Med 349(15):1414–1422, 2003. doi:10.1056/NEJMoa022363
+
+3. Kearns N, Maijers I, Harper J, Beasley R, Weatherall M: Inhaled Corticosteroids in Acute Asthma: A Systemic Review and Meta-Analysis. J Allergy Clin Immunol Pract 8(2):605-617.e6, 2020. doi:10.1016/j.jaip.2019.08.051
+
+Key Points
+
+Asthma triggers range from environmental allergens and respiratory irritants to infections, aspirin, exercise, emotion, and gastroesophageal reflux disease.
+
+Consider asthma in patients who have unexplained persistent coughing, particularly at night.
+
+If asthma is suspected, arrange pulmonary function testing, with methacholine provocation if necessary.
+
+Educate patients on how to avoid triggers.
+
+Control chronic asthma with medications that modulate the allergic and immune response—usually inhaled glucocorticoids—with other medications (eg, long-acting bronchodilators, mast cell stabilizers, leukotriene receptor antagonists) added based on asthma severity.
+
+Treat asthma aggressively during pregnancy.
+
+More Information
+
+The following English-language resources may be useful. Please note that The Manual is not responsible for the content of these resources.
+
+Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention, 2025. Updated May 2025. Accessed May 20, 2025. Available from www.ginasthma.org
+
+The National Heart, Lung, and Blood Institute: Expert Panel Report 3, Guidelines for the diagnosis and management of asthma—full report 2007.
+
+Expert Panel Working Group of the National Heart, Lung, and Blood Institute (NHLBI) administered and coordinated National Asthma Education and Prevention Program Coordinating Committee (NAEPPCC), Cloutier MM, Baptist AP, et al: 2020 Focused Updates to the Asthma Management Guidelines: A Report from the National Asthma Education and Prevention Program Coordinating Committee Expert Panel Working Group. J Allergy Clin Immunol 146(6):1217–1270, 2020. doi: 10.1016/j.jaci.2020.10.003

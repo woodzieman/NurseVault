@@ -1,0 +1,766 @@
+=== Obinutuzumab (Merck Manual Professional) ===
+Source: https://www.merckmanuals.com/professional/drug-names-generic-and-brand (productid 3829)
+Retrieved: 2026-09-25
+NURSING QUICK-REFERENCE SUMMARY
+Auto-generated on 2026-09-25 from the prescribing information in this file; full details follow below.
+
+Drug Class: Obinutuzumab is a CD20-directed cytolytic antibody.
+
+Routes: injection (IV/IM/SC); Common adult doses: 1000 mg/dose IV.
+
+Common Side Effects (excluding routine GI upset): elevated hepatic enzymes, hyperbilirubinemia, hypoalbuminemia, agranulocytosis, anemia, leukopenia, lymphopenia, neutropenia, thrombocytopenia, hyperkalemia, hypernatremia, hypocalcemia, hypokalemia, hyponatremia, hypophosphatemia, arthralgia, back pain, bone pain, musculoskeletal pain, infection, pharyngitis, rhinitis, sinusitis, gi perforation, pruritus, rash, urticaria, asthenia, fatigue, lethargy
+
+In an Overdose: No overdose/antidote information is listed in this file.
+
+Key Nursing Considerations: Contraindications/precautions: This medication is contraindicated in patients with a history of hypersensitivity to it or any of its components. Obinutuzumab is contraindicated in patients with a known hypersensitivity or anaphylaxis to obinutuzumab, or serum sickness with prior use. Emetic risk: Minimal
+
+Brand Names
+  - GAZYVA
+
+Dosage Forms
+  - Gazyva 1000mg/40mL Solution for Injection
+
+Indication Specific Dosing
+  Indications
+    Related Indications
+      Heading
+      for the treatment of previously untreated CLL, in combination with chlorambucil
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          100 mg IV on Day 1, 900 mg IV on Day 2, then 1,000 mg IV on Days 8 and 15 in cycle 1; begin the next cycle of therapy on Day 29. For cycles 2 to 6, give obinutuzumab 1,000 mg IV on Day 1 repeated every 28 days. Administer obinutuzumab in combination with chlorambucil (on Day 1 and 15) in cycles 1 to 6. The median investigator-reported progression-free survival (PFS) time (primary endpoint) was significantly improved with obinutuzumab plus chlorambucil (26.7 months) compared with chlorambucil alone (11.1 months; hazard ratio (HR) = 0.18; 95% CI, 0.13 to 0.24; p less than 0.001) and compared with rituximab plus chlorambucil (15.2 months; HR = 0.39; 95% CI, 0.31 to 0.49; p less than 0.001) in subjects with previously untreated CD20-positive chronic lymphocytic leukemia and coexisting conditions (median age, 73 years; median creatinine clearance, 62 mL/minute; median cumulative illness rating scale score, 8) in a multicenter, randomized, open-label, 3-arm, phase III trial (n = 781). The median overall survival (OS) time had not been reached in any of the treatment arms at the time of analysis; however, OS was significantly improved with obinutuzumab plus chlorambucil compared to chlorambucil alone (HR = 0.41; 95% CI, 0.23 to 0.74; p = 0.002) but not compared with rituximab plus chlorambucil (HR = 0.66; 95% CI, 0.41 to 1.06; p = 0.08).
+      Heading
+      for the treatment of CLL or small lymphocytic lymphoma (SLL),† in combination with ibrutinib
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          100 mg IV on Day 1, 900 mg IV on Day 2, then 1,000 mg IV on Days 8 and 15 in cycle 1 in combination with ibrutinib until disease progression; give obinutuzumab 1,000 mg IV on Day 1 repeated every 28 days on cycles 2 to 6. Consider administering ibrutinib before obinutuzumab on days these agents are given on the same day. At a median follow-up time of 31.3 months, the median progression-free survival (PFS) time was significantly improved with ibrutinib plus obinutuzumab compared with chlorambucil plus obinutuzumab (median time not reached vs. 19 months; hazard ratio (HR) = 0.23; 95% CI, 0.15 to 0.37; p less than 0.0001) in subjects with previously untreated CLL or SLL (n = 15; 7%) in a multinational, randomized, phase 3 trial (the iLLUMINATE trial; n = 229). The estimated 30-month PFS rates were 79% and 31% in the ibrutinib plus obinutuzumab and chlorambucil plus obinutuzumab arms, respectively. There was no statistically significant difference in overall survival between treatment arms at the time of analysis. In the ibrutinib-containing arm, the median duration of therapy was 29.3 months. Eligible subjects were either 65 years or older or had certain coexisting conditions that made them unsuitable for fludarabine-based chemoimmunotherapy.
+      Heading
+      for the treatment of CLL or SLL, in combination with venetoclax†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          100 mg IV on Day 1, 900 mg IV on Day 2, then 1,000 mg IV on Days 8 and 15 in cycle 1; begin the next cycle of therapy on Day 29. For cycles 2 to 6, give obinutuzumab 1,000 mg IV on Day 1 repeated every 28 days. Start venetoclax using a 5-week ramp-up schedule on Day 22 of cycle 1; continue venetoclax through Day 28 of cycle 12. At a median follow-up of 39.6 months, the progression-free survival time (assessed by an independent review committee) was significantly improved with venetoclax plus obinutuzumab compared with obinutuzumab plus chlorambucil therapy (median time not reached vs. 35.6 months; hazard ratio (HR) = 0.31; 95% CI, 0.22 to 0.44; p less than 0.0001) in subjects with previously untreated CLL in a randomized, open-label, phase 3 trial (the CLL14 trial; n = 432). Subjects (median age, 72 years) in this study had coexisting medical conditions (defined as a total Cumulative Illness Rating Scale (CIRS) score of more than 6 or a creatinine clearance of less than 70 mL/minute). Additionally, undetectable minimal residual disease (MRD) rates were significantly improved in the peripheral blood (76% vs. 35%; p less than 0.0001) in subjects who received venetoclax plus obinutuzumab therapy. At the time of analysis, the median overall survival time was not reached in either treatment arm (HR = 1.03; 95% CI, 0.6 to 1.75).
+      Heading
+      for the treatment of previously untreated CLL or SLL, in combination with acalabrutinib†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          100 mg IV on Day 1, 900 mg IV on Day 2, and then 1,000 mg IV on Days 8 and 15 beginning on cycle 2 of therapy followed by obinutuzumab 1,000 mg IV on Day 1 repeated every 28 days for up to 6 cycles of therapy (cycles 3, 4, 5, 6, and 7) in combination with acalabrutinib starting on Day 1 of cycle 1 and continuing until disease progression. The median progression-free survival time was significantly improved in subjects with previously untreated CLL/SLL who received acalabrutinib plus obinutuzumab compared with obinutuzumab plus chlorambucil (median time not reached vs. 22.6 months; HR = 0.1; 95% CI, 0.06 to 0.17; p less than 0.0001) in a multicenter, open-label, randomized, 3-arm, phase 3 trial (n = 535; the ELEVATE-TN trial). At a median follow-up time of 28.3 months, the median overall survival time had not been reached in any treatment arm. Eligible subjects (median age, 70 years; range, 41 to 91 years) in this trial were 65 years of age or older or had coexisting conditions (i.e., a total Cumulative Illness Rating Scale (CIRS) score of greater than 6 or a creatinine clearance of 30 to 69 mL/minute).
+    Routes
+    Heading
+    For the treatment of chronic lymphocytic leukemia (CLL)
+    Related Indications
+      Heading
+      for the treatment of follicular lymphoma in patients who relapsed after or are refractory to a rituximab-containing regimen, in combination with bendamustine followed by monotherapy
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          1,000 mg IV on Days 1, 8, and 15 on cycle 1; begin the next cycle of therapy on Day 29. For cycles 2 to 6, give obinutuzumab 1,000 mg IV on Day 1 repeated every 28 days. Administer obinutuzumab in combination with bendamustine (on Days 1 and 2) in cycles 1 to 6. Continue single-agent obinutuzumab 1,000 mg IV every 2 months for 2 years in individuals who achieve a complete response, partial response, or stable disease after 6 cycles of obinutuzumab plus bendamustine; start monotherapy at approximately 2 months after the last dose administered during the induction phase. At a median follow-up time of 31.8 months, the median progression-free survival time (primary endpoint assessed by an independent review committee) was significantly improved with obinutuzumab plus bendamustine compared with bendamustine alone (25.8 months vs. 14.1 months; hazard ratio (HR) = 0.57; 95% CI, 0.44 to 0.73; p less than 0.001) in subjects with CD20-positive, indolent non-Hodgkin lymphoma that was refractory to rituximab-containing therapy in a multinational, randomized, phase 3 trial (the GADOLIN trial; n = 413). The overall survival time was also significantly improved in the obinutuzumab plus bendamustine arm (HR = 0.67; 95% CI, 0.47 to 0.96; p = .0269). Most subjects in this study had received 1 or 2 prior therapies; 81% of subjects (n = 335) had follicular lymphoma.
+      Heading
+      for the treatment of previously untreated bulky stage II, stage III, or stage IV follicular lymphoma, in combination with chemotherapy followed by monotherapy in patients who achieve at least a partial remission
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          1,000 mg IV on Days 1, 8, and 15 on cycle 1, then 1,000 mg IV on Day 1 for subsequent cycles. Administer obinutuzumab in combination with one of the following: 1) bendamustine 90 mg/m2 IV on Days 1 and 2 repeated every 28 days for 6 cycles (plus prednisone 100 mg PO or equivalent on Day 1 of cycle 1 only); 2) cyclophosphamide 750 mg/m2 IV, doxorubicin 50 mg/m2 IV, and vincristine 1.4 mg/m2 (maximum dose, 2 mg) IV on Day 1 and prednisone 100 mg PO on Days 1, 2, 3, 4, and 5 (CHOP) repeated every 21 days for 6 cycles (followed by 2 additional cycles of obinutuzumab alone for a total of 8 obinutuzumab cycles); or 3) cyclophosphamide 750 mg/m2 IV and vincristine 1.4 mg/m2 (maximum dose, 2 mg) IV on Day 1 and prednisone 100 mg PO daily on Days 1, 2, 3, 4, and 5 (CVP) repeated every 21 days for 8 cycles. Continue single-agent obinutuzumab 1,000 mg IV every 2 months for up to 2 years in individuals who achieve a complete response or partial response after treatment with 6 to 8 cycles of obinutuzumab plus chemotherapy; start monotherapy at approximately 2 months after the last dose administered during the induction phase. At a median follow-up time of 34.5 months (range, 0 to 54.5 months), the investigator-assessed 3-year progression-free survival rate (primary endpoint) was significantly improved in subjects with previously untreated, CD20-positive advanced stage, grade 1 to 3a follicular lymphoma who received obinutuzumab compared with rituximab (80% vs. 73.3%; hazard ratio = 0.66; 95% CI, 0.51 to 0.85) in combination with chemotherapy (bendamustine, CHOP, or CVP) in a planned interim analysis of a randomized, phase III trial (n = 1,202; the GALLIUM trial).
+      Heading
+      for the treatment of relapsed or refractory follicular lymphoma following 2 or more lines of systemic therapy, in combination with zanubrutinib
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          1,000 mg IV on Days 1, 8, and 15 of cycle 1; 1,000 mg IV on Day 1 of cycles 2, 3, 4, 5, and 6; and 1,000 mg IV every 8 weeks for up to 20 doses in combination with zanubrutinib 160 mg orally twice daily OR 320 mg orally once daily until disease progression. The Day 1, cycle 1 obinutuzumab dose may be given as 100 mg IV on Day 1 and 900 mg IV on Day 2. The treatment cycle length was 28 days in cycles 1 to 6. The overall response rate (primary endpoint evaluated by independent central review) was significantly improved with zanubrutinib plus obinutuzumab compared with obinutuzumab alone (69% vs. 46%; p-value = 0.001) in 217 subjects with relapsed or refractory grade 1, 2, or 3a follicular lymphoma in a randomized (2:1) phase 2 (ROSEWOOD) trial. The complete response rate was also significantly higher in the combination therapy arm compared with the obinutuzumab alone arm (39% and 19%; p-value = 0.004). At a median follow-up time of 20.2 months, the median duration of response was not reached in the combination therapy arm and 14 months in the obinutuzumab alone arm. The median progression-free survival (28 vs. 10.4 months; hazard ratio (HR) = 0.5; 95% CI, 0.33 to 0.75) and overall survival (OS; not estimable vs. 34.6 months; HR = 0.62; 95% CI, 0.35 to 1.07) times were longer in the combination therapy arm. Although the OS improvement was not significant in the combination therapy arm, 35 of 72 subjects (48.6%) from the obinutuzumab only arm had crossed over. Subjects (median age, 64 years; range, 31 to 88 years) in this study had received a median of 3 (range, 2 to 11) prior lines of therapy that included an anti-CD20 antibody and an alkylator-based combination therapy; 21% of subjects had received a previous stem-cell transplantation.
+    Routes
+    Heading
+    For the treatment of non-Hodgkin's lymphoma (NHL)
+    Routes
+      Heading
+      Intravenous dosage
+      Route Age Groups
+        Heading
+        Adults
+        Dosage Description
+        1,000 mg IV once, then 1,000 mg IV at Week 2, 24, and 26, followed by 1,000 mg IV every 6 months. For individuals failing to respond to initial treatment with a triple therapy regimen, the American College of Rheumatology (ACR) suggests considering the addition of obinutuzumab as a second immunosuppressive agent. In people with refractory disease (i.e., failed 2 standard therapy courses), the ACR conditionally recommends adding obinutuzumab.
+    Heading
+    For the treatment of active lupus nephritis in individuals receiving standard therapy
+    Routes
+      Heading
+      Intravenous dosage
+      Route Age Groups
+        Heading
+        Adults
+        Dosage Description
+        1,000 mg IV once, then 1,000 mg IV at Week 2, 24, and 26, followed by 1,000 mg IV every 6 months.
+    Heading
+    For the treatment of active systemic lupus erythematosus† as an add-on to standard therapy
+
+Contraindications And Precautions
+  Headline
+  Contraindications/Warnings/Precautions
+  Contraindications And Precautions
+    Headline
+    Drug Interactions
+    General Information
+    The coadministration of certain medications may lead to harm and require avoidance or therapy modification; review all drug interactions prior to concomitant use of other medications.
+    Headline
+    Hypersensitivity
+    General Information
+    This medication is contraindicated in patients with a history of hypersensitivity to it or any of its components. Obinutuzumab is contraindicated in patients with a known hypersensitivity or anaphylaxis to obinutuzumab, or serum sickness with prior use. Severe and life-threatening infusion-related reactions and hypersensitivity reactions have been reported with obinutuzumab therapy; late-onset hypersensitivity diagnosed as serum sickness has also occurred.
+    Headline
+    General Information
+    General Information
+    Immunization with live virus vaccines is not recommended during obinutuzumab treatment and until B-cell recovery. The safety and efficacy of immunization with live or attenuated viral vaccines during or following obinutuzumab therapy have not been studied.
+    Headline
+    hepatitis B exacerbation
+    General Information
+    Hepatitis B virus (HBV) reactivation resulting in hepatitis B exacerbation, fulminant hepatitis, hepatic failure, and death may occur during or following treatment with an anti-CD20 antibody, such as obinutuzumab. Screen all patients for HBV (e.g., hepatitis B surface antigen, hepatitis B core antibody) prior to starting obinutuzumab therapy. In patients who have evidence of HBV, consult with an expert in hepatitis management for monitoring and treatment recommendations. Monitor all patients with a history of prior hepatitis B during and for several months after obinutuzumab therapy for signs and symptoms of HBV reactivation. Discontinue therapy in patients who develop HBV reactivation and initiate treatment. The safety of resuming obinutuzumab therapy following HBV reactivation is not known.
+    Headline
+    progressive multifocal leukoencephalopathy
+    General Information
+    Progressive multifocal leukoencephalopathy (PML) resulting in death has been observed in individuals treated with obinutuzumab for chronic lymphocytic leukemia and non-Hodgkin lymphoma. Suspect PML in any individual presenting with new onset or changes to pre-existing neurological symptoms and perform an appropriate evaluation such as a neurology consultation, brain MRI, and lumbar puncture. Discontinue obinutuzumab in individuals who develop PML and consider discontinuing or reducing concomitant chemotherapy or immunosuppressive therapy.
+    Headline
+    cardiac disease, hypertension, pulmonary disease
+    General Information
+    Use obinutuzumab with caution in patients with pre-existing cardiac disease or pulmonary disease; severe and life-threatening infusion-related reactions and hypersensitivity reactions have been reported. Patients with pre-existing cardiac or pulmonary disease may be at greater risk of more severe infusion-related reactions; monitor these patients more frequently during and after the infusion. In patients with pre-existing hypertension, consider withholding antihypertensive medications for 12 hours prior to, during, and for the first hour after each infusion until blood pressure is stable; weigh the risk versus benefit of withholding antihypertensive medications in patients at high risk for hypertensive crisis. If a hypersensitivity reaction is suspected, hold the infusion; do not resume treatment in patients who have hypersensitivity reactions including serum sickness. Manage symptoms as appropriate with supportive care measures (e.g., glucocorticoids, epinephrine, bronchodilators, and/or oxygen).
+    Headline
+    infection
+    General Information
+    Do not administer obinutuzumab to individuals with an active infection. Serious and fatal bacterial infection, fungal infection, and viral infection have been reported during and after treatment with obinutuzumab. Individuals with a history of recurring or chronic infections may be at increased risk for developing a serious infection. Consider interrupting obinutuzumab treatment in individuals who develop an infection. Immediately discontinue obinutuzumab and institute appropriate treatment in individuals who develop a serious infection while receiving obinutuzumab. Consider the risk and benefit of resuming treatment with obinutuzumab after resolution of serious infections. Provide antimicrobial prophylaxis to individuals who experience grade 3 or 4 neutropenia lasting more than 1 week until the neutropenia resolves to grade 2 or less. Consider antiviral and antifungal prophylaxis in individuals with severe and prolonged (longer than 1 week) neutropenia.
+    Headline
+    history of significant adverse event(s) associated with previous use
+    General Information
+    Obinutuzumab is contraindicated in patients with a history of significant adverse event(s) associated with previous use (e.g., known hypersensitivity or anaphylaxis to obinutuzumab, or serum sickness with prior use). Severe and life-threatening infusion-related reactions and hypersensitivity reactions have been reported with obinutuzumab therapy; late-onset hypersensitivity diagnosed as serum sickness has also occurred.
+    Headline
+    pregnancy
+    General Information
+    Based on its mechanism of action and findings from animal studies, fetal B-cell depletion may occur if obinutuzumab is administered during pregnancy. There are no data on the use of obinutuzumab in human pregnancy to inform a drug-associated risk. Monoclonal antibodies are transferred across the placenta. No embryotoxic or teratogenic effects were observed in animal studies at exposures up to 2.4 times the clinical dose exposure in humans. Individuals with systemic lupus erythematosus are at increased risk of adverse outcomes during pregnancy including worsening of underlying disease, premature birth, miscarriage, and intrauterine growth restriction. Maternal lupus nephritis increases the risk of hypertension and preeclampsia/eclampsia. The transfer of monoclonal antibodies across the placenta may result in adverse neonatal outcomes (i.e., neonatal lupus and congenital heart block).
+    Headline
+    people who may become pregnant, reproductive risk
+    General Information
+    Counsel people who may become pregnant about the reproductive risk associated with obinutuzumab. Obinutuzumab may cause fetal harm. Advise people who may become pregnant to use effective contraception while taking obinutuzumab and for 6 months after the last dose.
+    Headline
+    neonates and infants exposed to this medication in utero
+    General Information
+    Fetal B-cell depletion is likely to occur when obinutuzumab is used during pregnancy. Avoid administration of live vaccines to neonates and infants exposed to this medication in utero until B-cell recovery occurs. Obinutuzumab was detected in the offspring of cynomolgus monkeys on day 28 postpartum, and B-cells were completely depleted. Immunologic function was restored and B-cell counts returned to normal concentrations within 6 months after birth.
+    Headline
+    breast-feeding
+    General Information
+    Due to the potential for serious adverse reactions in the breastfed child, avoid breast-feeding during obinutuzumab therapy and for 6 months after the last dose. There are no data on the presence of obinutuzumab in human milk, its effects on the breastfed child, or its effect on milk production. Low concentrations of obinutuzumab were present in animal milk (0.04% to 0.13% of concentrations in maternal serum). Human IgG is secreted in human milk.
+
+Pregnancy And Lactation
+  Pregnancy
+    General Information
+    Based on its mechanism of action and findings from animal studies, fetal B-cell depletion may occur if obinutuzumab is administered during pregnancy. There are no data on the use of obinutuzumab in human pregnancy to inform a drug-associated risk. Monoclonal antibodies are transferred across the placenta. No embryotoxic or teratogenic effects were observed in animal studies at exposures up to 2.4 times the clinical dose exposure in humans. Individuals with systemic lupus erythematosus are at increased risk of adverse outcomes during pregnancy including worsening of underlying disease, premature birth, miscarriage, and intrauterine growth restriction. Maternal lupus nephritis increases the risk of hypertension and preeclampsia/eclampsia. The transfer of monoclonal antibodies across the placenta may result in adverse neonatal outcomes (i.e., neonatal lupus and congenital heart block).
+  Breastfeeding
+    General Information
+    Due to the potential for serious adverse reactions in the breastfed child, avoid breast-feeding during obinutuzumab therapy and for 6 months after the last dose. There are no data on the presence of obinutuzumab in human milk, its effects on the breastfed child, or its effect on milk production. Low concentrations of obinutuzumab were present in animal milk (0.04% to 0.13% of concentrations in maternal serum). Human IgG is secreted in human milk.
+
+Interactions
+Anagrelide: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occured during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Anifrolumab: (Major) Coadministration is not recommended. Anifrolumab has not been studied in combination with other biologic therapies including B-cell targeted therapies such as obinutuzumab. Potential concerns with use of these drugs together include an increased susceptibility to immunosuppression and serious infections, some of which might be fatal.
+Anticoagulants: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occurred during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Antithrombin III: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occurred during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Apixaban: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occurred during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Argatroban: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occurred during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Aspirin, ASA; Dipyridamole: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occured during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Bacillus Calmette-Guerin Vaccine, BCG: (Contraindicated) Do not administer live vaccines to obinutuzumab recipients; no data are available regarding the risk of secondary transmission of infection by live vaccines in patients receiving obinutuzumab. Before initiation of obinutuzumab therapy, consider completion of all age appropriate vaccinations per current immunization guidelines. Obinutuzumab recipients may receive inactivated vaccines, but the immune response to vaccines or toxoids may be decreased.
+Bivalirudin: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occurred during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Chikungunya Vaccine, Live: (Contraindicated) Do not administer live vaccines to obinutuzumab recipients; no data are available regarding the risk of secondary transmission of infection by live vaccines in patients receiving obinutuzumab. Before initiation of obinutuzumab therapy, consider completion of all age appropriate vaccinations per current immunization guidelines. Obinutuzumab recipients may receive inactivated vaccines, but the immune response to vaccines or toxoids may be decreased.
+Cholera Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the live cholera vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to cholera bacteria after receiving the vaccine.
+Cilostazol: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occured during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Clopidogrel: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occured during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+cloZAPine: (Major) It is unclear if concurrent use of other drugs known to cause neutropenia (e.g., antineoplastic agents) increases the risk or severity of clozapine-induced neutropenia. Because there is no strong rationale for avoiding clozapine in patients treated with these drugs, consider increased absolute neutrophil count (ANC) monitoring and consult the treating oncologist.
+Dabigatran: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occurred during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Dalteparin: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occurred during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Dengue Tetravalent Vaccine, Live: (Contraindicated) Avoid administration of the live dengue virus vaccine with immunosuppressive drug therapy and prior to immune recovery following treatment with immunosuppressive drug therapy. When feasible, administer indicated live virus vaccines at least 4 weeks before planned immunosuppression or wait until at least 3 months after discontinuation. The time to restoration of immune competence may be longer in some patients. Patients with altered immunocompetence may be at increased risk for severe adverse reactions due to uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+Dipyridamole: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occured during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Ebola Zaire Vaccine, Live: (Contraindicated) Do not administer live vaccines to obinutuzumab recipients; no data are available regarding the risk of secondary transmission of infection by live vaccines in patients receiving obinutuzumab. Before initiation of obinutuzumab therapy, consider completion of all age appropriate vaccinations per current immunization guidelines. Obinutuzumab recipients may receive inactivated vaccines, but the immune response to vaccines or toxoids may be decreased.
+Edoxaban: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occurred during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Enoxaparin: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occurred during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Eptifibatide: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occured during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Fondaparinux: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occurred during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Heparin: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occurred during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Intranasal Influenza Vaccine: (Contraindicated) Do not administer live vaccines to obinutuzumab recipients; no data are available regarding the risk of secondary transmission of infection by live vaccines in patients receiving obinutuzumab. Before initiation of obinutuzumab therapy, consider completion of all age appropriate vaccinations per current immunization guidelines. Obinutuzumab recipients may receive inactivated vaccines, but the immune response to vaccines or toxoids may be decreased.
+Live Vaccines: (Contraindicated) Do not administer live vaccines to obinutuzumab recipients; no data are available regarding the risk of secondary transmission of infection by live vaccines in patients receiving obinutuzumab. Before initiation of obinutuzumab therapy, consider completion of all age appropriate vaccinations per current immunization guidelines. Obinutuzumab recipients may receive inactivated vaccines, but the immune response to vaccines or toxoids may be decreased.
+Measles Virus; Mumps Virus; Rubella Virus; Varicella Virus Vaccine, Live: (Contraindicated) Do not administer live vaccines to obinutuzumab recipients; no data are available regarding the risk of secondary transmission of infection by live vaccines in patients receiving obinutuzumab. Before initiation of obinutuzumab therapy, consider completion of all age appropriate vaccinations per current immunization guidelines. Obinutuzumab recipients may receive inactivated vaccines, but the immune response to vaccines or toxoids may be decreased.
+Measles/Mumps/Rubella Vaccines, MMR: (Contraindicated) Do not administer live vaccines to obinutuzumab recipients; no data are available regarding the risk of secondary transmission of infection by live vaccines in patients receiving obinutuzumab. Before initiation of obinutuzumab therapy, consider completion of all age appropriate vaccinations per current immunization guidelines. Obinutuzumab recipients may receive inactivated vaccines, but the immune response to vaccines or toxoids may be decreased.
+Pentosan: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occurred during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Platelet Inhibitors: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occured during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Prasugrel: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occured during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Rivaroxaban: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occurred during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Rotavirus Vaccine: (Contraindicated) Do not administer live vaccines to obinutuzumab recipients; no data are available regarding the risk of secondary transmission of infection by live vaccines in patients receiving obinutuzumab. Before initiation of obinutuzumab therapy, consider completion of all age appropriate vaccinations per current immunization guidelines. Obinutuzumab recipients may receive inactivated vaccines, but the immune response to vaccines or toxoids may be decreased.
+SARS-CoV-2 (COVID-19) vaccines: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) mRNA Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) Recombinant Spike Protein Nanoparticle Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+Smallpox and Monkeypox Vaccine, Live, Nonreplicating: (Contraindicated) Do not administer live vaccines to obinutuzumab recipients; no data are available regarding the risk of secondary transmission of infection by live vaccines in patients receiving obinutuzumab. Before initiation of obinutuzumab therapy, consider completion of all age appropriate vaccinations per current immunization guidelines. Obinutuzumab recipients may receive inactivated vaccines, but the immune response to vaccines or toxoids may be decreased.
+Smallpox and Mpox (Vaccinia) Vaccine, Live: (Contraindicated) Do not administer live vaccines to obinutuzumab recipients; no data are available regarding the risk of secondary transmission of infection by live vaccines in patients receiving obinutuzumab. Before initiation of obinutuzumab therapy, consider completion of all age appropriate vaccinations per current immunization guidelines. Obinutuzumab recipients may receive inactivated vaccines, but the immune response to vaccines or toxoids may be decreased.
+Sodium Iodide I-131: (Moderate) Monitor for bone marrow suppression during concomitant use of sodium iodide I-131 and antineoplastic agents. Concomitant use of bone marrow depressants may enhance the depression of the hematopoietic system caused by the use of large doses of sodium iodide I-131.
+Ticagrelor: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occured during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Tirofiban: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occured during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Tuberculin Purified Protein Derivative, PPD: (Moderate) Immunosuppressives may decrease the immunological response to tuberculin purified protein derivative, PPD. This suppressed reactivity can persist for up to 6 weeks after treatment discontinuation. Consider deferring the skin test until completion of the immunosuppressive therapy.
+Typhoid Vaccine: (Contraindicated) Do not administer live vaccines to obinutuzumab recipients; no data are available regarding the risk of secondary transmission of infection by live vaccines in patients receiving obinutuzumab. Before initiation of obinutuzumab therapy, consider completion of all age appropriate vaccinations per current immunization guidelines. Obinutuzumab recipients may receive inactivated vaccines, but the immune response to vaccines or toxoids may be decreased.
+Varicella Virus Vaccine, Live: (Contraindicated) Do not administer live vaccines to obinutuzumab recipients; no data are available regarding the risk of secondary transmission of infection by live vaccines in patients receiving obinutuzumab. Before initiation of obinutuzumab therapy, consider completion of all age appropriate vaccinations per current immunization guidelines. Obinutuzumab recipients may receive inactivated vaccines, but the immune response to vaccines or toxoids may be decreased.
+Vorapaxar: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occured during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Warfarin: (Moderate) Fatal hemorrhagic events have been reported in patients treated with obinutuzumab; all events occurred during cycle 1. Monitor all patients for thrombocytopenia and bleeding, and consider withholding concomitant medications which may increase bleeding risk (i.e., anticoagulants, platelet inhibitors), especially during the first cycle.
+Yellow Fever Vaccine, Live: (Contraindicated) Do not administer live vaccines to obinutuzumab recipients; no data are available regarding the risk of secondary transmission of infection by live vaccines in patients receiving obinutuzumab. Before initiation of obinutuzumab therapy, consider completion of all age appropriate vaccinations per current immunization guidelines. Obinutuzumab recipients may receive inactivated vaccines, but the immune response to vaccines or toxoids may be decreased.
+
+Adverse Reactions
+  Headline
+  Adverse Reactions
+  Adverse Reactions
+    Headline
+    elevated hepatic enzymes, hyperbilirubinemia, hypoalbuminemia
+    General Information
+    Elevated hepatic enzymes (27% to 50%; grade 3 or higher, 1% to 3%) and hypoalbuminemia (33% or less; grade 3 or higher, 1% or less) have been reported in patients who received obinutuzumab-containing therapy in clinical trials. Most cases of elevated hepatic enzymes occurred within 24 to 48 hours of the first infusion. Monitor liver function tests during obinutuzumab therapy, particularly during the first cycle. Therapy interruption or discontinuation may be necessary in patients who develop hepatotoxicity. Hepatotoxicity occurred in 4% of patients with previously untreated chronic lymphocytic leukemia who received obinutuzumab plus chlorambucil (n = 336) in a randomized, phase 3 trial; increased alkaline phosphatase level was reported in 18% of patients (n = 238) in the stage 1 of this trial. Hyperbilirubinemia (21%; grade 3 or higher, 2%) and increased alkaline phosphatase level (27%) occurred in patients with relapsed or refractory indolent non-Hodgkin lymphoma (including follicular lymphoma) who received obinutuzumab plus bendamustine (n = 204) for 6 cycles followed by obinutuzumab monotherapy in a randomized, phase 3 trial. Hypoproteinemia was reported in 32% of patients with newly diagnosed follicular lymphoma or marginal zone lymphoma who received obinutuzumab plus chemotherapy (n = 691) for 6 to 8 cycles followed by obinutuzumab monotherapy in a randomized, phase 3 trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      elevated hepatic enzymes
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypoalbuminemia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hyperbilirubinemia
+      Severity
+      Severe
+      Incidence To
+    Headline
+    progressive multifocal leukoencephalopathy
+    General Information
+    John Cunningham (JC) virus infection resulting in progressive multifocal leukoencephalopathy (PML), which can be fatal, has occurred in individuals who received obinutuzumab therapy for chronic lymphocytic leukemia and non-Hodgkin lymphoma. Evaluate individuals who develop new onset or changes to preexisting neurologic manifestations for PML (e.g., brain MRI, lumbar puncture) and consult with a neurologist. Discontinue obinutuzumab and consider discontinuing or a dosage reduction of concomitant chemotherapy or immunosuppressive therapy in individuals who develop PML.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      progressive multifocal leukoencephalopathy
+      Severity
+      Severe
+    Headline
+    hyperuricemia, tumor lysis syndrome
+    General Information
+    Grade 3 or 4 tumor lysis syndrome (TLS) was reported in 0.5% to 2% of subjects who received obinutuzumab-containing therapy in chronic lymphocytic leukemia (CLL) and non-Hodgkin lymphoma clinical trials; some cases were fatal. The highest incidence of TLS (2%) was observed in subjects with CLL who received obinutuzumab plus chlorambucil (n = 336) in a randomized trial. Administer TLS prophylaxis with antihyperuricemics (e.g., allopurinol or rasburicase) and hydration prior to therapy initiation; continue prophylaxis prior to each subsequent infusion as needed. Monitor serum electrolytes, uric acid, and renal function in individuals at risk for TLS. If TLS occurs, correct electrolyte abnormalities, maintain fluid balance, and administer supportive care; start dialysis if indicated. New or worsening grade 3 or 4 hyperuricemia was reported in 28% of subjects with newly diagnosed follicular lymphoma or marginal zone lymphoma who received obinutuzumab plus chemotherapy (n = 691) for 6 to 8 cycles followed by obinutuzumab monotherapy in a randomized, phase 3 trial. Tumor lysis syndrome is not identified as a risk in lupus nephritis.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hyperuricemia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      tumor lysis syndrome
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    agranulocytosis, anemia, leukopenia, lymphopenia, neutropenia, thrombocytopenia
+    General Information
+    Neutropenia/agranulocytosis (10% to 53%; grade 3 or 4, 33% to 49%) including prolonged (3% or less) or late onset (16% or less) neutropenia, thrombocytopenia (14% or less; grade 3 or 4, 10% or less), and febrile neutropenia (5% or more) were reported in patients who received obinutuzumab-containing therapy in clinical trials. Monitor blood counts (e.g., CBC panel) and increase the frequency of monitoring  in patients who develop grade 3 or 4 neutropenia or thrombocytopenia until toxicity resolution. Dose delay or reductions and/or supportive care such as granulocyte colony-stimulating factors or platelet transfusions may be necessary in these patients. Patients who develop grade 3 or 4 neutropenia lasting more than 1 week should receive antimicrobial prophylaxis until the neutropenia resolves to grade 2 or less. Antiviral and antifungal prophylaxis may also be considered with obinutuzumab therapy. Anemia (12%; grade 3 or 4, 5%) was reported in patients with previously untreated chronic lymphocytic leukemia who received obinutuzumab plus chlorambucil (n = 238) in a clinical study. New or worsening anemia (39% or less; grade 3 or 4, 10% or less), leukopenia (84% to 92%; grade 3 or 4, 35% to 49%), lymphopenia (80% to 97%; grade 3 or 4, 23% to 92%), neutropenia (76% to 84%; grade 3 or 4, 21% to 59%), and thrombocytopenia (68% or less; grade 3 or 4, 13% or less) occurred in patients who received obinutuzumab-containing therapy in clinical trials. One death due to neutropenia was reported with obinutuzumab therapy.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      neutropenia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      thrombocytopenia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      anemia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      leukopenia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      lymphopenia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      agranulocytosis
+      Severity
+      Severe
+    Headline
+    hyperkalemia, hypernatremia, hypocalcemia, hypokalemia, hyponatremia, hypophosphatemia
+    General Information
+    New or worsening hyperkalemia (20% to 33%; grade 3 or 4, 3% or less), hypernatremia (16% or less; grade 3 or 4, less than 1%), hypocalcemia (32% to 39%; grade 3 or 4, 3% or less), hypokalemia (14% or less; grade 3 or 4, 1% or less), hyponatremia (26% or less; grade 3 or 4, 7% or less), and hypophosphatemia (41% or less; grade 3 or 4, 8% or less) occurred in patients who received obinutuzumab-containing therapy in clinical trials.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hyperkalemia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hypocalcemia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hypokalemia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hyponatremia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hypophosphatemia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hypernatremia
+      Severity
+      Severe
+      Incidence To
+    Headline
+    arthralgia, back pain, bone pain, musculoskeletal pain
+    General Information
+    Musculoskeletal disorders including pain occurred in 18% to 54% of patients who received obinutuzumab-containing therapy in clinical trials. Arthralgia was reported in 16% of patients with newly diagnosed follicular lymphoma or marginal zone lymphoma who received obinutuzumab plus chemotherapy (n = 691) for 6 to 8 cycles followed by obinutuzumab monotherapy in a randomized, phase 3 trial. Musculoskeletal pain was reported in 20% of patients (n = 624) during obinutuzumab monotherapy. Back pain (5%; grade 3 or 4, less than 1%) was reported in patients with previously untreated chronic lymphocytic leukemia who received obinutuzumab plus chlorambucil (n = 238) in a clinical study. Arthralgia (12%; grade 3 or higher, less than 1%) and musculoskeletal pain (28%; grade 3 or higher, 1%) occurred in patients with relapsed or refractory indolent non-Hodgkin lymphoma (including follicular lymphoma) who received obinutuzumab plus bendamustine (n = 204) for 6 cycles in a randomized, phase 3 trial. Additionally, musculoskeletal pain was reported in 10% or more of patients (n = 158) during obinutuzumab monotherapy. The term musculoskeletal pain in this study included non-cardiac chest pain, bone pain, spinal pain, myalgia, back pain, neck pain, musculoskeletal discomfort, and extremity pain.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      musculoskeletal pain
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      back pain
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      arthralgia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      bone pain
+      Severity
+      Moderate
+    Headline
+    cardiotoxicity
+    General Information
+    Worsening of pre-existing cardiotoxicity, including fatal cardiac events have been reported in patients treated with obinutuzumab.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      cardiotoxicity
+      Severity
+      Severe
+    Headline
+    infection, pharyngitis, rhinitis, sinusitis
+    General Information
+    Infection has been reported in 38% to 82% (grade 3 or 4, 11% to 21%) of patients who received obinutuzumab-containing therapy in clinical trials. Monitor patients for signs and symptoms of infection; consider interrupting treatment in patients who develop an infection. Patients who experience grade 3 or 4 neutropenia lasting more than 1 week should receive antimicrobial prophylaxis until the neutropenia resolves to grade 2 or less. Consider antiviral and antifungal prophylaxis in patients with severe and prolonged (longer than 1 week) neutropenia. Naso-pharyngitis (6% or less; grade 3 or 4, less than 1%), urinary tract infection (13% or more; grade 3 or 4, 3% or less), lower respiratory tract infections (10% or more), upper respiratory tract infection (50% or less; grade 3 or 4, 3% or less), unspecified respiratory tract infection (14% or less; grade 3 or 4, 1% or less), sepsis (7% or less), herpes virus (18% or less; grade 3 or 4, 3% or less), and pneumonia (14% or less; grade 3 or 4, 7% or less) occurred in 38% to 82% (grade 3 or 4, 11% to 21%) of patients who received obinutuzumab-containing therapy in clinical trials. In 2 randomized trials, grade 3 to 5 infections occurred in 29% of follicular lymphoma patients who received obinutuzumab plus bendamustine (n = 204) and 15% of patients who received obinutuzumab plus a multi-agent chemotherapy regimen (n = 691); fatal infections were reported in 3% and less than 1% of patients, respectively. The grade 3 or 4 infection rates were less in obinutuzumab-treated patients who received GCSF prophylaxis compared with no prophylaxis (14% vs. 24%) in these 2 studies. Additionally, grade 3 to 5 infections were reported in up to 13% of patients during treatment with obinutuzumab monotherapy. The term respiratory tract infection included rhinovirus infection, laryngitis, nasopharyngitis, pharyngitis, rhinitis, tonsillitis, and sinusitis.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      infection
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      pharyngitis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      sinusitis
+      Severity
+      Minor
+      GSTerm Name
+      rhinitis
+      Severity
+      Minor
+    Headline
+    anorexia, constipation, diarrhea, GI perforation
+    General Information
+    Gastrointestinal adverse events including diarrhea (10% to 30%; grade 3 or 4, 3% or less), constipation (8% to 32%; grade 3 or 4, less than 1%), and decreased appetite/anorexia (14% or less; grade 3 or 4, less than 1%) were reported in patients who received obinutuzumab-containing therapy in clinical trials. In 1 study, the term diarrhea included gastroenteritis. GI perforation has been reported in patients (mainly non-Hodgkin lymphoma patients) who received obinutuzumab therapy.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      diarrhea
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      GI perforation
+      Severity
+      Severe
+      GSTerm Name
+      anorexia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      constipation
+      Severity
+      Moderate
+      Incidence To
+    Headline
+    antibody formation
+    General Information
+    Antibody formation has occurred with obinutuzumab therapy. Anti-obinutuzumab antibodies were found in 7% of subjects with previously untreated chronic lymphocytic leukemia who received obinutuzumab (n = 271) in a clinical trial. No anti-obinutuzumab antibodies were observed in subjects with indolent non-Hodgkin lymphoma who received obinutuzumab plus bendamustine (n = 194) in another clinical trial. Additionally, a single subject (0.2%) with newly diagnosed follicular lymphoma developed anti-obinutuzumab antibodies after treatment with obinutuzumab plus chemotherapy (n = 564) in a randomized, phase 3 trial. In lupus nephritis clinical trials, a total of 12 of 200 (6%) subjects had at least 1 anti-drug antibody-positive sample recorded at any time during the studies. Six (3%) subjects with anti-drug antibody-negative samples at baseline had a positive anti-drug antibody titer post-baseline (treatment-induced anti-drug antibody). None of the 12 subjects with positive anti-drug antibody titers at any time during the treatment period experienced an infusion-related reaction or hypersensitivity reaction during the studies. The neutralizing activity of the anti-obinutuzumab antibodies has not been assessed. Due to the low occurrence of anti-drug antibodies, the effect of these antibodies on the pharmacokinetics, pharmacodynamics, safety, and/or effectiveness of obinutuzumab is unknown.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      antibody formation
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+    Headline
+    cough
+    General Information
+    Cough was reported in 10% to 35% (grade 3 or 4, less than 1%) of patients who received obinutuzumab-containing therapy in clinical trials.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      cough
+      Severity
+      Severe
+      Incidence To
+    Headline
+    pruritus, rash, urticaria
+    General Information
+    Rash (17%; grade 3 or 4, less than 1%) and pruritus (11%) occurred in patients with relapsed or refractory indolent non-Hodgkin lymphoma (including follicular lymphoma) who received obinutuzumab plus bendamustine (n = 204) for 6 cycles followed by obinutuzumab monotherapy in a randomized, phase 3 trial. Additionally, rash was reported in 10% or more of patients (n = 158) during obinutuzumab monotherapy. The term rash included urticaria, skin reaction, and dermatitis. Pruritus occurred in 11% (grade 3 or 4, less than 1%) of patients with newly diagnosed follicular lymphoma or marginal zone lymphoma who received obinutuzumab plus chemotherapy (n = 691) for 6 to 8 cycles followed by obinutuzumab monotherapy in a randomized, phase 3 trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      pruritus
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      rash
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      urticaria
+      Severity
+      Minor
+    Headline
+    fever, hyperthermia
+    General Information
+    Fever was reported in 19% or less (grade 3 or 4, less than 1%) of patients who received obinutuzumab-containing therapy in clinical trials. In 1 study, the term fever included hyperthermia.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      fever
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hyperthermia
+      Severity
+      Moderate
+    Headline
+    asthenia, fatigue, lethargy
+    General Information
+    Fatigue (40%; grade 3 or higher, 3%) occurred in patients with relapsed or refractory indolent non-Hodgkin lymphoma (including follicular lymphoma) who received obinutuzumab plus bendamustine (n = 204) for 6 cycles followed by obinutuzumab monotherapy in a randomized, phase 3 trial. Additionally, fatigue was reported in 10% or more patients (n = 158) during obinutuzumab monotherapy. The term fatigue included asthenia and lethargy.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      asthenia
+      Severity
+      Minor
+      GSTerm Name
+      fatigue
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      lethargy
+      Severity
+      Minor
+    Headline
+    headache, migraine
+    General Information
+    Headache including migraine (18%; grade 3 or higher, less than 1%) occurred in patients with newly diagnosed follicular lymphoma or marginal zone lymphoma who received obinutuzumab plus chemotherapy (n = 691) for 6 to 8 cycles followed by obinutuzumab monotherapy in a randomized, phase 3 trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      migraine
+      Severity
+      Moderate
+      GSTerm Name
+      headache
+      Severity
+      Moderate
+      Incidence To
+    Headline
+    bronchospasm, chills, dizziness, dyspnea, flushing, hypertension, hypotension, infusion-related reactions, laryngeal edema, nausea, sinus tachycardia, throat irritation, vomiting, wheezing
+    General Information
+    Infusion-related reactions were reported in 58% to 72% (grade 3 or higher, 5% to 20%) of subjects who received obinutuzumab-containing therapy at the standard infusion rate in chronic lymphocytic leukemia (CLL) and non-Hodgkin lymphoma (NHL) clinical trials; most reactions occurred with the first obinutuzumab infusion. The safety of a shortened infusion duration of obinutuzumab (approximately 90 minutes) was evaluated in subjects with previously untreated FL in a single-arm study. An infusion reaction developed in 58% (grade 3 or higher, 5%) of subjects who received the standard infusion rate during the first cycle; infusion reactions occurred in 10% of subjects who received the shorter infusion in cycle 2, and in a single subject (grade 3, 1%) who received the shorter infusion after cycle 2. The most frequently reported infusion-related symptoms in subjects with CLL and NHL include nausea, fatigue, chest discomfort, dyspnea, dizziness, vomiting, diarrhea, rash, hypertension, hypotension, flushing, headache, pyrexia, and chills. Other infusion-related symptoms include sinus tachycardia, bronchospasm, larynx and throat irritation, wheezing, and laryngeal edema. In lupus nephritis clinical trials, infusion-related reactions were reported in 14% (grade 3 or higher, 2%) of obinutuzumab-treated subjects. Infusion-related reactions were reported most commonly with the first infusion (11%), decreased during the second infusion (3%), and further decreased with subsequent infusions (0.5% during the sixth infusion). The infusion-related reactions were generally mild to moderate and could be managed by slowing or temporarily stopping the infusion. Severe and life-threatening infusion-related reactions requiring symptomatic treatment were also reported. The most common infusion-related reaction signs or symptoms reported in lupus nephritis clinical trials included headache, nausea, vomiting, pyrexia, and tachycardia. Premedicate individuals with acetaminophen, antihistamine, and a glucocorticoid prior to the obinutuzumab infusion. Monitor for signs and symptoms of infusion-related reactions during the entire infusion. An infusion rate reduction, infusion interruption, or therapy discontinuation may be necessary depending on the severity of the infusion-related reaction; institute medical management (e.g., glucocorticoids, epinephrine, bronchodilators, and/or oxygen) as indicated. In individuals on antihypertensive medications, consider holding the antihypertensive therapy for 12 hours prior to, during, and for an hour after the obinutuzumab infusion. Consider the benefits vs. the risks of withholding antihypertensive therapy in individuals at risk for hypertensive crisis.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      vomiting
+      Severity
+      Minor
+      GSTerm Name
+      sinus tachycardia
+      Severity
+      Moderate
+      GSTerm Name
+      nausea
+      Severity
+      Minor
+      GSTerm Name
+      hypotension
+      Severity
+      Moderate
+      GSTerm Name
+      dyspnea
+      Severity
+      Moderate
+      GSTerm Name
+      bronchospasm
+      Severity
+      Severe
+      GSTerm Name
+      dizziness
+      Severity
+      Minor
+      GSTerm Name
+      wheezing
+      Severity
+      Moderate
+      GSTerm Name
+      throat irritation
+      Severity
+      Minor
+      GSTerm Name
+      laryngeal edema
+      Severity
+      Severe
+      GSTerm Name
+      infusion-related reactions
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypertension
+      Severity
+      Moderate
+      GSTerm Name
+      flushing
+      Severity
+      Minor
+      GSTerm Name
+      chills
+      Severity
+      Minor
+    Headline
+    insomnia
+    General Information
+    Insomnia (15%; grade 3 or higher, less than 1%) occurred in patients with newly diagnosed follicular lymphoma or marginal zone lymphoma who received obinutuzumab plus chemotherapy (n = 691) for 6 to 8 cycles followed by obinutuzumab monotherapy in a randomized, phase 3 trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      insomnia
+      Severity
+      Severe
+      Incidence To
+    Headline
+    chest pain (unspecified), serum sickness
+    General Information
+    Hypersensitivity reactions (e.g., dyspnea, bronchospasm, hypotension, urticaria, and tachycardia) have been reported in patients who received obinutuzumab therapy. Late-onset hypersensitivity diagnosed as serum sickness has been reported in post-marketing surveillance. Symptoms of serum sickness may include chest pain (unspecified), diffuse arthralgia, and fever. It may be difficult to clinically distinguish hypersensitivity reactions from infusion-related reactions; hypersensitivity often occurs after previous obinutuzumab exposure and rarely occurs with the firs infusion. If a hypersensitivity reaction is suspected, hold the infusion; do not retreat patients who have a hypersensitivity reaction including serum sickness with obinutuzumab therapy.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      serum sickness
+      Severity
+      Severe
+      GSTerm Name
+      chest pain (unspecified)
+      Severity
+      Moderate
+    Headline
+    hepatitis B exacerbation
+    General Information
+    Hepatitis B virus (HBV) reactivation/hepatitis B exacerbation resulting in fulminant hepatitis, hepatic failure, and death may occur during or following treatment with an anti-CD20 antibody, such as obinutuzumab. Monitor patients who have had HBV for signs and symptoms of HBV reactivation during and for several months after obinutuzumab therapy. Discontinue obinutuzumab therapy (and concomitant chemotherapy if applicable) in patients who develop HBV reactivation and start appropriate treatment. There is insufficient data regarding the safety of resuming obinutuzumab in patients who had a reactivation of HBV during therapy.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hepatitis B exacerbation
+      Severity
+      Severe
+    Headline
+    disseminated intravascular coagulation
+    General Information
+    Fatal and severe disseminated intravascular coagulation (DIC) was reported in 0.3% of obinutuzumab-treated subjects with chronic lymphocytic leukemia and non-Hodgkin lymphoma; all events occurred within 1 to 2 days after the first infusion. The majority of cases involved changes in platelet counts and coagulation parameters after the first infusion, with spontaneous resolution by day 8. In some cases, DIC was associated with infusion-related reactions, tumor lysis syndrome, or both. Evaluate potential causes in individuals with suspected DIC and monitor coagulation parameters, platelet counts, and for signs and symptoms of bleeding or thrombosis. Manage according to standard guidelines for DIC; supportive care including transfusion of blood products and other medical management may be necessary.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      disseminated intravascular coagulation
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+
+Description
+  Text
+  Obinutuzumab is a CD20-directed cytolytic antibody. It is a monoclonal antibody that binds to the CD20 molecule found on pre B- and mature B-lymphocytes. Obinutuzumab is indicated for the treatment of previously untreated chronic lymphocytic leukemia (CLL) in combination with chlorambucil, for treating relapsed or refractory follicular lymphoma (FL) in combination with bendamustine, and for previously untreated bulky stage II, stage III, or IV FL in combination with chemotherapy. Individuals with FL who respond to combination therapy may also receive up to 2 years of obinutuzumab monotherapy. Obinutuzumab is also indicated for active lupus nephritis in individuals receiving standard therapy. Obinutuzumab helps improve kidney function, increases the likelihood of achieving a complete renal response, lowers the risk of flares, and reduces proteinuria in people with lupus nephritis. In a phase 3 trial, obinutuzumab was evaluated in adults with active systemic lupus erythematosus (SLE) without proliferative or membranous lupus nephritis, and appears to be effective when used off-label for SLE along with standard therapy. When added to standard therapy, obinutuzumab achieved a significantly higher Week 52 SLE Responder Index 4 (SRI-4) response than placebo (76.7% vs. 53.5%; p less than 0.001) with additional improvements across secondary end points. Hepatitis B virus reactivation resulting in fulminant hepatitis, hepatic failure, and death have been reported with obinutuzumab. Obinutuzumab was FDA-approved in November 2013.
+
+Mechanism Of Action
+  Text
+  Obinutuzumab is a humanized monoclonal antibody derived from the murine Bly-1 antibody that binds specifically to the CD20 antigen on pre B- and mature B-lymphocytes. Obinutuzumab is glycoengineered, which increases CD16A binding by 7 to 10 fold, improving antibody dependent cellular cytotoxicity (ADCC). Anti-CD20 monoclonal antibodies have two subtypes: type I and type II agents. Type I agents (rituximab-like) redistribute CD20 into membrane lipid rafts and have high complement dependent cytotoxicity, while type II agents (tositumomab-like) do not activate complement and cause direct, programmed cell death. Obinutuzumab is a type II anti-CD20 antibody, indicating that cell death is nonapoptotic, independent of caspase activity, and correlated with homotypic adhesion. After binding to CD20, obinutuzumab causes redistribution of the actin cytoskeleton which triggers enlargement of the lysosomal compartment. This results in lysosomal membrane permeabilization (LMP), causing cathepsin B release into the cytosol and nonapoptotic cell death. This mechanism is independent of BCL-2 and caspase activation, which potentially circumvents resistance to chemotherapy-induced apoptosis. In summary, obinutuzumab causes lysis of B cells by engaging immune effector cell mechanisms (antibody-dependent cellular cytotoxicity and antibody-dependent cellular phagocytosis), activating intracellular death signaling pathways, and to a lesser extent, activation of the complement cascade.
+Pharmacodynamics
+CLL
+Obinutuzumab causes CD19 B-cell depletion (CD19 B-cell counts less than 0.07 x 109 cells/L). Initial recovery occurred at approximately 9 months after the last obinutuzumab dose in some individuals; at 18 months of follow-up, B-cell depletion persists in some individuals. B-cell depletion in the peripheral blood is not directly correlated with B-cell depletion in solid organs or malignancies, and has not been directly correlated to clinical response.
+Lupus Nephritis (LN)
+In individuals with LN, treatment with obinutuzumab resulted in rapid and sustained B-cell depletion, with total peripheral CD19+ B-cell counts falling below 10 cells/mcL in 99% of subjects by Week 4 and remaining below this threshold in 95% at Week 76. Reductions in naive B cells, memory B cells, and plasmablasts/plasma cells were observed by Week 4 and persisted through Week 76. Treatment also led to early and sustained improvements in complement (C3 and C4) and anti-double-stranded DNA (anti-dsDNA) antibody concentrations. By Week 76, normalization of C3 and C4 occurred in 62% and 88% of individuals receiving obinutuzumab, respectively, compared with 29% and 55% in the placebo group; 56% of obinutuzumab-treated subjects seroconverted for anti-dsDNA compared with 16% in the placebo group. The clinical relevance of these pharmacodynamic changes has not been established.
+
+Pharmacokinetics
+  Route Specific Pharmacokinetics
+    Name
+    Intravenous Route
+    Description
+    In a pharmacokinetic analysis of subjects receiving standard obinutuzumab dosing for chronic lymphocytic leukemia (CLL), follicular lymphoma (FL), or lupus nephritis (LN), the geometric mean Cmax ranged from 466.3 to 676.4 mcg/mL (coefficient of variation [CV] up to 35%), and the geometric mean AUC ranged from 8,701 to 11,362 mcg/mL x day (CV up to 51%).
+  Special Populations
+    Name
+    Hepatic Impairment
+    Description
+    Obinutuzumab pharmacokinetics has not been studied in people with hepatic impairment.
+    Name
+    Renal Impairment
+    Description
+    Lupus Nephritis (LN)
+The population pharmacokinetic analysis of obinutuzumab showed that creatinine clearance (median [range] 108 [28.9 to 282 mL/minute]) does not affect the pharmacokinetics in people with LN. The pharmacokinetic parameters of obinutuzumab in LN patients with mild or moderate renal impairment were similar to subjects with normal kidney function. Safety and efficacy have not been formally studied in people with LN and severe renal impairment.
+Chronic Lymphocytic Leukemia (CLL) and Follicular Lymphoma (FL)
+Baseline creatinine clearance did not affect the pharmacokinetics obinutuzumab; in people with CLL or FL and a CrCl 30 mL/minute or less, the pharmacokinetic parameters were unaffected.
+    Name
+    Geriatric
+    Description
+    Age (range, 22 to 89 years) does not affect the pharmacokinetics of obinutuzumab.
+    Name
+    Obesity
+    Description
+    Increased body weight is associated with an increase in obintuzumab volume of distribution and clearance; however, a dose adjustment is not necessary.
+  Text
+  Obinutuzumab is given as an intravenous infusion. It has both linear and non-linear (time-dependent) clearance pathways; the impact of non-linear clearance becomes less significant as treatment continues. In chronic lymphocytic leukemia (CLL) and non-Hodgkin-lymphoma (NHL), the reduction in non-linear clearance over time is consistent with target-mediated drug disposition and CD20 target saturation. In lupus nephritis (LN), the decrease may also reflect reduced CD20 expression and improvement in proteinuria with treatment. Following obinutuzumab therapy in individuals with CLL or NHL, the geometric mean volume of distribution (Vd) at steady-state was approximately 4.1 to 4.3 L, clearance ranged from 0.08 to 0.11 L/day, and the terminal half-life was 25.5 to 35.3 days, based on population pharmacokinetic analyzes (coefficient of variance: Vd 20% to 21%, clearance 41% to 53%, and half-life 35% to 48%). Similar parameters were observed in individuals with lupus nephritis with a steady-state clearance of approximately 0.13 L/day and a median elimination half-life of 22.4 days.
+ 
+Affected cytochrome P450 isoenzymes and drug transporters: None
+
+Administration
+  General Information
+  For storage information, see the specific product information within the How Supplied section.
+Emetic Risk
+Minimal
+Premedication
+Administer prophylactic hydration and anti-hyperuricemic agents (e.g., allopurinol or rasburicase) to individuals at high risk for tumor lysis syndrome in chronic lymphocytic leukemia (CLL) or follicular lymphoma (FL) (e.g., high tumor burden, high circulating lymphocyte count, or renal impairment).
+Cycle 1, Days 1, 2 for Chronic Lymphocytic Leukemia (CLL) and Cycle 1 Day 1 for Follicular Lymphoma (FL)
+glucocorticoid IV (i.e., dexamethasone 20 mg or methylprednisolone 80 mg) completed at least 1 hour prior to obinutuzumab; may be replaced with an oral medication if given on the same day as a glucocorticoid-containing chemotherapy regimen
+acetaminophen 650 to 1,000 mg PO at least 30 minutes before infusion
+antihistamine (e.g., diphenhydramine 50 mg) at least 30 minutes before infusion
+All Subsequent Infusions for CLL or FL
+acetaminophen 650 to 1,000 mg PO (all individuals) at least 30 minutes before infusion
+antihistamine (only in individuals who had a grade 1 to 3 infusion reaction with the previous infusion) at least 30 minutes before infusion
+glucocorticoid IV (only in individuals who had a grade 3 infusion reaction with the previous dose or who have a lymphocyte count of greater than 25 x 10^9 cells/L prior to the next treatment) completed at least 1 hour prior to infusion
+Lupus Nephritis
+glucocorticoid IV (e.g., 80 mg methylprednisolone) completed at least 30 to 60 minutes before infusion. Beginning with Dose 6, administer IV corticosteroid only to those who have experienced an infusion-related reaction with the previous dose.
+650 mg to 1,000 mg acetaminophen completed at least 30 to 60 minutes before infusion
+antihistamine (e.g., diphenhydramine 50 mg) completed at least 30 to 60 minutes before infusion
+  Route Specific Administrations
+    Administration Details
+      Name
+      Intravenous Administration
+      Description
+      Administer as an IV infusion only; do not administer as an IV push or bolus.
+Missed dose: If a planned dose is missed, administer the missed dose as soon as possible.
+In individuals with chronic lymphocytic leukemia (CLL) or follicular lymphoma (FL), adjust the dosing schedule accordingly to maintain the time interval between cycles when obinutuzumab is used in combination with chemotherapy.
+If appropriate, individuals with CLL who do not complete the Day 1 cycle 1 dose may proceed to the Day 2 cycle 1 dose.
+In individuals with FL receiving obinutuzumab monotherapy, maintain the original dosing schedule for subsequent doses if a dose is missed or delayed.
+In individuals with lupus nephritis, adjust the schedule of administration to maintain the appropriate interval between doses.
+Dilution
+Add the calculated dose to a PVC or non-PVC polyolefin infusion bag containing 0.9% Sodium Chloride Injection to yield a final concentration of 0.4 to 4 mg/mL.
+Mix diluted solution by gentle inversion; do not shake or freeze.
+100-mg dose (CLL only): Withdraw 4 mL from the obinutuzumab 25 mg/mL vial and dilute in 100 mL of 0.9% Sodium Chloride Injection.
+900-mg dose (CLL only): Withdraw 36 mL from the obinutuzumab 25 mg/mL vial and dilute in 250 mL of 0.9% Sodium Chloride Injection.
+Prepare Day 1 (100 mg) and Day 2 (900 mg) infusion bags (for CLL only) at the same time using 1 vial (1,000 mg/40 mL) on Day 1.
+1,000-mg dose: Withdraw 40 mL from the obinutuzumab 25 mg/mL vial and dilute in 250 mL of 0.9% Sodium Chloride Injection.
+Storage: Use immediately if possible; however, diluted solutions may be stored in a refrigerator at 2 to 8 degrees C (36 to 46 degrees F) for up to 24 hours prior to use. Allow the diluted solution to warm to room temperature before administration.
+Intermittent Infusion
+Administer only as an intravenous infusion through a dedicated line; do not mix with other drugs.
+Closely monitor individuals during the infusion for signs or symptoms of an infusion-related reaction; stop the infusion if an individual develops a reaction and institute medical management as needed.
+If a grade 3 infusion-related reaction occurs, upon resolution of symptoms, consider restarting obinutuzumab infusion at no more than one-half the previous rate (the rate being used at the time that the infusion-related reaction occurred), and if not further infusion-related reaction symptoms, infusion rate escalation may resume at the increments and intervals as appropriate for the treatment dose. Permanently discontinue treatment if individuals experience a grade 3 or higher infusion-related reaction at rechallenge.
+If a grade 4 (life-threatening) infusion-related reaction occurs, stop infusion immediately and permanently discontinue obinutuzumab.
+CLL
+100-mg dose: Administer at an initial rate of 25 mg/hour over 4 hours. Do not increase the infusion rate.
+900-mg dose: Administer at an initial rate of 50 mg/hour for 30 minutes. If no infusion-related reaction occurred during the 100-mg infusion; increase the infusion rate by 50 mg/hour every 30 minutes to a maximum rate of 400 mg/hour. If an infusion-related reaction occurred during the previous infusion, start at 25 mg/hour; increase the infusion rate by 50 mg/hour every 30 minutes to a maximum rate of 400 mg/hour.
+1000-mg dose: Administer at an initial rate of 100 mg/hour for 30 minutes if no infusion-related reaction occurred and the final rate of infusion was at least 100 mg/hour during the previous infusions. Increase the infusion rate by 100 mg/hour every 30 minutes to a maximum rate of 400 mg/hour. If an infusion-related reaction occurred during the previous infusion, start at 50 mg/hour; increase the infusion rate by 50 mg/hour every 30 minutes to a maximum rate of 400 mg/hour.
+FL
+Cycle 1, Day 1: Administer at an initial rate of 50 mg/hour for 30 minutes. If no infusion-related reaction occurs, increase the infusion rate by 50 mg/hour every 30 minutes to a maximum rate of 400 mg/hour.
+Cycle 1, Days 8 and 15 (standard infusion rate): If a grade 1 infusion-related reaction or no infusion-related reaction occurred during the previous infusion and the final infusion rate was 100 mg/hour or faster, administer at an initial rate of 100 mg/hour; increase the infusion rate by 100 mg/hour every 30 minutes to a maximum rate of 400 mg/hour. If a grade 2 or higher infusion-related reaction occurred during the previous infusion, start at 50 mg/hour; increase the infusion rate by 50 mg/hour every 30 minutes to a maximum rate of 400 mg/hour.
+Subsequent cycles: If a grade 3 or higher infusion-related reaction does not occur in cycle 1, consider a 90-minute infusion for subsequent doses: administer at an initial rate of 100 mg/hour for 30 minutes and then increase the rate to 900 mg/hour for approximately 60 minutes. If an infusion-related reaction of grade 1 or 2 with ongoing symptoms or a grade 3 or higher infusion-related reaction occurred during the previous approximately 90-minute infusion, resume the standard infusion rate.
+LN
+Standard Infusion
+Dose 1: Administer at an initial rate of 50 mg/hour. The infusion rate can be increased by 50 mg/hour every 30 minutes to a maximum of 400 mg/hour.
+If a grade 1 to 2 infusion-related reaction occurs, decrease the infusion rate to one-half the rate that was used at the time of the reaction and treat symptoms. Keep the infusion rate at the reduced rate for an additional 30 minutes upon resolution of symptoms. If no further symptoms of an infusion-related reaction, infusion rate escalation may resume at the increments and intervals as appropriate for the treatment dose.
+Subsequent doses: Administer at a rate of 100 mg/hour. The infusion rate can be increased at a rate of 100 mg/hour every 30 minutes to a maximum of 400 mg/hour.
+90-minute Infusion
+Dose 2 and subsequent doses: Individuals who do not experience grade 3 or more infusion-related reactions during the previous infusion may receive obinutuzumab infusion over approximately 90 minutes, with continued premedication.
+Administer at a rate of 100 mg/hour for 30 minutes, then 900 mg/hour for approximately 60 minutes. If an infusion-related reaction of grade 1 or 2 with ongoing symptoms or a grade 3 or higher infusion-related reaction occurred during the previous approximately 90-minute infusion, resume the standard infusion rate.
+    Name
+    Injectable Administration
+    Description
+    Visually inspect parenteral products for particulate matter and discoloration prior to administration whenever solution and container permit.
+
+Maximum Dosage Limits
+  Age Groups
+    Name
+    Adults
+    Max Dosage
+    1000 mg/dose IV.
+    Name
+    Geriatric
+    Max Dosage
+    1000 mg/dose IV.
+    Name
+    Adolescents
+    Max Dosage
+    Safety and efficacy have not been established.
+    Name
+    Children
+    Max Dosage
+    Safety and efficacy have not been established.
+    Name
+    Infants
+    Max Dosage
+    Safety and efficacy have not been established.
+    Name
+    Neonates
+    Max Dosage
+    Safety and efficacy have not been established.
+
+Dosage Adjustment Guidelines
+  Hepatic Impairment
+  Obinutuzumab has not been studied in patients with hepatic impairment. Specific guidelines for dosage adjustments in hepatic impairment are not available.
+  Renal Impairment
+  Obinutuzumab pharmacokinetics were not affected in patients with a baseline creatinine clearance (CrCl) as low as 30 mL/min; it appears that no dosage adjustments are needed. Obinutuzumab has not been studied in patients with a baseline CrCl less than 30 mL/min. Specific guidelines for dosage adjustments in renal impairment are not available.

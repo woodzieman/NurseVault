@@ -1,0 +1,538 @@
+=== Obesity (Merck Manual Professional) ===
+Section: Endocrinology > Obesity and the Metabolic Syndrome
+Source: https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/obesity-and-the-metabolic-syndrome/obesity
+Retrieved: 2026-09-25
+
+(See also Obesity in Adolescents.)
+
+The prevalence of obesity (based on BMI) in the United States is high in all age groups and has nearly tripled since the obesity epidemic began in the late 1970s (1, 2); it is reported to be around 40% in adults (3). Similar trends have been reported worldwide in adults as well as children and adolescents (4).
+
+In the United States, obesity and its complications cause as many as 500,000 premature deaths each year (5). Also, obesity is associated with greater job absenteeism, loss of productivity, and higher health care costs. The World Obesity Federation estimates that by 2060, the economic impact of overweight and obesity will rise to over 3% of the gross domestic product globally, with greater stress on lower-resource countries (6).
+
+Although obesity has traditionally been defined by BMI thresholds, the clinical criteria for obesity are evolving to include other measures of excess adiposity in association with impaired organ and functional status (7).
+
+General references
+
+1. Hales CM, Carroll MD, Fryar CD, et al. Prevalence of obesity and severe obesity among adults: United States, 2017–2018. NCHS Data Brief. 2020;(360):1-8.
+
+2. Hales CM, Fryar CD, Carroll MD, et al: Trends in obesity and severe obesity prevalence in US youth and adults by sex and age, 2007-2008 to 2015-2016. JAMA 319 (16):1723–1725, 2018. doi:10.1001/jama.2018.3060.
+
+3. Emmerich SD, Fryar CD, Stierman B, et al. Obesity and Severe Obesity Prevalence in Adults: United States, August 2021-August 2023. NCHS Data Brief. 2024;(508):10.15620/cdc/159281. doi:10.15620/cdc/159281
+
+4. NCD Risk Factor Collaboration (NCD-RisC). Worldwide trends in underweight and obesity from 1990 to 2022: a pooled analysis of 3663 population-representative studies with 222 million children, adolescents, and adults. Lancet. 2024;403(10431):1027-1050. doi:10.1016/S0140-6736(23)02750-2
+
+5. Ward ZJ, Willett WC, Hu FB, et al. Excess mortality associated with elevated body weight in the USA by state and demographic subgroup: A modelling study. EClinicalMedicine. 2022;48:101429. Published 2022 Apr 28. doi:10.1016/j.eclinm.2022.101429
+
+6. World Obesity Federation. The economic impact of overweight & obesity 2nd edition with estimates for 161 countries. Global Obesity Observatory. Published 2022. Accessed May 29, 2025.
+
+7. Rubino F, Cummings DE, Eckel RH, et al. Definition and diagnostic criteria of clinical obesity [published correction appears in Lancet Diabetes Endocrinol. 2025;13(3):221-262. doi:10.1016/S2213-8587(24)00316-4
+
+Etiology of Obesity
+
+Causes of obesity are multifactorial and include genetic predisposition and behavioral, metabolic, and hormonal influences (1). Ultimately, obesity results from a long-standing imbalance between energy intake and energy expenditure, including energy utilization for basic metabolic processes and energy expenditure from physical activity. However, many other factors appear to increase a person's predisposition to obesity, including endocrine disruptors (eg, bisphenol A [BPA]), gut microbiome, sleep/wake cycles, and environmental factors.
+
+Genetic factors
+
+Heritability of BMI is high across different age groups, ranging from 40 to 60% (2). With few exceptions, obesity does not follow a simple Mendelian pattern of inheritance but is rather a complex interplay of multiple loci. Genetic factors may affect the many signaling molecules and receptors used by parts of the hypothalamus and gastrointestinal tract to regulate food intake (see sidebar Pathways Regulating Food Intake). For example, the ob gene encodes for the production of leptin which regulates appetite and energy expenditure (3). Genome studies have helped define signaling pathways implicated in the predisposition to obesity. Differences in expression of signaling molecules within the leptin-melanocortin pathway (eg, the melanocortin-4 receptor) have been particularly associated with central control of appetite. Genetic factors can be inherited, and genetic expressions may vary as a result of maternal conditions during fetal development (4). Environmental conditions such as nutrition, sleep patterns, and alcohol consumption alter gene expression via epigenetics in various metabolic pathways; this effect suggests possible reversibility of environmental factors and refinement of therapeutic targets.
+
+Pathways Regulating Food Intake
+
+Preabsorptive and postabsorptive signals from the gastrointestinal tract and changes in plasma nutrient levels provide short- and long-term feedback to regulate food intake:
+
+Gastrointestinal hormones (eg, glucagon-like peptide 1 [GLP-1], cholecystokinin [CCK], peptide YY [PYY]) reduce food intake.
+
+Ghrelin, secreted primarily by the stomach, increases food intake.
+
+Leptin, secreted from adipose tissue, informs the brain how much fat is stored. Leptin suppresses appetite in normal-weight people, but high leptin levels correlate with increased body fat. Leptin levels can decrease when weight is lost and then send a hunger signal to the brain.
+
+The hypothalamus integrates various signals involved in the regulation of energy balance and then activates pathways that increase or decrease food intake:
+
+Neuropeptide Y (NPY), agouti-related peptide (ARP), alpha-melanocyte–stimulating hormone (alpha-MSH), cocaine- and amphetamine-related transcript (CART), orexin, and melanin-concentrating hormone (MCH) increase food intake.
+
+Corticotropic hormone (CRH) and urocortin decrease it.
+
+The limbic system (amygdala, hippocampus, and prefrontal cortex) mediates the hedonistic pathway for food intake, including cravings, habit, and reward. The desire to eat can override homeostatic pathways because emotion and stress have been shown to affect regulatory peptides such as ghrelin. These effects are mediated by dopamine.
+
+Genetic factors also regulate energy expenditure, including basal metabolic rate, diet-induced thermogenesis, and nonvoluntary activity–associated thermogenesis. Genetic factors may have a greater effect on the distribution of body fat, particularly abdominal fat (which increases the risk of metabolic syndrome), than on the amount of body fat.
+
+Lifestyle and behavioral factors
+
+Weight is gained when caloric intake exceeds energy needs. Important determinants of energy intake include:
+
+Portion sizes
+
+The energy density of the food
+
+Systemic drivers of lifestyle and behavioral factors are rooted in community culture and economic systems. Communities that have limited access to fresh fruits and vegetables and higher rates of soda consumption tend to have higher rates of obesity (5). High-calorie, energy-dense foods (eg, processed foods), diets high in refined carbohydrates, and consumption of soft drinks, fruit juices, and alcohol promote weight gain.
+
+Access to safe recreational spaces (eg, pedestrian and biking infrastructure, parks) and availability of public transportation can encourage physical activity and help protect against obesity.
+
+Regulatory factors
+
+Prenatal maternal obesity, prenatal maternal smoking, excessive weight gain during pregnancy (6) (see table Guidelines for Weight Gain During Pregnancy), and intrauterine growth restriction can disturb weight regulation and contribute to weight gain during childhood and later. Obesity that persists beyond early childhood makes weight loss in later life more difficult.
+
+The composition of the gut microbiome also appears to be an important factor; early use of antibiotics and other factors that alter the composition of the gut microbiome may promote weight gain and obesity later in life (7).
+
+Early exposure to obesogens, a type of endocrine-disrupting chemical (eg, cigarette smoke, bisphenol A, air pollution, flame retardants, phthalates, polychlorinated biphenyls) can alter metabolic set points through epigenetics or nuclear activation, increasing the propensity of developing obesity (8).
+
+Adverse childhood events or abuse in early childhood increase risk of several disorders, including obesity. The Centers for Disease Control and Prevention's adverse childhood events study demonstrated that childhood history of verbal, physical, or sexual abuse predicted an increase of 8% in risk of a BMI ≥ 30 and 17.3% in risk of a BMI ≥ 40. Certain types of abuse carried the strongest risk. For example, frequent verbal abuse had the largest increase in risk (88%) of a BMI > 40. Being often hit and injured increased the risk of BMI > 30 by 71% (9). Proposed mechanisms for the association between abuse and obesity include neurobiologic and epigenetic phenomena (10).
+
+Insufficient sleep (generally considered < 7 hours/night) can result in weight gain by changing the levels of satiety hormones that promote hunger (11). In the Wisconsin Sleep Cohort Study involving 1024 healthy adults, a decrease in sleep was proportional to an increase in BMI. In adults, BMI increased by 3.6% when average sleep time decreased from 8 hours to 5 hours (12).
+
+Smoking cessation is associated with weight gain and can deter patients from quitting smoking (13).
+
+Medications, including glucocorticoids, some antidepressants (eg, tricyclics, monoamine oxidase inhibitors [MAOIs]), some anticonvulsant medications (eg, valproic acid), and atypical antipsychotic medications (eg, risperidone) can cause weight gain (14).
+
+Uncommonly, weight gain is caused by one of the following disorders:
+
+Alternations in brain structure and function caused by a tumor (especially a craniopharyngioma) or an infection (particularly those affecting the hypothalamus), which can stimulate consumption of excess calories
+
+Hyperinsulinism due to pancreatic tumors
+
+Hypercortisolism due to Cushing syndrome, which causes predominantly abdominal obesity
+
+Hypothyroidism (rarely a cause of substantial weight gain)
+
+Hypogonadism
+
+Eating disorders
+
+At least 2 pathologic eating patterns may be associated with obesity:
+
+Binge eating disorder is consumption of large amounts of food quickly with a subjective sense of loss of control during the binge and distress after it. This disorder does not include compensatory behaviors, such as vomiting. Binge eating disorder occurs in approximately 1.5% of women and 0.3% of men during their lifetime worldwide (15). Obesity is usually severe, large amounts of weight are frequently gained or lost, and pronounced psychological disturbances are present.
+
+Night-eating syndrome consists of morning anorexia, evening hyperphagia, and insomnia, with eating in the middle of the night. At least 25 to 50% of daily intake occurs after the evening meal. Approximately 10% of people seeking treatment for severe obesity may have this disorder (16). Rarely, a similar disorder is induced by use of a hypnotic such as zolpidem.
+
+Similar but less extreme patterns probably contribute to excess weight gain in more people. For example, eating after the evening meal may contribute to excess weight gain in many people who do not have night-eating syndrome.
+
+Etiology references
+
+1. Mahmoud AM: An overview of epigenetics in obesity: The role of lifestyle and therapeutic interventions. Int J Mol Sci 2022;23(3):1341. doi: 10.3390/ijms23031341
+
+2. Nan C, Guo B, Warner C, et al. Heritability of body mass index in pre-adolescence, young adulthood and late adulthood. Eur J Epidemiol. 2012;27(4):247–253. doi: 10.1007/s10654-012-9678-6
+
+3. Núñez-Sánchez MÁ, Jiménez-Méndez A, Suárez-Cortés M, et al. Inherited Epigenetic Hallmarks of Childhood Obesity Derived from Prenatal Exposure to Obesogens. Int J Environ Res Public Health. 2023;20(6):4711. Published 2023 Mar 7. doi:10.3390/ijerph20064711
+
+4. Shehab MJ, Al-Mofarji ST, Mahdi BM, et al. The correlation between obesity and leptin signaling pathways. Cytokine. 2025;192:156970. doi:10.1016/j.cyto.2025.156970
+
+5. Althoff T, Nilforoshan H, Hua J, et al. Large-scale diet tracking data reveal disparate associations between food environment and diet. Nat Commun. 2022;13(1):267. Published 2022 Jan 18. doi:10.1038/s41467-021-27522-y
+
+6. Mannino A, Sarapis K, Moschonis G. The Effect of Maternal Overweight and Obesity Pre-Pregnancy and During Childhood in the Development of Obesity in Children and Adolescents: A Systematic Literature Review. Nutrients. 2022;14(23):5125. Published 2022 Dec 2. doi:10.3390/nu14235125
+
+7.Ajslev TA, Andersen CS, Gamborg M, et al, Childhood overweight after establishment of the gut microbiota: The role of delivery mode, pre-pregnancy weight and early administration of antibiotics. Int J Obes. 2011;35(4): 522–529. doi: 10.1038/ijo.2011.27
+
+8. Heindel JJ, Newbold R, Schug TT, Endocrine disruptors and obesity. Nat Rev Endocrinol. 2015;11(11):653–661. doi: 10.1038/nrendo.2015.163
+
+9. Williamson DF, Thompson TJ, Anda RF, et al: Body weight and obesity in adults and self-reported abuse in childhood. Int J Obes Relat Metab Disord.  2022;26(8):1075–1082. doi: 10.1038/sj.ijo.0802038
+
+10. Anda RF, Felitti VJ, Bremner JD, et al. The enduring effects of abuse and related adverse experiences in childhood. A convergence of evidence from neurobiology and epidemiology. Eur Arch Psychiatry Clin Neurosci. 2006;256(3):174–186, 2006. doi: 10.1007/s00406-005-0624-4
+
+11. St-Onge MP, Grandner MA, Brown D, et al. Sleep Duration and Quality: Impact on Lifestyle Behaviors and Cardiometabolic Health: A Scientific Statement From the American Heart Association. Circulation. 2016;134(18):e367-e386. doi:10.1161/CIR.0000000000000444
+
+12. Taheri S, Lin L, Austin D, et al. Short sleep duration is associated with reduced leptin, elevated ghrelin, and increased body mass index. PLoS Med. 2004;1(3):e62. doi: 10.1371/journal.pmed.0010062
+
+13. Aubin HJ, Farley A, Lycett D, et al. Weight gain in smokers after quitting cigarettes: meta-analysis. BMJ. 2012;345:e4439. Published 2012 Jul 10. doi:10.1136/bmj.e4439
+
+14. Domecq JP, Prutsky G, Leppin A, et al. Clinical review: Drugs commonly associated with weight change: a systematic review and meta-analysis. J Clin Endocrinol Metab. 2015;100(2):363-370. doi:10.1210/jc.2014-3421
+
+15. Keski-Rahkonen A. Epidemiology of binge eating disorder: prevalence, course, comorbidity, and risk factors. Curr Opin Psychiatry. 2021;34(6):525-531. doi:10.1097/YCO.0000000000000750
+
+16. Cleator J, Abbott J, Judd P, et al. Night eating syndrome: implications for severe obesity. Nutr Diabetes. 2012;2(9):e44. Published 2012 Sep 10. doi:10.1038/nutd.2012.16
+
+Complications of Obesity
+
+Complications of obesity cause disorders in almost every organ system including:
+
+Cardiovascular (eg, hypertension, coronary artery disease, stroke)
+
+Pulmonary (eg, obstructive sleep apnea [OSA])
+
+Endocrine (eg, diabetes, hypothyroidism, metabolic syndrome, infertility, low serum testosterone level in males, polycystic ovary syndrome in women)
+
+Musculoskeletal (eg, osteoarthritis)
+
+Gastrointestinal and hepatic systems (eg, gastroesophageal reflux, cholelithiasis, metabolic dysfunction-associated steatotic liver disease)
+
+Adipose tissue is an active endocrine organ that secretes adipokines and free fatty acids that increase systemic inflammation and insulin resistance in multiple organ systems (1).
+
+Visceral adipocytes release leptin and angiotensin directly and cause obesity-related hypertension mediated largely by activation of the renin-angiotensin-aldosterone system (2). Additionally, elevated insulin levels, which occur as a compensatory mechanism for insulin resistance, stimulate the sympathetic nervous system which increases vasoconstriction, also contributing to hypertension. Dyslipidemias caused by obesity further accelerate atherosclerosis, thereby increasing risk for cardiovascular disorders (eg coronary artery disease, stroke) (3). Obesity has also been shown to be an independent risk factor for venous thromboembolism (4) and chronic systemic inflammation associated with obesity is believed to be responsible for a prothrombotic state (5). 
+
+Obesity may cause OSA mechanically because of increased adipose tissue in the tongue and pharynx reducing airway dimensions with resultant airway collapse during sleep (6, 7). Repeated episodes of intermittent hypoxia and sleep disturbances of OSA also increase risk of hypertension, coronary artery disease, and stroke (8). Obesity can also cause obesity hypoventilation syndrome (Pickwickian syndrome) (9).
+
+A variety of endocrine disorders appear to be related to alterations in the hypothalamic pituitary adrenal axis as a result of insulin resistance (10). Obesity is also considered a risk factor for many endocrine disorders such as hypothyroidism, hypercortisolism, or hypo- or hypergonadism (11).
+
+Obesity contributes to the development of osteoarthritis through biomechanical mechanisms (ie,due to excess body weight increasing load on joints) (12) in addition to destruction of articular cartilage from inflammation due to adipokines (13).
+
+Obesity leads to social, economic, and psychological problems as a result of prejudice, discrimination, poor body image, and low self-esteem. For example, people may be underemployed or unemployed.
+
+Obesity is associated with psychosocial issues including depression and increased psychological stress (14).
+
+Complications references
+
+1. Boden G. Obesity and free fatty acids. Endocrinol Metab Clin North Am. 2008;37(3):635-ix. doi:10.1016/j.ecl.2008.06.007
+
+2. Landsberg L, Aronne LJ, Beilin LJ, et al. Obesity-related hypertension: pathogenesis, cardiovascular risk, and treatment: a position paper of The Obesity Society and the American Society of Hypertension. J Clin Hypertens (Greenwich). 2013;15(1):14-33. doi:10.1111/jch.12049
+
+3. Powell-Wiley TM, Poirier P, Burke LE, et al. Obesity and Cardiovascular Disease: A Scientific Statement From the American Heart Association. Circulation. 2021;143(21):e984-e1010. doi:10.1161/CIR.0000000000000973
+
+4. Rahmani J, Haghighian Roudsari A, Bawadi H, et al. Relationship between body mass index, risk of venous thromboembolism and pulmonary embolism: A systematic review and dose-response meta-analysis of cohort studies among four million participants. Thromb Res. 2020;192:64-72. doi:10.1016/j.thromres.2020.05.014
+
+5. Vilahur G, Ben-Aicha S, Badimon L. New insights into the role of adipose tissue in thrombosis. Cardiovasc Res. 2017;113(9):1046-1054. doi:10.1093/cvr/cvx086
+
+6. Veasey SC, Rosen IM. Obstructive Sleep Apnea in Adults. N Engl J Med. 2019;380(15):1442-1449. doi:10.1056/NEJMcp1816152
+
+7. Schwartz AR, Patil SP, Squier S, et al. Obesity and upper airway control during sleep. J Appl Physiol (1985). 2010;108(2):430-435. doi:10.1152/japplphysiol.00919.2009
+
+8. Yeghiazarians Y, Jneid H, Tietjens JR, et al. Obstructive Sleep Apnea and Cardiovascular Disease: A Scientific Statement From the American Heart Association [published correction appears in Circulation.2021;144(3):e56-e67. doi:10.1161/CIR.0000000000000988
+
+9. Mokhlesi B, Masa JF, Brozek JL, et al. Evaluation and Management of Obesity Hypoventilation Syndrome. An Official American Thoracic Society Clinical Practice Guideline 2019;200(3):e6-e24. doi:10.1164/rccm.201905-1071ST
+
+10. Janssen JAMJL. New Insights into the Role of Insulin and Hypothalamic-Pituitary-Adrenal (HPA) Axis in the Metabolic Syndrome. Int J Mol Sci. 2022;23(15):8178. Published 2022 Jul 25. doi:10.3390/ijms23158178
+
+11. van Hulsteijn LT, Pasquali R, Casanueva F, et al. Prevalence of endocrine disorders in obese patients: systematic review and meta-analysis. Eur J Endocrinol. 2020;182(1):11-21. doi:10.1530/EJE-19-0666
+
+12. Thijssen E, van Caam A, van der Kraan PM. Obesity and osteoarthritis, more than just wear and tear: pivotal roles for inflamed adipose tissue and dyslipidaemia in obesity-induced osteoarthritis. Rheumatology (Oxford). 2015;54(4):588-600. doi:10.1093/rheumatology/keu464
+
+13. Nedunchezhiyan U, Varughese I, Sun AR, et al. Obesity, Inflammation, and Immune System in Osteoarthritis. Front Immunol. 2022;13:907750. Published 2022 Jul 4. doi:10.3389/fimmu.2022.907750
+
+14. Steptoe A, Frank P. Obesity and psychological distress. Philos Trans R Soc Lond B Biol Sci. 2023;378(1888):20220225. doi:10.1098/rstb.2022.0225
+
+Diagnosis of Obesity
+
+Body mass index (BMI)
+
+Waist circumference
+
+Body composition analysis
+
+In adults, BMI, defined as weight (kg) divided by the square of the height (m2), is used to screen for overweight or obesity:
+
+Overweight = 25 to 29.9 kg/m2
+
+Class I obesity = 30 to 34.9 kg/m2
+
+Class II obesity = 35 to 39.9 kg/m2
+
+Class III obesity = ≥ 40 kg/m2
+
+These classifications of obesity are useful for identifying individuals at risk for the significant health consequences noted above, but in and of themselves do not determine when excess adiposity is a health concern.
+
+BMI is a commonly used tool that can be easily calculated and correlates with metabolic and fat mass disease in human population studies. However, BMI is a crude screening tool and has limitations in many subpopulations, particularly because it does not distinguish between lean body mass and fat mass. It tends to overdiagnose overweight and obesity in muscular patients and under diagnose them in patients with sarcopenia. Some experts think that BMI cutoffs should vary based on ethnicity, sex, and age. The World Health Organization (WHO) and International Diabetes Federation suggest lower cutoff points for people of Asian descent compared with those of other ethnicities (1).
+
+For a more comprehensive approach to diagnosing and classifying clinical obesity, it has been suggested that BMI should be supplemented by additional anthropometric measurements (eg, waist circumference, waist-to-hip ratio, or waist-to-height ratio) or by direct measurement of body fat if available (eg, dual-energy X-ray absorptiometry) (2). In addition, if BMI is > 40 kg/m2, excess body fat may be assumed rather than requiring a confirming anthropometric measurement.
+
+Proposed classification for obesity includes (2):
+
+Preclinical obesity: A condition of excess body fat associated with variable level of health risk; increases risk for developing cardiovascular disease, some cancers and type 2 diabetes; no evidence of reduced organ or tissue function
+
+Clinical obesity: A chronic disease due to excess adiposity; characterized by alterations of organ function and/or reduced ability to conduct daily activities
+
+Waist circumference and the presence of metabolic syndrome appear to predict risk of metabolic and cardiovascular complications better than BMI does (3). The waist circumference that increases risk of complications due to obesity varies by ethnic group and sex (4).
+
+Clinical Calculators
+
+Body Mass Index (Quetelet's index)
+
+Body composition analysis
+
+Body composition—the percentage of body fat and muscle—is also considered when obesity is diagnosed. Although probably unnecessary in routine clinical practice, body composition analysis can be helpful if clinicians question whether elevated BMI is due to muscle or excessive fat.
+
+Men are considered to have obesity when body fat levels are > 25%. In women, the cutoff is > 32%.
+
+The percentage of body fat can be estimated by measuring skinfold thickness (usually over the triceps) or determining mid upper arm muscle area.
+
+Bioelectrical impedance analysis (BIA) can estimate percentage of body fat simply and noninvasively. BIA estimates percentage of total body water directly; percentage of body fat is derived indirectly. BIA is most reliable in healthy people and in people with only a few chronic disorders that do not change the percentage of total body water (eg, moderate obesity, diabetes mellitus). Whether measuring BIA poses risks in people with implanted defibrillators is unclear.
+
+Underwater (hydrostatic) weighing is the most accurate method for measuring percentage of body fat. Costly and time-consuming, it is used more often in research than in clinical care. To be weighed accurately while submerged, people must fully exhale beforehand.
+
+Imaging procedures, including CT, MRI, and dual-energy x-ray absorptiometry (DXA), can also estimate the percentage and distribution of body fat but are usually used only for research.
+
+Other testing
+
+Patients with obesity should be screened for common comorbid disorders, such as obstructive sleep apnea (OSA), diabetes, dyslipidemia, hypertension, steatotic liver disease, and depression. Screening tools can help; for example, for OSA, clinicians can use an instrument such as the STOP-BANG questionnaire (see table STOP-BANG Risk Score for Obstructive Sleep Apnea) and often the apnea-hypopnea index (total number of apnea or hypopnea episodes occurring per hour of sleep). Obstructive sleep apnea is often underdiagnosed, and obesity increases the risk.
+
+Diagnosis references
+
+1. WHO Expert Consultation: Appropriate body-mass index for Asian populations and its implications for policy and intervention strategies. Lancet. 2004;363(9403):157-163. doi:10.1016/S0140-6736(03)15268-3
+
+2. Rubino F, Cummings DE, Eckel RH, et al. Definition and diagnostic criteria of clinical obesity [published correction appears in Lancet Diabetes Endocrinol. 2025;13(3):221-262. doi:10.1016/S2213-8587(24)00316-4
+
+3. Ross R, Neeland IJ, Yamashita S, et al: Waist circumference as a vital sign in clinical practice: a Consensus Statement from the IAS and ICCR Working Group on Visceral Obesity. Nat Rev Endocrinol. 2020;16(3):177-189. doi:10.1038/s41574-019-0310-7
+
+4. Luo J,  Hendryx M, Laddu D, et al. Racial and ethnic differences in anthropometric measures as risk factors for diabetes. Diabetes Care. 2019;42(1):126-133. doi:10.2337/dc18-1413
+
+Treatment of Obesity
+
+Dietary management
+
+Physical activity
+
+Behavioral interventions
+
+Anti-obesity medications
+
+Bariatric surgery
+
+Weight loss of even 5 to 10% improves overall health, helps reduce risk of developing cardiovascular complications (eg, hypertension, dyslipidemia, insulin resistance) and helps lessen their severity (1), and may lessen the severity of other complications and comorbid disorders such as obstructive sleep apnea, steatotic liver disease, infertility, and depression.
+
+Support from health care professionals, peers, and family members and various structured programs can help with weight loss and weight maintenance. Emphasizing obesity as a chronic disorder, rather than a cosmetic issue caused by lack of self-control, helps empower patients to seek sustainable care and clinicians to provide such care. Using people-first language, such as "people with obesity" rather than "obese people," helps avoid labeling patients by their disease and combats stigma.
+
+Diet
+
+Balanced eating is important for weight loss and maintenance.
+
+Strategies include:
+
+Eating small meals and avoiding or carefully choosing snacks
+
+Substituting fresh fruits and vegetables and salads for refined carbohydrates and processed food
+
+Substituting water for soft drinks or juices
+
+Limiting alcohol consumption to moderate levels
+
+Including no- or low-fat dairy products, which are part of a healthy diet and help provide an adequate amount of vitamin D
+
+Optimal diet for weight loss has long been debated. Low-calorie, high-fiber diets with modest calorie restriction and that incorporate lean protein appear to have the best long-term outcome (2). Foods with a low glycemic index and marine fish oils or monounsaturated fats derived from plants (eg, olive oil) reduce the risk of cardiovascular disorders and diabetes.
+
+Use of meal replacements can help with weight loss and maintenance; these products can be used regularly or intermittently.
+
+Diets that are overly restrictive are unlikely to be maintained or to result in long-term weight loss. Diets that limit caloric intake to < 50% of basal energy expenditure (BEE), described as very low calorie diets, can have as few as 800 kcal/day.
+
+Energy expenditure and metabolic rate vary with diet and activity. Restrictive dieting may produce short-term modest weight loss; however, levels of hormones such as leptin, insulin, gastric inhibitory polypeptide (GIP), and ghrelin change to favor weight regain. In a long-term analysis of low-calorie diets, between one-third and two-thirds of dieters regained more weight than they lost initially (3).
+
+Physical activity
+
+Exercise increases energy expenditure, basal metabolic rate, and diet-induced thermogenesis. Exercise also seems to regulate appetite to more closely match caloric needs. Other benefits associated with physical activity include:
+
+Increased insulin sensitivity
+
+Improved lipid profile
+
+Lower blood pressure
+
+Better aerobic fitness
+
+Improved psychological well-being
+
+Decreased risk of breast and colon cancer
+
+Increased life expectancy
+
+Exercise, including strengthening (resistance) exercises, increases muscle mass. Because muscle tissue burns more calories at rest than does fat tissue, increasing muscle mass produces lasting increases in basal metabolic rate. Exercise that is interesting and enjoyable is more likely to be sustained. A combination of aerobic and resistance exercise is better than either alone. Guidelines suggest physical activity of 150 minutes/week for health benefits and 300 to 360 minutes/week for weight loss and maintenance. Developing a more physically active lifestyle can help with weight loss and maintenance.
+
+Behavioral interventions
+
+Clinicians can recommend various behavioral interventions to help patients lose weight (4). They include:
+
+Support
+
+Self-monitoring
+
+Stress management
+
+Contingency management
+
+Problem solving
+
+Stimulus control
+
+Support may come from a group, friends, or family members. Participation in a support group can improve adherence to lifestyle changes and thus increase weight loss. The more frequently people attend group meetings, the greater the support, motivation, and supervision they receive and the greater their accountability, resulting in greater weight loss. Patients can get support by using social media to connect with each other and clinicians.
+
+Self-monitoring may include keeping a food log (including the number of calories in foods), weighing regularly, and observing and recording behavioral patterns. Other useful information to record includes time and location of food consumption, the presence or absence of other people, and mood. Clinicians can provide feedback about how patients may improve their eating habits.
+
+Stress management involves teaching patients to identify stressful situations and to develop strategies to manage stress that do not involve eating (eg, going for a walk, meditating, deep breathing).
+
+Contingency management involves providing tangible rewards for positive behaviors (eg, for increasing time spent walking or reducing consumption of certain foods). Rewards may be given by other people (eg, from members of a support group or a health care professional) or by the person (eg, purchase of new clothing or tickets to a concert). Verbal rewards (praise) may also be useful.
+
+Problem solving involves identifying and planning ahead for situations that increase the risk of unhealthy eating (eg, travelling, going out to dinner) or that reduce the opportunity for physical activity (eg, driving across country).
+
+Stimulus control involves identifying obstacles to healthy eating and an active lifestyle and developing strategies to overcome them. For example, people may avoid going by a fast food restaurant or keeping sweets in the house. For a more active lifestyle, they may take up an active hobby (eg, gardening), enroll in scheduled group activities (eg, exercise classes, sports teams), walk more, make a habit of taking the stairs instead of elevators, and park at the far end of parking lots (resulting in a longer walk).
+
+Technology-based resources such as applications for mobile devices, and other technological devices may also help with adherence to lifestyle changes and weight loss. Applications can help patients set a weight-loss goal, monitor their progress, track food consumption, and record physical activity.
+
+Anti-obesity medications
+
+Pharmacotherapy to treat obesity should be considered for people with a BMI of > 27 kg/m2 plus comorbidities or 30 kg/m2 without comorbidities (5). Before prescribing medications, clinicians must identify comorbidities that may be affected by medications (eg, diabetes, seizure disorders, opioid use disorder) and concomitant medications that may promote weight gain. Patients should always be counseled on lifestyle modification and should consult with a dietician, in conjunction with medical weight loss therapy.
+
+Most anti-obesity medications are in one of the following classes:
+
+Nutrient stimulated hormone-based (NuSH) medications
+
+CNS stimulants or anorexiants (eg, phentermine)
+
+Antidepressants, dopamine reuptake inhibitors, or opioid antagonists (eg, bupropion, naltrexone)
+
+Gastrointestinal agents (eg, orlistat, glucagon-like peptide 1 [GLP-1] agonists)
+
+Other (eg, topiramate, metformin, sodium-glucose cotransporter-2 [SGLT2] inhibitors)
+
+Medications that mimic or enhance naturally occurring hormones to regulate appetite and homeostasis (eg, GLP-1 agonists) have been classified as "nutrient-stimulated hormone-based" (NuSH) medications.
+
+Weight loss, effects on comorbidities, and adverse effect profiles differ widely among medications.
+
+Patients must be warned that stopping long-term anti-obesity medications may result in weight regain.
+
+Specific medications include:
+
+Orlistat
+
+Phentermine
+
+Phentermine/topiramate
+
+Naltrexone/bupropion
+
+Liraglutide
+
+Semaglutide
+
+Tirzepatide
+
+Orlistat inhibits pancreatic lipase, decreasing intestinal absorption of fat and improving blood glucose and lipids. Because orlistat is not absorbed, systemic effects are rare. Flatus, oily stools, and diarrhea are common but tend to resolve during the 2nd year of treatment. It should be taken 3 times a day with meals that include fat. A vitamin supplement should be taken at least 2 hours before or after taking orlistat. Malabsorption and cholestasis are contraindications; irritable bowel syndrome and other gastrointestinal disorders may make orlistat difficult to tolerate. Orlistat is available over-the-counter.
+
+Phentermine is a centrally acting appetite suppressant. Common adverse effects include elevated blood pressure and heart rate, insomnia, anxiety, and constipation. Phentermine should not be used in patients with preexisting cardiovascular disorders, poorly controlled hypertension, hyperthyroidism, or a history of substance use disorder. Twice a day dosing may help control appetite better throughout the day.
+
+The combination of phentermine and topiramate (used to treat seizure disorders and migraines) is approved for long-term use. Because birth defects are a risk, the combination should be given to women of reproductive age only if they are using contraception and are tested monthly for pregnancy. Other potential adverse effects include constipation, sleep problems, cognitive impairment, dysgeusia, and increased heart rate. Long-term data suggest overall improvement in comorbidities including improved cardiovascular and metabolic variables (6).
+
+Naltrexone/bupropion extended-release tablets can be used as a weight-loss adjunct. Naltrexone (used to aid in alcohol cessation) is an opioid antagonist and is thought to block negative feedback on satiety pathways in the brain. Bupropion (used to treat depression and aid to help with smoking cessation) can induce hypophagia by adrenergic and dopaminergic activity in the hypothalamus. The most common adverse effects of bupropion include nausea, vomiting, headache, and mild increases in systolic and diastolic blood pressure. Contraindications to bupropion include uncontrolled hypertension and a history of or risk factors for seizures because bupropion reduces the seizure threshold.
+
+Liraglutide is a glucagon-like peptide 1 (GLP-1) receptor agonist used initially in the treatment of type 2 diabetes (7). Liraglutide augments glucose-mediated insulin release from the pancreas to induce glycemic control; liraglutide also stimulates satiety and reduces food intake. Liraglutide is injected daily, and dose is titrated up over the course of 5 weeks. Adverse effects include nausea and vomiting; liraglutide has warnings that include risk of acute pancreatitis and thyroid C-cell tumors. Liraglutide should not be taken by patients with a personal or family history of medullary thyroid cancer or multiple endocrine neoplasia syndrome type 2.
+
+Semaglutide is a GLP-1 receptor agonist approved for the treatment of type 2 diabetes. Semaglutide augments glucose-mediated insulin release and reduces appetite and energy intake via effects on appetite centers in the hypothalamus. Semaglutide 2.4 mg subcutaneously has resulted in a mean body weight loss of 14.9% at 68 weeks versus 2.4% in patients treated with placebo (8). Patients taking semaglutide also had greater improvements in cardiovascular risk factors as well as patient-reported physical functioning. Like liraglutide, the most common adverse effects of semaglutide include nausea and diarrhea, which are usually transient and mild to moderate in severity. Warnings for semaglutide include the risk of thyroid C-cell tumors, hypoglycemia, and pancreatitis. In addition, they should not be taken by patients with a personal or family history of multiple endocrine neoplasia syndrome type 2 (MEN 2) or medullary thyroid cancers.
+
+Tirzepatide is a combination gastric inhibitory polypeptide (GIP) and GLP-1 agonist used to treat type 2 diabetes. Phase 3 trials have demonstrated substantial and sustained reductions in body weight in patients who did not have diabetes (9). Improvements in cardiometabolic disease were also observed (10). It can cause pancreatitis, hypoglycemia, and potentially C-cell tumors of the thyroid (based on animal but not human data) and should not be taken by patients with a personal or family history of medullary thyroid cancer or multiple endocrine neoplasia syndrome type 2 (11).
+
+All GLP-1 agonists are associated with adverse effects such as nausea, vomiting, and delayed gastric emptying, which can increase the risk of aspiration. These symptoms tend to improve with time. Previously, the American Society of Anesthesiologists Task Force on Preoperative Fasting recommends holding daily-dosed GLP-1 agonists the day of surgery and weekly-dosed medications 1 week before surgery (12). Updated guidelines now suggest that most patients can continue these medications prior to surgery with extended fasting times, weighing risk of aspiration with potential hyperglycemia (13, 14).
+
+Studies have shown that anti-obesity medications can be safe and effective for weight loss after bariatric surgery if weight is regained. Investigation into the use of anti-obesity medications (eg, GLP-1 receptor agonists) as a bridge to therapy to metabolic and bariatric surgery is ongoing (15). Many centers offer comprehensive medical and surgical weight loss care through multidisciplinary programs.
+
+Most over-the-counter weight-loss treatments are not recommended because they have not been shown to be effective. Examples of such treatments are brindleberry, L-carnitine, chitosan, pectin, grapeseed extract, horse chestnut, chromium picolinate, fucus vesiculosus, and ginkgo biloba. Some (eg, caffeine, ephedrine, guarana, phenylpropanolamine) have adverse effects that outweigh their advantages. Also, some of these treatments are adulterated or contain harmful substances banned by the U.S. Food and Drug Administration (eg, ephedra, bitter orange, sibutramine).
+
+Surgery
+
+Bariatric surgery is the most effective treatment for patients with severe obesity.
+
+Treatment references
+
+1. Arnett DK, Blumenthal RS, Albert, MA, et al. 2019 ACC/AHA guideline on the primary prevention of cardiovascular disease: A report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. Circulation. 2019;140(11):e596-e646. doi: 10.1161/CIR.0000000000000678
+
+2. Kim JY. Optimal Diet Strategies for Weight Loss and Weight Loss Maintenance. J Obes Metab Syndr. 2021;30(1):20-31. doi:10.7570/jomes20065
+
+3. Mann T, Tomiyama AJ, Westling E, et al. Medicare's search for effective obesity treatments: Diets are not the answer. Am Psychol. 2007;62(3):220–233. doi: 10.1037/0003-066X.62.3.220
+
+4. US Preventive Services Task Force. Behavioral weight loss interventions to prevent obesity-related morbidity and mortality in adults. JAMA. 2018;320 (11):1163–1171. doi: 10.1001/jama.2018.13022
+
+5. Garvey WT, Mechanick JI, Brett EM, et al. American Association of Clinical Endocrinologists and the American College of Endocrinology comprehensive clinical practice guidelines for medical care of patients with obesity. Endocr Pract. 2016;22 Suppl 3:1–203. doi: 10.4158/EP161365.GL
+
+6. Garvey WT, Ryan DH, Look M, et al. Two-year sustained weight loss and metabolic benefits with controlled-release phentermine/topiramate in obese and overweight adults (SEQUEL): a randomized, placebo-controlled, phase 3 extension study. Am J Clin Nutr. 2012;95(2):297-308. doi:10.3945/ajcn.111.024927
+
+7. Mehta A, Marso SP, Neeland, IJ. Liraglutide for weight management: A critical review of the evidence. Obes Sci Pract. 2017;3(1):3–14. doi: 10.1002/osp4.84
+
+8. Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. N Engl J Med. 2021;18;384(11):989. doi: 10.1056/NEJMoa2032183
+
+9. Aronne LJ, Sattar N, Horn DB, et al. Continued Treatment With Tirzepatide for Maintenance of Weight Reduction in Adults With Obesity: The SURMOUNT-4 Randomized Clinical Trial. JAMA. 2024;331(1):38-48. doi:10.1001/jama.2023.24945
+
+10. Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide once weekly for the treatment of obesity. N Engl J Med. 2022;21;387 (3):205–216. doi: 10.1056/NEJMoa2206038
+
+11. Bezin J, Gouverneur A, Pénichon M, et al. GLP-1 Receptor Agonists and the Risk of Thyroid Cancer. Diabetes Care. 2023;46(2):384-390. doi:10.2337/dc22-1148
+
+12. Joshi GP, Abdelmalak BB, Weigel WA, et al. American Society of Anesthesiologists consensus-based guidance on preoperative management of patients (adults and children) on glucagon-like peptide-1 (GLP-1) receptor agonists. American Society of Anesthesiologists 2023.
+
+13. El-Boghdadly K, Dhesi J, Fabb P, et al. Elective peri-operative management of adults taking glucagon-like peptide-1 receptor agonists, glucose-dependent insulinotropic peptide agonists and sodium-glucose cotransporter-2 inhibitors: a multidisciplinary consensus statement: A consensus statement from the Association of Anaesthetists, Association of British Clinical Diabetologists, British Obesity and Metabolic Surgery Society, Centre for Perioperative Care, Joint British Diabetes Societies for Inpatient Care, Royal College of Anaesthetists, Society for Obesity and Bariatric Anaesthesia and UK Clinical Pharmacy Association. Anaesthesia. 2025;80(4):412-424. doi:10.1111/anae.16541
+
+14. Kindel TL, Wang AY, Wadhwa A, et al. Multisociety clinical practice guidance for the safe use of glucagon-like peptide-1 receptor agonists in the perioperative period. Surg Obes Relat Dis. 2024;20(12):1183-1186. doi:10.1016/j.soard.2024.08.033
+
+15. Mok J, Mariam OA, Brown A, et al. Safety and efficacy of liraglutide, 3.0 mg, once daily vs placebo in patients with poor weight loss following metabolic surgery: The BARI-OPTIMISE randomized clinical trial. JAMA Surg. 2023;158(10):1003–1011. doi:10.1001/jamasurg.2023.2930
+
+Special Populations in Obesity
+
+Obesity is a particular concern in children and older adults.
+
+Children
+
+Obesity in children is defined as BMI greater than the 95th percentile. For children with obesity, complications are more likely to develop because the duration of the disorder is longer. Many children and adolescents meet overweight or obesity criteria. (See also Obesity in Adolescents.) Similar to adults, complications related to obesity in children include hypertension, dyslipidemia, diabetes and joint problems.
+
+Overview of Childhood Nutritio...
+
+video
+
+Risk factors for obesity in infants are low birth weight (1) and maternal weight, diabetes, and smoking.
+
+After puberty, food intake increases; in boys, the extra calories are used to increase protein deposition, but in girls, fat storage is increased.
+
+For children with obesity, psychological complications (eg, poor self-esteem, social difficulties, depression) and musculoskeletal complications can develop early. Some musculoskeletal complications, such as slipped capital femoral epiphyses, are specific to children. Other early complications may include obstructive sleep apnea, insulin resistance, hyperlipidemia, and metabolic dysfunction-associated steatotic liver disease (MASLD) (formerly called nonalcoholic steatohepatitis). Risk of cardiovascular, respiratory, metabolic, hepatic, and other obesity-related complications increases when these children become adults.
+
+Risk of obesity persisting into adulthood depends partly on when obesity first develops. In a meta-analysis of several large cohort studies, 55% of children with obesity continued to have obesity in adolescence, and 70% continued to have obesity over the age of 30 (2).
+
+Treatment of obesity in children and adolescents involves lifestyle modifications and, for children with severe obesity, metabolic and bariatric surgery. Participating in physical activities during childhood may promote a lifelong physically active lifestyle. Limiting sedentary activities (eg, watching TV, using the computer or handheld devices) can also help. Medications and surgery are avoided but, if complications of obesity are life threatening, may be warranted.
+
+Measures that control weight and prevent obesity in children may have the largest public health benefits. Such measures should be implemented in the family, schools, and primary care. However, lifestyle modifications often do not result in permanent weight loss.
+
+Guidelines from the American Academy of Pediatrics (AAP) recommend that children and adolescents who have severe obesity (defined as BMI ≥ 40 or BMI > 35 with significant health complications related to obesity) should be treated with metabolic and bariatric surgery, and treatment should involve a multidisciplinary team. The major metabolic and bariatric surgical societies have similar recommendations; however, metabolic and bariatric surgery is not often used in children and adolescents. Barriers include stigma against bariatric surgery in this population and lack of available centers and clinicians trained to take care of children and adolescents with obesity (3).
+
+Older adults
+
+In the United States, the percentage of older adults with obesity has been increasing.
+
+With age, body fat increases and is redistributed to the abdomen, and muscle mass is lost, largely because of physical inactivity, but decreased androgens and growth hormone (which are anabolic) and inflammatory cytokines produced in obesity may also play a role.
+
+Risk of complications depends on:
+
+Body fat distribution (increasing with a predominantly abdominal distribution)
+
+Duration and severity of obesity
+
+Associated sarcopenia
+
+Increased waist circumference, suggesting abdominal fat distribution, predicts morbidity (eg, hypertension, diabetes mellitus, coronary artery disease) and mortality risk better in older adults than does BMI. With aging, fat tends to accumulate more in the waist.
+
+For older adults, physicians may recommend that caloric intake be reduced and physical activity be increased. However, if older patients wish to substantially reduce their caloric intake, their diet should be supervised by a physician. Physical activity also improves muscle strength, endurance, and overall well-being and reduces the risk of developing chronic disorders such as diabetes. Activity should include strengthening, balancing, and endurance exercises.
+
+Metabolic and bariatric surgery has historically been used less frequently in older patients. In a large retrospective study comparing outcomes in patients < 65 with those of patients ≥ 65 having sleeve gastrectomy or gastric bypass, complication rates between the groups were similar. Although older patients tended to have higher American Society of Anesthesiologists (ASA) scores and more comorbidities at baseline, morbidity and mortality after surgery did not differ between groups. In the ≥ 65 group, the positive effect of bariatric surgery on weight loss and obesity-related comorbidities was present but less pronounced than in the < 65 group. Overall, the data suggest that age alone should not be considered a contraindication to metabolic and bariatric surgery (4).
+
+Special populations references
+
+1. Jornayvaz FR, Vollenweider P, Bochud M, et al. Low birth weight leads to obesity, diabetes and increased leptin levels in adults: The CoLaus study. Cardiovasc Diabetol. 2016;15:73. doi: 10.1186/s12933-016-0389-2
+
+2. Simmonds M, Llewellyn A, Owen ACG, Woolacott N. Predicting adult obesity from childhood obesity: A systematic review and meta-analysis. Obes Rev. 2016;17(2):95–107. doi: 10.1111/obr.12334 Epub 2015 Dec 23.
+
+3. Elkhoury D, Elkhoury C, Gorantla VR. Improving access to child and adolescent weight loss surgery: A review of updated National and International Practice Guidelines. Cureus. 2023;15 (4):e38117. doi: 10.7759/cureus.38117
+
+4. Iranmanesh P, Boudreau V, Ramji K, et al. Outcomes of bariatric surgery in elderly patients: A registry-based cohort study with 3-year follow-up. Int J Obes (Lond). 2022;46(3):574-580. doi:10.1038/s41366-021-01031-w
+
+Prognosis for Obesity
+
+If untreated, obesity tends to progress. The probability and severity of complications are proportional to:
+
+The absolute amount of fat
+
+The distribution of the fat
+
+Absolute muscle mass
+
+After weight loss, most people return to their pretreatment weight within 5 years, and accordingly, obesity requires a lifelong management program similar to that for any other chronic disorder. Also, when anti-obesity medications are stopped, patients tend to regain weight.
+
+Prevention of Obesity
+
+Regular physical activity and healthy eating improve general fitness, can control weight, and help prevent diabetes mellitus and obesity. Even without weight loss, exercise decreases the risk of cardiovascular disorders. Dietary fiber decreases the risk of colon cancer and cardiovascular disorders.
+
+Sufficient and good-quality sleep, management of stress, and moderation of alcohol intake are also important. However, many biologic and socioeconomic factors are out of a person's control.
+
+If possible, patients should avoid medications that are associated with weight gain. Common weight-promoting medications include some antipsychotics (eg, risperidone, lithium, quetiapine, olanzapine), antidepressants (eg. citalopram, duloxetine), sleep aids (eg, zolpidem, trazodone), antiseizure medications (eg, gabapentin), and glucocorticoids.
+
+Key Points
+
+Obesity increases the risk of many common health problems and causes up to 300,000 premature deaths each year in the United States, making it second only to cigarette smoking as a preventable cause of death.
+
+Excess caloric intake and too little physical activity contribute the most to obesity, but genetic susceptibility and various disorders (including eating disorders) may also contribute.
+
+Screen patients using BMI and waist circumference and, when body composition analysis is indicated, by measuring skinfold thickness or using bioelectrical impedance analysis.
+
+Screen patients with obesity for common comorbid disorders, such as obstructive sleep apnea, diabetes, dyslipidemia, hypertension, steatotic liver disease, and depression.
+
+Encourage patients to lose even 5 to 10% of body weight by changing their diet, increasing physical activity, and using behavioral interventions if possible.
+
+Consider anti-obesity medications if BMI is ≥ 30 or if BMI is ≥ 27 with complications (eg, hypertension, insulin resistance); however, for severe obesity, surgery is most effective.
+
+Encourage all patients to exercise, to eat healthily, to get enough sleep, and to manage stress.

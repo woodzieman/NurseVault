@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationProperties</key>
+	<dict>
+		<key>ApplicationPath</key>
+		<string>Applications/NurseVault.app</string>
+		<key>Architectures</key>
+		<array>
+			<string>arm64</string>
+		</array>
+		<key>CFBundleIdentifier</key>
+		<string>com.josephwoods.nursevault</string>
+		<key>CFBundleShortVersionString</key>
+		<string>4.2</string>
+		<key>CFBundleVersion</key>
+		<string>59</string>
+		<key>SigningIdentity</key>
+		<string>Apple Development: JOSEPH TOMAS WOODS (VDWDUNC9R2)</string>
+		<key>Team</key>
+		<string>2LFBN27WK8</string>
+	</dict>
+	<key>ArchiveVersion</key>
+	<integer>2</integer>
+	<key>CreationDate</key>
+	<date>2026-10-14T20:43:10Z</date>
+	<key>Name</key>
+	<string>NurseVault</string>
+	<key>SchemeName</key>
+	<string>NurseVault</string>
+</dict>
+</plist>

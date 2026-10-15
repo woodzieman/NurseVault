@@ -1,0 +1,156 @@
+=== Methionine Metabolism Disorders (Merck Manual Professional) ===
+Section: Pediatrics > Inherited Disorders of Metabolism
+Source: https://www.merckmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/methionine-metabolism-disorders
+Retrieved: 2026-09-25
+
+There are numerous disorders of methionine and sulfur metabolism (see the table) as well as many other amino acid and organic acid metabolism disorders. See also Approach to the Patient With a Suspected Inherited Disorder of Metabolism and testing for suspected inherited disorders of metabolism.
+
+Homocysteine is an intermediate in methionine metabolism; it is either remethylated to regenerate methionine or combined with serine in a series of transsulfuration reactions to form cystathionine and then cysteine. Cysteine is then metabolized to sulfite, taurine, and glutathione. Various defects in remethylation or transsulfuration can cause homocysteine to accumulate, resulting in disease.
+
+The first step in methionine metabolism is its conversion to adenosylmethionine; this conversion requires the enzyme methionine adenosyltransferase. Deficiency of this enzyme results in methionine elevation, which is not clinically significant except that it causes false-positive neonatal screening results for homocystinuria.
+
+Table
+
+Methionine and Sulfur Metabolism Disorders
+
+Table
+
+Methionine and Sulfur Metabolism Disorders
+
+Methionine and Sulfur Metabolism Disorders
+
+Disease (OMIM Number)
+
+Defective Proteins or Enzymes
+
+Comments
+
+Homocystinuria (236200*)
+
+Cystathionine beta-synthase
+
+Biochemical profile: Methioninuria, homocystinuria
+
+Clinical features: Osteoporosis, scoliosis, fair complexion, ectopia lentis, progressive intellectual disability, thromboembolism
+
+Treatment: Pyridoxine, folate, betaine for unresponsive patients, low methionine diet with some L-cysteine and vitamin C supplementation
+
+Methylenetetrahydrofolate reductase deficiency (236250*)
+
+Methylenetetrahydrofolate reductase
+
+Biochemical profile: Low to normal plasma methionine, homocystinemia, homocystinuria
+
+Clinical features: Varies from asymptomatic to microcephaly, hypotonia, seizures, gait abnormality, and intellectual disability to apnea, coma, and death
+
+Treatment: Pyridoxine, folate (folic acid), hydroxycobalamin, methionine, betaine
+
+Homocystinuria-megaloblastic anemia (cblE; 236270*)
+
+Methionine synthase reductase
+
+Biochemical profile: Homocystinuria, homocystinemia, low plasma methionine, no methylmalonic aciduria, normal B12 and folate
+
+Clinical features: Feeding difficulty, growth failure, intellectual disability, ataxia, cerebral atrophy
+
+Treatment: Hydroxycobalamin, folate, L-methionine
+
+Homocystinuria-megaloblastic anemia (cblG; 250940*)
+
+Methionine synthase
+
+Same as homocystinuria-megaloblastic anemia cblE
+
+Hypermethioninemia (250850*)
+
+Methionine adenosyltransferase I and III
+
+Biochemical profile: Elevated plasma methionine
+
+Clinical features: Mainly asymptomatic, fetid breath
+
+Treatment: None needed
+
+Cystathioninuria (219500*)
+
+Cystathionine gamma-lyase
+
+Biochemical profile: Cystathioninuria
+
+Clinical features: Usually normal; intellectual disability reported
+
+Treatment: Pyridoxine
+
+Sulfite oxidase deficiency (606887*)
+
+Sulfite oxidase
+
+Biochemical profile: Elevated urine sulfite, thiosulfate, and S-sulfocysteine; decreased sulfate
+
+Clinical features: Developmental delay, ectopia lentis, eczema, delayed dentition, fine hair, hemiplegia, infantile hypotonia, hypertonia, seizures, choreoathetosis, ataxia, dystonia, death
+
+Treatment: No effective treatment
+
+Molybdenum cofactor deficiency (252150*)
+
+MOCS1A and MOCS1B proteins
+
+Biochemical profile: Elevated urinary sulfite, thiosulfate, S-sulfocysteine, taurine, hypoxanthine, and xanthine; decreased sulfate and urate
+
+Clinical features: Similar to sulfite oxidase deficiency but also urinary stones
+
+Treatment: No effective treatment
+
+Low-sulfur diet possibly helpful in patients with milder symptoms
+
+Molybdopterin synthase
+
+Gephyrin
+
+* For complete gene, molecular, and chromosomal location information, see the Online Mendelian Inheritance in Man (OMIM) database.
+
+* For complete gene, molecular, and chromosomal location information, see the Online Mendelian Inheritance in Man (OMIM) database.
+
+Classic Homocystinuria
+
+This disorder is caused by an autosomal recessive deficiency of cystathionine beta-synthase, which catalyzes cystathionine formation from homocysteine and serine. Homocysteine accumulates and dimerizes to form the disulfide homocystine, which is excreted in the urine. Because remethylation is intact, some of the additional homocysteine is converted to methionine, which accumulates in the blood. Excess homocysteine predisposes to thrombosis and has adverse effects on connective tissue (perhaps involving fibrillin), particularly the eyes and skeleton; adverse neurologic effects may be due to thrombosis or a direct effect.
+
+Arterial and venous thromboembolic phenomena can occur at any age. Many patients develop ectopia lentis (lens subluxation), intellectual disability, and osteoporosis. Patients can have a marfanoid habitus even though they are not usually tall.
+
+Diagnosis of classic homocystinuria is by neonatal screening for elevated serum methionine; elevated total plasma homocysteine levels and/or DNA testing are confirmatory. Enzymatic assay in skin fibroblasts can also be done.
+
+Treatment of classic homocystinuria is a low-methionine diet and L-cysteine supplementation combined with high-dose pyridoxine (a cystathionine synthetase cofactor) orally once a day. Because about half of patients respond to high-dose pyridoxine alone, some clinicians do not restrict methionine intake in these patients. Betaine (trimethylglycine), which enhances remethylation, can also help lower homocysteine. Betaine dosage is usually started at 100 to 125 mg/kg orally 2 times a day and titrated based on homocysteine levels; requirements vary widely, sometimes ≥ 9 g/day is needed. Folate 1 to 5 mg orally once a day is also given.
+
+With early treatment, intellectual outcome is normal or near normal.
+
+Vitamin C, 100 mg orally once a day, may also be given to help prevent thromboembolism.
+
+Other forms of homocystinuria
+
+Various defects in the remethylation process can result in homocystinuria. Defects include deficiencies of methionine synthase (MS) and MS reductase (MSR), delivery of methylcobalamin and adenosylcobalamin, and deficiency of methylenetetrahydrofolate reductase (MTHFR, which is required to generate the 5-methyltetrahydrofolate needed for the MS reaction). Because there is no methionine elevation in these forms of homocystinuria, they are not detected by neonatal screening.
+
+Clinical manifestations are similar to other forms of homocystinuria. In addition, MS and MSR deficiencies are accompanied by neurologic deficits and megaloblastic anemia. Clinical manifestation of MTHFR deficiency is variable, including intellectual disability, psychosis, weakness, ataxia, and spasticity.
+
+Diagnosis of MS and MSR deficiencies is suggested by homocystinuria and megaloblastic anemia and confirmed by DNA testing. Patients with cobalamin defects have megaloblastic anemia and methylmalonic acidemia. MTHFR deficiency is diagnosed by DNA testing.
+
+Treatment is by replacement of hydroxycobalamin (for patients with MS, MSR, and cobalamin defects) and folate in supplementation similar to characteristic homocystinuria.
+
+Cystathioninuria
+
+This disorder is caused by deficiency of cystathionase, which converts cystathionine to cysteine. Cystathionine accumulation results in increased urinary excretion but no clinical symptoms.
+
+Sulfite Oxidase Deficiency
+
+Sulfite oxidase converts sulfite to sulfate in the last step of cysteine and methionine degradation; it requires a molybdenum cofactor. Deficiency of either the enzyme or the cofactor causes similar disease; inheritance for both is autosomal recessive.
+
+In its most severe form, clinical manifestations appear in neonates and include seizures, hypotonia, and myoclonus, progressing to early death. Patients with milder forms may present similarly to cerebral palsy and may have choreiform movements.
+
+Diagnosis of sulfite oxidase deficiency is suggested by elevated urinary sulfite and confirmed by measuring enzyme levels in fibroblasts and cofactor levels in liver biopsy specimens and/or genetic testing.
+
+Treatment of sulfite oxidase deficiency is supportive.
+
+More Information
+
+The following English-language resource may be useful. Please note that THE MANUAL is not responsible for the content of this resource.
+
+Online Mendelian Inheritance in Man (OMIM) database: Complete gene, molecular, and chromosomal location information

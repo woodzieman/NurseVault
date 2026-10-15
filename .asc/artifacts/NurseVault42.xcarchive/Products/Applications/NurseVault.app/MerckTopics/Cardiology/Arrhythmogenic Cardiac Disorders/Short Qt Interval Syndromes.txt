@@ -1,0 +1,84 @@
+=== Short QT Interval Syndromes (Merck Manual Professional) ===
+Section: Cardiology > Arrhythmogenic Cardiac Disorders
+Source: https://www.merckmanuals.com/professional/cardiovascular-disorders/arrhythmogenic-cardiac-disorders/short-qt-interval-syndromes
+Retrieved: 2026-09-25
+
+(See also Overview of Arrhythmias and Overview of Channelopathies.)
+
+Short QT syndrome is rare, with an estimated prevalence of 1 in 2000 to 1 in 6000 people < 21 years of age having a QTc < 340 msec (although not all such individuals meet diagnostic criteria for short ST syndrome) (1, 2).
+
+The cardiac ion channel dysfunction may involve:
+
+Gain of function of repolarizing potassium current channels
+
+Loss of function of depolarizing sodium or depolarizing calcium current channels
+
+Loss of function of the Cl-/HCO3- exchanger
+
+Note that the changes in gain of function of repolarizing potassium current channels or loss of function of depolarizing sodium or depolarizing calcium current channels are the opposite of those occurring in long QT interval syndrome (3). Most SQTS are inherited as autosomal dominant disorders with sex-dependent incomplete penetrance increasing clinical disease in males (4).
+
+The resultant shortening of the action potential duration is most marked in the ventricular epicardium, resulting in transmural repolarization dispersion that may lead to polymorphic ventricular tachycardia (VT) or ventricular fibrillation (VF) often causing sudden death. The likelihood of ventricular tachyarrhythmias increases with the degree of rate-corrected QT interval (QTc) shortening. Some patients with SQTS are also prone to atrial fibrillation. An overlap syndrome with the early repolarization syndrome has been reported (5, 6).
+
+Short QT interval syndromes are classified based on the specific gene that has mutated. The most common abnormal genes (and their relevant cardiac channel) are KCNH2 (IKr, the rapid outward potassium current), KCNQ1 (IKs, the slow outward potassium current), KCNJ2 (IK1, the inward rectifier potassium current), and SLC4A3 (AE3, anion exchange protein 3).
+
+Patients are asymptomatic unless atrial fibrillation or VT/VF occurs, which may cause palpitations, near-syncope, syncope, or cardiac arrest. Forty percent of patients with SQTS symptoms will have had a cardiac arrest by 40 years of age (7).
+
+General references
+
+1. Al-Khatib SM, Stevenson WG, Ackerman MJ, et al. 2017 AHA/ACC/HRS guideline for management of patients with ventricular arrhythmias and the prevention of sudden cardiac death: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines and the Heart Rhythm Society. Heart Rhythm. 2018;15(10):e73-e189. doi:10.1016/j.hrthm.2017.10.036
+
+2. Guerrier K, Kwiatkowski D, Czosek RJ, Spar DS, Anderson JB, Knilans TK. Short QT Interval Prevalence and Clinical Outcomes in a Pediatric Population. Circ Arrhythm Electrophysiol. 2015;8(6):1460-1464. doi:10.1161/CIRCEP.115.003256
+
+3. Badura K, Buławska D, Dąbek B, et al. Primary Electrical Heart Disease-Principles of Pathophysiology and Genetics. Int J Mol Sci. 2024;25(3):1826. doi:10.3390/ijms25031826
+
+4. Boulmpou A, Giannopoulos A, Papadopoulos C, et al. The Uncommon Phenomenon of Short QT Syndrome: A Scoping Review of the Literature. J Pers Med. 2025;15(3):105. doi:10.3390/jpm15030105
+
+5. Benito B, Guasch E, Rivard L, Nattel S. Clinical and mechanistic issues in early repolarization of normal variants and lethal arrhythmia syndromes. J Am Coll Cardiol. 2010;56(15):1177-1186. doi:10.1016/j.jacc.2010.05.037
+
+6. Watanabe H, Makiyama T, Koyama T, et al. High prevalence of early repolarization in short QT syndrome. Heart Rhythm. 2010;7(5):647-652. doi:10.1016/j.hrthm.2010.01.012
+
+7. Tan RB, Shah MJ. Cardiac Channelopathies in the Pediatric Patient: Short QT Syndrome. Card Electrophysiol Clin. 2025;17(4):645-650. doi:10.1016/j.ccep.2025.07.012
+
+Diagnosis of Short QT Interval Syndromes
+
+Specific clinical and electrocardiographic criteria
+
+Genetic testing
+
+Screening of first-degree relatives
+
+Diagnosis should be considered in patients with unexplained cardiac arrest or syncope or a family history of such when the affected people do not have structural heart disease. It should also be considered in people who are discovered to have a short QT interval when ECG is performed for other reasons.
+
+Diagnosis is by ECG showing a short QTc interval often in conjunction with clinical history (eg, cardiac arrest, syncope), family history (eg, sudden cardiac death, known short QT syndrome), and/or genetic testing. Various diagnostic criteria and scoring systems exist, permitting diagnosis with QTc < 330 to 370 msec, depending on arrhythmia and syncope/cardiac arrest history, family history, and genotype (1, 2, 3). A patient with a short QT interval in the absence of symptoms or other diagnostic features may be monitored. Genetic testing has a low yield (approximately 20 to 30%) (4). Additional testing may include ambulatory cardiac rhythm monitoring and cardiac imaging.
+
+First-degree relatives of patients should have clinical evaluation (ie, to detect symptoms suggestive of arrhythmia) and ECG. Genetic testing of family members is offered when the patient has an identified mutation.
+
+Diagnosis references
+
+1. Gollob MH, Redpath CJ, Roberts JD. The short QT syndrome: proposed diagnostic criteria. J Am Coll Cardiol. 2011;57(7):802-812. doi:10.1016/j.jacc.2010.09.048
+
+2. Tan RB, Shah MJ. Cardiac Channelopathies in the Pediatric Patient: Short QT Syndrome. Card Electrophysiol Clin. 2025;17(4):645-650. doi:10.1016/j.ccep.2025.07.012
+
+3. Zeppenfeld K, Tfelt-Hansen J, de Riva M, et al. 2022 ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death. Eur Heart J. 2022;43(40):3997-4126. doi:10.1093/eurheartj/ehac262
+
+4. Giustetto C, Schimpf R, Mazzanti A, et al. Long-term follow-up of patients with short QT syndrome. J Am Coll Cardiol. 2011;58(6):587-595. doi: 10.1016/j.jacc.2011.03.038
+
+Treatment of Short QT Interval Syndromes
+
+Usually an implantable cardioverter-defibrillator (ICD)
+
+Sometimes quinidine for recurrent VT/VF
+
+IV Isoproterenol for frequently recurrent VT/VF (electrical storm)
+
+An ICD is recommended as the primary means of preventing sudden death in patients with SQTS and a history of sustained VT/VF or cardiac arrest (1, 2). An ICD should also be considered in patients with SQTS with presumed arrhythmic syncope, and may be considered in some asymptomatic patients with a strong family history of ventricular arrhythmia or sudden death.
+
+Quinidine is the preferred treatment for patients who decline an ICD or in whom it is contraindicated, for recurrent episodes of VT/VF after ICD placement, and for the initial treatment of patients with asymptomatic SQTS with a family history of sudden cardiac death (1, 2, 3). IV isoproterenol may be useful during electrical storms of multiple VT/VF episodes that occur daily.
+
+Treatment references
+
+1. Al-Khatib SM, Stevenson WG, Ackerman MJ, et al. 2017 AHA/ACC/HRS Guideline for Management of Patients With Ventricular Arrhythmias and the Prevention of Sudden Cardiac Death: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines and the Heart Rhythm Society. Circulation. 2018;138(13):e272-e391. doi: 10.1161/CIR.0000000000000549
+
+2. Zeppenfeld K, Tfelt-Hansen J, de Riva M, et al. 2022 ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death. Eur Heart J. 2022;43(40):3997-4126. doi:10.1093/eurheartj/ehac262
+
+3. Priori SG, Wilde AA, Horie M, et al. HRS/EHRA/APHRS Expert Consensus Statement on the diagnosis and management of patients with inherited primary arrhythmia syndromes: document endorsed by HRS, EHRA, and APHRS in May 2013 and by ACCF, AHA, PACES, and AEPC in June 2013. Heart Rhythm. 2013;10(12):1932-1963. doi: 10.1016/j.hrthm.2013.05.014

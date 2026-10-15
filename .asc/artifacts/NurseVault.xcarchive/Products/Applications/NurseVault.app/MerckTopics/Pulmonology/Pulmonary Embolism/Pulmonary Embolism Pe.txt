@@ -1,0 +1,1056 @@
+=== Pulmonary Embolism (PE) (Merck Manual Professional) ===
+Section: Pulmonology > Pulmonary Embolism
+Source: https://www.merckmanuals.com/professional/pulmonary-disorders/pulmonary-embolism/pulmonary-embolism-pe
+Retrieved: 2026-09-25
+
+The estimated annual incidence of pulmonary embolism world wide is approximately 1 per 1000 people (1). Up to 20% of people diagnosed with acute PE die in the next 90 days (2). However, the cause of death is usually not the PE itself but the underlying condition increasing the patients risk for PE. From 30 to 50% of patients who have a PE describe functional and exercise limitations up to a year after the event, which is referred to as the post PE syndrome (3).
+
+General references
+
+1. Kahn SR, de Wit K. Pulmonary Embolism. N Engl J Med 2022;387(1):45-57. doi:10.1056/NEJMcp2116489
+
+2. Lehnert P, Lange T, Møller CH, Olsen PS, Carlsen J. Acute Pulmonary Embolism in a National Danish Cohort: Increasing Incidence and Decreasing Mortality. Thromb Haemost 2018;118(3):539-546. doi:10.1160/TH17-08-0531
+
+3. Kahn SR, Hirsch AM, Akaberi A, et al. Functional and Exercise Limitations After a First Episode of Pulmonary Embolism: Results of the ELOPE Prospective Cohort Study. Chest 2017;151(5):1058-1068. doi:10.1016/j.chest.2016.11.030
+
+Etiology of Pulmonary Embolism
+
+Nearly all pulmonary emboli arise from thrombi in the veins of the legs or pelvis (deep venous thrombosis). Risk of embolization is higher with thrombi that reach the popliteal vein or above. Thromboemboli can also originate in arm veins or central veins of the chest (caused by central venous catheters or resulting from thoracic outlet syndromes).
+
+Pulmonary embolism can also arise from nonthrombotic sources (eg, embolism of air, amniotic fluid, fat, infected material, orthopedic cement, foreign body, tumor).
+
+Risk factors for deep venous thrombosis and pulmonary embolism (see table Risk Factors for Deep Venous Thrombosis and Pulmonary Embolism) are similar in children and adults and include
+
+Conditions that impair venous return, including bed rest and confinement without walking
+
+Conditions that cause endothelial injury or dysfunction such as trauma or surgery
+
+Underlying hypercoagulable (thrombophilic) disorders such as cancer or primary clotting disorders
+
+COVID-19 appears to be a risk factor for deep venous thrombosis and pulmonary embolism due to a hypercoagulable state responsible for large-vessel thrombosis and thromboembolism (1).
+
+Table
+
+Risk Factors for Deep Venous Thrombosis and Pulmonary Embolism
+
+Table
+
+Risk Factors for Deep Venous Thrombosis and Pulmonary Embolism
+
+Risk Factors for Deep Venous Thrombosis and Pulmonary Embolism
+
+Age > 60 years
+
+Cancer and myeloproliferative neoplasms
+
+Certain chemotherapeutic agents (eg, bevacizumab, thalidomide)
+
+Hormonal modulation
+
+Estrogen receptor modulators (eg, raloxifene, tamoxifen)
+
+Exogenous estrogens and progestins, including oral contraceptives and estrogen therapy
+
+Exogenous testosterone
+
+Heart failure
+
+Immobilization/reduced mobility (eg, prolonged car rides, air travel)
+
+Indwelling venous catheters
+
+Infection (ie, as a cause of immobility and systemic inflammatory response; SARS-CoV-2 appears prothrombotic)
+
+Nephrotic syndrome
+
+Obesity
+
+Pregnancy/postpartum period
+
+Prior thromboembolism
+
+Sickle cell disease
+
+Smoking
+
+Stroke
+
+Thrombotic disorders (thrombophilias)
+
+Antiphospholipid syndrome
+
+Antithrombin deficiency
+
+Factor V Leiden mutation (activated protein C resistance)
+
+Heparin-induced thrombocytopenia
+
+Hereditary fibrinolytic defects
+
+Hyperhomocystinemia
+
+Increase in factor VIII levels
+
+Increase in factor XI levels
+
+Increase in von Willebrand factor levels
+
+Paroxysmal nocturnal hemoglobinuria
+
+Protein C deficiency
+
+Protein S deficiency
+
+Prothrombin G20210A gene variant
+
+Tissue factor pathway inhibitor deficiency or impaired function
+
+Trauma/surgery
+
+Other conditions associated with reduced mobility, venous injury, or hypercoagulability
+
+Etiology reference
+
+1. Poor HD. Pulmonary Thrombosis and Thromboembolism in COVID-19. Chest 2021;160(4):1471-1480. doi:10.1016/j.chest.2021.06.016
+
+Pathophysiology of Pulmonary Embolism
+
+Once deep venous thrombosis develops, clots may dislodge and travel through the venous system and the right side of the heart to lodge in the pulmonary arteries, where they partially or completely occlude one or more vessels. The consequences depend on the size and number of emboli, the underlying condition of the lungs, how well the right ventricle (RV) is functioning, and the ability of the body’s intrinsic thrombolytic system to dissolve the clots. Death, when is does occur, is often due to right ventricular failure.
+
+Small emboli may have no acute physiologic effects and may begin to lyse immediately and resolve within hours or days. Larger emboli can cause
+
+Reflex increase in ventilation (tachypnea)
+
+Hypoxemia due to ventilation/perfusion (V/Q) mismatch
+
+Low mixed venous oxygen content as a result of low cardiac output
+
+Atelectasis due to alveolar hypocapnia and abnormalities in surfactant
+
+Increase in pulmonary vascular resistance caused by mechanical obstruction and vasoconstriction resulting in tachycardia and hypotension
+
+Endogenous lysis reduces most emboli, even those of moderate size, and physiologic alterations decrease over hours or days. Some emboli resist lysis and may organize and persist and sometimes cause chronic thromboembolic pulmonary hypertension (CTEPH).
+
+Pulmonary emboli may be classified according to the physiologic effects as described by the European Society of Cardiology/American Heart Association (1) into the following:
+
+High risk (massive): Impaired right ventricular function causing hypotension, as defined by systolic blood pressure < 90 mm Hg or a drop in systolic blood pressure of ≥ 40 mm Hg from baseline for a period of 15 minutes
+
+Intermediate risk (submassive): Impaired right ventricular function without hypotension. This is evidenced by right ventricular enlargement and/or hypokinesis on imaging (eg, CT angiography, echocardiography) as well as by increases in circulating biomarkers (eg, troponin, brain natriuretic peptide). Note that the European Society of Cardiology defines intermediate-risk pulmonary embolism also as patients with a simplified pulmonary embolism severity index (sPESI) of > 0, thus including patients with other disorders or findings, such as age > 80 years, history of cancer, chronic pulmonary disease, tachycardia (heart rate > 110), hypotension (systolic blood pressure < 100 mmHg), and hypoxemia (arterial oxyhemoglobin saturation < 90%) (1, 2). Intermediate-risk pulmonary embolism can be further divided into intermediate high risk (the presence of right ventricular dysfunction by imaging and elevated circulating biomarkers) versus intermediate low risk (the presence of right ventricular dysfunction by imaging or circulating biomarker elevation).
+
+Low risk: Absence of right ventricular impairment and absence of hypotension (and by European Society of Cardiology, sPESI score = 0)
+
+Saddle pulmonary embolism describes a pulmonary embolus that lodges in the bifurcation of the main pulmonary artery and into the right and left pulmonary arteries; saddle emboli are usually, but not always, intermediate risk or high risk. A saddle configuration does not dictate a specific therapeutic approach. Although saddle emboli are often large, causing near-complete or complete obstruction, they may also be relatively thin and nonobstructive.
+
+In 1 to 3% of cases of pulmonary embolism, chronic residual obstruction leads to pulmonary hypertension (chronic thromboembolic pulmonary hypertension) that evolves over months to years and can result in chronic right heart failure (3).
+
+When a large embolus acutely occludes major pulmonary arteries or when many smaller emboli combine to occlude a significant proportion of the more distal vessels, RV pressure increases, which may lead to acute RV failure, shock, or sudden death. The risk of death depends on the degree and rate of rise of right-sided pressures and on the patient’s underlying cardiopulmonary status. Patients with preexisting cardiopulmonary disease are at higher risk of death, but young and/or otherwise healthy patients may survive a PE that occludes > 50% of the pulmonary bed.
+
+Pulmonary infarction due to PE is sometimes represented by a pleural-based wedge-shaped pattern on chest radiograph or other imaging modalities. This low rate has been attributed to the dual blood supply to the lung (ie, bronchial and pulmonary). Generally, pulmonary infarction is due to smaller emboli that become lodged in more distal pulmonary arteries and is nearly always completely reversible; pulmonary infarction is recognized early, often before necrosis occurs.
+
+Pathophysiology references
+
+1. Konstantinides SV, Meyer G, Becattini C, et al: 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism developed in collaboration with the European Respiratory Society (ERS). Eur Heart J 2020;41(4):543-603. doi:10.1093/eurheartj/ehz405
+
+2. Jiménez D, Aujesky D, Moores L, et al: Simplification of the pulmonary embolism severity index for prognostication in patients with acute symptomatic pulmonary embolism. Arch Intern Med 2010;170(15):1383-1389. doi:10.1001/archinternmed.2010.199
+
+3. Ende-Verhaar YM, Cannegieter SC, Vonk Noordegraaf A, et al: Incidence of chronic thromboembolic pulmonary hypertension after acute pulmonary embolism: a contemporary view of the published literature. Eur Respir J 2017;49(2):1601792. doi:10.1183/13993003.01792-2016
+
+Symptoms and Signs of Pulmonary Embolism
+
+Many pulmonary emboli are small, physiologically insignificant, and asymptomatic. Even when present, symptoms are nonspecific and vary in frequency and intensity, depending on the extent of pulmonary vascular occlusion and preexisting cardiopulmonary function.
+
+Emboli often cause
+
+Acute dyspnea
+
+Pleuritic chest pain (when there is pulmonary infarction)
+
+Dyspnea may be minimal at rest and can worsen during activity.
+
+Less common symptoms include
+
+Cough (usually caused by comorbid disorders or by dilation of the pulmonary arteries)
+
+Hemoptysis (occasionally occurs when there is pulmonary infarction)
+
+In older patients, the first symptom may be altered mental status.
+
+Massive pulmonary emboli may manifest with hypotension, tachycardia, light-headedness/presyncope, syncope, or cardiac arrest.
+
+The most common signs of pulmonary embolism are
+
+Tachycardia
+
+Tachypnea
+
+Less commonly, patients have hypotension.
+
+A loud second heart sound (S2) due to a loud pulmonic component (P2) is possible but uncommon in acute PE because increases in pulmonary artery pressures are only modest. Crackles or wheezing may occur, but these sounds are usually due to comorbid disease. In the presence of right ventricular failure, distended internal jugular veins and a RV heave may be evident, and a RV gallop (third heart sound [S3]), with or without tricuspid regurgitation, may be audible. 
+
+Fever, when present, is usually low-grade unless caused by an underlying condition.
+
+Pulmonary infarction is typically characterized by chest pain (mainly pleuritic) and, occasionally, hemoptysis. The chest wall may be tender.
+
+Chronic thromboembolic pulmonary hypertension causes symptoms and signs of right heart failure, including exertional dyspnea, easy fatigue, and peripheral edema that develops over months to years.
+
+Patients with acute pulmonary embolism may also have symptoms of deep venous thrombosis (ie, pain, swelling, and/or erythema of a leg or an arm). Such leg symptoms are often not present, however.
+
+Diagnosis of Pulmonary Embolism
+
+High index of suspicion
+
+Assessment of pretest probability (based on clinical findings, including pulse oximetry and chest radiograph)
+
+Subsequent testing based on pretest probability
+
+The diagnosis of pulmonary embolism is challenging because symptoms and signs are nonspecific and diagnostic tests are not 100% sensitive and specific. It is important to include PE in the differential diagnosis when nonspecific symptoms, such as dyspnea, pleuritic chest pain, hemoptysis, light-headedness, or syncope are encountered. Thus, PE should be considered in the differential diagnosis of patients suspected of having
+
+Cardiac ischemia
+
+Heart failure
+
+Chronic obstructive pulmonary disease (COPD) exacerbation
+
+Pneumothorax
+
+Pneumonia
+
+Sepsis
+
+Acute chest syndrome (in patients with sickle cell disease)
+
+Acute anxiety with hyperventilation
+
+Significant, unexplained tachycardia may be a clue. Pulmonary embolism also should be considered in any older patient with tachypnea and altered mental status.
+
+Initial evaluation should include pulse oximetry and chest radiograph. Electrocardiography (ECG), arterial blood gas (ABG) measurements, or both may help to exclude other diagnoses (eg, acute myocardial infarction).
+
+The chest radiograph usually is nonspecific but may show atelectasis, focal infiltrates, an elevated hemidiaphragm, or a pleural effusion. The classic findings of focal loss of vascular markings (Westermark sign), a peripheral, wedge-shaped density arising from the pleura (Hampton hump), or enlargement of the right descending pulmonary artery are suggestive but uncommon (ie, insensitive) and have low specificity. Chest radiography can also help exclude pneumonia. Pulmonary infarction due to pulmonary embolism may be mistaken for pneumonia.
+
+Pulse oximetry provides a quick way to assess oxygenation; hypoxemia is one sign of PE, and it requires further evaluation. Blood gas testing should be considered, particularly for patients with dyspnea or tachypnea who do not have hypoxemia detected with pulse oximetry. Arterial blood gas measurement may show an increased alveolar to arterial oxygen (A-a) difference (sometimes called A-a gradient) or hypocapnia. Pulse oximetry and blood gas testing are moderately sensitive for PE, but neither is specific. Oxygen saturation may be normal due to a small clot burden, or to compensatory hyperventilation; a very low partial pressure of carbon dioxide (PCO2) detected with an arterial blood gas measurement can confirm hyperventilation.
+
+ECG most often shows tachycardia and various ST-T wave abnormalities, which are not specific for pulmonary embolism (see figure An ECG in Pulmonary Embolism). An S1Q3T3 (S wave in lead I, Q wave in lead III, inverted T wave in lead III) or a new right bundle branch block may indicate the effect of abrupt rise in RV size affecting RV conduction pathways; these findings are moderately specific but insensitive, occurring in only about 5% of patients, although the findings occur in a higher percentage of patients with massive PE. Right axis deviation (R > S in V1) and P-pulmonale may be present. T-wave inversion in leads V1 to V4 also occurs.
+
+An ECG in Pulmonary Embolism
+
+The ECG shows sinus tachycardia at a rate of 110 beats/minute, an S1Q3T3 and R = S in V1 in a patient with proven acute pulmonary embolism.
+
+Clinical Calculators
+
+A-a Gradient
+
+Clinical probability
+
+Clinical probability of pulmonary embolism can be assessed by combining ECG and chest radiograph findings with findings from the history and physical examination. Clinical prediction scores, such as the Wells score or the revised Geneva score (1), or the Pulmonary Embolism Rule-Out Criteria (PERC) rule, may aid clinicians in assessing the chance that acute pulmonary embolism is present. These prediction scores assign points to a variety of clinical factors, with cumulative scores corresponding to designations of the probability of PE before testing (pretest probability). For example, the Wells score result is classified as likely or unlikely for PE. Clinical probability scoring has been best studied in patients presenting to the emergency department as opposed to those already hospitalized.
+
+Clinical Calculators
+
+Revised Geneva Score for Estimation of the Clinical Probability of Pulmonary Embolism in Adults
+
+Clinical Calculators
+
+PERC Rule for the Assessment of Possible Pulmonary Embolism
+
+One of the important clinical criteria is a judgment of whether PE is more likely than an alternate diagnosis, and this determination is somewhat subjective. However, the clinical judgment of experienced clinicians is as sensitive as, or even more sensitive than, results from formal prediction scores. PE should probably be considered more likely if one or more of the symptoms and signs, particularly dyspnea, hemoptysis, tachycardia, or hypoxemia, cannot be explained clinically or by chest radiograph findings.
+
+Pretest probability guides testing strategy and the interpretation of test results. In patients in whom the probability of PE is unlikely, only minimal additional testing (ie, D-dimer testing in outpatients) may be needed. In such cases, a negative D-dimer test (< 0.4 mcg/mL [< 2.2 nmol/L]) is highly indicative of the absence of pulmonary embolism. Conversely, if there is a high clinical suspicion of PE and the risk of bleeding is low, immediate anticoagulation should be considered while the diagnosis is confirmed with additional tests.
+
+The PERC rule specifies 8 criteria. Presence of all these criteria in a patient who, based on clinical findings, is at low risk specifies that testing for PE is not indicated (2). The criteria are:
+
+Age < 50 years
+
+Heart rate < 100
+
+Oxygen saturation ≥ 95%
+
+No prior deep venous thrombosis or pulmonary embolism
+
+No unilateral leg swelling
+
+No estrogen use
+
+No hemoptysis
+
+No surgery or trauma requiring hospitalization within the past 4 weeks
+
+Use of the PERC rule has been recommended as a way to decrease rates of testing for PE with conventional testing using D-dimer, but with similar rates of sensitivity and negative predictive values.
+
+Clinical Calculators
+
+Pulmonary Embolism Wells Score
+
+Diagnostic testing
+
+Screening of outpatients with D-dimer testing if pre-test probability is low or intermediate
+
+If pretest probability is high or if the D-dimer result is elevated, CT angiography, or if renal insufficiency is present or when CT contrast is contraindicated, with ventilation/perfusion (V/Q) scanning
+
+Sometimes ultrasound of the legs or arms (to confirm deep venous thrombosis when lung imaging is delayed or prohibitive)
+
+There is no universally accepted algorithm for the approach to suspected acute pulmonary embolism. Tests most useful for diagnosing or excluding PE are
+
+D-dimer testing
+
+CT angiography
+
+Ventilation/perfusion scanning
+
+Doppler ultrasound
+
+Echocardiography may be useful to identify pulmonary embolism on the way to the lung (clot-in-transit) or to find evidence of new right ventricular dysfunction. Echocardiographic findings that may suggest pulmonary embolism include the 60/60 sign, which is the combination of a pulmonary artery acceleration time of < 60 milliseconds with a peak systolic tricuspid valve gradient of < 60 mm Hg (3), and the McConnell sign, which is depressed contractility of the RV free wall compared to the RV apex (4).
+
+D-Dimer is a by-product of intrinsic fibrinolysis; thus, elevated levels occur in the presence of a recent thrombus. Historically, when pretest probability is considered low or intermediate, a negative D-dimer level (< 0.4 mcg/mL [< 2.2 nmol/L]) is highly sensitive for the absence of PE with a negative predictive value of > 95% (5); in most cases, this result is sufficiently reliable for excluding the diagnosis of PE in the emergency department or clinic. More recently, data have shown that age can elevate D-dimer levels, which can cause a false-positive test result. Therefore, in patients with a low or intermediate pretest probability of PE and age over 50 years, the most common correction factor is to use a cutoff value of age multiplied by 10 in ng/mL. However, elevated D-dimer levels are not specific for venous thrombus because many patients without deep venous thrombosis (DVT) or PE also have elevated levels (particularly in patients who are hospitalized). Therefore, further testing is required when the D-dimer level is elevated or when the pretest probability for PE is high.
+
+CT angiography is the preferred imaging technique for diagnosing acute pulmonary embolism. It is rapid, accurate, and highly sensitive and specific. It can also give more information about other lung pathology (eg, demonstration of pneumonia rather than PE as a cause of hypoxia or pleuritic chest pain) as well as severity of PE (for example by the size of the right ventricle or the reflux into the hepatic veins). Although poor quality scans due to motion artifact or poor contrast boluses can limit the sensitivity of the examination, CT technology allows acquisition times of < 2 seconds, providing relatively motion-free images in patients with dyspnea. Fast scanning times allow the use of smaller volumes of iodinated contrast, which reduces the risk of acute kidney injury.
+
+Pulmonary Embolism (Chest CTA)
+
+Image
+
+The images show bilateral pulmonary embolism on chest computed tomographic angiography. The arrows point to the filling defects (emboli).
+
+Image courtesy of Victor F. Tapson, MD.
+
+The sensitivity of CT angiography is highest for pulmonary embolism in the main pulmonary artery or lobar or segmental vessels. Sensitivity of CT angiography is lowest for emboli in subsegmental vessels (about 30% of all pulmonary emboli). However, CT angiography is still the preferred means of diagnosing acute PE if there are no contraindications.
+
+Ventilation/perfusion (V/Q) scans in pulmonary embolism detect areas of lung that are ventilated but not perfused. V/Q scanning takes much longer than CT angiography and is less specific. However, when chest radiograph findings are normal or near normal and no significant underlying lung disease exists, it is a highly sensitive test. V/Q scanning is particularly useful when renal insufficiency precludes the use of contrast agents, which are otherwise required for CT angiography, and in patients who are pregnant (6). In some hospitals, V/Q scanning can be done with a portable machine that provides 3 views of ventilation and perfusion, which is useful when a patient is too ill to move. Perfusion defects may occur in many other lung conditions (eg, COPD, pulmonary fibrosis, pneumonia, pleural effusion). Mismatched perfusion defects that may mimic PE may occur in pulmonary vasculitis, pulmonary veno-occlusive disease, and sarcoidosis.
+
+Results are based on patterns of V/Q mismatch and reported as normal, low probability, intermediate probability, or high probability of pulmonary embolism.
+
+The pretest clinical probability of a pulmonary embolism must be used together with the V/Q scan result to determine the need for treatment or further testing (7).
+
+Pulmonary Embolism (Ventilation-Perfusion Scan)
+
+The ventilation-perfusion scan demonstrates high probability for acute pulmonary embolism. The ventilation is relatively unaffected, while the perfusion images show large defects, particularly in the left lung.
+
+Image courtesy of Victor F. Tapson, MD.
+
+Doppler ultrasound is a safe, noninvasive, portable technique for detecting leg or arm thrombi. A clot can be detected by showing poor compressibility of the vein or by showing reduced flow by Doppler ultrasound. The test has a sensitivity of > 95% and a specificity of > 95% for thrombus (8). Confirming DVT in the calf or iliac veins can be more difficult but can generally be accomplished. The ultrasound technician should always attempt to image below the popliteal vein into its trifurcation.
+
+Absence of thrombi in the leg veins does not exclude the possibility of thrombus from other sources, such as the upper extremities or pelvic vasculature, but patients with suspected DVT and negative results on Doppler ultrasound have > 95% event-free survival, because thrombi from other sources are so much less common.
+
+Although ultrasound of the legs or arms is not diagnostic for PE, a study that reveals leg or axillary-subclavian thrombus establishes the need for anticoagulation and may obviate the need for further diagnostic testing unless more aggressive therapy (eg, thrombolytic therapy) is being considered. Therefore, stopping the diagnostic evaluation after detection of DVT on ultrasound of the legs or arms is most appropriate for stable patients with contraindications to CT contrast and in whom V/Q scanning is expected to have low specificity (eg, in patients with an abnormal chest radiograph). In suspected acute PE, a negative ultrasound does not negate the need for additional studies.
+
+Pearls & Pitfalls
+
+In suspected acute pulmonary embolism, absence of venous thrombosis on ultrasound does not exclude pulmonary embolism.
+
+Echocardiography may show a clot in the right atrium or ventricle, but echocardiography is most commonly used for risk stratification in acute PE. The presence of right ventricular dilation and hypokinesis may suggest the need for more aggressive therapy.
+
+Cardiac biomarker testing is a useful means of stratifying mortality risk in patients with acute pulmonary embolism. Cardiac biomarker testing can be used as an adjunct to other testing if PE is suspected or proven. Elevated troponin levels signify right ventricular (or sometimes left ventricular) ischemia. Elevated brain natriuretic peptide (BNP) and pro-BNP levels may signify RV dysfunction; however, these tests are not specific for RV dysfunction or for PE.
+
+Thrombotic disorder (thrombophilia) testing should not be done routinely. Testing should be considered for patients with unprovoked PE (ie, with no known risk factors or cause), especially if they are younger (age < 60 years), have recurrent PE, or have a positive family history. Certain thrombophilias, such as antiphospholipid syndrome, require disease-specific types of anticoagulation therapy.
+
+Pulmonary arteriography is rarely needed to diagnose acute PE because noninvasive CT angiography has similar sensitivity and specificity. However, in patients in whom catheter-based thrombolytic therapy is being used, pulmonary angiography is useful for assessment of catheter placement and may be used as a rapid means of determining success of the procedure when the catheter is removed. Pulmonary arteriography is also used together with right-heart catheterization in assessing whether patients with chronic thromboembolic pulmonary hypertension are candidates for pulmonary endarterectomy.
+
+Diagnosis references
+
+1. Le Gal G, Righini M, Roy PM, et al: Prediction of pulmonary embolism in the emergency department: the revised Geneva score. Ann Intern Med 144:165–171, 2006.
+
+2. Kline JA, Courtney DM, Kabrhel C, et al. Prospective multicenter evaluation of the pulmonary embolism rule-out criteria. J Thromb Haemost 6(5):772-780, 2008. doi:10.1111/j.1538-7836.2008.02944.x
+
+3. Kurzyna M, Torbicki A, Pruszczyk P, et al: Disturbed right ventricular ejection pattern as a new Doppler echocardiographic sign of acute pulmonary embolism. Am J Cardiol 90(5):507–511, 2002. doi:10.1016/s0002-9149(02)02523-7
+
+4. McConnell MV, Solomon SD, Rayan ME, et al: Regional right ventricular dysfunction detected by echocardiography in acute pulmonary embolism. Am J Cardiol 78(4):469–473, 1996. doi:10.1016/s0002-9149(96)00339-6
+
+5. Bass AR, Fields KG, Goto R, Turissini G, Dey S, Russell LA: Clinical Decision Rules for Pulmonary Embolism in Hospitalized Patients: A Systematic Literature Review and Meta-analysis. Thromb Haemost 2017;117(11):2176-2185. doi:10.1160/TH17-06-0395
+
+6. Leung AN, Bull TM, Jaeschke R, et al: SI An official American Thoracic Society/Society of Thoracic Radiology clinical practice guideline: evaluation of suspected pulmonary embolism in pregnancy. Am J Respir Crit Care Med 2011;184(10):1200-1208. doi:10.1164/rccm.201108-1575ST
+
+7. PIOPED Investigators: Value of the ventilation/perfusion scan in acute pulmonary embolism. Results of the prospective investigation of pulmonary embolism diagnosis (PIOPED). JAMA 263(20):2753–2759, 1990. doi:10.1001/jama.1990.03440200057023
+
+8. Habscheid W, Höhmann M, Wilhelm T, Epping J: Real-time ultrasound in the diagnosis of acute deep venous thrombosis of the lower extremity. Angiology 41(8):599–608, 1990. doi:10.1177/000331979004100803
+
+General Treatment of Pulmonary Embolism
+
+Supportive therapy
+
+Anticoagulation
+
+Inferior vena cava filter placement (rarely, in selected patients)
+
+Rapid clot burden reduction via thrombolysis or embolectomy (in selected patients)
+
+Rapid assessment for the need for supportive therapy should be undertaken. In patients with hypoxemia, oxygen should be given. In patients with hypotension due to massive PE, IV fluids should be administered as boluses, paying close attention to effect and volume status. Caution is warranted because overloading the right ventricle can result in deterioration. Vasopressors may also be given if IV fluids fail to sufficiently increase blood pressure. Norepinephrine is the most commonly used first-line agent. Inotropic agents such as dobutamine and milrinone should also be considered depending on right ventricular function.
+
+In general,
+
+Patients at low risk should receive anticoagulation alone
+
+Patients at high risk require anticoagulation plus additional measures such as systemic thrombolysis or surgical or catheter-directed therapy
+
+For patients at intermediate risk (high or low), treatment considerations are more complicated. Patients who are at intermediate-low risk are most commonly treated with anticoagulation alone. However, patients in intermediate-risk categories require repeat assessment of the entire clinical picture for any clinical deterioration, including
+
+Deterioration of vital signs
+
+Severity of RV dysfunction by echocardiography
+
+Amount of oxygen required and need for vasopressor agents
+
+Clot burden and location
+
+Anticoagulation is the mainstay of therapy for PE. Rapid reduction of clot burden via thrombolytic therapy or embolectomy is indicated for patients with hypotension that does not resolve after fluid resuscitation, and for selected patients with impaired RV function or escalating oxygen requirements.
+
+Placement of a removable percutaneous inferior vena cava filter (IVCF) should be considered for patients with contraindications to anticoagulation or for those with recurrent PE despite anticoagulation. For example, patients who have acute PE and residual clot in the leg and cannot be anticoagulated, should have a filter placed because they have persistent risk of subsequent deep venous thrombosis.
+
+Hospitalization for at least 24 to 48 hours is done for most patients with PE. Patients with abnormal vital signs or high risk or intermediate risk PE require longer periods of hospitalization.
+
+ICU (intensive care unit) admission is required for patients with high-risk PE. ICU admission should also be considered if patients have
+
+Extensive clot burden
+
+RV compromise
+
+Significant hypoxemia
+
+Low or borderline low blood pressure
+
+Clinical deterioration
+
+Outpatient management may be used for select patients who are at low risk and have incidentally discovered PE or for those with very small clot burdens and minimal symptoms provided their vital signs are stable, education is undertaken, and a reasonable plan for outpatient treatment and follow-up is in place.
+
+Pulmonary embolism response team (PERT)
+
+Given the evolving therapeutic options and the lack of randomized controlled trials, choosing appropriate treatment for individual patients can be challenging. Many hospitals use a multidisciplinary group of clinicians (pulmonary embolus response team) to rapidly evaluate patients, determine the level of pulmonary embolism risk, and make the complex treatment decisions needed. These teams may be comprised of clinicians in pulmonary/critical care medicine, interventional cardiology, interventional radiology, cardiothoracic surgery, hematology, emergency medicine, and other specialties. Recent single-center studies published have shown lower rates of bleeding, shorter time to therapeutic anticoagulation, decreased 30-day mortality, and decreased use of IVC filters in patients whose care is managed by a PERT. The use of PERT in the management of acute PE is now recommended by the European Society of Cardiology (1, 2).
+
+General treatment references
+
+1. Chaudhury P, Gadre SK, Schneider E, et al. Impact of Multidisciplinary Pulmonary Embolism Response Team Availability on Management and Outcomes. Am J Cardiol 2019;124(9):1465-1469. doi:10.1016/j.amjcard.2019.07.043
+
+2. Konstantinides SV, Meyer G, Becattini C, et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism developed in collaboration with the European Respiratory Society (ERS): The Task Force for the diagnosis and management of acute pulmonary embolism of the European Society of Cardiology (ESC). Eur Respir J 2019;54(3):1901647. doi:10.1183/13993003.01647-2019
+
+Anticoagulation in Pulmonary Embolism
+
+Initial anticoagulation followed by maintenance anticoagulation is indicated for patients with acute pulmonary embolism to prevent further embolization as well as new clot formation. Anticoagulant therapy for acute PE should be started whenever PE is strongly suspected, as long as the risk of bleeding is deemed low. Otherwise, anticoagulation should be started as soon as the diagnosis is made. Time to therapeutic anticoagulation has been found to have an impact on mortality. Patients who attain therapeutic anticoagulation within 24 hours have been found to have a significant improvement in hospital mortality as well as 30 day mortality (1).
+
+The likelihood of benefit versus harm in treating emboli in smaller, subsegmental vessels (particularly asymptomatic and incidentally discovered emboli) is unknown, and it is possible that for certain patients harm may outweigh benefit. Still, treatment is recommended for the vast majority of patients.
+
+The primary complication of anticoagulation therapy is bleeding, and patients should be closely observed for bleeding during hospitalization.
+
+Initial anticoagulation
+
+Initial anticoagulation choices for acute PE include
+
+Intravenous unfractionated heparin
+
+Subcutaneous low molecular weight heparin
+
+Factor Xa inhibitors (oral apixaban, edoxaban, or rivaroxaban, or subcutaneous fondaparinux)
+
+Direct thrombin inhibitors (IV argatroban, oral dabigatran) for patients with heparin-induced thrombocytopenia
+
+Intravenous unfractionated heparin has a short half-life (useful when the potential for bleeding is deemed higher than usual) and is reversible with protamine. An initial bolus of unfractionated heparin is given, followed by an infusion of heparin dosed by protocol to achieve an activated partial thromboplastin time (PTT) 1.5 to 2.5 times that of normal control. Therefore, unfractionated heparin requires ongoing hospitalization to administer. Further, the pharmacokinetics of unfractionated heparin are relatively unpredictable, resulting in frequent periods of over-anticoagulation and under-anticoagulation and necessitating frequent dose adjustments. Some clinicians prefer this IV unfractionated heparin regimen when thrombolytic therapy is given or contemplated or when patients are at risk of bleeding because if bleeding occurs, the short half-life means that anticoagulation is quickly reversed after the infusion is stopped.
+
+Subcutaneous low molecular weight heparin has several advantages over unfractionated heparin including
+
+Superior bioavailability
+
+Weight-based dosing results in a more predictable anticoagulation effect than does weight-based dosing of unfractionated heparin, which allows for quicker time to therapeutic coverage
+
+Ease of administration (can be given subcutaneously once or twice a day)
+
+Decreased incidence of bleeding
+
+Potentially better outcomes
+
+The potential for patients to self-inject (thereby allowing earlier discharge from the hospital)
+
+Lower risk of heparin-induced thrombocytopenia compared with standard, unfractionated heparin
+
+Low molecular weight heparins that can be used include dalteparin, enoxaparin, and tinzaparin.
+
+In patients with renal insufficiency, dose reductions are needed, and subsequent verification of appropriate dosing should be done by checking serum factor Xa levels (target: 0.5 to 1.2 IU/mL measured at 3 to 4 hours after the fourth dose). Low molecular weight heparins are generally contraindicated in patients with severe renal insufficiency (creatinine clearance < 30 mL/minute [0.5mL/second/m2]). Low molecular weight heparins are partially reversible with protamine.
+
+Adverse effects of all heparins include
+
+Bleeding
+
+Thrombocytopenia (including heparin-induced thrombocytopenia with the potential for thromboembolism)
+
+Urticaria
+
+Anaphylaxis (rare)
+
+Bleeding caused by over-heparinization with unfractionated heparin can be treated with a protamine infusion. Over-heparinization with a low molecular weight heparin can also be treated with protamine.
+
+Fondaparinux is a factor Xa antagonist given subcutaneously. It can be used in acute DVT and acute PE instead of heparin or low molecular weight heparin. Outcomes appear to be similar to those of unfractionated heparin. Advantages include once or twice a day fixed-dose administration, no need for monitoring of the degree of anticoagulation, and lower risk of thrombocytopenia. The medication is contraindicated if creatinine clearance is < 30 mL/minute (0.5 mL/second/m2).
+
+The other factor Xa inhibitors, apixaban, rivaroxaban, and edoxaban, have the advantages of oral fixed dosing and the ability to be used as maintenance anticoagulants with no need for laboratory monitoring of the anticoagulant effect. They also cause few adverse interactions with other medications, although azole antifungal therapy and protease inhibitors will increase oral factor Xa inhibitor levels, and certain antiseizure medications and rifampin will decrease oral factor Xa inhibitor levels. Although rivaroxaban and apixaban do not require overlap with a parenteral anticoagulant when used as initial therapy, edoxaban requires use of a parenteral anticoagulant for 5 to 10 days.
+
+Dose reductions are indicated for patients with renal insufficiency. Apixaban can be used in patients with renal insufficiency, and use is safe in patients undergoing hemodialysis.
+
+Anticoagulation reversal of the oral factor Xa inhibitors (rivaroxaban, apixaban, edoxaban) is possible with andexanet, although this medication is not widely used. Reversal of fondaparinux may be possible using recombinant activated factor VII (2). The half-lives of the factor Xa inhibitors are much shorter than the half-life for warfarin. If bleeding develops that requires reversal, use of 4-factor prothrombin complex concentrate can be considered, and hematology consultation is recommended.
+
+The safety and efficacy of these medications in patients with PE complicated by severe cardiopulmonary decompensation have not been studied, and parenteral medications should be used for anticoagulation in these patients until there is significant improvement in cardiopulmonary function.
+
+The direct thrombin inhibitor dabigatran is also effective for treatment of acute DVT and PE. Dabigatran requires overlap with a parenteral anticoagulant when used as initial therapy. Idarucizumab is effective at reversing dabigatran.
+
+In patients with suspected or proven heparin-induced thrombocytopenia, intravenous argatroban or subcutaneous fondaparinux can be used for anticoagulation. Use of the direct oral anticoagulants (dabigatran, apixaban, edoxaban, rivaroxaban) in this situation has been found to be safe in a recent meta-analysis (3).
+
+Maintenance anticoagulation
+
+Maintenance anticoagulation is indicated to reduce the risk of clot extension or embolization and to reduce the risk of new clot formation. Medication choices for maintenance anticoagulation include
+
+Oral vitamin K antagonist (VKA) (warfarin in the United States)
+
+Oral factor Xa inhibitors (apixaban, rivaroxaban, edoxaban)
+
+Oral direct thrombin inhibitor (dabigatran)
+
+Rarely subcutaneous low molecular weight heparin or subcutaneous fondaparinux
+
+Warfarin is an effective long-term oral anticoagulant option that has been used for decades, but it is inconvenient for a number of reasons. In most patients, warfarin is started on the same day as heparin (or fondaparinux) therapy used for initial anticoagulation. Heparin (or fondaparinux) therapy should be overlapped with warfarin therapy for a minimum of 5 days and until the international normalized ratio (INR) has been within the therapeutic range (2.0 to 3.0) for at least 24 hours.
+
+The major disadvantages of warfarin are the need for periodic INR monitoring, with frequent dose adjustments, and medication, supplement, and food interactions. Physicians prescribing warfarin should be wary of such interactions; in a patient taking warfarin, virtually any newly ingested medication or substance should be checked.
+
+Bleeding is the most common complication of warfarin treatment; patients > 65 years and those with comorbidities (especially diabetes, recent myocardial infarction, hematocrit < 30%, or creatinine > 1.5 mg/dL [>133 micromol/L]) and a history of stroke or gastrointestinal bleeding seem to be at greatest risk. Bleeding can be reversed with vitamin K and, in an emergency, with fresh frozen plasma or a concentrate formulation (prothrombin complex concentrates) that contains factor II (prothrombin), factor VII, factor IX, factor X, protein C, and protein S. Vitamin K may cause flushing, local pain, and, rarely, anaphylaxis.
+
+Warfarin-induced necrosis, a devastating complication of warfarin therapy, is a paradoxical hypercoagulable state that can arise upon the initiation of warfarin therapy. Warfarin inactivates vitamin K-dependent clotting factors II, VII, IX, and X. At the same time, vitamin K-dependent proteins C and S are inactivated. This may cause a paradoxical hypercoagulable state in which microthrombi form in cutaneous and subcutaneous venules, resulting in skin necrosis. Based on these considerations and the development of more convenient oral anticoagulants, warfarin use has been declining substantially. However, cost considerations continue to make warfarin a reasonable treatment option for some patients.
+
+Pearls & Pitfalls
+
+In a patient taking warfarin, any new medication or supplement should be checked for potential interactions.
+
+The oral factor Xa inhibitor anticoagulants apixaban, edoxaban, and rivaroxaban can be used for both initial and maintenance anticoagulation therapy (see table Direct Oral Anticoagulants for Treatment of Venous Thromboembolism). These medications are more convenient than warfarin due to their fixed dosing and lack of need for laboratory monitoring, as well as having fewer interactions. In clinical trials, rivaroxaban (4, 5), apixaban (6), and edoxaban (7) were as effective (in non-inferiority analyses) as warfarin in preventing recurrent DVT and PE. A meta-analysis of large phase III randomized controlled trials found that rates of major bleeding, including intracranial hemorrhage, were significantly lower with oral factor Xa inhibitor anticoagulants than with warfarin (8). Another advantage of both rivaroxaban and apixaban is that dosages may be lowered after patients have been treated for 6 to 12 months (9).
+
+One important caveat is that edoxaban requires that a preceding 5 to 10 days of initial heparin or low molecular weight heparin be given.
+
+The direct thrombin inhibitor dabigatran can also be used for maintenance anticoagulation therapy. As with edoxaban, 5 to 10 days of treatment with unfractionated heparin or low molecular weight heparin is needed before dabigatran can be initiated. Clinically relevant bleeding is lower with dabigatran than with warfarin. The use of dabigatran as maintenance therapy has the same advantages and disadvantages as the use of the factor Xa inhibitors.
+
+The need for initial heparin treatment before edoxaban or dabigatran is given is a reflection of the way the clinical trials were conducted.
+
+Subcutaneous low molecular weight heparin has been used primarily for patients with cancer at high risk of pulmonary embolism or patients with recurrent pulmonary embolism despite the use of other anticoagulants. However, multiple recent trials of apixaban, edoxaban, and rivaroxaban have been completed in patients with cancer, and these agents are now recommended over low molecular weight heparin (10).
+
+Aspirin has been studied for long-term maintenance therapy. It appears more effective than placebo but less effective than all other available anticoagulants. Rivaroxaban, 10 mg once/day, has proven more effective at reducing recurrent DVT/PE yet is as safe as aspirin in patients already treated with anticoagulation for 6 to 12 months (9).
+
+Duration of anticoagulation
+
+Duration of maintenance anticoagulation for PE is dependent on a variety of factors (eg, risk factors for PE, bleeding risk) and can range from 3 months to lifelong therapy. Clearly transient risk factors (eg, immobilization, recent surgery, trauma) require only 3 months of treatment. Patients with unprovoked PE, those with more durable risk factors for PE (eg, cancer, thrombophilic disorder), and those with recurrent PE might benefit from lifelong anticoagulation provided the bleeding risk is low or moderate. In patients with unprovoked venous thromboembolism, annual assessment of bleeding risk versus clotting risk should be done and an informed joint decision regarding continuing anticoagulation reached.
+
+Risk factors for bleeding include
+
+Age > 65 years
+
+Previous bleeding
+
+Thrombocytopenia
+
+Antiplatelet therapy
+
+Poor anticoagulant control
+
+Frequent falls
+
+Liver failure
+
+Alcohol overuse
+
+Recent surgery
+
+Reduced functional capacity
+
+Previous stroke
+
+Diabetes
+
+Anemia
+
+Cancer
+
+Renal failure
+
+Low risk for bleeding is defined as no risk factors for bleeding, moderate risk for bleeding is defined as one risk factor, and high risk for bleeding is defined as two or more risk factors.
+
+For patients in whom long-term anticoagulation is considered appropriate, after 6 months of treatment with rivaroxaban or apixaban, dosage decreases can be considered.
+
+Anticoagulation references
+
+1. Smith SB, Geske JB, Maguire JM, Zane NA, Carter RE, Morgenthaler TI. Early anticoagulation is associated with reduced mortality for acute pulmonary embolism. Chest 2010;137(6):1382-1390. doi:10.1378/chest.09-0959
+
+2. Yee J, Kaide CG. Emergency Reversal of Anticoagulation. West J Emerg Med 2019;20(5):770-783. doi:10.5811/westjem.2018.5.38235
+
+3. Nilius H, Kaufmann J, Cuker A, Nagler M. Comparative effectiveness and safety of anticoagulants for the treatment of heparin-induced thrombocytopenia. Am J Hematol 2021;96(7):805-815. doi:10.1002/ajh.26194
+
+4. EINSTEIN Investigators, Bauersachs R, Berkowitz SD, et al: Oral rivaroxaban for symptomatic venous thromboembolism. N Engl J Med 363(26):2499–2510, 2010. doi:10.1056/NEJMoa1007903
+
+5. EINSTEIN-PE Investigators, Buller HR, Prins MH, et al: Oral rivaroxaban for the treatment of symptomatic pulmonary embolism. N Engl J Med 366 (14):1287–1297, 2012. doi:10.1056/NEJMoa1113572
+
+6. Agnelli G, Buller HR, Cohen A, et al: Oral apixaban for the treatment of acute venous thromboembolism. N Engl J Med 369(9):799–808, 2013. doi:10.1056/NEJMoa1302507
+
+7. Hokusai-VTE Investigators, Buller HR, Decousus H, et al: Edoxaban versus warfarin for the treatment of symptomatic venous thromboembolism. N Engl J Med 369(15): 1406–1415, 2013. doi:10.1056/NEJMoa1306638
+
+8. van Es N, Coppens M, Schulman S, et al: Direct oral anticoagulants compared with vitamin K antagonists for acute symptomatic venous thromboembolism: evidence from phase 3 trials. Blood124 (12): 1968–1975, 2014. doi:10.1182/blood-2014-04-571232
+
+9. Weitz JI, Lensing AWA, Prins MH, et al: Rivaroxaban or aspirin for extended treatment of venous thromboembolism. N Engl J Med 376:1211–1222, 2017. doi: 10.1056/NEJMoa1700518.
+
+10. Stevens SM, Woller SC, Kreuziger LB, et al: Antithrombotic therapy for VTE disease: Second update of the CHEST Guideline and Expert Panel Report [published correction appears in Chest 2022 Jul;162(1):269]. Chest 2021;160(6):e545-e608. doi:10.1016/j.chest.2021.07.055
+
+Rapid Reduction of Clot Burden
+
+Clot elimination by means of embolectomy or dissolution with IV or catheter-based thrombolytic therapy should be considered for acute pulmonary embolism associated with hypotension that does not resolve after fluid resuscitation (high-risk/massive PE) (1). Patients who are hypotensive and require vasopressor therapy are obvious candidates. Patients with a systolic blood pressure < 90 mm Hg or a decrease from baseline value in systolic blood pressure > 40 mm Hg that lasts at least 15 minutes despite fluid challenge are hemodynamically compromised and are also candidates.
+
+Although only anticoagulation is generally recommended for patients with mild RV dysfunction (based on clinical, ECG, or echocardiographic findings), thrombolytic therapy or embolectomy may be needed when RV compromise and/or hypoxemia is severe even when hypotension is not present, particularly when deterioration is likely as suggested by an increase in heart rate or decrease in oxygen saturation or blood pressure.
+
+Systemic thrombolytic therapy
+
+Systemic thrombolytic therapy with alteplase (tissue plasminogen activator [tPA]) offers a noninvasive way to rapidly restore pulmonary blood flow, but long-term benefits do not clearly outweigh the risk of hemorrhage in some patients. Experts agree that systemic thrombolytic therapy should be given to patients with hemodynamic compromise if there are no contraindications, particularly when other means of rapidly reducing clot burden are not readily available. Although no prospective randomized trial of systemic thrombolytic therapy has shown improved survival in patients with intermediate-risk/submassive PE, some experts recommend thrombolytics, particularly when patients also have numerous or large clots; very severe RV dysfunction; marked tachycardia; significant hypoxemia; other concomitant findings such as residual clot in the leg, positive troponin values, and/or elevated BNP values; and there are no active contraindications to its administration. Others reserve thrombolytic therapy only for patients with high-risk (massive) PE.
+
+Absolute contraindications to thrombolytics include
+
+Prior hemorrhagic stroke
+
+Ischemic stroke within 1 year
+
+Active external or internal bleeding from any source
+
+Intracranial injury or surgery within 2 months
+
+Intracranial tumor
+
+Certain surgeries within the previous weeks
+
+Relative contraindications include
+
+Age > 75 years
+
+Recent surgery (≤ 10 days)
+
+Hemorrhagic diathesis (as in hepatic insufficiency)
+
+Pregnancy
+
+Recent punctures of large noncompressible veins (eg, subclavian vein)
+
+Recent femoral artery catheterization (eg, ≤ 10 days)
+
+Peptic ulcer disease or other conditions that increase the risk of bleeding
+
+Severe hypertension (systolic blood pressure > 180 mm Hg or diastolic blood pressure > 110 mm Hg)
+
+Head trauma from PE-induced syncope, even if brain CT is normal
+
+Except for concurrent intracerebral hemorrhage, thrombolytic therapy is sometimes given to patients with high-risk (massive) PE who have "absolute contraindications" to such therapy if, without intervention, death is otherwise anticipated. In patients with relative contraindications, the decision to give systemic thrombolytics depends on individual patient factors.
+
+In the United States, alteplase (tPA) is used for systemic thrombolysis. Streptokinase and urokinase are not used for acute PE.
+
+In the United States, when systemic thrombolytics are given, heparin is usually stopped after the initial loading dose. However, in Europe, heparin is often continued, and there is no clear determination as to which method is preferred. The bleeding risk should be considered.
+
+Bleeding, if it occurs, can be reversed with cryoprecipitate or fresh frozen plasma. Accessible vascular access sites that are bleeding can be compressed. The potential for bleeding after systemic thrombolysis has led to increased implementation of catheter-directed thrombolysis, because much lower doses of thrombolytic agents are used.
+
+Catheter-directed therapy
+
+Catheter-directed PE therapy (thrombolytics, embolectomy) uses catheter placement in the pulmonary arteries for disruption, removal, and/or lysis of clot. Indications for its use are evolving in patients who are at high risk and those at intermediate high risk. In catheter-directed PE thrombolytic therapy, the pulmonary arteries are accessed via a typical pulmonary arteriography procedure, and thrombolytics are delivered directly to large proximal emboli via the catheter. The most widely studied technique uses high-frequency, low-power ultrasound. Ultrasound accelerates thrombolysis by disaggregating fibrin strands and increasing permeability of the clot to thrombolytics. One randomized controlled trial, the ULTIMA study, demonstrated that the use of catheter-directed thrombolytics in patients with proximal clot and evidence of RV strain leads to an improved RV/LV ratio at 24 hours compared with anticoagulation alone (2). However, there was no difference between the groups in RV function, RV/LV ratio at 90 days, or 90-day mortality (2).
+
+Mechanical disruption, or removal of the thrombus via suction embolectomy without thrombolysis, is becoming more widely used. Mechanisms of clot removal include direct aspiration or fragmentation with aspiration. Devices for this purpose differ by size of catheter and method of embolectomy. If the use of thrombolysis is contraindicated, catheter-directed suction embolectomy may be considered and, depending on local resources and expertise, tried before surgical embolectomy. Anticoagulation is still required for patients undergoing mechanical thrombectomy. Data on the use of suction embolectomy devices are limited to patients at intermediate high risk or high risk who participated in single-arm studies and registries (3).
+
+Surgical embolectomy
+
+Surgical embolectomy is reserved for patients with PE who are hypotensive despite supportive measures (persistent systolic blood pressure ≤ 90 mm Hg after fluid therapy and oxygen or if vasopressor therapy is required) or on the verge of cardiac or respiratory arrest. Surgical embolectomy can be considered if use of thrombolysis is contraindicated, although catheter-directed suction embolectomy may be tried first. As with catheter-based thrombosis/clot extraction, the decision to proceed with embolectomy and the choice of technique depend on local resources and expertise. Surgical embolectomy as a management strategy for acute PE is decreasing in frequency as catheter-based percutaneous techniques become more widely available.
+
+Extracorporeal membrane oxygenation
+
+Extracorporeal membrane oxygenation (ECMO) is sometimes used in catastrophic acute pulmonary embolism when thrombolysis is contraindicated or failed. ECMO may serve as a bridge to surgical embolectomy or catheter-directed therapy, or it may buy time for improvement with anticoagulation alone.
+
+Rapid reduction in clot burden references
+
+1. Ortel TL, Neumann I, Ageno W, et al. American Society of Hematology 2020 guidelines for management of venous thromboembolism: treatment of deep vein thrombosis and pulmonary embolism. Blood Adv 2020;4(19):4693-4738. doi:10.1182/bloodadvances.2020001830
+
+2. Kucher N, Boekstegers P, Müller OJ, et al. Randomized, controlled trial of ultrasound-assisted catheter-directed thrombolysis for acute intermediate-risk pulmonary embolism. Circulation 2014;129(4):479-486. doi:10.1161/CIRCULATIONAHA.113.005544
+
+3. Hountras P, Bull TM. Advanced therapies for pulmonary embolism. Curr Opin Pulm Med 2020;26(5):397-405. doi:10.1097/MCP.0000000000000714
+
+Prognosis for Pulmonary Embolism
+
+Most deaths resulting from pulmonary embolism occur within 1 hour of presentation (1). Most patients who die as a result of acute PE are never diagnosed before death. In fact, PE is not suspected in most of these patients. Overall in-hospital mortality rate ranges from approximately 8% in stable patients to 25% in those presenting with cardiogenic shock and to 65% in patients requiring cardiopulmonary resuscitation (2).
+
+The best prospects for reducing mortality involve
+
+Improving the frequency of diagnosis (eg, by including PE in the differential diagnosis when patients present with nonspecific but compatible symptoms or signs)
+
+Improving the rapidity of diagnosis
+
+Improving risk stratification
+
+Improving the rapidity of initiation of anticoagulation therapy
+
+Providing appropriate prophylaxis in at-risk patients
+
+Very high D-dimer levels appear to predict a poor outcome.
+
+Patients with chronic thromboembolic disease represent a small, but important fraction of patients with PE who survive. Anticoagulant therapy reduces the rate of recurrence of PE .
+
+Prognosis references
+
+1. Wood KE. Major pulmonary embolism: review of a pathophysiologic approach to the golden hour of hemodynamically significant pulmonary embolism. Chest 2002;121(3):877-905. doi:10.1378/chest.121.3.877
+
+2. Kasper W, Konstantinides S, Geibel A, et al. Management strategies and determinants of outcome in acute major pulmonary embolism: results of a multicenter registry. J Am Coll Cardiol 1997;30(5):1165-1171. doi:10.1016/s0735-1097(97)00319-7
+
+Prevention of Pulmonary Embolism
+
+Prevention of acute venous thromboembolism
+
+Prevention of pulmonary embolism means prevention of deep venous thrombosis (DVT); the need depends on the patient’s risks, including
+
+Type and duration of any surgery
+
+Comorbid conditions, including cancer and hypercoagulable disorders
+
+Presence of a central venous catheter
+
+Prior history of DVT or PE
+
+Patients who are bedbound and hospitalized and patients undergoing surgical, especially orthopedic, procedures benefit significantly from venous thromboembolism prophylaxis, and most of these patients can be identified before a thrombus forms (see table Risk Assessment for Thrombosis). Preventive measures include low-dose unfractionated heparin, low molecular weight heparin, warfarin, fondaparinux, direct oral anticoagulants (eg, rivaroxaban, apixaban), compression devices, and elastic compression stockings.
+
+Choice of medication or device depends on various factors, including patient demographics, the perceived risk, contraindications (eg, bleeding risk), relative costs, and ease of use. The American College of Chest Physicians has published comprehensive evidence-based recommendations for prophylaxis of acute DVT, including the duration of prophylaxis, in surgical and nonsurgical patients and during pregnancy (1, 2). The need for prophylaxis has been studied in numerous patient populations.
+
+The type of surgery as well as patient-specific factors determine the risk of DVT. Independent risk factors for surgical and nonsurgical patients include
+
+Age ≥ 60 years
+
+Prior DVT or PE
+
+Cancer
+
+Anesthesia ≥ 2 hours
+
+Bed rest ≥ 4 days
+
+Male sex
+
+Hospital stay ≥ 2 days
+
+Sepsis
+
+Pregnancy or the postpartum state
+
+Central venous access
+
+Body mass index (BMI) > 40
+
+The Caprini score is commonly used for DVT risk stratification and determination of the need for DVT prophylaxis in nonorthopedic surgical patients (see table Risk Assessment for Thrombosis).
+
+Table
+
+Risk Assessment for Thrombosis
+
+Table
+
+Risk Assessment for Thrombosis
+
+Risk Assessment for Thrombosis
+
+Risk Factor
+
+Score
+
+Age (years)
+
+41–60
+
+1
+
+60–74
+
+2
+
+≥ 75
+
+3
+
+Surgery
+
+Minor surgery during current hospitalization
+
+1
+
+Major surgery within the past 1 month
+
+1
+
+Arthroscopic surgery during current hospitalization
+
+2
+
+Major surgery lasting > 45 minutes during current hospitalization
+
+1
+
+Laparoscopic surgery lasting > 45 minutes during current hospitalization
+
+2
+
+Elective major arthroplasty of the leg during current hospitalization
+
+5
+
+Coexisting conditions
+
+Varicose veins
+
+1
+
+Inflammatory bowel disease
+
+1
+
+Edema, leg (current)
+
+1
+
+Obesity (BMI > 25)
+
+1
+
+Acute myocardial infarction
+
+1
+
+Heart failure within the preceding 1 month
+
+1
+
+Sepsis within the preceding 1 month
+
+1
+
+Serious lung disease* within the preceding 1 month
+
+1
+
+Abnormal pulmonary function (eg, COPD)
+
+1
+
+Central venous access
+
+2
+
+Cancer (present or previous)
+
+2
+
+History of DVT/PE
+
+3
+
+Family history of thrombosis†
+
+3
+
+Factor V Leiden mutation
+
+3
+
+Prothrombin 20210A mutation
+
+3
+
+Elevated serum homocysteine
+
+3
+
+Positive lupus anticoagulant
+
+3
+
+Elevated anticardiolipin antibodies
+
+3
+
+Heparin-induced thrombocytopenia
+
+3
+
+Other congenital or acquired thrombophilia
+
+3
+
+Stroke within the preceding 1 month
+
+5
+
+Multiple trauma within the preceding 1 month
+
+5
+
+Acute spinal cord injury/paralysis within the preceding 1 month
+
+5
+
+Immobilization
+
+Current bed rest (medical patient)
+
+1
+
+Bed rest > 72 hours
+
+2
+
+Immobilizing plaster cast within the preceding 1 month
+
+2
+
+Hip, pelvis, or leg fracture within the preceding 1 month
+
+5
+
+Additional risk factors for women
+
+Oral contraceptive use or hormone replacement therapy
+
+1
+
+Pregnancy or postpartum within the preceding 1 month
+
+1
+
+History of unexplained stillbirth, recurrent spontaneous abortion (≥ 3), premature birth with toxemia or growth-restricted infant
+
+1
+
+Other
+
+Other risk factors‡
+
+1
+
+* Serious lung disease includes pneumonia.
+
+† Family history of thrombosis is the most frequently missed risk factor.
+
+‡ Other risk factors include BMI > 40, smoking, diabetes requiring insulin therapy, chemotherapy, blood transfusions, and length of surgery > 2 hours.
+
+Data from Gould MK, Garcia DA, Wren SM, et al. Prevention of VTE in nonorthopedic surgical patients: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines [published correction appears in Chest 2012 May;141(5):1369]. Chest 2012;141(2 Suppl):e227S-e277S. doi:10.1378/chest.11-2297
+
+BMI = body mass index; COPD = chronic obstructive pulmonary disease; DVT = deep vein thrombosis; PE = pulmonary embolism.
+
+* Serious lung disease includes pneumonia.
+
+† Family history of thrombosis is the most frequently missed risk factor.
+
+‡ Other risk factors include BMI > 40, smoking, diabetes requiring insulin therapy, chemotherapy, blood transfusions, and length of surgery > 2 hours.
+
+Data from Gould MK, Garcia DA, Wren SM, et al. Prevention of VTE in nonorthopedic surgical patients: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines [published correction appears in Chest 2012 May;141(5):1369]. Chest 2012;141(2 Suppl):e227S-e277S. doi:10.1378/chest.11-2297
+
+BMI = body mass index; COPD = chronic obstructive pulmonary disease; DVT = deep vein thrombosis; PE = pulmonary embolism.
+
+The need for DVT prophylaxis is based on the risk assessment score (see table Prophylaxis Based on Caprini Score). Appropriate preventive measures, ranging from early ambulation to use of heparin, depend on the total score (3).
+
+Table
+
+Prophylaxis Based on Caprini Score
+
+Table
+
+Prophylaxis Based on Caprini Score
+
+Prophylaxis Based on Caprini Score
+
+Points
+
+Risk
+
+Prophylaxis
+
+0
+
+Very low
+
+Early ambulation
+
+1–2
+
+Low
+
+Sequential compression device (SCD)
+
+3–4
+
+Moderate
+
+Heparin every 8 hours or low molecular weight heparin +/- SCD
+
+≥ 5
+
+High
+
+Heparin or low molecular weight heparin +/- SCD
+
+Data from Gould MK, Garcia DA, Wren SM, et al. Prevention of VTE in nonorthopedic surgical patients: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines [published correction appears in Chest 2012 May;141(5):1369]. Chest 2012;141(2 Suppl):e227S-e277S. doi:10.1378/chest.11-2297
+
+Data from Gould MK, Garcia DA, Wren SM, et al. Prevention of VTE in nonorthopedic surgical patients: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines [published correction appears in Chest 2012 May;141(5):1369]. Chest 2012;141(2 Suppl):e227S-e277S. doi:10.1378/chest.11-2297
+
+Medication regimens for pulmonary embolism prevention
+
+Medication therapy to prevent DVT is usually delayed until after surgery to help avoid intraoperative bleeding. However, preoperative prophylaxis is also effective.
+
+In general surgery patients, low dose unfractionated heparin is given for 7 to 10 days or until the patient is fully ambulatory. Patients who are immobilized and not undergoing surgery should also receive low dose unfractionated heparin until they are ambulatory.
+
+Low molecular weight heparin dosing for DVT prophylaxis depends on the specific medication (enoxaparin, dalteparin, tinzaparin). Low molecular weight heparins are at least as effective as low dose unfractionated heparin for preventing DVT and PE.
+
+Fondaparinux 2.5 mg subcutaneously once a day is as effective as low molecular weight heparin for patients who have undergone orthopedic surgery and for patients with heparin-induced thrombocytopenia or some other situations, such as after major orthopedic surgery (4). It is a selective factor Xa inhibitor.
+
+Warfarin is usually effective and safe at a dose adjusted to maintain an INR of 2 to 3 in patients who have undergone total hip or knee replacement. Warfarin use is increasingly being supplanted by the use of direct oral anticoagulants.
+
+The direct oral anticoagulants rivaroxaban and apixaban are factor Xa inhibitors. They can be used for prevention of acute DVT/PE in patients undergoing total knee or hip arthroplasty.
+
+Prophylactic devices for pulmonary embolism
+
+Inferior vena cava filters, intermittent pneumatic compression (also known as sequential compression devices [SCD]), and graded elastic compression stockings may be used alone or in combination with medications to prevent PE. Whether these devices are used alone or in combination depends on the specific indication.
+
+An inferior vena cava filter (IVCF) may help prevent PE in patients with DVT in the leg or pelvic vasculature, but IVCF placement may risk long-term complications. Evidence raises questions regarding the efficacy of retrievable filters in patients receiving anticoagulation (5). A filter is most clearly indicated in patients who have
+
+Proven DVT and contraindications to anticoagulation
+
+Recurrent DVT (or emboli) despite adequate anticoagulation
+
+Possibly marginal cardiopulmonary function, causing concern for their ability to tolerate additional small emboli
+
+Because venous collaterals can develop, providing a pathway for emboli to circumvent long-standing IVCFs, and because filters occasionally thrombose, patients with recurrent DVT or nonmodifiable risk factors for DVT may still require anticoagulation. An IVCF is placed in the inferior vena cava just below the renal veins via catheterization of an internal jugular or femoral vein. Most IVCFs are removable. Occasionally, a filter dislodges and may migrate up the venous bed, even to the heart or pulmonary vasculature. A filter can also become thrombosed, causing severe venous congestion (including acute phlegmasia cerulea dolens) in the leg, lower body ischemia, and acute kidney injury (6).
+
+Intermittent pneumatic compression (IPC) with SCDs provides rhythmic external compression to the legs or to the legs and thighs. It is more effective for preventing calf than proximal DVT. It is insufficient as sole prophylaxis after hip or knee replacement but is often used in low-risk patients after other types of surgery or in medical patients who have a low-risk of DVT or who are at high risk of bleeding. IPC can theoretically trigger PE in patients who are immobilized and have developed occult DVT while not receiving DVT prophylaxis.
+
+Graded elastic compression stockings are likely less effective than external pneumatic leg compression.
+
+Choices for prevention of pulmonary embolism
+
+After surgical procedures with a high incidence of DVT/PE, low dose unfractionated heparin, low molecular weight heparin, or adjusted-dose warfarin is recommended.
+
+After orthopedic surgery of the hip or knee, additional options include the direct oral anticoagulants rivaroxaban and apixaban. These medications are safe and effective and, unlike warfarin, they do not require laboratory tests to monitor the level of anticoagulation.
+
+For total hip arthroplasty, patients should continue to take anticoagulants for 35 days postoperatively. In selected patients at very high risk of both DVT/PE and bleeding, temporary placement of an IVCF is an option for prophylaxis.
+
+In patients undergoing elective neurosurgical procedures, the risk of DVT/PE is also high. Because of concern about intracranial bleeding, physical methods (SCDs and elastic stockings) have often been used in patients undergoing neurosurgery; however, low molecular weight heparin appears to be an acceptable alternative. Although no specific guidelines exist, the combination of SCDs and low molecular weight heparin may be more effective than either alone in patients who are at high risk.
+
+In patients with spinal cord injury or multiple trauma, limited data support the combination of SCDs, elastic compression stockings, and low molecular weight heparin to prevent DVT/PE (7). For patients at very high risk, a temporary IVCF may be considered.
+
+In acutely ill medical patients, low dose unfractionated heparin, low molecular weight heparin, or fondaparinux can be given. SCDs, elastic compression stockings, or both may be used when anticoagulants are contraindicated. For patients with ischemic stroke, low dose unfractionated heparin or low molecular weight heparin can be used; SCD, elastic compression stockings, or both may be beneficial.
+
+Prevention references
+
+1. Kearon C, Akl EA, Ornelas J, et al. Antithrombotic Therapy for VTE Disease: CHEST Guideline and Expert Panel Report [published correction appears in Chest 2016 Oct;150(4):988]. Chest 2016;149(2):315-352. doi:10.1016/j.chest.2015.11.026
+
+2. Stevens SM, Woller SC, Kreuziger LB, et al. Antithrombotic Therapy for VTE Disease: Second Update of the CHEST Guideline and Expert Panel Report [published correction appears in Chest 2022 Jul;162(1):269]. Chest 2021;160(6):e545-e608. doi:10.1016/j.chest.2021.07.055
+
+3. Gould MK, Garcia DA, Wren SM, et al. Prevention of VTE in nonorthopedic surgical patients: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines [published correction appears in Chest 2012 May;141(5):1369]. Chest 2012;141(2 Suppl):e227S-e277S. doi:10.1378/chest.11-2297
+
+4. Tran AH, Lee G. Fondaparinux for prevention of venous thromboembolism in major orthopedic surgery. Ann Pharmacother 2003;37(11):1632-1643. doi:10.1345/aph.1C104
+
+5. Mismetti P, Laporte S, Pellerin O, et al. Effect of a retrievable inferior vena cava filter plus anticoagulation vs anticoagulation alone on risk of recurrent pulmonary embolism: a randomized clinical trial. JAMA 2015;313(16):1627-1635. doi:10.1001/jama.2015.3780
+
+6. Marron RM, Rali P, Hountras P, Bull TM. Inferior Vena Cava Filters: Past, Present, and Future. Chest 2020;158(6):2579-2589. doi:10.1016/j.chest.2020.08.002
+
+7. Aito S, Pieri A, D'Andrea M, Marcelli F, Cominelli E. Primary prevention of deep venous thrombosis and pulmonary embolism in acute spinal cord injured patients. Spinal Cord 2002;40(6):300-303. doi:10.1038/sj.sc.3101298
+
+Key Points
+
+Acute pulmonary embolism (PE) is a common and potentially devastating medical condition.
+
+Clinical suspicion and a confirmatory diagnosis are essential because in most patients who die from acute PE, PE is not even suspected.
+
+Because anticoagulation improves survival, patients should be given anticoagulants when PE is diagnosed or strongly suspected.
+
+Patients with high risk/massive PE and certain patients with intermediate risk/submassive PE should be considered for thrombolytic therapy or embolectomy.
+
+Prevention of deep venous thrombosis (and thus PE) should be considered in all patients who are hospitalized and at risk.

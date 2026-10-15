@@ -1,0 +1,128 @@
+=== Factors Facilitating Microbial Invasion (Merck Manual Professional) ===
+Section: Infectious Disease > Biology of Infectious Disease
+Source: https://www.merckmanuals.com/professional/infectious-diseases/biology-of-infectious-disease/factors-facilitating-microbial-invasion
+Retrieved: 2026-09-25
+
+Microbial invasion can be facilitated by the following:
+
+Virulence factors
+
+Microbial adherence
+
+Antimicrobial resistance
+
+Defects in host defense mechanisms
+
+Virulence Factors
+
+Virulence factors assist pathogens in invasion and resistance of host defenses; these factors include
+
+Capsule
+
+Enzymes
+
+Toxins
+
+Capsule
+
+Some organisms (eg, certain strains of pneumococci, meningococci, Haemophilus influenzae type b) have a capsule that blocks phagocytosis, making these organisms more virulent than nonencapsulated strains. However, capsule-specific opsonic antibodies can bind to the bacterial capsule and facilitate phagocytosis.
+
+Enzymes
+
+Bacterial proteins with enzymatic activity (eg, protease, hyaluronidase, neuraminidase, elastase, collagenase) facilitate local tissue spread. Invasive organisms (eg, Shigella flexneri, Yersinia enterocolitica) can penetrate and traverse intact eukaryotic cells, facilitating entry from mucosal surfaces.
+
+Some bacteria (eg, Neisseria gonorrhoeae, N. meningitidis, H. influenzae, Proteus mirabilis, clostridial species, Streptococcus pneumoniae) produce IgA-specific proteases that cleave and inactivate secretory IgA on mucosal surfaces.
+
+Toxins
+
+Organisms may release toxins (called exotoxins), which are protein molecules that may cause disease (eg, diphtheria, cholera, tetanus, botulism, clostridial enterocolitis) or increase the severity of the disease. Most toxins bind to specific target cell receptors. With the exception of preformed toxins responsible for some food-borne illnesses (eg, botulism, staphylococcal or Bacillus cereus food poisoning), toxins are produced by organisms during the course of infection.
+
+Endotoxin is a lipopolysaccharide produced by gram-negative bacteria and is part of the outer membrane of these organisms. Endotoxin triggers humoral enzymatic mechanisms involving the complement, clotting, fibrinolytic, and kinin pathways and causes much of the morbidity in gram-negative bacterial sepsis.
+
+Other factors
+
+Some microorganisms are more virulent because they do the following:
+
+Impair antibody production
+
+Destroy protective antibodies
+
+Resist the lytic effects of serum complement
+
+Resist the oxidative steps in phagocytosis
+
+Produce superantigens
+
+Many microorganisms have mechanisms that impair antibody production by inducing suppressor cells, blocking antigen processing, and inhibiting lymphocyte mitogenesis.
+
+Many mucosal pathogens, including Neisseria gonorrhoeae, N. meningitidis, S. pneumoniae, and H. pneumoniae, produce proteases that cleave immunoglobulin A (IgA). IgA is the predominant immunoglobulin class produced at mucosal surfaces.
+
+Resistance to the lytic effects of serum complement confers virulence.
+
+Some organisms resist the oxidative steps in phagocytosis. For example, Legionella and Listeria either do not elicit or actively suppress the oxidative step, whereas other organisms produce enzymes (eg, catalase, glutathione reductase, superoxide dismutase) that mitigate the oxidative products.
+
+Some viruses and bacteria produce superantigens that bypass the immune system, cause nonspecific activation of inordinate numbers of naive T cells, and thus cause excessive and potentially destructive inflammation mediated by massive release of proinflammatory cytokines (eg, staphylococcal and streptococcal toxic shock syndrome).
+
+Microbial Adherence
+
+Adherence to surfaces helps microorganisms establish a base from which to penetrate tissues. Among the factors that determine adherence are adhesins (microbial molecules that mediate attachment to a cell) and host receptors to which the adhesins bind. Host receptors include cell surface sugar residues and cell surface proteins (eg, fibronectin) that enhance binding of certain gram-positive organisms (eg, staphylococci).
+
+Other determinants of adherence include fine structures on certain bacterial cells (eg, streptococci) called fibrillae, by which some bacteria bind to human epithelial cells. Other bacteria, such as Enterobacterales (eg, Escherichia coli), have specific adhesive organelles called fimbriae or pili. Fimbriae enable the organism to attach to almost all human cells, including neutrophils and epithelial cells in the genitourinary tract, mouth, and intestine.
+
+Biofilm
+
+Biofilm is a slime layer that can form around certain bacteria and confer resistance to phagocytosis and antibiotics. It develops around Pseudomonas aeruginosa in the lungs of patients with cystic fibrosis and around staphylococcal bacterial species on synthetic medical devices, such as IV catheters, prosthetic vascular grafts, orthopedic fixation devices and prosthetic joints, and suture material.
+
+Factors that affect the likelihood of biofilm developing on such medical devices include the material’s roughness, chemical composition, and hydrophobicity.
+
+Antimicrobial Resistance
+
+Genetic variability among microbes is inevitable. Use of antimicrobials increasingly selects for survival of strains that are capable of resisting them.
+
+Emergence of antimicrobial resistance may be due to spontaneous mutation of chromosomal genes. In many cases, resistant bacterial strains have acquired mobile genetic elements from other microorganisms, usually of the same species but sometimes from different ones. These elements are encoded on plasmids or transposons and enable the microorganisms to synthesize enzymes that
+
+Modify or inactivate the antimicrobial agent
+
+Change the antimicrobial agent's ability to accumulate in the bacterial cell
+
+Resist inhibition by the antimicrobial agent (eg, alteration in the target sites of antibiotics is a common mechanism of resistance)
+
+Minimizing inappropriate use of antibiotics in humans and in animal and crop farming is important for public health (1).
+
+For further discussion, see Antibiotic Resistance.
+
+Reference
+
+1. Lessa FC, Sievert DM. Antibiotic Resistance: A Global Problem and the Need to Do More. Clin Infect Dis. 2023;77(Suppl 1):S1-S3. doi:10.1093/cid/ciad226
+
+Defects in Host Defense Mechanisms
+
+Two types of immune deficiency states affect the host’s ability to fight infection:
+
+Primary immune deficiency
+
+Secondary (acquired) immune deficiency
+
+Primary immune deficiencies are genetic in origin; > 100 primary immune deficiency states have been described. Most primary immune deficiencies are recognized during infancy; however, up to 40% are first recognized during adolescence or adulthood.
+
+Acquired immune deficiencies are caused by another disease (eg, cancer, HIV infection, chronic disease) or by exposure to a chemical or medication that is detrimental to the immune system.
+
+Mechanisms
+
+Defects in immune responses may involve
+
+Cellular immunity
+
+Humoral immunity
+
+Phagocytic system
+
+Complement system
+
+Cellular deficiencies are typically T-cell or combined immune defects. T cells contribute to the killing of intracellular organisms; thus, patients with T-cell defects can present with opportunistic infections such as Pneumocystis jirovecii or cryptococcal infections. Chronicity of these infections can lead to failure to thrive, chronic diarrhea, and persistent oral candidiasis.
+
+Humoral deficiencies are typically caused by the failure of B cells to make functioning immunoglobulins. Patients with this type of defect usually have infections involving encapsulated organisms (eg, H. influenzae, S. pneumoniae). Patients can present with poor growth, diarrhea, and recurrent sinopulmonary infections.
+
+A defect in the phagocytic system affects the immediate immune response to bacterial infection and can result in development of recurrent abscesses or severe pneumonias.
+
+Primary complement system defects are particularly rare. Patients with this type of defect may present with recurrent infections with pyogenic bacteria (eg, encapsulated bacteria, Neisseria species) and have an increased risk of autoimmune disorders (eg, systemic lupus erythematosus).

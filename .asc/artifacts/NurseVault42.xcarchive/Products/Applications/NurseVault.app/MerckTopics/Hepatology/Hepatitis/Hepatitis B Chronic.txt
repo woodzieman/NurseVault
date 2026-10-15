@@ -1,0 +1,262 @@
+=== Hepatitis B, Chronic (Merck Manual Professional) ===
+Section: Hepatology > Hepatitis
+Source: https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/hepatitis/hepatitis-b-chronic
+Retrieved: 2026-09-25
+
+(See also Causes of Hepatitis, Overview of Chronic Hepatitis, and Acute Hepatitis B.)
+
+Hepatitis lasting > 6 months is generally defined as chronic hepatitis, although this duration is arbitrary.
+
+Acute hepatitis B becomes chronic in approximately 1 to 12% of immunocompetent patients overall (1). The younger the age that acute hepatitis B occurs, the higher the risk of developing chronic hepatitis B.
+
+The U.S. Centers for Disease Control and Prevention (CDC) estimates that 660,000 people in the United States have chronic hepatitis B (2, 3). Worldwide, the World Health Organization (WHO) estimates that approximately 254 million people have chronic hepatitis B (4), and that HBV caused over 1 million deaths in 2022, mostly from complications of cirrhosis and hepatocellular carcinoma.
+
+Without treatment, chronic hepatitis B can resolve (uncommon), progress rapidly, or progress slowly to cirrhosis over decades. Resolution often begins with a transient increase in disease severity and results in seroconversion from hepatitis B e antigen (HBeAg) to antibody to hepatitis B e antigen (anti-HBe), followed by loss of hepatitis B surface antigen (HBsAg).
+
+Chronic hepatitis B virus (HBV) infection even in the absence of cirrhosis increases the risk of hepatocellular carcinoma.
+
+Coinfection with hepatitis D virus (HDV) causes the most severe form of chronic HBV infection; with 2 to 4 times the rate of cirrhosis, hepatocellular carcinoma, and mortality compared with HBV alone (5).
+
+General references
+
+1. Schillie S, Vellozzi C, Reingold A, et al. Prevention of Hepatitis B Virus Infection in the United States: Recommendations of the Advisory Committee on Immunization Practices. MMWR Recomm Rep. 2018;67(1):1-31. Published 2018 Jan 12. doi:10.15585/mmwr.rr6701a1
+
+2. U.S. Centers for Disease Control and Prevention (CDC). Clinical Overview of Viral Hepatitis. Published August 29, 2025. Accessed April 30, 2026.
+
+3. Bixler D, Barker L, Lewis K, et al. Prevalence and awareness of Hepatitis B virus infection in the United States: January 2017 - March 2020. Hepatol Commun. 2023;7(4):e0118. Published 2023 Mar 30. doi:10.1097/HC9.0000000000000118
+
+4. World Health Organization (WHO). Hepatitis B. Published July 23, 2025. Accessed April 30, 2026.
+
+5. Kushner T, Cohen SM, Ahn J, et al. AGA Clinical Practice Update on Management of Hepatitis Delta: Commentary. Gastroenterology. 2025;169(5):1063-1069. doi:10.1053/j.gastro.2025.07.037
+
+Symptoms and Signs of Chronic Hepatitis B
+
+Symptoms of chronic hepatitis B vary depending on the degree of underlying liver damage.
+
+Many patients, particularly children, are asymptomatic (1). However, malaise, anorexia, and fatigue are common, sometimes with nonspecific upper abdominal discomfort. Jaundice is usually absent.
+
+Often, the first findings are
+
+Signs of chronic liver disease or cirrhosis (eg, splenomegaly, spider nevi, palmar erythema)
+
+Complications of cirrhosis (eg, portal hypertension, ascites, encephalopathy)
+
+Extrahepatic manifestations may include polyarteritis nodosa and glomerular disease.
+
+Symptoms and signs reference
+
+1. Tang LSY, Covert E, Wilson E, et al. Chronic Hepatitis B Infection: A Review. JAMA. 2018;319(17):1802-1813. doi:10.1001/jama.2018.3795
+
+Diagnosis of Chronic Hepatitis B
+
+Serologic and nucleic acid antibody testing
+
+Serum alanine aminotransferase (ALT)
+
+The diagnosis of chronic hepatitis B is suspected in patients with any of the following:
+
+Suggestive symptoms and signs
+
+Incidentally noted elevations in aminotransferase levels
+
+Previously diagnosed acute hepatitis
+
+Diagnosis is confirmed by finding positive hepatitis B surface antigen (HBsAg) and IgG antibody to hepatitis B core (IgG anti-HBc) and negative IgM anti-HBc (see table Hepatitis B Serology) and by measuring hepatitis B virus DNA (quantitative HBV-DNA).
+
+Table
+
+Hepatitis B Serology*
+
+Table
+
+Hepatitis B Serology*
+
+Hepatitis B Serology*
+
+Marker
+
+Acute HBV Infection
+
+Chronic HBV Infection
+
+Prior HBV Infection†
+
+HBsAg
+
++
+
++
+
+−
+
+Anti-HBs
+
+−
+
+−
+
+± ‡
+
+IgM anti-HBc
+
++
+
+−
+
+−
+
+IgG anti-HBc
+
+−
+
++
+
+±
+
+HBeAg
+
+±
+
+±
+
+−
+
+Anti-HBe
+
+−
+
+±
+
+±
+
+HBV-DNA
+
++
+
++
+
+−
+
+* Antibody to hepatitis D virus (anti-HDV) levels should be measured if serologic tests confirm HBV and infection is severe.
+
+† Patients have had HBV infection and recovered.
+
+‡ Anti-HBs is also seen as the sole serologic marker after HBV vaccination.
+
+Anti-HBc = antibody to hepatitis B core; anti-HBe = antibody to HBeAg; anti-HBs = antibody to HBsAg; HBeAg = hepatitis B e antigen; HBsAg = hepatitis B surface antigen; HBV = hepatitis B virus.
+
+* Antibody to hepatitis D virus (anti-HDV) levels should be measured if serologic tests confirm HBV and infection is severe.
+
+† Patients have had HBV infection and recovered.
+
+‡ Anti-HBs is also seen as the sole serologic marker after HBV vaccination.
+
+Anti-HBc = antibody to hepatitis B core; anti-HBe = antibody to HBeAg; anti-HBs = antibody to HBsAg; HBeAg = hepatitis B e antigen; HBsAg = hepatitis B surface antigen; HBV = hepatitis B virus.
+
+Chronic hepatitis B is further classified into distinct phases to guide prognosis and treatment, based on hepatitis e antigen (HBeAg) status, serum HBV-DNA level, and the ALT level (1):
+
+Immune-tolerant: HBeAg positive, HBV-DNA ≥ 10,000,000 IU/mL, ALT normal
+
+HBeAg positive immune-active: HBeAg positive, HBV-DNA ≥ 20,000 IU/mL, ALT ≥ 2 times the upper limit of normal
+
+HBeAg negative immune-active: HBeAg negative, HBV-DNA ≥ 2,000 IU/mL, ALT ≥ 2 times the upper limit of normal
+
+Inactive: HBeAg negative, HBV-DNA < 2,000 IU/mL, ALT normal
+
+HBsAg-negative immune clearance: HBsAg negative, HBV-DNA undetectable
+
+Indeterminate: not clearly meeting criteria for another phase
+
+If chronic hepatitis B is confirmed, testing for hepatitis B e antigen (HBeAg) and antibody to hepatitis B e antigen (anti-HBe) is usually performed to help determine the prognosis and to guide antiviral therapy. If serologically confirmed HBV infection is severe or if patients belong to a known at-risk population (eg, those with HIV infection, injection illicit drug users, men who have sex with men, or immigrants from areas of high endemicity, and possibly those who are HBsAg-positive with low HBV-DNA but high ALT levels), antibody to hepatitis D virus (anti-HDV) is measured.
+
+Noninvasive assessment of fibrosis (FIB-4 index or other blood-based tests, ultrasound, and elastography) is performed to evaluate degree of fibrosis after chronic hepatitis B is diagnosed (2, 3).
+
+Clinical Calculators
+
+FIB-4 Index, an Indirect Marker for Liver Fibrosis in Adults (2026 update)
+
+Biopsy is occasionally performed to evaluate the extent of liver damage and to exclude other causes of liver disease. Liver biopsy is most useful in cases that do not meet clear-cut guidelines for treatment (4).
+
+Other tests
+
+Liver tests are needed if not previously performed; they include serum alanine aminotransferase (ALT), aspartate aminotransferase (AST), and alkaline phosphatase.
+
+Other tests should be performed to evaluate liver function and disease severity; they include serum albumin, bilirubin, platelet count, and prothrombin time/international normalized ratio (PT/INR).
+
+Patients should also be tested for HIV and hepatitis C infection because transmission of these infections is similar. Patients with newly diagnosed hepatitis B should also be tested for hepatitis D.
+
+If symptoms or signs of cryoglobulinemia develop during chronic hepatitis, cryoglobulin levels and rheumatoid factor should be measured; high levels of rheumatoid factor and low levels of complement suggest cryoglobulinemia.
+
+Screening for complications
+
+Patients with chronic HBV infection should be screened every 6 months for hepatocellular carcinoma with ultrasound and serum alpha-fetoprotein measurement (5, 6).
+
+Diagnosis references
+
+1. Ghany MG, Pan CQ, Lok AS, et al. AASLD ISDA Practice Guideline on treatment of chronic hepatitis B. Hepatology. 2026;83(4):974-997. doi:10.1097/HEP.0000000000001549
+
+2. Castera L, Rinella ME, Tsochatzis EA. Noninvasive Assessment of Liver Fibrosis. N Engl J Med. 2025;393(17):1715-1729. doi:10.1056/NEJMra2403308
+
+3. Sterling RK, Patel K, Duarte-Rojo A, et al. AASLD Practice Guideline on blood-based noninvasive liver disease assessment of hepatic fibrosis and steatosis. Hepatology. 2025;81(1):321-357. doi:10.1097/HEP.0000000000000845
+
+4. Ghany MG, Pan CQ, Lok AS, et al. AASLD ISDA Practice Guideline on treatment of chronic hepatitis B. Hepatology. 2026;83(4):974-997. doi:10.1097/HEP.0000000000001549
+
+5. Singal AG, Llovet JM, Yarchoan M, et al. AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma. Hepatology. 2023;78(6):1922-1965. doi:10.1097/HEP.0000000000000466
+
+6. Aghoram R, Cai P, Dickinson JA. Alpha-foetoprotein and/or liver ultrasonography for screening of hepatocellular carcinoma in patients with chronic hepatitis B. Cochrane Database Syst Rev. 2012;(9):CD002799. doi: 10.1002/14651858.CD002799.pub2
+
+Treatment of Chronic Hepatitis B
+
+Antiviral medications
+
+Sometimes liver transplantation
+
+Chronic hepatitis B is managed primarily with antiviral therapy (eg, oral nucleoside or nucleotide analogs), with the goals of suppressing HBV-DNA, preventing progression to cirrhosis and hepatocellular carcinoma, and reducing liver-related mortality (1). Not all patients with chronic hepatitis B require treatment with antiviral therapy, and their use largely depends of the phase of the infection.
+
+Antiviral treatment is indicated for patients with chronic hepatitis B in the immune-active phase (1).
+
+Antiviral treatment should also be considered in the immune-tolerant phase for patients ≥ 40 years old with significant fibrosis (≥ F2 based on noninvasive testing or biopsy) and for those in an indeterminate phase with increased risk for hepatocellular carcinoma (male, >40 years old, platelet count < 180) or significant fibrosis. All patients with cirrhosis, regardless of viral load, should receive antiviral therapy.
+
+The goal of antiviral treatment is to eliminate HBV-DNA (1). Treatment can result in the loss of hepatitis B e antigen (HBeAg) or loss of hepatitis B surface antigen (HBsAg). The majority of patients treated for chronic hepatitis B must be treated indefinitely. Stopping treatment prematurely can lead to relapse, which may be severe. Discontinuation may be considered in patients without cirrhosis after undetectable HBV-DNA for ≥ 2 years, HBeAg seroconversion (loss of HBeAg and development of anti-HBe), and significant reduction in HBsAg level.
+
+First-line treatment is usually with:
+
+An oral antiviral medication, such as entecavir (a nucleoside analog) or tenofovir (a nucleotide analog)
+
+Oral antivirals have few adverse effects and can be given to patients with decompensated liver disease. Lactic acidosis is a potential side effect, and lactic acid levels should be checked if there is clinical concern. Combination therapy has not proved superior to monotherapy. Patients should be tested for HIV before treatment is initiated.
+
+Entecavir has a high antiviral potency, and resistance to it is uncommon; it is considered a first-line treatment for HBV infection. Entecavir is effective against adefovir-resistant strains. Dose reduction is required in patients with renal insufficiency. Serious adverse effects appear to be uncommon, although safety in pregnancy has not been established.
+
+Tenofovir is the most potent oral antiviral for hepatitis B; resistance to it is minimal. It has few adverse effects. There are 2 forms of tenofovir:
+
+Tenofovir disoproxil fumarate (TDF)
+
+Tenofovir alafenamide (TAF), which is newer
+
+Dosing frequency for TDF may need to be reduced if creatinine clearance is reduced. Potential side effects include nephropathy, Fanconi syndrome, and osteomalacia. If patients are at risk of renal impairment, creatinine clearance, serum phosphate, and urine glucose and protein should be checked at least annually. Bone density studies at baseline and during treatment should be considered if patients have a history of fracture or risk factors for osteopenia.
+
+No dose adjustments for TAF are necessary if creatinine clearance is reduced. TDF and TAF are similar in efficacy, but TAF is safer in patients when renal toxicity or bone density is a concern. Serum creatinine and phosphorus, creatinine clearance, and urine glucose and protein should be checked before initiating and during therapy.
+
+Nonpreferred antiviral therapies (adefovir, lamivudine, telbivudine) may be considered if the above medications are unavailable.
+
+Liver transplantation should be considered for end-stage liver disease (including decompensated cirrhosis) caused by HBV. In patients with HBV infection, the long-term use of first-line oral antivirals and peritransplantation use of hepatitis B immune globulin (HBIG) has improved outcomes after liver transplantation (2). Survival is equal to or better than that after transplantation for other indications, and recurrences of hepatitis B are minimized.
+
+Treatment of pregnant patients
+
+To prevent vertical transmission, pregnant patients found to be HBsAg positive who have HBV-DNA >200,000 IU/mL should be treated with tenofovir starting at 28 weeks gestational age until delivery (if not otherwise indicated) (1).
+
+Treatment references
+
+1. Ghany MG, Pan CQ, Lok AS, et al. AASLD ISDA Practice Guideline on treatment of chronic hepatitis B. Hepatology. 2026;83(4):974-997. doi:10.1097/HEP.0000000000001549
+
+2. Orfanidou A, Papatheodoridis GV, Cholongitas E. Antiviral prophylaxis against hepatitis B recurrence after liver transplantation: Current concepts. Liver Int. 2021;41(7):1448-1461. doi:10.1111/liv.14860
+
+Key Points
+
+Acute hepatitis B becomes chronic in 1 to 12% of adults; risk is higher at a young age.
+
+Symptoms vary depending on the degree of underlying liver damage.
+
+Antiviral medications can improve liver test results and liver histology and delay progression to cirrhosis, but may need to be taken indefinitely.
+
+Liver transplantation may be required in patients with decompensated cirrhosis due to hepatitis B.

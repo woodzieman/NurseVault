@@ -1,0 +1,94 @@
+=== Rhabdomyolysis (Merck Manual Professional) ===
+Section: Nephrology > Acute Kidney Injury
+Source: https://www.merckmanuals.com/professional/nephrology/acute-kidney-injury/rhabdomyolysis
+Retrieved: 2026-09-25
+
+Prompt recognition and treatment of rhabdomyolysis are vital because severe disease can be associated with life-threatening acute kidney injury (AKI) and electrolyte imbalances.
+
+Pathophysiology of Rhabdomyolysis
+
+Normal skeletal muscle function is dependent on appropriate electrolyte exchange, adequate metabolism of adenosine triphosphate (ATP), and intact plasma membrane of the myocytes. In rhabdomyolysis, these processes are disrupted, resulting in the breakdown of skeletal muscle (1). Destruction of skeletal muscle tissue leads to release of the intracellular components of myocytes into the plasma, including creatine kinase (CK), myoglobin, and various electrolytes. Myoglobinuria and electrolyte abnormalities cause end-organ complications, including acute kidney injury.
+
+Pathophysiology reference
+
+1. Bosch X, Poch E, Grau JM. Rhabdomyolysis and acute kidney injury. N Engl J Med. 2009;361(1):62-72. doi:10.1056/NEJMra0801327
+
+Etiology of Rhabdomyolysis
+
+Any form of muscle damage can theoretically result in rhabdomyolysis. The most common etiologies include the following (1):
+
+Mechanical trauma or muscle ischemia (eg, crush injuries, electric shocks, seizures, or compartment syndrome)
+
+Medications, illicit drugs, and toxins (eg, statins, antibiotics, anxiolytics, antipsychotics, cocaine, amphetamines, alcohol)
+
+Infection (eg, influenza A and B, coxsackievirus, Staphylococcus aureus)
+
+Less common etiologies include
+
+Electrolyte disorders (eg, hypokalemia, hypophosphatemia)
+
+Endocrine disorders (eg, diabetic ketoacidosis and nonketotic hyperglycemia)
+
+Genetic disorders (eg, Duchenne muscular dystrophy, Becker muscular dystrophy)
+
+Extreme exercise or prolonged immobilization
+
+Extremes in body temperature (eg, hypothermia, hyperthermia in neuroleptic malignant syndrome or malignant hyperthermia, and heatstroke)
+
+Etiology reference
+
+1. Long B, Koyfman A, Gottlieb M. An evidence-based narrative review of the emergency department evaluation and management of rhabdomyolysis. Am J Emerg Med. 2019;37(3):518-523. doi:10.1016/j.ajem.2018.12.061
+
+Symptoms and Signs of Rhabdomyolysis
+
+The classic triad of symptoms in rhabdomyolysis is muscle pain, weakness, and reddish-brown urine.  However, this trio of symptoms is present in fewer than 10% of all patients with rhabdomyolysis (1). 
+
+Clinical presentation is variable, and many patients have no muscle complaints at all. When present, muscle pain affects proximal muscle groups, such as shoulders, thighs, lower back, and calves or the affected muscles in cases of trauma or ischemia. At a high concentration, myoglobin excreted into the urine changes its color to red or brown and can be assessed with a dipstick analysis positive for blood (caused by myoglobinuria). However, due to rapid excretion of myoglobin, rhabdomyolysis cannot be excluded in the absence of myoglobinuria or urine discoloration. 
+
+Other signs and symptoms vary based on the inciting event and complications (eg, fever in patients with infection and altered mental status in cases of intoxication). 
+
+The incidence of acute kidney injury ranges from 15 to 55% in cases of rhabdomyolysis (2), and is more likely in patients with concurrent dehydration, sepsis, and creatine kinase level over 15,000 IU/L (250 mckat/L).
+
+Symptoms and signs references
+
+1. Long B, Koyfman A, Gottlieb M. An evidence-based narrative review of the emergency department evaluation and management of rhabdomyolysis. Am J Emerg Med. 2019;37(3):518-523. doi:10.1016/j.ajem.2018.12.061
+
+2. Chavez  LO, Leon M,  Einav S, et al. Beyond muscle destruction: A systematic review of rhabdomyolysis for clinical practice. Crit Care . 20(1):135, 2016. doi: 10.1186/s13054-016-1314-5
+
+Diagnosis of Rhabdomyolysis
+
+Serum levels of creatine kinase (CK) > 5 times the upper limit of normal
+
+Rhabdomyolysis is suspected based on history, clinical signs, and symptoms. Confirmation is by laboratory testing of elevated CK. Although a cutoff threshold has not been established, a CK level of > 5 times the upper limit of normal is typically required for diagnosis (eg, > 1000 IU/L [16.7 µkat/L]).
+
+Other corroborating laboratory testing includes the presence of myoglobin in urine, particularly if microscopic urine examination shows no red blood cells. Myoglobinuria is detected when urinary myoglobin exceeds 250 mcg/mL. Other laboratory features include rapidly rising serum creatinine, hyperkalemia, hyperuricemia, hypocalcemia, or hypercalcemia, hyperphosphatemia, lactic acidosis, and thrombocytopenia.
+
+Alternative causes of CK elevation must also be excluded. The differential diagnosis varies based on additional presenting features but includes inflammatory myopathies (eg, dermatomyositis), drug-induced myopathy (particularly statin-related), metabolic myopathies, muscular dystrophies, hypothyroidism, neuroleptic malignant syndrome, serotonin syndrome, and malignant hyperthermia.
+
+Treatment of Rhabdomyolysis
+
+Supportive therapy
+
+Treatment of underlying cause 
+
+Treatment of complications
+
+In general, treatment is supportive along with treatment of cause and of any resulting complications.
+
+Supportive treatment includes intravascular expansion with IV fluids to prevent acute kidney injury as well as other supportive treatments (eg, mechanical ventilation in cases of acute respiratory failure).
+
+If the inciting event is due to a compartment syndrome, early fasciotomy is done in addition to supportive therapy. Infections are treated with appropriate antimicrobial agents. Any potential inciting medications (eg, statins) are discontinued. Electrolyte disturbances are corrected.
+
+Complications such as acute kidney injury are treated with IV fluids and sometimes hemodialysis. Disseminated intravascular coagulation is treated with fresh frozen plasma.
+
+Treatment reference
+
+1. Long B, Koyfman A, Gottlieb M. An evidence-based narrative review of the emergency department evaluation and management of rhabdomyolysis. Am J Emerg Med. 2019;37(3):518-523. doi:10.1016/j.ajem.2018.12.061
+
+Key Points
+
+The classic triad of symptoms (myalgias; muscle weakness; and dark, tea-colored urine) is present in < 10% of cases.
+
+A CK level of > 5 times the upper limit of normal is typically required for diagnosis.
+
+Treatment is supportive with IV hydration as well as concurrent treatment of the inciting cause and any resulting complications.

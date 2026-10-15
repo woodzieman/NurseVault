@@ -1,0 +1,168 @@
+=== Cardiac Stress Testing (Merck Manual Professional) ===
+Section: Cardiology > Cardiovascular Tests and Procedures
+Source: https://www.merckmanuals.com/professional/cardiovascular-disorders/cardiovascular-tests-and-procedures/cardiac-stress-testing
+Retrieved: 2026-09-25
+
+In cardiac stress testing, the heart is monitored by electrocardiography (ECG) and imaging studies (echocardiography, cardiac MR, radionuclide imaging) before, during, and after an induced episode of increased cardiac demand, usually so that ischemic areas potentially at risk of infarction can be identified. In patients with coronary artery disease (CAD), a blood supply that is adequate at rest may be inadequate when cardiac demands are increased by exercise or other forms of stress. The goal heart rate for a maximal test is typically increased to 85% of age-predicted maximum (target heart rate) or until symptoms develop, whichever occurs first.
+
+In addition to diagnosing, risk-stratification, and monitoring of patients with coronary artery disease, cardiac stress testing can be used for:
+
+Evaluating symptoms and electrocardiographic changes, and transaortic gradient in patients with aortic stenosis
+
+Quantifying transmitral gradient in patients with mitral stenosis
+
+Evaluating the response of ectopy or arrhythmia to increased heart rate
+
+Evaluating patients with exertional symptoms (often in conjunction with cardiopulmonary exercise testing)
+
+Cardiac stress testing is less invasive and less expensive than cardiac catheterization. It can define the functional significance of abnormalities in coronary artery anatomy identified with coronary angiography during catheterization. Because coronary artery plaques that are not significantly stenotic (ie, do not result in ischemia during stress testing) may nonetheless rupture and cause an acute coronary syndrome, a normal stress test result does not guarantee future freedom from myocardial infarction.
+
+Risks of cardiac stress testing include infarction and sudden death, which occur in up to 0.06% of patients tested (1). Stress testing has several absolute and relative contraindications.
+
+Absolute contraindications to cardiac stress testing are:
+
+Acute coronary syndrome (myocardial infarction within 48 hours or uncontrolled unstable angina)
+
+Aortic dissection if acute
+
+Aortic stenosis if symptomatic or severe
+
+Arrhythmias if symptomatic or hemodynamically significant
+
+Heart failure if decompensated
+
+Myocarditis if acute
+
+Pericarditis if acute
+
+Pulmonary embolism if acute
+
+Pulmonary infarction if acute
+
+Relative contraindications to cardiac stress testing include:
+
+Atrioventricular block if high-grade
+
+Bradyarrhythmias
+
+Electrolyte imbalance
+
+Hypertension (systolic blood pressure [BP] > 200 mm Hg or diastolic BP > 110 mm Hg)
+
+Hypertrophic obstructive cardiomyopathy
+
+Inability to exercise adequately due to mental or physical impairment
+
+Stenosis of heart valve if moderate or severe
+
+Stenosis of left main coronary artery
+
+Systemic illness
+
+Tachyarrhythmias
+
+General reference
+
+1. Fletcher GF, Ades PA, Kligfield P, et al. Exercise standards for testing and training: a scientific statement from the American Heart Association. Circulation. 2013;128(8):873-934. doi:10.1161/CIR.0b013e31829b5b44
+
+Stress Test Methodology
+
+Cardiac demand can be increased by:
+
+Exercise
+
+Medications (pharmacologic stress)
+
+Patients must sometimes fast for 4 to 6 hours before the test. When dipyridamole, adenosine, or regadenoson is used for pharmacologic stress, xanthine compounds (eg, aminophylline, theophylline, caffeine) may produce a false-negative result, so such substances (including tea, coffee, cocoa, chocolate, certain energy supplements and drinks, and caffeinated sodas) should be avoided for 24 hours before testing.
+
+Exercise stress testing
+
+Exercise is preferred to medications for increasing cardiac demand because it more closely replicates ischemia-inducing stressors. Usually, a patient walks and, if necessary to achieve a maximal heart rate, runs on a treadmill, following the Bruce protocol, modified Bruce protocol, or a similar protocol of graded exertion, until the target heart rate is reached or symptoms occur. The Bruce protocol (most commonly used) increases treadmill speed and slope incrementally at roughly 3-minute intervals (1). If performed in conjunction with a cardiopulmonary exercise test, a cycle ergometer may be used instead of a treadmill, with alternative exercise protocols.
+
+Stress Test (Exercise Electrocardiogram [ECG])
+
+Image
+
+In this photo, a patient walks on a treadmill attached to multiple ECG electrodes; ECG monitoring and recording equipment is in the foreground.
+
+DR P. MARAZZI/SCIENCE PHOTO LIBRARY
+
+Pharmacologic stress testing
+
+Pharmacologic stress testing is usually used when patients cannot walk on a treadmill long enough to reach their target heart rate because of deconditioning, musculoskeletal disorders, obesity, peripheral arterial disease, or other disorders. Medications used include IV dipyridamole, adenosine, regadenoson, and dobutamine.
+
+Dipyridamole augments endogenous adenosine, causing coronary artery vasodilation. It increases myocardial blood flow in normal coronary arteries but not in arteries distal to a stenosis, creating a “steal” phenomenon from stenosed arteries and an imbalance in perfusion. Dipyridamole-induced ischemia or other adverse effects (eg, nausea, vomiting, headache, bronchospasm) occur in approximately 10 to 20% of patients, but these effects can be reversed by IV aminophylline (2). Severe reactions occur in < 1% of patients (2). Contraindications include asthma, acute phase myocardial infarction (MI), unstable angina pectoris, critical aortic stenosis, and systemic hypotension (systolic BP < 90 mm Hg).
+
+Adenosine has the same effect as dipyridamole but must be given in a continuous IV infusion because it is rapidly degraded in the plasma. Adverse effects include transient flushing, chest pain, and tachycardia, which can be reversed by terminating the infusion.
+
+Regadenoson is a more selective adenosine agonist than either dipyridamole or adenosine and is non-inferior for the diagnosis of ischemia with fewer adverse effects and greater ease of administration.
+
+Dobutamine is an inotrope, chronotrope, and vasodilator used mainly when dipyridamole and adenosine are contraindicated (eg, in patients with asthma or second-degree atrioventricular block) and when echocardiography is used to image the heart. Dobutamine must be used with caution in patients who have severe hypertension or arrhythmia, left ventricular outflow tract obstruction, multiple previous MIs, or acute MI.
+
+Stress test methodology references
+
+1. BRUCE RA, BLACKMON JR, JONES JW, STRAIT G. EXERCISING TESTING IN ADULT NORMAL SUBJECTS AND CARDIAC PATIENTS. Pediatrics. 1963;32:742-756.
+
+2. Lette J, Tatum JL, Fraser S, et al. Safety of dipyridamole testing in 73,806 patients: the Multicenter Dipyridamole Safety Study. J Nucl Cardiol. 1995;2(1):3-17. doi:10.1016/s1071-3581(05)80003-0
+
+Stress Test Diagnostic Imaging Methodology
+
+Several imaging tests can detect ischemia after exercise or pharmacologic stress:
+
+ECG
+
+Echocardiography
+
+Radionuclide perfusion imaging with single positron emission computed tomography (SPECT) or positron emission tomography (PET)
+
+Cardiac MR
+
+Electrocardiography (ECG)
+
+ECG is almost always used with stress testing to diagnose coronary artery disease and help determine prognosis. Stress ECG alone (ie, without radionuclide imaging or echocardiography) is most useful in patients with lower baseline risk and a readily interpretable resting ECG, in whom its negative predictive value is ≥ 98 to 99%, but in general is less accurate than stress echocardiography, radionuclide myocardial perfusion imaging, and cardiac MR (1).
+
+Diagnosis involves assessment of ST-segment response (a measure of global subendocardial ischemia), blood pressure response, and the patient’s symptoms.
+
+Sensitivity for CAD detection is 58 to 66%; specificity is 61 to 62% (2, 3). Sensitivity and specificity are lower in women because of lower QRS voltage, more frequent inability to achieve maximal exercise, and nonspecific hormonal factors related to endogenous or exogenous estrogen (4). Prognosis worsens with depth of ST depression, particularly when ≥ 2 mm (5).
+
+Echocardiography
+
+Stress echocardiography is relatively portable, does not use ionizing radiation, and has a rapid acquisition time. When performed by experts, and when the patient achieves an adequate heart rate (by exercise or pharmacologic means), stress echocardiography has a predictive value similar to that of stress myocardial radionuclide perfusion testing and is superior to stress electrocardiography alone (1, 6).
+
+The echocardiogram is typically obtained immediately before and after an exercise treadmill test or during dobutamine infusion. In a young or fit patient whose heart rate rapidly decreases after stopping exercise, exercising beyond the typical target heart rate (85% of the predicted maximal heart rate), provided symptoms do not develop, can be helpful. The heart rate will still be fast enough to obtain meaningful images by the time the post-exercise echocardiographic images are obtained.
+
+Stress echocardiography has a sensitivity of 81 to 85% and a specificity of 82 to 85%, better than stress ECG alone and comparable to radionuclide stress perfusion imaging and stress cardiac MR (2, 3).
+
+Echocardiography detects wall motion abnormalities that are a sign of regional ischemia due to CAD and can also provide additional hemodynamic and structural information, including an assessment of valvular disease. A particularly important measure provided by echocardiography is the global left ventricular ejection fraction, a critical prognostic indicator for patients with CAD (7). Stress hemodynamic echocardiography is considered for selected individuals for diagnosis of heart failure with preserved ejection fraction.
+
+Radionuclide myocardial perfusion imaging
+
+Radionuclide stress myocardial perfusion imaging is more sensitive (82 to 92%, slightly higher for PET than SPECT) and specific (70 to 81%, similar for PET and SPECT) than ECG stress testing. It and is comparable to stress echocardiography and stress cardiac MR (2, 3, 8). Combining findings from both tests increases sensitivity for coronary artery disease.
+
+This imaging test can help determine the functional significance of coronary artery stenosis identified by coronary angiography when choosing lesions to bypass or dilate via percutaneous transluminal coronary angioplasty.
+
+Radionuclide ventriculography is occasionally used instead of echocardiography or cardiac MR to assess exercise ejection fraction (EF).
+
+Cardiac MR
+
+Stress cardiac MR offers diagnostic accuracy (sensitivity 83 to 87% and specificity 83 to 93%) that is similar to PET-CT and slightly superior to stress echocardiography and SPECT, without exposure to ionizing radiation (3, 7, 9). It offers excellent spatial resolution, the ability to identify smaller subendocardial infarcts difficult to detect with other modalities, and the ability to evaluate for fibrosis with delayed enhancement.
+
+Stress test diagnostic imaging methodology references
+
+1. Rybicki FJ, Udelson JE, Peacock WF, et al. 2015 ACR/ACC/AHA/AATS/ACEP/ASNC/NASCI/SAEM/SCCT/SCMR/SCPC/SNMMI/STR/STS Appropriate Utilization of Cardiovascular Imaging in Emergency Department Patients With Chest Pain: A Joint Document of the American College of Radiology Appropriateness Criteria Committee and the American College of Cardiology Appropriate Use Criteria Task Force. J Am Coll Cardiol. 2016;67(7):853-879. doi:10.1016/j.jacc.2015.09.011
+
+2. Joshi PH, de Lemos JA. Diagnosis and Management of Stable Angina: A Review. JAMA. 2021;325(17):1765-1778. doi:10.1001/jama.2021.1527
+
+3. Sonaglioni A, Polymeropoulos A, Baravelli M, Nicolosi GL, Lombardo M, Biondi-Zoccai G. Diagnostic Accuracy of Exercise Stress Testing, Stress Echocardiography, Myocardial Scintigraphy, and Cardiac Magnetic Resonance for Obstructive Coronary Artery Disease: Systematic Reviews and Meta-Analyses of 104 Studies Published from 1990 to 2025. J Clin Med. 2025;14(17):6238. doi:10.3390/jcm14176238
+
+4. McSweeney JC, Rosenfeld AG, Abel WM, et al. Preventing and Experiencing Ischemic Heart Disease as a Woman: State of the Science: A Scientific Statement From the American Heart Association. Circulation. 2016;133(13):1302-1331. doi:10.1161/CIR.0000000000000381
+
+5. Kaul P, Fu Y, Chang WC, et al. Prognostic value of ST segment depression in acute coronary syndromes: insights from PARAGON-A applied to GUSTO-IIb. PARAGON-A and GUSTO IIb Investigators. Platelet IIb/IIIa Antagonism for the Reduction of Acute Global Organization Network. J Am Coll Cardiol. 2001;38(1):64-71. doi:10.1016/s0735-1097(01)01307-9
+
+6. Pellikka PA, Arruda-Olson A, Chaudhry FA, et al. Guidelines for Performance, Interpretation, and Application of Stress Echocardiography in Ischemic Heart Disease: From the American Society of Echocardiography. J Am Soc Echocardiogr. 2020;33(1):1-41.e8. doi:10.1016/j.echo.2019.07.001
+
+7. Virani SS, Newby LK, Arnold SV, et al. 2023 AHA/ACC/ACCP/ASPC/NLA/PCNA Guideline for the Management of Patients With Chronic Coronary Disease: A Report of the American Heart Association/American College of Cardiology Joint Committee on Clinical Practice Guidelines. Circulation. 2023;148(9):e9-e119. doi:10.1161/CIR.0000000000001168
+
+8. Parker MW, Iskandar A, Limone B, et al. Diagnostic accuracy of cardiac positron emission tomography versus single photon emission computed tomography for coronary artery disease: a bivariate meta-analysis. Circ Cardiovasc Imaging. 2012;5(6):700-707. doi:10.1161/CIRCIMAGING.112.978270
+
+9. Patel AR, Salerno M, Kwong RY, Singh A, Heydari B, Kramer CM. Stress Cardiac Magnetic Resonance Myocardial Perfusion Imaging: JACC Review Topic of the Week. J Am Coll Cardiol. 2021;78(16):1655-1668. doi:10.1016/j.jacc.2021.08.022

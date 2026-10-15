@@ -1,0 +1,68 @@
+=== Overview of Beta-Lactams (Merck Manual Professional) ===
+Section: Infectious Disease > Bacteria and Antibacterial Medications
+Source: https://www.merckmanuals.com/professional/infectious-diseases/bacteria-and-antibacterial-medications/overview-of-beta-lactams
+Retrieved: 2026-09-25
+
+Beta-lactams are antibiotics that have a beta-lactam ring nucleus.
+
+Subclasses include
+
+Penicillins
+
+Cephalosporins and cephamycins (cephems)
+
+Monobactams
+
+Carbapenems
+
+Clavams
+
+Mechanisms of Action: Cell Wall Synthesis Inhibitors
+
+Image
+
+Copyright © 2023 Merck & Co., Inc., Rahway, NJ, USA and its affiliates. All rights reserved.
+
+All beta-lactams bind to and inactivate enzymes required for bacterial cell wall synthesis.
+
+Beta-Lactamases
+
+Beta-lactamases are a diverse class of enzymes produced by bacteria that break open the beta-lactam ring, inactivating the beta-lactam antibiotic. Some beta-lactamases are encoded on mobile genetic elements (eg, plasmids); others are encoded on chromosomes. Beta-lactamase production is among the most clinically important mechanisms of resistance for gram-negative bacterial pathogens. Understanding the most common types of beta-lactamases produced by different pathogens can help with susceptibility interpretation, therapeutic decision making, and infection control practices.
+
+There are thousands of different types of beta-lactamases; multiple classification schemes exist, but the Ambler classification scheme is the most widely used. It groups beta-lactamases by class on the basis of molecular homology. Classes A, C, and D have a serine residue at the active site, whereas class B enzymes have zinc at the active site, ie, metallo-beta-lactamases (MBLs). Class A includes extended-spectrum BLs (ESBLs) and Klebsiella pneumoniae carbapenemases (KPCs), class B includes the MBLs (NDM, IMP, and VIM), class C includes AmpC, and class D includes the oxacillinases (OXAs).
+
+Ambler classification class A
+
+Extended-spectrum beta-lactamases (ESBLs), including TEM, SHV, CTX-M, and GES enzymes, are plasmid-encoded enzymes primarily found in Klebsiella species, Escherichia coli, and other Enterobacterales. ESBLs can hydrolyze extended-spectrum penicillins (eg, piperacillin), most cephalosporins (cephamycins are not hydrolyzed by most ESBLs), and monobactams.
+
+Klebsiella pneumoniae carbapenemases (KPCs) are similar to ESBLs except that they also hydrolyze carbapenems. These enzymes first emerged in K. pneumoniae but have spread to other Enterobacterales.
+
+Ambler classification class B
+
+Metallo-beta-lactamases (MBLs), including VIM, IMP, and NDM, use a zinc ion to hydrolyze all beta-lactams, including carbapenems, except the monobactam aztreonam. MBLs can be chromosomally encoded in some organisms, such as the L1 MBL of Stenotrophomonas maltophilia, or can be acquired as can occur with a variety of gram-negative organisms including Klebsiella, Pseudomonas, and Acinetobacter species. These enzymes are not inhibited by currently available beta-lactamase inhibitors.
+
+Ambler classification class C
+
+AmpC enzymes hydrolyze most cephalosporins (except for cefepime), cephamycins (eg, cefoxitin, cefotetan), monobactams (eg, aztreonam), and penicillins.
+
+AmpC beta-lactamase may be chromosome- or plasmid-encoded. Chromosomal AmpC expression can become induced by certain antibacterials or may become constitutively expressed (ie, overproduced) in de-repressed mutants. Plasmid-encoded AmpC expression is also constitutive and may be spread among bacteria usually lacking this beta-lactamase, such as Escherichia coli, Klebsiella pneumoniae, and Proteus mirabilis.
+
+Isolates with inducible AmpC expression may initially test as susceptible to third-generation cephalosporins, which can complicate treatment decisions, especially for Enterobacterales. Enterobacter cloacae, K. aerogenes, and Citrobacter freundii should be regarded as harboring inducible AmpC, and third-generation cephalosporins should be avoided regardless of susceptibility results. Proteus vulgaris, Morganella morganii, Serratia marcescens, and Providencia species may also overproduce AmpC, but clinically significant expression is less common.
+
+Ambler classification class D
+
+OXA beta-lactamases primarily hydrolyze narrow-spectrum penicillins, but certain OXA variants, such as the plasmid-encoded OXA-48, can hydrolyze carbapenems, even while leaving many cephalosporins active.
+
+Beta-Lactamase Inhibitors
+
+Beta-lactamase inhibitors are antibiotics that block the activity of certain beta-lactamases and are thus sometimes combined with beta-lactam antibiotics. Examples include
+
+Clavulanate, sulbactam, tazobactam: These medications block penicillinases but not AmpC or carbapenemases. They also block some ESBLs in vitro, but most combinations that include these medications are not reliable against ESBL producers clinically. Sulbactam also has antibacterial activity against a limited number of bacterial species, including Neisseria gonorrhoeae, Bacteroides fragilis, and, most importantly, Acinetobacter baumannii (a bacterium with the potential for substantial antimicrobial resistance).
+
+Sulbactam/durlobactam: Sulbactam is coformulated with the beta-lactamase inhibitor durlobactam and has activity against A. baumannii.
+
+Avibactam: This antibiotic blocks class A (ESBLs, most KPCs), class C (AmpC), and some class D (OXA) but not class B (MBLs) beta-lactamases.
+
+Relebactam and vaborbactam: These antibiotics block classes A and C but not classes D and B.
+
+There are no currently available beta-lactamase inhibitors active against MBLs, such as NDM-1 (New Delhi MBL-1), VIMs (Verona integron–encoded MBLs), and IMP (imipenem)-types, which can inactivate all beta-lactam antibiotics except for aztreonam. However, many strains that produce MBLs also produce other beta-lactamases that can hydrolyze aztreonam.

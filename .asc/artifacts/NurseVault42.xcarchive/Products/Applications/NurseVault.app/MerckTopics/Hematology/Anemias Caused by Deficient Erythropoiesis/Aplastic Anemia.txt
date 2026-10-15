@@ -1,0 +1,98 @@
+=== Aplastic Anemia (Merck Manual Professional) ===
+Section: Hematology > Anemias Caused by Deficient Erythropoiesis
+Source: https://www.merckmanuals.com/professional/hematology/anemias-caused-by-deficient-erythropoiesis/aplastic-anemia
+Retrieved: 2026-09-25
+
+(See also Overview of Decreased Erythropoiesis.)
+
+The term aplastic anemia commonly implies a panhypoplasia of the bone marrow with cytopenias in at least two hematopoietic lineages. In contrast, pure red blood cell (RBC) aplasia is restricted to the erythroid cell line.
+
+Etiology of Aplastic Anemia
+
+True aplastic anemia (most common in adolescents and young adults) is idiopathic in approximately half of cases. Recognized causes are
+
+Chemicals (eg, benzene, inorganic arsenic)
+
+Medications (eg, antineoplastic drugs, antibiotics, nonsteroidal anti-inflammatory drugs, antiseizure medications, acetazolamide, gold salts, penicillamine, quinacrine) or toxins
+
+Hepatitis (seronegative for hepatitis viruses)
+
+Pregnancy
+
+Radiation
+
+Viruses (Epstein-Barr virus and cytomegalovirus)
+
+Inherited disorders of bone marrow failure due to genetic mutations (eg, Fanconi anemia, Shwachman-Diamond syndrome, dyskeratosis congenita)
+
+The precise mechanism remains unclear, but in the majority of acquired cases, the mechanism involves an immune attack on the hematopoietic stem cell. Clonal hematopoiesis is frequently present, and there is a risk of progression to a myeloid malignancy.
+
+Symptoms and Signs of Aplastic Anemia
+
+The onset of aplastic anemia usually is insidious, often occurring over weeks or months after exposure to a virus, medication or toxin (eg, insecticides, benzene), though occasionally it can be acute.
+
+In aplastic anemia, anemia may cause weakness and easy fatigability while severe thrombocytopenia may cause petechiae, ecchymosis, and bleeding from the gums, into the conjunctivae, or other tissues. Agranulocytosis commonly causes life-threatening infections. Splenomegaly is absent unless induced by transfusion hemosiderosis.
+
+Diagnosis of Aplastic Anemia
+
+Complete blood count (CBC) and reticulocyte count
+
+Bone marrow examination with cytogenetic (eg, karyotype, fluorescence in situ hybridization [FISH]) and molecular testing (eg, next-generation sequencing)
+
+Flow cytometry for paroxysmal nocturnal hemoglobinuria (PNH) clone
+
+Consideration of genetic testing (eg, chromosome breakage analysis for Fanconi anemia and telomere length analysis for telomere biology disorders) especially in young patients or in those with suggestive family history or characteristic dysmorphias
+
+Aplastic anemia is suspected in patients, particularly young patients, with pancytopenia. Severe aplastic anemia is defined by a bone marrow with < 25% cellularity (hypocellularity) and the presence of ≥ 2 of the following:
+
+Absolute neutrophil count < 500/microL (< 0.5 × 109/L)
+
+Absolute reticulocyte count < 60,000/microL (< 60 × 109/L)
+
+Platelet count < 20,000/microL (< 20 × 109/L)
+
+Very severe aplastic anemia is defined as absolute neutrophil count < 200/microL (< 0.2 x 109/L).
+
+Detection of a PNH clone on flow cytometry can exclude an inherited syndrome (1).
+
+Additional testing for inherited bone marrow failure syndromes should be considered, particularly in young patients or those with a suggestive family history or characteristic dysmorphias of other diseases that may present similarly to acquired aplastic anemia (2). Examples include chromosome breakage analysis for diagnosing Fanconi anemia, telomere length testing for telomere biology disorders, and consideration of genetic sequencing.
+
+Diagnosis references
+
+1. DeZern AE, Symons HJ, Resar LS, Borowitz MJ, Armanios MY, Brodsky RA. Detection of paroxysmal nocturnal hemoglobinuria clones to exclude inherited bone marrow failure syndromes. Eur J Haematol 2014;92(6):467-470. doi:10.1111/ejh.12299
+
+2. McReynolds LJ, Rafati M, Wang Y, et al. Genetic testing in severe aplastic anemia is required for optimal hematopoietic cell transplant outcomes. Blood. 2022;140(8):909-921. doi:10.1182/blood.2022016508
+
+Treatment of Aplastic Anemia
+
+Hematopoietic stem cell transplantation
+
+If transplantation is not an option, immunosuppression with equine antithymocyte globulin and cyclosporine, with or without eltrombopag
+
+In aplastic anemia, hematopoietic stem cell transplantation is curative and is the treatment of choice, particularly in younger patients with a matched donor. Historically, immunosuppressive therapy (eg, ATG, cyclosporine) was recommended for older adults and those without a matched donor; however, with improved treatment outcomes with unrelated and alternative donor allogenic transplants, these therapies are increasingly being used as first-line treatment in these patients. The use of haploidentical bone marrow transplants are expanding access to hematopoietic stem cell transplantation.
+
+In patients who are not candidates for transplant or who lack a donor, immunosuppressive treatment with equine antithymocyte globulin (ATG) combined with cyclosporine produces overall response rates of approximately 60 to 70% (1). Allergic reactions and serum sickness may occur. Long-term relapse or clonal evolution to myeloid malignancy occurs in up to half of patients. In patients initially treated with immunosuppressive therapy who do not respond (refractory disease) or relapse, allogenic hematopoietic stem cell transplant or a second course of immunosuppression (eg, addition of a thrombopoietin receptor agonist [ie, eltrombopag], reinstitution of cyclosporine, rabbit ATG, alemtuzumab) can be considered.
+
+For adults with severe aplastic anemia receiving immunosuppressive therapy, expert consensus guidelines recommend ATG, cyclosporine, and eltrombopag as initial management based on donor availability and fitness for bone marrow transplant (2, 3, 4). Eltrombopag has shown efficacy in clinical trials in the upfront and refractory settings along with immunosuppression. Addition of eltrombopag to ATG and cyclosporine yielded faster and improved hematologic response rates compared to ATG and cyclosporine alone but with similar overall survival at 2 years (5). While many experts recommend 'triple immunosuppressive therapy' (eg, ATG, cyclosporine, and eltrombopag) over ATG plus cyclosporine alone, others avoid addition of eltrombopag due to concerns regarding earlier malignant clonal evolution and lack of improvement in overall survival.
+
+Treatment references
+
+1. Scheinberg P, Nunez O, Weinstein B, et al. Horse versus rabbit antithymocyte globulin in acquired aplastic anemia [published correction appears in N Engl J Med. 2018 Jun 13;378(25):2450. doi: 10.1056/NEJMx180020]. N Engl J Med. 2011;365(5):430-438. doi:10.1056/NEJMoa1103975
+
+2. DeZern A, Zahurak ML, Symons HJ, et al.. Alternative donor BMT with post-transplant cyclophosphamide as initial therapy for acquired severe aplastic anemia. Blood. 2023;141(25): 3031-3038. doi:10.1182/blood.2023020435
+
+3. Winkler T, Fan X, Cooper J, et al. Treatment optimization and genomic outcomes in refractory severe aplastic anemia treated with eltrombopag. Blood. 133(24):2575–2585, 2019. doi: 10.1182/blood.2019000478
+
+4. Babushok DV, DeZern AE, de Castro CM, et al. Modified Delphi panel consensus recommendations for management of severe aplastic anemia. Blood Adv. 2024;8(15):3946-3960. doi:10.1182/bloodadvances.2023011642
+
+5. Peffault de Latour R, Kulasekararaj A, Iacobelli S, et al. Eltrombopag Added to Immunosuppression in Severe Aplastic Anemia. N Engl J Med. 2022;386(1):11-23. doi:10.1056/NEJMoa2109965
+
+Key Points
+
+Aplastic anemia involves panhypoplasia of the bone marrow with anemia, leukopenia, and thrombocytopenia.
+
+Many cases are idiopathic, but chemicals, medications or drugs, or radiation may be causes.
+
+Bone marrow examination shows a variable degree of hypocellularity.
+
+Treatment is with stem cell transplant or immunosuppression with equine antithymocyte globulin and cyclosporine, with or without eltrombopag.

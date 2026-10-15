@@ -1,0 +1,116 @@
+=== Complement System (Merck Manual Professional) ===
+Section: Allergy and Immunology > Biology of the Immune System
+Source: https://www.merckmanuals.com/professional/immunology-allergic-disorders/biology-of-the-immune-system/complement-system
+Retrieved: 2026-09-25
+
+The complement system is an enzyme cascade that helps defend against infection via activation of a local inflammatory response. Many complement proteins occur in serum as inactive enzyme precursors (also called zymogens); others reside on cell surfaces. (See also Overview of the Immune System.)
+
+The complement system bridges innate immunity and acquired immunity by performing the following functions (1):
+
+Augmenting antibody (Ab) responses and immunologic memory by facilitating antigen presentation to B cells and T cells
+
+Lysing foreign cells via the membrane attack complex (MAC)
+
+Clearing immune complexes and apoptotic cells by opsonization
+
+Soluble byproducts of complement activation have many biologic functions (eg, stimulation of chemotaxis, triggering of mast cell degranulation independent of immunoglobulin E [IgE]).
+
+Complement activation
+
+There are 3 pathways of complement activation:
+
+Classical
+
+Lectin
+
+Alternative
+
+All 3 activation pathways, sometimes called complement cascades, have distinct triggers, but converge at C3 cleavage (1). The classical pathway is activated (triggered) by mechanisms that are either antibody-dependent (eg, antigen-antibody complexes) or antibody-independent (eg, recognition of a damaged cell). The lectin pathway is activated by pathogen-associated glycoproteins (ie, serum mannose-binding lectins bound to pathogen carbohydrate groups), and the alternative pathway is activated by spontaneous C3 hydrolysis and other molecules (eg, microorganism-associated molecular patterns). All 3 pathways form C3 convertases and subsequently C5 convertases, ultimately leading to the formation of the MAC.
+
+Complement Activation Pathways
+
+The classical, lectin, and alternative pathways converge into a final common pathway when C3 convertase cleaves C3 into C3a and C3b.
+
+* C3 convertase complement components are C4b2a (Classical and Lectin pathways) and C3bBb (Alternative pathway).
+
+† C5 convertase complement components are C4b2a3b (Classical and Lectin pathways) and C3bBbC3b (Alternative pathway).
+
+‡ C3a and C5a are both anaphylatoxins.
+
+§ Membrane attack complex complement components are C5b, C6, C7, C8, and C9 (C5b–9).
+
+Ab = antibody; Ag = antigen; C1-INH = C1 inhibitor; MASP = MBL-associated serine protease; MBL = mannose-binding lectin. Overbar indicates activation.
+
+Classical pathway components are labeled with a C and a number (eg, C1, C3), based on the order in which they were identified (and not their functional sequence in the pathway). Alternative pathway components are often lettered (eg, factor B, factor D) or named (eg, properdin).
+
+Classical pathway activation is either:
+
+Antibody-dependent, occurring when C1 interacts with antigen-IgM or aggregated antigen-IgG complexes
+
+Antibody-independent, occurring when polyanions (eg, heparin, protamine, DNA and RNA from apoptotic cells), gram-negative bacteria, or bound C-reactive protein reacts directly with C1
+
+C1 initiates the classical pathway of complement activation and is a molecular scaffold consisting of C1q and a calcium-dependent tetrameric protease complex (C1r₂C1s₂) (2). C1q recognizes diverse molecular patterns, including antibody-antigen immune complexes, C-reactive protein, apoptotic cells, and pathogen surfaces. When C1q binds to these targets, it triggers activation of C1r, which then activates C1s. This pathway is regulated by C1 inhibitor. Hereditary angioedema is most commonly due to a genetic deficiencies or functional defects of C1 inhibitor.
+
+Lectin pathway activation is antibody-independent; it occurs when mannose-binding lectin (MBL), a serum protein, binds to carbohydrate groups such as mannose, fucose, or N-acetylglucosamine on bacterial cell walls, yeast walls, or viruses. This pathway, once activated, otherwise resembles the classical pathway structurally and functionally.
+
+Alternate pathway activation occurs when microorganism-associated molecular patterns (MAMP), such as components of microbial cell surfaces (eg, yeast walls, bacterial cell wall lipopolysaccharide [endotoxin]), or pathologic forms of immunoglobulin (eg, nephritic factor, aggregated IgA) cleave small amounts of C3. This pathway is always somewhat active, but it is strongly regulated by properdin, factor H, and decay-accelerating factor (DAF, CD55).
+
+The 3 activation pathways converge into a final common pathway when C3 convertase cleaves C3 into C3a and C3b. C3 cleavage may result in formation of the membrane attack complex (MAC), the cytotoxic component of the complement system. MAC causes lysis of foreign cells.
+
+Membrane Attack Complex (MAC)
+
+Image
+
+This image depicts the MAC. Complement-dependent cytotoxicity activates the MAC, which causes a malignant or infected cell to leak or explode. The C1Q (C1q) complex, consisting of C1Q (blue and green) with serine proteases consisting of dimers of C1r (purple) and C1s (orange), attaches to immunoglobin antibodies that have bound to numerous copies of an antigen on the surface of the affected cell (in this example a CD19-positive B cell tumor). This sequence activates the MAC, which forms pores in the cell membrane.
+
+Carol and Mike Werner/SCIENCE PHOTO LIBRARY
+
+Factor I, with cofactors including membrane cofactor protein (CD46), inactivates C3b and C4b.
+
+Complement deficiencies and defects
+
+Deficiencies or defects in specific complement components have been linked to specific disorders; the following are examples:
+
+Deficiency in C1, C2, C3, MBL, MBL-associated serine protease 2 (MASP-2), factor H, factor I, or complement receptor 2 (CR2): Susceptibility to recurrent bacterial infections
+
+Deficiency of C5, C9, factor B, factor D, or properdin: Susceptibility to neisserial infections
+
+Defects in C1, C4, and C5: Systemic lupus erythematosus
+
+Defects in CR2: Common variable immunodeficiency
+
+Defects of complement receptor 3 (CR3): Leukocyte adhesion deficiency type 1
+
+Mutations in the genes for factor B, factor H, factor I, membrane cofactor protein (CD46), or C3: Development of the "atypical" variant of hemolytic-uremic syndrome with microvascular thrombosis
+
+Defects in DAF (caused by PIGA gene mutations) cause paroxysmal nocturnal hemoglobinuria
+
+Biologic activities of complement
+
+Complement components have other immune functions that are mediated by complement receptors (CRs) on various cells. Several CRs have been assigned a cluster of differentiation (CD) number.
+
+CR1 (CD35) promotes phagocytosis and helps clear immune complexes.
+
+CR2 (CD21) regulates antibody production by B cells and is the Epstein-Barr virus receptor.
+
+CR3 (CD11b/CD18), CR4 (CD11c/CD18), and C1q receptors play a role in phagocytosis.
+
+Complement components generate anaphylatoxins, opsonins, and the MAC (3). The components are responsible for mediating pathogen elimination, inflammation, anaphylaxis, and cellular homeostasis.
+
+C3a, C5a, and C4a (weakly) have anaphylatoxin activity. They cause mast cell degranulation, leading to increased vascular permeability and smooth muscle contraction.
+
+C3b acts as an opsonin by coating microorganisms and thereby enhancing their phagocytosis.
+
+C3d enhances antibody production by B cells.
+
+C5a is a neutrophil chemoattractant; it regulates neutrophil and monocyte activities and may cause augmented adherence of cells, degranulation and release of intracellular enzymes from granulocytes, production of toxic oxygen metabolites, and initiation of other cellular metabolic events.
+
+C5b along with C6, C7, C8, and multiple C9 molecules form the MAC (C5b-C9), which are transmembrane pores that kill susceptible pathogens and cells via osmotic lysis.
+
+References
+
+1. Mastellos DC, Hajishengallis G, Lambris JD. A guide to complement biology, pathology and therapeutic opportunity. Nat Rev Immunol. 2024;24(2):118-141. doi:10.1038/s41577-023-00926-1
+
+2. Lu J, Kishore U. C1 Complex: An Adaptable Proteolytic Module for Complement and Non-Complement Functions. Front Immunol. 2017;8:592. doi:10.3389/fimmu.2017.00592
+
+3. Kareem S, Jacob A, Mathew J, Quigg RJ, Alexander JJ. Complement: Functions, location and implications. Immunology. 2023;170(2):180-192. doi:10.1111/imm.13663

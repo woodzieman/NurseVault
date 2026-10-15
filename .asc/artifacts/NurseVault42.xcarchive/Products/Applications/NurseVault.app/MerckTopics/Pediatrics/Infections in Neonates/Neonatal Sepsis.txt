@@ -1,0 +1,344 @@
+=== Neonatal Sepsis (Merck Manual Professional) ===
+Section: Pediatrics > Infections in Neonates
+Source: https://www.merckmanuals.com/professional/pediatrics/infections-in-neonates/neonatal-sepsis
+Retrieved: 2026-09-25
+
+(See also Sepsis and Septic Shock in adults and Overview of Neonatal Infections.)
+
+Neonatal sepsis occurs in 1 to 4/1000 births (1). Risk factors include the following:
+
+Prelabor rupture of membranes
+
+Maternal infection or intrapartum fever, including group B streptococcus colonization and intra-amniotic infection
+
+Preterm birth
+
+Low-birth-weight (LBW) infants
+
+Low Apgar scores and/or neonatal resuscitation
+
+Male sex (2)
+
+Low socioeconomic status has been associated with increased incidence of and mortality resulting from neonatal sepsis (3, 4).
+
+General references
+
+1. Shane AL, Sánchez PJ, Stoll BJ. Neonatal sepsis. Lancet. 2017;390(10104):1770-1780. doi:10.1016/S0140-6736(17)31002-4
+
+2. Murthy S, Godinho MA, Guddattu V, Lewis LES, Nair NS. Risk factors of neonatal sepsis in India: A systematic review and meta-analysis. PLoS One. 2019;14(4):e0215683. Published 2019 Apr 25. doi:10.1371/journal.pone.0215683
+
+3. Bech CM, Stensgaard CN, Lund S, et al. Risk factors for neonatal sepsis in Sub-Saharan Africa: a systematic review with meta-analysis. BMJ Open. 2022;12(9):e054491. Published 2022 Sep 1. doi:10.1136/bmjopen-2021-054491
+
+4. Bohanon FJ, Nunez Lopez O, Adhikari D, et al. Race, Income and Insurance Status Affect Neonatal Sepsis Mortality and Healthcare Resource Utilization. Pediatr Infect Dis J. 2018;37(7):e178-e184. doi:10.1097/INF.0000000000001846
+
+Etiology of Neonatal Sepsis
+
+Onset of neonatal sepsis can be
+
+Early (≤ 3 days after birth)
+
+Late (> 3 days)
+
+Early-onset neonatal sepsis
+
+Early-onset neonatal sepsis usually results from organisms acquired intrapartum. Most infants have symptoms within 6 hours of birth.
+
+Most cases are caused by group B streptococcus (GBS) and gram-negative enteric organisms (predominantly Escherichia coli). Vaginal or rectal cultures of pregnant women with a full-term pregnancy show GBS colonization rates of approximately 18% (1, 2). Up to 50% of their infants also become colonized (3). The density of infant colonization determines the risk of early-onset invasive disease, which is significantly higher with heavy colonization. Although only 1 to 2/100 of infants colonized develop invasive disease due to GBS, the majority of those present within the first 6 hours of life. Nontypeable Haemophilus influenzae sepsis has also been identified in neonates, especially preterm neonates.
+
+Other cases tend to be caused by gram-negative enteric bacilli (eg, Klebsiella species) and certain gram-positive organisms (Listeria monocytogenes, enterococci [eg, Enterococcus faecalis, E. faecium], group D streptococci [eg, Streptococcus bovis], alpha-hemolytic streptococci, and staphylococci). Also, S. pneumoniae, H. influenzae type b, and, less commonly, Neisseria meningitidis have been isolated. Untreated gonorrhea in pregnancy may result in N. gonorrhoeae as a pathogen in neonatal sepsis (4).
+
+Certain viral infections (eg, disseminated herpes simplex, enterovirus, adenovirus, respiratory syncytial virus) may manifest as early-onset or late-onset sepsis.
+
+Late-onset neonatal sepsis
+
+Late-onset neonatal sepsis is usually acquired from the environment (see Neonatal Hospital-Acquired Infection). Staphylococci account for 30 to 60% of late-onset cases and are most frequently due to intravascular devices (particularly central vascular catheters). E. coli is also becoming increasingly recognized as a significant cause of late-onset sepsis, especially in extremely LBW infants. Isolation of Enterobacter cloacae or Cronobacter sakazakii from blood or cerebrospinal fluid may be due to contaminated feedings. Contaminated respiratory equipment is suspected in outbreaks of hospital-acquired Pseudomonas aeruginosa pneumonia or sepsis.
+
+Although universal screening and intrapartum antibiotic prophylaxis for GBS have significantly decreased the rate of early-onset disease due to this organism, the rate of late-onset GBS sepsis has remained unchanged, which is consistent with the hypothesis that late-onset disease is usually acquired from the environment.
+
+The role of anaerobes (particularly Bacteroides fragilis) in late-onset sepsis remains unclear, although deaths have been attributed to Bacteroides bacteremia.
+
+Candida species are increasingly important causes of late-onset sepsis, particularly in very LBW infants.
+
+Certain viral infections (eg, disseminated herpes simplex, enterovirus, adenovirus, respiratory syncytial virus) may manifest as early-onset or late-onset sepsis.
+
+Etiology references
+
+1. Kwatra G, Cunnington MC, Merrall E, et al. Prevalence of maternal colonisation with group B streptococcus: a systematic review and meta-analysis. Lancet Infect Dis. 2016;16(9):1076-1084. doi:10.1016/S1473-3099(16)30055-X
+
+2. Russell NJ, Seale AC, O'Driscoll M, et al. Maternal Colonization With Group B Streptococcus and Serotype Distribution Worldwide: Systematic Review and Meta-analyses. Clin Infect Dis. 2017;65(suppl_2):S100-S111. doi:10.1093/cid/cix658
+
+3. Prevention of Group B Streptococcal Early-Onset Disease in Newborns: ACOG Committee Opinion Summary, Number 782. Obstet Gynecol. 2019;134(1):1. doi:10.1097/AOG.0000000000003335
+
+4. Shane AL, Sánchez PJ, Stoll BJ. Neonatal sepsis. Lancet. 2017;390(10104):1770-1780. doi:10.1016/S0140-6736(17)31002-4
+
+Pathophysiology of Neonatal Sepsis
+
+Early-onset neonatal sepsis
+
+Certain maternal perinatal and obstetric factors increase risk, particularly of early-onset neonatal sepsis, such as the following:
+
+Prelabor rupture of membranes (PROM) occurring ≥ 18 hours before birth
+
+Maternal intra-amniotic infection (most commonly manifesting as maternal fever shortly before or during delivery with maternal leukocytosis, tachycardia, uterine tenderness, and/or foul-smelling amniotic fluid)
+
+Colonization with GBS
+
+Preterm delivery
+
+Hematogenous and transplacental dissemination of maternal infection occurs in the transmission of certain viral (eg, rubella, cytomegalovirus), protozoal (eg, Toxoplasma gondii), and treponemal (eg, Treponema pallidum) pathogens. A few bacterial pathogens (eg, L. monocytogenes, Mycobacterium tuberculosis) may reach the fetus transplacentally, but most are acquired by the ascending route in utero or during labor and delivery because of contact with infected vaginal fluid.
+
+Though the intensity of maternal colonization is directly related to risk of invasive disease in the neonate, many mothers with low-density colonization give birth to infants with high-density colonization who are therefore at risk. Amniotic fluid contaminated with meconium or vernix caseosa promotes growth of group B streptococcus and E. coli. Hence, the few organisms in the vaginal vault are able to proliferate rapidly after PROM, possibly contributing to this paradox. Organisms usually reach the bloodstream by fetal aspiration or swallowing of contaminated amniotic fluid, leading to bacteremia.
+
+The ascending route of infection helps explain such phenomena as the high incidence of PROM in neonatal infections, the significance of adnexal inflammation (amnionitis is more commonly associated with neonatal sepsis than is central placentitis), the increased risk of infection in twin gestations in the fetus positioned closer to the cervix, and the bacteriologic characteristics of early-onset neonatal sepsis, which reflect the flora of the maternal vaginal vault.
+
+Late-onset neonatal sepsis
+
+The most important risk factor in late-onset sepsis is:
+
+Preterm delivery
+
+Other risk factors include the following:
+
+Prolonged use of intravascular catheters
+
+Associated illnesses (which may, however, be only a marker for the use of invasive procedures)
+
+Exposure to antibiotics (which selects resistant bacterial strains)
+
+Prolonged hospitalization
+
+Contaminated equipment or IV or enteral solutions
+
+Gram-positive organisms (eg, coagulase-negative staphylococci and Staphylococcus aureus) may be introduced from the environment or the patient’s skin. Gram-negative enteric bacteria are usually derived from the patient’s endogenous flora, which may have been altered by antecedent antibiotic therapy or populated by resistant organisms transferred from the hands of personnel (the major means of spread) or contaminated equipment. Therefore, situations that increase exposure to these bacteria (eg, crowding, inadequate nurse staffing, inconsistent personnel handwashing) result in higher rates of hospital-acquired infection.
+
+Risk factors for candidal sepsis include prolonged (> 10 days) use of central IV catheters, parenteral nutrition, use of antecedent antibiotics (especially third-generation cephalosporins), and abdominal pathology.
+
+Initial foci of infection can be in the urinary tract, paranasal sinuses, middle ear, lungs, or gastrointestinal tract and may later disseminate to meninges, kidneys, bones, joints, peritoneum, and skin.
+
+Symptoms and Signs of Neonatal Sepsis
+
+Early signs of neonatal sepsis are frequently nonspecific and subtle and do not distinguish among organisms (including viral). Particularly common early signs include the following:
+
+Diminished spontaneous activity
+
+Less vigorous sucking
+
+Anorexia
+
+Apnea
+
+Bradycardia
+
+Temperature instability (hypothermia or hyperthermia)
+
+Fever is present in < 10% of neonates but, when sustained (eg, > 1 hour), generally indicates infection (1). (See also Fever In Infants and Children.) Temperature instability may be present rather than fever. Other symptoms and signs include respiratory distress, neurologic findings (eg, seizures, jitteriness), jaundice (especially occurring within the first 24 hours of life without Rh or ABO blood group incompatibility and with a higher than expected direct bilirubin concentration), vomiting, diarrhea, and abdominal distention.
+
+Specific signs of an infected organ may pinpoint the primary site or a metastatic site:
+
+Most neonates with early-onset group B streptococcus (GBS) (and many with L. monocytogenes) infection present with respiratory distress that is difficult to distinguish from respiratory distress syndrome.
+
+Periumbilical erythema, discharge, or bleeding without a hemorrhagic diathesis suggests omphalitis (infection prevents obliteration of the umbilical vessels).
+
+Coma, seizures, opisthotonos, or a bulging fontanelle suggests meningitis, encephalitis, or brain abscess.
+
+Decreased spontaneous movement of an extremity and swelling, warmth, erythema, or tenderness over a joint indicates osteomyelitis or septic arthritis.
+
+Unexplained abdominal distention may indicate peritonitis or necrotizing enterocolitis (particularly when accompanied by bloody diarrhea and fecal leukocytes).
+
+Cutaneous vesicles, mouth ulcers, and hepatosplenomegaly (particularly with disseminated intravascular coagulation) can indicate disseminated herpes simplex.
+
+Early-onset GBS infection may manifest as a fulminating pneumonia. Often, obstetric complications (particularly preterm delivery, PROM, or intra-amniotic infection) have occurred. Early-onset GBS infection manifests in most affected neonates within 6 hours of birth; many had a decreased Apgar score at birth. Meningitis may also be present but is not common.
+
+In late-onset GBS infection (at > 3 days to 12 weeks), meningitis is often present. Late-onset GBS infection is generally not associated with perinatal risk factors or demonstrable maternal cervical colonization and may be acquired postpartum.
+
+Symptoms and signs reference
+
+1. Hofer N, Müller W, Resch B. Neonates presenting with temperature symptoms: role in the diagnosis of early onset sepsis. Pediatr Int. 2012;54(4):486-490. doi:10.1111/j.1442-200X.2012.03570.x
+
+Diagnosis of Neonatal Sepsis
+
+History and physical examination, including maternal history
+
+Blood, cerebrospinal fluid (CSF), and sometimes urine culture
+
+Blood count, inflammatory markers, and markers of organ system function
+
+Early diagnosis of neonatal sepsis is important and requires awareness of risk factors (particularly in LBW neonates) and a high index of suspicion when any neonate deviates from the norm in the first few weeks of life. The Neonatal Early-Onset Sepsis Risk Prediction is a clinical risk calculator for infants ≥ 34 weeks gestational age at birth that is validated for use in high-resource settings. Other risk prediction tools may be more applicable in low- and middle-income countries (1, 2, 3).
+
+Clinical Calculators
+
+Neonatal Early-Onset Sepsis Risk Prediction
+
+Neonates with clinical signs of sepsis should have a complete blood count (CBC), differential with smear, inflammatory markers (eg, C-reactive protein, procalcitonin), blood culture, urine culture (not necessary for evaluation of early-onset sepsis), and lumbar puncture (LP), if clinically feasible, as soon as possible. Neonates with respiratory symptoms require chest radiograph. Diagnosis is confirmed by isolation of a pathogen in culture. Other tests may have abnormal results and though not necessarily diagnostic of sepsis may help evaluate the degree of illness and organ system involvement. Infants should be given broad-spectrum empiric antimicrobial therapy.
+
+Neonates who appear well are managed depending on several factors as discussed below under Prevention of Neonatal Sepsis.
+
+CBC, differential, and smear
+
+The total white blood cell count and absolute band count in neonates are poor predictors of early-onset sepsis. However, an elevated ratio of immature:total polymorphonuclear leukocytes of > 0.16 is sensitive, and values below this cutoff have a high negative predictive value. However, specificity is poor, and many term neonates have an elevated ratio. Values obtained after 6 hours of life are more likely to be abnormal and clinically useful than those obtained immediately after birth.
+
+The platelet count may fall hours to days before the onset of clinical sepsis but more often remains elevated until a day or so after the neonate becomes ill. This fall is sometimes accompanied by other findings of disseminated intravascular coagulation (eg, increased fibrin degradation products, decreased fibrinogen, prolonged international normalized ratio [INR]). Given the timing of these changes, the platelet count is not typically helpful in evaluating a neonate for sepsis.
+
+Because of large numbers of circulating bacteria, organisms can sometimes be seen in or associated with polymorphonuclear leukocytes by applying Gram stain, methylene blue, or acridine orange to the buffy coat.
+
+Regardless of the results of the CBC or evaluation of CSF, in all neonates with suspected sepsis (eg, those who look sick or are febrile or hypothermic), antibiotics should be started immediately after cultures (eg, blood and CSF [if possible]) are taken.
+
+Lumbar puncture
+
+There is a risk of worsening hypoxia during an LP in already hypoxemic neonates. However, LP should be performed in neonates with suspected sepsis as soon as they are able to tolerate the procedure (see also Diagnosis of Neonatal Bacterial Meningitis). Signs of bacterial meningitis include elevated white blood cell count, low glucose, and elevated protein. Supplemental oxygen is given before and during LP to prevent hypoxia.
+
+Blood cultures
+
+Umbilical vessels are frequently contaminated by organisms on the umbilical stump, especially after a number of hours, so blood cultures from umbilical venous lines may not be reliable. Therefore, blood for culture should be obtained by venipuncture, preferably at 2 peripheral sites. Although the optimal skin preparation to do before obtaining blood cultures in neonates is not defined, clinicians can apply an iodine-containing liquid and allow the site to dry. Alternatively, blood obtained soon after placement of an umbilical arterial catheter may also be used for culture if necessary.
+
+Blood should be cultured for both aerobic and anaerobic organisms. However, the minimum amount of blood per blood culture bottle is 1.0 mL; if < 2 mL is obtained, it should all be placed in a single aerobic blood culture bottle. If catheter-associated sepsis is suspected, a culture specimen should be obtained through the catheter as well as peripherally.
+
+Candida species grow in blood cultures and on blood agar plates, but if other fungi are suspected, a fungal culture medium should be used. For species other than Candida, fungal blood cultures may require 4 to 5 days of incubation before becoming positive and may be negative even in obviously disseminated disease. Proof of colonization (in mouth or stool or on skin) may be helpful before culture results are available. Neonates with candidemia should undergo LP to identify candidal meningitis. Indirect ophthalmoscopy with dilation of the pupils is performed to identify retinal candidal lesions. Renal ultrasound is performed to detect renal mycetoma.
+
+Urinalysis and culture
+
+Urine testing is needed only for evaluation of late-onset sepsis. Urine should be obtained by catheterization or suprapubic aspiration, not by urine collection bags. Although only culture is diagnostic, a finding of ≥ 5 white blood cells/high-power field in the spun urine or any organisms in a fresh unspun gram-stained sample is presumptive evidence of a urinary tract infection (UTI). Absence of pyuria does not rule out UTI.
+
+Other tests for infection and inflammation
+
+Numerous tests are often abnormal in sepsis and have been evaluated as possible early markers. In general, however, sensitivities tend to be low until later in illness, and specificities are suboptimal. Biomarkers are not considered useful for determining when to initiate antibiotics for neonatal sepsis because of their poor positive predictive value, but they may have an adjunctive role in determining when it may be acceptable to stop antibiotics if cultures remain negative in suspected early-onset sepsis.
+
+Acute-phase reactants are proteins produced by the liver under the influence of IL-1 when inflammation is present. The most studied of these is quantitative C-reactive protein. A concentration of ≥ 1 mg/dL (9.52 nmol/L) (measured by nephelometry) is generally considered abnormal. Elevated levels occur within 6 to 8 hours of developing sepsis and peak at 1 day. The sensitivity of C-reactive protein measurements is higher if measured after 6 to 8 hours of life.
+
+Procalcitonin is emerging as an acute-phase reactant marker for neonatal sepsis. Although procalcitonin appears more sensitive than C-reactive protein, it is less specific (4). A combination of biomarkers that includes procalcitonin and C-reactive protein may prove to be more useful for determining antibiotic duration (5).
+
+Diagnosis references
+
+1. Escobar GJ, Puopolo KM, Wi S, et al. Stratification of risk of early-onset sepsis in newborns ≥ 34 weeks' gestation. Pediatrics. 2014;133(1):30-36. doi:10.1542/peds.2013-1689
+
+2. Kuzniewicz MW, Walsh EM, Li S, Fischer A, Escobar GJ. Development and Implementation of an Early-Onset Sepsis Calculator to Guide Antibiotic Management in Late Preterm and Term Neonates. Jt Comm J Qual Patient Saf. 2016;42(5):232-239. doi:10.1016/s1553-7250(16)42030-1
+
+3. Russell NJ, Stöhr W, Plakkal N, et al. Patterns of antibiotic use, pathogens, and prediction of mortality in hospitalized neonates and young infants with sepsis: A global neonatal sepsis observational cohort study (NeoOBS). PLoS Med. 2023;20(6):e1004179. Published 2023 Jun 8. doi:10.1371/journal.pmed.1004179
+
+4. Pontrelli G, De Crescenzo F, Buzzetti R, et al. Accuracy of serum procalcitonin for the diagnosis of sepsis in neonates and children with systemic inflammatory syndrome: A meta-analysis. BMC Infect Dis. 2017;17(1):302. doi:10.1186/s12879-017-2396-7
+
+5. Stocker M, van Herk W, El Helou S, et al. C-reactive protein, procalcitonin, and white blood count to rule out neonatal early-onset sepsis within 36 hours: A secondary analysis of the neonatal procalcitonin intervention study. Clin Infect Dis. 2021;73(2):e383–e390. doi:10.1093/cid/ciaa876
+
+Treatment of Neonatal Sepsis
+
+Antimicrobial therapy
+
+Supportive therapy
+
+Because sepsis may manifest with nonspecific clinical signs and its effects may be devastating and most cases are bacterial, rapid empiric antibiotic therapy is recommended; medications are later adjusted according to sensitivities and the site of infection. Generally, if no source of infection is identified clinically, the infant appears well, and cultures are negative, antibiotics can be stopped after 48 hours (up to 72 hours in small preterm infants).
+
+General supportive measures, including respiratory and hemodynamic management, are combined with antibiotic treatment.
+
+Antimicrobials
+
+In early-onset sepsis, initial therapy should include ampicillin plus an aminoglycoside (eg, gentamicin). Cefotaxime may be added to or substituted for the aminoglycoside if meningitis caused by a gram-negative organism is suspected.
+
+Ampicillin is active against organisms such as GBS, enterococci, and Listeria. Gentamicin provides synergy against these organisms and also treats many gram-negative infections. Third-generation cephalosporins provide adequate coverage for most gram-negative pathogens. Ceftriaxone is contraindicated in hyperbilirubinemic neonates or those receiving calcium-containing IV solutions. Antibiotics may be changed as soon as an organism is identified.
+
+In late-onset sepsis, previously well infants admitted from the community with presumed late-onset sepsis should also receive therapy with ampicillin plus gentamicin or ampicillin plus cefotaxime. If gram-negative meningitis is suspected, ampicillin, cefotaxime, and an aminoglycoside may be used. In late-onset hospital-acquired sepsis, initial therapy should include vancomycin (active against methicillin-resistant S. aureus) plus an aminoglycoside. If P. aeruginosa is prevalent in the nursery, ceftazidime, cefepime, or piperacillin/tazobactam may be used in addition to, or instead of, an aminoglycoside depending on local susceptibilities.
+
+For neonates previously treated with a full 7- to 14-day aminoglycoside course who need retreatment, a different aminoglycoside or a third-generation cephalosporin should be considered.
+
+If coagulase-negative staphylococci are suspected (eg, an indwelling catheter has been in place for > 72 hours) or are isolated from blood or other normally sterile fluid and considered a pathogen, initial therapy for late-onset sepsis should include vancomycin. However, if the organism is sensitive to nafcillin, cefazolin or nafcillin should replace vancomycin. Removal of the presumptive source of the organism (usually an indwelling intravascular catheter) may be necessary to cure the infection because coagulase-negative staphylococci may be protected by a biofilm (a covering that encourages adherence of organisms to the catheter).
+
+Because Candida may take 2 to 3 days to grow in blood culture, empiric initiation of amphotericin B deoxycholate therapy and removal of the infected catheter before cultures confirm yeast infection may be lifesaving.
+
+Antiviral therapy should be initiated when herpes simplex virus, varicella-zoster virus, and cytomegalovirus are in the differential diagnosis.
+
+Other treatment
+
+Exchange transfusions have been used for severely ill (particularly hypotensive and metabolically acidotic) neonates. Their purported value is to increase levels of circulating immunoglobulins, decrease circulating endotoxin, increase hemoglobin levels (with higher 2,3-diphosphoglycerate levels), and improve perfusion. However, evidence to support this therapy is mixed and not sufficient to recommend its use (1).
+
+Fresh frozen plasma may help reverse the heat-stable and heat-labile opsonin deficiencies that occur in LBW neonates, but controlled studies of its use are unavailable, and transfusion-associated risks must be considered (2).
+
+Granulocyte transfusions (see White blood cells (WBCs)) have been used in septic and granulocytopenic neonates but have not convincingly improved outcome.
+
+Recombinant colony-stimulating factors (granulocyte colony-stimulating factor [G-CSF] and granulocyte-macrophage colony-stimulating factor [GM-CSF]) have increased neutrophil number and function in neonates with presumed sepsis but do not seem to be of routine benefit in neonates with severe neutropenia; further study is required.
+
+Treatment references
+
+1. Mathias S, Balachander B, Bosco A, Britto C, Rao S. The effect of exchange transfusion on mortality in neonatal sepsis: a meta-analysis. Eur J Pediatr. 2022;181(1):369-381. doi:10.1007/s00431-021-04194-w
+
+2. Sokou R, Parastatidou S, Konstantinidi A, et al. Fresh frozen plasma transfusion in the neonatal population: A systematic review. Blood Rev. 2022;55:100951. doi:10.1016/j.blre.2022.100951
+
+Prognosis for Neonatal Sepsis
+
+The overall mortality rate of early-onset sepsis is 18% (that of early-onset GBS infection is 2 to 10%) and of late-onset sepsis is up to 12% (lower for community versus hospital-acquired late-onset sepsis). Mortality in late-onset sepsis highly depends on the causative organism.
+
+Infants with septic shock have a higher mortality rate (up to 40%), whereas those with low or very low birth weight have higher mortality and poorer neurodevelopmental outcomes (1).
+
+Prognosis reference
+
+1. Giannoni E, Agyeman PKA, Stocker M, et al. Neonatal Sepsis of Early Onset, and Hospital-Acquired and Community-Acquired Late Onset: A Prospective Population-Based Cohort Study. J Pediatr. 2018;201:106-114.e4. doi:10.1016/j.jpeds.2018.05.048
+
+Prevention of Neonatal Sepsis
+
+Neonates who appear well may be at risk of group B streptococcus (GBS) infection. The Centers for Disease Control and Prevention (CDC) and the American Academy of Pediatrics (AAP) currently recommend managing these infants depending on several factors (1, 2), including the following:
+
+Presence of maternal intra-amniotic infection
+
+Whether maternal GBS prophylaxis was indicated and given appropriately
+
+Gestational age and the duration of membrane rupture
+
+If there is neither intra-amniotic infection nor indication for GBS prophylaxis, no testing or treatment is indicated.
+
+If intra-amniotic infection is present or strongly suspected, preterm and term neonates should have a blood culture at birth and begin empiric broad-spectrum antibiotic therapy. Testing should also include white blood cell count and differential and C-reactive protein at 6 to 12 hours of life. Further management depends on the clinical course and results of the laboratory tests.
+
+If maternal GBS prophylaxis was indicated and given appropriately (ie, penicillin, ampicillin, or cefazolin given IV for ≥ 4 hours), infants should be observed in the hospital for 48 hours; testing and treatment are performed only if symptoms develop. Selected patients ≥ 37 weeks gestation who have reliable caretakers and ready access to follow-up may go home after 24 hours.
+
+If adequate GBS prophylaxis was not given, infants are observed in the hospital for 36 to 48 hours without antimicrobial therapy. If membranes ruptured ≥ 18 hours before birth or gestational age is < 37 weeks, blood culture, CBC with differential, and perhaps a C-reactive protein level is recommended at birth and/or at 6 to 12 hours of life. The clinical course and results of the laboratory evaluation guide management.
+
+Alternative approaches to risk-stratifying neonates with respect to early-onset sepsis based on both maternal risk factors and the serial newborn examination are becoming more widely implemented.
+
+Giving IV immune globulin to augment the neonate's immune response has not been shown to help prevent or treat sepsis.
+
+Maternal indications for group B streptococcus prophylaxis
+
+All pregnant patients should be screened for GBS colonization at about 35 to 37 weeks gestation using both vaginal and rectal culture (3).
+
+Women with a positive GBS screen and/or GBS bacteruria at any time during the current pregnancy should be given antibiotic prophylaxis when labor starts or membranes rupture. Antibiotic prophylaxis is not required for patients who have a cesarean delivery before labor starts and before membranes rupture.
+
+Women with a negative GBS screen should receive intrapartum antibiotics if they previously gave birth to an infant with invasive GBS disease.
+
+Women whose GBS status is unknown (eg, because they were not tested or results are unavailable) should receive intrapartum antibiotics if ≥ 1 of the following factors are present:
+
+< 37 weeks gestation
+
+Rupture of membranes for ≥ 18 hours
+
+Intrapartum temperature ≥ 38° C
+
+Intrapartum nucleic acid amplification test (NAAT) positive for GBS (for patients with a negative intrapartum NAAT for GBS, antibiotic prophylaxis should be given if other risk factors develop)
+
+Known positive GBS screen in a previous pregnancy
+
+Women who had a positive GBS screen in one pregnancy have a 50% probability of having GBS colonization in a subsequent pregnancy (4).
+
+Antibiotics typically used include penicillin, ampicillin, or cefazolin and should be given IV for ≥ 4 hours before delivery. Selection should take into account local GBS antimicrobial resistance patterns.
+
+Prevention references
+
+1. Brady MT, Polin RA. Prevention and management of infants with suspected or proven neonatal sepsis. Pediatrics. 2013;132:166-8. doi:10.1542/peds.2013-1310
+
+2. Polin RA and the Committee on Fetus and Newborn.Management of neonates with suspected or proven early-onset bacterial sepsis. Pediatrics. 2012;129:1006-1015. doi:10.1542/peds.2012-0541
+
+3. Prevention of Group B Streptococcal Early-Onset Disease in Newborns: ACOG Committee Opinion, Number 797 [published correction appears in Obstet Gynecol. 2020 Apr;135(4):978-979. doi: 10.1097/AOG.0000000000003824]. Obstet Gynecol. 2020;135(2):e51-e72. doi:10.1097/AOG.0000000000003668
+
+4. Puopolo KM, Lynfield R, Cummings JJ, et al. Management of infants at risk for group B streptococcal disease. Pediatrics. 2019;144(2):e20191881. doi:10.1542/peds.2019-1881
+
+Key Points
+
+Neonatal sepsis can be early onset (≤ 3 days of birth) or late onset (after 3 days).
+
+Early-onset sepsis usually results from organisms acquired intrapartum, and symptoms appear within 6 hours of birth.
+
+Late-onset sepsis is usually acquired from the environment and is more likely in preterm infants, particularly those with prolonged hospitalization, using IV catheters, or both.
+
+Early signs are frequently nonspecific and subtle, and fever is present in < 10% of neonates.
+
+Do blood and cerebrospinal fluid cultures and, for late-onset sepsis, also do urine culture.
+
+Treat early-onset sepsis initially with ampicillin plus gentamicin (and/or cefotaxime if gram-negative meningitis is suspected), narrowed to organism-specific medications as soon as possible.
+
+Give group B streptococcus (GBS) prophylaxis intrapartum to women at risk of transmitting GBS to their neonate.

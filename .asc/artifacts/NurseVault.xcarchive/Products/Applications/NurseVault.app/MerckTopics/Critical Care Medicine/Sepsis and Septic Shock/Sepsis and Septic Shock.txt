@@ -1,0 +1,420 @@
+=== Sepsis and Septic Shock (Merck Manual Professional) ===
+Section: Critical Care Medicine > Sepsis and Septic Shock
+Source: https://www.merckmanuals.com/professional/critical-care-medicine/sepsis-and-septic-shock/sepsis-and-septic-shock
+Retrieved: 2026-09-25
+
+Sepsis is a clinical syndrome of life-threatening organ dysfunction caused by a dysregulated host response to infection (1). Sepsis represents a spectrum of disease with a wide range of mortality risk, from 25 to 30% (2), depending on various pathogen and host factors along with the timeliness of recognition and provision of appropriate treatment.
+
+Septic shock is a subset of sepsis with significantly increased mortality due to severe circulatory and cellular/metabolic abnormalities (1). Mortality for patients in septic shock is higher, around 40 to 60% (2). Septic shock is defined as sepsis with persistent hypotension requiring vasopressors to maintain mean arterial pressure (MAP) ≥ 65 mm Hg and having a serum lactate level > 18 mg/dL (2 mmol/L) despite adequate volume resuscitation (1). (See also Shock.)
+
+The concept of the systemic inflammatory response syndrome (SIRS), defined by certain abnormalities of vital signs and laboratory results, had been used in an attempt to identify early sepsis (1). However, SIRS criteria have been found to lack sensitivity and specificity for predicting increased mortality risk from sepsis. Patients meeting SIRS criteria may have noninfectious etiologies as well (eg, pancreatitis, myocardial infarction) (3). The lack of specificity may be because the SIRS response is often adaptive rather than pathologic.
+
+Because sepsis may progress rapidly, management requires early identification, aggressive fluid resuscitation, antibiotics, and source control. Source control may include drainage of infectious fluids (eg, biliary drainage), incision and drainage of abscesses, and/or surgical excision of infected or necrotic tissue.
+
+General references
+
+1. Singer M, Deutschman CS, Seymour CW, et al. The third international consensus definitions for sepsis and septic shock (sepsis-3). JAMA. 2016;315(8):801-810. doi:10.1001/jama.2016.0287
+
+2. Cecconi M, Evans L, Levy M, Rhodes A. Sepsis and septic shock. Lancet. 2018;392(10141):75-87
+
+3. Churpek MM, Zadravecz FJ, Winslow C, Howell MD, Edelson DP. Incidence and Prognostic Value of the Systemic Inflammatory Response Syndrome and Organ Dysfunctions in Ward Patients. Am J Respir Crit Care Med. 2015;192(8):958-964. doi:10.1164/rccm.201502-0275OC
+
+Etiology of Sepsis and Septic Shock
+
+Most cases of septic shock are caused by gram-negative bacilli or gram-positive cocci, and the most common sources are pulmonary, intra-abdominal, or genitourinary sites (1). Rarely, septic shock is caused by Candida or other fungi or by viruses. A postoperative infection should be suspected as the cause of septic shock in patients who have recently had surgery.
+
+A unique, uncommon form of shock caused by staphylococcal and streptococcal toxins is called toxic shock syndrome. Toxic shock syndrome is caused by toxin-mediated immune activation, rather than by bacteremia or clear invasive infection.
+
+Sepsis-related mortality is higher at the extremes of age (eg, neonates [see Neonatal Sepsis] and older adults) (2).
+
+There is significant variability in the degree to which individual risk factors contribute to the risk of developing sepsis. Common risk factors include (3, 4):
+
+Diabetes mellitus
+
+Liver disease, including cirrhosis and metabolic dysfunction–associated liver disease
+
+Leukopenia, including neutropenia (especially associated with cancer or cytotoxic medications)
+
+Invasive devices, including endotracheal tubes, vascular or urinary catheters, drainage tubes, and other foreign materials
+
+Current or recent treatment with antibiotics or glucocorticoids
+
+Recent hospitalization (especially in an intensive care unit)
+
+Etiology references
+
+1. Meyer NJ, Prescott HC. Sepsis and Septic Shock. N Engl J Med. 2024;391(22):2133-2146. doi:10.1056/NEJMra2403213
+
+2. GBD 2021 Global Sepsis Collaborators. Global, regional, and national sepsis incidence and mortality, 1990-2021: a systematic analysis. Lancet Glob Health. 2025;13(12):e2013-e2026. doi:10.1016/S2214-109X(25)00356-0
+
+3. Cecconi M, Evans L, Levy M, Rhodes A. Sepsis and septic shock. Lancet. 2018;392(10141):75-87
+
+4. Lindström AC, Eriksson M, Mårtensson J, Oldner A, Larsson E. Nationwide case-control study of risk factors and outcomes for community-acquired sepsis. Sci Rep. 2021;11(1):15118. doi:10.1038/s41598-021-94558-x
+
+Pathophysiology of Sepsis and Septic Shock
+
+The pathogenesis of septic shock is not completely understood. An inflammatory stimulus (eg, a bacterial toxin) triggers production of pro-inflammatory mediators, including tumor necrosis factor (TNF) and interleukin (IL)-1 (1). These cytokines cause neutrophil–endothelial cell adhesion, activate the coagulation cascade, and generate microthrombi. They also release numerous other mediators, including leukotrienes, lipoxygenase, histamine, bradykinin, serotonin, and IL-2. They are opposed by anti-inflammatory mediators, such as IL-4 and IL-10, resulting in a negative feedback mechanism.
+
+Initially, arteries and arterioles dilate, decreasing peripheral arterial resistance; cardiac output typically increases. This stage has been referred to as warm shock since the skin and extremities may still be warm. Later, cardiac output may decrease, blood pressure falls (with or without an increase in peripheral resistance), and typical features of hypoperfusion appear (eg, cool and dusky skin) (2).
+
+Even in the stage of increased cardiac output, vasoactive mediators cause blood flow to bypass capillary exchange vessels (a distributive defect). Poor capillary flow resulting from this shunting, along with capillary obstruction by microthrombi, decreases delivery of oxygen and impairs removal of carbon dioxide and waste products. Decreased perfusion causes dysfunction and sometimes failure of one or more organs, including the kidneys, lungs, liver, brain, and heart.
+
+Coagulopathy may develop because of intravascular coagulation with consumption of major clotting factors, excessive fibrinolysis in reaction thereto, and more often a combination of both.
+
+Pathophysiology references
+
+1. Wasyluk W, Zwolak A. Metabolic Alterations in Sepsis. J Clin Med. 2021;10(11):2412. doi:10.3390/jcm10112412
+
+2. MacKenzie IM. The haemodynamics of human septic shock. Anaesthesia. 2001;56(2):130-144. doi:10.1046/j.1365-2044.2001.01866.x
+
+Symptoms and Signs of Sepsis and Septic Shock
+
+With sepsis (without septic shock), patients typically have fever, tachycardia, diaphoresis, and tachypnea; blood pressure remains normal. Other signs of the causative infection (eg, cough and fever for a patient with pneumonia) may be present.
+
+Symptoms and signs of sepsis can be subtle and often easily mistaken for manifestations of other disorders (eg, primary cardiac dysfunction, pulmonary embolism, delirium, or infectious gastroenteritis). It can be particularly difficult to recognize clinical manifestations of sepsis in patients with immunosupression or in postoperative patients.
+
+As sepsis worsens or septic shock develops, an early sign, particularly in older adults or the very young, may be confusion or decreased alertness. Young patients often remain hemodynamically stable until quite ill due to robust compensatory mechanisms, and older adults may not mount a substantial inflammatory reaction due to immunosenescence. Blood pressure decreases, yet the skin is paradoxically warm. Later, extremities become cool and pale, with peripheral cyanosis and mottling. Organ dysfunction causes additional symptoms and signs specific to the organ involved (eg, oliguria, dyspnea).
+
+Diagnosis of Sepsis and Septic Shock
+
+Blood pressure (BP), heart rate, and blood oxygen saturation monitoring
+
+Complete blood count (CBC) with differential, comprehensive metabolic panel, and lactate
+
+Cultures of blood, urine, and other potential sites of infection, including wounds in surgical or trauma patients
+
+Invasive central venous pressure (CVP), partial pressure of arterial oxygen (PaO2), and central venous oxygen saturation (ScvO2) readings
+
+Sepsis is suspected when a patient with a known infection develops systemic signs of inflammation or organ dysfunction (1). Similarly, in a patient with signs of systemic inflammation (eg, fever, tachycardia, tachypnea, elevated white blood cell [WBC] count) without an obvious infectious source, a diagnosis of sepsis should be considered and a thorough evaluation performed to identify occult infection.
+
+Evaluation for sepsis includes history, physical examination, and monitoring of vital signs. In particular, BP, heart rate, and blood oxygen saturation should be repeated frequently or monitored continuously.
+
+Initial laboratory testing is performed to assess for systemic response to infection, organ dysfunction, acidosis, and common or suspected sources of infection. Tests include CBC with differential, comprehensive metabolic panel, lactate, blood cultures, urinalysis and urine culture, and cultures of other body fluids from potential sites of infection suggested by the patient's history, symptoms, and signs. Serum C-reactive protein and procalcitonin are often elevated in severe sepsis and may facilitate diagnosis, but they are not specific. It is important to detect organ dysfunction as early as possible.
+
+Imaging can be helpful in patients with a suspected surgical or occult cause of sepsis. Ultrasound (eg, Rapid Ultrasound for Shock and Hypotension (RUSH) Examination), chest or other radiographs, CT, or MRI may be required, depending on the suspected source. Ultimately, the diagnosis is clinical.
+
+Other causes of shock (eg, hypovolemia, myocardial infarction [MI]) should be excluded via history, physical examination, electrocardiography (ECG), and serum cardiac biomarker measurement as clinically indicated. Even in the absence of MI, hypoperfusion caused by sepsis may result in ECG findings of cardiac ischemia, including nonspecific ST-T wave abnormalities, T-wave inversions, and supraventricular and ventricular arrhythmias. Novel biomarker and biomarker panels involving transcriptomic models are being developed for use in clinical practice to assist in differentiation between sepsis and other types of shock (2, 3).
+
+A number of scoring systems for early detection of sepsis have been developed. The sequential organ failure assessment score (SOFA score) and the quick SOFA score (qSOFA) have been validated with respect to mortality risk and are relatively simple to use, although no existing scores are adequate in isolation and should be viewed as complementary (4). The qSOFA score is based on the blood pressure, respiratory rate, and the Glasgow Coma Scale and does not require waiting for laboratory results.
+
+For patients with a suspected infection who are not in the intensive care unit (ICU), the qSOFA score is a better predictor of inpatient mortality than the SOFA score and SIRS criteria (4). For patients with a suspected infection who are in the ICU, the SOFA score is a better predictor of inpatient mortality than the qSOFA score or SIRS criteria.
+
+Patients with suspected sepsis who have ≥ 2 of the qSOFA criteria should have further evaluation for sepsis and a source of infection. The qSOFA criteria are as follows:
+
+Respiratory rate ≥ 22 breaths per minute
+
+Altered mentation
+
+Systolic blood pressure ≤ 100 mm Hg
+
+The SOFA score is somewhat more robust when patients are treated in the ICU, but this score requires laboratory testing (see table Sequential Organ Failure Assessment Score). There are other scoring systems in clinical use (5).
+
+Table
+
+Sequential Organ Failure Assessment (SOFA) Score
+
+Table
+
+Sequential Organ Failure Assessment (SOFA) Score
+
+Sequential Organ Failure Assessment (SOFA) Score
+
+Parameter
+
+Score: 0
+
+Score: 1
+
+Score: 2
+
+Score: 3
+
+Score: 4
+
+PaO2/FIO2
+
+≥ 400 mm Hg (53.3 kPa)
+
+< 400 mm Hg (53.3 kPa)
+
+< 300 mm Hg (40 kPa)
+
+< 200 mm Hg (26.7 kPa) with respiratory support
+
+< 100 mm Hg (13.3 kPa) with respiratory support
+
+Platelets
+
+≥ 150 × 103/mcL (≥ 150 × 109/L)
+
+< 150 × 103/mcL (< 150 × 109/L)
+
+< 100 × 103/mcL (< 100 × 109/L)
+
+< 50 × 103/mcL (< 50 × 109/L)
+
+< 20 × 103/mcL (< 20 × 109/L)
+
+Bilirubin
+
+< 1.2 mg/dL (20 micromole/L)
+
+1.2–1.9 mg/dL (20–32 micromole/L)
+
+2.0–5.9 mg/dL (33–101 micromole/L)
+
+6.0–11.9 mg/dL (102–204 micromole/L)
+
+> 12.0 mg/dL (204 micromole/L)
+
+Cardiovascular (when given, medications should be given for ≥ 1 hour)
+
+MAP ≥ 70 mm Hg
+
+MAP < 70 mm Hg
+
+Dopamine < 5 mcg/kg/minute
+
+or
+
+Any dose of dobutamine
+
+Dopamine 5.1–15 mcg/kg/minute
+
+or
+
+Epinephrine ≤ 0.1 mcg/kg/minute
+
+or
+
+Norepinephrine ≤ 0.1 mcg/kg/minute
+
+Dopamine > 15 mcg/kg/minute
+
+or
+
+Epinephrine > 0.1 mcg/kg/minute
+
+or
+
+Norepinephrine > 0.1 mcg/kg/minute
+
+Glasgow Coma Scale score*
+
+15 points
+
+13–14 points
+
+10–12 points
+
+6–9 points
+
+< 6 points
+
+Creatinine
+
+< 1.2 mg/dL (110 micromole/L)
+
+1.2-1.9 mg/dL (110–170 micromole/L)
+
+2.0-3.4 mg/dL (171–299 micromole/L)
+
+3.5-4.9 mg/dL (300–400 micromole/L)
+
+> 5.0 mg/dL (440 micromole/L)
+
+Urine output
+
+—
+
+—
+
+—
+
+< 500 mL/day
+
+< 200 mL/day
+
+* A higher score indicates better neurologic function.
+
+FIO2 = fraction of inspired oxygen; kPa = kilopascals; MAP = mean arterial pressure; PaO2 = arterial oxygen partial pressure.
+
+Adapted from Singer M, Deutschman CS, Seymour CW, et al. The third international consensus definitions for sepsis and septic shock (sepsis-3). JAMA. 2016;315(8):801-810. doi:10.1001/jama.2016.0287
+
+* A higher score indicates better neurologic function.
+
+FIO2 = fraction of inspired oxygen; kPa = kilopascals; MAP = mean arterial pressure; PaO2 = arterial oxygen partial pressure.
+
+Adapted from Singer M, Deutschman CS, Seymour CW, et al. The third international consensus definitions for sepsis and septic shock (sepsis-3). JAMA. 2016;315(8):801-810. doi:10.1001/jama.2016.0287
+
+Although SIRS criteria are not part of the formal definition of sepsis, they are still often used to discuss risk of sepsis. If a patient is initially being evaluated for a noninfectious problem and is later identified as meeting criteria for SIRS, additional evaluation should to try an identify an infectious etiology. SIRS criteria are met if ≥ 2 of the following are present:
+
+Temperature > 38° C (100.4° F) or < 36° C (96.8° F)
+
+Heart rate > 90 beats per minute
+
+Respiratory rate > 20 breaths per minute or partial pressure of arterial carbon dioxide (PaCO2) < 32 mm Hg
+
+WBC count > 12,000/mcL (12 × 109/L), < 4,000/mcL (4 × 109/L), or > 10% immature (band) forms
+
+As part of initial diagnosis as well as ongoing management, CBC, arterial blood gases (ABGs), chest radiograph, serum electrolytes, blood urea nitrogen (BUN), creatinine, partial pressure of carbon dioxide (PCO2), and liver function are measured. Serum lactate levels, ScvO2, or both can be determined to help guide treatment. WBC count may be decreased (< 4,000/mcL [< 4 × 109/L]) or increased (> 15,000/mcL [> 15 × 109/L]), and polymorphonuclear leukocytes may be as low as 20%. During the course of sepsis, the number of WBCs may fluctuate, depending on the severity of sepsis or shock, the patient's immunologic status, and the etiology of the infection. Concurrent glucocorticoid use may elevate WBC count and thus mask WBC changes due to trends in the illness.
+
+Hyperventilation with respiratory alkalosis (low PaCO2 and increased arterial pH) occurs early, in part as compensation for lactic acidemia. Serum bicarbonate is usually low, and serum and blood lactate levels increase. As shock progresses, metabolic acidosis worsens, and blood pH decreases. Early hypoxemic respiratory failure leads to a decreased PaO2/fraction of inspired oxygen (FIO2) ratio and sometimes overt hypoxemia with PaO2 < 70 mm Hg. Diffuse infiltrates may appear on the chest radiograph due to acute respiratory distress syndrome (ARDS). BUN and creatinine usually increase progressively as a result of end-stage renal disease. Bilirubin and transaminases may rise, although overt hepatic failure is uncommon in patients with normal baseline liver function.
+
+Hemodynamic measurements with a central venous or pulmonary artery catheter can be used when the specific type of shock is unclear.
+
+Bedside echocardiography in the ICU is a practical and noninvasive alternative method of hemodynamic monitoring. In septic shock, cardiac output is increased and peripheral vascular resistance is decreased, whereas in other forms of shock, cardiac output is typically decreased and peripheral resistance is increased.
+
+Many patients with severe sepsis develop relative adrenal insufficiency (ie, normal or slightly elevated baseline cortisol levels that do not increase significantly in response to further stress or exogenous adrenocorticotropic hormone [ACTH]). Adrenal function may be tested by measuring serum cortisol at 8 AM; a level < 5 mcg/dL (< 138 nmol/L) is inadequate. Alternatively, cortisol can be measured before and after injection of 250 mcg of synthetic ACTH; a rise of < 9 mcg/dL (< 248 nmol/L) is considered insufficient.
+
+Rapid Ultrasound for Shock and...
+
+video
+
+Useful Calculators for Sepsis
+
+Clinical Calculators
+
+Glasgow Coma Scale
+
+Clinical Calculators
+
+Sequential Organ Failure Assessment (Quick): qSOFA Score
+
+Clinical Calculators
+
+Sequential Organ Failure Assessment (SOFA)
+
+Clinical Calculators
+
+Glasgow Coma Scale
+
+Clinical Calculators
+
+Sequential Organ Failure Assessment (Quick): qSOFA Score
+
+Clinical Calculators
+
+Sequential Organ Failure Assessment (SOFA)
+
+Diagnosis references
+
+1. Singer M, Deutschman CS, Seymour CW, et al. The third international consensus definitions for sepsis and septic shock (sepsis-3). JAMA. 2016;315(8):801-810. doi:10.1001/jama.2016.0287
+
+2. Liesenfeld O, Arora S, Aufderheide TP, et al. Clinical validation of an AI-based blood testing device for diagnosis and prognosis of acute infection and sepsis. Nat Med. 2025;31(12):4044-4054. doi:10.1038/s41591-025-03933-y
+
+3. Scicluna BP, Cano-Gamez K, Burnham KL, et al. A consensus blood transcriptomic framework for sepsis. Nat Med. 2025;31(12):4119-4130. doi:10.1038/s41591-025-03964-5
+
+4. Seymour CW, Liu VX, Iwashyna TJ, et al. Assessment of clinical criteria for sepsis: For the third international consensus definitions for sepsis and septic shock (sepsis-3). JAMA. 2016;315(8):762-774. doi: 10.1001/jama.2016.0288
+
+5. Covino M, Sandroni C, Della Polla D, et al. Predicting ICU admission and death in the Emergency Department: A comparison of six early warning scores. Resuscitation. 2023;190:109876. doi:10.1016/j.resuscitation.2023.109876
+
+Treatment of Sepsis and Septic Shock
+
+Restoration of perfusion with IV fluids and sometimes vasopressors
+
+Oxygen support as needed
+
+Broad-spectrum antibiotics
+
+Treatment or removal of source of infection
+
+Sometimes other supportive measures (eg, glucocorticoids, insulin)
+
+Patients with septic shock should be managed in an ICU. The following should be monitored frequently (as often as hourly or continuously):
+
+Volume status using central venous pressure (CVP), PAOP, serial ultrasound, and/or ScvO2
+
+ABGs
+
+End-tidal carbon dioxide (CO2)
+
+Blood glucose, lactate, and electrolyte levels
+
+Kidney function
+
+Arterial oxygen saturation should be measured continuously via pulse oximetry. Urine output, a good indicator of renal perfusion, should be measured to prevent catheter-associated urinary tract infections (indwelling urinary catheters should be avoided unless they are essential) (1). The onset of oliguria (eg, < approximately 0.5 mL/kg/hour) or anuria, or rising creatinine may signal impending renal failure.
+
+The clinical application of evidence-based guidelines and clinical protocols for timely diagnosis and treatment of sepsis appears to be helpful to decrease mortality and length of stay in the hospital (2).
+
+Perfusion restoration
+
+IV fluids are administered as the first-line intervention to restore perfusion. Balanced isotonic crystalloid is preferred (3). Some clinicians add albumin to the initial fluid bolus in patients with severe sepsis or septic shock; however, there is little evidence demonstrating increased survival benefit. However, its use may be considered in patients who have received large volumes of crystalloids. Starch-based fluids (eg, hydroxyethyl starch) are associated with increased mortality and should not be used (3).
+
+Initially, 1 L of crystalloid is rapidly infused. Most patients require a minimum of 30 mL/kg in the first 3 hours (2). However, the goal of therapy is not to administer a specific volume of fluid but to achieve tissue reperfusion without causing pulmonary edema due to fluid overload.
+
+Estimates of successful reperfusion include ScvO2 and lactate clearance (ie, percent change in serum lactate levels over 6 to 8 hours). Target ScvO2 is ≥ 70%. Lactate clearance target is 10 to 20%.
+
+Risk of pulmonary edema can be controlled by optimizing preload; fluids should be given until CVP reaches 8 mm Hg (10 cm water) or PAOP reaches 12 to 15 mm Hg; however, patients on mechanical ventilation may require higher CVP levels. The quantity of fluid required often far exceeds the normal blood volume and may reach 10 L over 4 to 12 hours. PAOP or echocardiography can identify limitations in left ventricular function and incipient pulmonary edema due to fluid overload. Point-of-care ultrasound can also be used to assess volume status, including inferior vena cava (IVC) distention or collapsibility, cardiac function, and presence of pulmonary edema.
+
+If a patient with septic shock remains hypotensive after CVP or PAOP has been raised to target levels, norepinephrine (highly individualized dosing) or vasopressin (up to 0.03 units/minute) may be given to increase mean blood pressure to at least 65 mm Hg. Epinephrine may be added if a second medication is needed. However, vasoconstriction caused by higher doses of these medications may cause organ hypoperfusion and acidosis.
+
+Oxygen support
+
+Oxygen is given by mask, nasal prongs, or noninvasive positive pressure ventilation. Tracheal intubation and mechanical ventilation may be needed subsequently for respiratory failure (see Mechanical ventilation in ARDS).
+
+Antibiotics
+
+Parenteral antibiotics should be given as soon as possible after specimens of blood, body fluids, and wound sites have been collected for Gram stain and culture. Prompt empiric therapy, started immediately after sepsis is suspected, decreases mortality (2). Antibiotic selection requires an educated guess based on the suspected source (eg, pneumonia, urinary tract infection), clinical setting, knowledge or suspicion of causative organisms and of sensitivity patterns common to that specific inpatient unit or institution, and previous culture results.
+
+Typically, broad-spectrum gram-positive and gram-negative bacterial coverage is used initially; patients who are immunocompromised should also receive an empiric antifungal medication. There are many possible starting regimens; when available, institutional trends for infecting organisms and their antibiotic susceptibility patterns (antibiograms) should be used to select empiric treatment. In general, common antibiotics for empiric gram-positive coverage include vancomycin and linezolid. Empiric gram-negative coverage has more options and includes broad-spectrum penicillins (eg, piperacillin/tazobactam), third- or fourth-generation cephalosporins, imipenems, and aminoglycosides. Initial broad-spectrum coverage is narrowed if a specific source of infection is identified and also when culture and sensitivity data become available.
+
+Pearls & Pitfalls
+
+Knowledge of institution- and care unit–specific trends in infectious organisms and their antimicrobial sensitivity is an important guide to empiric antibiotic selection.
+
+Infection source control
+
+The source of infection should be identified and controlled as soon as possible. Intravenous and urinary catheters and endotracheal tubes should be removed if possible or changed. Abscesses must be drained, and necrotic and devitalized tissues (eg, gangrenous gallbladder, necrotizing soft-tissue infection) must be surgically excised. If excision is not possible (eg, because of comorbidities or hemodynamic instability), surgical or radiologic-guided drainage may help. If the source is not controlled, the patient’s condition will continue to deteriorate despite antibiotic therapy.
+
+Other supportive measures
+
+Normalization of blood glucose improves outcome in critically ill patients, even those who are not known to have diabetes, because hyperglycemia impairs the immune response to infection (2). A continuous IV infusion of insulin (starting dose 1 to 4 units/hour) is titrated to maintain glucose between 110 and 180 mg/dL (7.7 to 9.9 mmol/L). This approach necessitates frequent (eg, every 1 to 4 hours) glucose measurement.
+
+Glucocorticoid therapy (eg, hydrocortisone < 400 mg IV per day in divided doses) is indicated for patients with adrenal insufficiency documented by cortisol testing. However, in refractory septic shock (systolic blood pressure < 90 mm Hg for more than 1 hour following both adequate fluid resuscitation and vasopressor administration, attainment of source control, and antibiotics), no cortisol testing is required before starting glucocorticoid therapy (4). Continued treatment is based on patient response.
+
+Treatment references
+
+1. Patel PK, Advani SD, Kofman AD, et al. Strategies to prevent catheter-associated urinary tract infections in acute-care hospitals: 2022 Update. Infect Control Hosp Epidemiol. 2023;44(8):1209-1231. doi:10.1017/ice.2023.137
+
+2. Evans L, Rhodes A, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-e1143. doi:10.1097/CCM.0000000000005337
+
+3. Zarychanski R, Abou-Setta AM, Turgeon AF, et al. Association of hydroxyethyl starch administration with mortality and acute kidney injury in critically ill patients requiring volume resuscitation: a systematic review and meta-analysis. JAMA. 2013;309(7):678-688. doi:10.1001/jama.2013.430
+
+4. Annane D, Pastores SM, Rochwerg B, et al: Guidelines for the diagnosis and management of critical illness-related corticosteroid insufficiency (CIRCI) in critically ill patients (Part I): Society of Critical Care Medicine (SCCM) and European Society of Intensive Care Medicine (ESICM) 2017. Intensive Care Med. 2017;43(12):1751-1763. doi: 10.1007/s00134-017-4919-5
+
+Prognosis for Sepsis and Septic Shock
+
+Overall mortality in patients with sepsis is approximately 25 to 30%, and in patients with septic shock it is approximately 40 to 60% (with a wide range, depending on patient characteristics) (1). Poor outcomes often follow failure to institute early aggressive therapy (eg, within 6 hours of suspected diagnosis). Once severe lactic acidosis with decompensated metabolic acidosis becomes established, especially in conjunction with multiorgan failure, septic shock may become irreversible and fatal.
+
+Several scores have been developed to predict mortality risk, including the mortality in emergency department sepsis (MEDS) score (2). The multiple organ dysfunction score (MODS) measures dysfunction of 6 organ systems and correlates strongly with risk of mortality (3).
+
+Clinical Calculators
+
+MEDS Score: Mortality in ER Sepsis
+
+Clinical Calculators
+
+Multiple Organ Dysfunction Score (MODS)
+
+Prognosis references
+
+1. Cecconi M, Evans L, Levy M, Rhodes A. Sepsis and septic shock. Lancet. 2018;392(10141):75-87
+
+2. Shapiro NI, Wolfe RE, Moore RB, Smith E, Burdick E, Bates DW. Mortality in Emergency Department Sepsis (MEDS) score: a prospectively derived and validated clinical prediction rule. Crit Care Med. 2003;31(3):670-675. doi:10.1097/01.CCM.0000054867.01688.D1
+
+3. Marshall JC, Cook DJ, Christou NV, Bernard GR, Sprung CL, Sibbald WJ. Multiple organ dysfunction score: a reliable descriptor of a complex clinical outcome. Crit Care Med. 1995;23(10):1638-1652. doi:10.1097/00003246-199510000-00007
+
+Key Points
+
+Sepsis and septic shock are increasingly severe clinical syndromes of life-threatening organ dysfunction caused by a dysregulated response to infection.
+
+An important component is critical reduction in tissue perfusion, which can lead to acute failure of multiple organs, including the lungs, kidneys, and liver.
+
+Early recognition and treatment are key to improved survival.
+
+Resuscitate with intravenous fluids and sometimes vasopressors titrated to optimize central venous oxygen saturation and preload, and to lower serum lactate levels.
+
+Control the source of infection by removing catheters, tubes, and infected and/or necrotic tissue and by draining abscesses.
+
+Give empiric broad-spectrum antibiotics directed at most likely organisms and switch quickly to more specific medications based on culture and sensitivity results.

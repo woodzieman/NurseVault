@@ -142,10 +142,55 @@ public struct ZoomableImageView: View {
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        #else
+        #elseif os(iOS)
         GeometryReader { proxy in
             if let image = UIImage(data: data) {
                 Image(uiImage: image)
+                    .resizable()
+                    .scaledToFit()
+                    .scaleEffect(scale)
+                    .offset(offset)
+                    .gesture(
+                        MagnificationGesture()
+                            .onChanged { value in
+                                scale = clampScale(scale * value.magnitude)
+                            }
+                            .onEnded { _ in
+                                scale = clampScale(scale)
+                            }
+                    )
+                    .gesture(
+                        DragGesture()
+                            .onChanged { value in
+                                if scale > 1.0 {
+                                    offset = CGSize(
+                                        width: lastOffset.width + value.translation.width,
+                                        height: lastOffset.height + value.translation.height
+                                    )
+                                }
+                            }
+                            .onEnded { _ in
+                                lastOffset = offset
+                                if scale <= 1.0 {
+                                    offset = .zero
+                                    lastOffset = .zero
+                                }
+                            }
+                    )
+                    .onTapGesture(count: 2) {
+                        withAnimation(.spring(response: 0.35)) {
+                            resetZoom()
+                        }
+                    }
+            } else {
+                placeholder
+            }
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        #elseif os(macOS)
+        GeometryReader { proxy in
+            if let image = NSImage(data: data) {
+                Image(nsImage: image)
                     .resizable()
                     .scaledToFit()
                     .scaleEffect(scale)

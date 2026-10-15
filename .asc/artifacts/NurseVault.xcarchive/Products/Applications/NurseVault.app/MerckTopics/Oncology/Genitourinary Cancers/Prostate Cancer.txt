@@ -1,0 +1,496 @@
+=== Prostate Cancer (Merck Manual Professional) ===
+Section: Oncology > Genitourinary Cancers
+Source: https://www.merckmanuals.com/professional/oncology/genitourinary-cancers/prostate-cancer
+Retrieved: 2026-09-25
+
+Adenocarcinoma of the prostate is the most common nondermatologic cancer in men > 50 in the United States. In the United States, it is estimated that about 299,010 new cases and about 35,250 deaths will occur in 2024 (1). Incidence increases with each decade of life; autopsy studies show prostate cancer in 15 to 60% of men aged 60 to 90 years old, with incidence increasing with age. The lifetime risk of being diagnosed with prostate cancer is 1 in 6. Median age at diagnosis is 72, and > 60% of prostate cancers are diagnosed in men > 65 (1). Risk is highest for Black men, in particular those from the Caribbean. Genetic risk factors include BRCA1/2 mutations, Lynch syndrome, and family history of some hereditary breast and ovarian cancers.
+
+Sarcoma of the prostate is rare, occurring primarily in children. Undifferentiated prostate cancer, squamous cell carcinoma, and ductal transitional carcinoma also occur infrequently. Prostatic intraepithelial neoplasia is considered a possible premalignant histologic change.
+
+Hormonal influences contribute to the course of adenocarcinoma but almost certainly not to other types of prostate cancer. The effect of testosterone supplements on the risk of prostate cancer remains controversial. Data suggest that testosterone supplements for treatment of symptomatic hypogonadism do not increase the risk of prostate cancer (2).
+
+References
+
+1. Siegel RL, Giaquinto AN, Jemal A. Cancer statistics, 2024 [published correction appears in CA Cancer J Clin. 2024 Mar-Apr;74(2):203. doi: 10.3322/caac.21830]. CA Cancer J Clin. 2024;74(1):12-49. doi:10.3322/caac.21820
+
+2. Boyle P, Koechlin A, Bota M, et al: Endogenous and exogenous testosterone and the risk of prostate cancer and increased prostate-specific antigen (PSA) level: A meta-analysis. BJU Int. 118(5):731-741, 2016. doi: 10.1111/bju.13417
+
+Symptoms and Signs of Prostate Cancer
+
+Prostate cancer usually progresses slowly and rarely causes symptoms until advanced. In advanced disease, hematuria and symptoms of bladder outlet obstruction (eg, straining, hesitancy, weak or intermittent urine stream, a sense of incomplete emptying, terminal dribbling) or ureteral obstruction (eg, renal colic, flank pain, renal dysfunction) may appear. Bone pain, pathologic fractures, or spinal cord compression may result from osteoblastic metastases to bone (commonly pelvis, ribs, vertebral bodies).
+
+Diagnosis of Prostate Cancer
+
+Multiparametric MRI (mpMRI) of the prostate
+
+Diagnosis by needle biopsy of the prostate (most common) or biopsy of metastatic lesion
+
+Grading by histology
+
+Staging by CT/MRI and bone scanning, possibly newer modalities such as prostate-specific membrane antigen (PSMA)–based PET-CT or using other PET agents
+
+Diagnostic evaluation for prostate cancer is undertaken in patients with symptoms but more often in those with abnormal screening by prostate-specific antigen (PSA) with or without a digital rectal examination (DRE). An elevated PSA may be suggestive of cancer but can also occur with infection or prostate enlargement and is not therefore definitively diagnostic of prostate cancer.
+
+Sometimes rock-hard induration or nodules are palpable during DRE, but the examination is often normal; induration and nodularity suggest cancer but must be differentiated from granulomatous prostatitis, prostate calculi, and other prostate disorders. Extension of induration to the seminal vesicles and lateral fixation of the gland suggest locally advanced prostate cancer. Prostate cancers detected by digital rectal examination (DRE) tend to be large, and > 50% extend through the capsule.
+
+Diagnosis of prostate cancer requires histologic confirmation, most commonly by transrectal or transperineal ultrasound–guided needle biopsy, which can be done in an office with use of local anesthesia or in an operating room under sedation. Hypoechoic areas on ultrasound are more likely to represent cancer. Occasionally, prostate cancer is diagnosed incidentally in tissue removed during surgery for benign prostatic hyperplasia (BPH). Multiparametric MRI can risk-stratify patients for the need for a biopsy and identify suspect areas that should be targeted. It is now commonly used before initial biopsy or in men who are on active surveillance.
+
+Grading and staging
+
+Grading, based on the resemblance of tumor architecture to normal glandular structure, helps define the aggressiveness of the tumor. Grading takes into account histologic heterogeneity in the tumor. The Gleason score is commonly used. The most prevalent pattern and the next most prevalent pattern are each assigned a grade of 1 to 5, and the 2 grades are added to produce a total score. Most experts consider a score ≤ 6 to be well differentiated, 7 moderately differentiated, and 8 to 10 poorly differentiated. The lower the score, the less aggressive and invasive the tumor and the better the prognosis. For localized tumors, the Gleason score helps predict the likelihood of capsular penetration, seminal vesicle invasion, and spread to lymph nodes. Gleason grades 1 and 2 have now been eliminated; as a result, the lowest score possible (3 + 3) is 6. However, a Gleason score of 6 does not sound low on a scale previously ranging from 2 to 10.
+
+The Gleason Grade Group is a newer score to help communicate this to patients, and also to simplify pathologic grading. This new scoring system was accepted by the World Health Organization (WHO) in 2016 (1):
+
+Grade Group 1 = Gleason score 6 (3+3)
+
+Grade Group 2 = Gleason score 7 (3+4)
+
+Grade Group 3 = Gleason score 7 (4+3)
+
+Grade Group 4 = Gleason score 8
+
+Grade Group 5 = Gleason score 9 and 10
+
+Gleason Grade Group, clinical stage, and PSA level together (using tables or nomograms) predict pathologic stage and prognosis better than any of them alone.
+
+Prostate cancer is staged to define extent of the tumor (see tables AJCC/TNM Staging of Prostate Cancer and TNM Definitions for Prostate Cancer ). Transrectal ultrasonography (TRUS) or MRI of the prostate may provide information for staging, particularly about capsular penetration and seminal vesicle invasion. Patients with clinical stage T1c to T2a tumors, low Gleason score (≤ 7), and PSA < 10 ng/mL (10 mcg/L) usually get no additional staging tests before proceeding to treatment. Radionuclide bone scans are rarely helpful for finding bone metastases (they are frequently abnormal because of the trauma of arthritic changes) until the PSA is > 20 ng/mL (20 mcg/L) or unless the Gleason score is high (ie, ≥ 8 or [4 +3]). CT (or MRI) of the abdomen and pelvis is commonly done to assess pelvic and retroperitoneal lymph nodes if the Gleason score is 7 to 10 and the PSA is > 10 ng/mL (10 mcg/L), or if the PSA is > 20 ng/mL (20 mcg/L) with any Gleason score.
+
+Current guidelines (1) now suggest that (PSMA)-PET/CT or PSMA-PET/MRI can be used for concurrent bone and soft tissue (full body) imaging to facilitate staging for patients with intermediate or high-risk disease, depending on availability. A multiparametric MRI may also help define the local extent of the tumor in patients with locally advanced prostate cancer (stage T3) and is preferred for pelvic nodal staging over CT scan. Suspected lymph nodes can be further evaluated by needle biopsy.
+
+Elevated serum acid phosphatase—especially the enzymatic assay—correlates well with the presence of metastases, particularly in lymph nodes. However, this enzyme may also be elevated in benign prostatic hyperplasia (BPH); it may also be slightly elevated after vigorous prostatic massage and in the presence of multiple myeloma, Gaucher disease, and hemolytic anemia. It is rarely used today to guide treatment or to follow patients after treatment, especially because its value when done as a radioimmune assay (the way it is usually done) has not been established. Reverse transcriptase–polymerase chain reaction assays for circulating prostate cancer cells are being studied as staging and prognostic tools.
+
+Table
+
+AJCC/TNM* Staging of Prostate Cancer*
+
+Table
+
+AJCC/TNM* Staging of Prostate Cancer*
+
+AJCC/TNM* Staging of Prostate Cancer*
+
+Stage
+
+Tumor
+
+Regional Lymph Nodes
+
+Distant Metastasis
+
+Prostate-Specific Antigen Level†
+
+Gleason Grade Group
+
+I
+
+cT1, cT2a, or pT2
+
+N0
+
+M0
+
+< 10
+
+1
+
+IIA
+
+cT1, cT2a or pT2
+
+N0
+
+M0
+
+≥ 10 but < 20
+
+1
+
+cT2b or cT2c
+
+N0
+
+M0
+
+< 20
+
+1
+
+IIB
+
+T1, T2
+
+N0
+
+M0
+
+< 20
+
+2
+
+IIC
+
+T1, T2
+
+N0
+
+M0
+
+< 20
+
+3 or 4
+
+IIIA
+
+T1, T2
+
+N0
+
+M0
+
+≥ 20
+
+1-4
+
+IIIB
+
+T3, T4
+
+N0
+
+M0
+
+Any PSA
+
+1-4
+
+IIIC
+
+Any T
+
+N0
+
+M0
+
+Any PSA
+
+5
+
+IVA
+
+Any T
+
+N1
+
+M0
+
+Any PSA
+
+Any grade
+
+IVB
+
+Any T
+
+Any N
+
+M1
+
+Any PSA
+
+Any grade
+
+* For AJCC/TNM definitions, see table TNM Definitions for Prostate Cancer. Data adapted from American Cancer Society, Prostate Cancer AJCC/TNM Staging System. Accessed February 3, 2025.
+
+† All PSA levels in this table represent both ng/mL and mcg/L (ie, 10 ng/mL = 10 mcg/L).
+
+AJCC = American Joint Commission on Cancer; cT = clinical estimate of extent of disease (determined by physical exam, prostate biopsy, and imaging tests); PSA= prostate-specific antigen; pT = extent of disease that is based on pathologic examination of the prostate; TNM = tumor, node, metastasis.
+
+* For AJCC/TNM definitions, see table TNM Definitions for Prostate Cancer. Data adapted from American Cancer Society, Prostate Cancer AJCC/TNM Staging System. Accessed February 3, 2025.
+
+† All PSA levels in this table represent both ng/mL and mcg/L (ie, 10 ng/mL = 10 mcg/L).
+
+AJCC = American Joint Commission on Cancer; cT = clinical estimate of extent of disease (determined by physical exam, prostate biopsy, and imaging tests); PSA= prostate-specific antigen; pT = extent of disease that is based on pathologic examination of the prostate; TNM = tumor, node, metastasis.
+
+Table
+
+TNM Definitions for Prostate Cancer*
+
+Table
+
+TNM Definitions for Prostate Cancer*
+
+TNM Definitions for Prostate Cancer*
+
+Feature
+
+Definition*
+
+TX
+
+Primary tumor not assessable
+
+T0
+
+No evidence of primary tumor
+
+T1
+
+Not palpable and not seen with imaging test such as transrectal ultrasound
+
+T2
+
+The tumor can be felt by digital rectal exam. Limited to prostate
+
+T2a
+
+Involves ≤ half of lobe
+
+T2b
+
+Involves > half of 1 lobe, but not both lobes
+
+T2c
+
+Tumor involves both lobes
+
+T3
+
+Extraprostatic extension
+
+T3a
+
+Extends through the prostatic capsule unilaterally or bilaterally; microscopic invasion of the bladder neck
+
+T3b
+
+Invades seminal vesicles
+
+T4
+
+Is fixed or invades adjacent structures other than seminal vesicles
+
+Regional lymph node metastasis
+
+NX
+
+Not assessed
+
+N0
+
+None
+
+N1
+
+Present
+
+Distant metastasis
+
+M0
+
+None
+
+M1
+
+Present
+
+M1a
+
+Nonregional lymph nodes
+
+M1b
+
+Bone(s)
+
+M1c
+
+Other site(s) with or without bone disease
+
+* Data adapted from American Cancer Society, Prostate Cancer AJCC/TNM Staging System and National Comprehensive Cancer Network Clinical Practice Guidelines in Oncology (NCCN Guidelines), Prostate Cancer. Accessed February 3, 2025. T2-T4 classified by pathologic criteria. There are no pathologic classifications of T1.
+
+PSA = prostate-specific antigen; TNM = tumor, node, metastasis.
+
+* Data adapted from American Cancer Society, Prostate Cancer AJCC/TNM Staging System and National Comprehensive Cancer Network Clinical Practice Guidelines in Oncology (NCCN Guidelines), Prostate Cancer. Accessed February 3, 2025. T2-T4 classified by pathologic criteria. There are no pathologic classifications of T1.
+
+PSA = prostate-specific antigen; TNM = tumor, node, metastasis.
+
+Risk of cancer spread can be estimated by tumor stage, Gleason score (Gleason Grade Group), and PSA level:
+
+Low risk: Stage ≤ T2a, Gleason score = 6 (Gleason Grade Group 1), and PSA level ≤ 10 ng/mL (10 mcg/L)
+
+Intermediate risk: Stage T2b-c, Gleason score = 7 (Gleason Grade Group 2-3), or PSA level ≥ 10 (10 mcg/L) and ≤ 20 ng/mL (20 mcg/L)
+
+High risk: Stage ≥ T3, Gleason score ≥ 8 (Gleason Grade Group 4-5), or PSA ≥ 20 ng/mL (20 mcg/L)
+
+Both acid phosphatase and PSA levels decrease after treatment and increase with recurrence, but PSA is the most sensitive marker for monitoring cancer progression and response to treatment and has virtually replaced acid phosphatase for this purpose.
+
+Men with newly diagnosed prostate cancer should be offered germline testing and genetic counseling if they have intraductal histology, metastatic or high-grade localized prostate cancer, a strong family history of prostate cancer, or a known family history of BRCA1/2 mutations/Lynch syndrome/hereditary breast and ovarian cancer.
+
+Diagnosis reference
+
+1. Humphrey PA, Moch H, Cubilla AL, Ulbright TM, Reuter VE. The 2016 WHO Classification of Tumours of the Urinary System and Male Genital Organs-Part B: Prostate and Bladder Tumours. Eur Urol. 2016 Jul;70(1):106-119. doi: 10.1016/j.eururo.2016.02.028
+
+Treatment of Prostate Cancer
+
+For localized cancer within the prostate, surgery, radiation therapy, focal therapy, or active surveillance
+
+For cancer outside of the prostate, palliation with hormonal therapy, radiation therapy, and/or chemotherapy
+
+Treatment is guided by prostate-specific antigen (PSA) level, grade and stage of tumor, patient age, coexisting disorders, life expectancy, and patient preferences. The goal of therapy can be
+
+Active surveillance with curative intent
+
+Local (aimed at cure)
+
+Systemic (aimed at decreasing or limiting tumor extent) and extending quantity and quality of life
+
+Many patients, regardless of age, prefer definitive therapy if cancer is life-threatening and potentially curable. However, therapy is palliative rather than definitive if cancer has spread outside the prostate because cure is unlikely. Watchful waiting can be used for men unlikely to benefit from definitive therapy (eg, because of older age or comorbidity); these patients are treated with palliative measures if symptoms develop.
+
+Active surveillance
+
+Active surveillance is appropriate for many asymptomatic patients with low-risk, or possibly even intermediate-risk, localized prostate cancer or if life-limiting disorders coexist; in these patients, risk of death due to other causes is greater than that due to prostate cancer. This approach requires periodic digital rectal examination (DRE), PSA measurement, and monitoring of symptoms. In healthy younger men with low-risk cancer, active surveillance also requires periodic repeat biopsies. The optimal interval between biopsies has not been established, but most experts agree that it should be ≥ 1 year, possibly less frequently if biopsies have been repeatedly negative. If the cancer progresses, treatment is required. About 30% of patients undergoing active surveillance eventually require therapy.
+
+Local therapies
+
+Local therapy is aimed at curing prostate cancer and may thus also be called definitive therapy. Radical prostatectomy, some forms of radiation therapy, and focal therapy are the primary options. Careful counseling concerning the risks and benefits of these treatments and considerations of patient-specific characteristics (age, health, tumor characteristics) are critical in decision-making.
+
+Radical prostatectomy
+
+Radical prostatectomy (removal of prostate with seminal vesicles and regional lymph nodes) is probably best for patients < 75 years old with a life expectancy of > 10 to 15 years and a tumor confined to the prostate. Prostatectomy is appropriate for some older men, based on life expectancy, coexisting disorders, and ability to tolerate surgery and anesthesia. Prostatectomy was historically done through an incision in the lower abdomen. Now, most prostatectomies are done via a robot-assisted laparoscopic approach that minimizes blood loss and hospital stay but has not been shown to alter morbidity or mortality. Complications of radical prostatectomy include temporary stress urinary incontinence (which is severe and potentially long-term in about 5 to 10% of men), bladder neck contracture or urethral stricture (in about 7 to 20%), erectile dysfunction (in about 30 to 100%—heavily dependent on age and preoperative function), and rectal injury (in 1 to 2%) (1). Nerve-sparing radical prostatectomy reduces the likelihood of erectile dysfunction but cannot always be done, depending on tumor stage and location.
+
+Radiation therapy
+
+Standard external beam radiation therapy usually delivers 70 grays (Gy) in 7 weeks, but this technique has been supplanted by conformal 3-dimensional radiation therapy and by intensity-modulated radiation therapy (IMRT), which safely deliver doses approaching 80 Gy to the prostate; data indicate that the rate of local control is higher, especially for high-risk patients (2). Some decrease in erectile function occurs in at least 40%. Other adverse effects include radiation proctitis, cystitis, diarrhea, fatigue, and possibly urethral strictures, particularly in patients with a prior history of transurethral resection of the prostate (1). Results with external-beam radiation therapy, radical prostatectomy, and active monitoring were shown to be comparable at a median of 10 years after treatment for localized prostate cancer, as demonstrated in the ProtecT trial (3). Newer forms of external radiation therapy such as proton therapy cost more, an expense that may not be justifiable given that their benefits in men with prostate cancer have not been clearly established. External beam radiation therapy also has a role if cancer is left after radical prostatectomy or if the PSA level begins to rise after surgery and no metastasis can be found.
+
+Recent evidence (4) also supports the use of radiation to the prostate in men with low-volume metastatic disease, often called oligometastatic disease, commonly defined as less than 3 to 5 metastatic sites. Recent advances in prostate cancer radiation therapy include the use of fiducial markers placed around the prostate to improve targeting. Hydrogel spacers can be placed by transrectal needle placement to help reduce rectal toxicity. The hydrogel spacers resorb with time. Hypofractionation is an evolving concept in radiation treatment, in which the total dose of radiation is divided into large doses and treatments are given once a day or less often. Hypofractionated radiation therapy is given over a shorter period of time (fewer days or weeks) than standard radiation therapy.
+
+Brachytherapy involves the implantation of radioactive seeds into the prostate through the perineum. In low-dose rate (LDR) brachytherapy, the radioactive seeds are usually inserted through the perineum using temporary catheters and placed directly into the prostate. These seeds emit a burst of radiation over a finite period (usually 3 to 6 months) before becoming inert. In high-dose rate (HDR) brachytherapy, iridium-192 (Ir-192) is usually used.
+
+Research protocols are examining whether high-quality implants used as monotherapy or implants plus external beam radiation therapy are superior for intermediate-risk patients. Brachytherapy also decreases erectile function, although onset may be delayed and patients may be more responsive to phosphodiesterase type 5 inhibitors than patients whose neurovascular bundles are resected or injured during surgery. Urinary frequency, urgency, and, less often, retention are common but usually subside over time. Other adverse effects include increased bowel movements; rectal urgency, bleeding, or ulceration; and prostatorectal fistulas.
+
+Focal therapy is used to treat localized low-risk or intermediate-risk prostate cancer by targeting only the area of the prostate where the tumor is located. The tumor must be confined to the prostate (usually only on one side) without evidence of spread outside the prostate or to other organs. Each type of focal therapy uses an energy source (such as heat, cold, or electric shock) to destroy tumor cells. Current modalities include
+
+HIFU (high-intensity focused ultrasound): Uses intense ultrasound energy administered transrectally to ablate prostate tissue
+
+Cryotherapy: Destroys prostate cancer cells by freezing with cryoprobes, followed by thawing
+
+Focal laser ablation (FLA): Uses heat from a laser to destroy tumor cells
+
+Irreversible electroporation (IRE): Delivers an electric shock that destroys tumor cells via electrodes placed around the tumor
+
+Transurethral ultrasound ablation of the prostate (TULSA): Uses heat from sound waves to destroy tumor cells
+
+These treatments are less well established; long-term outcomes are still being collected (5). Short and intermediate term outcomes appear comparable to definitive whole gland treatment in well selected patients.
+
+If cancer localized to the prostate is high risk, various therapies may need to be combined (eg, for high-risk prostate cancer treated with external beam radiation, addition of hormonal therapy for periods varying from 6 months to 2 to 3 years).
+
+Systemic therapies
+
+If cancer has spread beyond the prostate gland, cure is unlikely; systemic treatment aimed at decreasing or limiting tumor extent is usually given (6).
+
+Patients with a locally advanced tumor or metastases may benefit from androgen deprivation therapy (ADT) by castration, either surgically with bilateral orchiectomy or medically with either luteinizing hormone–releasing hormone (LHRH) agonists or antagonists, with or without radiation therapy. LHRH agonists include leuprolide, goserelin, triptorelin, histrelin, and buserelin, whereas LHRH antagonists include parenteral degarelix and oral relugolix. LHRH antagonists lower the testosterone level more rapidly than LHRH agonists. LHRH agonists and LHRH antagonists usually reduce serum testosterone almost as much as bilateral orchiectomy. Androgen-receptor targeted therapies (abiraterone acetate with prednisone, enzalutamide, apalutamide, darolutamide) or chemotherapy (docetaxel) can be given in combination with ADT; choice of therapy is determined by volume of metastatic disease and patient comorbidities.
+
+All androgen-deprivation treatments cause loss of libido and erectile dysfunction and may cause hot flushes. LHRH agonists may cause PSA levels to increase temporarily. Some patients benefit from adding antiandrogens (eg, flutamide, bicalutamide, nilutamide, cyproterone acetate [not available in the United States]) for total androgen blockade. Combined androgen blockade usually refers to LHRH agonists plus antiandrogens, but its benefits appear minimally better than those of an LHRH agonist (or LHRH antagonist or orchiectomy) alone. Another approach is intermittent androgen blockade, which purports to delay emergence of androgen-independent prostate cancer and helps to limit some adverse effects of androgen deprivation. Total androgen ablation is given until PSA levels are reduced (usually to undetectable levels), then stopped. Treatment is started again when PSA levels rise above a certain threshold, although the ideal threshold is not yet defined. The optimal schedules for treatment and time-off treatment have not been determined and vary widely among practitioners.
+
+Androgen deprivation may impair quality of life significantly (eg, self-image, attitude toward the cancer and its treatment, energy levels) and cause osteoporosis, anemia, and loss of muscle mass with long-term treatment. Exogenous estrogens are rarely used because they have a risk of cardiovascular and thromboembolic complications.
+
+Hormonal therapy is effective in metastatic prostate cancer for a limited amount of time. Cancer that progresses (indicated by an increasing PSA level) despite a testosterone level consistent with castration (< 50 ng/dL [1.74 nmol/L]) is classified as castrate-resistant prostate cancer. Castrate-resistant prostate cancer (CRPC) can be further classified as M0 (nonmetastatic) CRPC or M1 (metastatic) prostate cancer. An increasing PSA despite low testosterone and absence of lesions on CT or bone scan is called nonmetastatic castrate-resistant prostate cancer. Risk of metastases is high.
+
+Treatments that prolong survival in metastatic prostate cancer include (6):
+
+Docetaxel (a taxane chemotherapy drug)
+
+Sipuleucel-T (a patient-derived vaccine designed to induce immunity against prostate cancer cells)
+
+Abiraterone (which blocks androgen synthesis in the tumor as well as in the testes and adrenal glands)
+
+Enzalutamide, darolutamide, apalutamide (which block binding of androgens to their receptors)
+
+Cabazitaxel (a taxane chemotherapy agent that may have activity in tumors that have become resistant to docetaxel)
+
+Radium-223 (which emits alpha radiation, recently found to prolong survival as well as prevent complications due to bone metastases in men with CRPC)
+
+External beam radiation therapy (EBRT)
+
+PARP (poly [ADP-ribose]) inhibitors (olaparib, rucaparib), which appear active when used as monotherapy in patients with mCRPC and BRCA1/2 and other mutations. The PARP inhibitor talazoparib is available in combination with enzalutamide, whereas olaparib and niraparib are now also used in combination with abiraterone/prednisone in men with BRCA-mutated metastatic castration-resistant prostate cancer (6).
+
+Immunotherapy (pembrolizumab) in men with microinstability-high (MSI-H) or deficient DNA mismatch repair (dMMR) prostate cancer.
+
+Lutetium Lu 177 vipivotide tetraxetan, which specifically targets a molecule on the surface of prostate cancer cells and is given with a prostate-specific membrane antigen (PSMA)-positive PET/CT scan.
+
+Choice of treatment may involve many factors, and few data may be available to help predict results; thus familiarity with current clinical trials, patient education, and shared decision-making are recommended.
+
+At this time, even in patients with newly diagnosed castration-sensitive disease, it is recommended that those with good functional status be treated with triplet therapy consisting of a combination of ADT + docetaxel + abiraterone acetate or darolutamide. Alternatively, they can be treated with doublet therapy that includes ADT + abiraterone acetate, apalutamide, or enzalutamide. External beam radiation therapy is also recommended along with these drugs in men with low-volume metastatic disease burden at the time of diagnosis.
+
+As patients progress and become castration-resistant or fail initial lines of therapy, other therapies may be initiated while continuing patients on ADT. These include androgen receptor-targeted agents, chemotherapy, immunotherapy, PARP inhibitors, or targeted radionucleotide therapy. In addition, pan-cancer, tumor-agnostic treatments can be considered for patients with actionable mutations, such as the use of pembrolizumab for any patients with a solid tumor with microinstability-high (MSI-H) or deficient DNA mismatch repair (dMMR).
+
+To help treat and prevent complications due to bone metastases (eg, pathologic fractures, pain, spinal cord compression), an osteoclast inhibitor (eg, denosumab, zoledronic acid) can be used. All men on ADT should be given vitamin D and calcium supplements with the selective use of DEXA scans to detect osteoporosis or osteopenia. Weight-bearing exercise may also help maintain weight, bone density, muscle mass, and core strength. Traditional external beam radiation therapy has been used to treat individual bone metastases.
+
+Treatment references
+
+1. Penson DF, Barocas DA; the Comparative Effectiveness Analysis of Surgery and Radiation (CEASAR). Comparing the Effects of Surgery, Radiation Therapy, and Active Surveillance on Men With Localized Prostate Cancer—The CEASAR Study. Washington (DC): Patient-Centered Outcomes Research Institute (PCORI); January 2020.
+
+2. Fischer-Valuck BW, Rao YJ, Michalski JM. Intensity-modulated radiotherapy for prostate cancer. Transl Androl Urol. 2018 Jun;7(3):297-307. doi: 10.21037/tau.2017.12.16. PMID: 30050791; PMCID: PMC6043750
+
+3. Hamdy FC, Donovan JL, Lane JA, et al: 10-year outcomes after monitoring, surgery, or radiotherapy for localized prostate cancer. N Engl Med. 375(15):1415-1424, 2016. doi: 10.1056/NEJMoa1606220
+
+4. Parker CC, James ND, Brawley CD, et al: Radiotherapy to the primary tumour for newly diagnosed, metastatic prostate cancer (STAMPEDE): A randomised controlled phase 3 trial. Lancet. 392(10162):2353-2366, 2018. doi: 10.1016/S0140-6736(18)32486-3
+
+5. Lazarovich A, Viswanath V, Dahmen AS, Sidana A. A narrative clinical trials review in the realm of focal therapy for localized prostate cancer. Transl Cancer Res. 2024;13(11):6529-6539. doi:10.21037/tcr-23-2406
+
+6. Posdzich P, Darr C, Hilser T, et al: Metastatic prostate cancer—A review of current treatment options and promising new approaches. Cancers. 15(2):461, 2023. https://doi.org/10.3390/cancers15020461
+
+Prognosis for Prostate Cancer
+
+Prognosis for most patients with prostate cancer, especially when it is localized or regional, is very good. Life expectancy for older men with prostate cancer may differ little from age-matched men without prostate cancer, depending on their age and comorbidities. For many patients, long-term local control, or even cure, is possible. Potential for cure, even when cancer is clinically localized, depends on the tumor’s grade and stage. Without early treatment, patients with high-grade, poorly differentiated cancer have a poor prognosis. Undifferentiated prostate cancer, squamous cell carcinoma, and ductal transitional carcinoma respond poorly to conventional therapies. Metastatic cancer has no cure but may be brought into remission for many years using newer therapies. Median life expectancy with metastatic disease is typically 1 to 3 years, with some patients living for many years.
+
+Screening
+
+Most prostate cancers today are found by screening asymptomatic men with serum PSA levels (and sometimes DRE). Screening recommendations can vary, but screening is commonly done annually or biannually in men between 45 and 75 years old and is sometimes begun earlier for men at high risk (eg, those with a family history of prostate cancer, Black men, men with germline mutations). Screening is not usually recommended for men with a life expectancy < 10 to 15 years or men older than age 75.
+
+Abnormal findings are further investigated based on clinician and patient preferences. Multiparametric MRI can detect suspect lesions, and various urine and blood tests may help risk stratification of a patient's need for prostate biopsy. Ultimately, however, a prostate biopsy remains the only way to diagnose prostate cancer.
+
+It is still not certain whether screening decreases morbidity; decreases in mortality appear likely (1), but the number needed to screen is high. It remains unclear if any gains resulting from screening outweigh the decreases in quality of life resulting from treatment of asymptomatic cancers. Screening is recommended by some professional organizations and discouraged by others. A pooled analysis of ERSPC (European Randomized Study of Screening for Prostate Cancer) and PLCO (Prostate, Lung, Colorectal, and Ovarian) trial data suggests that screening in both trials demonstrated a reduction in prostate cancer mortality when controlling for differences in screening intensity despite the high rate of contamination in the control arm of PLCO (2, 3). As a result, in 2018, the United States Preventive Services Task Force (USPSTF) reconsidered their 2012 recommendation against screening for prostate cancer (Level D) and changed to a possible benefit (Level C) in men less than 70 years of age (4). The current USPSTF recommendation is that for men aged 55 to 69 years, the decision to undergo periodic prostate-specific antigen (PSA)–based screening for prostate cancer should be an individual one after discussing the potential benefits and harms of screening with a clinician (4).
+
+Most patients with newly diagnosed prostate cancers have a normal DRE, and serum PSA measurement is not ideal as a screening test. Although PSA is elevated in 25 to 92% of patients with prostate cancer (depending on tumor volume), it also is moderately elevated in 30 to 50% of patients with benign prostatic hyperplasia (depending on prostate size and degree of obstruction), in some smokers, and for several weeks after prostatitis or prostate manipulation (catheter, cystoscopy, prostate biopsy). Rarely, other activities such as sexual activity or extreme bicycle riding falsely elevate PSA.
+
+A serum PSA level of ≥ 4 ng/mL (4 micrograms [mcg]/L) is often considered an indication for biopsy in men > 45 or 50 years old. Although very high levels are significant (suggesting extracapsular extension of the tumor or metastases) and likelihood of cancer increases with increasing PSA levels, there is no cut-off below which there is no risk.
+
+In asymptomatic patients, the positive predictive value for cancer is 67% for PSA > 10 ng/mL (10 mcg/L) and 25% for PSA 4 to 10 ng/mL (4 to 10 mcg/L); recent evidence indicates a 15% prevalence of cancer in men ≥ 55 years old with PSA < 4 ng/mL (4 mcg/L) and a 10% incidence with PSA between 0.6 and 1.0 ng/mL (0.6 and 1.0 mcg/L) (5). However, cancer present in men with lower levels tends to be smaller and of lower grade, although high-grade cancer (Gleason score 7 to 10) can be present at any level of PSA; perhaps 15% of cancers manifesting with PSA < 4 ng/mL (4 mcg/L) are high grade. Although it appears that a cut-off of 4 ng/mL (4 mcg/L) will miss some potentially serious cancers, the cost and morbidity resulting from the increased number of biopsies necessary to find them are unclear.
+
+The decision whether to biopsy may be helped by other PSA-related factors, even in the absence of a family history of prostate cancer. For example, the rate of change in PSA (PSA velocity) should be < 0.75 ng/mL/yr (0.75 mcg/L/yr) and lower in younger patients. Biopsy is usually recommended for PSA velocities > 0.75 ng/mL/yr (0.75 mcg/L/yr). Similarly, PSA density (PSA relative to prostate volume) can help guide need for biopsy; biopsy should be considered if values are ≥ 0.15 (or sometimes ≥ 0.10 ng/mL).
+
+Assays that determine the free-to-total PSA ratio and complex PSA are more tumor specific than standard total PSA measurements and may reduce the frequency of biopsies in patients without cancer. Prostate cancer is associated with less free PSA. No standard cut-off has been established, but generally, levels < 10 to 20% warrant biopsy. Other isoforms of PSA and new markers for prostate cancer are being studied (5). None of these other uses of PSA answers all of the concerns about possibly triggering too many biopsies. Many new tests (eg, urinary prostate cancer antigen 3 [PCA-3], Prostate Health Index, 4Kscore, urinary SelectMDX, and others) are available commercially and may be useful in screening decisions.
+
+Clinicians should discuss the risks and benefits of PSA testing with patients. Some patients prefer to eradicate cancer at all costs—no matter how low the potential for progression and possible metastasis—and may prefer annual PSA testing. Others may value quality of life highly and can accept some uncertainty; they may prefer less frequent (or no) PSA testing.
+
+Screening references
+
+1. de Vos II, Meertens A, Hogenhout R, et al: A detailed evaluation of the effect of prostate-specific antigen-based screening on morbidity and mortality of prostate cancer: 21-year follow-up results of the Rotterdam section of the European Randomised Study of Screening for Prostate Cancer. Eur Urol. 84(4):426-434, 2023. doi: 10.1016/j.eururo.2023.03.016
+
+2. European Randomized Study of Screening for Prostate Cancer: 16-yr followup data. Accessed February 3, 2025.
+
+3. Shoag JE, Mittal S, Hu JC: Reevaluating PSA testing rates in the PLCO trial. N Engl J Med. 374(18):1795-1796, 2016. doi: 10.1056/NEJMc1515131
+
+4. U.S. Preventive Services Task Force: Prostate cancer: Screening. Final recommendation statement. Accessed February 3, 2025.
+
+5. National Comprehensive Cancer Network® (NCCN). Clinical Practice Guidelines in Oncology. Prostate Cancer. Version 1.2025—December 2, 2024. Accessed February 3, 2025.
+
+Prevention of Prostate Cancer
+
+No measures reliably prevent prostate cancer. However, suggestions that following a healthy lifestyle—which includes exercising, eating a well-balanced diet (limiting red meat and saturated fats and eating abundant green leafy vegetables), limiting alcohol intake, and not smoking—is considered a reasonable approach.
+
+Key Points
+
+Prostate cancer develops very commonly with aging but is not always clinically important.
+
+Symptoms develop only after the cancer has enlarged enough to be more difficult to cure.
+
+Diagnose prostate cancer by transrectal or transperineal ultrasound-guided needle biopsy.
+
+For localized prostate cancer, consider local, curative treatment (eg, prostatectomy, radiation therapy, focal therapy) and active surveillance.
+
+For cancer that has spread beyond the prostate, consider systemic treatments (eg, various hormonal therapies, sipuleucel-T, taxane chemotherapy) with or without radiation therapy.
+
+Complications due to bone metastases are common and consequential; consider treatment with radium-223 and osteoclast inhibitors.
+
+Discuss advantages and disadvantages of screening in men > age 50 with life expectancy > 10 or 15 years.

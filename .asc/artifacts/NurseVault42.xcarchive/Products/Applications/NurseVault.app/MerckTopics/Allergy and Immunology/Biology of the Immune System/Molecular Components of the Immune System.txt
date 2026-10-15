@@ -1,0 +1,902 @@
+=== Molecular Components of the Immune System (Merck Manual Professional) ===
+Section: Allergy and Immunology > Biology of the Immune System
+Source: https://www.merckmanuals.com/professional/immunology-allergic-disorders/biology-of-the-immune-system/molecular-components-of-the-immune-system
+Retrieved: 2026-09-25
+
+The immune system consists of cellular components and molecular components that work together to destroy antigens (Ags). (See also Overview of the Immune System.)
+
+Acute Phase Reactants
+
+Acute phase reactants are plasma proteins whose levels change in response to the elevated circulating levels of interleukin (IL)-1 and IL-6 that accompany infection or tissue damage (1, 2).
+
+Positive acute phase reactants are those whose levels dramatically increase following inflammation.
+
+Negative acute phase reactants are those whose levels decrease following inflammation.
+
+Most dramatically increased are:
+
+C-reactive protein (CRP)
+
+Serum amyloid A
+
+Other acute phase reactants include:
+
+Mannose-binding lectin
+
+Serum amyloid P component
+
+Alpha-1 acid glycoprotein
+
+Fibrinogen
+
+Ferritin
+
+Negative acute phase reactants include:
+
+Albumin
+
+Vitamin D binding protein
+
+Transferrin
+
+Transthyretin (prealbumin)
+
+Antithrombin
+
+Positive acute phase reactants such as C-reactive protein, mannose-binding lectin, and serum amyloid P component activate complement and act as opsonins (substances that bind to microorganisms rendering them susceptible to phagocytosis). Serum amyloid A and alpha-1 acid glycoprotein are transport proteins, and fibrinogen is a coagulation factor. Elevated C-reactive protein levels are a nonspecific indicator of infection or inflammation. Increased fibrinogen levels are the main reason the erythrocyte sedimentation rate (ESR) is elevated in acute inflammation (3).
+
+Negative acute phase reactants include albumin, vitamin D-binding protein, transferrin, transthyretin (prealbumin), antithrombin, alpha-fetoprotein, thyroxine-binding globulin, insulin-like growth factor I, and factor XII (1). All of these proteins have their own primary functions. Decreases in the circulating levels of these proteins during acute inflammation may reflect hepatic reprioritization of protein synthesis toward positive acute-phase reactants in addition to other mechanisms (eg, increased capillary permeability, increased tissue catabolism).
+
+Many acute phase reactants are synthesized by the liver. Collectively, they may help limit tissue injury, enhance host resistance to infection, and promote tissue repair and resolution of inflammation. The acute phase reaction may also be activated by cytokines released from visceral adipocytes, which may in part explain the link between obesity, inflammation, and cardiovascular disease.
+
+Acute phase reactants references
+
+1. Gabay C, Kushner I. Acute-phase proteins and other systemic responses to inflammation. N Engl J Med. 1999;340(6):448-454. doi:10.1056/NEJM199902113400607
+
+2. Mantovani A, Garlanda C. Humoral Innate Immunity and Acute-Phase Proteins. N Engl J Med. 2023;388(5):439-452. doi:10.1056/NEJMra2206346
+
+3. Medzhitov R. The spectrum of inflammatory responses. Science. 2021;374(6571):1070-1075. doi:10.1126/science.abi5200
+
+Antibodies
+
+Antibodies, also called immunoglobulins (Ig), act as the antigen receptor on the surface of B cells. In response to antigen, antibodies are subsequently secreted by plasma cells. Antibodies recognize specific configurations on the surfaces of antigens (eg, proteins, polysaccharides, nucleic acids). These configurations are called epitopes, or antigenic determinants. Antibodies and antigens fit tightly together because their shape and other surface properties (eg, charge) are complementary. The same antibody molecule can cross-react with related antigens if their epitopes are similar enough to those of the original antigen. The main classes (also called isotypes) of immunoglobulin are IgM, IgD, IgG, IgA, and IgE; each serves distinct immunologic functions.
+
+Antibody structure
+
+Antibodies consist of 4 polypeptide chains (2 identical heavy chains and 2 identical light chains) joined by disulfide bonds to produce a Y configuration (see figure B-cell Receptor). The heavy and light chains are divided into a variable (V) region and a constant (C) region.
+
+B-cell Receptor
+
+The B-cell receptor consists of an Ig molecule anchored to the cell’s surface. CH = heavy chain constant region; CL = light chain constant region; Fab = antigen-binding fragment; Fc = crystallizable fragment; Ig = immunoglobulin; L-kappa (κ) or lambda (λ) = 2 types of light chains; VH = heavy chain variable region; VL = light chain variable region.
+
+V regions are located at the amino-terminal ends of the Y arms; they are called variable because the amino acids they contain are different in different antibodies. Within the V regions, hypervariable regions determine the specificity of the immunoglobulin (Ig); there are 3 such regions in each heavy and light chain (see B-cell receptor). The actual parts of the hypervariable regions that contact the antigen are referred to as complementarity-determining regions. Despite being part of an antibody, the hypervariable regions can also function as antigens (idiotypic determinants) themselves, to which certain natural (anti-idiotype) antibodies can bind; this binding may help regulate B-cell responses.
+
+The C region of the heavy chains contains a relatively constant sequence of amino acids (isotype) that is distinctive for each Ig class. Each B cell can change the isotype it produces and thus switch the class of Ig it produces. Because the Ig retains the variable part of the heavy chain and the entire light chain, if switching to another isotype occurs (eg, IgM to IgG), it retains its antigenic specificity.
+
+The amino-terminal (variable) end of the antibody binds to antigen to form an antibody-antigen complex. The structure of the Ig may broadly be divided into two portions:
+
+The antigen-binding (Fab) portion of Ig consists of a light chain and part of a heavy chain. It contains the V region of the Ig molecule which includes the binding site for antigenic epitopes.
+
+The crystallizable fragment (Fc) portion of Ig contains most of the C region of the heavy chains. In the B cell receptor it includes the transmembrane region that anchors the Ig into the cell surface membrane of the B cell. When Ig is subsequently released as a soluble/secreted form from plasma cells the Fc portion can bind to Fc receptors on the surface of cells and is also responsible for complement activation.
+
+Antibody classes
+
+Antibodies are divided into 5 classes:
+
+IgM
+
+IgG
+
+IgA
+
+IgD
+
+IgE
+
+The classes are defined by the type of heavy chain they contain:
+
+Mu (μ) for IgM
+
+Gamma (γ) for IgG
+
+Alpha (α) for IgA
+
+Epsilon (ε) for IgE
+
+Delta (δ) for IgD
+
+There are also 2 types of light chains:
+
+Kappa (κ)
+
+Lambda (λ)
+
+Each of the 5 Ig classes can bear either kappa or lambda light chains.
+
+IgM is the first antibody formed after exposure to new antigen. It has 5 Y-shaped molecules (10 heavy chains and 10 light chains), linked by a single joining (J) chain (1). IgM circulates primarily in the intravascular space; it complexes with and agglutinates antigens and can activate complement, thereby facilitating phagocytosis. Isohemagglutinins (ie, Igs that cause agglutination of red blood cells from other individuals of the same species) are predominantly IgM. Monomeric IgM acts as a surface antigen receptor on B cells. Patients with hyper-IgM syndrome have a defect in the genes involved in antibody class switching (eg, genes that encode CD40, CD154 [also known as CD40L], AID [activation-induced cytidine deaminase], UNG [uracil-DNA-glycosylase], or NEMO [nuclear factor–kappa-B essential modulator]); therefore, IgA, IgG, and IgE levels are low or absent, and levels of circulating IgM are often high.
+
+IgG is the most prevalent Ig isotype in serum and is present in intravascular and extravascular spaces (2). It coats antigen to activate complement and facilitate phagocytosis by neutrophils and macrophages. IgG is the primary circulating Ig produced after re-exposure to antigen (secondary immune response) and is the predominant isotype contained in commercial gamma-globulin products. IgG protects against bacteria, viruses, and toxins. It is the only Ig isotype that crosses the placenta; therefore, this class of antibody is important for protecting neonates. Newborns have a specialized receptor called FcRn that binds to maternally derived IgG; such binding prevents catabolism of IgG and contributes to immunity before infants are able to synthesize their own IgG. Pathogenic IgG antibodies (eg, anti-Rh0[D] antibodies, anti-SSA antibodies [anti–Sjögren-syndrome A-related antigen], and stimulatory anti-thyroid-stimulating hormone receptor autoantibodies), if present in the mother, can potentially cause significant disease in the fetus.
+
+There are 4 subclasses of IgG: IgG1, IgG2, IgG3, and IgG4. They are numbered in descending order of serum concentration. IgG subclasses differ functionally mainly in their ability to activate complement; IgG1 and IgG3 are most efficient, IgG2 is less efficient, and IgG4 is inefficient. IgG1 and IgG3 are efficient mediators of antibody-dependent cellular cytotoxicity; IgG4 and IgG2 are less so. IgG4 is primarily implicated in immune blockade that prevents overactivity of the immune system. IgG4-generating cells increase in IgG4 related disease.
+
+IgA occurs at mucosal surfaces, in serum, and in secretions (saliva; tears; respiratory, genitourinary, and gastrointestinal tract secretions; colostrum), where it provides an early antibacterial and antiviral defense (3). J chain links IgA into a dimer to form secretory IgA. Secretory IgA is synthesized by plasma cells in the subepithelial regions of the gastrointestinal and respiratory tracts. Selective IgA deficiency is relatively common but often has little clinical impact because there is cross-functionality with other classes of antibody.
+
+IgD is coexpressed with IgM on the surface of naive B cells where it may play a role in the regulation of tolerogenic and protective B cell responses (4). Serum IgD levels are very low, and any unique function of circulating IgD is largely unknown, although there is some evidence for an immunoregulatory role on Th2 responses (5) (see table Functions of T Cells) and for an involvement in maintaining mucosal homeostasis (4). There are several rare hyper-IgD related periodic fever syndromes.
+
+IgE is present in low levels in serum and in respiratory and gastrointestinal mucous secretions (6). IgE binds with a strong affinity to receptors present in high levels on mast cells and basophils and to a lesser extent on several other hematopoietic cells, including dendritic cells. If antigen bridges 2 IgE molecules bound to the mast cell or basophil surface, the cells degranulate, releasing chemical mediators that cause an inflammatory response. IgE levels are elevated in atopic disorders (eg, allergic or extrinsic asthma, hay fever, atopic dermatitis) and parasitic infections.
+
+Antibodies references
+
+1. Keyt BA, Baliga R, Sinclair AM, Carroll SF, Peterson MS. Structure, Function, and Therapeutic Use of IgM Antibodies. Antibodies (Basel). 2020;9(4):53. doi:10.3390/antib9040053
+
+2. Vidarsson G, Dekkers G, Rispens T. IgG subclasses and allotypes: from structure to effector functions. Front Immunol. 2014;5:520. doi:10.3389/fimmu.2014.00520
+
+3. Chen K, Magri G, Grasset EK, Cerutti A. Rethinking mucosal antibody responses: IgM, IgG and IgD join IgA. Nat Rev Immunol. 2020;20(7):427-441. doi:10.1038/s41577-019-0261-1
+
+4. Gutzeit C, Chen K, Cerutti A. The enigmatic function of IgD: some answers at last. Eur J Immunol. 2018;48(7):1101-1113. doi:10.1002/eji.201646547
+
+5. Shan M, Carrillo J, Yeste A, et al. Secreted IgD Amplifies Humoral T Helper 2 Cell Responses by Binding Basophils via Galectin-9 and CD44. Immunity. 2018;49(4):709-724.e8. doi:10.1016/j.immuni.2018.08.013
+
+6. McDonnell JM, Dhaliwal B, Sutton BJ, Gould HJ. IgE, IgE Receptors and Anti-IgE Biologics: Protein Structures and Mechanisms of Action. Annu Rev Immunol. 2023;41:255-275. doi:10.1146/annurev-immunol-061020-053712
+
+Cytokines
+
+Cytokines are polypeptides secreted by immune and other cells when the cell interacts with a specific antigen, with pathogen-associated molecules such as endotoxin, or with other cytokines. Main categories include:
+
+Chemokines
+
+Colony-stimulating factors (CSFs)
+
+Interferons (IFNs)
+
+Interleukins (ILs)
+
+Transforming growth factors (TGFs)
+
+Tumor necrosis factors (TNFs)
+
+Although lymphocyte interaction with a specific antigen can trigger cytokine secretion, cytokines themselves are not antigen-specific; thus, they bridge innate and acquired immunity and generally have the potential to influence the magnitude of inflammatory or immune responses (1). They act sequentially, synergistically, or antagonistically. They may act in a manner that is autocrine (ie, signaling to the cell producing the cytokine) or paracrine (ie, signaling to non-self cells in the vicinity).
+
+Excessive production of cytokines can sometimes occur, for example in response to an infection as in sepsis or to chimeric antigen receptor (CAR) T-cell therapy. In some circumstances, this overproduction can constitute a life-threatening cytokine storm that involves a greatly exaggerated immune response that can lead to multiorgan failure if unchecked (2).
+
+Cytokines transmit their signals by binding to surface receptors on target cells, which can then trigger downstream conformational changes in the receptor and intracellular signaling cascades (3).
+
+For example, the IL-2 receptor consists of 3 chains: alpha (α), beta (β), and gamma (γ). Interleukin-2 receptor activation triggers conformational changes in the receptor (that bring the beta and gamma chains closer) and downstream intracellular Janus Kinase (JAK) and signal transducer and activator of transcription (STAT) signaling (4). This cascade of events promotes T cell proliferation, differentiation, and survival.
+
+The receptor’s affinity for IL-2 is:
+
+High if all 3 chains are expressed
+
+Intermediate if only the beta and gamma chains are expressed
+
+Low if only the alpha chain is expressed
+
+Mutations or deletion of the gamma chain of the IL-2 receptor gene is the basis for X-linked severe combined immunodeficiency.
+
+Chemokines
+
+Chemokines are a subtype of cytokine that induce chemotaxis and migration of leukocytes. There are more than 40 different chemokines comprising 4 subsets (C, CC, CXC, CX3C), based on the number and spacing of their amino terminal cysteine residues (5). Chemokine receptors are found on many different cells. CCR5 (on memory T cells, monocytes/macrophages, and dendritic cells) and CXCR4 (on resting T cells) act as co-receptors for entry of HIV into cells.
+
+CXCR4 antagonists may have utility in combination therapies with checkpoint inhibitors for pancreatic ductal adenocarcinoma (6).
+
+Colony-stimulating factors
+
+Colony-stimulating factors (CSFs) are a family of glycoproteins that regulate the production, maturation, and function of granulocytes and macrophages from bone marrow progenitor cells. The family consists of three main groups: granulocyte-CSF (G-CSF), granulocyte-macrophage-CSF (GM-CSF), macrophage-CSF (M-CSF) (7). Some interleukins (eg, IL-3, sometimes called multi-CSF) can also stimulate the expansion and maturation of primitive hematopoietic progenitor cells.
+
+Granulocyte-colony stimulating factor (G-CSF) is produced by endothelial cells and fibroblasts.
+
+The main effect of G-CSF is:
+
+Stimulation of growth of neutrophil precursors
+
+Clinical uses of G-CSF include:
+
+Reversal of neutropenia after chemotherapy, radiation therapy, or both
+
+Stem cell mobilization for autologous transplantation in multiple myeloma and non-Hodgkin's lymphoma
+
+Granulocyte-macrophage colony stimulating factor (GM-CSF) is produced by endothelial cells, fibroblasts, macrophages, mast cells, and T helper (Th) cells.
+
+The main effects of GM-CSF are:
+
+Stimulation of growth of monocyte, neutrophil, eosinophil, and basophil precursors
+
+Activation of macrophages
+
+Promotion of dendritic cell maturation (particularly monocyte-derived dendritic cells) (8)
+
+Clinical uses of GM-CSF include:
+
+Reversal of neutropenia after chemotherapy, radiation therapy, or both
+
+The development of autoantibodies against GM-CSF can result in autoimmune pulmonary alveolar proteinosis.
+
+Macrophage colony stimulating factor (M-CSF) is produced by endothelial cells, epithelial cells, and fibroblasts.
+
+The main effect of M-CSF is:
+
+Stimulation of growth of monocyte precursors
+
+Promotion of osteoclast development (9)
+
+Clinical uses of M-CSF include:
+
+Therapeutic potential for stimulating tissue repair
+
+Interferons (IFNs)
+
+Interferons are a family of proteins that have antiviral activity and also act as immune modulators. Evidence for excess interferon activity (particularly IFN-alpha) is a feature of patients with systemic lupus erythematosus (10). Interferon-based therapies and their antagonists have several clinical uses.
+
+IFN-alpha is produced by most cell types, including epithelial cells, fibroblasts, and leukocytes. Plasmacytoid dendritic cells are the primary producers of IFN-alpha. For example, the treatment of autoimmune conditions such as systemic lupus erythematosus may involve blocking interferons or their receptor (eg, anifrolumab).
+
+The main effects of IFN-alpha are:
+
+Inhibition of viral replication
+
+Augmentation of class I major histocompatibility complex (MHC) expression
+
+Clinical uses of IFN-alpha include:
+
+Treatment of chronic hepatitis B, advanced HIV-related Kaposi sarcoma, condylomata acuminata, hairy cell leukemia, chronic myeloid leukemia, follicular lymphoma, and metastatic melanoma
+
+Treatment of chronic hepatitis C in settings where direct-acting antivirals (eg, glecaprevir/pibrentasvir) are unavailable
+
+IFN-beta is produced by most cell types, including epithelial cells, fibroblasts, and leukocytes.
+
+The main effects of IFN-beta are:
+
+Inhibition of viral replication
+
+Augmentation of class I MHC expression
+
+Clinical uses of IFN-beta include:
+
+Reduction of the number of exacerbations in relapsing multiple sclerosis
+
+IFN-gamma is produced by natural killer (NK) cells, cytotoxic type 1 (Tc1) cells, and T helper type 1 (Th1) cells.
+
+The main effects of IFN-gamma are:
+
+Inhibition of viral replication
+
+Augmentation of classes I and II MHC and Fc receptor expression
+
+Activation of macrophages and NK cells
+
+Antagonism of several actions of IL-4
+
+Inhibition of Th2 cell proliferation
+
+Clinical uses of IFN-gamma include:
+
+Control of infection in chronic granulomatous disease
+
+Delay of progression in severe malignant osteopetrosis
+
+IFN-lambda is produced by epithelial cells and leukocytes.
+
+The main effects of IFN-lambda are:
+
+Inhibition of viral replication
+
+Pro-inflammatory or anti-inflammatory activity (as regulated by the prevailing cytokine milieu)
+
+Clinical uses of IFN-lambda include:
+
+Potential for intervention in autoimmune disease (11)
+
+Interleukins (ILs)
+
+Interleukins (IL-1 to IL-41) are collectively produced by a wide variety of cells and have multiple effects on cell development and the regulation of immune responses. Interleukins that have been particularly well characterized and investigated for clinical relevance include:
+
+IL-1 (alpha and beta) is produced by B cells, dendritic cells, endothelium, macrophages, monocytes, and natural killer (NK) cells (12). IL-1 alpha is constitutively present in nearly all cell types and is released upon necrotic cell death as a damage-associated molecular pattern (DAMP, also called an alarmin) (13). IL-1 beta is primarily produced by macrophages, monocytes, and dendritic cells after activation of the inflammasome (large protein complexes of the innate immune system that act as sentinels, triggering rapid inflammation and cell death) (14).
+
+The main effects of IL-1 are:
+
+Costimulation of T-cell activation by enhancing production of cytokines (eg, IL-2 and its receptor)
+
+Enhancement of B-cell proliferation and maturation
+
+Enhancement of NK-cell cytotoxicity
+
+Induction of IL-1 (by auto-upregulation), IL-6, IL-8, TNF, GM-CSF, and prostaglandin E2 production by macrophages
+
+Proinflammatory activity by inducing chemokines, intercellular adhesion molecule 1 (ICAM-1), and vascular cell adhesion molecule 1 (VCAM-1) on endothelium
+
+Induction of sleep, anorexia, release of tissue factor, acute phase reactants, and bone resorption by osteoclasts
+
+Endogenous pyrogenic activity
+
+The clinical relevance of IL-1 includes its therapeutic role in the immunologic mediation of several febrile and inflammatory disorders (15). For example, IL-1 antagonists include rilonacept (soluble decoy receptor and IL-trap that binds both IL-1 alpha and IL-1 beta), anakinra (IL-1 receptor antagonist), and canakinumab (IL-1 beta monoclonal antibody). Rilonacept functions as a dimeric protein (comprised of IL-1 receptor component and IL-1 receptor accessory protein) fused to the Fc region of IgG1.
+
+IL-1 trap that binds both IL-1 alpha and IL-1 beta: Treatment of hereditary periodic fever syndromes (eg, cryopyrin-associated periodic syndromes [CAPS], familial Mediterranean fever [FMF]), deficiency of IL-1 receptor antagonist (DIRA), and recurrent pericarditis (16)
+
+IL-1 receptor antagonist (IL-1RA): Treatment of adults with moderate to severe rheumatoid arthritis (17), patients with neonatal-onset multisystem inflammatory disease (NOMID) (18), deficiency of IL-1 receptor antagonist (DIRA), gout, and calcium pyrophosphate deposition disease (pseudogout)
+
+Anti–IL-1 beta monoclonal antibody (mAb): Treatment of hereditary periodic fever syndromes (eg, CAPS, FMF), systemic juvenile idiopathic arthritis, acute gout, calcium pyrophosphate deposition disease (pseudogout), and Still disease (19)
+
+IL-2 is produced by activated CD4+ T cells (particularly Th1, but also Th2 and Th17 subsets) and CD8+ T cells, following antigenic stimulation (20). IL-2 agonists include aldesleukin and denileukin diftitox. Aldesleukin is no longer preferred for use as monotherapy, except in selected settings because of the advent of immune checkpoint inhibitors (21). Basiliximab (chimeric monoclonal antibody) and daclizumab (humanized monoclonal antibody) are IL-2 receptor antagonists.
+
+The main effects of IL-2 are:
+
+Induction of activated T-cell and B-cell proliferation
+
+Enhancement of NK-cell cytotoxicity and killing of tumor cells and bacteria by monocytes and macrophages
+
+Development, maintenance, and function of regulatory T cells (Treg)
+
+The clinical relevance of IL-2 includes:
+
+For IL-2 treatment of metastatic renal cell carcinoma and metastatic melanoma (22)
+
+ForIL-2 fused to diphtheria toxin, treatment of CD25+ cutaneous T-cell lymphoma (23)
+
+For anti-IL-2 receptor mAb, help with prevention of rejection after solid organ transplants (eg, acute kidney rejection) (24)
+
+IL-3 (also known as multi-CSF) is produced by T cells and mast cells.
+
+The main effects of IL-3 are:
+
+Stimulation of growth and differentiation of hematopoietic precursors
+
+Stimulation of eosinophil, basophil, and mast cell growth
+
+Clinical relevance of IL-3 includes:
+
+Targeting of IL-3 receptor alpha chain with monoclonal antibodies or chimeric antigen receptor (CAR) T cells, which may be of benefit in patients with certain disorders, often hematogenous cancers such as relapsed refractory acute myeloid leukemia (25), as well as blastic plasmacytoid dendritic cell neoplasm (BPDCN) (26)
+
+IL-4 is produced by mast cells, Th2 cells, NK cells, natural killer T (NKT) cells, gamma-delta T cells, and Tc2 cells. As a central driver of Type 2 (also called T2 high) inflammation, IL-4 is an important therapeutic target via the common IL-4 receptor alpha chain (CD124) shared by IL-4 and IL-13 (27). It is the primary cytokine involved in the production of IgE.
+
+The main effects of IL-4 are:
+
+Induction of Th2 cells via a positive feedback loop
+
+Stimulation of activated B-cell, T-cell, and mast cell proliferation
+
+Upregulation of class II MHC molecules on B cells and on macrophages and CD23 on B cells
+
+Downregulation of IL-12 production, thereby inhibiting Th1 cell-differentiation
+
+Augmentation of macrophage phagocytosis
+
+Induction of isotype switch to IgG1 and IgE
+
+Clinical relevance of IL-4 includes:
+
+Involvement of IL-4 (with IL-13) in the production of IgE in atopic allergy
+
+For anti-IL-4 receptor mAb, treatment of patients with moderate to severe atopic dermatitis (28), allergic asthma, chronic rhinosinusitis with nasal polyps, eosinophilic esophagitis, prurigo nodularis, chronic obstructive pulmonary disease (COPD), chronic spontaneous urticaria, and bullous pemphigoid
+
+IL-5 is produced by mast cells and Th2 cells. Its main function is to promote Type 2 (T2 high) inflammation via regulation of eosinophil production, maturation, survival, and trafficking into tissues (29). IL-5 is one of the primary cytokines implicated in allergic inflammatory disease and parasitic infestations.
+
+The main effects of IL-5 are:
+
+Induction of eosinophil and activated B-cell proliferation
+
+Induction of switch to IgA
+
+Clinical relevance of IL-5 includes:
+
+For anti–IL-5 mAb, treatment of patients with severe eosinophilic asthma, eosinophilic granulomatosis with polyangiitis (EGPA), chronic rhinosinusitis with nasal polyps, hypereosinophilic syndrome, and eosinophilic chronic obstructive pulmonary disease (COPD) (28)
+
+For anti-IL-5 receptor mAb, treatment of patients with severe eosinophilic asthma (28) and eosinophilic granulomatosis with polyangiitis (EGPA)
+
+IL-6 is produced by dendritic cells, fibroblasts, macrophages, monocytes, and Th2 cells.
+
+The main effects of IL-6 are:
+
+Induction of differentiation of B cells into plasma cells
+
+Differentiation of myeloid stem cells
+
+Primary inducer of acute phase reactant production
+
+Enhancement of T-cell proliferation
+
+Induction of Tc-cell differentiation
+
+Pyrogenic activity (ie, inducing fever response)
+
+Clinical relevance of IL-6 includes:
+
+For anti–IL-6 mAb, treatment of multicentric Castleman disease in patients who are negative for HIV and human herpesvirus 8 (HHV-8) (30)
+
+For anti–IL-6 receptor mAb, treatment of rheumatoid arthritis when the response to TNF-antagonists is inadequate, polymyalgia rheumatica, and juvenile idiopathic arthritis (31), systemic sclerosis with early interstitial lung disease (SSc-ILD), giant cell arteritis, COVID-19 with hypoxia and systemic inflammation (32), and in combination with dexamethasone for severe cytokine release syndrome following CAR T cell treatment (31)
+
+IL-7 is produced by bone marrow and thymus stromal cells. It is mainly involved in promoting T-cell proliferation and survival; genetic mutations in the receptor for IL-7 account for approximately 10% of severe combined immunodeficiency (SCID) syndromes, which are characterized by a complete lack of T cells (33).
+
+The main effects of IL-7 are:
+
+Induction of differentiation of lymphoid stem cells into T-cell and B-cell precursors
+
+Activation of mature T cells
+
+Rearrangement of immunoglobulin genes and T-cell receptor genes in precursor B and T cells (34)
+
+Clinical relevance of IL-7 includes (33):
+
+Potential immune system stimulation in the treatment of viral infections (eg, HIV, COVID-19)
+
+Experimental use in cancer, particularly in combination with other immune modifiers such as immune checkpoint inhibitors or CAR T-cell therapy (35)
+
+Lymphopenic sepsis (36)
+
+IL-8 (a chemokine) is produced by endothelial cells, macrophages, and monocytes.
+
+The main effect of IL-8 is:
+
+Mediation of chemotaxis and activation of neutrophils (eg, degranulation, respiratory burst, neutrophil extracellular trap [NET] formation)
+
+Promoting the pro-inflammatory actions of other phagocytic cells (eg, monocytes, macrophages) (37)
+
+Clinical relevance of IL-8 includes:
+
+For IL-8 antagonists, potential for the treatment of chronic inflammatory disorders (38)
+
+IL-9 is produced by Th cells.
+
+The main effects of IL-9 are:
+
+Induction of thymocyte proliferation
+
+Enhancement of mast cell growth
+
+Synergistic action with IL-4 to induce switch to IgG1 and IgE
+
+Promoting airway hyperresponsiveness, eosinophilia, and mucus production (39)
+
+Clinical trials of anti-IL-9 mAb in asthma have generally failed to demonstrate efficacy (40).
+
+IL-10 is produced by B cells, macrophages, monocytes, Tc cells, Th2 cells, and regulatory T cells.
+
+The main effects of IL-10 are:
+
+Inhibition of IL-2 secretion by Th1 cells
+
+Downregulation of production of class II MHC molecules and cytokines (eg, IL-12) by monocytes, macrophages, and dendritic cells, thereby inhibiting Th1-cell differentiation
+
+Inhibition of T-cell proliferation
+
+Enhancement of B-cell differentiation
+
+Clinical relevance of IL-10 includes:
+
+Possible suppression of pathogenic immune response in allergy and autoimmune disorders (41)
+
+IL-11 is produced by bone marrow stromal cells.
+
+The main effects of IL-11 are:
+
+Promotion of pro-B cell and megakaryocyte differentiation
+
+Induction of acute phase reactants
+
+Clinical relevance of IL-11 includes:
+
+Prevention of thrombocytopenia after myelosuppressive chemotherapy (42)
+
+IL-12 is produced by B cells, dendritic cells, macrophages, and monocytes.
+
+The main effects of IL-12 are:
+
+A critical role in Th1 differentiation
+
+Induction of proliferation of Th1 cells, CD8 T cells, gamma-delta T cells, and NK cells and their production of IFN-gamma
+
+Enhancement of NK and CD8 T-cell cytotoxicity
+
+Clinical relevance of IL-12 includes:
+
+For anti–IL-12 mAb, treatment of plaque psoriasis, psoriatic arthritis, Crohn disease, and ulcerative colitis (43, 44)
+
+IL-13 is produced by mast cells and Th2 cells. As a central driver of Type 2 (also called T2 high) inflammation, IL-13, along with IL-4, is an important therapeutic target via the common IL-4 receptor alpha chain (CD124) shared by IL-4 and IL-13 (27). IL-13 specifically upregulates skin inflammation and is particularly dysregulated in atopic dermatitis.
+
+The main effects of IL-13 are:
+
+Inhibition of activation and cytokine secretion by macrophages
+
+Coactivation of B-cell proliferation
+
+Upregulation of class II MHC molecules and CD23 on B cells and monocytes
+
+Induction of switch to IgG1 and IgE
+
+Induction of vascular cell adhesion molecule 1 (VCAM-1) on endothelium
+
+Clinical relevance of IL-13 includes:
+
+Involvement of IL-13 (with IL-4) in the production of IgE in allergic disease (45)
+
+For anti-IL-13 mAb, treatment of atopic dermatitis (46)
+
+IL-14 is produced by T cells, dendritic cells, and macrophages.
+
+The main effects of IL-14 are:
+
+Stimulation of B cell activation and proliferation
+
+Involvement of regulating inflammatory responses
+
+Clinical relevance of IL-14 includes:
+
+Potential involvement in autoimmune disease and in anti-tumor responses (47)
+
+IL-15 is produced by B cells, dendritic cells, macrophages, monocytes, NK cells, and T cells.
+
+The main effects of IL-15 are:
+
+Induction of proliferation of T cells, NK cells, and activated B cells
+
+Induction of cytokine production and cytotoxicity of NK cells and CD8 T cells
+
+Chemotactic activity for T cells
+
+Stimulation of intestinal epithelium growth
+
+Clinical relevance of IL-15 includes:
+
+For IL-15 receptor agonist (IL-15 variant bound to dimeric IL-15R domain fused to the Fc region of IgG1), treatment of non-muscle invasive bladder cancer that is unresponsive to bacille Calmette-Guerin (BCG) vaccine (48)
+
+IL-16 is produced by helper T cells and cytotoxic T cells.
+
+The main effects of IL-16 are:
+
+Chemotactic activity for CD4 T cells, monocytes, and eosinophils
+
+Induction of MHC class II molecules
+
+Clinical relevance of IL-16 includes:
+
+IL-16 antagonists may have utility in allergic and autoimmune conditions (49)
+
+IL-17 (A and F) is produced by Th17 cells, gamma-delta T cells, NKT cells, and macrophages. IL-17 drives chronic inflammation (synergistically with IL-23) by promoting the release of various proinflammatory mediators, including IL-6, TNF-alpha, and IL-1 (50). It is a key driver in the pathogenesis of autoimmune diseases such as psoriasis and ankylosing spondylitis, and hidradenitis suppurativa. IL-23 stabilizes and expands Th17 cells, which produce IL-17; in turn, IL-17 and other cytokines can further induce IL-23 production, creating a potent, self-perpetuating, proinflammatory cycle. The IL-17/IL-23 axis is an important therapeutic target for autoimmune disease.
+
+The main effects of IL-17 are:
+
+Proinflammatory action
+
+Stimulation of production of cytokines (eg, TNF, IL-1 beta, IL-6, IL-8, G-CSF, IL-23)
+
+Clinical relevance of IL-17 includes:
+
+For anti-IL-17A and/or anti-IL-17F mAb, treatment of adults with active ankylosing spondylitis, active psoriatic arthritis, moderate to severe plaque psoriasis, non-radiographic axial spondyloarthritis, or hidradenitis suppurativa (51), but inhibition may trigger inflammatory bowel disease
+
+For anti-IL-17 receptor A, treatment of moderate to severe plaque psoriasis (52)
+
+IL-18 is produced by monocytes, macrophages, and dendritic cells.
+
+The main effects of IL-18 are:
+
+Induction of IFN-gamma production by T cells
+
+Enhancement of NK-cell cytotoxicity
+
+IL-18 has been investigated as an immunotherapeutic agent in cancer, but efficacy has not been established (53).
+
+IL-19 is produced by keratinocytes, monocytes, macrophages, and microglia.
+
+The main effects of IL-19 are:
+
+Induction of IL-6 and TNF-alpha production by monocytes
+
+Promotion of Th2 cell differentiation
+
+Clinical relevance of IL-19 includes:
+
+Potential involvement in autoimmune disease (54)
+
+IL-20 is produced by monocytes, macrophages, and dendritic cells.
+
+The main effects of IL-20 are:
+
+Proinflammatory action
+
+Stimulation of keratinocyte proliferation
+
+Clinical relevance of IL-20 includes:
+
+Receptor for IL-20 is upregulated on keratinocytes in patients with psoriasis (55)
+
+IL-21 is produced by NKT cells and Th cells.
+
+The main effects of IL-21 are:
+
+Stimulation of B-cell proliferation after CD40 cross-linking
+
+Stimulation of NK cells
+
+Costimulation of T cells
+
+Stimulation of bone marrow precursor cell proliferation
+
+Clinical relevance of IL-21 includes:
+
+In clinical trials, stimulation of cytotoxic T-cells and NK cells in cancer (56)
+
+For IL-21 antagonists, potential in the treatment of autoimmune disorders (57)
+
+IL-22 is produced by NK cells, Th17 cells, and gamma-delta T cells.
+
+The main effects of IL-22 are:
+
+Proinflammatory activity
+
+Induction of acute phase reactant synthesis
+
+Clinical relevance of IL-22 includes:
+
+For IL-22 antagonists, potential in the treatment of autoimmune disorders (58)
+
+IL-23 is produced by dendritic cells and macrophages.  IL-23 drives chronic inflammation (synergistically with IL-17) and is implicated in the pathogenesis of autoimmune diseases such as psoriasis, rheumatoid arthritis, and inflammatory bowel disease (50). IL-23 stabilizes and expands Th17 cells, which produce IL-17; in turn, IL-17 and other cytokines can further induce IL-23 production, creating a potent, self-perpetuating, proinflammatory cycle. The IL-17/IL-23 axis is an important therapeutic target for autoimmune disease.
+
+The main effect of IL-23 is:
+
+Induction of Th-cell proliferation
+
+Clinical relevance of IL-23 includes:
+
+For anti–IL-23 mAb, treatment of plaque psoriasis, psoriatic arthritis, ulcerative colitis, and Crohn disease (59)
+
+IL-24 is produced by B cells, macrophages, monocytes, and T cells.
+
+The main effects of IL-24 are:
+
+Suppression of tumor cell growth
+
+Induction of apoptosis in tumor cells
+
+Clinical relevance of IL-24 includes:
+
+Potential in the treatment of cancer (60)
+
+IL-25 (also called IL-17E) is produced by T cells, macrophages, dendritic cells, mast cells, eosinophils, and epithelium.
+
+The main effect of IL-25 is:
+
+Stimulation of Th2 cells
+
+Clinical relevance of IL-25 includes:
+
+Implicated in the development of allergy and autoimmune disorders (61)
+
+IL-26 is produced by Th17 cells, cytotoxic T cells, NK cells and neutrophils.
+
+The main effects of IL-26 are:
+
+Destruction of microbes
+
+Proinflammatory activity
+
+Clinical relevance of IL-26 includes:
+
+For anti–IL-26 mAb, potential for treatment of autoimmune disorders (62)
+
+IL-27 is produced by dendritic cells, monocytes, and macrophages.
+
+The main effect of IL-27 is:
+
+Induction of Th1 cells
+
+Clinical relevance of IL-27 includes:
+
+Potential in the treatment of cancer (63)
+
+IL-28 is a member of IFN-lambda family (64).
+
+IL-29 is a member of IFN-lambda family (64).
+
+IL-30 is a subunit of IL-27 (see IL-27) (65).
+
+IL-31 is produced by Th2 cells.
+
+The main effect of IL-31 is:
+
+Proinflammatory activity
+
+Critical roles in causing pruritus through a synergistic IL-31/IL-33 axis
+
+Clinical relevance of IL-31 includes:
+
+For anti–IL-31 receptor mAb, treatment of atopic dermatitis and prurigo nodularis (66)
+
+IL-32 is produced by NK cells and T cells.
+
+The main effects of IL-32 are:
+
+Proinflammatory activity
+
+Participation in activation-induced T cell apoptosis
+
+Clinical relevance of IL-32 includes:
+
+Potential in the treatment of autoimmune disorders (67)
+
+IL-33 is produced by endothelial cells, stromal cells, and dendritic cells.
+
+The main effects of IL-33 are:
+
+Induction of Th2 cytokines
+
+Promotion of eosinophilia
+
+Critical roles in causing pruritus through a synergistic IL-31/IL-33 axis
+
+Clinical relevance of IL-33 includes:
+
+For IL-33 antagonists, potential in the treatment of asthma (68)
+
+IL-34 is produced by keratinocytes and neurons.
+
+The main effects of IL-34 are:
+
+Supporting cell growth and survival of monocytes
+
+Stimulation of monocyte differentiation into macrophages
+
+Clinical relevance of IL-34 includes:
+
+Possible involvement in the pathogenesis of rheumatoid arthritis (69) and inflammatory bowel disease
+
+IL-35 is produced by regulatory T cells, macrophages, and dendritic cells.
+
+The main effect of IL-35 is:
+
+Suppression of inflammation, eg, by inducing regulatory T cells and B cells and inhibiting Th17 cells
+
+Clinical relevance of IL-35 includes:
+
+Potential to suppress pathogenic immune responses in allergy (70) and autoimmune disorders
+
+IL-36 is produced by epithelium, monocytes, macrophages, dendritic cells, and T cells.
+
+The main effect of IL-36:
+
+Proinflammatory activity
+
+Clinical relevance of IL-36 includes:
+
+For anti–IL-36 receptor mAb, treatment of generalized pustular psoriasis (71)
+
+IL-37 is produced by macrophages and inflamed tissue.
+
+The main effects of IL-37 are:
+
+Anti-inflammatory
+
+Possible IL-18 receptor antagonist
+
+Clinical relevance of IL-37 includes:
+
+Potential to block inflammation (72)
+
+IL-38 is produced by keratinocytes, fibroblasts, endothelial cells, and leukocytes.
+
+The main effects of IL-38 are:
+
+Anti-inflammatory
+
+Clinical relevance of IL-38 includes:
+
+Potential to block inflammation (73)
+
+IL-39 is produced by B cells.
+
+The main effects of IL-39 are:
+
+Pro-inflammatory
+
+Clinical relevance of IL-39 includes:
+
+For anti–IL-39 mAb, potential for treatment of autoimmune disease (74)
+
+IL-40 is produced by B cells and neutrophils.
+
+The main effects of IL-40 are:
+
+Promotion of B cell development
+
+Increase in IgA production
+
+Pro-inflammatory
+
+Clinical relevance of IL-40 includes:
+
+For anti–IL-40 mAb, potential for treatment of autoimmune disease (75)
+
+IL-41 is produced by fibroblasts.
+
+The main effects of IL-41 are:
+
+Immunomodulatory
+
+Clinical relevance of IL-41 includes:
+
+Involvement in psoriatic arthritis (76)
+
+Transforming growth factors (TGF)
+
+Transforming growth factors (TGFs) are polypeptides that regulate cell growth, differentiation, and transformation. There are alpha and beta forms of TGFs with 3 TGF-beta subtypes.
+
+TGF-alpha is produced by epithelial cells, monocytes, macrophages, brain cells, and keratinocytes.
+
+The main effects of TGF-alpha are:
+
+Stimulation of cell proliferation and differentiation
+
+Regulation of mucus production
+
+Inhibition of gastric acid secretion
+
+Clinical relevance of TGF-alpha includes:
+
+For TGF-alpha antagonists, to alleviate symptoms in Menetrier disease
+
+TGF-beta is produced by B cells, macrophages, mast cells, and Th3 cells.
+
+The main effects of the TGF-beta family are:
+
+Proinflammatory activity (eg, by chemoattraction of monocytes and macrophages) but also anti-inflammatory activity (eg, by inhibiting lymphocyte proliferation)
+
+Induction of isotype switch to IgA
+
+Promotion of tissue repair and fibrosis
+
+Clinical relevance of TGF-beta includes:
+
+Trials of antagonists (eg, antisense oligonucleotides) in cancer are ongoing (77).
+
+Tumor necrosis factors (TNFs)
+
+Members of the tumor necrosis factor superfamily regulate inflammation, cell proliferation, and apoptotic cell death.
+
+There are 2 main members of this superfamily that are secreted as cytokines, TNF and lymphotoxin (LT).
+
+TNF (formerly TNF-alpha or cachectin) is produced by B cells, dendritic cells, macrophages, mast cells, monocytes, NK cells, and Th cells. It is a critical proinflammatory cytokine that drives the pathogenesis of chronic autoimmune and inflammatory diseases such as rheumatoid arthritis, IBD, and psoriasis (including psoriatic arthritis) (78). Thus, inhibition of the TNF signaling pathway is a key therapeutic strategy in these diseases.
+
+The main effects of TNF include:
+
+Cachexia
+
+Induction of secretion of several cytokines (eg, IL-1, GM-CSF, IFN-gamma) that stimulate inflammation
+
+Induction of E-selectin on endothelium
+
+Activation of macrophages
+
+Antiviral activity
+
+Cytotoxicity to tumor cells
+
+Clinical relevance of TNF includes:
+
+For TNF antagonists (mAb or soluble receptor), treatment of rheumatoid arthritis, plaque psoriasis, Crohn disease refractory to standard treatments, ulcerative colitis, hidradenitis suppurativa, ankylosing spondylitis, psoriatic arthritis, polyarticular juvenile idiopathic arthritis, noninfectious intermediate uveitis, posterior uveitis, and panuveitis. Despite its name, blocking the activity of TNF does not lead to a marked increase in primary or secondary cancers (79).
+
+Lymphotoxin (formerly TNF-beta) is produced by Tc cells and Th1 cells. There are 2 classes of lymphotoxin. Lymphotoxin-alpha is secreted as a cytokine, whereas lymphotoxin-beta is, like most other TNF superfamily members, a cell surface molecule.
+
+The main effects of lymphotoxin-alpha include:
+
+Cytotoxicity to tumor cells
+
+Antiviral activity
+
+Enhancement of phagocytosis by neutrophils and macrophages
+
+Involvement in lymphoid organ development
+
+The main effects of lymphotoxin-beta include:
+
+Lymphoid tissue development
+
+Maintenance of immune cell homeostasis and induction of some inflammatory responses
+
+Organization of splenic structure
+
+Formation of germinal centers
+
+Clinical relevance of lymphotoxin includes:
+
+For lymphotoxin-alpha antagonists similar effects to well-established TNF antagonists have been demonstrated in clinical trials but with mixed results. No lymphotoxin alpha antagonists are yet available.
+
+Lymphotoxin-beta receptor antagonists and modulators are currently under study for autoimmune disease, but none are available for use as yet.
+
+Cytokines references

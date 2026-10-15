@@ -1,0 +1,222 @@
+=== Economic Analyses in Clinical Decision Making (Merck Manual Professional) ===
+Section: Special Subjects > Clinical Decision Making
+Source: https://www.merckmanuals.com/professional/special-subjects/clinical-decision-making/economic-analyses-in-clinical-decision-making
+Retrieved: 2026-09-25
+
+Given limited societal and personal resources and restrictions under health insurance, cost considerations have become more relevant in clinical decision making. Limited resources should not be wasted; their allocation depends on an understanding of the various costs and outcomes resulting from strategies of care.
+
+Cost in Clinical Decision Making
+
+The elements included in cost analysis are determined by the perspective of the analysis. Different perspectives often result in different conclusions based on which costs and outcomes are considered.
+
+Providers (eg, health care professionals, institutions) typically consider only costs within the organization (eg, personnel, supplies, overhead).
+
+Payors (eg, insurance companies) consider only the reimbursements they have to make.
+
+Patients consider out-of-pocket expenses (eg, cost of insurance, deductibles, transportation, parking) and lost income (for themselves and their family).
+
+From a societal perspective, all such costs are taken into account along with the costs of lost productivity and costs of treating other diseases (iatrogenic and naturally occurring) that may develop in patients who recover from the disease being treated. For example, a young man cured of lymphoma may develop leukemia or coronary artery disease years later. Cost analysis of a screening program needs to include the costs of pursuing false-positive results, which in a screening test for a disease with a low prevalence often exceed the costs of evaluating and treating patients who actually have the disease.
+
+Marginal cost
+
+The marginal cost is the cost of providing (or withholding) an additional unit of service. This cost is often one of the most relevant for an individual clinician’s medical decision making and is typically quite different from the overall cost allocated to that service. For example, a hospital may have determined that $50 is the cost of providing a given test. However, a clinical protocol to better identify patients requiring that test that could eliminate a daily repeat (with no change in outcome) would not “save” the hospital $50 because the overhead expense of personnel and equipment already on site would be unchanged; only the expense of any specifically required "equipment" would be eliminated. Hence the actual marginal cost saving to the hospital of eliminating a single set of blood tests is essentially the cost of the tubes and bandages not utilized. Note that marginal cost varies with volume in a quantum fashion; adding or withholding a larger number of blood tests might at some point dictate a change in required phlebotomy personnel. Additionally, the marginal cost is different for the payors and patients; withholding one blood test would save the payors the entire amount they typically reimburse for that test, a figure far higher than the hospital’s marginal cost. Patients would save the cost of their copay, if any.
+
+Outcome
+
+The effectiveness of medical care is measured by change in outcome. Outcomes can be
+
+Patient oriented
+
+Process oriented
+
+Disease oriented
+
+Patient-oriented outcomes can be reduced to one of the following:
+
+Death
+
+Disability
+
+Discomfort (physical or emotional)
+
+Patient-oriented outcomes are arguably the most important.
+
+Process improvements (eg, reducing the time to antibiotic administration or to operating room) or improvements in disease manifestations (eg, shrinking tumor size, improving O2 saturation) that do not reduce mortality, disability, or discomfort at all can hardly be said to benefit the patient. For example, lidocaine was once routinely given to patients with myocardial infarction (MI) because it was known to reduce the incidence of ventricular fibrillation (improved disease outcome). Lidocaine treatment continued for many years before studies showed it did not decrease mortality (no change in patient outcome), and so the practice was stopped.
+
+Quality-adjusted life year (QALY)
+
+Change in raw mortality is the most common way to evaluate effect on death. In more complex analysis, death and disability are often evaluated in combination as the quality-adjusted life year (QALY); treatment that results in an additional year of life at 100% of normal functioning is credited with 1 QALY; treatment that results in an additional year of life at only 75% functioning is credited with 0.75 QALY.
+
+QALY is more difficult to apply to discomfort, but some believe it can be estimated by the time tradeoff method: A person estimates how many years of discomfort would be acceptable vs a shorter period of perfect health. For example, if a person would prefer 9 years of health to 10 years of chronic pain (but would prefer the 10 years of pain to only 8 years of life), then each year of life with that particular pain is credited with 9/10 = 0.9 QALY. All such QALY estimates are somewhat problematic because people vary widely in risk tolerance and acceptance for various outcomes.
+
+Number needed to treat
+
+The number needed to treat (NNT) or harm is another way to quantify patient outcome; NNT is the reciprocal of the absolute change in a dichotomous outcome (death, disability). Thus, if a medication causes a 3% net decrease in mortality, 1/0.03 = 33.3 patients need to be treated to prevent 1 death.
+
+The number needed to harm is similar. Thus, for a medication that causes leukopenia in 8% of patients, 1/0.08 or 12.5 need to be treated to harm 1 person. Phrased another way, 1 person is harmed for every 12.5 treated.
+
+The pertinence of the NNT is clearer when comparing mortality to mild adverse effects of a treatment. It becomes cloudier when comparing the reduction in a particular morbidity to a more serious adverse effect. From the perspective of the clinician, however, it can be a very useful tool in explaining the risk:benefit ratio of a treatment to the patient.
+
+Because the NNT is derived from absolute change, as opposed to relative change, it is more clinically relevant to a given patient. For example, a treatment that reduced mortality from 2% to 1% reduces relative mortality by an impressive 50%, but the absolute mortality is decreased by only 1%. This is easy to see when represented as an NNT of 1/0.01 = 100 treated to prevent 1 death. The relative change concept is more relevant to hypothesis testing (proof of concept that a therapy has efficacy) than to an individual patient.
+
+Clinically vs statistically significant outcome
+
+Even when appropriate outcome measures are used and analyzed correctly, it is critically important to note that a statistically significant outcome in a clinical study (ie, with an excellent p value) is not necessarily clinically significant to a patient. Statistical significance is to a large extent dependent upon the sample size; with a large enough sample, a minimal difference of no clinical importance to a patient (eg, a reduction of duration of upper respiratory infection symptoms from 7 to 6.5 days) could well be statistically significant. The magnitude of difference between 2 groups in a clinical study is referred to as the effect size; as in the above example, an effect size may be small, but still highly statistically significant. Misunderstanding the differences between absolute and relative effect and between clinically significant and statistically significant are common causes for confusion in patients seeking treatment information online, interpreting pharmaceutical advertisements, and navigating social media.
+
+Cost-Benefit Analysis in Clinical Decision Making
+
+Simple analysis of the economic consequences of outcomes (cost-benefit analysis) depends on assumptions about the perceived monetary value of prolonged life and improved health. Such assumptions are often arguable and rarely straightforward. Furthermore, although such analyses determine whether a given strategy saves costs or requires the net expenditure of resources, they do not indicate whether the expenditures are worthwhile.
+
+Cost-effectiveness analysis tracks medical costs and health outcomes separately. Both outcome measures can be strongly affected by the perspective and duration of the analysis and by the underlying assumptions. Comparison of the costs and health outcomes of 2 management strategies results in 1 of 9 pairings (see table Cost-Effectiveness Comparison of Management Strategies A and B). When health outcomes are equivalent (center column), the choice should be based on cost; when costs are equivalent (center row), the choice should be based on outcome. When one strategy has better outcomes and lower costs (upper right and lower left cells), the choice is clear. The decision is difficult only when the strategy that is more expensive also produces better outcomes (upper left and lower right cells); in such cases, the marginal cost-effectiveness ratio should be determined.
+
+Table
+
+Cost-Effectiveness Comparison of Management Strategies A and B
+
+Table
+
+Cost-Effectiveness Comparison of Management Strategies A and B
+
+Cost-Effectiveness Comparison of Management Strategies A and B
+
+Cost
+
+Health Outcome
+
+A > B
+
+A = B
+
+A < B
+
+A > B
+
+Calculate marginal cost-effectiveness ratio*.
+
+B is less expensive: Choose B.
+
+B dominates A: Choose B.
+
+A = B
+
+A has a better outcome: Choose A.
+
+It makes no difference.
+
+B has a better outcome: Choose B.
+
+A < B
+
+A dominates B: Choose A.
+
+A is less expensive: Choose A.
+
+Calculate marginal cost-effectiveness ratio*.
+
+* See table Calculating a Marginal Cost-Effectiveness Ratio.
+
+* See table Calculating a Marginal Cost-Effectiveness Ratio.
+
+Marginal cost-effectiveness ratio
+
+The marginal cost-effectiveness ratio is the additional cost of a strategy divided by the additional health outcome it achieves and thus pertains to the situation in which there is a choice between ≥ 2 effective management strategies. Greater health improvement for a given resource expenditure is derived when the ratio is lower.
+
+For policy analysis, the most common measure of effectiveness is the QALY, making the units of the corresponding marginal cost-effectiveness ratio “additional dollars spent per QALY gained.” However, the marginal cost-effectiveness ratio has been criticized because older patients or patients with life-limiting comorbidities have a smaller potential gain in survival from a treatment and therefore have a higher (less advantageous) cost-effectiveness ratio.
+
+For example (see table Calculating a Marginal Cost-Effectiveness Ratio, Analysis 1), consider no antiarrhythmic therapy vs prophylactic use of an implantable cardioverter-defibrillator (ICD) for patients who have survived several months after an acute anterior MI and who have a mildly depressed ejection fraction (between 0.3 and 0.4). (All figures and costs in this example are hypothetical and only for purposes of illustration.) Both strategies assume similar baseline costs for routine care ($78,300), but the ICD has an additional (marginal) cost of $53,100, based on the cost of the device and professional fees, initial hospitalization, and ongoing therapy (including extra physician visits, laboratory tests, medications, rehospitalizations for ICD-related complications, and replacement of ICD generator or leads). If patients with an ICD have a slightly increased life expectancy (7.87 vs 7.42 QALY), the marginal effectiveness of ICD therapy is 7.87 − 7.42 = 0.45 QALY. Thus, prophylactic ICD enhances survival compared to no antiarrhythmic therapy at a cost of $53,100/0.45 QALY, or $118,000/QALY.
+
+Now assume that a third strategy, prophylactic amiodarone therapy, is available. This therapy is less expensive but also less effective than ICD. The effect of adding this third intermediate strategy is noteworthy because marginal cost-effectiveness ratios are calculated sequentially when there are multiple strategies (see table Calculating a Marginal Cost-Effectiveness Ratio, Analysis 2). The marginal cost-effectiveness ratio of amiodarone is lower ($68,519/QALY gained) than that for an ICD calculated in the previous example, and furthermore, because the effectiveness of an ICD is now compared to amiodarone rather than to no therapy, the addition of this intermediate cost strategy with partial effectiveness increases the ICD’s marginal cost-effectiveness ratio from $118,000 to $192,222/QALY gained. This analysis suggests that for an expensive therapy such as an ICD, an attempt should be made to identify subpopulations expected to reap the greatest benefit.
+
+Table
+
+Calculating a Marginal Cost-Effectiveness Ratio
+
+Table
+
+Calculating a Marginal Cost-Effectiveness Ratio
+
+Calculating a Marginal Cost-Effectiveness Ratio
+
+Strategy
+
+Cost* ($)
+
+Effectiveness (QALY)
+
+Marginal Cost ($)
+
+Marginal Effectiveness (QALY)
+
+Marginal Cost- Effectiveness Ratio ($/QALY)
+
+Analysis 1 (2 strategies)
+
+No antiarrhythmic therapy
+
+78,300
+
+7.42
+
+—
+
+—
+
+—
+
+ICD
+
+131,400
+
+7.87
+
+53,100
+
+0.45
+
+118,000
+
+Analysis 2 (3 strategies)
+
+No antiarrhythmic therapy
+
+78,300
+
+7.42
+
+—
+
+—
+
+—
+
+Amiodarone
+
+96,800
+
+7.69
+
+18,500
+
+0.27
+
+68,519
+
+ICD
+
+131,400
+
+7.87
+
+34,600
+
+0.18
+
+192,222
+
+* For illustrative purposes only.
+
+ICD = implantable cardioverter defibrillator; QALY =quality-adjusted life year.
+
+* For illustrative purposes only.
+
+ICD = implantable cardioverter defibrillator; QALY =quality-adjusted life year.

@@ -1,0 +1,60 @@
+=== X-linked Lymphoproliferative Syndrome (Merck Manual Professional) ===
+Section: Allergy and Immunology > Immunodeficiency Disorders
+Source: https://www.merckmanuals.com/professional/immunology-allergic-disorders/immunodeficiency-disorders/x-linked-lymphoproliferative-syndrome
+Retrieved: 2026-09-25
+
+(See also Overview of Immunodeficiency Disorders and Approach to the Patient With an Immunodeficiency Disorder.)
+
+X-linked lymphoproliferative syndrome (XLP) is a primary immunodeficiency disorder that involves cellular immunity deficiencies. It is caused by mutations in genes on the X chromosome. It is a recessive disorder and thus manifests only in males.
+
+XLP type 1 is the most common type (approximately 60% of cases). It is caused by a mutation in the gene that encodes the signaling lymphocyte activation molecule (SLAM)–associated protein (SAP, also called the SH2 domain protein 1A [SH2D1A] or DSHP). Without SAP, lymphocytes proliferate unchecked in response to Epstein-Barr virus (EBV) infection, and natural killer (NK) cells do not function.
+
+XLP type 2 is clinically similar to type 1 and predisposes to hemophagocytic lymphohistiocytosis, an uncommon disorder that causes immunodeficiency in infants and young children. XLP type 2 is caused by mutations in a gene that encodes the X-linked inhibitor of apoptosis protein (XIAP).
+
+Symptoms and Signs of X-linked Lymphoproliferative Syndrome
+
+X-linked lymphoproliferative syndrome is usually asymptomatic until EBV infection develops. Then, most patients develop fulminating or fatal infectious mononucleosis with liver failure (caused by cytotoxic T cells that react to EBV-infected B cells or other tissue cells).
+
+Survivors of initial infection develop B-cell lymphomas, aplastic anemia, hypogammaglobulinemia (resembling that in common variable immunodeficiency), splenomegaly, or a combination.
+
+Diagnosis of X-linked Lymphoproliferative Syndrome
+
+Genetic testing
+
+The diagnosis of X-linked lymphoproliferative syndrome should be considered in young males who have severe Epstein-Barr virus infection, hemophagocytic lymphohistiocytosis, a suggestive family history, or other common manifestations.
+
+Genetic testing is the standard test for confirming the diagnosis (before and after EBV infection and symptoms develop) as well as the carrier state. However, genetic testing can take weeks to complete, so other testing is done if the diagnosis must be made earlier (eg, flow cytometry to assess SH2D1A protein expression).
+
+Suggestive findings include
+
+Decreased antibody responses to antigens (particularly to EBV nuclear antigen)
+
+Impaired T-cell proliferative responses to mitogens
+
+Decreased NK-cell function
+
+An inverted CD4:CD8 ratio
+
+These findings are typical before and after Epstein-Barr virus infection. A bone marrow biopsy can help confirm hemophagocytic lymphohistiocytosis.
+
+In survivors, laboratory and imaging tests are done yearly to check for lymphoma and anemia.
+
+Genetic testing is done in relatives when a case or carrier is identified in a family. Prenatal screening is recommended for people if a mutation that causes XLP has been identified in their family.
+
+Treatment of X-linked Lymphoproliferative Syndrome
+
+Hematopoietic stem cell transplantation
+
+Treatment of X-linked lymphoproliferative syndrome is hematopoietic stem cell transplantation. Approximately 75% of patients die by age 10 years, and all die by age 40 years unless hematopoietic stem cell transplantation is done. Approximately 80% of patients who receive a transplant survive. Transplantation is curative if done before Epstein-Barr virus infection or other disorders become irreversible (1, 2).
+
+Rituximab can help prevent severe EBV infection before transplantation.
+
+Gene editing and gene therapy have shown early promising results for patients with XLP (3).
+
+Treatment references
+
+1. Coffey AJ, Brooksbank RA, Brandau O, et al: Host response to EBV infection in X-linked lymphoproliferative disease results from mutations in an SH2-domain encoding gene. Nat Genet 20(2):129–135, 1998. doi:10.1038/2424
+
+2. Booth C, Gilmour KC, Veys P, et al: X-linked lymphoproliferative disease due to SAP/SH2D1A deficiency: a multicenter study on the manifestations, management and outcome of the disease [published correction appears in Blood 2011 Nov 3;118(18):5060. Pachlopnick-Schmid, Jana [corrected to Pachlopnik Schmid, Jana]]. Blood 117(1):53–62, 2011. doi:10.1182/blood-2010-06-284935
+
+3. Houghton BC, Panchal N, Haas SA, et al: Genome Editing With TALEN, CRISPR-Cas9 and CRISPR-Cas12a in Combination With AAV6 Homology Donor Restores T Cell Function for XLP. Front Genome Ed 4:828489, 2022. doi:10.3389/fgeed.2022.828489

@@ -1,0 +1,294 @@
+=== Overview of Mechanical Ventilation (Merck Manual Professional) ===
+Section: Critical Care Medicine > Respiratory Failure and Mechanical Ventilation
+Source: https://www.merckmanuals.com/professional/critical-care-medicine/respiratory-failure-and-mechanical-ventilation/overview-of-mechanical-ventilation
+Retrieved: 2026-09-25
+
+Mechanical ventilation can be:
+
+Noninvasive, involving various types of face masks
+
+Invasive, involving endotracheal intubation
+
+Selection and use of appropriate techniques require an understanding of respiratory mechanics.
+
+Indications
+
+There are numerous indications for mechanical ventilation, invasive or noninvasive, but, in general, mechanical ventilation should be considered when there are clinical or laboratory signs that the patient cannot maintain adequate oxygenation or ventilation. Inability to maintain an airway may also be an indication for endotracheal intubation, which typically requires invasive mechanical ventilation of some sort (see table Situations Requiring Airway Control).
+
+Findings that suggest the need for mechanical ventilation include:
+
+Respiratory rate > 30/minute
+
+Inability to maintain arterial oxygen saturation >  90% despite the use of noninvasive oxygen strategies (NIV), including high-flow oxygen
+
+pH < 7.25
+
+Partial pressure of carbon dioxide (PaCO2) > 50 mm Hg (unless chronic and stable)
+
+The decision to initiate mechanical ventilation should be based on clinical judgment that considers the entire clinical situation and not simple numeric criteria. However, mechanical ventilation should not be delayed until the patient is in extremis. Some patients can be treated using noninvasive ventilation, such as noninvasive positive pressure ventilation, rather than invasive mechanical ventilation.
+
+Respiratory Mechanics
+
+Normal spontaneous breathing generates negative intrapleural pressure, which creates a pressure gradient between the atmosphere and the alveoli, resulting in air flowing inward. In mechanical ventilation, the pressure gradient results from increased (positive) pressure of the air source.
+
+Peak airway pressure is measured at the airway opening (Pao) and is routinely displayed by mechanical ventilators. It represents the total pressure needed to push a volume of gas into the lung and is composed of pressures resulting from inspiratory flow resistance (resistive pressure), the elastic recoil of the lung and chest wall (elastic pressure), and the alveolar pressure present at the beginning of the breath (positive end-expiratory pressure [PEEP]—see figure Components of Airway Pressure). Thus,
+
+Resistive pressure is the product of circuit resistance and airflow. In a patient being treated with mechanical ventilation, resistance to airflow occurs in the ventilator circuit, the endotracheal tube, and, most importantly, the patient’s airways. (NOTE: Even when these factors are constant, an increase in airflow increases resistive pressure.)
+
+Components of Airway Pressure During Mechanical Ventilation, Illustrated by an Inspiratory-Hold Maneuver
+
+PEEP = positive end-expiratory pressure.
+
+Elastic pressure is the product of the elastic recoil of the lungs and chest wall (elastance) and the volume of gas delivered. For a given volume, elastic pressure is increased by increased lung stiffness (as in pulmonary fibrosis) or restricted excursion of the chest wall or diaphragm (as in tense ascites or class III obesity). Because elastance is the inverse of compliance, high elastance is the same as low compliance.
+
+End-expiratory pressure in the alveoli is normally the same as atmospheric pressure. However, when the alveoli fail to empty completely due to airway obstruction, airflow limitation, or shortened expiratory time, end-expiratory pressure may be positive relative to the atmosphere. This pressure is called intrinsic PEEP or auto-PEEP to differentiate it from externally applied (therapeutic) PEEP, which is created by adjusting the mechanical ventilator or by placing a tight-fitting mask that applies positive pressure throughout the respiratory cycle.
+
+Any elevation in peak airway pressure (eg, > 25 cm H2O) should prompt measurement of the end-inspiratory pressure (plateau pressure) by an end-inspiratory hold maneuver to determine the relative contributions of resistive and elastic pressures. In this maneuver, the exhalation valve is kept closed for an additional 0.3 to 0.5 seconds after inspiration, delaying exhalation. During this time, airway pressure falls from its peak value as airflow ceases. The resulting end-inspiratory pressure represents the elastic pressure once PEEP is subtracted (assuming the patient is not making active inspiratory or expiratory muscle contractions at the time of measurement). The difference between peak and plateau pressure is the resistive pressure.
+
+Elevated resistive pressure (eg, > 10 cm H2O) suggests that the endotracheal tube has been kinked or plugged with secretions or that an intraluminal mass or bronchospasm is present.
+
+Increased elastic pressure (eg, > 10 cm H2O) suggests decreased lung compliance due to:
+
+Edema, fibrosis, or lobar atelectasis
+
+Large pleural effusions, pneumothorax, or fibrothorax
+
+Extrapulmonary restriction as may result from circumferential burns or another chest wall deformity, ascites, pregnancy, or morbid obesity
+
+A tidal volume too large for the amount of lung being ventilated (eg, a normal tidal volume being delivered to a single lung because the endotracheal tube is malpositioned)
+
+Intrinsic PEEP (auto-PEEP) in a passive patient can be measured through an end-expiratory hold maneuver. Immediately before a breath, the expiratory port is closed for 2 seconds. Flow ceases, eliminating resistive pressure; the resulting pressure reflects alveolar pressure at the end of expiration (intrinsic PEEP). Although accurate measurement requires the patient to be completely passive (ie, no spontaneous respiratory effort) on the ventilator, it is unwarranted to use neuromuscular blockade solely for the purpose of measuring intrinsic PEEP.
+
+A nonquantitative method of identifying intrinsic PEEP is to inspect the expiratory flow tracing. If expiratory flow continues until the next breath or the patient’s chest fails to come to rest before the next breath, intrinsic PEEP is present. Elevated intrinsic PEEP indicates increased inspiratory work of breathing and decreased venous return, which may result in decreased cardiac output and hypotension.
+
+The demonstration of intrinsic PEEP should prompt a search for causes of airflow obstruction (eg, airway secretions, decreased elastic recoil, bronchospasm); however, a high minute ventilation (> 20 L/minute) alone can result in intrinsic PEEP in a patient with no airflow obstruction. If the cause is airflow limitation, intrinsic PEEP can be reduced by shortening inspiratory time (ie, increasing inspiratory flow) or reducing the respiratory rate, thereby allowing a greater fraction of the respiratory cycle to be spent in exhalation.
+
+Means and Modes of Mechanical Ventilation
+
+Mechanical ventilators modes include:
+
+Volume cycled: Delivering a constant volume with each breath (pressures may vary)
+
+Pressure cycled: Delivering constant pressure during each breath (volume delivered may vary)
+
+A combination of volume and pressure cycled
+
+Assist-control (A/C) modes of ventilation are modes that maintain a minimum respiratory rate regardless of whether or not the patient initiates a spontaneous breath. Because pressures and volumes are directly linked by the pressure-volume curve, any given volume will correspond to a specific pressure, and vice versa, regardless of whether the ventilator is pressure cycled or volume cycled.
+
+Volume-cycled ventilation
+
+Volume-cycled ventilation delivers a set tidal volume. This mode includes:
+
+Volume-control (V/C)
+
+Synchronized intermittent mandatory ventilation (SIMV)
+
+The resultant airway pressure is not fixed but varies with the resistance and elastance of the respiratory system and with the flow rate selected.
+
+V/C ventilation is a mode that for each inspiratory effort beyond the set sensitivity threshold triggers the delivery of a fixed tidal volume. If the patient does not trigger the ventilator frequently enough, the ventilator initiates a breath, ensuring the desired minimum respiratory rate.
+
+SIMV also delivers breaths at a set rate and volume that is synchronized to the patient’s efforts. In contrast to V/C, patient efforts above the set respiratory rate are unassisted, although the intake valve opens to allow the breath. This mode remains popular, despite studies indicating that it does not provide full ventilator support as does V/C (1), does not decrease mortality or decrease ICU stay length (2, 3), and does not facilitate liberation of the patient from mechanical ventilation (4), and does not improve patient comfort.
+
+Pressure-cycled ventilation
+
+Pressure-cycled ventilation delivers a set inspiratory pressure. This mode includes:
+
+Pressure control ventilation (PCV)
+
+Pressure support ventilation (PSV)
+
+Noninvasive modalities applied via a tight-fitting face mask (several types available)
+
+With pressure-cycled ventilation, tidal volume varies depending on the resistance and elastance of the respiratory system. In this mode, changes in respiratory system mechanics can result in unrecognized changes in alveolar ventilation. Because it limits the distending pressure of the lungs, this mode can theoretically benefit patients with acute respiratory distress syndrome (ARDS); however, no clear clinical advantage over V/C has been shown (5, 6), and, if the volume delivered by PCV is the same as that delivered by V/C, the distending pressures will be the same.
+
+Pressure control ventilation is a pressure-cycled form of A/C. Each inspiratory effort beyond the set sensitivity threshold delivers full pressure support maintained for a fixed inspiratory time. A minimum respiratory rate is maintained.
+
+In pressure support ventilation, a minimum rate is not set; all breaths are triggered by the patient. The ventilator assists the patient by delivering a pressure that continues at a constant level until the patient's inspiratory flow falls below a preset level determined by an algorithm. Thus, a longer or deeper inspiratory effort by the patient results in a larger tidal volume. This mode is commonly used to liberate patients from mechanical ventilation by letting them assume more of the work of breathing. Studies indicate that this approach is more successful than others in discontinuing mechanical ventilation (7).
+
+Ventilator settings
+
+Adjustable ventilator settings differ with mode but include:
+
+Respiratory rate
+
+Tidal volume or inspiratory pressure (depending on mode)
+
+Sensitivity (required to trigger ventilation)
+
+Flow rate
+
+Flow waveform
+
+Inspiratory/expiratory (I/E) ratio
+
+PEEP
+
+Ventilator settings are tailored to the underlying condition, but the basic principles are as follows.
+
+Minute ventilation is determined by:
+
+Tidal volume
+
+Respiratory rate
+
+When tidal volume is set too high (or, in pressure-cycled ventilation if the set pressure results in a tidal volume that is too high), overinflation is a risk; when it is set too low, atelectasis may result. A respiratory rate that is too high risks hyperventilation and respiratory alkalosis along with inadequate expiratory time and auto-PEEP; too low a rate risks inadequate minute ventilation and respiratory acidosis.
+
+A low tidal volume of 6 to 8 mL/kg ideal body weight (IBW) is recommended initially for patients with acute respiratory distress syndrome (ARDS—see sidebar Initial Ventilator Management in ARDS) (8). A low tidal volume is also appropriate in certain patients who have normal lung mechanics (9, 10, 11), such as patients with acute exacerbations of chronic obstructive pulmonary disease (COPD) or asthma or those who are on mechanical ventilation during surgery (12, 13). Intraoperative low tidal volume strategies often include periodic hyperinflation. Other patients (eg, those with trauma, obtundation, severe acidosis) may be started at slightly higher tidal volume (eg, 8 to 10 mL/kg).
+
+IBW rather than actual body weight is used to determine the appropriate tidal volume for patients who have lung disease and who are receiving mechanical ventilation.
+
+Sensitivity adjusts the level of negative pressure required to trigger the ventilator. A typical setting is –2 cm H2O. Too high a setting (eg, more negative than –2 cm H2O) causes patients who are weak to be unable to trigger a breath. Too low a setting (eg, less negative than –2 cm H2O) may lead to overventilation by causing the machine to auto-cycle. Patients with high levels of auto-PEEP (eg, those with COPD, asthma) may have difficulty inhaling deeply enough to achieve a sufficiently negative intra-airway pressure.
+
+The I:E ratio (inspiratory:expiratory ratio) is the ratio of time spent in inhalation versus that spent in exhalation. The I:E ratio can be adjusted in some modes of ventilation. A normal setting for patients with normal mechanics is 1:3. Patients with asthma or exacerbations of COPD should have ratios of 1:4 or even more to limit the degree of auto-PEEP.
+
+The inspiratory flow rate can be adjusted in some modes of ventilation (ie, either the flow rate or the I:E ratio can be adjusted, not both). The inspiratory flow should generally be set at approximately 60 L/minute but can be increased up to 120 L/minute for patients with airflow limitation to facilitate having more time in exhalation, thereby limiting auto-PEEP.
+
+FIO2 (fraction of inspired oxygen) is initially set at 1.0 (100% oxygen) and is subsequently decreased to the lowest level necessary to maintain adequate oxygenation.
+
+PEEP can be applied in any ventilator mode. PEEP increases end-expired lung volume and reduces airspace closure at the end of expiration. Most patients undergoing mechanical ventilation may benefit from the application of PEEP at 5 cm H2O to limit the atelectasis that frequently accompanies endotracheal intubation, sedation, paralysis, and/or supine positioning. In patients with obstruction, PEEP applied by the ventilator can reduce the work of breathing associated with auto-PEEP. Higher levels of PEEP improve oxygenation in disorders such as cardiogenic pulmonary edema and ARDS and generally reduce left ventricular afterload. PEEP permits use of lower levels of  FIO2 while preserving adequate arterial oxygenation. This effect may be important in limiting the lung injury that may result from prolonged exposure to a high FIO2 (≥ 0.6). However,PEEP increases intrathoracic pressure, and if too high may impede venous return, provoking hypotension in a patient with hypovolemia, and may overdistend portions of the lung, thereby causing ventilator-associated lung injury (VALI). Excessive PEEP can also increase pulmonary vascular resistance and worsen right ventricular output. By contrast, if PEEP is too low, it may result in cyclic airspace opening and closing, which in turn may also cause VALI due to the resultant repetitive shear forces. Because the pressure-volume curve varies for different regions of the lung, for a given PEEP, the increase in volume will be lower for dependent regions compared to nondependent regions of the lung.
+
+Clinical Calculators
+
+Ideal Body Weight
+
+Patient positioning
+
+Mechanical ventilation is typically performed with the patient in the supine, semiupright position. However, in patients with ARDS, prone positioning may result in better oxygenation, primarily by creating more uniform ventilation. Uniform ventilation reduces the amount of lung that has no ventilation (ie, the amount of shunt), which is generally greatest in the dorsal and caudal lung regions, while having minimal effects on perfusion distribution (14).
+
+Prone positioning is recommended for patients with moderate to severe ARDS for at least 12 hours daily (15, 16, 17). A landmark randomized trial identified lower 28- and 90-day mortality in patients who were ventilated in the prone position, without a significant incidence of associated complications (18). In patients who had COVID-19 and were awake, were spontaneously breathing, had hypoxemia, and were on high-flow nasal cannula oxygen, prone positioning decreased hypoxemia, and in one large clinical trial, reduced the risk of treatment failure defined as need for intubation or death within 28 days (19).
+
+Prone positioning is contraindicated in patients with spinal instability or increased intracranial pressure. This position also requires careful attention by the intensive care unit staff to avoid complications, such as dislodgement of the endotracheal tube or intravascular catheters.
+
+Means and modes references
+
+1. Marini JJ, Smith TC, Lamb VJ. External work output and force generation during synchronized intermittent mechanical ventilation. Effect of machine assistance on breathing effort. Am Rev Respir Dis. 1988;138(5):1169-1179. doi:10.1164/ajrccm/138.5.1169
+
+2. de Godoi TB, Marson FAL, Palamim CVC, Cannonieri-Nonose GC. Influence of ventilatory strategies on outcomes and length of hospital stay: assist-control and synchronized intermittent mandatory ventilation modes. Intern Emerg Med. 2021;16(2):409-418. doi:10.1007/s11739-020-02444-7
+
+3. Ortiz G, Frutos-Vivar F, Ferguson ND, et al. Outcomes of patients ventilated with synchronized intermittent mandatory ventilation with pressure support: a comparative propensity score study. Chest. 2010;137(6):1265-1277. doi:10.1378/chest.09-2131
+
+4. Esteban A, Frutos F, Tobin MJ, et al. A comparison of four methods of weaning patients from mechanical ventilation. Spanish Lung Failure Collaborative Group. N Engl J Med. 1995;332(6):345-350. doi:10.1056/NEJM199502093320601
+
+5. Chacko B, Peter JV, Tharyan P, John G, Jeyaseelan L. Pressure-controlled versus volume-controlled ventilation for acute respiratory failure due to acute lung injury (ALI) or acute respiratory distress syndrome (ARDS). Cochrane Database Syst Rev. 2015;1(1):CD008807. doi:10.1002/14651858.CD008807.pub2
+
+6. Rittayamai N, Katsios CM, Beloncle F, Friedrich JO, Mancebo J, Brochard L. Pressure-Controlled vs Volume-Controlled Ventilation in Acute Respiratory Failure: A Physiology-Based Narrative and Systematic Review. Chest.2015;148(2):340-355. doi:10.1378/chest.14-3169
+
+7. Subirà C, Hernández G, Vázquez A, et al. Effect of Pressure Support vs T-Piece Ventilation Strategies During Spontaneous Breathing Trials on Successful Extubation Among Patients Receiving Mechanical Ventilation: A Randomized Clinical Trial. JAMA. 2019;321(22):2175-2182. doi:10.1001/jama.2019.7234
+
+8. Gorman EA, O'Kane CM, McAuley DF. Acute respiratory distress syndrome in adults: diagnosis, outcomes, long-term sequelae, and management. Lancet. 2022;400(10358):1157-1170. doi:10.1016/S0140-6736(22)01439-8
+
+9. Serpa Neto A, Cardoso SO, Manetta JA, et al. Association between use of lung-protective ventilation with lower tidal volumes and clinical outcomes among patients without acute respiratory distress syndrome: A meta-analysis. JAMA. 2012;308(16):1651-1659. doi: 10.1001/jama.2012.13730
+
+10. Guay J, Ochroch EA, Kopp S. Intraoperative use of low volume ventilation to decrease postoperative mortality, mechanical ventilation, lengths of stay and lung injury in adults without acute lung injury. Cochrane Database Syst Rev. 2018;7(7): CD011151. doi: 10.1002/14651858.CD011151.pub3
+
+11. Neto AS, Simonis FD, Barbas CS, et al. Lung-protective ventilation with low tidal volumes and the occurrence of pulmonary complications in patients without acute respiratory distress syndrome: A systematic review and individual patient data analysis. Crit Care Med. 2015;43(10):2155-2163. doi: 10.1097/CCM.0000000000001189
+
+12. Futier E, Constantin JM, Paugam-Burtz C, et al. A trial of intraoperative low-tidal-volume ventilation in abdominal surgery. N Engl J Med. 2013;369(5):428-437. doi: 10.1056/NEJMoa1301082
+
+13. Yang M, Ahn HJ, Kim K, et al. Does a protective ventilation strategy reduce the risk of pulmonary complications after lung cancer surgery? A randomized controlled trial. Chest. 2011;139(3):530-537. doi: 10.1378/chest.09-2293
+
+14. Richter T, Bellani G, Scott Harris R, et al. Effect of prone position on regional shunt, aeration, and perfusion in experimental acute lung injury. Am J Respir Crit Care Med. 2005;172(4):480-487. doi:10.1164/rccm.200501-004OC
+
+15. Evans L, Rhodes A, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-e1143. doi:10.1097/CCM.0000000000005337
+
+16. Fan E, Del Sorbo L, Goligher EC, et al. An Official American Thoracic Society/European Society of Intensive Care Medicine/Society of Critical Care Medicine Clinical Practice Guideline: Mechanical Ventilation in Adult Patients with Acute Respiratory Distress Syndrome. Am J Respir Crit Care Med. 2017;195(9):1253-1263. doi:10.1164/rccm.201703-0548ST
+
+17. Guérin C, Reignier J, Richard JC, et al. Prone positioning in severe acute respiratory distress syndrome. N Engl J Med. 2013;368(23):2159-2168. doi: 10.1056/NEJMoa1214103.
+
+18. Scholten EL, Beitler JR, Prisk GK, et al. Treatment of ARDS with prone positioning. Chest. 2017;151(1):215-224. doi: 10.1016/j.chest.2016.06.032
+
+19. Ehrmann S, Li J, Ibarra-Estrada M, et al. Awake prone positioning for COVID-19 acute hypoxaemic respiratory failure: a randomised, controlled, multinational, open-label meta-trial. Lancet Respir Med. 2021;9(12):1387-1395. doi: 10.1016/S2213-2600(21)00356-8
+
+Sedation and Comfort for Mechanical Ventilation
+
+Although many patients tolerate mechanical ventilation via endotracheal tube without sedatives (1, 2), some require IV administration of sedatives (eg, propofol, lorazepam, midazolam) and analgesics (eg, morphine, fentanyl) to minimize stress and anxiety. These medications can also reduce energy expenditure to some extent, thereby reducing carbon dioxide production and oxygen consumption. Doses should be titrated to the desired effect, guided by standard sedation/analgesia scoring systems (see tables Richmond Agitation-Sedation Scale and Riker Sedation-Agitation Scale). Patients undergoing mechanical ventilation for ARDS typically require higher levels of sedation and analgesia. There is evidence that continuously administered IV sedation prolongs the duration of mechanical ventilation (3), and light sedation is recommended over deep sedation for critically ill adults requiring mechanical ventilation (4). Additionally, the use of propofol for longer than 24 to 48 hours requires periodic (eg, every 48 hours) monitoring of serum triglyceride levels. Thus, the goal is to achieve adequate but not excessive sedation, which can be accomplished by using continuous sedation with daily interruption or by using intermittent infusions.
+
+Neuromuscular blocking agents are not used routinely in patients undergoing mechanical ventilation because of the risk of prolonged neuromuscular weakness and the need for continuous heavy sedation. Although one study did show reduced mortality at 90 days in patients with early, severe ARDS who received 48 hours of neuromuscular blockade (5), these findings were not replicated in a larger follow-up study in which early neuromuscular blockade in ARDS was compared to lighter sedation without neuromuscular blockade (6). Therefore, routine paralysis for severe ARDS is not recommended. There are, however, some patients who may benefit from neuromuscular blockade, including patients who are unable to tolerate some of the more sophisticated and complicated modes of mechanical ventilation.
+
+Sedation and comfort references
+
+1. Olsen HT, Nedergaard HK, Strøm T, et al. Nonsedation or Light Sedation in Critically Ill, Mechanically Ventilated Patients. N Engl J Med. 2020;382(12):1103-1111. doi:10.1056/NEJMoa1906759
+
+2. Strøm T, Martinussen T, Toft P. A protocol of no sedation for critically ill patients receiving mechanical ventilation: a randomised trial. Lancet. 2010;375(9713):475-480. doi:10.1016/S0140-6736(09)62072-9
+
+3.  Kollef MH, Levy NT, Ahrens TS, Schaiff R, Prentice D, Sherman G. The use of continuous i.v. sedation is associated with prolongation of mechanical ventilation. Chest. 1998;114(2):541-548. doi: 10.1378/chest.114.2.541
+
+4. Devlin JW, Skrobik Y, Gélinas C, et al. Clinical Practice Guidelines for the Prevention and Management of Pain, Agitation/Sedation, Delirium, Immobility, and Sleep Disruption in Adult Patients in the ICU. Crit Care Med. 2018;46(9):e825-e873. doi:10.1097/CCM.0000000000003299
+
+5. Papazian L, Forel JM, Gacouin A, et al. Neuromuscular blockers in early acute respiratory distress syndrome. N Engl J Med. 2010;363(12):1107-1116. doi: 10.1056/NEJMoa1005372
+
+6. National Heart, Lung, and Blood Institute PETAL Clinical Trials Network, Moss M, Huang DT, Brower RG, et al. Early neuromuscular blockade in the acute respiratory distress syndrome. N Engl J Med. 2019;380(21):1997-2008. doi:10.1056/NEJMoa1901686
+
+Complications of Mechanical Ventilation and Safeguards
+
+Complications of mechanical ventilation can be divided into those resulting from:
+
+Endotracheal intubation
+
+Mechanical ventilation itself
+
+Prolonged immobility
+
+Complications of endotracheal intubation
+
+The presence of an endotracheal tube causes risk of sinusitis (which is rarely of clinical importance), ventilator-associated pneumonia, tracheal stenosis, vocal fold injury, and, very rarely, tracheal-esophageal or tracheal-vascular fistula.
+
+Purulent tracheal aspirate in a febrile patient who has an elevated white blood cell count > 48 hours after ventilation has begun suggests ventilator-associated pneumonia.
+
+Complications of mechanical ventilation
+
+Complications of ongoing mechanical ventilation itself include:
+
+Pneumothorax and pneumatoceles
+
+Hypotension
+
+Oxygen toxicity
+
+Ventilator-associated lung injury
+
+Pneumothorax, including tension pneumothorax, and pneumatoceles are a risk, particularly with ventilation at high pressures. If acute hypotension develops in a patient undergoing mechanical ventilation, particularly when it is accompanied by tachycardia and/or a sudden increase in peak inspiratory pressure, tension pneumothorax must always be considered; patients with such findings should immediately have a chest examination and a chest radiograph (or immediate treatment if examination alone is confirmatory).
+
+More commonly, however, hypotension is a sympatholytic effect of sedatives or opioids. It may be the result of decreased venous return due to high intrathoracic pressure in patients receiving high levels of PEEP or in those with high levels of intrinsic PEEP due to asthma or COPD. If no physical findings suggest tension pneumothorax, and if ventilation-related causes of hypotension are possible, pending a portable chest radiograph, the patient may be disconnected from the ventilator and gently bagged manually at 2 to 3 breaths/minute with 100% oxygen while fluids are infused (eg, 500 to 1000 mL of 0.9% saline in adults, 20 mL/kg in children). Immediate improvement suggests a ventilation-related cause, and ventilator settings should be adjusted accordingly.
+
+Oxygen toxicity refers to inflammatory changes, alveolar infiltration, and, eventually, pulmonary fibrosis that can develop following prolonged exposure to high FIO2 (eg, > 0.6). Toxicity is both concentration-dependent and time-dependent. Traditionally, an FIO2> 0.6 should be avoided unless necessary for survival. An FIO2< 0.6 is well tolerated for long periods. Oxygen saturation targets, rather than an FiO2 goal or cutoff, can also be used to minimize hyperoxia (1, 2).
+
+Ventilator-associated lung injury, sometimes termed ventilator-induced lung injury, is alveolar and/or small airway injury related to mechanical ventilation. Possible mechanisms include alveolar overdistention (ie, volutrauma) and the shear forces created by repetitive opening and collapse of alveoli (ie, atelectotrauma), leading to release of inflammatory mediators that results in increased alveolar permeability, fluid accumulation, and loss of surfactant. These inflammatory mediators can result in more lung and distal organ injury (biotrauma).
+
+Pearls & Pitfalls
+
+If acute hypotension develops in a patient undergoing mechanical ventilation, particularly when it is accompanied by tachycardia and/or a sudden increase in peak inspiratory pressure, suspect tension pneumothorax and consider immediate needle or tube thoracostomy.
+
+Complications of immobility
+
+Relative immobility increases the risk of venous thromboembolic disease (eg, deep venous thrombosis, pulmonary embolism), skin breakdown, and atelectasis. In addition, immobility can contribute to prolonged disability after mechanical ventilation.
+
+Safeguards to reduce complications of mechanical ventilation
+
+Most hospitals have standardized protocols to reduce complications. Strategies for decreasing the risk of ventilator-associated pneumonia include minimizing intubation and reintubation, minimizing sedation, providing early enteral nutrition, providing oral care, attending to physical conditioning, and elevating the head of the bed to > 30° (3). Routine nutritional evaluations are mandatory, and enteral tube feedings should be initiated if ongoing mechanical ventilation is anticipated.
+
+Routine repositioning of the patient every 2 to 4 hours is recommended to decrease the risk of skin breakdown and pressure ulcers (4) (see also prevention of pressure ulcers).
+
+All patients receiving mechanical ventilation should receive deep venous thrombosis prophylaxis, preferably with low molecular weight heparin (5), with unfractionated heparin, fondaparinux, and sequential compression device as alternatives depending on the patient's ability to tolerate heparin, bleeding risk, and other individual patient factors.
+
+To prevent stress ulcers and gastrointestinal bleeding, patients should receive a histamine-2 blocker or proton pump inhibitor. Once enteral nutrition is established, pharmacologic stress ulcer prophylaxis may be discontinued in patients at low risk for stress ulcer (6).
+
+Lung protective strategies, including limiting tidal volumes to ≤ 6 mL/kg of ideal body weight, and limiting plateau pressure to ≤ 30 cm H20, are used to reduce the risk of ventilator-associated lung injury, particularly in patients with ARDS (7).
+
+The most effective way to reduce all complications of mechanical ventilation is to limit its duration. Daily “sedation vacations” and spontaneous breathing trials help determine the earliest point at which the patient may be liberated from mechanical support.
+
+Complications of mechanical ventilation references
+
+1. ICU-ROX Investigators and the Australian and New Zealand Intensive Care Society Clinical Trials Group, Mackle D, Bellomo R, et al. Conservative Oxygen Therapy during Mechanical Ventilation in the ICU. N Engl J Med. 2020;382(11):989-998. doi:10.1056/NEJMoa1903297
+
+2. Semler MW, Casey JD, Lloyd BD, et al. Oxygen-Saturation Targets for Critically Ill Adults Receiving Mechanical Ventilation. N Engl J Med. 2022;387(19):1759-1769. doi:10.1056/NEJMoa2208415
+
+3. Klompas M, Branson R, Cawcutt K, et al. Strategies to prevent ventilator-associated pneumonia, ventilator-associated events, and nonventilator hospital-acquired pneumonia in acute-care hospitals: 2022 Update. Infect Control Hosp Epidemiol. 2022;43(6):687-713. doi:10.1017/ice.2022.88
+
+4. Lovegrove J, Fulbrook P, Miles S. International consensus on pressure injury preventative interventions by risk level for critically ill patients: A modified Delphi study. Int Wound J. 2020;17(5):1112-1127. doi:10.1111/iwj.13461
+
+5. Fernando SM, Tran A, Cheng W, et al. VTE Prophylaxis in Critically Ill Adults: A Systematic Review and Network Meta-analysis. Chest. 2022;161(2):418-428. doi:10.1016/j.chest.2021.08.050
+
+6. MacLaren R, Dionne JC, Granholm A, et al. Society of Critical Care Medicine and American Society of Health-System Pharmacists Guideline for the Prevention of Stress-Related Gastrointestinal Bleeding in Critically Ill Adults. Crit Care Med. 2024;52(8):e421-e430. doi:10.1097/CCM.0000000000006330
+
+7. Evans L, Rhodes A, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-e1143. doi:10.1097/CCM.0000000000005337

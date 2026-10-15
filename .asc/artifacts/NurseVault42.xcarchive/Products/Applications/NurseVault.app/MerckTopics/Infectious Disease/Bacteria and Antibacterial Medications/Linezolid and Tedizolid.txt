@@ -1,0 +1,102 @@
+=== Linezolid and Tedizolid (Merck Manual Professional) ===
+Section: Infectious Disease > Bacteria and Antibacterial Medications
+Source: https://www.merckmanuals.com/professional/infectious-diseases/bacteria-and-antibacterial-medications/linezolid-and-tedizolid
+Retrieved: 2026-09-25
+
+Linezolid and tedizolid are oxazolidinone antibiotics.
+
+Linezolid
+
+Linezolid is an oxazolidinone antibiotic that has activity against the following:
+
+Streptococci
+
+Enterococci, including vancomycin-resistant enterococci (VRE)
+
+Staphylococci, including methicillin-resistant S. aureus (MRSA) and other strains resistant to other classes of antibiotics
+
+Mycobacteria, including Mycobacterium tuberculosis
+
+Anaerobes, such as Fusobacterium, Prevotella, Porphyromonas, and Bacteroides species and peptostreptococci
+
+Contraindications to Linezolid
+
+Linezolid is contraindicated in patients with a prior allergic reaction to it.
+
+Linezolid is contraindicated in patients who are taking monamine oxidase inhibitors (MAOIs).
+
+Serotonin syndrome
+
+Linezolid is a reversible, nonselective MAOI; MAO inhibition causes levels of the neurotransmitter serotonin to increase. Thus, linezolid has the potential for causing serotonin syndrome (a hyperserotonergic state characterized by mental status changes, neurologic abnormalities, and autonomic instability) when it is used in patients with either of the following:
+
+Endocrinologically active carcinoid tumors
+
+Use of medications with serotonergic activity
+
+Such medications include selective serotonin reuptake inhibitors, MAOIs (eg, phenelzine, isocarboxazid), tricyclic antidepressants, serotonin 1B,1D receptor agonists (triptans), meperidine, methadone, bupropion, and buspirone. An analysis using data from the FDA Adverse Events Reporting System (FAERS) suggests that linezolid is most likely to cause serotonin syndrome when used with citalopram (or escitalopram) or methadone (1). Subsequent data from cohort studies suggest that linezolid can likely safely be given to most patients taking antidepressants and opioids (2, 3). Thus, patients who are taking such medications and who urgently need linezolid may be treated if the benefit is thought to outweigh the risk. However, the combination of linezolid with citalopram (or escitalopram) or methadone should be avoided when possible.
+
+Patients with recent or ongoing use of any serotonergic medication and linezolid should be carefully monitored for manifestations of serotonin syndrome for 2 weeks after stopping the medication (for fluoxetine, 5 weeks) or for 24 hours after the last linezolid dose.
+
+Linezolid has not been studied in patients with carcinoid syndrome; it should be used only if patients are closely monitored for symptoms and signs of serotonin syndrome.
+
+Hypertension
+
+Linezolid should not be given to the following patients unless they are monitored for potential increases in blood pressure:
+
+Those taking any of the following: Sympathomimetics (eg, pseudoephedrine), vasopressors (eg, epinephrine, norepinephrine), or dopaminergics (eg, dopamine, dobutamine)
+
+Those with uncontrolled hypertension
+
+Those with thyrotoxicosis
+
+Those with a pheochromocytoma
+
+Contraindications references
+
+1. Gatti M, Raschi E, De Ponti F. Serotonin syndrome by drug interactions with linezolid: clues from pharmacovigilance-pharmacokinetic/pharmacodynamic analysis. Eur J Clin Pharmacol. 2021;77(2):233-239. doi:10.1007/s00228-020-02990-1
+
+2. Bai AD, McKenna S, Wise H, Loeb M, Gill SS. Association of Linezolid With Risk of Serotonin Syndrome in Patients Receiving Antidepressants. JAMA Netw Open. 2022;5(12):e2247426. Published 2022 Dec 1. doi:10.1001/jamanetworkopen.2022.47426
+
+3. Mitwally H, Saad MO, Alkhiyami D, et al. Risk of serotonin syndrome in acutely ill patients receiving linezolid and opioids concomitantly: a retrospective cohort study. IJID Reg. 2022;5:137-140. Published 2022 Sep 24. doi:10.1016/j.ijregi.2022.09.008
+
+Use of Linezolid During Pregnancy and Breastfeeding
+
+Animal reproduction studies with linezolid show some risk, and no adequate, well-controlled studies have been done in pregnant women. Linezolid should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.
+
+Whether linezolid is excreted in breast milk or is safe to use during breastfeeding is unknown.
+
+Adverse Effects of Linezolid
+
+Adverse effects of linezolid include
+
+Reversible myelosuppression
+
+Irreversible peripheral neuropathy
+
+Reversible optic neuropathy
+
+Serotonin syndrome
+
+Reversible lactic acidosis
+
+Reversible myelosuppression, including thrombocytopenia, leukopenia, and anemia, occurs in about 3% of patients (percentage is higher in neonates and young children), usually when therapy is used > 2 weeks. Consequently, complete blood count is monitored weekly, especially when therapy lasts > 2 weeks.
+
+Peripheral and optic neuropathy may occur with prolonged use, and patients taking long-term linezolid therapy should be closely monitored for these disorders.
+
+Tedizolid
+
+Tedizolid is an oxazolidinone antibiotic with a spectrum of activity similar to that of linezolid, although it may have activity against some linezolid-resistant gram-positive cocci.
+
+In clinical trials, risk of serotonin syndrome and thrombocytopenia was lower with tedizolid than with linezolid. Tedizolid, like linezolid, can cause significant neutropenia, and the use of these oxazolidinone antibiotics is not recommended in patients with neutrophil counts of < 1000 cells/mcL (< 1 × 109/L) when acceptable alternatives exist.
+
+Use of Tedizolid During Pregnancy and Breastfeeding
+
+Animal reproduction studies with tedizolid show some risk, and no adequate, well-controlled studies have been done in pregnant women. Tedizolid should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.
+
+Whether tedizolid is excreted in breast milk or is safe to use during breastfeeding is unknown.
+
+More Information
+
+The following English-language resource may be useful. Please note that THE MANUAL is not responsible for the content of this resource.
+
+FDA Adverse Events Reporting System (FAERS): A toll that allows users to query FAERS data

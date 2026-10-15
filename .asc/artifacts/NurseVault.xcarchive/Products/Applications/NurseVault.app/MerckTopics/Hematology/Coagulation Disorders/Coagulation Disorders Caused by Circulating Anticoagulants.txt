@@ -1,0 +1,54 @@
+=== Coagulation Disorders Caused by Circulating Anticoagulants (Merck Manual Professional) ===
+Section: Hematology > Coagulation Disorders
+Source: https://www.merckmanuals.com/professional/hematology/coagulation-disorders/coagulation-disorders-caused-by-circulating-anticoagulants
+Retrieved: 2026-09-25
+
+(See also Overview of Coagulation Disorders.)
+
+Circulating anticoagulants should be suspected in patients with excessive bleeding combined with either a prolonged partial thromboplastin time (PTT) or prothrombin time (PT) that does not correct when the test is repeated with a 1:1 mixture of normal plasma and the patient’s plasma.
+
+Autoantibodies directed against protein/phospholipid complexes typically cause arterial and/or venous thrombosis (the antiphospholipid syndrome [APS]). The precise pathophysiology of thrombosis in APS is unknown. Although the protein-phospholipid autoantibodies frequently bind beta-2-glycoprotein 1, it is unclear how this interaction triggers thrombosis. In a subset of patients, the autoantibodies bind to prothrombin-phospholipid complexes and induce hypoprothrombinemia and bleeding.
+
+Factor VIII and Factor IX Inhibitors
+
+Isoantibodies to factor VIII develop in approximately 30% of patients with severe hemophilia A as a complication of repeated exposure to normal factor VIII molecules during replacement therapy (1). Factor VIII autoantibodies also arise occasionally in patients without hemophilia, eg, in postpartum women, as a manifestation of an underlying systemic autoimmune disorder or of transiently disordered immune regulation; or in older patients without overt evidence of other underlying disorders. Patients with a factor VIII inhibitor can develop life-threatening hemorrhage.
+
+Similarly, patients with severe hemophilia B can develop isoantibodies to factor IX, although this is less common, occurring in only approximately 2 to 3% (2).
+
+Plasma containing a factor VIII antibody has a prolonged PTT that does not correct when normal plasma or another source of factor VIII is added in a 1:1 mixture to the patient’s plasma. Testing is done immediately after mixture and again after incubation. Similar testing is done for factor IX antibody.
+
+General references
+
+1. Iorio A, Fischer K, Makris M. Large scale studies assessing anti-factor VIII antibody development in previously untreated haemophilia A: what has been learned, what to believe and how to learn more. Br J Haematol. 2017;178(1):20-31. doi:10.1111/bjh.14610
+
+2. Puetz J, Soucie JM, Kempton CL, Monahan PE. Hemophilia Treatment Center Network (HTCN) Investigators. Prevalent inhibitors in haemophilia B subjects enrolled in the Universal Data Collection database. Haemophilia. 2014;20(1):25-31. doi:10.1111/hae.12229
+
+Treatment of Coagulation Disorders Caused by Circulating Anticoagulants
+
+In patients without hemophilia, cyclophosphamide, glucocorticoids, or rituximab are used to eliminate inhibitors
+
+In patients with hemophilia, immune tolerance induction with long-term high-dose factor replacement is used to eliminate inhibitors
+
+In patients without hemophilia who develop factor inhibitors, therapy with cyclophosphamide, glucocorticoids, or rituximab (monoclonal antibody to CD20 on lymphocytes) is used to suppress autoantibody production. In some patients, the autoantibodies may disappear spontaneously.
+
+In patients with hemophilia A, factor VIII inhibitors are eliminated with immune tolerance induction using high-dose factor VIII replacement. Some protocols include immunosupression in patients with refractory disease.
+
+In patients with hemophilia B and factor IX inhibitors, exposure to factor IX can cause anaphylactic reactions and the nephrotic syndrome. Desensitization to factor IX combined with immunosuppression is a potential strategy to facilitate immune tolerance induction in these patients.
+
+Recombinant human factor VIIa is used to treat acute bleeding episodes in patients with hemophilia A or B with inhibitors or patients without hemophilia who develop factor VIII or IX autoantibodies. Activated prothrombin complex concentrates can also be used to treat bleeding in patients with factor VIII inhibitors with or without hemophilia A. Because activated prothrombin complex concentrates contain factor IX, they cannot be used for treating patients with factor IX inhibitors (1).
+
+Emicizumab is a recombinant humanized bispecific monoclonal antibody that binds to both factor IX and factor X, links them into a factor Xase-like active complex that obviates the need for factor VIII. Emicizumab can be used to prevent or reduce the frequency of bleeding episodes in patients with hemophilia A with or without factor VIII inhibitors. Concizumab, a monoclonal antibody to tissue factor pathway inhibitor (TFPI), reduces the level of TFPI, improving hemostasis despite factor VIII or factor IX deficiency. Concizumab can be used for hemophilia A or B with or without inhibitors. Marstacimab, another humanized monoclonal antibody to TFPI, works in a similar fashion and is used for treatment of hemophilia A or B without inhibitors.
+
+Fitusiran is a small inhibitory RNA directed against antithrombin that inhibits the synthesis of antithrombin in the liver. Reduction of antithrombin levels rebalances hemostasis despite the reduction of factor VIII or IX levels. Fitusiran can be used in patients with hemophilia A or B with or without inhibitors (2, 3).
+
+Recombinant porcine factor VIII is also available for the treatment of patients with hemophilia A with factor VIII autoantibodies (4). The structure of porcine factor VIII differs from human factor VIII. Therefore, porcine factor VIII can be effective for hemostasis in patients with factor VIII inhibitors whose antibodies do not cross react with porcine factor VIII.
+
+Treatment references
+
+1. Kruse-Jarres R, Kempton CL, Baudo F, et al. Acquired hemophilia A: Updated review of evidence and treatment guidance. Am J Hematol. 2017;92(7):695-705. doi:10.1002/ajh.24777
+
+2. Sehgal A, Barros S, Ivanciu L, et al. An RNAi therapeutic targeting antithrombin to rebalance the coagulation system and promote hemostasis in hemophilia. Nat Med. 21:492–497, 2015. doi:10.1038/nm.3847
+
+3. Chowdary P, Lethagen S, Friedrich U, et al. Safety and pharmacokinetics of anti-TFPI antibody (concizumab) in healthy volunteers and patients with hemophilia: A randomized first human dose trial. J Thromb Haemost. 13:743–754, 2015. doi:10.1111/jth.12864
+
+4. Ellsworth P, Chen S-L,  Kasthuri RS, et al. Recombinant porcine FVIII for bleed treatment in acquired hemophilia A: findings from a single-center, 18-patient cohort. Blood Adv 2020. 4 (24): 6240–6249. doi:10.1182/bloodadvances.2020002977

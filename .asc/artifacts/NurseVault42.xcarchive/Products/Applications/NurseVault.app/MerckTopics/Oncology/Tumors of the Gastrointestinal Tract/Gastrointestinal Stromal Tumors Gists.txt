@@ -1,0 +1,60 @@
+=== Gastrointestinal Stromal Tumors (GISTs) (Merck Manual Professional) ===
+Section: Oncology > Tumors of the Gastrointestinal Tract
+Source: https://www.merckmanuals.com/professional/oncology/tumors-of-the-gastrointestinal-tract/gastrointestinal-stromal-tumors-gists
+Retrieved: 2026-09-25
+
+Gastrointestinal stromal tumors (GISTs) are categorized as a type of soft-tissue sarcoma and are the most common type of sarcoma arising within the GI tract. Overall, they are very rare with approximately 4000 to 6000 new cases annually in the United States (1).
+
+GISTs result from mutations in receptor tyrosine kinases. The vast majority are caused by a mutation in the C-KIT gene, whereas some are caused by a mutation in the PDGFRA gene (2). Some are caused by previous radiation therapy to the abdomen for other tumors. The remainder are caused by a variety of less common mutations and are generally referred to as wild-type GISTs.
+
+In one study, 51% of GISTs occurred in the stomach, 36% in the small bowel, and a small number in the esophagus, colon, and rectum (3). Average age at presentation is 50 to 60.
+
+GISTs may arise in people with a genetic syndrome. The 2 most common are
+
+Neurofibromatosis type 1
+
+Familial SDH deficiency (Carney-Stratakis syndrome)
+
+GISTs are often slow growing, but they exhibit a wide array of malignant potential. The malignant potential of a particular GIST is related to where in the GI tract it originates, the size of the primary tumor, and the mitotic rate seen on biopsy (or surgical pathology). Of these, small tumors in the stomach with a low mitotic rate have the most favorable outcomes. Those measuring < 2 cm have very low malignant potential (2 to 5%) and are often managed by observation.
+
+Symptoms of GISTs vary with location but include bleeding, dyspepsia, and obstruction. They are also commonly identified incidentally on imaging that is done for another reason.
+
+References
+
+1. Cancer.Net. Key Statistics for Gastrointestinal Stromal Tumors. Accessed February 6, 2025.
+
+2. Heinrich MC, Corless CL, Duensing A, et al. PDGFRA activating mutations in gastrointestinal stromal tumors. Science. 299(5607):708-710, 2003. doi: 10.1126/science.1079666
+
+3. Tran T, Davila JA, El-Serag HB. The epidemiology of malignant gastrointestinal stromal tumors: An analysis of 1,458 cases from 1992 to 2000. Am J Gastroenterol. 100(1):162–168, 2005. doi: 10.1111/j.1572-0241.2005.40709.x
+
+Diagnosis of GISTs
+
+Endoscopy
+
+Diagnosis of GISTs is usually by endoscopy, with biopsy and endoscopic ultrasound for staging.
+
+Immunohistochemistry with positive staining for CD117 (C-KIT) and DOG-1 are pathognomonic for the diagnosis of GIST.
+
+Once diagnosed, all patients require complete staging with CT of the chest, abdomen, and pelvis.
+
+Treatment of GISTs
+
+Surgical removal
+
+Sometimes adjuvant therapy
+
+Treatment of GISTs depends on the stage and molecular characteristics of the tumor.
+
+For localized GIST, the treatment is surgical removal. Patients with metastatic disease (most commonly to the liver) may also be candidates for surgery depending on the degree of liver involvement, tumor size, and surgical resectability.
+
+For most cases of unresectable or metastatic GIST, the tyrosine kinase inhibitor imatinib can be used when tumors are positive for the KIT protein CD117 (1). It can also be used as adjuvant therapy following resection patients with high-risk features. Following surgery, imatinib is generally given for 3 years, though limited data support longer durations (2). Imatinib is also frequently given before surgery to shrink borderline resectable tumors and make surgery possible or easier. For imatinib-refractory tumors, sunitinib and regorafenib can be used.
+
+Avapritinib, another tyrosine kinase inhibitor, should be used as first-line therapy for patients with a platelet-derived growth factor receptor alpha (PDGFRA) exon 18 mutation, including PDGFRA D842V mutations (3).
+
+Treatment references
+
+1. Dematteo RP, Ballman KV, Antonescu CR, et al. Adjuvant imatinib mesylate after resection of localised, primary gastrointestinal stromal tumour: A randomised, double-blind, placebo-controlled trial. Lancet. 373(9669):1097–1104, 2009. doi: 10.1016/S0140-6736(09)60500-6 Clarification and additional information. Lancet. 374(9688):450, 2009.
+
+2. Raut CP, Espat NJ, Maki RG, et al. Efficacy and Tolerability of 5-Year Adjuvant Imatinib Treatment for Patients With Resected Intermediate- or High-Risk Primary Gastrointestinal Stromal Tumor: The PERSIST-5 Clinical Trial. JAMA Oncol. 2018;4(12):e184060. doi:10.1001/jamaoncol.2018.4060
+
+3. Jones RL, Serrano C, von Mehren M, et al. Avapritinib in unresectable or metastatic PDGFRA D842V-mutant gastrointestinal stromal tumours: Long-term efficacy and safety data from the NAVIGATOR phase I trial. Eur J Cancer. 2021 Mar;145:132-142. doi: 10.1016/j.ejca.2020.12.008

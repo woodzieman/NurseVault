@@ -1,0 +1,62 @@
+=== Immunologic Tests for Infectious Disease (Merck Manual Professional) ===
+Section: Infectious Disease > Laboratory Diagnosis of Infectious Disease
+Source: https://www.merckmanuals.com/professional/infectious-diseases/laboratory-diagnosis-of-infectious-disease/immunologic-tests-for-infectious-disease
+Retrieved: 2026-09-25
+
+Immunologic tests use one of the following:
+
+Antigen to detect antibodies to a pathogen in the patient's specimen
+
+Antibody to detect an antigen of the pathogen in the patient’s specimen
+
+Specimen handling varies, but if testing is to be delayed, the specimen should typically be refrigerated or frozen to prevent overgrowth of bacterial contaminants.
+
+Agglutination tests
+
+In agglutination tests (eg, latex agglutination, coaggregation), very small particles (latex beads, gelatin particles, bacteria) are coupled to a reagent antigen or antibody. The resulting particle complex is mixed with the specimen (eg, cerebrospinal fluid, serum); if the target antibody or antigen is present in the specimen, it cross-links the particles, producing measurable agglutination.
+
+If results are positive, the body fluid is serially diluted and tested. Agglutination with more dilute solutions indicates higher concentrations of the target antigen or antibody. The titer is correctly reported as the reciprocal of the most dilute solution yielding agglutination; eg, 32 indicates that agglutination occurred in a solution diluted to 1/32 of the starting concentration.
+
+Usually, agglutination tests are rapid but less sensitive than many other methods. They can also determine serotypes of some bacteria.
+
+Complement fixation
+
+Complement fixation measures complement-consuming (complement-fixing) antibody in serum or cerebrospinal fluid. The test is used for diagnosis of some viral and fungal infections, particularly coccidioidomycosis.
+
+The specimen is incubated with known quantities of complement and the antigen that is the target of the antibody being measured. The degree of complement fixation indicates the relative quantity of the antibody in the specimen.
+
+The test can measure IgM and IgG antibody titers or can be modified to detect certain antigens. It is accurate but has limited applications, is labor intensive, and requires numerous controls.
+
+Enzyme immunoassays
+
+Enzyme immunoassays use antibodies linked to enzymes to detect antigens and to detect and quantify antibodies. Examples are
+
+Enzyme immunoassay (EIA)
+
+Enzyme-linked immunosorbent assay (ELISA)
+
+Because sensitivities of most enzyme immunoassays are high, they are usually used for screening. Titers can be determined by serially diluting the specimen as for agglutination tests.
+
+Test sensitivities, although usually high, can vary, sometimes according to patient age, microbial serotype, specimen type, or stage of clinical disease.
+
+Precipitation tests
+
+Precipitation tests measure an antigen or antibody in body fluids by the degree of visible precipitation of antigen–antibody complexes within a gel (agarose) or in solution. There are many types of precipitation tests (eg, Ouchterlony double diffusion, counterimmunoelectrophoresis), but their applications are limited.
+
+Usually, a blood specimen is mixed with test antigen to detect patient antibodies, most often in suspected fungal infection or pyogenic meningitis. Because a positive result requires a large amount of antibody or antigen, sensitivity is low.
+
+Western blot test
+
+The Western blot test detects antimicrobial antibodies in the patient’s sample (eg, serum, other body fluid) by their reaction with target antigens (eg, viral components) that have been immobilized onto a membrane by blotting.
+
+The Western blot typically has good sensitivity, although often less than that of screening tests such as ELISA, but generally is highly specific. Thus, it is usually used to confirm a positive result obtained with a screening test.
+
+Technical modifications of the Western blot are
+
+The line immunoassay (LIA)
+
+The recombinant immunoblot assay (RIBA), which uses synthetic or recombinant-produced antigens
+
+Immunochromatographic assays, which can rapidly screen specimens for specific microbial antigens or patient antibodies
+
+Of the 3, the immunochromatographic assay is easiest to do and the most commonly used—eg, to detect Shiga toxin–producing microorganisms, Cryptococcus neoformans capsular antigen, and influenza virus.

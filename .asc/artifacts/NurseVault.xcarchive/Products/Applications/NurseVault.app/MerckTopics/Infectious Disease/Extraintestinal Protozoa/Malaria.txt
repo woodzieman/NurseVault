@@ -1,0 +1,918 @@
+=== Malaria (Merck Manual Professional) ===
+Section: Infectious Disease > Extraintestinal Protozoa
+Source: https://www.merckmanuals.com/professional/infectious-diseases/extraintestinal-protozoa/malaria
+Retrieved: 2026-09-25
+
+Malaria is transmitted to humans by the bites of female Anopheles mosquitoes. Rarely, the infection can also be transmitted via blood transfusion, organ transplantation, sharing of contaminated needles, or congenitally.
+
+About half of the world’s population is at risk of malaria. Malaria is endemic in Africa, India and other areas of South Asia, Southeast Asia, North and South Korea, Mexico, Central America, Haiti, the Dominican Republic, South America (including northern parts of Argentina), the Middle East (including Turkey, Syria, Iran, and Iraq), and Central Asia. The Centers for Disease Control and Prevention (CDC) provides information about specific countries where malaria is transmitted (1), types of malaria, resistance patterns, and recommended prophylaxis (see CDC: Malaria).
+
+One Health: Zoonotic Diseases
+
+video
+
+In 2023, there were an estimated 263 million cases of malaria, with 94% of them in Africa (2). An estimated 597,000 people died of malaria in 2023, mostly children < 5 years of age. From 2000 to 2020, deaths due to malaria had decreased by approximately 30% through the efforts of the RBM (Roll Back Malaria) Partnership to End Malaria, which has > 500 partners (including endemic countries and various organizations and institutions). Despite decades of decline, the number of deaths has been increasing since 2020 as a result of disruptions due to the indirect effects of the COVID-19 pandemic, including disruptions in malaria control interventions, reduced access to health care, supply chain interruptions, and health care system overload.
+
+Malaria was once endemic in the United States. Currently, approximately 2000 cases occur in the United States each year, almost all of which are acquired abroad (3). In 2023, 5 locally acquired mosquito-borne P. vivax malaria cases were identified in Florida and Texas. Previously, domestic mosquito-borne malaria had not occurred in the United States since 2003 (4).
+
+General references
+
+1. Centers for Disease Control and Prevention (CDC). Yellow Fever Vaccine & Malaria Prevention Information, by Country. CDC Yellow Book 2024.
+
+2. World Health Organization (WHO). World malaria report 2024: addressing inequity in the global malaria response.
+
+3. CDC. Malaria. CDC Yellow Book 2024.
+
+4. CDC. Locally Acquired Malaria Cases Identified in the United States. June 2023. Accessed March 19, 2025.
+
+Pathophysiology of Malaria
+
+The Plasmodium species that infect humans are the following:
+
+P. falciparum
+
+P. vivax
+
+P. ovale
+
+P. malariae
+
+P. knowlesi
+
+Concurrent infection with more than one Plasmodium species is uncommon but can occur.
+
+P. knowlesi is a pathogen in Southeast Asia, particularly in Malaysia. Macaque monkeys are the primary hosts (see also Protozoa in Nonhuman Primates). P. knowlesi is usually acquired by people living or working near or in forests.
+
+The basic elements of the life cycle are the same for all Plasmodium species, and 2 hosts are involved: mosquito (gametocyte, oocyst, and sporozoite) and human (schizont, merozoite, and trophozoite).
+
+Transmission begins when a female Anopheles mosquito feeds on a person with malaria and ingests blood containing gametocytes. During the following 1 to 2 weeks, gametocytes inside the mosquito reproduce sexually and produce infective sporozoites. When the mosquito feeds on another human, sporozoites are inoculated into the bloodstream and quickly reach the liver to infect hepatocytes.
+
+The parasites then mature into tissue schizonts within hepatocytes. This process is called exoerythrocytic schizogony. Each schizont produces 10,000 to 30,000 merozoites, which are released into the bloodstream 1 to 3 weeks later when the hepatocyte ruptures. Each merozoite can invade a red blood cell (RBC) and transform into a trophozoite there.
+
+Trophozoites grow, and most develop into erythrocyte schizonts; schizonts produce more merozoites, which 48 to 72 hours later rupture the RBCs and are released in plasma. These merozoites then rapidly invade new RBCs, repeating the cycle. Some trophozoites develop into gametocytes, which are ingested by an Anopheles mosquito. They undergo sexual union in the gut of the mosquito, develop into oocysts, and release infective sporozoites, which migrate to the mosquito's salivary glands.
+
+Plasmodium Life Cycle
+
+Image
+
+1. During a blood meal, a malaria-infected female Anopheles mosquito inoculates Plasmodium sporozoites into a human host.
+
+2–4. Sporozoites infect liver cells and mature into schizonts, which rupture and release merozoites. After this initial replication in the liver (exoerythrocytic schizogony [A]), the parasites undergo asexual multiplication in the erythrocytes (erythrocytic schizogony [B]).
+
+5. Merozoites infect erythrocytes. From erythrocytes, two pathways are possible.
+
+6. In one pathway, the ring stage trophozoites mature into schizonts, which rupture and release more merozoites.
+
+7. In the other pathway, some parasites differentiate into sexual erythrocytic stages (gametocytes).
+
+8. The gametocytes, male (microgametocytes) and female (macrogametocytes), are ingested by an Anopheles mosquito during a blood meal.
+
+9. The parasites’ multiplication in the mosquito is known as the sporogonic cycle (C). While in the mosquito’s gut, the microgametes penetrate the macrogametes and generate zygotes.
+
+10–11. The zygotes in turn become motile and elongated (ookinetes), which invade the midgut wall of the mosquito where they develop into oocysts.
+
+12. The oocysts grow, rupture, and release sporozoites, which make their way to the mosquito’s salivary glands. Inoculation of the sporozoites into a new human host perpetuates the malaria life cycle.
+
+Image from the Centers for Disease Control and Prevention Image Library.
+
+With P. vivax and P. ovale (but not P. falciparum or P. malariae), tissue schizonts may persist as hypnozoites in the liver for years. Relapse of P. ovale has been described to occur as late as 6 years after an episode of symptomatic malaria. These dormant forms serve as time-release capsules, which cause relapses and complicate chemotherapy because they are not killed by most antimalarial drugs that typically act on bloodstream parasites.
+
+The pre-erythrocytic (hepatic) stage of the malarial life cycle is bypassed when infection is transmitted by blood transfusions, by sharing of contaminated needles, or congenitally. Therefore, these modes of transmission do not cause latent disease or delayed recurrences. Similarly, malaria can be transmitted via solid organ transplantation, bypassing the hepatic stage and leading to immediate blood-stage infection; however, this is very rare (1).
+
+The rupture of RBCs causing hemolysis during the release of merozoites is associated with clinical symptoms. If severe, hemolysis causes anemia and jaundice, which are worsened by phagocytosis of infected RBCs in the spleen. Anemia may be severe in P. falciparum or chronic P. vivax infection but tends to be mild in P. malariae infection.
+
+Falciparum malaria
+
+Unlike other forms of malaria, P. falciparum causes microvascular obstruction because infected RBCs adhere to vascular endothelial cells. Ischemia can develop with resultant tissue hypoxia, particularly in the brain, kidneys, lungs, and gastrointestinal tract. Hypoglycemia and lactic acidosis are other potential complications.
+
+Resistance to infection
+
+Most sub-Saharan African populations have complete resistance to P. vivax because they lack the Duffy blood group, which is involved in attachment of P. vivax to RBCs; many African Americans also have such resistance. The development of Plasmodium in RBCs may be delayed in patients with hemoglobin S disease, hemoglobin C disease, thalassemia, G6PD deficiency, or elliptocytosis because of the structural defects present in the RBCs in these conditions.
+
+Previous infections provide partial immunity. Once residents of hyperendemic areas leave, acquired immunity wanes over time (months to years), and symptomatic malaria may develop if they return home and become reinfected.
+
+Pathophysiology reference
+
+1. Rosso F, Agudelo Rojas OL, Suarez Gil CC, et al. Transmission of malaria from donors to solid organ transplant recipients: A case report and literature review. Transpl Infect Dis. 2021;23(4):e13660. doi:10.1111/tid.13660
+
+Symptoms and Signs of Malaria
+
+The incubation period is usually (1):
+
+8 days to 12 months for P. vivax
+
+6 to 30 days for P. falciparum
+
+16 to 18 days or longer for P. ovale
+
+About 1 month (18 to 40 days) or longer (years) for P. malariae
+
+However, some strains of P. vivax in temperate climates may not cause clinical illness for months to > 1 year after infection.
+
+Manifestations common to all forms of malaria include the following:
+
+Fever and rigors—the malarial paroxysm
+
+Anemia
+
+Jaundice
+
+Splenomegaly
+
+Hepatomegaly
+
+Constitutional symptoms (eg, malaise, headache, myalgias, and fatigue)
+
+Malarial paroxysm is caused by the following sequence of events: hemolysis of infected RBCs, release of merozoites and other malaria antigens, and the subsequent inflammatory response they elicit. The classic paroxysm starts with malaise, abrupt chills and fever rising from 39 to 41° C, rapid and thready pulse, polyuria, headache, myalgia, and nausea. After 2 to 6 hours, fever falls, and profuse sweating occurs for 2 to 3 hours, followed by extreme fatigue. Fever can often be hectic (ie, with a wide diurnal variation) at the start of infection. In established infections, malarial paroxysms typically occur every 2 to 3 days depending on the species. Gastrointestinal manifestations may include vomiting and diarrhea.
+
+Splenomegaly usually becomes palpable by the end of the first week of clinical disease but may occur less frequently with P. falciparum. The enlarged spleen is soft and prone to traumatic rupture. Splenomegaly may decrease with recurrent attacks of malaria as functional immunity develops. After many bouts, the spleen may become fibrotic and firm or, in some patients, may become massively enlarged (tropical splenomegaly). As part of the reticuloendothelial system, the spleen becomes congested because of its role in clearing both uninfected and infected RBCs that have undergone structural alterations by the parasite. Hepatomegaly usually accompanies splenomegaly.
+
+During pregnancy, malarial parasites can invade and replicate within the placenta. Malaria during pregnancy is much more likely to cause severe disease and can lead to miscarriage, premature delivery, low birth weight, congenital infection, and/or perinatal death.
+
+P. falciparum manifestations
+
+P. falciparum causes the most severe disease because of its microvascular effects. It is the only species likely to cause fatal disease if untreated; nonimmune patients may die within days of their initial symptoms. Temperature spikes and accompanying symptoms typically occur in an irregular pattern but can become synchronous, occurring in a tertian pattern (temperature spikes at 48-hour intervals, corresponding to the 48-hour erythrocytic cycle of P. falciparum), particularly in residents of endemic areas who are partially immune.
+
+Patients with cerebral malaria may develop symptoms ranging from irritability to seizures and coma. Cerebral malaria primarily occurs in children under 5 years of age living in sub-Saharan Africa, pregnant women in endemic regions, and nonimmune travelers to areas where P. falciparum is prevalent. Acute respiratory distress syndrome (ARDS), diarrhea, icterus, epigastric tenderness, retinal hemorrhages, algid malaria (a shocklike syndrome of severe hypotension and compensatory tachycardia), and severe thrombocytopenia may also occur.
+
+Renal insufficiency may result from volume depletion, glomerular microvascular obstruction by parasitized erythrocytes, or immune complex deposition. Hemoglobinemia and hemoglobinuria resulting from intravascular hemolysis may progress to blackwater fever (so named based on the dark color of the urine), either spontaneously or after treatment with quinine.
+
+Hypoglycemia is common and may be aggravated by quinine treatment and associated hyperinsulinemia.
+
+Placental involvement may lead to low birth weight, spontaneous abortion, stillbirth, or congenital infection.
+
+P. vivax, P. ovale, P. malariae, and P. knowlesi manifestations
+
+P. vivax, P. ovale, and P. malariae typically do not compromise vital organs. Mortality is rare and is mostly due to splenic rupture or uncontrolled hyperparasitemia in patients with asplenia.
+
+The clinical course with P. ovale is similar to that of P. vivax. In established infections, temperature spikes occur in a tertian pattern.
+
+P. malariae infections may cause no acute symptoms, but low-level parasitemia may persist for decades and lead to immune complex–mediated nephritis or nephrosis or tropical splenomegaly; when symptomatic, fever tends to occur at 72-hour intervals (a quartan pattern).
+
+P. knowlesi is associated with the full spectrum of malaria. In contrast to P. falciparum, infection is more likely in males over 15 years of age living close to or working in forested areas. There are typically daily temperature spikes. Severity increases with the patient's age. The short asexual replication cycle of 24 hours can lead to high rates of parasitemia and, if untreated, death. Thrombocytopenia is common, but it is typically not associated with hemorrhage.
+
+Manifestations in patients taking chemoprophylaxis
+
+In patients who have been taking chemoprophylaxis (see table Drugs Used to Prevent Malaria), malaria may manifest atypically. The incubation period may extend weeks to months after the drug is stopped. Those infected may develop headache, backache, and irregular fever, but parasites may initially be difficult to find in blood samples. However, parasitic yield is higher in patients whose immune system is compromised or otherwise overburdened by florid infections (particularly for P. falciparum).
+
+Symptoms and signs reference
+
+1. Centers for Disease Control and Prevention (CDC). General Approach to the Returned Traveler. CDC Yellow Book 2024.
+
+Diagnosis of Malaria
+
+Light microscopy of blood (thin and thick smears)
+
+Rapid diagnostic tests that detect Plasmodium antigens or enzymes in blood
+
+Fever and chills in an immigrant or traveler returning from an endemic region should prompt immediate assessment for malaria. Symptoms usually appear in the first 6 months after infection, but onset may take up to 2 years or, rarely, longer, depending on the specific causative organism. Assistance is available from the CDC for speciating the organism in cases of suspected malaria.
+
+Malaria can be diagnosed by finding parasites on microscopic examination of thick or thin blood smears (1). The infecting species (which determines therapy and prognosis) is identified by characteristic features on smears (see table Diagnostic Features of Plasmodium Species in Blood Smears). If the initial blood smear is negative, additional smears should be repeated at 12- to 24-hour intervals until 3 smears are negative.
+
+Thin blood smears stained with Wright-Giemsa stain allow assessment of parasite morphology within red blood cells (RBCs), often speciation, and determination of the percentage of parasitemia (parasite density). These factors are evaluated using oil immersion magnification of portions of the smear where RBCs are more or less touching, which should show approximately 400 RBCs per field. Thick smears are more sensitive but more difficult to prepare and interpret because the RBCs are lysed before staining. Sensitivity and accuracy of the results depend on the examiner's experience.
+
+Commercially available rapid diagnostic tests for malaria are based on the presence of certain plasmodium antigens or enzymatic activities. A simple rapid immunochromatographic card assay is available for use in the United States. Assays may involve the detection of a histidine-rich protein 2 (HRP-2) associated with malaria parasites (especially P. falciparum) and detection of plasmodium-associated lactate dehydrogenase (pLDH). The rapid diagnostic tests are generally comparable in sensitivity to microscopy in detecting low levels of parasitemia, but they do not differentiate single infection from concurrent infection with more than one Plasmodium species or allow speciation except for P. falciparum.
+
+Light microscopy and rapid diagnostic tests are complementary, and both should be performed when available. They have similar sensitivity. Negative results even in both do not exclude malaria in a patient with low parasitemia.
+
+Polymerase chain reaction for species-specific DNA probes and antibody detection tests can be used but are not widely available at the point of care (see Laboratory Diagnosis tab at CDC: Malaria). They can help identify the infecting Plasmodium species after malaria is diagnosed. Because serologic tests may reflect prior exposure, they are not useful in the diagnosis of acute malaria.
+
+The Centers for Disease Control and Prevention (CDC) in the United States offers specialized diagnostic services for malaria. For further information, see the CDC's Infectious Diseases Laboratories: Malaria Molecular Identification.
+
+Table
+
+Diagnostic Features of Plasmodium Species in Blood Smears
+
+Table
+
+Diagnostic Features of Plasmodium Species in Blood Smears
+
+Diagnostic Features of <i >Plasmodium</i> Species in Blood Smears
+
+Feature
+
+Plasmodium vivax*
+
+Plasmodium falciparum
+
+Plasmodium malariae†
+
+Infected red blood cells (RBCs) enlarged
+
+Yes
+
+No
+
+No
+
+Schüffner dots‡
+
+Yes
+
+No
+
+No
+
+Maurer dots or clefts
+
+No
+
+Yes§
+
+No
+
+Multiple infections in RBCs
+
+Rare
+
+Yes
+
+No
+
+Rings with 2 chromatin dots
+
+Rare
+
+Frequent
+
+No
+
+Crescentic gametocytes
+
+No
+
+Yes
+
+No
+
+Bayonet or band trophozoites
+
+No
+
+No
+
+Yes
+
+Schizonts present in peripheral blood
+
+Yes
+
+Rare
+
+Yes
+
+Number of merozoites per schizont (mean [range])
+
+16 (12–24)
+
+12 (8–24)¶
+
+8 (6–12)
+
+* RBCs infected with P. ovale are fimbriated, oval, and slightly enlarged; the parasites otherwise resemble P. vivax.
+
+† P. knowlesi is morphologically similar to P. malariae and has been confused with it. P. knowlesi should be considered in patients with malaria acquired in Southeast Asia, particularly in Malaysia.
+
+‡ Schüffner dots are best seen when the blood smear is stained with Giemsa stain. They are also seen in P. ovale.
+
+§ This represents trafficking of P. falciparum erythrocyte membrane protein 1 (PfEMP1) to the cell surface; however, this feature is not always visible.
+
+¶ Schizonts are trapped in viscera and usually are not present in peripheral blood.
+
+* RBCs infected with P. ovale are fimbriated, oval, and slightly enlarged; the parasites otherwise resemble P. vivax.
+
+† P. knowlesi is morphologically similar to P. malariae and has been confused with it. P. knowlesi should be considered in patients with malaria acquired in Southeast Asia, particularly in Malaysia.
+
+‡ Schüffner dots are best seen when the blood smear is stained with Giemsa stain. They are also seen in P. ovale.
+
+§ This represents trafficking of P. falciparum erythrocyte membrane protein 1 (PfEMP1) to the cell surface; however, this feature is not always visible.
+
+¶ Schizonts are trapped in viscera and usually are not present in peripheral blood.
+
+Examples of Plasmodium Species in Blood Smears
+
+Maurer Clefts in P. falciparum
+
+This image shows ring-form trophozoites of P. falciparum in a thin blood smear, exhibiting Maurer clefts.
+
+This image shows ring-form trophozoites of P. falciparum in a thin blood smear, exhibiting Maurer clefts.
+
+CDC/DPDx
+
+Trophozoite of P. malariae
+
+This image shows a band-form trophozoite of P. malariae in a thin blood smear.
+
+This image shows a band-form trophozoite of P. malariae in a thin blood smear.
+
+CDC/DPDx
+
+Schizont of P. ovale
+
+This image shows a schizont of P. ovale in a thin blood smear.
+
+This image shows a schizont of P. ovale in a thin blood smear.
+
+CDC/DPDx
+
+Maurer Clefts in P. falciparum
+
+This image shows ring-form trophozoites of P. falciparum in a thin blood smear, exhibiting Maurer clefts.
+
+This image shows ring-form trophozoites of P. falciparum in a thin blood smear, exhibiting Maurer clefts.
+
+CDC/DPDx
+
+Trophozoite of P. malariae
+
+This image shows a band-form trophozoite of P. malariae in a thin blood smear.
+
+This image shows a band-form trophozoite of P. malariae in a thin blood smear.
+
+CDC/DPDx
+
+Schizont of P. ovale
+
+This image shows a schizont of P. ovale in a thin blood smear.
+
+This image shows a schizont of P. ovale in a thin blood smear.
+
+CDC/DPDx
+
+Severity of malaria
+
+Severe malaria is defined by the presence of one of more of the following clinical and laboratory features. Severe malaria tends to result from P. falciparum.
+
+Clinical criteria for severe malaria (2):
+
+Acute respiratory distress syndrome/pulmonary edema
+
+Bleeding
+
+Coma or impaired consciousness
+
+Jaundice
+
+Seizures (recurrent)
+
+Shock
+
+Laboratory criteria for severe malaria (1):
+
+Anemia (severe: < 7 g/dL [70 g/L])
+
+Disseminated intravascular coagulation (DIC)
+
+Hemoglobinuria
+
+Metabolic acidosis
+
+Parasite density (or parasitemia)> 5%
+
+Renal failure
+
+Diagnosis references
+
+1. Miller JM, Binnicker MJ, Campbell S, et al. A Guide to Utilization of the Microbiology Laboratory for Diagnosis of Infectious Diseases: 2018 Update by the Infectious Diseases Society of America and the American Society for Microbiology. Clin Infect Dis. 2018;67(6):e1-e94. doi:10.1093/cid/ciy381
+
+2. Centers for Disease Control and Prevention (CDC). General Approach to the Returned Traveler. CDC Yellow Book 2024.
+
+Treatment of Malaria
+
+Antimalarial drugs
+
+Antimalarial drugs are chosen based on the following:
+
+Disease severity (clinical and laboratory criteria)
+
+Infecting Plasmodium species
+
+Known resistance patterns of strains in the area of acquisition
+
+Efficacy and adverse effects of drugs available
+
+Selecting the appropriate medication is critical, especially in cases of infections due to P. falciparum, P. vivax, or severe malaria (1). Artemisinin-based combination therapy, such as oral artemether/lumefantrine, is the most rapidly active treatment and, in many situations, it is the treatment of choice. Resistance to artemisinins has been reported but is not yet common.
+
+If P. falciparum is suspected, therapy should be initiated immediately, even if the initial smear and rapid diagnostic test are negative. P. falciparum resistance to antimalarial drugs is now widespread, and chloroquine-resistant P. vivax is common in Papua New Guinea and Indonesia and is emerging in some other areas (eg, Southeast Asia, South Asia, the Middle East, East Africa, and the Americas) (2).
+
+In some endemic areas, a significant proportion of locally available antimalarial drugs are counterfeit. Thus, some clinicians advise travelers to remote, high-risk areas to take along a full course of an appropriate treatment regimen to be used if medically confirmed malaria is acquired despite prophylaxis; this strategy also avoids depleting limited drug resources in the destination country.
+
+In cases of febrile illness during travel in an endemic region, prompt professional medical evaluation is essential. When prompt evaluation is not possible (eg, because the region is very remote), self-medication with artemether/lumefantrine or atovaquone/proguanil can be considered pending evaluation. If travelers present with fever after returning from an endemic region and no other diagnosis is made, clinicians should consider giving empiric treatment for uncomplicated malaria even when malaria smears and/or rapid diagnostic tests are negative.
+
+For recommended drugs for treatment and prevention of malaria, see tables Treatment of Malaria and Drugs Used to Prevent Malaria. Common adverse effects and contraindications are in table Adverse Reactions and Contraindications to Antimalarial Drugs. See also the CDC web site (Appendix B: Algorithm for Diagnosing and Treatment for Malaria in the United States) or, for emergency consultation about management, contact the CDC.
+
+The World Health Organization (WHO) guidelines for the diagnosis and treatment of malaria provide useful information on specific therapeutic options for patients who have immigrated from or traveled to endemic countries. It also includes up-to-date information on quinine-derived medications and on malaria vaccines, including those in development (3).
+
+Table
+
+Treatment of Malaria in the United States
+
+Table
+
+Treatment of Malaria in the United States
+
+Treatment of Malaria in the United States
+
+Preferences
+
+Drug
+
+Uncomplicated malaria due to P. falciparum or unknown species acquired in all malarious regions (additional options for malaria acquired in chloroquine-sensitive regions listed below)—Oral drugs
+
+Recommended drug
+
+Artemether/lumefantrine
+
+or
+
+Atovaquone/proguanil
+
+or
+
+Quinine sulfate plus one of the following:
+
+Doxycycline
+
+Tetracycline
+
+Clindamycin
+
+Alternative (if other options cannot be used)
+
+Mefloquine
+
+Additional options for uncomplicated malaria due to P. falciparum or unidentified species acquired in chloroquine-sensitive areas (Central America west of Panama Canal, Haiti, Dominican Republic, most of the Middle East), and P. malariae and P. knowlesi in all regions. If the unidentified species could be P. vivax or P. ovale, terminal treatment with primaquine or tafenoquine is given to prevent relapse (see below)—Oral drugs
+
+Drugs i
+
+Chloroquine
+
+or
+
+Hydroxychloroquine
+
+or
+
+Artemether/lumefantrine
+
+Uncomplicated malaria due to P. vivax (outside of Papua New Guinea and Indonesia where chloroquine resistance is prevalent) or P. ovale in all regions—Oral drugs
+
+Recommended drugsi
+
+Chloroquineor
+
+Hydroxychloroquine
+
+plus
+
+Primaquine
+
+or
+
+Tafenoquine 
+
+For patients ≥ 16 years, adult dose
+
+Only recommended for use with chloroquine
+
+Uncomplicated malaria due to P. vivax acquired in areas known to harbor chloroquine-resistant P. vivax m (Papua New Guinea, Indonesia)—Oral drugs
+
+Recommended drugs
+
+Artemether/lumefantrine
+
+or
+
+Atovaquone/proguanil
+
+or
+
+Quinine plus one of the following:
+
+Doxycycline
+
+Tetracycline
+
+or
+
+Mefloquine
+
+plus, with any of the above regimens
+
+Primaquine
+
+or
+
+Tafenoquine 
+
+For patients ≥ 16 years, adult dose
+
+Only recommended for use with quinine
+
+Severe malaria, all Plasmodium—Parenteral drugs
+
+Recommended drugs
+
+IV artesunate, commercially available, but if it cannot be obtained within 24 hours, contact the CDC Malaria Hotline
+
+(If IV artesunate is not immediately available, start interim oral artemether/lumefantrine or other alternatives. When artesunate arrives, discontinue oral therapy.)
+
+Reassess parasite density 4 or more hours after third dose. When parasite density is < 1% and patient able to tolerate oral therapy, start oral treatment with one of the following:
+
+Artemether/lumefantrine (preferred)
+
+Atovaquone/proguanil
+
+Quinine plus doxycycline (age > 8 years and not pregnant)
+
+Quinine plus clindamycin (in children < 8 years and pregnant patients)
+
+plus, if P. vivax or P. ovale is likely or confirmed
+
+Primaquine
+
+Tafenoquine 
+
+To obtain IV artesunate in the United States, see CDC: Appendix C: How to Acquire IV Artesunate in the United States.
+
+G6PD = glucose-6-phosphate dehydrogenase; CDC = Centers for Disease Control and Prevention.
+
+Adapted from the CDC: Appendix B: Algorithm for Diagnosing and Treatment for Malaria in the United States.
+
+To obtain IV artesunate in the United States, see CDC: Appendix C: How to Acquire IV Artesunate in the United States.
+
+G6PD = glucose-6-phosphate dehydrogenase; CDC = Centers for Disease Control and Prevention.
+
+Adapted from the CDC: Appendix B: Algorithm for Diagnosing and Treatment for Malaria in the United States.
+
+Table
+
+Adverse Reactions and Contraindications to Antimalarial Drugs
+
+Table
+
+Adverse Reactions and Contraindications to Antimalarial Drugs
+
+Adverse Reactions and Contraindications to Antimalarial Drugs
+
+Drug
+
+Some Adverse Reactions
+
+Contraindications
+
+Artemether/lumefantrine
+
+Headache, anorexia, dizziness, asthenia (usually mild)
+
+With lumefantrine, prolonged QT interval
+
+Allergy to artemether/lumefantrine
+
+During pregnancy, used if potential benefit justifies potential risk to fetus, which is usually the case in the second and third trimesters and probably the first
+
+Use of mefloquine prophylaxis
+
+Artesunate
+
+Asthenia, anorexia (usually mild)
+
+Delayed hemolysis (hemoglobin levels should be monitored for 4 weeks after therapy)
+
+Allergy to artesunate
+
+During pregnancy, used if potential benefit justifies potential risk to fetus, which is the case in most patients with severe malaria requiring parenteral therapy
+
+Atovaquone/proguanil
+
+Gastrointestinal disturbances (abdominal pain, nausea, vomiting, diarrhea), headache, dizziness, rash, pruritus
+
+Not recommended for use by pregnant people due to insufficient data on its safety in pregnancy
+
+Hypersensitivity, breastfeeding (chestfeeding)*, severe renal impairment (creatinine clearance < 30 mL/min)
+
+Chloroquine
+
+Hydroxychloroquine
+
+Gastrointestinal disturbances, headaches, dizziness, blurred vision, rashes or pruritus, exacerbation of psoriasis, blood dyscrasias, alopecia, ECG changes including prolonged QTc interval, retinopathy, psychosis (rare)
+
+Hypersensitivity, retinal or visual field disorders, or potential drug interactions resulting in prolonged QTc interval and arrhythmia
+
+Clindamycin
+
+Hypotension, bone marrow toxicity, renal dysfunction, rashes, jaundice, tinnitus, Clostridium difficile infection (pseudomembranous colitis)
+
+Hypersensitivity
+
+Doxycycline
+
+Gastrointestinal upset, photosensitivity, vaginal candidiasis, C. difficile infection, erosive esophagitis
+
+Pregnancy
+
+Children < 8 years
+
+Halofantrine
+
+Prolongation of PR and QT intervals, cardiac arrhythmia, hypotension, gastrointestinal disturbances, dizziness, mental changes, seizures, sudden death
+
+During pregnancy, used only if potential benefit justifies potential risk to fetus
+
+Cardiac conduction defects, familial QT prolongation, use of drugs that affect QT interval, hypersensitivity
+
+Mefloquine
+
+Bad dreams, neuropsychiatric symptoms, dizziness, vertigo, confusion, psychosis, seizures, sinus bradycardia, gastrointestinal disturbances
+
+Hypersensitivity, history of seizures or psychiatric disorders, cardiac conduction disturbances or arrhythmia, coadministration of drugs that may prolong cardiac conduction (eg, beta-blockers, calcium channel blockers, quinine, quinidine, halofantrine), occupations that require fine coordination and spatial discrimination and in which vertigo may be life threatening
+
+Quinine
+
+Gastrointestinal disturbances, tinnitus, visual disturbances, allergic reactions, mental changes, arrhythmias, cardiotoxicity
+
+Hypersensitivity, G6PD deficiency, optic neuritis, tinnitus, pregnancy (relative contraindication), past adverse quinine reaction (continuous ECG, blood pressure [when drug is given IV], and glucose monitoring recommended)
+
+Quinidine
+
+Arrhythmias, widened QRS complex, prolonged QTc interval, hypotension, hypoglycemia
+
+Hypersensitivity, thrombocytopenia (continuous ECG, blood pressure, and glucose monitoring recommended)
+
+No loading dose in patients receiving > 40 mg/kg of quinine in the preceding 48 hours or a dose of mefloquine in preceding 12 hours
+
+Primaquine
+
+Severe intravascular hemolysis in people with G6PD deficiency, gastrointestinal disturbances, leukopenia, methemoglobinuria
+
+Concomitant use of quinacrine or potentially hemolytic or bone marrow suppressing agents, G6PD deficiency, pregnancy (because G6PD status of the fetus is unknown)
+
+Pyrimethamine/sulfadoxine
+
+Erythema multiforme, Stevens-Johnson syndrome, toxic epidermal neurolysis, urticaria, exfoliative dermatitis, serum sickness, hepatitis, seizures, mental changes, gastrointestinal disturbances, stomatitis, pancreatitis, bone marrow toxicity, hemolysis, fever, nephrosis
+
+Hypersensitivity, folate deficiency anemia, infants ≤ 2 months, pregnancy, breastfeeding
+
+Tafenoquine
+
+Severe intravascular hemolysis in patients with G6PD deficiency, psychiatric reactions, methemoglobinemia, gastrointestinal disturbances, hypersensitivity reactions
+
+G6PD deficiency, pregnancy (because G6PD status of the fetus is unknown), breastfeeding (unless child is known to have normal G6PD), psychotic disorder, known hypersensitivity
+
+Children < 16 years
+
+* Pregnant and breastfeeding patients should not be prescribed atovaquone/proguanil. Proguanil is excreted in human milk; whether atovaquone is excreted in human milk is unknown. Safety and effectiveness of these drugs have not been established in children who weigh < 5 kg.
+
+G6PD = glucose-6-phosphate dehydrogenase.
+
+* Pregnant and breastfeeding patients should not be prescribed atovaquone/proguanil. Proguanil is excreted in human milk; whether atovaquone is excreted in human milk is unknown. Safety and effectiveness of these drugs have not been established in children who weigh < 5 kg.
+
+G6PD = glucose-6-phosphate dehydrogenase.
+
+Clinical Calculators
+
+QT Interval Correction (EKG)
+
+P. falciparum malaria
+
+For uncomplicated P. falciparum malaria, oral options include artemether/lumefantrine and atovaquone/proguanil. These medications are not recommended for use during pregnancy, especially in the first trimester because of insufficient safety data, but may be prescribed if other options are unavailable or poorly tolerated and if the benefits outweigh the risks. Patients should take both artemether/lumefantrine and atovaquone/proguanil with food or a fatty drink such as milk to enhance absorption. 
+
+Alternatively, mefloquine may be given; it can be prescribed to adults and children of all ages, including during pregnancy. Mefloquine is contraindicated in patients with a history of psychiatric disorders, seizures, or cardiac conduction abnormalities. It is less effective for P. falciparum malaria in Southeast Asia where resistance is common.
+
+As a third option, quinine sulfate plus doxycycline, tetracycline, or clindamycin may also be given. In Southeast Asia, relative resistance to quinine has increased, and treatment should be continued for 7 days. In other regions, treatment is for 3 days. To reduce the risk of gastrointestinal adverse effects, patients should take quinine with food. Quinine plus doxycycline or tetracycline is generally preferred to quinine plus clindamycin because efficacy data are more extensive. Tetracyclines are contraindicated in pregnancy and in children < 8 years of age.
+
+Chloroquine is an option for P. falciparum malaria in Haiti, Dominican Republic, Central America west and north of the Panama Canal, and parts of the Middle East. However, resistance to chloroquine is now widespread among P. falciparum elsewhere in the world.
+
+Due to the risk of progression to severe disease in patients with P. falciparum infection, patients should be hospitalized to monitor clinical response and to check parasite density every 12 to 24 hours until clinical presentation improves and a decrease in parasite density becomes apparent (4).
+
+P. vivax malaria or P. ovale malaria
+
+The World Health Organization (WHO) recommends treating uncomplicated P. vivax malaria with a blood schizonticide such as chloroquine or an artemisinin-based combination therapy to clear asexual parasites, followed by primaquine for 14 days to eradicate hypnozoites and prevent relapse. This approach is termed radical cure (3).
+
+In areas without chloroquine resistance, a 3-drug regimen of chloroquine or hydroxychloroquine, primaquine, and tafenoquine is initiated.
+
+In areas with chloroquine resistance, a multidrug regimen of artemether/lumefantrine or atovaquone/proguanil or quinine plus either doxycycline or another tetracycline, or mefloquine plus primaquine or tafenoquine is initiated.
+
+The use of oral primaquine or tafenoquine requires prior glucose-6-phosphate dehydrogenase (G6PD) screening to prevent potential hemolytic anemia. Tafenoquine is recommended only for patients > 16 years of age who received chloroquine for treatment during the acute phase of disease.
+
+Severe malaria
+
+Severe malaria typically occurs when treatment of uncomplicated malaria is delayed. It can lead to life-threatening complications involving multiple organ systems. Without prompt treatment, severe malaria has a high risk of death.
+
+Severe malaria is most often caused by P. falciparum. It requires urgent treatment, preferably with IV artesunate, which is the only drug available in the United States for parenteral treatment of severe malaria (or for patients who cannot take drugs orally).
+
+If IV artesunate cannot be obtained within 24 hours, interim oral therapy should be started with artemether/lumefantrine, atovaquone/proguanil, quinine sulfate (plus IV doxycycline or clindamycin), or, if nothing else is available, mefloquine. In patients who are vomiting, an antiemetic may be helpful. Those who cannot swallow (eg, because of delirium) may be given crushed tablets of artemether/lumefantrine or atovaquone/proguanil through a nasogastric tube. If taken orally, artemether/lumefantrine should be combined with food to enhance absorption, and, if patients vomit within 30 minutes of administration, the dose should be repeated. In regions where malaria is endemic, patients can be treated with IM artesunate, rectal artesunate, IM artemether, or IM quinine, with expedited follow-up care at a referral center for the administration of IV artesunate (1).
+
+The following groups are at high risk of severe disease and may have limited treatment options in some cases:
+
+Children < 5 years of age (mortality is highest in those < 2 years)
+
+Pregnant patients
+
+People who have HIV infection or who are otherwise immunocompromised
+
+Previously unexposed visitors to endemic areas
+
+Due to the risk of delayed hemolysis, which is a frequent complication in hyperparasitemic malaria treated with IV artesunate (5), hemoglobin levels should be monitored for 4 weeks after therapy.
+
+Pearls & Pitfalls
+
+Time is of the essence in treating severe malaria. Begin treatment with IV artesunate as soon as possible. Start interim oral therapy with other drugs if IV artesunate is not immediately available. 
+
+Treatment references
+
+1. Daily JP, Parikh S. Malaria. N Engl J Med. 2025;392(13):1320-1333. doi:10.1056/NEJMra2405313
+
+2. Ferreira MU, Nobrega de Sousa T, Rangel GW, et al: Monitoring Plasmodium vivax resistance to antimalarials: persisting challenges and future directions. Int J Parasitol Drug-Drug Resist. 2021;15:9-24. doi:10.1016/j.ijpddr.2020.12.001
+
+3. World Health Organization (WHO). WHO guidelines for malaria. 2024.
+
+4. Centers for Disease Control and Prevention (CDC). Alternative and Novel Drug Based Prevention Approaches. Accessed March 20, 2025.
+
+5. Aldámiz-Echevarría LT, López-Polín A, Norman FF, et al. Delayed haemolysis secondary to treatment of severe malaria with intravenous artesunate: Report on the experience of a referral centre for tropical infections in Spain. Travel Med Infect Dis. 2017;15:52-56. doi:10.1016/j.tmaid.2016.10.013
+
+Prevention of Relapses of P. vivax or P. ovale Malaria
+
+Hypnozoites must be eliminated from the liver with primaquine or tafenoquine to prevent relapses of P. vivax or P. ovale. Primaquine or tafenoquine may be given simultaneously with chloroquine or afterward. Some P. vivax strains are less sensitive, and relapse may occur, requiring repeated treatment. Primaquine is not necessary for P. falciparum or P. malariae because these species do not have a persistent hepatic phase.
+
+If exposure to P. vivax or P. ovale is intense or prolonged or if travelers have asplenia, a 14-day prophylactic course of primaquine or a single dose of tafenoquine starting when travelers return reduces the risk of recurrence. The main adverse effect is hemolysis in people with glucose-6-phosphate dehydrogenase (G6PD) deficiency. G6PD levels should be determined before primaquine or tafenoquine is given.
+
+Primaquine is contraindicated during pregnancy and breastfeeding (chestfeeding), unless the infant has been shown not to be G6PD deficient. In pregnant patients, chemoprophylaxis with weekly chloroquine can be given for the remainder of pregnancy, and after delivery, patients can be given primaquine, provided they are not G6PD deficient.
+
+Prevention of Malaria
+
+There are several approaches to malaria prevention, including measures to prevent mosquito bites, chemoprophylaxis with antimalarial drugs, and vaccines for selected patients.
+
+Monoclonal antibodies for malaria prevention are in development with promising safety and efficacy profiles (1).
+
+Prophylactic measures against mosquitoes
+
+Prophylactic measures against mosquitoes include the following:
+
+Using permethrin- or pyrethrum-containing residual insecticide sprays (which have prolonged duration of action) inside the house as well as in outhouses
+
+Placing screens on doors and windows
+
+Using mosquito netting (preferably impregnated with permethrin or pyrethrum) around beds
+
+Treating clothing and gear (eg, boots, pants, socks, tents) with products containing 0.5% permethrin, which remain protective through several washings (pretreated clothing is available and may protect longer)
+
+Applying mosquito repellents such as DEET (diethyltoluamide) 25 to 35% to exposed skin
+
+Wearing protective long-sleeved shirts and pants, especially between dusk and dawn, when Anopheles mosquitoes are active
+
+People who plan to use repellents that contain DEET should be instructed to do the following:
+
+Apply repellents only to exposed skin as directed on the label and use them sparingly around the ears (they should not be applied to or sprayed in the eyes or mouth).
+
+Wash hands after application.
+
+Not allow children to handle repellents (adults should apply the repellent to their hands first, then gently spread it on the child's skin).
+
+Apply just enough repellent to cover the exposed area.
+
+Wash the repellant off after returning indoors.
+
+Wash clothes before wearing them again, unless indicated otherwise by the product label.
+
+Most repellents can be used on infants and children < 2 months. The Environmental Protection Agency does not recommend additional precautions for using registered repellents on children or on pregnant or breastfeeding patients.
+
+Chemoprophylaxis with antimalarial drugs
+
+Travelers to endemic regions should be given chemoprophylaxis (see table Drugs Used to Prevent Malaria). Information about countries where malaria is endemic, resistance patterns, and recommended prophylaxis is available from the CDC (see Yellow Fever Vaccine and Malaria Prevention Information, by Country).
+
+For chemoprophylaxis, atovaquone/proguanil and doxycycline are initiated 1 to 2 days before travel and are used for the duration of travel. Atovaquone/proguanil is continued for 7 days and doxycycline for 4 weeks after leaving the area.
+
+Primaquine is used as terminal prophylaxis (radical cure) to reduce risk of relapse in people who have taken chloroquine, hydroxychloroquine, or a drug active against chloroquine-resistant malaria as prophylaxis for prolonged exposure to P. vivax and/or P. ovale. Alternatively, a single dose of tafenoquine can be used in patients who have received chloroquine for P. vivax prophylaxis. Primaquine or tafenoquine alone can also be used for primary prophylaxis in people at risk of malaria, particularly due to P. vivax. Primaquine and tafenoquine are contraindicated in people with G6PD deficiency and in pregnant or breastfeeding patients (unless the breastfed infant has a normal G6PD level).
+
+Table
+
+Drugs Used to Prevent Malaria
+
+Table
+
+Drugs Used to Prevent Malaria
+
+Drugs Used to Prevent Malaria
+
+Drug*
+
+Use
+
+Comments
+
+Atovaquone/proguanil
+
+In all areas
+
+Begun 1–2 days before travel and continued daily during the stay and for 7 days after leaving
+
+Contraindicated in pregnant and breastfeeding (chestfeeding) patients
+
+Chloroquine
+
+Only in areas with chloroquine-sensitive Plasmodium
+
+Begun 1–2 weeks before travel and continued weekly during the stay and for 4 weeks after leaving
+
+Doxycycline
+
+In all areas
+
+Begun 1–2 days before travel and continued during the stay and for 4 weeks after leaving
+
+Hydroxychloroquine
+
+An alternative to chloroquine only in areas with chloroquine-sensitive Plasmodium
+
+Begun 1–2 weeks before travel and continued during the stay and for 4 weeks after leaving
+
+Mefloquine
+
+In areas with mefloquine-sensitive Plasmodium
+
+Begun ≥ 2 weeks before travel and continued during the stay and for 4 weeks after leaving
+
+Contraindicated in patients with a history of depression, other psychologic problems, or seizures; not recommended for patients with cardiac conduction abnormalities
+
+Primaquine
+
+For primary prophylaxis for brief travel in areas known to harbor mainly P. vivax
+
+Begun 1 to 2 days before travel and continued daily during the stay and for 7 days after departure
+
+Document that the G6PD level is normal before use
+
+Contraindicated in people with G6PD deficiency and in pregnant and breastfeeding patients unless the breastfed infant has a normal G6PD level
+
+For terminal prophylaxis to prevent relapse of infection in people with substantial exposure to or infection with P. vivax or P. ovale during travel
+
+Given daily for 14 days after departure from endemic area. Document that the G6PD level is normal before use
+
+Contraindications as above
+
+Tafenoquine
+
+For primary prophylaxis in travelers to all areas ≥ 16 years of age
+
+Given daily for 3 days before travel, once weekly during travel, and once 7 days after departure from endemic area
+
+G6PD deficiency or unknown G6PD status; all patients should be tested for G6PD deficiency prior to use
+
+Pregnant and breastfeeding patients unless the breastfed infant has a normal G6PD level; known hypersensitivity
+
+Psychiatric adverse reactions have been observed
+
+Use with caution in patients with a history of psychiatric illness
+
+For terminal prophylaxis in people > 18 years of age with substantial exposure to or infection with P. vivax or P. ovale during travel
+
+* Preventive drugs are given orally. See also table Adverse Reactions and Contraindications of Antimalarial Drugs.
+
+G6PD = glucose-6-phosphate dehydrogenase.
+
+Adapted from Centers for Disease Control and Prevention (CDC): Malaria. CDC Yellow Book 2024.
+
+* Preventive drugs are given orally. See also table Adverse Reactions and Contraindications of Antimalarial Drugs.
+
+G6PD = glucose-6-phosphate dehydrogenase.
+
+Adapted from Centers for Disease Control and Prevention (CDC): Malaria. CDC Yellow Book 2024.
+
+Malaria during pregnancy poses a serious threat to both the pregnant patient and fetus. Chloroquine can be used during pregnancy in areas where Plasmodium species are susceptible. Pregnant patients should still avoid travel to chloroquine-resistant areas whenever possible. Treatment of malaria during pregnancy depends on the infecting Plasmodium species and known resistance patterns in the area of acquisition (see CDC: Treatment of Malaria: Guidelines For Clinicians (United States): Alternatives for Pregnant Women).
+
+Mefloquine can be prescribed to adults and children of all ages, including during pregnancy and breastfeeding. Doxycycline, atovaquone/proguanil, primaquine, and tafenoquine should not be used during pregnancy.
+
+Artemisinins have a short half-life and are not useful for prophylaxis.
+
+Vaccination
+
+In October 2021, the World Health Organization (WHO) recommended widespread use of the RTS,S/AS01 (RTS,S) malaria vaccine among children in sub-Saharan Africa and in other regions with moderate to high P. falciparum malaria transmission. This vaccine has since been shown to significantly reduce malaria infection among young children.
+
+In October 2023, the WHO recommended a second safe and effective malaria vaccine, R21/Matrix-M. (See WHO: Malaria vaccines (RTS,S and R21).)
+
+Prevention reference
+
+1. Wang LT, Idris AH, Kisalu NK, Crompton PD, Seder RA. Monoclonal antibodies to the circumsporozoite proteins as an emerging tool for malaria prevention. Nat Immunol. 2024;25(9):1530-1545. doi:10.1038/s41590-024-01938-2
+
+Key Points
+
+In 2023, there were an estimated 263million people with malaria worldwide, and 597,000 known deaths occurred, mostly in children < 5 years in Africa; since 2000, deaths due to malaria have decreased by about 60%.
+
+Plasmodium falciparum causes microvascular obstruction and tissue ischemia, particularly in the brain, kidneys, lungs, and gastrointestinal tract of nonimmune infants and adults; patients may die within days of their initial symptoms.
+
+P. vivax, P. ovale, and P. malariae typically do not compromise vital organs; mortality is rare. The full clinical spectrum of malaria can occur with P. knowlesi. Its short asexual replication cycle can result in high parasitemia and severe, potentially fatal disease if untreated.
+
+Manifestations include recurrent fever and rigor, headache, myalgia, vomiting, diarrhea, and nausea; hemolytic anemia and splenomegaly are common.
+
+Diagnose using light microscopy of blood (thin and thick smears) and rapid diagnostic blood tests; DNA- and antibody-based polymerase chain reaction (PCR) testing is available via research center.
+
+Treatment is with antimalarial drugs based on the species (if known) and drug resistance patterns in the area in which infection was acquired.
+
+Artemisinin-based therapy (eg, artemether/lumefantrine, artesunate, other artemisinin compounds) is the most rapidly active; atovaquone plus proguanil is an alternative for patients with uncomplicated malaria.
+
+Use primaquine or tafenoquine for confirmed or suspected infections with P. vivax and P. ovale to prevent relapse unless patients are pregnant, breastfeeding, have G6PD deficiency, or their G6PD status is unknown.
+
+Severe malaria requires urgent treatment. Due to the risk of progression to severe disease in patients with P. falciparum infection, patients should be hospitalized as soon as possible to monitor clinical response.
+
+Give chemoprophylaxis to travelers to endemic areas, and teach them to prevent mosquito bites.

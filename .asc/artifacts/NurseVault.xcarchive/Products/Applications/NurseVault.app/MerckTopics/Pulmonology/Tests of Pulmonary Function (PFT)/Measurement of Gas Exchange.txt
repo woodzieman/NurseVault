@@ -1,0 +1,212 @@
+=== Measurement of Gas Exchange (Merck Manual Professional) ===
+Section: Pulmonology > Tests of Pulmonary Function (PFT)
+Source: https://www.merckmanuals.com/professional/pulmonary-disorders/tests-of-pulmonary-function-pft/measurement-of-gas-exchange
+Retrieved: 2026-09-25
+
+Gas exchange is measured through several means, including
+
+Diffusing capacity for carbon monoxide
+
+Pulse oximetry
+
+Arterial blood gas sampling
+
+Diffusing Capacity for Carbon Monoxide
+
+The diffusing capacity of the lungs for carbon monoxide (DLCO) is a measure of the ability of gas to transfer from the alveoli across the alveolar epithelium and the capillary endothelium to the red blood cells. The DLCO depends not only on the area and thickness of the blood-gas barrier but also on the volume of blood in the pulmonary capillaries. The distribution of alveolar volume and ventilation also affect the measurement.
+
+DLCO is measured by sampling end-expiratory gas for carbon monoxide (CO) after patients inspire a small amount of carbon monoxide, hold their breath, and exhale. Measured DLCO should be evaluated along with alveolar volume (which is estimated from dilution of helium) and the patient’s hematocrit. DLCO is reported as mL/minute/mm Hg and as a percentage of a predicted value expressed as a z-score (1).
+
+Conditions that decrease DLCO
+
+Conditions that primarily affect the pulmonary vasculature, such as primary pulmonary hypertension and pulmonary embolism, decrease DLCO. Conditions that affect the lung diffusely, such as emphysema and pulmonary fibrosis, decrease both DLCO and alveolar ventilation (VA). Reduced DLCO also occurs in patients with previous lung resection because total lung volume is smaller, but DLCO corrects to or even exceeds normal when evaluated along with VA because increased additional vascular surface area is recruited in the remaining lung. Patients with anemia have lower DLCO values that correct when adjusted for hemoglobin values.
+
+Conditions that increase DLCO
+
+Conditions that cause DLCO to be higher than predicted include:
+
+Erythrocythemia
+
+Alveolar hemorrhage
+
+Asthma
+
+In erythrocythemia, DLCO is increased because hematocrit is increased and because of the vascular recruitment that occurs with increased pulmonary pressures due to increased viscosity.
+
+In alveolar hemorrhage, erythrocytes in the alveolar space can also bind carbon monoxide, increasing DLCO.
+
+In asthma, the mechanism for the increase in DLCO is not definitively established.
+
+Clinical Calculators
+
+Diffusing capacity for carbon monoxide (DLCO) corrected for anemia
+
+DLCO reference
+
+1. Graham BL, Brusasco V, Burgos F, et al. 2017 ERS/ATS standards for single-breath carbon monoxide uptake in the lung [published correction appears in Eur Respir J 2018 Nov 22;52(5):]. Eur Respir J 2017;49(1):1600016. doi:10.1183/13993003.00016-2016
+
+Pulse Oximetry
+
+Transcutaneous pulse oximetry estimates oxygen saturation (SpO2) of capillary blood based on the absorption of light from light-emitting diodes positioned in a finger clip (toe clip in some children) or adhesive strip probe. The estimates are generally very accurate and correlate to within 2 to 5% for measured arterial oxygen saturation (SaO2) between the ranges of 70% and 100% (1). Results may be less accurate in patients with:
+
+Highly pigmented skin
+
+Arrhythmias
+
+Hypotension
+
+Profound systemic vasoconstriction
+
+Pulse oximetry results are also less accurate in patients wearing nail polish (ie, due to alterations in light absorption at the nail bed); however, this variability may not be of clinical significance (2).
+
+Pulse oximetry is able to detect only oxyhemoglobin or reduced hemoglobin but not other types of hemoglobin. It is inaccurate when blood levels of carboxyhemoglobin are increased, as occurs in carbon monoxide poisoning and methemoglobinemia.
+
+Pulse oximetry references
+
+1. Jensen LA, Onyskiw JE, Prasad NG. Meta-analysis of arterial oxygen saturation monitoring by pulse oximetry in adults. Heart Lung. 1998;27(6):387-408. doi:10.1016/s0147-9563(98)90086-3
+
+2. Aggarwal AN, Agarwal R, Dhooria S, Prasad KT, Sehgal IS, Muthu V. Impact of Fingernail Polish on Pulse Oximetry Measurements: A Systematic Review. Respir Care. 2023;68(9):1271-1280. doi:10.4187/respcare.10399
+
+Arterial Blood Gas (ABG) Sampling
+
+ABG sampling is done to obtain accurate measures of the partial pressure of arterial oxygen (PaO2), the partial pressure of arterial carbon dioxide (PaCO2), and arterial pH; these variables, adjusted for the patient’s temperature, allow for calculation of bicarbonate level (which can also be measured directly from venous blood) and oxygen saturation. ABG sampling can also accurately measure carboxyhemoglobin and methemoglobin.
+
+The radial artery is usually used. Because arterial puncture in rare cases leads to thrombosis and impaired perfusion of distal tissue, the Allen test may be done to assess adequacy of collateral circulation. With this maneuver, the radial and ulnar pulses are simultaneously occluded until the patient's hand becomes pale. The ulnar pulse is then released while pressure on the radial pulse is maintained. If the entire hand returns to baseline color within 5 to 15 seconds of release of the ulnar pulse, it suggests adequate flow through the ulnar artery; if it does not, this is considered a positive Allen test and reflective of insufficient ulnar collateral flow (1).
+
+Under sterile conditions, a 22- to 25-gauge needle attached to a heparin-treated syringe is inserted just proximal to the maximal impulse of the radial arterial pulse and advanced slightly distally into the artery until pulsatile blood is returned. Systolic blood pressure is usually sufficient to push back the syringe plunger. After 3 to 5 mL of blood is collected, the needle is quickly withdrawn, and firm pressure is applied to the puncture site to facilitate hemostasis. Simultaneously, air bubbles from the ABG specimen are released, the syringe is sealed and placed on ice to reduce oxygen consumption and carbon dioxide production by white blood cells, and then sent to the laboratory.
+
+Hypoxemia
+
+Hypoxemia is a decrease in the partial pressure of oxygen in arterial blood (PaO2).
+
+Hypoxia, which is different from hypoxemia, is a decrease in the partial pressure of oxygen (PO2) in the tissue.
+
+Hypoxemia often causes hypoxia. However, hypoxemia may occur without hypoxia because multiple compensatory mechanisms can maintain tissue oxygenation despite low arterial oxygen levels (eg, increased ventilatory drive, cardiovascular compensation, erythrocytosis).
+
+ABGs accurately assess the presence of hypoxemia, which is generally defined as a PaO2 low enough to reduce the SaO2 below 90% (ie, PaO2 < 60 mm Hg). Abnormalities in hemoglobin (eg, methemoglobin), higher temperatures, lower pH, and higher levels of 2,3-diphosphoglycerate reduce hemoglobin SaO2 despite an adequate PaO2, as indicated by the oxyhemoglobin dissociation curve (see figure Oxyhemoglobin Dissociation Curve).
+
+Oxyhemoglobin Dissociation Curve
+
+Arterial oxyhemoglobin saturation is related to PO2. PO2 at 50% saturation (P50) is normally 27 mm Hg.
+
+The dissociation curve is shifted to the right by increased hydrogen ion (H+) concentration, increased red blood cell 2,3-diphosphoglycerate (DPG), increased temperature (T), and increased PCO2.
+
+Decreased levels of H+, DPG, temperature, and PCO2 shift the curve to the left.
+
+Hemoglobin characterized by a rightward shifting of the curve has a decreased affinity for oxygen, and hemoglobin characterized by a leftward shifting of the curve has an increased affinity for oxygen.
+
+Causes of hypoxemia can be classified based on whether the alveolar-arterial PO2 gradient [(A-a)DO2], defined as the difference between alveolar oxygen tension (PAO2) and PaO2, is elevated or normal (see table Equations for Calculating Alveolar Oxygen Pressure and Alveolar to Arterial Oxygen Gradient).
+
+For patients at sea level and breathing ambient air, FIO2= 0.21, and the (A-a)DO2 can be simplified.
+
+Estimations of normal (A-a)DO2 values as < (age/4) + 4 or as less than the absolute value of the FIO2 (eg, < 21 while breathing ambient air; < 30 on 30% FIO2) correct for these effects.
+
+Table
+
+Equations for Calculating Alveolar Oxygen Pressure and Alveolar to Arterial Oxygen Gradient
+
+Table
+
+Equations for Calculating Alveolar Oxygen Pressure and Alveolar to Arterial Oxygen Gradient
+
+Equations for Calculating Alveolar Oxygen Pressure and Alveolar to Arterial Oxygen Gradient
+
+PAO2 calculation:
+
+FIO2 is the fraction of inspired oxygen (O2) (eg, 0.21 in ambient air), Patm is the ambient barometric pressure (eg, 760 mm Hg at sea level), PH2O is the partial pressure of water vapor (eg, usually 47 mm Hg), PAO2 is partial pressure of O2 in alveoli, PaCO2 is the measured partial pressure of arterial carbon dioxide, and R is the respiratory quotient, which is assumed to be 0.8 in a patient who is resting and eating a normal diet.
+
+Alveolar-arterial PO2 gradient (A-a)DO2 simplification:
+
+(A-a)DO2 is the alveolar-arterial PO2 gradient. (A-a)DO2 is typically < 20 but increases with age (because of age-related decline in pulmonary function) and with increasing FIO2 (because, although hemoglobin becomes 100% saturated at a PaO2 of about 150 mm Hg, oxygen is soluble in blood, and the oxygen content of plasma continues to increase at increasing FIO2).
+
+Clinical Calculators
+
+A-a Gradient
+
+Hypoxemia with increased (A-a)DO2
+
+Hypoxemia with increased (A-a)DO2 is caused by:
+
+Low ventilation/perfusion (V/Q) ratio (a type of V/Q mismatch)
+
+Right-to-left shunting
+
+Severely impaired diffusing capacity
+
+Low V/Q ratio is one of the more common reasons for hypoxemia and contributes to the hypoxemia occurring in chronic obstructive pulmonary disease (COPD) and asthma. In normal lungs, regional perfusion closely matches regional ventilation because arteriolar vasoconstriction occurs in response to alveolar hypoxia. In some disease states, dysregulation leads to the perfusion of alveolar units that are receiving less than complete ventilation (V/Q mismatch). As a result, systemic venous blood passes through the pulmonary capillaries without obtaining normal levels of PaO2. V/Q mismatch can also occur when there is increased blood flow, even when ventilation is normal (eg, liver disease). Supplemental oxygen can correct hypoxemia due to low V/Q ratio in some cases by increasing the PAO2, although the increased (A-a)DO2 persists.
+
+Right-to-left shunting is an extreme example of low V/Q ratio. With shunting, deoxygenated pulmonary arterial blood reaches the left side of the heart without having passed through ventilated lung segments. Shunting may occur through the lung parenchyma, via abnormal connections between the pulmonary arterial and venous circulations, or via intracardiac communications (eg, patent foramen ovale). Hypoxemia due to right-to-left shunting does not respond to supplemental oxygen.
+
+Impaired diffusing capacity only rarely occurs in isolation; usually it is accompanied by low V/Q ratio. Because oxygen completely saturates hemoglobin after only a fraction of the time that blood is in contact with alveolar gas, hypoxemia due to impaired diffusing capacity occurs only when cardiac output is increased (eg, during exercise), when barometric pressure is low (eg, at high altitudes). As with a low V/Q ratio, the (A-a)DO2 is increased, but PaO2 can be increased by increasing the FIO2. Hypoxemia due to impaired diffusing capacity responds to supplemental oxygen.
+
+Hypoxemia with normal (A-a)DO2
+
+Hypoxemia with normal (A-a)DO2 is caused by:
+
+Hypoventilation
+
+Low partial pressures of inspired oxygen (PIO2)
+
+Hypoventilation (reduced alveolar ventilation) decreases the PAO2 and increases the PaCO2, thereby decreasing PaO2. In cases of pure hypoventilation, the (A-a)DO2 is normal. Causes of hypoventilation include decreased respiratory rate or depth (eg, due to neuromuscular disorders, severe obesity, or drug overdose, or in compensation for metabolic alkalosis) or an increase in the fraction of dead space ventilation in patients already at their maximal ventilatory limit (eg, an exacerbation of severe COPD). Hypoventilatory hypoxemia responds to supplemental oxygen.
+
+Decreased PIO2 is an uncommon cause of hypoxemia that most commonly occurs only at high altitude. Although FIO2 does not change with altitude, ambient air pressure decreases exponentially; thus, PIO2 decreases as well. For example, PIO2 is only 43 mm Hg at the summit of Mt. Everest (altitude, 8848 m [29,028 ft]) (2). The (A-a)DO2 remains normal. Hypoxic stimulation of respiratory drive increases alveolar ventilation and decreases PaCO2 level. This type of hypoxemia responds to supplemental oxygen.
+
+Hypoxemia references
+
+1. Vegas A, Wells B, Braum P, et al. Guidelines for Performing Ultrasound-Guided Vascular Cannulation: Recommendations of the American Society of Echocardiography. J Am Soc Echocardiogr. 2025;38(2):57-91. doi:10.1016/j.echo.2024.12.004
+
+2. West JB. Everest Physiology Pre-2008. Adv Exp Med Biol. 2016;903:457-463. doi:10.1007/978-1-4899-7678-9_30
+
+Hypercapnia and Hypocapnia
+
+The partial pressure of carbon dioxide (PCO2) normally is maintained between 35 and 45 mm Hg. A dissociation curve similar to that for oxygen exists for carbon dioxide but is nearly linear over the physiologic range of PaCO2. Abnormal PCO2 is almost always linked to disorders of ventilation (unless occurring in compensation for a metabolic abnormality) and is always associated with acid-base changes.
+
+Hypercapnia
+
+Hypercapnia is PCO2> 45 mm Hg. The causes of hypercapnia are the same as those of hypoventilation (eg, disorders that decrease respiratory rate or depth or increase the fraction of dead space ventilation in patients already at their maximal ventilatory limit). Disorders that increase carbon dioxide production (eg, hyperthyroidism, fever), when combined with an inability to increase ventilation, also cause hypercapnia.
+
+Hypocapnia
+
+Hypocapnia is PCO2< 35 mm Hg. Hypocapnia is always caused by hyperventilation due to conditions related to:
+
+Lungs (eg, pulmonary edema, pulmonary embolism)
+
+Heart (eg, heart failure)
+
+Metabolism (eg, acidosis)
+
+Medications (eg, aspirin, progesterone)
+
+Central nervous system (eg, infection, tumor, bleeding, increased intracranial pressure)
+
+Physiologic conditions (eg, pain, pregnancy)
+
+Hypocapnia is thought to directly increase bronchoconstriction and lower the threshold for cerebral and myocardial ischemia, perhaps through its effects on acid-base status.
+
+Carboxyhemoglobinemia
+
+Carbon monoxide binds to hemoglobin with an affinity 210 times that of oxygen and prevents oxygen transport (1). Clinically, toxic carboxyhemoglobin levels are most often the result of exposure to exhaust fumes or from smoke inhalation, although people who smoke have detectable carboxyhemoglobin levels.
+
+Patients with carbon monoxide poisoning may present with nonspecific symptoms such as malaise, headache, and nausea. Because poisoning often occurs during colder months (because of indoor use of combustible fuel heaters), symptoms may be confused with a viral syndrome such as influenza. Clinicians must be aware of the possibility of carbon monoxide poisoning in appropriate patients and measure levels of carboxyhemoglobin when indicated. Carboxyhemoglobin can be directly measured from venous blood—an arterial sample is unnecessary. Oxygen saturation determined by pulse oximetry will be normal or high (because standard pulse oximetry cannot distinguish between oxyhemoglobin and carboxyhemoglobin) and cannot be used to screen for carbon monoxide poisoning. Carboxyhemoglobin can be measured by co-oximetry.
+
+Treatment involves the administration of 100% oxygen (which shortens the half-life of carboxyhemoglobin) and sometimes the use of a hyperbaric chamber.
+
+Pearls & Pitfalls
+
+Carboxyhemoglobin levels can be directly measured from venous blood—an arterial sample is unnecessary.
+
+Carboxyhemoglobinemia reference
+
+1. Forget BG, Bunn HF. Classification of the disorders of hemoglobin. Cold Spring Harb Perspect Med. 2013;3(2):a011684. Published 2013 Feb 1. doi:10.1101/cshperspect.a011684
+
+Methemoglobinemia
+
+Methemoglobin is hemoglobin in which the iron is oxidized from its ferrous (Fe2+) to its ferric (Fe3+) state. Methemoglobin does not carry oxygen and shifts the normal oxyhemoglobin dissociation curve (see figure Oxyhemoglobin Dissociation Curve) to the left, thereby limiting the release of oxygen to the tissues.
+
+Methemoglobinemia is caused by certain medications (eg, dapsone, local anesthetics, nitrates, primaquine, sulfonamides) or, less commonly, by certain chemicals (eg, aniline dyes, benzene derivatives).
+
+The methemoglobin level can be directly measured by co-oximetry (which emits 4 wavelengths of light and is capable of detecting methemoglobin, carboxyhemoglobin, hemoglobin, and oxyhemoglobin). Oxygen saturation measured by pulse oximetry will be inaccurate in the presence of methemoglobinemia.
+
+Patients with methemoglobinemia most often have cyanosis with no other symptoms. In severe cases, tissue oxygen delivery is reduced to such a degree that symptoms of hypoxia, such as confusion, angina, and myalgias, result.
+
+Stopping the causative medication or chemical exposure is often sufficient. Rarely, methylene blue, a reducing agent (eg, 1% solution 1 to 2 mg/kg given slowly IV) or exchange transfusion is needed.

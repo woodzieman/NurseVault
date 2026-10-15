@@ -1,0 +1,160 @@
+=== Ventilatory Failure (Merck Manual Professional) ===
+Section: Critical Care Medicine > Respiratory Failure and Mechanical Ventilation
+Source: https://www.merckmanuals.com/professional/critical-care-medicine/respiratory-failure-and-mechanical-ventilation/ventilatory-failure
+Retrieved: 2026-09-25
+
+Common causes of ventilatory failure are (1, 2):
+
+Exacerbation of COPD (chronic obstructive pulmonary disease)
+
+Severe acute exacerbation of asthma (including status asthmaticus)
+
+Obstructive sleep apnea
+
+Opioid or benzodiazepine overdose
+
+Neuromuscular disease
+
+Respiratory failure due to COPD is termed acute-on-chronic respiratory failure (ACRF).
+
+Lower respiratory tract infection and heart failure, while typically causing hypoxemic respiratory failure, are also important causes of hypercapnic respiratory failure (1).
+
+General references
+
+1. Chung Y, Garden FL, Marks GB, Vedam H. Causes of hypercapnic respiratory failure and associated in-hospital mortality. Respirology. 2023;28(2):176-182. doi:10.1111/resp.14388
+
+2. Dupuis C, Kamel T, Beyls C, et al. Acute hYpErcapnic respiratory failure in The ICU: A multicenter prospective observational study - The YETI study. Ann Intensive Care. 2026;16:100016. doi:10.1016/j.aicoj.2025.100016
+
+Pathophysiology of Ventilatory Failure
+
+Hypercapnia occurs when alveolar ventilation either falls or fails to rise adequately in response to increased carbon dioxide production. A fall in alveolar ventilation results from a decrease in minute ventilation or an increase in dead space ventilation without appropriate compensation by increasing minute ventilation.
+
+Ventilatory failure can occur when there is excessive load on the respiratory system (eg, resistive loads or lung and chest wall elastic loads) versus neuromuscular competence for an effective inspiratory effort. Dynamic hyperinflation in patients with increasing expiratory flow limitation (as in acute exacerbations of asthma or COPD) can also increase intrinsic load on inspiratory muscles and result in weakness. When the minute ventilation load increases (eg, as occurs in sepsis), a compromised respiratory system may not be able to meet this increased demand (for causes, see figure The Balance Between Load and Neuromuscular Competence).
+
+Physiologic dead space is the part of the respiratory tree that does not participate in gas exchange. It includes:
+
+Anatomic dead space (oropharynx, trachea, and airways)
+
+Alveolar dead space (ie, alveoli that are ventilated but not perfused)
+
+Physiologic dead space can also result from shunt or low ventilation/perfusion (V/Q) if patients cannot increase their minute ventilation appropriately. The physiologic dead space normally is approximately 30 to 40% of tidal volume but increases to 50% in patients who are intubated and to > 70% in patients with massive pulmonary embolism, severe emphysema, or status asthmaticus. Thus, for any given minute ventilation, the greater the dead space, the poorer the carbon dioxide elimination.
+
+Increased carbon dioxide production, as occurs with fever, sepsis, trauma, burns, hyperthyroidism, and malignant hyperthermia, is not a primary cause of ventilatory failure because patients should increase their ventilation to compensate. Ventilatory failure associated with these problems results when the ability to compensate is compromised.
+
+Hypercapnia lowers arterial pH (respiratory acidosis). Severe acidemia (pH < 7.2) contributes to:
+
+Pulmonary arteriolar vasoconstriction
+
+Systemic vascular dilation
+
+Reduced myocardial contractility
+
+Hyperkalemia
+
+Hypotension
+
+Cardiac irritability, with the potential for life-threatening arrhythmias
+
+Over time, tissue buffering and renal compensation can largely correct the acidemia. However, sudden increases in PaCO2 (partial pressure of carbon dioxide) can occur faster than compensatory changes (PaCO2 rises 3 to 6 mm Hg/minute in a patient who is totally apneic).
+
+Acute hypercapnia also causes cerebral vasodilation, which increases intracranial pressure, a major problem in patients with traumatic brain injury.
+
+The Balance Between Load (Resistive, Elastic, and Minute Ventilation) and Neuromuscular Competence (Drive, Transmission, and Muscle Strength) Determines the Ability to Sustain Alveolar Ventilation
+
+PEEP = positive end-expiratory pressure.
+
+Symptoms and Signs of Ventilatory Failure
+
+The predominant symptoms of ventilatory failure, depending on acuity and cause, are:
+
+Dyspnea
+
+Hypopnea/apnea
+
+When ventilatory failure is due to increased load, signs include vigorous use of accessory ventilatory muscles, tachypnea, tachycardia, diaphoresis, anxiety, declining tidal volume, irregular or gasping breathing patterns, and paradoxical abdominal motion.
+
+When ventilatory failure is due to impaired respiratory drive, hypopnea and/or low respiratory rates will be evident.
+
+Ventilatory failure results in hypercapnia, causing central nervous system manifestations ranging from subtle personality changes to marked confusion, obtundation, or coma. Chronic hypercapnia is better tolerated than acute and has fewer symptoms.
+
+Diagnosis of Ventilatory Failure
+
+Arterial blood gas (ABGs) measurement
+
+Chest radiograph
+
+Tests to determine etiology
+
+Ventilatory failure should be suspected in patients with respiratory distress, visible ventilatory fatigue or cyanosis, or changes in sensorium and in those with disorders that cause neuromuscular weakness. Tachypnea is also a concern; respiratory rates > 28 to 30/minute cannot be sustained for very long, particularly in patients who are older or weakened.
+
+If ventilatory failure is suspected, ABG analysis, continuous pulse oximetry, and a chest radiograph should be performed. Bedside capnography can be used to determine degree of hypercapnea. Respiratory acidosis revealed by the ABG measurement (eg, pH < 7.35 and PCO2> 50) confirms the diagnosis.
+
+Patients with chronic ventilatory failure often have quite elevated PCO2 (eg, 60 to 90 mm Hg) at baseline, typically with a pH that is only slightly acidemic. In such patients, the degree of acidemia rather than the PCO2 must serve as the primary marker for acute hypoventilation.
+
+Because ABG measurements can be normal or show insufficient respiratory compensation in patients with metabolic acidosis and incipient ventilatory failure, certain bedside pulmonary function tests can help predict ventilatory failure, particularly in patients with neuromuscular weakness who may die as a result of ventilatory failure without exhibiting respiratory distress. Vital capacity < 10 to 15 mL/kg and an inability to generate a negative inspiratory force of 15 cm H2O suggest imminent ventilatory failure.
+
+Determination of cause
+
+Once ventilatory failure is diagnosed, the cause must be identified.
+
+Sometimes a known ongoing disorder (eg, coma, acute asthma exacerbation, COPD exacerbation, severe hypothyroidism, myasthenia gravis, botulism) is an obvious cause. In other cases, history is suggestive; sudden onset of tachypnea and hypotension after surgery suggests pulmonary embolism, and focal neurologic findings suggest a central nervous system or neuromuscular cause.
+
+Neuromuscular competence may be assessed through measurement of inspiratory muscle strength (negative inspiratory force and positive expiratory force), neuromuscular transmission (nerve conduction tests and electromyography), and investigations into causes of diminished drive (toxicology screens, brain imaging, and thyroid function tests).
+
+If opioid overdose is suspected, administration of naloxone is a diagnostic and therapeutic maneuver.
+
+Treatment of Ventilatory Failure
+
+Treatment of cause
+
+Often positive pressure ventilation
+
+Treatment of ventilatory failure aims to correct the imbalance between the strength of the respiratory system and its load and varies with etiology. Obvious precipitants (eg, bronchospasm, mucus plugging, foreign bodies) should be corrected if possible.
+
+Opioid overdose should be treated initially with naloxone, although patients may require mechanical ventilation depending on the half-life of the specific opioid taken.
+
+Status asthmaticus
+
+Patients with status asthmaticus should be treated in an intensive care unit by personnel skilled in airway management. (See also Treatment of Acute Asthma Exacerbations.)
+
+Noninvasive positive pressure ventilation (NIPPV) can immediately reduce the work of breathing and may forestall endotracheal intubation until pharmacotherapy can take effect. The mask must be introduced carefully to enhance comfort by perhaps starting with titration of expiratory positive airway pressure (EPAP) alone because one of the major functions of inspiratory positive airway pressure (IPAP) is to increase tidal volume, and, in patients with status asthmaticus, end-expiratory lung volume approaches total lung capacity (see also Respiratory Mechanics).
+
+After an explanation of its benefit, patients hold the mask against their face while modest amounts of pressure are applied (continuous positive airway pressure [CPAP] 3 to 5 cm H2O). Once tolerated, the mask is strapped in place while pressures are increased to patient comfort and reduced work of breathing as assessed by respiratory rate and accessory muscle use. Patients should be selected carefully (eg, avoiding patients with imminent need for intubation), and settings should be adjusted on an individual basis.
+
+Conventional mechanical ventilation via endotracheal intubation is indicated for impending respiratory failure as indicated clinically by signs such as obtundation, monosyllabic speech, slumped posture, and shallow breathing. ABG values that reveal worsening hypercapnia are also an indication, although confirmation with ABG measurement is not required and should not replace the clinician’s judgment. Oral intubation is preferred over nasal because a larger endotracheal tube, which decreases airway resistance and permits easier suctioning, can be used.
+
+Mechanical ventilation in status asthmaticus focuses on limiting dynamic hyperinflation over achieving eucapnia, which limits mortality and complications such as hypotension and pneumothorax (1). In status asthmaticus, ventilation sufficient to achieve a normal pH typically causes severe hyperinflation. To avoid hyperinflation, initial ventilator settings include:
+
+A tidal volume of 8 to 10 mL/kg
+
+A respiratory rate of 8 to 10/minute
+
+Inspiratory flows may need to be quite high (eg, 70 to 120 L/minute) with a square wave pattern to facilitate maximum time in exhalation.
+
+Dangerous dynamic hyperinflation is unlikely so long as the measured plateau pressure is < 30 to 35 cm H2O and intrinsic positive end-expiratory pressure (intrinsic PEEP) is < 15 cm H2O. However, these pressures may be difficult to measure because of inspiratory and expiratory respiratory muscle activity. Plateau pressure > 35 cm H2O is managed by reducing the tidal volume (assuming that clinical evaluation does not indicate that the high pressures are the result of decreased compliance of the chest wall or abdomen) or the respiratory rate.
+
+Although it is possible to reduce peak airway pressure by reducing peak flow rate or by changing the flow waveform to a descending profile (ie, so that the flow rate is high at the beginning of the breath and decreased over time), such changes should not be made. Although high flow rates require a high pressure to overcome the high airway resistance of status asthmaticus, this pressure is dissipated across robust, cartilage-containing airways. Lower flow rates (eg, < 60 L/minute) reduce time available for exhalation, leading to incomplete exhalation and increased intrinsic PEEP. If intrinsic PEEP continues to rise, it can impair venous return and lead to obstructive shock and hypotension. Thus, low flow rates should be avoided to prevent cardiovascular collapse.
+
+Initial ventilator settings may result in hypercapnia, which is permitted for the greater good of reducing dynamic hyperinflation. An arterial pH > 7.15 is generally well tolerated physiologically but often requires large doses of sedatives and opioids. Neuromuscular blockers should be avoided after the peri-intubation period because use of these agents in combination with glucocorticoids can cause a severe and occasionally irreversible myopathy, particularly after 24 hours of combined use. Patient agitation should be managed with sedation rather than paralysis, but ideally ventilation can be adjusted to patients’ needs so as to reduce the need for sedation.
+
+Most patients with status asthmaticus improve to the point of liberation from mechanical ventilation (eg, within 2 to 5 days) although a minority experience protracted severe airflow obstruction. Some patients may require a blend of helium and oxygen (heliox), to reduce turbulent airflow, or inhalational anesthesia, to provide direct bronchodilation (1).
+
+Acute-on-chronic respiratory failure
+
+In patients with acute-on-chronic respiratory failure (ACRF) caused by COPD, the oxygen cost of breathing (the percent of total oxygen consumption used by the respiratory muscles) is several times that of patients without underlying lung disease. This increased respiratory load occurs in the setting of marginally adequate neuromuscular competence, so patients easily become too tired to maintain ventilation. Patients with COPD can be vulnerable to respiratory failure as a result of seemingly trivial insults, and recovery requires systematic identification and correction of these precipitants (see also Treatment of Acute COPD Exacerbation). To restore the balance between neuromuscular competence and load, clinicians reduce airflow obstruction and dynamic hyperinflation with bronchodilators and glucocorticoids and treat infection with antimicrobials. Low serum levels of potassium, phosphorus, and magnesium may exacerbate muscle weakness, frustrating recovery, and must be identified and treated.
+
+NIPPV is the preferred initial treatment for many patients with ACRF, resulting in decreased rates of ventilator-associated pneumonia, length of stay, and mortality compared with endotracheal intubation. Most patients managed with NIPPV do not require endotracheal intubation (2, 3). Advantages of NIPPV include the ease of application and removal. Once initial stabilization has occurred, in selected patients, NIPPV may be stopped temporarily to allow oral intake. Trials of unassisted breathing are easily done, and NIPPV can be reapplied as indicated.
+
+Settings should be adjusted to the work of breathing as assessed by patient report, respiratory rate and tidal volume, and accessory muscle use. In many patients, EPAP alone may be sufficient, which is beneficial because one of the major functions of inspiratory positive airway pressure is to increase tidal volume, and, in patients with ACRF, end-expiratory lung volume approaches total lung capacity (see also Respiratory Mechanics). Deterioration (and need for endotracheal intubation) is best assessed clinically; ABG measurements may be misleading. Although worsening hypercapnia typically indicates treatment failure, patients differ markedly in tolerance of hypercapnia. Some patients with PaCO2> 100 mm Hg are alert and conversant on NIPPV, whereas others require intubation at much lower PaCO2 levels.
+
+Conventional mechanical ventilation in ACRF aims to minimize dynamic hyperinflation and counter the adverse effects of intrinsic PEEP (auto-PEEP) while resting the fatigued respiratory muscles. Initial settings are assist-control (A/C) with a tidal volume of 5 to 7 mL/kg and a respiratory rate of 20 to 24/minute, although some patients need lower initial rates to limit intrinsic PEEP. This intrinsic PEEP represents an inspiratory threshold load that must be overcome by the patient to trigger the ventilator, further increasing the work of breathing and preventing full rest while on the ventilator. To counterbalance the effect of intrinsic PEEP, external PEEP should be applied to a level ≤ 85% of intrinsic PEEP (typical setting 5 to 10 cm H2O). This application decreases the inspiratory work of breathing without increasing dynamic hyperinflation. High inspiratory flow rates should be used to maximize the time for expiration. These settings minimize the risk of alkalemia that follows overly vigorous initial ventilation. Hypotension may also occur immediately after intubation (see also Complications of Mechanical Ventilation and Safeguards).
+
+Patients often require full ventilatory support for 24 to 48 hours before spontaneous breathing trials are considered. This duration of treatment may be needed to rest the respiratory muscles or to allow hyperinflation to diminish, thereby increasing respiratory muscle strength. The patient often sleeps heavily during this time and, in contrast to patients with asthma, typically requires little sedation. Adequate rest is often not achieved unless sufficient attention is paid to ongoing patient effort. This effort may manifest as accessory muscle use, inappropriately low airway pressures at the onset or throughout inspiration, or frequent failures to trigger the ventilator, indicating high intrinsic PEEP, weakness, or both.
+
+Treatment references
+
+1. Leatherman J. Mechanical ventilation for severe asthma. Chest. 2015;147(6):1671-1680. doi:10.1378/chest.14-1733
+
+2. Luo Z, Li Y, Li W, et al. Effect of High-Intensity vs Low-Intensity Noninvasive Positive Pressure Ventilation on the Need for Endotracheal Intubation in Patients With an Acute Exacerbation of Chronic Obstructive Pulmonary Disease: The HAPPEN Randomized Clinical Trial. JAMA. 2024;332(20):1709-1722. doi:10.1001/jama.2024.15815
+
+3. Osadnik CR, Tee VS, Carson-Chahhoud KV, Picot J, Wedzicha JA, Smith BJ. Non-invasive ventilation for the management of acute hypercapnic respiratory failure due to exacerbation of chronic obstructive pulmonary disease. Cochrane Database Syst Rev. 2017;7(7):CD004104. doi:10.1002/14651858.CD004104.pub4

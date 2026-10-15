@@ -1,0 +1,38 @@
+=== Overview of Channelopathies (Merck Manual Professional) ===
+Section: Cardiology > Arrhythmogenic Cardiac Disorders
+Source: https://www.merckmanuals.com/professional/cardiovascular-disorders/arrhythmogenic-cardiac-disorders/overview-of-channelopathies
+Retrieved: 2026-09-25
+
+Channelopathies are a group of genetic, autoimmune, or inflammatory conditions that alter cardiomyocyte ion channel function in a manner that predisposes to bradyarrhythmias or tachyarrhythmias in the absence of structural heart disease. Sudden cardiac death may occur. Channelopathies are a subset of the group of disorders known as the inherited arrhythmia syndromes.
+
+Ion Channels in the Cardiac Action Potential
+
+Image
+
+This illustration of cardiac action potential shows the inflow and outflow of sodium (Na), potassium (K), and calcium (Ca) ions via ion channels (INa, Ito, ICa,L, IK, and IK1).
+
+© Springer Science+Business Media
+
+The ion channels affected include those responsible for the inward sodium or calcium currents and those responsible for the outward potassium current. Either gain of function or loss of function in these ion channels, particularly when the abnormal channels are unevenly distributed, fosters abnormal electrophysiologic environments. The abnormal electrophysiology may be favorable to one or both of the following:
+
+Failure of impulse formation or conduction, which may lead to bradyarrhythmias
+
+Re-entry and mechanisms of abnormal automaticity, leading to tachyarrhythmias
+
+The most common genetic channelopathies are the Brugada syndrome (BrS), catecholaminergic polymorphic ventricular tachycardia (CPVT), early repolarization syndrome (ERS), idiopathic ventricular fibrillation (IVF), isolated progressive cardiac conduction disease (isolated PCCD), long QT interval syndromes (LQTS), and short QT interval syndrome (SQTS). Together, documented instances of these genetic channelopathies account for up to 40% of sudden cardiac deaths in non-athletes ≤ 35 years of age without structural heart or coronary artery disease (1, 2). Undocumented genetic channelopathies are also generally considered to be a significant etiology of sudden death in the nearly 35% of such patients with no identifiable structural heart disease at autopsy who did not have pre-morbid genetic testing performed (1).
+
+Systemic rheumatic disorders, including Sjogren syndrome and systemic lupus erythematosus, and inflammatory disorders producing cytokines that affect cardiomyocyte ion channel function are increasingly being recognized as causes of channelopathies. Anti-Ro/SSA antibodies may produce a long QT interval syndrome by inhibiting the outward potassium channel that is related to the human ether-a-go-go-related gene (hERG). Also, transplacental exposure to anti-Ro/SSA antibodies in utero is responsible for some cases of immune-mediated congenital atrioventricular block. Autoimmune antibody production and inflammatory cytokines may also be responsible for temporal variability in arrhythmia propensities, such as the deleterious effects of fever in patients with Brugada syndrome.
+
+The risk of ventricular arrhythmia, atrial arrhythmia, conducting system disease, and sudden death varies by the specific channelopathy and, in many cases, the genotype.
+
+Diagnostic evaluation for genetic channelopathies usually includes ECG, ambulatory cardiac monitoring, and sometimes exercise testing. Genetic testing is frequently offered but may not always be recommended if its sensitivity for a particular disorder is low. Patients diagnosed with a channelopathy should have regular follow-up with ECG and ambulatory cardiac monitoring to detect occult arrhythmias.
+
+Family members are at risk of disease and should have clinical evaluation (ie, to detect symptoms suggestive of arrhythmia), ECG, ambulatory monitoring, and, sometimes, exercise testing to identify the presence of disease prior to its expression as sudden death. Genetic testing of family members is performed when the index case has a known mutation. Typically, parents and siblings are tested first and then other relatives are tested based on results of parent testing and the mode of inheritance (cascade testing). Family members also require ongoing clinical monitoring (eg, every 1 to 3 years) for development of arrhythmias unless the genetic mutation is absent.
+
+Treatments depend on disease manifestations and, when available, risk stratification, but all patients should avoid or moderate known triggers (eg, exercise, fever, certain medications). Patients with clinical or ECG findings of significant ventricular arrhythmias typically require an implantable cardioverter-defibrillator (ICD), often one with pacemaker functionality. Some disorders benefit from beta-blockers and/or other antiarrhythmic medications.
+
+References
+
+1. D'Ascenzi F, Valentini F, Pistoresi S, et al: Causes of sudden cardiac death in young athletes and non-athletes: systematic review and meta-analysis: Sudden cardiac death in the young. Trends Cardiovasc Med. 2022 Jul;32(5):299-308. doi: 10.1016/j.tcm.2021.06.001
+
+2. Lahrouchi N, Raju H, Lodder EM, et al. Utility of Post-Mortem Genetic Testing in Cases of Sudden Arrhythmic Death Syndrome. J Am Coll Cardiol. 2017;69(17):2134-2145. doi:10.1016/j.jacc.2017.02.046

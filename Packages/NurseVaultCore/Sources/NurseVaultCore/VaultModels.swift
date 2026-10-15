@@ -132,150 +132,104 @@ extension VaultFolder {
 public enum VaultModel {
 
     public static func makeModel() -> NSManagedObjectModel {
-        func attribute(
-            _ name: String,
-            _ type: NSAttributeType,
-            configure: (NSAttributeDescription) -> Void = { _ in }
-        ) -> NSAttributeDescription {
-            let attribute = NSAttributeDescription()
-            attribute.name = name
-            attribute.attributeType = type
-            attribute.isOptional = true
-            configure(attribute)
-            return attribute
+        // Helper: create an optional attribute with a default configuration.
+        func attr(_ name: String, _ type: NSAttributeType, configure: (NSAttributeDescription) -> Void = { _ in }) -> NSAttributeDescription {
+            let d = NSAttributeDescription()
+            d.name = name
+            d.attributeType = type
+            d.isOptional = true
+            configure(d)
+            return d
         }
 
-        // --- Section Entity ---
-        let sectionEntity = NSEntityDescription()
-        sectionEntity.name = "Section"
-        sectionEntity.managedObjectClassName = NSStringFromClass(VaultSection.self)
-        sectionEntity.properties = [
-            attribute("name", .stringAttributeType),
-            attribute("icon", .stringAttributeType),
-            attribute("sortOrder", .integer64AttributeType),
-            {
-                let attr = NSAttributeDescription()
-                attr.name = "syncToWatch"
-                attr.attributeType = .booleanAttributeType
-                attr.isOptional = false
-                attr.defaultValue = true
-                return attr
-            }()
-        ]
+        // Helper: create a required attribute with a default value.
+        func requiredAttr(_ name: String, _ type: NSAttributeType, defaultValue: Any) -> NSAttributeDescription {
+            let d = NSAttributeDescription()
+            d.name = name
+            d.attributeType = type
+            d.isOptional = false
+            d.defaultValue = defaultValue
+            return d
+        }
 
-        // --- Folder Entity ---
-        let folderEntity = NSEntityDescription()
-        folderEntity.name = "Folder"
-        folderEntity.managedObjectClassName = NSStringFromClass(VaultFolder.self)
-        folderEntity.properties = [
-            attribute("name", .stringAttributeType)
-        ]
+        // Helper: create a to-many relationship (cascade delete).
+        func toMany(_ name: String, _ destination: NSEntityDescription) -> NSRelationshipDescription {
+            let r = NSRelationshipDescription()
+            r.name = name
+            r.destinationEntity = destination
+            r.maxCount = 0
+            r.isOptional = true
+            r.deleteRule = .cascadeDeleteRule
+            return r
+        }
 
-        // --- Doc Entity ---
-        let docEntity = NSEntityDescription()
-        docEntity.name = "Doc"
-        docEntity.managedObjectClassName = NSStringFromClass(VaultDoc.self)
-        docEntity.properties = [
-            attribute("title", .stringAttributeType),
-            attribute("noteText", .stringAttributeType),
-            attribute("fileName", .stringAttributeType),
-            attribute("mimeType", .stringAttributeType),
-            attribute("addedDate", .dateAttributeType),
-            attribute("fileData", .binaryDataAttributeType) { $0.allowsExternalBinaryDataStorage = true }
-        ]
+        // Helper: create a to-one relationship (nullify delete).
+        func toOne(_ name: String, _ destination: NSEntityDescription) -> NSRelationshipDescription {
+            let r = NSRelationshipDescription()
+            r.name = name
+            r.destinationEntity = destination
+            r.maxCount = 1
+            r.isOptional = true
+            r.deleteRule = .nullifyDeleteRule
+            return r
+        }
+
+        // Helper: wire up an inverse relationship pair and add both to their entities.
+        func link(_ parent: NSRelationshipDescription, _ child: NSRelationshipDescription,
+                  toParentEntity parentEntity: NSEntityDescription, toChildEntity childEntity: NSEntityDescription) {
+            parent.inverseRelationship = child
+            child.inverseRelationship = parent
+            parentEntity.properties.append(parent)
+            childEntity.properties.append(child)
+        }
+
+        // --- Entities ---
+        let section = entity("Section", VaultSection.self, [
+            attr("name", .stringAttributeType),
+            attr("icon", .stringAttributeType),
+            attr("sortOrder", .integer64AttributeType),
+            requiredAttr("syncToWatch", .booleanAttributeType, defaultValue: true)
+        ])
+
+        let folder = entity("Folder", VaultFolder.self, [
+            attr("name", .stringAttributeType)
+        ])
+
+        let doc = entity("Doc", VaultDoc.self, [
+            attr("title", .stringAttributeType),
+            attr("noteText", .stringAttributeType),
+            attr("fileName", .stringAttributeType),
+            attr("mimeType", .stringAttributeType),
+            attr("addedDate", .dateAttributeType),
+            attr("fileData", .binaryDataAttributeType) { $0.allowsExternalBinaryDataStorage = true }
+        ])
 
         // --- Relationships ---
-        //
-        // Every relationship must be explicitly added to its destination
-        // entity's properties below. Core Data <= 26 silently adopted a
-        // relationship that only appeared as another relationship's inverse;
-        // Core Data 27 does not, and an orphaned inverse (e.g. the missing
-        // `parent`) crashes the app at store load (EXC_BAD_ACCESS in
-        // NSSQLEntity _generateProperties) on first launch.
+        // Every relationship must be explicitly added to its destination entity's
+        // properties. Core Data 27 crashes on first launch if an inverse is orphaned.
 
-        // Section <-> Folder
-        let sectionFoldersRel = NSRelationshipDescription()
-        sectionFoldersRel.name = "folders"
-        sectionFoldersRel.destinationEntity = folderEntity
-        sectionFoldersRel.maxCount = 0
-        sectionFoldersRel.isOptional = true
-        sectionFoldersRel.deleteRule = .cascadeDeleteRule
+        link(toMany("folders", folder), toOne("section", section),
+             toParentEntity: section, toChildEntity: folder)
 
-        let folderSectionRel = NSRelationshipDescription()
-        folderSectionRel.name = "section"
-        folderSectionRel.destinationEntity = sectionEntity
-        folderSectionRel.maxCount = 1
-        folderSectionRel.isOptional = true
-        folderSectionRel.deleteRule = .nullifyDeleteRule
+        link(toMany("folders", folder), toOne("parent", folder),
+             toParentEntity: folder, toChildEntity: folder)
 
-        folderSectionRel.inverseRelationship = sectionFoldersRel
-        sectionFoldersRel.inverseRelationship = folderSectionRel
+        link(toMany("docs", doc), toOne("section", section),
+             toParentEntity: section, toChildEntity: doc)
 
-        // Folder <-> Folder (Nested)
-        let folderFoldersRel = NSRelationshipDescription()
-        folderFoldersRel.name = "folders"
-        folderFoldersRel.destinationEntity = folderEntity
-        folderFoldersRel.maxCount = 0
-        folderFoldersRel.isOptional = true
-        folderFoldersRel.deleteRule = .cascadeDeleteRule
-
-        let folderParentRel = NSRelationshipDescription()
-        folderParentRel.name = "parent"
-        folderParentRel.destinationEntity = folderEntity
-        folderParentRel.maxCount = 1
-        folderParentRel.isOptional = true
-        folderParentRel.deleteRule = .nullifyDeleteRule
-
-        folderParentRel.inverseRelationship = folderFoldersRel
-        folderFoldersRel.inverseRelationship = folderParentRel
-
-        // Section <-> Doc
-        let sectionDocsRel = NSRelationshipDescription()
-        sectionDocsRel.name = "docs"
-        sectionDocsRel.destinationEntity = docEntity
-        sectionDocsRel.maxCount = 0
-        sectionDocsRel.isOptional = true
-        sectionDocsRel.deleteRule = .cascadeDeleteRule
-
-        let docSectionRel = NSRelationshipDescription()
-        docSectionRel.name = "section"
-        docSectionRel.destinationEntity = sectionEntity
-        docSectionRel.maxCount = 1
-        docSectionRel.isOptional = true
-        docSectionRel.deleteRule = .nullifyDeleteRule
-
-        docSectionRel.inverseRelationship = sectionDocsRel
-        sectionDocsRel.inverseRelationship = docSectionRel
-
-        // Folder <-> Doc
-        let folderDocsRel = NSRelationshipDescription()
-        folderDocsRel.name = "docs"
-        folderDocsRel.destinationEntity = docEntity
-        folderDocsRel.maxCount = 0
-        folderDocsRel.isOptional = true
-        folderDocsRel.deleteRule = .cascadeDeleteRule
-
-        let docFolderRel = NSRelationshipDescription()
-        docFolderRel.name = "folder"
-        docFolderRel.destinationEntity = folderEntity
-        docFolderRel.maxCount = 1
-        docFolderRel.isOptional = true
-        docFolderRel.deleteRule = .nullifyDeleteRule
-
-        docFolderRel.inverseRelationship = folderDocsRel
-        folderDocsRel.inverseRelationship = docFolderRel
-
-        sectionEntity.properties.append(sectionFoldersRel)
-        sectionEntity.properties.append(sectionDocsRel)
-        folderEntity.properties.append(folderSectionRel)
-        folderEntity.properties.append(folderParentRel)
-        folderEntity.properties.append(folderFoldersRel)
-        folderEntity.properties.append(folderDocsRel)
-        docEntity.properties.append(docSectionRel)
-        docEntity.properties.append(docFolderRel)
+        link(toMany("docs", doc), toOne("folder", folder),
+             toParentEntity: folder, toChildEntity: doc)
 
         let model = NSManagedObjectModel()
-        model.entities = [sectionEntity, folderEntity, docEntity]
+        model.entities = [section, folder, doc]
         return model
+    }
+
+    private static func entity(_ name: String, _ type: AnyClass, _ properties: [NSPropertyDescription]) -> NSEntityDescription {
+        let e = NSEntityDescription()
+        e.name = name
+        e.managedObjectClassName = NSStringFromClass(type)
+        e.properties = properties
+        return e
     }
 }

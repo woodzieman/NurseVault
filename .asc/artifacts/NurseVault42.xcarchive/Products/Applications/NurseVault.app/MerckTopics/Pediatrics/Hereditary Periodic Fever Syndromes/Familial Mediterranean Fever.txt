@@ -1,0 +1,220 @@
+=== Familial Mediterranean Fever (Merck Manual Professional) ===
+Section: Pediatrics > Hereditary Periodic Fever Syndromes
+Source: https://www.merckmanuals.com/professional/pediatrics/hereditary-periodic-fever-syndromes/familial-mediterranean-fever
+Retrieved: 2026-09-25
+
+Familial Mediterranean fever (FMF) is a disease of people who usually have genetic origins in the Mediterranean basin, predominantly people who have Sephardic Jewish, North African Arab, Armenian, Turkish, Greek, or Italian ancestry. The prevalence of FMF generally decreases with increasing geographical distance from the countries closest to the Eastern Mediterranean regions (eg, Turkey) (1). However, cases have occurred among other groups (eg, people who have Ashkenazi Jewish, Cuban, or Japanese ancestry), so the diagnosis should not be excluded solely on the basis of ancestry. In countries with multiethnic populations, the prevalence of FMF varies according to the ancestral genetic origin of the patient as well as founder effects (eg, in Israel, higher rates are found among people of North African and Iraqi descent than among those of Ashkenazi Jewish descent) (2).
+
+FMF is the most common autoinflammatory syndrome (3).
+
+General references
+
+1. Debeljak M, Toplak N, Abazi N, et al. The carrier rate and spectrum of MEFV gene mutations in central and southeastern European populations. Clin Exp Rheumatol. 2015;33(6 Suppl 94):S19-S23.
+
+2. Stoffman N, Magal N, Shohat T, et al. Higher than expected carrier rates for familial Mediterranean fever in various Jewish ethnic groups. Eur J Hum Genet. 2000;8(4):307-310. doi:10.1038/sj.ejhg.5200446
+
+3. Ozen S, Bilginer Y. A clinical guide to autoinflammatory diseases: familial Mediterranean fever and next-of-kin. Nat Rev Rheumatol. 2014;10(3):135-147. doi:10.1038/nrrheum.2013.174
+
+Etiology of Familial Mediterranean Fever
+
+FMF is caused by:
+
+Mutations in the MEFV gene on the short arm of chromosome 16
+
+FMF is characterized by incomplete penetrance and highly variable expressivity. Mutations are classically inherited in an autosomal recessive manner (ie, biallelic pathogenic mutations are present) (1). However, clinical symptoms have been observed in patients with only one identified pathogenic mutation (heterozygotes, ie, autosomal dominant manner with partial penetration). In addition, rarely, FMF symptoms may be present in patients with no known pathogenic MEFV mutation. Conversely, asymptomatic patients have been incidentally found to carry MEFV mutations (pathogenic, nonpathogenic, or an as-yet-unidentified variant).
+
+FMF mutations are gain-of-function, that is, they confer new or enhanced activity on a protein, with a gene dosage effect (ie, more copies of the abnormal gene convey a greater effect). The MEFV gene normally codes a protein called pyrin (also known as marenostrin), which is expressed in circulating neutrophils.
+
+Pyrin plays a role in innate immunity. It senses modifications in the activity of the small GTPase RhoA, a molecular switch that regulates a variety of signal transduction pathways including cytoskeletal organization. Pathogen virulence toxins (such as Clostridioides difficile, Burkholderia cenocepacia, and Vibrio cholera) downregulate RhoA activity and cause an assembly pyrin along with other proteins into a pyrin inflammasome, which eventually results in the production of the proinflammatory cytokine interleukin-1 beta (IL-1 beta). MEFV pathogenic variants favor the active state of pyrin and give rise to cell membrane rupture (pyroptosis) and the release of proinflammatory cytokines (2).
+
+There is strong evidence to support the hypothesis that Yersinia pestis, the cause of bubonic plague, led to the positive selection of FMF-associated MEFV mutations (3). These mutations may have evolved to confer a selective advantage to certain people exposed to Y. pestis.
+
+Alterations in the gut microbiome have been associated with genotypic and phenotypic interactions in FMF (4). In one case-control study, gut microbiota of patients with FMF were found to have increased proinflammatory bacteria compared to controls without FMF; resistance to colchicine was also associated with specific microbiota alterations.
+
+Etiology references
+
+1. Ben-Chetrit E, Touitou I. The significance of carrying MEFV variants in symptomatic and asymptomatic individuals. Clin Genet. 2024;106(3):217-223. doi:10.1111/cge.14566
+
+2. Park YH, Remmers EF, Lee W, et al. Ancient familial Mediterranean fever mutations in human pyrin and resistance to Yersinia pestis. Nat Immunol. 2020;21(8):857–867. doi:10.1038/s41590-020-0705-6
+
+3. Amarilyo G. The Mediterranean spring-the second revolution (and the first) in the management of familial Mediterranean fever. Ann Rheum Dis. 2025;84(6):885-887. doi:10.1016/j.ard.2025.02.006
+
+4. Delplanque M, Benech N, Rolhion N, et al. Gut microbiota alterations are associated with phenotype and genotype in familial Mediterranean fever. Rheumatology (Oxford). 2024;63(4):1039-1048. doi:10.1093/rheumatology/kead322
+
+Symptoms and Signs of Familial Mediterranean Fever
+
+Onset of FMF is usually between the ages of 5 and 15 years but may occur much later or earlier, even during infancy.
+
+The most common manifestation is an acute febrile attack with associated pain and systemic symptoms (eg, abdominal pain, arthritis, rash).
+
+Attacks have no regular pattern of recurrence. They usually last 12 to 72 hours but may sometimes last longer. Frequency ranges from 2 attacks/week to 1 attack/year (most commonly, once every 2 to 6 weeks). Physical and/or emotional stressors (eg, physical trauma, infection, menstruation) may trigger attacks (1). The severity and frequency of attacks do not appear to be consistently influenced by pregnancy status (2). Spontaneous remissions may last years.
+
+Up to 50% of patients experience a characteristic prodrome heralding an attack that may consist of dysgeusia and mood alterations such as anxiety, irritability, and restlessness (3). Fevers as high as 40° C can occur and are usually accompanied by peritonitis. Abdominal pain (usually starting in one quadrant and spreading to the whole abdomen) occurs in about 95% of patients and can vary in severity with each attack (4). Decreased bowel sounds, distention, guarding, and rebound tenderness are likely to occur at the peak of an attack and cannot be differentiated from a perforated viscus by physical examination alone. Consequently, some patients undergo urgent laparotomy before the correct diagnosis is made. With pleural involvement, dyspnea due to pleuritic pain may occur in 30% of patients (5).
+
+Other manifestations of FMF include arthritis (in 75%), usually involving the knee, ankle, and hip (4); an erysipelas-like erythema or rash of the lower leg; and scrotal swelling and pain caused by inflammation of the tunica vaginalis of the testis. Pericarditis occurs rarely. The pleural, synovial, and skin manifestations of FMF vary in frequency among different populations (6).
+
+Despite the severity of symptoms during acute attacks, most patients recover swiftly and remain asymptomatic until their next attack.
+
+Autoinflammatory Periodic Fever Disorders
+
+CAPS = cryopyrin-associated periodic syndromes; FMF = familial Mediterranean fever; NOMID = neonatal-onset multisystem inflammatory disease; PFAPA = periodic fevers with aphthous stomatitis, pharyngitis, and cervical adenitis; TRAPS = tumor necrosis factor receptor–associated periodic syndrome.
+
+Adapted from Sag E, Bilginer Y, Ozen S: Autoinflammatory diseases with periodic fevers. Curr Rheumatol Rep 19(7):41, 2017. doi: 10.1007/s11926-017-0670-8
+
+Complications of familial Mediterranean fever
+
+The most significant long-term complication of FMF is:
+
+Chronic kidney disease caused by deposition of amyloid protein in the kidneys
+
+Progressive secondary amyloidosis (AA amyloidosis) is the principal and most severe complication of FMF and significantly contributes to mortality. Besides renal deposition, amyloid may also be deposited in the gastrointestinal tract, liver, spleen, heart, testes, and thyroid.
+
+FMF may cause infertility or spontaneous abortion in up to one-third of untreated women because peritoneal pelvic adhesions form, interfering with conception.
+
+FMF increases the risk of other inflammatory disorders, such as ankylosing spondylitis, immunoglobulin A–associated (IgA) vasculitis, polyarteritis nodosa, and Behçet disease (7).
+
+Symptoms and signs references
+
+1. Yenokyan G, Armenian HK. Triggers for attacks in familial Mediterranean fever: application of the case-crossover design. Am J Epidemiol. 2012;175(10):1054-1061. doi:10.1093/aje/kwr460
+
+2. Yurdakul FG, Bodur H, Çay HF, et al. Familial Mediterranean fever: perspective on female fertility and disease course in pregnancy from a multicenter nationwide network. Rheumatol Int. 2024;44(10):2117-2127. doi:10.1007/s00296-023-05436-w
+
+3. Lidar M, Yaqubov M, Zaks N, Ben-Horin S, Langevitz P, Livneh A. The prodrome: a prominent yet overlooked pre-attack manifestation of familial Mediterranean fever. J Rheumatol. 2006;33(6):1089-1092.
+
+4. Sohar E, Gafni J, Pras M, Heller H. Familial Mediterranean fever. A survey of 470 cases and review of the literature. Am J Med. 1967;43(2):227-253. doi:10.1016/0002-9343(67)90167-2
+
+5. Drenth JP, van der Meer JW. Hereditary periodic fever. N Engl J Med. 2001;345(24):1748-1757. doi:10.1056/NEJMra010200
+
+6. Ben-Chetrit E, Yazici H. Familial Mediterranean fever: different faces around the world. Clin Exp Rheumatol. 2019;37 Suppl 121(6):18-22, 2019
+
+7. Balcı-Peynircioğlu B, Kaya-Akça Ü, Arıcı ZS, et al. Comorbidities in familial Mediterranean fever: Analysis of 2000 genetically confirmed patients. Rheumatology (Oxford). 2020;59(6):1372–1380. doi:10.1093/rheumatology/kez410
+
+Diagnosis of Familial Mediterranean Fever
+
+History and physical examination
+
+Genetic testing
+
+The diagnosis of familial Mediterranean fever is based mainly on clinical symptoms and is supported by genetic testing, which is particularly useful in the evaluation of atypical cases. However, current genetic testing is not infallible; some patients with phenotypically unmistakeable FMF have only a single mutated gene or occasionally no evident mutations in the MEFV gene. Approximately 10 to 20% of patients who meet the diagnostic criteria for FMF do not have MEFV mutations, which suggests epigenetic and environmental factors contribute to the disease pathogenesis (2). The Tel HaShomer criteria (see table Tel HaShomer Criteria for the Diagnosis of Familial Mediterranean Fever) are the most widely used clinical criteria used in adults (1).
+
+Nonspecific findings include elevations in white blood cells with neutrophil predominance, erythrocyte sedimentation rate, C-reactive protein, and fibrinogen. Urinary excretion of > 0.5 g protein/24 hours may suggest renal amyloidosis.
+
+Differential diagnosis includes acute intermittent porphyria, hereditary angioedema with abdominal attacks, relapsing pancreatitis, and other hereditary relapsing fevers.
+
+Table
+
+Tel HaShomer Criteria for the Diagnosis of Familial Mediterranean Fever*
+
+Table
+
+Tel HaShomer Criteria for the Diagnosis of Familial Mediterranean Fever*
+
+Tel HaShomer Criteria for the Diagnosis of Familial Mediterranean Fever*
+
+Major Criteria
+
+Typical attacks† of:
+
+Peritonitis (generalized)
+
+Pleuritis (unilateral) or pericarditis
+
+Monoarticular arthritis of the hip, knee, or ankle
+
+Fever only
+
+Incomplete attacks‡ of the abdomen
+
+Minor Criteria
+
+Incomplete attacks‡ involving the chest, joints, or both
+
+Leg pain with exertion
+
+Favorable response to treatment with colchicine
+
+* Diagnosis requires ≥ 1 major criterion or ≥ 2 minor criteria.
+
+† Typical attacks are recurrent (at least 3 episodes of the same type), febrile (rectal temperature ≥ 38° C), and short in duration (12 to 72 hours).
+
+‡ Incomplete attacks are painful and recurrent. They differ from typical attacks in 1 or 2 features:
+
+Temperature is normal or < 38° C.
+
+Attack lasts longer or shorter than a typical attack but is not less than 6 hours long and lasts no more than 1 week.
+
+There are no signs of peritonitis during abdominal attacks.
+
+Abdominal attacks are localized.
+
+Arthritis occurs in a joint other than the hip, knee, or ankle.
+
+Data from Livneh A, Langevitz P, Zemer D, et al: Criteria for the diagnosis of familial Mediterranean fever. Arthritis Rheum 40(10):1879–1885, 1997. doi: 10.1002/art.1780401023
+
+* Diagnosis requires ≥ 1 major criterion or ≥ 2 minor criteria.
+
+† Typical attacks are recurrent (at least 3 episodes of the same type), febrile (rectal temperature ≥ 38° C), and short in duration (12 to 72 hours).
+
+‡ Incomplete attacks are painful and recurrent. They differ from typical attacks in 1 or 2 features:
+
+Temperature is normal or < 38° C.
+
+Attack lasts longer or shorter than a typical attack but is not less than 6 hours long and lasts no more than 1 week.
+
+There are no signs of peritonitis during abdominal attacks.
+
+Abdominal attacks are localized.
+
+Arthritis occurs in a joint other than the hip, knee, or ankle.
+
+Data from Livneh A, Langevitz P, Zemer D, et al: Criteria for the diagnosis of familial Mediterranean fever. Arthritis Rheum 40(10):1879–1885, 1997. doi: 10.1002/art.1780401023
+
+Diagnosis references
+
+1. Livneh A, Langevitz P, Zemer D, et al: Criteria for the diagnosis of familial Mediterranean fever. Arthritis Rheum 40(10):1879–1885, 1997. doi: 10.1002/art.1780401023
+
+2. Booty MG, Chae JJ, Masters SL, et al: Familial Mediterranean fever with a single MEFV mutation: Where is the second hit? Arthritis Rheum 60(6):1851–1861, 2009. doi: 10.1002/art.24569
+
+Treatment of Familial Mediterranean Fever
+
+Daily colchicine
+
+In patients who are colchicine-resistant or -intolerant, interleukin-1 (IL-1) inhibitors
+
+Analgesia (eg, ibuprofen)
+
+Daily prophylactic colchicine should be initiated as soon as the diagnosis is made to prevent attacks as well as amyloidosis (1). Colchicine causes remarkable symptomatic improvement in almost 95% of patients (2). With daily colchicine use, 75% of patients achieve near-complete remission, thus significantly reducing the risk of amyloidosis and kidney injury. If attacks or subclinical inflammation persist, the colchicine dose should be increased. Initiation of colchicine at the peak of an attack is not beneficial. Children require a dose adjustment for colchicine that is typically based on age, weight, and severity of phenotype and genotype (3–5). Dose adjustments should also be made for patients with liver or kidney dysfunction. Upon initiation of colchicine, close monitoring is recommended for 3 to 6 months to assess clinical response, particularly frequency and severity of attacks.
+
+Colchicine does not add to the increased risk of infertility or spontaneous abortion among affected women; when taken during pregnancy, it does not increase the risk of teratogenic events. Lack of response to colchicine is often caused by poor adherence to the regimen.
+
+Patients who are colchicine-resistant or -intolerant may be treated with IL-1 inhibitors: anakinra once a day, rilonacept once a week, or canakinumab every 4 weeks (canakinumab can also be given on-demand (4–6). However, the role of IL-1 inhibitors in preventing amyloidosis remains unknown, and patients taking IL-inhibitors should continue taking colchicine if tolerated.
+
+Nonsteroidal anti-inflammatory drugs (eg, ibuprofen) and acetaminophen are sometimes needed for analgesia.
+
+Treatment references
+
+1. Ozen S, Sağ E, Oton T, et al. EULAR/PReS endorsed recommendations for the management of familial Mediterranean fever (FMF): 2024 update. Ann Rheum Dis. 2025;84(6):899-909. doi:10.1016/j.ard.2025.01.028
+
+2. Ozturk MA, Kanbay M, Kasapoglu B, et al. Therapeutic approach to familial Mediterranean fever: a review update. Clin Exp Rheumatol. 2011;29(4 Suppl 67):S77-S86.
+
+3. Goldberg O, Levinsky Y, Peled O, et al. Age dependent safety and efficacy of colchicine treatment for familial mediterranean fever in children. Semin Arthritis Rheum. 2019;49(3):459-463. doi:10.1016/j.semarthrit.2019.05.011
+
+4. Sag E, Otón T, Carmona L, Ozen S. Efficacy and safety of treatments in familial Mediterranean fever and its complications: a systematic review informing the EULAR/PReS recommendations for familial Mediterranean fever. Ann Rheum Dis. Published online June 24, 2025. doi:10.1016/j.ard.2025.05.020
+
+5. Bustaffa M, Bella S, Bayindir Y, et al. Long-term efficacy and safety of colchicine and anti-IL-1 blockers in FMF: results from the Eurofever multicenter observational study. J Autoimmun. 2025;153:103421. doi:10.1016/j.jaut.2025.103421
+
+6. Shehadeh K, Levinsky Y, Kagan S, et al. An "On Demand" canakinumab regimen for treating children with Colchicine-Resistant familial Mediterranean fever - A multicentre study. Int Immunopharmacol. 2024;132:111967. doi:10.1016/j.intimp.2024.111967
+
+Key Points
+
+Familial Mediterranean fever (FMF) is typically caused by an autosomal recessive mutation in the MEFV gene, which encodes the pyrin protein that helps modulate the inflammatory response in neutrophils.
+
+People with genetic origins in the Mediterranean basin are more commonly (but not exclusively) affected.
+
+Patients have brief episodes of fever, abdominal pain, and sometimes other symptoms such as pleuritis, arthritis, and rash.
+
+Renal amyloidosis, sometimes causing kidney disease, is the most common complication, but prophylactic colchicine provides protection against amyloidosis.
+
+Diagnosis is primarily clinical; genetic testing may support the diagnosis.
+
+Daily colchicine results in significant protection against attacks in most patients, but patients who are colchicine-resistant or -intolerant may be given an IL-1 inhibitor (anakinra, rilonacept, or canakinumab).

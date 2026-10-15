@@ -1,0 +1,130 @@
+=== Loiasis (Merck Manual Professional) ===
+Section: Infectious Disease > Nematodes (Roundworms)
+Source: https://www.merckmanuals.com/professional/infectious-diseases/nematodes-roundworms/loiasis
+Retrieved: 2026-09-25
+
+Loiasis is confined to the rain forest belt of western and central Africa. Humans are the only known natural reservoir for the Loa loa parasite.
+
+(See also Approach to Parasitic Infections and Overview of Filarial Nematode Infections.)
+
+Pathophysiology of Loiasis
+
+Loa loa microfilariae are transmitted by day-biting tabanid flies (Chrysops [deer fly]). Microfilariae mature to adult worms in the subcutaneous tissues of the human host; females are 40 to 70 mm long, and males are 30 to 34 mm long. The adults produce microfilariae. Adults migrate in subcutaneous tissues and under the conjunctiva of the eye, and microfilariae circulate in blood. Flies become infected when they ingest blood from a human host during the day (when microfilaremia levels are the highest).
+
+Loa loa Life Cycle
+
+Image
+
+1. When an infected fly bites a person, it deposits Loa loa larvae onto the person's skin, and the larvae enter the bite wound.
+
+2. The larvae mature into adults in subcutaneous tissue.
+
+3. Adults produce microfilariae, which circulate in blood during the day and are found in the lungs at night. Microfilariae may be present in spinal fluid, urine, and sputum.
+
+4. A fly ingests microfilariae when it bites the person.
+
+5. In the fly, the microfilariae travel to the midgut then to the thoracic muscles.
+
+6–7. There, the microfilariae develop into first-stage (L1) larvae and subsequently into third-stage (L3) infective larvae.
+
+8. Larvae travel to the fly's proboscis and can be transmitted to other people when the fly bites them.
+
+Image from the Centers for Disease Control and Prevention, Global Health, Division of Parasitic Diseases and Malaria.
+
+Occasionally, infection causes cardiomyopathy, nephropathy, or encephalitis. Eosinophilia is common but nonspecific.
+
+Symptoms and Signs of Loiasis
+
+Most infected people are asymptomatic.
+
+Infection can produce areas of angioedema (Calabar swellings) that develop anywhere on the body but predominantly on the extremities; they are presumed to reflect hypersensitivity reactions to allergens released by migrating adult worms. In native residents, swellings usually last 1 to 3 days; in visitors, they are more frequent and severe. Worms may also migrate subconjunctivally across the eyes. This migration may be unsettling, but residual eye damage is uncommon.
+
+Nephropathy generally manifests as proteinuria with or without mild hematuria and is believed to be due to immune complex deposition.
+
+Encephalopathy is usually mild, with vague central nervous system (CNS) symptoms.
+
+Diagnosis of Loiasis
+
+Observation of an adult worm subconjunctivally crossing the eye
+
+Identification of an adult worm removed from the eye or skin
+
+Identification and quantification of microfilariae in blood by microscopy or quantitative polymerase chain reaction (PCR)
+
+Loiasis should be suspected in immigrants or travelers who have a history of exposure in an endemic area and who present with eye worms, Calabar swellings, or unexplained peripheral eosinophilia.
+
+Occasionally, the diagnosis of loiasis is confirmed by observing an adult worm migrating under the conjunctiva or by identifying a worm after it is removed from the eye or skin.
+
+Microscopic detection of microfilariae in peripheral blood establishes the diagnosis; the number of microfilariae per milliliter of blood should be quantified. Blood samples should be drawn between 10 AM and 2 PM, when microfilaremia levels are the highest.
+
+Many serologic tests for antibodies do not differentiate Loa loa from other filarial nematode infections. Loa loa-specific antibody tests have been developed, but they are not widely available in the United States. Also, a positive serologic test does not distinguish between past and current infection. A quantitative real-time PCR (qPCR) to confirm the diagnosis and quantify the microfilarial burden is available at the Laboratory of Parasitic Diseases, National Institutes of Health.
+
+People from endemic regions of Africa should be checked for Loa loa before they are treated with diethylcarbamazine or ivermectin for other disorders because these medications can have substantial adverse effects in people with loiasis. If treated with diethylcarbamazine or ivermectin, people with ≥ 8000 Loa loa microfilariae/mL blood are at risk of potentially fatal encephalopathy, caused by the release of antigens from dying microfilariae.
+
+Treatment of Loiasis
+
+Diethylcarbamazine (DEC)
+
+For heavy infections, initial treatment with albendazole and/or apheresis
+
+Treatment of loiasis is complicated. DEC is the only medication that kills microfilariae and adult worms. In the United States, it is available only from the Centers for Disease Control and Prevention (CDC) after laboratory confirmation of loiasis; clinicians should seek expert advice before they initiate treatment, and they should do the following before initiating treatment with DEC:
+
+Measure the number of microfilariae in the blood because using DEC to treat heavy infections (> 8000 microfilariae/mL blood) can result in potentially fatal encephalopathy
+
+Exclude coinfection with onchocerciasis because DEC can cause a severe hypersensitivity reaction (Mazzotti reaction) and worsen eye and skin disease in patients with onchocerciasis
+
+Clinicians should seek expert assistance when measuring the number of microfilariae and thus determining the severity of the infection.
+
+Treatment of light infection
+
+Patients with symptomatic loiasis and < 8000 microfilariae/mL blood are given DEC 2.7 to 3.3 mg/kg 3 times a day for 21 days.
+
+Patients who have had ≥ 2 rounds of unsuccessful treatment with DEC may be given albendazole 200 mg orally 2 times a day for 21 days (1).
+
+Ivermectin is not preferred because of the potential for serious adverse reactions in patients with heavy infection (2).
+
+Treatment of heavy infection
+
+In heavily infected patients, filarial antigens (released by the microfilariae as DEC kills them) may trigger encephalopathy, leading to coma and death. Patients with > 8000 microfilariae/mL blood are at risk of this adverse effect and may benefit from apheresis or initial treatment with albendazole 200 mg orally 2 times a day for 21 days; the goal is to reduce the microfilarial load to < 8000/mL before DEC is initiated. Multiple courses of DEC may be necessary, and microfilarial loads should be confirmed before DEC administration.
+
+Treatment of coinfection
+
+Coinfection with loiasis and onchocerciasis requires a specialized approach because patients with high levels of Loa loa microfilariae can develop serious adverse events after ivermectin treatment for onchocerciasis. Likewise, DEC is contraindicated in patients with onchocerciasis because of the potential for severe inflammatory responses in the skin and eyes (Mazzotti reaction). In areas where both parasites are endemic, approximately 31,000 people are estimated to be at risk of coinfection (3).
+
+In light Loa loa coinfection (microfilariae < 8000/mL blood), ivermectin can be administered before DEC. The optimal interval between ivermectin and DEC treatment is unknown; a systematic review found 85% reduction in microfilarial loads 1 week after a single dose of ivermectin (4).
+
+In heavy Loa loa coinfection (microfilariae > 8000/mL blood), apheresis or albendazole can be used to reduce microfilarial loads before sequential treatment with ivermectin and DEC. Albendazole appears to have greater activity against adult worms relative to microfilariae, therefore it should be used to reduce Loa loa microfilariae only in patients without onchocercal eye involvement (5).
+
+Treatment references
+
+1. Klion AD, Massougbodji A, Horton J, et al. Albendazole in human loiasis: results of a double-blind, placebo-controlled trial. J Infect Dis. 1993;168(1):202-206. doi:10.1093/infdis/168.1.202
+
+2. Gardon J, Gardon-Wendel N, Demanga-Ngangue, Kamgno J, Chippaux JP, Boussinesq M. Serious reactions after mass treatment of onchocerciasis with ivermectin in an area endemic for Loa loa infection. Lancet. 1997;350(9070):18-22. doi:10.1016/S0140-6736(96)11094-1
+
+3. Vinkeles Melchers NVS, Coffeng LE, Boussinesq M, et al. Projected Number of People With Onchocerciasis-Loiasis Coinfection in Africa, 1995 to 2025. Clin Infect Dis. 2020;70(11):2281-2289. doi:10.1093/cid/ciz647
+
+4. Pion SD, Tchatchueng-Mbougua JB, Chesnais CB, et al. Effect of a Single Standard Dose (150-200 μg/kg) of Ivermectin on Loa loa Microfilaremia: Systematic Review and Meta-analysis. Open Forum Infect Dis. 2019;6(4):ofz019. Published 2019 Jan 11. doi:10.1093/ofid/ofz019
+
+5. Klion AD. Loiasis (Loa loa infection) In: UpToDate, Connor RF (Ed), Wolters Kluwer. Accessed January 6, 2025.
+
+Prevention of Loiasis
+
+Diethylcarbamazine (DEC) 300 mg orally once a week can be used to prevent loiasis in long-term travelers to endemic regions.
+
+Using insect repellents (including permethrin-impregnated clothing) and wearing long-sleeved and long-legged clothing may reduce the number of bites by infected flies. Because the flies are day-biting, mosquito (bed) nets do not help.
+
+Key Points
+
+Humans are the only known natural reservoir for Loa loa, which is transmitted by day-biting tabanid flies.
+
+Most infected people are asymptomatic, but some have areas of angioedema (Calabar swellings), which occur mainly on the extremities, or report worms moving across their eyes.
+
+Diagnose by microscopic examination of peripheral blood drawn between 10 AM and 2 PM, when microfilaremia levels are the highest; confirm and measure the concentration of microfilariae by quantitative polymerase chain reaction (qPCR).
+
+Occasionally, diagnosis of loiasis is confirmed by observing an adult worm migrating under the conjunctiva or by identifying a worm after it is surgically removed from the eye or skin.
+
+Diethylcarbamazine (DEC), which should not be administered to patients concurrently infected with Onchocerca volvulus, is the only medication that kills microfilariae and adult worms; in the United States, it is available only from the Centers for Disease Control and Prevention.
+
+Seek expert assistance in measuring the number of microfilariae and determining the severity of the infection, and seek expert advice before initiating treatment with DEC.
+
+In patients with heavy infection, pretreatment with apheresis or albendazole is recommended because in these patients, the filarial antigens released as DEC kills microfilariae may trigger encephalopathy, leading to coma and death.

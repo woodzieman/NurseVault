@@ -1,0 +1,202 @@
+=== Respiratory Support in Neonates and Infants (Merck Manual Professional) ===
+Section: Pediatrics > Respiratory Problems in Neonates
+Source: https://www.merckmanuals.com/professional/pediatrics/respiratory-problems-in-neonates/respiratory-support-in-neonates-and-infants
+Retrieved: 2026-09-25
+
+Extensive physiologic changes accompany the birth process (see also Neonatal Pulmonary Function), sometimes unmasking conditions that posed no problem during intrauterine life. For that reason, a clinician with neonatal resuscitation skills should attend each birth. Gestational age and growth parameters help identify the risk of neonatal pathology.
+
+Initial stabilization maneuvers include mild tactile stimulation, head positioning, and suctioning of the mouth and nose followed as needed by:
+
+Supplemental oxygen
+
+Continuous positive airway pressure (CPAP)
+
+Noninvasive or nasal intermittent positive pressure ventilation (NIPPV) via nasal prongs or a nasal mask and connected to a ventilator
+
+Ventilation via T-piece resuscitator, bag-and-mask, or ventilator after intubation
+
+Neonates who cannot be oxygenated by any of these means may require a full cardiac evaluation to exclude congenital cardiopulmonary anomalies and treatment with high-frequency oscillatory ventilation, nitric oxide, extracorporeal membrane oxygenation, or a combination.
+
+(See also Overview of Perinatal Respiratory Disorders and Neonatal Resuscitation.)
+
+Algorithm for Resuscitation of Neonates
+
+* PPV: Initiate resuscitation with room air (21% FiO2) for infants ≥ 35 weeks of gestational age or 21 to 30% FiO2 for infants < 35 weeks of gestational age. If SpO2 targets are not achieved, titrate inhaled oxygen concentration upward.
+
+† 3:1 compression:ventilation ratio with a total of 90 compressions and 30 breaths/minute. Compressions and ventilations are delivered sequentially, not simultaneously. Thus, give 3 compressions at a rate of 120/minute, followed by 1 ventilation over 1/2 second.
+
+CPAP = continuous positive airway pressure; ECG = electrocardiography; ETT = endotracheal tube; FiO2 = fractional inspired oxygen; HR = heart rate; PPV = positive pressure ventilation; SpO2 = oxygen saturation; UVC = umbilical venous catheter.
+
+Based on Weiner GM: Textbook of Neonatal Resuscitation, ed. 8. Itasca, American Academy of Pediatrics, 2021.
+
+Oxygen for Neonates and Infants
+
+Oxygen may be given using a nasal cannula or face mask. Oxygen concentration should be set to achieve an oxygen saturation of 85 to 95% after 10 minutes of life during neonatal resuscitation (1). Lower oxygen saturations are expected in the first minutes of life (see figure Algorithm for Resuscitation of Neonates) and improve as pulmonary vascular resistance decreases and pulmonary blood flow increases. After initial resuscitation, oxygen may be administered to target PaO2 of 50 to 70 mm Hg in preterm infants and 50 to 80 mm Hg in term infants or an oxygen saturation of 90 to 94% in preterm infants and 92 to 96% in term infants.
+
+Lower PaO2 in infants provides almost full saturation of hemoglobin because fetal hemoglobin has a higher affinity for oxygen; maintaining higher PaO2 increases the risk of retinopathy of prematurity and bronchopulmonary dysplasia. No matter how oxygen is delivered, it should be warmed (36 to 37° C) and humidified to prevent secretions from cooling and drying and to prevent bronchospasm.
+
+An umbilical artery catheter is usually placed for sampling arterial blood gases in neonates who require fraction of inspired oxygen (FIO2) ≥ 40%. If an umbilical artery catheter cannot be placed, a percutaneous radial artery catheter can be used for continuous blood pressure monitoring and blood sampling if the result of the Allen test, which is performed to assess adequacy of collateral circulation, is normal.
+
+Neonates who are unresponsive to these maneuvers may require fluids to improve cardiac output and are candidates for CPAP ventilation or bag-and-mask/T-piece resuscitator ventilation (40 to 60 breaths/minute). CPAP, either ventilator-derived or bubble, can help avoid intubation (and thus minimize ventilator-induced lung injury) even in extremely preterm infants. However, if the infant does not oxygenate with or requires prolonged bag-and-mask ventilation, endotracheal intubation with mechanical ventilation is indicated, although very preterm neonates (eg, < 28 weeks gestation or < 1000 g) are sometimes begun on ventilatory support immediately after delivery (see also 2) so that they can receive preventive surfactant therapy. Because bacterial sepsis is a common cause of respiratory distress in neonates, clinicians commonly draw blood for cultures and give antibiotics to neonates with high oxygen requirements pending culture results even in the absence of risk factors for neonatal infection.
+
+Oxygen references
+
+1. Kim E, Nguyen M. Oxygen Therapy for Neonatal Resuscitation in the Delivery Room. Neoreviews. 2019;20(9):e500-e512. doi:10.1542/neo.20-9-e500
+
+2. Lista G, Fontana P, Castoldi F, et al. ELBW infants: To intubate or not to intubate in the delivery room? J Matern Fetal Neonatal Med. 2012;25 (supplement 4):63–65. doi:10.3109/14767058.2012.715008
+
+CPAP for Neonates and Infants
+
+In CPAP, constant positive end expiratory pressure (PEEP) is maintained throughout the respiratory cycle, usually 5 to 7 cm H2O, but with no additional inspiratory pressure support. CPAP keeps alveoli open and improves oxygenation by reducing atelectasis and thereby the amount of blood shunted through atelectatic areas while the infant breathes spontaneously. CPAP can be provided via nasal prongs or masks and various apparatuses to provide the positive pressure; it also can be provided via an endotracheal tube connected to a conventional ventilator with the rate set to zero.
+
+Bubble CPAP (1) is a low-technology way of providing PEEP in which the outflow tubing is simply immersed in water to provide expiratory resistance equal to the depth of the tubing in the water (exhalation makes the water bubble, hence the name) (2).
+
+CPAP is indicated when FIO2 ≥ 40% is required to maintain acceptable PaO2 (50 to 70 mm Hg) in infants with respiratory disorders that are of limited duration (eg, diffuse atelectasis, mild respiratory distress syndrome, lung edema). In these infants, CPAP may preempt the need for positive pressure ventilation.
+
+Common complications of nasal CPAP are gastric distention, aspiration, pneumothorax, and nasal pressure injuries. The need for increasing FIO2 and/or PEEP are signs that intubation may be necessary (3).
+
+CPAP references
+
+1. Gupta S, Donn SM. Continuous positive airway pressure: To bubble or not to bubble? Clin Perinatol. 2016;43(4):647–659. doi:10.1016/j.clp.2016.07.003
+
+2. de Carvalho Nunes G, Barbosa de Oliveira C, Zeid M, et al. Early Bubble CPAP Protocol Implementation and Rates of Death or Severe BPD. Pediatrics. 2024;154(1):e2023065373. doi:10.1542/peds.2023-065373
+
+3. Fedor KL. Noninvasive respiratory support in infants and children. Respir Care. 2017;62(6):699–717. doi:10.4187/respcare.05244
+
+NIPPV for Neonates and Infants
+
+NIPPV (see also Noninvasive Positive Pressure Ventilation [NIPPV]) delivers positive pressure ventilation via nasal prongs or a nasal mask connected to a ventilator. It can be synchronized (ie, triggered by the infant's inspiratory effort) or nonsynchronized. NIPPV can provide a back-up rate and can augment an infant's spontaneous breaths. Peak pressure can be set to desired limits.
+
+NIPPV is particularly useful in patients with apnea to facilitate extubation and to help prevent atelectasis. This modality of respiratory support has been found to reduce the incidence of extubation failure and the need for reintubation more effectively than nasal CPAP in infants born after 28 weeks gestation and may reduce the development of chronic lung disease; however, it has no effect on mortality (1, 2).
+
+NIPPV references
+
+1. Lista G, Fontana P, Castoldi F, Cavigioli F, Bianchi S, Bastrenta P. ELBW infants: to intubate or not to intubate in the delivery room?. J Matern Fetal Neonatal Med. 2012;25 Suppl 4:63-65. doi:10.3109/14767058.2012.715008
+
+2. Roehr CC, Farley HJ, Mahmoud RA, Ojha S. Non-Invasive Ventilatory Support in Preterm Neonates in the Delivery Room and the Neonatal Intensive Care Unit: A Short Narrative Review of What We Know in 2024. Neonatology. 2024;121(5):576-583. doi:10.1159/000540601
+
+Mechanical Ventilation for Neonates and Infants
+
+Endotracheal tubes (ETT) are required for mechanical ventilation (see also Tracheal Intubation) and can be used to administer surfactant. Intubation is safer if oxygen is provided during the procedure. Orotracheal intubation is preferred over nasotracheal intubation.
+
+See the table Endotracheal Intubation in Neonates for endotracheal tube size and insertion depth details.
+
+The tip of the endotracheal tube should be positioned about halfway between the clavicles and the carina on chest radiograph, coinciding roughly with vertebral level T1-T2. If position or patency is in doubt, the tube should be removed and the infant should be supported by bag-and-mask ventilation (or T-piece resuscitator) until a new tube is inserted. A CO2 detector is helpful in determining that the tube is placed in the airway (no CO2 is detected with esophageal placement). Acute deterioration of the infant’s condition (sudden changes in oxygenation, arterial blood gases, blood pressure, or perfusion) should trigger suspicion of changes in the position of the tube, patency of the tube, or both.
+
+Modes of ventilation:
+
+Synchronized intermittent mandatory ventilation (SIMV)
+
+Assist control (AC) ventilation
+
+Volume-control (V/C) ventilation
+
+High-frequency oscillatory ventilation (HFOV)
+
+In SIMV, the ventilator delivers a set number of breaths of fixed pressure or volume within a time period. These breaths are synchronized with the patient's spontaneous breaths but also will be delivered in the absence of respiratory effort. The patient can take spontaneous breaths in between without triggering the ventilator.
+
+In AC ventilation, the ventilator is triggered to deliver a breath of predetermined volume or pressure with each patient inspiration. A back-up rate is set in the event the patient is not taking any or enough breaths.
+
+V/C ventilation is considered useful for larger infants with varying pulmonary compliance or resistance (eg, in bronchopulmonary dysplasia) because delivering a set volume of gas with each breath ensures adequate ventilation. AC mode is often used for treating less severe pulmonary disease and for decreasing ventilator dependence while providing a small increase in airway pressure or a small volume of gas with each spontaneous breath.
+
+Patient-triggered ventilation often is used to synchronize the positive pressure ventilator breaths with the onset of the patient’s own spontaneous respirations. Neurally adjusted ventilatory assist (NAVA) and noninvasive NAVA (NIV-NAVA) are synchronized ventilation triggered by the electrical activity of the diaphragm detected via an esophageal catheter placed at the level of the diaphragm, which seems to shorten the time on a ventilator and may reduce barotrauma (1, 2).
+
+HFOV (delivering 400 to 900 breaths/minute at a set mean airway pressure) can be used in infants and is often preferred in extremely preterm infants (< 28 weeks gestation) to reduce chronic lung disease as well as in some infants with air leaks, widespread atelectasis, or pulmonary edema (3, 4). HFOV provides a constant mean airway pressure (MAP) without the peaks in peak inspiratory pressure (PIP) for each breath to achieve the same MAP in conventional ventilation. It may be considered a gentler form of respiratory support especially when air leak is a concern.
+
+Once a mode is chosen, initial ventilator settings are based on the severity of respiratory impairment, gestational age, and underlying conditions.
+
+For conventional ventilation, settings include:
+
+Fraction of inspired oxygen (FIO2): Set based on degree of hypoxemia and oxygen saturation goal
+
+Inspiratory time (IT) and expiratory time: Set based on rate and need; a higher IT improves oxygenation, and a higher expiratory time improves ventilation
+
+Rate: Set based on infant's spontaneous respiratory rate and higher rates, and may be needed if infant has no spontaneous respiratory effort or lower depending on quality of infant's respiratory efforts; higher rates mandate shorter IT and/or expiratory time
+
+In pressure-controlled ventilation, PIP and positive end expiratory pressure (PEEP): Set based on many factors, especially lung compliance (which is decreased in surfactant deficiency), and adjusted based on measured MAP and delivered tidal volume. Reasonable initial settings for pressure-controlled ventilation are PIP 15 to 20 cm H2O for very low and low birth weight infants, PIP 20 to 25 for term and near-term infants, and PEEP 5 for all infants.
+
+In volume-controlled (V/C) ventilation, tidal volume (TV): Initially set based on infant's weight, and adjusted based on measured peak pressure and MAP with the goal being 4 to 6 mL/kg of TV.
+
+For HFOV, settings include:
+
+FIO2: Set based on goal oxygen saturation
+
+MAP: Set based on many factors, including lung compliance (decreased with surfactant deficiency)
+
+Frequency (rate of oscillations, 1 hertz [Hz] = 60 oscillations/minute): Corresponds to rate in conventional ventilation and contributes to TV
+
+Amplitude: Determines the depth of the breath or the peak-to-trough difference in pressure oscillation and is primary determinant of TV
+
+In general, ventilator settings are adjusted based on the infant’s oxygenation, chest wall movement, breath sounds, and respiratory efforts along with arterial or capillary blood gases:
+
+Improved ventilation (reflected by decreased PaCO2) is achieved by increasing the minute ventilation through an increase in TV (increasing PIP or decreasing PEEP) or an increase in rate. In HFOV, minute ventilation is increased primarily by increasing amplitude, with frequency playing a secondary role.
+
+Improved oxygenation (reflected by increased PaO2) is achieved by increasing the FIO2 or the MAP (increasing PIP and/or PEEP, or prolonging IT in conventional ventilation or increasing MAP in HFOV).
+
+Ventilator pressures or volumes should be as low as possible to prevent barotrauma and bronchopulmonary dysplasia; an elevated PaCO2 is acceptable as long as pH remains ≥ 7.25 (permissive hypercapnia). Likewise, a PaO2 as low as 40 mm Hg is acceptable if blood pressure is normal and metabolic acidosis is not present.
+
+Adjunctive treatments used with mechanical ventilation in some patients include:
+
+Muscle relaxants
+
+Sedation
+
+Nitric oxide
+
+Muscle relaxants (eg, vecuronium, pancuronium bromide) may facilitate endotracheal intubation and can help stabilize infants whose movements and spontaneous breathing prevent optimal ventilation. These medications should be used selectively and only in an intensive care unit setting by personnel experienced in intubation and ventilator management because a paralyzed infant will not be able to breathe spontaneously if intubation attempts are unsuccessful or the infant is inadvertently extubated. Furthermore, paralyzed infants may need greater ventilator support, which can increase barotrauma.
+
+Fentanyl, often used for sedation, can cause chest wall rigidity or laryngospasm, which can lead to difficulty intubating.
+
+Inhaled nitric oxide 5 to 20 ppm may be used for refractory hypoxemia when pulmonary vasoconstriction is a contributor to hypoxia (eg, in persistent pulmonary hypertension of the newborn, pneumonia, or congenital diaphragmatic hernia) and may prevent the need for extracorporeal membrane oxygenation.
+
+Weaning from the ventilator can occur as respiratory status improves. The infant can be weaned by lowering:
+
+FIO2
+
+Inspiratory pressure and PEEP (if supraphysiologic)
+
+Rate
+
+As the rate is reduced, the infant takes on more of the work of breathing. Infants who can maintain adequate oxygenation and ventilation on lower settings typically tolerate extubation. The final steps in ventilator weaning involve extubation, possibly support with nasal (or nasopharyngeal) CPAP or NIPPV, and, finally, use of a nasal cannula to provide humidified oxygen or air.
+
+Very low-birth-weight infants may benefit from the addition of a methylxanthine (eg, caffeine, aminophylline, theophylline) during the weaning process. Methylxanthines are central nervous system–mediated respiratory stimulants that increase ventilatory effort and may reduce apneic and bradycardic episodes that may interfere with successful weaning. Caffeine is the preferred agent because it is better tolerated, easier to give, safer, and requires less monitoring.
+
+Glucocorticoids, once used routinely for weaning and treatment of chronic lung disease, are not recommended in preterm infants because risks (eg, impaired growth, hypertrophic cardiomyopathy) outweigh benefits. A possible exception is as a last resort in near-terminal illness, in which case parents should be fully informed of risks.
+
+Complications of mechanical ventilation
+
+Complications of mechanical ventilation in neonates include:
+
+Air leak (pneumothorax, pulmonary interstitial emphysema) can occur with CPAP as well as mechanical ventilation
+
+Asphyxia resulting from endotracheal tube obstruction or dislodgement
+
+Ulceration, erosion, or narrowing of airway structures due to adjacent pressure from equipment
+
+Bronchopulmonary dysplasia
+
+Mechanical ventilation references
+
+1. Kallio M, Koskela U, Peltoniemi O, et al. Neurally adjusted ventilatory assist (NAVA) in preterm newborn infants with respiratory distress syndrome-a randomized controlled trial. Eur J Pediatr. 2016;175(9):1175-1183. doi:10.1007/s00431-016-2758-y
+
+2. Lee Y, Lee J. Neurally adjusted ventilatory assist improves survival, and its early application accelerates weaning in preterm infants. Pediatr Int. 2024;66(1):e15831. doi:10.1111/ped.15831
+
+3. Hibberd J, Leontini J, Scott T, et al. Neonatal high-frequency oscillatory ventilation: where are we now?. Arch Dis Child Fetal Neonatal Ed. 2024;109(5):467-474. Published 2024 Aug 16. doi:10.1136/archdischild-2023-325657
+
+4. Yu X, Tan Q, Li J, Shi Y, Chen L. Elective high frequency oscillatory ventilation versus conventional mechanical ventilation on the chronic lung disease or death in preterm infants administered surfactant: a systematic review and meta-analysis. J Perinatol. 2025;45(1):77-84. doi:10.1038/s41372-024-02185-x
+
+ECMO for Neonates and Infants
+
+ECMO is a form of pulmonary or cardiopulmonary bypass used for infants with respiratory failure who cannot be oxygenated or ventilated adequately with conventional or oscillating ventilators. Eligibility criteria vary by center, but, in general, infants should have reversible disease (eg, persistent pulmonary hypertension of the newborn, congenital diaphragmatic hernia, overwhelming pneumonia) and should have been on mechanical ventilation < 7 days. Primary cardiac compromise may also be an indication for ECMO.
+
+After systemic anticoagulation (typically with heparin), blood is circulated through large-diameter catheters from the internal jugular vein into a membrane oxygenator, which serves as an artificial lung to remove CO2 and add oxygen. Oxygenated blood is then circulated back to the internal jugular vein (venovenous ECMO) or to the carotid artery (venoarterial ECMO). In venovenous ECMO, the infant's heart maintains its normal function as the circulatory pump; venoarterial ECMO is used when circulatory as well as ventilatory support are needed (eg, in overwhelming sepsis or in primary cardiac indications such as neonatal cardiomyopathy). Flow rates can be adjusted to obtain desired oxygen saturation and blood pressure.
+
+ECMO is relatively contraindicated in infants < 34 weeks, < 2 kg, or both because of the risk of intraventricular hemorrhage with systemic heparinization (1, 2).
+
+Complications of ECMO include thromboembolism, air embolization, neurologic (eg, stroke, seizures) and hematologic (eg, bleeding, hemolysis, neutropenia, thrombocytopenia) problems, and cholestatic jaundice.
+
+ECMO references
+
+1. Wild KT, Rintoul N, Kattan J, Gray B. Extracorporeal Life Support Organization (ELSO): Guidelines for Neonatal Respiratory Failure. ASAIO J. 2020;66(5):463-470. doi:10.1097/MAT.0000000000001153
+
+2. Mesas Burgos C, Rintoul N, Broman LM. ECMO for premature neonates- Are we there yet?. Semin Pediatr Surg. Published online October 17, 2023. doi:10.1016/j.sempedsurg.2023.151335

@@ -1,0 +1,318 @@
+=== Airflow, Lung Volumes, and Flow-Volume Loop (Merck Manual Professional) ===
+Section: Pulmonology > Tests of Pulmonary Function (PFT)
+Source: https://www.merckmanuals.com/professional/pulmonary-disorders/tests-of-pulmonary-function-pft/airflow-lung-volumes-and-flow-volume-loop
+Retrieved: 2026-09-25
+
+Airflow and lung volume measurements can be used to differentiate obstructive from restrictive pulmonary disorders, to characterize severity, and to measure responsiveness to therapy.
+
+Tests include spirometry to measure inspiratory and expiratory air flow and lung volumes, and sometimes flow-volume loop testing to define specific obstructive and restrictive abnormalities. In patients with obstructive abnormalities, spirometry is repeated after administration of inhaled short-acting bronchodilators to assess reversibility and response to treatment.
+
+Measurements are typically reported as absolute flows and volumes and as percentages of predicted values using data derived from large populations of people presumed to have normal lung function. Variables used to predict normal values include age, sex,and height.
+
+Clinical Calculators
+
+PFT predicted values by 2022 race-neutral GLI equations, ages 3 to 95
+
+There is a lack of agreement between different professional societies regarding whether to use race-based adjustments in pulmonary function testing. Studies have shown that the use of race and ethnicity-based reference equations likely underestimate pulmonary disease severity (and thus result in undertreatment) in non-White individuals (1, 2). Thus, the American Thoracic Society (ATS) has recommended replacing previously used ethnicity or race-specific reference equations (3) with those derived from race-neutral reference equations; such as those derived from the Global Lung Function Initiative (GLI) average equation (4, 5). However, the 2022 European Respiratory Society (ERS)/ATS technical standard has acknowledged that the use of race-neutral reference sets may result in changes in eligibility for specific treatments (eg, surgery, lung transplantation) (6). Limited evidence has shown that the use of race-neutral equations has increased the accuracy of diagnoses of lung pathology in Black patients (7).
+
+Airflow
+
+Quantitative measures of inspiratory and expiratory flow are obtained by forced spirometry. Nose clips are used to occlude the nares.
+
+In inspiratory flow and volume assessments, patients exhale as completely as possible, then forcibly inhale. The inspiratory volume is the maximum amount of air inhaled in one deep breath, and the inspiratory flow is the volume inspired per second.
+
+In expiratory flow and volume assessments, patients inhale as deeply as possible, seal their lips around a mouthpiece, and exhale as forcefully and completely as possible into an apparatus that records the exhaled volume (forced vital capacity [FVC]) and the volume exhaled in the first second (the forced expiratory volume in 1 second [FEV1]—see figure Normal Spirogram).
+
+These maneuvers provide several measures:
+
+FVC: Maximal amount of air that the patient can forcibly exhale after taking a maximal inhalation
+
+FEV1: Volume exhaled in the first second
+
+Peak expiratory flow (PEF): Maximal speed of airflow as the patient exhales
+
+FEV1 is the most reproducible flow parameter and is especially useful in diagnosing and monitoring patients with obstructive pulmonary disorders (eg, asthma, COPD [chronic obstructive pulmonary disease]).
+
+Both FEV1 and FVC help differentiate obstructive and restrictive lung disorders. A normal FEV1 makes irreversible (ie, fixed) obstructive lung disease unlikely. A normal FVC makes restrictive disease unlikely. A decreased FEV1/FVC ratio indicates obstruction. Repeat measurement of FEV1 and FVC with a short-acting bronchodilator in patients with evidence of obstruction on initial testing is useful for differentiating patients with reversible bronchospasm (as occurs in asthma) from those with fixed obstruction in COPD.
+
+Some people have risk factors for COPD (eg, cigarette smoking, previous infection, occupational exposure, air pollution exposure) but do not demonstrate definite obstruction on pulmonary function testing. These people are said to have pre-COPD (8). Further studies are needed to characterize this population, but monitoring spirometry values over time may be helpful in identifying patients who are likely to develop COPD.
+
+Normal Spirogram
+
+FEF25–75% = forced expiratory flow during expiration of 25 to 75% of the FVC; FEV1 = forced expiratory volume in the first second of forced vital capacity maneuver; FVC = forced vital capacity (the maximum amount of air forcibly expired after maximum inspiration).
+
+The forced expiratory flow averaged over the time during which 25 to 75% of the FVC is exhaled (also called FEF25-75%) may be a more sensitive marker of mild, small airway airflow limitation than the FEV1, but the reproducibility of this variable is poor.
+
+The peak expiratory flow (PEF) is the peak flow occurring during exhalation. This variable is used primarily for home monitoring of patients with asthma and for determining diurnal variations in airflow. Asthma can be monitored by comparing PEF to an individual's personal best.
+
+Interpretation of these measures depends on good patient effort, which is often improved by coaching during the actual maneuver. Acceptable spirograms demonstrate:
+
+Good test initiation (eg, a quick and forceful onset of exhalation)
+
+No coughing
+
+Smooth curves
+
+Absence of early termination of expiration (eg, minimum exhalation time of 6 seconds with no change in volume for the last 1 second)
+
+Quality control standards must be ensured when performing spirometry (eg, equipment calibration, patient effort, operator training). Reproducible efforts should generally agree within 5% or 100 mL (ie, the difference between the 2 highest measurements for FVC or FEV1 must be less than or equal to 5% of the highest value, or 100 mL, whichever is larger) with other efforts within the same spirometry session. Results that do not meet these minimum acceptable criteria should be interpreted with caution.
+
+Lung volume
+
+Lung volumes are measured by determining functional residual capacity (FRC). FRC is the amount of air remaining in the lungs after normal exhalation. The total lung capacity (TLC) is the volume of gas that is contained in the lungs at the end of maximal inspiration. Knowing the FRC allows the lungs to be divided into subvolumes that are either measured with spirometry or calculated (see figure Normal Lung Volumes). Normally, the FRC represents about 40% of TLC.
+
+Normal Lung Volumes
+
+ERV = expiratory reserve volume; FRC = functional residual capacity; IC = inspiratory capacity; IRV = inspiratory reserve volume; RV = residual volume; TLC = total lung capacity; VC = vital capacity; VT= tidal volume.
+
+FRC = RV + ERV; IC = VT + IRV; VC = VT+ IRV + ERV.
+
+FRC is measured using gas dilution techniques or a plethysmograph (which is more accurate in patients who have airflow limitation and trapped gas).
+
+Gas dilution techniques include:
+
+Nitrogen washout
+
+Helium equilibration
+
+With nitrogen washout, the patient exhales to FRC and then breathes from a spirometer containing 100% oxygen. The test ends when the exhaled nitrogen concentration is zero. Because the concentration of nitrogen in the lungs is known at baseline and the volume of nitrogen collected is measured, the total lung volume can be calculated.
+
+With helium equilibration, the patient exhales to FRC and then is connected to a closed system containing known volumes of helium and oxygen. Helium concentration is measured until it is the same on inhalation and exhalation, indicating it has equilibrated with the volume of gas in the lungs, which can then be estimated from the change in helium concentration that has occurred.
+
+Both of these techniques may underestimate FRC because they measure only the lung volume that communicates with the airways. In patients with severe airflow limitation, a considerable volume of trapped gas may communicate very poorly or not at all.
+
+Body plethysmography uses Boyle’s law (P1V1 = P2V2, where P is pressure and V is volume) to measure the compressible gas volume within the thorax. Body plethysmography is more accurate than gas dilution techniques. While sitting in an airtight box, the patient tries to inhale against a closed mouthpiece from FRC. As the chest wall expands, the pressure in the closed box rises. Knowing the pre-inspiratory box volume and the pressure in the box before and after the inspiratory effort allows for calculation of the change in box volume, which must equal the change in lung volume.
+
+Clinical Calculators
+
+Lung Volume Multicalc
+
+Flow-volume loop
+
+In contrast to the spirogram, which displays a volume-time loop (that is, airflow [in L] over time [in seconds]), the flow-volume loop displays airflow (in L/second) as it relates to lung volume (in L) during maximal inspiration from complete exhalation (residual volume [RV]) and during maximum expiration from complete inhalation (TLC). The principal advantage of the flow-volume loop is that it can show whether airflow is appropriate for a particular lung volume. For example, airflow is normally slower at low lung volumes because elastic recoil is lower at lower lung volumes. Patients with pulmonary fibrosis have low lung volumes and their airflow appears to be decreased if measured alone. However, when airflow is presented as a function of lung volume, it becomes apparent that airflow is actually higher than normal (as a result of the increased elastic recoil characteristic of fibrotic lungs).
+
+Flow-Volume Loops
+
+(A) Normal. In a normal flow-volume loop, the inspiratory limb of loop is symmetric and convex. The expiratory limb is linear after peak flow is attained. Airflow at the midpoint of inspiratory capacity and airflow at the midpoint of expiratory capacity are often measured and compared. Maximal inspiratory airflow at 50% of forced vital capacity (MIF 50% FVC) is greater than maximal expiratory airflow at 50% FVC (MEF 50% FVC) because dynamic compression of the airways occurs during exhalation.
+
+(B) Obstructive disorder (eg, emphysema, asthma). The primary finding on a flow-volume loop in obstructive lung disease is a scooped-out (concave) appearance of the expiratory limb. Although all airflow is diminished, expiratory prolongation predominates, and MEF < MIF. Peak expiratory flow is sometimes used to estimate the degree of airway obstruction but is dependent on patient effort.
+
+(C) Restrictive disorder (eg, interstitial lung disease, kyphoscoliosis). The primary finding on a flow-volume loop in restrictive lung disease is a miniaturized loop that affects both the inspiratory and expiratory limbs (ie, indicative of overall reduced lung volumes). Airflow is greater than normal at comparable lung volumes because the increased elastic recoil of the lungs holds the airways open.
+
+(D) Fixed obstruction of the upper airway (eg, tracheal stenosis, goiter). The top and bottom of the loops are flattened so that the configuration approaches that of a rectangle. Fixed obstruction limits flow equally during inspiration and expiration, and MEF = MIF.
+
+(E) Variable extrathoracic obstruction (eg, unilateral vocal fold paralysis, vocal fold dysfunction). When a single vocal fold is paralyzed, it moves passively with pressure gradients across the glottis. During forced inspiration, it is drawn inward, resulting in a plateau of decreased inspiratory flow. During forced expiration, it is passively blown aside, and expiratory flow is unimpaired. Therefore, MIF 50% FVC < MEF 50% FVC.
+
+(F) Variable intrathoracic obstruction (eg, tracheomalacia). During a forced inspiration, negative pleural pressure holds the floppy trachea open. With forced expiration, loss of structural support results in tracheal narrowing and a plateau of diminished flow, and MEF < MIF. Airflow is maintained briefly before airway compression occurs.
+
+FVC = forced vital capacity; MEF = maximal expiratory flow; MIF = maximal inspiratory flow; PEF = peak expiratory flow; RV = residual volume; TLC = total lung capacity.
+
+Flow-volume loops require that absolute lung volumes be measured. Unfortunately, many laboratories simply plot airflow against the FVC; the flow-FVC loop does not have an inspiratory limb and therefore does not provide as much information.
+
+General references
+
+1. Baugh AD, Shiboski S, Hansel NN, et al. Reconsidering the Utility of Race-Specific Lung Function Prediction Equations [published correction appears in Am J Respir Crit Care Med. 2022;206(2):230]. Am J Respir Crit Care Med. 2022;205(7):819-829. doi:10.1164/rccm.202105-1246OC
+
+2. Ekström M, Mannino D. Research race-specific reference values and lung function impairment, breathlessness and prognosis: Analysis of NHANES 2007-2012 [published correction appears in Respir Res. 2023;24(1):41]. Respir Res. 2022;23(1):271. doi:10.1186/s12931-022-02194-4
+
+3. Bhakta NR, Bime C, Kaminsky DA, et al. Race and Ethnicity in Pulmonary Function Test Interpretation: An Official American Thoracic Society Statement. Am J Respir Crit Care Med. 2023;207(8):978-995. doi:10.1164/rccm.202302-0310ST
+
+4. Quanjer PH, Stanojevic S, Cole TJ, et al. Multi-ethnic reference values for spirometry for the 3-95-yr age range: the global lung function 2012 equations. Eur Respir J. 2012;40(6):1324-1343. doi:10.1183/09031936.00080312
+
+5. Bowerman C, Bhakta NR, Brazzale D, et al. A Race-neutral Approach to the Interpretation of Lung Function Measurements. Am J Respir Crit Care Med. 2023;207(6):768-774. doi:10.1164/rccm.202205-0963OC
+
+6. Stanojevic S, Kaminsky DA, Miller MR, et al. ERS/ATS technical standard on interpretive strategies for routine lung function tests. Eur Respir J. 2022;60(1):2101499. doi:10.1183/13993003.01499-2021
+
+7. Vyas DA, Zhao S, Lai PS, et al. Lung Function Trajectory Using Race-Specific vs Race-Neutral Global Lung Function Initiative Coefficients. JAMA Netw Open. 2025;8(4):e257304. Published 2025 Apr 1. doi:10.1001/jamanetworkopen.2025.7304
+
+8. Han MK, Agusti A, Celli BR, et al. From GOLD 0 to Pre-COPD. Am J Respir Crit Care Med. 2021;203(4):414-423. doi:10.1164/rccm.202008-3328PP
+
+Patterns of Abnormalities
+
+Most common respiratory disorders can be categorized as obstructive or restrictive on the basis of airflow and lung volumes (see table Characteristic Physiologic Changes Associated With Pulmonary Disorders).
+
+Table
+
+Characteristic Physiologic Changes Associated With Pulmonary Disorders
+
+Table
+
+Characteristic Physiologic Changes Associated With Pulmonary Disorders
+
+Characteristic Physiologic Changes Associated With Pulmonary Disorders
+
+Measure
+
+Obstructive Disorders
+
+Restrictive Disorders
+
+Mixed Disorders
+
+FEV1/FVC
+
+Decreased
+
+Normal or increased
+
+Decreased
+
+FEV1
+
+Decreased
+
+Decreased, normal, or increased
+
+Decreased
+
+FVC
+
+Decreased or normal
+
+Decreased
+
+Decreased or normal
+
+TLC
+
+Normal or increased
+
+Decreased
+
+Decreased, normal, or increased
+
+RV
+
+Normal or increased
+
+Decreased
+
+Decreased, normal, or increased
+
+FEV1= forced expiratory volume in 1 second; FVC = forced vital capacity; RV = residual volume; TLC = total lung capacity.
+
+FEV1= forced expiratory volume in 1 second; FVC = forced vital capacity; RV = residual volume; TLC = total lung capacity.
+
+Obstructive disorders
+
+Obstructive disorders are characterized by a reduction in airflow, particularly the FEV1 and the FEV1 expressed as a ratio of the FVC (FEV1/FVC). The degree of reduction in actually measured FEV1 relative to predicted values determines the degree of the obstructive defect. Obstructive defects are caused by:
+
+Increased resistance to airflow due to abnormalities within the airway lumen (eg, tumors, secretions, mucosal thickening)
+
+Changes in the wall of the airway (eg, constriction of smooth muscle, edema)
+
+Decreased elastic recoil (eg, the parenchymal destruction that occurs in emphysema)
+
+With decreased airflow, expiratory times are longer than usual, and air may become trapped in the lungs due to incomplete emptying, thereby increasing lung volumes (eg, TLC, RV).
+
+The most common examples of obstructive disorders are COPD, asthma, and bronchiectasis.
+
+The European Respiratory Society and American Thoracic Society have updated their guidelines on interpretation of pulmonary function tests in grading severity of obstructive lung disease (see table Severity of Lung Impairment) (1). These guidelines recommend expressing all measurements, including spirometry, lung volumes, and diffusing capacity of the lungs for carbon monoxide (DLCO), as z-scores rather than as percentages of predicted values to grade severity. A z-score less than -1.645 indicates that the value isl below the 5th percentile of the predicted value based on healthy matched controls (ie, in the reference population).
+
+In judging response to bronchodilators, the guidelines now recommend the use of percent change relative to an individual's predicted value (instead of baseline value), and they recommend using improvement of FEV1 and/or FVC ≥ 10% as the criterion for airway hyperresponsiveness.
+
+FEV1 is the standard value used for assessing reversibility in obstruction after bronchodilator use. FVC may sometimes be included to identify improvements in air trapping, particularly in COPD.
+
+Table
+
+Severity of Lung Impairment
+
+Table
+
+Severity of Lung Impairment
+
+Severity of Lung Impairment
+
+Severity*
+
+Z-Score
+
+Mild
+
+-1.65 to -2.5
+
+Moderate
+
+-2.51 to -4.0
+
+Severe
+
+<-4.1
+
+* Z-scoring for lung impairment severity uses the number of standard deviations from the predicted mean to grade dysfunction. Normal z-scores are > -1.65.
+
+Data from Stanojevic S, Kaminsky DA, Miller MR, et al. ERS/ATS technical standard on interpretive strategies for routine lung function tests. Eur Respir J. 2022;60(1):2101499. doi:10.1183/13993003.01499-2021
+
+* Z-scoring for lung impairment severity uses the number of standard deviations from the predicted mean to grade dysfunction. Normal z-scores are > -1.65.
+
+Data from Stanojevic S, Kaminsky DA, Miller MR, et al. ERS/ATS technical standard on interpretive strategies for routine lung function tests. Eur Respir J. 2022;60(1):2101499. doi:10.1183/13993003.01499-2021
+
+Restrictive disorders
+
+Restrictive disorders are characterized by a reduction in lung volume, specifically a TLC less than the lower limit of normal [a z-score less than -1.65, corresponding to less than the 5th percentile of predicted based on healthy matched controls, (ie, in the reference population)]. However, in early restrictive disease, the TLC can be normal (as a result of strong inspiratory effort), and the only abnormality might be a reduction in RV. The degree of decrease in TLC determines the severity of restriction. The decrease in lung volumes reduces airflow (reduced FEV1). However, airflow relative to lung volume is increased, so the FEV1/FVC ratio is normal or increased in restrictive lung disease.
+
+Restrictive defects are caused by the following:
+
+Loss in lung volume (eg, lobectomy)
+
+Abnormalities of structures surrounding the lung (eg, pleural disorder, kyphosis, obesity)
+
+Weakness of the inspiratory muscles of respiration (eg, neuromuscular disorders)
+
+Abnormalities of the lung parenchyma (eg, pulmonary fibrosis)
+
+The feature common to all is a decrease in the compliance of the lungs, the chest wall, or both.
+
+Patterns of abnormalities reference
+
+1. Stanojevic S, Kaminsky DA, Miller MR, et al. ERS/ATS technical standard on interpretive strategies for routine lung function tests. Eur Respir J. 2022;60(1):2101499. doi:10.1183/13993003.01499-2021
+
+Bronchoprovocation Challenge
+
+Bronchoprovocation challenge is a diagnostic procedure used to assess airway hyperresponsiveness by exposing patients to agents that induce bronchoconstriction. It is used to diagnose conditions such as asthma, particularly when spirometry is normal, but there is still a suspicion of airway hyperreactivity.
+
+Testing can be done using either direct or indirect methods.
+
+Direct methods include:
+
+Methacholine
+
+Histamine (rarely used)
+
+Indirect methods include:
+
+Exercise
+
+Eucapnic voluntary hyperventilation
+
+Cold-induced hypersensitivity
+
+Mannitol
+
+Hypertonic saline
+
+Direct methods
+
+Some patients with asthma can have normal pulmonary function and normal spirometric parameters between exacerbations. When suspicion of asthma remains high despite normal spirometry results, bronchoprovocation challenge testing with methacholine, a synthetic analog of acetylcholine that is a nonspecific bronchial irritant, is indicated to detect or exclude bronchoconstriction. In a methacholine challenge test, spirometric parameters are measured at baseline and after inhalation of increasing doses of methacholine. The dose of methacholine that causes a 20% drop in FEV1 is called the PD20. Laboratories have different definitions of airway hyperreactivity, but in general, patients showing at least a 20% drop in FEV1 from baseline (PD20) when the delivered dose of inhaled methacholine is < 25 mcg is considered diagnostic of increased bronchial reactivity, whereas a PD20 > 400 mcg excludes the diagnosis. PD20 values between 25 and 400 mcg are inconclusive (1). Histamine challenges involve inhalation of increasing doses of histamine, which acts as a direct stimulus to induce histamine-mediated bronchoconstriction; bronchial hyperresponsiveness is subsequently measured (2). 
+
+Indirect methods
+
+Exercise testing may be used to detect exercise-induced asthma, but is less sensitive than methacholine challenge testing for detecting general airway hyperresponsiveness. The patient does a constant level of work on a treadmill or cycle ergometer for 6 to 8 minutes at an intensity selected to produce a heart rate of 80% of predicted maximum. The FEV1 and FVC are measured before and 5, 15, and 30 minutes after exercise. Exercise-induced bronchospasm reduces FEV1 or FVC ≥ 10 to 15% after exercise (3).
+
+Eucapnic voluntary hyperventilation may also be used to diagnose exercised-induced asthma. Eucapnic voluntary hyperventilation involves hyperventilation of a gas mixture of 5% carbon dioxide and 21% oxygen at 85% of maximum voluntary ventilation for 6 minutes. FEV1 is then measured at specified intervals after the test. As with other bronchial provocation tests, the drop in FEV1 that is diagnostic of exercise-induced bronchospasm varies by laboratory. Eucapnic voluntary hyperventilation is recommended in athletes who do not have bronchial hyperreactivity at rest.
+
+Cold-induced hyperreactivity can be assessed with a similar test in which the patient hyperventilates for 3 to 6 minutes with the gas mixture cooled to between -10° C and -20° C. This test requires specialized cooling equipment that may not be available in many testing laboratories.
+
+Mannitol challenge uses incremental doses of dry powder mannitol of 5, 10, 20, 40, 2 × 40, 4 × 40, 4 × 40 and 4 × 40 mg (total cumulative dose of 635 mg cumulative), with a positive bronchial challenge test defined as the provocative dose that causes a ≥ 15% decrease in FEV1 from baseline (4).  Alternatively, a 10% decrease in FEV1 between 2 consecutive mannitol doses may also be considered positive.
+
+Hypertonic saline is another indirect challenge whereby inhaling a specific concentration of saline (usually 4.5%) induces osmotic stress on airway walls and increased bronchial reactivity, with a positive test causing a ≥ 15% decrease in FEV1 from baseline (4).
+
+Bronchoprovocation challenge references
+
+1. Coates AL, Wanger J, Cockcroft DW, et al. ERS technical standard on bronchial challenge testing: general considerations and performance of methacholine challenge tests. Eur Respir J. 2017;49(5):1601526. doi:10.1183/13993003.01526-2016
+
+2. Steinbrugger B, Eber E, Modl M, Weinhandl E, Zach MS. A comparison of a single-step cold-dry air challenge and a routine histamine provocation for the assessment of bronchial responsiveness in children and adolescents. Chest. 1995;108(3):741-745. doi:10.1378/chest.108.3.741
+
+3. Parsons JP, Hallstrand TS, Mastronarde JG, et al. An official American Thoracic Society clinical practice guideline: exercise-induced bronchoconstriction. Am J Respir Crit Care Med. 2013;187(9):1016-1027. doi:10.1164/rccm.201303-0437ST
+
+4. Hallstrand TS, Leuppi JD, Joos G, et al. ERS technical standard on bronchial challenge testing: pathophysiology and methodology of indirect airway challenge testing. Eur Respir J. 2018;52(5):1801033. doi:10.1183/13993003.01033-2018

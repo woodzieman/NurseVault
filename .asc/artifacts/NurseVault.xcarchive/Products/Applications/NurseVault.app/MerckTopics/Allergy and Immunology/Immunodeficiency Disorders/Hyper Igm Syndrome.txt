@@ -1,0 +1,54 @@
+=== Hyper-IgM Syndrome (Merck Manual Professional) ===
+Section: Allergy and Immunology > Immunodeficiency Disorders
+Source: https://www.merckmanuals.com/professional/immunology-allergic-disorders/immunodeficiency-disorders/hyper-igm-syndrome
+Retrieved: 2026-09-25
+
+(See also Overview of Immunodeficiency Disorders and Approach to the Patient With an Immunodeficiency Disorder.)
+
+Hyper-IgM syndrome is a primary immunodeficiency disorder that involves combined humoral and cellular immunity deficiencies. It may be
+
+X-linked (most cases)
+
+Autosomal recessive
+
+Manifestations vary depending on the mutation and its location.
+
+X-linked hyper-IgM syndrome
+
+Most cases are X-linked and caused by mutations in a gene on the X chromosome that encodes a protein (CD154, or CD40 ligand) on the surfaces of activated helper T cells. In the presence of cytokines, normal CD40 ligand interacts with B cells and thus signals them to switch from producing IgM to producing IgA, IgG, or IgE. In X-linked hyper-IgM syndrome, T cells lack functional CD40 ligand and cannot signal B cells to switch. Thus, B cells produce only IgM; IgM levels may be normal or elevated.
+
+Patients with the X-linked form may have severe neutropenia and often present during infancy with Pneumocystis jirovecii pneumonia. Lymphoid tissue is very small because deficient CD 40 ligand signaling does not activate B cells. Otherwise, clinical presentation is similar to that of X-linked agammaglobulinemia and includes recurrent pyogenic bacterial sinopulmonary infections during the first 2 years of life. Susceptibility to Cryptosporidium infections may be increased. Many patients die before puberty, and those who live longer often develop cirrhosis or B-cell lymphomas.
+
+Autosomal recessive hyper-IgM syndrome
+
+In autosomal recessive hyper-IgM syndrome with CD40 mutation, manifestations are similar to those of the X-linked form.
+
+At least 4 autosomal recessive forms involve a B-cell defect. In 2 of these forms (deficiency of activation-induced cytidine deaminase [AID] or uracil DNA glycosylase [UNG]), serum IgM levels are much higher than in the X-linked form; lymphoid hyperplasia (including lymphadenopathy, splenomegaly, and tonsillar hypertrophy) is present, and autoimmune disorders may be present. Leukopenia is absent.
+
+Diagnosis of Hyper-IgM Syndrome
+
+CD40 ligand expression and genetic testing
+
+Diagnosis of hyper-IgM syndrome is suspected based on clinical criteria, including recurrent sinopulmonary infections, chronic diarrhea, and lymphoid hyperplasia. Serum Ig levels are measured; normal or elevated serum IgM levels and low levels or absence of other immunoglobulins support the diagnosis. Flow cytometry testing of CD40 ligand expression on T-cell surfaces should be done.
+
+When possible, the diagnosis is confirmed by genetic testing. Prenatal genetic testing can be offered to women considering pregnancy if they have a family history of CD40 ligand deficiency. Genetic testing of other relatives is not routinely done.
+
+Other laboratory findings include a reduced number of memory B cells (CD27) and absence of class-switched memory B cells (IgD-CD27).
+
+Family members of known patients should be tested if they have a clinical picture consistent with the disease.
+
+Treatment of Hyper-IgM Syndrome
+
+Prophylactic immune globulin (IgG) replacement therapy and sometimes trimethoprim/sulfamethoxazole
+
+Granulocyte colony stimulating factor (G-CSF) for severe neutropenia
+
+Hematopoietic stem cell transplantation when possible
+
+Treatment of hyper-IgM syndrome usually includes immune globulin replacement therapy. Severe neutropenia can be treated with G-CSF (1).
+
+Patients with the X-linked form or CD40 mutations are given prophylactic trimethoprim/sulfamethoxazole to prevent P. jirovecii infection, and environmental precautions are taken to reduce the risk of Cryptosporidium infection (see Gastroenteritis: prevention). However, because the prognosis is poor, hematopoietic stem cell transplantation, which can be curative, is preferred if an human leukocyte antigen (HLA)-identical sibling donor is available.
+
+Treatment reference
+
+1. França TT, Barreiros LA, Al-Ramadi BK, Ochs HD, Cabral-Marques O, Condino-Neto A: CD40 ligand deficiency: treatment strategies and novel therapeutic perspectives. Expert Rev Clin Immunol 15(5):529–540, 2019. doi:10.1080/1744666X.2019.1573674

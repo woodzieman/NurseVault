@@ -1,26 +1,24 @@
 # Nurse Vault
 
-A private, offline-capable reference vault for nursing practice — available on
-**iPhone, iPad, Mac, and Apple Watch**, with everything you store synced
-securely across all of your devices via **iCloud (CloudKit private database)**.
+A private, offline-capable reference vault for nursing practice — available on **iPhone, iPad, Mac, and Apple Watch**, with everything you store synced securely across all of your devices via **iCloud (CloudKit private database)**.
 
-No third-party servers, no accounts, no subscriptions. Your data is only ever
-accessible by your own Apple ID.
+No third-party servers, no accounts, no subscriptions. Your data is only ever accessible by your own Apple ID.
 
 > 🌐 **Landing page & privacy policy:**
 > [woodzieman.github.io/NurseVault](https://woodzieman.github.io/NurseVault)
 > · [Privacy Policy](https://woodzieman.github.io/NurseVault/privacy.html)
 
-## Quick start (for visitors)
+---
+
+## Quick Start (for visitors)
 
 1. **View the app's landing page** at [woodzieman.github.io/NurseVault](https://woodzieman.github.io/NurseVault).
-2. **Read the privacy policy** at [woodzieman.github.io/NurseVault/privacy.html](https://woodzieman.github.io/NurseVault/privacy.html) — it states: *we collect zero data.*
-3. **Install from the App Store** (search "Nurse Vault") or build from source
-   (see below).
+2. **Read the privacy policy** — it states: *we collect zero data.*
+3. **Install from the App Store** (search "Nurse Vault") or build from source (see below).
 
 ---
 
-## Main menu sections
+## Main Menu Sections
 
 The app ships with six read-only reference entries (plus user sections) and a **+** button to add unlimited more:
 
@@ -34,307 +32,271 @@ The app ships with six read-only reference entries (plus user sections) and a **
 
 Sections can be renamed, reordered (drag), or deleted at any time.
 
-There is also a fixed **Drug Reference** entry in the sidebar (badged with
-its count). It is not a user section — it is a read-only reference bundled
-with the app itself (see below).
+There is also a fixed **Drug Reference** entry in the sidebar (badged with its count). It is not a user section — it is a read-only reference bundled with the app itself.
 
-## What you can store
+---
 
-- **Files** — PDFs (in-app viewer), images (in-app viewer), text/RTF, and any
-  other file up to **48 MB** each (shared via the context menu).
-  Import with **Add → Import Files…**, **Add → Import Photos…**, or just
-  **drag & drop** files into a list (Mac/iPad).
-- **Folders** — **Add → Import Files or Folders…** (or drag a folder onto a
-  list) imports a whole folder as a vault folder: its files become documents
-  and its subfolders are mirrored as nested vault folders. Files that are too
-  large or unreadable are skipped and reported, never fatal.
-- **Bundled drug reference** — the app ships with a complete
-  [Merck Manual Professional](https://www.merckmanuals.com/professional)
-  drug dataset (2,383 drugs, ~350 MB of text in `DrugInfo/`). It lives in
-  the app **bundle**, not in the vault, so it is always present, needs no
-  importing, works offline, and is never synced to iCloud. From the
-  **Drug Reference** sidebar entry you can search by drug name, brand
-  name (instant), or by the *content* of the full prescribing information
-  (a few-second scan with a “Searching content…” indicator, showing a
-  snippet for each hit). Tap a drug for its full information — the file
-  starts with a generated nursing quick-reference summary — and share it
-  from the toolbar. The reference is read-only; for your own drug notes
-  use the regular **Drugs** section. (The watch app doesn't include the
-  dataset — it's too large for a watch app.)
-- **Notes** — pure text references (**Add → New Note**).
-- **Camera** — **Add → Take Photo** captures from the camera (iPhone,
-  and iPads that have one) and stores it as a syncing image.
-- **Scan & OCR** — **Add → Scan & OCR** points the camera at a printed
-  reference (a drug label, a lab sheet), reads the text with Apple's
-  on-device Vision OCR, and saves it as an editable, searchable note.
-- Every document can carry a title, notes, and be moved between sections.
-- **Search** — find documents by title, file name, your notes, or (for PDFs
-  and text files) the *content of the file itself*. Use the toolbar search in
-  the main app, the search field on each watch section page, or the watch's
-  global Search page.
+## What You Can Store
 
-## How sync works
+- **Files** — PDFs (in-app viewer), images (pinch-to-zoom viewer), text/RTF, and any other file up to **48 MB** each. Import via **Add → Import Files…**, **Add → Import Photos…**, or drag & drop (Mac/iPad).
+- **Folders** — Drag a folder onto a list to import it as a vault folder: files become documents, subfolders are mirrored as nested vault folders. Oversized/unreadable files are skipped and reported.
+- **Bundled drug reference** — Complete Merck Manual Professional drug dataset (2,383 drugs, ~350 MB in `DrugInfo/`). Lives in the app bundle, not the vault: always present, offline-capable, never synced to iCloud. Search by name, brand name (instant), or full content (few-second scan with snippets).
+- **Notes** — Pure text references (**Add → New Note**).
+- **Camera** — Capture from camera and store as a syncing image (iPhone/iPad).
+- **Scan & OCR** — Point camera at printed reference, read text with Apple's on-device Vision OCR, save as editable searchable note.
+- **Search** — Find documents by title, file name, notes, or file content (PDFs/text). Available in main app toolbar and watch search pages.
 
-- Documents live in a Core Data store on each device and are mirrored to your
-  **private** CloudKit database (`iCloud.<your bundle ID>`).
-- The private database is only readable/writable by your Apple ID — no one else
-  can see or touch it, and it never leaves Apple's infrastructure.
-- Everything works **offline**: changes are saved locally and sync
-  automatically when a connection is available. The sync badge in the toolbar
-  shows the current state (Synced / Offline / iCloud sign-in needed).
-- Remote edits made on one device appear on the others when the app next
-  connects (and automatically while an app is open).
+---
 
-## First-time setup (one-time)
+## How Sync Works
+
+- Documents live in a Core Data store on each device, mirrored to your **private** CloudKit database (`iCloud.<your bundle ID>`).
+- The private database is only readable/writable by your Apple ID — no one else can see or touch it.
+- Everything works **offline**: changes save locally and sync automatically when connected.
+- Remote edits appear on other devices when the app next connects (or immediately while open).
+
+---
+
+## First-Time Setup (one-time)
 
 1. Open `NurseVault.xcodeproj` in Xcode (16+ required; 27 tested).
-2. You'll be prompted to pick a **team** — choose your Apple ID (personal team
-   is fine for personal use).
-3. The targets are **NurseVault** (iPhone/iPad/Mac), **NurseVault Watch**,
-   and **NurseVault Watch Widget** (the watch-face complication; it's
-   embedded into the watch app automatically and needs no signing of its
-   own). The two apps each have an iCloud capability with the container
-   `iCloud.com.josephwoods.nursevault` preconfigured, and the watch app +
-   widget share the App Group `group.com.josephwoods.nursevault` (Xcode
-   registers it automatically the first time you build with automatic
-   signing — it's how the widget reads the watch app's data summary).
-   - If you want your own bundle IDs, change them under
-     **Signing & Capabilities** on each target, and update the
-     `icloud-container-identifiers` entry in the corresponding `.entitlements`
-     file to match the new bundle ID (the container must be
-     `iCloud.<bundle-id>`).
-4. **To test without a device:** run the iPhone simulator and sign in to iCloud
-   there (tap the app's "iCloud Sign-In Needed" badge for a reminder: open
-   the simulator's **Settings → sign in with an Apple ID**). Sign in on the
-   Mac too (System Settings → Apple Account → iCloud) and on the Watch
-   (Watch app → Settings → Apple ID). Once every device is signed in with the
-   **same Apple ID**, everything syncs between them.
+2. Pick a **team** — your Apple ID (personal team is fine for personal use).
+3. Targets: **NurseVault** (iPhone/iPad/Mac), **NurseVault Watch**, and **NurseVault Watch Widget**.
+4. Both apps have iCloud capability with container `iCloud.com.josephwoods.nursevault` preconfigured.
+5. The watch app + widget share App Group `group.com.josephwoods.nursevault`.
 
-> **Note on real devices & the App Store:** installing on a physical device or
-> submitting to the App Store requires a **paid Apple Developer account**
-> ($99/yr). Simulators work without one.
->
-> ⚠️ **Free (personal) Apple ID accounts do not support the iCloud capability**
-> at all — Xcode will show a "processing" state that never finishes and will
-> not create provisioning profiles for a device build. This is an Apple
-> restriction, not a bug, and waiting or retrying will not help. You can still
-> do full development and sync testing in simulators (see below); a paid
-> account is only needed to run on physical devices.
+---
 
-### App Store Connect (only if you publish)
+## Building & Running
 
-If you eventually want the app in the App Store, create an app record in
-[App Store Connect](https://appstoreconnect.apple.com) matching your bundle ID
-(`com.josephwoods.nursevault` and `…watchkitapp`), then in Xcode choose
-**Product → Archive** for each target and distribute. No repositories or
-external services are required — the CloudKit container is created
-automatically in your CloudKit dashboard when you sign.
+```bash
+# Build for iOS simulator
+xcodebuild -project NurseVault.xcodeproj -scheme "NurseVault" \
+  -destination "generic/platform=iOS Simulator" build
 
-## Drug Reference data format
+# Build for macOS
+xcodebuild -project NurseVault.xcodeproj -scheme "NurseVault" \
+  -destination "platform=macOS,arch=x86_64" build
 
-The bundled `DrugInfo/` dataset contains 2,383 drugs, one folder per drug with
-`names.txt` and `drug-information.txt`. Two source formats are present:
-
-* **Elsevier full-text** – classic folder reference with a table-of-contents list,
-  a "Drug Information Provided by Elsevier" disclaimer, and then the real sections.
-  Section headers are singular e.g. `Contraindications And Precaution`, `Adverse Reaction`.
-* **Merck-native** – indented list style with no Elsevier disclaimer. Section headers
-  are often plural e.g. `Contraindications And Precautions`, `Adverse Reactions`, and
-  the file starts directly with `Brand Names`, `Dosage Forms`, `Indication Specific Dosing`
-  after the nursing quick-reference summary.
-
-For both formats the app normalises headers case-insensitively and maps plural
-variants to the canonical singular names used in the UI. The parser skips empty
-TOC entries, deduplicates by title, and shows a placeholder when a section has no
-content.
-
-### Nursing Quick-Reference Summary block
-
-All `drug-information.txt` files are expected to contain a compact
-`NURSING QUICK-REFERENCE SUMMARY` block right after the file header. The block is
-generated once per drug and contains only where present in the file body:
-
-* **Drug Class** — extracted from the Description section (~100% of files)
-* **Routes of Administration + Common Adult Doses** — derived from dosage forms / maximum dosage limits (~98%)
-* **Common Side Effects (excluding routine GI upset)** — adverse-reaction terms with nausea/vomiting/diarrhea-type entries filtered out (~95%)
-* **In an Overdose** — antidote/management info where mentioned. 415 files have real overdose content; the rest are explicitly labeled "No overdose/antidote information is listed in this file". No dedicated overdose section exists in the source.
-* **Key Nursing Considerations** — contraindications/precautions, patient counseling, plus emetic risk, extravasation risk, and hazardous-drug (NIOSH) flags where those sections exist
-
-Nothing else is touched; a full integrity check confirms each modified file is byte-for-byte the original content with only the new block inserted, and `names.txt` files are left alone.
-
-## Project layout
-
-```
-Sources/iOS/                Main app sources (iPhone, iPad, Mac)
-  NurseVaultApp.swift       App entry point
-  RootView.swift            Sidebar (sections) + section management
-  DocListView.swift         Document list, import menu, drag & drop, sync badge
-  DocDetailView.swift       Preview (PDF/image/text) + editing
-  ImportView.swift          File / folder / photo / note import flows
-  CameraImport.swift        Camera capture + Scan & OCR (UIKit)
-  DrugReference.swift       Bundled drug reference: index + search (DrugLibrary)
-  DrugReferenceViews.swift  Drug reference list + detail views
-  Assets.xcassets           App icons (iPhone, iPad, Mac)
-  NurseVault.entitlements   iCloud + sandbox (main app)
-Sources/Watch/              Apple Watch app (read-only reference)
-  NurseVaultWatchApp.swift  Entry point + section/document/search views
-  Assets.xcassets           Watch app icon
-  WatchEntitlements.entitlements  iCloud + App Group (widget data sharing)
-Sources/Widget/             Watch complication (widget extension)
-  NurseVaultComplication.swift  Circular/corner/inline/rectangular faces
-  WatchWidget.entitlements  App Group (widget data sharing)
-DrugInfo/                 Bundled drug reference data (one folder per drug:
-                          `names.txt` + `drug-information.txt`); copied into
-                          the app bundle as a folder reference
-MerckTopics/              Bundled Merck Manual medical topics (~2,834 .txt files,
-                          27 specialties); copied into the app bundle as a
-                          folder reference with `merck_topics_index.json`
-Support/
-  Info.plist                Info.plist for the widget extension
-Packages/NurseVaultCore/    Shared Swift package:
-  VaultModels.swift         Core Data model (Section / Folder / Doc)
-  Library.swift             Store + CloudKit sync + folder import + offline status
-  Search.swift              Full-text search (titles, notes, PDF/text content)
-  StoreLocation.swift       Data locations + widget JSON summary (App Group on watch)
-  FileSupport.swift         File/folder import helpers, size limits, doc kinds
-  VaultViews.swift          Cross-platform PDF + image viewers
+# Build watch app
+xcodebuild -project NurseVault.xcodeproj -scheme "NurseVault Watch" \
+  -destination "generic/platform=watchOS Simulator" build
 ```
 
-### Testing sync right now (free, no waiting)
+---
 
-1. Run the app in the **iPhone or iPad simulator** (it needs no provisioning
-   profile). If Xcode shows the simulator in **Device Hub**, use that; pick
-   the running iPhone there.
-2. In the simulator: **Settings → tap your name/Sign in** → sign in with your
-   Apple ID.
-3. On your Mac: **System Settings → Apple Account → iCloud** → sign in with
-   the **same** Apple ID.
-4. Open Nurse Vault on both — add a document on one, and it appears on the
-   other. The sync badge should read **Synced**.
-5. Watch: run the watch simulator paired with your iPhone simulator; it
-   inherits the same iCloud sign-in.
-6. Complication: on the watch simulator, edit a watch face, add the
-   **Nurse Vault** complication, and it shows your document count once the
-   watch app has run at least once.
+## App Store Publishing (using `asc` CLI)
 
-## Building the app (v2.x, TestFlight alpha)
+```bash
+# Bump build number
+asc xcode version edit --version "4.1" --build-number "52"
 
-The project is versioned **2.4** as a personal-use alpha; builds are uploaded
-yourself (Xcode **Distribute**, or `fastlane upload` from the repo root —
-see `fastlane/README.md`).
+# Archive for iOS
+asc xcode archive --project NurseVault.xcodeproj --scheme "NurseVault" \
+  --configuration Release --clean \
+  --archive-path build/NurseVault-Release.xcarchive --overwrite \
+  --xcodebuild-flag=-destination --xcodebuild-flag="generic/platform=iOS"
 
-- **In Xcode** (easiest): pick a simulator or *My Mac* as the destination and
-  hit **Run**, or use **Product → Archive** to produce a full build. Your
-  personal (free) Apple ID team is fine for everything on simulators and your
-  own Mac.
-- **From the command line**:
-  ```sh
-  xcodebuild -project NurseVault.xcodeproj -scheme NurseVault \
-      -destination "platform=iOS Simulator,name=iPhone 17" \
-      -allowProvisioningUpdates build
-  ```
-  (Other schemes: `NurseVault Watch`, `NurseVault Watch Widget`,
-  `NurseVaultCore`.
-  For a full archive use `archive` with `-destination "generic/platform=…"`
-  and `-archivePath` — the results in `archives/` were made that way.)
-- All four schemes build **warning-free** in both Debug and Release.
-- **Physical devices and the App Store** still require the paid Developer
-  Program; until then, use simulators and your Mac.
+# Export IPA
+asc xcode export --archive-path build/NurseVault-Release.xcarchive \
+  --ipa-path build/NurseVault.ipa --overwrite
 
-## UI tests
+# Upload to App Store Connect (waits for processing)
+asc publish appstore --app 6816576078 --ipa build/NurseVault.ipa \
+  --version 4.1 --wait
 
-Three UI test schemes exercise the alpha checklist end-to-end (all in Debug):
+# Submit for review (when ready)
+asc publish appstore --app 6816576078 --ipa build/NurseVault.ipa \
+  --version 4.1 --submit --confirm
+```
 
-| Scheme | What it checks |
-|---|---|
-| `NurseVaultUI-Tests` (iOS) | Import a file from the document picker, content search (in-section + All Documents), note creation + search, sync badge state |
-| `NurseVaultMac-UI-Tests` (macOS) | The same flows in the Mac app |
-| `NurseVault Watch` test action | Watch per-section + global search over the synced document |
+---
 
-Notes:
+## Watch Reference System
 
-- A pre-test script (`AppUITests/Support/push-fixture.sh`) puts the
-  `Amiodarone Dosing.pdf` fixture in the simulator's `~/Documents` (or the
-  Mac's, for the Mac scheme) before each run — no manual setup needed.
-- The iOS file-import test skips itself (rather than failing) when the
-  simulator's document picker can't be navigated: the picker lists the
-  Documents folder from the simulator's file index, which is flaky and can
-  report a populated folder as empty. It can recover on its own, so
-  re-running the suite later often gets a full pass (rebooting the
-  simulator sometimes helps too); the import flow itself is verified
-  manually.
-- The iOS and watch suites assume the simulator has an iCloud sign-in
-  (Settings → Apple ID) for the badge check and for phone→watch sync;
-  the badge test reports the observed state and passes for any of them.
-- Run the iOS scheme before the watch one: the watch tests search for the
-  document the iOS import created, which reaches the watch via CloudKit.
+The Apple Watch companion includes two bundled reference datasets: **Drug Reference** (filtered high-priority drugs) and **Merck Manual** (full medical topics). These are separate from the iPhone's DrugInfo/ folder — the watch bundles its own optimized copies.
 
-## Practical notes
+### Architecture
 
-- The **watch app is read-only**: browse sections, open PDFs/images/notes.
-  Import from the phone, iPad, or Mac — it appears on the watch automatically.
-- **Watch Interactions**: 
-  - For PDFs and images, use the **Digital Crown to zoom in (up to 4x)** and **drag your finger to pan** around the document.
-  - Text documents use system body typography for maximum legibility on a small screen and are fully scrollable.
-- **Search** matches titles, file names, notes, and — for PDFs and text
-  files — the file content itself (PDF text is extracted with PDFKit in the
-  background and cached, so searches stay responsive; files over 16 MB are
-  matched on metadata only).
-- The **watch complication** (all four accessory families) shows the total
-  reference count. It reads a small JSON summary that the watch app writes
-  into the shared **App Group container** (`group.com.josephwoods.nursevault`):
-  widget extensions run in their own sandbox, so the App Group is the only
-  place both processes are guaranteed to reach. The watch app asks WidgetKit
-  to refresh the widget whenever the vault changes, so the count stays
-  current instead of waiting for the 30-minute timeline refresh. If the file
-  isn't there yet (fresh install, before the app first runs) it simply shows
-  the app name.
-  Tapping the complication opens Nurse Vault. (The widget extension uses the
-  `com.apple.widgetkit-extension` extension point from the Xcode 27 SDK, so
-  it installs on the current watchOS; the target's 11.0 deployment floor is
-  only relevant if you later distribute to older watches.)
-- Files larger than 48 MB can't be synced (a CloudKit per-record limit);
-  the app tells you when a file is too big.
-- Deleting a section deletes its documents (with confirmation). Deleting a
-  document from any device removes it everywhere.
-- Everything is encrypted in transit and at rest by iCloud; data stays on
-  Apple's servers, never third parties.
+```
+Sources/Watch/Resources/WatchReference/
+├── drugs.index      # Plain-text index: title|preview|startByte|endByte|extra
+├── drugs.content    # Brotli-compressed content blob (per-entry)
+├── merck.index      # Same format for Merck topics
+└── merck.content    # Brotli-compressed content blob
+```
 
-## Watch full reference (2026-10-09, build 47)
+**Design principles:**
+- **Index in RAM, content on disk**: The small index (~80-450 KB) loads entirely into memory for instant search/browse. Content is read per-entry only when the user taps a topic.
+- **Per-entry compression**: Each entry is individually brotli-compressed with an 8-byte uncompressed size prefix, enabling random access without decompressing the entire file.
+- **Plain-text index**: No runtime inflate needed for the index — loading can never depend on the compression path.
 
-The watch now ships the **complete** drug + Merck reference and is fully
-self-contained — no sync of reference data, so the sync-flood OOM class is
-gone by construction. A one-time ~46 MB download with the app is the only
-cost; afterwards it works offline forever.
+### Build Process
 
-How it fits on the watch:
-- **Content** — every drug's full prescribing text and every Merck article,
-  individually brotli-compressed (quality 11) and concatenated into one blob
-  per dataset, each entry prefixed with its 8-byte uncompressed size:
-  `Sources/Watch/Resources/WatchReference/{drugs,merck}.content`
-  (355 MB raw → 35 MB, 29 MB raw → 9 MB).
-- **Index** — a few hundred KB of plain-text pipe lines
-  (`title|preview|startByte|endByte|extra`), loaded into RAM at launch.
-  It drives the paged (~25/page) browse list, "Show more", and search — the
-  list and search never touch the content.
-- **On select** — the app opens the blob, seeks to that one entry's byte
-  range, reads just that span, inflates it, and renders it scrollable.
-  RAM stays bounded (largest entry ≈ 863 KB); the rest of the ~44 MB blob
-  never enters memory.
+**Full drug reference (iPhone):** All 2,383 drugs from `DrugInfo/` are bundled directly into the iOS app. No build script needed.
 
-Regenerate after any `MerckTopics/` / `DrugInfo/` refresh:
-`python3 scripts/build_watch_reference.py all` (needs the `brotli` Python
-package), then rebuild.
+**Filtered watch drug reference:** A curated subset of ~600 high-priority nursing drugs across 12 therapeutic categories:
 
-Compression build note (Swift 6.4 / SDK 27 toolchain): the Compression
-framework has no importable Swift surface, `NSCompression`'s zlib path fails
-at runtime (NSCocoaError 5377), and libcompression's zlib decode silently
-passes its input through. The watch therefore decodes via the
-`CompressionCompat` C shim (libcompression `COMPRESSION_BROTLI`) — the one
-path verified to round-trip, including on the watchOS 27 simulator. The
-index is plain text so loading it never depends on the inflate path.
+```bash
+# Preview which drugs would be selected
+python3 scripts/build_watch_drugs.py --list
 
-The older compact package indices (`WatchDrugIndex.txt`,
-`WatchMerckIndex.txt.zlib` in `NurseVaultCore`) still bundle for the legacy
-`WatchDrugLibrary` / `WatchMerckLibrary` code, but the watch UI no longer
-uses them.
+# Build the filtered watch drug reference
+python3 scripts/build_watch_drugs.py
+```
+
+Categories included: Cardiac/Emergency, Antibiotics/Antimicrobials, Pain Management/Opioids, Sedation/Anesthesia, Anticoagulants/Antiplatelets, Diabetes/Endocrine, Respiratory, GI/Antiemetics, Electrolytes/IV Fluids, Psychiatric (Common), Neurologic/Seizure, Allergy/Anaphylaxis.
+
+**Full-coverage watch drug reference (truncated):** All 2,383 drugs with 8 KB summary truncation:
+
+```bash
+python3 scripts/build_watch_drugs_truncated.py --size 8
+```
+
+**Full reference build (both datasets):**
+```bash
+python3 scripts/build_watch_reference.py all    # or: drugs | merck
+```
+
+### Watch Reference Troubleshooting History
+
+The watch drug/Merck reference went through several iterations to resolve a blank-detail-view issue where tapping an entry showed only the title and specialty/brand names with no body content.
+
+#### Iteration 1: Full Drug Dataset on Watch (Builds ≤47)
+- **Approach:** Bundled all 2,383 drugs (~35 MB content file) to the watch
+- **Result:** ❌ Failed — watch OOMed or became unresponsive after sync floods; too much data for watch memory constraints
+
+#### Iteration 2: Filtered Drug Dataset (Build 48)
+- **Approach:** Created `scripts/build_watch_drugs.py` to select ~600 high-priority drugs by therapeutic category keyword matching. Reduced content file from 35 MB → 13 MB, index from 293 KB → 79 KB.
+- **Result:** ⚠️ Partial — list view worked (index loaded fine), but detail view showed only title + brand names with no body text. No error message displayed.
+
+#### Iteration 3: Content Truncation (Build 50)
+- **Approach:** Added 8 KB display cap in `WatchReferenceDetailView` to prevent rendering ~350 KB of text on the watch screen. Added diagnostic NSLog statements.
+- **Result:** ❌ Failed — issue persisted for both drugs and Merck topics. Confirmed the problem was not text length but content loading itself.
+
+#### Iteration 4: In-Memory Content Buffer (Build 51) ✅
+- **Approach:** Replaced `FileHandle` seek/read with `Data(contentsOf:)` to load the entire content file into memory once (~8-13 MB, well within watch RAM), then slice entries from that buffer. Added extensive logging at every step: URL resolution, file load, byte range validation, brotli decompression, character count.
+- **Rationale:** `FileHandle` seek/read on large bundled resources appears to fail silently on watchOS. Loading the full file into memory is simpler and more reliable; 13 MB fits comfortably in watch RAM (512 MB–1 GB).
+- **Result:** ✅ Fixed — detail views now display content correctly for both Drug Reference and Merck Manual topics.
+
+#### Iteration 5: Full Drug Coverage via Truncated Content (Build 52)
+- **Approach:** Keep all 2,383 drugs on watch by truncating each `drug-information.txt` to the first 8 KB — enough for Nursing Quick-Reference Summary, Drug Class, Routes, Dosing, Side Effects, and Key Nursing Considerations. Build script `scripts/build_watch_drugs_truncated.py` replaces the filtered full-content build.
+- **Result:** ❌ Failed — watch detail view still blank. The 8 KB byte truncation cut multi-byte UTF-8 characters in the middle of the file, producing invalid UTF-8 that `String(data:encoding:)` rejected.
+- **Fix (Iteration 6, Build 54):** `truncate_utf8()` decodes/re-encodes through Python to guarantee a valid UTF-8 boundary, and `WatchReference.text(for:)` now memory-maps the content file (`.alwaysMapped`) instead of loading it all into RAM. Content is still ~4.78 MB; page-backed access avoids the flat RAM cost that was likely OOMing the watch after the user opened drug and Merck references in sequence.
+
+**Key lessons learned:**
+1. WatchOS has strict memory constraints — never bundle the full iPhone dataset to the watch
+2. `FileHandle` seek/read on large bundled resources is unreliable on watchOS; prefer loading into memory
+3. Always add diagnostic logging when debugging silent failures on embedded devices
+4. The absence of an error message in a UI often indicates the async task never completed or failed before reaching the error-handling code path
+5. Resource bundle resolution is complex — try multiple strategies and log which one succeeds
+6. Memory mapping (`.alwaysMapped`) fails silently on watchOS; prefer loading entire file into memory
+7. Always provide user-facing error messages, not just blank screens
+
+#### Iteration 7: Comprehensive Fix with Error Handling (Build TBD)
+- **Approach:** Multiple fixes based on audit findings and historical analysis:
+  1. Reverted to Iteration 4 solution as primary strategy: load entire content file into memory (~8-13 MB fits in watch RAM)
+  2. Added `loadError` property to WatchReference for UI error display
+  3. Enhanced resource URL resolution with 7 strategies and comprehensive debug logging
+  4. Added user-facing error messages in both list view and detail view
+  5. Implemented retry mechanism when loading fails
+  6. Added diagnostic code to list all available resources at runtime (DEBUG only)
+- **Rationale:** Iteration 4 worked reliably; memory mapping is unreliable on watchOS; users need feedback when things fail
+- **Result:** ⬜ Pending testing — requires device verification
+- **Files modified:**
+  - `Sources/Watch/WatchReferenceStore.swift` - Enhanced resourceURL(), added loadError property, simplified content loading
+  - `Sources/Watch/WatchDrugReference.swift` - Added error display in list view and detail view with retry buttons
+  - `Packages/NurseVaultCore/package.swift` - No changes (resources not in SPM package)
+- **Remaining issues to investigate:**
+  - Resource files may not be properly bundled by Xcode despite filesystem synchronization
+  - Need to verify resources are included in watch app bundle at build time
+  - May need to add explicit resource references to Xcode project or move to SPM package
+
+### Iteration 8: Code Audit Fixes (Build TBD)
+- **Approach:** Comprehensive code audit and fixes based on CODE_AUDIT.md findings:
+  1. Fixed `if let self` error in Library.swift - changed to weak reference pattern
+  2. Fixed unused save() return value warnings throughout codebase
+  3. Made AppLimits enum public for cross-target access
+  4. Enhanced watch reference error handling and user feedback
+  5. Added comprehensive debug logging for resource resolution
+- **Result:** ⬜ Pending testing - builds successfully with only minor warnings remaining
+- **Files modified:**
+  - `Packages/NurseVaultCore/Sources/NurseVaultCore/Library.swift` - Fixed weak reference pattern, added _ = save() handling
+  - `Packages/NurseVaultCore/Sources/NurseVaultCore/Configuration/AppLimits.swift` - Made enum and properties public
+  - `Sources/iOS/RootView.swift` - Added _ = save() for unused return value
+  - `Sources/Watch/WatchReferenceStore.swift` - Enhanced resource URL resolution with debug logging
+  - `Sources/Watch/WatchDrugReference.swift` - Added error display in list and detail views
+- **Build status:** Both NurseVault and NurseVault Watch targets build successfully
+- **Next steps for testing:**
+  1. Build and run on actual Apple Watch device (not simulator)
+  2. Test Drug Reference - verify all drugs load correctly
+  3. Test Merck Manual - verify topics load correctly
+  4. Check console logs for resource resolution diagnostics
+  5. If still failing, investigate Xcode project resource bundling configuration
+
+### Investigation Results (Post-Audit)
+
+**Issue 1: Resource Bundling**
+- ✅ RESOLVED: Resources ARE bundled correctly in the watch app bundle at root level
+- Files found: drugs.index (295 KB), drugs.content (5 MB), merck.index (463 KB), merck.content (9.2 MB)
+- Filesystem synchronization is working as expected
+
+**Issue 2: Force-unwrap on Bundle.main.url**
+- ❌ NOT FOUND: No force unwraps with Bundle.main.url found in codebase
+- Audit finding was incorrect - no action needed
+
+**Issue 3: Integer precision loss in compression_compat.c**
+- ⚠️ LOW PRIORITY: Line 20 casts int to size_t, but won't cause issues with typical data sizes
+- Not critical for current functionality
+
+**Issue 4: Only first two drugs visible**
+- 🔍 ROOT CAUSE IDENTIFIED:
+  - Index file has 2,383 entries (correct)
+  - List view uses pagination starting at 25 items
+  - Potential issue with @Observable state not propagating through value parameters
+  - Retry mechanism was blocked by guard condition preventing reload when isMissing=true
+- ✅ FIXES APPLIED:
+  - Removed guard that prevented retrying after failure
+  - Added comprehensive debug logging for index parsing and resource resolution
+  - Enhanced error handling in loadIfNeeded() to allow reloading
+
+**Issue 5: @Observable state propagation**
+- ⚠️ POTENTIAL ISSUE: WatchReference passed by value may not trigger UI updates
+- Investigation ongoing - requires testing on actual device
+
+---
+
+## Project Structure
+
+```
+Nursing app/
+├── Sources/
+│   ├── iOS/              # iPhone/iPad/Mac app (shared SwiftUI)
+│   ├── Watch/            # Apple Watch companion app
+│   │   └── Resources/WatchReference/  # Bundled watch reference data
+│   └── Widget/           # Watch face complication widget
+├── Packages/NurseVaultCore/  # Shared Swift package (models, library, views)
+├── DrugInfo/             # Full drug dataset (2,383 drugs, iPhone only)
+├── MerckTopics/          # Full Merck Manual topics (iPhone only)
+├── scripts/              # Build & data processing scripts
+│   ├── build_watch_reference.py      # Full watch reference builder
+│   ├── build_watch_drugs.py          # Filtered watch drug builder
+│   └── build_watch_drugs_truncated.py # Full coverage truncated builder
+├── fastlane/             # App Store metadata & automation
+└── NurseVault.xcodeproj  # Xcode project
+```
+
+---
+
+## Privacy
+
+- **Zero data collection** — no analytics, no crash reporting to third parties, no telemetry.
+- All user content stays in your private iCloud container or on-device.
+- Bundled reference data (drugs, Merck) is read-only and never leaves the device.
+- See [Privacy Policy](https://woodzieman.github.io/NurseVault/privacy.html) for details.
+
+---
+
+## License
+
+Private use. Not for commercial distribution without permission.

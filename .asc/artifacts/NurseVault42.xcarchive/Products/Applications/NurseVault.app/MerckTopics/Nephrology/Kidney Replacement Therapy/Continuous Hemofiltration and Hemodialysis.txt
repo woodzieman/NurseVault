@@ -1,0 +1,36 @@
+=== Continuous Hemofiltration and Hemodialysis (Merck Manual Professional) ===
+Section: Nephrology > Kidney Replacement Therapy
+Source: https://www.merckmanuals.com/professional/nephrology/kidney-replacement-therapy/continuous-hemofiltration-and-hemodialysis
+Retrieved: 2026-09-25
+
+Continuous hemofiltration and hemodialysis procedures filter and dialyze blood without interruption. (See Overview of Kidney Replacement Therapy for other kidney replacement therapies.) The principal advantage is the ability to remove large volumes of fluid while avoiding the hypotensive episodes caused by the large fluid shifts of intermittent hemodialysis. These procedures are therefore indicated for managing patients with acute kidney injury who are hemodynamically unstable (1, 2), who must receive large volumes of fluid (eg, patients with multiple organ system failure or shock who require hyperalimentation or vasopressor drips), or both.
+
+In continuous venovenous hemodialysis (CVVHD), blood flows continuously and extracorporeally past dialysate separated by a semipermeable membrane, and small molecules are removed primarily by diffusion. This technique is suitable when small-molecule clearance is desired, for example in acute kidney injury with hyperkalemia or metabolic acidosis.
+
+In continuous venovenous hemofiltration (CVVH), water and solutes filter from the blood by convection through a permeable membrane; the filtrate is discarded, and the patient must receive infusions of physiologically balanced water and electrolytes. CVVH is suitable for clearance of larger molecules than cannot be filtered as effectively by CVVHD, for example, certain toxins or inflammatory mediators in sepsis.
+
+Continuous Kidney Replacement Therapy
+
+Image
+
+This photo shows a continuous kidney replacement therapy treatment in progress in the intensive care unit of a hospital.
+
+DR BARRY SLAVEN/SCIENCE PHOTO LIBRARY
+
+In continuous venovenous hemodiafiltration (CVVHDF), hemofiltration and dialysis are combined. CVVHDF offers both convective and diffusive clearance and offers a longer circuit lifespan versus CVVHD or CVVH alone (3). It is more technically complex than either CVVHD or CVVH.
+
+In slow continuous ultrafiltration (SCUF), fluid is removed without solute clearance. This technique is used for fluid overload with preserved kidney function and without significant electrolyte derangement.
+
+Continuous kidney replacement procedures require anticoagulation, most commonly regional rather than systemic. With regional citrate anticoagulation, blood leaving the patient is infused with citrate, which binds calcium to prevent coagulation; calcium is then reinfused as the blood returns from the machine to the patient. This method avoids the complications of systemic heparinization. However, not all patients can receive citrate; particularly those with acute liver failure, due to decreased hepatic citrate metabolism which causes increased risk of citrate toxicity (2, 4).
+
+Slow low-efficiency dialysis (SLED), is a hybrid procedure in which dialysis is performed intermittently over 8 to 12 hours. By removing fluid and solutes more slowly than intermittent hemodialysis, it is designed to offer better hemodynamic stability. Compared with continuous therapies, it offers similar hemodynamic control with greater convenience and flexibility.
+
+References
+
+1. Gaudry S, Palevsky PM, Dreyfuss D. Extracorporeal Kidney-Replacement Therapy for Acute Kidney Injury. N Engl J Med. 2022;386(10):964-975. doi:10.1056/NEJMra2104090
+
+2. Acute Kidney Injury Work Group. KDIGO (Kidney Disease: Improving Global Outcomes) clinical practice guideline for acute kidney injury. Kidney Int Suppl. 2(1):89-115, 2012.
+
+3. Li P, Li M, Yin W, Zhou Z, Zhang L. Efficacy and safety of regional citrate anticoagulation using calcium-containing replacement solution in different modalities of continuous renal replacement therapy: a randomized controlled trial. BMC Nephrol. 2025;26(1):624. doi:10.1186/s12882-025-04565-7
+
+4. Cepeda CD, Mathur P, Mehta RL. Chapter 28 - Continuous Renal Replacement Therapies for Acute Kidney Injury. In Nissenson AR, Fine RN (eds). Handbook of Dialysis Therapy, 5th edition. Elsevier. 2017. pp356-397.e7. doi: 10.1016/B978-0-323-39154-2.00028-X

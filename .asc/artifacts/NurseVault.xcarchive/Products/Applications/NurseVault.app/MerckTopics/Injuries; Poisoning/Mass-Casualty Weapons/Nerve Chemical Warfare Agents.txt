@@ -1,0 +1,128 @@
+=== Nerve Chemical-Warfare Agents (Merck Manual Professional) ===
+Section: Injuries; Poisoning > Mass-Casualty Weapons
+Source: https://www.merckmanuals.com/professional/injuries-poisoning/mass-casualty-weapons/nerve-chemical-warfare-agents
+Retrieved: 2026-09-25
+
+Nerve agents are chemical-warfare agents that act directly at nerve synapses, typically increasing the activity of acetylcholine.
+
+Other chemical agents were used in combat before World War II and are sometimes called first-generation chemical agents. Subsequent-generation chemical agents include 3 types of nerve agents:
+
+G-series agents (second-generation)
+
+V-series agents (third-generation)
+
+A-series agents (fourth-generation)
+
+G-series agents, or G agents, include tabun (GA), sarin (GB), soman (GD), and cyclosarin (GF), which were developed by Nazi Germany before and during World War II. At ambient temperatures, they are watery liquids with high volatility that pose both skin-contact and inhalational hazards.
+
+V-series agents include VX; these compounds were synthesized after World War II. They are persistent liquids with the consistency of motor oil. They evaporate very slowly, and the main hazard is from contact with liquid. They are also more potent than the G-series agents.
+
+A-series agents are nerve agents developed by the Soviet Union beginning in the 1970s. They are also called Novichok agents, and representative compounds are A-230, A-232, and A-234, which are liquids that are even more persistent than V-series agents and are just as potent (1, 2). An A-series agent was used in a 2018 assassination attempt in the United Kingdom (3), and another A-series agent was used in the 2020 assassination attempt on Russian activist Alexei Navalny (4).
+
+None of these agents has a pronounced odor or causes local skin irritation. All nerve agents are organophosphorus esters, as are organophosphate pesticides. However, nerve agents are far more potent; the LD50 (the amount required to cause death in half of people receiving that dose) of VX is approximately 3 mg.
+
+General references
+
+1. Chai PR, Hayes BD, Erickson TB, Boyer EW. Novichok agents: a historical, current, and toxicological perspective. Toxicol Commun. 2018;2(1):45-48. doi:10.1080/24734306.2018.1475151
+
+2. Charejoo A, Arabfard M, Jafari A, Nourian YH. A complete, evidence-based review on Novichok poisoning based on epidemiological aspects and clinical management. Front Toxicol. 2023;4:1004705. Published 2023 Jan 25. doi:10.3389/ftox.2022.1004705
+
+3. Vale JA, Marrs TC OBE, Maynard RL CBE. Novichok: a murderous nerve agent attack in the UK. Clin Toxicol (Phila). 2018;56(11):1093-1097. doi:10.1080/15563650.2018.1469759
+
+4. Steindl D, Boehmerle W, Körner R, et al. Novichok nerve agent poisoning. Lancet. 2021;397(10270):249-252. doi:10.1016/S0140-6736(20)32644-1
+
+Pathophysiology of Nerve Chemical-Warfare Injuries
+
+Nerve agents inhibit the enzyme acetylcholinesterase (AChE), which hydrolyzes the neurotransmitter acetylcholine (ACh) once ACh has finished activating receptors in neurons, muscles, and glands. Inhibition of AChE leads to an excess of ACh at its receptors (cholinergic crisis), first causing increased activity of the affected tissue, followed by activity in the CNS and skeletal muscle resulting in fatigue and failure of the tissue. Nerve agents inhibit both muscarinic and nicotinic ACh receptors. Muscarinic ACh receptors are present in the central nervous system (CNS), autonomic ganglia, smooth-muscle fibers, and exocrine glands; nicotinic ACh receptors are present in skeletal muscle.
+
+Without treatment, the binding of nerve agent to AChE is essentially irreversible. Treatment with an oxime can regenerate the enzyme as long as the bond has not been further stabilized (a process termed aging) over time. Most nerve agents, like organophosphate insecticides, take hours to age fully, but GD (soman) can age essentially completely within 10 minutes of binding.
+
+Symptoms and Signs of Nerve Chemical-Warfare Injuries
+
+The clinical manifestations depend on the state of the agent, route of exposure, and dose.
+
+Vapor exposure to the face causes local effects within seconds, including miosis, rhinorrhea, and bronchoconstriction, and progresses to the full range of systemic manifestations of cholinergic excess.
+
+However, inhaled vapor causes collapse within seconds.
+
+Liquid exposure to the skin first causes local effects such as twitching, fasciculations, and sweating. Systemic effects occur after a latent period that can be as long as 18 hours after exposure to a very small droplet of a G- or V-series nerve agent; even fatal doses usually take up to 20 to 30 minutes to cause symptoms and signs, which may include sudden collapse and convulsions without warning. Skin exposure to a liquid A-series agent has a latent period ranging from hours to 1 or 2 days.
+
+Patients exhibit parts or all of the cholinergic toxidrome, or cholinergic crisis (see tables Common Toxic Syndrome and Symptoms and Treatment of Specific Poisons). Overstimulation and eventual fatigue of the CNS lead to agitation, confusion, unconsciousness, and seizures, progressing to failure of the respiratory center in the medulla. Overstimulation and eventual fatigue of skeletal muscles cause twitching and fasciculations that progress to weakness and paralysis. Overstimulation of cholinergically activated smooth muscle leads to miosis, bronchospasm, and hyperperistalsis (with nausea, vomiting, and cramping), and overstimulation of exocrine glands causes excessive tearing, nasal secretions, salivation, bronchial secretions, digestive secretions, and sweating. Death is usually due to central apnea, but direct paralysis of the diaphragm, bronchospasm, and bronchorrhea can also contribute.
+
+Long-term neurologic and neurobehavioral effects may occur and include a syndrome that has been called chronic organophosphate-induced neuropsychiatric disorder and organophosphorus-ester–induced chronic neuropathy.
+
+Diagnosis of Nerve Chemical-Warfare Injuries
+
+History and physical examination
+
+Diagnosis is made clinically, although laboratory analysis of erythrocyte cholinesterase or plasma cholinesterase levels, as well as more specialized laboratory tests, can confirm nerve-agent exposure.
+
+Triage
+
+All people with suspicious liquid on their skin need to be prioritized for immediate decontamination of the affected area. Patients can then be triaged for medical treatment based on their symptoms and signs. All patients exposed to nerve agents who have significant difficulty breathing or systemic effects should be triaged as immediate for medical treatment.
+
+Treatment of Nerve Chemical-Warfare Injuries
+
+Anticholinergics (eg, atropine)
+
+Oxime reactivators (eg, 2-PAM, MMB-4)
+
+Benzodiazepines
+
+Respiratory support as needed
+
+Attention to Airway, Breathing, Circulation, immediate Decontamination, and Drugs (the ABCDDs) is paramount. Bronchoconstriction may be so severe that ventilation may be impossible until atropine is given (see table Symptoms and Treatment of Specific Poisons). Airway, breathing, and circulation are addressed in standard fashion, as discussed in Cardiopulmonary Resuscitation (CPR) in Adults.
+
+Decontamination
+
+Decontaminate all suspicious liquid on skin as soon as possible. A 0.5% hypochlorite solution may be used, as may soap and water. Possibly contaminated wounds require inspection, removal of all debris, and copious flushing with water or saline. Severe symptoms and death may still occur after skin decontamination because decontamination may not completely remove nerve agents that are passing through the skin.
+
+Pharmacotherapy
+
+In the United States, 2 medications are given:
+
+Atropine
+
+2-pyridine aldoxime methyl chloride (2-PAM—also called pralidoxime).
+
+Atropine blocks the action of acetylcholine (ACh) at muscarinic receptors. 2-PAM reactivates acetylcholinesterase (AChE) that has been phosphorylated by nerve agents (or organophosphate insecticides) but that has not yet undergone aging. Because atropine acts only at muscarinic ACh receptors, 2-PAM is also needed to reverse effects (eg, twitching, respiratory-muscle weakness, paralysis) in skeletal muscles, which contain nicotinic receptors. The oxime 1,1′-methylenebis[4-[(hydroxyimino)methyl]-pyridinium] dibromide, or MMB-4, appears to be more effective against a broader range of nerve agents than is 2-PAM and is under evaluation as a next-generation antidote agent for treatment of nerve agents (1).
+
+For military, prehospital, and mass-casualty care, autoinjectors for intramuscular use are typically used to ensure the fastest possible administration. In the United States military, 2.1 mg of atropine and 600 mg of 2-PAM are supplied in a single autoinjector called Antidote Treatment Nerve Agent Autoinjector (ATNAA) (2). These autoinjectors are also in the United States Strategic National Stockpile (SNS), primarily via the CHEMPACK program, for backup civilian use in mass-casualty events. Hospitals are strongly encouraged to have their own stockpiles of antidotes for initial administration, to avoid delays if antidotes need to be delivered from the stockpile. The medications are given into the belly of a large muscle (eg, thigh) before establishing IV access. Once IV access is obtained, subsequent doses are given IV.
+
+Adult patients with significant difficulty breathing or with systemic effects should promptly receive three doses of both atropine and 2-PAM (given as three doses of intravenous atropine 2.0-mg plus 2-PAM 600 mg, or three doses by autoinjector which provides atropine 2.1 mg and 2-PAM 600 mg per dose). This should be followed immediately by a benzodiazepine. Midazolam has replaced diazepam as the preferred benzodiazepine because midazolam is better absorbed when given intramuscularly, but either can be used based on availability. Both are administered as 10-mg doses when treating nerve agent toxicity.
+
+Patients with less severe signs and symptoms can be given a combination autoinjector kit (atropine and 2-PAM) repeated in 3 to 5 minutes if symptoms have not resolved; a benzodiazepine is not automatically given unless 3 autoinjectors are required to be given all at once.
+
+Nerve-agent seizures need prophylactic or symptomatic treatment with a benzodiazepine, with 10 mg midazolam by autoinjector as the preferred agent (3).One autoinjector should be given when convulsions are observed or suspected, even if seizures are not apparent.
+
+For all patients requiring atropine, additional 2- or 2.1-mg doses of atropine are given every 2 to 3 minutes until muscarinic effects (airway resistance, secretions) resolve. Additional 600-mg doses of 2-PAM may be given hourly as needed for the control of skeletal-muscle effects (twitching, fasciculations, weakness, paralysis). Additional doses of benzodiazepines are given as needed for seizures. Note that paralyzed patients may have seizures in the absence of visible convulsions; electroencephalography may be needed to make this diagnosis. Transition to IV administration should be done at the first opportunity. Dosages are adjusted downward for children.
+
+A-series agents are difficult to treat once victims have gone into cholinergic crisis; aggressive treatment with atropine and an oxime is needed along with scopolamine 1 mg IV (4). During the latent period, victims need to be thoroughly decontaminated as soon as possible, preferably with RSDL (a reactive skin decontaminant lotion containing a potassium salt of 2,3-butanedione monoxime [DAM], a solvent of polyethylene glycol monomethyl ether [MPEG] and water. However, decontamination may be effective even 1 or 2 hours after exposure. Heart rate, core temperature, and acetylcholinesterase (AChE) levels should be monitored (4, 5). (See also Fourth Generation Agents at Chemical Hazard Emergency Medical Management [CHEMM].)
+
+Treatment references
+
+1. Wilhelm CM, Snider TH, Babin MC, et al. Evaluating the broad-spectrum efficacy of the acetylcholinesterase oximes reactivators MMB4 DMS, HLö-7 DMS, and 2-PAM Cl against phorate oxon, sarin, and VX in the Hartley guinea pig. Neurotoxicology. 2018;68:142-148. doi:10.1016/j.neuro.2018.07.014
+
+2. DailyMed. ATNAA ATROPINE AND PRALIDOXIME CHLORIDE AUTO-INJECTOR- atropine and pralidoxime chloride kit. Accessed July 14, 2026.
+
+3. Gorecki L, Pejchal J, Torruellas C, et al. Midazolam - A diazepam replacement for the management of nerve agent-induced seizures. Neuropharmacology. 2024;261:110171. doi:10.1016/j.neuropharm.2024.110171
+
+4. Charejoo A, Arabfard M, Jafari A, Nourian YH. A complete, evidence-based review on Novichok poisoning based on epidemiological aspects and clinical management. Front Toxicol. 2023;4:1004705. Published 2023 Jan 25. doi:10.3389/ftox.2022.1004705
+
+5. Vale JA, Marrs TC OBE, Maynard RL CBE. Novichok: a murderous nerve agent attack in the UK. Clin Toxicol (Phila). 2018;56(11):1093-1097. doi:10.1080/15563650.2018.1469759
+
+Prevention of Nerve Chemical-Warfare Injuries
+
+If exposure to a nerve agent is anticipated, pretreatment with pyridostigmine bromide 30 mg orally every 8 hours should be considered (1). This compound is a reversible carbamate anticholinesterase. Because pyridostigmine combines reversibly with acetylcholinesterase, it protects the enzyme from the essentially irreversible inhibition by subsequently delivered nerve agent; after the reversible bond is broken, the released cholinesterase can then help hydrolyze excess acetylcholine in target organs. Pre-exposure administration of pyridostigmine may cause mild cholinergic symptoms (predominantly flatus, soft stools, and urinary urgency). While the combination of pyridostigmine with DEET or permethrin has been postulated to contribute to the development of Gulf War Illness in veterans (2), a study showed that pre-exposure administration of pyridostigmine resulted in mild cholinergic symptoms in approximately half the participants, but that these effects were not incapacitating (3). In another study, prophylactic administration of pyridostigmine to healthy, unexposed individuals did not lead to detrimental physiological or performance effects under nonstressful laboratory conditions (4).
+
+Pyridostigmine was originally intended for potential exposure to the fast-aging nerve agent soman (GD) but is now authorized as pretreatment for all G-, V-, and A-series nerve agents. Thus, it could also make sense to use pyridostigmine during the long latent period after suspected exposure to A-series agents. However, because pyridostigmine also is an acetylcholinesterase inhibitor, it should not be given after the onset of cholinergic crisis or if the heart rate or core temperature decreases by > 25% from baseline during the latent period; such patients should be treated for cholinergic crisis with atropine and 2-PAM chloride.
+
+Prevention references
+
+1. Madsen, James M. et al. Clinical Considerations in the Use of Pyridostigmine Bromide as Pretreatment for Nerve-Agent Exposure. (2003).
+
+2. Abou-Donia MB, Wilmarth KR, Jensen KF, et al. Neurotoxicity resulting from coexposure to pyridostigmine bromide, deet, and permethrin: implications of Gulf War chemical exposures. J Toxicol Environ Health. 1996;48(1):35-56. doi:10.1080/009841096161456
+
+3. Keeler JR, Hurst CG, Dunn MA. Pyridostigmine used as a nerve agent pretreatment under wartime conditions. JAMA. 1991;266(5):693-695.
+
+4. Cook MR, Graham C, Sastre A, et al. Physiological and performance effects of pyridostigmine bromide in healthy volunteers: a dose-response study. Psychopharmacology (Berl). 2002;162(2):186-192. doi:10.1007/s00213-002-1074-6

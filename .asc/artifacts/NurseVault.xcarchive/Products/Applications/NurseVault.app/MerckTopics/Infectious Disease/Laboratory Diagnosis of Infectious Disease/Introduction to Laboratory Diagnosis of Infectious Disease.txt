@@ -1,0 +1,1270 @@
+=== Introduction to Laboratory Diagnosis of Infectious Disease (Merck Manual Professional) ===
+Section: Infectious Disease > Laboratory Diagnosis of Infectious Disease
+Source: https://www.merckmanuals.com/professional/infectious-diseases/laboratory-diagnosis-of-infectious-disease/introduction-to-laboratory-diagnosis-of-infectious-disease
+Retrieved: 2026-09-25
+
+Laboratory tests may identify organisms directly (eg, visually, using a microscope, growing the organism in culture) or indirectly (eg, identifying antibodies to the organism). General types of tests include
+
+Microscopy
+
+Culture
+
+Immunologic tests (agglutination tests such as latex agglutination, enzyme immunoassays, Western blot, precipitation tests, and complement fixation tests)
+
+Genotypic nucleic acid–based identification methods or NAATs (eg, polymerase chain reaction [PCR])
+
+Phenotypic non-nucleic acid–based identification methods (eg, serologic assays, mass spectrometry [MALDI-TOF MS], nuclear magnetic resonance [NMR] spectrometry)
+
+Culture is normally the gold standard for identification of organisms, but results may not be available for days or weeks, and not all pathogens can be cultured, making alternative tests useful. When a pathogen is cultured and identified, the laboratory can also assess its susceptibility to antimicrobials. The introduction of both genotypic and phenotypic rapid diagnostic tests (RDTs) has allowed for a more rapid and targeted approach to antimicrobial therapy. Sometimes molecular methods can be used to detect specific resistance genes.
+
+Some tests (eg, Gram stain, routine aerobic culture) can detect a large variety of pathogens and are commonly done for many suspected infectious illnesses. However, because some pathogens are missed on these tests, clinicians must be aware of the limitations of each test for each suspected pathogen. In such cases, clinicians should request tests specific for the suspected pathogen (eg, special stains or culture media) or advise the laboratory of the suspected organism or organisms so that more specific tests may be selected (1).
+
+Table
+
+Diagnostic Tests for Some Bacterial Pathogens
+
+Table
+
+Diagnostic Tests for Some Bacterial Pathogens
+
+Diagnostic Tests for Some Bacterial Pathogens
+
+Microorganism
+
+Microscopy
+
+Culture
+
+NAAT
+
+Antigen Detection
+
+Antibody Detection
+
+Anaplasma species
+
+✓
+
+✓
+
+✓
+
+Bacillus anthracis
+
+✓
+
+✓
+
+✓
+
+Bartonella species
+
+✓
+
+✓
+
+✓
+
+Bordetella pertussis
+
+✓
+
+✓
+
+✓
+
+Borrelia species
+
+✓*
+
+✓*
+
+✓
+
+Brucella species
+
+✓
+
+✓
+
+✓
+
+✓
+
+Chlamydia species
+
+✓
+
+✓
+
+Clostridium botulinum
+
+✓
+
+✓
+
+✓
+
+Clostridioides difficile
+
+✓
+
+✓
+
+✓
+
+Clostridium tetani
+
+✓
+
+✓
+
+Corynebacterium diphtheriae
+
+✓
+
+Coxiella species
+
+✓
+
+✓
+
+Erysipelothrix species
+
+✓
+
+✓
+
+Francisella tularensis
+
+✓
+
+✓
+
+Haemophilus ducreyi
+
+✓
+
+✓
+
+Helicobacter pylori
+
+✓
+
+✓*
+
+✓
+
+Kingella species
+
+✓*
+
+✓
+
+✓
+
+Klebsiella species
+
+✓
+
+✓
+
+Legionella species
+
+✓
+
+✓
+
+✓
+
+✓
+
+Leptospira species
+
+✓*
+
+✓
+
+✓
+
+Listeria species
+
+✓
+
+✓
+
+✓
+
+Mycoplasma species
+
+✓
+
+✓
+
+Neisseria species
+
+✓
+
+✓
+
+✓
+
+Nocardia
+
+✓
+
+✓
+
+✓
+
+Rhodococcus equi
+
+✓
+
+✓
+
+Rickettsial species
+
+✓
+
+✓
+
+Streptococcus species
+
+✓
+
+✓
+
+✓
+
+✓
+
+Treponema pallidum
+
+✓
+
+✓
+
+✓
+
+Tropheryma whipplei
+
+✓
+
+✓
+
+Vibrio species
+
+✓
+
+✓
+
+Yersinia pestis
+
+✓
+
+✓
+
+✓
+
+✓
+
+* Test not widely available in clinical practice.
+
+NAAT = nucleic acid amplification test.
+
+Adapted from Bennett JE, Dolin R, Blaser MJ: Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases, 9th Edition. Philadelphia, Elsevier, 2020.
+
+* Test not widely available in clinical practice.
+
+NAAT = nucleic acid amplification test.
+
+Adapted from Bennett JE, Dolin R, Blaser MJ: Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases, 9th Edition. Philadelphia, Elsevier, 2020.
+
+Table
+
+Diagnostic Tests for Mycobacterial Pathogens
+
+Diagnostic Tests for Mycobacterial Pathogens
+
+Microorganism
+
+Microscopy
+
+Culture
+
+NAAT
+
+Antigen Detection
+
+Antibody Detection
+
+Nontuberculous
+
+✓
+
+✓
+
+✓*
+
+Tuberculosis and ulcerans
+
+✓
+
+✓
+
+✓
+
+Mycobacterium leprae
+
+✓
+
+✓
+
+✓
+
+* Test not widely available in clinical practice.
+
+NAAT = nucleic acid amplification test.
+
+Adapted from Bennett JE, Dolin R, Blaser MJ: Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases, 9th Edition. Philadelphia, Elsevier, 2020.
+
+* Test not widely available in clinical practice.
+
+NAAT = nucleic acid amplification test.
+
+Adapted from Bennett JE, Dolin R, Blaser MJ: Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases, 9th Edition. Philadelphia, Elsevier, 2020.
+
+Table
+
+Diagnostic Tests for Some Fungal Pathogens
+
+Diagnostic Tests for Some Fungal Pathogens
+
+Microorganism
+
+Microscopy
+
+Culture
+
+NAAT
+
+Antigen Detection
+
+Antibody Detection
+
+Aspergillus species
+
+✓
+
+✓
+
+✓
+
+✓
+
+Blastomyces species
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+Candida species
+
+✓
+
+✓
+
+✓
+
+Coccidioides species
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+Cryptococcus neoformans
+
+✓
+
+✓
+
+✓
+
+✓
+
+Dermatophytes
+
+✓
+
+✓
+
+Histoplasma capsulatum
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+Malassezia species
+
+✓
+
+✓
+
+Mucorales species
+
+✓
+
+✓
+
+✓
+
+Pneumocystis jirovecii
+
+✓
+
+✓
+
+✓
+
+Sporothrix species
+
+✓
+
+✓
+
+✓
+
+NAAT = nucleic acid amplification test.
+
+Adapted from Bennett JE, Dolin R, Blaser MJ: Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases, 9th Edition. Philadelphia, Elsevier, 2020.
+
+NAAT = nucleic acid amplification test.
+
+Adapted from Bennett JE, Dolin R, Blaser MJ: Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases, 9th Edition. Philadelphia, Elsevier, 2020.
+
+Table
+
+Diagnostic Tests for Common Pathogens
+
+Diagnostic Tests for Common Pathogens
+
+Microorganism
+
+Microscopy
+
+Culture
+
+Nucleic Acid Amplification Test (NAAT)
+
+Antigen Detection
+
+Antibody Detection
+
+Bacteria
+
+Bacillus anthracis
+
+✓
+
+✓
+
+✓
+
+Bartonella species
+
+✓
+
+✓
+
+Bordetella pertussis
+
+✓
+
+✓
+
+✓
+
+Borrelia species
+
+✓
+
+✓
+
+✓
+
+Brucella species
+
+✓
+
+✓
+
+✓
+
+Clostridium botulinum
+
+✓
+
+✓
+
+✓
+
+✓
+
+Clostridioides difficile
+
+✓
+
+✓
+
+✓
+
+Clostridium tetani
+
+✓
+
+✓
+
+Corynebacterium diphtheriae
+
+✓
+
+Erysipelothrix species
+
+✓
+
+✓
+
+Francisella tularensis
+
+✓
+
+✓
+
+Haemophilus ducreyi
+
+✓
+
+✓
+
+✓
+
+Helicobacter pylori
+
+✓
+
+✓
+
+✓
+
+✓
+
+Kingella species
+
+✓
+
+✓
+
+✓
+
+Klebsiella species
+
+✓
+
+✓
+
+Legionella species
+
+✓
+
+✓
+
+✓
+
+✓
+
+Listeria species
+
+✓
+
+✓
+
+✓
+
+Mycoplasma species
+
+✓
+
+✓
+
+Neisseria species
+
+✓
+
+✓
+
+✓
+
+Nocardia
+
+✓
+
+✓
+
+✓
+
+Rhodococcus equus
+
+✓
+
+✓
+
+Streptococcus species
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+Treponema pallidum
+
+✓
+
+✓
+
+X
+
+Tropheryma whipplei
+
+✓
+
+✓
+
+Vibrio species
+
+✓
+
+✓
+
+Yersinia pestis
+
+✓
+
+✓
+
+✓
+
+✓
+
+Mycobacteria
+
+Nontuberculous
+
+✓
+
+✓
+
+Tuberculosis and ulcerans
+
+✓
+
+✓
+
+✓
+
+Intracellular Organisms
+
+Anaplasma species
+
+✓
+
+✓
+
+✓
+
+Chlamydia species
+
+✓
+
+✓
+
+Coxiella species
+
+✓
+
+✓
+
+Leishmania species
+
+✓
+
+✓
+
+✓
+
+✓
+
+Leptospira species
+
+✓
+
+✓
+
+✓
+
+Borrelia species
+
+✓
+
+✓
+
+✓
+
+✓
+
+Fungi
+
+Aspergillus species
+
+✓
+
+✓
+
+✓
+
+✓
+
+Blastomyces species
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+Candida species
+
+✓
+
+✓
+
+✓
+
+Coccidiodes species
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+Cryptococcus neoformans
+
+✓
+
+✓
+
+✓
+
+✓
+
+Dermatophytes
+
+✓
+
+✓
+
+Histoplasma capsulatum
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+Malassezia species
+
+✓
+
+✓
+
+Mucorales species
+
+✓
+
+✓
+
+✓
+
+Pneumocystis jirovecii
+
+✓
+
+✓
+
+✓
+
+Sporothrix species
+
+✓
+
+✓
+
+✓
+
+Viruses
+
+Adenovirus
+
+✓
+
+✓
+
+BK virus
+
+✓
+
+✓
+
+COVID-19 (SARS-CoV2)
+
+✓
+
+✓
+
+Cytomegalovirus (CMV)
+
+✓
+
+✓
+
+✓
+
+✓
+
+Enteroviruses
+
+✓
+
+✓
+
+✓
+
+Epstein-Barr Virus (EBV)
+
+✓
+
+✓
+
+Hepatitis A, B, C, D and E
+
+✓
+
+✓
+
+Herpes simplex virus
+
+✓
+
+✓
+
+✓
+
+✓
+
+Herpes virus 6
+
+✓
+
+✓
+
+HIV
+
+✓
+
+✓
+
+✓
+
+Human papillomavirus (HPV)
+
+✓
+
+✓
+
+Influenza
+
+✓
+
+✓
+
+✓
+
+JC virus
+
+✓
+
+✓
+
+LaCrosse virus
+
+✓
+
+Lymphocytic choriomeningitis virus (LCMV) 
+
+✓
+
+✓
+
+Measles
+
+✓
+
+✓
+
+Mumps
+
+✓
+
+✓
+
+Norovirus
+
+✓
+
+✓
+
+Parainfluenza
+
+✓
+
+✓
+
+Parvovirus B19
+
+✓
+
+✓
+
+✓
+
+Powassan virus
+
+✓
+
+✓
+
+Rabies
+
+✓
+
+✓
+
+✓
+
+✓
+
+Respiratory syncytial virus (RSV)
+
+✓
+
+✓
+
+✓
+
+Rubella
+
+✓
+
+St Louis encephalitis virus
+
+✓
+
+Tickborne encephalitis virus
+
+✓
+
+Varicella zoster
+
+✓
+
+✓
+
+✓
+
+✓
+
+West Nile virus
+
+✓
+
+✓
+
+Zika virus
+
+✓
+
+✓
+
+Protozoa and Parasites
+
+Babesia
+
+✓
+
+✓
+
+✓
+
+Cryptosporidium
+
+✓
+
+✓
+
+✓
+
+Cyclospora
+
+✓
+
+✓
+
+Entamoeba
+
+✓
+
+✓
+
+✓
+
+✓
+
+Enterobius vermicularis
+
+✓
+
+Giardia
+
+✓
+
+✓
+
+Intestinal nematodes
+
+✓
+
+✓
+
+✓
+
+Plasmodium species
+
+✓
+
+✓
+
+✓
+
+Scabies
+
+✓
+
+Taenia solium
+
+✓
+
+✓
+
+Toxocara species
+
+✓
+
+✓
+
+Trichinella spiralis
+
+✓
+
+✓
+
+Trypanosoma species
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+Adapted from Bennett JE, Dolin R, Blaser MJ: Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases, 9th Edition. Elsevier, 2020.
+
+Adapted from Bennett JE, Dolin R, Blaser MJ: Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases, 9th Edition. Elsevier, 2020.
+
+Table
+
+Diagnostic Tests for Some Protozoal and Parasitic Pathogens
+
+Diagnostic Tests for Some Protozoal and Parasitic Pathogens
+
+Microorganism
+
+Microscopy
+
+Culture
+
+NAAT
+
+Antigen Detection
+
+Antibody Detection
+
+Babesia
+
+✓
+
+✓
+
+✓
+
+Cryptosporidium
+
+✓
+
+✓
+
+✓
+
+Cyclospora
+
+✓
+
+✓
+
+Entamoeba
+
+✓
+
+✓
+
+✓
+
+✓
+
+Enterobius vermicularis
+
+✓
+
+Giardia
+
+✓
+
+✓
+
+✓
+
+Intestinal nematodes
+
+✓
+
+✓
+
+✓
+
+Leishmania species
+
+✓
+
+✓
+
+✓
+
+✓
+
+Plasmodium species
+
+✓
+
+✓
+
+✓
+
+Scabies
+
+✓
+
+Taenia solium
+
+✓
+
+✓
+
+Toxocara species
+
+✓
+
+✓
+
+Trichinella spiralis
+
+✓
+
+✓
+
+✓
+
+Trypanosoma species
+
+✓
+
+✓
+
+NAAT = nucleic acid amplification test.
+
+Adapted from Bennett JE, Dolin R, Blaser MJ: Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases, 9th Edition. Philadelphia, Elsevier, 2020.
+
+NAAT = nucleic acid amplification test.
+
+Adapted from Bennett JE, Dolin R, Blaser MJ: Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases, 9th Edition. Philadelphia, Elsevier, 2020.
+
+Reference
+
+1. Miller JM, Binnicker MJ, Campbell S, et al. Guide to Utilization of the Microbiology Laboratory for Diagnosis of Infectious Diseases: 2024 Update by the Infectious Diseases Society of America (IDSA) and the American Society for Microbiology (ASM). Clin Infect Dis. Published online March 5, 2024. doi:10.1093/cid/ciae104

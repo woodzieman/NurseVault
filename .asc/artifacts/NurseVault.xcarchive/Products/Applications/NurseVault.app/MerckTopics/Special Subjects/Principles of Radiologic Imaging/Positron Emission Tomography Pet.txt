@@ -1,0 +1,42 @@
+=== Positron Emission Tomography (PET) (Merck Manual Professional) ===
+Section: Special Subjects > Principles of Radiologic Imaging
+Source: https://www.merckmanuals.com/professional/special-subjects/principles-of-radiologic-imaging/positron-emission-tomography-pet
+Retrieved: 2026-09-25
+
+Positron emission tomography (PET), a type of radionuclide scanning, uses compounds containing radionuclides that decay by releasing a positron (the positively charged antimatter equivalent of an electron). The released positron combines with an electron and produces 2 photons whose paths are 180° apart. Ring detector systems encircling the positron-emitting source simultaneously detect the 2 photons to localize the source and to produce color tomographic images of the area. Because PET incorporates positron-emitting radionuclides into metabolically active compounds, it can provide information about tissue function. Standard uptake value (SUV) indicates metabolic activity of a lesion; typically, the intensity of color is increased with higher SUVs.
+
+The most commonly used compound in clinical PET is:
+
+Fluorine-18 [18F]–labeled deoxyglucose (FDG)
+
+FDG is an analog of glucose, and its uptake is proportional to glucose metabolic rates. A patient’s relative glucose metabolic rate (SUV) is calculated: The amount of FDG taken up from the injected dose is divided by the patient’s body weight.
+
+Uses of PET
+
+PET has several clinical indications, including:
+
+Cancer (eg, staging and evaluating specific types of cancer and evaluating response to treatment), which accounts for the majority of PET usage
+
+Cardiac function (eg, evaluating myocardial viability, detecting hibernating myocardium)
+
+Neurologic function (eg, evaluation of dementia and seizures)
+
+Variations of PET
+
+FDG-PET-CT
+
+Image
+
+Coronal reconstruction image from FDG-PET-CT examination shows intense metabolic activity in the region of left ischium (arrows) corresponding to patient's known Langerhans cell histiocytosis.
+
+Image courtesy of Hakan Ilaslan, MD.
+
+PET-CT
+
+Functional information provided by PET is superimposed on anatomic information provided by CT.
+
+Disadvantages of PET
+
+The typical effective radiation dose during PET is about 7 mSv. The effective radiation dose with PET-CT is 5 to 18 mSv.
+
+Production of FDG requires a cyclotron. FDG has a short half-life (110 minutes); thus, shipment from the manufacturer and completion of the scan must occur very rapidly. The resulting expense, inconvenience, and impracticality greatly limit the availability of PET.

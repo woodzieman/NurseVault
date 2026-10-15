@@ -1,0 +1,106 @@
+=== Magnetic Resonance Imaging in Neurologic Disorders (Merck Manual Professional) ===
+Section: Neurology > Neurologic Tests and Procedures
+Source: https://www.merckmanuals.com/professional/neurologic-disorders/neurologic-tests-and-procedures/magnetic-resonance-imaging-in-neurologic-disorders
+Retrieved: 2026-09-25
+
+Magnetic resonance imaging (MRI) provides better resolution of neural structures than CT. CT, based on x-ray imaging, is superior for viewing bony abnormalities whereas MRI technology, based on signals emitted by hydrogen atoms in water molecules, is superior at viewing tissues. This difference is most significant clinically for visualizing the following:
+
+Cranial nerves
+
+Brain stem lesions
+
+Abnormalities of the posterior fossa
+
+Spinal cord
+
+CT images of these regions are often marred by bony streak artifacts. MRI is especially valuable for identifying spinal abnormalities (eg, tumor, abscess) compressing the spinal cord and requiring emergency intervention. Also, MRI is better for detecting demyelinating plaques, early infarction, subclinical brain edema, cerebral contusions, incipient transtentorial herniation, abnormalities of the craniocervical junction, and syringomyelia.
+
+Normal Brain MRI (Sagittal)
+
+Normal Brain MRI (Sagittal) – Slide 1
+
+© 2017 Elliot K. Fishman, MD.
+
+Normal Brain MRI (Sagittal) – Slide 2
+
+© 2017 Elliot K. Fishman, MD.
+
+Normal Brain MRI (Sagittal) – Slide 3
+
+© 2017 Elliot K. Fishman, MD.
+
+Normal Brain MRI (Sagittal) – Slide 4
+
+© 2017 Elliot K. Fishman, MD.
+
+Normal Brain MRI (Sagittal) – Slide 5
+
+© 2017 Elliot K. Fishman, MD.
+
+Normal Brain MRI (Sagittal) – Slide 6
+
+© 2017 Elliot K. Fishman, MD.
+
+Normal Brain MRI (Sagittal) – Slide 1
+
+© 2017 Elliot K. Fishman, MD.
+
+Normal Brain MRI (Sagittal) – Slide 2
+
+© 2017 Elliot K. Fishman, MD.
+
+Normal Brain MRI (Sagittal) – Slide 3
+
+© 2017 Elliot K. Fishman, MD.
+
+Normal Brain MRI (Sagittal) – Slide 4
+
+© 2017 Elliot K. Fishman, MD.
+
+Normal Brain MRI (Sagittal) – Slide 5
+
+© 2017 Elliot K. Fishman, MD.
+
+Normal Brain MRI (Sagittal) – Slide 6
+
+© 2017 Elliot K. Fishman, MD.
+
+MRI is contraindicated if patients have (1):
+
+A cardiac implantable device (CIED) such as pacemaker, implantable cardioverter-defibrillator (ICD), or cardiac resynchronization therapy (CRT) device
+
+Cardiac or carotid stents for < 6 weeks
+
+Ferromagnetic aneurysm clips or other metallic objects, such as cochlear implants, that may overheat or be displaced within the body by the intense magnetic field
+
+Visualization of inflammatory, demyelinated, and neoplastic lesions may require enhancement with IV paramagnetic contrast agents (eg, gadolinium). Although gadolinium is thought to be much safer than contrast agents used with CT, nephrogenic systemic fibrosis (nephrogenic fibrosing dermopathy) has been reported in patients with impaired kidney function and acidosis. Before using gadolinium in patients with renal disease, clinicians should consult with a radiologist and a nephrologist. Additionally, gadolinium may accumulate in the brain if gadolinium-enhanced MRIs are done repeatedly (2).
+
+There are several MRI techniques; choice of technique depends on the specific tissue, location, and suspected disorder:
+
+Diffusion-weighted imaging (DWI) allows rapid, early detection of ischemic stroke and helps distinguish cerebral abscess from tumor. It can also help diagnose Creutzfeld-Jacob disease.
+
+Perfusion-weighted imaging (PWI) can detect areas of hypoperfusion in early ischemic stroke but cannot reliably distinguish areas with benign oligemia from those with injurious hypoperfusion due to infarction.
+
+Diffusion tensor imaging (DTI) is an extension of DWI that can show white matter tracts in 3 dimensions (tractography) and can be used to monitor the integrity of central nervous system (CNS) tracts affected by aging and disease.
+
+Flow-attenuated inversion recovery (FLAIR) is used to distinguish demyelinating lesions, such as those that occur in multiple sclerosis, from a water signal coming from cerebrospinal fluid (CSF); with this technique, the CSF looks dark and the demyelinating lesion looks white.
+
+Double inversion recovery (DIR), used in research centers, can detect demyelination of gray matter better than other MRI techniques; gray matter demyelination is considered common in multiple sclerosis (MS). In addition, it is recommended to use susceptibility-weighted imaging (SWI) or related T2-weighted echo planar MRI sequence to best view lesions with a central vein or paramagnetic rim lesions that are specific for MS (3).
+
+Functional MRI (fMRI) shows which brain regions are activated (shown by increased flow of oxygenated blood) by a specific cognitive or motor task, but its clinical use is still being defined.
+
+Magnetic resonance angiography (MRA) uses MRI with or without a contrast agent to show cerebral vessels and major arteries and their branches in the head and neck. Although MRA has not replaced cerebral angiography, it is used when cerebral angiography cannot be done (eg, because the patient refuses or has increased risk). As a check for stroke, MRA tends to exaggerate severity of arterial narrowing and thus does not usually miss occlusive disease of large arteries. It provides better images than CT angiography when cerebral vessel dissection is suspected.
+
+Susceptibility-weighted angiography (SWAN) can be useful in evaluating bleeding. It provides better visualization of both large and small blood vessels, microhemorrhages, and deposits of calcium and iron in the brain. It can also show tiny blood vessels (eg, venules) that are most often seen in the center of demyelinating lesions in patients with multiple sclerosis (known as the central vein sign) and thus distinguishes lesions due to multiple sclerosis from ischemic lesions.
+
+Magnetic resonance venography (MRV) uses MRI to show the major veins and dural sinuses of the cranium. MRV obviates the need for cerebral angiography in diagnosing cerebral venous thrombosis and is useful for monitoring thrombus resolution and guiding the duration of anticoagulation.
+
+Magnetic resonance spectroscopy can measure metabolites in the brain regionally to distinguish tumors from abscess or stroke.
+
+References
+
+1. Indik JH, Gimbel JR, Abe H, et al. 2017 HRS expert consensus statement on magnetic resonance imaging and radiation exposure in patients with cardiovascular implantable electronic devices. Heart Rhythm 2017;14(7):e97-e153. doi:10.1016/j.hrthm.2017.04.025
+
+2. Gulani V, Calamante F, Shellock FG, Kanal E, Reeder SB; International Society for Magnetic Resonance in Medicine. Gadolinium deposition in the brain: summary of evidence and recommendations. Lancet Neurol 2017;16(7):564-570. doi:10.1016/S1474-4422(17)30158-8
+
+3. Afkandeh R, Abedi I, Zamanian M. Detection of multiple sclerosis lesions by susceptibility-weighted imaging-A systematic review and meta-analyses. Clin Radiol 2024;79(12):e1522-e1529. doi:10.1016/j.crad.2024.09.009

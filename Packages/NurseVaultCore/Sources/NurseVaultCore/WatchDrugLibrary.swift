@@ -57,10 +57,14 @@ public final class WatchDrugLibrary {
             isLoading = false
             if built.isEmpty {
                 isMissing = true
+                #if DEBUG
                 NSLog("NurseVault (watch drug): index loaded 0 entries — resource unavailable; search will return nothing.")
+                #endif
             } else {
                 entries = built
+                #if DEBUG
                 NSLog("NurseVault (watch drug): index loaded \(built.count) drugs.")
+                #endif
             }
         }
     }
@@ -79,7 +83,9 @@ public final class WatchDrugLibrary {
             let url = WatchIndexBundle.indexURL(base: "WatchDrugIndex", ext: "txt"),
             let content = try? String(contentsOf: url, encoding: .utf8)
         else {
+            #if DEBUG
             NSLog("NurseVault (watch drug): could not locate WatchDrugIndex.txt in any bundle.")
+            #endif
             return []
         }
 

@@ -1,0 +1,108 @@
+=== Hemolytic-Uremic Syndrome (HUS) (Merck Manual Professional) ===
+Section: Hematology > Thrombocytopenia and Platelet Dysfunction
+Source: https://www.merckmanuals.com/professional/hematology/thrombocytopenia-and-platelet-dysfunction/hemolytic-uremic-syndrome-hus
+Retrieved: 2026-09-25
+
+Pathophysiology of HUS
+
+Hemolytic-uremic syndrome, like thrombotic thrombocytopenic purpura (TTP), involves nonimmunologic platelet destruction. Endothelial damage is common. Loose strands of platelets and fibrin are deposited in multiple small vessels and damage passing platelets and red blood cells (RBCs), causing significant thrombocytopenia and anemia (microangiopathic hemolytic anemia). Platelets are also consumed within multiple small thrombi, contributing to the thrombocytopenia. (See also Overview of Platelet Disorders.)
+
+Multiple organs develop platelet–von Willebrand factor (VWF) thrombi localized primarily to arteriocapillary junctions, described as thrombotic microangiopathy. The brain, heart, and kidneys are particularly likely to be affected. The microthrombi do not include RBCs or fibrin (unlike thrombi in disseminated intravascular coagulation) and do not manifest the vessel wall granulocytic infiltration characteristic of vasculitis. Large-vessel thrombi are uncommon.
+
+Etiology of HUS
+
+Most cases occur in children and follow:
+
+Acute infection
+
+Most often (approximately 90% of cases), the infection is acute hemorrhagic colitis resulting from Shiga toxin–producing bacteria (eg, Escherichia coli O157:H7, or some strains of Shigella dysenteriae). Occasionally, the cause is pneumococcal infection or rarely HIV infection. Activation of the complement system is common in children with HUS caused by acute infection.
+
+A small minority of cases are unrelated to infection and involve:
+
+Mutations of the complement system
+
+These mutations involve genes controlling complement proteins or complement factors but sometimes are from acquired autoantibodies to certain complement factors. Congenital complement disorders may also increase the risk of HUS after an infection.
+
+Symptoms and Signs of HUS
+
+Children with Shiga toxin–related HUS usually have a prodrome of vomiting, abdominal pain, and diarrhea (frequently bloody) and often a history of exposure to infection. Patients with pneumococcal-related HUS usually have manifestations of pneumonia, meningitis, or sepsis. Fever does not usually occur. About a week after the prodrome, manifestations of hemolytic anemia, thrombocytopenia, and acute kidney injury develop.
+
+HUS due to complement-factor mutations does not usually have an infectious prodrome but may be exacerbated by an infection.
+
+Manifestations of ischemia develop with varying severity in multiple organs. Neurologic manifestations occur in approximately one-quarter of patients and include weakness, confusion, and seizures. Kidney injury may produce hematuria, decreased urination or anuria, and/or hypertension. Despite thrombocytopenia, purpura and overt bleeding are uncommon, although gastrointestinal tract ischemia may cause significant hemorrhagic colitis, with abdominal pain, nausea, vomiting, and bloody diarrhea. Cardiac involvement may cause arrhythmias.
+
+Diagnosis of HUS
+
+Complete blood count (CBC) with platelets, examination of peripheral blood smear, reticulocyte count, direct antiglobulin (Coombs) test, lactate dehydrogenase (LDH), haptoglobin, kidney function tests, serum bilirubin (direct and indirect), prothrombin time (PT), partial thromboplastin time (PTT), fibrinogen, and urinalysis
+
+Measurement of complement factors 3 and 4 and total complement
+
+Exclusion of other thrombocytopenic disorders
+
+HUS is suspected in patients with suggestive symptoms, thrombocytopenia, microangiopathic anemia, and signs of acute kidney injury.
+
+ADAMTS13 enzyme activity levels may be helpful. ADAMTS13 activity is low in TTP but is usually not decreased in HUS. This enzyme is a plasma protease that cleaves von Willebrand factor; deficiency causes TTP, and decreased ADAMTS13 activity levels may differentiate atypical cases of TTP from HUS.
+
+Drug-induced thrombotic microangiopathy, which is similar to the thrombotic microangiopathy of HUS, can be triggered by a number of medications, including quinine, cyclosporine, tacrolimus, and cancer chemotherapy agents (eg, mitomycin, gemcitabine). In most cases, the medications are thought to damage endothelial cells in small blood vessels and cause microthrombi. In drug-induced thrombotic microangiopathy, levels of ADAMTS13 are always normal, and patients do not respond to plasma exchange, glucocorticoids, rituximab, or complement inhibition.
+
+Schistocytes (Red Blood Cell Fragments)
+
+Image
+
+Schistocytes (see arrows) are damaged red blood cells, which may occur in microangiopathic hemolytic anemia (including disseminated intravascular coagulation, thrombotic thrombocytopenic purpura/hemolytic-uremic syndrome, and valvular hemolysis).
+
+By permission of the publisher. From Tefferi A, Li C. In Atlas of Clinical Hematology. Edited by JO Armitage. Philadelphia, Current Medicine, 2004.
+
+The diagnosis of HUS is suggested by:
+
+Thrombocytopenia and anemia
+
+Fragmented red blood cells on the blood smear indicative of microangiopathic hemolysis (schistocytes: helmet cells, triangular RBCs, distorted-appearing RBCs)
+
+Evidence of hemolysis (falling hemoglobin level, polychromasia, elevated reticulocyte count, elevated serum LDH and bilirubin, reduced haptoglobin)
+
+Negative direct antiglobulin test
+
+Normal ADAMTS13 activity
+
+Diagnosis of cause
+
+Stool testing (Shiga toxin enzyme-linked immunosorbent assay or specific culture media for E. coli O157:H7) is done in children with diarrhea and also adults who had a prodrome of bloody diarrhea (1); however, the organism and toxin may have cleared by the time of presentation.
+
+In atypical cases, that is, in patients who have not had preceding infection or who have recurrent disease, testing for complement factor gene mutations is recommended. However, mutations are not always specific for atypical HUS (2), and at least half of patients do not have mutations in complement factor genes (3).
+
+Diagnosis references
+
+1. Gould LH, Bopp C, Strockbine N, et al. Recommendations for diagnosis of shiga toxin--producing Escherichia coli infections by clinical laboratories. MMWR Recomm Rep. 2009;58(RR-12):1-14.
+
+2. Timmermans SAMEG, Wérion A, Damoiseaux JGMC, Morelle J, Reutelingsperger CP, van Paassen P. Diagnostic and Risk Factors for Complement Defects in Hypertensive Emergency and Thrombotic Microangiopathy. Hypertension. 2020;75(2):422-430. doi:10.1161/HYPERTENSIONAHA.119.13714
+
+3. Maga TK, Nishimura CJ, Weaver AE, Frees KL, Smith RJ. Mutations in alternative pathway complement proteins in American patients with atypical hemolytic uremic syndrome. Hum Mutat. 2010;31(6):E1445-E1460. doi:10.1002/humu.21256
+
+Treatment of HUS
+
+Supportive care, often including hemodialysis
+
+For cases involving complement dysregulation, sometimes eculizumab, ravulizumab, or pegcetacoplan
+
+Typical diarrhea-associated HUS in children caused by enterohemorrhagic infection usually spontaneously remits and is treated with supportive care; antibiotics are not used. Over half of patients require renal dialysis, in which case eculizumab or ravulizumab is commonly given. Unlike with thrombotic thrombocytopenic purpura, plasma exchange and glucocorticoids are not used.
+
+In patients with HUS caused by complement dysregulation (including most children), complement inhibition with eculizumab, ravulizumab, or pegcetacoplan can often reverse the kidney failure (1). Children with known or presumed hereditary deficiency in complement regulatory proteins such as factor H are particularly likely to respond to eculizumab, ravulizumab, or possibly pegcetacoplan. Patients who take eculizumab, ravulizumab, or pegcetacoplan are at higher risk for meningococcal meningitis, so they should receive the meningococcal vaccine.
+
+In patients without a known complement factor deficiency, complement inhibitory medications can usually be stopped when signs of disease activity resolve.
+
+Treatment reference
+
+1. Loirat C, Fakhouri F, Ariceta G, et al. An international consensus approach to the management of atypical hemolytic uremic syndrome in children. Pediatr Nephrol. 2016;31(1):15-39. doi:10.1007/s00467-015-3076-8
+
+Key Points
+
+Platelets and red blood cells are destroyed nonimmunologically, leading to thrombocytopenia and anemia; renal failure is common in children and adults with hemolytic-uremic syndrome (HUS).
+
+Cause in children is typically hemorrhagic colitis resulting from Shiga toxin–producing bacteria.
+
+Less common causes involve complement dysregulation from a variety of inherited and acquired causes.
+
+Typical diarrhea-associated HUS in children usually spontaneously remits with supportive care, although over half of affected children require renal dialysis and the use of complement inhibition.
+
+HUS due to complement factor mutations/deficiency may respond to complement inhibition using eculizumab, ravulizumab.

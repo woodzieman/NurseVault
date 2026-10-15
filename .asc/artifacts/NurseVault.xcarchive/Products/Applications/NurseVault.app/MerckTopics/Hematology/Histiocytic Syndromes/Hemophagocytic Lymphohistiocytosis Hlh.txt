@@ -1,0 +1,120 @@
+=== Hemophagocytic Lymphohistiocytosis (HLH) (Merck Manual Professional) ===
+Section: Hematology > Histiocytic Syndromes
+Source: https://www.merckmanuals.com/professional/hematology/histiocytic-syndromes/hemophagocytic-lymphohistiocytosis-hlh
+Retrieved: 2026-09-25
+
+(See also Overview of Histiocytic Disorders.)
+
+Hemophagocytic lymphohistiocytosis (HLH) is uncommon. It affects mostly infants < 18 months but can occur at any age. It involves a defect in targeted killing and the inhibitory controls of natural killer and cytotoxic T cells, resulting in excessive cytokine production and accumulation of activated T cells and macrophages in various organs. Cells in the bone marrow and/or spleen may attack red blood cells, white blood cells, and/or platelets.
+
+HLH can be
+
+Familial (primary)
+
+Acquired (secondary)
+
+Acquired HLH can be associated with infections (eg, Epstein-Barr virus, cytomegalovirus, or others), cancer (eg, leukemias, lymphomas), immune disorders (eg, systemic lupus erythematosus, rheumatoid arthritis, polyarteritis nodosa, sarcoidosis, progressive systemic sclerosis, Sjögren syndrome, Kawasaki disease) and can occur in patients who have received a kidney or liver transplant.
+
+In both familial and acquired forms, clinical manifestations are similar.
+
+Symptoms and Signs of HLH
+
+Common manifestations of hemophagocytic lymphohistiocytosis include fever, hepatomegaly, splenomegaly, rash, lymphadenopathy, and neurologic abnormalities (eg, seizures, retinal hemorrhages, ataxia, altered consciousness or coma).
+
+Diagnosis of HLH
+
+Clinical and testing criteria
+
+Hemophagocytic lymphohistiocytosis can be diagnosed if there is a mutation in a known HLH-associated gene or if at least 5 of 8 diagnostic criteria based on HLH-2004 protocol (1, 2) are met:
+
+Fever (peak temperature of > 38.5° C for > 7 days)
+
+Splenomegaly (spleen palpable > 3 cm below costal margin)
+
+Cytopenia involving > 2 cell lines (hemoglobin < 9 g/dL [90 g/L], absolute neutrophil count < 100/mcL [0.10 × 109/L], platelets < 100,000/mcL [100 × 109/L])
+
+Hypertriglyceridemia (fasting triglycerides > 177 mg/dL [2.0 mmol/L] or > 3 standard deviations [SD] more than normal value for age) or hypofibrinogenemia (fibrinogen < 150 mg/dL [1.5 g/L] or > 3 SD less than normal value for age)
+
+Hemophagocytosis (in biopsy samples of bone marrow, spleen, or lymph nodes)
+
+Low or absent natural killer cell activity
+
+Serum ferritin > 500 ng/mL (> 1123.5ng/mL)
+
+Elevated soluble interleukin-2 (CD25) levels (>2400 U/mL or very high for age)
+
+Genetic mutations associated with HLH include
+
+PRF1
+
+RAB27
+
+STX11
+
+STXBP2
+
+UNC13D
+
+XLP
+
+Because some of these tests may not be widely available and because HLH is uncommon, patients are usually referred to specialized centers for evaluation.
+
+Genetic testing is recommended to look for primary HLH mutations as well as mutations that characterize immune dysregulation (3).
+
+Familial and acquired forms are differentiated only by family history or genetic testing.
+
+Diagnosis references
+
+1. Henter JI, Horne A, Aricó M, et al: HLH-2004: Diagnostic and therapeutic guidelines for hemophagocytic lymphohistiocytosis. Pediatr Blood Cancer 48(2):124–131, 2007. doi: 10.1002/pbc.21039
+
+2. Chinnici A, Beneforti L, Pegoraro F, et al: Approaching hemophagocytic lymphohistiocytosis [published correction appears in Front Immunol. 2024 Jan 22;15:1369687. doi: 10.3389/fimmu.2024.1369687]. Front Immunol 14:1210041, 2023. doi:10.3389/fimmu.2023.1210041
+
+3. Schulert GS, Zhang M, Fall N, et al: Whole-Exome Sequencing Reveals Mutations in Genes Linked to Hemophagocytic Lymphohistiocytosis and Macrophage Activation Syndrome in Fatal Cases of H1N1 Influenza. J Infect Dis 213(7):1180–1188, 2016. doi:10.1093/infdis/jiv550
+
+Treatment of HLH
+
+Chemotherapy, cytokine inhibitors, immune suppression, and sometimes hematopoietic stem cell transplantation
+
+Treatment for hemophagocytic lymphohistiocytosis should be started if the disorder is suspected, even if not all diagnostic criteria are fulfilled. Patients are usually treated by a pediatric hematologist and in a referral center experienced in treating patients with HLH.
+
+Treatment depends on the presence of factors such as a family history of HLH, coexisting infections, and demonstrated immune system defects. Treatment for HLH may include cytokine inhibitors, immune therapy, chemotherapy with etoposide and dexamethasone, some combination of these, and possibly hematopoietic stem cell transplantation (1).
+
+A response to early initiation of anakinra (IL1 antagonist) in patients with secondary HLH has been reported and may allow for avoidance of intensive chemotherapy but requires further investigation (2, 3). Ruxolitinib (a JAK-STAT pathway inhibitor) for upfront treatment of HLH is being explored in a clinical trial sponsored by the North American Consortium for Histiocytosis (NACHO) (4).
+
+Emapalumab, an interferon gamma–blocking monoclonal antibody, is available for patients with refractory, recurrent, or progressive HLH or with an intolerance to conventional therapy (5, 6, 7).
+
+Treatment references
+
+1. Bergsten E, Horne A, Aricó M, et al: Confirmed efficacy of etoposide and dexamethasone in HLH treatment: long-term results of the cooperative HLH-2004 study. Blood 130(25):2728-2738, 2017. doi:10.1182/blood-2017-06-788349
+
+2. Bami S, Vagrecha A, Soberman D, et al: The use of anakinra in the treatment of secondary hemophagocytic lymphohistiocytosis. Pediatr Blood Cancer 67(11):e28581, 2020. doi: 10.1002/pbc.28581
+
+3. Mehta P, Cron RQ, Hartwell J, Manson JJ, Tattersall RS: Silencing the cytokine storm: the use of intravenous anakinra in haemophagocytic lymphohistiocytosis or macrophage activation syndrome. Lancet Rheumatol 2(6):e358-e367, 2020. doi:10.1016/S2665-9913(20)30096-5
+
+4. Zhou D, Huang X, Xie M, et al: Ruxolitinib combined with dexamethasone in adult patients with newly diagnosed Hemophagocytic lymphohistiocytosis: A single-center pilot trial. Am J Hematol 98(5):E106–E109, 2023. doi:10.1002/ajh.26877
+
+5. Chandrakasan S, Jordan MB, Baker A, et al: Real-world treatment patterns and outcomes in patients with primary hemophagocytic lymphohistiocytosis treated with emapalumab. Blood Adv 8(9):2248-2258, 2024. doi:10.1182/bloodadvances.2023012217
+
+6. Henter JI, von Bahr Greenwood T, Bergsten E: Emapalumab in Primary Hemophagocytic Lymphohistiocytosis. N Engl J Med 383(6):596–598, 2020. doi:10.1056/NEJMc2020754
+
+7. Jordan MB, Locatelli F: Emapalumab in Primary Hemophagocytic Lymphohistiocytosis. Reply. N Engl J Med 383(6):598–599, 2020. doi:10.1056/NEJMc2020754
+
+Key Points
+
+Hemophagocytic lymphohistiocytosis (HLH) is an uncommon rare disorder and usually affects infants < 18 months.
+
+HLH can be familial (inherited) or acquired.
+
+Diagnose HLH if the patient has at least 5 of 8 published diagnostic criteria or if the patient has a known mutation associated with HLH.
+
+Treat with chemotherapy, cytokine inhibitors, immune suppression, and sometimes hematopoietic stem cell transplantation.
+
+More Information
+
+The following English-language resources may be useful. Please note that The Manual is not responsible for the content of these resources.
+
+Canna SW, Marsh RA: Pediatric hemophagocytic lymphohistiocytosis. Blood 135(16):1332–1343, 2020. doi: 10.1182/blood.2019000936
+
+Histiocyte Society: International society for research into treatment of histiocytic diseases
+
+North American Consortium for Histiocytosis: Conducts clinical and translational studies on histiocytosis and supports researchers and clinicians working in the field

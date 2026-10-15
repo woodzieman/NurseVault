@@ -1,0 +1,342 @@
+=== Overview of Heat Illness (Merck Manual Professional) ===
+Section: Injuries; Poisoning > Heat Illness
+Source: https://www.merckmanuals.com/professional/injuries-poisoning/heat-illness/overview-of-heat-illness
+Retrieved: 2026-09-25
+
+Heat illness encompasses a number of disorders ranging in severity from muscle cramps and heat exhaustion to heatstroke (which can be a life-threatening emergency). According to the U.S. Centers for Disease Control and Prevention (CDC), 3,066 heat-related deaths occurred between 2018 and 2020 (1). The number is expected to climb significantly over the next few decades as climate change increases the frequency, intensity, and duration of heat waves (2).
+
+Patients with heat exhaustion maintain the ability to dissipate heat and have normal central nervous system (CNS) function. In heatstroke, compensatory mechanisms for heat dissipation fail, and CNS function is impaired. Heatstroke should be considered in all patients with hyperthermia (elevated body temperature) and altered mental status. Other possible diagnoses include malignant hyperthermia, neuroleptic malignant syndrome, serotonin syndrome, and thyroid storm, all of which can be life threatening.
+
+References
+
+1. QuickStats: Percentage Distribution of Heat-Related Deaths,* by Age Group - National Vital Statistics System, United States, 2018-2020. MMWR Morb Mortal Wkly Rep. 2022;71(24):808. Published 2022 Jun 17. doi:10.15585/mmwr.mm7124a6
+
+2. Khatana SAM, Szeto JJ, Eberly LA, et al. Projections of Extreme Temperature-Related Deaths in the US. JAMA Netw Open. 2024;7(9):e2434942. Published 2024 Sep 3. doi:10.1001/jamanetworkopen.2024.34942
+
+Pathophysiology of Heat Illness
+
+Heat gain comes from:
+
+The environment
+
+Metabolism
+
+Muscle activity
+
+Heat loss occurs through the skin via the following:
+
+Radiation: Transfer of body heat directly into a cooler environment by infrared radiation, a process that does not require air motion or direct contact
+
+Evaporation: Cooling by water vaporization (eg, sweat)
+
+Convection: Transfer of heat to cooler air (or liquid) that passes over exposed skin
+
+Conduction: Transfer of heat to a cooler surface that is in direct contact
+
+The contribution of each of these mechanisms varies with environmental temperature and humidity. When environmental temperature is lower than body temperature, radiation provides 50 to 65% of cooling. Evaporation, including through respiration, normally provides 15 to 25% of cooling, and conductive and convective heat loss another 15% (1).
+
+As environmental temperature increases, evaporative heat loss provides a higher proportion of cooling; when environmental temperature is > 35° C, evaporation accounts for virtually all dissipation of heat. However, the effectiveness of sweating is limited by the body's surface area and the ambient humidity. When humidity is > 75%, evaporative heat loss markedly decreases (2). Thus, if both environmental temperature and humidity are high, the risk of heat illness significantly increases (3).
+
+The body can compensate for large variations in heat load, but prolonged or excessive exposure to heat that exceeds capacity for heat dissipation increases core temperature. Modest, transient core temperature elevations are tolerable, but severe elevations (typically > 41° C) can lead to protein denaturation and the release of inflammatory cytokines. As a result, cellular dysfunction may occur and an inflammatory cascade may be activated, leading to multiorgan dysfunction similar to that which follows prolonged shock.
+
+Compensatory mechanisms include an acute-phase response that mitigates the inflammatory response (eg, by stimulating production of proteins that decrease production of free radicals and inhibit release of proteolytic enzymes). Also, increased core temperature triggers expression of heat-shock proteins. These proteins transiently enhance heat tolerance by poorly understood mechanisms (eg, possibly by preventing protein denaturation) and by regulation of cardiovascular responses. With prolonged or extreme temperature elevation, compensatory mechanisms are overwhelmed, allowing inflammation and multiple organ dysfunction syndrome to occur.
+
+Heat loss is modulated by changes in cutaneous blood flow and sweat production. Cutaneous blood flow is 200 to 250 mL/minute at normal temperatures but increases to 7 to 8 L/minute with heat stress (and facilitates heat loss by convective, conductive, radiant and evaporative mechanisms), requiring a marked increase in cardiac output. Also, heat stress increases sweat production from negligible to > 2 L/hour, which can rapidly lead to severe dehydration and electrolyte loss. However, prolonged exposure triggers physiologic changes to accommodate heat load (acclimatization); eg, sweat sodium levels decrease by up to 60% with heat acclimatization (4, 5).
+
+Pathophysiology references
+
+1. Cappaert TA, Stone JA, Castellani JW, et al. National Athletic Trainers' Association position statement: environmental cold injuries. J Athl Train. 2008;43(6):640-658. doi:10.4085/1062-6050-43.6.640
+
+2. Beigtan M, Gonçalves M, Weon BM. Heat Transfer by Sweat Droplet Evaporation [published correction appears in Environ Sci Technol. 2024 May 7;58(18):8114. doi: 10.1021/acs.est.4c03785.]. Environ Sci Technol. 2024;58(15):6532-6539. doi:10.1021/acs.est.4c00850
+
+3. Casa DJ, DeMartini JK, Bergeron MF, et al. National Athletic Trainers' Association Position Statement: Exertional Heat Illnesses [published correction appears in J Athl Train. 2017 Apr;52(4):401. doi: 10.4085/1062-6050-52.4.07.]. J Athl Train. 2015;50(9):986-1000. doi:10.4085/1062-6050-50.9.07
+
+4. Buono MJ, Kolding M, Leslie E, et al. Heat acclimation causes a linear decrease in sweat sodium ion concentration. J Therm Biol. 2018;71:237-240. doi:10.1016/j.jtherbio.2017.12.001
+
+5. Klous L, De Ruiter C, Alkemade P, et al. Sweat rate and sweat composition during heat acclimation. J Therm Biol. 2020;93:102697. doi:10.1016/j.jtherbio.2020.102697
+
+Etiology of Heat Illness
+
+Heat disorders are caused by some combination of increased heat input and decreased output (see table Common Factors Contributing to Heat Disorders).
+
+Excess heat gain (or production) typically results from strenuous exertion, high environmental temperatures, or both. Medical disorders and use of stimulant medications can increase heat production.
+
+Impaired cooling can result from obesity, high humidity, high environmental temperatures, heavy clothing, and anything that impairs sweating or evaporation of sweat.
+
+Clinical effects of heat illnesses are exacerbated by the following:
+
+Inability to tolerate increased cardiovascular demands (eg, due to aging, heart failure, chronic kidney disease, respiratory disorders, liver failure, pregnancy)
+
+Dehydration
+
+Electrolyte disturbance
+
+Use of certain substances and medications (see table Common Factors Contributing to Heat Disorders)
+
+Older adults and the very young are at increased risk. Older adults are at high risk because they frequently use medications that can increase risk, experience higher incidences of dehydration and heart failure, and have age-related loss of heat-shock proteins. Children are at high risk due to their greater surface-area-to-body-mass ratio (resulting in greater heat gain from the environment on a hot day), and slower rates of sweat production. Children are slower to acclimatize and have less of a thirst response. Both older adults and young children may be relatively immobile and thus have difficulty leaving a hot environment.
+
+Social factors also significantly contribute to heat-related illnesses. For instance, people experiencing homelessness or living in some apartment complexes lack access to air conditioning. Urban heat islands, with heat-absorbing surfaces (such as dark buildings and asphalt) and minimal vegetation, can drastically raise temperatures. These heat islands are often located in low-income areas and in communities of color (1).
+
+Table
+
+Common Factors Contributing to Heat Disorders
+
+Table
+
+Common Factors Contributing to Heat Disorders
+
+Common Factors Contributing to Heat Disorders
+
+Condition
+
+Examples
+
+Dehydration
+
+Medications and substances
+
+Alcohol, diuretics, lithium, tricyclic antidepressants, laxatives
+
+Inadequate fluid intake
+
+—
+
+Excess heat gain or production
+
+Certain disorders
+
+Hyperthyroidism
+
+Infections
+
+Malignant hyperthermia
+
+Neuroleptic malignant syndrome
+
+Seizures
+
+Serotonin syndrome
+
+High environmental temperatures
+
+Increasing frequency of heat waves
+
+Stimulant medications and substances
+
+Amphetamines
+
+Cocaine
+
+Methylenedioxymethamphetamine (MDMA, or Ecstasy)
+
+Monoamine oxidase inhibitors
+
+Phencyclidine (PCP)
+
+Strenuous exertion
+
+Exercise
+
+Physical labor
+
+Withdrawal from certain medications and substances
+
+Alcohol
+
+Opioids
+
+Impaired cooling
+
+Heavy clothing
+
+Protective gear for workers and athletes (eg, football pads)
+
+High environmental temperatures
+
+—
+
+High humidity
+
+—
+
+Obesity and/or poor cardiovascular fitness
+
+—
+
+Extremes of age
+
+—
+
+Medications impairing thermoregulatory mechanisms
+
+Antipsychotics, selective serotonin uptake inhibitors, calcium channel blockers
+
+Impaired sweating*
+
+Anticholinergic medications
+
+Antihistamines
+
+Antiparkinsonian medications
+
+Atropine
+
+Phenothiazines
+
+Scopolamine
+
+Cystic fibrosis
+
+—
+
+Skin disorders
+
+Burn scars, extensive
+
+Eczema, extensive
+
+Heat rash
+
+Psoriasis, extensive
+
+Systemic sclerosis
+
+* Impaired sweating is a cause of impaired cooling.
+
+Sorensen C, Hess J. Treatment and Prevention of Heat-Related Illness. N Engl J Med. 2022;387(15):1404-1413. doi:10.1056/NEJMcp2210623
+
+* Impaired sweating is a cause of impaired cooling.
+
+Sorensen C, Hess J. Treatment and Prevention of Heat-Related Illness. N Engl J Med. 2022;387(15):1404-1413. doi:10.1056/NEJMcp2210623
+
+Etiology reference
+
+1. Hsu A, Sheriff G, Chakraborty T, et al. Disproportionate exposure to urban heat island intensity across major US cities [published correction appears in Nat Commun. 2021 Jun 28;12(1):4104. doi: 10.1038/s41467-021-23972-6.]. Nat Commun. 2021;12(1):2721. Published 2021 May 25. doi:10.1038/s41467-021-22799-5
+
+Prevention of Heat Illness
+
+Physicians should recommend the following measures to help prevent heat illness (1, 2, 3):
+
+Maintain adequate hydration before beginning activity. During activity, fluid intake should be guided by thirst to limit body weight loss to < 2% of baseline weight (1).
+
+If possible, wear light, loose-fitting clothing.
+
+Modify the environment (eg, rest breaks under shady areas) and remove clothing to optimize heat exchange whenever possible. Evaporation can be facilitated by avoiding insulated, constrictive, or occlusive clothing or by using fans.
+
+During excessively hot weather, older adults and children especially should not remain in unventilated residences without air-conditioning. They should also not be left in automobiles in the hot sun.
+
+Weight loss after exercise or strenuous work can be used to monitor dehydration; people who lose 2 to 3% of their body weight should be reminded to drink extra fluids (see also discussion of sodium intake under Hydration and Electrolyte Replacement) and should weigh within 1 kg of starting weight before the next day’s exposure. If people lose > 4%, activity should be limited for 1 day.
+
+Hydration and electrolyte replacement
+
+Maintaining adequate levels of fluid and sodium helps prevent heat illnesses. Thirst is a poor indicator of dehydration and the need for fluid replacement during exertion because thirst is not stimulated until plasma osmolality rises 1 to 2% above normal. Thus, fluids should be drunk every few hours regardless of thirst. Because maximum net water absorption in the gut is approximately 20 mL/minute (1200 mL/hour—lower than the maximum sweating rate of 2000 mL/hour), prolonged exertion that causes very high sweat loss requires rest periods that reduce sweating rate and allow time for rehydration.
+
+The best hydrating fluid to use depends on the expected loss of water and electrolytes, which depends on the duration and degree of exertion along with environmental factors and whether the person is acclimatized. For maximum fluid absorption, a carbohydrate-containing beverage can be absorbed by the body up to 30% faster than plain water. A beverage containing 6 or 7% carbohydrate concentration is absorbed most rapidly. Higher carbohydrate concentrations should be avoided because they can cause stomach cramps and delay absorption. However, for most situations and activities, plain water is adequate for hydration as long as overhydration is avoided. Significant hyponatremia has occurred in endurance athletes who drink free water very frequently before, during, and after exercise without replacing sodium losses. Special hydrating solutions (eg, sports drinks) are not required, but their flavoring enhances consumption, and their modest salt content is helpful if fluid requirements are high.
+
+Laborers, soldiers, endurance athletes, or others who sweat heavily can lose ≥ 20 g of sodium/day, making heat cramps more likely; such people need to replace the sodium loss with drink and food. For athletes in endurance events lasting > 2 hours, sports drinks containing both sodium and potassium are recommended. For more extreme circumstances such as prolonged exertion by unacclimatized people, an oral salt solution can be used. The ideal concentration is 0.1% sodium chloride, which can be prepared by dissolving a 1-g salt tablet or one quarter of a teaspoon of table salt in a liter (or quart) of water. People should drink this solution under moderate to extreme circumstances. Undissolved salt tablets should not be ingested. They irritate the stomach, can cause vomiting, and do not treat the underlying dehydration (4, 5, 6).
+
+Pearls & Pitfalls
+
+Oral salt solutions may be used for prolonged exertion in labors, soldiers, and endurance athletes; for athletes in events > 2 hours, sports drinks containing sodium and potassium are recommended. Sports drinks may be helpful but are not usually necessary for shorter duration of exertion.
+
+Acclimatization
+
+Successively and incrementally increasing the level and amount of work done in the heat eventually results in acclimatization, which enables people to work safely at temperatures that were previously intolerable or life threatening. To reach maximum benefit, acclimatization usually requires spending 7 to 14 days in the hot environment with progressive increases in intensity and duration (up to 1 to 2 hours) of physical activity (1, 4). Acclimatization markedly increases the amount of sweat (and hence cooling) produced at a given level of exertion and markedly decreases the electrolyte content of sweat and the risk of a heat illness. People who are not acclimatized are more likely to suffer from heat cramps or other heat illness during prolonged exertion and may need to increase their sodium intake.
+
+Pearls & Pitfalls
+
+Unacclimatized people are more likely to suffer from heat cramps and heat illnesses during prolonged exertion and may need to increase their sodium intake.
+
+Moderation of activity level
+
+When possible, people should adjust their activity level based on the environment and any heat loss-impairing gear (eg, firefighting or chemical protective outfits) that must be worn. Work periods should shorten and rest periods increase when
+
+Temperature increases
+
+Humidity increases
+
+Workload becomes heavier
+
+Sun becomes stronger
+
+Air movement is absent
+
+Protective clothing or gear is worn
+
+The best indicator of environmental heat stress is the wet bulb globe temperature (WBGT), which is widely used by the military, industry, and in sports. In addition to temperature, the WBGT reflects the effects of humidity, wind, and solar radiation. The WBGT can be used as a guide for recommended activity (see table Wet Bulb Globe Temperature and Recommended Activity Levels). Factors such as clothing or exercise intensities must be considered on an individual basis (2).
+
+Although the WBGT is complex and may not be available, it can be estimated based on only temperature and relative humidity in sunny conditions and when the wind is light (see figure Wet bulb globe temperature based on temperature and relative humidity).
+
+Wet bulb globe temperature based on temperature and relative humidity
+
+Values are derived from an approximate formula that depends on temperature and humidity that is valid for full sunshine and a light wind. Heat stress may be overestimated in other conditions.
+
+Table
+
+Wet Bulb Globe Temperature and Recommended Activity Levels
+
+Table
+
+Wet Bulb Globe Temperature and Recommended Activity Levels
+
+Wet Bulb Globe Temperature and Recommended Activity Levels
+
+Temperature °C (°F)
+
+Recommendations
+
+≤ 15.6 (≤ 60)
+
+No precautions
+
+> 15.6–21.1 (> 60–70)
+
+No precautions if adequate hydration maintained
+
+> 21.1–23.9 (> 70–75)
+
+Unacclimatized: Avoid hiking, sports, and sun exposure
+
+Acclimatized: Heavy to moderate activity permissible with caution
+
+> 23.9–26.7 (> 75–80)
+
+Unacclimatized: Stop or restrict exercise
+
+Acclimatized: Exercise with caution; rest periods and water breaks every 20 to 30 minutes
+
+> 26.7–31.1 (> 80–88)
+
+Unacclimatized: Avoid activity
+
+Acclimatized: Limited brief activity permissible, only if fit
+
+≥ 31.1 (> 88)
+
+Avoid activity and sun exposure
+
+References
+
+1. Eifling KP, Gaudio FG, Dumke C, et al. Wilderness Medical Society Clinical Practice Guidelines for the Prevention and Treatment of Heat Illness: 2024 Update. Wilderness Environ Med. 2024;35(1_suppl):112S-127S. doi:10.1177/10806032241227924
+
+2. Leon LR, Kenefick RW. Pathophysiology of Heat-Related Illnesses. (2016). In Auerbach PS (Ed.), Auerbach's Wilderness Medicine, 7th ed. Elsevier.
+
+3. Bauman J, Spano S, Storkan M. Heat-Related Illnesses. Emerg Med Clin North Am. 2024;42(3):485-492. doi:10.1016/j.emc.2024.02.010
+
+4. Casa DJ, DeMartini JK, Bergeron MF, et al. National Athletic Trainers' Association Position Statement: Exertional Heat Illnesses [published correction appears in J Athl Train. 2017 Apr;52(4):401. doi: 10.4085/1062-6050-52.4.07.]. J Athl Train. 2015;50(9):986-1000. doi:10.4085/1062-6050-50.9.07
+
+5. Backer H, Shlim D. CDC Yellow Book: Extremes of Temperature. Accessed March 12, 2025.
+
+6. American Dietetic Association; Dietitians of Canada; American College of Sports Medicine, Rodriguez NR, Di Marco NM, Langley S. American College of Sports Medicine position stand. Nutrition and athletic performance. Med Sci Sports Exerc. 2009;41(3):709-731. doi:10.1249/MSS.0b013e31890eb86
+
+Key Points
+
+When environmental temperature is > 35° C, cooling relies largely on evaporation, but when humidity is > 75%, evaporation markedly decreases; thus, when temperature and humidity are both high, risk of heat illness is high.
+
+Among the many risk factors for heat illness are certain medications, substances, and disorders (including those that disturb electrolyte balance or decrease cardiovascular reserve) and extremes of age.
+
+Prevention includes common sense measures and maintaining and replacing fluids and sodium.
+
+Acclimatization, requiring daily exercise for 7 to 14 days, decreases risk of heat illness.
+
+Activity levels should be restricted as temperature, humidity, sunlight, and amount of clothing or gear increase and when air movement decreases.

@@ -15,7 +15,7 @@ let package = Package(
         .target(
             name: "CompressionCompat",
             publicHeadersPath: "include",
-            cSettings: [],
+            cSettings: [.headerSearchPath("include")],
             linkerSettings: [
                 // Apple's libcompression (COMPRESSION_BROTLI). System library;
                 // present on every platform this package supports.

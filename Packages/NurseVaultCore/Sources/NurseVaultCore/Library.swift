@@ -77,7 +77,9 @@ public final class Library {
     private func loadStore(container: NSPersistentCloudKitContainer, attempt: Int) {
         container.loadPersistentStores { [weak self] _, error in
             if let error, attempt == 0, Self.deleteStoreFileIfNeeded(container) {
+                #if DEBUG
                 NSLog("NurseVault: old store is incompatible with the current model; resetting (\(error.localizedDescription))")
+                #endif
                 Task { @MainActor in
                     self?.storeWasReset = true
                     self?.loadStore(container: container, attempt: 1)
@@ -85,7 +87,9 @@ public final class Library {
                 return
             }
             if let error {
+                #if DEBUG
                 NSLog("NurseVault: could not load the local store: \(error.localizedDescription)")
+                #endif
             }
             Task { @MainActor in
                 self?.markStoreLoaded()
@@ -260,7 +264,9 @@ public final class Library {
             if let summary = WatchVaultSummary.load() {
                 self.watchSummary = summary
             } else {
+                #if DEBUG
                 NSLog("NurseVault (watch): No summary file found. Main app may not have written it yet.")
+                #endif
             }
         }
         #endif
@@ -283,26 +289,26 @@ public final class Library {
         )}
     }
 
+    private func watchDoc(from doc: VaultDoc) -> WatchDoc {
+        WatchDoc(
+            id: doc.objectID.uriRepresentation().absoluteString,
+            title: doc.title,
+            fileName: doc.fileName,
+            mimeType: doc.mimeType,
+            noteText: doc.noteText,
+            addedDateISO: doc.addedDate.map { iso8601Formatter.string(from: $0) },
+            sectionName: doc.section?.name,
+            sectionIcon: doc.section?.icon
+        )
+    }
+
     /// Documents available on the watch: Core Data if populated, otherwise from summary.
     public var watchDocs: [WatchDoc] {
         if !docs.isEmpty {
-            // Core Data has data (running on iPhone/Mac) — wrap it.
-            return docs.map { doc -> WatchDoc in
-                WatchDoc(
-                    id: doc.objectID.uriRepresentation().absoluteString,
-                    title: doc.title,
-                    fileName: doc.fileName,
-                    mimeType: doc.mimeType,
-                    noteText: doc.noteText,
-                    addedDateISO: doc.addedDate.map { iso8601Formatter.string(from: $0) },
-                    sectionName: doc.section?.name,
-                    sectionIcon: doc.section?.icon
-                )
-            }
+            return docs.map(watchDoc(from:))
         }
-        // Core Data is empty (watchOS) — use summary.
         guard let summary = watchSummary else { return [] }
-        return summary.documents.enumerated().map { idx, doc -> WatchDoc in
+        return summary.documents.enumerated().map { idx, doc in
             WatchDoc(
                 id: doc.title ?? doc.fileName ?? "doc-\(idx)",
                 title: doc.title,
@@ -330,29 +336,15 @@ public final class Library {
     /// Documents in a specific watch section.
     public func watchDocs(in watchSection: WatchSection) -> [WatchDoc] {
         guard !sections.isEmpty else {
-            // WatchOS: filter from summary.
             return watchDocs.filter { $0.sectionName == watchSection.name }
         }
-        // Core Data: wrap from existing method.
-        let targetSection = sections.first { section in
-            section.name == watchSection.name
-        }
-        guard let section = targetSection else { return [] }
-        return docs(in: section).map { doc -> WatchDoc in
-            WatchDoc(
-                id: doc.objectID.uriRepresentation().absoluteString,
-                title: doc.title,
-                fileName: doc.fileName,
-                mimeType: doc.mimeType,
-                noteText: doc.noteText,
-                addedDateISO: doc.addedDate.map { iso8601Formatter.string(from: $0) },
-                sectionName: doc.section?.name,
-                sectionIcon: doc.section?.icon
-            )
-        }
+        let target = sections.first { $0.name == watchSection.name }
+        guard let section = target else { return [] }
+        return docs(in: section).map(watchDoc(from:))
     }
 
-    /// Refreshes the small summary the watch widget reads for its complication.
+    /// Refreshes the small summary the watch widget reads for its complication,
+    /// plus the detailed watch summary with section/document metadata.
     private func writeSummary() {
         VaultSummary.write(
             .init(
@@ -361,7 +353,7 @@ public final class Library {
                 updatedAt: Date()
             )
         )
-        writeWatchSummary()
+        writeWatchSummaryInternal()
         #if os(watchOS)
         // The watch app is the only process on the watch, so it can ask
         // WidgetKit to re-run the widget's timeline right away instead of
@@ -374,14 +366,8 @@ public final class Library {
         #endif
     }
 
-    /// Writes the watch-specific summary with actual section and document metadata.
-    private func writeWatchSummary() {
-        writeWatchSummaryInternal()
-    }
-
-    /// Public variant that writes the watch summary even if called from outside
-    /// the normal save/reload cycle. Used by the main app on launch to ensure
-    /// the watch has data immediately.
+    /// Writes the watch summary immediately, even outside the normal save/reload
+    /// cycle. Used by the main app on launch to ensure the watch has data right away.
     public func writeWatchSummaryForced() {
         guard isStoreLoaded else { return }
         writeWatchSummaryInternal()
@@ -419,15 +405,33 @@ public final class Library {
         )
     }
 
-    public func save() {
-        guard isStoreLoaded, context.hasChanges else { return }
+    public func save() -> Bool {
+        guard isStoreLoaded, context.hasChanges else { return true }
         do {
             try context.save()
             lastSaveError = nil
+            return true
         } catch {
+            #if DEBUG
             NSLog("NurseVault: save failed: \(error.localizedDescription)")
+            #endif
             lastSaveError = error
             context.rollback()
+            // Attempt to retry once after a brief delay
+            weak let weakSelf = self
+            Task { @MainActor in
+                try? await Task.sleep(for: .milliseconds(500))
+                guard let self = weakSelf, self.context.hasChanges else { return }
+                do {
+                    try self.context.save()
+                    self.lastSaveError = nil
+                } catch {
+                    #if DEBUG
+                    NSLog("NurseVault: retry save also failed: \(error.localizedDescription)")
+                    #endif
+                }
+            }
+            return false
         }
     }
 
@@ -449,7 +453,7 @@ public final class Library {
             section.icon = preset.icon
             section.sortOrder = NSNumber(value: index)
         }
-        save()
+        _ = save()
         reload()
     }
 
@@ -490,8 +494,10 @@ public final class Library {
         let docs = (try? context.fetch(docFetch)) ?? []
         for doc in docs { context.delete(doc) }
         context.delete(legacySection)
-        save()
+        _ = save()
+        #if DEBUG
         NSLog("NurseVault: Merck vault migration removed \(docs.count) legacy doc(s); Merck is now bundled-only.")
+        #endif
         UserDefaults.standard.set(true, forKey: Self.legacyMerckRemovedKey)
     }
 
@@ -502,26 +508,26 @@ public final class Library {
         section.icon = icon
         let highest = sections.map { ($0.sortOrder?.int64Value) ?? 0 }.max() ?? -1
         section.sortOrder = NSNumber(value: highest + 1)
-        save()
+        _ = save()
         reload()
         return section
     }
 
     public func renameSection(_ section: VaultSection, to name: String) {
         section.name = name
-        save()
+        _ = save()
         reload()
     }
 
     public func renameFolder(_ folder: VaultFolder, to name: String) {
         folder.name = name
-        save()
+        _ = save()
         reload()
     }
 
     public func deleteSection(_ section: VaultSection) {
         context.delete(section)
-        save()
+        _ = save()
         reload()
     }
 
@@ -531,14 +537,14 @@ public final class Library {
         folder.name = name
         folder.section = parent?.section ?? section
         folder.parent = parent
-        save()
+        _ = save()
         reload()
         return folder
     }
 
     public func deleteFolder(_ folder: VaultFolder) {
         context.delete(folder)
-        save()
+        _ = save()
         reload()
     }
 
@@ -556,7 +562,7 @@ public final class Library {
         }
         folder.parent = parent
         folder.section = parent?.section
-        save()
+        _ = save()
         reload()
     }
 
@@ -567,7 +573,7 @@ public final class Library {
         for (index, section) in ordered.enumerated() {
             section.sortOrder = NSNumber(value: index)
         }
-        save()
+        _ = save()
         reload()
     }
 
@@ -589,7 +595,7 @@ public final class Library {
         doc.addedDate = Date()
         doc.section = folder?.section ?? section
         doc.folder = folder
-        save()
+        _ = save()
         reload()
         return doc
     }
@@ -662,56 +668,49 @@ public final class Library {
         root.section = folder?.section ?? section
         root.parent = folder
 
-        let result = importDirectory(url, into: root, section: section, existingNames: destinationNames, soFarBytes: 0, skippedByTotalLimit: 0)
-        save()
+        var progress = ImportProgress()
+        importDirectory(url, into: root, section: section, existingNames: destinationNames, progress: &progress)
+        _ = save()
         reload()
-        return .init(folderName: rootName, importedCount: result.imported, skippedNames: result.skipped, skippedByTotalLimit: result.skippedByTotalLimit)
+        return .init(
+            folderName: rootName,
+            importedCount: progress.imported,
+            skippedNames: progress.skipped,
+            skippedByTotalLimit: progress.skippedByLimit
+        )
     }
 
     /// The maximum total data size for a single folder import. Files beyond
     /// this limit are skipped (even if they are under 48 MB individually).
     private static let maxImportBytes = 1 * 1024 * 1024 * 1024  // 1 GB
 
-    /// Walks `url` into `vaultFolder`, creating nested folders and
-    /// documents without saving until the caller finishes the whole tree.
+    private struct ImportProgress {
+        var imported: Int = 0
+        var skipped: [String] = []
+        var bytesUsed: Int64 = 0
+        var skippedByLimit: Int = 0
+    }
+
+    /// Walks `url` into `vaultFolder`, creating nested folders and documents.
     /// Files that would push the total beyond `maxImportBytes` are skipped.
     private func importDirectory(
         _ url: URL,
         into vaultFolder: VaultFolder,
         section: VaultSection?,
         existingNames: Set<String>,
-        soFarBytes: Int64,
-        skippedByTotalLimit: Int
-    ) -> (imported: Int, skipped: [String], soFarBytes: Int64, skippedByTotalLimit: Int) {
+        progress: inout ImportProgress
+    ) {
         var names = existingNames
-        var imported = 0
-        var skipped: [String] = []
-        var currentSoFarBytes = soFarBytes
-        var currentSkippedByTotalLimit = skippedByTotalLimit
         for entry in FileSupport.directoryEntries(at: url) {
             if FileSupport.isDirectory(at: entry) {
-                let base = entry.lastPathComponent
-                let unique = Self.uniqueName(base, among: &names)
+                let unique = Self.uniqueName(entry.lastPathComponent, among: &names)
                 let subfolder = VaultFolder(context: context)
                 subfolder.name = unique
                 subfolder.section = vaultFolder.section ?? section
                 subfolder.parent = vaultFolder
                 names.insert(unique.lowercased())
-                let child = importDirectory(entry, into: subfolder, section: section, existingNames: [], soFarBytes: currentSoFarBytes, skippedByTotalLimit: currentSkippedByTotalLimit)
-                imported += child.imported
-                skipped += child.skipped
-                currentSoFarBytes = child.soFarBytes
-                currentSkippedByTotalLimit += child.skippedByTotalLimit
-            } else {
-                // Skip files once we've exceeded the total import limit.
-                // This prevents the app from trying to store hundreds of
-                // 48 MB files (or one very large file) when the user
-                // accidentally picks a large folder.
-                if currentSoFarBytes >= Self.maxImportBytes {
-                    currentSkippedByTotalLimit += 1
-                    skipped.append(entry.lastPathComponent)
-                    continue
-                }
+                importDirectory(entry, into: subfolder, section: section, existingNames: [], progress: &progress)
+            } else if progress.bytesUsed < Self.maxImportBytes {
                 do {
                     let file = try FileSupport.importFile(at: entry)
                     let doc = VaultDoc(context: context)
@@ -722,14 +721,16 @@ public final class Library {
                     doc.addedDate = Date()
                     doc.section = vaultFolder.section ?? section
                     doc.folder = vaultFolder
-                    imported += 1
-                    currentSoFarBytes += Int64(file.data.count)
+                    progress.imported += 1
+                    progress.bytesUsed += Int64(file.data.count)
                 } catch {
-                    skipped.append(entry.lastPathComponent)
+                    progress.skipped.append(entry.lastPathComponent)
                 }
+            } else {
+                progress.skippedByLimit += 1
+                progress.skipped.append(entry.lastPathComponent)
             }
         }
-        return (imported, skipped, currentSoFarBytes, currentSkippedByTotalLimit)
     }
 
     /// A name that doesn’t collide with the given sibling names
@@ -763,14 +764,14 @@ public final class Library {
         doc.addedDate = Date()
         doc.section = folder?.section ?? section
         doc.folder = folder
-        save()
+        _ = save()
         reload()
         return doc
     }
 
     public func deleteDocument(_ doc: VaultDoc) {
         context.delete(doc)
-        save()
+        _ = save()
         reload()
     }
 
@@ -790,7 +791,7 @@ public final class Library {
         doc.noteText = noteText
         doc.section = folder?.section ?? section
         doc.folder = folder
-        save()
+        _ = save()
         reload()
     }
 

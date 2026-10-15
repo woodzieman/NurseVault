@@ -45,7 +45,7 @@ struct MerckTopicSearchHit: Identifiable, Hashable, Sendable {
 }
 
 /// How many topic files the content scan reads in parallel.
-private let merckScanWorkers = 4
+private let merckScanWorkers = AppLimits.scanWorkers
 
 /// Loads and searches the bundled Merck Manual medical topics.
 @MainActor
@@ -65,7 +65,7 @@ final class MerckTopicLibrary {
     @ObservationIgnored private let directoryURL: URL?
     @ObservationIgnored private var contentCache: [String: String] = [:]
     @ObservationIgnored private var cacheOrder: [String] = []
-    private static let contentCacheLimit = 100
+    private static let contentCacheLimit = AppLimits.contentCacheLimit
 
     init(bundle: Bundle = .main) {
         directoryURL = bundle.resourceURL?.appendingPathComponent("MerckTopics")

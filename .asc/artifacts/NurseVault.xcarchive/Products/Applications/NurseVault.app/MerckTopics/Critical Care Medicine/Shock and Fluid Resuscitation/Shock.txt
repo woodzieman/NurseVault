@@ -1,0 +1,522 @@
+=== Shock (Merck Manual Professional) ===
+Section: Critical Care Medicine > Shock and Fluid Resuscitation
+Source: https://www.merckmanuals.com/professional/critical-care-medicine/shock-and-fluid-resuscitation/shock
+Retrieved: 2026-09-25
+
+Pathophysiology of Shock
+
+Shock is defined by symptoms and signs of hypoperfusion. Clinical manifestations include examination findings (eg, cool clammy skin, cyanosis, altered mental status), laboratory results (eg, elevated lactate [> 2.0 mmol/L]), or observation upon monitoring (eg, oliguria [< 0.5 mL/kg/hour]).
+
+Once perfusion declines and oxygen delivery to cells is inadequate for aerobic metabolism, cells shift to anaerobic metabolism with increased production of carbon dioxide and elevated blood lactate levels. Cellular function declines, and if shock persists, irreversible cell damage and death occur.
+
+Hypotension (systolic blood pressure < 90 mm Hg or mean arterial pressure < 65 mm Hg) is common in patients with shock but not required. Some patients are normotensive, especially early in the clinical course or in distributive states (1). Similarly, not all patients with low blood pressure have shock. The underlying physiologic abnormality in shock is inadequate oxygen utilization at the cellular level. The degree and consequences of hypotension vary with the adequacy of physiologic compensation and the patient’s underlying disease. The clinical impact of hypotension varies with age, comorbidities, and compensatory capacity, so modest hypotension may be well tolerated in some individuals but dangerous in others.
+
+During shock, both the inflammatory and clotting cascades may be triggered in areas of hypoperfusion (2). Hypoxic vascular endothelial cells activate white blood cells, which bind to the endothelium and release directly damaging substances (eg, reactive oxygen species, proteolytic enzymes) and inflammatory mediators (eg, cytokines, leukotrienes, tumor necrosis factor) (3). Some of these mediators bind to cell surface receptors and activate nuclear factor kappa B (NFκB), which leads to production of additional cytokines and nitric oxide (NO), a potent vasodilator. Disseminated intravascular coagulation can sometimes result from activation of these cascades.
+
+Compensation for shock
+
+Initially, when oxygen delivery (DO2) is decreased, tissues compensate by extracting a greater percentage of delivered oxygen. Low arterial pressure triggers an adrenergic response with sympathetic-mediated vasoconstriction and often increased heart rate. Initially, vasoconstriction is selective, shunting blood to the heart and brain and away from the splanchnic circulation. Circulating beta-adrenergic amines (epinephrine, norepinephrine) also increase cardiac contractility and trigger release of:
+
+Corticosteroids (eg, cortisol, aldosterone) from the adrenal gland
+
+Renin from the kidneys
+
+Glucose from the liver
+
+Corticosteroids enhance the effects of catecholamines (4). Renin stimulates volume retention and vasoconstriction. Increased glucose increases pyruvate uptake in the mitochondria, which increases lactate production when there is insufficient oxygen.
+
+Reperfusion injury
+
+With resolution of shock, reperfusion of ischemic cells can cause further injury (5). As perfusion and oxygen utilization are restored, neutrophil activity may increase, increasing production of damaging superoxide and hydroxyl radicals. After blood flow is restored, locally concentrated inflammatory mediators may be circulated to other organs.
+
+Multiple organ dysfunction syndrome (MODS)
+
+The combination of direct and reperfusion injury may cause multiple organ dysfunction syndrome (MODS)—the progressive dysfunction of ≥ 2 organs due to life-threatening illness or injury (6). MODS can follow any type of shock but is most common when sepsis is the cause. Organ dysfunction occurs during the progression from sepsis to septic shock with a mortality rate of approximately 35% (7). In one study of severely injured trauma patients, MODS occurred in approximately 55% of admitted patients with a mortality rate of 22% (8).
+
+Pearls & Pitfalls
+
+Multiple organ dysfunction syndrome is the progressive dysfunction of ≥ 2 organs due to life-threatening illness or injury.
+
+Any organ system can be affected. In septic shock, the most frequent target organs are the lungs (9).Progressive hypoxia may be increasingly resistant to supplemental oxygen therapy. This condition is termed acute lung injury or, if severe, acute respiratory distress syndrome (ARDS).
+
+The kidneys are injured when renal perfusion is critically reduced, leading to acute tubular necrosis and kidney failure manifested by oliguria and a progressive rise in serum creatinine.
+
+In the heart, reduced coronary perfusion and increased inflammatory mediators (including tumor necrosis factor and interleukin-1) may depress contractility, worsen myocardial compliance, and down-regulate beta-receptors. Arrhythmias may occur. These factors decrease cardiac output, further worsening both myocardial and systemic perfusion and resulting in a progressive deterioration that often results in death.
+
+In the gastrointestinal tract, ileus and submucosal hemorrhage can develop. Liver hypoperfusion can cause focal or extensive hepatocellular necrosis, transaminase and bilirubin elevation, and decreased production of clotting factors.
+
+Coagulation can be impaired, including development of disseminated intravascular coagulation.
+
+Pathophysiology references
+
+1. Vincent JL, De Backer D. Circulatory shock. N Engl J Med. 2013;369(18):1726-1734. doi:10.1056/NEJMra1208943
+
+2. Cannon JW. Hemorrhagic Shock. N Engl J Med. 2018;378(4):370-379. doi:10.1056/NEJMra1705649
+
+3. Eltzschig HK, Carmeliet P. Hypoxia and inflammation. N Engl J Med. 2011;364(7):656-665. doi:10.1056/NEJMra0910283
+
+4. Annane D. The Role of ACTH and Corticosteroids for Sepsis and Septic Shock: An Update. Front Endocrinol (Lausanne). 2016;7:70. doi:10.3389/fendo.2016.00070
+
+5. Yellon DM, Hausenloy DJ. Myocardial reperfusion injury. N Engl J Med. 2007;357(11):1121-1135. doi: 10.1056/NEJMra071667. PMID: 17855673.
+
+6. Gourd NM, Nikitas N. Multiple Organ Dysfunction Syndrome. J Intensive Care Med. 2020;35(12):1564-1575. doi:10.1177/0885066619871452
+
+7. Bauer M, Gerlach H, Vogelmann T, Preissing F, Stiefel J, Adam D. Mortality in sepsis and septic shock in Europe, North America and Australia between 2009 and 2019- results from a systematic review and meta-analysis. Crit Care. 2020;24(1):239. doi:10.1186/s13054-020-02950-2
+
+8. Cole E, Gillespie S, Vulliamy P, Brohi K; Organ Dysfunction in Trauma (ORDIT) study collaborators. Multiple organ dysfunction after trauma. Br J Surg. 2020;107(4):402-412. doi:10.1002/bjs.11361
+
+9. Meyer NJ, Prescott HC. Sepsis and Septic Shock. N Engl J Med. 2024;391(22):2133-2146. doi:10.1056/NEJMra2403213
+
+Etiology and Classification of Shock
+
+Shock is classified based on mechanism into the following 4 types, which can occur alone or in combination (1):
+
+Hypovolemic
+
+Distributive
+
+Cardiogenic
+
+Obstructive
+
+Overview of Shock
+
+video
+
+Hypovolemic shock
+
+Hypovolemic shock is caused by a critical decrease in intravascular volume. Diminished venous return (preload) results in decreased ventricular filling and reduced stroke volume. Unless compensated for by increased heart rate, cardiac output decreases.
+
+Compensatory Mechanisms of Hypovolemic Shock
+
+Image
+
+Hypovolemia reduces intravascular volume, leading to decreased venous return (preload) and a fall in stroke volume via the Frank–Starling relationship. The resulting drop in arterial pressure triggers baroreceptor-mediated sympathetic activation, causing tachycardia and increased myocardial contractility, along with peripheral vasoconstriction. These compensatory responses help maintain cardiac output and preserve perfusion to vital organs despite reduced circulating volume.
+
+alkov/stock.adobe.com
+
+A common cause is bleeding (hemorrhagic shock), typically due to trauma, surgical interventions, peptic ulcer, esophageal varices, or ruptured aortic aneurysm (2). Bleeding may be overt (eg, hematemesis, melena) or occult (eg, ruptured ectopic pregnancy).
+
+Hypovolemic shock may also follow increased losses of body fluids other than blood (nonhemorrhagic, see table Hypovolemic Shock Caused by Body Fluid Loss).
+
+Table
+
+Hypovolemic Shock Caused by Body Fluid Loss (Nonhemorrhagic)
+
+Hypovolemic Shock Caused by Body Fluid Loss (Nonhemorrhagic)
+
+Site of Fluid Loss
+
+Mechanism of Loss
+
+Skin
+
+Thermal or chemical burn
+
+Sweating due to exercise, physical activity, or excessive heat exposure
+
+Gastrointestinal tract
+
+Vomiting or diarrhea
+
+Kidneys
+
+Adrenal insufficiency
+
+Diabetes mellitus, arginine vasopressin deficiency, or arginine vasopressin resistance
+
+Polyuric phase after acute tubular damage
+
+Potent diuretic use
+
+Salt-losing nephritis
+
+Intravascular fluid lost to the extravascular space
+
+Increased capillary permeability secondary to inflammation, severe systemic hypoxia or ischemia, or traumatic injury (eg, crush), sepsis, bowel ischemia, acute pancreatitis
+
+Hypovolemic shock may be due to inadequate fluid intake (with or without increased fluid loss). Inadequate fluid intake may be a result of inadequate access (eg, physical disability, lack of potable drinking water) or inadequate consumption for ongoing metabolic needs (eg, during exercise or physical activity). Neurologic disability (eg, hypothalamic lesions) may impair the thirst mechanism.
+
+In hospitalized patients, hypovolemia can be compounded if early signs of circulatory insufficiency are incorrectly ascribed to heart failure and fluids are withheld or diuretics are given.
+
+Distributive shock
+
+Distributive shock results from a relative inadequacy of intravascular volume caused by arterial or venous vasodilation; circulating blood volume is normal (3). In some cases, cardiac output (and DO2) is high, but increased blood flow through arteriovenous shunts bypasses capillary beds; this bypass plus uncoupled cellular oxygen transport cause cellular hypoperfusion (shown by decreased oxygen consumption). In other situations, blood pools in venous capacitance beds and cardiac output falls.
+
+Distributive shock may be caused by:
+
+Anaphylaxis (anaphylactic shock)
+
+Bacterial infection with endotoxin release (septic shock) or exotoxin release (toxic shock)
+
+Severe injury to the spinal cord, usually above T4 (neurogenic shock)
+
+Ingestion of certain medications (eg, nitrates, opioids, or adrenergic blockers) or poisons (toxin-induced shock)
+
+In septic shock, vasodilation of capacitance vessels leads to pooling of blood and hypotension because of “relative” hypovolemia (ie, too much volume to be filled by the existing amount of blood). Localized vasodilation may shunt blood past the capillary exchange beds, causing focal hypoperfusion despite normal cardiac output and blood pressure. Additionally, excess nitric oxide is converted to peroxynitrite, a free radical that damages mitochondria and decreases ATP (adenosine triphosphate) production (4). Blood flow to microvessels, including capillaries, is reduced even though large-vessel blood flow is preserved in septic shock. Mechanical microvascular obstruction may, at least in part, account for such limiting of substrate delivery. Leukocytes and platelets adhere to the endothelium as part of the clotting cascade, causing the conversion of fibrinogen to fibrin and stabilizing the platelet plug.
+
+Multiple mediators, along with endothelial cell dysfunction, markedly increase microvascular permeability, allowing fluid and sometimes plasma proteins to escape into the interstitial space (5, 6, 7). In the gastrointestinal tract, increased permeability possibly allows translocation of the enteric bacteria from the lumen, potentially leading to sepsis or metastatic infection.
+
+Neutrophil apoptosis may be inhibited, enhancing the release of inflammatory mediators (8). In other cells, apoptosis may be augmented, increasing cell death and thus worsening organ function.
+
+Anaphylactic shock and septic shock often have a component of hypovolemia as well.
+
+Cardiogenic shock
+
+Cardiogenic shock is a relative or absolute reduction in cardiac output due to a primary cardiac disorder (eg, myocardial infarction or arrhythmia) (9). In myocardial infarction, ischemic or infarcted myocardium is unable to contract normally, causing abnormal wall motion abnormalities and subsequent decreased stroke volume and cardiac output. Similarly valvular damage can compromise effective cardiac output because of regurgitant blood flow (eg, aortic or mitral regurgitation) (see table Mechanisms of Cardiogenic and Obstructive Shock).
+
+Obstructive shock
+
+Obstructive shock is caused by mechanical factors that interfere with filling or emptying of the heart or great vessels (eg, tension pneumothorax, cardiac tamponade). Tension pneumothorax raises intrathoracic pressure, which reduces venous return and cardiac filling, thereby decreasing preload and compromising cardiac output. In cardiac tamponade, elevated pericardial pressure also impairs cardiac filling during diastole and reduces cardiac output (see table Mechanisms of Cardiogenic and Obstructive Shock).
+
+Table
+
+Mechanisms of Cardiogenic and Obstructive Shock
+
+Mechanisms of Cardiogenic and Obstructive Shock
+
+Type
+
+Mechanism
+
+Cause
+
+Obstructive
+
+Mechanical interference with ventricular filling
+
+Tension pneumothorax, vena cava compression, cardiac tamponade, atrial tumor or clot
+
+Interference with ventricular emptying
+
+Pulmonary embolism
+
+Cardiogenic
+
+Impaired myocardial contractility
+
+Myocardial ischemia or myocardial infarction, myocarditis, medications
+
+Abnormalities of cardiac rhythm
+
+Tachycardia, bradycardia
+
+Cardiac structural disorder
+
+Acute mitral or aortic regurgitation, ruptured interventricular septum, prosthetic valve malfunction
+
+Etiology and classification references
+
+1. Vincent JL, De Backer D. Circulatory shock. N Engl J Med. 2013;369(18):1726-1734. doi:10.1056/NEJMra1208943
+
+2. Cannon JW. Hemorrhagic Shock. N Engl J Med. 2018;378(4):370-379. doi:10.1056/NEJMra1705649
+
+3. Landry DW, Oliver JA. The pathogenesis of vasodilatory shock. N Engl J Med. 2001;345(8):588-595. doi:10.1056/NEJMra002709
+
+4. Wasyluk W, Zwolak A. Metabolic Alterations in Sepsis. J Clin Med. 2021;10(11):2412. doi:10.3390/jcm10112412
+
+5. Salmon AH, Satchell SC. Endothelial glycocalyx dysfunction in disease: Albuminuria and increased microvascular permeability. J Pathol. 2012;226:562-574. doi: 10.1002/path.3964
+
+6. Chelazzi C, Villa G, Mancinelli P, et al. Glycocalyx and sepsis-induced alterations in vascular permeability. Crit Care. 2015;19(1):26. doi:10.1186/s13054-015-0741-z
+
+7. Martin L, Koczera P, Zechendorf E, et al:.The endothelial glycocalyx: New diagnostic and therapeutic approaches in sepsis. Biomed Res Int. 2016:3758278. doi:10.1155/2016/3758278
+
+8. Meyer NJ, Prescott HC. Sepsis and Septic Shock. N Engl J Med. 2024;391(22):2133-2146. doi:10.1056/NEJMra2403213
+
+9. Thiele H, Hassager C. Cardiogenic Shock. N Engl J Med. 2026;394(1):62-77. doi:10.1056/NEJMra2312086
+
+Symptoms and Signs of Shock
+
+Altered mental status (eg, lethargy, confusion, somnolence) is a common sign of shock. In addition, patients' hands and feet are typically pale, cool, clammy, and often cyanotic, as are the earlobes, nose, and nail beds.
+
+Peripheral pulses are weak and typically rapid; often, only femoral or carotid pulses are palpable especially when blood pressure is low (eg, < 90 mm Hg systolic). Tachypnea and hyperventilation may be present. Diaphoresis may occur. Urine output is low.
+
+Capillary filling time is prolonged in hypovolemic, cardiogenic, and obstructive shock, as a result of compensatory vasoconstriction, causing the skin to appear grayish or dusky. However, in distributive shock, capillary filling time may be normal because of vasodilation, and the skin may appear warm or flushed, especially during sepsis. The pulse may be bounding rather than weak.
+
+In septic shock, fever, possibly preceded by chills, is typically present. Some patients with anaphylactic shock have urticaria or wheezing.
+
+Numerous other symptoms (eg, chest pain, dyspnea, abdominal pain) may be present due to the underlying disease or secondary organ failure.
+
+Evaluation of Shock
+
+Rapid, structured assessment using the Airway, Breathing, Circulation, Disability, and Exposure approach
+
+Physical examination and laboratory evaluation for tissue hypoperfusion
+
+Vital signs to evaluate for compensatory mechanisms
+
+Identification of etiology
+
+Diagnosis of shock is based mostly on evidence from the history of an event or illness that may have resulted in shock (eg, febrile illness, injury with known or suspected hemorrhage) and physical examination findings consistent with insufficient tissue perfusion and signs of compensatory mechanisms (1). Laboratory evaluation, imaging, and ongoing monitoring help to support the diagnosis and identify the etiology.
+
+Initial evaluation and diagnosis
+
+Patients with suspected shock undergo an initial evaluation using a systematic ABCDE approach. Resuscitation measures to manage target-organ failure are performed concurrent with evaluation, if clinically appropriate (1).
+
+History, physical examination, and monitoring may reveal signs of hypoperfusion, including altered mental status; extremities that may be cool, clammy, or cyanotic and have delayed capillary refill (> 2 seconds); and oliguria (urine output < 0.5 mL/kg/hour).
+
+Altered mental status (eg, confusion, disorientation, obtundation) may be evident upon clinical presentation or may develop as the patient's condition worsens. Patients with a depressed level of consciousness are evaluated with the Glasgow coma scale (see sidebar Examination of Mental Status). This assessment is repeated at regular intervals as part of monitoring.
+
+Examination may show signs of compensatory mechanisms, including diaphoresis, tachycardia, and tachypnea. Although there are no absolute vital sign criteria for the diagnosis of shock, patients frequently have:
+
+Heart rate > 100 beats/minute
+
+Respiratory rate > 22 breaths/minute
+
+Hypotension (systolic blood pressure < 90 mm Hg) or a 30-mm Hg fall in baseline blood pressure
+
+Vital signs are monitored frequently or continuously. Monitoring includes, at a minimum, serial blood pressure measurements, pulse oximetry, and monitoring of urine output. In patients with hemodynamic instability, invasive monitors are usually placed. An intra-arterial catheter allows continuous blood pressure monitoring and serial blood sampling. If the patient’s volume status is difficult to determine, monitoring of central venous pressure (CVP) or pulmonary artery occlusion pressure (PAOP) may be useful in certain situations (eg, cardiogenic shock resulting from acute myocardial infarction). CVP < 5 mm Hg (< 7 cm water) or PAOP < 8 mm Hg may indicate hypovolemia, although CVP may be greater in patients with hypovolemia who have preexisting pulmonary hypertension. Near-infrared spectroscopy is a noninvasive and rapid technique that may measure the degree of shock by assessing tissue oxygenation; however, high-quality studies are still needed (2).
+
+Initial laboratory tests performed in patients with suspected shock typically include:
+
+Lactate: > 2 mmol/L (18 mg/dL) indicates tissue hypoperfusion
+
+Metabolic panel: BUN, creatine are tested to evaluate for kidney hypoperfusion and injury; electrolytes to detect metabolic abnormalities and aid in fluid resuscitation
+
+Liver tests (AST, ALT, bilirubin): to evaluate for hepatic hypoperfusion and injury
+
+Complete blood count (CBC): to evaluate for blood loss or infection as the source of shock
+
+Coagulation tests (PT/INR, PTT, fibrinogen): to detect disseminated intravascular coagulation (DIC)
+
+Arterial blood gas (pH, base deficit, PaCO2, PaO2): to assess acid-base status and oxygenation
+
+An echocardiogram is performed to assess cardiac output, and chest radiograph is typically performed. Additional imaging studies are chosen based upon the patient's condition and suspected etiologies of shock. Rapid point-of-care ultrasound to assess adequacy of cardiac filling and function and assess volume status is often used and can be repeated frequently to evaluate progression of clinical course (for review, 3, 4).
+
+However, none of these findings alone is diagnostic, and each is evaluated by its trend (ie, worsening or improving) and in the overall clinical context, including physical signs.
+
+Identifying etiology
+
+Recognizing the cause of shock is often more important than categorizing the type. The cause may be obvious or can be recognized quickly based on the history and physical examination, aided by simple testing.
+
+Causes may be cardiac or pulmonary, including the following:
+
+Chest pain (with or without dyspnea) suggests myocardial infarction (MI), aortic dissection, or pulmonary embolism.
+
+A systolic murmur may indicate ventricular septal rupture or mitral regurgitation due to acute MI.
+
+A diastolic murmur may indicate aortic regurgitation due to aortic dissection involving the aortic root.
+
+Cardiac tamponade is suggested by jugular venous distention, muffled heart sounds, and a paradoxical pulse.
+
+In addition to the general initial evaluation, testing typically includes: cardiac biomarker measurement, electrocardiography (ECG), chest radiograph, and CT scan.
+
+Causes may be due to hemorrhage, including the following:
+
+Abdominal or back pain or a tender abdomen suggests ruptured abdominal aortic aneurysm, gastrointestinal tract bleeding, or, in women of reproductive age, ruptured ectopic pregnancy.
+
+A pulsatile midline mass suggests ruptured abdominal aortic aneurysm.
+
+Hematemesis, melena, or hematochezia suggest gastrointestinal bleeding.
+
+Patients with recent physical trauma may have overt or occult hemorrhage.
+
+Additional evaluation typically includes: urine and serum pregnancy tests (for reproductive-age women) and pelvic and abdominal CT or other imaging depending on the location of known or suspected injury (if the patient is unstable, point-of-care ultrasound can be helpful). Laparoscopy or upper GI endoscopy may be performed, if appropriate.
+
+Infection may cause septic shock, which should be suspected in immunosuppressed patients and/or if the patient has fever, chills, or focal signs of infection. Further evaluation includes: CBC, urinalysis and urine culture, blood cultures, cultures of any wound or body fluid that is the suspected source of systemic infection, chest radiograph, and sometimes abdominal or pelvic ultrasound or CT.
+
+Heatstroke,which presents with fever with no localizing signs of infection and usually a known history of extended exposure to high heat, can cause shock. Additional tests include: electrolytes and creatine kinase. Another potential cause of shock is pancreatitis, which is suggested by a history of alcohol misuse and abdominal or back pain. Additional evaluation includes: amylase, lipase, electrolytes, and abdominal ultrasound or CT.
+
+In a few patients, the cause is occult. In patients with no focal symptoms or signs indicative of cause and with normal diagnostic testing results, other potential causes include medication or illicit drug overdose, occult infection (including toxic shock), anaphylaxis, and obstructive shock should be considered.
+
+Evaluation references
+
+1. Vincent JL, De Backer D. Circulatory shock. N Engl J Med. 2013;369(18):1726-1734. doi:10.1056/NEJMra1208943
+
+2. Varis E, Pettilä V, Wilkman E. Near-Infrared Spectroscopy in Adult Circulatory Shock: A Systematic Review. J Intensive Care Med. 2020;35(10):943-962. doi:10.1177/0885066620907307
+
+3. Ferrada P. Image-based resuscitation of the hypotensive patient with cardiac ultrasound: an evidence-based review. J Trauma Acute Care Surg. 2016;80(3): 511-518. doi: 10.1097/TA.0000000000000941
+
+4. Martin ND, Codner P, Greene W, et al. Contemporary hemodynamic monitoring, fluid responsiveness, volume optimization, and endpoints of resuscitation: an AAST critical care committee clinical consensus. Trauma Surg Acute Care Open. 2020;5(1):e000411. doi: 10.1136/tsaco-2019-000411
+
+Management of Shock
+
+Supplemental oxygen and sometimes mechanical ventilation
+
+Fluid resuscitation
+
+Sometimes inotropic or vasopressor medications
+
+Other management measures depending on cause and type of shock
+
+General management of shock
+
+Management begins concomitantly with evaluation.
+
+The patient is kept warm, unless fever or heatstroke are present. Nothing is given by mouth, and if emesis occurs, the patient’s head is turned to one side to avoid aspiration.
+
+Airway and ventilation are evaluated, supplemental oxygen is provided if oxygen saturation is < 94%. If shock is severe or if ventilation is inadequate with noninvasive measures, airway intubation with mechanical ventilation is required.
+
+Venous access is established. Two large (14- to 16-gauge) IV catheters are inserted into separate peripheral veins. A central venous line or an intraosseous needle provides an alternative when peripheral veins cannot promptly be accessed.
+
+Typically, initial management of hypovolemic or distributive shock (including septic shock) is with fluid resuscitation: 30 mL/kg of balanced crystalloid solution, infused over 3 hours (1, 2, 3). Unless clinical parameters return to normal, the infusion of fluid is typically continued.
+
+Smaller volumes (eg, 250 to 500 mL) are used for patients with signs of high right-sided pressure (eg, distention of neck veins) or acute myocardial infarction. In addition, a fluid challenge is typically not performed in a patient with signs of pulmonary edema. Further fluid therapy is based on the underlying condition and may require monitoring of CVP or PAOP. Point-of-care ultrasound to assess contractility and vena caval respiratory variability may help determine the need for additional fluid vs the need for inotropic support.
+
+For hemorrhagic shock, fluids are usually administered; however the focus is on controlling hemorrhage. In major hemorrhage, transfusion of blood products (red blood cells, fresh frozen plasma, and platelets in a 1:1:1 ratio) should be initiated as soon as possible (4, 5).
+
+Patients in shock are critically ill and should be admitted to an intensive care unit.
+
+Monitoring includes continuous or serial measurement of:
+
+Clinical status, including sensorium (eg, Glasgow Coma Scale), pulse volume, skin temperature, and color
+
+Body temperature
+
+Systolic, diastolic, and mean blood pressure, preferably by intra-arterial catheter
+
+ECG
+
+Respiratory rate and depth
+
+Pulse oximetry
+
+Urine flow by indwelling bladder catheter
+
+Measurement of CVP, PAOP, and thermodilution cardiac output using a balloon-tipped pulmonary arterial catheter may be helpful for diagnosis and initial management of patients with shock of uncertain or mixed etiology or with severe shock, especially when accompanied by oliguria or pulmonary edema (6). Echocardiography (bedside or transesophageal) is a less invasive alternative.
+
+Serial measurements of arterial blood gases, hematocrit, electrolytes, serum creatinine, and blood lactate are obtained. Sublingual carbon dioxide measurement, if available, is a noninvasive monitor of visceral perfusion (levels increase with decreasing tissue perfusion). A well-designed flow sheet to monitor trends is helpful.
+
+Because tissue hypoperfusion makes intramuscular absorption unreliable, all parenteral medications are given IV. Opioids generally are avoided because they may cause vasodilation, but severe pain may be treated with morphine 0.1 mg/kg IV given over 2 minutes and repeated every 10 to 15 minutes if necessary. Although cerebral hypoperfusion may cause anxiety, sedatives are not routinely given unless the patient is intubated and mechanically ventilated.
+
+After initial resuscitation, specific management is directed at the underlying condition and the type of shock.
+
+Clinical Calculators
+
+Mean Vascular Pressure (systemic or pulmonary)
+
+Management of hemorrhagic shock
+
+Surgical control of bleeding
+
+Transfusion of blood products
+
+IV crystalloids
+
+In hemorrhagic shock, surgical control of bleeding is the first priority. Volume replacement accompanies rather than precedes surgical measures to restore hemostasis. Blood products--red blood cells, fresh frozen plasma, and platelets--are given as soon as possible and in a ratio of 1:1:1 in patients requiring massive transfusion. Balanced crystalloid solutions are also used for resuscitation, as needed. A restricted volume of IV fluid infusion (maintaining a goal systolic blood pressure of 80 to 90 mm Hg or MAP of 55 to 60 mm Hg; called hypotensive resuscitation or permissive hypotension) is recommended in most patients with hemorrhage shock until definitive hemorrhage control is achieved; however maintaining hypotension is contraindicated in patients with traumatic brain injury and may result in worsened outcomes (2, 7).
+
+Refractory hypotension in hemorrhagic shock may be due to unrecognized ongoing hemorrhage or to vasodilatory physiology (sympathoinhibitory phase) rather than pure hypovolemia. Traditionally, it has been advised to give vasopressors only after adequate blood volume has been restored and hemorrhage controlled to avoid worsening outcomes; however some data support early use of low-dose vasopressors in selected patients (8, 9).
+
+Management of distributive shock
+
+IV crystalloids
+
+Sometimes inotropic or vasopressor medications
+
+Antimicrobials for septic shock
+
+Epinephrine for anaphylaxis
+
+Distributive shock with profound hypotension after initial fluid replacement with balanced crystalloid solution may be treated with inotropic or vasopressor agents (eg, norepinephrine—see table Inotropic and Vasoactive Catecholamines). Patients with septic shock also receive broad-spectrum antibiotics. Patients with anaphylactic shock unresponsive to fluid challenge (especially if accompanied by bronchoconstriction) receive epinephrine 0.05 to 0.1 mg IV, followed by epinephrine infusion 0.02 mcg/kg/minute.
+
+Table
+
+Inotropic and Vasoactive Catecholamines
+
+Table
+
+Inotropic and Vasoactive Catecholamines
+
+Inotropic and Vasoactive Catecholamines
+
+Medication
+
+Dosage
+
+Hemodynamic Actions
+
+Dobutamine
+
+2.5–10 mcg/kg/minute
+
+Beta-adrenergic: Inotropic effects*
+
+Dopamine
+
+2–10 mcg/kg/minute for low dose
+
+20 mcg/kg/minute for high dose
+
+Alpha-adrenergic: Vasoconstriction†
+
+Beta-adrenergic: Inotropic and chronotropic effects and vasodilation†
+
+Nonadrenergic: Renal and splanchnic vasodilation
+
+Norepinephrine
+
+2–12 mcg/minute OR
+
+0.1 mcg/kg/minute (weight-based dosing)
+
+Alpha-adrenergic: Vasoconstriction
+
+Beta-adrenergic: Inotropic and chronotropic effects
+
+* Chronotropic, arrhythmogenic, and direct vascular effects are minimal at lower doses.
+
+† Effects depend on dosage and underlying pathophysiology.
+
+* Chronotropic, arrhythmogenic, and direct vascular effects are minimal at lower doses.
+
+† Effects depend on dosage and underlying pathophysiology.
+
+Management of cardiogenic shock
+
+Treat underlying cause
+
+In cardiogenic shock, structural disorders (eg, valvular dysfunction, septal rupture) are repaired surgically.
+
+Coronary thrombosis is treated either by percutaneous interventions (angioplasty, stent placement), coronary artery bypass surgery, or thrombolysis.
+
+Tachydysrhythmia (eg, rapid atrial fibrillation, ventricular tachycardia) is slowed by cardioversion or with antiarrhythmic medications. Bradycardia is treated with a transcutaneous or transvenous pacemaker; atropine 0.5 mg IV every 5 minutes up to 4 doses may be given pending pacemaker placement. Isoproterenol at 1 to 4 mcg/minute is occasionally useful if atropine is ineffective, but it is not advised in patients with myocardial ischemia due to coronary artery disease.
+
+Shock after acute MI is treated with volume expansion if PAOP is low or normal; 15 to 18 mm Hg is considered optimal. If a pulmonary artery catheter is not in place or point-of-care cardiac ultrasound is not available, cautious volume infusion (250- to 500-mL bolus of balanced crystalloid solution) may be tried while auscultating the chest frequently for signs of fluid overload. Shock after right ventricular MI usually responds partially to volume expansion; however, vasopressor agents may be needed. Point-of-care cardiac ultrasound to assess contractility and vena caval respiratory variability can help determine the need for additional fluid or vasopressors; inotropic support (10) is a better approach for patients with normal or above-normal filling.
+
+If hypotension is moderate (eg, mean arterial pressure [MAP] 70 to 90 mm Hg), dobutamine infusion may be used to improve cardiac output and reduce left ventricular filling pressure. Tachycardia and arrhythmias occasionally occur during dobutamine administration, particularly at higher doses, necessitating dose reduction. Vasodilators (eg, nitroprusside, nitroglycerin), which increase venous capacitance or lower systemic vascular resistance, reduce the workload on the damaged myocardium and may increase cardiac output in patients without severe hypotension. Combination therapy (eg, a vasopressor with nitroprusside or nitroglycerin) may be particularly useful but requires close ECG and pulmonary and systemic hemodynamic monitoring.
+
+For severe hypotension (MAP < 70 mm Hg), vasopressors may be given, with a target systolic pressure of 80 to 90 mm Hg (and not > 110 mm Hg). Norepinephrine is recommended in the Surviving Sepsis guidelines as the first-line vasopressor (3).
+
+Intra-aortic balloon counterpulsation is valuable for temporarily reversing shock in patients with acute MI. This procedure should be considered as a bridge to permit cardiac catheterization and coronary angiography before possible surgical intervention in patients with acute MI complicated by ventricular septal rupture or severe acute mitral regurgitation who require vasopressor support for > 30 minutes.
+
+Management of obstructive shock
+
+In obstructive shock, nontraumatic cardiac tamponade (eg, from malignant or uremic pericardial effusion) requires immediate pericardiocentesis, which can be performed at the bedside. Trauma-related cardiac tamponade (eg, stab wound or iatrogenic injury from cardiac catheterization) requires surgical decompression and repair.
+
+Tension pneumothorax should be immediately decompressed with a catheter inserted into the fifth intercostal space at the midaxillary line; followed as soon as possible by tube thoracostomy.
+
+Massive pulmonary embolism resulting in shock is treated with anticoagulation and thrombolysis, catheter-directed thrombolysis or embolectomy, surgical embolectomy, or extracorporeal membrane oxygenation in select cases.
+
+Management references
+
+1. Semler MW, Self WH, Wanderer JP, et al. Balanced Crystalloids versus Saline in Critically Ill Adults. N Engl J Med. 2018;378(9):829-839. doi:10.1056/NEJMoa1711584
+
+2. LaGrone LN, Stein D, Cribari C, et al. American Association for the Surgery of Trauma/American College of Surgeons Committee on Trauma: Clinical protocol for damage-control resuscitation for the adult trauma patient. J Trauma Acute Care Surg. 2024;96(3):510-520. doi:10.1097/TA.0000000000004088
+
+3. Prescott HC, Antonelli M, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2026. Crit Care Med. 2026;54(4):725-812. doi:10.1097/CCM.0000000000007075
+
+4. Holcomb JB, Tilley BC, Baraniuk S, et al. Transfusion of plasma, platelets, and red blood cells in a 1:1:1 vs a 1:1:2 ratio and mortality in patients with severe trauma: The PROPPR randomized clinical trial. JAMA. 2015;313(5):471-482. doi:10.1001/jama.2015.12
+
+5. Cannon JW, Khan MA, Raja AS, et al. Damage control resuscitation in patients with severe traumatic hemorrhage: A practice management guideline from the Eastern Association for the Surgery of Trauma. J Trauma Acute Care Surg. 2017;82(3):605-617. doi: 10.1097/TA.0000000000001333
+
+6. Sinha SS, Morrow DA, Kapur NK, Kataria R, Roswell RO. 2025 Concise Clinical Guidance: An ACC Expert Consensus Statement on the Evaluation and Management of Cardiogenic Shock: A Report of the American College of Cardiology Solution Set Oversight Committee. J Am Coll Cardiol. 2025;85(16):1618-1641. doi:10.1016/j.jacc.2025.02.018
+
+7. Rossaint R, Afshari A, Bouillon B, et al. The European guideline on management of major bleeding and coagulopathy following trauma: sixth edition. Crit Care. 2023;27(1):80. doi:10.1186/s13054-023-04327-7
+
+8. De Simone B, Chouillard E, Podda M, et al. The 2023 WSES guidelines on the management of trauma in elderly and frail patients. World J Emerg Surg. 2024;19(1):18. Published 2024 May 31. doi:10.1186/s13017-024-00537-8
+
+9. Sims CA, Holena D, Kim P, et al. Effect of Low-Dose Supplementation of ArginineVasopressin on Need for Blood Product Transfusions in Patients With Trauma and Hemorrhagic Shock: A Randomized Clinical Trial. JAMA Surg. 2019;154(11):994-1003. doi:10.1001/jamasurg.2019.2884
+
+10. Thiele H, Hassager C. Cardiogenic Shock. N Engl J Med. 2026;394(1):62-77. doi:10.1056/NEJMra2312086
+
+Prognosis for Shock
+
+Untreated shock is usually fatal. Even with treatment, mortality from cardiogenic shock after MI (40 to 50%) and septic shock (30 to 40%) is high (1, 2).
+
+Prognosis depends on the cause, preexisting or complicating illness, time between onset and diagnosis, and promptness and adequacy of therapy.
+
+Prognosis references
+
+1. La Via L, Maniaci A, Lentini M, et al. The Burden of Sepsis and Septic Shock in the Intensive Care Unit. J Clin Med. 2025;14(19):6691. doi:10.3390/jcm14196691
+
+2. Thiele H, Hassager C. Cardiogenic Shock. N Engl J Med. 2026;394(1):62-77. doi:10.1056/NEJMra2312086

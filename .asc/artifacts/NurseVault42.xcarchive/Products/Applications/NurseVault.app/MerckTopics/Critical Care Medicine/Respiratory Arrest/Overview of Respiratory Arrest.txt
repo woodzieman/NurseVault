@@ -1,0 +1,248 @@
+=== Overview of Respiratory Arrest (Merck Manual Professional) ===
+Section: Critical Care Medicine > Respiratory Arrest
+Source: https://www.merckmanuals.com/professional/critical-care-medicine/respiratory-arrest/overview-of-respiratory-arrest
+Retrieved: 2026-09-25
+
+Respiratory arrest is the cessation of breathing.
+
+Respiratory arrest and cardiac arrest are distinct, but if untreated, one inevitably leads to the other. (See also Respiratory Failure, Dyspnea, and Hypoxia.)
+
+Interruption of pulmonary gas exchange for > 5 minutes may irreversibly damage vital organs, especially the brain. Cardiac arrest almost always follows unless respiratory function is rapidly restored. However, aggressive ventilation may also have negative hemodynamic consequences, particularly in the periarrest period and in other circumstances when cardiac output is low. In most cases, the ultimate goal is to restore adequate ventilation and oxygenation without further compromising a tentative cardiovascular situation.
+
+Etiology of Respiratory Arrest
+
+Respiratory arrest (and impaired respiration that can progress to respiratory arrest) can be caused by:
+
+Airway obstruction
+
+Decreased respiratory effort
+
+Respiratory muscle weakness or fatigue
+
+Airway obstruction
+
+Obstruction may involve the:
+
+Upper airway (above the vocal folds; ie, nasopharyngeal and oral cavities and larynx)
+
+Lower airway (below the vocal folds; ie, trachea, bronchi, bronchioles, and alveoli)
+
+Upper airway obstruction may be caused by any object or substance that blocks the oropharynx, including:
+
+Blood
+
+Mucus
+
+Vomitus
+
+Foreign body
+
+Spasm of the vocal folds
+
+Edema of the vocal folds
+
+Pharyngolaryngeal or tracheal inflammation (eg, epiglottitis, croup)
+
+Posterior portion of the tongue in patients with decreased consciousness
+
+Tumor
+
+Trauma
+
+In infants < 3 months, who are usually obligate nasal breathers, upper airway obstruction may occur due to nasal blockage.
+
+Patients with congenital developmental disorders (eg, Down syndrome, laryngeal disorders, congenital jaw abnormalities) often have abnormal upper airways that are more easily obstructed. For example, patients who have Down syndrome commonly have an abnormal upper airway as a result of various anatomical characteristics, such as macroglossia or midfacial hypoplasia (1), often combined with some degree of hypotonia.
+
+Lower airway obstruction may result from:
+
+Aspiration
+
+Bronchospasm
+
+Airspace filling disorders (eg, airway or lung mass, mucus plugs, pneumonia, pulmonary edema or hemorrhage)
+
+Drowning
+
+Decreased respiratory effort
+
+Decreased respiratory effort is caused by central nervous system (CNS) impairment due to one of the following:
+
+CNS disorder
+
+Adverse effect of medications or illicit drugs
+
+Metabolic disorder
+
+Obesity
+
+Mechanical defects 
+
+CNS disorders that affect the brain stem (eg, stroke, infection, tumor) or cervical spine (eg, spinal cord injury) can cause hypoventilation (2, 3). Disorders that increase intracranial pressure usually cause hyperventilation initially, but hypoventilation may develop if the brain stem is compressed (4).
+
+Medications that decrease respiratory effort include opioids and sedative-hypnotics (eg, barbiturates, alcohol, benzodiazepines). This decreased respiratory effort can also increase the dead space ventilation (expressed as dead space to tidal volume ratio [VD/VT]) and prolong weaning from mechanical ventilation for patients with a diminished tidal volume in a critical care setting or postoperatively (5).
+
+Combinations of these medications further increase the risk of respiratory depression (6). Overdose (iatrogenic, intentional, or unintentional) of opioids or sedative-hypnotics typically causes respiratory depression, although a lower dose may decrease respiratory effort in patients who are more sensitive to the effects of these medications (eg, older adults, deconditioned patients, patients with chronic respiratory insufficiency or obstructive sleep apnea). Respiratory arrest due to illicit drug use, especially use of opioids (eg, heroin, fentanyl), is a common cause of out-of-hospital respiratory arrest (7). In hospitalized patients, the risk for opioid-induced respiratory depression (OIRD) is most common in the immediate postoperative recovery period but persists throughout a hospital stay and may affect almost 50% of postoperative patients (8). OIRD can lead to catastrophic outcomes such as severe brain damage or death (9).
+
+Gabapentinoids (gabapentin, pregabalin) may cause serious breathing difficulties in patients using opioids or other medications that depress the CNS (eg, sedatives), older adults, or patients who have underlying respiratory impairment, such as patients with chronic obstructive pulmonary disease (COPD) (10, 11).
+
+Metabolic disorders that cause CNS depression due to severe hypoglycemia or hypotension ultimately compromise respiratory effort. For example, hypoglycemia may lead to a range of CNS effects, such as obtundation or coma, confusion, or unusual behavior and occasionally could manifest by dizziness, tremors, or seizures.
+
+Obesity hypoventilation syndrome (OHS) is a condition that commonly occurs in patients with obesity and restrictive ventilatory defects (12). The exact cause is not known; however, research studies in rodent models suggest leptin-mediated mechanisms. Leptin is a hormone essential for breathing regulation and may be related to changes in CO2 levels (13). OHS may result from excessive weight gain and leptin deficiency or resistance, leading to increased respiratory workload and reduced ventilation due to chemoreceptor blunting.
+
+Mechanical defects or abnormalities in the chest wall (eg, kyphoscoliosis, severe pectus excavatum) can reduce tidal volume and contribute to respiratory failure.
+
+Respiratory muscle weakness
+
+Weakness may be caused by:
+
+Respiratory muscle fatigue
+
+Neuromuscular diseases
+
+Glucocorticoids or neuromuscular-blocking medications
+
+Respiratory muscle fatigue can occur if patients breathe for extended periods at a minute ventilation exceeding approximately 70% of their maximum voluntary ventilation (eg, because of severe metabolic acidosis or hypoxemia) (5, 14). Chronic respiratory disorders (eg, COPD) can result in respiratory muscle fatigue and dysfunction. In COPD, neuromuscular weakness can impact multiple muscle groups, including the chest wall, diaphragm, and peripheral muscles (15).
+
+Neuromuscular causes, including spinal cord injury and neuromuscular diseases (eg, myasthenia gravis, botulism, poliomyelitis, Guillain-Barré syndrome), can cause respiratory muscle weakness (16). Phrenic nerve damage can also cause respiratory muscle dysfunction.
+
+In addition, bedrest combined with the use of glucocorticoids and/or neuromuscular blocking-medications (eg, succinylcholine, rocuronium, vecuronium), often used in critical care patients, can lead to respiratory muscle weakness (17, 18, 19). To minimize the potential risks of unfavorable outcomes (eg, ICU-associated muscle weakness, respiratory insufficiency, and hospital-acquired pneumonia , it is recommended to start physical therapy early (20); discontinue glucocorticoids and/or neuromuscular-blocking medications as soon they are no longer needed.
+
+Etiology references
+
+1. Mitchell RB, Call E, Kelly J. Diagnosis and therapy for airway obstruction in children with Down syndrome. Arch Otolaryngol Head Neck Surg. 2003;129(6):642-645. doi:10.1001/archotol.129.6.642
+
+2. Sankari A, Bascom A, Oomman S, Badr MS. Sleep disordered breathing in chronic spinal cord injury. J Clin Sleep Med. 10(1):65–72, 2014. doi:10.5664/jcsm.3362
+
+3. Bascom AT, Sankari A, Goshgarian HG, Badr MS. Sleep onset hypoventilation in chronic spinal cord injury. Physiol Rep. 2015;3(8):e12490. doi:10.14814/phy2.12490
+
+4. Edlow JA, Rabinstein A, Traub SJ, Wijdicks EF. Diagnosis of reversible causes of coma. Lancet. 2014;384(9959):2064-2076. doi:10.1016/S0140-6736(13)62184-4
+
+5. Quickfall D, Sklar MC, Tomlinson G, Orchanian-Cheff A, Goligher EC. The influence of drugs used for sedation during mechanical ventilation on respiratory pattern during unassisted breathing and assisted mechanical ventilation: a physiological systematic review and meta-analysis. EClinicalMedicine. 2024;68:102417. doi:10.1016/j.eclinm.2023.102417
+
+6. Izrailtyan I, Qiu J, Overdyk FJ, et al. Risk factors for cardiopulmonary and respiratory arrest in medical and surgical hospital patients on opioid analgesics and sedatives. PLoS One. 2018;13(3):e019455.  doi: 10.1371/journal.pone.0194553
+
+7. Dezfulian C, Orkin AM, Maron BA, et al. Opioid-Associated Out-of-Hospital Cardiac Arrest: Distinctive Clinical Features and Implications for Health Care and Public Responses: A Scientific Statement From the American Heart Association. Circulation. 2021;143(16):e836-e870. doi:10.1161/CIR.0000000000000958
+
+8. Khanna AK, Bergese SD, Jungquist CR, et al. Prediction of opioid-induced respiratory depression on inpatient wards using continuous capnography and oximetry: An international prospective, observational trial. Anesth Analg. 2020;131(4):1012-1024. doi:10.1213/ANE.0000000000004788
+
+9. Lee LA, Caplan RA, Stephens LS, et al. Postoperative opioid-induced respiratory depression: A closed claims analysis. Anesthesiology. 2015;122: 659-665. doi: 10.1097/ALN.0000000000000564
+
+10. Hahn J, Jo Y, Yoo SH, Shin J, Yu YM, Ah YM. Risk of major adverse events associated with gabapentinoid and opioid combination therapy: A systematic review and meta-analysis. Front Pharmacol. 2022;13:1009950. doi:10.3389/fphar.2022.1009950
+
+11. Kaye AD, Cassagne G, Abbott BM, et al. Emerging Clinical Roles of Gabapentin and Adverse Effects, Including Weight Gain, Obesity, Depression, Suicidal Thoughts and Increased Risk of Opioid-Related Overdose and Respiratory Depression: A Narrative Review. Curr Pain Headache Rep. 2025;29(1):95. doi:10.1007/s11916-025-01410-2
+
+12. Chau EH, Lam D, Wong J, Mokhlesi B, Chung F. Obesity hypoventilation syndrome: a review of epidemiology, pathophysiology, and perioperative considerations. Anesthesiology. 2012;117(1):188-205. doi:10.1097/ALN.0b013e31825add60
+
+13. Amorim MR, Aung O, Mokhlesi B, Polotsky VY. Leptin-mediated neural targets in obesity hypoventilation syndrome. Sleep. 2022;45(9):zsac153. doi:10.1093/sleep/zsac153
+
+14. Jones NL, Killian KJ. Exercise limitation in health and disease. N Engl J Med. 2000;343(9):632-641. doi:10.1056/NEJM200008313430907
+
+15. Alter A, Aboussouan LS, Mireles-Cabodevila E. Neuromuscular weakness in chronic obstructive pulmonary disease: chest wall, diaphragm, and peripheral muscle contributions. Curr Opin Pulm Med. 2017;23(2):129-138. doi:10.1097/MCP.0000000000000360
+
+16. Boentert M, Wenninger S, Sansone VA. Respiratory involvement in neuromuscular disorders. Curr Opin Neurol. 2017;30(5):529-537. doi:10.1097/WCO.0000000000000470
+
+17. Eikermann M, Gerwig M, Hasselmann C, Fiedler G, Peters J. Impaired neuromuscular transmission after recovery of the train-of-four ratio. Acta Anaesthesiol Scand. 2007;51(2):226-234. doi:10.1111/j.1399-6576.2006.01228.x
+
+18. Price DR, Mikkelsen ME, Umscheid CA, Armstrong EJ. Neuromuscular Blocking Agents and Neuromuscular Dysfunction Acquired in Critical Illness: A Systematic Review and Meta-Analysis. Crit Care Med. 2016;44(11):2070-2078. doi:10.1097/CCM.0000000000001839
+
+19. Zhao M, Fan Y, Wu T, et al. Risk factors for ICU-acquired weakness in patients undergoing mechanical ventilation: a systematic review and meta-analysis. J Thorac Dis. 2025;17(10):8497-8510. doi:10.21037/jtd-2025-1155
+
+20. Fan E, Cheek F, Chlan L, et al. An official American Thoracic Society Clinical Practice guideline: the diagnosis of intensive care unit-acquired weakness in adults. Am J Respir Crit Care Med. 2014;190(12):1437-1446. doi:10.1164/rccm.201411-2011ST
+
+Symptoms and Signs of Respiratory Arrest
+
+With respiratory arrest, patients are either unconscious or will soon lose consciousness due to hypoxemia. If untreated (or if the underlying disorder is not corrected), cardiac arrest typically follows within minutes. Patients may also become hypoxemic prior to complete respiratory arrest if ventilation is sufficiently impaired (eg, due to hypopnea or airway obstruction).
+
+Patients with hypoxemia may be cyanotic, but cyanosis can be masked by anemia, carbon monoxide poisoning, or cyanide toxicity. Because anemia lowers hemoglobin, reducing the total amount of deoxygenated hemoglobin when a patient is hypoxemic, cyanosis is not as apparent. Carboxyhemoglobin sometimes makes the skin appear red. In cyanide toxicity, patients may not appear cyanotic despite being functionally hypoxic because cyanide impairs cellular respiration. Cyanosis may also not be as apparent in patients with dark skin.
+
+Patients being treated with oxygen may not become hypoxemic as quickly and therefore may not exhibit cyanosis or desaturation until after respiration ceases for several minutes. Conversely, patients with chronic lung disease and polycythemia may exhibit cyanosis without respiratory arrest.
+
+Impending respiratory arrest
+
+Prior to respiratory arrest, patients may exhibit tachypnea and/or increased work of breathing, agitation, and confusion; alternatively, they may display bradypnea/hypopnea and lethargy or otherwise decreased level of consciousness.
+
+The respiratory rate and pattern vary depending on the underlying disorder. For instance, upper airway obstruction or respiratory weakness may lead to tachypnea, whereas CNS etiologies (eg, intoxication, stroke) may result in decreased respiratory rate. Accurate assessment of respiratory rate is crucial in the early detection of respiratory decompensation, but routine methods (eg, nursing triage assessment, electronic monitors) are often inaccurate (1). Physicians should check on patients frequently to assess respiratory rate and effort and signs of impending respiratory arrest (eg, accessory muscle use for breathing, tripod positioning [patient leans forward with hands on knees]).
+
+The characteristics of abnormal breath sounds or other findings on auscultation of the lungs can suggest an etiology or mechanism of respiratory failure:
+
+Inspiratory stridor: Obstruction above the vocal folds (eg, foreign body, epiglottitis, angioedema)
+
+Expiratory stridor or mixed inspiratory and expiratory stridor: Obstruction below the vocal folds (eg, croup, bacterial tracheitis, foreign body)
+
+Wheezing: Bronchoconstriction, bronchospasm, or obstruction at the level of the bronchi and/or bronchioles (eg, asthma, anaphylaxis, a foreign body in a mainstem bronchus, a fixed lesion such as a tumor)
+
+Lung crackles: Interalveolar fluid (eg, pneumonia, heart failure, pulmonary fibrosis); the absence of crackles does not exclude these disorders
+
+Diminished breath sounds: Caused by conditions that prevent air from entering the lungs (eg, severe COPD, severe asthma, pneumothorax, tension pneumothorax, pleural effusion, hemothorax)
+
+During the early stages of respiratory decompensation, accessory muscle use (eg, intercostal muscles, sternoclavicular muscles) is apparent. Patients with CNS impairment or respiratory muscle weakness exhibit feeble, gasping, or irregular respirations and paradoxical breathing movements. Patients with a foreign body in the airway may choke and point to their necks or show no symptoms.
+
+Patients with asthma or with other chronic lung diseases may become hypercarbic and fatigued after prolonged periods of respiratory distress and suddenly become obtunded and apneic with little warning, despite adequate oxygen saturation. Therefore, careful monitoring and early intervention may prevent respiratory arrest (2).
+
+Infants, especially if < 3 months, may develop acute apnea without warning, secondary to infection (eg pertussis, respiratory syncytial virus and other viruses, bacterial sepsis, meningitis), metabolic disorders, or the accumulation of respiratory fatigue.
+
+Quantitative end-tidal carbon dioxide monitoring (ie, rising ETCO2 levels) can alert physicians and the healthcare team to the impending respiratory arrest.
+
+Tachycardia and diaphoresis are commonly observed but not specific to respiratory arrest.
+
+Symptoms and signs references
+
+1. Lovett PB, Buchwald JM, Sturmann K, Bijur P. The vexatious vital: neither clinical measurements by nurses nor an electronic monitor provides accurate measurements of respiratory rate in triage. Ann Emerg Med. 2005;45(1):68-76. doi:10.1016/j.annemergmed.2004.06.016
+
+2. Morris TA, Gay PC, MacIntyre NR, et al. Respiratory Compromise as a New Paradigm for the Care of Vulnerable Hospitalized Patients. Respir Care. 2017;62(4):497-512. doi:10.4187/respcare.05021
+
+Diagnosis of Respiratory Arrest
+
+Absence (or abnormality) of respiration
+
+Evaluation for cause based on history and physical examination, laboratory tests, imaging studies, and/or laryngoscopy
+
+Respiratory arrest is usually clinically obvious because the patient is not breathing. It is an emergency, and treatment (eg, maintaining a basic or advanced airway and ventilatory support) begins immediately upon diagnosis. Care is ideally provided by a team of clinicians, allowing for both resuscitative efforts and evaluation for etiology.
+
+While resuscitation and life support are performed, the patient is examined and history is obtained from any observers who were with the patient prior to the respiratory arrest (eg, observation of choking on a foreign body).
+
+The first consideration is to exclude (or remove, if present) a foreign body obstructing the airway. A sign of a foreign body is marked resistance to ventilation during mouth-to-mask or bag-valve-mask ventilation. Foreign material may also be discovered during laryngoscopy for endotracheal intubation (see Clearing and Opening the Upper Airway).
+
+Arterial blood gas measurements, complete blood count (CBC), electrolyte panel, lactate measurement, electrocardiogram, and chest radiograph are typically obtained to evaluate the cause of impending or established respiratory arrest. In addition, bedside ultrasound is an efficient method to investigate several significant causes of respiratory failure (eg, pneumothorax, pulmonary edema, pneumonia) (1).  
+
+Monitoring arterial oxygenation with pulse oximetry is crucial when evaluating patients with respiratory distress, which can cause failing or inadequate oxygenation; however, the accuracy of pulse oximetry can be affected by different conditions (eg, carbon monoxide poisoning, hyperbilirubinemia, dark skin [2]). Pulse oximetry can overestimate oxygen saturation in individuals with deeply pigmented skin (3). The overestimation by pulse oximetry during impending respiratory arrest elevates the risk of undetected hypoxemia.
+
+Diagnosis references
+
+1. Lichtenstein DA, Mezière GA. Relevance of lung ultrasound in the diagnosis of acute respiratory failure: the BLUE protocol. Chest. 2008;134(1):117-125. doi:10.1378/chest.07-2800
+
+2. Al-Halawani R, Charlton PH, Qassem M, Kyriacou PA. A review of the effect of skin pigmentation on pulse oximeter accuracy. Physiol Meas. 2023;44(5):05TR01. doi:10.1088/1361-6579/acd51a
+
+3. Hewett Brumberg EK, Douma MJ, Alibertis K, et al. 2024 American Heart Association and American Red Cross Guidelines for First Aid. Circulation. 2024;150(24):e519-e579. doi:10.1161/CIR.0000000000001281
+
+Treatment of Respiratory Arrest
+
+Clearing the airway, if obstructed
+
+Artificial ventilation
+
+Initial treatment is positioning the patient to keep the airway in a neutral, open position, clearing the airway if obstructed, and providing artificial ventilation, often with a bag-valve-mask in the hospital setting or with mouth-to-mask (mouth-to-mouth, though this is not preferred) breathing in the out-of-hospital setting. Exhaled air contains 16 to 18% oxygen and 4 to 5% carbon dioxide, which is adequate to maintain blood oxygen and carbon dioxide values close to normal.
+
+Rescue breathing should target visible chest rise; larger-than-necessary volumes of air may cause gastric distention with associated risk of aspiration.
+
+Out-of-hospital considerations
+
+In an out-of-hospital environment, if a lay person finds a person unresponsive and the person has either absent or abnormal breathing, it is recommended that lay rescuers assume that the person is experiencing both respiratory and cardiac arrest. Lay rescuers should promptly call for assistance from emergency services and initiate cardiopulmonary resuscitation (CPR) without delay (1). By focusing on these simple assessments—patient responsiveness and breathing assessment—lay rescuers can quickly initiate life-saving measures. 
+
+Adult CPR recommendations for lay rescuers treating for cardiorespiratory arrest include compression-only CPR, without artificial respiration, which minimizes the interruption in compressions, provides some degree of ventilation by compressing the lungs, and addresses potential reluctance to begin CPR due to discomfort with mouth-to-mouth contact (1). However, lay rescuers are encouraged to provide artificial ventilation with CPR if they are trained and comfortable. In certain situations (eg, nonfatal drowning or opioid overdose when naloxone is unavailable or does not last long enough), rescue breathing is particularly important.
+
+Pediatric cardiac arrest, on the other hand, is much more frequently respiratory in origin, and artificial ventilation is always recommended in children during CPR, even when performed by lay rescuers (2).
+
+Definitive management
+
+Definitive treatment if recovery from respiratory arrest is not rapid involves establishing an alternate airway, and providing mechanical ventilation.
+
+Whatever airway management techniques are used for a patient in respiratory arrest, initial tidal volume should cause visible chest rise (usually 5 to 7 mL/kg), and ventilatory rate should be approximately 10 breaths/minute to avoid negative hemodynamic consequences (1). Once the etiology of respiratory failure is identified and mechanical ventilation treatment strategies are planned, ongoing tidal volume and respiratory rates may be determined. Slower rates are commonly used in patients with severe air trapping (eg, acute asthma, COPD [chronic obstructive pulmonary disease]), and passive oxygenation without positive pressure ventilation shows promise in the first minutes after cardiac arrest (3). It is important to keep in mind that positive pressure ventilation is the opposite of physiologically normal negative pressure ventilation; in any state of hemodynamic instability, positive pressure and large tidal volumes (or very high positive expiratory pressure [PEEP]) can increase instability. In cardiac arrest, physiologic demands are significantly less, and in non-arrest, the benefits of hypoventilation in hemodynamic stability and lung protection often outweigh the negative effects of permissive hypercapnia and moderate hypoxia.
+
+Treatment references
+
+1. Kleinman ME, Buick JE, Huber N, et al. Part 7: Adult Basic Life Support: 2025 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care. Circulation. 2025;152(16_suppl_2):S448-S478. doi:10.1161/CIR.0000000000001369
+
+2. Joyner BL Jr, Dewan M, Bavare A, et al. Part 6: Pediatric Basic Life Support: 2025 American Heart Association and American Academy of Pediatrics Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care. Pediatrics. 2026;157(1):e2025074350. doi:10.1542/peds.2025-074350
+
+3. Pascual RM, Breit JS. Mechanical Ventilation in Obstructive Lung Disease. In Truwit JD, Epstein SK (eds). A Practical Guide to Mechanical Ventilation. John Wiley & Sons, Ltd. 2011. doi.org/10.1002/9780470976609.ch15

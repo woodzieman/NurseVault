@@ -1,0 +1,280 @@
+=== Drug Hypersensitivity (Merck Manual Professional) ===
+Section: Allergy and Immunology > Allergic, Autoimmune, and Other Hypersensitivity Disorders
+Source: https://www.merckmanuals.com/professional/immunology-allergic-disorders/allergic-autoimmune-and-other-hypersensitivity-disorders/drug-hypersensitivity
+Retrieved: 2026-09-25
+
+Drug hypersensitivity differs from toxic and adverse effects that may result from the medication and from problems due to drug interactions. (See also Overview of Allergic and Atopic Disorders.)
+
+Pathophysiology of Drug Hypersensitivity
+
+Some protein and large polypeptide medications (eg, insulin, therapeutic antibodies) can directly stimulate antibody production. However, most medications act as haptens, binding covalently to serum or cell-bound proteins, including peptides embedded in major histocompatibility complex (MHC) molecules. The binding makes the protein-medication complex immunogenic, stimulating antibody production directed against the medication, T-cell responses against the medication, or both. Haptens may also bind directly to class II MHC molecules, directly activating T cells. Some medications can act as prohaptens. When metabolized, prohaptens become haptens; eg, penicillin itself is not antigenic, but its main degradation product, benzylpenicilloic acid, can combine with tissue proteins to form benzylpenicilloyl (BPO), a major antigenic determinant. Some medications bind and stimulate T-cell receptors (TCR) directly; the clinical significance of nonhapten TCR binding remains under investigation (1).
+
+The mechanisms by which primary sensitization develops are not fully understood. However, once a medication stimulates an immune response, cross-reactions with other medications within and between medication classes can occur. For example, patients who are penicillin-sensitive are highly likely to react to semisynthetic penicillins (eg, amoxicillin, ticarcillin). In early, poorly designed studies, approximately 10% of patients who had a vague history of penicillin sensitivity reacted to cephalosporins, which have a similar beta-lactam structure; this finding has been cited as evidence of cross-reactivity between these medication classes. However, in better-designed studies (2), only approximately 2% of patients with a penicillin allergy detected during skin testing were found to react to cephalosporins, which is similar to the prevalence of cross-reactions to structurally unrelated antibiotics (eg, sulfonamides). Sometimes penicillin and cephalosporin cross-reactivity, and other apparent cross-reactions (eg, between sulfonamide antibiotics and nonantibiotics), are due to a predisposition to allergic reactions rather than to specific immune cross-reactivity.
+
+Pearls & Pitfalls
+
+Penicillin allergy does not necessarily preclude the use of cephalosporins.
+
+Pathophysiology references
+
+1. Pichler WJ, Watkins S, Yerly D. Risk Assessment in Drug Hypersensitivity: Detecting Small Molecules Which Outsmart the Immune System. Front Allergy 2022;3:827893. doi:10.3389/falgy.2022.827893
+
+2. Caruso C, Valluzzi RL, Colantuono S, Gaeta F, Romano A. β-Lactam Allergy and Cross-Reactivity: A Clinician's Guide to Selecting an Alternative Antibiotic. J Asthma Allergy 2021;14:31-46. doi:10.2147/JAA.S242061
+
+Symptoms and Signs of Drug Hypersensitivity
+
+Symptoms and signs of medication allergies vary by patient and medication, and a single medication may cause different reactions in different patients. The most serious reaction is anaphylaxis (type I hypersensitivity reaction); exanthema (eg, morbilliform eruptions), urticaria, and fever are common.
+
+Fixed Drug Reaction
+
+Image
+
+This photo shows a dusky purple plaque with slight erythema and scale at the periphery.
+
+Photo courtesy of Karen McKoy, MD.
+
+Fixed drug eruption (ie,reactions that recur at the same body site each time a patient is exposed to the same medication)can occur but is uncommon. The most commonly implicated drugs are non-steroidal anti-inflammatory drugs (NSAIDs, eg, ibuprofen) and certain antibiotics (eg, sulfamethoxazole/trimethoprim, tetracyclines).
+
+Some distinct clinical syndromes can involve other types of hypersensitivity reactions:
+
+Serum sickness
+
+Drug-induced immune hemolytic anemia
+
+DRESS (drug rash with eosinophilia and systemic symptoms)
+
+Pulmonary effects
+
+Renal effects
+
+Autoimmune phenomena
+
+Serum sickness
+
+Serum sickness typically occurs 7 to 10 days after exposure and causes fever, arthralgias, and rash. Mechanism is a type III hypersensitivity reaction due to medication-antibody complexes and complement activation. Some patients have frank arthritis, edema, or gastrointestinal symptoms. Symptoms are self-limited, lasting 1 to 2 weeks. Beta-lactam and sulfonamide antibiotics, iron dextran, and carbamazepine are most commonly implicated.
+
+Drug-induced immune hemolytic anemia
+
+Drug-induced immune hemolytic anemia may develop when an antibody-medication-red blood cell (RBC) interaction occurs (eg, with cephalosporins) or when a medication (eg, fludarabine, methyldopa) alters the RBC membrane in a way that induces autoantibody production, usually to circulating and not tissue-deposited antigens. These reactions are type II hypersensitivity reactions.
+
+DRESS (drug rash with eosinophilia and systemic symptoms)
+
+DRESS, also called drug-induced hypersensitivity syndrome (DIHS), is a type IV hypersensitivity reaction that can start up to 12 weeks after initiation of medication treatment and/or can occur after a dose increase. Symptoms may persist or recur for several weeks after stopping the medication. Patients have prominent eosinophilia and often develop hepatitis, exanthema, facial swelling, generalized edema, and lymphadenopathy. Antiseizure medications (eg, carbamazepine, phenytoin, lamotrigine) and allopurinol are frequently implicated.
+
+DRESS (Drug Rash With Eosinophilia and Systemic Symptoms)
+
+Image
+
+This photo shows a rash on a patient's legs caused by drug reaction with eosinophilia and systemic symptoms (DRESS), also known as drug-induced hypersensitivity syndrome (DIHS). In this patient, DRESS resulted from use of the anticonvulsant drug phenytoin.
+
+RICHARD USATINE MD / SCIENCE PHOTO LIBRARY
+
+Pulmonary hypersensitivity caused by medications
+
+Pulmonary effects may be caused by some medications (eg, bleomycin, amiodarone, nitrofurantoin, amphotericin B, sulphonamides, sulfasalazine). These medications can induce respiratory symptoms (distinct from the wheezing that may occur with type I hypersensitivity), deterioration in pulmonary function, and other pulmonary changes (called drug-induced pulmonary disease, most commonly interstitial lung disease). These effects are thought to be primarily type III and type IV hypersensitivity reactions.
+
+Renal hypersensitivity caused by medications
+
+The most common allergic renal effect is tubulointerstitial nephritis; NSAIDs (including COX-2 inhibitors), antimicrobials, and proton pump inhibitors are commonly implicated. Types I, III, and/or IV hypersensitivity reactions can be involved.
+
+Other autoimmune phenomena
+
+Other autoimmune phenomena may occur. Hydralazine, propylthiouracil, and procainamide can cause a systemic lupus erythematosus (SLE)-like syndrome (drug-induced lupus). The syndrome may be mild (with arthralgias, fever, and rash) or fairly dramatic (with serositis, high fevers, and malaise), but it tends to spare the kidneys and central nervous system. The antinuclear antibody test is positive. It typically resolves with drug discontinuation.
+
+Penicillamine can cause SLE and other autoimmune disorders (eg, myasthenia gravis, which is a type II hypersensitivity reaction). Some medications, including antithyroid medications, antituberculosis medications, certain antibiotics, allopurinol, hydralazine, and atorvastatin, can cause perinuclear antineutrophil cytoplasmic autoantibodies (p-ANCA)–associated vasculitis. The p-ANCA autoantibodies are directed against myeloperoxidase (MPO), causing type II hypersensitivity reactions.
+
+Immune checkpoint inhibitors, a commonly used class of cancer immunotherapy, can have immune-related adverse effects. These effects result from nonspecific immune activation and can affect almost any organ system; however, they most commonly affect the skin, liver, gastrointestinal tract, heart, and endocrine system. For additional information on immune system activation after immunotherapy, see Cell-Associated Neurotoxicity Syndrome (ICANS).
+
+Diagnosis of Drug Hypersensitivity
+
+Patient’s report of a reaction after taking a medication
+
+Skin testing
+
+Sometimes drug provocation testing
+
+Sometimes direct and indirect antiglobulin assays
+
+The following can help differentiate drug hypersensitivity from toxic and adverse medication effects and from problems due to drug interactions.
+
+Time of onset
+
+Known effects of a medication
+
+Results of a repeat drug provocation test (drug challenge)
+
+For example, a dose-related reaction is often medication toxicity, not drug hypersensitivity.
+
+Drug hypersensitivity is suggested when a reaction occurs within minutes to hours after medication administration. However, many patients report a past reaction of uncertain nature. In such cases, if there is no equivalent substitute (eg, when penicillin is needed to treat syphilis), testing should be considered.
+
+Skin testing
+
+Tests for type I (IgE-mediated) hypersensitivity help identify reactions to beta-lactam antibiotics, foreign (xenogeneic) serum, and some vaccines and polypeptide hormones. However, typically, only a minority of patients who report a penicillin allergy have a positive reaction on skin tests (1). Additionally, for most medications (including cephalosporins), skin tests are unreliable and, because they detect only IgE-mediated reactions, cannot predict the occurrence of other non-type I hypersensitivity reactions (eg, morbilliform eruptions, hemolytic anemia, nephritis).
+
+Penicillin skin testing can be done if patients with a history of an immediate hypersensitivity reaction must take a penicillin. BPO-polylysine conjugate and penicillin G are used with histamine and saline as controls. The prick test is used first. If patients have a history of a severe anaphylactic reaction, reagents should be diluted 100-fold for initial testing. If prick tests are negative, intradermal testing may follow. If skin tests are positive, patients should be given penicillin only as part of a medication desensitization protocol. If tests are negative, a serious reaction is extremely unlikely but not excluded. Therefore, an oral challenge with amoxicillin is often done after a negative skin test result to completely eliminate the possibility of an IgE-mediated allergy.
+
+For xenogeneic serum skin testing, patients who are not atopic and who have not previously received xenogeneic (eg, horse) serum should first be given a prick test with a 1:10 dilution; if this test is negative, 0.02 mL of a 1:1000 dilution is injected intradermally. A wheal > 0.5 cm in diameter develops within 15 minutes in sensitive patients. Initially, for all patients who may have previously received serum—whether or not they reacted—and for those with a suspected allergic history, a prick test should be done using a 1:1000 dilution; if results are negative, 1:100 is used, and if results are again negative, 1:10 is used as above. A negative result excludes the possibility of anaphylaxis but does not predict incidence of subsequent serum sickness.
+
+Other testing
+
+For drug provocation testing (also called a drug challenge), a medication suspected of causing a hypersensitivity reaction is given in escalating doses to precipitate the reaction. This test is usually safe and effective if done in a controlled setting.
+
+Because drug hypersensitivity is associated with certain human leukocyte antigen (HLA) class I haplotypes, genotyping of patients from particular ethnic groups can identify those at higher risk of hypersensitivity reactions (2).
+
+Table
+
+Some HLA-Based Risk Factors for Drug Hypersensitivity
+
+Table
+
+Some HLA-Based Risk Factors for Drug Hypersensitivity
+
+Some HLA-Based Risk Factors for Drug Hypersensitivity
+
+Medication
+
+Ethnicity
+
+HLA Haplotype
+
+Hypersensitivity Reaction
+
+Abacavir
+
+European ancestry
+
+HLA-B*5701
+
+Abacavir hypersensitivity (usually fever, rash, and GI and respiratory symptoms)
+
+Allopurinol
+
+Asian ancestry, African ancestry
+
+Less often, European ancestry
+
+HLA-B*5801
+
+SJS/TEN; DRESS
+
+Carbamazepine
+
+European ancestry, Japanese ancestry
+
+HLA-A*3101
+
+SJS/TEN
+
+Carbamazepine
+
+Asian ancestry
+
+HLA-B*1502
+
+SJS/TEN; DRESS
+
+Dapsone
+
+Mainland Chinese ancestry
+
+HLA-B*1301
+
+DRESS
+
+Fosphenytoin
+
+Phenytoin
+
+Asian ancestry
+
+HLA-B*1502
+
+SJS/TEN
+
+Lamotrigine
+
+Asian ancestry
+
+HLA-B*1502
+
+SJS/TEN
+
+DRESS = drug rash with eosinophilia and systemic symptoms; GI = gastrointestinal; HLA = human leukocyte antigen; SJS/TEN = Stevens-Johnson syndrome (SJS) and toxic epidermal necrolysis (TEN).
+
+DRESS = drug rash with eosinophilia and systemic symptoms; GI = gastrointestinal; HLA = human leukocyte antigen; SJS/TEN = Stevens-Johnson syndrome (SJS) and toxic epidermal necrolysis (TEN).
+
+Tests for hematologic medication reactions include direct and indirect antiglobulin tests. Tests for other specific drug hypersensitivity (eg, allergen-specific serum IgE testing, histamine release, basophil or mast cell degranulation, lymphocyte transformation) are unreliable or experimental.
+
+Diagnosis references
+
+1. Providencia R, Aali G, Zhu F, et al. Penicillin Allergy Testing and Delabeling for Patients Who Are Prescribed Penicillin: A Systematic Review for a World Health Organization Guideline. Clin Rev Allergy Immunol. 2024;66(2):223-240. doi:10.1007/s12016-024-08988-2
+
+2. Deshpande P, Hertzman RJ, Palubinsky AM, et al. Immunopharmacogenomics: Mechanisms of HLA-Associated Drug Reactions. Clin Pharmacol Ther. 2021;110(3):607-615. doi:10.1002/cpt.2343
+
+Treatment of Drug Hypersensitivity
+
+Medication discontinuation
+
+Supportive treatment (eg, antihistamines, glucocorticoids, epinephrine)
+
+Sometimes desensitization
+
+The treatment of medication allergies is discontinuing the implicated medication; most symptoms and signs resolve within a few days after such cessation (1).
+
+Symptomatic and supportive treatment for acute reactions may include:
+
+Antihistamines for pruritus, urticaria, or other mild type I hypersensitivity reactions
+
+NSAIDs for arthralgias
+
+Glucocorticoids for severe reactions (eg, exfoliative dermatitis, bronchospasm)
+
+Epinephrine for anaphylaxis
+
+Conditions such as drug fever, a nonpruritic rash, or mild organ system reactions require no treatment other than discontinuation of the medication.
+
+Desensitization
+
+Rapid desensitization may be necessary if IgE-mediated hypersensitivity has been established, treatment is essential, and no other alternative exists. Rapid desensitization creates a temporary tolerance (ie, for the time during which the patient is exposed to the medication) (1). If the patient goes 24 to 48 hours without exposure, sensitization will occur, and the patient is once again vulnerable if re-exposed. If possible, desensitization should be done in collaboration with an allergist. The procedure should not be attempted in patients who have had Stevens-Johnson syndrome, serum sickness, DRESS, or other severe delayed or cutaneous hypersensitivity reactions. Desensitization is usually not effective for T-cell–mediated reactions and should not be done in such cases. Whenever desensitization is done, oxygen, epinephrine, and resuscitation equipment must be available for prompt treatment of anaphylaxis.
+
+Desensitization is based on incremental dosing of the antigen every 15 to 20 minutes, beginning with a minute dose to induce subclinical anaphylaxis before exposure to therapeutic doses. This procedure depends on the constant presence of the medication in the serum and so must not be interrupted; desensitization is immediately followed by full therapeutic doses. Hypersensitivity typically returns 24 to 48 hours after treatment is stopped. Minor reactions (eg, pruritus, rash) are common during desensitization.
+
+Desensitization protocols are usually only designed for an IgE-mediated medication reaction and are effective for medications thought to be responsible for these reactions (2, 3). Typical protocols are oral or IV and are typically an 8- to 16-step protocol with increasing doses at each step until the target dose is reached. The target dose is continued for the standard duration; a pause in medication administration allows sensitization to return. When an IV route is used, multiple solutions at increased concentrations are prepared, and infusions rates are adjusted to increase the dose with each step.
+
+Rapid medication desensitization has been successful for many antibiotics (notably, penicillin [1]), some biologics, diabetes medications, aspirin, and some other medications.
+
+If a skin test to xenogeneic serum is positive, the risk of anaphylaxis is high. If serum treatment is essential, desensitization must precede it.
+
+Treatment references
+
+1. Khan DA, Banerji A, Blumenthal KG, et al. Drug allergy: A 2022 practice parameter update. J Allergy Clin Immunol. 2022;150(6):1333-1393. doi:10.1016/j.jaci.2022.08.028
+
+2. Castells M. Desensitization for drug allergy. Curr Opin Allergy Clin Immunol. 2006;6(6):476-481. doi:10.1097/ACI.0b013e3280108716
+
+3. Chastain DB, Hutzley VJ, Parekh J, et al. Antimicrobial desensitization: A review of published protocols. Pharmacy (Basel). 2019;7(3):112. doi: 10.3390/pharmacy7030112
+
+Prognosis for Drug Hypersensitivity
+
+Hypersensitivities usually decrease with time. For example, IgE antibodies to penicillin are present in 90% of patients 1 year after a type I hypersensitivity (ie, allergic) reaction but in only approximately 20 to 30% of patients after 10 years (1). Patients who have severe reactions, such as anaphylaxis, are more likely to retain antibodies to the triggering medication longer.
+
+People with medication allergies should be taught about avoiding the medication and should carry identification or an alert bracelet. The allergy should be clearly documented in the medical record.
+
+Prognosis reference
+
+1. Shenoy ES, Macy E, Rowe T, Blumenthal KG. Evaluation and Management of Penicillin Allergy: A Review. JAMA. 2019;321(2):188-199. doi:10.1001/jama.2018.19283
+
+Key Points
+
+Hypersensitivity reactions to medications are often type I (immediate, IgE-mediated), but they can be type II, III, or IV.
+
+Drug hypersensitivity can often be diagnosed based on history (mainly the patient's report of a reaction after starting to take the medication), but known adverse and toxic effects of the medication and medication interactions must be excluded.
+
+If the diagnosis is unclear, usually skin tests but occasionally medication provocation testing or other specific tests can identify some medications as the cause, particularly if type I hypersensitivity reactions are primarily involved.
+
+A negative skin test result rules out the possibility of anaphylaxis but does not predict incidence of subsequent serum sickness or other non-IgE–mediated reactions.
+
+Treat acute type I hypersensitivity reactions supportively with antihistamines for pruritus, NSAIDs for arthralgias, glucocorticoids for severe reactions (eg, exfoliative dermatitis, bronchospasm), and epinephrine for anaphylaxis.
+
+If the causative medication must be used, try rapid desensitization, in collaboration with an allergist if possible, to temporarily reduce the risk of type I hypersensitivity reactions to the medication.
+
+Hypersensitivity tends to decrease over time.

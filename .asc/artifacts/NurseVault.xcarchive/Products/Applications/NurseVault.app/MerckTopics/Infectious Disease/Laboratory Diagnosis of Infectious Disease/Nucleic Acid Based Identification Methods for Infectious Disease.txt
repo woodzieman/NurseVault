@@ -1,0 +1,44 @@
+=== Nucleic Acid–Based Identification Methods for Infectious Disease (Merck Manual Professional) ===
+Section: Infectious Disease > Laboratory Diagnosis of Infectious Disease
+Source: https://www.merckmanuals.com/professional/infectious-diseases/laboratory-diagnosis-of-infectious-disease/nucleic-acid-based-identification-methods-for-infectious-disease
+Retrieved: 2026-09-25
+
+Nucleic acid–based methods are used to detect organism-specific DNA or RNA sequences extracted from the microorganism. Sequences may or may not be amplified in vitro.
+
+Nucleic acid–based (molecular) identification has become commonplace in clinical settings; the resulting rapid identification allows the patient to be placed on specific antimicrobial therapy and avoid prolonged management on empiric, potentially inappropriate medications.
+
+Nucleic acid–based methods are generally specific and highly sensitive and can be used for all categories of microbes. Results can be provided rapidly. Because each test typically is specific to a single organism, the clinician must know the diagnostic possibilities and order tests accordingly.
+
+Recent advances have led to the development of multiplex assays, in which a single nucleic acid–based test can detect and differentiate between ≥ 2 causative microorganisms. Multiplex assays are currently available for detecting biological warfare agents and certain respiratory, enteric, or neurotropic pathogens. These assays encompass a panel of viral as well as non-viral pathogens and are ordered in response to a clinical syndrome, such as respiratory, gastrointestinal, or meningoencephalitis symptoms. Multiplex assays have similar sensitivity and specificity as single-target assays but are mostly qualitative and may be more difficult to interpret in a given patient.
+
+Nucleic acid–based tests are qualitative, but quantification methods exist for a currently limited but increasing number of infections (eg, hepatitis B, hepatitis C, HIV, cytomegalovirus, human T-lymphotropic virus); these methods can be useful for diagnosis and for monitoring response to treatment.
+
+Unamplified testing
+
+Techniques that target nucleic acid sequences but do not require amplification of those sequences are usually restricted to situations in which the organism has been first cultured or is present in high concentration in the specimen (eg, in pharyngitis caused by group A Streptococcus, in genital infections caused by Chlamydia trachomatis or Neisseria gonorrhoeae).
+
+Nucleic acid amplification
+
+Nucleic acid amplification techniques (NAAT) take tiny amounts of DNA or RNA, replicate them many times, and thus can detect minute traces of an organism in a specimen, avoiding the need for culture. These techniques are particularly useful for organisms that are difficult to culture or identify using other methods (eg, viruses, obligate intracellular pathogens, fungi, mycobacteria, some other bacteria) or that are present in low numbers.
+
+These tests may involve
+
+Target amplification (eg, polymerase chain reaction [PCR], reverse transcriptase–PCR [RT-PCR], strand displacement amplification, transcription amplification)
+
+Signal amplification (eg, branched DNA assays, hybrid capture)
+
+Probe amplification (eg, ligase chain reaction, cleavase-invader, cycling probes)
+
+Postamplification analysis (eg, sequencing of the amplified product, microarray analysis, and melting curve analysis, as is done in real-time PCR)
+
+Appropriate specimen collection and storage before arrival at the molecular diagnostic laboratory are critical. Because amplification methods are so sensitive, false-positive results from trace contamination of the specimen or equipment can easily occur.
+
+Despite high sensitivity, false-negative results sometimes occur even when a patient is symptomatic (eg, in West Nile virus infection). False-negative results can be minimized by the following:
+
+Avoiding use of swabs with wooden shafts or cotton tips (the swab that has been validated for the amplification assay must be used)
+
+Transporting specimens rapidly
+
+Freezing or refrigerating specimens if transport is likely to take > 2 hours
+
+Freezing is the typical storage method for nucleic acid amplification assays. However, specimens should be refrigerated rather than frozen if labile viruses (eg, varicella-zoster virus, influenza virus, HIV-2) are suspected or if viral cultures are also to be done (frozen specimens may not be usable for standard cultures).

@@ -1,0 +1,514 @@
+=== azaCITIDine — Drug Information (Merck Manual Professional) ===
+Source: https://www.merckmanuals.com/professional/drug-names-generic-and-brand (productId 3214)
+Retrieved: 2026-09-25
+NURSING QUICK-REFERENCE SUMMARY
+Auto-generated on 2026-09-25 from the prescribing information in this file; full details follow below.
+
+Drug Class: Azacitidine is a pyrimidine nucleoside analog chemotherapy agent.
+
+Routes: injection (IV/IM/SC), oral; Common adult doses: IV or subcutaneous dosing: 100 mg/m2 daily for 7 days per cycle.Oral dosing: 300 mg daily for 14 days per cycle.
+
+Common Side Effects (excluding routine GI upset): agranulocytosis, anemia, leukopenia, lymphadenopathy, neutropenia, pancytopenia, splenomegaly, thrombocytopenia, ascites, cholecystitis, coma, hematuria, hypokalemia, renal failure (unspecified), renal tubular acidosis (rta), gi bleeding, acute febrile neutrophilic dermatosis, bullous rash, ecchymosis, erythema, hematoma, injection site reaction, maculopapular rash, necrotizing fasciitis, petechiae, pruritus, rash, skin necrosis, urticaria, vasculitis
+
+In an Overdose: No overdose/antidote information is listed in this file.
+
+Key Nursing Considerations: Contraindications/precautions: This medication is contraindicated in patients with a history of hypersensitivity to it or any of its components. Do not substitute azacitidine for injection for oral azacitidine; ensure correct formulation selection. Emetic risk: Moderate Hazardous drug: NIOSH 2024 List: Table 1
+
+AZACITIDINE
+
+Close
+
+Brand Names
+Indication Specific Dosing
+Contraindications And Precaution
+Pregnancy And Lactation
+Interactions
+Adverse Reaction
+Description
+Mechanism Of Action
+Pharmacokinetics
+Administration
+Maximum Dosage Limits
+Dosage Forms
+Dosage Adjustment Guidelines
+Drug Information Provided by Elsevier
+
+This information reflects approved US FDA prescribing information and may not reflect prescribing information in your country. Please consult a drug reference applicable to your country.
+
+Brand Names
+
+ONUREG, Vidaza
+
+Indication Specific Dosing
+
+For the treatment of myelodysplastic syndrome (MDS)
+
+For the treatment of MDS subtypes of refractory anemia or refractory anemia with ringed sideroblasts (if accompanied by neutropenia or thrombocytopenia or requiring transfusions), refractory anemia with excess blasts, refractory anemia with excess blasts in transformation, and chronic myelomonocytic leukemia
+Subcutaneous dosage
+Adults
+
+
+75 mg/m2 subcutaneous once daily for 7 days repeated every 4 weeks. The dose may be increased to 100 mg/m2 subcutaneous if no beneficial response is seen after 2 treatment cycles, and no toxicity other than nausea and vomiting has occurred. It is recommended that patients be treated for a minimum of 4 to 6 treatment cycles. Treatment may be continued as long as the patient continues to benefit. All patients should receive antiemetics prior to each azacitidine dose. Therapy interruption or a dose reduction may be necessary if a patient develops severe treatment-related toxicity. In a phase III trial (n = 191), patients were randomized to azacitidine 75 mg/m2 subcutaneous once daily for 7 days on days 1, 29, 57, and 85 or supportive care; patients who received supportive care were allowed to cross-over if their disease worsened. Patients were reassessed after 4 cycles, and those with a complete response (CR) continued for 3 more cycles, those with a partial response (PR) or stable disease continued until CR or progressive disease. Quality of life (QOL) was also assessed in this study. Responses occurred in 60% of patients receiving azacitidine (7% CR, 16% PR, and 37% with improvement in symptoms) compared with only 5% of patients in the observation arm demonstrating improvement. Median time to leukemic transformation was 21 months in the azacitidine arm compared with 13 months in the supportive care arm. QOL assessment found significant major advantages in physical function, symptoms, and psychological state for patients initially treated with azacitidine.
+
+
+Intravenous dosage
+Adults
+
+
+75 mg/m2 IV once daily for 7 days repeated every 4 weeks. The dose may be increased to 100 mg/m2 IV if no beneficial response is seen after 2 treatment cycles, and no toxicity other than nausea and vomiting has occurred. It is recommended that patients be treated for a minimum of 4 to 6 treatment cycles. Treatment may be continued as long as the patient continues to benefit. All patients should receive antiemetics prior to each azacitidine dose. Therapy interruption or a dose reduction may be necessary if a patient develops severe treatment-related toxicity.
+
+
+For the treatment of acute myelogenous leukemia (AML)
+
+For the treatment of newly diagnosed AML in elderly patients who are ineligible for a hematopoietic stem-cell transplant†
+Subcutaneous dosage
+Adults 65 years and older
+
+
+75 mg/m2 subcutaneously daily for 7 days repeated every 28 days for at least 6 cycles was evaluated in a randomized, phase 3 trial (n = 488; the AZA-AML-001 trial).
+
+
+For the treatment of newly-diagnosed AML in adults who are age 75 years or older or who have comorbidities that make them ineligible for intensive induction chemotherapy, in combination with venetoclax†
+Subcutaneous dosage
+Adults
+
+
+75 mg/m2 subcutaneously daily for 7 days repeated every 28 days starting on day 1 of cycle 1 in combination with venetoclax. The oral venetoclax dose is increased during a ramp-up phase as follows: 100 mg on day 1; 200 mg on day 2; 400 mg on day 3; and 400 mg once daily on day 4 and beyond. Continue treatment until disease progression. At a median follow-up time of 20.5 months (range, less than 0.1 to 30.7 months), the median overall survival (OS) time was significantly longer in patients with previously untreated acute myelogenous leukemia who received azacitidine plus venetoclax compared with azacitidine plus placebo (14.7 months vs. 9.6 months; hazard ratio (HR) = 0.66; 95% CI, 0.52 to 0.85; p less than 0.001) in a prespecified interim analysis of a randomized (2:1), double-blind, phase 3 trial (n = 431; the VIALE-A trial). The complete remission plus complete remission with partial hematologic recovery was significantly higher in the azacitidine plus venetoclax arm compared with azacitidine plus placebo arm (64.7% vs. 22.8%; p less than 0.001). In a subgroup of patients with IDH1 or IDH2 mutations at baseline (n = 89), the 12-month OS rate was higher with azacitidine plus venetoclax compared with azacitidine plus placebo (66.8% vs. 35.7%; HR = 0.35; 95% CI, 0.2 to 0.6; p less than 0.001). Eligible patients (median age, 76 years; range, 49 to 91 years) in this trial were aged 75 years or older (approximately 60%) and/or had coexisting conditions that prevented the use of intensive chemotherapy (i.e., standard induction therapy).
+
+
+Intravenous dosage
+Adults
+
+
+75 mg/m2 IV daily for 7 days repeated every 28 days starting on day 1 of cycle 1 in combination with venetoclax. The oral venetoclax dose is increased during a ramp-up phase as follows: 100 mg on day 1; 200 mg on day 2; 400 mg on day 3; and 400 mg once daily on day 4 and beyond. Continue treatment until disease progression. At a median follow-up time of 20.5 months (range, less than 0.1 to 30.7 months), the median overall survival (OS) time was significantly longer in patients with previously untreated acute myelogenous leukemia who received azacitidine plus venetoclax compared with azacitidine plus placebo (14.7 months vs. 9.6 months; hazard ratio (HR) = 0.66; 95% CI, 0.52 to 0.85; p less than 0.001) in a prespecified interim analysis of a randomized (2:1), double-blind, phase 3 trial (n = 431; the VIALE-A trial). The complete remission plus complete remission with partial hematologic recovery was significantly higher in the azacitidine plus venetoclax arm compared with azacitidine plus placebo arm (64.7% vs. 22.8%; p less than 0.001). In a subgroup of patients with IDH1 or IDH2 mutations at baseline (n = 89), the 12-month OS rate was higher with azacitidine plus venetoclax compared with azacitidine plus placebo (66.8% vs. 35.7%; HR = 0.35; 95% CI, 0.2 to 0.6; p less than 0.001). Eligible patients (median age, 76 years; range, 49 to 91 years) in this trial were aged 75 years or older (approximately 60%) and/or had coexisting conditions that prevented the use of intensive chemotherapy (i.e., standard induction therapy).
+
+
+For the treatment of AML in patients who achieved first complete remission (CR) or CR with incomplete blood count recovery following intensive induction chemotherapy and are not able to complete intensive curative therapy
+Oral dosage
+Adults
+
+
+300 mg orally daily on days 1 to 14 repeated every 28 days until disease progression. Therapy interruption, dose reduction, or discontinuation may be necessary in patients who develop severe toxicity. Administer an antiemetic agent 30 minutes prior to each dose for the first 2 cycles; the antiemetic may be stopped after 2 cycles if the patient has no nausea and vomiting. At a median follow-up of 41.2 months, the median overall survival (OS) time was significantly increased in patients not eligible for a hematopoietic stem-cell transplant who received oral azacitidine compared with placebo (24.7 months vs. 14.8 months; p less than 0.001) in a randomized, double-blind, phase 3 trial (QUAZAR AML-001 trial; n = 472). Patients (median age, 68 years; range, 55 to 86 years) in this trial had achieved a CR or CR with incomplete blood count recovery to induction therapy with cytarabine-based regimens in combination with an anthracycline or similar agent; 80% of patients had received at least 1 cycle of consolidation therapy. The median OS times were higher with oral azacitidine compared with placebo in patients with measurable residual disease (MRD)-positive (14.6 months vs. 10.4 months; HR = 0.69; 95% CI, 0.51 to 0.93) and MDR-negative (30.1 months vs. 24.3 months; HR = 0.81; 95% CI, 0.59 to 1.12) status at baseline/screening in an exploratory analysis (n = 463) from the QUAZAR AML-001 trial. The benefit of oral azacitidine therapy versus placebo on OS regardless of baseline MRD status was confirmed in a multivariate analysis (HR = 0.74; 95% CI, 0.59 to 0.92). Additionally, patients who received oral azacitidine were more likely to convert from MRD-positive to MRD-negative status during treatment and had a longer overall duration of MRD negativity compared with patients who received placebo.
+
+
+For the treatment of newly-diagnosed AML with an IDH1 mutation in patients who are 75 years of age or older or who have comorbidities that preclude use of intensive induction chemotherapy, in combination with ivosidenib†
+Subcutaneous dosage
+Adults
+
+
+75 mg/m2 subcutaneously once daily on days 1 to 7, every 28 days, in combination with ivosidenib (500 mg PO once daily until disease progression); alternatively, azacitidine may be administered once daily on days 1 to 5 and days 8 to 9, every 28 days. Therapy interruption, dose reduction, or drug discontinuation may be necessary in patients who develop toxicity. Coadministration of certain drugs may need to be avoided or dosage adjustments may be necessary; review drug interactions. In a multicenter, randomized, double-blind phase 3 clinical trial, patients with newly diagnosed, IDH1-positive AML who were 75 years or older or had comorbidities precluding the use of intensive induction chemotherapy were randomized to treatment with azacitidine plus ivosidenib (n = 72) or azacitidine plus placebo (n = 74). The primary endpoint of event-free survival duration was the same in each group (0.03 months). However, a secondary endpoint of complete remission (CR) was significantly higher in the ivosidenib group compared with the placebo group (34% vs. 11%), for a median duration not estimable versus 11 months, respectively; the rate of CR plus CR with partial hematologic recovery (CR+CRh) was also significantly higher in the ivosidenib arm (37% vs. 13%). Treatment with azacitidine plus ivosidenib significantly improved another secondary endpoint of median overall survival compared with azacitidine plus placebo (24 months vs. 7.9 months).
+
+
+Intravenous dosage
+Adults
+
+
+75 mg/m2 IV once daily on days 1 to 7, every 28 days, in combination with ivosidenib (500 mg PO once daily until disease progression); alternatively, azacitidine may be administered once daily on days 1 to 5 and days 8 to 9, every 28 days. Therapy interruption, dose reduction, or drug discontinuation may be necessary in patients who develop toxicity. Coadministration of certain drugs may need to be avoided or dosage adjustments may be necessary; review drug interactions. In a multicenter, randomized, double-blind phase 3 clinical trial, patients with newly diagnosed, IDH1-positive AML who were 75 years or older or had comorbidities precluding the use of intensive induction chemotherapy were randomized to treatment with azacitidine plus ivosidenib (n = 72) or azacitidine plus placebo (n = 74). The primary endpoint of event-free survival duration was the same in each group (0.03 months). However, a secondary endpoint of complete remission (CR) was significantly higher in the ivosidenib group compared with the placebo group (34% vs. 11%), for a median duration not estimable versus 11 months, respectively; the rate of CR plus CR with partial hematologic recovery (CR+CRh) was also significantly higher in the ivosidenib arm (37% vs. 13%). Treatment with azacitidine plus ivosidenib significantly improved another secondary endpoint of median overall survival compared with azacitidine plus placebo (24 months vs. 7.9 months).
+
+
+For the treatment of juvenile myelomonocytic leukemia (JMML)
+
+For the treatment of newly diagnosed JMML
+Intravenous dosage
+Infants
+
+
+2.5 mg/kg IV daily for 7 days repeated every 28 days for a minimum of 3 cycles. Continue treatment for a maximum of 6 cycles in responding patients.  After 3 cycles of azacitidine therapy for the treatment of newly diagnosed juvenile myelomonocytic leukemia (median age, 2.1 years; range, 0.2 to 6.9 years), 11 of 18 patients (61%) achieved a clinical partial remission (cPR) and 6 of 16 (38%) transfusion-dependent patients no longer required transfusions in a multicenter, phase 2 (AZA-JMML-001) trial. Seven patients who had intermediate- or low-methylation signatures in genome-wide DNA-methylation studies all had a cPR. Additionally, 17 patients (94%) received an allogeneic hematopoietic stem cell transplantation (HSCT); 14 of these patients (82%) were leukemia-free at a median follow-up of 23.8 (range, 7 to 39.3) months after HSCT. At a median follow-up of 26.9 (range, 18.2 to 44.4) months, 16 patients (90%) were alive.  
+
+
+Children weighing less than 10 kg
+
+
+2.5 mg/kg IV daily for 7 days repeated every 28 days for a minimum of 3 cycles. Continue treatment for a maximum of 6 cycles in responding patients.  After 3 cycles of azacitidine therapy for the treatment of newly diagnosed juvenile myelomonocytic leukemia (median age, 2.1 years; range, 0.2 to 6.9 years), 11 of 18 patients (61%) achieved a clinical partial remission (cPR) and 6 of 16 (38%) transfusion-dependent patients no longer required transfusions in a multicenter, phase 2 (AZA-JMML-001) trial. Seven patients who had intermediate- or low-methylation signatures in genome-wide DNA-methylation studies all had a cPR. Additionally, 17 patients (94%) received an allogeneic hematopoietic stem cell transplantation (HSCT); 14 of these patients (82%) were leukemia-free at a median follow-up of 23.8 (range, 7 to 39.3) months after HSCT. At a median follow-up of 26.9 (range, 18.2 to 44.4) months, 16 patients (90%) were alive.
+
+
+Children and Adolescents weighing 10 kg or more
+
+
+75 mg/m2 IV daily for 7 days repeated every 28 days for a minimum of 3 cycles. Continue treatment for a maximum of 6 cycles in responding patients.  After 3 cycles of azacitidine therapy for the treatment of newly diagnosed juvenile myelomonocytic leukemia (median age, 2.1 years; range, 0.2 to 6.9 years), 11 of 18 patients (61%) achieved a clinical partial remission (cPR) and 6 of 16 (38%) transfusion-dependent patients no longer required transfusions in a multicenter, phase 2 (AZA-JMML-001) trial. Seven patients who had intermediate- or low-methylation signatures in genome-wide DNA-methylation studies all had a cPR. Additionally, 17 patients (94%) received an allogeneic hematopoietic stem cell transplantation (HSCT); 14 of these patients (82%) were leukemia-free at a median follow-up of 23.8 (range, 7 to 39.3) months after HSCT. At a median follow-up of 26.9 (range, 18.2 to 44.4) months, 16 patients (90%) were alive.  
+
+
+Contraindications And Precaution
+Drug Interactions
+
+The coadministration of certain medications may lead to harm and require avoidance or therapy modification; review all drug interactions prior to concomitant use of other medications.
+
+Hypersensitivity
+
+This medication is contraindicated in patients with a history of hypersensitivity to it or any of its components.
+
+Treatment-Related Restrictions of Use
+
+Do not substitute azacitidine for injection for oral azacitidine; ensure correct formulation selection. The indications and dosing regimen for azacitidine for injection differ from that of oral azacitidine. The safety and effectiveness of azacitidine oral tablets for treatment of myelodysplastic syndrome (MDS) have not been established (off-label use). The AZA-MDS-003 trial was halted early when a higher incidence of early fatal and/or serious adverse reactions (e.g., sepsis) were reported in patients who received oral azacitidine compared with placebo. Therefore, oral azacitidine is not recommended in patients with MDS for treatment outside of a clinical trial.
+
+renal failure, renal impairment
+
+
+Use azacitidine for injection with caution in patients with renal impairment; these patients may be at an increased risk for renal toxicity. Nephrotoxicity (e.g., elevated serum creatinine levels, renal failure, renal tubular acidosis) has been reported in patients who received azacitidine for injection in combination with other chemotherapeutic agents for non-myelodysplastic syndrome (MDS) indications; some cases resulted in death. Therapy interruption and/or a dose reduction may be necessary in patients who develop signs of nephrotoxicity. Patients with MDS or JMML and renal impairment were excluded from clinical trials. In patients with acute myelogenous leukemia treated with oral azacitidine, monitor patients with severe renal impairment (CrCl 15 to 29 mL/min) more frequently for signs of renal toxicity. Therapy interruption, dose or schedule reduction, or discontinuation may be necessary in patients who develop severe nephrotoxicity.
+
+
+hepatic disease, hypoalbuminemia, liver cancer
+
+
+Use azacitidine for injection with caution in patients with underlying hepatic disease. Azacitidine for injection is contraindicated in patients with advanced hepatic malignancies (e.g., liver cancer). Progressive hepatic coma and death have been reported in azacitidine-treated patients with extensive tumor burden due to metastatic disease, particularly in patients with hypoalbuminemia (i.e., baseline albumin level less than 30 grams/L). Hepatotoxicity may occur in patients receiving azacitidine for injection with severe hepatic impairment; oral azacitidine has not been studied in this patient population (total bilirubin greater than 3 times ULN).
+
+
+pregnancy
+
+
+Azacitidine may cause fetal harm when administered during pregnancy, based on its mechanism of action and data from animal studies. There are no data on the use of azacitidine during human pregnancy. Azacitidine was teratogenic and caused embryo-fetal lethality in animals as doses lower than the recommended daily human dose. Fetal anomalies included exencephaly/encephalocele, micromelia, club foot, syndactyly, oligodactyly, micrognathia, gastroschisis, edema, and rib abnormalities.
+
+
+people who can cause pregnancy in others, people who may become pregnant, reproductive risk
+
+
+Counsel people who may become pregnant and people who can cause pregnancy in others about the reproductive risk associated with azacitidine. Azacitidine may cause fetal harm. Verify pregnancy status prior to treatment initiation. Advise people who may become pregnant to use effective contraception while taking azacitidine and for 6 months after the last dose. For those that can cause pregnancy in others, contraception should be used during azacitidine treatment and for 3 months after the last dose. Based on data in animals, azacitidine may cause male or female infertility.
+
+
+breast-feeding
+
+
+Advise patients to avoid breast-feeding while taking azacitidine and for 1 week after the last dose. There are no data on the presence of azacitidine in human milk, its effects on the breast-fed child, or its effects on milk production. Azacitidine has the potential to cause serious side effects in the breast-fed child.
+
+
+Pregnancy And Lactation
+
+
+Azacitidine may cause fetal harm when administered during pregnancy, based on its mechanism of action and data from animal studies. There are no data on the use of azacitidine during human pregnancy. Azacitidine was teratogenic and caused embryo-fetal lethality in animals as doses lower than the recommended daily human dose. Fetal anomalies included exencephaly/encephalocele, micromelia, club foot, syndactyly, oligodactyly, micrognathia, gastroschisis, edema, and rib abnormalities.
+
+
+Interactions
+
+Cholera Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the live cholera vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to cholera bacteria after receiving the vaccine.
+Decitabine; Cedazuridine: (Major) Avoid the concomitant use of decitabine; cedazuridine with drugs that are metabolized by the enzyme cytidine deaminase (CDA), such as azacitidine; the cytotoxicity of azacitidine may be increased. Cedazuridine is a CDA inhibitor. CDA is one of the enzymes responsible for the metabolism of azacitidine to form inactive metabolites.
+Dengue Tetravalent Vaccine, Live: (Contraindicated) Avoid administration of the live dengue virus vaccine with immunosuppressive drug therapy and prior to immune recovery following treatment with immunosuppressive drug therapy. When feasible, administer indicated live virus vaccines at least 4 weeks before planned immunosuppression or wait until at least 3 months after discontinuation. The time to restoration of immune competence may be longer in some patients. Patients with altered immunocompetence may be at increased risk for severe adverse reactions due to uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+SARS-CoV-2 (COVID-19) vaccines: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) mRNA Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) Recombinant Spike Protein Nanoparticle Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+Sodium Iodide I-131: (Moderate) Monitor for bone marrow suppression during concomitant use of sodium iodide I-131 and antineoplastic agents. Concomitant use of bone marrow depressants may enhance the depression of the hematopoietic system caused by the use of large doses of sodium iodide I-131.
+Tuberculin Purified Protein Derivative, PPD: (Moderate) Immunosuppressives may decrease the immunological response to tuberculin purified protein derivative, PPD. This suppressed reactivity can persist for up to 6 weeks after treatment discontinuation. Consider deferring the skin test until completion of the immunosuppressive therapy.
+
+
+Adverse Reaction
+agranulocytosis, anemia, leukopenia, lymphadenopathy, neutropenia, pancytopenia, splenomegaly, thrombocytopenia
+
+
+Hematologic adverse events have been reported in patients who received azacitidine in clinical studies. In patients with myelodysplastic syndrome (MDS) treated with azacitidine for injection, a dosage adjustment in subsequent cycles may be required based on nadir counts and hematologic response. In patients with juvenile myelomonocytic leukemia (JMML), dose reductions are not recommended within the first 3 cycles of treatment. Discontinue azacitidine therapy in patients who have a neutrophil count less than 0.5 x 10^9 cells/L at the end of cycle 3 or on day 1 of cycle 5 or 6. In patients with acute myelogenous leukemia (AML) treated with oral therapy, therapy interruption, dose or schedule reduction, or discontinuation may be necessary in patients who develop severe hematologic toxicity; monitor complete blood cells counts (CBC) every other week for the 2 cycles after any dose reduction for myelosuppression. Provide standard supportive care, including hematopoietic growth factors, if myelosuppression occurs. Anemia (70%), thrombocytopenia (66%), leukopenia (48%), neutropenia (32%), and febrile neutropenia (16%) were reported in MDS patients who received subcutaneous azacitidine (n = 220) in pooled results from 2 clinical studies. Additionally, thrombocytopenia (70%; grade 3 or 4, 58%), neutropenia (66%; grade 3 or 4, 61%), anemia (51%; grade 3 or 4, 14%), leukopenia (18%; grade 3 or 4, 15%), and febrile neutropenia (14%; grade 3 or 4, 13%) occurred in MDS patients who received subcutaneous azacitidine plus best supportive care (n = 175) in another randomized trial. Agranulocytosis, bone marrow failure, pancytopenia, and splenomegaly were reported in less than 5% of patients treated with subcutaneous or IV azacitidine in clinical studies. Anemia (39%; grade 3 or 4, 33%), thrombocytopenia (28%; grade 3 or 4, 22%), neutropenia (17%; grade 3 or 4, 11%), febrile neutropenia (11%; grade 3 or 4, 6%), and lymphadenopathy (11%; grade 3 or 4, 6%) were reported in pediatric patients (age range, 0.2 to 6.9 years) with JMML who received IV azacitidine in a clinical trial (n = 18). Neutropenia (74%), thrombocytopenia (65%), anemia (25%), and febrile neutropenia (12%; grade 3 or 4, 11%) occurred in AML patients who received oral azacitidine (n = 236) in a randomized trial; grade 3 or 4 neutropenia (49%), thrombocytopenia (21%), and anemia (4%) were worsened from baseline in azacitidine-treated patients.
+
+
+ascites, cholecystitis, coma
+
+
+Progressive hepatic coma and death have been reported in azacitidine-treated patients with extensive tumor burden due to metastatic disease, particularly in patients with hypoalbuminemia (i.e., baseline albumin level less than 30 grams/L). Monitor liver function tests prior to starting azacitidine and before each cycle of therapy. Ascites was reported in 11% (grade 3 or 4, 6%) of pediatric patients (age range, 0.2 to 6.9 years) with juvenile myelomonocytic leukemia who received IV azacitidine in a clinical trial (n = 18). Cholecystitis and cholecystectomy each occurred in less than 5% of patients treated with subcutaneous or IV azacitidine in clinical studies.
+
+
+hematuria, hypokalemia, renal failure (unspecified), renal tubular acidosis (RTA)
+
+
+Nephrotoxicity (e.g., elevated serum creatinine levels, renal failure (unspecified), renal tubular acidosis (RTA)) has been reported in patients who received azacitidine for injection in combination with other chemotherapeutic agents for non-myelodysplastic (MDS) syndrome indications (off-label use); some cases resulted in death. In patients with MDS treated with azacitidine for injection, monitor serum creatinine levels and electrolytes prior to starting azacitidine and prior to each cycle of therapy. Therapy interruption and/or a dose reduction may be necessary in patients who develop signs of nephrotoxicity. RTA, defined as a fall in serum bicarbonate to less than 20 mEq/L in association with alkaline urine and hypokalemia (serum potassium less than 3 mEq/L), developed in 5 patients with chronic myeloid leukemia treated with azacitidine and etoposide. Hypokalemia (6%; grade 3 or 4, 2%) and hematuria (6%; grade 3 or 4, 2%) occurred in MDS patients who received subcutaneous azacitidine plus best supportive care (n = 175) in a multicenter, randomized trial (n = 277). Renal failure and loin pain have been reported in less than 5% of patients treated with subcutaneous or IV azacitidine in clinical studies. In patients with acute myelogenous leukemia treated with oral azacitidine, monitor patients with severe renal impairment (creatinine clearance, 15 to 29 mL/min) more frequently for signs of renal toxicity. Therapy interruption, dose or schedule reduction, or discontinuation may be necessary in patients who develop severe nephrotoxicity.
+
+
+bleeding
+
+
+Post procedural bleeding was reported in 6% of patients with myelodysplastic syndrome who received subcutaneous azacitidine (n = 220) compared with 1% of patients on observation alone (n = 92) in pooled results from 2 clinical studies.
+
+
+abdominal pain, anorexia, constipation, diarrhea, dyspepsia, GI bleeding, melena, nausea, stomatitis, vomiting
+
+
+Gastrointestinal adverse events have been reported in patients who received azacitidine in clinical studies. In patients with acute myelogenous leukemia (AML) treated with oral therapy, administer an antiemetic agent 30 minutes prior to each dose for the first 2 cycles; the antiemetic may be stopped after 2 cycles if the patient has no nausea and vomiting. Therapy interruption, dose or schedule reduction, or discontinuation may be necessary in patients who develop severe nausea, vomiting, or diarrhea. Nausea (65%; grade 3 or 4, 3%), vomiting (60%; grade 3 or 4, 3%), diarrhea (50%; grade 3 or 4, 5%), constipation (39%; grade 3 or 4, 1%), abdominal pain (22%; grade 3 or 4, 2%), and decreased appetite/anorexia (13%; grade 3 or 4, 1%) occurred in AML patients who received oral azacitidine (n = 236) in a randomized trial. Nausea (71%), vomiting (54%), diarrhea (36%), constipation (34%), anorexia (21%), abdominal pain (tenderness) (12%), gingival bleeding (10%), stomatitis (8%), loose stools (6%), and mouth bleeding (5%) were reported in myelodysplastic syndrome (MDS) patients who received subcutaneous azacitidine (n = 220) in pooled results from 2 clinical studies. Additionally, constipation (50%; grade 3 or 4, 1%), nausea (48%; grade 3 or 4, 2%) vomiting (27%), abdominal pain (13%; grade 3 or 4, 4%), and dyspepsia (6%) occurred in MDS patients who received subcutaneous azacitidine plus best supportive care (n = 175) in another randomized trial. Diverticulitis, GI bleeding, melena, and perirectal abscess were reported in less than 5% of patients treated with subcutaneous or IV azacitidine in clinical studies. Vomiting (28%), diarrhea (22%; grade 3 or 4, 6%), constipation (22%), and abdominal pain (22%; grade 3 or 4, 11%), nausea (11%), and GI bleeding including rectal and mouth bleeding (11%) were reported in pediatric patients (age range, 0.2 to 6.9 years) with juvenile myelomonocytic leukemia who received IV azacitidine in a clinical trial (n = 18).
+
+
+acute febrile neutrophilic dermatosis, bullous rash, ecchymosis, erythema, hematoma, injection site reaction, maculopapular rash, necrotizing fasciitis, petechiae, pruritus, rash, skin necrosis, urticaria, vasculitis, xerosis
+
+
+Dermatologic adverse events have been reported in patients with myelodysplastic syndrome who received azacitidine in clinical studies. Ecchymosis (31% vs. 15%), petechiae (24% vs. 9%), erythema (17% vs. 4%), rash (14% vs. 10%), hematoma (9% vs. 0%), urticaria (6% vs. 1%), skin nodule (5% vs. 1%), and xerosis (5% vs. 1.%) were reported more often in patients who received subcutaneous azacitidine (n = 220) compared with patients who received observation alone (n = 92) in pooled results from 2 clinical studies; injection site reaction including injection site erythema (35%), pain (23%), bruising (14%), reaction (14%), pruritus (7%), granuloma (5%), pigmentation changes (5%), and swelling (5%) were also reported with azacitidine use. Additionally, pruritus (12% vs. 2%), petechiae (11% vs. 4%), rash (10% vs. 1%), and erythema (7% vs. 3%) occurred more often in the subcutaneous azacitidine plus best supportive care (BSC) arm compared with the conventional care plus BSC arm in a multicenter, randomized trial (n = 277); grade 3 or 4 petechiae was reported in 1.1% of azacitidine-treated patients. In this study, injection site reactions including injection site erythema (43%), reaction (29%), pain (19%), hematoma (6%), rash (6%), bruising (5%), and induration (5%) were also reported with azacitidine use. Pyoderma gangrenosum, pruritic rash, skin duration, and catheter site hemorrhage occurred in less than 5% of patients treated with subcutaneous or IV azacitidine in clinical studies. Rash (44%), pruritus (22%), allergic dermatitis (11%), and petechiae (11%) were reported in pediatric patients (age range, 0.2 to 6.9 years) with juvenile myelomonocytic leukemia who received IV azacitidine in a clinical trial (n = 18). In this trial, the term rash included maculopapular rash, bullous rash/dermatitis. Injection-site skin necrosis, Sweet's syndrome (acute febrile neutrophilic dermatosis), necrotizing fasciitis (including fatal cases), and cutaneous vasculitis have been reported with azacitidine use in postmarketing surveillance.
+
+
+arthralgia, back pain, bone pain, musculoskeletal pain, myalgia, weakness
+
+
+Musculoskeletal adverse events have been reported in patients who received azacitidine in clinical studies. Arthralgia (22%), myalgia (16%), and chest wall pain (5%) were reported in patients with myelodysplastic syndrome who received subcutaneous azacitidine (n = 220) in pooled results from 2 clinical studies. Aggravated bone pain, muscle weakness, and neck pain have been reported in less than 5% of patients treated with subcutaneous or IV azacitidine in clinical studies. Musculoskeletal pain including back pain and extremity pain occurred in 11% of pediatric patients (age range, 0.2 to 6.9 years) with juvenile myelomonocytic leukemia who received IV azacitidine in a clinical trial (n = 18). Arthralgia (14%; grade 3 or 4, 1%) and extremity pain (11%; grade 3 or 4, less than 1%) occurred in patients with acute myelogenous leukemia who received oral azacitidine (n = 236) in a randomized trial.
+
+
+dizziness, headache, intracranial bleeding, seizures
+
+
+Central nervous system adverse events have been reported in patients who received azacitidine in clinical studies. Headache (22%) and dizziness (19%) were reported in patients with myelodysplastic syndrome who received subcutaneous azacitidine (n = 220) in pooled results from 2 clinical studies. Cerebral hemorrhage, seizures, and intracranial bleeding were reported in less than 5% of patients treated with subcutaneous or IV azacitidine in clinical studies. Dizziness occurred in 11% of patients with acute myelogenous leukemia who received oral azacitidine (n = 236) in a randomized trial.
+
+
+anxiety, insomnia
+
+
+Psychiatric adverse events have been reported in patients with myelodysplastic syndrome who received azacitidine in clinical studies. Anxiety (13% vs. 3%) and insomnia (11% vs. 4%) were reported more often in patients who received subcutaneous azacitidine (n = 220) compared with patients who received observation alone (n = 92) in pooled results from 2 clinical studies. Additionally, anxiety (5% vs. 1%) and insomnia (9% vs. 3%) occurred more often in the subcutaneous azacitidine plus best supportive care (BSC) arm compared with the conventional care plus BSC arm in a multicenter, randomized trial (n = 277).
+
+
+cough, dyspnea, epistaxis, hemoptysis, pneumonitis
+
+
+Respiratory adverse events have been reported in patients with myelodysplastic syndrome who received azacitidine in clinical studies. Dyspnea was reported in 29% patients who received subcutaneous azacitidine (n = 220) compared with 12% of patients on observation alone (n = 92) in pooled results from 2 clinical studies. Additionally, dyspnea (15% vs. 5%) or exertional dyspnea (5% vs. 1%) and pharyngolaryngeal pain (6% vs. 3%) occurred more often in the subcutaneous azacitidine plus best supportive care (BSC) arm compared with the conventional care plus BSC arm in a multicenter, randomized trial (n = 277). In this study, grade 3 or 4 dyspnea was reported in 3% of azacitidine-treated patients. Hemoptysis, lung infiltration, pneumonitis, and respiratory distress occurred in less than 5% of patients treated with subcutaneous or IV azacitidine in clinical studies. Cough (22%) and epistaxis (17%; grade 3 or 4, 6%) were reported in pediatric patients (age range, 0.2 to 6.9 years) with juvenile myelomonocytic leukemia who received IV azacitidine in a clinical trial (n = 18). Interstitial lung disease has been reported with azacitidine use in postmarketing surveillance.
+
+
+candidiasis, folliculitis, infection, influenza, pharyngitis, pleural effusion, rhinitis, sepsis, sinusitis, tracheitis
+
+
+Infection has been reported in patients who received azacitidine in clinical studies. Naso-pharyngitis (15%), upper respiratory tract infection (13%), and pneumonia (11%) were reported in patients with myelodysplastic syndrome (MDS) who received subcutaneous azacitidine (n = 220) in pooled results from 2 clinical studies. Additionally, upper respiratory tract infection (9%; grade 3 or 4, 2%), urinary tract infection (9%; grade 3 or 4, 2%), and rhinitis (6%) occurred in MDS patients who received subcutaneous azacitidine plus best supportive care (n = 175) in a multicenter, randomized trial. Limb abscess, bacterial infection, cellulitis, blastomycosis, injection site infection, Klebsiella sepsis, neutropenic sepsis, streptococcal pharyngitis, systemic inflammatory response syndrome, Klebsiella pneumonia, sepsis, septic shock, Staphylococcal bacteremia and infection, and toxoplasmosis were reported in less than 5% of patients treated with subcutaneous or IV azacitidine in clinical studies. Upper respiratory tract infection (44%; grade 3 or 4, 6%), febrile infection (11%; grade 3 or 4, 6%), fungal infection including candidiasis (11%; grade 3 or 4, 6%), and pneumonia (11%) were reported in pediatric patients (age range, 0.2 to 6.9 years) with juvenile myelomonocytic leukemia who received IV azacitidine in a clinical trial (n = 18). The term upper respiratory infection included influenza, nasopharyngitis, and rhinitis. Upper respiratory tract infection (34%; grade 3 or 4, 2%), pneumonia (27%; grade 3 or 4, 9%), skin infection (11%; grade 3 or 4, 3%), and sepsis including septic shock and 1 fatal event (6%; grade 3 or higher, 5%) occurred in patients with acute myelogenous leukemia who received oral azacitidine (n = 236) in a randomized trial. The term upper respiratory tract infection included influenza, nasopharyngitis, pharyngitis, rhinitis, sinusitis, tonsilitis, and tracheitis. The term pneumonia included influenza, respiratory tract infection, lung abscess, hemoptysis, productive cough, pleural effusion, atelectasis, pleuritic pain, and rales. The term skin infection included cellulitis, erythema migrans, folliculitis, furuncle, herpes simplex, herpes zoster, nail infection, and onychomycosis.
+
+
+atrial fibrillation, cardiac arrest, cardiomyopathy, chest pain (unspecified), heart failure, hypertension, hypotension, orthostatic hypotension, pericardial effusion, pericarditis, respiratory arrest
+
+
+Cardiovascular adverse events have been reported in patients with myelodysplastic syndrome who received azacitidine in clinical studies. Chest pain (unspecified) (16% vs. 5%) and hypotension (7% vs. 2%) were reported more often in patients who received subcutaneous azacitidine (n = 220) compared with observation alone (n = 92) in pooled results from 2 clinical studies. Additionally, hypertension occurred more often in the subcutaneous azacitidine plus best supportive care (BSC) arm (9%) compared with the conventional care plus BSC arm (4%) in a multicenter, randomized trial (n = 277); grade 3 and 4 hypertension was reported in 1% of azacitidine-treated patients. Atrial fibrillation, heart failure, congestive heart failure, cardiac arrest or respiratory arrest (cardio-respiratory arrest), congestive cardiomyopathy, and orthostatic hypotension have been reported in less than 5% of patients treated with subcutaneous or IV azacitidine in clinical studies. Pericardial effusion and pericarditis have been reported with azacitidine for injection in postmarketing surveillance.
+
+
+asthenia, fatigue, lethargy, malaise
+
+
+Malaise (11%) and lethargy (8%) were reported in patients with myelodysplastic syndrome (MDS) who received subcutaneous azacitidine (n = 220) in pooled results from 2 clinical studies. Fatigue (24%; grade 3 or 4, 3%) and lethargy (7%) occurred in MDS patients who received subcutaneous azacitidine plus best supportive care (n = 175) in another randomized trial. Fatigue/asthenia occurred in 44% (grade 3 or 4, 4%) of patients with acute myelogenous leukemia who received oral azacitidine (n = 236) in a randomized trial.
+
+
+anaphylactic shock
+
+
+Anaphylactic shock and hypersensitivity have been reported in less than 5% of patients treated with subcutaneous or IV azacitidine in clinical studies.
+
+
+fever
+
+
+Fever was reported in 52% of patients with myelodysplastic syndrome (MDS) who received subcutaneous azacitidine (n = 220) compared with 30% of patients on observation alone (n = 92) in pooled results from 2 clinical studies. Additionally, fever occurred 30% (grade 3 or 4, 5%) of MDS patients who received subcutaneous azacitidine plus best supportive care (BSC) compared with 18% of patients who received conventional care plus BSC in a multicenter, randomized trial (n = 277). Fever was reported in 61% of pediatric patients (age range, 0.2 to 6.9 years) with juvenile myelomonocytic leukemia who received IV azacitidine in a clinical trial (n = 18).
+
+
+ocular hemorrhage
+
+
+Ocular hemorrhage been reported in less than 5% of patients treated with subcutaneous or IV azacitidine in clinical studies.
+
+
+dehydration
+
+
+Dehydration has been reported in less than 5% of patients treated with subcutaneous or IV azacitidine in clinical studies.
+
+
+weight loss
+
+
+Weight loss occurred in 8% of patients with myelodysplastic syndrome who received subcutaneous azacitidine plus best supportive care (BSC) compared with no patients who received conventional care plus BSC in a multicenter, randomized trial (n = 277); grade 3 and 4 weight loss was reported in 1% of azacitidine-treated patients. Weight loss occurred in less than 5% of patients with acute myeloid leukemia who received oral azacitidine (n = 236) in a randomized trial.
+
+
+new primary malignancy
+
+
+New primary malignancy, specifically leukemia cutis, has been reported in less than 5% of patients treated with subcutaneous or IV azacitidine in clinical studies.
+
+
+hyperuricemia, tumor lysis syndrome (TLS)
+
+
+Tumor lysis syndrome (TLS) has been reported in postmarketing surveillance of azacitidine. TLS may occur despite prophylaxis with allopurinol. Assess all patients for baseline TLS risk; monitor for TLS (e.g., serum electrolytes, uric acid levels, serum creatinine levels) and treat as appropriate. Hyperuricemia was reported in 17% of pediatric patients (age range, 0.2 to 6.9 years) with juvenile myelomonocytic leukemia who received IV azacitidine in a clinical trial (n = 18).
+
+
+differentiation syndrome
+
+
+Differentiation syndrome has been reported in postmarketing experience with IV or subcutaneous azacitidine therapy.
+
+
+edema, fluid retention, peripheral edema
+
+
+Edema including peripheral edema (11%) and fluid retention (17%) were reported in pediatric patients (age range, 0.2 to 6.9 years) with juvenile myelomonocytic leukemia who received IV azacitidine in a clinical trial (n = 18).
+
+
+cholestasis
+
+
+Intrahepatic cholestasis of pregnancy (ICP) has been reported in postmarketing surveilance of pregnant patients who received azacitidine, primarily to treat immunologic conditions (e.g., inflammatory bowel disease, systemic lupus erythematosus). Discontinue azacitidine in pregnant patients who develop ICP. ICP signs and symptoms, including elevated bile acid levels, improved following discontinuation of azacitidine in pregnant patients.
+
+
+infertility
+
+
+Based on data in animals, infertility may occur in males or females treated with azacitidine.
+
+
+Description
+
+Azacitidine is a pyrimidine nucleoside analog chemotherapy agent. Azacitidine for injection is indicated for the treatment of adult patients with certain myelodysplastic syndrome subtypes. It is also indicated for the treatment of pediatric patients aged 1 month and older with newly diagnosed juvenile myelomonocytic leukemia. This formulation is contraindicated in patients with advanced malignant hepatic tumors or who have experienced a hypersensitivity reaction with mannitol. Do not substitute the injectable product for oral azacitidine. Azacitidine oral tablets are indicated for the treatment of adult patients with acute myelogenous leukemia who achieved first complete remission or complete remission with incomplete blood count recovery following intensive induction chemotherapy and are not able to complete intensive curative therapy. This product should not be substituted for azacitidine for injection.
+
+Mechanism Of Action
+
+Azacitidine is a pyrimidine analog for cytosine. Upon phosphorylation, azacitidine may be incorporated into RNA or DNA. Once incorporated into tRNA, azacitidine inhibits tRNA methyltransferases and interferes with tRNA methylation and processing, which leads to inhibition of protein synthesis. As regards DNA, azacitidine acts as an irreversible inhibitor of DNA methyltransferase, which can lead to cell differentiation and/or apoptosis. Following incorporation into DNA, azacitidine leads to inhibition of DNA methylation due to irreversible binding of DNA methyltransferase to the azacitidine adduct in DNA. Azacitidine inhibition of DNA methyltransferase is dose- and time-dependent. Animal studies have indicated increased response when smaller doses of azacitidine were given over a period of time versus larger doses given less frequently. The concentration of azacitidine required for maximum inhibition of DNA methylation in vitro does not cause major suppression of DNA synthesis.
+ 
+Normally, DNA methyltransferase methylates cytosine in newly formed DNA. Methylation usually suppresses gene transcription and gene deletion. In some cancer cells, hypermethylation blocks the activity of tumor suppressor genes, which regulate cell division and differentiation to prevent malignant transformation. When suppressor gene activity is blocked, cell division becomes unregulated, leading to the formation of neoplastic cells. Hypermethylation is thought to be an early step in malignant transformation of cells. Hypomethylation may restore normal gene function to those genes critical for differentiation and proliferation. Azacitidine induces cytotoxicity in rapidly dividing cells that are no longer responsive to normal cell growth control mechanisms. Non-proliferating cells are relatively insensitive to azacitidine.
+
+Pharmacokinetics
+
+Azacitidine is administered orally, as a subcutaneous injection, or as an intravenous (IV) infusion. The primary route of elimination is urinary excretion. Following IV administration of radiolabeled azacitidine in 5 patients, the cumulative urinary excretion was 85% and fecal excretion over 3 days was less than 1% of the total reactivity. Following subcutaneous administration of radiolabeled azacitidine, the mean urinary excretion was 50%. The mean elimination half-life of total radioactivity (azacitidine and its metabolites) was about 4 hours following IV or subcutaneous administration. Following oral administration of azacitidine 300 mg once daily, less than 2% of the dose was recovered unchanged in the urine. Azacitidine is metabolized via hydrolysis and deamination mediated by cytidine deaminase.
+Affected cytochrome P450 isoenzymes or drug transporters: None
+In vitro, azacitidine is not a P-glycoprotein (P-gp) substrate and it does not inhibit CYP1A2, CYP2B6, CYP2C8, CYP2C9, CYP2C19, CYP2D6, CYP3A4, CYP2E1, P-gp, breast cancer resistance protein, organic anion transporters (OAT)-1 and OAT3, organic anion transporting polypeptides (OATP)-1B1 and OATP1B3, or organic cation transporter (OCT)-2 or induce CYP1A2, CYP2C19, and CYP3A at clinically relevant concentrations. The concomitant administration of azacitidine and omeprazole resulted in a non-significant azacitidine AUC increase of 19%.
+
+Route-Specific Pharmacokinetics
+Oral Route
+
+The mean oral bioavailability of azacitidine is approximately 11% relative to subcutaneous administration. Following a single oral dose of azacitidine 300 mg, the mean Cmax value was 145 ng/mL (coefficient of variation (CV), 64%), the mean AUC value was 242 ng x hour/mL (CV, 65%), and the median Tmax value was 1 hour. The systemic exposure of azacitidine is approximately dose proportional over the dose range of 120 mg to 600 mg once daily (0.4 to 2 times the recommended dosage). No accumulation was observed following azacitidine 300 mg once daily. In vitro, serum protein binding of oral azacitidine is about 6% to 12%; the blood-to-plasma ratio is about 0.3. The mean apparent volume of distribution is 881 L (CV, 67%), the mean terminal half-life is about 0.5 hours (CV, 27%), and the apparent clearance is 1,240 L/hour (CV, 64%).
+Effects of food: The AUC value decreased by 21% when oral azacitidine was administered with a high-fat, high-calorie meal (800 to 1,000 calories, 50% fat); this decrease in exposure was not considered clinically relevant and azacitidine may be taken with or without food.
+
+Intravenous Route
+
+Following a single IV dose of azacitidine 75 mg/m2, the mean volume of distribution was 76 +/- 26 L in patients with myelodysplastic syndrome (n = 6).
+
+Subcutaneous Route
+
+Azacitidine is rapidly absorbed after subcutaneous administration. The bioavailability of subcutaneous azacitidine is approximately 89% compared with IV azacitidine (based on AUC). In 21 patients with cancer, subcutaneous azacitidine administration resulted in AUC and Cmax values that were dose proportional over a dose range of 25 mg/m2 to 100 mg/m2. Multiple dosing at the recommended dose-regimen does not result in drug accumulation. In patients with myelodysplastic syndrome (n = 6), the Cmax was 750 +/- 403 nanograms/mL, the Tmax was 0.5 hour, the mean apparent clearance was 167 +/- 49 liters/hour, and the mean half-life was 41 +/- 8 minutes following a single dose of azacitidine 75 mg/m2 given as a subcutaneous injection.
+
+Hepatic Impairment
+
+Mild to moderate hepatic impairment (total bilirubin ULN or less and AST level greater than ULN OR total bilirubin level of 1 to 3 times ULN and any AST level) did not have a clinically relevant impact on the pharmacokinetic parameters of oral azacitidine. The effect of severe hepatic impairment (total bilirubin greater than 3 times ULN and any AST level) on the PK parameters of oral azacitidine is not known.
+
+Renal Impairment
+
+Azacitidine 75 mg/m2 was administered subcutaneously daily for 5 days to patients with normal renal function (creatinine clearance (CrCl) greater than 80 mL/min; n = 6) and severe renal impairment (CrCl less than 30 mL/min; n = 6). In patients with severe renal impairment, azacitidine exposure increased by approximately 70% after a single dose and by 41% after multiple administrations, resulting in exposure similar to patients with normal renal function treated with 100 mg/m2. The increase in exposure was not associated with an increase in adverse effects. Mild to moderate renal impairment (CrCl of 30 to 89 mL/min) did not have a clinically relevant impact on the pharmacokinetic (PK) parameters of oral azacitidine. The effect of severe renal impairment (CrCl of 15 to 29 mL/min) on the PK parameters of oral azacitidine is not known.
+
+Pediatrics
+
+The geometric mean Cmax level was 4,510 nanograms (ng)/mL (coefficient of variation (CV), 65.6%), AUC(0-24h) value was 1,550 ng x hour/mL (CV, 56.6%), half-life was 0.3 hour (CV, 59.9%), and clearance was 21.8 L/hour (CV, 102.2%) following an IV dose of azacitidine 75 mg/m2 or 2.5 mg/kg in pediatric patients with juvenile myelomonocytic leukemia (JMML). Consistent plasma azacitidine exposure was observed in pediatric patients with JMML over a body weight range of 4.6 to 18.5 kg and an age range of 0.2 to 6.9 years after recommended body surface area (BSA) or body weight-based IV dosing.
+
+Geriatric
+
+Age (range, 46 to 93 years) did not have a clinically relevant impact on the pharmacokinetic parameters of oral azacitidine.
+
+Gender Differences
+
+Gender did not have a clinically relevant impact on the pharmacokinetic parameters of oral or IV azacitidine.
+
+Obesity
+
+Higher body weight (range, 4.6 to 102 kg) was associated with increased azacitidine clearance following IV azacitidine administration in 6 adults and 34 pediatric patients in a population PK analysis. Weight (range, 39.3 to 129 kg) did not have a clinically relevant impact on the pharmacokinetic parameters of oral azacitidine.
+
+Other
+
+Tumor Type
+Tumor type (MDS, JMML, AML) did not have a clinically significant impact on the pharmacokinetic (PK) parameters of IV azacitidine in a population PK analysis of 6 adults and 34 pediatric patients.
+
+Administration
+
+For storage information, see specific product information within the How Supplied section.
+Hazardous Drugs Classification
+NIOSH 2024 List: Table 1
+Observe and exercise appropriate precautions for handling, preparation, administration, and disposal of hazardous drugs.
+Use double chemotherapy gloves and a protective gown. Prepare in a biological safety cabinet or compounding aseptic containment isolator with a closed system drug transfer device. Eye/face and respiratory protection may be needed during preparation and administration.
+If azacitidine powder comes in contact with the skin, wash the skin immediately with soap and water. If it comes in contact with mucous membranes, flush thoroughly with water.
+Emetic Risk
+Moderate
+Administer routine antiemetic prophylaxis prior to treatment.
+
+
+Oral Administration
+Oral Solid Formulations
+
+
+Take azacitidine with or without food at about the same time each day.
+Swallow tablets whole; do not cut, crush, or chew tablets.
+If a dose is missed or not taken at the usual time, take the dose as soon as possible on the same day; resume the normal schedule the following day. Do not take 2 doses on the same day.
+If a patient vomits after a dose, do not take another dose on the same day; resume the normal schedule the following day.
+
+
+Injectable Administration
+
+
+Visually inspect parenteral products for particulate matter and discoloration prior to administration whenever solution and container permit.
+Azacitidine is available as a single-use, 100-mg lyophilized powder vial; it is administered intravenously (IV) or subcutaneously.
+Do not substitute injectable azacitidine for oral azacitidine.
+Vial reconstitution concentrations are different for IV (10 mg/mL) and subcutaneous (25 mg/mL) routes; use caution when calculating the volume to be administered.
+There are several generic products for azacitidine 100-mg lyophilized powder vials, including mannitol-free formulations; refer to the manufacturer package insert for specific instructions regarding reconstitution and storage.
+
+
+Intravenous Administration
+
+Reconstitution:
+Inject 10 mL of Sterile Water for injection into the azacitidine 100-mg vial for a final vial concentration of 10 mg/mL.
+Shake or roll the vial vigorously until all powder is dissolved; the solution should be clear.
+Dilution:
+Add the calculated amount of azacitidine into a 50 to 100 mL infusion bag of either 0.9% Sodium Chloride injection or Lactated Ringer's injection; discard any unused drug remaining in the vial.
+For pediatric patients with juvenile myelomonocytic leukemia, dilute the admixture to a final concentration between 0.9 and 4 mg/mL.
+Do NOT dilute with 5% Dextrose solutions, Hespan, or solutions that contain bicarbonate as these solutions may cause increased rates of azacitidine degradation.
+Storage following reconstitution: The solution is stable at room temperature (25 degrees C or 77 degrees F) for up to 1 hour after reconstitution.
+Intravenous (IV) Infusion:
+Administer the azacitidine admixture IV over 10 to 40 minutes; complete the infusion within 1 hour of azacitidine vial reconstitution.
+
+
+Subcutaneous Administration
+
+Reconstitution:
+Slowly inject 4 mL of Sterile Water for injection into the azacitidine 100-mg vial for a final vial concentration of 25 mg/mL.
+Shake or roll the vial vigorously until a uniform suspension occurs; the suspension will be cloudy.
+Do not filter the suspension after reconstitution as this may remove the active substance.
+If the dose requires using more than one 100-mg vial, divide the dose equally between 2 syringes; due to retention in the vial and needle, it may not be feasible to withdraw all the contents from the vial.
+Discard any unused drug remaining in the vial.
+Storage following reconstitution (mannitol-containing formulations): If used immediately, store at room temperature for up to 1 hour. For delayed use, place the vial or syringe in the refrigerator. When reconstituted with Sterile Water for injection that was NOT refrigerated, the solution in the vial or a syringe is stable for up to 1 hour if stored at room temperature (25 degrees C or 77 degrees F) or for up to 8 hours under refrigeration (2 to 8 degrees C or 36 to 46 degrees F). When reconstituted with Sterile Water for injection that was refrigerated, the solution in the vial or a syringe is stable for up to 22 hours if stored in the refrigerator.
+Storage following reconstitution (mannitol-free formulations): If used immediately, store at room temperature for up to 1 hour. For delayed use, place the vial or syringe in the refrigerator. When reconstituted with Sterile Water for injection that was NOT refrigerated, the solution in the vial or a syringe is stable for up to 2 hours if stored at room temperature (25 degrees C or 77 degrees F) or for up to 12 hours under refrigeration (2 to 8 degrees C or 36 to 46 degrees F). When reconstituted with Sterile Water for injection that was refrigerated, the solution in the vial or a syringe is stable for up to 30 hours if stored in the refrigerator.
+Subcutaneous Injection:
+Allow refrigerated syringe(s) to warm to room temperature for up to 30 minutes prior to administration.
+Immediately prior to administration, vigorously roll the syringe between the palms until a uniform, cloudy suspension is achieved.
+Administer the azacitidine suspension subcutaneously; inject in 2 different sites if 2 syringes are required.
+Rotate sites for each injection (thigh, abdomen, or upper arm). Give new injections at least one inch from an old site; do not inject in a site that is tender, bruised, red, or hard.
+
+
+Maximum Dosage Limits
+Adults
+
+IV or subcutaneous dosing: 100 mg/m2 daily for 7 days per cycle.Oral dosing: 300 mg daily for 14 days per cycle.
+
+Geriatric
+
+IV or subcutaneous dosing: 100 mg/m2 daily for 7 days per cycle.Oral dosing: 300 mg daily for 14 days per cycle.
+
+Adolescents
+
+75 mg/m2 IV daily for 7 days per cycle.
+
+Children
+
+Less than 10 kg: 2.5 mg/kg IV daily for 7 days per cycle.10 kg or more: 75 mg/m2 IV daily for 7 days per cycle.
+
+Infants
+
+2.5 mg/kg IV daily for 7 days per cycle.
+
+Neonates
+
+Safety and efficacy not established.
+
+Dosage Forms
+
+Azacitidine 100mg Powder for suspension for injection
+
+ONUREG 200mg Tablet
+
+ONUREG 300mg Tablet
+
+Vidaza 100mg Powder for Injection
+
+Dosage Adjustment Guidelines
+Hepatic Impairment
+
+Azacitidine Injection
+Specific guidelines for dosage adjustments in hepatic impairment are not available. Azacitidine has not been evaluated in patients with myelodysplastic syndrome or juvenile myelomonocytic leukemia and hepatic impairment; use is contraindicated in patients with advanced hepatic malignancy.
+Azacitidine Oral
+Mild to moderate hepatic impairment (total bilirubin ULN or less and AST level greater than ULN OR total bilirubin 1 to 3 times ULN and any AST level): No dosage adjustment is recommended.
+Azacitidine oral has not been evaluated in patients with pre-existing severe hepatic impairment. Specific guidelines for dosage adjustments in severe hepatic impairment (total bilirubin greater than 3 times ULN and any AST) are not available.
+
+Renal Impairment
+
+Azacitidine Injection
+Baseline renal impairment: No dosage adjustment is necessary in cycle 1.
+Serum bicarbonate levels less than 20 mEq/L during therapy: Give 50% of dose in the next cycle.
+Elevated BUN or serum creatinine level during therapy: Delay the next cycle of therapy until value(s) return to normal or baseline; give 50% of dose in the next cycle.
+Azacitidine Oral
+Mild to severe renal impairment (CrCl 15 to 89 mL/min): No dosage adjustment is recommended.
+
+
+© 2026 Elsevier

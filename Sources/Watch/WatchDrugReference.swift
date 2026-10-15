@@ -11,6 +11,10 @@ struct WatchDrugReferenceView: View {
     @State private var searchText = ""
     @State private var query = ""
     @State private var visibleCount = 25
+    
+    /// Diagnostic state for testing resource access
+    @State private var diagnosticResult: String? = nil
+    @State private var showDiagnosticAlert = false
 
     private var all: [WatchReferenceEntry] {
         query.isEmpty ? reference.entries : reference.search(query)
@@ -26,6 +30,16 @@ struct WatchDrugReferenceView: View {
             visibleCount: $visibleCount
         )
         .navigationTitle(reference.name.label)
+        .toolbar {
+            #if DEBUG
+            Button(action: { runDiagnostics() }) {
+                Label("Diagnose", systemImage: "wrench.and.screwdriver")
+            }
+            #endif
+        }
+        .alert(diagnosticResult ?? "", isPresented: $showDiagnosticAlert) {
+            Button("OK", role: .cancel) { diagnosticResult = nil }
+        }
         .navigationDestination(for: WatchReferenceEntry.self) { entry in
             WatchReferenceDetailView(reference: reference, entry: entry)
         }
@@ -41,6 +55,46 @@ struct WatchDrugReferenceView: View {
                     visibleCount = 25
                 }
             }
+        }
+    }
+    
+    /// Run diagnostics to test resource access and decompression
+    private func runDiagnostics() {
+        Task {
+            var results: [String] = []
+            
+            // Test 1: Check if index file exists
+            let indexPath = reference.name.rawValue + ".index"
+            if Bundle.main.url(forResource: indexPath, withExtension: nil) != nil {
+                results.append("✓ Index file found")
+            } else {
+                results.append("✗ Index file NOT found")
+            }
+            
+            // Test 2: Check if content file exists
+            let contentPath = reference.name.rawValue + ".content"
+            if Bundle.main.url(forResource: contentPath, withExtension: nil) != nil {
+                results.append("✓ Content file found")
+            } else {
+                results.append("✗ Content file NOT found")
+            }
+            
+            // Test 3: Try to load first entry
+            if !reference.entries.isEmpty {
+                let firstEntry = reference.entries[0]
+                let text = await reference.text(for: firstEntry)
+                if text != nil {
+                    results.append("✓ Successfully loaded first entry (\(text!.count) chars)")
+                } else {
+                    results.append("✗ Failed to load first entry: \(firstEntry.title)")
+                    if let error = reference.loadError {
+                        results.append("  Error: \(error)")
+                    }
+                }
+            }
+            
+            diagnosticResult = "Diagnostics:\n" + results.joined(separator: "\n")
+            showDiagnosticAlert = true
         }
     }
 }
@@ -68,14 +122,40 @@ struct WatchReferenceListView: View {
                     .autocorrectionDisabled()
             }
 
-            if reference.isMissing {
+            // Show error state if loading failed
+            if let error = reference.loadError {
                 Section {
-                    Label(
-                        "The reference data isn't available on this watch yet.",
-                        systemImage: "exclamationmark.triangle"
-                    )
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
+                    VStack(alignment: .leading, spacing: 4) {
+                        Label(
+                            "Reference data unavailable",
+                            systemImage: "exclamationmark.triangle"
+                        )
+                        .font(.caption)
+                        .foregroundStyle(.orange)
+                        Text(error)
+                            .font(.caption2)
+                            .foregroundStyle(.secondary)
+                        Button(action: {
+                            reference.loadIfNeeded()
+                        }) {
+                            Label("Retry", systemImage: "arrow.clockwise")
+                                .font(.caption)
+                        }
+                    }
+                }
+            } else if reference.isMissing {
+                Section {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Label(
+                            "Reference data not available",
+                            systemImage: "exclamationmark.triangle"
+                        )
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                        Text("Please reinstall the app or contact support.")
+                            .font(.caption2)
+                            .foregroundStyle(.tertiary)
+                    }
                 }
             } else if all.isEmpty {
                 Section {
@@ -130,6 +210,10 @@ struct WatchReferenceDetailView: View {
 
     @State private var text: String?
     @State private var isLoading = true
+    @State private var loadError: String? = nil
+    
+    /// Track if we've attempted to load content yet (for retry logic)
+    @State private var hasAttemptedLoad = false
 
     var body: some View {
         ScrollView {
@@ -139,22 +223,132 @@ struct WatchReferenceDetailView: View {
                         .font(.caption)
                         .foregroundStyle(.secondary)
                 }
-                if let text {
-                    Text(Self.bodyText(for: text))
+                
+                // Show error state
+                if let error = loadError {
+                    VStack(alignment: .center, spacing: 8) {
+                        Image(systemName: "exclamationmark.triangle")
+                            .font(.largeTitle)
+                            .foregroundStyle(.orange)
+                        Text("Failed to load content")
+                            .font(.headline)
+                        Text(error)
+                            .font(.caption)
+                            .multilineTextAlignment(.center)
+                            .padding(.horizontal)
+                        Button(action: {
+                            // Reset and retry
+                            hasAttemptedLoad = false
+                            loadContent()
+                        }) {
+                            Label("Retry", systemImage: "arrow.clockwise")
+                                .frame(maxWidth: .infinity)
+                        }
+                    }
+                    .padding()
+                } else if let text {
+                    let body = Self.bodyText(for: text)
+                    // Watch has limited memory; truncate very long entries
+                    // to the first ~8KB (roughly 2-3 screens of scrolling).
+                    let displayText = body.count > 8000 ? String(body.prefix(8000)) + "\n\n…" : body
+                    Text(displayText)
                         .font(.footnote)
                 } else if isLoading {
                     ProgressView("Loading…")
+                        .padding()
+                } else if !hasAttemptedLoad {
+                    // Reference not loaded yet - wait for it
+                    VStack(alignment: .center, spacing: 8) {
+                        Image(systemName: "hourglass")
+                            .font(.largeTitle)
+                            .foregroundStyle(.secondary)
+                        Text("Preparing…")
+                            .font(.headline)
+                        Text("Loading reference data")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    }
+                    .padding()
                 } else {
-                    Text("This entry's text couldn't be loaded.")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
+                    // Unknown error state
+                    VStack(alignment: .center, spacing: 8) {
+                        Image(systemName: "exclamationmark.circle")
+                            .font(.largeTitle)
+                            .foregroundStyle(.secondary)
+                        Text("Content unavailable")
+                            .font(.headline)
+                        Button(action: { loadContent() }) {
+                            Label("Try again", systemImage: "arrow.clockwise")
+                                .frame(maxWidth: .infinity)
+                        }
+                    }
+                    .padding()
                 }
             }
             .padding()
         }
         .navigationTitle(entry.title)
         .task {
+            // Wait for reference to be loaded before attempting content load
+            // Poll with increasing delays up to 5 seconds max wait time
+            var attempts = 0
+            while (reference.isLoading || reference.isMissing) && attempts < 10 {
+                try? await Task.sleep(for: .milliseconds(200))
+                if Task.isCancelled { return }
+                attempts += 1
+            }
+            
+            // If still loading after waiting, proceed anyway to show error state
+            loadContent()
+        }
+    }
+    
+    private func loadContent() {
+        hasAttemptedLoad = true
+        isLoading = true
+        loadError = nil
+        text = nil
+        
+        #if DEBUG
+        NSLog("NurseVault (watch): Loading detail for '\(entry.title)' at offset \(entry.contentStart)-\(entry.contentEnd)")
+        #endif
+        
+        Task {
+            // Check if reference is ready
+            if reference.isMissing {
+                loadError = "Reference data not available. Please reinstall the app."
+                isLoading = false
+                return
+            }
+            
+            if let error = reference.loadError {
+                loadError = error
+                isLoading = false
+                return
+            }
+            
+            // Load content with timeout protection
+            let deadline = Date.now.addingTimeInterval(30)
             text = await reference.text(for: entry)
+            
+            if Date.now > deadline {
+                loadError = "Loading timed out. Please try again."
+                #if DEBUG
+                NSLog("NurseVault (watch): Timeout loading content for '\(entry.title)'")
+                #endif
+            }
+            
+            if let t = text {
+                #if DEBUG
+                NSLog("NurseVault (watch): Loaded \(t.count) chars for '\(entry.title)'")
+                #endif
+            } else {
+                // Check reference error first, then provide helpful default message
+                loadError = reference.loadError ?? "Failed to load content. Please try again or reinstall the app."
+                #if DEBUG
+                NSLog("NurseVault (watch): FAILED to load text for '\(entry.title)' - \(loadError ?? "unknown error")")
+                #endif
+            }
             isLoading = false
         }
     }
@@ -164,7 +358,7 @@ struct WatchReferenceDetailView: View {
     /// else — including the nursing quick-reference summary block — stays.
     private static func bodyText(for text: String) -> String {
         let headerPrefixes = ["===", "Section:", "Source:", "Retrieved:"]
-        var lines = text.split(separator: "\n", omittingEmptySubsequences: false).map(String.init)
+        let lines = text.split(separator: "\n", omittingEmptySubsequences: false).map(String.init)
         var index = 0
         while index < lines.count {
             let trimmed = lines[index].trimmingCharacters(in: .whitespaces)

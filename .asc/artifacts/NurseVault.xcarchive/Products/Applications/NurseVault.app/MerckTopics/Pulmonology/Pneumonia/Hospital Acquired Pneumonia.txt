@@ -1,0 +1,164 @@
+=== Hospital-Acquired Pneumonia (Merck Manual Professional) ===
+Section: Pulmonology > Pneumonia
+Source: https://www.merckmanuals.com/professional/pulmonary-disorders/pneumonia/hospital-acquired-pneumonia
+Retrieved: 2026-09-25
+
+Hospital-acquired pneumonia includes pneumonia that was not incubating (ie, not developing after pre-admission exposure) at the time of hospital admission and develops at least 48 hours after hospital admission in patients who are not receiving mechanical ventilation and who have not been extubated within the last 48 hours. Hospital-acquired pneumonia includes postoperative pneumonia but does not include patients with ventilator-associated pneumonia.
+
+Hospital-acquired pneumonia is the most common healthcare-associated infection in the United States (1). In one large retrospective cohort analysis, non-ventilator associated hospital-acquired pneumonia had an incidence of 0.55 per 100 admissions (or 0.96 per 1,000 patient-days), with an inpatient mortality rate of approximately 22% (1). In Europe, approximately 500,000 cases of hospital-acquired pneumonia occur annually (2).
+
+General references
+
+1. Jones BE, Sarvet AL, Ying J, et al. Incidence and Outcomes of Non-Ventilator-Associated Hospital-Acquired Pneumonia in 284 US Hospitals Using Electronic Surveillance Criteria. JAMA Netw Open. 2023;6(5):e2314185. doi:10.1001/jamanetworkopen.2023.14185
+
+2. Roquilly A, Torres A, Villadangos JA, et al. Pathophysiological role of respiratory dysbiosis in hospital-acquired pneumonia. Lancet Respir Med. 2019;7(8):710-720. doi:10.1016/S2213-2600(19)30140-7
+
+Etiology of Hospital-Acquired Pneumonia
+
+The most common cause of hospital-acquired pneumonia is microaspiration of bacteria that colonize the oropharynx and upper airways, and to some extent the upper gastrointestinal tract, in seriously ill patients. Seeding of the lungs due to bacteremia or inhalation of contaminated aerosols (ie, airborne particles containing Legionella species, Aspergillus species, or influenza virus) are less common causes.
+
+Risk factors
+
+Risk factors for hospital-acquired pneumonia include older age, depressed consciousness, aspiration, previous antibiotic treatment, poor oral hygiene, and coexisting cardiac, pulmonary, hepatic, or renal insufficiency.
+
+Major risk factors for postoperative pneumonia include:
+
+Age > 70 years
+
+Upper abdominal or thoracic surgery
+
+Poor functional status (ie, physical deconditioning)
+
+Immunocompromising conditions
+
+Pathogens
+
+Pathogens and antibiotic resistance patterns vary significantly among institutions, and can even vary within institutions over short periods (eg, month to month). Local antibiograms at the institutional level that are updated on a regular basis are essential to determine appropriate empiric antibiotic therapy. In general, the most important pathogens are:
+
+Enteric gram-negative bacilli, especially Pseudomonas aeruginosa
+
+Gram-positive cocci, especially methicillin-sensitive Staphylococcus aureus and methicillin-resistant S. aureus (MRSA)
+
+Notably, S. aureus (28.0%) and P. aeruginosa (21.8%) consistently rank as the 2 most common pathogens associated with pneumonia that is acquired in a hospital, with methicillin-resistant S. aureus (MRSA) comprising a significant proportion (up to 80%) of S. aureus isolates (1).
+
+Other important enteric gram-negative bacteria include Enterobacter species, Klebsiella pneumoniae, Escherichia coli, Serratia marcescens, Proteus species, and Acinetobacter species. Anaerobes do not significantly contribute to hospital-acquired pneumonia.
+
+Risk factors for infection with multidrug resistant (MDR) pathogens include prior intravenous antibiotic treatment (within the previous 90 days), colonization with MDR pathogens, and the high rates of prevalence of these pathogens in the local hospital environment (2). Infection with a resistant organism markedly worsens mortality and morbidity.
+
+High-dose glucocorticoids increase the risk of Legionella and Pseudomonas infections. Chronic suppurative lung diseases such as cystic fibrosis and bronchiectasis increase the risk of gram-negative pathogens, including antibiotic-resistant strains.
+
+Viruses are often a cause of hospital-acquired pneumonia in immunocompetent patients. Both viruses and fungi may cause hospital-acquired pneumonia in immunocompromised patients.
+
+Etiology references
+
+1. Jones RN. Microbial etiologies of hospital-acquired bacterial pneumonia and ventilator-associated bacterial pneumonia. Clin Infect Dis. 2010;51 Suppl 1:S81-S87. doi:10.1086/653053
+
+2. Kalil AC, Metersky ML, Klompas M, et al. Management of adults with hospital-acquired and ventilator-associated pneumonia: 2016 clinical practice guidelines by the Infectious Diseases Society of America and the American Thoracic Society. Clin Infect Dis. 2016;63(5):e61-111. doi: 10.1093/cid/ciw353
+
+Symptoms and Signs of Hospital-Acquired Pneumonia
+
+Symptoms and signs of hospital-acquired pneumonia in nonintubated patients are generally the same as those for community-acquired pneumonia and include malaise, fever, chills, rigor, cough, dyspnea, and chest pain.
+
+Diagnosis of Hospital-Acquired Pneumonia
+
+Chest imaging (ie, radiography or chest CT) and clinical criteria
+
+The diagnosis of hospital-acquired pneumonia is usually made based upon a new lung opacity identified with imaging combined with clinical features of infection, which include the new onset of fever, purulent sputum, leukocytosis, and decline in oxygenation, at least 48 hours after admission (1). However, clinical diagnosis is imperfect. No symptom, sign, or chest radiograph finding is sensitive or specific for the diagnosis of hospital-acquired pneumonia, because all can be caused by other etiologies, including atelectasis, pulmonary embolism, or pulmonary edema.
+
+Gram stain and semiquantitative cultures of sputum samples, though not definitive for identifying infection, should be performed because they can direct empiric therapy. Bronchoscopic sampling of lower airway secretions for quantitative culture yields more reliable specimens that can differentiate colonization from infection. However, bronchoscopy is a logistical challenge to perform in patients who are not intubated and lacks evidence for improving outcomes in hospital-acquired pneumonia.
+
+Measurement of inflammatory mediators (eg, C-reactive protein) are not recommended in deciding on initiation of antibiotics. (2) The only finding that reliably identifies both pneumonia and the responsible organism is a pleural fluid culture (obtained via thoracentesis in a patient with pleural effusion) that is positive for a respiratory pathogen.
+
+Blood cultures are relatively specific if a respiratory pathogen is identified but are insensitive. Molecular tests performed on respiratory secretions are rapid and highly sensitive for pathogen detection and have the potential to improve antibiotic stewardship (3). However, their clinical utility (particularly for bacterial PCR) beyond facilitating choice of therapy remains uncertain and requires careful consideration of the clinical context (4, 5).
+
+Diagnosis references
+
+1. Kalil AC, Metersky ML, Klompas M, et al. Management of Adults With Hospital-acquired and Ventilator-associated Pneumonia: 2016 Clinical Practice Guidelines by the Infectious Diseases Society of America and the American Thoracic Society. Clin Infect Dis. 2016;63(5):e61-e111. doi:10.1093/cid/ciw353
+
+2. Dianti M, Luna CM. Do we need biomarkers for the follow-up and shortening of antibiotic treatment duration? Curr Opin Crit Care. 2018;24(5):361-369. doi:10.1097/MCC.0000000000000540
+
+3. Enne VI, Aydin A, Baldan R, et al. Multicentre evaluation of two multiplex PCR platforms for the rapid microbiological investigation of nosocomial pneumonia in UK ICUs: the INHALE WP1 study. Thorax. 2022;77(12):1220-1228. doi:10.1136/thoraxjnl-2021-216990
+
+4. Enne VI, Stirling S, Barber JA, et al. INHALE WP3, a multicentre, open-label, pragmatic randomised controlled trial assessing the impact of rapid, ICU-based, syndromic PCR, versus standard-of-care on antibiotic stewardship and clinical outcomes in hospital-acquired and ventilator-associated pneumonia. Intensive Care Med. 2025;51(2):272-286. doi:10.1007/s00134-024-07772-2
+
+5. Ling L, Lai CKC, Rhee C. Bacterial multiplex polymerase chain reaction tests for the diagnosis and management of pneumonia: ready for prime time? Thorax. 2025;80(11):862-872. Published 2025 Oct 15. doi:10.1136/thorax-2024-222297
+
+Treatment of Hospital-Acquired Pneumonia
+
+If hospital-acquired pneumonia is suspected, treatment is with antibiotics that are chosen empirically based on the following:
+
+Local sensitivity patterns
+
+Patient risk factors for antibiotic-resistant pathogens
+
+Prior microbiology results from patient samples demonstrating colonization with antibiotic-resistant pathogens
+
+Gram stain of a good quality sputum specimen
+
+The 2016 guidelines of the Infectious Diseases Society of America and the American Thoracic Society emphasize the use of a narrower spectrum of empiric antibiotics when possible (1). Empiric therapy may include piperacillin/tazobactam or cefepime for hospital-acquired pneumonia in a patient who:
+
+Is not in septic shock
+
+Does not require ventilatory support
+
+Does not have increased risk for antibiotic-resistant bacteria (ie, without demonstrated prior colonization with MRSA or antibiotic-resistant gram-negative pathogens)
+
+Has no prior IV antibiotic use within 90 days in an institution where MRSA incidence is < 20% (of S. aureus isolates) and P. aeruginosa resistance is < 10% for commonly used empiric antipseudomonal antibiotics
+
+In such patients, if there is history of prior colonization with multidrug resistant gram-negative pathogens that are not carbapenem-resistant, then the preferred choice is imipenem/cilastatin and meropenem.
+
+If there is prior history of colonization with carbapenem-resistant pathogens, then, in addition to either linezolid or vancomycin, one of the following agents should be added (2):
+
+Avibactam/ceftazidime
+
+Ceftolozane/tazobactam
+
+Cilastatin/imipenem/relebactam
+
+Meropenem/vaborbactam
+
+Prompt broad-spectrum antibiotic therapy is indicated for patients who:
+
+Are in septic shock
+
+Need ventilatory support
+
+Have received IV antibiotic therapy in the past 90 days
+
+Are being treated in a facility without reliable local antibiograms
+
+Such therapy should include an antipseudomonal agent (eg, imipenem/cilastatin, meropenem) and an anti-MRSA antibiotic (eg, vancomycin, linezolid). Dual anti-pseudomonal treatment is not indicated in these patients.
+
+While indiscriminate use of antibiotics is a major contributor to development of antimicrobial resistance, the adequacy of coverage of initial empiric antibiotics is a major determinant of a favorable outcome. Therefore, treatment must begin with the initial use of broad-spectrum antibiotics and be narrowed later. For example, patients could be reassessed 2 to 3 days after initiation of treatment; antibiotics could then be changed to the narrowest regimen possible based on clinical response and the results of cultures and antibiotic susceptibility testing.
+
+Treatment references
+
+1. Kalil AC, Metersky ML, Klompas M, et al. Management of adults with hospital-acquired and ventilator-associated pneumonia: 2016 clinical practice guidelines by the Infectious Diseases Society of America and the American Thoracic Society. Clin Infect Dis. 2016;63(5):e61-111. doi:10.1093/cid/ciw353
+
+2. Tamma PD, Heil EL, Justo JA, Mathers AJ, Satlin MJ, Bonomo RA. Infectious Diseases Society of America 2024 Guidance on the Treatment of Antimicrobial-Resistant Gram-Negative Infections. Clin Infect Dis.2024 Aug 7:ciae403. doi:10.1093/cid/ciae403
+
+Prognosis for Hospital-Acquired Pneumonia
+
+The mortality associated with hospital-acquired pneumonia is high (>20%) despite the availability of effective antibiotics (1). However, adequacy of coverage of initial antimicrobial therapy (ie, the organism causing the infection is susceptible to the antimicrobial prescribed) is associated with improved prognosis. Infection with antibiotic-resistant gram-negative or gram-positive bacteria worsens prognosis. However, not all mortality is attributable to the pneumonia itself; in-hospital mortality may also be secondary to the patient's comorbidities.
+
+Prognosis reference
+
+1. Jones BE, Sarvet AL, Ying J, et al. Incidence and Outcomes of Non-Ventilator-Associated Hospital-Acquired Pneumonia in 284 US Hospitals Using Electronic Surveillance Criteria. JAMA Netw Open. 2023;6(5):e2314185. doi:10.1001/jamanetworkopen.2023.14185
+
+Prevention of Hospital-Acquired Pneumonia
+
+Incentive spirometry is recommended to help prevent postoperative pneumonia. Elevation of the head of the bed and minimizing sedation and the use of antibiotics are also of benefit. Daily mechanical toothbrushing has been specifically associated with reductions in the development of pneumonia (1). Encouraging patient ambulation as early as is safely possible is also of benefit.
+
+Prevention reference
+
+1. Klompas M, Branson R, Cawcutt K, et al. Strategies to prevent ventilator-associated pneumonia, ventilator-associated events, and nonventilator hospital-acquired pneumonia in acute-care hospitals: 2022 Update. Infect Control Hosp Epidemiol. 2022;43(6):687-713. doi:10.1017/ice.2022.88
+
+Key Points
+
+Hospital-acquired pneumonia is pneumonia that develops at least 48 hours after hospital admission in patients not receiving mechanical ventilation.
+
+Likely pathogens differ from those causing community-acquired pneumonia (eg, MRSA, P. aeruginosa) and may require initial empiric antibiotic therapy that is active against antibiotic-resistant organisms.
+
+Diagnosis is difficult, with culture of a potential pathogen from pleural fluid or blood being the most specific finding.
+
+Reassess patients 2 to 3 days after initiation of treatment, and change antibiotics based on available culture and clinical data.

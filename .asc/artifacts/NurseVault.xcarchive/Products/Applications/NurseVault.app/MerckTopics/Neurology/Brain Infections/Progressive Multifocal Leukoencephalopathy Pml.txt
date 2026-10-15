@@ -1,0 +1,90 @@
+=== Progressive Multifocal Leukoencephalopathy (PML) (Merck Manual Professional) ===
+Section: Neurology > Brain Infections
+Source: https://www.merckmanuals.com/professional/neurologic-disorders/brain-infections/progressive-multifocal-leukoencephalopathy-pml
+Retrieved: 2026-09-25
+
+Etiology of PML
+
+Progressive multifocal leukoencephalopathy is caused by reactivation of the JC virus, a ubiquitous human papovavirus that is typically acquired during childhood and remains latent in the kidneys and possibly other sites (eg, mononuclear cells, central nervous system [CNS]). The reactivated virus has a tropism for oligodendrocytes.
+
+Most patients who develop PML have depressed cell-mediated immunity due to
+
+Advanced HIV infection (the most common risk factor)
+
+Reticuloendothelial system disorders (eg, leukemia, lymphoma)
+
+Other conditions (eg, Wiskott-Aldrich syndrome)
+
+The risk in advanced HIV infection increases with increasing HIV viral load; the prevalence of PML has decreased because of widespread use of more effective antiretrovirals.
+
+Increasingly, PML is occurring as a complication of immunomodulatory therapy. The medications most frequently implicated include
+
+The monoclonal antibody natalizumab
+
+The antibody-drug conjugate brentuximab vedotin
+
+But PML has occurred in patients taking other medications (eg, rituximab, fingolimod, dimethyl fumarate). Measuring serum antibodies to JC virus (JC virus index) may help assess the risk of PML in patients taking natalizumab; higher levels indicate higher risk.
+
+Symptoms and Signs of PML
+
+Clumsiness may be the first symptom of progressive multifocal leukoencephalopathy. Hemiparesis is the most common finding. Aphasia, dysarthria, and hemianopia are also common. Multifocal cortical damage produces cognitive impairment in two-thirds of patients. Sensory, cerebellar, and brain stem deficits may be present.
+
+Headaches and convulsive seizures are rare and occur most often in patients with advanced HIV infection.
+
+Gradual, relentless progression culminates in death, usually 1 to 9 months after symptoms begin.
+
+Diagnosis of PML
+
+MRI
+
+Cerebrospinal fluid (CSF) testing for JC viral DNA
+
+Progressive multifocal leukoencephalopathy is suspected in patients with unexplained progressive brain dysfunction, particularly in those with depressed cell-mediated immunity.
+
+Provisional diagnosis of PML is made by contrast-enhanced MRI, which shows single or multiple white matter lesions on T2-weighted images. A contrast agent enhances, usually faintly and peripherally, 5 to 15% of lesions. CT may show low-density, nonenhancing lesions but is significantly less sensitive than MRI.
+
+Progressive Multifocal Leukoencephalopathy
+
+Image
+
+This T2-weighted MRI image shows multiple changes in white matter.
+
+Image provided by John E. Greenlee, MD.
+
+CSF is analyzed for JC viral DNA using PCR; a positive result with compatible neuroimaging findings is nearly pathognomonic. Routine CSF analysis is usually normal.
+
+Serologic tests are not helpful. Stereotactic biopsy can provide a definitive diagnosis but is rarely warranted.
+
+Treatment of PML
+
+Supportive care
+
+Treatment of progressive multifocal leukoencephalopathy is mainly supportive.
+
+Experimental use of medications such as cidofovir and other antivirals has failed to provide benefit. Antiretroviral therapy (ART) in patients with advanced HIV infection has improved outcome in PML, increasing the 1-year survival rate from 10 to 50%. However, patients treated with aggressive antiretroviral therapy may develop immune reconstitution inflammatory syndrome (IRIS). In IRIS, the recovering immune system produces an intense inflammatory response against the JC virus, thus worsening symptoms. Imaging done after IRIS develops shows greater contrast enhancement of the lesions and may show significant cerebral edema. Glucocorticoids may be helpful.
+
+Depending on the severity of IRIS and of advanced HIV infection, clinicians may decide to withdraw ART.
+
+Withdrawal of immunosuppressants may result in clinical improvement. However, patients who stop taking these drugs are also at risk of developing IRIS.
+
+If PML develops in patients taking natalizumab, another immunomodulatory medication, or an immunosuppressant, the medication should be stopped, and plasma exchange should be done to remove residual circulating medication.
+
+Limited data suggest that treatment with the programmed cell death 1 (PD-1) inhibitors pembrolizumab or nivolumab (immune checkpoint inhibitors) may decrease viral load in the CSF, increase antiviral cellular immune activity, and lead to clinical improvement (1, 2).
+
+Treatment references
+
+1. Cortese I, Muranski P, Enose-Akahata Y, et al. Pembrolizumab Treatment for Progressive Multifocal Leukoencephalopathy. N Engl J Med. 2019;380(17):1597-1605. doi:10.1056/NEJMoa1815039
+
+2. Lambert N, El Moussaoui M, Maquet P. Immune checkpoint inhibitors for progressive multifocal leukoencephalopathy: Identifying relevant outcome factors. Eur J Neurol. 2021;28(11):3814-3819. doi:10.1111/ene.15021
+
+Key Points
+
+Reactivation of the ubiquitous JC virus, usually due to impaired cell-mediated immunity, leads to PML.
+
+PML commonly causes clumsiness, hemiparesis, aphasia, dysarthria, hemianopia, and cognitive impairment.
+
+Do MRI and test CSF for JC virus DNA in patients who have impaired cell-mediated immunity and unexplained progressive brain dysfunction.
+
+Treat patients supportively, and manage underlying disorders as indicated (eg, by stopping natalizumab, another immunomodulatory medication, or an immunosuppressant or, in patients with advanced HIV, by initiating antiretroviral therapy and watching closely for development of immune reconstitution inflammatory syndrome).
+
+Limited data suggest that treatment with pembrolizumab or nivolumab may decrease viral load in the CSF, increase antiviral cellular immune activity, and lead to clinical improvement.

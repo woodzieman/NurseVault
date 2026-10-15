@@ -1,0 +1,74 @@
+=== Glucose-6-Phosphate Dehydrogenase (G6PD) Deficiency (Merck Manual Professional) ===
+Section: Hematology > Anemias Caused by Hemolysis
+Source: https://www.merckmanuals.com/professional/hematology/anemias-caused-by-hemolysis/glucose-6-phosphate-dehydrogenase-g6pd-deficiency
+Retrieved: 2026-09-25
+
+G6PD deficiency, a defect in the hexose monophosphate shunt pathway, is the most common disorder of red blood cell (RBC) metabolism. The G6PD gene is located on the X chromosome and exhibits a high amount of variation (polymorphism), resulting in a range of G6PD activity from normal to severely deficient. Variants are classified I through V by the amount of activity of the G6PD enzyme. Because the gene is X-linked, males are much more likely to present with clinically significant hemolysis. Females who are homozygous, or who are heterozygous with skewed X inactivation that results in a high proportion of affected X chromosomes may also be affected.
+
+In the United States, this defect is most common in people with African ancestry (1), occurring in > 10% of African American males (2, 3). It occurs in lower frequencies among people from the Mediterranean basin (eg, Italian, Greek, Persian, Arab, or Sephardic Jewish ancestry) and people with Asian ancestry (1).
+
+General references
+
+1. Nkhoma ET, Poole C, Vannappagari V, Hall SA, Beutler E. The global prevalence of glucose-6-phosphate dehydrogenase deficiency: a systematic review and meta-analysis. Blood Cells Mol Dis. 2009;42(3):267-278. doi:10.1016/j.bcmd.2008.12.005
+
+2. Chinevere TD, Murray CK, Grant E Jr, Johnson GA, Duelm F, Hospenthal DR. Prevalence of glucose-6-phosphate dehydrogenase deficiency in U.S. Army personnel. Mil Med. 2006;171(9):905-907. doi:10.7205/milmed.171.9.905
+
+3. Heller P, Best WR, Nelson RB, Becktel J. Clinical implications of sickle-cell trait and glucose-6-phosphate dehydrogenase deficiency in hospitalized black male patients. N Engl J Med. 1979;300(18):1001-1005. doi:10.1056/NEJM197905033001801
+
+Pathophysiology of G6PD Deficiency
+
+G6PD deficiency renders RBCs susceptible to oxidative stress, which shortens RBC survival. Hemolysis occurs following an oxidative challenge, commonly after fever, acute viral or bacterial infections, and diabetic ketoacidosis. Hemolysis is episodic and self-limited, although rare patients have chronic, ongoing hemolysis in the absence of oxidative challenge.
+
+Less commonly, hemolysis occurs after exposure to medications or to other substances that produce peroxide and cause oxidation of hemoglobin and RBC membranes. These medications and substances include rasburicase (1), primaquine, salicylates, sulfonamides, nitrofurans, phenacetin, naphthalene, some vitamin K derivatives, dapsone, phenazopyridine, nalidixic acid, methylene blue, and, in some cases, fava beans. The amount of hemolysis depends on the degree of G6PD deficiency and the oxidant potential of the medication or substance.
+
+Pathophysiology reference
+
+1. Bociek RG, Lunning M. Tumor Lysis Syndrome. N Engl J Med. 2025;393(11):1104-1116. doi:10.1056/NEJMra2300923
+
+Symptoms and Signs of G6PD Deficiency
+
+In most cases, hemolysis affects < 25% of RBC mass and causes transient jaundice and dark urine. Some patients have back and/or abdominal pain. However, when the deficiency is more severe, profound hemolysis may lead to hemoglobinuria and acute kidney injury.
+
+Diagnosis of G6PD Deficiency
+
+Peripheral smear
+
+G6PD assay
+
+The diagnosis is considered in patients with evidence of acute hemolysis, particularly males with a direct antiglobulin–negative hemolytic anemia (see Diagnosis of Hemolytic Anemia). Anemia, jaundice, and reticulocytosis develop during hemolysis.
+
+Hereditary Erythrocyte G6PD Deficiency
+
+Image
+
+The blood smear is from a 37-year-old male with hereditary G6PD deficiency. It shows many blister cells (red arrows) due to precipitation of damaged hemoglobin within the cells. It also shows spherocytes (blue arrows) with membrane damage due to binding by oxidized hemoglobin.
+
+Image courtesy of Jerry L. Spivak, MD.
+
+The peripheral smear may reveal RBCs that appear to have a blister (blister cells) or have one or more "bites" (1-micron wide) taken from the cell periphery (bite cells). RBCs with inclusions termed Heinz bodies (particles of denatured hemoglobin, which can be recognized only by special stains) may also be identified on the peripheral smear. These altered RBCs may be visible early during the hemolytic episode but do not persist in patients with an intact spleen, which removes them.
+
+Testing for G6PD activity is available. However, during and immediately after a hemolytic episode, tests may yield false-negative results because of destruction of the older, more deficient RBCs and the production of reticulocytes, which are rich in G6PD. Thus, testing may need to be repeated several weeks after the acute event.
+
+Qualitative screening tests are available, including point-of-care tests; positive results should be confirmed with a quantitative test. Testing for G6PD deficiency may be considered in evaluation of neonatal jaundice or unexplained hemolytic anemia, prior to administration of certain medications in asymptomatic individuals from populations at high risk for G6PD deficiency, and screening of asymptomatic family members.
+
+Treatment of G6PD Deficiency
+
+Avoidance of triggers, removal of offending medication or substance, and supportive care.
+
+During acute hemolysis, treatment is supportive; transfusions are needed only for severe anemia.
+
+Patients are advised to avoid medications or substances that initiate hemolysis.
+
+In the management of tumor lysis syndrome (TLS), rasburicase is contraindicated in patients with known G6PD deficiency. Persons at high risk for G6PD deficiency (eg, persons of Mediterranean or African ancestry) should be screened before administration.
+
+Key Points
+
+Glucose-6-phosphate dehydrogenase (G6PD) deficiency is the most common inherited disorder of red blood cell metabolism and can cause hemolysis in the presence of triggers.
+
+Incidence is higher in certain ethnic groups (eg, people with African, Mediterranean, or Asian ancestry).
+
+Triggers include acute illnesses (eg, infections), medications (eg, salicylates) and other substances (eg, fava beans) that cause oxidative stress.
+
+Diagnose using peripheral smear and G6PD assay; false-negative G6PD assays are possible during acute hemolysis, so repeat testing after several weeks if the initial G6PD assay is negative.
+
+Avoid triggers to limit hemolytic episodes.

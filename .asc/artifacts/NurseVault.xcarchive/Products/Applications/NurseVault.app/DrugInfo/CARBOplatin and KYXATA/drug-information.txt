@@ -1,0 +1,1033 @@
+=== CARBOplatin (Merck Manual Professional) ===
+Source: https://www.merckmanuals.com/professional/drug-names-generic-and-brand (productid 92)
+Retrieved: 2026-09-25
+NURSING QUICK-REFERENCE SUMMARY
+Auto-generated on 2026-09-25 from the prescribing information in this file; full details follow below.
+
+Drug Class: Carboplatin (CBDCA) is a platinum compound related to cisplatin.
+
+Routes: injection (IV/IM/SC); Common adult doses: Maximum dosage information is not available. For doses calculated using the Calvert formula with an estimated GFR, it is recommended to use a maximum GFR = 125 mL/min in the calculation.
+
+Common Side Effects (excluding routine GI upset): anemia, bone marrow suppression, leukopenia, neutropenia, thrombocytopenia, hypocalcemia, hypokalemia, hypomagnesemia, hyponatremia, dysgeusia, hearing loss, visual impairment, alopecia, injection site reaction, tissue necrosis, heart failure, hypertension, stroke, thromboembolism
+
+In an Overdose: If a patient's GFR is calculated based on a serum creatinine measured using the IDMS method, the FDA recommends that physicians consider capping the dose of carboplatin for desired exposure to avoid potential overdosing.
+
+Key Nursing Considerations: Contraindications/precautions: Carboplatin should be administered under the supervision of a physician experienced in the management of cancer chemotherapy. Adequate diagnostic and treatment facilities are needed for appropriate management of carboplatin therapy and complications. Emetic risk: Pediatric patients: Doses 175 mg/m2/dose or higher: High Extravasation risk: Irritant Hazardous drug: NIOSH 2024 List: Table 1
+
+Brand Names
+  - KYXATA
+  - Paraplatin
+
+Dosage Forms
+  - Carboplatin 10mg/1mL Solution for injection
+  - KYXATA 500mg/50mL Solution for Injection
+  - KYXATA 80mg/8mL Solution for Injection
+
+Indication Specific Dosing
+  General Information
+  NOTE: The Society of Gynecologic Oncology (SGO) has issued a statement detailing platinum dosing and sparing recommendations to overcome challenges of limited drug availability. This statement and disease-specific recommendations can be found at https://www.sgo.org/chemotherapy-drug-shortage/.
+ 
+Carboplatin Dosing with the Calvert equation:
+NOTE: For all equations, AUC (area under the plasma concentration vs. time curve) is expressed in mg/ml x min and GFR (glomerular filtration rate) in ml/min.
+ 
+The GFR should be calculated using creatinine clearance determined by actual measurements or estimated by using the Cockroft-Gault or Jeliffe methods. It should be noted that these methods of determining creatinine clearance may not be as accurate, especially in patients with renal dysfunction or patients with low body weight, as the (51)Cr-EDTA method used in the original study. Currently, (51)Cr-EDTA is not available in the United States. The following are general recommendations for target AUC; however, exact dosing guidelines have not been established and may vary depending upon the disease state and protocol.
+For chemotherapy naive patients receiving carboplatin: A target AUC of 6-8 mg/ml x min is recommended.
+For previously treated patients receiving carboplatin alone: An AUC of 4-6 mg/ml x min is recommended.
+For patients receiving carboplatin with other antineoplastics: An AUC of 4-7 mg/ml x min is recommended.
+NOTE: By the end of 2010, all clinical laboratories in the US will use the standardized Isotope Dilution Mass Spectrometry (IDMS) method to measure serum creatinine. Compared to older methods of measuring serum creatinine, the IDMS method may underestimate serum creatinine when values are relatively low (e.g. about 0.7 mg/dl). This could result in an overestimation of GFR in patients with normal renal function and when using the Calvert formula for carboplatin dosing (see below), may result in a higher than desired dose and increased drug-related toxicity. If a patient's GFR is calculated based on a serum creatinine measured using the IDMS method, the FDA recommends that physicians consider capping the dose of carboplatin for desired exposure to avoid potential overdosing. Based on the Calvert formula, maximum doses can be calculated as follows:
+Target AUC = 6, the maximum dose is 6 x 150 = 900 mg
+Target AUC = 5, the maximum dose is 5 x 150 = 750 mg
+Target AUC = 4, the maximum dose is 4 x 150 = 600 mg
+Maximum dose recommendations are based on a maximum estimated GFR = 125 ml/min. Higher estimated GFR values should not be used.
+ 
+Adults: The total carboplatin dose in mg for adults may be calculated using the Calvert equation:
+Total dose (mg) = target AUC x (GFR + 25)
+ 
+Children: The following equation should be used to calculate carboplatin dosage (mg/m2) in children. This equation accounts for differences in the renal elimination of carboplatin between adults and children:
+Total dose (mg/m2) = target AUC x [(0.93 x GFR) + 15]
+  Indications
+    Related Indications
+      Heading
+      for the first-line treatment of ovarian cancer in combination with paclitaxel†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 5 to 7.5 IV on day 1 in combination with paclitaxel (175 to 185 mg/m2 IV over 3 hours on day 1), every 3 weeks for 6 cycles. In clinical trials, carboplatin combined with paclitaxel has been shown to be less toxic and produce similar efficacy to cisplatin combined with paclitaxel as first-line treatment of patients with advanced ovarian cancer. Additionally, carboplatin AUC 6 IV on day 1 in combination with paclitaxel (80 mg/m2 IV on days 1, 8, and 15), every 3 weeks for 6 cycles has been given. This dose-dense combination was compared to conventional carboplatin/paclitaxel in 631 patients with advanced ovarian cancer. Progression-free survival, the primary endpoint, was significantly higher in the dose-dense arm (28 months vs. 17.2 months, p = 0.0015).
+      Heading
+      for the first-line treatment of ovarian cancer in combination with docetaxel†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 5 IV on day 1, immediately preceded by docetaxel (75 mg/m2 IV over 1 hour on day 1), repeated every 3 weeks for 6 cycles. In a phase III trial of 1077 patients, carboplatin combined with docetaxel was compared to carboplatin combined with paclitaxel. No significant differences in response rate, progression-free survival, or overall survival were observed between the 2 groups. Grades 2 to 4 neurosensory toxicity were significantly greater in the paclitaxel containing regimen (30% vs. 11%, p < 0.001) and grades 3 to 4 neutropenia were significantly higher in the docetaxel containing regimen (94% vs. 84%, p < 0.001).
+      Heading
+      for the first-line treatment of or palliative treatment of recurrent advanced ovarian cancer
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          For patients with previously untreated ovarian cancer, administer carboplatin 300 mg/m2 IV on day 1 in combination with cyclophosphamide (600 mg/m2 IV on day 1), repeated every 4 weeks for 6 cycles. For patients with recurrent ovarian cancer, administer single-agent carboplatin 360 mg/m2 IV (or AUC 5 to 6) on day 1, repeated every 4 weeks. Dosage adjustments should be made according to the lowest post-treatment platelet or neutrophil value as assessed by weekly blood counts.
+        Heading
+        Intraperitoneal dosage†
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          200 to 650 mg/m2 intraperitoneally every 4 to 6 weeks has been studied. In 1 trial, 350 mg/m2 intraperitoneally with cyclophosphamide IV every 3 to 4 weeks resulted in similar response and survival rates as carboplatin 350 mg/m2 IV and cyclophosphamide IV with less myelotoxicity.
+    Routes
+    Heading
+    For the treatment of ovarian cancer
+    Related Indications
+      Heading
+      for the treatment of advanced or metastatic NSCLC in combination with paclitaxel†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          Carboplatin AUC 6 IV in combination with paclitaxel (200 mg/m2) IV on day 1 given every 21 days produced an overall survival of 12.3 months in a phase 3 comparison of 4 chemotherapy doublets in advanced NSCLC. In another similar 4-arm phase 3 comparison, carboplatin AUC 6 IV on day 1 in combination with paclitaxel 225 mg/m2 IV on day 1 given every 21 days, produced an overall survival of 7.8 months, which was similar to the reference regimen of cisplatin and paclitaxel.
+      Heading
+      for first-line treatment of inoperable, locally advanced or metastatic non-small cell lung cancer (NSCLC) in combination with gemcitabine†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 5 IV on day 1 in combination with gemcitabine 1,200 mg/m2 IV on days 1 and 8, every 21 days for 6 cycles. Alternatively, carboplatin AUC 5 IV on day 1 with gemcitabine 1,000 mg/m2 IV on days 1, 8 and 15, repeated every 28 days for 4 cycles or, carboplatin AUC 5 IV day 1 with gemcitabine 1,000 mg/m2 IV on days 1 and 8, repeated every 21 days for 4 cycles, have also been studied.
+      Heading
+      for first-line treatment of unresectable, locally advanced or metastatic non-small cell lung cancer (NSCLC) in combination with docetaxel†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 6 IV in combination with docetaxel (75 mg/m2 IV) on day 1 given every 21 days for 4 to 6 cycles. In a phase 3 trial of 1,203 patients with unresectable locally advanced or metastatic NSCLC, docetaxel and platinum combinations (cisplatin or carboplatin) were compared with cisplatin/vinorelbine. No difference was observed between docetaxel/carboplatin and cisplatin/vinorelbine in overall survival, the primary endpoint. Grade 3 and 4 anemia and nausea/vomiting were significantly lower in both docetaxel containing arms. In addition, hospitalizations and treatment discontinuation secondary to toxicity were higher with cisplatin/vinorelbine. A separate phase 3 trial conducted in 422 patients with inoperable, locally advanced or metastatic NSCLC compared docetaxel/carboplatin to mitomycin C/cisplatin plus either ifosfamide or vinblastine. The primary endpoint, 1-year overall survival, was not significantly different between the treatment arms. Grade 3 and 4 neutropenia, infection, and mucositis were all significantly higher with docetaxel/carboplatin, while quality of life scores were significantly better.
+      Heading
+      for the first-line treatment of stage IIIB or IV non-small cell lung cancer (NSCLC) in combination with pemetrexed†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 5 IV in combination with pemetrexed (500 mg/m2 IV) on day 1, repeated every 3 weeks for 4 cycles. In a phase 3 trial, 436 patients were randomized to pemetrexed/carboplatin or gemcitabine/carboplatin. No significant differences were observed for the primary endpoint, health-related quality of life, or the secondary endpoint, overall survival. Grade 3 or 4 toxicities were significantly worse in the gemcitabine/carboplatin arm.
+      Heading
+      for the first-line treatment of locally advanced or metastatic non-small cell lung cancer (NSCLC) in patients who are not candidates for curative surgery or radiation in combination with nanoparticle albumin-bound paclitaxel†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 6 IV on day 1 in combination with nanoparticle albumin-bound (nab) paclitaxel (100 mg/m2 IV over 30 minutes on days 1, 8, and 15), repeated every 21 days; administer carboplatin immediately after the nab-paclitaxel infusion on day 1. Nab-paclitaxel plus carboplatin was noninferior to paclitaxel plus carboplatin in patients with previously untreated non-resectable stage IIIB or stage IV non-small cell lung cancer (NSCLC) in a multicenter, randomized, phase 3 trial (n = 1,052). The primary endpoint of overall response rate (ORR) assessed by independent radiologic review was significantly improved with nab-paclitaxel/carboplatin compared with solvent-based (sb) paclitaxel plus carboplatin (33% vs. 25%); all responding patients in the nab-paclitaxel arm had a partial response (PR) while 1 patient in the sb-paclitaxel arm achieved a complete response. In a subgroup analysis, the ORR was significantly improved with nab-paclitaxel plus carboplatin in patients with squamous cell histology (41% vs. 24%) but not nonsquamous cell histology (26% vs. 25%). Median progression-free survival (6.3 months vs. 5.8 months) and overall survival (12.1 months vs. 11.2 months) were nonsignificantly improved with nab-paclitaxel/carboplatin.
+      Heading
+      for the first-line treatment of metastatic squamous non-small cell lung cancer (NSCLC), in combination with pembrolizumab and either paclitaxel or nab-paclitaxel†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 6 IV on day 1 with either paclitaxel (200 mg/m2 IV on day 1) or nab-paclitaxel (100 mg/m2 IV on days 1, 8, and 15) repeated every 3 weeks for 4 cycles in combination with pembrolizumab (200 mg IV on day 1 every 3 weeks OR 400 mg IV on day 1 every 6 weeks). Administer pembrolizumab prior to chemotherapy when given on the same day. Following completion of platinum-based therapy, pembrolizumab may be continued as maintenance therapy until disease progression or unacceptable toxicity, for up to 24 months. In a multicenter, randomized, double-blind clinical trial (KEYNOTE-407), treatment with pembrolizumab plus carboplatin and either paclitaxel or nab-paclitaxel (n = 278) significantly improved median overall survival (17.2 months vs. 11.6 months) and progression-free survival (6.4 months vs. 4.8 months) compared with placebo plus carboplatin and paclitaxel/nab-paclitaxel (n = 281) in patients with metastatic squamous NSCLC. The overall response rate was also significantly improved in the pembrolizumab arm (58% vs. 35%), for a median duration of 7.2 months and 4.9 months, respectively.
+      Heading
+      for the first-line treatment of metastatic nonsquamous non-small cell lung cancer (NSCLC) without EGFR or ALK mutations, in combination with atezolizumab, bevacizumab, and paclitaxel†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 6 IV on day 1 in combination with paclitaxel (200 mg/m2 IV, or 175 mg/m2 IV in Asian patients) every 3 weeks for a maximum of 4 to 6 cycles of chemotherapy. Administer in combination with bevacizumab (15 mg/kg IV every 3 weeks), and atezolizumab (840 mg IV every 2 weeks; OR 1,200 mg IV every 3 weeks; OR 1,680 mg IV every 4 weeks); continue atezolizumab and bevacizumab until disease progression or unacceptable toxicity. Administer atezolizumab prior to bevacizumab and chemotherapy when given on the same day. Coadministration of certain drugs may need to be avoided or dosage adjustments may be necessary; review drug interactions. At the final analysis of a multicenter, randomized, open-label, phase 3 clinical trial (IMpower150), treatment with atezolizumab plus bevacizumab/paclitaxel/carboplatin (ABCP) significantly improved overall survival in patients with metastatic nonsquamous NSCLC compared with BCP without atezolizumab (19.5 months vs. 14.7 months); overall survival with atezolizumab/paclitaxel/carboplatin was not significantly different from BCP. Progression-free survival was also significantly improved in the ABCP arm compared with BCP (8.5 months vs. 7 months). The objective response rate was 55% (complete response [CR], 4%) versus 42% (CR, 1%), respectively, for a median duration of 10.8 months and 6.5 months, respectively.
+      Heading
+      for the first-line treatment of unresectable, locally advanced, recurrent, or metastatic non-squamous non-small cell lung cancer (NSCLC) in combination with bevacizumab and paclitaxel†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 6 IV on day 1, preceded by bevacizumab (15 mg/kg IV) and paclitaxel (200 mg/m2 IV), every 3 weeks for 6 cycles of chemotherapy. After completion of chemotherapy, continue bevacizumab (15 mg/kg IV) on day 1 of each 21-day cycle until disease progression or unacceptable toxicity. To prevent hypersensitivity reactions, all patients should be premedicated with dexamethasone 20 mg PO approximately 12 and 6 hours before paclitaxel, diphenhydramine (or equivalent) 50 mg IV 30 to 60 minutes before paclitaxel, and an IV H2-blocker 30 to 60 minutes before paclitaxel. If the first bevacizumab infusion is well tolerated, the second infusion may be given over 60 minutes; if the 60-minute infusion is well tolerated, subsequent infusions may be given over 30 minutes. In a randomized, open-label clinical trial (n = 878), median overall survival was significantly longer in chemotherapy-naive patients with locally advanced, metastatic, or recurrent nonsquamous NSCLC treated with bevacizumab/paclitaxel/carboplatin (BCP) compared with paclitaxel/carboplatin (CP) alone (12.3 months vs. 10.3 months); investigator-assessed progression-free survival (PFS) was also longer in the bevacizumab arm. In an exploratory analysis, the impact of bevacizumab was not significant in women, patients age 65 years and older, or in patients with weight loss of 5% or more at study entry.
+      Heading
+      for the first-line treatment of metastatic nonsquamous non-small cell lung cancer (NSCLC) without EGFR or ALK mutations, in combination with nanoparticle albumin-bound (nab) paclitaxel and atezolizumab
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 6 IV on day 1, every 3 weeks for a maximum of 4 to 6 cycles of chemotherapy. Administer in combination with nab-paclitaxel (100 mg/m2 IV on days 1, 8, and 15) and atezolizumab (840 mg IV every 2 weeks; OR 1,200 mg IV every 3 weeks; OR 1,680 mg IV every 4 weeks until disease progression or unacceptable toxicity). Administer atezolizumab prior to chemotherapy when given on the same day. Coadministration of certain drugs may need to be avoided or dosage adjustments may be necessary; review drug interactions. First-line treatment of EGFR- and ALK-negative metastatic NSCLC with atezolizumab plus nab-paclitaxel and carboplatin significantly improved median overall survival (18.6 months vs. 13.9 months) and median progression-free survival (7.2 months vs. 6.5 months) compared with nab-paclitaxel and carboplatin alone in a multicenter, randomized, open-label trial (IMpower130). The overall response rate was 46% (complete response [CR], 5%) in the atezolizumab arm compared with 32% (CR, 1%) in the control arm, for a median duration of 10.8 months versus 7.8 months, respectively.
+      Heading
+      for the first-line treatment of locally advanced or metastatic NSCLC with EGFR exon 20 insertion mutations, in combination with avimantamab and pemetrexed†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 5 IV every 3 weeks for up to 12 weeks (4 cycles). Administer in combination with amivantamab (flat dosing dependent on weight, until disease progression or unacceptable toxicity), and pemetrexed (500 mg/m2 IV every 3 weeks until disease progression or unacceptable toxicity). Infuse pemetrexed first, followed by carboplatin, and then amivantamab. Treatment with IV amivantamab, pemetrexed, and carboplatin significantly improved median progression-free survival (11.4 months vs. 6.7 months) compared with pemetrexed and carboplatin alone in patients with previously untreated locally advanced or metastatic NSCLC with EGFR exon 20 insertion mutations in a multicenter, randomized, open-label clinical trial (PAPILLON). The objective response rate was 67% in the amivantamab arm (complete response [CR], 4%) for a median duration of 10.1 months compared with 36% in the chemotherapy-alone arm (CR, 1%) for a median duration of 5.6 months.
+      Heading
+      for the first-line treatment of metastatic nonsquamous non-small cell lung cancer (NSCLC) without EGFR or ALK mutations, in combination with atezolizumab; hyaluronidase, bevacizumab, and paclitaxel†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 6 IV in combination with paclitaxel (200 mg/m2 IV, or 175 mg/m2 IV in Asian patients) every 3 weeks for a maximum of 4 to 6 cycles. Administer with atezolizumab; hyaluronidase (1,875 mg atezolizumab and 30,000 units hyaluronidase subcutaneously) and bevacizumab (15 mg/kg IV) every 3 weeks until disease progression or unacceptable toxicity. Administer atezolizumab; hyaluronidase prior to bevacizumab and chemotherapy when given on the same day. The use of atezolizumab; hyaluronidase for this indication is supported by evidence from adequate and well-controlled studies with intravenous atezolizumab in this population and pharmacokinetic data demonstrating comparable exposure to atezolizumab between the subcutaneous and intravenous products. At the final analysis of a multicenter, randomized, open-label, phase 3 clinical trial (IMpower150), treatment with atezolizumab plus bevacizumab/paclitaxel/carboplatin (ABCP) significantly improved overall survival in patients with metastatic nonsquamous NSCLC compared with BCP without atezolizumab (19.5 months vs. 14.7 months); overall survival with atezolizumab/paclitaxel/carboplatin was not significantly different from BCP. Progression-free survival was also significantly improved in the ABCP arm compared with BCP (8.5 months vs. 7 months). The objective response rate was 55% (complete response [CR], 4%) versus 42% (CR, 1%), respectively, for a median duration of 10.8 months and 6.5 months, respectively.
+      Heading
+      for the first-line treatment of metastatic nonsquamous non-small cell lung cancer (NSCLC) without EGFR or ALK mutations, in combination with nanoparticle albumin-bound (nab) paclitaxel and atezolizumab; hyaluronidase†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 6 IV on day 1 in combination with nab-paclitaxel (100 mg/m2 on days 1, 8, and 15) every 3 weeks for a maximum of 4 to 6 cycles of chemotherapy. Administer in combination with atezolizumab; hyaluronidase (1,875 mg atezolizumab and 30,000 units hyaluronidase subcutaneously) every 3 weeks until disease recurrence or unacceptable toxicity. Administer atezolizumab prior to chemotherapy when given on the same day. The use of atezolizumab; hyaluronidase for this indication is supported by evidence from adequate and well-controlled studies with intravenous atezolizumab in this population and pharmacokinetic data demonstrating comparable exposure to atezolizumab between the subcutaneous and intravenous products. First-line treatment of EGFR- and ALK-negative metastatic NSCLC with atezolizumab plus nab-paclitaxel and carboplatin significantly improved median overall survival (18.6 months vs. 13.9 months) and median progression-free survival (7.2 months vs. 6.5 months) compared with nab-paclitaxel and carboplatin alone in a multicenter, randomized, open-label trial (IMpower130). The overall response rate was 46% (complete response [CR], 5%) in the atezolizumab arm compared with 32% (CR, 1%) in the control arm, for a median duration of 10.8 months versus 7.8 months, respectively.
+      Heading
+      for the treatment of locally advanced or metastatic non-small cell lung cancer (NSCLC) with EGFR exon 19 deletions or exon 21 L858R substitution mutations in patients with disease progression on or after treatment with an EGFR tyrosine kinase inhibitor, in combination with amivantamab and pemetrexed†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 5 IV every 3 weeks for up to 12 weeks (4 cycles). Administer in combination with pemetrexed (500 mg/m2 IV every 3 weeks) and amivantamab (flat dosing dependent on weight) until disease progression or unacceptable toxicity. Infuse pemetrexed first, followed by carboplatin, and then amivantamab. In a multicenter, randomized, open-label clinical trial (MARIPOSA-2), treatment with amivantamab in combination with pemetrexed and carboplatin significantly improved median progression-free survival (PFS) compared with pemetrexed and carboplatin alone (6.3 months vs. 4.2 months) and objective response rate (ORR) (53% vs. 29%; complete response, 0.8% vs. 0%) in patients with locally advanced or metastatic NSCLC with EGFR exon 19 deletions or exon 21 L858R substitution mutations and progressive disease on or after receiving osimertinib. The median duration of response was 6.9 months versus 5.6 months, respectively. At a prespecified interim analysis, median overall survival was not significantly different between treatment arms (17.7 months vs. 15.3 months). In a prespecified secondary analysis of the 23% of patients with baseline intracranial disease, the rate of intracranial complete response by a blinded independent central review (BICR) was 20% in the amivantamab arm compared with 7% in patients who received chemotherapy alone; data are not available for intracranial partial responses.
+      Heading
+      for the treatment of locally advanced or metastatic non-small cell lung cancer (NSCLC) with EGFR exon 19 deletions or exon 21 L858R substitution mutations in patients with disease progression on or after treatment with an EGFR tyrosine kinase inhibitor, in combination with pemetrexed and amivantamab; hyaluronidase†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 5 IV every 3 weeks for up to 12 weeks (4 cycles). Administer in combination with pemetrexed (500 mg/m2 IV every 3 weeks until disease progression or unacceptable toxicity) and amivantamab; hyaluronidase (flat dosing dependent on weight, until disease progression or unacceptable toxicity). Infuse pemetrexed first, followed by carboplatin, and then amivantamab; hyaluronidase. The efficacy of subcutaneous amivantamab; hyaluronidase has been established based on adequate and well-controlled studies of IV amivantamab. In a multicenter, randomized, open-label clinical trial (MARIPOSA-2), treatment with amivantamab in combination with pemetrexed and carboplatin significantly improved median progression-free survival (PFS) compared with pemetrexed and carboplatin alone (6.3 months vs. 4.2 months) and objective response rate (ORR) (53% vs. 29%; complete response, 0.8% vs. 0%) in patients with locally advanced or metastatic NSCLC with EGFR exon 19 deletions or exon 21 L858R substitution mutations and progressive disease on or after receiving osimertinib. The median duration of response was 6.9 months versus 5.6 months, respectively. At a prespecified interim analysis, median overall survival was not significantly different between treatment arms (17.7 months vs. 15.3 months). In a prespecified secondary analysis of the 23% of patients with baseline intracranial disease, the rate of intracranial complete response by a blinded independent central review (BICR) was 20% in the amivantamab arm compared with 7% in patients who received chemotherapy alone; data are not available for intracranial partial responses.
+      Heading
+      for the first-line treatment of locally advanced or metastatic NSCLC with EGFR exon 20 insertion mutations, in combination with pemetrexed and amivantamab; hyaluronidase†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 5 IV every 3 weeks for up to 12 weeks (4 cycles). Administer in combination with amivantamab; hyaluronidase (flat dosing dependent on weight, until disease progression or unacceptable toxicity), and pemetrexed (500 mg/m2 IV every 3 weeks until disease progression or unacceptable toxicity). Infuse pemetrexed first, followed by carboplatin, and then amivantamab; hyaluronidase. Treatment with IV amivantamab, pemetrexed, and carboplatin significantly improved median progression-free survival (11.4 months vs. 6.7 months) compared with pemetrexed and carboplatin alone in patients with previously untreated locally advanced or metastatic NSCLC with EGFR exon 20 insertion mutations in a multicenter, randomized, open-label clinical trial (PAPILLON). The objective response rate was 67% in the amivantamab arm (complete response [CR], 4%) for a median duration of 10.1 months compared with 36% in the chemotherapy-alone arm (CR, 1%) for a median duration of 5.6 months.
+    Routes
+    Heading
+    For treatment of non-small cell lung cancer (NSCLC)†
+    Related Indications
+      Heading
+      for the treatment of advanced-stage squamous cell carcinoma of the head and neck in combination with 5-fluorouracil and radiation therapy†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          70 mg/m2/day IV on days 1 through 4 in combination with 5-fluorouracil (5-FU) (600 mg/m2/day continuous IV infusion on days 1 through 4). Chemotherapy cycles were started on days 1, 22, and 43 and were administered concurrently with radiotherapy (RT). In a phase III trial, 226 patients with stage III or IV squamous cell carcinoma of the oropharynx (no evidence of distant metastasis) were randomized to receive RT alone or concomitantly with carboplatin/5-FU. Overall survival at 5 years was significantly improved in the chemoradiotherapy arm (22.4% vs. 15.8%, p = 0.05). The 5-year specific disease free survival rate (26.6% vs. 14.6%, p = 0.01) and locoregional control rate (47.6% vs. 24.7%, p = 0.002) were also significantly improved with chemoradiotherapy. Hematologic and skin toxicities were more common in chemoradiotherapy arm. In addition, grades 3 and 4 mucositis and poor nutritional status occurred more frequently with concomitant therapy. There were no significant differences in late toxic effects between the arms when assessed at 5 years.
+      Heading
+      for the treatment of recurrent or metastatic squamous cell carcinoma of the head and neck in combination with 5-fluorouracil†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          300 mg/m2 IV on day 1 in combination with 5-fluorouracil (5-FU) (1,000 mg/m2/day continuous IV infusion over 96 hours on days 1 through 4); repeated every 4 weeks. In a phase III trial, 277 patients were randomized to receive carboplatin-5-FU, cisplatin-5-FU, or methotrexate (MTX). An increase in overall response rate was achieved with carboplatin-5-FU versus MTX, which was of borderline statistical significance (21% vs. 10%, p = 0.05). The overall response rate was numerically lower with carboplatin/5-FU compared to cisplatin-5-FU (21% vs. 32%).
+      Heading
+      for the first-line treatment of recurrent locoregional disease or metastatic squamous cell carcinoma of the head and neck in combination with fluorouracil and cetuximab†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 5 IV on day 1, in combination with fluorouracil (1,000 mg/m2 per day IV infusion over days 1 to 4), every 3 weeks for up to 6 cycles. Administer with cetuximab (400 mg/m2 IV as an initial loading dose on day 1 followed by weekly infusions of cetuximab 250 mg/m2 IV; alternatively, cetuximab may be administered at a dose of 500 mg/m2 IV every 2 weeks). Complete cetuximab administration 1 hour prior to chemotherapy and continue until disease progression or unacceptable toxicity. In a phase 3 trial, 442 patients were randomized to receive a platinum (cisplatin or carboplatin) and fluorouracil with or without cetuximab. Overall survival, the primary endpoint, was significantly greater with the addition of cetuximab to chemotherapy compared with chemotherapy alone (10.1 months vs. 7.4 months). However, sepsis, hypomagnesemia, grade 3 skin reactions, and grade 3 or 4 infusion reactions occurred more frequently with the addition of cetuximab.
+      Heading
+      for the treatment of advanced squamous cell carcinoma of the head and neck in combination with paclitaxel and radiotherapy†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          100 mg/m2 IV weekly in combination with paclitaxel (40 to 45 mg/m2 IV weekly). Chemotherapy was administered weekly prior to radiation therapy. In a clinical trial, 62 patients were administered carboplatin-paclitaxel concomitantly with radiation therapy. An overall survival of 33 months was achieved. A complete response (CR) occurred in 75% of patients; among patients with a CR, an overall survival of 49 months was achieved. At a follow-up of 30 months, a local control rate of 63% was observed.
+    Routes
+    Heading
+    For treatment of head and neck cancer†
+    Related Indications
+      Heading
+      for the treatment of testicular cancer in combination with etoposide and bleomycin†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          Carboplatin AUC 5 IV on day 1 in combination with etoposide (120 mg/m2/day IV on days 1 through 3) and bleomycin (30 international units on day 2), repeated every 21 days for 4 cycles has been used. In a randomized trial, the combination of carboplatin (AUC 5), etoposide, and bleomycin (CEB) was compared with the standard regimen of bleomycin, etoposide, and cisplatin (BEP) in patients with good-prognosis, metastatic testicular cancer. The combination containing carboplatin resulted in a significantly lower response rate than the cisplatin-containing regimen (87.3% vs. 94.4%, respectively).
+      Heading
+      for the treatment of stage I seminoma†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          Single dose carboplatin IV (AUC 7 if measured by EDTA; 90% of that dose if measured by 24-hour urinary creatinine clearance) after resection. In a phase III trial of patients with stage I seminoma, no difference in relapse-free rates were observed between single dose carboplatin and adjuvant radiotherapy amongst the 1,447 patients who met the minimum follow-up requirement of 5 years. Contralateral germ-cell tumors occurred in only 2 patients randomized to receive carboplatin as compared to 15 patients randomized to receive radiotherapy.
+    Routes
+    Heading
+    For treatment of testicular cancer†
+    Routes
+      Heading
+      Intravenous dosage
+      Route Age Groups
+        Heading
+        Adults
+        Dosage Description
+        Carboplatin AUC 5 IV on day 2 (Max: 800 mg), ifosfamide 5 g/m2 IV mixed with equal dose of mesna via continuous intravenous infusion over 24 hours beginning on day 2, and etoposide 100 mg/m2/day on days 1 through 3, every 2 weeks (ICE regimen) for 3 cycles, was developed to treated relapsed NHL and allow for adequate stem cell collection prior to transplant. Alternative dosage regimens have been used, including some in the outpatient setting.
+    Heading
+    For the treatment of relapsed or refractory non-Hodgkin's lymphoma (NHL)† in combination with ifosfamide and etoposide
+    Related Indications
+      Heading
+      for the first-line treatment of metastatic breast cancer in combination with paclitaxel†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          Carboplatin AUC 6 IV on day 1 in combination with paclitaxel 175 mg/m2 IV over 3 hours on day 1, every 3 weeks for 6 cycles has been studied.
+      Heading
+      for the treatment of locally recurrent unresectable or metastatic, PD-L1 positive (CPS 10 or more), triple negative breast cancer (TNBC), in combination with gemcitabine and pembrolizumab†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 2 IV on days 1 and 8, every 21 days in combination with gemcitabine (1,000 mg/m2 IV on days 1 and 8, every 21 days) and pembrolizumab (200 mg IV repeated every 3 weeks OR 400 mg IV repeated every 6 weeks until disease progression or up to 24 months in patients without progression); the number of cycles of gemcitabine plus carboplatin was not specified.   Administer pembrolizumab prior to chemotherapy when given on the same day. In a multicenter, double-blind clinical trial (KEYNOTE-355), patients with locally recurrent unresectable or metastatic TNBC who had not been previously treated with chemotherapy in the metastatic setting were randomized to treatment with either pembrolizumab or placebo in combination with paclitaxel, nab-paclitaxel, or gemcitabine plus carboplatin regardless of tumor PD-L1 expression. The addition of pembrolizumab to chemotherapy significantly improved the median progression-free survival (9.7 months vs. 5.6 months) compared with placebo plus chemotherapy in the subgroup of patients with a CPS of 10 or more. The objective response rate was 53% compared with 40%, respectively (complete response, 17% vs. 13%) for a median duration of 19.3 months in the pembrolizumab arm and 7.3 months in the placebo arm.
+    Routes
+    Heading
+    For the treatment of breast cancer†
+    Routes
+      Heading
+      Intravenous dosage
+      Route Age Groups
+        Heading
+        Infants and Children
+        Dosage Description
+        Carboplatin has been given in combination with etoposide, cyclophosphamide, and doxorubicin, in the following fashion. In Cycles 1 and 7: Carboplatin 560 mg/m2 IV on day 1 (18 mg/kg/day in children less than 12 kg) plus etoposide 120 mg/m2/day IV on days 1, 2, 3 (4 mg/kg/day in children less than 12 kg). Cycles 2 and 6: Carboplatin 560 mg/m2 IV on day 1 (18 mg/kg/day in children less than 12 kg) plus cyclophosphamide 1,000 mg/m2 IV on day 1 (33 mg/kg/day in children less than 12 kg), and doxorubicin 30 mg/m2 IV on day 1 (1 mg/kg/day in children less than 12 kg). Cycles 3 and 5: Cyclophosphamide 1,000 mg/m2 IV on day 1 (33 mg/kg/day in children less than 12 kg) plus etoposide 120 mg/m2/day IV on days 1, 2, 3 (4 mg/kg/day in children less than 12 kg). Cycle 4: Carboplatin 560 mg/m2 IV on day 1 (18 mg/kg/day in children less than 12 kg) plus etoposide 120 mg/m2/day IV on days 1, 2, 3 (4 mg/kg/day in children less than 12 kg), and doxorubicin 30 mg/m2 IV on day 1 (1 mg/kg/day in children less than 12 kg). Cycle 8: Cyclophosphamide 1,000 mg/m2 IV on day 1 (33 mg/kg/day in children less than 12 kg) plus doxorubicin 30 mg/m2 IV on day 1 (1 mg/kg/day in children less than 12 kg). All cycles given at 3 week intervals. Patients with favorable biologic features received 4 cycles; if incomplete response after 4 cycles, patients given an additional 4 cycles. Patients with unfavorable biologic features received 8 cycles. Infants younger than 60 days of age received granulocyte colony-stimulating factor after each cycle.
+    Heading
+    For the treatment of intermediate-risk neuroblastoma in combination with etoposide, cyclophosphamide, and doxorubicin†
+    Routes
+      Heading
+      Intravenous dosage
+      Route Age Groups
+        Heading
+        Adults
+        Dosage Description
+        AUC of 6 IV over 30 minutes following paclitaxel 225 mg/m2 IV over 3 hours on day 1 repeated every 21 days for up to 6 cycles resulted in an objective response rate (ORR) of 42.9% (complete response rate, 14.3%; median duration of response, 16.9 months) in 21 patients with invasive, recurrent, or metastatic thymoma in a multicenter, phase II study. This ORR was less than the prespecified ORR of 60% that would warrant further study of this regimen. At a median follow-up of 59.4 months, the median progression-free survival time was 16.7 months and the median overall survival time was not reached. Serious toxicity reported in this study included grade 4 neutropenia and grade 3 sensory neuropathy.
+    Heading
+    For the first-line treatment of unresectable, advanced thymoma†, in combination with paclitaxel
+    Routes
+      Heading
+      Intravenous dosage
+      Route Age Groups
+        Heading
+        Adults
+        Dosage Description
+        AUC of 6 IV over 30 minutes following paclitaxel 225 mg/m2 IV over 3 hours on day 1 administered every 21 days for up to 6 cycles resulted in an objective response rate (ORR) of 21.7% (all partial responses; median duration of response, 4.5 months) in 23 patients with invasive, recurrent, or metastatic thymic carcinoma in a multicenter, phase II study. This ORR was less than the prespecified ORR of 45% that would warrant further study of this regimen. At a median follow-up of 63.8 months, the median progression-free survival and overall survival times were 5 and 20 months, respectively. Serious toxicity reported in this study included grade 4 neutropenia and grade 3 sensory neuropathy.
+    Heading
+    For the first-line treatment of unresectable, advanced thymic carcinoma†, in combination with paclitaxel
+    Related Indications
+      Heading
+      for the treatment of extensive-stage SCLC, in combination with etoposide†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 5 IV on day 1 in combination with etoposide 80 mg/m2/day IV on days 1, 2, 3 per cycle every 3 to 4 weeks up to 4 courses.
+      Heading
+      for the treatment of limited-stage SCLC, in combination with etoposide and radiation therapy†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 6 IV on day 1 in combination with etoposide 100 mg/m2/day IV on days 1, 2, 3, every 3 weeks for 6 courses. Hyperfractionated thoracic radiation therapy should be given concurrently with chemotherapy.
+      Heading
+      for the treatment of relapsed SCLC in combination with paclitaxel†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 7 IV on day 1 in combination with paclitaxel 175 mg/m2 IV on day 1, every 3 weeks for 5 cycles.
+      Heading
+      for the first-line treatment of extensive-stage SCLC, in combination with etoposide and atezolizumab†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 5 IV on day 1 in combination with etoposide (100 mg/m2 IV on days 1, 2, and 3) every 3 weeks for 4 cycles). Administer with atezolizumab (840 mg IV every 2 weeks; OR 1,200 mg IV every 3 weeks; OR 1,680 mg IV every 4 weeks); continue atezolizumab until disease progression or unaceptable toxicity. Administer atezolizumab prior to chemotherapy when given on the same day. In a randomized, double-blind, phase 3 clinical trial (IMpower133), the addition of atezolizumab to carboplatin plus etoposide significantly improved overall survival (12.3 months vs. 10.3 months) and progression-free survival (5.2 months vs. 4.3 months) compared with placebo plus carboplatin/etoposide. Survival at 1 year was 51.7% versus 38.2%, respectively. Treatment was well-tolerated, with 56.5% of patients in the atezolizumab arm experiencing grade 3 or 4 adverse reactions compared with 56.1% of those in the placebo arm. Immune-related adverse reactions occurred in 39.9% versus 24.5% of patients, respectively.
+      Heading
+      for the first-line treatment of extensive-stage SCLC, in combination with etoposide and durvalumab
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults weighing more than 30 kg
+          Dosage Description
+          AUC 5 to 6 IV on day 1 plus etoposide (80 to 100 mg/m2 IV on days 1 to 3), following administration of durvalumab (1,500 mg IV on day 1), every 3 weeks for 4 cycles; administer durvalumab prior to chemotherapy when given on the same day. After completion of 4 cycles of durvalumab plus chemotherapy, continue durvalumab 1,500 mg IV every 4 weeks as a single agent until disease progression or unacceptable toxicity. Durvalumab significantly improved overall survival by approximately 3 months when added to platinum-etoposide chemotherapy compared with platinum-etoposide alone in patients with extensive-stage SCLC in a randomized clinical trial.
+          Heading
+          Adults weighing 30 kg or less
+          Dosage Description
+          AUC 5 to 6 IV on day 1 plus etoposide (80 to 100 mg/m2 IV on days 1 to 3), following administration of durvalumab (20 mg/kg IV on day 1), every 3 weeks for 4 cycles; administer durvalumab prior to chemotherapy when given on the same day. After completion of 4 cycles of durvalumab plus chemotherapy, continue durvalumab 20 mg/kg IV every 4 weeks as a single agent until disease progression or unacceptable toxicity. Durvalumab significantly improved overall survival by approximately 3 months when added to platinum-etoposide chemotherapy compared with platinum-etoposide alone in patients with extensive-stage SCLC in a randomized clinical trial.
+      Heading
+      for the first-line treatment of extensive-stage small cell lung cancer (SCLC), in combination with atezolizumab; hyaluronidase and etoposide†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 5 IV on day 1 in combination with etoposide (100 mg/m2 IV on days 1, 2, and 3) and atezolizumab; hyaluronidase (1,875 mg atezolizumab and 30,000 units hyaluronidase subcutaneously) every 3 weeks for 4 cycles; continue atezolizumab; hyaluronidase after the completion of chemotherapy until disease recurrence or unacceptable toxicity. Administer atezolizumab; hyaluronidase prior to chemotherapy when given on the same day. The use of atezolizumab; hyaluronidase for this indication is supported by evidence from adequate and well-controlled studies with intravenous atezolizumab in this population and pharmacokinetic data demonstrating comparable exposure to atezolizumab between the subcutaneous and intravenous products. In a randomized, double-blind, phase 3 clinical trial (IMpower133), the addition of atezolizumab to carboplatin plus etoposide significantly improved overall survival (12.3 months vs. 10.3 months) and progression-free survival (5.2 months vs. 4.3 months) compared with placebo plus carboplatin/etoposide. Survival at 1 year was 51.7% versus 38.2%, respectively.
+    Routes
+    Heading
+    For the treatment of small cell lung cancer (SCLC)†
+    Routes
+      Heading
+      Intravenous dosage
+      Route Age Groups
+        Heading
+        Adults
+        Dosage Description
+        AUC 5 IV over 30 minutes on day 1; 30 minutes prior to carboplatin infusion on day 1, administer pemetrexed 500 mg/m2 IV over 10 minutes. Repeat every 21 days for up to 6 cycles, until disease progression or unacceptable toxicity. Premedicate pemetrexed with dexamethasone 4 mg by mouth twice daily for 3 days, beginning the day before pemetrexed administration to reduce cutaneous reactions. Additionally, supplement with folic acid (400 to 1,000 mcg by mouth daily) and vitamin B12 (1 mg IM every 3 months) beginning 7 days prior to the first dose of pemetrexed and continuing for 21 days after the last dose to reduce the severity and frequency of hematologic and GI toxicities; after the first dose, vitamin B12 may be given on the same day as pemetrexed. Do not substitute oral for IM vitamin B12.
+    Heading
+    For the treatment of previously untreated, advanced, unresectable pleural malignant mesothelioma, in combination with pemetrexed†
+    Related Indications
+      Heading
+      for the adjuvant treatment of locally advanced urothelial cancer of the upper urinary tract (UTUC), in combination with gemcitabine†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 4.5 or 5 IV over 1 hour on day 1, in combination with gemcitabine (1,000 mg/m2 IV over 30 minutes on day 1 and 8), every 21 days for 4 cycles. In a randomized, phase 3 clinical trial, treatment with gemcitabine plus either cisplatin or carboplatin significantly improved disease-free survival in patients with locally advanced UTUC when initiated within 90 days after radical nephroureterectomy compared with surveillance. Based on recommendations from the independent data monitoring committee, study enrollment was ended early and patients still within the 90-day window from nephroureterectomy were offered chemotherapy.
+    Routes
+    Heading
+    For the treatment of urothelial carcinoma†
+    Related Indications
+      Heading
+      for the treatment of mismatch repair deficient (dMMR) or microsatellite instability-high (MSI-H) primary advanced or recurrent endometrial cancer, in combination with dostarlimab and paclitaxel following by single-agent dostarlimab therapy†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 5 on day 1 plus dostarlimab 500 mg IV on day 1 and paclitaxel 175 mg/m2 on day 1 repeated every 3 weeks for 6 doses; administer dostarlimab prior to chemotherapy on day 1 of each cycle. Starting 3 weeks after the sixth dose, give single-agent dostarlimab 1,000 mg IV every 6 weeks until disease progression or for up to 3 years. At a median follow-up time of approximately 25 months, the 24-month investigator-assessed progression-free survival rates were significantly higher the dostarlimab plus carboplatin and paclitaxel arm compared with the placebo plus carboplatin and paclitaxel arm in patients with primary advanced or recurrent endometrial cancer in the overall study population (36.1% vs. 18.1%) and in a subpopulation of 118 patients with dMMR/MSI-H tumors (61.4% vs. 15.7%) in a randomized, double-blind, phase 3 (RUBY) trial. At the time of this interim analysis, the 24-month overall survival rates were also significantly improved in patients who received dostarlimab compared with placebo in the overall (71.3% vs. 56%) and dMMR/MSI-H subgroup (83.3% vs. 58.7%) populations. In the overall population, 54.7% of patients had endometrioid carcinoma-type endometrial cancer, 47.8% of patients had recurrent disease, and 82.6% had not received external pelvic radiation.
+      Heading
+      for the treatment of mismatch repair deficient (dMMR) primary advanced or recurrent endometrial cancer, in combination with paclitaxel and durvalumab†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 5 or 6 IV on day 1 in combination with paclitaxel 175 mg/m2 IV on day 1 and durvalumab 1,120 mg (if patient weighs 30 kg or more) or 15 mg/kg (if patient weighs less than 30 kg) IV on day 1 and every 21 days for 6 cycles. Administer durvalumab prior to chemotherapy when given on the same day. After completion of 6 cycles of durvalumab plus chemotherapy, continue durvalumab 1,500 mg (if patient weighs 30 kg or more) or 20 mg/kg (if patient weighs less than 30 kg) IV every 4 weeks as a single agent until disease progression or unacceptable toxicity. Patients with advanced or recurrent endometrial cancer were randomized to treatment with durvalumab or placebo plus carboplatin/paclitaxel in a multicenter, randomized, double-blind clinical trial (DUO-E); enrolled patients were required to have known mismatch repair gene status. The primary outcome of progression-free survival (PFS) was significantly improved in the durvalumab arm compared with placebo in the intent-to-treat population (10.2 months vs. 9.6 months); however, based on an exploratory analysis by MMR status (not reached vs. 7 months), the PFS improvement in the overall population was primarily attributed to patients with dMMR tumors.
+      Heading
+      for the treatment of primary advanced or recurrent endometrial cancer, in combination with paclitaxel and pembrolizumab†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 5 IV and paclitaxel 175 mg/m2 IV on day 1 every 3 weeks for 6 cycles, in combination with pembrolizumab 200 mg IV every 3 weeks OR 400 mg IV every 6 weeks until disease progression or for up to 24 months in patients without disease progression. Administer pembrolizumab prior to chemotherapy when given on the same day. Treatment with pembrolizumab plus carboplatin and paclitaxel significantly improved progression-free survival (PFS) in patients with advanced or recurrent endometrial cancer compared with placebo plus carboplatin and paclitaxel in a multicenter, randomized, double-blind clinical trial (KEYNOTE-868) in both the mismatch repair deficient (dMMR) (not reached vs. 6.5 months) and mismatch repair proficient (pMMR) (11.1 months vs. 8.5 months) cohorts.
+      Heading
+      for the treatment of primary advanced or recurrent endometrial cancer, in combination with paclitaxel and pembrolizumab; berahyaluronidase alfa†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 5 IV in combination with paclitaxel (175 mg/m2 IV) on day 1, every 3 weeks for 6 cycles, and in combination with pembrolizumab berahyaluronidase alfa (pembrolizumab 395 mg with 4,800 units berahyaluronidase alfa subcutaneously every 3 weeks OR pembrolizumab 790 mg with 9,600 units of berahyaluronidase alfa subcutaneously every 6 weeks until disease recurrence or unacceptable toxicity for up to 24 months). Administer pembrolizumab; berahyaluronidase alfa prior to chemotherapy when given on the same day. Treatment with pembrolizumab plus carboplatin and paclitaxel significantly improved progression-free survival (PFS) in patients with advanced or recurrent endometrial cancer compared with placebo plus carboplatin and paclitaxel in a multicenter, randomized, double-blind clinical trial (KEYNOTE-868) in both the mismatch repair deficient (dMMR) (not reached vs. 6.5 months) and mismatch repair proficient (pMMR) (11.1 months vs. 8.5 months) cohorts.
+    Routes
+    Heading
+    For the treatment of endometrial cancer†
+    Related Indications
+      Heading
+      for the first-line treatment of recurrent or metastatic non-keratinizing nasopharyngeal carcinoma (NPC), in combination with gemcitabine and penpulimab†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          AUC 5 IV on day 1, in combination with gemcitabine (1,000 mg/m2 IV on days 1 and 8) and penpulimab (200 mg IV on day 1), every 3 weeks for 6 cycles. When given on the same day, administer penpulimab first, followed by gemcitabine, followed by carboplatin. After completion of 6 cycles of penpulimab in combination with gemcitabine and carboplatin, continue penpulimab 200 mg IV every 3 weeks as monotherapy until disease progression or unacceptable toxicity, for up to 24 months. Treatment with penpulimab plus gemcitabine and either carboplatin or cisplatin significantly improved the median progression-free survival (PFS) compared with placebo plus gemcitabine and either carboplatin or cisplatin in patients with recurrent or metastatic nasopharyngeal carcinoma (NPC) in a multicenter, randomized, double-blind clinical trial (AK105-304) (9.6 months vs. 7 months); overall survival results were not mature at the time of reporting. Patients randomized to placebo were eligible to receive open-label penpulimab monotherapy after radiographic disease progression confirmed by blinded independent central review (BICR).
+    Routes
+    Heading
+    For the treatment of nasopharyngeal carcinoma†
+
+Contraindications And Precautions
+  Headline
+  Contraindications/Warnings/Precautions
+  General Information
+  Carboplatin should be administered under the supervision of a physician experienced in the management of cancer chemotherapy. Adequate diagnostic and treatment facilities are needed for appropriate management of carboplatin therapy and complications.
+ 
+Carboplatin is contraindicated in patients who exhibit platinum compound hypersensitivity. For example, patients who have worked with platinum in the electronics industry can develop sensitivity to platinum. There is an increased incidence of hypersensitivity reactions in patients previously exposed to platinum therapy. Anaphylactic reactions may occur within minutes of carboplatin administration. Epinephrine, corticosteroids, and antihistamines have been utilized to treat these reactions.
+ 
+Contraindications to carboplatin include patients with severe bone marrow suppression and significant bleeding; patients with acute leukemia may require treatment with carboplatin despite severe bone marrow suppression. Carboplatin-induced bone marrow suppression is dose-related and is dose limiting. Complete blood counts should be frequently monitored during carboplatin treatment and, when appropriate, until recovery is achieved. Single intermittent courses of carboplatin should not be repeated until leukocyte, neutrophil, and platelet counts have recovered. When used in combination with other myelosuppressive chemotherapy agents, the dose and administration of carboplatin must be carefully reviewed and adjusted to minimize additive effects. Carboplatin should be used cautiously in patients with coagulopathy, reduced renal function, or in those who have received previous cisplatin or myelosuppressive therapy such as chemotherapy or radiation therapy; these patients may require reduced dosages (i.e., lower target AUC values). Carboplatin is a radiation sensitizer and patients may experience severe myelosuppression or other toxicities with concurrent use. Patients with preexisting bone marrow suppression should be allowed to recover their counts prior to carboplatin administration. Severe thrombocytopenia (= 2 weeks. The administration of live vaccines to immunocompromised patients should be avoided. Those undergoing chemotherapy should not be exposed to others who have recently received the oral poliovirus vaccine (OPV). Measles-mumps-rubella (MMR) vaccination is not contraindicated for the close contacts, including health care professionals, of immunocompromised patients. Passive immunoprophylaxis with immune globulins may be indicated for immunocompromised persons instead of, or in addition to, vaccination. When exposed to a vaccine-preventable disease such as measles, severely immunocompromised children should be considered susceptible regardless of their vaccination history.
+  Contraindications And Precautions
+    Headline
+    Drug Interactions
+    General Information
+    The coadministration of certain medications may lead to harm and require avoidance or therapy modification; review all drug interactions prior to concomitant use of other medications.
+    Headline
+    Hypersensitivity
+    General Information
+    This medication is contraindicated in patients with a history of hypersensitivity to it or any of its components. It is also contraindicated in patients with a history of severe allergic reactions to cisplatin or other platinum-containing compounds.
+    Headline
+    serious hypersensitivity reactions or anaphylaxis
+    General Information
+    Serious hypersensitivity reactions or anaphylaxis may occur within minutes of carboplatin administration during any cycle; treatment with carboplatin requires an experienced clinician in the management of cancer chemotherapy. There is an increased risk of allergic reactions, including anaphylaxis, in patients previously exposed to platinum-based therapy or after 6 cycles of carboplatin. Monitor patients for hypersensitivity reactions; ensure supportive equipment and medications are available to treat severe hypersensitivity reactions.
+    Headline
+    bleeding, bone marrow suppression, serious adverse effects
+    General Information
+    Carboplatin can cause dose-dependent bone marrow suppression and is contraindicated in patients with severe bone marrow suppression or significant bleeding. Carboplatin may cause serious adverse effects including anaphylactic-like reactions and vomiting; dose-dependent bone marrow suppression may result in infections and/or bleeding. Monitor blood counts at baseline, weekly during treatment, and as clinically indicated. Bone marrow suppression is increased in patients who have received prior therapy (e.g., cisplatin regimens) and in patients with impaired renal function; dosages in these patients should be appropriately reduced.
+    Headline
+    renal failure, renal impairment
+    General Information
+    Use carboplatin with caution in patients with renal impairment; patients with creatinine clearance below 60 mL/minute are at increased risk of severe bone marrow suppression. A dose reduction is recommended for patients with creatinine clearance 16 to 59 mL/minute when dosing based on body surface area (BSA); a recommended dose has not been established for creatinine clearance less than 16 mL/minute, including renal failure. No dose modification is recommended for renal impairment when dosing based on area under the curve (AUC) as the calculation includes glomerular filtration rate (GFR). Assess renal function at baseline and monitor closely during treatment.
+    Headline
+    pregnancy
+    General Information
+    Carboplatin may cause fetal harm when administered during pregnancy, based on human and animal data and its mechanism of action. When administered to rats, carboplatin was embryolethal and teratogenic. Advise pregnant people of the potential fetal risk. The American Society of Clinical Oncology provides additional information on the use of certain medications for the management of cancer during pregnancy.
+    Headline
+    breast-feeding
+    General Information
+    Advise patients to avoid breast-feeding while taking carboplatin and for 1 week after the last dose, due to the potential for serious adverse reactions in the breastfed child. There are no data on the presence of carboplatin or its metabolites in human milk, their effects on the breastfed child, or their effects on milk production.
+    Headline
+    people who can cause pregnancy in others, people who may become pregnant, reproductive risk
+    General Information
+    Counsel people who may become pregnant and people who can cause pregnancy in others about the reproductive risk associated with carboplatin. Carboplatin can cause fetal harm. Advise people who may become pregnant to use effective contraception while taking carboplatin and for 6 months after the last dose. For those that can cause pregnancy in others, contraception should be used during carboplatin treatment and for 3 months after the last dose.
+
+Pregnancy And Lactation
+  Pregnancy
+    General Information
+    Carboplatin may cause fetal harm when administered during pregnancy, based on human and animal data and its mechanism of action. When administered to rats, carboplatin was embryolethal and teratogenic. Advise pregnant people of the potential fetal risk. The American Society of Clinical Oncology provides additional information on the use of certain medications for the management of cancer during pregnancy.
+  Breastfeeding
+    General Information
+    Counsel people who may become pregnant and people who can cause pregnancy in others about the reproductive risk associated with carboplatin. Carboplatin can cause fetal harm. Advise people who may become pregnant to use effective contraception while taking carboplatin and for 6 months after the last dose. For those that can cause pregnancy in others, contraception should be used during carboplatin treatment and for 3 months after the last dose.
+
+Interactions
+Aldesleukin, IL-2: (Major) Avoid concomitant use of carboplatin and aldesleukin; coadministration may result in additive nephrotoxicity. Monitor for renal toxicity if concomitant use is required.
+Amikacin: (Moderate) Patients previously or currently treated with other potentially nephrotoxic agents, such as systemic aminoglycosides, can have a greater risk of developing carboplatin-induced nephrotoxicity. These patients may benefit from hydration prior to carboplatin therapy to lessen the incidence of nephrotoxicity. Monitor renal function closely.
+Aminoglycosides: (Moderate) Patients previously or currently treated with other potentially nephrotoxic agents, such as systemic aminoglycosides, can have a greater risk of developing carboplatin-induced nephrotoxicity. These patients may benefit from hydration prior to carboplatin therapy to lessen the incidence of nephrotoxicity. Monitor renal function closely.
+Bictegravir; Emtricitabine; Tenofovir Alafenamide: (Moderate) Concomitant use of carboplatin and tenofovir alafenamide may result in additive nephrotoxicity. Monitor for renal toxicity if concomitant use is required.
+Capreomycin: (Major) Since capreomycin is eliminated by the kidney, coadministration with other potentially nephrotoxic drugs, including carboplatin, may increase serum concentrations of either drug. Theoretically, the chronic coadministration of these drugs may increase the risk of developing nephrotoxicity, even in patients who have normal renal function. Monitor patients for changes in renal function if these drugs are coadministered.
+Cholera Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the live cholera vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to cholera bacteria after receiving the vaccine.
+Clindamycin: (Moderate) Concomitant use of carboplatin and clindamycin may result in additive nephrotoxicity. Monitor for renal toxicity if concomitant use is required.
+cloZAPine: (Major) It is unclear if concurrent use of other drugs known to cause neutropenia (e.g., antineoplastic agents) increases the risk or severity of clozapine-induced neutropenia. Because there is no strong rationale for avoiding clozapine in patients treated with these drugs, consider increased absolute neutrophil count (ANC) monitoring and consult the treating oncologist.
+Colistimethate, Colistin, Polymyxin E: (Major) Both colistimethate sodium and carboplatin can cause nephrotoxicity. The coadministration of these drugs may increase the risk of developing nephrotoxicity, even in patients who have normal renal function. Monitor patients for changes in renal function if these drugs are coadministered.
+Colistin: (Major) Both colistimethate sodium and carboplatin can cause nephrotoxicity. The coadministration of these drugs may increase the risk of developing nephrotoxicity, even in patients who have normal renal function. Monitor patients for changes in renal function if these drugs are coadministered.
+Darunavir; Cobicistat; Emtricitabine; Tenofovir alafenamide: (Moderate) Concomitant use of carboplatin and tenofovir alafenamide may result in additive nephrotoxicity. Monitor for renal toxicity if concomitant use is required.
+Dengue Tetravalent Vaccine, Live: (Contraindicated) Avoid administration of the live dengue virus vaccine with immunosuppressive drug therapy and prior to immune recovery following treatment with immunosuppressive drug therapy. When feasible, administer indicated live virus vaccines at least 4 weeks before planned immunosuppression or wait until at least 3 months after discontinuation. The time to restoration of immune competence may be longer in some patients. Patients with altered immunocompetence may be at increased risk for severe adverse reactions due to uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+Doravirine; lamiVUDine; Tenofovir disoproxil fumarate: (Moderate) Tenofovir-containing products should be avoided with concurrent or recent use of a nephrotoxic agent, such as carboplatin. Tenofovir is primarily excreted via the kidneys by a combination of glomerular filtration and active tubular secretion. Coadministration of tenofovir with drugs that are eliminated by active tubular secretion may increase concentrations of tenofovir and/or the co-administered drug. Drugs that decrease renal function may also increase concentrations of tenofovir. Renal impairment, which may include hypophosphatemia, has been reported with the use of tenofovir with a majority of the cases occurring in patients who have underlying systemic or renal disease or who are concurrently taking nephrotoxic agents. Monitor patients receiving concomitant nephrotoxic agents for changes in serum creatinine and phosphorus.
+Efavirenz; Emtricitabine; Tenofovir Disoproxil Fumarate: (Moderate) Tenofovir-containing products should be avoided with concurrent or recent use of a nephrotoxic agent, such as carboplatin. Tenofovir is primarily excreted via the kidneys by a combination of glomerular filtration and active tubular secretion. Coadministration of tenofovir with drugs that are eliminated by active tubular secretion may increase concentrations of tenofovir and/or the co-administered drug. Drugs that decrease renal function may also increase concentrations of tenofovir. Renal impairment, which may include hypophosphatemia, has been reported with the use of tenofovir with a majority of the cases occurring in patients who have underlying systemic or renal disease or who are concurrently taking nephrotoxic agents. Monitor patients receiving concomitant nephrotoxic agents for changes in serum creatinine and phosphorus.
+Efavirenz; lamiVUDine; Tenofovir Disoproxil Fumarate: (Moderate) Tenofovir-containing products should be avoided with concurrent or recent use of a nephrotoxic agent, such as carboplatin. Tenofovir is primarily excreted via the kidneys by a combination of glomerular filtration and active tubular secretion. Coadministration of tenofovir with drugs that are eliminated by active tubular secretion may increase concentrations of tenofovir and/or the co-administered drug. Drugs that decrease renal function may also increase concentrations of tenofovir. Renal impairment, which may include hypophosphatemia, has been reported with the use of tenofovir with a majority of the cases occurring in patients who have underlying systemic or renal disease or who are concurrently taking nephrotoxic agents. Monitor patients receiving concomitant nephrotoxic agents for changes in serum creatinine and phosphorus.
+Elvitegravir; Cobicistat; Emtricitabine; Tenofovir Alafenamide: (Moderate) Concomitant use of carboplatin and tenofovir alafenamide may result in additive nephrotoxicity. Monitor for renal toxicity if concomitant use is required.
+Elvitegravir; Cobicistat; Emtricitabine; Tenofovir Disoproxil Fumarate: (Moderate) Tenofovir-containing products should be avoided with concurrent or recent use of a nephrotoxic agent, such as carboplatin. Tenofovir is primarily excreted via the kidneys by a combination of glomerular filtration and active tubular secretion. Coadministration of tenofovir with drugs that are eliminated by active tubular secretion may increase concentrations of tenofovir and/or the co-administered drug. Drugs that decrease renal function may also increase concentrations of tenofovir. Renal impairment, which may include hypophosphatemia, has been reported with the use of tenofovir with a majority of the cases occurring in patients who have underlying systemic or renal disease or who are concurrently taking nephrotoxic agents. Monitor patients receiving concomitant nephrotoxic agents for changes in serum creatinine and phosphorus.
+Emtricitabine; Rilpivirine; Tenofovir alafenamide: (Moderate) Concomitant use of carboplatin and tenofovir alafenamide may result in additive nephrotoxicity. Monitor for renal toxicity if concomitant use is required.
+Emtricitabine; Rilpivirine; Tenofovir Disoproxil Fumarate: (Moderate) Tenofovir-containing products should be avoided with concurrent or recent use of a nephrotoxic agent, such as carboplatin. Tenofovir is primarily excreted via the kidneys by a combination of glomerular filtration and active tubular secretion. Coadministration of tenofovir with drugs that are eliminated by active tubular secretion may increase concentrations of tenofovir and/or the co-administered drug. Drugs that decrease renal function may also increase concentrations of tenofovir. Renal impairment, which may include hypophosphatemia, has been reported with the use of tenofovir with a majority of the cases occurring in patients who have underlying systemic or renal disease or who are concurrently taking nephrotoxic agents. Monitor patients receiving concomitant nephrotoxic agents for changes in serum creatinine and phosphorus.
+Emtricitabine; Tenofovir alafenamide: (Moderate) Concomitant use of carboplatin and tenofovir alafenamide may result in additive nephrotoxicity. Monitor for renal toxicity if concomitant use is required.
+Emtricitabine; Tenofovir Disoproxil Fumarate: (Moderate) Tenofovir-containing products should be avoided with concurrent or recent use of a nephrotoxic agent, such as carboplatin. Tenofovir is primarily excreted via the kidneys by a combination of glomerular filtration and active tubular secretion. Coadministration of tenofovir with drugs that are eliminated by active tubular secretion may increase concentrations of tenofovir and/or the co-administered drug. Drugs that decrease renal function may also increase concentrations of tenofovir. Renal impairment, which may include hypophosphatemia, has been reported with the use of tenofovir with a majority of the cases occurring in patients who have underlying systemic or renal disease or who are concurrently taking nephrotoxic agents. Monitor patients receiving concomitant nephrotoxic agents for changes in serum creatinine and phosphorus.
+Fenofibrate: (Moderate) Concomitant use of carboplatin and fenofibric acid may result in additive nephrotoxicity. Monitor for renal toxicity if concomitant use is required.
+Fenofibric Acid: (Moderate) Concomitant use of carboplatin and fenofibric acid may result in additive nephrotoxicity. Monitor for renal toxicity if concomitant use is required.
+Fosphenytoin: (Major) Patients receiving antineoplastic agents concurrently with hydantoins may be at risk for toxicity or loss of clinical efficacy and seizures; anticonvulsant therapy should be monitored closely during and after administration of antineoplastic agents. Concurrent therapy with phenytoin and carboplatin has been associated with subtherapeutic phenytoin serum concentrations and seizure activity. Phenytoin dosage increases of 20 to 100% have been required in some patients, depending on the chemotherapy administered.
+Gentamicin: (Moderate) Patients previously or currently treated with other potentially nephrotoxic agents, such as systemic aminoglycosides, can have a greater risk of developing carboplatin-induced nephrotoxicity. These patients may benefit from hydration prior to carboplatin therapy to lessen the incidence of nephrotoxicity. Monitor renal function closely.
+Hydantoins: (Major) Patients receiving antineoplastic agents concurrently with hydantoins may be at risk for toxicity or loss of clinical efficacy and seizures; anticonvulsant therapy should be monitored closely during and after administration of antineoplastic agents. Concurrent therapy with phenytoin and carboplatin has been associated with subtherapeutic phenytoin serum concentrations and seizure activity. Phenytoin dosage increases of 20 to 100% have been required in some patients, depending on the chemotherapy administered.
+lamiVUDine; Tenofovir Disoproxil Fumarate: (Moderate) Tenofovir-containing products should be avoided with concurrent or recent use of a nephrotoxic agent, such as carboplatin. Tenofovir is primarily excreted via the kidneys by a combination of glomerular filtration and active tubular secretion. Coadministration of tenofovir with drugs that are eliminated by active tubular secretion may increase concentrations of tenofovir and/or the co-administered drug. Drugs that decrease renal function may also increase concentrations of tenofovir. Renal impairment, which may include hypophosphatemia, has been reported with the use of tenofovir with a majority of the cases occurring in patients who have underlying systemic or renal disease or who are concurrently taking nephrotoxic agents. Monitor patients receiving concomitant nephrotoxic agents for changes in serum creatinine and phosphorus.
+Mycophenolate: (Contraindicated) Concurrent use of carboplatin with other agents that cause bone marrow or immune suppression such as other antineoplastic agents or immunosuppressives may result in additive effects.
+PACLitaxel: (Minor) In vitro studies have shown an increase in cytotoxicity with either the simultaneous or sequential administration of paclitaxel and carboplatin. It appears that paclitaxel followed by carboplatin is more cytotoxic. The pharmacokinetics of either agent is not affected by this sequence of administration.
+Paromomycin: (Moderate) Patients previously or currently treated with other potentially nephrotoxic agents, such as systemic aminoglycosides, can have a greater risk of developing carboplatin-induced nephrotoxicity. These patients may benefit from hydration prior to carboplatin therapy to lessen the incidence of nephrotoxicity. Monitor renal function closely.
+Phenytoin: (Major) Patients receiving antineoplastic agents concurrently with hydantoins may be at risk for toxicity or loss of clinical efficacy and seizures; anticonvulsant therapy should be monitored closely during and after administration of antineoplastic agents. Concurrent therapy with phenytoin and carboplatin has been associated with subtherapeutic phenytoin serum concentrations and seizure activity. Phenytoin dosage increases of 20 to 100% have been required in some patients, depending on the chemotherapy administered.
+Plazomicin: (Moderate) Patients previously or currently treated with other potentially nephrotoxic agents, such as systemic aminoglycosides, can have a greater risk of developing carboplatin-induced nephrotoxicity. These patients may benefit from hydration prior to carboplatin therapy to lessen the incidence of nephrotoxicity. Monitor renal function closely.
+Polymyxin B: (Major) Patients previously or currently treated with other potentially nephrotoxic agents, such as systemic polymyxins like polymyxin B injection, can have a greater risk of developing carboplatin-induced nephrooxicity. These patients may benefit from hydration prior to carboplatin therapy to lessen the incidence of nephrotoxicity. Monitor renal function closely.
+SARS-CoV-2 (COVID-19) vaccines: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) mRNA Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) Recombinant Spike Protein Nanoparticle Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+Sodium Iodide I-131: (Moderate) Monitor for bone marrow suppression during concomitant use of sodium iodide I-131 and antineoplastic agents. Concomitant use of bone marrow depressants may enhance the depression of the hematopoietic system caused by the use of large doses of sodium iodide I-131.
+Streptomycin: (Moderate) Patients previously or currently treated with other potentially nephrotoxic agents, such as systemic aminoglycosides, can have a greater risk of developing carboplatin-induced nephrotoxicity. These patients may benefit from hydration prior to carboplatin therapy to lessen the incidence of nephrotoxicity. Monitor renal function closely.
+Tacrolimus: (Moderate) Concurrent use of carboplatin with other agents that cause bone marrow or immune suppression such as other antineoplastic agents or immunosuppressives may result in additive effects.
+Tenofovir Alafenamide: (Moderate) Concomitant use of carboplatin and tenofovir alafenamide may result in additive nephrotoxicity. Monitor for renal toxicity if concomitant use is required.
+Tenofovir Disoproxil Fumarate: (Moderate) Tenofovir-containing products should be avoided with concurrent or recent use of a nephrotoxic agent, such as carboplatin. Tenofovir is primarily excreted via the kidneys by a combination of glomerular filtration and active tubular secretion. Coadministration of tenofovir with drugs that are eliminated by active tubular secretion may increase concentrations of tenofovir and/or the co-administered drug. Drugs that decrease renal function may also increase concentrations of tenofovir. Renal impairment, which may include hypophosphatemia, has been reported with the use of tenofovir with a majority of the cases occurring in patients who have underlying systemic or renal disease or who are concurrently taking nephrotoxic agents. Monitor patients receiving concomitant nephrotoxic agents for changes in serum creatinine and phosphorus.
+Tobramycin: (Moderate) Patients previously or currently treated with other potentially nephrotoxic agents, such as systemic aminoglycosides, can have a greater risk of developing carboplatin-induced nephrotoxicity. These patients may benefit from hydration prior to carboplatin therapy to lessen the incidence of nephrotoxicity. Monitor renal function closely.
+Tuberculin Purified Protein Derivative, PPD: (Moderate) Immunosuppressives may decrease the immunological response to tuberculin purified protein derivative, PPD. This suppressed reactivity can persist for up to 6 weeks after treatment discontinuation. Consider deferring the skin test until completion of the immunosuppressive therapy.
+Voclosporin: (Moderate) Concomitant use of voclosporin and carboplatin may result in additive nephrotoxicity. Monitor for renal toxicity if concomitant use is required.
+
+Adverse Reactions
+  Headline
+  Adverse Reactions
+  General Information
+  Myelosuppression is the dose-limiting toxicity of carboplatin and includes pancytopenia, leukopenia, neutropenia, anemia, and thrombocytopenia. Carboplatin-induced myelosuppression is dose-dependent, cumulative, and correlates with renal function. Myelosuppression also occurs following intraperitoneal administration of carboplatin. Previously treated patients and patients with decreased performance status have more severe myelosuppression. In previously treated patients, an AUC of 4—5 mg/ml x min resulted in grade 3 or 4 leukopenia or thrombocytopenia in 13% and 16% of patients, respectively. A carboplatin AUC of 6—7 mg/ml x min resulted in grade 3 or 4 leukopenia and thrombocytopenia in 34% and 33% of previously treated patients, respectively. Thrombocytopenia is the most significant myelosuppressive effect of carboplatin. The platelet nadir is 3 weeks after therapy and recovers within 4—5 weeks. Anemia occurs in up to 70% of patients and as many as 25% of patients require transfusions. the incidence of anemia increases with increasing exposure to carboplatin. Neutropenia ( 90% of patients receiving carboplatin and requires prophylactic therapy with serotonin antagonists and dexamethasone. Vomiting occurs in 65% of patients and in about one-third it is severe. Carboplatin is less emetogenic than cisplatin; however, patients previously treated with other emetogenic agents, especially cisplatin, are more likely to experience vomiting (> 80%). Nausea alone occurs in another 10—15% of patients. Symptoms of nausea and vomiting usually resolve within 24 hours and delayed nausea/vomiting usually is not seen. Prolonged administration of carboplatin either by continuos 24-hour infusion or by daily pulse doses has been associated with less severe vomiting than a single-dose intermittent schedule. Other GI effects of carboplatin include abdominal pain (17%), constipation (6%), and diarrhea (6%). Dysgeusia (changes in taste), a metallic taste, and anorexia have been reported in patients treated with carboplatin.Due to the stability of carboplatin, less carboplatin is activated in the renal tubules. Therefore, the incidence of carboplatin-induced nephrotoxicity is much less than with cisplatin. However in high doses, carboplatin may cause similar nephrotoxic effects, especially in patients with renal impairment or those receiving high doses. During therapy with standard doses of carboplatin, azotemia (14%) and increases in serum creatinine (6%) may occur and are usually reversible. An increased incidence of elevated serum creatinine or azotemia may be seen in patients previously treated with other chemotherapy, especially cisplatin. Creatinine clearance is the most sensitive measure of kidney function in patients receiving carboplatin. In patients with a baseline creatinine clearance > 60 ml/min, 27% demonstrated a reduction below this value during carboplatin therapy. Hypokalemia, hypomagnesemia, hyponatremia, hypophosphatemia, and/or hypocalcemia occur in about 30% of patients during therapy with carboplatin but are not as common or severe as with cisplatin. Hyperuricemia has been reported to occur in approximately 7% of patients on carboplatin. Increased uric acid concentrations usually occur after 3—5 days of therapy.Anaphylactoid reactions can occur rarely during therapy with carboplatin in patients with prior exposure to platinum or platinum-containing compounds, including cisplatin. There is an increasing incidence of hypersensitivity reactions in patients receiving repeated courses of carboplatin. Hypersensitivity usually develops after >= 6 courses of carboplatin. Reactions may occur up to 3 days after therapy and desensitization is not usually successful. Other hypersensitivity reactions (2%) including rash (unspecified), urticaria, erythema, pruritus, and, rarely, bronchospasm and hypotension have been reported.In contrast to cisplatin therapy, tinnitus, hearing loss, and peripheral neuropathy are rare with carboplatin. Peripheral neuropathy consisting of mild paresthesias occurs in about 4% of patients treated with carboplatin. Carboplatin may worsen cisplatin-induced peripheral neuropathy in 30% of cases. Prolonged treatment of carboplatin may result in cumulative neurotoxicity, especially in patients who have received prior cisplatin therapy or elderly patients. Ototoxicity is most apparent in pediatric patients who receive high doses of carboplatin in combination with other ototoxic agents.Visual impairment, including loss of vision and/or changes in the perception of light and colors, has been reported with high-dose carboplatin. Vision tends to recover totally or to a significant extent within weeks of stopping high-dose carboplatin therapy.Elevated hepatic enzymes (e.g., AST), alkaline phosphatase, and/or hyperbilirubinemia is seen in approximately 15% of patients during therapy with carboplatin. These elevations tend to be reversible.In the treatment of ovarian cancer, platinum-based therapy has been associated with an increased risk of secondary malignancy, primarily acute myelogenous leukemia, myelodysplastic syndromes, acute lymphocytic leukemia and chronic myelogenous leukemia. The risk of secondary malignancy increases with cumulative carboplatin doses > 2000 mg. However, in evaluating the risks versus benefits of platinum-based chemotherapy in the treatment of ovarian cancer, the survival benefits exceed the risk of secondary malignancy.Injection site reaction, such as erythema, swelling, and pain, has been reported. Tissue necrosis associated with extravasation of carboplatin has been reported during post-marketing experience with carboplatin.Pain and asthenia are commonly reported during carboplatin therapy and are probably related to the tumor and anemia. Cardiovascular, respiratory, genitourinary and mucosal side effects (including stomatitis or esophagitis) have been reported in <= 6% of patients. Cardiovascular events (e.g., heart failure, thromboembolism, and stroke) were fatal in < 1% of patients and did not appear to be related to chemotherapy. Cancer-associated hemolytic anemia has been reported rarely. Other adverse effects noted with carboplatin include alopecia (3%), malaise, and hypertension.
+  Adverse Reactions
+    Headline
+    General Information
+    General Information
+    Pain was reported in 44% of women with ovarian cancer who received carboplatin plus cyclophosphamide as first-line therapy in 2 randomized studies (n = 393) and 23% of women with ovarian cancer who received single-agent carboplatin as second-line therapy (n = 553).
+In women with ovarian cancer who received carboplatin plus cyclophosphamide as first-line therapy in 2 randomized studies (combination arm; n = 393) or single-agent carboplatin as second-line therapy (n = 553), respiratory (combination arm, 10%; single-agent arm, 6%) and genitourinary (combination arm, 10%; single-agent arm, 2%) side effects were reported.
+    Headline
+    anemia, bone marrow suppression, leukopenia, neutropenia, thrombocytopenia
+    General Information
+    Bone marrow suppression is the dose-limiting toxicity of carboplatin and may be more severe in patients with impaired kidney function, prior therapy especially cisplatin-containing regimens, and/or who are receiving other myelosuppressive chemotherapy or radiotherapy. Myelosuppression also occurs after intraperitoneal administration of carboplatin. Thrombocytopenia (defined as < 100,000 cells/mm3; severe, < 50,000 cells/mm3), neutropenia (defined as < 2000 cells/mm3; severe, < 1000 cells/mm3), leukopenia (defined as < 4000 cells/mm3; severe, < 2000 cells/mm3), and anemia (defined as < 11 grams/dL; severe, < 8 grams/dL) have been reported. Following single-agent carboplatin, nadirs typically occur at about day 21 and most counts recover by day 28. Drug-related death has been reported in less than 1% of patients who developed infectious or hemorrhagic complications with carboplatin therapy. Neutropenic fever has been reported. Hematologic adverse effects that occurred in 1893 patients who received single-agent carboplatin for various cancer types include severe thrombocytopenia (25%), neutropenia (16%), leukopenia (15%); anemia was also reported (71%). In women with ovarian cancer who received carboplatin plus cyclophosphamide as first-line therapy in 2 randomized studies (combination arm; n = 393) or single-agent carboplatin as second-line therapy (n = 553), thrombocytopenia (combination arm, 66%; single-agent arm, 62%), neutropenia (combination arm, 96%; single-agent arm, 67%), leukopenia (combination arm, 97%; single-agent arm, 85%), and anemia (combination arm, 90%; single-agent arm, 90%) were reported. Additionally, severe thrombocytopenia (combination arm, 33%; single-agent arm, 35%), neutropenia (combination arm, 82%; single-agent arm, 21%), leukopenia (combination arm, 71%; single-agent arm, 26%), and anemia (combination arm, 14%; single-agent arm, 21%) were reported in this analysis. Monitor blood counts between courses of therapy. Treatment cycles may need to be delayed for severe myelosuppression; the carboplatin dosage may be increased or decreased based on nadir platelet and neutrophil counts.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      anemia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      leukopenia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      neutropenia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      thrombocytopenia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      bone marrow suppression
+      Severity
+      Moderate
+    Headline
+    anorexia, constipation, diarrhea, nausea, stomatitis, vomiting
+    General Information
+    Gastrointestinal (GI) system adverse events that occurred in 1893 patients who received single-agent carboplatin for various cancer types include vomiting (65%), nausea (10%-15%), GI pain (17%), diarrhea (6%), and constipation (6%). Patients who had received prior chemotherapy, particularly cisplatin, or receive carboplatin in combination with other chemotherapy were more likely to experience emesis. Nausea and vomiting usually resolves within 24 hours and these symptoms often respond well to antiemetic therapy. In women with ovarian cancer who received carboplatin plus cyclophosphamide as first-line therapy in 2 randomized studies (combination arm; n = 393) or single-agent carboplatin as second-line therapy (n = 553), nausea and vomiting (combination arm, 93%; single-agent arm, 92%), vomiting (combination arm, 83%; single-agent arm, 81%), mucositis (combination arm,8 %; single-agent arm, 1%), and other GI side effects (combination arm, 46%; single-agent arm, 21%) were reported. In postmarketing surveillance, stomatitis and anorexia were reported in patients who received carboplatin.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      anorexia
+      Severity
+      Minor
+      GSTerm Name
+      constipation
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      diarrhea
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      nausea
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      vomiting
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      stomatitis
+      Severity
+      Moderate
+    Headline
+    hypocalcemia, hypokalemia, hypomagnesemia, hyponatremia
+    General Information
+    Electrolyte changes that occurred in 1893 patients who received single-agent carboplatin for various cancer types include abnormally decreased sodium (hyponatremia) (29%), magnesium (hypomagnesemia) (29%), calcium (hypocalcemia) (22%), and potassium (hypokalemia) (20%). These electrolyte abnormalities were usually asymptomatic. In women with ovarian cancer who received carboplatin plus cyclophosphamide as first-line therapy in 2 randomized studies (combination arm; n = 393) or single-agent carboplatin as second-line therapy (n = 553), hyponatremia (combination arm, 10%; single-agent arm, 47%), hypomagnesemia (combination arm, 61%; single-agent arm, 43%), hypocalcemia (combination arm, 16%; single-agent arm, 31%), and hypokalemia (combination arm, 16%; single-agent arm, 28%) were reported.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hypocalcemia
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypokalemia
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypomagnesemia
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hyponatremia
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+    Headline
+    bronchospasm, erythema, hypotension, pruritus, rash, serious hypersensitivity reactions or anaphylaxis, urticaria
+    General Information
+    Serious hypersensitivity reactions or anaphylaxis (e.g., rash (unspecified), urticaria, erythema, pruritus, and rarely bronchospasm and hypotension) were reported in 2% of patients who received single-agent carboplatin for various cancer types (n = 1893). Allergic reactions were reported in 11% of women with ovarian cancer who received carboplatin plus cyclophosphamide as first-line therapy in 2 randomized studies (n = 393) and 2% of women with ovarian cancer who received single-agent carboplatin as second-line therapy (n = 553). In postmarketing surveillance, anaphylactoid reactions were reported in patients who received carboplatin. Patients with prior exposure to platinum or platinum-containing compounds, including cisplatin, may be at increased risk for anaphylactoid reactions. Hypersensitivity usually develops after >= 6 courses of carboplatin. Manage severe reactions with epinephrine, corticosteroid, and antihistamine therapy.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      bronchospasm
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      erythema
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      hypotension
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      pruritus
+      Severity
+      Minor
+      Incidence To
+      GSTerm Name
+      rash
+      Severity
+      Minor
+      Incidence To
+      GSTerm Name
+      urticaria
+      Severity
+      Minor
+      Incidence To
+      GSTerm Name
+      serious hypersensitivity reactions or anaphylaxis
+      Severity
+      Severe
+    Headline
+    dysgeusia, hearing loss, visual impairment
+    General Information
+    Ototoxicity and other sensory abnormalities such as visual impairment (visual disturbance) and dysgeusia (change in taste) were reported in 1% of patients who received single-agent carboplatin for various cancer types (n = 1893). Hearing loss has occurred in pediatric patients who received higher than recommended carboplatin in combination with other ototoxic drugs. Additionally, reversible or partially reversible loss of vision has occurred with higher than recommended carboplatin doses. In women with ovarian cancer who received carboplatin plus cyclophosphamide as first-line therapy in 2 randomized studies (combination arm; n = 393) or single-agent carboplatin as second-line therapy (n = 553), ototoxicity (combination arm, 12%; single-agent arm, 1%) and other sensory side effects (combination arm, 5%; single-agent arm, 1%) were reported.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      visual impairment
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hearing loss
+      Severity
+      Severe
+      GSTerm Name
+      dysgeusia
+      Severity
+      Minor
+      Incidence To
+    Headline
+    elevated hepatic enzymes, hyperbilirubinemia
+    General Information
+    Increased alkaline phosphatase levels (24%), elevated hepatic enzymes including increased AST levels (15%), and hyperbilirubinemia (5%) were reported in patients who received single-agent carboplatin for various cancer types (n = 1893). Most hepatic adverse effects were mild and were reversible in about half the cases. Severe hepatic enzyme abnormalities have been reported with high-dose carboplatin use in patients receiving a bone marrow transplant. In women with ovarian cancer who received carboplatin plus cyclophosphamide as first-line therapy in 2 randomized studies (combination arm; n = 393) or single-agent carboplatin as second-line therapy (n = 553), increased alkaline phosphatase levels (combination arm, 29%; single-agent arm, 37%), increased AST levels (combination arm, 20%; single-agent arm, 19%), and hyperbilirubinemia (combination arm, 5%; single-agent arm, 5%) were reported.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      elevated hepatic enzymes
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hyperbilirubinemia
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+    Headline
+    new primary malignancy
+    General Information
+    New primary malignancy has been reported in patients who received carboplatin-containing combination chemotherapy. In the treatment of ovarian cancer, platinum-based therapy has been associated with an increased risk of new malignancy, primarily acute myelogenous leukemia, myelodysplastic syndromes, acute lymphocytic leukemia and chronic myelogenous leukemia. The risk of new malignancy increases with cumulative carboplatin doses higher than 2,000 mg. However, in evaluating the risks versus benefits of platinum-based chemotherapy in the treatment of ovarian cancer, the survival benefits exceed the risk of new malignancy.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      new primary malignancy
+      Severity
+      Severe
+    Headline
+    alopecia, injection site reaction, tissue necrosis
+    General Information
+    Alopecia occurred in 3% of patients who received single-agent carboplatin for various cancer types (n = 1893). Additionally, alopecia was reported in 49% of women with ovarian cancer who received carboplatin plus cyclophosphamide as first-line therapy in 2 randomized studies (n = 393) and 2% of women with ovarian cancer who received single-agent carboplatin as second-line therapy (n = 553). In postmarketing surveillance, injection site reaction (e.g., redness, swelling, and pain) and tissue necrosis associated with extravasation have been reported in patients who received carboplatin.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      injection site reaction
+      Severity
+      Minor
+      GSTerm Name
+      tissue necrosis
+      Severity
+      Severe
+      GSTerm Name
+      alopecia
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+    Headline
+    hemolytic-uremic syndrome
+    General Information
+    Increased serum creatinine (Scr) (6%) and blood urea nitrogen (BUN) (14%) levels were reported in individuals who received single-agent carboplatin for various cancer types (n = 1893). Most renal adverse effects were mild and were reversible in about half the cases. A reduction in creatinine clearance (CrCl) was observed in 27% of carboplatin-treated patients who had a baseline CrCl of 60 mL/min or higher. In women with ovarian cancer who received carboplatin plus cyclophosphamide as first-line therapy in 2 randomized studies (combination arm; n = 393) or single-agent carboplatin as second-line therapy (n = 553), increased SCr (combination arm, 6%; single-agent arm, 10%) and BUN (combination arm, 17%; single-agent arm, 22%) levels were reported. Cancer-associated hemolytic uremic syndrome rarely occurred in individuals who received carboplatin. Consider lower initial doses of single-agent carboplatin in patients with a baseline CrCl less than 60 ml/min; subsequent doses may be adjusted based on individual patient tolerance (e.g., degree of myelosuppression with therapy).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hemolytic uremic syndrome
+      Severity
+      Severe
+    Headline
+    heart failure, hypertension, stroke, thromboembolism
+    General Information
+    Cardiovascular toxicity was reported in 19% of women with ovarian cancer who received carboplatin plus cyclophosphamide as first-line therapy in 2 randomized studies (n = 393) and 6% of women with ovarian cancer who received single-agent carboplatin as second-line therapy (n = 553). Fatal cardiovascular events, including heart failure, thromboembolism, and cerebrovascular accidents (stroke), were reported in less than 1% of patients who received single-agent carboplatin for various cancer types (n = 1893); these events did not appear to be associated with chemotherapy use. In postmarketing surveillance, hypertension was reported in patients who received carboplatin.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      heart failure
+      Severity
+      Severe
+      GSTerm Name
+      stroke
+      Severity
+      Severe
+      GSTerm Name
+      thromboembolism
+      Severity
+      Severe
+      GSTerm Name
+      hypertension
+      Severity
+      Moderate
+    Headline
+    dehydration
+    General Information
+    In postmarketing surveillance, dehydration was reported in patients who received carboplatin.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      dehydration
+      Severity
+      Moderate
+    Headline
+    bleeding, infection
+    General Information
+    Infectious or hemorrhagic complications with carboplatin therapy occurred in 5% of patients who received single-agent carboplatin for various cancer types (n = 1893); drug-related death has been reported in less than 1% of these patients. In women with ovarian cancer who received carboplatin plus cyclophosphamide as first-line therapy in 2 randomized studies (combination arm; n = 393) or single-agent carboplatin as second-line therapy (n = 553), bleeding (combination arm, 8%; single-agent arm, 5%) and transfusions (combination arm, 35%; single-agent arm, 44%) were reported. In this study, infection was reported in 16% of women who received carboplatin plus cyclophosphamide and 5% of women who received single-agent carboplatin as second-line therapy.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      bleeding
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      infection
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+    Headline
+    asthenia
+    General Information
+    Asthenia was reported in 41% of women with ovarian cancer who received carboplatin plus cyclophosphamide as first-line therapy in 2 randomized studies (n = 393) and 11% of women with ovarian cancer who received single-agent carboplatin as second-line therapy (n = 553).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      asthenia
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+    Headline
+    paresthesias, peripheral neuropathy
+    General Information
+    Peripheral neuropathy has been observed in 4% of the patients receiving carboplatin (6% of pretreated ovarian cancer patients) with mild paresthesias occurring most frequently. Geriatric patients older than 65 years and/or previously treated with cisplatin appear to have an increased risk (10%) for peripheral neuropathies; prolonged treatment or use in combination with other drugs that cause peripheral neuropathy may increase the incidence or severity. Central nervous system symptoms have been reported in 5% of the patients and appear to be most often related to the use of antiemetics.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      paresthesias
+      Severity
+      Minor
+      GSTerm Name
+      peripheral neuropathy
+      Severity
+      Moderate
+
+Description
+  Text
+  Carboplatin (CBDCA) is a platinum compound related to cisplatin. Carboplatin is formed by replacing the chloride leaving groups of cisplatin with 1, 1-cyclobutanedicarboxylato ligand, which increases the stability of the leaving groups. On a molar basis, carboplatin is 45 times less cytotoxic than cisplatin. Carboplatin has a more favorable adverse effect profile than cisplatin, which has led to the investigation of the replacement of cisplatin with carboplatin in many regimens. Carboplatin and cisplatin seem to be equally effective in ovarian, non-small cell and small cell lung cancers. Comparative trials are ongoing in these cancers and others to determine if there is an advantage of carboplatin over cisplatin. Most tumors that are resistant to cisplatin will be resistant to carboplatin. Currently, there does not seem to be a role for carboplatin in place of cisplatin in the routine management of testicular or head and neck cancers. Due to its myelosuppressive effects, carboplatin has been used in bone marrow ablation protocols and in the treatment of relapsed leukemias. The FDA approved carboplatin for the treatment of ovarian cancer in March 1989.
+
+Mechanism Of Action
+  Text
+  Carboplatin cytotoxic activity is similar to cisplatin as it binds with DNA to form intrastrand crosslinks and adducts that cause changes in the conformation of the DNA and affect DNA replication. Carboplatin readily crosses the cell membrane. Once inside the cell, the ring structure of carboplatin is hydroxylated by water to form the active moiety. This reaction occurs more slowly than the activation of cisplatin. Therefore, 4—6 times the amount of carboplatin is required to produce the same cytotoxic effects as cisplatin. Once in the active form, carboplatin functions similarly to cisplatin and binds with DNA, RNA, or other macromolecules at two sites to form interstrand and intrastrand links. Carboplatin forms irreversible covalent bonds which inhibit DNA replication, RNA transcription, and protein synthesis. Intrastrand crosslinks at the N7 position of guanine are the predominant binding sites. The maximal DNA crosslinks occur 18 hours after exposure to carboplatin compared to 6—12 hours for cisplatin. Carboplatin crosslinks have a slower removal rate than do cisplatin-induced crosslinks. This slower rate of onset and removal of carboplatin crosslinks is thought to be due to a slow rate of monofunctional adduct formation and/or a slower rate of conversion of monoadducts to crosslinks. While considered cell cycle non-specific, carboplatin cytotoxicity is increased with exposure during the S-phase and with increased infusion rates (24 hours versus 1 hour). Carboplatin causes cell cycle arrest in the G2-phase and then induces programmed cell death or apoptosis.
+
+Pharmacokinetics
+  Route Specific Pharmacokinetics
+    Name
+    Intravenous Route
+    Description
+    An IV dose of carboplatin distributes widely throughout the body tissues, and distribution is equal to the total body water.
+  Special Populations
+    Name
+    Renal Impairment
+    Description
+    Dosages should be reduced in patients with renal dysfunction. Hemodialysis removes carboplatin at a rate 25% that of the kidney. Dosages should be adjusted based upon the length of dialysis. Peritoneal dialysis does not remove carboplatin.
+    Name
+    Pediatrics
+    Description
+    The pharmacokinetics of carboplatin in children and adults are similar.
+  Text
+  Carboplatin is primarily administered by IV infusion. The pharmacokinetics of carboplatin and cisplatin differ greatly. Very little protein binding occurs. Carboplatin distributes well into ascites and pleural fluid. CSF concentrations are approximately 30% of plasma concentrations. Carboplatin is not metabolized but undergoes spontaneous hydrolysis to form the active compound. The excretion of carboplatin is biphasic with half-lives of 90 and 180 minutes Carboplatin is excreted primarily by the kidneys via tubular filtration and secretion. Sixty-five percent of a dose can be recovered in the urine in the first 24 hours.
+ 
+The exposure to carboplatin or AUC is associated with myelosuppressive and cytotoxic effects. In general, carboplatin AUC of 4—7 is associated with acceptable myelosuppressive effects and efficacy. A carboplatin AUC of > 7 is associated with an increased incidence of severe myelosuppression with no added efficacy. Carboplatin bolus doses of 400—600 mg/m2 are associated with an AUC of 6—8 mg/mL x min in previously untreated patients with normal creatinine clearance. Several equations have been developed to individualize carboplatin dosing. The Calvert equation is the simplest equation and was approved by the FDA in 1995 for dosing of carboplatin. In the determination of this equation, creatinine clearance was determined using Cr-EDTA, which is thought to more accurately reflect glomerular filtration rate in patients with altered renal function than does a measured or a calculated creatinine clearance. Currently, Cr-EDTA is not available in the United States and creatinine clearance is determined using measured or calculated methods, which may not be as accurate. The Egorin equations use creatinine clearance and a relationship with platelet nadir to determine the carboplatin dosage. These equations also differentiate between previously treated and untreated patients to take into account the cumulative bone marrow toxicity of carboplatin. The dosing of carboplatin in many disease states is now almost entirely based upon AUC and not body surface area.
+
+Administration
+  General Information
+  For storage information, see the specific product information within the How Supplied section.
+Hazardous Drugs Classification
+NIOSH 2024 List: Table 1
+Observe and exercise appropriate precautions for handling, preparation, administration, and disposal of hazardous drugs.
+Use double chemotherapy gloves and a protective gown. Prepare in a biological safety cabinet or compounding aseptic containment isolator with a closed system drug transfer device. Eye/face and respiratory protection may be needed during preparation and administration.
+Emetic Risk
+Pediatric patients: Doses 175 mg/m2/dose or higher: High
+Adults: Moderate
+Administer routine antiemetic prophylaxis prior to treatment.
+Extravasation Risk
+Irritant
+  Route Specific Administrations
+    Administration Details
+      Name
+      Intravenous Administration
+      Description
+      Reconstitution of vials:
+Reconstitute carboplatin 50 mg, 150 mg, or 450 mg vials with 5 mL, 15 mL, or 45 mL, respectively, of sterile water for injection, 5% Dextrose for injection, or 0.9% Sodium Chloride injection. The reconstituted vials should have a concentration of 10 mg/mL of carboplatin.
+Reconstituted vials are stable for 24 hours at room temperature (25 degrees C). Paraplatin multidose (10 mg/mL) vials are stable for up to 14 days following initial entry into the vial.
+ 
+Further dilution for infusion:
+Further dilute carboplatin solution (10 mg/mL) with 5% Dextrose injection or 0.9% Sodium Chloride injection to concentrations of 0.5 to 4 mg/mL.
+Carboplatin solutions further diluted with 5% Dextrose injection or 0.9% Sodium Chloride injection are stable for 8 hours at room temperature (25 degrees C). Since carboplatin solutions are preservative-free the manufacturer recommends discarding any unused carboplatin solution after 8 hours.
+ 
+Intermittent infusion:
+Infuse appropriate dose IV over 15 minutes to 1 hour.
+ 
+Continuous infusion:
+Infuse at a rate to allow administration of the entire dose over a 24-hour period.
+    Name
+    Injectable Administration
+    Description
+    Carboplatin is administered intravenously as an infusion.
+Routine hydration is not required with carboplatin therapy. Hydration should be considered in patients with renal impairment or in those receiving concurrent nephrotoxic agents.
+Visually inspect parenteral products for particulate matter and discoloration prior to administration whenever solution and container permit.
+Aluminum needles or IV sets containing aluminum should not be used for carboplatin preparation or administration because aluminum reacts with carboplatin to form a precipitate, causing loss of potency.
+Monitor patients for hypersensitivity reactions; ensure supportive equipment and medications are available to treat severe hypersensitivity reactions.
+    Name
+    Other Administration Route(s)
+    Description
+    Intraperitoneal Administration:
+NOTE: Carboplatin is not approved by the FDA for intraperitoneal administration.
+Add carboplatin to a pre-warmed sterile 0.9% Sodium Chloride solution prior to instilling (i.e., body temperature).
+Dilute carboplatin dosage in 2 liters 0.9% Sodium Chloride injection, instill and dwell for 2 to 4 hours, then drain by gravity as completely as possible.
+Carboplatin is administered via a Tenckhoff catheter or a percutaneously inserted peritoneal dialysis catheter.
+
+Maximum Dosage Limits
+  Age Groups
+    Name
+    Adults
+    Max Dosage
+    Maximum dosage information is not available. For doses calculated using the Calvert formula with an estimated GFR, it is recommended to use a maximum GFR = 125 mL/min in the calculation.
+    Name
+    Geriatric
+    Max Dosage
+    Maximum dosage information is not available. For doses calculated using the Calvert formula with an estimated GFR, it is recommended to use a maximum GFR = 125 mL/min in the calculation.
+    Name
+    Adolescents
+    Max Dosage
+    Safety and efficacy have not been established. Maximum dosage information is not available. For doses calculated using the Calvert formula with an estimated GFR, it is recommended to use a maximum GFR = 125 mL/min in the calculation.
+    Name
+    Children
+    Max Dosage
+    Safety and efficacy have not been established. Maximum dosage information is not available. For doses calculated using the Calvert formula with an estimated GFR, it is recommended to use a maximum GFR = 125 mL/min in the calculation.
+    Name
+    Infants
+    Max Dosage
+    Safety and efficacy have not been established. Maximum dosage information is not available. For doses calculated using the Calvert formula with an estimated GFR, it is recommended to use a maximum GFR = 125 mL/min in the calculation.
+    Name
+    Neonates
+    Max Dosage
+    Safety and efficacy have not been established. Maximum dosage information is not available. For doses calculated using the Calvert formula with an estimated GFR, it is recommended to use a maximum GFR = 125 mL/min in the calculation.
+  Text
+  The suggested maximum tolerated dose (MTD) for carboplatin is dependent on performance status, other chemotherapy agents or radiation given in combination, and disease state. The dosing of carboplatin may vary from protocol to protocol. If questions arise, clinicians should consult the appropriate references to verify the dose.
+
+Dosage Adjustment Guidelines
+  Hepatic Impairment
+  No dosage adjustments are needed in patients with hepatic impairment.
+  Renal Impairment
+  NOTE: Recommendations are only available for the initial course of treatment for ovarian cancer with carboplatin as a single agent or with cyclophosphamide. Subsequent adjustments should be done base on the toxicity of the previous course.
+CrCl >= 60 ml/min: no dosage adjustment needed.
+CrCl 41—59 ml/min: give 250 mg/m2 on day 1 of the initial course for ovarian cancer.
+CrCl 16—40 ml/min: give 200 mg/m2 on day 1 of the initial course for ovarian cancer.
+CrCl <= 15 ml/min: Data too limited to permit a recommendation.
+ 
+Intermittent hemodialysis
+Multiple reports document the use of carboplatin in patients who are receiving concurrent hemodialysis. Most of the reports indicate that carboplatin is removed by hemodialysis. Studies indicate that anuric patients may receive carboplatin at initial doses not exceeding 150 mg/m2 IV followed by dialysis within 24—48 hours of treatment (written communication, Bristol-Myers Squibb Oncology/Immunology Division, September 1999).

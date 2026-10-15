@@ -1,0 +1,302 @@
+=== Hypertrophic Cardiomyopathy (Merck Manual Professional) ===
+Section: Cardiology > Cardiomyopathies
+Source: https://www.merckmanuals.com/professional/cardiovascular-disorders/cardiomyopathies/hypertrophic-cardiomyopathy
+Retrieved: 2026-09-25
+
+A cardiomyopathy is a primary disorder of the heart muscle (see also Overview of Cardiomyopathies.)
+
+Hypertrophic cardiomyopathy (HCM) is a relatively common cause of sudden death in young athletes (1). It may cause unexplained syncope and may not be diagnosed before autopsy.
+
+Arrhythmogenic complications of hypertrophic cardiomyopathy are discussed in more detail elsewhere.
+
+General reference
+
+1. Kim JH, Martinez MW, Guseh JS, et al. A contemporary review of sudden cardiac arrest and death in competitive and recreational athletes. Lancet. 2024;404(10468):2209-2222. doi:10.1016/S0140-6736(24)02086-5
+
+Etiology of Hypertrophic Cardiomyopathy
+
+Hypertrophic cardiomyopathy (HCM) is the most common monogenic cardiac disorder with an estimated prevalence of 1:200 to 1:500 adults (1). Pathogenic variants encoding elements of the cardiac sarcomere (most frequently MYBPC3 and MYH7) can be detected in approximately 35% of patients with a clinical diagnosis of HCM who undergo genetic testing (2). Phenotypic penetrance and expression vary markedly.
+
+HCM needs to be distinguished from left ventricular hypertrophy due to abnormal loading conditions (eg, aortic stenosis, hypertension) and "HCM phenocopies," including Fabry disease, Danon disease, Andersen disease, and other glycogen storage diseases. History, imaging with MRI, and genetic testing can help distinguish these entities.
+
+Etiology references
+
+1. Maron BJ, Desai MY, Nishimura RA, et al. Diagnosis and Evaluation of Hypertrophic Cardiomyopathy: JACC State-of-the-Art Review. J Am Coll Cardiol. 2022;79(4):372-389. doi:10.1016/j.jacc.2021.12.002
+
+2. Topriceanu CC, Pereira AC, Moon JC, Captur G, Ho CY. Meta-Analysis of Penetrance and Systematic Review on Transition to Disease in Genetic Hypertrophic Cardiomyopathy. Circulation. 2024;149(2):107-123. doi:10.1161/CIRCULATIONAHA.123.065987
+
+Pathophysiology of Hypertrophic Cardiomyopathy
+
+The phenotypic manifestation of hypertrophic cardiomyopathy (HCM) is one of left ventricular (LV) hypercontractility and diminished LV compliance due to excessive actin-myosin cross-bridging and abnormal calcium handling. Classic histologic findings of HCM include myocyte hypertrophy, myocyte disarray, interstitial fibrosis, and thick-walled coronary arteries (1).
+
+The most common morphologic pattern is asymmetric hypertrophy of the basal interventricular septum resulting in reversed septal curvature. However, hypertrophy may affect any LV segment and may be focal or symmetric. Apical HCM is a distinct phenotype characterized by hypertrophy of the distal LV without left ventricular outflow tract (LVOT) obstruction, and it is more commonly observed in individuals of Asian descent (2). Approximately two-thirds of patients with HCM exhibit dynamic LVOT obstruction, defined as a LVOT gradient ≥ 30 mm Hg at rest or with physiologic provocation (3, 4, 5). LVOT obstruction results from an interplay of the hypertrophied basal interventricular septum and systolic anterior motion of the mitral valve. Altered blood flow vectors in the hypertrophied ventricle push the often elongated anterior mitral leaflet into the outflow tract, producing obstruction and posteriorly directed mitral regurgitation.
+
+A subset of patients exhibits midventricular obstruction rather than true LVOT obstruction, frequently in association with apical aneurysm formation. This phenotype may reflect primary midventricular hypertrophy or evolution from apical HCM with subsequent aneurysm formation and compensatory midventricular hyperdynamic function. Clinically, these patients are managed similarly to those with LVOT obstruction (5, 6).
+
+Systolic function is typically preserved or supranormal; however, myocardial stiffness leads to impaired diastolic filling, elevated LV end-diastolic pressures, and subsequent increases in pulmonary venous pressures (1). (See also Heart failure with preserved ejection fraction.) Myocardial ischemia may occur despite angiographically normal epicardial coronary arteries due to microvascular dysfunction with impaired coronary flow reserve, capillary–myocyte mismatch, increased oxygen demand, and abnormal loading conditions.
+
+Pathophysiology references
+
+1. Braunwald E. Hypertrophic Cardiomyopathy. N Engl J Med. 2025;393(10):1004-1015. doi:10.1056/NEJMra2413445
+
+2. Hughes RK, Knott KD, Malcolmson J, et al. Apical Hypertrophic Cardiomyopathy: The Variant Less Known. J Am Heart Assoc. 2020;9(5):e015294. doi:10.1161/JAHA.119.015294
+
+3. Abbasi M, Ong KC, Newman DB, Dearani JA, Schaff HV, Geske JB. Obstruction in Hypertrophic Cardiomyopathy: Many Faces. J Am Soc Echocardiogr. 2024;37(6):613-625. doi:10.1016/j.echo.2024.02.010
+
+4. Lu DY, Pozios I, Haileselassie B, et al. Clinical Outcomes in Patients With Nonobstructive, Labile, and Obstructive Hypertrophic Cardiomyopathy. J Am Heart Assoc. 2018;7(5):e006657. doi:10.1161/JAHA.117.006657
+
+5. Ommen SR, Ho CY, Asif IM, et al. 2024 AHA/ACC/AMSSM/HRS/PACES/SCMR Guideline for the Management of Hypertrophic Cardiomyopathy: A Report of the American Heart Association/American College of Cardiology Joint Committee on Clinical Practice Guidelines. Circulation. 2024;149(23):e1239-e1311. doi:10.1161/CIR.0000000000001250
+
+6. Ommen SR, Nishimura RA, Schaff HV, Dearani JA. Hypertrophic Cardiomyopathy: State of the Art. Mayo Clin Proc. 2025;100(3):557-566. doi:10.1016/j.mayocp.2024.07.013
+
+Symptoms and Signs of Hypertrophic Cardiomyopathy
+
+The clinical presentation of hypertrophic cardiomyopathy (HCM) is highly variable, reflecting heterogeneity in genetic penetrance and phenotypic expression (1, 2). Symptoms most commonly manifest in early to mid-adulthood (in patients who are in their 30s to 50s) (3) and are frequently exertional. Typical symptoms include dyspnea, chest pain (usually resembling typical angina), palpitations, and syncope. Exertional symptoms are often exacerbated by physiologic conditions that reduce preload or afterload and increase heart rate and contractility, thereby augmenting dynamic LVOT obstruction. Differentiating symptoms related to LVOT obstruction from those related to diastolic dysfunction may be challenging; adjunctive imaging with physiologic provocation can aid in delineating the predominant mechanism.
+
+Angina may develop despite the absence of epicardial coronary artery disease and is attributable to increased oxygen demands of the hypertrophied left ventricle, microvascular dysfunction, and reduced luminal size of intramural coronary arteries (1). Syncope, particularly when exertional, may result from LVOT obstruction or arrhythmia and is an important marker of increased risk for sudden cardiac death (4).
+
+Blood pressure and heart rate are usually normal, and signs of increased central venous pressure are rare. The classic finding on physical examination is a dynamic, late-peaking systolic murmur, best appreciated along the left sternal border in the third or fourth intercostal space. The intensity of this murmur increases with maneuvers that decrease preload (eg, Valsalva, squat-to-stand) and decreases with maneuvers that increase afterload or preload (eg, hand grip, prolonged squatting, passive leg raise). A distinct mitral regurgitation murmur may be heard at the apex. In patients with LVOT obstruction, the carotid pulse has a brisk upstroke (as opposed to the blunted carotid impulse with aortic stenosis), bifid peak, and rapid downstroke. The point of maximal impulse may be sustained due to LV hypertrophy. A fourth heart sound (S4) is often present, reflecting forceful atrial contraction against a poorly compliant left ventricle in late diastole (5).
+
+Symptoms and signs references
+
+1. Braunwald E. Hypertrophic Cardiomyopathy. N Engl J Med. 2025;393(10):1004-1015. doi:10.1056/NEJMra2413445
+
+2. Topriceanu CC, Pereira AC, Moon JC, Captur G, Ho CY. Meta-Analysis of Penetrance and Systematic Review on Transition to Disease in Genetic Hypertrophic Cardiomyopathy. Circulation. 2024;149(2):107-123. doi:10.1161/CIRCULATIONAHA.123.065987
+
+3. Canepa M, Fumagalli C, Tini G, et al. Temporal Trend of Age at Diagnosis in Hypertrophic Cardiomyopathy: An Analysis of the International Sarcomeric Human Cardiomyopathy Registry. Circ Heart Fail. 2020;13(9):e007230. doi:10.1161/CIRCHEARTFAILURE.120.007230
+
+4. Ommen SR, Ho CY, Asif IM, et al. 2024 AHA/ACC/AMSSM/HRS/PACES/SCMR Guideline for the Management of Hypertrophic Cardiomyopathy: A Report of the American Heart Association/American College of Cardiology Joint Committee on Clinical Practice Guidelines. Circulation. 2024;149(23):e1239-e1311. doi:10.1161/CIR.0000000000001250
+
+5. Ommen SR, Nishimura RA, Schaff HV, Dearani JA. Hypertrophic Cardiomyopathy: State of the Art. Mayo Clin Proc. 2025;100(3):557-566. doi:10.1016/j.mayocp.2024.07.013
+
+Diagnosis of Hypertrophic Cardiomyopathy
+
+History and physical examination (syncope or other symptoms, classic murmur, 3-generation family history)
+
+Echocardiography and/or cardiac MRI
+
+Rhythm evaluation with ECG and ambulatory rhythm monitoring
+
+Sometimes exercise testing
+
+Genetic testing
+
+Family screening
+
+The diagnosis of hypertrophic cardiomyopathy (HCM) is based on clinical suspicion, cardiac imaging, and, when appropriate, genetic testing. Suspicion is typically raised by characteristic symptoms (eg, exertional dyspnea, chest pain, syncope), a dynamic systolic murmur, or a family history of HCM or unexplained sudden cardiac death. Unexplained syncope, particularly exertional or in young individuals or athletes, should heighten concern.
+
+HCM needs to be distinguished from left ventricular hypertrophy due to abnormal loading conditions (eg, aortic stenosis, hypertension) and "HCM phenocopies," including Fabry disease, Danon disease, Andersen disease, and other glycogen storage diseases. History, imaging with MRI, and genetic testing can help distinguish these entities.
+
+The evaluation typically includes an ECG as well as transthoracic echocardiography and/or cardiac MRI.
+
+In adults, a maximal diastolic left ventricular (LV) wall thickness ≥ 15 mm determined by echocardiography or MRI, in the absence of an alternative cause, is considered diagnostic (1). A lower diagnostic threshold (≥ 13 mm) may be used in patients with a family history of HCM or those with a pathogenic sarcomeric gene variant. Athletic adaptation can also cause wall thickening in the range of 12 to 15 mm, depending upon gender and ethnicity, and is distinguished from HCM based on ECG findings, LV cavity size (smaller in HCM), MRI findings, exercise capacity, and sometimes response to detraining (2, 3).
+
+Echocardiography is useful to establish the diagnosis of HCM and to evaluate disease progression and response to therapy. Echocardiography can differentiate HCM from other cardiomyopathies (see figure Forms of Cardiomyopathy), quantify the severity of left ventricular hypertrophy and the degree of left ventricular (LVOT) obstruction, and visualize systolic anterior motion of the mitral valve and the severity of mitral regurgitation (1). Patients are classified as having obstructive HCM if the peak LVOT gradient is ≥ 30 mm Hg (gradients ≥ 50 mm Hg are generally thought sufficient to cause symptoms) (1, 4). Since the LVOT gradient varies with loading conditions, patients with symptoms and LVOT gradients < 50 mm Hg should undergo provocative maneuvers (eg, Valsalva maneuver, exercise echocardiography) to determine whether latent LVOT obstruction can be elicited (1). The LV cavity is typically small, and LV systolic function preserved or hyperdynamic though LV systolic dysfunction (LV ejection fraction < 50%) may be present on diagnosis in up to 8% of patients (5).
+
+Cardiac MRI provides more precise quantification of LV wall thickness (including in segments difficult to visualize with echocardiography) and enables detection of features associated with adverse prognosis, including apical aneurysms and late gadolinium enhancement, reflecting myocardial fibrosis (1). These findings inform risk stratification for sudden cardiac death and longitudinal assessment of disease progression. CT may be considered if MRI is not available.
+
+The standard 12-lead ECG frequently demonstrates left ventricular hypertrophy with repolarization abnormalities, including deep T-wave inversions and ST-segment depression; Q waves and evidence of left atrial enlargement are common. Conduction abnormalities, including bundle branch block, and ventricular pre-excitation may also be present (4).
+
+Ambulatory ECG monitoring for 24 to 48 hours is recommended during the initial evaluation and then every 1 to 2 years to screen for atrial arrhythmias and to assess risk of sudden cardiac death (1). The presence of ventricular tachycardia (sustained or nonsustained) is a risk factor.
+
+Exercise testing is useful for provoking LVOT obstruction, evaluating functional capacity, determining prognosis, and in some patients, as part of an evaluation for transplantation or mechanical support (1).
+
+Chest radiography is often normal because the ventricles are not dilated, although left atrial enlargement may be seen.
+
+Phenotypic Variation in Hypertrophic Cardiomyopathy
+
+Hypertrophic Cardiomyopathy (Classic Septal Hypertrophy)
+
+This cardiac MRI shows septal hypertrophy in a patient with hypertrophic cardiomyopathy.
+
+This cardiac MRI shows septal hypertrophy in a patient with hypertrophic cardiomyopathy.
+
+ZEPHYR/SCIENCE PHOTO LIBRARY
+
+Hypertrophic Cardiomyopathy (Apical Variant)
+
+This cardiac MRI shows apical hypertrophy in a patient with hypertrophic cardiomyopathy.
+
+This cardiac MRI shows apical hypertrophy in a patient with hypertrophic cardiomyopathy.
+
+© 2017 Elliot K. Fishman, MD.
+
+Hypertrophic Cardiomyopathy (Echocardiogram)
+
+This echocardiogram shows severely thickened ventricular septum (VS) and posterior wall (PW) of the left ventricle in a patient with hypertrophic cardiomyopathy.
+
+This echocardiogram shows severely thickened ventricular septum (VS) and posterior wall (PW) of the left ventricle in a
+
+... read more
+
+© Springer Science+Business Media
+
+Hypertrophic Cardiomyopathy (Classic Septal Hypertrophy)
+
+This cardiac MRI shows septal hypertrophy in a patient with hypertrophic cardiomyopathy.
+
+This cardiac MRI shows septal hypertrophy in a patient with hypertrophic cardiomyopathy.
+
+ZEPHYR/SCIENCE PHOTO LIBRARY
+
+Hypertrophic Cardiomyopathy (Apical Variant)
+
+This cardiac MRI shows apical hypertrophy in a patient with hypertrophic cardiomyopathy.
+
+This cardiac MRI shows apical hypertrophy in a patient with hypertrophic cardiomyopathy.
+
+© 2017 Elliot K. Fishman, MD.
+
+Hypertrophic Cardiomyopathy (Echocardiogram)
+
+This echocardiogram shows severely thickened ventricular septum (VS) and posterior wall (PW) of the left ventricle in a patient with hypertrophic cardiomyopathy.
+
+This echocardiogram shows severely thickened ventricular septum (VS) and posterior wall (PW) of the left ventricle in a
+
+... read more
+
+© Springer Science+Business Media
+
+Coronary angiography is not routinely required but may be performed when septal reduction therapy (eg, alcohol septal ablation) is being considered, when concomitant coronary artery disease is suspected, or when the degree of LVOT obstruction is unclear (1).
+
+In patients with HCM, genetic testing is helpful to elucidate the genetic basis, to exclude "HCM phenocopies" (eg, Fabry disease, Danon disease, Andersen disease) and to facilitate identification of family members at risk (5).
+
+Screening of family members and of genotype-positive, phenotype-negative individuals
+
+In first-degree relatives of genotype-positive patients (those with a pathogenic or likely pathogenic variant), both clinical screening and genetic testing should be offered. Clinical screening consists of a history, physical examination, ECG, and echocardiogram. If the family member does not carry the HCM-causing mutation carried by the affected family member, no further screening is required. Genotype-positive, phenotype-negative individuals, as well as relatives of phenotype-positive patients with unknown genetic status should undergo periodic surveillance as follows (1):
+
+For children and adolescents in families with an identified causative gene mutation or with early-onset disease: Beginning at the time of the family member's diagnosis, and then every 1 to 2 years
+
+For other children and adolescents: Beginning no later than puberty, and then every 2 to 3 years
+
+For adults: Beginning at the time of the family member's diagnosis, and then every 3 to 5 years
+
+Diagnosis references
+
+1. Ommen SR, Ho CY, Asif IM, et al. 2024 AHA/ACC/AMSSM/HRS/PACES/SCMR Guideline for the Management of Hypertrophic Cardiomyopathy: A Report of the American Heart Association/American College of Cardiology Joint Committee on Clinical Practice Guidelines. Circulation. 2024;149(23):e1239-e1311. doi:10.1161/CIR.0000000000001250
+
+2. Maron BJ. Distinguishing hypertrophic cardiomyopathy from athlete's heart physiological remodelling: clinical significance, diagnostic strategies and implications for preparticipation screening. Br J Sports Med. 2009;43(9):649-656. doi:10.1136/bjsm.2008.054726
+
+3. Mont L, Pelliccia A, Sharma S, et al. Pre-participation cardiovascular evaluation for athletic participants to prevent sudden death: Position paper from the EHRA and the EACPR, branches of the ESC. Endorsed by APHRS, HRS, and SOLAECE. Europace. 2017;19(1):139-163. doi:10.1093/europace/euw243
+
+4. Maron BJ, Desai MY, Nishimura RA, et al. Diagnosis and Evaluation of Hypertrophic Cardiomyopathy: JACC State-of-the-Art Review. J Am Coll Cardiol. 2022;79(4):372-389. doi:10.1016/j.jacc.2021.12.002
+
+5. Braunwald E. Hypertrophic Cardiomyopathy. N Engl J Med. 2025;393(10):1004-1015. doi:10.1056/NEJMra2413445
+
+Treatment of Hypertrophic Cardiomyopathy
+
+For obstructive HCM:
+
+Avoidance of volume depletion and systemic vasodilation
+
+Beta-blockers or nondihydropyridine calcium channel blockers
+
+Sometimes cardiac myosin inhibitors or disopyramide
+
+Sometimes other antiarrhythmics (eg, amiodarone), for management of atrial or ventricular arrhythmias
+
+Sometimes septal reduction therapy
+
+For nonobstructive HCM:
+
+Beta-blockers or nondihydropyridine calcium channel blockers
+
+Sometimes diuretics or valsartan
+
+For all HCM:
+
+Risk stratification for sudden cardiac death
+
+Sometimes implantable cardioverter-defibrillator (ICD) implantation
+
+Treatment of atrial arrhythmias as appropriate
+
+Treatment of heart failure with reduced ejection fraction as appropriate
+
+Management of hypertrophic cardiomyopathy (HCM) is directed at relieving symptoms due to diastolic dysfunction and LVOT obstruction when present, managing the risk of sudden cardiac death due to ventricular arrhythmia, and treating atrial fibrillation, which is poorly tolerated in patients with HCM. Identification of the underlying genetic substrate, when possible, is also potentially important for the treatment of both the patient and family members.
+
+Pharmacologic therapy for obstructive HCM
+
+Treatment of obstructive HCM is directed at alleviating dynamic LVOT obstruction, improving diastolic function, and reducing symptom burden. Because LVOT gradients are highly dependent on loading conditions, factors that reduce preload or systemic vascular resistance should be avoided. Volume depletion (eg, from high-dose diuretics) and systemic vasodilation (eg, from vasodilatory medications, post-prandial state, alcohol, elevated ambient temperatures) may exacerbate dynamic obstruction and precipitate symptoms.
+
+First-line pharmacologic therapy consists of beta-blockers or nondihydropyridine calcium channel blockers (diltiazem, verapamil) (1). These medications decrease heart rate and prolong the diastolic filling interval, thereby augmenting preload, and attenuate LVOT obstruction through their negative inotropic effects. Doses should be titrated to effective relief of symptoms. Verapamil should be avoided in patients with severe dyspnea at rest, hypotension, or a LVOT gradient ≥ 100 mm Hg and in children < 6 weeks of age.
+
+Patients who continue to experience symptoms related to LVOT obstruction (LVOT gradient ≥ 50 mm Hg) despite first-line medical therapy should be considered for cardiac myosin inhibitors (mavacamten, aficamten), disopyramide (in combination with an atrioventricular nodal blocking agent), or invasive septal reduction therapies (1). Cardiac myosin inhibitors inhibit the cardiac myosin ATPase, thereby reducing excessive actin-myosin cross-bridge formation and shifting myosin to an energy-sparing super-relaxed state (2). Cardiac myosin inhibitors have been shown to reduce LVOT gradients, improve exercise capacity and symptom burden, and decrease need for invasive septal reduction therapies in patients with symptomatic obstructive HCM (3, 4, 5, 6). Given their negative inotropic properties, myosin inhibitors carry a risk of left ventricular systolic dysfunction. Accordingly, cardiac myosin inhibitor treatment requires structured clinical and echocardiographic surveillance to monitor left ventricular function, with dose adjustment or interruption as indicated.
+
+Septal reduction therapy for obstructive HCM
+
+Septal reduction therapy is performed in patients who have persistent symptomatic LVOT obstruction despite medical interventions including cardiac myosin inhibitors. 
+
+Surgical septal myectomy is associated with low operative mortality and durable symptomatic improvement and is generally preferred in appropriate surgical candidates, as determined by age, comorbidities, frailty and anatomic considerations. (1).
+
+Percutaneous alcohol septal ablation represents an alternative for older patients or those at increased surgical risk.
+
+Although overall mortality appears comparable between the 2 approaches, alcohol septal ablation is associated with a higher incidence of complete heart block and an increased likelihood of repeat intervention (7). Invasive septal reduction therapy should be performed at centers with experience with the procedure and in patients who remain symptomatic despite medical therapy.
+
+Treatment of nonobstructive HCM
+
+Treatment of patients with nonobstructive HCM is challenging. In symptomatic patients with preserved left ventricular ejection fraction (LVEF), beta-blockers and nondihydropyridine calcium channel blockers are used to lower heart rate and improve diastolic filling. In patients with persistent symptoms or clinical evidence of congestion, cautious administration of diuretics may provide symptomatic benefit. Valsartan may be considered in patients ≤ 45 years old with a causative sarcomeric gene mutation to aid reverse (ie, favorable) remodeling. Due to substantial diastolic dysfunction, many patients with HCM exhibit a very steep diastolic pressure volume curve, with a corresponding narrow "optimal" volume window. Thus, patients can easily and quickly experience effects of volume overload or volume depletion, necessitating careful follow up (1).
+
+Sudden cardiac death risk stratification, ICD placement, and atrial arrhythmias
+
+The current incidence of sudden cardiac death in HCM is < 0.5%/year (8); however, risk is substantially increased in the presence of established high-risk features (9, 10). ICD is the cornerstone of therapy for HCM patients at high risk. Risk stratification for sudden cardiac death and the indications for ICD placement are discussed in detail elsewhere.
+
+Avoidance of competitive sports was previously recommended because sudden death can occur during exertion. Current guidelines recommend that athletes with HCM undergo comprehensive evaluation and shared discussion of potential risk with an expert HCM specialist (1, 11).
+
+Atrial fibrillation (AF) is highly prevalent among patients with HCM, largely due to progressive atrial remodeling and fibrosis, and its incidence increases with advancing age (10). The development of AF in this population is frequently symptomatic, since the loss of atrial contraction and rapid ventricular rates associated with AF both further impair diastolic filling in an already noncompliant ventricle. The management of AF in patients with HCM is discussed elsewhere.
+
+Treatment of HCM with advanced heart failure
+
+A minority of patients (approximately 6% to 8%) progress to a phenotype characterized by advanced cardiac remodeling and left ventricular systolic dysfunction, defined as LVEF ≤ 50% (9). Development of LV systolic dysfunction warrants evaluation for alternative etiologies (eg, coronary artery disease) and institution of guideline-directed medical therapy for heart failure with reduced ejection fraction (1). Therapies with negative inotropic effects, including calcium channel blockers, and cardiac myosin inhibitors, should generally be discontinued and guideline-directed medical therapy should be instituted in patients with persistent LV systolic dysfunction. Given the potential for rapid clinical deterioration in this subgroup, close longitudinal surveillance is essential. Early referral to specialists experienced in advanced heart failure treatment and timely consideration of device therapy or advanced interventions, including heart transplantation in appropriate candidates, should be undertaken when clinical status worsens despite optimal medical therapy (1).
+
+Treatment references
+
+1. Ommen SR, Ho CY, Asif IM, et al. 2024 AHA/ACC/AMSSM/HRS/PACES/SCMR Guideline for the Management of Hypertrophic Cardiomyopathy: A Report of the American Heart Association/American College of Cardiology Joint Committee on Clinical Practice Guidelines. Circulation. 2024;149(23):e1239-e1311. doi:10.1161/CIR.0000000000001250
+
+2. Ostrominski JW, Guo R, Elliott PM, Ho CY. Cardiac Myosin Inhibitors for Managing Obstructive Hypertrophic Cardiomyopathy: JACC: Heart Failure State-of-the-Art Review. JACC Heart Fail. 2023;11(7):735-748. doi:10.1016/j.jchf.2023.04.018
+
+3. Desai MY, Owens A, Geske JB, et al. Myosin Inhibition in Patients With Obstructive Hypertrophic Cardiomyopathy Referred for Septal Reduction Therapy. J Am Coll Cardiol. 2022;80(2):95-108. doi:10.1016/j.jacc.2022.04.048
+
+4. Maron MS, Masri A, Nassif ME, et al. Aficamten for Symptomatic Obstructive Hypertrophic Cardiomyopathy. N Engl J Med. 2024;390(20):1849-1861. doi:10.1056/NEJMoa2401424
+
+5. Olivotto I, Oreziak A, Barriales-Villa R, et al. Mavacamten for treatment of symptomatic obstructive hypertrophic cardiomyopathy (EXPLORER-HCM): a randomised, double-blind, placebo-controlled, phase 3 trial. Lancet. 2020;396:759-769. doi: 10.1016/S0140-6736(20)31792-X
+
+6. Spertus JA, Fine JT, Elliott P, et al: Mavacamten for treatment of symptomatic obstructive hypertrophic cardiomyopathy (EXPLORER-HCM): health status analysis of a randomized, double-blind, placebo-controlled, phase 3 trial. Lancet. 2021;397(10293):2467-2475. doi: 10.1016/S0140-6736(21)00763-7
+
+7. Maurizi N, Antiochos P, Owens A, et al. Long-Term Outcomes After Septal Reduction Therapies in Obstructive Hypertrophic Cardiomyopathy: Insights From the SHARE Registry. Circulation. 2024;150(17):1377-1390. doi:10.1161/CIRCULATIONAHA.124.069378
+
+8. Abdelfattah OM, Martinez M, Sayed A, et al. Temporal and Global Trends of the Incidence of Sudden Cardiac Death in Hypertrophic Cardiomyopathy. JACC Clin Electrophysiol. 2022;8(11):1417-1427. doi:10.1016/j.jacep.2022.07.012
+
+9. Braunwald E. Hypertrophic Cardiomyopathy. N Engl J Med. 2025;393(10):1004-1015. doi:10.1056/NEJMra2413445
+
+10. Maron BJ, Desai MY, Nishimura RA, et al. Management of Hypertrophic Cardiomyopathy: JACC State-of-the-Art Review. J Am Coll Cardiol. 2022;79(4):390-414. doi:10.1016/j.jacc.2021.11.021
+
+11. Kim JH, Baggish AL, Levine BD, et al. Clinical Considerations for Competitive Sports Participation for Athletes With Cardiovascular Abnormalities: A Scientific Statement From the American Heart Association and American College of Cardiology. J Am Coll Cardiol. 2025;85(10):1059-1108. doi:10.1016/j.jacc.2024.12.025
+
+Prognosis for Hypertrophic Cardiomyopathy
+
+With contemporary management, mortality has significantly decreased over the past decades to as low as 0.5% annually, although it remains higher in children and high-risk patients (1).
+
+Prognosis reference
+
+1. Maron BJ. Clinical Course and Management of Hypertrophic Cardiomyopathy. N Engl J Med. 2018;379(7):655-668. doi:10.1056/NEJMra1710575
+
+Key Points
+
+Hypertrophic cardiomyopathy is frequently caused by sarcomeric mutations and is characterized by left ventricular hypertrophy, diastolic dysfunction and in some dynamic left ventricular outflow tract(LVOT) obstruction.
+
+Myocardial ischemia may occur in the absence of epicardial coronary artery disease due to microvascular dysfunction, reduced capillary density, and structural abnormalities of intramural coronary arteries.
+
+Clinical manifestations include exertional dyspnea, chest pain, palpitations, syncope, and, in some cases, sudden cardiac death.
+
+Transthoracic echocardiography is the initial diagnostic modality; cardiac MRI provides superior characterization of myocardial structure and function.
+
+First-line therapy includes beta-blockers or non-dihydropyridine calcium channel blockers to reduce heart rate, improve diastolic filling, and decrease LVOT obstruction when present.
+
+Cardiac myosin inhibitors may be used to relieve LVOT obstruction and improve functional capacity in patients with symptoms.
+
+Medications that reduce preload or afterload (eg, nitrates, diuretics, ACE inhibitors, angiotensin II receptor blockers) should generally be avoided in patients with significant LVOT obstruction.
+
+Implantable cardioverter-defibrillator placement is indicated in patients at high risk for sudden cardiac death, including those with prior cardiac arrest or high-risk features such as unexplained syncope.
+
+Septal reduction therapy (surgical myectomy or alcohol septal ablation) is recommended for patients with persistent symptoms despite optimal medical therapy.

@@ -1,0 +1,186 @@
+=== Overview of Lipid Metabolism (Merck Manual Professional) ===
+Section: Endocrinology > Lipid Disorders
+Source: https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/lipid-disorders/overview-of-lipid-metabolism
+Retrieved: 2026-09-25
+
+Lipids are fats that are either absorbed from food or synthesized by the liver. Triglycerides and cholesterol contribute most to disease, although all lipids are physiologically important.
+
+Cholesterol is a ubiquitous constituent of cell membranes, steroids, bile acids, and signaling molecules.
+
+Triglycerides primarily store energy in adipocytes and muscle cells.
+
+Lipoproteins are hydrophilic, spherical structures that possess surface proteins (apoproteins, or apolipoproteins) that are cofactors and ligands for lipid-processing enzymes (see table Major Apoproteins and Enzymes Important to Lipid Metabolism).
+
+All lipids are hydrophobic and mostly insoluble in blood, so they require transport within lipoproteins. Lipoproteins are classified by size and density (defined as the ratio of lipid to protein) and are important because high levels of low-density lipoproteins (LDL) and low levels of high-density lipoproteins (HDL) are major risk factors for atherosclerotic heart disease.
+
+Dyslipidemia is elevation of plasma cholesterol and/or triglycerides, or a low HDL-C level that contributes to the development of atherosclerosis.
+
+Table
+
+Major Apoproteins and Enzymes Important to Lipid Metabolism
+
+Table
+
+Major Apoproteins and Enzymes Important to Lipid Metabolism
+
+Major Apoproteins and Enzymes Important to Lipid Metabolism
+
+Component
+
+Location
+
+Function
+
+Apoproteins
+
+Apo A-I
+
+HDL
+
+Major component of HDL particle
+
+Apo A-II
+
+HDL
+
+Component of HDL particle
+
+Apo A-V
+
+HDL (primarily), VLDL, chylomicrons
+
+LPL cofactor for lipolysis of TGs
+
+Apo B-100
+
+VLDL, IDL, LDL, Lp(a)
+
+LDL receptor ligand
+
+Apo B-48
+
+Chylomicrons
+
+Major component of chylomicron
+
+Apo C-II
+
+Chylomicrons, VLDL, HDL
+
+LPL cofactor
+
+Apo C-III
+
+Chylomicrons, VLDL, HDL
+
+Inhibits LPL
+
+Apo E
+
+Chylomicrons, remnants, VLDL, HDL
+
+LDL receptor ligand
+
+Apo(a)
+
+Lp(a)
+
+Component of Lp(a) and links to LDL-like particle
+
+Enzymes
+
+ABCA1
+
+Within cells
+
+Contributes to intracellular cholesterol transport to membrane
+
+CETP
+
+HDL
+
+Mediates transfer of cholesteryl esters from HDL to VLDL
+
+LPL
+
+Endothelium
+
+Hydrolyzes triglycerides of chylomicrons and VLDL to release free fatty acids
+
+LCAT
+
+HDL
+
+Esterifies free cholesterol for transport within HDL
+
+ABCA1 =adenosine triphosphate (ATP)-binding cassette transporter A1; apo = apoprotein; CETP = cholesteryl ester transfer protein; HDL = high-density lipoprotein; IDL = intermediate-density lipoprotein; LCAT = lecithin-cholesterol acyltransferase; LDL = low-density lipoprotein; LPL = lipoprotein lipase; Lp(a) = lipoprotein (a); TG = triglycerides; VLDL = very-low-density lipoprotein.
+
+ABCA1 =adenosine triphosphate (ATP)-binding cassette transporter A1; apo = apoprotein; CETP = cholesteryl ester transfer protein; HDL = high-density lipoprotein; IDL = intermediate-density lipoprotein; LCAT = lecithin-cholesterol acyltransferase; LDL = low-density lipoprotein; LPL = lipoprotein lipase; Lp(a) = lipoprotein (a); TG = triglycerides; VLDL = very-low-density lipoprotein.
+
+Clinical Calculators
+
+Cardiovascular Risk Assessment (10-year, Revised Pooled Cohort Equations 2018)
+
+Physiology of Lipid Metabolism
+
+Pathway defects in lipoprotein synthesis, processing, and clearance can lead to accumulation of atherogenic lipids in plasma and endothelium.
+
+Exogenous (dietary) lipid metabolism
+
+Over 95% of dietary lipids are
+
+Triglycerides (TGs)
+
+The remaining approximately 5% of dietary lipids are
+
+Cholesterol (present in foods as esterified cholesterol)
+
+Fat-soluble vitamins
+
+Free fatty acids (FFAs)
+
+Phospholipids
+
+Dietary triglyceride metabolism begins in the stomach and duodenum, where triglycerides are broken into monoglycerides (MGs) and free fatty acids by gastric lipase, emulsification due to vigorous stomach peristalsis, and pancreatic lipase. Dietary cholesterol esters are de-esterified into free cholesterol by these same mechanisms.
+
+Monoglycerides, free fatty acids, and free cholesterol are then solubilized in the intestine by bile acid micelles, which shuttle them to intestinal villi for absorption.
+
+Once absorbed into enterocytes, they are reassembled into triglycerides and packaged with cholesterol into chylomicrons, the largest lipoproteins.
+
+Chylomicrons transport dietary triglycerides and cholesterol from within enterocytes through lymphatics into the circulation. In the capillaries of adipose and muscle tissue, apoprotein C-II (apo C-II) on the chylomicron activates endothelial lipoprotein lipase (LPL) to convert 90% of chylomicron triglyceride to fatty acids and glycerol, which are taken up by adipocytes and muscle cells for energy use or storage.
+
+Cholesterol-rich chylomicron remnants then circulate back to the liver, where they are cleared in a process mediated by apoprotein E (apo E).
+
+Endogenous lipid metabolism
+
+Lipoproteins synthesized by the liver transport endogenous triglycerides and cholesterol. Lipoproteins circulate through the blood continuously until the triglycerides they contain are taken up by peripheral tissues or the lipoproteins themselves are cleared by the liver. Factors that stimulate hepatic lipoprotein synthesis generally lead to elevated plasma cholesterol and triglyceride levels.
+
+Very-low-density lipoproteins (VLDL) contain apoprotein B-100 (apo B), are synthesized in the liver, and transport triglycerides and cholesterol to peripheral tissues. VLDL is the way the liver exports excess triglycerides derived from plasma free fatty acids and chylomicron remnants. VLDL synthesis increases when intrahepatic free fatty acids increase, such as occur with high-fat diets and when excess adipose tissue releases free fatty acids directly into the circulation (eg, in obesity, uncontrolled diabetes mellitus). Apo C-II on the VLDL surface activates endothelial lipoprotein lipase (LPL) to break down triglycerides into free fatty acids and glycerol, which are taken up by cells.
+
+Intermediate-density lipoproteins (IDL) are the product of LPL processing of VLDL. IDL are cholesterol-rich VLDL remnants that are either cleared by the liver or metabolized by hepatic lipase into LDL, which retains apo B-100.
+
+Low-density lipoproteins (LDL), the products of VLDL and IDL metabolism, are the most cholesterol-rich of all lipoproteins. Approximately 40 to 60% of all LDL are cleared by the liver in a process mediated by apo B and hepatic LDL receptors. The rest are taken up by either hepatic LDL or nonhepatic non-LDL (scavenger) receptors. Hepatic LDL receptors are down-regulated by delivery of cholesterol to the liver by chylomicrons and by increased dietary saturated fat; they can be up-regulated by decreased dietary fat and cholesterol. Nonhepatic scavenger receptors, most notably on macrophages, take up excess LDL that has not been processed by hepatic receptors. Monocytes migrate into the subendothelial space and become macrophages; these macrophages then take up oxidized LDL and form foam cells within atherosclerotic plaques.
+
+The size of LDL particles varies from large and buoyant to small and dense. Small, dense LDL is especially rich in cholesterol esters and is associated with metabolic disturbances such as hypertriglyceridemia and insulin resistance.
+
+High-density lipoproteins (HDL) are initially cholesterol-free lipoproteins that are synthesized in both enterocytes and the liver. HDL metabolism is complex, but one role of HDL is to obtain cholesterol from peripheral tissues and other lipoproteins and transport it to where it is needed most—other cells, other lipoproteins (using cholesteryl ester transfer protein [CETP]), and the liver (for clearance). Its overall effect is anti-atherogenic.
+
+Efflux of free cholesterol from cells is mediated by adenosine triphosphate (ATP)-binding cassette transporter A1 (ABCA1), which combines with apoprotein A-I (apo A-I) to produce nascent HDL. Free cholesterol in nascent HDL is then esterified by the enzyme lecithin-cholesterol acyl transferase (LCAT), producing mature HDL. Plasma HDL levels may not completely represent reverse cholesterol transport, and the protective effects of higher HDL levels may also be due to anti-oxidant and anti-inflammatory properties.
+
+Lipoprotein (a) [Lp(a)] is an LDL-like particle that contains apoprotein (a), characterized by cysteine-rich regions called kringles. One of these regions is homologous with plasminogen and is thought to competitively inhibit fibrinolysis and thus predispose to thrombus formation. Data, including Mendelian randomization analyses, genome‐wide association studies, and large meta‐analyses, support a causal relationship between elevated Lp(a) levels and increased cardiac risk (1, 2, 3). While the exact mechanism of the atherogenic effects of Lp(a) is not fully understood, it is thought that it promotes inflammation and thrombosis (4, 5). The metabolic pathways of Lp(a) production and clearance are not well characterized, but levels increase in patients with chronic kidney disease, especially in patients on dialysis (6, 7).
+
+References
+
+1. Clarke R, Peden JF, Hopewell JC, et al. Genetic variants associated with Lp(a) lipoprotein level and coronary disease. N Engl J Med 2009;361(26):2518-2528. doi:10.1056/NEJMoa0902604
+
+2. Kamstrup PR, Tybjaerg-Hansen A, Steffensen R, Nordestgaard BG. Genetically elevated lipoprotein(a) and increased risk of myocardial infarction. JAMA 2009;301(22):2331-2339. doi:10.1001/jama.2009.801
+
+3. Larsson SC, Gill D, Mason AM, et al. Lipoprotein(a) in Alzheimer, Atherosclerotic, Cerebrovascular, Thrombotic, and Valvular Disease: Mendelian Randomization Investigation. Circulation 2020;141(22):1826-1828. doi:10.1161/CIRCULATIONAHA.120.045826
+
+4. Tsimikas S. A Test in Context: Lipoprotein(a): Diagnosis, Prognosis, Controversies, and Emerging Therapies. J Am Coll Cardiol 2017;69(6):692-711. doi:10.1016/j.jacc.2016.11.042
+
+5. Tsimikas S, Fazio S, Ferdinand KC, et al. NHLBI Working Group Recommendations to Reduce Lipoprotein(a)-Mediated Risk of Cardiovascular Disease and Aortic Stenosis. J Am Coll Cardiol 2018;71(2):177-192. doi:10.1016/j.jacc.2017.11.014
+
+6. Hopewell JC, Haynes R, Baigent C. The role of lipoprotein (a) in chronic kidney disease. J Lipid Res 2018;59(4):577-585. doi:10.1194/jlr.R083626
+
+7. Kronenberg F. Causes and consequences of lipoprotein(a) abnormalities in kidney disease. Clin Exp Nephrol 2014;18(2):234-237. doi:10.1007/s10157-013-0875-8

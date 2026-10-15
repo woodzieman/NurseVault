@@ -12,16 +12,29 @@ int nv_inflate_brotli(const uint8_t *in,
     if (in == NULL || out == NULL || out_len == NULL || in_len == 0) {
         return -1;
     }
-    size_t scratch = compression_decode_scratch_buffer_size(COMPRESSION_BROTLI);
-    void *scratchBuf = scratch > 0 ? malloc(scratch) : NULL;
-    if (scratch > 0 && scratchBuf == NULL) {
-        return -1;
+    
+    // Validate input is large enough for brotli header
+    if (in_len < 2) {
+        return -1;  // Too small to be valid brotli data
     }
+    
+    size_t scratch = compression_decode_scratch_buffer_size(COMPRESSION_BROTLI);
+    void *scratchBuf = NULL;
+    
+    if (scratch > 0 && scratch < 1024 * 1024) {  // Cap scratch buffer at 1 MB
+        scratchBuf = malloc(scratch);
+        if (scratchBuf == NULL) {
+            return -1;  // Memory allocation failed
+        }
+    }
+    
     int result = compression_decode_buffer(out, out_cap, in, in_len, scratchBuf, COMPRESSION_BROTLI);
     free(scratchBuf);
+    
     if (result < 0) {
-        return -1;
+        return -1;  // Decompression failed
     }
+    
     *out_len = (size_t)result;
     return 0;
 }

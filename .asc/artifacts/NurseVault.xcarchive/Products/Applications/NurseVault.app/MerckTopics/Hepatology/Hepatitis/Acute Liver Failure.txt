@@ -1,0 +1,80 @@
+=== Acute Liver Failure (Merck Manual Professional) ===
+Section: Hepatology > Hepatitis
+Source: https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/hepatitis/acute-liver-failure
+Retrieved: 2026-09-25
+
+(See also Evaluation of the Patient With a Liver Disorder and Overview of Acute Viral Hepatitis.)
+
+Hepatitis B virus is sometimes responsible for acute liver failure, and up to approximately 26% of cases of fulminant hepatitis B involve hepatitis D virus coinfection (1, 2). Acute liver failure with hepatitis A virus is rare but is more likely in people with preexisting liver disorders (3). Hepatitis E virus is an under-recognized cause of acute liver failure, especially in pregnant patients, potentially leading to fetal loss, liver failure, and death. The role of hepatitis C virus remains uncertain.
+
+Alcohol-associated hepatitis may cause acute liver failure, but most patients have a long history of heavy drinking and so probably have underlying chronic liver disease.
+
+Medications (especially acetaminophen) are the most common cause of acute liver failure in the United States.
+
+General references
+
+1. Miao Z, Zhang S, Ou X, et al. Estimating the Global Prevalence, Disease Progression, and Clinical Outcome of Hepatitis Delta Virus Infection. J Infect Dis. 2020;221(10):1677-1687. doi:10.1093/infdis/jiz633
+
+2. Shingina A, Mukhtar N, Wakim-Fleming J, et al. Acute Liver Failure Guidelines. Am J Gastroenterol. 2023;118(7):1128-1153. doi:10.14309/ajg.0000000000002340
+
+3. Nelson NP, Weng MK, Hofmeister MG, et al. Prevention of Hepatitis A Virus Infection in the United States: Recommendations of the Advisory Committee on Immunization Practices, 2020. MMWR Recomm Rep. 2020;69(5):1-38. Published 2020 Jul 3. doi:10.15585/mmwr.rr6905a1
+
+Symptoms and Signs of Acute Liver Failure
+
+Symptoms of acute liver failure develop and become severe very quickly. Patients rapidly deteriorate because portosystemic encephalopathy develops, progressing to coma and cerebral edema over a period of several days to several weeks. Coagulopathy commonly results from liver failure or disseminated intravascular coagulation, and functional renal failure (hepatorenal syndrome) may develop.
+
+Increasing prothrombin time (PT) or international normalized ratio (INR), portosystemic encephalopathy, and particularly renal failure are ominous.
+
+Diagnosis of Acute Liver Failure
+
+History and physical examination
+
+Liver tests
+
+PT/INR measurement
+
+Acetaminophen level
+
+Acute liver failure should be suspected if:
+
+Patients are acutely ill with new-onset jaundice, rapid changes in mental status, or unexplained bleeding.
+
+Patients with known liver disease rapidly deteriorate.
+
+Laboratory tests to confirm the diagnosis of acute liver failure include liver tests (eg, aminotransferases, alkaline phosphatase) and other tests to evaluate liver function (prothrombin time/international normalized ratio [PT/INR], bilirubin, albumin).
+
+Laboratory tests for acute hepatitis A, B, and C viruses, as well as some other viruses (eg, cytomegalovirus, Epstein-Barr virus, herpes simplex virus), are performed to determine whether a virus is the cause.
+
+Complete medication and substance use history, including over-the-counter medications and herbal supplements, should be elicited. The serum acetaminophen level should be measured in all patients with acute liver failure, regardless of whether acetaminophen toxicity is suspected.
+
+Treatment of Acute Liver Failure
+
+Antiviral medications (oral nucleoside or nucleotide analogs)
+
+Sometimes N-acetylcysteine
+
+Liver transplantation
+
+Meticulous medical care, usually in an intensive care unit, and aggressive treatment of complications improve the outcome of patients with acute liver failure.
+
+If acute liver failure results from reactivation of hepatitis B, treatment with oral nucleoside or nucleotide analogs (eg, lamivudine, entecavir, tenofovir) can reduce viral load or improve survival (1). There are no specific treatments for hepatitis D co-infection or superinfection that treat acute liver failure, aside from therapy for hepatitis B. There is no specific treatment for acute liver failure caused by hepatitis E.
+
+N-acetylcysteine is an antidote for acetaminophen poisoning. This medication is most effective if given within 8 hours of acetaminophen ingestion but may still have a role in chronic acetaminophen toxicity (1). N-acetylcysteine is also recommended to treat early nonacetaminophen acute liver failure (2)
+
+Emergency liver transplantation provides the best chance for survival in some patients. The majority of adults with acute liver failure due to reactivation of hepatitis B do not survive without transplantation, although rates appear to have improved over time (3, 4). In contrast, the majority of (nonpregnant) patients with acute liver failure due to hepatitis E survive without transplantation (5, 6).
+
+Patients who survive usually recover fully.
+
+Treatment references
+
+1. Shingina A, Mukhtar N, Wakim-Fleming J, et al. Acute Liver Failure Guidelines. Am J Gastroenterol. 2023;118(7):1128-1153. doi:10.14309/ajg.0000000000002340
+
+2. Amjad W, Thuluvath P, Mansoor M, et al. N-acetylcysteine in non-acetaminophen-induced acute liver failure: a systematic review and meta-analysis of prospective studies. Prz Gastroenterol. 2022;17(1):9-16. doi:10.5114/pg.2021.107797
+
+3. Oketani M, Ido A, Nakayama N, et al. Etiology and prognosis of fulminant hepatitis and late-onset hepatic failure in Japan: Summary of the annual nationwide survey between 2004 and 2009. Hepatol Res. 2013;43(2):97-105. doi:10.1111/j.1872-034X.2012.01105.x
+
+4. Gimson AE, White YS, Eddleston AL, et al. Clinical and prognostic differences in fulminant hepatitis type A, B and non-A non-B. Gut. 1983;24(12):1194-1198. doi:10.1136/gut.24.12.1194
+
+5. Shalimar, Kedia S, Gunjan D, et al. Acute Liver Failure Due to Hepatitis E Virus Infection Is Associated with Better Survival than Other Etiologies in Indian Patients. Dig Dis Sci. 2017;62(4):1058-1066. doi:10.1007/s10620-017-4461-x
+
+6. Haffar S, Shalimar, Kaur RJ, et al. Acute liver failure caused by hepatitis E virus genotype 3 and 4: A systematic review and pooled analysis. Liver Int. 2018;38(11):1965-1973. doi:10.1111/liv.13861

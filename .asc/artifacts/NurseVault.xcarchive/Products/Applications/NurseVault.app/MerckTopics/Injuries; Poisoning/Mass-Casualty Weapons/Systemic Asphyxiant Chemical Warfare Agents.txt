@@ -1,0 +1,84 @@
+=== Systemic Asphyxiant Chemical-Warfare Agents (Merck Manual Professional) ===
+Section: Injuries; Poisoning > Mass-Casualty Weapons
+Source: https://www.merckmanuals.com/professional/injuries-poisoning/mass-casualty-weapons/systemic-asphyxiant-chemical-warfare-agents
+Retrieved: 2026-09-25
+
+Systemic asphyxiants are a type of chemical-warfare agent and include (1):
+
+Cyanide compounds
+
+Hydrogen sulfide
+
+Systemic asphyxiants are systemically distributed by the blood and have also been called blood agents. However, their site of action is not the blood but rather at the cellular level throughout the body.
+
+Cyanide salts have been used to murder via ingestion, but mass casualties could also result from inhalation of hydrogen cyanide or cyanogen chloride, which are highly volatile liquids or gases at ambient temperatures. Cyanides are also products of combustion of numerous household and industrial contents, and patients with smoke inhalation may also have cyanide poisoning. Cyanide has a characteristic bitter-almond odor, but ability to detect this odor is conferred by a single gene that is absent in half the population.
+
+Hydrogen sulfide is always a gas at ambient temperatures. Exposure is thus usually by inhalation. Hydrogen sulfide can be produced by mixing sulfur-containing household chemicals with acids; this combination has been used for suicide (termed detergent suicide), and residual gas can affect rescuers, causing multiple casualties. Hydrogen sulfide is also produced when manure decomposes. Large farm manure pits often contain lethal quantities of the gas, which may cause multiple rescuer casualties if they proceed without proper protective gear. Hydrogen sulfide has a characteristic rotten egg odor, but high concentrations damage olfactory fibers so that this odor will not be perceived in the most lethal environments.
+
+(See also Overview of Chemical-Warfare Agents.)
+
+Pearls & Pitfalls
+
+Hydrogen sulfide in high concentrations damages olfactory fibers so that the characteristic rotten egg odor will not be perceived in the most lethal environments.
+
+General reference
+
+1. Borron SW, Bebarta VS. Asphyxiants. Emerg Med Clin North Am. 2015;33(1):89-115. doi:10.1016/j.emc.2014.09.014
+
+Pathophysiology of Systemic Asphyxiant Chemical Injuries
+
+Cyanides and hydrogen sulfides both enter mitochondria, where they inactivate cytochrome oxidase, an enzyme needed for oxidative phosphorylation (cellular respiration). Suppression of oxidative phosphorylation leads to cellular anoxia, with adenosine triphosphate (ATP) depletion, inability to extract oxygen from blood delivered to tissues, and lactic acidosis resulting from the body's attempts to generate energy nonoxidatively. All organs and tissues are affected, but neurons are more sensitive than muscle; central apnea is the usual mechanism of death. Additional mechanisms of action for cyanides and hydrogen sulfide are likely but are not yet fully characterized.
+
+Symptoms and Signs of Systemic Asphyxiant Chemical Injuries
+
+Cyanide initially causes gasping, tachycardia, and hypertension. Loss of consciousness and convulsions may occur within 30 seconds. Tetanus-like signs, including trismus (lockjaw), risus sardonicus (grimacing), and opisthotonus (neck arching), may occur. The skin may be flushed, but approximately half of casualties are cyanotic. Apnea usually precedes bradycardia and hypotension, and decorticate posturing may be noted prior to death.
+
+Hydrogen sulfide in high doses also causes abrupt loss of consciousness with convulsions. Direct damage to myocardium may be prominent. Continued exposure to initially sublethal concentrations may induce eye irritation with conjunctivitis and corneal abrasions and ulcerations (gas eye), irritation of nasal and pharyngeal mucous membranes, headache, weakness, ataxia, nausea, vomiting, chest tightness, and hyperventilation. Some of these manifestations appear to be a reaction to the offensive odor of the compound. A green discoloration or darkening of coins carried by the patient should lead to a heightened suspicion of hydrogen-sulfide poisoning.
+
+Diagnosis of Systemic Asphyxiant Chemical Injuries
+
+History and physical examination
+
+Severely affected patients must be treated before testing is available, so diagnosis is mainly clinical. Laboratory findings include a decreased arteriovenous oxygen difference (due to higher-than-usual venous oxygen content) and high-anion-gap acidemia with increased lactate.
+
+Triage
+
+All unconscious patients with a pulse are potentially salvageable and should be triaged for immediate medical treatment. Because patients with inhalational exposure usually do not get worse after removal from the contaminated environment, conscious patients who are reporting decreasing symptoms may be triaged as delayed (ie, able to tolerate a short delay while emergent casualties are being treated).
+
+Treatment of Systemic Asphyxiant Chemical Injuries
+
+Airway support and 100% oxygen
+
+For cyanide, specific antidotes
+
+Attention should be given to airway, breathing, and circulation. Water with or without soap, suffices for skin decontamination; patients exposed only to vapor or gas usually do not require decontamination.
+
+Cyanide casualties require prompt antidotal therapy. Antidotes for cyanide poisoning are sodium nitrite and sodium thiosulfate administered sequentially or in combination, or hydroxocobalamin (1, 2). Hydroxocobalamin is generally considered to be as effective as sodium nitrate/sodium thiosulfate but has a more favorable safety profile.
+
+Sodium nitrite: 3% sodium nitrite 10 mL at 2.5 to 5 mL/minute IV (in children, 10 mg/kg)
+
+Sodium thiosulfate: 25% sodium thiosulfate 25 to 50 mL at 2.5 to 5 mL/minute IV
+
+or
+
+Hydroxocobalamin, 5 to 10 g IV The standard adult initial dose is 5 g IV over 15 minutes, following reconstitution with sterile water to a total volume of 200 mL—ie, 25 mg/mL (normal saline, lactated Ringer's, or a 5% dextrose solution can be used for further dilution if needed). The resulting solution is infused IV (in a line different from the one used for sodium nitrite, if applicable) infused approximately 13.3 mL/min.
+
+Antidotes may be effective even in apneic patients. In the absence of antidotes, ventilation and administration of 100% oxygen may be life-saving. Unprotected mouth-to-mouth resuscitation may expose the rescuer to cyanide in the patient’s breath.
+
+Cyanide casualties resulting from smoke inhalation may also have carbon monoxide poisoning. In such cases, hydroxycobalamin has been recommended over nitrates by some authorities because, unlike nitrites, hydroxycobalamin does not decrease oxygen-carrying capacity (3, 4). However, concerns about administering nitrites in this situation are probably overstated. Hyperbaric oxygen has not been proven to improve outcomes in patients poisoned with cyanide.
+
+Hydrogensulfide casualties are managed with supportive care, including administration of 100% oxygen. Nitrites, sodium thiosulfate, hydroxocobalamin, and hyperbaric oxygen (as are used in cyanide) are of no benefit. However, intravenous bicarbonate plus glucose reduced lethality and coma duration in a rat model and may be tried in humans (5, 6).
+
+Treatment references
+
+1. Bebarta VS, Brittain M, Chan A, et al. Sodium Nitrite and Sodium Thiosulfate Are Effective Against Acute Cyanide Poisoning When Administered by Intramuscular Injection. Ann Emerg Med. 2017;69(6):718-725.e4. doi:10.1016/j.annemergmed.2016.09.034
+
+2. Borron SW, Baud FJ, Mégarbane B, Bismuth C. Hydroxocobalamin for severe acute cyanide poisoning by ingestion or inhalation. Am J Emerg Med. 2007;25(5):551-558. doi:10.1016/j.ajem.2006.10.010
+
+3. Anseeuw K, Delvau N, Burillo-Putze G, et al. Cyanide poisoning by fire smoke inhalation: a European expert consensus. Eur J Emerg Med. 2013;20(1):2-9. doi:10.1097/MEJ.0b013e328357170b
+
+4. Kirk MA, Gerace R, Kulig KW. Cyanide and methemoglobin kinetics in smoke inhalation victims treated with the cyanide antidote kit. Ann Emerg Med. 1993;22(9):1413-1418. doi:10.1016/s0196-0644(05)81988-2
+
+5. Guidotti TL: Hydrogen sulfide: Advances in understanding human toxicity. Int J Toxicol, 29(6):569-581, 2010. doi: 10.1177/1091581810384882
+
+6. Ng PC, Hendry-Hofer TB, Witeof AE, et al. Hydrogen Sulfide Toxicity: Mechanism of Action, Clinical Presentation, and Countermeasure Development. J Med Toxicol. 2019;15(4):287-294. doi:10.1007/s13181-019-00710-5

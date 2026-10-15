@@ -1,0 +1,130 @@
+=== Radiation Therapy for Cancer (Merck Manual Professional) ===
+Section: Oncology > Principles of Cancer Therapy
+Source: https://www.merckmanuals.com/professional/oncology/principles-of-cancer-therapy/radiation-therapy-for-cancer
+Retrieved: 2026-09-25
+
+Radiation therapy for cancer may be curative alone or in combination with other treatments (see also Overview of Cancer Therapy), particularly for tumors that are radiosensitive, are localized, and can be completely encompassed within a radiation field. Radiation therapy combined with surgery or combined with systemic therapy and surgery may improve cure rates and allow for more limited surgery. Radiation therapy may be given before surgery or chemotherapy (neoadjuvant therapy) or after surgery or chemotherapy (adjuvant therapy).
+
+Radiation therapy can provide palliation even when cure is not possible:
+
+For brain tumors: Prolongs patient functioning and prevents neurologic complications
+
+For cancers that compress the spinal cord: Prevents progression of neurologic deficits
+
+For superior vena cava syndromes: Relieves obstruction
+
+For painful bone lesions: Usually relieves symptoms
+
+Radiation cannot destroy cancer cells without destroying some adjacent normal cells. Consequently, the risk of damage to normal tissue must be weighed against potential gain. The final outcome of a dose of radiation depends on numerous factors, including
+
+Type of radiation (eg, photons, electrons, protons, alpha particles, type of radionuclide)
+
+Dose, schedule, fractionation (how dose is divided over time)
+
+Radiosensitivity of the cancer (likelihood of cell death)
+
+In general, cancer cells are selectively damaged because of their high metabolic and proliferative rates. Normal tissue repairs itself more efficiently.
+
+Important considerations in the use of radiation therapy include the following:
+
+Dose and schedule
+
+Fractionation
+
+Ability to accurately target the cancer
+
+Target volume
+
+Configuration of radiation beams
+
+Dose distribution
+
+Treatment is tailored to take advantage of the cellular kinetics of the cancer to maximize damage to the cancer and minimize damage to normal tissues.
+
+Radiation therapy sessions begin with the precise positioning of the patient. Foam casts or plastic masks are often constructed to ensure exact repositioning for serial treatments. Laser-guided sensors are used. Typical courses consist of large daily doses given over several weeks for palliative treatment or smaller doses given once a day 5 days/week for 6 to 8 weeks for curative treatment.
+
+Types of Radiation Therapy
+
+There are several different types of radiation therapy, including
+
+External beam radiation
+
+Stereotactic radiation therapy
+
+Conformal radiation therapy
+
+Brachytherapy
+
+Systemic radionuclides
+
+External beam radiation
+
+External beam radiation therapy can be done with
+
+Photons (gamma radiation)
+
+Electrons
+
+Protons
+
+Gamma radiation using a linear accelerator is the most common type of radiation therapy. The radiation dose to adjacent normal tissue can be limited by conformal technology, which reduces scatter at the field margins.
+
+Electron beam radiation therapy has little tissue penetration and is best for skin or superficial cancers. Different energies of electrons are used based on the desired depth of penetration and type of tumor.
+
+Proton therapy has advantages over gamma radiation therapy in that it deposits energy at a depth from the surface, whereas gamma radiation damages all tissues along the path of the beam. Proton beam therapy also can provide sharp margins that may result in less injury to immediately adjacent tissue and is thus particularly useful for tumors of the eye, the base of the brain, and the spine.
+
+Stereotactic radiation therapy
+
+Stereotactic radiation therapy uses multiple, precisely focused beams with stereotactic localization of a tumor to deliver a single high dose or multiple fractionated doses to a small intracranial or other target. The beams are delivered from many different angles that all meet at the tumor, thus passing through many different areas of healthy tissue on the way to the tumor; this means the tumor receives a much higher dose of radiation than any of the surrounding healthy tissue. Stereotactic therapy is frequently used to treat metastases to the central nervous system. Advantages include complete tumor killing where conventional surgery would not be possible and few adverse effects. Disadvantages include limitations involving the size of the area that can be treated and the potential danger to adjacent tissues because of the high dose of radiation. In addition, stereotactic radiation therapy cannot be used in all areas of the body. Patients must be immobilized and the target area kept completely still.
+
+Conformal radiation therapy
+
+In conformal radiation therapy, imaging technology allows the radiation beam to be shaped to conform to the dimensions of the tumor, allowing more precise targeting.
+
+Brachytherapy
+
+Brachytherapy involves placement of radioactive seeds into the tumor bed itself (eg, in the prostate or cervix). Typically, placement is guided by CT or ultrasound. Brachytherapy achieves higher effective radiation doses over a longer period than could be accomplished by fractionated, external beam radiation therapy.
+
+Systemic radionuclides
+
+Systemic radionuclides can direct radiation to cancer in organs that have specific receptors for uptake of the isotope (ie, radioactive iodine for thyroid cancer) or when the radionuclide is attached to a monoclonal antibody (eg, iodine-131 plus tositumomab for non-Hodgkin lymphoma). Isotopes can also palliate bone metastases (ie, radiostrontium or radium for prostate cancer).
+
+Other agents or strategies, such as neoadjuvant chemotherapy, can sensitize tumor tissue to radiation and increase efficacy.
+
+Adverse Effects of Radiation Therapy
+
+Radiation can damage any intervening normal tissue.
+
+Acute adverse effects depend on the area receiving radiation and may include
+
+Lethargy
+
+Fatigue
+
+Mucositis
+
+Dermatologic manifestations (erythema, pruritus, desquamation)
+
+Esophagitis
+
+Pneumonitis
+
+Hepatitis
+
+Gastrointestinal symptoms (nausea, vomiting, diarrhea, tenesmus)
+
+Genitourinary symptoms (frequency, urgency, dysuria)
+
+Bone marrow suppression
+
+Late complications
+
+Late complications of radiation therapy include cataracts, keratitis, and retina damage if the eye is in the treatment field. Additional late complications depend on the area treated and include hypopituitarism, xerostomia, hypothyroidism, pneumonitis, pericarditis, esophageal stricture, hepatitis, ulcers, gastritis, nephritis, sterility, vaginal stenosis, muscle contractures, and arteriosclerotic heart disease.
+
+Radiation that reaches normal tissue can lead to poor healing of the tissues if further procedures or surgery is necessary. For example, radiation to the head and neck impairs recovery from dental procedures (eg, restoration, extraction) and thus should be given only after necessary dental work has been done.
+
+Radiation therapy can increase the risk of developing other cancers, particularly leukemias, sarcomas, and carcinomas of the thyroid or breast. Peak incidence occurs 5 to 20 years after exposure and depends on the patient's age at the time of treatment (1). For example, chest radiation therapy for Hodgkin lymphoma in adolescent girls leads to a higher risk of breast cancer than does the same treatment in adult women.
+
+Adverse effects of radiation reference
+
+1. Khanna L, Prasad SR, Yedururi S, et al: Second Malignancies after Radiation Therapy: Update on Pathogenesis and Cross-sectional Imaging Findings. Radiographics 41(3):876–894, 2021. doi:10.1148/rg.2021200171

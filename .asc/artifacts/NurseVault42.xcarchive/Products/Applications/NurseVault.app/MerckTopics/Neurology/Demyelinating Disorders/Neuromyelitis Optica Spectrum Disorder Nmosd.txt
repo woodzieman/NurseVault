@@ -1,0 +1,110 @@
+=== Neuromyelitis Optica Spectrum Disorder (NMOSD) (Merck Manual Professional) ===
+Section: Neurology > Demyelinating Disorders
+Source: https://www.merckmanuals.com/professional/neurologic-disorders/demyelinating-disorders/neuromyelitis-optica-spectrum-disorder-nmosd
+Retrieved: 2026-09-25
+
+Neuromyelitis optica spectrum disorder causes acute optic neuritis, sometimes bilateral, plus demyelination of the cervical or thoracic spinal cord. It was previously considered to be a variant of multiple sclerosis (MS) but is now recognized as a different disorder (1).
+
+In neuromyelitis optica spectrum disorder, astrocytes and oligodendrocytes are damaged by autoimmune-mediated inflammation as well as demyelination. The immune system targets aquaporin 4, a protein that is present in astrocytes in the brain and particularly the spinal cord and optic nerves, or myelin oligodendrocyte glycoprotein (MOG), which is present in the myelin of oligodendrocytes in the same areas of the CNS and possibly other targets.
+
+There are 3 types of neuromyelitis optica spectrum disorder:
+
+Aquaporin-4 antibody positive (formerly known as NMO antibody positive)
+
+Myelin oligodendrocyte glycoprotein (MOG) positive
+
+Double-antibody negative (patients with this type have clinical neuromyelitis optica spectrum disorder but have neither antibody)
+
+General reference
+
+1. Uzawa A, Oertel FC, Mori M, Paul F, Kuwabara S. NMOSD and MOGAD: an evolving disease spectrum. Nat Rev Neurol. 2024;20(10):602-619. doi:10.1038/s41582-024-01014-1
+
+Symptoms and Signs of NMOSD
+
+Symptoms of neuromyelitis optica spectrum disorder include visual loss, muscle spasms, paraparesis or quadriparesis, and incontinence.
+
+Characteristic presentations include
+
+Severe bilateral optic neuritis that involves the optic chiasm, causing loss of vision in the horizontal half (upper or lower) of the visual field (altitudinal visual field defect) or loss of acuity (20/200 or worse)
+
+A complete spinal cord syndrome, particularly with paroxysmal tonic spasms
+
+An area postrema syndrome, causing intractable hiccups or nausea and vomiting (the area postrema is a structure that controls vomiting and is located on the floor of the fourth ventricle)
+
+Acute transverse myelitis extending over ≥ 3 contiguous spinal cord segments
+
+Diagnosis of NMOSD
+
+Brain and spinal cord MRI
+
+Visual evoked potentials
+
+Blood tests for aquaporin-4 or anti-MOG (myelin oligodendrocyte glycoprotein) antibodies
+
+Diagnosis of neuromyelitis optica spectrum disorder usually includes brain and spinal cord MRI and visual evoked potentials (1).
+
+The following features help distinguish neuromyelitis optica from multiple sclerosis (MS):
+
+Neuromyelitis optica affects several (typically ≥ 3) contiguous spinal segments of the spinal cord, whereas MS typically affects a single segment.
+
+On MRI, cerebral white matter lesions are uncommon in neuromyelitis optica, unlike in MS.
+
+On MRI, morphology and distribution of the lesions differ from those in MS.
+
+Visual evoked potentials can help differentiate neuromyelitis optica from other optic neuropathies. Findings in neuromyelitis optica spectrum disorder include reduced amplitudes or prolonged latencies. This test is also useful for detecting clinically inapparent damage before symptoms develop.
+
+Blood tests to measure an IgG antibody specific for neuromyelitis optica spectrum disorder (aquaporin-4 antibody [also known as NMO-IgG]) may differentiate NMOSD from MS, though this antibody is not always present in patients with NMOSD. Another antibody, anti-MOG (myelin oligodendrocyte glycoprotein), can distinguish a subset of patients with neuromyelitis optica spectrum disorder who appear to have different clinical features, fewer exacerbations, and better recovery than patients with aquaporin-4 antibodies or with neither antibody. Some patients with clinical evidence of neuromyelitis optical spectrum disorder do not have either antibody and are classified as having double antibody negative neuromyelitis optica spectrum disorder.
+
+Diagnosis reference
+
+1. Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. Neurology. 2015; 85 (2):177–189. doi: 10.1212/WNL.0000000000001729
+
+Treatment of NMOSD
+
+Glucocorticoids and immunomodulatory or immunosuppressive treatments
+
+There is no cure for neuromyelitis optica. However, treatment can prevent, slow, or decrease the severity of exacerbations and may reduce the risk of disability in the short term (1–3).
+
+High-dose methylprednisolone is used to treat acute exacerbations, followed by plasma exchange if steroids are ineffective (3).
+
+Prophylactic treatments are categorized by their inhibitory effect on specific targets in the immune system (4, 5).
+
+Eculizumab and ravulizumab, both C5 complement inhibitors, are available for the treatment of aquaporin-4 antibody-positive neuromyelitis optica spectrum disorder. Adverse effects include respiratory infections, headache, and pneumonia and may be significant; thus, patients should be closely monitored (6). Because of the risk of meningococcal sepsis, vaccination for meningococcus is required before initiating therapy.
+
+Satralizumab and tocilizumab (monoclonal antibodies that target the interleukin-6 receptor) are also available for the treatment of aquaporin-4 antibody-positive neuromyelitis optica spectrum disorder. Inebilizumab, an anti-CD19-B-cell antibody, is also used for the treatment of aquaporin-4-positive NMOSD. Patients should be closely monitored for infections such as urinary tract and respiratory infections.
+
+Evidence supports the use of rituximab, an anti–CD20-B-cell antibody, to reduce relapses (7).
+
+If monoclonal antibodies are not available, azathioprine or mycophenolate mofetil with or without glucocorticoids may be used (8).
+
+Natalizumab and fingolimod appear ineffective and may be harmful.
+
+Treatment of symptoms is similar to that for MS. Baclofen or tizanidine may relieve muscle spasms.
+
+Treatment references
+
+1. Kong F, Wang J, Zheng H, et al. Monoclonal antibody therapy in neuromyelitis optica spectrum disorders: A meta-analysis of randomized control trials. Front Pharmacol. 20;12:652759, 2021. doi: 10.3389/fphar.2021.652759
+
+2. Xue T, Yang Y, Lu Q, et al. Efficacy and safety of monoclonal antibody therapy in neuromyelitis optica spectrum disorders: Evidence from randomized controlled trials. Mult Scler Relat Disord. 43:102166, 2020. doi: 10.1016/j.msard.2020.102166
+
+3. Uzawa A, Oertel FC, Mori M, et al. NMOSD and MOGAD: an evolving disease spectrum. Nature Rev Neurol. 2024;20(10):602-619. doi:10.1038/s41582-024-01014-1
+
+4. Demuth S, Collongues N. Disease-modifying treatments for neuromyelitis optica spectrum disorder in the context of a new generation of biotherapies. Rev Neurol (Paris). 2025;181(1-2):42-51. doi:10.1016/j.neurol.2024.01.008
+
+5. Noll G, de Lima MM, Mantovani GP, et al. Interleukin-6 inhibitors for neuromyelitis optica spectrum disorder (NMOSD): A systematic review and meta-analysis. Mult Scler Relat Disord. 2024;92:106156. doi:10.1016/j.msard.2024.106156
+
+6. Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in aquaporin-4-positive neuromyelitis optica spectrum disorder. N Engl J Med. 381 (7):614–625, 2019. doi: 10.1056/NEJMoa1900866
+
+7. Tahara M, Oeda T, Okada K, et al. Safety and efficacy of rituximab in neuromyelitis optica spectrum disorders (RIN-1 study): A multicentre, randomised, double-blind, placebo-controlled trial. Lancet Neurol. 19 (4):298–306, 2020. doi: 10.1016/S1474-4422(20)30066-1
+
+8. Luo D, Wei R, Tian X, et al. Efficacy and safety of azathioprine for neuromyelitis optica spectrum disorders: a meta-analysis of real-world studies. Multiple Scler Rel Dis. 2020;46:102484. doi:10.1016/j.msard.2020.102484
+
+Key Points
+
+Neuromyelitis optica spectrum disorder causes demyelination, typically with antibodies to aquaporin-4 or myelin oligodendrocyte glycoprotein.
+
+Typical symptoms include visual loss, muscle spasms, paraparesis or quadriparesis, and incontinence.
+
+Diagnose neuromyelitis optica spectrum disorder using brain and spinal cord MRI and visual evoked potentials.
+
+Treatments include glucocorticoids and immunomodulatory or immunosuppressive treatments (eg, eculizumab, rituximab).

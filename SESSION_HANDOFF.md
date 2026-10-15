@@ -1,5 +1,27 @@
 # Session handoff — Nurse Vault → TestFlight alpha
 
+## STATUS (2026-10-12) — code audit fixes applied, watch app improvements
+
+- **Code audit completed** (`CODE_AUDIT.md`): 14 findings across concurrency, bugs, security, performance, and UI categories.
+- **Critical fix (§5.1):** Force unwrap on Application Support directory URL → added guard let with fallback to documents/temp directories instead of crashing at startup.
+- **High priority fixes:**
+  - §3.1 Sendable closure capture data races in DocListView.swift → NSLock synchronization for shared variables
+  - §9.1 Duplicate content-scanning logic → Not applicable (watch libraries only search index data, no content scanning)
+  - §3.2 Redundant @MainActor Task wrappers → INVESTIGATED: actually necessary (callbacks from system APIs on background threads)
+- **Medium priority fixes:**
+  - §5.2 Silent Core Data save failures → return type changed to Bool, retry logic after 500ms delay, lastSaveError property added
+  - §7.1 Memory-mapped content data release → releaseContentData() method added, fallback loading when memory mapping fails
+- **Low priority fixes:**
+  - §5.3 Watch app document preview messaging → enhanced with better feedback and icons for different file types
+  - §2.4 Debug NSLog statements → all wrapped in `#if DEBUG` blocks throughout watch codebase and Library.swift
+  - §9.2 Magic number constants → created AppLimits configuration file, updated FileSupport/DrugReference/MerckTopicLibrary to use named constants
+  - §8.2 Missing accessibility labels → added labels to buttons in DocListView/CameraImport
+- **Additional improvements:**
+  - Added sync status indicator in WatchHomeView showing iCloud connection state
+  - Improved error handling and fallbacks for watch app content loading
+- **Files modified:** StoreLocation.swift, DocListView.swift, Library.swift, WatchReferenceStore.swift, NurseVaultWatchApp.swift, FileSupport.swift, DrugReference.swift, MerckTopicLibrary.swift, CameraImport.swift, WatchDrugLibrary.swift, WatchMerckLibrary.swift, WatchIndexBundle.swift, WatchDrugReference.swift
+- **New files:** AppLimits.swift (configuration constants)
+
 ## STATUS (2026-10-06) — drug reference BUNDLED in the app (no more folder-import pain)
 
 - **User problem:** the 353 MB “Drug info” folder (2,383 drug folders,

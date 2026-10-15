@@ -1,0 +1,182 @@
+=== Lymphocytopenia (Merck Manual Professional) ===
+Section: Hematology > Leukopenias
+Source: https://www.merckmanuals.com/professional/hematology/leukopenias/lymphocytopenia
+Retrieved: 2026-09-25
+
+Lymphocytes are components of the cellular immune system and include T cells, B cells, and natural killer (NK) cells, all of which are present in the peripheral blood; approximately 75% of the lymphocytes are T cells, 20% B cells, and 5% NK cells. Because lymphocytes account for only 20 to 40% of the total white blood cell (WBC) count, lymphocytopenia may go unnoticed if the WBC count is checked without a differential.
+
+The normal lymphocyte count in adults is 1000 to 4800/mcL (1 to 4.8 × 109/L; in children < 2 years, the normal count is 3000 to 9500/mcL (3 to 9.5 × 109/L). At age 6 years, the lower limit of normal is 1500/mcL (1.5 × 109/L). Different laboratories may have slightly different normal values.
+
+Almost 65% of blood T cells are CD4+ (helper) T cells. Thus, most patients with lymphocytopenia have a reduced absolute number of T cells, particularly in the number of CD4+ T cells. The average number of CD4+ T cells in adult blood is 1100/mcL (range, 300 to 1300/mcL [1.1 × 109/L with a range of 0.3 to 1.3 × 109/L]), and the average number of cells of the other major T-cell subgroup, CD8+ (suppressor) T cells, is 600/mcL (range, 100 to 900/mcL [0.6 × 109/L with a range of 0.1 to 0.9 × 109/L]).
+
+It is important to note that the lymphocytes in the blood represent only a small proportion of the total lymphocyte pool, and the lymphocyte count may not always correlate with the composition and numbers of lymphocytes in other lymphoid (eg, nodes, spleen) and non-lymphoid (eg, lung, liver) tissues. Similarly, deficiencies of particular subsets of lymphocytes (eg, CD8+, B, NK cells) can also be missed.
+
+Clinical Calculators
+
+Absolute Lymphocyte Count
+
+Etiology of Lymphocytopenia
+
+Lymphocytopenia can be
+
+Acquired
+
+Inherited
+
+Acquired lymphocytopenia
+
+Acquired lymphocytopenia can occur with a number of other disorders (see table Causes of Lymphocytopenia ).
+
+The most common causes include
+
+Protein-energy undernutrition
+
+Infections, particularly viral (eg, HIV, COVID-19, EBV)
+
+Autoimmune diseases
+
+Malignancies
+
+Cytotoxic or immunosuppressive medications
+
+Protein-energy undernutrition is the most common cause worldwide.
+
+Lymphocytopenia is often transient when caused by many viral and bacterial infections, sepsis, corticosteroid treatment, and stress responses.
+
+Patients with HIV infection routinely have lymphocytopenia, which arises from destruction of CD4+ T cells infected with the HIV virus (1). Lymphocytopenia may also reflect impaired lymphocyte production arising from destruction of thymic or lymphoid architecture. In acute viremia due to HIV or other viruses, lymphocytes may undergo accelerated destruction from active infection with the virus, may be trapped in the spleen or lymph nodes, or may migrate to the respiratory tract.
+
+Patients with COVID-19 also frequently have lymphocytopenia (35 to 83% of patients) (2). The cause of the lymphocytopenia due to COVID-19 is not completely understood, but COVID-19 can directly infect lymphocytes, likely leading to cytokine-related apoptosis of the cells. Lower lymphocyte counts portend a poor prognosis and an increased likelihood of requiring ICU admission and of dying from COVID-19.
+
+Lymphocytopenia may occur with lymphomas, sarcoidosis, autoimmune diseases such as systemic lupus erythematosus, rheumatoid arthritis, or myasthenia gravis, and protein-losing enteropathy caused by gastrointestinal disease or constrictive pericarditis.
+
+Iatrogenic lymphocytopenia is caused by cytotoxic chemotherapy, radiation therapy, or the administration of antilymphocyte globulin (or other lymphocyte antibodies such as rituximab). Long-term treatment for psoriasis using psoralen and ultraviolet A irradiation may destroy T cells. Long-term glucocorticoid therapy can induce lymphocyte destruction, as can Cushing syndrome.
+
+Inherited lymphocytopenia
+
+Inherited lymphocytopenia (see table Causes of Lymphocytopenia) most commonly occurs in
+
+Severe combined immunodeficiency disorder
+
+Wiskott-Aldrich syndrome
+
+It may occur with inherited immunodeficiency disorders and disorders that involve impaired lymphocyte production (3). Other inherited disorders, such as Wiskott-Aldrich syndrome, adenosine deaminase deficiency, and purine nucleoside phosphorylase deficiency, may involve accelerated T-cell destruction. WHIM (warts, hypogammaglobulinemia, infections, and myelokathexis) syndrome is a rare inherited disorder with neutropenia and lymphocytopenia due to abnormal leukocyte migration with retention of mature neutrophils in the bone marrow. In many of these disorders, antibody production is also deficient.
+
+Table
+
+Causes of Lymphocytopenia
+
+Table
+
+Causes of Lymphocytopenia
+
+Causes of Lymphocytopenia
+
+Mechanism
+
+Examples
+
+Acquired
+
+HIV infection and other viral infections (eg, COVID-19, Ebola disease, Epstein-Barr virus infection, hepatitis, influenza)
+
+Bacterial infections (eg, tuberculosis, typhoid fever, sepsis)
+
+Dietary deficiency in patients with alcohol use disorder, protein-energy undernutrition, or zinc deficiency
+
+Protein-losing enteropathy
+
+Iatrogenic after use of cytotoxic chemotherapy, glucocorticoids, high-dose psoralen and ultraviolet A radiation therapy, lymphocyte antibody therapy, immunosuppressants, radiation therapy, or thoracic duct drainage
+
+Systemic disorders with autoimmune features (eg, aplastic anemia, Hodgkin lymphoma, myasthenia gravis, protein-losing enteropathy, rheumatoid arthritis, chronic kidney disease, sarcoidosis, systemic lupus erythematosus, thermal injury)
+
+Hereditary
+
+Aplasia of lymphopoietic stem cells
+
+Ataxia-telangiectasia
+
+Cartilage-hair hypoplasia syndrome
+
+Idiopathic CD4+ T lymphocytopenia
+
+Immunodeficiency with thymoma
+
+Severe combined immunodeficiency (SCID) associated with a defect in the interleukin-2 receptor gamma chain, deficiency of ADA or PNP, or an unknown defect
+
+Wiskott-Aldrich syndrome
+
+WHIM (warts, hypogammaglobulinemia, infections and myelokathexis) syndrome due to mutations in CXCR4
+
+ADA = adenosine deaminase; PNP = purine nucleoside phosphorylase.
+
+ADA = adenosine deaminase; PNP = purine nucleoside phosphorylase.
+
+Etiology references
+
+1. Moir S, Chun TW, Fauci AS. Pathogenic mechanisms of HIV disease. Annu Rev Pathol. 6:223-6248, 2011. doi: 10.1146/annurev-pathol-011110-130254
+
+2. Mina A, van Besien K, Platanias LC. Hematological manifestations of COVID-19. Leuk Lymphoma. 61(12):2790-2798, 2020. doi:10.1080/10428194.2020.1788017
+
+3. Howley E, Golwala Z, Buckland M, et al. Impact of newborn screening for SCID on the management of congenital athymia. J Allergy Clin Immunol. 153(1), 330–334, 2024. doi:10.1016/j.jaci.2023.08.031
+
+Symptoms and Signs of Lymphocytopenia
+
+Lymphocytopenia generally causes no symptoms. However, findings of an associated disorder may include
+
+Absent or diminished tonsils or lymph nodes, indicative of cellular immunodeficiency
+
+Skin abnormalities (eg, alopecia, eczema, pyoderma, telangiectasia, warts)
+
+Evidence of hematologic disease (eg, pallor, petechiae, jaundice, mouth ulcers)
+
+Generalized lymphadenopathy and splenomegaly, which may suggest HIV infection or Hodgkin lymphoma
+
+Patients with lymphocytopenia experience recurrent infections or develop infections with unusual organisms. Pneumocystis jirovecii, cytomegalovirus, rubeola, and varicella pneumonias often are fatal. Lymphocytopenia is also a risk factor for the development of cancers and for autoimmune disorders.
+
+Diagnosis of Lymphocytopenia
+
+Clinical suspicion (repeated or unusual infections)
+
+Complete blood count (CBC) with differential
+
+Measurement of lymphocyte subpopulations with flow cytometry and immunoglobulin levels (ie, IgG, IgA, IgM)
+
+Sometimes, whole exome sequencing
+
+Lymphocytopenia is suspected in patients with recurrent viral, bacterial, fungal, or parasitic infections but is usually detected incidentally with a CBC. P. jirovecii, cytomegalovirus, rubeola, or varicella pneumonias with lymphocytopenia suggest immunodeficiency.
+
+Lymphocyte subpopulations are measured with flow cytometry in patients with lymphocytopenia. Measurement of immunoglobulin levels should also be done to evaluate antibody production. Patients with a history of recurrent infections should undergo complete laboratory evaluation for immunodeficiency, even if initial screening test results are normal. In newborns and infants with persistent lymphocytopenia and hypogammaglobulinemia, genetic testing is indicated. Whole exome sequencing may be helpful.
+
+Treatment of Lymphocytopenia
+
+Treatment of associated infections
+
+Treatment of underlying disorder
+
+Sometimes IV or subcutaneous immune globulin
+
+Possibly hematopoietic stem cell transplantation
+
+In acquired lymphocytopenias, lymphocytopenia usually remits with removal of the underlying factor or successful treatment of the underlying disorder. IV or subcutaneous immune globulin is indicated if patients have chronic immunoglobulin G deficiency, lymphocytopenia, and recurrent infections. Mavorixafor, an oral CXCR4 antagonist, is effective for the treatment of WHIM syndrome. In randomized trials, patients with WHIM syndrome treated with mavorixafor demonstrated increased levels of absolute neutrophils and lymphocytes, along with fewer infections and cutaneous warts compared to those receiving placebo. Hematopoietic stem cell transplantation can be considered for all patients with congenital immunodeficiencies and may be curative (1, 2).
+
+Avoid giving live vaccines (because of the risk of causing infection) in these patients. Inactive or recombinant vaccines are safe, but their efficacy is variable depending on type and severity of the lymphocytopenia.
+
+Treatment references
+
+1. Dale DC, Firkin F, Bolyard AA, et al. Results of a phase 2 trial of an oral CXCR4 antagonist, mavorixafor, for treatment of WHIM syndrome [published correction appears in Blood. 2023 Jun 29;141(26):3232. doi: 10.1182/blood.2023019759]. Blood. 2020;136(26):2994-3003. doi:10.1182/blood.2020007197
+
+2. Badolato R, Alsina L, Azar A, et al. A phase 3 randomized trial of mavorixafor, a CXCR4 antagonist, for WHIM syndrome. Blood. 2024;144(1):35-45. doi:10.1182/blood.2023022658
+
+Key Points
+
+Lymphocytopenia is most often due to late-stage HIV, COVID-19, or undernutrition, but it also may be inherited or caused by various infections, medications, or autoimmune disorders.
+
+Patients have recurrent viral, bacterial, fungal, or parasitic infections.
+
+Lymphocyte subpopulations and immunoglobulin levels should be measured.
+
+In newborns and infants with persistent lymphocytopenia and hypogammaglobulinemia, genetic testing is indicated.
+
+Treatment is usually directed at the cause, but occasionally, IV or subcutaneous immune globulin or, in patients with congenital immunodeficiency, stem cell transplantation, is helpful.
+
+Avoid giving live vaccines in these patients.

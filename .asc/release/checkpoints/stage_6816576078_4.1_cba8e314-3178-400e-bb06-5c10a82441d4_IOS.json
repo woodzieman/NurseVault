@@ -1,0 +1,15 @@
+{
+  "appId": "6816576078",
+  "version": "4.1",
+  "buildId": "cba8e314-3178-400e-bb06-5c10a82441d4",
+  "metadataDir": "fastlane/metadata",
+  "platform": "IOS",
+  "versionId": "0a4c3184-3cd2-478e-8aa1-2e00edd4b2a3",
+  "mode": "stage",
+  "completed": {
+    "apply_metadata": true,
+    "attach_build": true,
+    "ensure_version": true
+  },
+  "updatedAt": "2026-10-14T20:36:10Z"
+}

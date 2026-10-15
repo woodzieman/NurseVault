@@ -1,0 +1,709 @@
+=== Atezolizumab — Drug Information (Merck Manual Professional) ===
+Source: https://www.merckmanuals.com/professional/drug-names-generic-and-brand (productId 4848)
+Retrieved: 2026-09-25
+NURSING QUICK-REFERENCE SUMMARY
+Auto-generated on 2026-09-25 from the prescribing information in this file; full details follow below.
+
+Drug Class: Atezolizumab is an IgG1 kappa monoclonal antibody that binds to and blocks programmed death-ligand 1 (PD-L1).
+
+Routes: injection (IV/IM/SC); Common adult doses: 840 mg IV every 2 weeks; 1,200 mg IV every 3 weeks; OR 1,680 mg IV every 4 weeks.
+
+Common Side Effects (excluding routine GI upset): cough, dyspnea, rhinitis, colitis, enterocolitis, bowel ischemia, gi obstruction, cheilitis, oral ulceration, diabetes mellitus, diabetic ketoacidosis, hyperglycemia, hypoglycemia, hemophagocytic lymphohistiocytosis, leukopenia, lymphopenia, neutropenia, anemia, aplastic anemia, hemolytic anemia, purpura, thrombocytopenia, thrombocytosis, dysesthesia, hypoesthesia, paresthesias, peripheral neuropathy, iritis, retinal detachment, uveitis
+
+In an Overdose: No overdose/antidote information is listed in this file.
+
+Key Nursing Considerations: Contraindications/precautions: Use atezolizumab with caution in patients with a history of autoimmune disease, including inflammatory bowel disease. Immune-mediated reactions, which may be severe or fatal, can occur in patients treated with drugs that bind to either the programmed death-receptor 1 (PD-1) or the PD-ligand 1... Emetic risk: Minimal
+
+ATEZOLIZUMAB
+
+Close
+
+Brand Names
+Indication Specific Dosing
+Contraindications And Precaution
+Pregnancy And Lactation
+Interactions
+Adverse Reaction
+Description
+Mechanism Of Action
+Pharmacokinetics
+Administration
+Maximum Dosage Limits
+Dosage Forms
+Dosage Adjustment Guidelines
+Drug Information Provided by Elsevier
+
+This information reflects approved US FDA prescribing information and may not reflect prescribing information in your country. Please consult a drug reference applicable to your country.
+
+Brand Names
+
+Tecentriq
+
+Indication Specific Dosing
+
+For the treatment of non-small cell lung cancer (NSCLC)
+
+For the first-line treatment of metastatic nonsquamous non-small cell lung cancer (NSCLC) without EGFR or ALK mutations, in combination with bevacizumab, paclitaxel, and carboplatin
+Intravenous dosage
+Adults
+
+
+840 mg IV every 2 weeks; OR 1,200 mg IV every 3 weeks; OR 1,680 mg IV every 4 weeks until disease progression or unacceptable toxicity. Administer in combination with bevacizumab (15 mg/kg IV), paclitaxel (200 mg/m2 IV, or 175 mg/m2 IV in Asian patients), and carboplatin (AUC 6 IV), every 3 weeks for a maximum of 4 to 6 cycles of chemotherapy; continue bevacizumab every 3 weeks with atezolizumab until disease progression or unacceptable toxicity. Administer atezolizumab prior to bevacizumab and chemotherapy when given on the same day. At the final analysis of a multicenter, randomized, open-label, phase 3 clinical trial (IMpower150), treatment with atezolizumab plus bevacizumab/paclitaxel/carboplatin (ABCP) significantly improved overall survival in patients with metastatic nonsquamous NSCLC compared with BCP without atezolizumab (19.5 months vs. 14.7 months); overall survival with atezolizumab/paclitaxel/carboplatin was not significantly different from BCP. Progression-free survival was also significantly improved in the ABCP arm compared with BCP (8.5 months vs. 7 months). The objective response rate was 55% (complete response [CR], 4%) versus 42% (CR, 1%), respectively, for a median duration of 10.8 months and 6.5 months, respectively.
+
+
+For the treatment of metastatic non-small cell lung cancer (NSCLC) with disease progression on or after platinum-containing chemotherapy, and after progression on FDA-approved EGFR- or ALK-targeted therapy if applicable, as monotherapy
+Intravenous dosage
+Adults
+
+
+840 mg IV every 2 weeks until disease progression or unacceptable toxicity; alternatively, atezolizumab may be dosed at 1,200 mg IV every 3 weeks OR atezolizumab 1,680 mg IV every 4 weeks. Treatment with atezolizumab monotherapy significantly improved overall survival compared with docetaxel (13.8 months vs. 9.6 months) in patients with locally advanced or metastatic NSCLC whose disease progressed during or following a platinum-containing regimen in a multicenter, randomized, open-label, phase 3 clinical trial (OAK). The median progression-free survival was 2.8 months versus 4 months, respectively, for a median duration of 16.3 months and 6.2 months, respectively. The objective response rate was 14% in patients treated with atezolizumab compared with 13% for those who received docetaxel (complete response, 1% vs. 0.2%).
+
+
+For the first-line treatment of metastatic nonsquamous non-small cell lung cancer (NSCLC) without EGFR or ALK mutations, in combination with nanoparticle albumin-bound (nab) paclitaxel and carboplatin
+Intravenous dosage
+Adults
+
+
+840 mg IV every 2 weeks; OR 1,200 mg IV every 3 weeks; OR 1,680 mg IV every 4 weeks until disease progression or unacceptable toxicity. Administer in combination with nab-paclitaxel (100 mg/m2 on days 1, 8, and 15) and carboplatin (AUC 6 IV on day 1), every 3 weeks for a maximum of 4 to 6 cycles of chemotherapy. Administer atezolizumab prior to chemotherapy when given on the same day. First-line treatment of EGFR- and ALK-negative metastatic NSCLC with atezolizumab plus nab-paclitaxel and carboplatin significantly improved median overall survival (18.6 months vs. 13.9 months) and median progression-free survival (7.2 months vs. 6.5 months) compared with nab-paclitaxel and carboplatin alone in a multicenter, randomized, open-label trial (IMpower130). The overall response rate was 46% (complete response [CR], 5%) in the atezolizumab arm compared with 32% (CR, 1%) in the control arm, for a median duration of 10.8 months versus 7.8 months, respectively.
+
+
+For the first-line treatment of metastatic non-small cell lung cancer (NSCLC) without EGFR or ALK mutations, in patients whose tumors have high PD-L1 expression (at least 50% of tumor cells, or PD-L1 stained tumor-infiltrating immune cells covering at least 10% of the tumor area), as monotherapy
+Intravenous dosage
+Adults
+
+
+840 mg IV every 2 weeks; OR 1,200 mg IV every 3 weeks; OR 1,680 mg IV every 4 weeks until disease progression or unacceptable toxicity. Treatment with atezolizumab significantly improved median overall survival compared with platinum-based chemotherapy (20.2 months vs. 13.1 months) in patients with metastatic NSCLC and high PD-L1 expression, without EGFR or ALK mutations in a randomized, open-label trial (IMpower110). Investigator-assessed median progression-free survival was 8.1 months in the atezolizumab arm compared with 5 months in the chemotherapy arm; the confirmed objective response rate was 38% versus 29%, respectively.
+
+
+For the adjuvant treatment of stage II to IIIA NSCLC as monotherapy in patients with PD-L1 expression on 1% or more of tumor cells, following resection and platinum-based chemotherapy
+Intravenous dosage
+Adults
+
+
+840 mg IV every 2 weeks; OR 1,200 mg IV every 3 weeks; OR 1,680 mg IV every 4 weeks for up to 1 year, unless there is disease recurrence or unacceptable toxicity. In a multicenter, randomized, open-label clinical trial (IMpower010), patients with stage IB to IIIA NSCLC who had complete tumor resection and received cisplatin-based adjuvant chemotherapy were randomized to treatment with atezolizumab or best supportive care (BSC). Treatment with atezolizumab significantly improved the primary endpoint of median disease-free survival (DFS) in stage II to IIIA NSCLC patients with PD-L1 expression in 1% or more of tumor cells compared with BSC (not reached vs. 35.3 months). In a prespecified secondary subgroup analysis of stage II to IIIA NSCLC patients with PD-L1 expression in 50% or more of tumor cells, median DFS was not reached versus 35.7 months, respectively; median DFS was 32.8 months versus 31.4 months, respectively, in an exploratory subgroup analysis of patients with PD-L1 expression in 1% to 49% of tumor cells. Median overall survival was not estimable in both the atezolizumab and the BSC arms at the first prespecified interim analysis after a median follow-up of 45.3 months.
+
+
+For the treatment of renal cell cancer†
+
+For the first-line treatment of advanced or metastatic renal cell cancer, in combination with bevacizumab†
+Intravenous dosage
+Adults
+
+
+1,200 mg IV over 60 minutes plus bevacizumab (15 mg/kg IV over 90 minutes), repeated every 3 weeks until disease progression or unacceptable toxicity. If the first atezolizumab infusion is tolerated over 60 minutes, all subsequent infusions may be infused over 30 minutes. If the first bevacizumab infusion is tolerated over 90 minutes, the second infusion may be given over 60 minutes and if well-tolerated, subsequent bevacizumab infusions may be given over 30 minutes. In a randomized, phase 3 clinical trial, first-line treatment with atezolizumab plus bevacizumab significantly improved median investigator-assessed PFS in patients with advanced or metastatic RCC compared with sunitinib; however, these results were not supported by an independent review committee (IRC) which found a nonsignificant trend toward improved PFS. An exploratory analysis found that treatment with atezolizumab plus bevacizumab significantly improved investigator-assessed PFS in intent-to-treat patients with sarcamoid histology, which has a particularly poor prognosis. Treatment with atezolizumab plus bevacizumab did not significantly improve overall survival compared with sunitinib in this patient population, but patients who received combination therapy experienced a longer time to clinically relevant decline.
+
+
+For the treatment of small cell lung cancer (SCLC)
+
+For the first-line treatment of extensive-stage small cell lung cancer (SCLC), in combination with carboplatin and etoposide
+Intravenous dosage
+Adults
+
+
+840 mg IV every 2 weeks; OR 1,200 mg IV every 3 weeks; OR 1,680 mg IV every 4 weeks until disease progression or unacceptable toxicity. Administer in combination with carboplatin (AUC 5 IV on day 1) and etoposide (100 mg/m2 IV on days 1, 2, and 3), every 3 weeks for 4 cycles. Administer atezolizumab prior to chemotherapy when given on the same day. In a randomized, double-blind, phase 3 clinical trial (IMpower133), the addition of atezolizumab to carboplatin plus etoposide significantly improved overall survival (12.3 months vs. 10.3 months) and progression-free survival (5.2 months vs. 4.3 months) compared with placebo plus carboplatin/etoposide. Survival at 1 year was 51.7% versus 38.2%, respectively. Treatment was well-tolerated, with 56.5% of patients in the atezolizumab arm experiencing grade 3 or 4 adverse reactions compared with 56.1% of those in the placebo arm. Immune-related adverse reactions occurred in 39.9% versus 24.5% of patients, respectively.
+
+
+For the maintenance treatment of extensive-stage small cell lung cancer (ES-SCLC) whose disease has not progressed after first-line induction therapy with carboplatin, etoposide, and either atezolizumab or atezolizumab; hyaluronidase, in combination with lurbinectedin
+Intravenous dosage
+Adults
+
+
+840 mg IV every 2 weeks; OR 1,200 mg IV every 3 weeks; OR 1,680 mg IV every 4 weeks until disease progression or unacceptable toxicity, in combination with lurbinectedin (3.2 mg/m2 IV on day 1 every 21 days); administer atezolizumab prior to lurbinectedin when given on the same day. Coadministration of certain drugs may need to be avoided or dosage adjustments may be necessary; review drug interactions. Maintenance therapy with lurbinectedin plus IV atezolizumab after completion of 4 cycles of carboplatin, etoposide, and IV atezolizumab significantly improved median overall survival (13.2 months vs. 10.6 months) and median progression-free survival (5.4 months vs. 2.1 months) compared with IV atezolizumab monotherapy in patients with first-line ES-SCLC in a multicenter, randomized, open-label clinical trial (IMforte).
+
+
+For the treatment of breast cancer†
+
+For the treatment of unresectable locally advanced or metastatic hormone receptor (HR)-negative, HER2-negative (triple-negative) breast cancer, in patients whose tumors express PD-L1 (1% or more) as determined by an FDA-approved test, in combination with nab-paclitaxel†
+Intravenous dosage
+Adults
+
+
+Dosage not established.
+
+
+For the treatment of hepatocellular cancer
+
+For the treatment of unresectable or metastatic hepatocellular cancer (HCC) in patients who have not received prior systemic therapy, in combination with bevacizumab
+Intravenous dosage
+Adults
+
+
+840 mg IV every 2 weeks; OR 1,200 mg IV every 3 weeks; OR 1,680 mg IV every 4 weeks. Administer in combination with bevacizumab 15 mg/kg IV every 3 weeks until disease progression or unacceptable toxicity. Administer atezolizumab prior to bevacizumab when given on the same day. In a multicenter, randomized, open-label clinical trial (IMbrave150), treatment with atezolizumab followed by bevacizumab significantly improved overall survival (not estimable vs. 13.2 months) and progression-free survival (6.8 months vs. 4.3 months) compared with sorafenib in patients with unresectable or metastatic HCC who have not received prior systemic therapy. The overall response rate was also significantly improved for patients treated with bevacizumab/atezolizumab by both RECIST1.1 criteria (28% vs. 12%; complete response [CR], 7% vs. 0%) and mRECIST criteria (33% vs. 13%; CR, 11% vs. 1.8%); the median duration of response was not estimable versus 6.3 months, respectively. In an exploratory analysis, patients with anti-atezolizumab antibodies by week 6 appeared to have reduced efficacy compared to patients who tested negative for anti-atezolizumab antibodies.
+
+
+For the treatment of malignant melanoma
+
+For the treatment of BRAF V600 mutation-positive unresectable or metastatic melanoma, in combination with cobimetinib and vemurafenib
+Intravenous dosage
+Adults
+
+
+840 mg IV every 2 weeks; OR 1,200 mg IV every 3 weeks; OR 1,680 mg IV every 4 weeks, starting on cycle 2 (28 days after starting cobimetinib and vemurafenib therapy). Administer in combination with cobimetinib (60 mg orally once daily on days 1 to 21, every 28 days) and vemurafenib (720 mg orally twice daily). Prior to starting atezolizumab; hyaluronidase, complete one cycle of ONLY cobimetinib (60 mg orally once daily on days 1 to 21, followed by 7 days of rest) and vemurafenib (960 mg orally twice daily on days 1 to 21 and then 720 mg orally twice daily on days 22 to 28). Treatment with atezolizumab, vemurafenib, and cobimetinib significantly improved median investigator-assessed progression-free survival (PFS) compared with placebo pus vemurafenib and cobimetinib (15.1 months vs. 10.6 months) in patients with previously untreated BRAF V600 mutation-positive unresectable stage IIIc or stage IV melanoma in an international, randomized, double-blind, placebo-controlled, phase 3 trial (IMspire150 trial). Median PFS (16.1 months vs. 12.3 months) and median overall survival (39 months vs. 25.8 months) as assessed by an independent review committee were not significantly improved.
+
+
+For the treatment of soft-tissue sarcoma
+
+For the treatment of unresectable or metastatic alveolar soft part sarcoma
+Intravenous dosage
+Adults
+
+
+840 mg IV every 2 weeks; OR 1,200 mg IV every 3 weeks; OR 1,680 mg IV every 4 weeks until disease progression or unacceptable toxicity. The objective response rate was 37% (complete response rate, 2%) in 52 patients (age range, 12 to 70 years) with unresectable or metastatic alveolar soft part sarcoma who received atezolizumab in a multicenter, single-arm, phase 2 (ML39345) study. At a median follow-up time of 13.2 (range, 1.8 to 58) months, the median duration of response was 24.7 (range, 4.1 to 55.8) months. Additionally, the median progression-free survival time was 20.8 months.
+
+
+Children and Adolescents 2 years and older
+
+
+15 mg/kg (maximum dose of 1,200 mg) every 3 weeks until disease progression or unacceptable toxicity. The efficacy of atezolizumab in pediatric patients is supported by evidence from a study in adults with alveolar soft part sarcoma (ASPS), 2 adolescent pediatric patients with metastatic ASPS, and pharmacokinetic and safety data in pediatric patients aged 2 to 16 years.
+
+
+For the treatment of bladder cancer
+
+For the adjuvant treatment of muscle invasive bladder cancer (MIBC) after cystectomy in patients with circulating tumor DNA molecular residual disease (CtDNA MRD)
+Intravenous dosage
+Adults
+
+
+840 mg IV every 2 weeks; OR 1,200 mg IV every 3 weeks; OR 1,680 mg IV every 4 weeks for up to 1 year, unless there is disease recurrence or unacceptable toxicity. Adjuvant treatment with atezolizumab significantly improved median investigator-assessed disease-free survival (DFS) (9.9 months vs. 4.8 months) and overall survival (32.8 months vs. 21.1 months) compared with placebo in patients with MIBC who had circulating tumor DNA molecular residual disease (ctDNA MRD) after cystectomy in a multicenter, randomized, double-blind, phase 3 clinical trial (IMvigor011). In a preplanned exploratory analysis, these results appeared to be primarily due to the subgroup of patients who had less than or equal to 20 weeks to first ctDNA MRD positive sample versus those with more than 20 weeks to the first positive sample.
+
+
+Contraindications And Precaution
+Drug Interactions
+
+The coadministration of certain medications may lead to harm and require avoidance or therapy modification; review all drug interactions prior to concomitant use of other medications.
+
+autoimmune disease, inflammatory bowel disease
+
+
+Use atezolizumab with caution in patients with a history of autoimmune disease, including inflammatory bowel disease. Immune-mediated reactions, which may be severe or fatal, can occur in patients treated with drugs that bind to either the programmed death-receptor 1 (PD-1) or the PD-ligand 1 (PD-L1), thus removing inhibition of the immune response, such as atezolizumab. These immune-mediated reactions can occur in any organ system or tissue and can also affect more than one body system simultaneously. Although usually occurring during treatment with PD-1/PD-L1 inhibitors, immune-mediated reactions can occur at any time after starting therapy including after discontinuation of therapy. Because early identification and management is critical to safe usage of PD-1/PD-L1 inhibitors, closely monitor patients for signs and symptoms that may be clinical manifestations of underlying immune-mediated reactions. Initiate an appropriate workup to exclude alternative etiologies including infection in cases of suspected immune-mediated reaction. Begin medical management promptly, including specialty consultation as appropriate. An interruption or discontinuation of atezolizumab therapy may be necessary, depending on the severity of the reaction. In general, if an interruption or discontinuation of therapy is necessary, administer systemic corticosteroids (1 to 2 mg/kg per day of prednisone or equivalent); upon improvement to grade 1 or less, begin a steroid taper over at least 1 month. Consider additional systemic immunosuppression in patients whose symptoms are not controlled with corticosteroid therapy.
+
+
+Hypersensitivity
+
+This medication is contraindicated in patients with a history of hypersensitivity to it or any of its components.
+
+pulmonary disease, thoracic radiation therapy
+
+
+Use atezolizumab with caution in patients who have a history of pre-existing pulmonary disease; immune-mediated pneumonitis/interstitial lung disease has been reported in patients treated with atezolizumab. The incidence is higher in patients who have received prior thoracic radiation therapy, except in patients with classical Hodgkin lymphoma, where pneumonitis rates were similar regardless of prior thoracic radiation. Monitor patients for signs and symptoms of pneumonitis (e.g., new or worsening cough, chest pain, shortness of breath). If confirmed, atezolizumab therapy may need to be interrupted or discontinued depending on severity; treatment with systemic corticosteroids may be necessary.
+
+
+corneal transplant, organ transplant
+
+
+Use atezolizumab with caution in patients who have previously had a solid organ transplant or other transplant (including corneal transplant). Immune-mediated organ transplant rejection has been reported with PD-1/PD-L1 inhibitor therapy.
+
+
+allogeneic stem cell transplant
+
+
+Perform a risk/benefit analysis prior to starting treatment with a PD-1/PD-L1 blocking antibody, such as atezolizumab, in patients who may receive or who have a history of undergoing an allogeneic stem cell transplant (SCT). Fatal and other serious complications including hyperacute, acute, and chronic graft-versus-host-disease, sinusoidal obstruction syndrome (SOS) previously termed veno-occlusive disease (VOD) after reduced intensity conditioning, and a steroid-requiring febrile syndrome (without an identified infectious cause) have been reported in patients who receive an allogeneic SCT before or after being treated with a PD-1/PD-L1 blocking antibody. Monitor patients closely for evidence of transplant-related complications and intervene promptly. Complications may occur despite intervening therapy between PD-1/PD-L1 blockade and allogeneic SCT.
+
+
+neurological disease
+
+
+Use atezolizumab with caution in patients who have a history of neurological disease such as myasthenia gravis or Guillain-Barre syndrome. Immune-mediated neurotoxicity has been reported with atezolizumab or other PD-1/PD-L1 inhibitors. Atezolizumab may need to be interrupted or discontinued depending on the severity of the neurotoxicity; treatment with systemic corticosteroids may also be necessary.
+
+
+obesity
+
+
+Monitor patients with obesity as well as those who are considered overweight for an increased risk of infusion-related reactions when treated with atezolizumab. Patients with a high BMI have a greater risk even if they have a low metabolic risk (i.e., fewer than 2 of diabetes, dyslipidemia, hypertension).
+
+
+cardiac disease
+
+
+Use atezolizumab with caution in patients with cardiovascular risk factors such as hypertension, heart failure, cardiac disease, and myocardial infarction as they are at increased risk of cardiac immune-related adverse reactions such as myocarditis, vasculitis, and pericarditis.
+
+
+pregnancy
+
+
+Atezolizumab can cause fetal harm when used during pregnancy based on its mechanism of action. There are no available data on the use of atezolizumab during human pregnancy. A central function of the PD-1/PD-L1 pathway is to preserve pregnancy by maintaining immune tolerance to the fetus. Animal studies indicate that PD-1/PD-L1 inhibition may increase the risk of immune-mediated rejection of the developing fetus, resulting in fetal death. Human IgG4 antibodies are known to cross the placenta, so atezolizumab has the potential to be transmitted to the fetus. Fetal exposure to atezolizumab may increase the risk of developing immune-mediated disorders or altering the normal immune response. Patients should be counseled on the potential fetal risks.
+
+
+people who may become pregnant, reproductive risk
+
+
+Counsel people who may become pregnant about the reproductive risk associated with atezolizumab. Atezolizumab can cause fetal harm. Verify pregnancy status prior to treatment initiation. Advise people who may become pregnant to use effective contraception while taking atezolizumab and for 5 months after the last dose. Based on animal studies, atezolizumab may impair female fertility while receiving treatment.
+
+
+breast-feeding
+
+
+Advise patients to avoid breast-feeding while taking atezolizumab and for 5 months after the last dose due to the potential for serious adverse reactions in the breastfed child. There are no data on the presence of atezolizumab in human milk, its effects on the breast-fed child, or its effects on milk production. Maternal IgG is known to be present in human milk.  Because atezolizumab is a large protein molecule (molecular weight of 145,000 Daltons), the amount of drug in milk is likely to be very low. It may also be partially destroyed in the gastrointestinal tract, resulting in minimal absorption.
+
+
+Pregnancy And Lactation
+
+
+Atezolizumab can cause fetal harm when used during pregnancy based on its mechanism of action. There are no available data on the use of atezolizumab during human pregnancy. A central function of the PD-1/PD-L1 pathway is to preserve pregnancy by maintaining immune tolerance to the fetus. Animal studies indicate that PD-1/PD-L1 inhibition may increase the risk of immune-mediated rejection of the developing fetus, resulting in fetal death. Human IgG4 antibodies are known to cross the placenta, so atezolizumab has the potential to be transmitted to the fetus. Fetal exposure to atezolizumab may increase the risk of developing immune-mediated disorders or altering the normal immune response. Patients should be counseled on the potential fetal risks.
+
+
+Interactions
+
+Sodium Iodide I-131: (Moderate) Monitor for bone marrow suppression during concomitant use of sodium iodide I-131 and antineoplastic agents. Concomitant use of bone marrow depressants may enhance the depression of the hematopoietic system caused by the use of large doses of sodium iodide I-131.
+Tuberculin Purified Protein Derivative, PPD: (Moderate) Immunosuppressives may decrease the immunological response to tuberculin purified protein derivative, PPD. This suppressed reactivity can persist for up to 6 weeks after treatment discontinuation. Consider deferring the skin test until completion of the immunosuppressive therapy.
+
+
+Adverse Reaction
+interstitial lung disease, pneumonitis
+
+
+Immune-mediated pneumonitis or interstitial lung disease requiring the use of systemic corticosteroids has occurred in patients treated with atezolizumab, including fatal cases; the incidence is higher in patients who have received prior thoracic radiation. Monitor patients for signs and symptoms of pneumonitis; if suspected, confirm with radiographic imaging. Atezolizumab therapy may need to be temporarily withheld or permanently discontinued; treatment with corticosteroids may be necessary. Pneumonitis occurred in 1.6% to 3.8% (grade 3 or 4, 0.8 to 1%; grade 5, 0.2% or less) of patients with various cancers receiving atezolizumab monotherapy (n = 2,121). Systemic corticosteroids were required in 55% to 63% of patients, with resolution in 69% to 84% of these patient. Of 39 patients with advanced cancers (n = 2,616) who had an interruption of therapy for pneumonitis, 25 reinitiated treatment after symptom improvement; of these, 4% had recurrence of pneumonitis. Immune-mediated pneumonitis including interstitial lung disease occurred in 13% (grade 3 or 4, 1.3%) of patients who received atezolizumab plus cobimetinib and vemurafenib (n = 230) in a randomized trial.
+
+
+cough, dyspnea, rhinitis
+
+
+Cough including upper-airway cough syndrome (12% to 45%; grade 3 or 4, less than 1%) and dyspnea (33% or less; grade 3 or 4, 4.9% or less) were reported in patients who received atezolizumab monotherapy or in combination with other anticancer therapy in clinical trials. Allergic rhinitis occurred in 16% of patients (n = 49; age range, 12 to 70 years) with unresectable or metastatic alveolar soft part sarcoma who received atezolizumab in a clinical study.
+
+
+pleural effusion
+
+
+Pleural effusion occurred in more than 1% of patients with metastatic NSCLC treated with atezolizumab monotherapy (n = 609) in a randomized clinical trial.
+
+
+hepatitis
+
+
+Immune-mediated hepatitis occurred in 1.8% (grade 3 or 4, 0.7%; grade 5, less than 0.1%) of patients treated with atezolizumab monotherapy in clinical trials (n = 2,616); the incidence was higher in patients treated with atezolizumab in combination with cobimetinib and vemurafenib (n = 230) in 1 clinical trial (6.1%; grade 3 or 4, 3%). Monitor liver function tests; treatment with corticosteroids and an interruption or discontinuation of atezolizumab therapy may be necessary. Systemic corticosteroids were required in 25% of patients receiving monotherapy and in 50% of those who received atezolizumab plus cobimetinib/vemurafenib; resolution occurred in 50% and 93% of patients, respectively. Four of 6 patients who had an interruption of atezolizumab monotherapy due to hepatitis reinitiated treatment after symptom improvement; none had recurrence of hepatitis. Three of the 4 patients treated with atezolizumab/cobimetinib/vemurafenib who had an interruption of therapy due to hepatitis reinitiated therapy after symptom improvement; 33% had recurrence of hepatitis. Monitor liver function tests during therapy.
+
+
+colitis, diarrhea, enterocolitis
+
+
+Immune-mediated colitis occurred in 1% (grade 3, 0.5%) of patients treated with atezolizumab monotherapy in clinical trials (n = 2,616); colitis can present with diarrhea, stomach pain, or lower gastrointestinal bleeding. Systemic corticosteroids were required in 50% of patients with colitis, with resolution occurring in 73% of patients. Of the 12 patients who had an interruption of therapy for colitis, 8 reinitiated therapy; 25% of these patients had a recurrence of colitis. Diarrhea including colitis and enterocolitis occurred in 11% to 27% (grade 3 or 4, 2% or less) of patients with advanced hepatocellular cancer (in combination with bevacizumab), and patients with non-small cell lung cancer (NSCLC) or alveolar soft part sarcoma who received atezolizumab monotherapy in clinical trials; the incidence was higher in patients treated with atezolizumab in combination with cytotoxic chemotherapy (15% to 43%; grade 3 or 4, 6% or less). Atezolizumab therapy may need to be interrupted or discontinued depending on severity; treatment with systemic corticosteroids may be necessary. In patients with steroid-refractory colitis, consider repeating infectious workup to exclude alternative etiologies.
+
+
+bowel ischemia, constipation, GI obstruction
+
+
+Constipation was reported in 12% to 18% (grade 3 or 4, 1% or less) of patients with non-small cell lung cancer (NSCLC) treated with atezolizumab monotherapy in clinical trials. The incidence was similar in patients with hepatocellular cancer treated with atezolizumab in combination with bevacizumab (13%), in patients with small cell lung cancer (SCLC) treated with atezolizumab plus lurbinectedin (12%), and patients with muscle invasive bladder cancer treated with atezolizumab as adjuvant therapy after cystectomy (11%). Constipation occurred in 33% of patients (n = 49) with unresectable or metastatic alveolar soft part sarcoma who received atezolizumab in a clinical study. The addition of atezolizumab to chemotherapy has a small, but inconsistent effect on constipation compared to chemotherapy alone. In patients with metastatic NSCLC, more patients who received atezolizumab added to either bevacizumab/paclitaxel/carboplatin (30% vs. 23%; grade 3 or 4, 0.3% vs. 0.3%) or nab-paclitaxel/carboplatin (36% vs. 31%; grade 3 or 4, 1.1% vs. 0%) experienced constipation compared to chemotherapy alone. In patients with SCLC, patients treated with atezolizumab plus carboplatin/etoposide had a lower incidence of constipation compared to placebo plus carboplatin/etoposide (26% vs. 30%; grade 3 or 4, 1% vs. 1%). Fatal cases of GI obstruction and intestinal/bowel ischemia have been reported with atezolizumab therapy.
+
+
+abdominal pain
+
+
+Abdominal pain was reported in 12% of patients with hepatocellular cancer receiving atezolizumab in combination with bevacizumab in a clinical trial. Abdominal pain occurred in 25% of patients (n = 49; age range, 12 to 70 years) with unresectable or metastatic alveolar soft part sarcoma who received atezolizumab in a clinical study.
+
+
+cheilitis, glossitis, nausea, oral ulceration, stomatitis, vomiting
+
+
+Nausea occurred in 14% to 18% (grade 3 or 4, less than 1%) patients with advanced non-small cell lung cancer (NSCLC) treated with atezolizumab monotherapy in clinical trials. Neither nausea nor vomiting were reported in patients receiving adjuvant treatment for NSCLC with atezolizumab following completion of platinum-based chemotherapy. Nausea (12%) and vomiting (10%) were reported in patients with hepatocellular cancer treated with atezolizumab in combination with bevacizumab. Nausea (43%) and vomiting (37%) occurred in patients (n = 49) with unresectable or metastatic alveolar soft part sarcoma who received atezolizumab monotherapy in a single clinical study. The addition of atezolizumab to chemotherapy (e.g., bevacizumab/paclitaxel/carboplatin, nab-paclitaxel/carboplatin, or carboplatin/etoposide) increased the incidence of nausea and vomiting by less than 10% each compared to chemotherapy alone in 3 clinical trials. Similarly, the incidence of nausea (36% vs. 4%; grade 3 or 4, 3% vs. 1%) and vomiting (14% vs. 3%; grade 3 or 4, 1% vs. none) were increased in patients with SCLC treated with intravenous atezolizumab in combination with lurbinectedin compared with atezolizumab alone. Nausea occurred less often in melanoma patients treated with atezolizumab plus cobimetinib and vemurafenib compared with those who received placebo plus cobimetinib and vemurafenib (30% vs. 32%; grade 3 or 4, less than 1% vs. 2.5%). Stomatitis occurred in 23% (grade 3 or 4, 1.3%) of patients in the atezolizumab arm of this trial and in 15% (grade 3 or 4, less than 1%) of those in the placebo arm including mucosal inflammation, aphthous ulcer, mouth/oral ulceration, cheilitis, and glossitis; oropharyngeal pain was also reported in less than 10% of patients in the atezolizumab arm.
+
+
+dehydration
+
+
+Dehydration was reported as leading to a discontinuation of therapy in more than 1% of patients with metastatic non-small cell lung cancer treated with either bevacizumab/paclitaxel, carboplatin or nab-paclitaxel/carboplatin in clinical trials.
+
+
+adrenocortical insufficiency, hypophysitis
+
+
+Immune-mediated endocrinopathies have been reported in patients treated with atezolizumab. Adrenocortical insufficiency occurred in 0.4% to 1.2% (grade 3, 0.4% or less) of patients treated with atezolizumab monotherapy across clinical trials and indications (n = 2,616). Systemic corticosteroids were required in 82% to 83% of patients; 7 of these 17 patients remained on systemic corticosteroids. Grade 2 hypophysitis was also reported in 2 patients (less than 0.1%) receiving atezolizumab monotherapy. One of these patients required treatment with systemic corticosteroids; hypophysitis did not resolve in either patient. Monitor patients for signs and symptoms of hypophysitis and adrenal insufficiency; an interruption or discontinuation of therapy may be necessary. Administer corticosteroids and hormone replacement as clinically indicated.
+
+
+hypothyroidism
+
+
+Immune-mediated hypothyroidism occurred in 4.9% to 25% (grade 3, 0.2% or less) of patients treated with atezolizumab monotherapy in clinical trials; hypothyroidism can follow a patient being hyperthyroid. Immune-mediated thyroiditis occurred in 0.2% to 1.2% of patients in these trials. Hypothyroidism was more common in patients receiving atezolizumab in combination with platinum-based chemotherapy (11%; grade 3 or 4, 0.3% or less) or in combination with cobimetinib and vemurafenib (22% to 26%). Hormone replacement therapy was required in 52% to 81% of patients with hypothyroidism and in 67% to 75% of those with thyroiditis; systemic corticosteroids were necessary in 25% to 33% of patients with thyroiditis. Thyroiditis resolved in 50% of patients. The majority of patients with hypothyroidism remained on long-term thyroid hormone replacement. Evaluate thyroid function at baseline and monitor periodically during treatment. Begin hormone replacement for hypothyroidism as clinically indicated. Atezolizumab therapy may need to be interrupted or discontinued depending on severity; treatment with systemic corticosteroids may also be necessary. Increased TSH occurred more often when atezolizumab was added to platinum-based chemotherapy compared to chemotherapy alone (21% to 30% vs. 5% to 20%) or added to cobimetinib/vemurafenib versus placebo plus cobimetinib/vemurafenib (37% vs. 33%). Decreased triiodothyronine (27% vs. 21%) and decreased total triiodothyronine (32% vs. 8%) also occurred more frequently in patients who received atezolizumab plus cobimetinib/vemurafenib compared with placebo plus cobimetinib/vemurafenib.
+
+
+hyperthyroidism
+
+
+Immune-mediated hyperthyroidism occurred in 0.8% to 6% (grade 3, 0.4% or less) of patients who received atezolizumab monotherapy in clinical trials (n = 3,111); it was more common in patients who received atezolizumab in combination with cobimetinib and vemurafenib (19%; grade 3, 0.9%). Antithyroid therapy was required in 29% to 38% of patients who received monotherapy and in 53% of those who received atezolizumab plus cobimetinib and vemurafenib; the majority of patients remained on antithyroid treatment. Evaluate thyroid function at baseline and monitor periodically during treatment. Begin medical management of hyperthyroidism as clinically indicated. Atezolizumab therapy may need to be interrupted or discontinued depending on severity. Decreased TSH was reported more often in patients treated with atezolizumab in combination with carboplatin/etoposide compared with placebo plus carboplatin/etoposide (28% vs. 15) or in combination with cobimetinib/vemurafenib compared with placebo plus cobimetinib/vemurafenib (38% vs. 23%) in randomized clinical trials. Increased triiodothyronine (33% vs. 18%) and increased free thyroxine (32% vs. 21%) also occurred more frequently in patients who received atezolizumab plus cobimetinib/vemurafenib compared with placebo plus cobimetinib/vemurafenib.
+
+
+diabetes mellitus, diabetic ketoacidosis, hyperglycemia, hypoglycemia
+
+
+Hyperglycemia has been reported with atezolizumab therapy. Monitor for hyperglycemia or other signs and symptoms of diabetes and initiate treatment with insulin as clinically indicated; an interruption or discontinuation of therapy may be necessary. Type 1 diabetes mellitus occurred in 0.3% (grade 3, 0.2%) of patients treated with atezolizumab as monotherapy in clinical trials (n = 2,616); diabetic ketoacidosis may also occur. Hyperglycemia (78%) and hypoglycemia (33%) including decreased fasting glucose level (25%) occurred in patients (n = 49; age range, 12 to 70 years) with unresectable or metastatic alveolar soft part sarcoma who received atezolizumab in a clinical study. The incidence of hyperglycemia was similar when atezolizumab was added to platinum-based chemotherapy compared with placebo plus platinum-based chemotherapy (61% to 75% vs. 60% to 66%; grade 3 or 4, 10% or less vs. 8% or less). Hyperglycemia occurred in 48% (grade 3 or 4, 43%) patients with hepatocellular cancer treated with atezolizumab plus bevacizumab compared with 43% (grade 3 or 4, 4.6%) of those treated with sorafenib. Hyperglycemia was reported in less than 10% of melanoma patients who received atezolizumab in combination with cobimetinib/vemurafenib.
+
+
+hemophagocytic lymphohistiocytosis, leukopenia, lymphopenia, neutropenia
+
+
+Lymphopenia occurred in 47% to 49% (grade 3 or 4, 9% to 14%) of patients with non-small cell lung cancer (NSCLC) treated with atezolizumab monotherapy in 2 clinical trials. Decreased lymphocytes were reported in 26% of bladder cancer patients who received adjuvant atezolizumab (grade 3 or 4, 3.1%). When administered in combination with chemotherapy, the effect of atezolizumab on hematologic parameters reflects the effect of concomitant chemotherapy. The addition of atezolizumab to chemotherapy increased the incidence of neutropenia, lymphopenia, and leukopenia by up to 10% (grade 3 or 4, 11% or less); similarly, the addition of lurbinectedin to atezolizumab increased the incidence of lymphopenia and neutropenia by up to 24% (grade 3 or 4, 14% or less) compared to IV atezolizumab alone. Febrile neutropenia also occurred in at least 1.9% of patients treated with atezolizumab plus chemotherapy; some cases were fatal. A fatal case of febrile neutropenia also occurred in a patient treated with atezolizumab in combination with lurbinectedin. Immune-mediated hemophagocytic lymphohistiocytosis occurred in less than 1% of patients receiving atezolizumab or other PD-1/PD-L1 inhibitors. An interruption or discontinuation of therapy and treatment with systemic corticosteroids may be necessary for patients who develop immune-mediated reactions.
+
+
+anemia, aplastic anemia, hemolytic anemia
+
+
+Immune-mediated aplastic anemia and hemolytic anemia were each reported in less than 1% of patients who received atezolizumab or other PD-1/PD-L1 inhibitors in clinical trials. An interruption or discontinuation of therapy and treatment with systemic corticosteroids may be necessary for patients who develop immune-mediated reactions. Anemia, including decreases from baseline in hemoglobin, (63% to 69%; grade 3 or 4, 3% or less) occurred in patients with advanced non-small cell lung cancer (NSCLC) and alveolar soft part sarcoma treated with atezolizumab monotherapy; it was not reported in patients receiving adjuvant atezolizumab monotherapy for early NSCLC and occurred in 30% of patients receiving adjuvant atezolizumab for bladder cancer (grade 3 or 4, 1.8%). When administered in combination with chemotherapy, the effect of atezolizumab on hematologic parameters reflects the effect of concomitant chemotherapy. The addition of atezolizumab to chemotherapy increased the incidence of anemia by up to 5% (grade 3 or 4, 8% or less); similarly, the addition of lurbinectedin to atezolizumab increased the incidence of anemia by 39% (grade 3 or 4, 10%) compared to intravenous atezolizumab alone.
+
+
+purpura, thrombocytopenia, thrombocytosis
+
+
+Immune thrombocytopenic purpura occurred in less than 1% of patients who received atezolizumab or other PD-1/PD-L1 inhibitors in clinical trials. An interruption or discontinuation of therapy and treatment with systemic corticosteroids may be necessary for patients who develop immune-mediated reactions. Decreases from baseline in platelets (thrombocytopenia) (27%) and increases from baseline in platelets (thrombocytosis) (29%) occurred in patients (n = 49) with unresectable or metastatic alveolar soft part sarcoma who received atezolizumab in a clinical study. When administered in combination with chemotherapy, the effect of atezolizumab on hematologic parameters reflects the effect of concomitant chemotherapy. The addition of atezolizumab to chemotherapy (e.g., bevacizumab, nab-paclitaxel/carboplatin, etoposide/cisplatin, and cobimetinib/vemurafenib) increased the incidence of thrombocytopenia by 5% to 14% (grade 3 or 4, 0.9% to 6%). Similarly, the addition of lurbinectedin to atezolizumab increased the incidence of thrombocytopenia by 39% (grade 3 or 4, 12%) compared to intravenous atezolizumab alone in 1 randomized trial.
+
+
+encephalopathy, meningitis
+
+
+Immune-related meningitis and encephalitis occurred in less than 1% of patients treated with atezolizumab or were reported with the use of other PD-1/PD-L1 inhibitors. Monitor patients for clinical signs and symptoms of meningitis or encephalitis/encephalopathy; discontinuation of therapy and treatment with corticosteroids may be necessary.
+
+
+Guillain-Barre syndrome, myasthenia, myelitis, paresis
+
+
+Immune-mediated myasthenic syndrome/myasthenia gravis, Guillain-Barre syndrome, myelitis and demyelination, and nerve paresis have each occurred in less than 1% of patients treated with atezolizumab or were reported with the use of other PD-1/PD-L1 inhibitors. Monitor patients for symptoms of motor disorders. A Myocarditis-Myositis-Myasthenia Gravis (or Myasthenia-Like) Overlap Syndrome, reported as the co-occurrence of either two or all three adverse reactions, has also been reported. An interruption or discontinuation of therapy may be necessary, along with treatment with high-dose corticosteroids.
+
+
+dysesthesia, hypoesthesia, paresthesias, peripheral neuropathy
+
+
+Peripheral neuropathy occurred in 12% (grade 3 or 4, 0.4%) of patients receiving adjuvant treatment of non-small cell lung cancer (NSCLC) with atezolizumab monotherapy following the completion of platinum-based chemotherapy, including paresthesias, hypoesthesia, polyneuropathy, dysesthesia, neuralgia, and axonal neuropathy. The addition of atezolizumab to chemotherapy (bevacizumab/carboplatin/paclitaxel or nab-paclitaxel/carboplatin) increased the incidence of neuropathy by 5% to 9% (grade 3 or 4, 0.3% or less) compared with chemotherapy alone in 2 clinical trials. Autoimmune neuropathy occurred in less than 1% of patients treated with atezolizumab or was reported with the use of other PD-1/PD-L1 inhibitors. Monitor patients for symptoms of motor and sensory neuropathy. An interruption or discontinuation of therapy may be necessary, along with treatment with high-dose corticosteroids.
+
+
+hyperamylasemia, pancreatitis
+
+
+Immune-mediated pancreatitis including hyperamylasemia and increases in serum lipase levels have occurred in less than 1% of patients treated with atezolizumab in clinical trials. Monitor patients for signs and symptoms of acute pancreatitis. An interruption or discontinuation of therapy may be necessary, as well as treatment with high dose corticosteroids. Decreased amylase level (40%), increased amylase level/hyperamylasemia (grade 3 or 4, 20%) and increased lipase level (grade 3 or 4, 25%) occurred in patients (n = 49; age range, 12 to 70 years) with unresectable or metastatic alveolar soft part sarcoma who received atezolizumab in a clinical study. Pancreatitis occurred in less than 10% of patients with advanced melanoma treated with atezolizumab plus cobimetinib and vemurafenib in a clinical trial; increased amylase (51% vs. 45%; grade 3 or 4, 13% vs. 13%) and triacylglycerol lipase (75% vs. 62%; grade 3 or 4, 46% vs. 35%) levels from baseline were more common in patients who received atezolizumab plus cobimetinib and vemurafenib compared with placebo plus cobimetinib and vemurafenib.
+
+
+iritis, retinal detachment, uveitis, visual impairment, Vogt-Koyanagi-Harada syndrome
+
+
+Immune-mediated uveitis, iritis, and other ocular inflammatory toxicities each occurred in less than 1% of patients who received atezolizumab or other PD-1/PD-L1 inhibitors in clinical trials; some cases can be associated with retinal detachment. Various grades of visual impairment, including blindness, can occur. If uveitis occurs in combination with other immune-mediated adverse reactions, evaluate for Vogt-Koyanagi-Harada syndrome; treatment with systemic steroids may be necessary to reduce the risk of permanent vision loss. Uveitis occurred in less than 10% of patients with advanced melanoma who received atezolizumab plus cobimetinib and vemurafenib (n = 230) in a randomized trial.
+
+
+infection, influenza, sepsis
+
+
+Infection has been reported across clinical trials of patients treated with atezolizumab. Serious cases of pneumonia occurred in 1% to 6% of lung cancer patients who received atezolizumab as monotherapy or in combination with chemotherapy; some cases were fatal. Serious infections occurred in 6% of patients with hepatocellular cancer treated with atezolizumab and bevacizumab. Serious cases of pneumonia occurred in 4.3% of melanoma patients treated with atezolizumab in combination with cobimetinib and vemurafenib; urinary tract infection occurred in less than 10% of these patients. Urinary tract infection was reported in 22% of patients who received adjuvant atezolizumab for bladder cancer (grade 3 or 4, 8.5%). Influenza-like illness occurred in 18% of patients (n = 49) with unresectable or metastatic alveolar soft part sarcoma who received atezolizumab in a clinical study. Serious respiratory tract infections were reported in 2.1% of patients treated with atezolizumab plus lurbinectedin; 3 fatal cases of sepsis were also reported in patients in the same population. Systemic inflammatory response syndrome (SIRS) and histiocytic necrotizing lymphadenitis (Kikuchi lymphadenitis) have also been reported in less than 1% of patients treated with atezolizumab or were reported with the use of other PD-1/PD-L1 inhibitors.
+
+
+anaphylactoid reactions, infusion-related reactions
+
+
+Severe or life-threatening infusion-related reactions, including anaphylactoid reactions/anaphylaxis, have been reported with atezolizumab therapy. Infusion-related reactions occurred in 1.3% (grade 3, 0.2%) of patients who received atezolizumab monotherapy across clinical trials and indications; the frequency and severity were similar when atezolizumab was administered in combination with other antineoplastic agents and across the recommended dose range. Interrupt, slow the rate of, or discontinue atezolizumab depending on the severity; consider using premedications with subsequent doses for mild (grade 1 or 2) infusion reactions. Infusion-related reactions were more common when atezolizumab was administered with bevacizumab to patients with hepatocellular cancer in one randomized clinical trial (11%; grade 3 or 4, 2.4%). Infusion-related reactions including hypersensitivity occurred in 10% (grade 3 or 4, 2.6%) of patients with advanced melanoma who received atezolizumab plus cobimetinib and vemurafenib in a randomized trial. Hypersensitivity reactions were also reported in less than 10% of patients with small cell lung cancer treated with atezolizumab plus lurbinectedin in a separate randomized trial.
+
+
+acneiform rash, contact dermatitis, Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS), erythema multiforme, exfoliative dermatitis, lichen planus-like eruption, maculopapular rash, palmar-plantar erythrodysesthesia (hand and foot syndrome), photosensitivity, pruritus, psoriaform rash, rash, Stevens-Johnson syndrome, toxic epidermal necrolysis
+
+
+Immune-mediated dermatologic/skin toxicity occurred in 0.6% (grade 3, less than 1%) of patients who received atezolizumab monotherapy in clinical trials (n = 2,616). Exfoliative dermatitis, including Stevens-Johnson syndrome, drug reaction with eosinophilia and systemic symptoms (DRESS), and toxic epidermal necrolysis, has occurred with PD-1/PD-L1 inhibitors. Topical emollients and/or topical corticosteroids may be adequate to treat mild-to-moderate non-exfoliative rashes. Atezolizumab therapy may need to be interrupted or discontinued depending on the severity of rash; treatment with systemic corticosteroids may also be necessary. In clinical trials, 20% of patients who experienced skin toxicity received systemic corticosteroids; skin toxicity resolved in 87% of patients. Rash occurred in 12% to 23% (grade 3 or 4, 2% or less) of patients who treated with atezolizumab as monotherapy or in combination with chemotherapy (e.g., bevacizumab/carboplatin/paclitaxel, nab-paclitaxel/carboplatin), including acneiform rash, contact dermatitis, exfoliative dermatitis, asteatotic and dyshidrotic eczema, genital rash, erythematous rash, lichen planus-like eruption, maculopapular rash, palmar-plantar erythrodysesthesia (hand and foot syndrome), pemphigoid, pruritic rash, psoriaform rash, pustular rash, and seborrheic dermatitis; pruritus occurred in 10% to 19% (grade 3 or 4, less than 1%) of these patients. Additionally, rash occurred in 47% (grade 3 or 4, 2%) of patients (n = 49; age range, 12 to 70 years) with unresectable or metastatic alveolar soft part sarcoma who received atezolizumab in a clinical study. Rash including the previous terms as well as nodular rash, morbilliform rash, and erythema multiforme (75% vs. 72%; grade 3 or 4, 27% vs. 23%) and pruritus (26% vs. 17%; grade 3 or 4, less than 1% vs. less than 1%) were more common in melanoma patients treated with atezolizumab plus cobimetinib and vemurafenib but occurred with a similar frequency in the control arm (placebo plus cobimetinib and vemurafenib); photosensitivity (21% vs. 25%; grade 3 or 4, less than 1% vs. 3.2%) and vitiligo (less than 10%) were also reported in atezolizumab-treated patients in this trial.
+
+
+alopecia
+
+
+Alopecia has been reported with atezolizumab therapy when combined with chemotherapy, although the incidence is not meaningfully different than chemotherapy alone. The incidence of alopecia for regimens with and without atezolizumab are as follows: bevacizumab/paclitaxel/carboplatin (48% vs. 46%), nab-paclitaxel (56% vs. 58%; grade 3 or 4, less than 1% vs. less than 1%), carboplatin/etoposide (37% vs. 35%), and nab-paclitaxel/carboplatin (32% vs. 27%).
+
+
+acute kidney injury, interstitial nephritis, renal failure
+
+
+Immune-mediated grade 3 interstitial nephritis with renal dysfunction was reported in 1 patient treated with atezolizumab monotherapy in clinical trials (n = 2,616); nephritis did not resolve despite treatment with systemic corticosteroids. Grade 2 nephritis occurred in 1.3% of patients treated with atezolizumab plus cobimetinib and vemurafenib; 2 of these 3 patients required treatment with systemic corticosteroids with resolution occurring in all 3 patients. Acute kidney injury occurred in 2.4% of bladder cancer patients receiving adjuvant atezolizumab monotherapy and in 2.2% of melanoma patients receiving atezolizumab plus cobimetinib. Renal failure has been reported with atezolizumab; some cases were fatal. Increased creatinine from baseline was reported in 21% to 31% of patients who received atezolizumab monotherapy or with chemotherapy (grade 3 or 4, 0.2% to 4%); patients treated with atezolizumab plus cobimetinib and vemurafenib or in combination with bevacizumab, carboplatin, and paclitaxel also experienced increased BUN (47% to 52%). Atezolizumab therapy may need to be interrupted or discontinued depending on the severity of renal impairment; treatment with systemic corticosteroids may also be necessary.
+
+
+proteinuria
+
+
+Proteinuria occurred in 16% to 20% of patients with non-small cell lung cancer (NSCLC) or hepatocellular cancer treated with atezolizumab in combination with bevacizumab in 2 clinical trials (grade 3 or 4, 3%); the patients with NSCLC additionally received paclitaxel and carboplatin.
+
+
+hypercalcemia, hyperkalemia, hypermagnesemia, hypernatremia, hyperphosphatemia, hypocalcemia, hypokalemia, hypomagnesemia, hyponatremia, hypophosphatemia
+
+
+Electrolyte abnormalities have been reported with atezolizumab therapy in clinical trials. Hyponatremia including decreases from baseline in sodium (42% to 44%; grade 3 or 4, 9% or less), hypocalcemia including decreases from baseline in calcium (24% to 47%; grade 3 or 4, 1.4% or less), hypercalcemia including increases from baseline in calcium (25% or less; grade 3 or 4, 14% or less), hyperkalemia including increases from baseline in potassium (24% to 29%; grade 3 or 4, 3.5% to 3.9%), hypomagnesemia including decreases from baseline in magnesium (21% to 26%; grade 3 or 4, 1% or less), hypermagnesemia including increases from baseline in magnesium (grade 3 or 4, 26%), and hypophosphatemia (23% to 27%; grade 3 or 4, 3.6% to 5%) were reported in patients treated with atezolizumab monotherapy across clinical trials. A wider range of electrolyte abnormalities were reported in clinical trials with atezolizumab in combination with various anticancer agents (e.g., cytotoxic chemotherapy, bevacizumab, vemurafenib, and cobimetinib) including hyponatremia/decreases in sodium (27% to 54%; grade 3 or 4, 4% to 15%), hypernatremia/increases in sodium (20%), hypocalcemia/decreases in calcium (24% to 41%; grade 3 or 4, 0.3% to 3%), hyperkalemia/increases in potassium (23% to 29%; grade 3 or 4, 1.3% to 3%), hypokalemia/decreases in potassium (22% to 36%; grade 3 or 4, 7% or less), hypomagnesemia/decreases in magnesium (31% to 50%; grade 3 or 4, 2% to 5%), hypophosphatemia/decreases in phosphorus (25% to 67%; grade 3 or 4, 4% to 22%), and hyperphosphatemia/increases in phosphorus (21% to 25%).
+
+
+edema, peripheral edema
+
+
+Edema occurred in 26% (grade 3 or 4, less than 1%) of patients with advanced melanoma who received atezolizumab plus cobimetinib and vemurafenib in a randomized trial compared with 21% of patients who received placebo plus cobimetinib and vemurafenib. The term edema included peripheral edema; lymphoedema; face, eyelid, and periorbital edema; and lip edema.
+
+
+pulmonary embolism
+
+
+Pulmonary embolism occurred in greater than 1% of NSCLC patients receiving atezolizumab monotherapy and in 3% of NSCLC patients receiving atezolizumab in combination with nab-paclitaxel/carboplatin, and has been fatal in some cases.
+
+
+confusion
+
+
+In a single arm clinical trial, grade 3 or 4 confusion was reported in greater than 2% of patients with progressive locally advanced or metastatic urothelial carcinoma who were treated with atezolizumab (n = 310), and lead to an interruption of therapy in greater than 1%.
+
+
+antibody formation
+
+
+Treatment-emergent antibody formation (ADA) has been reported in 13% to 36% of patients who received atezolizumab in clinical trials; the incidence of neutralizing antibodies was 24% to 83% in these patients. Median atezolizumab clearance was increased by 20% (range, 10% to 49%) in patients who tested positive for ADA compared with patients who tested negative; this change in clearance is not expected to be clinically significant. There was lower efficacy (effect on overall survival) in the subset of patients with ADA in the exploratory analyses of 2 clinical trials in patients with non-small cell lung cancer and hepatocellular carcinoma. In the IMpower150 and IMforte trials, the impact of ADA on efficacy did not appear to be clinically significant; in the remaining trials, there is insufficient information to characterize the effect of ADA on efficacy. The presence of ADA did not have a clinically significant effect on the incidence or severity of adverse reactions.
+
+
+cardiac tamponade, myocardial infarction, myocarditis, pericardial effusion, pericarditis, vasculitis
+
+
+Immune-mediated cardiovascular toxicity that was reported in less than 1% of patients who received atezolizumab or that occurred with the use of other PD-1/PD-L1 blocking antibodies include myocarditis, pericarditis, and vasculitis; cases may be severe or fatal. A Myocarditis-Myositis-Myasthenia Gravis (or Myasthenia-Like) Overlap Syndrome, reported as the co-occurrence of either two or all three adverse reactions, has also been reported. Atezolizumab therapy may need to be interrupted or discontinued in patients who develop immune-mediated toxicity, depending on the severity of the reaction. Treatment with systemic corticosteroids and other systemic immunosuppressants may be necessary. Fatal cases of cardio-respiratory failure and myocardial infarction have been reported in patients treated with atezolizumab. Pericarditis, pericardial effusion, and cardiac tamponade have been reported in postmarketing experience with atezolizumab.
+
+
+atrial fibrillation, bradycardia, hypertension, hypertensive crisis, QT prolongation, sinus tachycardia, ventricular tachycardia
+
+
+Hypertension occurred in 25% to 30% of patients with non-small cell lung cancer (NSCLC) or hepatocellular cancer treated with atezolizumab in combination with bevacizumab in 2 clinical trials (grade 3 or 4, 9% to 15%); the patients with NSCLC additionally received paclitaxel and carboplatin. Hypertension including hypertensive crisis occurred in 17% (grade 3 or 4, 10%) of patients with advanced melanoma who received atezolizumab plus cobimetinib and vemurafenib in a randomized trial compared with 18% (grade 3 or 4, 7%) of those treated with cobimetinib and vemurafenib without atezolizumab. Cardiac arrhythmias, decreased ejection fraction, and QT prolongation on electrocardiogram occurred in less than 10% of patients who received atezolizumab in this trial. Cardiac arrhythmias including atrial fibrillation, sinus bradycardia, ventricular tachycardia, and sinus tachycardia (22%; grade 3 or 4, 2%) and hypertension (43%; grade 3 or 4, 6%) occurred in patients (n = 49; age range, 12 to 70 years) with unresectable or metastatic alveolar soft part sarcoma who received atezolizumab in a clinical study.
+
+
+arthralgia, back pain, bone pain, elevated creatine kinase, musculoskeletal pain, myalgia, synovitis
+
+
+Musculoskeletal pain/myalgia was reported in 14% to 20% of NSCLC patients receiving atezolizumab monotherapy (grade 3 or 4, 0.8% to 1.3%) and in 67% of patients with metastatic alveolar soft part sarcoma (grade 3 or 4, 8%; n = 49); with atezolizumab plus chemotherapy, the incidence ranged from 19% to 62% (grade 3 or 4, 2% to 4.3%). Arthralgia occurred in 11% to 12% of patients who received atezolizumab monotherapy (grade 3 or 4, 0.5% to 0.6%) and 26% of those who received atezolizumab plus bevacizumab, carboplatin, and paclitaxel (grade 3 or 4, 1%). Elevated creatine kinase was reported in less than 10% with atezolizumab plus lurbinectedin and in 88% with atezolizumab plus cobimetinib and vemurafenib (grade 3 or 4, 22%) in separate trials. A Myocarditis-Myositis-Myasthenia Gravis (or Myasthenia-Like) Overlap Syndrome, reported as the co-occurrence of either two or all three adverse reactions, has also been reported. Across trials, the terms musculoskeletal pain/myalgia included arthralgia, arthritis, back pain, bone pain, noncardiac/musculoskeletal chest pain, extremity pain, joint/musculoskeletal stiffness, myalgia, neck pain, and spine pain. Teno-synovitis has been reported in postmarketing experience with atezolizumab.
+
+
+rhabdomyolysis, sarcoidosis
+
+
+Immune-mediated myositis/polymyositis, rhabdomyolysis, polymyalgia rheumatic, and sarcoidosis occurred in less than 1% of patients treated with atezolizumab or were reported with the use of other PD-1/PD-L1 inhibitors.
+
+
+headache
+
+
+Headache was reported in 16% (grade 3 or 4, 0.8%) of patients with metastatic non-small cell lung cancer treated with atezolizumab plus bevacizumab, paclitaxel, and carboplatin (n = 393) compared with 13% of those treated with bevacizumab, paclitaxel, and carboplatin without atezolizumab (n = 394) in a randomized clinical trial. Headache occurred in 43% (grade 3 or 4, 4%) of patients (n = 49; age range, 12 to 70 years) with unresectable or metastatic alveolar soft part sarcoma who received atezolizumab in a clinical study.
+
+
+dizziness, syncope, vertigo
+
+
+Dizziness and syncope were each reported in less than 10% of patients with advanced melanoma who received atezolizumab plus cobimetinib and vemurafenib (n = 230) in a randomized clinical trial. Dizziness including vertigo occurred in 29% (grade 3 or 4, 4%) of patients (n = 49; age range, 12 to 70 years) with unresectable or metastatic alveolar soft part sarcoma who received atezolizumab in a clinical study.
+
+
+epistaxis, hemoptysis
+
+
+Epistaxis occurred in 10% to 17% of patients with non-small cell lung cancer (NSCLC) or hepatocellular cancer treated with atezolizumab in combination with bevacizumab in 2 clinical trials (grade 3 or 4, 1% or less); the patients with NSCLC additionally received paclitaxel and carboplatin. More than 2% of patients with NSCLC who received atezolizumab plus bevacizumab experienced hemoptysis.
+
+
+intracranial bleeding, stroke
+
+
+Fatal cerebrovascular accident (stroke) and intracranial bleeding were reported in patients with metastatic non-small cell lung cancer (NSCLC) treated with atezolizumab in combination with bevacizumab, paclitaxel, and carboplatin (n = 393) in a randomized clinical trial.
+
+
+asthenia, fatigue, malaise
+
+
+Fatigue/asthenia was reported in 14% to 55% (grade 3 or 4, 0.6% to 4%) of patients treated with atezolizumab monotherapy in clinical trials. The incidence of fatigue/asthenia was slightly higher (26% to 61%; grade 3 or 4, 2% to 11%) in patients treated with atezolizumab in combination with various anticancer agents (e.g. bevacizumab, bevacizumab/carboplatin/paclitaxel, nab-paclitaxel/carboplatin, etoposide/cisplatin, lurbinectedin, and cobimetinib/vemurafenib) across multiple trials. The term fatigue included asthenia and malaise in 1 clinical trial.
+
+
+dysgeusia
+
+
+Dysgeusia occurred in less than 10% of patients with advanced melanoma who received atezolizumab plus cobimetinib and vemurafenib (n = 230) in a randomized trial.
+
+
+anorexia
+
+
+Anorexia or decreased appetite (15% to 23%; grade 3 or 4, 2% or less) was reported adverse in patients treated with atezolizumab monotherapy in clinical trials. The incidence was similar in patients with hepatocellular cancer treated with atezolizumab in combination with bevacizumab (18%; grade 3 or 4, 1.2%). The incidence of anorexia was slightly increased (17% to 30%; grade 3 or 4, 4% or less) with addition of atezolizumab to chemotherapy (e.g., bevacizumab/paclitaxel/carboplatin, nab-paclitaxel/carboplatin, lurbinectedin, or carboplatin/etoposide) in 4 clinical trials.
+
+
+weight gain, weight loss
+
+
+Weight gain (16%; grade 3 or 4, 6%) and weight loss (18%) occurred in patients (n = 49; age range, 12 to 70 years) with unresectable or metastatic alveolar soft part sarcoma who received atezolizumab in a clinical study. Additionally, weight loss occurred in 11% of patients with hepatocellular cancer treated with atezolizumab in combination with bevacizumab in a randomized clinical trial.
+
+
+GI bleeding
+
+
+Serious cases of GI bleeding occurred in 7% of patients with hepatocellular cancer treated with atezolizumab in combination with bevacizumab in a randomized clinical trial.
+
+
+elevated hepatic enzymes, hepatic failure, hepatotoxicity, hyperbilirubinemia, hypoalbuminemia
+
+
+Elevated hepatic enzymes occurred in 22% to 40% of patients with various non-hepatocellular cancers treated with atezolizumab alone or with other therapies; grade 3 or 4 events occurred in 1% to 6%. Increased alkaline phosphatase occurred in 23% to 46% of patients (grade 3 or 4, 2.6% or less), and hypoalbuminemia in 32% to 48% (grade 3 or 4, 0.4% to 4%). In patients with hepatocellular cancer, transaminitis occurred in 62% to 86% (grade 3 or 4, 8% to 16%) of those who received atezolizumab plus bevacizumab; increased alkaline phosphatase occurred in 70% (grade 3 or 4, 4%), decreased albumin in 60% (grade 3 or 4, 1.5%), and increased bilirubin in 57% (grade 3 or 4, 8%) of patients. The highest rates occurred in advanced melanoma patients receiving atezolizumab plus vemurafenib, with increased AST or ALT (79% to 80%; grade 3 or 4, 13% to 18%), increased alkaline phosphatase (73%; grade 3 or 4, 6%), decreased albumin (43%; grade 3 or 4, 0.9%), and increased bilirubin (42%; grade 3 or 4, 3.1%); hepatotoxicity, including transaminitis, hyperbilirubinemia, hepatitis, hepatocellular injury, hepatic failure, and abnormal liver function tests, occurred in 50% of patients in the atezolizumab arm of this trial (grade 3 or 4, 21%).
+
+
+fever
+
+
+Fever has been reported in 14% to 19% (grade 3 or 4, less than 1%) of patients treated with atezolizumab, either as monotherapy or in combination with chemotherapy for non-small cell lung cancer, small cell lung cancer, or hepatocellular carcinoma. Fever occurred in 25% (grade 3 or 4, 2%) of patients (n = 49; age range, 12 to 70 years) with unresectable or metastatic alveolar soft part sarcoma who received atezolizumab in a clinical study. Additionally, fever occurred in 49% (grade 3 or 4, 1.7%) of patients with advanced melanoma who received atezolizumab plus cobimetinib and vemurafenib in a randomized trial compared with 35% (grade 3 or 4, 2.1%) of those who received placebo plus cobimetinib and vemurafenib.
+
+
+graft-versus-host disease (GVHD), sinusoidal obstruction syndrome (SOS), veno-occlusive disease (VOD)
+
+
+Fatal and serious adverse events occurred in patients who received an allogeneic hematopoietic stem-cell transplant (HSCT) prior to and after treatment with a PD-1/PD-L1 blocking antibody, such as atezolizumab. Monitor patients closely for evidence of transplant-related complications such as hyperacute graft-versus-host disease (GVHD), acute GVHD, chronic GVHD, sinusoidal obstruction syndrome (SOS) previously termed veno-occlusive disease (VOD) after reduced intensity conditioning, and steroid-requiring febrile syndrome (without an identified infectious cause); treat adverse events promptly. These complications may occur despite intervening therapy between PD-1 blockade and allogeneic HSCT.
+
+
+gastritis
+
+
+Immune-mediated gastritis and duodenitis each occurred in less than 1% of patients who received atezolizumab or other PD-1/PD-L1 inhibitors in clinical trials. An interruption or discontinuation of therapy and treatment with systemic corticosteroids may be necessary for patients who develop immune-mediated reactions.
+
+
+organ transplant rejection
+
+
+Solid organ transplant rejection and other transplant rejection including corneal graft rejection occurred in less than 1% of patients who received atezolizumab or other PD-1/PD-L1 inhibitors in clinical trials.
+
+
+hypoparathyroidism
+
+
+Immune-mediated hypoparathyroidism occurred in less than 1% of patients receiving atezolizumab or other PD-1/PD-L1 inhibitors.
+
+
+anxiety, insomnia
+
+
+Insomnia (27%) and anxiety (25%) occurred in patients (n = 49; age range, 12 to 70 years) with unresectable or metastatic alveolar soft part sarcoma who received atezolizumab in a clinical study.
+
+
+bleeding, hematuria, ocular hemorrhage
+
+
+Bleeding including pulmonary hemorrhage, hemoptysis, conjunctival/ocular hemorrhage, epistaxis, hematuria, rectal hemorrhage, and laryngeal hemorrhage occurred in 29% (grade 3 or 4, 2%) of patients (n = 49; age range, 12 to 70 years) with unresectable or metastatic alveolar soft part sarcoma who received atezolizumab in a clinical study.
+
+
+infertility
+
+
+Atezolizumab treatment may result in female infertility. In animal studies, atezolizumab induced irregular menstrual cycles and a decrease in newly formed corpora lutea in the ovaries of female monkeys, with no effect observed on male reproductive organs.
+
+
+Description
+
+Atezolizumab is an IgG1 kappa monoclonal antibody that binds to and blocks programmed death-ligand 1 (PD-L1). It is indicated in adult patients for certain types of bladder cancer, melanoma, hepatocellular cancer, non-small cell lung cancer, and small cell lung cancer. Atezolizumab is also indicated in adult and pediatric patients aged 2 years and older for the treatment of unresectable or metastatic alveolar soft part sarcoma. Treatment with atezolizumab may result in severe immune-related adverse reactions requiring interruption or discontinuation of therapy, as well as treatment with high-dose corticosteroids. Infusion-related reactions may also occur.
+
+Mechanism Of Action
+
+Atezolizumab is an Fc-engineered, humanized, non-glycosylated IgG1 kappa monoclonal antibody that inhibits programmed death-ligand 1 (PD-L1) interactions with the PD-1 and B7.1 receptors. PD-L1 may be expressed on tumor cells and/or tumor-infiltrating immune cells, and can contribute to inhibition of the anti-tumor immune response in the tumor microenvironment; PD-1 and B7.1 receptors are found on T cells and antigen-presenting cells. The PD-1 pathway regulates the balance between T-cell activation and protection of healthy tissues from immune-mediated damage. In cancer, the PD-1 pathway is thought to play an important role in the interaction of tumor cells with the host immune response. Binding of PD-L1 to the PD-1 and B7.1 receptors suppresses cytotoxic T-cell activity, T-cell proliferation, and cytokine production; PD-L1 expression on tumor cells may provide adaptive immune resistance and lead to poor outcomes. Atezolizumab binds to PD-L1 and prevents its interaction with both PD-1 and B7.1 receptors, releasing the PD-L1/PD-1 mediated inhibition of an anti-tumor immune response without inducing antibody-dependent cellular cytotoxicity. In syngeneic mouse tumor models, blocking PD-L1 activity resulted in decreased tumor growth.f
+
+Pharmacokinetics
+
+Atezolizumab is administered intravenously. Exposure to atezolizumab increases in a dose-proportional manner over a range of 1 mg/kg to 20 mg/kg, including the recommended fixed dose of 1,200 mg. Clearance was 0.2 L/day (CV, 29%) and volume of distribution (Vd) at steady-state was 6.9 L. Atezolizumab clearance was found to decrease over time, with a mean maximal reduction (% coefficient of variation; CV%) from baseline value of 17% (CV%, 41%); however, this was not considered statistically relevant. The terminal half-life was 27 days, with steady-state reached after 6 to 9 weeks following multiple doses.
+
+Route-Specific Pharmacokinetics
+Intravenous Route
+
+The systemic accumulation ratio for atezolizumab was 3.3-fold when administered every 2 weeks and 1.9-fold when administered every 3 weeks.
+
+Hepatic Impairment
+
+Neither mild hepatic impairment (bilirubin less than or equal to the upper limit of normal (ULN) and AST greater than ULN; OR bilirubin greater than 1 to 1.5 times ULN and any AST), moderate hepatic impairment (bilirubin 1.6 to 3 times ULN and any AST), nor albumin levels significantly affected the systemic exposure of atezolizumab. The effect of severe hepatic impairment on the pharmacokinetics of atezolizumab is unknown.
+
+Renal Impairment
+
+Mild or moderate renal impairment (estimated glomerular filtration rate (eGFR) 30 to 89 mL/min/1.73 m2) did not significantly affect the systemic exposure of atezolizumab. The effect of severe renal impairment on the pharmacokinetics of atezolizumab is unknown.
+
+Pediatrics
+
+Serum concentrations were comparable following the administration of atezolizumab 15 mg/kg (maximum dose, 1,200 mg) every 3 weeks in pediatric patients aged 2 to 16 years and atezolizumab 1,200 mg every 3 weeks in adult patients with relapsed or progressive solid tumors and lymphomas. Atezolizumab exposure trended lower in pediatric patients less than 12 years of age; this is not considered to be clinically relevant.
+
+Geriatric
+
+Age (up to 89 years) did not significantly affect the systemic exposure of atezolizumab.
+
+Gender Differences
+
+Gender did not significantly affect the systemic exposure of atezolizumab.
+
+Ethnic Differences
+
+Ethnicity did not significantly affect the systemic exposure of atezolizumab.
+
+Obesity
+
+Body weight did not significantly affect the systemic exposure of atezolizumab.
+
+Other
+
+Neither tumor burden, level of PD-L1 expression, or performance status significantly affected the systemic exposure of atezolizumab.
+Treatment-Emergent Anti-Drug Antibodies (ADA)
+The median atezolizumab clearance was 19% (range, 18% to 49%) higher in patients who developed treatment-emergent ADA compared with patients who did not develop treatment-emergent ADA in clinical trials.
+
+Administration
+
+For storage information, see the specific product information within the How Supplied section.
+Emetic Risk
+Minimal
+
+
+Injectable Administration
+
+Visually inspect parenteral products for particulate matter and discoloration prior to administration whenever solution and container permit.
+
+Intravenous Administration
+
+Dilution
+Withdraw the required volume of atezolizumab from the vial(s).
+Dilute to a final concentration between 3.2 mg/mL and 16.8 mg/mL in a polyvinyl chloride (PVC), polyethylene (PE), or polyolefin (PO) infusion bag containing 0.9% Sodium Chloride Injection.
+Mix by gentle inversion; do not shake.
+Storage after dilution: Store diluted solution at room temperature for no more than 6 hours (including infusion time), or under refrigeration (2 to 8 degrees C; 36 to 46 degrees F) for no more than 24 hours from the time of preparation.
+ 
+Infusion
+Administer atezolizumab prior to chemotherapy or other antineoplastic agents when given on the same day.
+Do not infuse through the same IV line with other drugs.
+Administer the first dose intravenously, with or without a sterile, non-pyrogenic, low protein-binding in-line filter (0.2 to 0.22 micron), over 60 minutes; do not administer atezolizumab as an IV push or bolus. If tolerated, all subsequent infusions may be infused over 30 minutes.
+Interrupt or slow administration for grade 2 infusion-related reactions; the infusion may resume when symptoms have resolved to grade 0 or 1.
+Permanently discontinue atezolizumab for grade 3 or 4 infusion-related reactions.
+
+
+Maximum Dosage Limits
+Adults
+
+840 mg IV every 2 weeks; 1,200 mg IV every 3 weeks; OR 1,680 mg IV every 4 weeks.
+
+Geriatric
+
+840 mg IV every 2 weeks; 1,200 mg IV every 3 weeks; OR 1,680 mg IV every 4 weeks.
+
+Adolescents
+
+15 mg/kg (maximum of 1,200 mg) IV every 3 weeks.
+
+Children
+
+2 years and older: 15 mg/kg (maximum of 1,200 mg) IV every 3 weeks.1 year: Safety and efficacy have not been established.
+
+Infants
+
+Safety and efficacy have not been established.
+
+Neonates
+
+Safety and efficacy have not been established.
+
+Dosage Forms
+
+Tecentriq 1200mg/20mL Solution for Injection
+
+Tecentriq 840mg/14mL Solution for Injection
+
+TECENTRIQ HYBREZA 1,875mg-30,000units/15mL Solution for Injection
+
+Dosage Adjustment Guidelines
+Hepatic Impairment
+
+Treatment-Related Immune-Mediated Hepatitis
+No Tumor Involvement of the Liver
+AST/ALT more than 3 to 8 times the upper limit of normal (ULN) or total bilirubin more than 1.5 to 3 times the ULN: Hold atezolizumab and administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper). Resume therapy when the adverse event recovers to grade 1 or less after the corticosteroid taper. Permanently discontinue atezolizumab in patients who do not have a complete or partial resolution of toxicity or who cannot reduce their daily prednisone dose to less than 10 mg (or equivalent) within 12 weeks of initiating steroids.
+AST/ALT more than 8 times the ULN or total bilirubin more than 3-times the ULN: Permanently discontinue atezolizumab and administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper starting when the toxicity resolves to grade 1 or less).
+ 
+Tumor Involvement of the Liver
+NOTE: For patients with baseline AST/ALT at the ULN or less, follow the recommendations for hepatitis with no tumor involvement of the liver.
+Baseline AST/ALT more than 1 to 3 times the ULN and increases to more than 5 to 10 times the ULN: Hold atezolizumab and administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper). Resume therapy when the adverse event recovers to grade 1 or less after the corticosteroid taper. Permanently discontinue atezolizumab in patients who do not have a complete or partial resolution of toxicity or who cannot reduce their daily prednisone dose to less than 10 mg (or equivalent) within 12 weeks of initiating steroids.
+Baseline AST/ALT more than 3 to 5 times the ULN and increases to AST/ALT of more than 8 to 10 times the ULN: Hold atezolizumab and administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper). Resume therapy when the adverse event recovers to grade 1 or less after the corticosteroid taper. Permanently discontinue atezolizumab in patients who do not have a complete or partial resolution of toxicity or who cannot reduce their daily prednisone dose to less than 10 mg (or equivalent) within 12 weeks of initiating steroids.
+Any baseline AST/ALT level that increases to more than 10 times the ULN or total bilirubin more than 3 times the ULN: Permanently discontinue atezolizumab and administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper starting when the toxicity resolves to grade 1 or less).
+
+
+Renal Impairment
+
+Treatment-Related Immune-Mediated Nephritis with Renal Dysfunction
+Grade 2 or 3 increased serum creatinine: Hold atezolizumab and administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper). Resume therapy when the adverse event recovers to grade 1 or less after the corticosteroid taper. Permanently discontinue atezolizumab in patients who do not have a complete or partial resolution of toxicity or who cannot reduce their daily prednisone dose to less than 10 mg (or equivalent) within 12 weeks of initiating steroids.
+Grade 4 increased serum creatinine: Permanently discontinue atezolizumab and administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper starting when the toxicity resolves to grade 1 or less).
+
+
+© 2026 Elsevier

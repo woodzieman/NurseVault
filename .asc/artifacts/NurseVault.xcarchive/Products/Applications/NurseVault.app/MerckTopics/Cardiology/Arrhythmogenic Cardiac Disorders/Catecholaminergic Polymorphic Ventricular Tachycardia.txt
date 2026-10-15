@@ -1,0 +1,98 @@
+=== Catecholaminergic Polymorphic Ventricular Tachycardia (Merck Manual Professional) ===
+Section: Cardiology > Arrhythmogenic Cardiac Disorders
+Source: https://www.merckmanuals.com/professional/cardiovascular-disorders/arrhythmogenic-cardiac-disorders/catecholaminergic-polymorphic-ventricular-tachycardia
+Retrieved: 2026-09-25
+
+Catecholaminergic polymorphic ventricular tachycardia (CPVT) results from mutations affecting proteins related to intracellular calcium regulation (particularly diastolic calcium release by the sarcoplasmic reticulum ryanodine receptor) in the heart. The abnormalities increase release of calcium from the sarcoplasmic reticulum in response to adrenergic stimulation. The resulting myocyte calcium overload causes delayed after-depolarizations and a propensity to atrial and/or ventricular tachyarrhythmias. Sudden cardiac death may occur. (See also Overview of Arrhythmias and Overview of Channelopathies.)
+
+The tachyarrhythmias are usually precipitated by the adrenergic stimulation of physical or emotional stress. The most characteristic ventricular tachyarrhythmia is bidirectional ventricular tachycardia, which appears on ECG as 2 QRS complexes of opposite polarity in an alternating pattern. However, any polymorphic ventricular tachycardia (VT) or ventricular fibrillation (VF) may occur.
+
+Bidirectional Ventricular Tachycardia
+
+Image
+
+Bidirectional ventricular tachycardia is a malignant arrhythmia. The morphology of the QRS complex alternates from beat to beat, and it may degenerate into ventricular fibrillation.
+
+凌鲲 宋/stock.adobe.com
+
+The incidence of CPVT is unknown but has been estimated to be approximately 1 in 10,000 (1) and is equally common in males and females. It is usually inherited as an autosomal dominant, gain-of-function mutation of the gene encoding the cardiac ryanodine receptor (CPVT1) in 55 to 65%, but it may be inherited as an autosomal recessive loss-of-function mutation of cardiac calsequestrin (CASQ2) in ≤ 5% (CPVT2) (1, 2). Other genes are rarely implicated; the remainder have no identifiable gene culprit.
+
+General references
+
+1. Schneider L, Begovic M, Zhou X, Hamdani N, Akin I, El-Battrawy I. Catecholaminergic Polymorphic Ventricular Tachycardia: Advancing From Molecular Insights to Preclinical Models. J Am Heart Assoc. 2025;14(6):e038308. doi:10.1161/JAHA.124.038308
+
+2. Luo S, Gómez AM. Catecholaminergic polymorphic ventricular tachycardia: A narrative review of recent advances in genetics, mechanisms, diagnosis, and treatment. Asian Heart J. 2025;1(2):97-110. doi:10.1097/ah9.0000000000000018
+
+Symptoms and Signs of CPVT
+
+Some patients are asymptomatic and identified only on family screening. When symptoms occur, they usually develop before the age of 10, with a mean age at presentation of 7 to 9 years (1). Boys tend to present at a younger age than girls (1, 2). Nevertheless, approximately 20% do not present until their third or fourth decade (2). The tachyarrhythmias may cause palpitations, syncope, or cardiac arrest. Events are typically triggered by emotional or physical stress. The disorder is a common cause of sudden death in young people, comprising about 10 to 15% of sudden cardiac death cases in the young (3), with a mortality risk of 30 to 50% by age 35 to 40 years (1, 4).
+
+Symptoms and signs references
+
+1. Abbas M, Miles C, Behr E. Catecholaminergic Polymorphic Ventricular Tachycardia. Arrhythm Electrophysiol Rev. 2022;11:e20. doi:10.15420/aer.2022.09
+
+2. Priori SG, Napolitano C, Memmi M, et al. Clinical and molecular characterization of patients with catecholaminergic polymorphic ventricular tachycardia. Circulation. 2002;106(1):69-74. doi:10.1161/01.cir.0000020013.73106.d8
+
+3. Wilde AAM, Semsarian C, Márquez MF, et al. European Heart Rhythm Association (EHRA)/Heart Rhythm Society (HRS)/Asia Pacific Heart Rhythm Society (APHRS)/Latin American Heart Rhythm Society (LAHRS) Expert Consensus Statement on the state of genetic testing for cardiac diseases. J Arrhythm. 2022;38(4):491-553. doi:10.1002/joa3.12717
+
+4. Luo S, Gómez AM. Catecholaminergic polymorphic ventricular tachycardia: A narrative review of recent advances in genetics, mechanisms, diagnosis, and treatment. Asian Heart J. 2025;1(2):97-110. doi:10.1097/ah9.0000000000000018
+
+Diagnosis of CPVT
+
+Exercise testing
+
+Genetic testing
+
+Screening of first-degree relatives
+
+Diagnosis should be considered in patients with unexplained cardiac arrest or syncope or a family history of such in the absence of structural heart disease.
+
+Resting ECG is normal. Diagnosis is confirmed by exercise testing–induced polymorphic ventricular tachycardia (especially bidirectional ventricular tachycardia) that also reproduces the patient's symptoms. Genetic testing should then be performed; it has a yield of approximately 60% (1).
+
+First-degree relatives of patients have a significant risk of disease as penetrance is high. They should have clinical evaluation (ie, to detect symptoms suggestive of arrhythmia) and exercise testing performed every 1 to 3 years. If the initial patient has a causative mutation identified, family members without the index mutation are then freed of the need for follow-up investigations.
+
+Diagnosis reference
+
+1. Wilde AAM, Semsarian C, Márquez MF, et al. European Heart Rhythm Association (EHRA)/Heart Rhythm Society (HRS)/Asia Pacific Heart Rhythm Society (APHRS)/Latin American Heart Rhythm Society (LAHRS) Expert Consensus Statement on the state of genetic testing for cardiac diseases. J Arrhythm. 2022;38(4):491-553. doi: 10.1002/joa3.12717
+
+Treatment of CPVT
+
+Exercise restriction
+
+Beta-blockade
+
+Flecainide
+
+Sometimes an implantable cardioverter-defibrillator (ICD)
+
+Sometimes left cardiac sympathetic denervation
+
+All patients with CPVT have traditionally been advised to limit exposure strenuous exercise, competitive sports, and stressful environments given the catecholamine-sensitive nature of this disease (1, 2). However, some guidelines endorse a shared decision-making model, with competitive sports participation as a potential option for patients who are asymptomatic and do not have ventricular ectopy on exercise testing (either at baseline or with medical therapy or left cardiac sympathetic denervation) (3, 4). Athletes should be counseled on the need for appropriate precautions (eg, availability of an automated external defibrillator during training and competition).
+
+For patients who have had symptoms (eg, syncope, cardiac arrest) or who have demonstrated ventricular fibrillation or sustained ventricular tachycardia, the primary treatment is high doses of a long-acting beta-blocker, preferably one that is non-selective and without intrinsic sympathomimetic activity (eg, nadolol, slow-release propranolol) (2).
+
+For patients who are asymptomatic but carry a known causative gene for CPVT, beta-blocker treatment should be considered (2).
+
+For patients with CPVT who survive an aborted cardiac arrest, an ICD, a beta-blocker, and flecainide therapy are recommended (2).
+
+For patients who have not experienced an aborted cardiac arrest in whom exertional premature ventricular ectopy, presumed arrhythmogenic syncope, and/or polymorphic/bidirectional ventricular tachycardia occurs on maximal beta-blocker therapy, the addition of flecainide (for both its sodium channel and ryanodine receptor-blocking effects) should be considered (2). In such patients, if presumed arrhythmogenic syncope and/or polymorphic/bidirectional ventricular tachycardia persists, ICD placement should also be considered. Thereafter, whether left cardiac sympathetic denervation should be considered as a complementary therapy or be reserved for patients with frequent ICD discharges is unclear.
+
+ICD therapy is complicated in these young patients, who tend to have more frequent inappropriate shocks and ICD-related complications than do patients who require ICD therapy in other settings (5). Furthermore, ICD shock therapies by virtue of their associated sympathetic discharge state may induce recurrent VT/VF (electrical storms) in patients with CPVT. These complications occur in up to 40% of patients with CPVT after a mean follow-up of 8 years.
+
+Refractory cases may be treated with ablation of the polymorphic premature ventricular beats that induce VT/VF (6).
+
+Follow-up typically involves repeated exercise testing, but the predictive value is only moderate.
+
+Treatment references
+
+1. Priori SG, Wilde AA, Horie M, et al. Executive summary: HRS/EHRA/APHRS expert consensus statement on the diagnosis and management of patients with inherited primary arrhythmia syndromes. Europace. 2013;15(10):1389-1406. doi:10.1093/europace/eut272
+
+2. Zeppenfeld K, Tfelt-Hansen J, de Riva M, et al. 2022 ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death. Eur Heart J. 2022;43(40):3997-4126. doi:10.1093/eurheartj/ehac262
+
+3. Kim JH, Baggish AL, Levine BD, et al. Clinical Considerations for Competitive Sports Participation for Athletes With Cardiovascular Abnormalities: A Scientific Statement From the American Heart Association and American College of Cardiology. J Am Coll Cardiol. 2025;85(10):1059-1108. doi:10.1016/j.jacc.2024.12.025
+
+4. Lampert R, Chung EH, Ackerman MJ, et al. 2024 HRS expert consensus statement on arrhythmias in the athlete: Evaluation, treatment, and return to play. Heart Rhythm. 2024;21(10):e151-e252. doi:10.1016/j.hrthm.2024.05.018
+
+5. Lamba A, Roston TM, Peltenburg PJ, et al. An international multicenter cohort study on implantable cardioverter-defibrillators for the treatment of symptomatic children with catecholaminergic polymorphic ventricular tachycardia. Heart Rhythm. 2024;21(10):1767-1776. doi:10.1016/j.hrthm.2024.04.006
+
+6. Shen L, Liu S, Hu F, et al. Electrophysiological Characteristics and Ablation Outcomes in Patients With Catecholaminergic Polymorphic Ventricular Tachycardia. J Am Heart Assoc. 2023;12(24):e031768. doi:10.1161/JAHA.123.031768

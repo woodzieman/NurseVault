@@ -1,0 +1,68 @@
+=== Anemia of Renal Disease (Merck Manual Professional) ===
+Section: Hematology > Anemias Caused by Deficient Erythropoiesis
+Source: https://www.merckmanuals.com/professional/hematology/anemias-caused-by-deficient-erythropoiesis/anemia-of-renal-disease
+Retrieved: 2026-09-25
+
+(See also Overview of Decreased Erythropoiesis.)
+
+Anemia in chronic renal disease is multifactorial.
+
+The most common mechanism is
+
+Hypoproliferation due to decreased erythropoietin (EPO) production
+
+Lack of EPO leads to loss of erythroferrone production, causing loss of hepcidin suppression and increased iron sequestration (as observed in the anemia of chronic disease) (1).
+
+Other factors include
+
+Blood loss due to dysfunctional platelets, dialysis, and/or angiodysplasia
+
+Bone marrow resistance to EPO
+
+Secondary hyperparathyroidism
+
+Uremia (leading to shortened red blood cell [RBC] survival)
+
+The deficiency in renal production of EPO and the severity of anemia do not always correlate with the extent of renal dysfunction; anemia occurs when creatinine clearance is < 45 mL/minute (< 0.75 mL/s/m2). Renal glomerular lesions (eg, due to amyloidosis, diabetic nephropathy) generally result in the most severe anemia for their degree of renal excretory failure.
+
+General reference
+
+1. Kautz L, Jung G, Valore EV, et al. Identification of erythroferrone as an erythroid regulator of iron metabolism. Nat Genet. 46:678–684, 2014. doi: 10.1038/ng.2996
+
+Diagnosis of Anemia of Renal Disease
+
+Complete blood count (CBC), reticulocyte count, and peripheral smear
+
+Diagnosis of anemia of renal disease is based on demonstration of renal insufficiency, normocytic anemia, and peripheral reticulocytopenia.
+
+The bone marrow may show erythroid hypoplasia. RBC fragmentation identified on the peripheral smear, particularly if there is thrombocytopenia, suggests microangiopathic hemolytic anemia (in which case the reticulocyte count is generally elevated) and warrants additional investigation and treatment.
+
+Treatment of Anemia of Renal Disease
+
+Treatment of underlying renal disease
+
+Sometimes, recombinant erythropoietin and iron supplements
+
+Treatment of anemia of renal disease is directed at (1)
+
+Improving renal function
+
+Increasing RBC production
+
+If renal function returns to normal, anemia is slowly corrected.
+
+Recombinant EPO improves anemia and reduces transfusion needs in patients with chronic kidney disease and is generally initiated when hemoglobin is < 9 to 10 g/dL (< 90 to 100 g/dL) in patients on dialysis; the target hemoglobin at which to initiate erythrocyte stimulating agents (ESA) in patients who are not dialysis dependent is less clear and often based on symptoms (1, 2). In patients receiving long-term dialysis, recombinant erythropoietin (eg, epoetin alfa or darbepoetin alfa) along with iron supplements is the treatment of choice. However, because there is both reduced production of EPO and marrow resistance to EPO, the recombinant EPO dose may need to be higher. The goal is a hemoglobin of 10 to 11.5 g/dL (100 to 115 g/L). Careful monitoring of hemoglobin response is needed because adverse effects (eg, venous thromboembolism, myocardial infarction, death) may occur when hemoglobin rises to > 12 to 13 g/dL (> 120 to 130 g/L). Lower doses of EPO are used in patients with chronic kidney disease who are not on dialysis.
+
+In addition, adequate repletion of iron stores is required to ensure an adequate response to recombinant EPO, and concurrent iron supplementation is often needed. The addition of IV iron is considered in patients receiving dialysis with hemoglobin < 10 g/dL (< 100 g/L), ferritin ≤ 500 ng/mL (< 500 micrograms/L), and transferrin saturation (TSAT) ≤ 30% or in patients not receiving dialysis with ferritin < 100 ng/mL and TSAT < 40 % or < 300 ng/mL and TSAT < 25%.
+
+In almost all cases, maximum increases in RBCs are reached by 8 to 12 weeks.
+
+Hypoxia-inducible factor prolyl hydroxylase (HIF-PH) inhibitors (eg, daprodustat) are an oral option in patients on dialysis as an alternative to EPO. HIF-PH inhibitors increase endogenous erythropoietin levels by preventing HIF degradation. HIF-PH inhibitors appear to produce similar increases in hemoglobin and have similar rates of adverse cardiovascular outcomes to ESA (3); however, long-term safety data are lacking.
+
+Treatment references
+
+1. KDIGO. KDIGO 2025 Clinical Practice Guideline for Anemia In Chronic Kidney Disease (CKD). Public Review Draft. November 2024 
+
+2. KDIGO. KDIGO Clinical Practice Guideline for Anemia in Chronic Kidney Disease (CKD). August 2012.
+
+3. Singh AK, Carroll K, Perkovic V, et al. Daprodustat for the Treatment of Anemia in Patients Undergoing Dialysis. N Engl J Med. 2021;385(25):2325-2335. doi:10.1056/NEJMoa2113379

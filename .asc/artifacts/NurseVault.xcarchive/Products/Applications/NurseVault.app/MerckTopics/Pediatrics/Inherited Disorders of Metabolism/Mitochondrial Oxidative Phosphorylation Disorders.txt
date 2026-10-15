@@ -1,0 +1,112 @@
+=== Mitochondrial Oxidative Phosphorylation Disorders (Merck Manual Professional) ===
+Section: Pediatrics > Inherited Disorders of Metabolism
+Source: https://www.merckmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/mitochondrial-oxidative-phosphorylation-disorders
+Retrieved: 2026-09-25
+
+See also Approach to the Patient With a Suspected Inherited Disorder of Metabolism.
+
+Cellular respiration (oxidative phosphorylation) occurs in the mitochondria, where a series of enzymes catalyze the transfer of electrons to molecular oxygen and the generation of energy-storing adenosine triphosphate (ATP). Defects involving enzymes used in this process impair cellular respiration, decreasing the ATP:ADP (adenosine diphosphate) ratio. Mitochondria have their own DNA (mitochondrial DNA [mtDNA]), which is maternally derived. However, mtDNA shares responsibility with nuclear DNA for mitochondrial function. Thus, both mitochondrial and nuclear mutations can cause mitochondrial disorders.
+
+Tissues with a high energy demand (eg, brain, nerves, retina, skeletal and cardiac muscle) are particularly vulnerable to defects in oxidative phosphorylation.
+
+The most common clinical manifestations are
+
+Seizures
+
+Hypotonia
+
+Ophthalmoplegia
+
+Strokelike episodes
+
+Muscle weakness
+
+Severe constipation
+
+Cardiomyopathy
+
+Biochemically, there may be profound lactic acidosis because the NADH:NAD ratio increases, shifting the equilibrium of the lactate dehydrogenase reaction toward lactate. The increase in the lactate:pyruvate ratio distinguishes oxidative phosphorylation defects from other genetic causes of lactic acidosis, such as pyruvate carboxylase or pyruvate dehydrogenase deficiency, in which the lactate:pyruvate ratio remains normal. Fibroblast growth factor-21 (FGF-21) and growth differentiation factor-15 (GDF-15) are additional biomarkers that may suggest mitochondrial dysfunction. A large number of oxidative phosphorylation defects have been described; only the most common ones are outlined here, along with their distinguishing features.
+
+Pearls & Pitfalls
+
+Increase in the lactate:pyruvate ratio distinguishes oxidative phosphorylation defects from other genetic causes of lactic acidosis.
+
+Mitochondrial mutations and variants have also been implicated in a number of diseases of aging (eg, Parkinson disease, Alzheimer disease, diabetes, deafness, cancer).
+
+The following disorders are conditions with a known phenotype/genotype correlation. Other less well-defined defects in mitochondrial function exist. Additionally, there are a number of conditions in which a genetic defect causes secondary mitochondrial dysfunction.
+
+Leber Hereditary Optic Neuropathy (LHON)
+
+LHON is characterized by acute or subacute bilateral central vision loss caused by retinal degeneration.
+
+Onset usually occurs in the patient’s 20s or 30s but can occur from childhood to adulthood. It is more common among males, with one study reporting a male:female ratio of 3:1 (1). Many mitochondrial DNA variants have been defined, but 3 common ones, m.11778 G>A, m.3460 G>A, and m.14484 T>C, account for 90% of cases. LHON pedigrees usually show a pattern of maternal inheritance typical of mitochondrial disorders that involve mutations of mtDNA.
+
+Intravitreal gene therapy has shown very promising results in early clinical trials (2).
+
+LHON references
+
+1. Poincenot L, Pearson AL, Karanjia R. Demographics of a Large International Population of Patients Affected by Leber's Hereditary Optic Neuropathy. Ophthalmology. 2020;127(5):679-688. doi:10.1016/j.ophtha.2019.11.014
+
+2. Newman NJ, Yu-Wai-Man P, Carelli V, et al. Efficacy and Safety of Intravitreal Gene Therapy for Leber Hereditary Optic Neuropathy Treated within 6 Months of Disease Onset. Ophthalmology. 2021;128(5):649-660. doi:10.1016/j.ophtha.2020.12.012
+
+Leigh Syndrome
+
+Leigh syndrome is a severe neurologic disorder that usually manifests in the first year of life.
+
+It results from mutations in 1 of more than 100 different nuclear or mtDNA genes involved in energy production in mitochondria.
+
+Leigh syndrome is characterized by progressive swallowing problems, poor weight gain, hypotonia, weakness, ataxia, ophthalmoplegia, nystagmus, and optic atrophy along with lactic acidosis. Approximately half of patients typically die within 2 to 3 years, usually because of respiratory failure, but some survive into adolescence and early adulthood.
+
+Imaging studies show degenerative lesions in the basal ganglia, cerebellum, and brain stem.
+
+There are no known treatments for Leigh syndrome. However, a small number of children diagnosed with Leigh syndrome actually have biotin-thiamine–responsive basal ganglia disease (BTRBG), which mimics Leigh syndrome, and benefit from high doses of thiamin (vitamin B1) and biotin supplements (1, 2).
+
+Leigh syndrome references
+
+1. Tabarki B, Al-Hashem A, Alfadhel M: Biotin-Thiamine-Responsive Basal Ganglia Disease. In: Adam MP, Feldman J, Mirzaa GM, et al., eds. GeneReviews®. Seattle (WA): University of Washington, Seattle; November 21, 2013.
+
+2. Wesół-Kucharska D, Greczan M, Kaczor M, et al. Early treatment of biotin-thiamine-responsive basal ganglia disease improves the prognosis. Mol Genet Metab Rep. 2021;29:100801. Published 2021 Sep 29. doi:10.1016/j.ymgmr.2021.100801
+
+Mitochondrial Encephalomyopathy, Lactic Acidosis, and Strokelike Episodes (MELAS)
+
+Mutations in the mitochondrial tRNAleu gene cause this progressive neurodegenerative disease characterized by repeated episodes of “chemical (metabolic) strokes,” myopathy, and lactic acidosis. In many cases, cells contain both wild-type and mutant mitochondrial DNA (heteroplasmy); thus, expression is variable.
+
+Mitochondrial Neurogastrointestinal Encephalomyopathy (MNGIE)
+
+MNGIE is a very rare disorder characterized by degeneration of the muscles of the gastrointestinal (GI) tract, leading to poor motility of the GI tract and causing numerous GI symptoms. Additionally, weakness of the eye muscles as well as loss of sensation and weakness of the extremities due to degeneration of the peripheral nerves also occur. Onset is variable but usually before 20 years of age. 
+
+MNGIE is caused by mutations in the TYMP gene, which encodes thymidine phosphorylase with secondary changes in mtDNA. Inheritance is autosomal recessive; males and females are equally affected. 
+
+Treatment is focused on management of symptoms. Long-term prognosis is poor, with mean age of death in the late 30s (1).
+
+MNGIE reference
+
+1. Garone C, Tadesse S, Hirano M. Clinical and genetic spectrum of mitochondrial neurogastrointestinal encephalomyopathy. Brain. 2011;134(Pt 11):3326-3332. doi:10.1093/brain/awr245
+
+Myoclonic Epilepsy with Ragged-Red Fibers (MERRF)
+
+MERRF is a progressive disorder characterized by uncontrolled muscle contractions (myoclonic seizures), dementia, ataxia, and myopathy.
+
+Myopathy shows ragged-red fibers (indicating mitochondrial proliferation) with specialized stains when biopsied. Mutations are in the mitochondrial tRNAlys gene. Heteroplasmy is common; thus, expression is variable.
+
+Neuropathy, Ataxia, and Retinitis Pigmentosa (NARP)
+
+NARP is a progressive condition characterized by sensory neuropathy (with numbness, tingling or pain in the extremities), muscle weakness, ataxia, vision loss caused by retinal deterioration (retinitis pigmentosa), cognitive decline, seizures, hearing loss, and cardiac conduction defects. The disorder can begin in childhood or early adulthood.
+
+NARP results from mutations in the ATP6 gene contained in mtDNA. ATP6 mutations alter the structure or function of adenosine triphosphate (ATP) synthase, reducing the ability of mitochondria to make ATP.
+
+Single Large-Scale Mitochondrial DNA Deletion Syndromes (SLSMDS)
+
+SLSMDS include Pearson syndrome, Kearns-Sayre syndrome, and chronic progressive external ophthalmoplegia. They are characterized by overlapping, multiorgan symptoms that may vary based on the age of onset.
+
+Pearson syndrome manifests within the first 2 years of life. Symptoms include transfusion-dependent sideroblastic anemia, lactic acidosis, and exocrine pancreatic dysfunction. It may be fatal in infancy.
+
+Kearns-Sayre syndrome typically manifests before age 20 years. It is associated with ophthalmoplegia, ptosis, atypical retinitis pigmentosa, ragged-red fiber myopathy, ataxia, deafness, and cardiomyopathy.
+
+Chronic progressive external ophthalmoplegia (CPEO) is generally diagnosed in late adolescence or adulthood. Patients have ophthalmoplegia, ptosis, exercise intolerance, and muscle weakness. CPEO can also result from mutations in one of several different nuclear genes that are critical for the production and maintenance of mtDNA and result in the deletion of large segments of mtDNA in muscle cells. Less common causes involve point mutations in mtDNA genes that provide instructions for making molecules called transfer RNAs.
+
+More Information
+
+The following English-language resource may be useful. Please note that THE MANUAL is not responsible for the content of this resource.
+
+Online Mendelian Inheritance in Man (OMIM) database: Complete gene, molecular, and chromosomal location information

@@ -1,0 +1,62 @@
+=== Enterococcal Infections (Merck Manual Professional) ===
+Section: Infectious Disease > Gram-Positive Cocci
+Source: https://www.merckmanuals.com/professional/infectious-diseases/gram-positive-cocci/enterococcal-infections
+Retrieved: 2026-09-25
+
+Enterococci are part of the normal intestinal flora. They used to be classified as group D streptococci but are now considered a separate genus. There are > 60 species, but E. faecalis and E. faecium most commonly cause infections in humans (1).
+
+Enterococci typically cause:
+
+Urinary tract infections and prostatitis
+
+Bacteremia
+
+Endocarditis
+
+Intra-abdominal and pelvic infections
+
+Skin, soft tissue, and wound infections
+
+General reference
+
+1. Schwartzman JA, Lebreton F, Salamzade R, et al. Global diversity of enterococci and description of 18 previously unknown species. Proc Natl Acad Sci U S A. 2024;121(10):e2310852121. doi:10.1073/pnas.2310852121
+
+Diagnosis of Enterococcal Infections
+
+Enterococci are gram-positive, facultatively anaerobic cocci and usually appear in pairs or chains. Most react with group-D antisera and demonstrate alpha- or gamma-hemolysis on blood agar. They are catalase- and urease-negative and have the ability to hydrolyze esculin in the presence of 40% bile salts and are L-pyrrolidonyl-beta-naphthylamide test (PYR)-positive.
+
+Molecular tests for more rapid identification include polymerase chain reaction (PCR), 16s rRNA sequencing, nucleic acid amplification testing (NAAT), and proteomic tests such as matrix-assisted laser desorption ionization-time of flight (MALDI-TOF).
+
+Treatment of Enterococcal Infections
+
+Varies by site of infection and susceptibility testing
+
+Enterococci associated with endocarditis (1) are difficult to eradicate unless a combination of certain cell wall–active antibiotics (eg, penicillin, ampicillin, amoxicillin, piperacillin, vancomycin) plus an aminoglycoside (eg, gentamicin, streptomycin) is used to achieve bactericidal activity (2, 3). However, some cell wall–active antibiotics have limited or no activity against enterococci; they include nafcillin, oxacillin, ticarcillin, ertapenem, most cephalosporins, and aztreonam. E. faecium are more resistant to penicillin than E. faecalis. When an aminoglycoside cannot be used, the combination of an aminopenicillin, such as ampicillin, plus ceftriaxone is an effective alternative for the treatment of E. faecalis endocarditis. Imipenem and, to a lesser degree, meropenem are active against E. faecalis.
+
+For complicated skin infections caused by enterococci, daptomycin, linezolid, tedizolid, tigecycline, and omadacycline are effective treatment options.
+
+Piperacillin/tazobactam, imipenem/cilastatin or meropenem, tigecycline, and eravacycline are recommended for complicated intra-abdominal infections when enterococci are known or presumed to be involved.
+
+Urinary tract infections do not require bactericidal therapy and, if the causative organism is sensitive, are usually treated with a single antibiotic such as ampicillin or amoxicillin. Nitrofurantoin and fosfomycin are also effective options for lower urinary tract infections only (eg, cystitis).
+
+Resistance
+
+In the past several decades, resistance to multiple antimicrobials has increased rapidly, especially among E. faecium.
+
+Resistance to aminoglycosides (eg, gentamicin, streptomycin), particularly with E. faecium, continues to emerge.
+
+Vancomycin-resistant enterococci (VRE) may also be resistant to other glycopeptides (eg, teicoplanin), aminoglycosides, and cell wall–active beta-lactams (eg, penicillin G, ampicillin) (4). Recommended treatment includes oxazolidinones (linezolid, tedizolid) and daptomycin if susceptibility is retained. Oritavancin, tigecycline, eravacycline, and chloramphenicol have in vitro activity against VRE and may be alternative treatment options. Although used in the past, streptogramins (quinupristin/dalfopristin for E. faecium only) are no longer recommended for use in enterococcal infections. Nitrofurantoin and fosfomycin are often effective against vancomycin-resistant enterococcal urinary tract infection.
+
+Beta-lactamase–producing enterococci are occasionally difficult to eradicate, particularly when large numbers of organisms are present in tissues (eg, in endocarditis vegetation). Resistance may be present clinically even though the organism appears susceptible based on standard culture and sensitivity panels. Vancomycin or combination beta-lactam/beta-lactamase inhibitor antibiotics (eg, piperacillin/tazobactam, ampicillin/sulbactam) can be used instead.
+
+Enterococci can incorporate exogenously produced folates and thereby reverse the effect of trimethoprim (TMP) and sulfamethoxazole (SMX), which cause cell death by blocking bacterial folate synthesis. Therefore, therapy with these antimicrobials may fail despite apparent in vitro susceptibility. Thus, TMP/SMX is often not included in susceptibility panels for enterococci.
+
+Treatment references
+
+1. McDonald EG, Aggrey G, Aslan AT, et al: Guidelines for Diagnosis and Management of Infective Endocarditis in Adults: A WikiGuidelines Group Consensus Statement. JAMA Netw Open. 6(7):e2326366, 2023. doi:10.1001/jamanetworkopen.2023.26366
+
+2. Baddour LM, Wilson WR, Bayer AS, et al. Infective Endocarditis in Adults: Diagnosis, Antimicrobial Therapy, and Management of Complications: A Scientific Statement for Healthcare Professionals From the American Heart Association [published correction appears in Circulation.. 2015 Oct 27;132(17):e215. doi: 10.1161/CIR.0000000000000332.] [published correction appears in Circulation 2016 Aug 23;134(8):e113. doi: 10.1161/CIR.0000000000000427.] [published correction appears in Circulation. 2018 Jul 31;138(5):e78-e79. doi: 10.1161/CIR.0000000000000594.]. Circulation. 2015;132(15):1435-1486. doi:10.1161/CIR.0000000000000296
+
+3. Delgado V, Ajmone Marsan N, de Waha S, et al. 2023 ESC Guidelines for the management of endocarditis [published correction appears in Eur Heart J. 2023 Dec 1;44(45):4780. doi: 10.1093/eurheartj/ehad625.] [published correction appears in Eur Heart J. 2024 Jan 1;45(1):56. doi: 10.1093/eurheartj/ehad776.] [published correction appears in Eur Heart J. 2025 Mar 13;46(11):1082. doi: 10.1093/eurheartj/ehae877.]. Eur Heart J. 2023;44(39):3948-4042. doi:10.1093/eurheartj/ehad193
+
+4. García-Solache M, Rice LB. The Enterococcus: a Model of Adaptability to Its Environment. Clin Microbiol Rev. 2019;32(2):e00058-18. Published 2019 Jan 30. doi:10.1128/CMR.00058-18

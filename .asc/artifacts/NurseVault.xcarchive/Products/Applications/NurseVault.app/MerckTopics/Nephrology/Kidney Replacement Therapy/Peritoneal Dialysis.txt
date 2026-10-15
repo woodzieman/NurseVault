@@ -1,0 +1,114 @@
+=== Peritoneal Dialysis (Merck Manual Professional) ===
+Section: Nephrology > Kidney Replacement Therapy
+Source: https://www.merckmanuals.com/professional/nephrology/kidney-replacement-therapy/peritoneal-dialysis
+Retrieved: 2026-09-25
+
+Peritoneal dialysis uses the peritoneum as a natural permeable membrane through which water and solutes can equilibrate. Compared to hemodialysis, peritoneal dialysis:
+
+Is less physiologically stressful
+
+Does not require vascular access
+
+Can be done at home
+
+Allows patients much greater flexibility
+
+Peritoneal dialysis is generally preferred over hemodialysis for infants and young children in many centers because of the difficulty of obtaining and maintaining vascular access in young patients, although outcomes are similar (1, 2, 3). However, the use of hemodialysis in this age group is increasing. (See also Overview of Kidney Replacement Therapy.)
+
+Peritoneal dialysis requires much more patient involvement than in-center hemodialysis. Maintaining sterile technique is important. Of the total estimated resting splanchnic blood flow of 1200 mL/minute, only about 70 mL/minute comes into contact with the peritoneum, so solute equilibration occurs much more slowly than in hemodialysis. But because solute and water clearance is a function of contact time and peritoneal dialysis is performed nearly continuously, efficacy in terms of solute removal is equivalent to that obtained with hemodialysis.
+
+In general, dialysate is instilled through a catheter into the peritoneal space, is left to dwell, and then drained. In the double-bag technique, the patient drains the fluid instilled in the abdomen in one bag and then infuses fluid from the other bag into the peritoneal cavity.
+
+Peritoneal dialysis can be performed manually or using an automated device (4).
+
+Manual methods include the following:
+
+Continuous ambulatory peritoneal dialysis (CAPD) does not require a machine to do the exchanges. A typical adult infuses 2 to 3 L (children, 30 to 40 mL/kg) of dialysate 4 to 5 times a day. Dialysate is allowed to remain for 4 hours during the day and 8 to 12 hours at night. The solution is manually drained. Flushing the infusion set before filling reduces peritonitis rates.
+
+Intermittent peritoneal dialysis (IPD) is simple, and useful chiefly in the treatment of acute kidney injury (AKI). In adults, 2 to 3 L (in children, 30 to 40 mL/kg) of dialysate, warmed to 37° C, is infused over 10 to 15 minutes, allowed to dwell in the peritoneal cavity for 30 to 40 minutes, and drained in about 10 to 15 minutes. Multiple exchanges may be needed over 12 to 48 hours. This technique is used for inpatients who are unable to tolerate home dialysis, for acute kidney injury in resource-limited settings where extracorporeal therapies may be unavailable, and for urgent-start peritoneal dialysis (4, 5).
+
+Automated peritoneal dialysis (APD) uses an automated device to do multiple nighttime exchanges, sometimes with a daytime dwell. There are 3 types:
+
+Continuous cyclic peritoneal dialysis (CCPD) uses a long (12 to 15 hours) daytime dwell and 3 to 6 nighttime exchanges performed with an automated cycler.
+
+Nocturnal intermittent peritoneal dialysis (NIPD) involves nighttime exchanges and leaves the patient's peritoneal cavity without dialysate during the day.
+
+Tidal peritoneal dialysis (TPD) involves leaving some dialysate fluid (often more than half) in the peritoneum from one exchange to the next, resulting in greater patient comfort and avoiding the problems (eg, frequent repositioning) resulting from inability to completely drain dialysate. TPD may be performed with or without a daytime dwell.
+
+Some patients require both CAPD and CCPD to achieve adequate clearances.
+
+Access
+
+Peritoneal dialysis requires intraperitoneal access, usually via a soft silicone rubber or porous polyurethane catheter. The catheter may be implanted in the operating room under direct visualization or at the bedside by blind insertion of a trocar or under visualization through a peritoneoscope. Most catheters incorporate a polyester fabric cuff that allows tissue ingrowth from the skin or preperitoneal fascia, ideally resulting in a watertight, bacteria-impervious seal and preventing introduction of organisms along the catheter tract. Allowing 2 weeks between catheter implantation and use improves healing and reduces the frequency of early pericatheter leakage of dialysate (4). Double-cuff catheters are better than single-cuff catheters. Also, a caudally directed exit site (the opening of the tunnel through which the catheter enters the peritoneal cavity) lowers the incidence of exit-site infections (eg, by collecting less water during showering).
+
+Peritoneal Dialysis Catheter
+
+Image
+
+This photo shows a peritoneal dialysis catheter in the abdomen of a child undergoing peritoneal dialysis.
+
+BURGER / PHANIE / SCIENCE PHOTO LIBRARY
+
+Once access is established, the patient undergoes a peritoneal equilibration test, in which dialysate drained after a 4-hour dwell time is analyzed and compared with serum to determine solute clearance rates. This procedure helps determine the patient’s peritoneal transport characteristics, the dose of dialysis required, and the most appropriate technique. In general, adequacy is defined as a weekly Kt/V ≥ 1.7 (where K is the urea clearance in mL/minute, t is dialysis time in minutes, and V is volume of distribution of urea [which is approximately equal to total body water] in mL) (6).
+
+General references
+
+1. Ethier I, Hayat A, Pei J, et al. Peritoneal dialysis versus haemodialysis for people commencing dialysis. Cochrane Database Syst Rev. 2024;6(6):CD013800. doi:10.1002/14651858.CD013800.pub2
+
+2. Yu ED, Galbiati S, Munshi R, Smith JM, Menon S; NAPRTCS Investigators. Practice patterns and outcomes of maintenance dialysis in children < 2 years of age: a report of the North American Pediatric Renal Trials and Collaborative Studies (NAPRTCS). Pediatr Nephrol. 2022;37(5):1117-1124. doi:10.1007/s00467-021-05287-2
+
+3. Vidal E, van Stralen KJ, Chesnaye NC, et al. Infants Requiring Maintenance Dialysis: Outcomes of Hemodialysis and Peritoneal Dialysis. Am J Kidney Dis. 2017;69(5):617-625. doi:10.1053/j.ajkd.2016.09.024
+
+4. Teitelbaum I. Peritoneal Dialysis. N Engl J Med. 2021;385(19):1786-1795. doi:10.1056/NEJMra2100152
+
+5. Fourtounas C, Hardalias A, Dousdampanis P, Savidaki E, Vlachojannis JG. Intermittent peritoneal dialysis (IPD): an old but still effective modality for severely disabled ESRD patients. Nephrol Dial Transplant. 2009;24(10):3215-3218. doi:10.1093/ndt/gfp244
+
+6. Teitelbaum I, Glickman J, Neu A, et al. KDOQI US Commentary on the 2020 ISPD practice recommendations for prescribing high-quality goal-directed peritoneal dialysis. Am J Kidney Dis. 2021;77(2):157-171. doi: 10.1053/j.ajkd.2020.09.010
+
+Complications of Peritoneal Dialysis
+
+The most important and common complications of peritoneal dialysis (see table Complications of Kidney Replacement Therapy) are (1):
+
+Peritonitis
+
+Catheter tunnel exit-site infection
+
+Peritonitis
+
+Peritonitis symptoms and signs include abdominal pain, cloudy peritoneal fluid, fever, nausea, and tenderness to palpation.
+
+Diagnosis of peritonitis is made by clinical criteria and testing. A sample of peritoneal fluid is obtained for Gram stain, culture, and white blood cell (WBC) count with differential. Peritonitis is present if a patient has at least 2 of the following criteria:
+
+Clinical features consistent with peritonitis (eg, abdominal pain, tenderness, and/or cloudy dialysis effluent)
+
+Dialysis effluent WBC > 100/mcL (> 0.1 × 109/L) with > 50% polymorphonuclear cells after a dwell time of at least 2 hours
+
+Positive peritoneal fluid culture (2)
+
+Gram stain is often unrevealing, but cultures are positive in > 90% (2). Approximately 90% also have > 100 WBCs/mcL, usually neutrophils (lymphocytes with fungal peritonitis). Negative cultures and WBC counts < 100/mcL do not exclude peritonitis, so treatment is indicated if peritonitis is suspected based on clinical or laboratory criteria and should begin immediately, before culture results are available. Peritoneal fluid studies may be falsely negative due to prior antibiotic use, infection limited to the catheter exit site or tunnel, or sampling of too little fluid.
+
+Pearls & Pitfalls
+
+If peritonitis is suspected based on clinical criteria, start treatment immediately regardless of laboratory findings.
+
+Empiric treatment should be adapted to microbial resistance patterns of a given facility, but typical recommendations are for initial treatment with medications active against gram-positive organisms, eg, either vancomycin or a first-generation cephalosporin, plus medications active against gram-negative organisms, such as a third-generation cephalosporin (eg, ceftazidime) or an aminoglycoside (eg, gentamicin). Doses are adjusted for kidney failure. Medications are adjusted based on the result of peritoneal dialysis fluid culture. Antibiotic therapy is usually given IV or intraperitoneally (IP) for peritonitis and orally for exit-site infections. Patients with peritonitis are admitted to the hospital if IV treatment is necessary or if hemodynamic instability or other significant complications arise.
+
+Most cases of peritonitis respond to prompt antibiotic therapy. If peritonitis does not respond to antibiotics within 5 days or is caused by recurrence of the same organism or by fungi, the dialysis catheter is removed (2).
+
+Catheter tunnel exit-site infection
+
+Catheter tunnel exit-site infection manifests as tenderness over the tunnel or at the exit site along with crusting, erythema, or drainage. Diagnosis is clinical. Treatment of infection without drainage is topical antiseptics (eg, povidone-iodine, chlorhexidine); if ineffective, vancomycin is usually used empirically, with culture results guiding subsequent therapy.
+
+Complications references
+
+1. Teitelbaum I. Peritoneal Dialysis. N Engl J Med. 2021;385(19):1786-1795. doi:10.1056/NEJMra2100152
+
+2. Li PK-T, Chow KM, Cho Y, et al. ISPD (International Society of Peritoneal Dialysis) peritonitis guideline recommendations: 2022 Update on prevention and treatment. Perit Dial Int. 2022;42(2):110-153. doi: 10.1177/08968608221080586
+
+Prognosis for Peritoneal Dialysis
+
+Overall, 5-year survival rate after initiating peritoneal dialysis is approximately 40%, similar to that of patients receiving hemodialysis (1).
+
+Prognosis reference
+
+1. Flythe JE, Watnick S. Dialysis for Chronic Kidney Failure: A Review. JAMA. 2024;332(18):1559-1573. doi:10.1001/jama.2024.16338

@@ -1,0 +1,80 @@
+=== Therapeutic Apheresis (Merck Manual Professional) ===
+Section: Hematology > Transfusion Medicine
+Source: https://www.merckmanuals.com/professional/hematology/transfusion-medicine/therapeutic-apheresis
+Retrieved: 2026-09-25
+
+Apheresis refers to the process of separating the cellular and soluble components of blood using a machine. Apheresis is often performed on donor whole blood, which is centrifuged to obtain individual blood components (eg, red blood cells [RBCs], platelets, plasma based on specific gravity) to use for transfusion in different patients. Apheresis is also used therapeutically in the treatment of various disorders (1).
+
+Therapeutic apheresis includes plasma exchange and cytapheresis.
+
+Apheresis is generally tolerated by healthy donors. However, many minor and a few major risks exist.
+
+Insertion of the large IV catheters necessary for apheresis can cause complications (eg, bleeding, infection, pneumothorax).
+
+Citrate anticoagulant may decrease serum ionized calcium.
+
+Replacement of patient's plasma with a colloidal solution (eg, 5% albumin) or fresh frozen plasma which replaces IgG and coagulation factors.
+
+Most complications can be managed with close attention to the patient and manipulation of the procedure, but some severe reactions and a few deaths have occurred.
+
+Plasmapheresis
+
+Plasmapheresis refers to the process of separating plasma from blood, typically by centrifugation or filtration. Plasmapheresis is often done on healthy donors to obtain plasma only, which is used for transfusion to patients or as a source for plasma derivative preparations (eg, albumin, clotting factor) derived from plasma pooled from thousands of donated units. Because donors typically give only 1 unit (approximately 500 mL) of plasma and must be in good health, there is no need to replace the removed plasma.
+
+Plasmapheresis also may be done therapeutically to remove certain deleterious substances (eg, autoantibodies, immune complexes) that circulate in plasma. Because large volumes of plasma must be removed, patients are transfused with plasma from healthy donors; thus, this process is termed plasma exchange.
+
+Plasma exchange
+
+Therapeutic plasma exchange removes plasma components from blood. A blood cell separator extracts the patient’s plasma and returns RBCs and platelets in plasma or a plasma-replacing fluid; for this purpose, 5% albumin is preferred to fresh frozen plasma (except for patients with thrombotic thrombocytopenic purpura) because it causes fewer reactions and transmits no infections. Therapeutic plasma exchange resembles dialysis but, in addition, can remove protein-bound toxic substances. A 1-volume exchange removes approximately 65% of such components.
+
+To be of benefit, plasma exchange should be used for diseases in which the plasma contains a known pathogenic substance, and plasma exchange should remove this substance more rapidly than the body produces it. For example, in rapidly progressive autoimmune disorders, plasma exchange may be used to remove existing harmful plasma components (eg, cryoglobulins, antiglomerular basement membrane antibodies) while immunosuppressive or cytotoxic drugs suppress their future production.
+
+There are numerous, complex indications. Clinicians typically follow guidelines from the American Society for Apheresis (1). The frequency of plasma exchange, the volume to be removed, the replacement fluid, and other variables are individualized.
+
+In low-density lipoprotein (LDL) apheresis, apolipoprotein B-containing can be selectively removed from plasma by adsorption over a column, resulting in acute reductions in LDL cholesterol. It is typically reserved for patients with familial hypercholesterolemia who are unresponsive to pharmacologic and dietary management.
+
+In extracorporeal photopheresis, a patient’s blood is circulated through an apheresis device that selectively collects peripheral blood mononuclear cells (lymphocytes/monocytes). These cells are mixed with a photoactivatable agent (most commonly 8-methoxypsoralen) and then exposed ex vivo to ultraviolet (UV) A light, which activates the psoralen to form DNA crosslinks and drives the treated leukocytes toward programmed cell death (apoptosis). The treated cell product is then reinfused back into the patient, where it functions less like “cell killing” and more like an autologous, apoptosis-based immune “re-education” therapy.
+
+Mechanistically, extracorporeal photopheresis is best understood as immunomodulation rather than broad immunosuppression. A relatively small fraction of circulating lymphocytes are treated per session, but the downstream effect can be amplified when antigen-presenting cells process the reinfused apoptotic cells, promoting tolerogenic dendritic-cell behavior, shifting cytokine signaling, and expanding/normalizing regulatory T-cell (Treg) networks, features that are particularly relevant in T-cell-mediated diseases such as graft vs host disease (GVHD).
+
+Extracorporeal photopheresis is widely used as a steroid-sparing second-line option for treatment of chronic GVHD, especially when disease is steroid-refractory or steroid-dependent, with best and most consistent responses reported in skin and mucosal involvement. Other indications include heart and lung transplant rejection, and chronic T-cell lymphoma.
+
+In immunoadsorption, an antibody or antigen is removed from plasma by combining with an antigen or antibody chosen to bind the target antibody or antigen over a column.
+
+Complications of plasma exchange include fever, chills, hypotension, hypocalcemia due to citrate toxicity, allergic reactions if donor plasma is infused, infection, and catheter complications. are similar to those of therapeutic cytapheresis.
+
+Cytapheresis
+
+In cytapheresis, the cellular components of blood (eg, RBCs, white blood cells [WBCs], platelets) are selectively separated by centrifugation based on their specific gravity. Cytapheresis is often done on donated blood so that each component may be given to a different recipient. Cytapheresis also may be done therapeutically to remove excess or defective cellular components.
+
+Therapeutic cytapheresis
+
+Therapeutic cytapheresis removes cellular components from blood, returning plasma.
+
+It is most often used to remove defective RBCs and substitute normal ones in patients with sickle cell disease who have the following conditions:
+
+Acute chest syndrome
+
+Stroke
+
+Pregnancy complications
+
+Frequent, severe sickle cell crises
+
+RBC exchange achieves hemoglobin S levels of < 30% without the risk of increased viscosity that can occur with simple transfusion because of increased hematocrit.
+
+Therapeutic cytapheresis may also be used to reduce hyperleukocytosis (cytoreduction).
+
+Therapeutic WBC removal (leukapheresis) can remove kilograms of buffy coat in a few procedures, and it often relieves leukostasis. It is occassionally performed in acute myeloid leukemia or in accelerated or blast crisis phase of chronic myeloid leukemia when there is risk of leukostasis syndrome affecting brain, lungs or rarely heart. However, leukapheresis has not been shown to improve overall survival in patients with acute leukemias (1).
+
+Other common uses of cytapheresis include (1):
+
+Collection of peripheral blood hematopoietic stem cells for autologous or allogeneic bone marrow reconstitution (an alternative to bone marrow transplantation)
+
+Collection of lymphocytes for use in immune modulation cancer therapy, such as chimeric antigen receptor T- cell (CAR-T) therapy
+
+Complications are similar to those of plasma exchange; however, because the patient's own plasma is returned, complications related to replacement fluid (plasma or albumin) are avoided.
+
+Reference
+
+1. Connelly-Smith L, Alquist CR, Aqui NA, et al. Guidelines on the Use of Therapeutic Apheresis in Clinical Practice - Evidence-Based Approach from the Writing Committee of the American Society for Apheresis: The Ninth Special Issue. J Clin Apher. 2023;38(2):77-278. doi:10.1002/jca.22043

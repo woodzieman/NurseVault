@@ -1,0 +1,144 @@
+=== Oliguria (Merck Manual Professional) ===
+Section: Critical Care Medicine > Approach to the Critically Ill Patient
+Source: https://www.merckmanuals.com/professional/critical-care-medicine/approach-to-the-critically-ill-patient/oliguria
+Retrieved: 2026-09-25
+
+Oliguria is urine output < 500 mL in 24 hours in an adult or < 0.5 mL/kg/hour in an adult or child (< 1 mL/kg/hour in neonates).
+
+Etiology of Oliguria
+
+Causes of oliguria are typically divided into 3 categories:
+
+Prerenal (blood-flow related)
+
+Renal (intrinsic kidney disorders)
+
+Postrenal (outlet obstruction)
+
+There are numerous such entities (see Acute Kidney Injury), but a limited number cause most cases of acute oliguria in hospitalized patients (see table Some Causes of Oliguria).
+
+Table
+
+Some Causes of Oliguria
+
+Table
+
+Some Causes of Oliguria
+
+Some Causes of Oliguria
+
+Mechanism
+
+Examples
+
+Prerenal*
+
+Hypovolemia
+
+Bleeding
+
+Fluid loss
+
+Inadequate fluid replacement
+
+Low cardiac output
+
+Myocardial infarction
+
+Heart failure
+
+Pulmonary embolism
+
+Decreased systemic vascular resistance
+
+Sepsis
+
+Renal
+
+Acute tubular necrosis
+
+Hypoperfusion (prolonged, eg, > 4 hours)
+
+Intravenous contrast agent
+
+Rhabdomyolysis
+
+Nephrotoxic medications (eg, aminoglycosides and other antibiotics, nonsteroidal anti-inflammatory drugs)
+
+Postrenal
+
+Mechanical urinary obstruction
+
+Blocked urinary catheter
+
+Prostatic hypertrophy
+
+Urinary calculi
+
+Bladder or sphincter dysfunction
+
+Anticholinergic medication use
+
+Postoperative urinary retention
+
+Fecal impaction if severe
+
+* These prerenal conditions often coexist and rapidly (ie, in < 1 hour) reduce urine output.
+
+* These prerenal conditions often coexist and rapidly (ie, in < 1 hour) reduce urine output.
+
+Evaluation of Oliguria
+
+History
+
+In patients who are able to communicate, a marked urge to void suggests bladder outlet obstruction (eg, urethral stone, enlarged prostate in men), whereas thirst and no urge to void suggest volume depletion. In patients who are obtunded (and presumably catheterized), a sudden decrease in urine flow in a normotensive patient suggests catheter occlusion (eg, caused by a clot or kinking) or displacement, whereas a gradual decrease is more likely due to acute tubular necrosis or a prerenal cause.
+
+Recent medical events are helpful; they include review of recent blood pressure readings, surgical procedures, and medication and radiographic contrast administration. Recent surgery or trauma may be consistent with hypovolemia. A severe crush injury, deep electrical burn, or heatstroke suggests rhabdomyolysis.
+
+Physical examination
+
+Vital signs are reviewed, particularly for hypotension, tachycardia, or both (suggesting hypovolemia or sepsis) and fever (suggesting sepsis). Signs of focal infection and cardiac failure should be sought. Palpable bladder distention indicates an outlet obstruction. Dark brown urine suggests myoglobinuria.
+
+Testing
+
+In all patients with a urinary catheter (and those with an ileal conduit), patency should be ascertained by irrigation before further testing; this approach may solve the problem. In many of the remaining patients, etiology (eg, shock, sepsis) is clinically apparent. In others, particularly those with multiple disorders, testing is needed to differentiate prerenal from renal (acute tubular necrosis) causes. In patients without a urinary catheter, placement of a catheter should be considered; a catheter will diagnose and treat obstruction and provide continuous monitoring of urine output.
+
+If a central venous or pulmonary artery catheter is in place, volume status (and with a pulmonary artery catheter, cardiac output) can be determined by measuring central venous pressure (CVP) (see End Point and Monitoring) or pulmonary artery occlusion pressure. However, since placement of a central venous or pulmonary artery catheter for hemodynamic monitoring is not routine for all patients, in patients without signs of volume overload (eg, pulmonary edema, elevated jugular venous pressure, peripheral edema (including pre-sacral or scrotal edema), ascites, pleural effusion) an alternative is to give a test bolus of IV fluid, 500 mL 0.9% saline (20 mL/kg in children) rapidly; an increase in output suggests a prerenal cause. Additionally, focused rapid echocardiographic evaluation (FREE) can be performed, and hypovolemia is suggested by a hyperdynamic left ventricle with almost no blood at the end of systole and little at the end of diastole.
+
+Serum electrolytes such as sodium, blood urea nitrogen, and creatinine should be measured to assist in determining the cause of oliguria. A high ratio of serum BUN to creatinine (eg, > 20:1) suggests a prerenal cause.
+
+Calculating the fractional excretion of sodium (FENa) from the plasma and urine concentrations of sodium can help to differentiate between the prerenal state and acute tubular necrosis using the following equation:
+
+A FENa ratio > 2% usually indicates acute tubular necrosis.
+
+A FENa ratio < 1% usually indicates a prerenal state such as dehydration or other forms of prerenal azotemia.
+
+FENa ratios between 1% and 2% are compatible with acute tubular necrosis or a prerenal state.
+
+If patients are taking diuretics, calculating the fractional excretion of urea (FEUrea) can help differentiate between prerenal state and acute tubular necrosis and is calculated using the following equation:
+
+A FEUrea ratio > 50% usually indicates acute tubular necrosis.
+
+A FEUrea ratio < 35% usually indicates a prerenal state.
+
+A FEUrea between 35% and 50% is compatible with acute tubular necrosis or a prerenal state.
+
+Clinical Calculators
+
+Fractional Excretion of Sodium
+
+Treatment of Oliguria
+
+Identified causes are treated; outflow obstruction is corrected, volume is replaced, and cardiac output is normalized. Nephrotoxic medications are adjusted to spare the kidneys or stopped and another medication is substituted. Hypotension should be avoided to prevent further renal injury from ischemia. Patients with kidney failure that cannot be reversed may require renal replacement therapy (eg, continuous venovenous hemofiltration or hemodialysis).
+
+Key Points
+
+Categories of causes of oliguria include decreased renal blood flow, renal insufficiency, and urinary outflow obstruction.
+
+History and physical examination often suggest a mechanism (eg, recent hypotension, nephrotoxic medication use).
+
+Measure serum electrolytes, BUN, and creatinine.
+
+Measure urine sodium and creatinine concentration, and calculate fractional sodium excretion if it is unclear whether the cause is prerenal or renal; a ratio < 1 indicates the problem is prerenal, a ratio > 2 indicates acute tubular necrosis, and ratios between 1% and 2% are indeterminate.
+
+For patients taking diuretics, measure urine and plasma urea as well as urine and plasma creatinine and calculate the fractional excretion of urea to determine whether the cause is prerenal or renal; a value < 35% indicates the problem is prerenal; > 50% indicates the problem is acute tubular necrosis; and 35% to 50% indicates the etiology is indeterminate.

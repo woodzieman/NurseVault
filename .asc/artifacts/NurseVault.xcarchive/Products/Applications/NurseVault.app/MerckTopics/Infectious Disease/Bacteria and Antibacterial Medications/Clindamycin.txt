@@ -1,0 +1,74 @@
+=== Clindamycin (Merck Manual Professional) ===
+Section: Infectious Disease > Bacteria and Antibacterial Medications
+Source: https://www.merckmanuals.com/professional/infectious-diseases/bacteria-and-antibacterial-medications/clindamycin
+Retrieved: 2026-09-25
+
+Clindamycin is a lincosamide antibiotic that is primarily bacteriostatic. It binds to the 50S subunit of the ribosome, thus inhibiting bacterial protein synthesis.
+
+Pharmacokinetics of Clindamycin
+
+Clindamycin is absorbed well orally and can be given parenterally. Clindamycin diffuses well into body fluids except cerebrospinal fluid; it is concentrated in phagocytes. Most of the medication is metabolized; metabolites are excreted in bile and urine.
+
+Indications for Clindamycin
+
+The spectrum of activity for clindamycin is similar to that of the macrolide erythromycin (see table Some Clinical Uses of Macrolides) except that clindamycin is
+
+Effective for infections due to anaerobes (except not reliably active against Bacteroides species, including Bacteroides fragilis, because of resistance), most community-acquired methicillin-resistant Staphylococcus aureus, and macrolide-resistant, clindamycin-susceptible Streptococcus pneumoniae
+
+Not reliably active against mycoplasmas, chlamydiae, Chlamydophila species, and legionellae
+
+Aerobic gram-negative bacilli and enterococci are resistant.
+
+Clindamycin is usually used for anaerobic infections; however, clindamycin resistance has emerged among these organisms, particularly gram-negative anaerobes such as B. fragilis. Because these infections often also involve aerobic gram-negative bacilli, additional antibiotics are also used. Clindamycin is part of combination therapy for the following:
+
+With penicillin for infections caused by toxigenic streptococci (because clindamycin decreases the bacteria’s toxin production)
+
+With pyrimethamine for cerebral toxoplasmosis
+
+With quinine for babesiosis or falciparum malaria
+
+With primaquine for Pneumocystis jirovecii pneumonia
+
+Clindamycin can be used for infections (eg, skin and soft-tissue infections) in communities where community-associated methicillin-resistant Staphylococcus aureus (CA-MRSA) is common; whether clindamycin is useful depends on local resistance patterns.
+
+Clindamycin can be used for infections due to clindamycin- and erythromycin-susceptible strains. However, some CA-MRSA strains are clindamycin-susceptible and erythromycin-resistant; erythromycin resistance in these strains may be due to an active efflux mechanism or modification of the ribosomal target. If the infecting strain of clindamycin-susceptible CA-MRSA is resistant to erythromycin because of the efflux mechanism, patients can be expected to respond to clindamycin. However, if the strain is erythromycin-resistant because of modification of the ribosomal target, patients may not respond clinically to clindamycin because certain mutants can emerge during clindamycin therapy; these mutants are resistant to clindamycin and erythromycin because of constitutive modification of the ribosomal target. (Constitutive means that resistance is always present regardless of whether an inducer, such as erythromycin, is present.)
+
+Erythromycin resistance due to efflux can be differentiated from that due to inducible ribosomal target modification with a commonly used double disk diffusion assay (D test). A clindamycin disk is placed at a standard distance from an erythromycin disk on an agar plate streaked with a standard inoculum of the CA-MRSA strain in question. Zone of growth inhibition (shaped like the letter “D”) around the clindamycin disk, with a flattened zone nearest the erythromycin disk indicates inducible ribosomal resistance. Patients who have moderate to severe infection with an inducible ribosomal-resistant CA-MRSA strain and a positive D test should not be treated with clindamycin.
+
+Clindamycin cannot be used for central nervous system infections (other than cerebral toxoplasmosis) because penetration into the brain and cerebrospinal fluid is poor.
+
+Topical clindamycin is used for acne.
+
+Contraindications to Clindamycin
+
+Clindamycin is contraindicated in patients who have had an allergic reaction to it, and it should be used with caution in those who have a history of regional enteritis, ulcerative colitis, or antibiotic-associated colitis.
+
+Use of Clindamycin During Pregnancy and Breastfeeding
+
+Animal reproduction studies with clindamycin have not shown risk to the fetus. In clinical trials with pregnant women, clindamycin given during the second and third trimesters has not been associated with an increased frequency of birth defects. If medically indicated, clindamycin can be used during pregnancy.
+
+Clindamycin enters breast milk. Use during breastfeeding is not recommended.
+
+Adverse Effects of Clindamycin
+
+The main adverse effect of clindamycin is
+
+Clostridioides (formerly Clostridium) difficile–associated diarrhea (pseudomembranous colitis)
+
+Clindamycin is more strongly associated with C. difficile colitis than any other antibiotic and has a boxed warning for this adverse effect. C. difficile–associated diarrhea is about 20 times more likely to occur after clindamycin exposure than after no antibiotic exposure (1), whereas other antibiotics, including fluoroquinolones and cephalosporins, have about 5 to 10 times greater odds of C. difficile compared to no antibiotics (2).
+
+Hypersensitivity reactions may occur. The most commonly reported adverse effect is mild to moderate maculopapular rash, but severe skin reactions, including toxic epidermal necrolysis, have also been reported.
+
+Clindamycin may prolong the QT interval especially in patients with multiple risk factors for QT prolongation.
+
+If not swallowed with water, clindamycin may cause esophagitis.
+
+Adverse effects references
+
+1. Brown KA, Khanafer N, Daneman N, Fisman DN. Meta-analysis of antibiotics and the risk of community-associated Clostridium difficile infection. Antimicrob Agents Chemother. 2013;57(5):2326-2332. doi:10.1128/AAC.02176-12
+
+2. Miller AC, Arakkal AT, Sewell DK, et al. Comparison of Different Antibiotics and the Risk for Community-Associated Clostridioides difficile Infection: A Case-Control Study. Open Forum Infect Dis. 2023;10(8):ofad413. Published 2023 Aug 5. doi:10.1093/ofid/ofad413
+
+Dosing Considerations for Clindamycin
+
+Dose adjustments are not required for renal failure. Clindamycin is given every 6 to 8 hours.

@@ -1,0 +1,100 @@
+=== Chlamydiae (Merck Manual Professional) ===
+Section: Infectious Disease > Chlamydiae and Mycoplasmas
+Source: https://www.merckmanuals.com/professional/infectious-diseases/chlamydiae-and-mycoplasmas/chlamydiae
+Retrieved: 2026-09-25
+
+Chlamydiae are gram-negative, nonmotile, obligate intracellular bacteria. They contain DNA, RNA, and ribosomes and make their own proteins and nucleic acids. However, they depend on the host cell for 3 of their 4 nucleoside triphosphates (cytidine, uridine, and guanosine) and additionally use presynthesized host adenosine triphosphate (ATP) directly as an energy source to synthesize chlamydial protein.
+
+One Health: Zoonotic Diseases
+
+video
+
+Chlamydiae are distinguished by a unique 2-stage life cycle, the elementary body, which is the infectious particle, and the reticulate body, which is the replicative form. Elementary bodies attach to the surface of the host cell and are taken into the cell by a process of endocytosis into a vacuole, called a phagosome. Once inside the cell, there is inhibition of phagosomal-lysosomal fusion. After about 8 to 10 hours, the elementary bodies differentiate into reticulate bodies, which begin binary fission. The replication process is responsible for forming the characteristic intracytoplasmic inclusion seen in chlamydial infections. After approximately 36 hours from initial attachment to the cell surface, the reticulate bodies redifferentiate back into elementary bodies. There may be over 100 elementary bodies per inclusion. These elementary bodies can exit the cell by 1 of 3 ways: exocytosis, extrusion of the whole inclusion, or cell lysis. Under certain conditions, chlamydiae may go into a persistent state called an aberrant body. This state can be triggered by restriction of certain nutrients (eg, glucose) or by some medications (eg, interferons).
+
+The genus Chlamydia contains 14 species; 3 of them cause human disease:
+
+Chlamydia trachomatis
+
+Chlamydia pneumoniae
+
+Chlamydia psittaci
+
+Chlamydia species can cause persistent infection, which is often subclinical. They are the most commonly reported bacterial infections in the United States, with reported prevalence averaging 1.5 to 2 million cases, and actual infection burden estimated to be approximately 3 million annually (1).
+
+General reference
+
+1. Centers for Disease Control and Prevention: Sexually Transmitted Infections Treatment Guidelines, 2021: Chlamydial Infections. Accessed January 3, 2025.
+
+Chlamydia trachomatis
+
+C. trachomatis has 18 immunologically defined serovars (serotypes):
+
+A, B, Ba, and C cause the eye disease trachoma.
+
+D through K cause sexually transmitted infections (STIs) localized to mucosal surfaces (eg, inclusion conjunctivitis).
+
+L1, L2, and L3 biovars cause STIs that lead to invasive lymph node disease (lymphogranuloma venereum) and proctitis.
+
+In the United States, C. trachomatis is the most common bacterial cause of STIs, including
+
+Nongonococcal urethritis and epididymitis in males
+
+Reactive arthritis in males and females
+
+Cervicitis, urethritis, and pelvic inflammatory disease in females
+
+Screening for urogenital chlamydial infection is recommended as part of routine preventive care, depending on risk factors. Maternal-fetal transmission of C. trachomatis causes neonatal conjunctivitis and neonatal pneumonia. In the United States, the Centers for Disease Control and Prevention (CDC) recommends universal prenatal screening of pregnant patients < 25 years old and of patients ≥ 26 years old with certain risk factors (1). Screening has greatly reduced the incidence of neonatal C. trachomatis conjunctivitis and pneumonia. Neonatal ocular prophylaxis with erythromycin or other preparations does not prevent neonatal chlamydial conjunctivitis; however, prophylaxis is still administered to prevent gonococcal conjunctivitis (2).
+
+See also Screening for Urogenital Chlamydial Infections for a summary of screening recommendations. See also Diagnosis of Urogenital Chlamydial Infections for an overview of diagnostic methods and Treatment of Urogenital Chlamydial Infections for guidance regarding choice of antimicrobials in patients with suspected chlamydial mucosal infections.
+
+C. trachomatis causes a chronic conjunctivitis called trachoma, which is endemic in resource-limited parts of the world.
+
+C. trachomatis references
+
+1. Centers for Disease Control and Prevention: Sexually Transmitted Infections Treatment Guidelines, 2021: Screening Recommendations and Considerations Referenced in Treatment Guidelines and Original Sources. Accessed January 3, 2025.
+
+2. Kohlhoff S, Roblin PM, Clement S, et al. Universal prenatal screening and testing and Chlamydia trachomatis conjunctivitis in infants. Sex Transm Dis. 2021;48(9):e122–e123. doi:10.1097/OLQ.0000000000001344
+
+Chlamydia pneumoniae
+
+C. pneumoniae can cause pneumonia (especially in children and young adults) that may be clinically indistinguishable from pneumonia caused by Mycoplasma pneumoniae (1). In some patients with pneumonia caused by C. pneumoniae, hoarseness and sore throat may precede coughing, which may be persistent and complicated by bronchospasm.
+
+Outbreaks of pneumonia caused by C. pneumoniae pneumonia pose a particular risk for people in congregate settings (eg, nursing homes, schools, military installations, prisons). No seasonal variations in occurrence have been observed.
+
+C. pneumoniae has also been implicated as an infectious trigger of reactive airway disease and acute bronchitis.
+
+Chlamydia pneumoniae reference
+
+1. Hammerschlag MR, Kohlhoff S, Dean D.Chlamydia pneumoniae. In Mandell, Douglas, and Bennett’s Principles and Practice of Infectious Diseases, ed. 10, edited by Blaser MJ, Cohen JI, Holland SM. Philadelphia, Elsevier. Expected release date June 27, 2025.
+
+Chlamydia psittaci
+
+(See also the CDC's Clinical Overview of Psittacosis.)
+
+One Health: Psittacosis
+
+C. psittaci causes psittacosis. Strains causing human disease are usually acquired from psittacine birds (eg, parrots, parakeets, cockatiels), causing a disease characterized by pneumonitis.
+
+Psittacosis is a rare infection. Since 2010, typically < 10 cases/year are reported to the CDC (1). However, psittacosis might be underdiagnosed because mild cases do occur. History of exposure is very important, eg, pet bird owners, veterinarians, and workers in the poultry industry.
+
+Common symptoms include high, persistent fever; nonproductive cough; and myalgia. Patients also may have severe headache and abnormal liver tests. Respiratory distress may occur in severe cases. A primary clue to the diagnosis of C. psittaci infection is a history of close contact with birds, typically pet birds such as parrots or parakeets, including veterinarians and workers in turkey and duck processing plants, in whom outbreaks have been known to occur. Diagnosis is confirmed by serologic tests, including IgG and IgM titers. Culture is not generally available. There are no commercially available NAATs for C. psittaci, but PCR can be performed by the CDC and by some specialty laboratories. (See also the CDC's Laboratory Testing for Psittacosis.)
+
+Azithromycin, levofloxacin, moxifloxacin, and doxycycline are commonly used antibiotics for treatment of psittacosis. The recommended treatment is doxycycline. In cases where doxycycline is contraindicated or not tolerated, or in pregnant patients, azithromycin can be used as an alternative. For severe cases of psittacosis, such as in patients who present with severe pneumonia or respiratory failure, hospitalization and intravenous antibiotics may be required.
+
+Chlamydia psittaci reference
+
+1. Centers for Disease Control and Prevention: Psittacosis Surveillance and Trends. Accessed January 3, 2025.
+
+Key Points
+
+C. trachomatis causes trachoma or STIs; maternal transmission can cause neonatal conjunctivitis and/or pneumonia.
+
+Screen all pregnant patients under age 25 to prevent neonatal (chlamydial) conjunctivitis and other high-risk, asymptomatic patients for sexually transmitted chlamydial infection.
+
+C. pneumoniae can cause pneumonia (especially in children and young adults and in enclosed populations).
+
+C. psittaci is a rare cause of pneumonia (psittacosis) that is usually acquired from psittacine birds (eg, parrots).
+
+Perform serologic tests to confirm C. psittaci infection.
+
+Treat psittacosis with antibiotics, including macrolides (eg, azithromycin), fluoroquinolones, and tetracyclines (eg, doxycycline).

@@ -1,0 +1,810 @@
+=== Atezolizumab/Hyaluronidase — Drug Information (Merck Manual Professional) ===
+Source: https://www.merckmanuals.com/professional/drug-names-generic-and-brand (productId 5558)
+Retrieved: 2026-09-25
+NURSING QUICK-REFERENCE SUMMARY
+Auto-generated on 2026-09-25 from the prescribing information in this file; full details follow below.
+
+Drug Class: Atezolizumab; hyaluronidase is a subcutaneous IgG1 kappa monoclonal antibody that binds to and blocks programmed death-ligand 1 (PD-L1); the hyaluronidase component increases the dispersion and absorption of atezolizumab allowing for subcutaneous administration.
+
+Routes: injection (IV/IM/SC); Common adult doses: 1,875 mg atezolizumab and 30,000 units hyaluronidase (15 mL) subcutaneously every 3 weeks.
+
+Common Side Effects (excluding routine GI upset): cough, dyspnea, rhinitis, colitis, enterocolitis, bowel ischemia, gi obstruction, cheilitis, oral ulceration, diabetes mellitus, diabetic ketoacidosis, hyperglycemia, hypoglycemia, hemophagocytic lymphohistiocytosis, leukopenia, lymphopenia, neutropenia, anemia, aplastic anemia, hemolytic anemia, purpura, thrombocytopenia, thrombocytosis, dysesthesia, hypoesthesia, paresthesias, peripheral neuropathy, iritis, retinal detachment, uveitis
+
+In an Overdose: No overdose/antidote information is listed in this file.
+
+Key Nursing Considerations: Contraindications/precautions: Use atezolizumab; hyaluronidase with caution in patients with a history of autoimmune disease, including inflammatory bowel disease. Immune-mediated reactions, which may be severe or fatal, can occur in patients treated with drugs that bind to either the programmed death-receptor 1 (PD-1) or the... Emetic risk: Minimal
+
+ATEZOLIZUMAB/HYALURONIDASE
+
+Close
+
+Brand Names
+Indication Specific Dosing
+Contraindications And Precaution
+Pregnancy And Lactation
+Interactions
+Adverse Reaction
+Description
+Mechanism Of Action
+Pharmacokinetics
+Administration
+Maximum Dosage Limits
+Dosage Forms
+Dosage Adjustment Guidelines
+Drug Information Provided by Elsevier
+
+This information reflects approved US FDA prescribing information and may not reflect prescribing information in your country. Please consult a drug reference applicable to your country.
+
+Brand Names
+
+Tecentriq Hybreza
+
+Indication Specific Dosing
+
+For the treatment of non-small cell lung cancer (NSCLC)
+
+For the adjuvant treatment of stage II to IIIA NSCLC as monotherapy in patients with PD-L1 expression on 1% or more of tumor cells, following resection and platinum-based chemotherapy
+Subcutaneous dosage
+Adults
+
+
+1,875 mg atezolizumab and 30,000 units hyaluronidase subcutaneously every 3 weeks for up to 1 year, unless there is disease recurrence or unacceptable toxicity. The use of atezolizumab; hyaluronidase for this indication is supported by evidence from adequate and well-controlled studies with intravenous atezolizumab in this population and pharmacokinetic data demonstrating comparable exposure to atezolizumab between the subcutaneous and intravenous products. In a multicenter, randomized, open-label clinical trial (IMpower010), patients with stage IB to IIIA NSCLC who had complete tumor resection and received cisplatin-based adjuvant chemotherapy were randomized to treatment with atezolizumab or best supportive care (BSC). Treatment with atezolizumab significantly improved the primary endpoint of median disease-free survival (DFS) in stage II to IIIA NSCLC patients with PD-L1 expression in 1% or more of tumor cells compared with BSC (not reached vs. 35.3 months). In a prespecified secondary subgroup analysis of stage II to IIIA NSCLC patients with PD-L1 expression in 50% or more of tumor cells, median DFS was not reached versus 35.7 months, respectively; median DFS was 32.8 months versus 31.4 months, respectively, in an exploratory subgroup analysis of patients with PD-L1 expression in 1% to 49% of tumor cells. Median overall survival was not estimable in both the atezolizumab and the BSC arms at the first prespecified interim analysis after a median follow-up of 45.3 months.
+
+
+For the first-line treatment of metastatic NSCLC without EGFR or ALK mutations, in patients whose tumors have high PD-L1 expression (at least 50% of tumor cells, or PD-L1 stained tumor-infiltrating immune cells covering at least 10% of the tumor area), as monotherapy
+Subcutaneous dosage
+Adults
+
+
+1,875 mg atezolizumab and 30,000 units hyaluronidase subcutaneously every 3 weeks until disease recurrence or unacceptable toxicity. The use of atezolizumab; hyaluronidase for this indication is supported by evidence from adequate and well-controlled studies with intravenous atezolizumab in this population and pharmacokinetic data demonstrating comparable exposure to atezolizumab between the subcutaneous and intravenous products. Treatment with atezolizumab significantly improved median overall survival compared with platinum-based chemotherapy (20.2 months vs. 13.1 months) in patients with metastatic NSCLC and high PD-L1 expression, without EGFR or ALK mutations in a randomized, open-label trial (IMpower110). Investigator-assessed median progression-free survival was 8.1 months in the atezolizumab arm compared with 5 months in the chemotherapy arm; the confirmed objective response rate was 38% versus 29%, respectively. 
+
+
+For the first-line treatment of metastatic nonsquamous NSCLC without EGFR or ALK mutations, in combination with bevacizumab, paclitaxel, and carboplatin
+Subcutaneous dosage
+Adults
+
+
+1,875 mg atezolizumab and 30,000 units hyaluronidase subcutaneously every 3 weeks until disease recurrence or unacceptable toxicity. Administer in combination with bevacizumab (15 mg/kg IV), paclitaxel (200 mg/m2 IV, or 175 mg/m2 IV in Asian patients), and carboplatin (AUC 6 IV), every 3 weeks for a maximum of 4 to 6 cycles of chemotherapy; continue bevacizumab every 3 weeks with atezolizumab until disease progression or unacceptable toxicity. Administer atezolizumab prior to bevacizumab and chemotherapy when given on the same day. The use of atezolizumab; hyaluronidase for this indication is supported by evidence from adequate and well-controlled studies with intravenous atezolizumab in this population and pharmacokinetic data demonstrating comparable exposure to atezolizumab between the subcutaneous and intravenous products. At the final analysis of a multicenter, randomized, open-label, phase 3 clinical trial (IMpower150), treatment with atezolizumab plus bevacizumab/paclitaxel/carboplatin (ABCP) significantly improved overall survival in patients with metastatic nonsquamous NSCLC compared with BCP without atezolizumab (19.5 months vs. 14.7 months); overall survival with atezolizumab/paclitaxel/carboplatin was not significantly different from BCP. Progression-free survival was also significantly improved in the ABCP arm compared with BCP (8.5 months vs. 7 months). The objective response rate was 55% (complete response [CR], 4%) versus 42% (CR, 1%), respectively, for a median duration of 10.8 months and 6.5 months, respectively.
+
+
+For the first-line treatment of metastatic nonsquamous NSCLC without EGFR or ALK mutations, in combination with nanoparticle albumin-bound (nab) paclitaxel and carboplatin
+Subcutaneous dosage
+Adults
+
+
+1,875 mg atezolizumab and 30,000 units hyaluronidase subcutaneously every 3 weeks until disease recurrence or unacceptable toxicity. Administer in combination with nab-paclitaxel (100 mg/m2 on days 1, 8, and 15) and carboplatin (AUC 6 IV on day 1), every 3 weeks for a maximum of 4 to 6 cycles of chemotherapy. Administer atezolizumab; hyaluronidase prior to chemotherapy when given on the same day. The use of atezolizumab; hyaluronidase for this indication is supported by evidence from adequate and well-controlled studies with intravenous atezolizumab in this population and pharmacokinetic data demonstrating comparable exposure to atezolizumab between the subcutaneous and intravenous products. First-line treatment of EGFR- and ALK-negative metastatic NSCLC with atezolizumab plus nab-paclitaxel and carboplatin significantly improved median overall survival (18.6 months vs. 13.9 months) and median progression-free survival (7.2 months vs. 6.5 months) compared with nab-paclitaxel and carboplatin alone in a multicenter, randomized, open-label trial (IMpower130). The overall response rate was 46% (complete response [CR], 5%) in the atezolizumab arm compared with 32% (CR, 1%) in the control arm, for a median duration of 10.8 months versus 7.8 months, respectively.
+
+
+For the treatment of metastatic NSCLC with disease progression on or after platinum-containing chemotherapy, and after progression on FDA-approved EGFR- or ALK-targeted therapy if applicable, as monotherapy
+Subcutaneous dosage
+Adults
+
+
+1,875 mg atezolizumab and 30,000 units hyaluronidase subcutaneously every 3 weeks until disease recurrence or unacceptable toxicity. The use of atezolizumab; hyaluronidase for this indication is supported by evidence from adequate and well-controlled studies with intravenous atezolizumab in this population and pharmacokinetic data demonstrating comparable exposure to atezolizumab between the subcutaneous and intravenous products. Treatment with atezolizumab monotherapy significantly improved overall survival compared with docetaxel (13.8 months vs. 9.6 months) in patients with locally advanced or metastatic NSCLC whose disease progressed during or following a platinum-containing regimen in a multicenter, randomized, open-label, phase 3 clinical trial (OAK). The median progression-free survival was 2.8 months versus 4 months, respectively, for a median duration of 16.3 months and 6.2 months, respectively. The objective response rate was 14% in patients treated with atezolizumab compared with 13% for those who received docetaxel (complete response, 1% vs. 0.2%). In an exploratory analysis, patients who had anti-atezolizumab antibodies by week 4 appeared to have less erricacy compared to those who did not have anti-atezolizumab antibodies.
+
+
+For the treatment of small cell lung cancer (SCLC)
+
+For the first-line treatment of extensive-stage small cell lung cancer (SCLC), in combination with carboplatin and etoposide
+Subcutaneous dosage
+Adults
+
+
+1,875 mg atezolizumab and 30,000 units hyaluronidase subcutaneously every 3 weeks until disease recurrence or unacceptable toxicity. Administer in combination with carboplatin (AUC 5 IV on day 1) and etoposide (100 mg/m2 IV on days 1, 2, and 3), every 3 weeks for 4 cycles. Administer atezolizumab; hyaluronidase prior to chemotherapy when given on the same day. The use of atezolizumab; hyaluronidase for this indication is supported by evidence from adequate and well-controlled studies with intravenous atezolizumab in this population and pharmacokinetic data demonstrating comparable exposure to atezolizumab between the subcutaneous and intravenous products. In a randomized, double-blind, phase 3 clinical trial (IMpower133), the addition of atezolizumab to carboplatin plus etoposide significantly improved overall survival (12.3 months vs. 10.3 months) and progression-free survival (5.2 months vs. 4.3 months) compared with placebo plus carboplatin/etoposide. Survival at 1 year was 51.7% versus 38.2%, respectively.
+
+
+For the maintenance treatment of extensive-stage small cell lung cancer (ES-SCLC) whose disease has not progressed after first-line induction therapy with carboplatin, etoposide, and either atezolizumab or atezolizumab; hyaluronidase, in combination with lurbinectedin
+Subcutaneous dosage
+Adults
+
+
+1,875 mg atezolizumab and 30,000 units hyaluronidase subcutaneously on day 1, every 21 days until disease progression or unacceptable toxicity in combination with lurbinectedin (3.2 mg/m2 IV on day 1, every 21 days). Administer atezolizumab; hyaluronidase prior to lurbinectedin when given on the same day. Coadministration of certain drugs may need to be avoided or dosage adjustments may be necessary; review drug interactions. Maintenance therapy with lurbinectedin plus IV atezolizumab after completion of 4 cycles of carboplatin, etoposide, and IV atezolizumab significantly improved median overall survival (13.2 months vs. 10.6 months) and median progression-free survival (5.4 months vs. 2.1 months) compared with IV atezolizumab monotherapy in patients with first-line ES-SCLC in a multicenter, randomized, open-label clinical trial (IMforte).
+
+
+For the treatment of hepatocellular cancer
+
+For the treatment of unresectable or metastatic hepatocellular cancer (HCC) in patients who have not received prior systemic therapy, in combination with bevacizumab
+Subcutaneous dosage
+Adults
+
+
+1,875 mg atezolizumab and 30,000 units hyaluronidase subcutaneously every 3 weeks until disease recurrence or unacceptable toxicity. Administer in combination with bevacizumab 15 mg/kg IV every 3 weeks until disease progression or unacceptable toxicity. Administer atezolizumab; hyaluronidase prior to bevacizumab when given on the same day. The use of atezolizumab; hyaluronidase for this indication is supported by evidence from adequate and well-controlled studies with intravenous atezolizumab in this population and pharmacokinetic data demonstrating comparable exposure to atezolizumab between the subcutaneous and intravenous products. In a multicenter, randomized, open-label clinical trial (IMbrave150), treatment with atezolizumab followed by bevacizumab significantly improved overall survival (not estimable vs. 13.2 months) and progression-free survival (6.8 months vs. 4.3 months) compared with sorafenib in patients with unresectable or metastatic HCC who have not received prior systemic therapy. The overall response rate was also significantly improved for patients treated with bevacizumab/atezolizumab by both RECIST1.1 criteria (28% vs. 12%; complete response [CR], 7% vs. 0%) and mRECIST criteria (33% vs. 13%; CR, 11% vs. 1.8%); the median duration of response was not estimable versus 6.3 months, respectively. In an exploratory analysis, patients with anti-atezolizumab antibodies by week 6 appeared to have reduced efficacy compared to patients who tested negative for anti-atezolizumab antibodies.
+
+
+For the treatment of malignant melanoma
+
+For the treatment of BRAF V600 mutation-positive unresectable or metastatic melanoma, in combination with cobimetinib and vemurafenib
+Subcutaneous dosage
+Adults
+
+
+1,875 mg atezolizumab and 30,000 units hyaluronidase subcutaneously every 3 weeks until disease recurrence or unacceptable toxicity. Administer in combination with cobimetinib (60 mg PO once daily on days 1 to 21, every 28 days) and vemurafenib (720 mg PO twice daily). Prior to starting atezolizumab; hyaluronidase, complete one cycle of ONLY cobimetinib (60 mg PO once daily on days 1 to 21, followed by 7 days of rest) and vemurafenib (960 mg PO twice daily on days 1 to 21 and then 720 mg PO twice daily on days 22 to 28). The use of atezolizumab; hyaluronidase for this indication is supported by evidence from adequate and well-controlled studies with intravenous atezolizumab in this population and pharmacokinetic data demonstrating comparable exposure to atezolizumab between the subcutaneous and intravenous products. Treatment with atezolizumab, vemurafenib, and cobimetinib significantly improved median investigator-assessed progression-free survival (PFS) compared with placebo pus vemurafenib and cobimetinib (15.1 months vs. 10.6 months) in patients with previously untreated BRAF V600 mutation-positive unresectable stage IIIc or stage IV melanoma in an international, randomized, double-blind, placebo-controlled, phase 3 trial (IMspire150 trial). Median PFS (16.1 months vs. 12.3 months) and median overall survival (39 months vs. 25.8 months) as assessed by an independent review committee were not significantly improved.
+
+
+For the treatment of soft-tissue sarcoma
+
+For the treatment of unresectable or metastatic alveolar soft part sarcoma, as monotherapy
+Subcutaneous dosage
+Adults
+
+
+1,875 mg atezolizumab and 30,000 units hyaluronidase subcutaneously every 3 weeks until disease recurrence or unacceptable toxicity. The use of atezolizumab; hyaluronidase for this indication is supported by evidence from adequate and well-controlled studies with intravenous atezolizumab in this population and pharmacokinetic data demonstrating comparable exposure to atezolizumab between the subcutaneous and intravenous products. The objective response rate was 37% (complete response rate, 2%) in 52 patients with unresectable or metastatic alveolar soft part sarcoma who received atezolizumab in a multicenter, single-arm, phase 2 (ML39345) study. At a median follow-up time of 13.2 months, the median duration of response was 24.7 months. Additionally, the median progression-free survival time was 20.8 months.
+
+
+Children and Adolescents 12 years and older who weigh 40 kg or greater
+
+
+1,875 mg atezolizumab and 30,000 units hyaluronidase subcutaneously every 3 weeks until disease recurrence or unacceptable toxicity. The use of atezolizumab; hyaluronidase for this indication is supported by evidence from adequate and well-controlled studies with intravenous atezolizumab in this population and pharmacokinetic data demonstrating comparable exposure to atezolizumab between the subcutaneous and intravenous products. The objective response rate was 37% (complete response rate, 2%) in 52 patients with unresectable or metastatic alveolar soft part sarcoma who received atezolizumab in a multicenter, single-arm, phase 2 (ML39345) study. At a median follow-up time of 13.2 months, the median duration of response was 24.7 months. Additionally, the median progression-free survival time was 20.8 months.
+
+
+For the treatment of bladder cancer
+
+For the adjuvant treatment of muscle invasive bladder cancer (MIBC) after cystectomy in patients who have circulating tumor DNA molecular residual disease (ctDNA MRD), as monotherapy
+Subcutaneous dosage
+Adults
+
+
+1,875 mg atezolizumab and 30,000 units hyaluronidase subcutaneously every 3 weeks for up to 1 year, unless there is disease recurrence or unacceptable toxicity. The use of atezolizumab; hyaluronidase for this indication is supported by evidence from adequate and well-controlled studies with intravenous atezolizumab in this population and pharmacokinetic data demonstrating comparable exposure to atezolizumab between the subcutaneous and intravenous products. Adjuvant treatment with IV atezolizumab significantly improved median investigator-assessed disease-free survival (DFS) (9.9 months vs. 4.8 months) and overall survival (32.8 months vs. 21.1 months) compared with placebo in patients with MIBC who had circulating tumor DNA molecular residual disease (ctDNA MRD) after cystectomy in a multicenter, randomized, double-blind, phase 3 clinical trial (IMvigor011). In a preplanned exploratory analysis, these results appeared to be primarily due to the subgroup of patients who had less than or equal to 20 weeks to first ctDNA MRD positive sample versus those with more than 20 weeks to the first positive sample.
+
+
+Contraindications And Precaution
+Drug Interactions
+
+The coadministration of certain medications may lead to harm and require avoidance or therapy modification; review all drug interactions prior to concomitant use of other medications.
+
+autoimmune disease, inflammatory bowel disease
+
+
+Use atezolizumab; hyaluronidase with caution in patients with a history of autoimmune disease, including inflammatory bowel disease. Immune-mediated reactions, which may be severe or fatal, can occur in patients treated with drugs that bind to either the programmed death-receptor 1 (PD-1) or the PD-ligand 1 (PD-L1), thus removing inhibition of the immune response, such as atezolizumab; hyaluronidase. These immune-mediated reactions can occur in any organ system or tissue and can also affect more than one body system simultaneously. Although usually occurring during treatment with PD-1/PD-L1 inhibitors, immune-mediated reactions can occur at any time after starting therapy including after discontinuation of therapy. Because early identification and management is critical to safe usage of PD-1/PD-L1 inhibitors, closely monitor patients for signs and symptoms that may be clinical manifestations of underlying immune-mediated reactions. Initiate an appropriate workup to exclude alternative etiologies including infection in cases of suspected immune-mediated reaction. Begin medical management promptly, including specialty consultation as appropriate. An interruption or discontinuation of atezolizumab; hyaluronidase therapy may be necessary, depending on the severity of the reaction. In general, if an interruption or discontinuation of therapy is necessary, administer systemic corticosteroids (1 to 2 mg/kg per day of prednisone or equivalent); upon improvement to grade 1 or less, begin a steroid taper over at least 1 month. Consider additional systemic immunosuppression in patients whose symptoms are not controlled with corticosteroid therapy.
+
+
+Hypersensitivity
+
+This medication is contraindicated in patients with a history of hypersensitivity to it or any of its components.
+
+pulmonary disease, thoracic radiation therapy
+
+
+Use atezolizumab; hyaluronidase with caution in patients who have a history of pre-existing pulmonary disease; immune-mediated pneumonitis/interstitial lung disease has been reported in patients treated with atezolizumab; hyaluronidase. The incidence is higher in patients who have received prior thoracic radiation therapy, except in patients with classical Hodgkin lymphoma, where pneumonitis rates were similar regardless of prior thoracic radiation. Monitor patients for signs and symptoms of pneumonitis (e.g., new or worsening cough, chest pain, shortness of breath). If confirmed, atezolizumab; hyaluronidase therapy may need to be interrupted or discontinued depending on severity; treatment with systemic corticosteroids may be necessary.
+
+
+corneal transplant, organ transplant
+
+
+Use atezolizumab; hyaluronidase with caution in patients who have previously had a solid organ transplant or other transplant (including corneal transplant). Immune-mediated organ transplant rejection has been reported with PD-1/PD-L1 inhibitor therapy.
+
+
+allogeneic stem cell transplant
+
+
+Perform a risk/benefit analysis prior to starting treatment with a PD-1/PD-L1 blocking antibody, such as atezolizumab; hyaluronidase, in patients who may receive or who have a history of undergoing an allogeneic stem cell transplant (SCT). Fatal and other serious complications including hyperacute, acute, and chronic graft-versus-host-disease, sinusoidal obstruction syndrome (SOS) previously termed veno-occlusive disease (VOD) after reduced intensity conditioning, and a steroid-requiring febrile syndrome (without an identified infectious cause) have been reported in patients who receive an allogeneic SCT before or after being treated with a PD-1/PD-L1 blocking antibody. Monitor patients closely for evidence of transplant-related complications and intervene promptly. Complications may occur despite intervening therapy between PD-1/PD-L1 blockade and allogeneic SCT.
+
+
+neurological disease
+
+
+Use atezolizumab; hyaluronidase with caution in patients who have a history of neurological disease such as myasthenia gravis or Guillain-Barre syndrome. Immune-mediated neurotoxicity has been reported with atezolizumab; hyaluronidase or other PD-1/PD-L1 inhibitors. Atezolizumab; hyaluronidase may need to be interrupted or discontinued depending on the severity of the neurotoxicity; treatment with systemic corticosteroids may also be necessary.
+
+
+obesity
+
+
+Monitor patients with obesity as well as those who are considered overweight for an increased risk of infusion-related reactions when treated with atezolizumab; hyaluronidase. Patients with a high BMI have a greater risk even if they have a low metabolic risk (i.e., fewer than 2 of diabetes, dyslipidemia, hypertension).
+
+
+cardiac disease
+
+
+Use atezolizumab; hyaluronidase with caution in patients with cardiovascular risk factors such as hypertension, heart failure, cardiac disease, and myocardial infarction as they are at increased risk of cardiac immune-related adverse reactions such as myocarditis, vasculitis, and pericarditis.
+
+
+pregnancy
+
+
+Atezolizumab; hyaluronidase can cause fetal harm when used during pregnancy based on its mechanism of action. There are no available data on the use of atezolizumab; hyaluronidase during human pregnancy. A central function of the PD-1/PD-L1 pathway is to preserve pregnancy by maintaining immune tolerance to the fetus. Animal studies indicate that PD-1/PD-L1 inhibition may increase the risk of immune-mediated rejection of the developing fetus, resulting in fetal death. Human IgG4 antibodies are known to cross the placenta, so atezolizumab; hyaluronidase has the potential to be transmitted to the fetus. Fetal exposure to atezolizumab; hyaluronidase may increase the risk of developing immune-mediated disorders or altering the normal immune response. Patients should be counseled on the potential fetal risks.
+
+
+people who may become pregnant, reproductive risk
+
+
+Counsel people who may become pregnant about the reproductive risk associated with atezolizumab; hyaluronidase. Atezolizumab; hyaluronidase can cause fetal harm. Verify pregnancy status prior to treatment initiation. Advise people who may become pregnant to use effective contraception while taking atezolizumab; hyaluronidase and for 5 months after the last dose. Based on animal studies, atezolizumab; hyaluronidase may impair female fertility while receiving treatment.
+
+
+breast-feeding
+
+
+Advise patients to avoid breast-feeding while taking atezolizumab; hyaluronidase and for 5 months after the last dose due to the potential for serious adverse reactions in the breastfed child. There are no data on the presence of atezolizumab or hyaluronidase in human milk, their effects on the breast-fed child, or their effects on milk production. Maternal IgG is known to be present in human milk. Because atezolizumab is a large protein molecule (molecular weight of 145,000 Daltons), the amount of drug in milk is likely to be very low. It may also be partially destroyed in the gastrointestinal tract, resulting in minimal absorption.
+
+
+Pregnancy And Lactation
+
+
+Atezolizumab; hyaluronidase can cause fetal harm when used during pregnancy based on its mechanism of action. There are no available data on the use of atezolizumab; hyaluronidase during human pregnancy. A central function of the PD-1/PD-L1 pathway is to preserve pregnancy by maintaining immune tolerance to the fetus. Animal studies indicate that PD-1/PD-L1 inhibition may increase the risk of immune-mediated rejection of the developing fetus, resulting in fetal death. Human IgG4 antibodies are known to cross the placenta, so atezolizumab; hyaluronidase has the potential to be transmitted to the fetus. Fetal exposure to atezolizumab; hyaluronidase may increase the risk of developing immune-mediated disorders or altering the normal immune response. Patients should be counseled on the potential fetal risks.
+
+
+Interactions
+
+Acetaminophen; Aspirin, ASA; Caffeine: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Acetaminophen; Aspirin: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Acetaminophen; Aspirin; diphenhydrAMINE: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect. (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Acetaminophen; Caffeine; Pyrilamine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Acetaminophen; Chlorpheniramine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Acetaminophen; Chlorpheniramine; Dextromethorphan: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Acetaminophen; Chlorpheniramine; Dextromethorphan; Phenylephrine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Acetaminophen; Chlorpheniramine; Dextromethorphan; Pseudoephedrine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Acetaminophen; Chlorpheniramine; Phenylephrine : (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Acetaminophen; Dextromethorphan; Doxylamine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Acetaminophen; diphenhydrAMINE: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Acetaminophen; Pamabrom; Pyrilamine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Amide local anesthetics: (Moderate) Hyaluronidase, when used in combination with local anesthetics, hastens the onset of analgesia and reduces the swelling caused by local infiltration; this interaction is beneficial and is the reason hyaluronidase is used adjunctively in local infiltrative anesthesia techniques. However, the wider spread of the local anesthetic solution may increase the systemic absorption of the local anesthetic, which shortens the duration of anesthetic action and tends to increase the potential risk for systemic side effects.
+Aminosalicylate sodium, Aminosalicylic acid: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Articaine; EPINEPHrine: (Moderate) Hyaluronidase, when used in combination with local anesthetics, hastens the onset of analgesia and reduces the swelling caused by local infiltration; this interaction is beneficial and is the reason hyaluronidase is used adjunctively in local infiltrative anesthesia techniques. However, the wider spread of the local anesthetic solution may increase the systemic absorption of the local anesthetic, which shortens the duration of anesthetic action and tends to increase the potential risk for systemic side effects.
+Aspirin, ASA: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Aspirin, ASA; Butalbital; Caffeine: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Aspirin, ASA; Caffeine: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Aspirin, ASA; Caffeine; Orphenadrine: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Aspirin, ASA; Carisoprodol; Codeine: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Aspirin, ASA; Citric Acid; Sodium Bicarbonate: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Aspirin, ASA; Dipyridamole: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Aspirin, ASA; Omeprazole: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Aspirin, ASA; oxyCODONE: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Benzoic Acid; Hyoscyamine; Methenamine; Methylene Blue; Phenyl Salicylate: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Bismuth Subsalicylate: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Bismuth Subsalicylate; metroNIDAZOLE; Tetracycline: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Brompheniramine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Brompheniramine; Dextromethorphan; Phenylephrine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Brompheniramine; Phenylephrine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Brompheniramine; Pseudoephedrine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Brompheniramine; Pseudoephedrine; Dextromethorphan: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+BUPivacaine Liposomal: (Moderate) Hyaluronidase, when used in combination with local anesthetics, hastens the onset of analgesia and reduces the swelling caused by local infiltration; this interaction is beneficial and is the reason hyaluronidase is used adjunctively in local infiltrative anesthesia techniques. However, the wider spread of the local anesthetic solution may increase the systemic absorption of the local anesthetic, which shortens the duration of anesthetic action and tends to increase the potential risk for systemic side effects.
+BUPivacaine: (Moderate) Hyaluronidase, when used in combination with local anesthetics, hastens the onset of analgesia and reduces the swelling caused by local infiltration; this interaction is beneficial and is the reason hyaluronidase is used adjunctively in local infiltrative anesthesia techniques. However, the wider spread of the local anesthetic solution may increase the systemic absorption of the local anesthetic, which shortens the duration of anesthetic action and tends to increase the potential risk for systemic side effects.
+BUPivacaine; EPINEPHrine: (Moderate) Hyaluronidase, when used in combination with local anesthetics, hastens the onset of analgesia and reduces the swelling caused by local infiltration; this interaction is beneficial and is the reason hyaluronidase is used adjunctively in local infiltrative anesthesia techniques. However, the wider spread of the local anesthetic solution may increase the systemic absorption of the local anesthetic, which shortens the duration of anesthetic action and tends to increase the potential risk for systemic side effects.
+BUPivacaine; Meloxicam: (Moderate) Hyaluronidase, when used in combination with local anesthetics, hastens the onset of analgesia and reduces the swelling caused by local infiltration; this interaction is beneficial and is the reason hyaluronidase is used adjunctively in local infiltrative anesthesia techniques. However, the wider spread of the local anesthetic solution may increase the systemic absorption of the local anesthetic, which shortens the duration of anesthetic action and tends to increase the potential risk for systemic side effects.
+Butalbital; Aspirin; Caffeine; Codeine: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Carbinoxamine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Chlophedianol; Dexbrompheniramine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Chlophedianol; Dexchlorpheniramine; Pseudoephedrine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Chlorcyclizine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Chloroprocaine: (Moderate) Hyaluronidase, when used in combination with local anesthetics, hastens the onset of analgesia and reduces the swelling caused by local infiltration; this interaction is beneficial and is the reason hyaluronidase is used adjunctively in local infiltrative anesthesia techniques. However, the wider spread of the local anesthetic solution may increase the systemic absorption of the local anesthetic, which shortens the duration of anesthetic action and tends to increase the potential risk for systemic side effects.
+Chlorpheniramine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Chlorpheniramine; Codeine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Chlorpheniramine; Dextromethorphan: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Chlorpheniramine; Dextromethorphan; Phenylephrine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Chlorpheniramine; Dextromethorphan; Pseudoephedrine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Chlorpheniramine; HYDROcodone: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Chlorpheniramine; Ibuprofen; Pseudoephedrine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Chlorpheniramine; Phenylephrine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Chlorpheniramine; Pseudoephedrine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Choline Salicylate; Magnesium Salicylate: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Clemastine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Cocaine: (Moderate) Hyaluronidase, when used in combination with local anesthetics, hastens the onset of analgesia and reduces the swelling caused by local infiltration; this interaction is beneficial and is the reason hyaluronidase is used adjunctively in local infiltrative anesthesia techniques. However, the wider spread of the local anesthetic solution may increase the systemic absorption of the local anesthetic, which shortens the duration of anesthetic action and tends to increase the potential risk for systemic side effects.
+Codeine; Dexbrompheniramine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Conjugated Estrogens: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Conjugated Estrogens; Bazedoxifene: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Conjugated Estrogens; medroxyPROGESTERone: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Corticotropin, ACTH: (Minor) Corticosteroids (e.g., cortisone, corticotropin, ACTH), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Cortisone: (Minor) Corticosteroids (e.g., cortisone, corticotropin, ACTH), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Cyproheptadine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Desogestrel: Ethinyl Estradiol; Ferrous Bisglycinate: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Desogestrel; Ethinyl Estradiol: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Dexbrompheniramine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Dexbrompheniramine; Dextromethorphan; Phenylephrine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Dexbrompheniramine; Pseudoephedrine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Dexchlorpheniramine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Dexchlorpheniramine; Dextromethorphan; Pseudoephedrine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Dextromethorphan; diphenhydrAMINE; Phenylephrine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Dienogest; Estradiol valerate: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+dimenhyDRINATE: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+diphenhydrAMINE: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+diphenhydrAMINE; Ibuprofen: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+diphenhydrAMINE; Naproxen: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+diphenhydrAMINE; Phenylephrine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Doxylamine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Doxylamine; Pyridoxine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Drospirenone; Estetrol: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Drospirenone; Estradiol: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Drospirenone; Ethinyl Estradiol: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Drospirenone; Ethinyl Estradiol; Levomefolate: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Elagolix; Estradiol; Norethindrone acetate: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Ester local anesthetics: (Moderate) Hyaluronidase, when used in combination with local anesthetics, hastens the onset of analgesia and reduces the swelling caused by local infiltration; this interaction is beneficial and is the reason hyaluronidase is used adjunctively in local infiltrative anesthesia techniques. However, the wider spread of the local anesthetic solution may increase the systemic absorption of the local anesthetic, which shortens the duration of anesthetic action and tends to increase the potential risk for systemic side effects.
+Esterified Estrogens: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Esterified Estrogens; methylTESTOSTERone: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Estradiol: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Estradiol; Levonorgestrel: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Estradiol; Norethindrone: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Estradiol; Norgestimate: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Estradiol; Progesterone: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Estrogens: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Ethinyl Estradiol; Norelgestromin: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Ethinyl Estradiol; Norethindrone Acetate: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Ethinyl Estradiol; Norgestrel: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Ethynodiol Diacetate; Ethinyl Estradiol: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Etonogestrel; Ethinyl Estradiol: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+hydrOXYzine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Hyoscyamine; Methenamine; Methylene Blue; Phenyl Salicylate; Sodium Biphosphate: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Levonorgestrel; Ethinyl Estradiol: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Levonorgestrel; Ethinyl Estradiol; Ferrous Bisglycinate: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Levonorgestrel; Ethinyl Estradiol; Ferrous Fumarate: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Lidocaine: (Moderate) Hyaluronidase, when used in combination with local anesthetics, hastens the onset of analgesia and reduces the swelling caused by local infiltration; this interaction is beneficial and is the reason hyaluronidase is used adjunctively in local infiltrative anesthesia techniques. However, the wider spread of the local anesthetic solution may increase the systemic absorption of the local anesthetic, which shortens the duration of anesthetic action and tends to increase the potential risk for systemic side effects.
+Lidocaine; EPINEPHrine: (Moderate) Hyaluronidase, when used in combination with local anesthetics, hastens the onset of analgesia and reduces the swelling caused by local infiltration; this interaction is beneficial and is the reason hyaluronidase is used adjunctively in local infiltrative anesthesia techniques. However, the wider spread of the local anesthetic solution may increase the systemic absorption of the local anesthetic, which shortens the duration of anesthetic action and tends to increase the potential risk for systemic side effects.
+Lidocaine; Prilocaine: (Moderate) Hyaluronidase, when used in combination with local anesthetics, hastens the onset of analgesia and reduces the swelling caused by local infiltration; this interaction is beneficial and is the reason hyaluronidase is used adjunctively in local infiltrative anesthesia techniques. However, the wider spread of the local anesthetic solution may increase the systemic absorption of the local anesthetic, which shortens the duration of anesthetic action and tends to increase the potential risk for systemic side effects.
+Magnesium Salicylate: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Meclizine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Mepivacaine: (Moderate) Hyaluronidase, when used in combination with local anesthetics, hastens the onset of analgesia and reduces the swelling caused by local infiltration; this interaction is beneficial and is the reason hyaluronidase is used adjunctively in local infiltrative anesthesia techniques. However, the wider spread of the local anesthetic solution may increase the systemic absorption of the local anesthetic, which shortens the duration of anesthetic action and tends to increase the potential risk for systemic side effects.
+Methenamine; Sodium Salicylate: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Norethindrone Acetate; Ethinyl Estradiol; Ferrous fumarate: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Norethindrone; Ethinyl Estradiol: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Norethindrone; Ethinyl Estradiol; Ferrous fumarate: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Norgestimate; Ethinyl Estradiol: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Prilocaine: (Moderate) Hyaluronidase, when used in combination with local anesthetics, hastens the onset of analgesia and reduces the swelling caused by local infiltration; this interaction is beneficial and is the reason hyaluronidase is used adjunctively in local infiltrative anesthesia techniques. However, the wider spread of the local anesthetic solution may increase the systemic absorption of the local anesthetic, which shortens the duration of anesthetic action and tends to increase the potential risk for systemic side effects.
+Prilocaine; EPINEPHrine: (Moderate) Hyaluronidase, when used in combination with local anesthetics, hastens the onset of analgesia and reduces the swelling caused by local infiltration; this interaction is beneficial and is the reason hyaluronidase is used adjunctively in local infiltrative anesthesia techniques. However, the wider spread of the local anesthetic solution may increase the systemic absorption of the local anesthetic, which shortens the duration of anesthetic action and tends to increase the potential risk for systemic side effects.
+Pseudoephedrine; Triprolidine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Relugolix; Estradiol; Norethindrone acetate: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+ROPivacaine: (Moderate) Hyaluronidase, when used in combination with local anesthetics, hastens the onset of analgesia and reduces the swelling caused by local infiltration; this interaction is beneficial and is the reason hyaluronidase is used adjunctively in local infiltrative anesthesia techniques. However, the wider spread of the local anesthetic solution may increase the systemic absorption of the local anesthetic, which shortens the duration of anesthetic action and tends to increase the potential risk for systemic side effects.
+Salicylates: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Salsalate: (Minor) Salicylates, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Sedating H1-blockers: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Segesterone Acetate; Ethinyl Estradiol: (Minor) Estrogens, when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Sodium Iodide I-131: (Moderate) Monitor for bone marrow suppression during concomitant use of sodium iodide I-131 and antineoplastic agents. Concomitant use of bone marrow depressants may enhance the depression of the hematopoietic system caused by the use of large doses of sodium iodide I-131.
+Tetracaine: (Moderate) Hyaluronidase, when used in combination with local anesthetics, hastens the onset of analgesia and reduces the swelling caused by local infiltration; this interaction is beneficial and is the reason hyaluronidase is used adjunctively in local infiltrative anesthesia techniques. However, the wider spread of the local anesthetic solution may increase the systemic absorption of the local anesthetic, which shortens the duration of anesthetic action and tends to increase the potential risk for systemic side effects.
+Triprolidine: (Minor) H1-blockers (antihistamines), when given in large systemic doses, may render tissues partially resistant to the action of hyaluronidase. Patients receiving these medications may require larger amounts of hyaluronidase for equivalent dispersing effect.
+Tuberculin Purified Protein Derivative, PPD: (Moderate) Immunosuppressives may decrease the immunological response to tuberculin purified protein derivative, PPD. This suppressed reactivity can persist for up to 6 weeks after treatment discontinuation. Consider deferring the skin test until completion of the immunosuppressive therapy.
+
+
+Adverse Reaction
+interstitial lung disease, pneumonitis
+
+
+Immune-mediated pneumonitis or interstitial lung disease requiring the use of systemic corticosteroids has occurred in patients treated with atezolizumab; hyaluronidase and fatal cases have been reported with intravenous atezolizumab; the incidence is higher in patients who have received prior thoracic radiation. Monitor patients for signs and symptoms of pneumonitis; if suspected, confirm with radiographic imaging. Atezolizumab; hyaluronidase therapy may need to be temporarily withheld or permanently discontinued; treatment with corticosteroids may be necessary. Pneumonitis occurred in 2% of patients (n = 247) with locally advanced or metastatic NSCLC treated with atezolizumab; hyaluronidase monotherapy (IMscin001 trial). Systemic corticosteroids were required for pneumonitis resolution; one patient reinitiated therapy after symptom improvement. Immune-mediated pneumonitis including interstitial lung disease occurred in 13% (grade 3 or 4, 1.3%) of patients who received intravenous atezolizumab plus cobimetinib and vemurafenib (n = 230) in a randomized trial (IMspire150).
+
+
+cough, dyspnea, rhinitis
+
+
+Cough (13%) and dyspnea (12%; grade 3 or 4, 1.2%) were reported in patients who received atezolizumab; hyaluronidase monotherapy with locally advanced or metastatic non-small cell lung cancer (NSCLC). Cough (12% to 45%; grade 3 or 4, less than 1%) and dyspnea (less than 10% to 33%; grade 3 or 4, 4.9% or less) have also been reported in patients treated with intravenous atezolizumab as monotherapy or in combination with various anticancer agents across clinical trials. Allergic rhinitis occurred in 16% of patients (n = 49) with unresectable or metastatic alveolar soft part sarcoma who received intravenous atezolizumab in a clinical study.
+
+
+pleural effusion
+
+
+Pleural effusion occurred in more than 1% (grade 5, 0.4%) of patients with locally advanced or metastatic non-small cell lung cancer (NSCLC) treated with atezolizumab; hyaluronidase monotherapy in a randomized clinical trial.
+
+
+hepatitis
+
+
+Immune-mediated hepatitis occurred in 1.2% (grade 3, 0.8%) of patients with locally advanced or metastatic non-small cell lung cancer (NSCLC) treated with atezolizumab; hyaluronidase monotherapy in clinical trials; the incidence was higher in patients treated with intravenous atezolizumab in combination with cobimetinib and vemurafenib in 1 clinical trial (6.1%; grade 3 or 4, 3%). Monitor liver function tests; treatment with corticosteroids and an interruption or discontinuation of atezolizumab; hyaluronidase therapy may be necessary. Systemic corticosteroids were required in 67% of patients with hepatitis receiving atezolizumab; hyaluronidase monotherapy and in 50% of those who received intravenous atezolizumab plus cobimetinib/vemurafenib; resolution occurred in 33% and 93% of patients, respectively. Three of the 4 patients treated with intravenous atezolizumab/cobimetinib/vemurafenib who had an interruption of therapy due to hepatitis reinitiated therapy after symptom improvement; 33% had recurrence of hepatitis. Monitor liver function tests during therapy.
+
+
+colitis, diarrhea, enterocolitis
+
+
+Immune-mediated colitis occurred in 1% (grade 3, 0.5%) of patients treated with intravenous atezolizumab monotherapy in clinical trials; colitis can present with diarrhea, stomach pain, or lower gastrointestinal bleeding. Systemic corticosteroids were required in 50% of patients with colitis, with resolution occurring in 73% of patients. Of the 12 patients who had an interruption of therapy for colitis, 8 reinitiated therapy; 25% of these patients had a recurrence of colitis. Diarrhea, including colitis and enterocolitis, occurred in 11% to 27% (grade 3 or 4, 2% or less) of intravenous atezolizumab-treated patients with advanced hepatocellular cancer (in combination with bevacizumab), small cell lung cancer (in combination with lurbinectedin), non-small cell lung cancer (NSCLC), or alveolar soft part sarcoma in clinical trials; the incidence was higher in advanced NSCLC patients treated with intravenous atezolizumab plus carboplatin and paclitaxel or nab-paclitaxel (33% to 43%; grade 3 or 4, 6%). Atezolizumab; hyaluronidase therapy may need to be interrupted or discontinued depending on severity; treatment with systemic corticosteroids may be necessary. In patients with steroid-refractory colitis, consider repeating infectious workup to exclude alternative etiologies.
+
+
+bowel ischemia, constipation, GI obstruction
+
+
+Constipation was reported in 11% to 33% (grade 3 or 4, 1% or less) of patients treated with IV atezolizumab in clinical trials. The addition of intravenous atezolizumab to chemotherapy has a small, but inconsistent effect on constipation compared to chemotherapy alone. Fatal cases of GI obstruction and intestinal/bowel ischemia have also been reported with IV atezolizumab therapy.
+
+
+abdominal pain
+
+
+Abdominal pain was reported in 12% of patients with hepatocellular cancer receiving intravenous atezolizumab in combination with bevacizumab in a clinical trial. Abdominal pain occurred in 25% of patients (n = 49) with unresectable or metastatic alveolar soft part sarcoma who received intravenous atezolizumab in a clinical study.
+
+
+cheilitis, glossitis, nausea, oral ulceration, stomatitis, vomiting
+
+
+Nausea occurred in 14% to 18% (grade 3 or 4, less than 1%) of patients with non-small cell lung cancer (NSCLC) treated with intravenous atezolizumab monotherapy in 2 clinical trials. Neither nausea nor vomiting were reported in patients with NSCLC treated with atezolizumab; hyaluronidase or intravenous atezolizumab monotherapy in 2 other separate clinical trials. Nausea (12%) and vomiting (10%) were reported in patients with hepatocellular cancer treated with intravenous atezolizumab in combination with bevacizumab. Nausea (43%) and vomiting (37%) occurred in patients (n = 49) with unresectable or metastatic alveolar soft part sarcoma who received intravenous atezolizumab in a single clinical study. The addition of intravenous atezolizumab to chemotherapy increased the incidence of nausea and vomiting by less than 10% each compared to chemotherapy alone in 3 clinical trials. Similarly, the incidence of nausea (36% vs. 4%; grade 3 or 4, 3% vs. 1%) and vomiting (14% vs. 3%; grade 3 or 4, 1% vs. none) were increased in patients with small cell lung cancer treated with intravenous atezolizumab in combination with lurbinectedin compared with intravenous atezolizumab alone. Nausea occurred less often in patients with melanoma treated with intravenous atezolizumab plus cobimetinib and vemurafenib compared with those who received placebo plus cobimetinib and vemurafenib (30% vs. 32%; grade 3 or 4, less than 1% vs. 2.5%). Stomatitis occurred in 23% (grade 3 or 4, 1.3%) of patients treated with intravenous atezolizumab in the same trial including mucosal inflammation, aphthous ulcer, mouth/oral ulceration, cheilitis, and glossitis; oropharyngeal pain was also reported in less than 10% of patients in the same population.
+
+
+dehydration
+
+
+Dehydration was reported as leading to a discontinuation of intravenous atezolizumab therapy in more than 1% of patients with metastatic non-small cell lung cancer treated in combination with either bevacizumab/paclitaxel, carboplatin, or nab-paclitaxel/carboplatin in clinical trials.
+
+
+adrenocortical insufficiency, hypophysitis
+
+
+Immune-mediated endocrinopathies have been reported in patients treated with atezolizumab; hyaluronidase. Adrenocortical insufficiency occurred in 2 patients (0.8%) treated with locally advanced or metastatic non-small cell lung cancer (NSCLC) (IMscin001 trial). Systemic corticosteroids were required in 50% of patients; this single patient remained on systemic corticosteroids. Grade 1 hypophysitis was also reported in 1 patient (0.4%) in the IMscin001 trial. Monitor patients for signs and symptoms of hypophysitis and adrenal insufficiency; an interruption or discontinuation of therapy may be necessary. Administer corticosteroids and hormone replacement as clinically indicated.
+
+
+hypothyroidism, thyroiditis
+
+
+Immune-mediated hypothyroidism occurred in 10% of patients treated with atezolizumab; hyaluronidase monotherapy in advanced non-small cell lung cancer (NSCLC) in 1 clinical trial; hypothyroidism can follow a patient being hyperthyroid. Immune-mediated thyroiditis occurred in 0.8% of patients in this trial, with resolution in 50% of patients. Most patients (68%) required hormone replacement therapy, with 2 of 25 patients remaining on thyroid replacement. Begin hormone replacement for hypothyroidism as clinically indicated. Hypothyroidism occurred in 11% of patients with NSCLC or small cell lung cancer (SCLC) who received IV atezolizumab plus platinum-based chemotherapy in 5 clinical trials (grade 3 or 4, less than 0.4%) and in 26% of patients who received IV atezolizumab plus cobimetinib and vemurafenib in another clinical trial; decreased triiodothyronine (27% vs. 21%) and decreased total triiodothyronine (32% vs. 8%) also occurred more frequently in patients who received intravenous atezolizumab plus cobimetinib/vemurafenib compared with placebo plus cobimetinib/vemurafenib. Atezolizumab; hyaluronidase therapy may need to be interrupted or discontinued depending on severity; treatment with systemic corticosteroids may also be necessary.
+
+
+hyperthyroidism
+
+
+Immune-mediated hyperthyroidism occurred in 2% of patients treated with atezolizumab; hyaluronidase monotherapy in locally advanced or metastatic non-small cell lung cancer (NSCLC) in a randomized clinical trial; it was more common in patients who received intravenous atezolizumab in combination with cobimetinib and vemurafenib (19%; grade 3, 0.9%) in another clinical trial. Antithyroid therapy was required in 40% of patients who received atezolizumab; hyaluronidase monotherapy and in 53% of those who received intravenous atezolizumab plus cobimetinib and vemurafenib. One patient remained on anti-thyroid treatment who received atezolizumab; hyaluronidase and the majority of patients treated with intravenous atezolizumab plus cobimetinib and vemurafenib remained on anti-thyroid treatment. Evaluate thyroid function at baseline and monitor periodically during treatment. Begin medical management of hyperthyroidism as clinically indicated. Atezolizumab; hyaluronidase therapy may need to be interrupted or discontinued depending on severity. Decreased TSH was reported more often in patients treated with intravenous atezolizumab in combination with carboplatin/etoposide compared with placebo plus carboplatin/etoposide (28% vs. 15) or in combination with cobimetinib/vemurafenib compared with placebo plus cobimetinib/vemurafenib (38% vs. 23%) in randomized clinical trials. Increased triiodothyronine (33% vs. 18%) and increased free thyroxine (32% vs. 21%) also occurred more frequently in patients who received intravenous atezolizumab plus cobimetinib/vemurafenib compared with placebo plus cobimetinib/vemurafenib.
+
+
+diabetes mellitus, diabetic ketoacidosis, hyperglycemia, hypoglycemia
+
+
+Hyperglycemia, including type 1 diabetes mellitus and diabetic ketoacidosis, can occur with atezolizumab; hyaluronidase therapy. Monitor for hyperglycemia or other signs and symptoms of diabetes and initiate treatment with insulin as clinically indicated; an interruption or discontinuation of therapy may be necessary. Hyperglycemia (78%) and hypoglycemia (33%) including decreased fasting glucose level (25%) occurred in patients (n = 49) with unresectable or metastatic alveolar soft part sarcoma who received intravenous atezolizumab in a clinical study. The incidence of hyperglycemia was similar when atezolizumab was added to platinum-based chemotherapy compared with placebo plus platinum-based chemotherapy (61% to 75% vs. 60% to 66%; grade 3 or 4, 10% or less vs. 8% or less). Hyperglycemia occurred in 48% (grade 3 or 4, 43%) patients with hepatocellular cancer treated with intravenous atezolizumab plus bevacizumab compared with 43% (grade 3 or 4, 4.6%) of those treated with sorafenib. Hyperglycemia was reported in less than 10% of melanoma patients who received intravenous atezolizumab in combination with cobimetinib/vemurafenib.
+
+
+hemophagocytic lymphohistiocytosis, leukopenia, lymphopenia, neutropenia
+
+
+Lymphopenia, including decreases from baseline in lymphocytes, occurred in 37% (grade 3 or 4, 9%) of patients with locally advanced or metastatic non-small cell lung cancer (NSCLC) treated with atezolizumab; hyaluronidase monotherapy; it was not reported in patients receiving adjuvant IV atezolizumab monotherapy for early NSCLC, but decreases from baseline in lymphocytes occurred in 23% of patients receiving adjuvant IV atezolizumab for the treatment of bladder cancer. When administered in combination with chemotherapy, the effect of IV atezolizumab on hematologic parameters reflects the effect of concomitant chemotherapy. The addition of IV atezolizumab to chemotherapy increased the incidence of neutropenia, lymphopenia, and leukopenia by up to 10% (grade 3 or 4, 11% or less). Similarly, the addition of IV atezolizumab to lurbinectedin increased the incidence of lymphopenia and neutropenia by up to 24% (grade 3 or 4, 14% or less) compared to IV atezolizumab alone. Febrile neutropenia also occurred in at least 1.9% of patients treated with IV atezolizumab plus chemotherapy; some cases were fatal. A fatal case of febrile neutropenia also occurred in a patient treated with atezolizumab in combination with lurbinectedin. Immune-mediated hemophagocytic lymphohistiocytosis occurred in less than 1% of patients receiving IV atezolizumab or other PD-1/PD-L1 inhibitors. An interruption or discontinuation of therapy and treatment with systemic corticosteroids may be necessary for patients who develop immune-mediated reactions.
+
+
+anemia, aplastic anemia, hemolytic anemia
+
+
+Immune-mediated aplastic anemia and hemolytic anemia were each reported in less than 1% of patients who received IV atezolizumab or other PD-1/PD-L1 inhibitors in clinical trials. An interruption or discontinuation of therapy and treatment with systemic corticosteroids may be necessary for patients who develop immune-mediated reactions. Anemia, including decreases from baseline in hemoglobin, (63% to 69%; grade 3 or 4, 3% or less) occurred in patients with advanced non-small cell lung cancer (NSCLC) and alveolar soft part sarcoma treated with IV atezolizumab monotherapy; it was not reported in patients receiving adjuvant IV atezolizumab monotherapy for early NSCLC and occurred in 30% of patients receiving adjuvant IV atezolizumab for bladder cancer (grade 3 or 4, 1.8%). When administered in combination with chemotherapy, the effect of IV atezolizumab on hematologic parameters reflects the effect of concomitant chemotherapy. The addition of IV atezolizumab to chemotherapy increased the incidence of anemia by up to 5% (grade 3 or 4, 8% or less); similarly, the addition of lurbinectedin to IV atezolizumab increased the incidence of anemia by 39% (grade 3 or 4, 10%) compared to IV  atezolizumab alone.
+
+
+purpura, thrombocytopenia, thrombocytosis
+
+
+Immune thrombocytopenic purpura occurred in less than 1% of patients who received intravenous atezolizumab or other PD-1/PD-L1 inhibitors in clinical trials. An interruption or discontinuation of therapy and treatment with systemic corticosteroids may be necessary for patients who develop immune-mediated reactions. Decreases from baseline in platelets (thrombocytopenia) (27%) and increases from baseline in platelets (thrombocytosis) (29%) occurred in patients (n = 49) with unresectable or metastatic alveolar soft part sarcoma who received intravenous atezolizumab in a clinical trial. When administered in combination with chemotherapy, the effect of intravenous atezolizumab on hematologic parameters reflects the effect of concomitant chemotherapy. The addition of intravenous atezolizumab to chemotherapy (e.g., bevacizumab, nab-paclitaxel/carboplatin, etoposide/cisplatin, and cobimetinib/vemurafenib) increased the incidence of thrombocytopenia by 5% to 14% (grade 3 or 4, 0.9% to 6%). Similarly, the addition of lurbinectedin to intravenous atezolizumab increased the incidence of thrombocytopenia by 39% (grade 3 or 4, 12%) compared to intravenous atezolizumab alone in 1 randomized trial.
+
+
+encephalopathy, meningitis
+
+
+Immune-related meningitis and encephalitis occurred in less than 1% of patients treated with intravenous atezolizumab or were reported with the use of other PD-1/PD-L1 inhibitors. Monitor patients for clinical signs and symptoms of meningitis or encephalitis/encephalopathy; discontinuation of therapy and treatment with corticosteroids may be necessary.
+
+
+Guillain-Barre syndrome, myasthenia, myelitis, paresis
+
+
+Immune-mediated myasthenic syndrome/myasthenia gravis, Guillain-Barre syndrome, myelitis and demyelination, and nerve paresis have each occurred in less than 1% of patients treated with IV atezolizumab or were reported with the use of other PD-1/PD-L1 inhibitors. A Myocarditis-Myositis-Myasthenia Gravis (or Myasthenia-Like) Overlap Syndrome, reported as the co-occurrence of either two or all three adverse reactions, has also been reported. An interruption or discontinuation of therapy may be necessary, along with treatment with high-dose corticosteroids.
+
+
+dysesthesia, hypoesthesia, paresthesias, peripheral neuropathy
+
+
+Peripheral neuropathy occurred in 12% (grade 3 or 4, 0.4%) of patients receiving adjuvant treatment of non-small cell lung cancer (NSCLC) with intravenous atezolizumab monotherapy following the completion of platinum-based chemotherapy, including paresthesias, hypoesthesia, polyneuropathy, dysesthesia, neuralgia, and axonal neuropathy. The addition of intravenous atezolizumab to chemotherapy (bevacizumab/carboplatin/paclitaxel or nab-paclitaxel/carboplatin) increased the incidence of neuropathy by 5% to 9% (grade 3 or 4, 0.3% or less) compared with chemotherapy alone in 2 clinical trials. Autoimmune neuropathy occurred in less than 1% of patients treated with intravenous atezolizumab or was reported with the use of other PD-1/PD-L1 inhibitors. Monitor patients for symptoms of motor and sensory neuropathy. An interruption or discontinuation of therapy may be necessary, along with treatment with high-dose corticosteroids.
+
+
+hyperamylasemia, pancreatitis
+
+
+Immune-mediated pancreatitis including hyperamylasemia and increases in serum lipase levels have occurred in less than 1% of patients treated with intravenous atezolizumab or other PD-1/PD-L1 inhibitors in clinical trials. Monitor patients for signs and symptoms of acute pancreatitis. An interruption or discontinuation of therapy may be necessary, as well as treatment with high dose corticosteroids. Decreased amylase level (40%), increased amylase level/hyperamylasemia (grade 3 or 4, 20%) and increased lipase level (grade 3 or 4, 25%) occurred in patients (n = 49) with unresectable or metastatic alveolar soft part sarcoma who received intravenous atezolizumab in a clinical study. Pancreatitis occurred in less than 10% of patients with advanced melanoma treated with intravenous atezolizumab plus cobimetinib and vemurafenib in a clinical trial; increased amylase (51% vs. 45%; grade 3 or 4, 13% vs. 13%) and triacylglycerol lipase (75% vs. 62%; grade 3 or 4, 46% vs. 35%) levels from baseline were more common in patients who received intravenous atezolizumab plus cobimetinib and vemurafenib compared with placebo plus cobimetinib and vemurafenib.
+
+
+iritis, retinal detachment, uveitis, visual impairment, Vogt-Koyanagi-Harada syndrome
+
+
+Immune-mediated uveitis, iritis, and other ocular inflammatory toxicities each occurred in less than 1% of patients who received intravenous atezolizumab or other PD-1/PD-L1 inhibitors in clinical trials; some cases can be associated with retinal detachment. Various grades of visual impairment, including blindness, can occur. If uveitis occurs in combination with other immune-mediated adverse reactions, evaluate for Vogt-Koyanagi-Harada syndrome; treatment with systemic steroids may be necessary to reduce the risk of permanent vision loss. Uveitis occurred in less than 10% of patients with advanced melanoma who received intravenous atezolizumab plus cobimetinib and vemurafenib in a randomized trial.
+
+
+infection, influenza, sepsis
+
+
+Infection, including pneumonia, has been reported across clinical trials of patients treated with atezolizumab; hyaluronidase or intravenous atezolizumab. Serious cases of pneumonia occurred in 1% to 6% of lung cancer patients who received intravenous atezolizumab as monotherapy or in combination with chemotherapy; some cases were fatal. Serious infections occurred in 6% of patients with hepatocellular cancer treated with intravenous atezolizumab and bevacizumab. Serious cases of pneumonia occurred in 4.3% of melanoma patients treated with intravenous atezolizumab in combination with cobimetinib and vemurafenib; urinary tract infection occurred in less than 10% of these patients. Serious cases of respiratory tract infection (2.1%) occurred in patients with small cell lung cancer treated with intravenous atezolizumab plus lurbinectedin in a randomized trial; fatal cases of sepsis (3) and febrile neutropenia (1) were also reported in patients in the same population. Influenza-like illness occurred in 18% of patients (n = 49) with unresectable or metastatic alveolar soft part sarcoma who received intravenous atezolizumab in a clinical study. Systemic inflammatory response syndrome (SIRS) and histiocytic necrotizing lymphadenitis (Kikuchi lymphadenitis) have also been reported in less than 1% of patients treated with intravenous atezolizumab or were reported with the use of other PD-1/PD-L1 inhibitors.
+
+
+anaphylactoid reactions, infusion-related reactions
+
+
+Severe or life-threatening infusion-related reactions (IRR), including anaphylactoid reactions/anaphylaxis, have been reported with atezolizumab; hyaluronidase therapy. If IRR occurs, pause, slow the rate of, or discontinue atezolizumab; hyaluronidase depending on the severity; consider using premedications with subsequent doses for mild (grade 1 or 2) infusion reactions. Local injection site reactions occurred in 4.5% of patients treated with atezolizumab; hyaluronidase.
+
+
+acneiform rash, contact dermatitis, Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS), erythema multiforme, exfoliative dermatitis, lichen planus-like eruption, maculopapular rash, palmar-plantar erythrodysesthesia (hand and foot syndrome), photosensitivity, pruritus, psoriaform rash, rash, Stevens-Johnson syndrome, toxic epidermal necrolysis
+
+
+Immune-mediated dermatologic/skin toxicity, including exfoliative dermatitis, Stevens-Johnson Syndrome (SJS), toxic epidermal necrolysis (TEN), and drug reaction with eosinophilia and systemic symptoms (DRESS) has occurred in patients treated with PD-1/PD-L1 inhibitors; one fatal case of TENS was reported with atezolizumab; hyaluronidase treatment. Topical emollients and/or topical corticosteroids may be adequate to treat mild-to-moderate non-exfoliative rashes. Atezolizumab; hyaluronidase therapy may need to be interrupted or discontinued depending on the severity of rash; treatment with systemic corticosteroids may also be necessary. In clinical trials with intravenous atezolizumab, 20% of patients who experienced skin toxicity received systemic corticosteroids; skin toxicity resolved in 87% of patients. Rash occurred in 12% to 23% (grade 3 or 4, 2% or less) of patients who treated with intravenous atezolizumab as monotherapy or in combination with chemotherapy (e.g., bevacizumab/carboplatin/paclitaxel, nab-paclitaxel/carboplatin), including acneiform rash, contact dermatitis, exfoliative dermatitis, asteatotic and dyshidrotic eczema, genital rash, erythematous rash, lichen planus-like eruption, maculopapular rash, palmar-plantar erythrodysesthesia (hand and foot syndrome), pemphigoid, pruritic rash, psoriaform rash, pustular rash, and seborrheic dermatitis; pruritus occurred in 10% to 19% (grade 3 or 4, less than 1%) of these patients. Additionally, rash occurred in 47% (grade 3 or 4, 2%) of patients (n = 49) with unresectable or metastatic alveolar soft part sarcoma who received intravenous atezolizumab in a clinical study. Rash including the previous terms as well as nodular rash, morbilliform rash, and erythema multiforme (75% vs. 72%; grade 3 or 4, 27% vs. 23%) and pruritus (26% vs. 17%; grade 3 or 4, less than 1% vs. less than 1%) were more common in melanoma patients treated with intravenous atezolizumab plus cobimetinib and vemurafenib but occurred with a similar frequency in the control arm (placebo plus cobimetinib and vemurafenib); photosensitivity (21% vs. 25%; grade 3 or 4, less than 1% vs. 3.2%) and vitiligo (less than 10%) were also reported in intravenous atezolizumab-treated patients in this trial.
+
+
+alopecia
+
+
+Alopecia has been reported with intravenous atezolizumab therapy when combined with chemotherapy, although the incidence is not meaningfully different than chemotherapy alone.
+
+
+acute kidney injury, interstitial nephritis, renal failure
+
+
+Atezolizumab; hyaluronidase can cause immune-mediated nephritis. Immune-mediated interstitial nephritis with renal dysfunction was reported in 3 patients (n = 230) treated with IV atezolizumab plus cobimetinib and vemurafenib in a clinical trial; 2 of the 3 patients required treatment with systemic corticosteroids, with resolution in all 3 patients. Acute kidney injury occurred in 2.4% of bladder cancer patients receiving adjuvant IV atezolizumab monotherapy and in 2.2% of melanoma patients receiving IV atezolizumab plus cobimetinib. Renal failure has been reported with IV atezolizumab; some cases were fatal. An increase in creatinine occurred in 19% (grade 3 or 4, 1.7%) of patients treated with atezolizumab; hyaluronidase therapy in 1 trial; increases in creatinine were also reported in 21% to 31% (grade 3 or 4, 0.2% to 4%) in patients treated with IV atezolizumab as monotherapy or in combination with various anticancer agents in 7 clinical trials. Atezolizumab; hyaluronidase therapy may need to be interrupted or discontinued depending on the severity of renal impairment; treatment with systemic corticosteroids may also be necessary.
+
+
+proteinuria
+
+
+Proteinuria occurred in 16% to 20% of patients with non-small cell lung cancer (NSCLC) or hepatocellular cancer treated with intravenous atezolizumab in combination with bevacizumab in 2 clinical trials (grade 3 or 4, 3%); the patients with NSCLC additionally received paclitaxel and carboplatin.
+
+
+hypercalcemia, hyperkalemia, hypermagnesemia, hypernatremia, hyperphosphatemia, hypocalcemia, hypokalemia, hypomagnesemia, hyponatremia, hypophosphatemia
+
+
+Electrolyte abnormalities have been reported with atezolizumab; hyaluronidase and intravenous atezolizumab therapy in clinical trials. Hyponatremia including decreases from baseline in sodium (42% to 46%; grade 3 or 4, 9% or less), hypocalcemia including decreases from baseline in calcium (22% to 47%; grade 3 or 4, 2.6% or less), hypercalcemia including increases from baseline in calcium (20% to 25%; grade 3 or 4, 2.6% to 14%), hyperkalemia including increases from baseline in potassium (21% to 29%; grade 3 or 4, 1.7% to 3.9%), hypomagnesemia including decreases from baseline in magnesium (21% to 26%; grade 3 or 4, 1% or less), hypermagnesemia including increases from baseline in magnesium (grade 3 or 4, 26%), and hypophosphatemia (23% to 27%; grade 3 or 4, 3.6% to 5%) were reported in patients treated with atezolizumab; hyaluronidase or intravenous atezolizumab monotherapy across clinical trials. A wider range of electrolyte abnormalities were reported in clinical trials with intravenous atezolizumab in combination with various anticancer agents (e.g., cytotoxic chemotherapy, bevacizumab, vemurafenib, and cobimetinib) including hyponatremia/decreases in sodium (27% to 54%; grade 3 or 4, 4% to 15%), hypernatremia/increases in sodium (20%), hypocalcemia/decreases in calcium (24% to 41%; grade 3 or 4, 0.3% to 3%), hyperkalemia/increases in potassium (23% to 29%; grade 3 or 4, 1.3% to 3%), hypokalemia/decreases in potassium (22% to 36%; grade 3 or 4, 7% or less), hypomagnesemia/decreases in magnesium (31% to 50%; grade 3 or 4, 2% to 5%), hypophosphatemia/decreases in phosphorus (25% to 67%; grade 3 or 4, 4% to 22%), and hyperphosphatemia/increases in phosphorus (21%to 25%).
+
+
+edema, peripheral edema
+
+
+Edema occurred in 26% (grade 3 or 4, less than 1%) of patients with advanced melanoma who received intravenous atezolizumab plus cobimetinib and vemurafenib in a randomized trial compared with 21% of patients who received placebo plus cobimetinib and vemurafenib. The term edema included peripheral edema; lymphedema; face, eyelid, and periorbital edema; and lip edema.
+
+
+pulmonary embolism
+
+
+A fatal case of pulmonary embolism was reported with atezolizumab; hyaluronidase therapy in a randomized clinical trial. Pulmonary embolism occurred in greater than 1% of NSCLC patients receiving intravenous atezolizumab monotherapy and in 3% of NSCLC patients receiving intravenous atezolizumab in combination with nab-paclitaxel/carboplatin, and has been fatal in some cases.
+
+
+antibody formation
+
+
+Treatment-emergent antibody formation (ADA) has been reported in 20% of patients who received atezolizumab; hyaluronidase during the first year of treatment in a clinical trial (IMscin001); the incidence of neutralizing antibodies was 54% in these patients. Atezolizumab clearance increased by 29% in patients who tested positive for ADA compared with patients who tested negative; this change in clearance is not expected to be clinically significant.
+
+
+cardiac tamponade, myocardial infarction, myocarditis, pericardial effusion, pericarditis, vasculitis
+
+
+Immune-mediated cardiovascular toxicity that was reported in less than 1% of patients who received IV atezolizumab or that occurred with the use of other PD-1/PD-L1 blocking antibodies included myocarditis, pericarditis, and vasculitis; cases may be severe or fatal. A Myocarditis-Myositis-Myasthenia Gravis (or Myasthenia-Like) Overlap Syndrome, reported as the co-occurrence of either two or all three adverse reactions, has also been reported. Atezolizumab; hyaluronidase therapy may need to be interrupted or discontinued in patients who develop immune-mediated toxicity, depending on the severity of the reaction. Treatment with systemic corticosteroids and other systemic immunosuppressants may be necessary. Fatal cases of myocardial infarction and cardio-respiratory failure have been reported in patients treated with atezolizumab; hyaluronidase and IV atezolizumab in clinical trials. Pericarditis, pericardial effusion, and cardiac tamponade have been reported in postmarketing experience with IV atezolizumab.
+
+
+atrial fibrillation, bradycardia, hypertension, hypertensive crisis, QT prolongation, sinus tachycardia, ventricular tachycardia
+
+
+Hypertension occurred in 25% to 30% of patients with non-small cell lung cancer (NSCLC) or hepatocellular cancer treated with intravenous atezolizumab in combination with bevacizumab in 2 clinical trials (grade 3 or 4, 9% to 15%); the patients with NSCLC additionally received paclitaxel and carboplatin. Hypertension including hypertensive crisis occurred in 17% (grade 3 or 4, 10%) of patients with advanced melanoma who received intravenous atezolizumab plus cobimetinib and vemurafenib in a randomized trial compared with 18% (grade 3 or 4, 7%) of those treated with cobimetinib and vemurafenib without atezolizumab. Cardiac arrhythmias, decreased ejection fraction, and QT prolongation on electrocardiogram occurred in less than 10% of patients who received intravenous atezolizumab in this trial. Cardiac arrhythmias including atrial fibrillation, sinus bradycardia, ventricular tachycardia, and sinus tachycardia (22%; grade 3 or 4, 2%) and hypertension (43%; grade 3 or 4, 6%) occurred in patients (n = 49) with unresectable or metastatic alveolar soft part sarcoma who received atezolizumab in a clinical study.
+
+
+arthralgia, back pain, bone pain, elevated creatine kinase, musculoskeletal pain, myalgia, synovitis
+
+
+Musculoskeletal pain/myalgia was reported in 15% to 20% (grade 3 or 4, 0.4% to 1.3%) of patients treated with atezolizumab; hyaluronidase or IV atezolizumab monotherapy in 3 clinical trials; the incidence was higher (67%; grade 3 or 4, 8%) in patients with metastatic alveolar soft part sarcoma treated with IV atezolizumab monotherapy in a separate trial (n = 49). The incidence of musculoskeletal pain/myalgia was increased (19% to 62%; grade 3 or 4, 1.3% to 4.3%) in patients treated with IV atezolizumab in combination with various anticancer agents, including chemotherapy, in 4 clinical trials. Arthralgia was reported in 11% to 12% (grade 3 or 4, 0.5% to 0.6%) of patients treated with IV atezolizumab in 2 clinical trials and in 26% (grade 3 or 4, 1%) of patients treated with IV atezolizumab plus bevacizumab, carboplatin, and paclitaxel in 1 trial. Elevated creatine kinase was reported in less than 10% of patients with small cell lung cancer treated with IV atezolizumab plus lurbinectedin in 1 trial and in 88% (grade 3 or 4, 22%) of patients treated with IV atezolizumab plus cobimetinib and vemurafenib in a separate clinical trial. The term musculoskeletal pain/myalgia included arthralgia, arthritis, back pain, bone pain, non-cardiac/musculoskeletal chest pain, extremity pain, joint/musculoskeletal stiffness, myalgia, neck pain, and spine pain across clinical trials. A Myocarditis-Myositis-Myasthenia Gravis (or Myasthenia-Like) Overlap Syndrome, reported as the co-occurrence of either two or all three adverse reactions, has also been reported. Teno-synovitis has also been reported in postmarketing experience with IV atezolizumab.
+
+
+rhabdomyolysis, sarcoidosis
+
+
+Immune-mediated myositis/polymyositis, rhabdomyolysis, polymyalgia rheumatic, and sarcoidosis occurred in less than 1% of patients treated with intravenous atezolizumab or were reported with the use of other PD-1/PD-L1 inhibitors.
+
+
+headache
+
+
+Headache was reported in 16% (grade 3 or 4, 0.8%) of patients with metastatic non-small cell lung cancer treated with intravenous atezolizumab plus bevacizumab, paclitaxel, and carboplatin compared with 13% of those treated with bevacizumab, paclitaxel, and carboplatin without intravenous atezolizumab in a randomized clinical trial. Headache occurred in 43% (grade 3 or 4, 4%) of patients (n = 49) with unresectable or metastatic alveolar soft part sarcoma who received intravenous atezolizumab in a clinical study.
+
+
+dizziness, syncope, vertigo
+
+
+Dizziness and syncope were each reported in less than 10% of patients with advanced melanoma who received intravenous atezolizumab plus cobimetinib and vemurafenib in a randomized clinical trial. Dizziness including vertigo occurred in 29% (grade 3 or 4, 4%) of patients (n = 49) with unresectable or metastatic alveolar soft part sarcoma who received intravenous atezolizumab in a clinical study.
+
+
+epistaxis, hemoptysis
+
+
+Epistaxis occurred in 10% to 17% of patients with non-small cell lung cancer (NSCLC) or hepatocellular cancer treated with intravenous atezolizumab in combination with bevacizumab in 2 clinical trials (grade 3 or 4, 1% or less); the patients with NSCLC additionally received paclitaxel and carboplatin. More than 2% of patients with NSCLC who received intravenous atezolizumab plus bevacizumab experienced hemoptysis.
+
+
+intracranial bleeding, stroke
+
+
+Fatal ischemic stroke was reported in 1 patient with locally advanced or metastatic NSCLC treated with atezolizumab; hyaluronidase in a clinical trial. Fatal cerebrovascular accident (stroke) and intracranial bleeding were also reported in patients with metastatic NSCLC treated with intravenous atezolizumab in combination with bevacizumab, paclitaxel, and carboplatin in a randomized clinical trial.
+
+
+asthenia, fatigue, malaise
+
+
+Fatigue/asthenia was reported in 14% to 55% (grade 3 or 4, 0.6% to 4%) of patients treated with atezolizumab; hyaluronidase or intravenous atezolizumab monotherapy in clinical trials. The incidence of fatigue/asthenia was slightly higher (26% to 61%; grade 3 or 4, 2% to 11%) in patients treated with intravenous atezolizumab in combination with various anticancer agents (e.g., bevacizumab, bevacizumab/carboplatin/paclitaxel, nab-paclitaxel/carboplatin, etoposide/cisplatin, lurbinectedin, and cobimetinib/vemurafenib). The term fatigue included asthenia and malaise in 1 clinical trial.
+
+
+dysgeusia
+
+
+Dysgeusia occurred in less than 10% of patients with advanced melanoma who received intravenous atezolizumab plus cobimetinib and vemurafenib in a randomized trial.
+
+
+anorexia
+
+
+Anorexia or decreased appetite (11% to 23%; grade 3 or 4, 2% or less) was among the most commonly reported adverse reactions in patients treated with atezolizumab; hyaluronidase or intravenous atezolizumab monotherapy in clinical trials. The incidence was similar in patients with hepatocellular cancer treated with intravenous atezolizumab in combination with bevacizumab (18%; grade 3 or 4, 1.2%). The incidence of anorexia/decreased appetite was slightly increased (17% to 30%; grade 3 or 4, 4% or less) with the addition of intravenous atezolizumab to chemotherapy (e.g., bevacizumab/paclitaxel/carboplatin, nab-paclitaxel/carboplatin, lurbinectedin, or carboplatin/etoposide) in 4 clinical trials.
+
+
+weight gain, weight loss
+
+
+Weight gain (16%; grade 3 or 4, 6%) and weight loss (18%) occurred in patients (n = 49) with unresectable or metastatic alveolar soft part sarcoma who received intravenous atezolizumab in a clinical study. Additionally, weight loss occurred in 11% of patients with hepatocellular cancer treated with intravenous atezolizumab in combination with bevacizumab in a randomized clinical trial.
+
+
+GI bleeding
+
+
+Serious cases of GI bleeding occurred in 7% of patients with hepatocellular cancer treated with intravenous atezolizumab in combination with bevacizumab in a randomized clinical trial.
+
+
+elevated hepatic enzymes, hepatic failure, hepatotoxicity, hyperbilirubinemia, hypoalbuminemia
+
+
+Elevated hepatic enzymes occurred in 22% to 40% (grade 3 or 4, 1% to 6%) of patients with NSCLC treated with atezolizumab; hyaluronidase monotherapy and with various cancers (excluding hepatocellular cancer) treated with intravenous atezolizumab as monotherapy or in combination with bevacizumab/carboplatin/paclitaxel, nab-paclitaxel/carboplatin, lurbinectedin, or etoposide/cisplatin in clinical trials. Additionally, increased alkaline phosphatase (25% to 46%; grade 3 or 4, 2.6% or less) and hypoalbuminemia (32% to 48%; grade 3 or 4, 0.4% to 4%) were reported in patients who received atezolizumab; hyaluronidase or intravenous atezolizumab in these trials. Decreased bilirubin level occurred in 49% of patients (n = 49) with unresectable or metastatic alveolar soft part sarcoma who received intravenous atezolizumab in a clinical study. In patients with hepatocellular cancer, transaminitis occurred in 62% to 86% (grade 3 or 4, 8% to 16%) of those who received intravenous atezolizumab plus bevacizumab; increased alkaline phosphatase occurred in 70% (grade 3 or 4, 4%), decreased albumin in 60% (grade 3 or 4, 1.5%), and increased bilirubin in 57% (grade 3 or 4, 8%) of patients in this trial. Increased AST or ALT (79% to 80%; grade 3 or 4, 13% to 18%), increased alkaline phosphatase (73%; grade 3 or 4, 6%), decreased albumin (43%; grade 3 or 4, 0.9%), and increased bilirubin (42%; grade 3 or 4, 3.1%) occurred with the highest frequency in patients with advanced melanoma treated with intravenous atezolizumab in combination with vemurafenib. Hepatotoxicity which included transaminitis, hyperbilirubinemia, hepatitis, hepatocellular injury, hepatic failure, and abnormal liver function tests, occurred in 50% (grade 3 or 4, 21%) of patients in the intravenous atezolizumab arm of this trial.
+
+
+fever
+
+
+Fever occurred in 1.2% of patients with non-small cell lung cancer (NSCLC) receiving atezolizumab; hyaluronidase in a randomized clinical trial. Fever has also been reported in 14% to 19% (grade 3 or 4, less than 1%) of patients treated with intravenous atezolizumab, either as monotherapy or in combination with chemotherapy for NSCLC, small cell lung cancer, or hepatocellular carcinoma. Fever occurred in 25% (grade 3 or 4, 2%) of patients (n = 49) with unresectable or metastatic alveolar soft part sarcoma who received intravenous atezolizumab in a clinical study. Additionally, fever occurred in 49% (grade 3 or 4, 1.7%) of patients with advanced melanoma who received intravenous atezolizumab plus cobimetinib and vemurafenib in a randomized trial compared with 35% (grade 3 or 4, 2.1%) of those who received placebo plus cobimetinib and vemurafenib.
+
+
+graft-versus-host disease (GVHD), sinusoidal obstruction syndrome (SOS), veno-occlusive disease (VOD)
+
+
+Fatal and serious adverse events occurred in patients who received an allogeneic hematopoietic stem-cell transplant (HSCT) prior to and after treatment with a PD-1/PD-L1 blocking antibody, such as atezolizumab; hyaluronidase. Monitor patients closely for evidence of transplant-related complications such as hyperacute graft-versus-host disease (GVHD), acute GVHD, chronic GVHD, sinusoidal obstruction syndrome (SOS) previously termed veno-occlusive disease (VOD) after reduced intensity conditioning, and steroid-requiring febrile syndrome (without an identified infectious cause); treat adverse events promptly. These complications may occur despite intervening therapy between PD-1 blockade and allogeneic HSCT.
+
+
+gastritis
+
+
+Immune-mediated gastritis and duodenitis each occurred in less than 1% of patients who received intravenous atezolizumab or other PD-1/PD-L1 inhibitors in clinical trials. An interruption or discontinuation of therapy and treatment with systemic corticosteroids may be necessary for patients who develop immune-mediated reactions.
+
+
+organ transplant rejection
+
+
+Solid organ transplant rejection and other transplant rejection including corneal graft rejection occurred in less than 1% of patients who received intravenous atezolizumab or other PD-1/PD-L1 inhibitors in clinical trials.
+
+
+hypoparathyroidism
+
+
+Immune-mediated hypoparathyroidism occurred in less than 1% of patients receiving intravenous atezolizumab or other PD-1/PD-L1 inhibitors.
+
+
+anxiety, insomnia
+
+
+Insomnia (27%) and anxiety (25%) occurred in patients (n = 49) with unresectable or metastatic alveolar soft part sarcoma who received intravenous atezolizumab in a clinical study.
+
+
+bleeding, hematuria, ocular hemorrhage
+
+
+Bleeding including pulmonary hemorrhage, hemoptysis, conjunctival/ocular hemorrhage, epistaxis, hematuria, rectal hemorrhage, and laryngeal hemorrhage occurred in 29% (grade 3 or 4, 2%) of patients (n = 49) with unresectable or metastatic alveolar soft part sarcoma who received intravenous atezolizumab in a clinical study.
+
+
+infertility
+
+
+Atezolizumab; hyaluronidase treatment may result in female infertility. In animal studies, atezolizumab induced irregular menstrual cycles and a decrease in newly formed corpora lutea in the ovaries of female monkeys, with no effect observed on male reproductive organs.
+
+
+Description
+
+Atezolizumab; hyaluronidase is a subcutaneous IgG1 kappa monoclonal antibody that binds to and blocks programmed death-ligand 1 (PD-L1); the hyaluronidase component increases the dispersion and absorption of atezolizumab allowing for subcutaneous administration. It is indicated for adult patients for certain types of bladder cancer, melanoma, hepatocellular cancer, non-small cell lung cancer, alveolar soft part sarcoma, and small cell lung cancer. Atezolizumab; hyauronidase is also indicated in pediatric patients (12 years and older who weigh 40 kg or greater) for the treatment of unresectable or metastatic alveolar soft part sarcoma. Treatment with atezolizumab; hyaluronidase may result in severe immune-related adverse reactions requiring interruption or discontinuation of therapy as well as treatment with high-dose corticosteroids. Atezolizumab; hyaluronidase was FDA-approved in September 2024.
+
+Mechanism Of Action
+
+Atezolizumab: Atezolizumab is an Fc-engineered, humanized, non-glycosylated IgG1 kappa monoclonal antibody that inhibits programmed death ligand 1 (PD-L1) interactions with the PD-1 and B7.1 receptors. PD-L1 may be expressed on tumor cells and/or tumor-infiltrating immune cells, and can contribute to inhibition of the anti-tumor immune response in the tumor microenvironment; PD-1 and B7.1 receptors are found on T-cells and antigen-presenting cells. The PD-1 pathway regulates the balance between T-cell activation and protection of healthy tissues from immune-mediated damage. In cancer, the PD-1 pathway is thought to play an important role in the interaction of tumor cells with the host immune response. Binding of PD-L1 to the PD-1 and B7.1 receptors suppresses cytotoxic T-cell activity, T-cell proliferation, and cytokine production; PD-L1 expression in a tumor cell may provide adaptive immune resistance and lead to poor outcomes. Atezolizumab binds to PD-L1 and prevents its interaction with both PD-1 and B7.1 receptors, releasing the PD-L1/PD-1 mediated inhibition of an anti-tumor immune response without inducing antibody-dependent cellular cytotoxicity. In syngeneic mouse tumor models, blocking PD-L1 activity resulted in decreased tumor growth.
+Hyaluronidase: Hyaluronan is a polysaccharide found in the extracellular matrix of subcutaneous tissue; it is depolymerized by the naturally occurring enzyme hyaluronidase. Hyaluronidase increases permeability of the subcutaneous tissue by depolymerizing hyaluronan; the effects are reversible and permeability of subcutaneous tissue is restored within 24 to 48 hours. Recombinant human hyaluronidase is an endoglycosidase that is used to increase the dispersion and absorption of other drugs when administered subcutaneously. It is produced by Chinese Hamster Ovary cells containing a DNA plasmid encoding for a soluble fragment of human hyaluronidase.
+
+Pharmacokinetics
+
+Atezolizumab; hyaluronidase is administered subcutaneously. The volume of distribution of atezolizumab at steady-state was 6.9 liters. Atezolizumab clearance was 0.2 liters/day (CV, 29%) and the terminal half-life was 27 days. Clearance decreased over time, with a mean maximal reduction from baseline value of 17% (CV, 41%); this decrease in clearance is not considered clinically significant.
+
+Route-Specific Pharmacokinetics
+Subcutaneous Route
+
+The mean absolute bioavailability of atezolizumab after subcutaneous administration of atezolizumab; hyaluronidase was 72% (CV, 83%) and the median time to reach Cmax (Tmax) was 4.5 days (range, 2.2 days to 9 days).
+ 
+The geometric mean ratio for the Cmin of subcutaneous atezolizumab in cycle 1 was 1.05 (90% CI, 0.88 to 1.24) compared to IV atezolizumab; the geometric mean ratio for the AUC(0 to 21 days) in cycle 1 was 0.87 (90% CI, 0.83 to 0.92). The geometric mean ratio for the Cmin of subcutaneous atezolizumab at steady-state was 1.15 (90% CI, 1.05 to 1.26) compared to IV atezolizumab; the geometric mean ratio for the AUC at steady-state was 1.01 (90% CI, 0.94 to 1.08). Steady-state was achieved by 6 to 9 weeks. The systemic accumulation ratio after subcutaneous administration of atezolizumab; hyaluronidase was 2.2. The exposure-response relationship and time course of pharmacodynamic response for the safety and effectiveness of atezolizumab; hyaluronidase have not been fully characterized.
+
+Hepatic Impairment
+
+Mild to moderate hepatic impairment (bilirubin less than or equal to the upper limit of normal [ULN] or bilirubin greater than the ULN to 3 times ULN and any AST) does not have a clinically significant effect on the pharmacokinetics of atezolizumab.
+
+Renal Impairment
+
+Mild to moderate renal impairment (eGFR 30 to 89 mL/min/1.73 m2) does not have a clinically significant effect on the pharmacokinetics of atezolizumab.
+
+Pediatrics
+
+Following subcutaneous administration of atezolizumab; hyaluronidase every 3 weeks in pediatric patients 12 years and older who weigh 40 kg or greater, atezolizumab exposure is predicted to be within range of those observed in adults at the same dosage.
+
+Geriatric
+
+Age does not have a clinically significant effect on the pharmacokinetics of atezolizumab.
+
+Gender Differences
+
+Sex does not have a clinically significant effect on the pharmacokinetics of atezolizumab.
+
+Ethnic Differences
+
+Neither region nor race has a clinically significant effect on the pharmacokinetics of atezolizumab.
+
+Obesity
+
+Weight does not have a clinically significant effect on the pharmacokinetics of atezolizumab.
+
+Other
+
+Albumin levels, level of PD-L1 expression, performance status, and tumor burden do not have a clinically significant effect on the pharmacokinetics of atezolizumab. The median clearance of atezolizumab in patients who tested positive for anti-atezolizumab antibodies (ADA) was 19% higher compared to patients who tested negative for ADA; this change is not expected to be clinically significant. The effect of neutralizing antibodies on atezolizumab exposure did not appear to be clinically significant.
+
+Administration
+
+For storage information, see the specific product information within the How Supplied section.
+Emetic Risk
+Minimal
+
+
+Injectable Administration
+
+Visually inspect parenteral products for particulate matter and discoloration prior to administration whenever solution and container permit.
+
+Subcutaneous Administration
+
+
+Atezolizumab; hyaluronidase is for subcutaneous administration in the thigh only; do not administer IV.
+Atezolizumab; hyaluronidase has different dosage and administration than IV atezolizumab products. Ensure the correct formulation is being used prior to preparation. Do not substitute atezolizumab; hyaluronidase for or with IV atezolizumab.
+Adult patients and pediatric patients 12 years and older who weigh 40 kg or greater treated with IV atezolizumab can switch to subcutaneous atezolizumab; hyaluronidase at their next scheduled dose. Likewise, adult patients and pediatric patients treated with subcutaneous atezolizumab; hyaluronidase can switch to IV atezolizumab at their next scheduled dose.
+Administer concomitant subcutaneous drugs at sites other than the thighs.
+ 
+Preparation
+Remove the vial from the refrigerator and allow it to come to room temperature. The unpunctured vial may be at room temperature under ambient light for a maximum of 4 hours prior to administration.
+Do not shake, freeze, or dilute.
+Atezolizumab; hyaluronidase is compatible with stainless steel transfer and injection needles and polypropylene, polycarbonate, polyvinyl chloride, and polyurethane syringe material.
+Using an 18-gauge transfer needle and syringe, remove the entire contents of 1 vial.
+Replace the transfer needle with a subcutaneous administration set (e.g., winged/butterfly) containing a 23-, 24-, or 25-gauge hypodermic needle with a priming volume that does not exceed 0.5 mL for administration.
+Prime the subcutaneous administration line with atezolizumab; hyaluronidase to eliminate air in the line; stop when the fluid reaches the needle.
+Ensure the syringe contains exactly 15 mL of atezolizumab; hyaluronidase after priming the administration line by expelling any excess volume from the syringe. Discard any unused portion remaining.
+Administer immediately to avoid needle clogging.
+Storage after preparation: A capped syringe may be stored at room temperature (up to 25 degrees C or 77 degrees F) in ambient room lighting for up to 8 hours, and in the refrigerator for up to 72 hours; if stored in the refrigerator, allow the syringe to come to room temperature prior to administration. Do not shake or freeze. A prepared syringe that has been attached to an already-primed subcutaneous administration set may NOT be stored.
+ 
+Subcutaneous Administration
+Atezolizumab; hyaluronidase must be administered by a healthcare professional.
+Atezolizumab; hyaluronidase is compatible with polypropylene, polycarbonate, polyvinyl chloride, and polyurethane subcutaneous administration sets.
+Inject in healthy skin and never into area that are red, bruised, tender, or hard.
+The injection site should be at least 2.5 cm from the previous site. When possible, alternate injections between the left and right thigh.
+Administer subcutaneously over approximately 7 minutes. Do NOT administer the remaining volume in the tubing to the patient.
+
+
+Maximum Dosage Limits
+Adults
+
+1,875 mg atezolizumab and 30,000 units hyaluronidase (15 mL) subcutaneously every 3 weeks.
+
+Geriatric
+
+1,875 mg atezolizumab and 30,000 units hyaluronidase (15 mL) subcutaneously every 3 weeks.
+
+Adolescents
+
+Weight 40 kg or greater: 1,875 mg atezolizumab and 30,000 units hyaluronidase (15 mL) subcutaneously every 3 weeks.
+
+Children
+
+12 years and older who weigh 40 kg or greater: 1,875 mg atezolizumab and 30,000 units hyaluronidase (15 mL) subcutaneously every 3 weeks.
+
+Infants
+
+Safety and efficacy not established.
+
+Dosage Forms
+
+TECENTRIQ HYBREZA 1,875mg-30,000units/15mL Solution for Injection
+
+Dosage Adjustment Guidelines
+Hepatic Impairment
+
+Treatment-Related Hepatotoxicity
+Hepatitis with no tumor involvement of the liver
+AST/ALT more than 3 and up to 8 times the upper limit of normal (ULN), OR total bilirubin more than 1.5 and up to 3 times ULN: Hold atezolizumab; hyaluronidase therapy. Administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper). Resume therapy when hepatitis recovers to grade 1 or less after the corticosteroid taper. Permanently discontinue atezolizumab; hyaluronidase in patients who do not have a complete or partial resolution of hepatitis or who cannot reduce their daily prednisone dose to less than 10 mg (or equivalent) within 12 weeks of initiating steroids.
+AST/ALT more than 8 times ULN, OR total bilirubin more than 3 times ULN: Permanently discontinue therapy.
+ 
+Hepatitis WITH tumor involvement of the liver
+NOTE: If AST/ALT are less than or equal to ULN at baseline, follow recommendations for hepatitis with no liver involvement.
+Baseline AST/ALT more than 1 and up to 3 times ULN, and increases to more than 5 and up to 10 times ULN: Hold atezolizumab; hyaluronidase therapy. Administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper). Resume therapy when hepatitis recovers to grade 1 or less after the corticosteroid taper. Permanently discontinue atezolizumab; hyaluronidase in patients who do not have a complete or partial resolution of hepatitis or who cannot reduce their daily prednisone dose to less than 10 mg (or equivalent) within 12 weeks of initiating steroids.
+Baseline AST/ALT more than 3 and up to 5 times ULN, and increases to more than 8 and up to 10 times ULN: Hold atezolizumab; hyaluronidase therapy. Administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper). Resume therapy when hepatitis recovers to grade 1 or less after the corticosteroid taper. Permanently discontinue atezolizumab; hyaluronidase in patients who do not have a complete or partial resolution of hepatitis or who cannot reduce their daily prednisone dose to less than 10 mg (or equivalent) within 12 weeks of initiating steroids.
+AST/ALT increases to more than 10 times ULN or total bilirubin increases to more than 3 times ULN: Permanently discontinue therapy.
+
+
+Renal Impairment
+
+Treatment-Related Nephritis with Renal Dysfunction
+Grade 2 or 3 increases in serum creatinine: Hold atezolizumab; hyaluronidase therapy. Administer corticosteroids (i.e., prednisone 1 to 2 mg/kg per day or equivalent, followed by a 1-month taper). Resume therapy when renal impairment recovers to grade 1 or less after the corticosteroid taper. Permanently discontinue atezolizumab; hyaluronidase in patients who do not have a complete or partial resolution of nephritis or who cannot reduce their daily prednisone dose to less than 10 mg (or equivalent) within 12 weeks of initiating steroids.
+Grade 4 increases in serum creatinine: Permanently discontinue therapy.
+
+
+© 2026 Elsevier

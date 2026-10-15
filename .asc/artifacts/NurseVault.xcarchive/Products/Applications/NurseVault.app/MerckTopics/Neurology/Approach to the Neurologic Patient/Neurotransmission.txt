@@ -1,0 +1,432 @@
+=== Neurotransmission (Merck Manual Professional) ===
+Section: Neurology > Approach to the Neurologic Patient
+Source: https://www.merckmanuals.com/professional/neurologic-disorders/approach-to-the-neurologic-patient/neurotransmission
+Retrieved: 2026-09-25
+
+A neuron generates and propagates an action potential along its axon, then transmits this signal across a synapse by releasing neurotransmitters, which trigger a reaction in another neuron or an effector cell (eg, muscle cells, most exocrine and endocrine cells). Neurotransmitters enable neurons to communicate with each other. Neurotransmitters that are released from a presynaptic neuron bind to receptors on a postsynaptic neuron. The signal may stimulate or inhibit the receiving cell, depending on the neurotransmitter and receptor involved. Medications and medical disorders can affect communication between neurons by modulating several components of the neurotransmission process, including
+
+The production, release, reuptake, and degradation of neurotransmitters
+
+The number and function of postsynaptic neurotransmitter receptors
+
+Sometimes signals between neurons occur in the reverse direction (called retrograde neurotransmission). In such cases, dendrites (a neuron’s receiving branches) on the postsynaptic neurons release neurotransmitters that affect receptors on the presynaptic neurons. Retrograde transmission can inhibit presynaptic neurons from releasing additional neurotransmitters and help control the level of activity and communication among neurons.
+
+Nerve Impulse
+
+3D Model
+
+Interconnections in the central nervous system (CNS) are complex. An impulse from one neuron to another may pass from
+
+Axon to cell body
+
+Axon to dendrite
+
+Cell body to cell body
+
+Dendrite to dendrite
+
+A neuron can simultaneously receive many impulses—excitatory and inhibitory—from other neurons and integrate simultaneous impulses into various patterns of firing.
+
+Propagation
+
+The propagation of an action potential along an axon is electrical, caused by the exchange of sodium and potassium ions across the axonal membrane. A particular neuron generates the same action potential after each stimulus, conducting it at a fixed velocity along the axon. Velocity depends on axonal diameter and degree of myelination, ranging from 1 to 4 m/sec in small unmyelinated fibers up to 75 m/sec in large myelinated ones. Propagation speed is higher in myelinated fibers because the myelin cover has regular gaps (nodes of Ranvier) where the axon is exposed. The electrical impulse jumps from one node to the next, skipping the myelinated section of the axon. Thus, disorders that alter the myelin cover (eg, multiple sclerosis, Guillain-Barré syndrome) interfere with impulse propagation, causing various neurologic symptoms.
+
+Transmission
+
+Impulse transmission is chemical, caused by release of specific neurotransmitters from the nerve ending (terminal). Neurotransmitters diffuse across the synaptic cleft and bind briefly to specific receptors on the adjoining neuron or effector cell. Depending on the receptor, the response may be excitatory or inhibitory.
+
+Usually, neurons do not touch each other; instead, they communicate through the transmission of neurotransmitters across the synapses. One type of synapse, the electrical synapse, does not involve neurotransmitters; ion channels directly connect the cytoplasm of the presynaptic and postsynaptic neurons. This type of transmission is the fastest.
+
+Neurotransmitters, synthesized in the nerve cell body, are stored in vesicles at the nerve terminal (see figure Neurotransmission). The amount in one vesicle (usually several thousand molecules) is a quantum. A membrane action potential arriving at the terminal opens axonal calcium channels; calcium inflow releases neurotransmitter molecules from many vesicles by fusing the vesicle membranes to the nerve terminal membrane. Membrane fusion generates an opening through which the molecules are expelled into the synaptic cleft via exocytosis.
+
+Excitatory and inhibitory signals
+
+The reaction triggered by neurotransmitter release can excite (activate) the postsynaptic neuron or inhibit (block) activity of the postsynaptic neuron. Postsynaptic neurons receive multiple neurotransmitter and electrical signals and ultimately add the inputs together. If more excitatory signals are received, the neuron fires; if the sum of the signals is inhibitory, the neuron does not fire and does not influence the activity of other neurons. This adding up of responses is called summation.
+
+Other forms of summation include
+
+Spatial summation: Multiple impulses received at different locations of the neuron are summed
+
+Temporal summation: Impulses received within a short period of time are then added together
+
+For a neuron to generate a signal and fire, it must reach a threshold potential. A threshold potential is produced by a net increase in sodium influx into the cell during the exchange of sodium and potassium ions. When enough sodium enters the cell, the threshold is reached and an action potential is fired.
+
+Neurotransmission
+
+Action potentials open the axonal calcium (Ca) channels (not shown). Ca++ activates release of neurotransmitters (NT) from vesicles where they are stored. NT molecules fill the synaptic cleft. Some bind to postsynaptic receptors, initiating a response. The others are pumped back into the axon and stored or diffuse into the surrounding tissues.
+
+The amount of neurotransmitters in the terminal is typically independent of nerve activity and kept relatively constant by modifying uptake of neurotransmitter precursors or the activity of enzymes involved in neurotransmitter synthesis or destruction.
+
+The neurotransmitter-receptor interaction must be terminated quickly to end the action of the neurotransmitter or allow rapid, repeated activation of receptors. After neurotransmitters have interacted with receptors
+
+They can be quickly pumped back into the presynaptic nerve terminals (reuptake) for recycling or destruction.
+
+They can be broken down by enzymes near the receptors.
+
+They can diffuse into the surrounding area and be removed.
+
+Neurotransmitters taken up by the nerve terminals are repackaged in granules or vesicles in the axon terminal for reuse.
+
+Malfunction of these processes can result in clinical disease. For example, loss of memory in Alzheimer disease is postulated to involve insufficiency of the neurotransmitter acetylcholine in synapses, which mediates the laying down of new memories. Certain medications (eg, donepezil, galanthamine, rivastigmine) block the enzyme acetylcholinesterase (which breaks down acetylcholine) and thus increase the amount of acetylcholine in the synapse. As a result, memory function may improve.
+
+Some types of single neurons can release 2 or more different neurotransmitters (called cotransmission)—for example, acetylcholine and glutamate. Multiple neurotransmitters may act on a single postsynaptic neuron or affect multiple postsynaptic neurons. Cotransmission allows for intricate communication among neurons.
+
+Neurotransmitters can also facilitate more long-term changes that involve additional pathways such as changes in the activity of genes and proteins.
+
+Receptors
+
+Neurotransmitter receptors are protein complexes that span the cell membrane. Their nature determines whether a given neurotransmitter is excitatory or inhibitory. Receptors that are continuously stimulated by neurotransmitters or medications become desensitized (downregulated); those that are not stimulated by their neurotransmitter or are chronically blocked by medications become supersensitive (upregulated). Downregulation or upregulation of receptors strongly influences the development of tolerance and physical dependence. Clinical correlates of this concept:
+
+In organ or tissue transplantation, denervation deprives receptors of their neurotransmitter; as a result, transplanted organs may become overly sensitive to neural stimulation.
+
+In addiction medicine, withdrawal symptoms can be explained at least in part by a rebound phenomenon due to altered receptor affinity or density.
+
+Most neurotransmitters interact primarily with postsynaptic receptors, but some receptors are located on presynaptic neurons, providing fine control of neurotransmitter release.
+
+There are 2 families of receptors: ionotropic and metabotropic. Ionotropic receptors (eg, N-methyl-d-glutamate, kinate-quisqualate, nicotinic acetylcholine, glycine, and gamma-aminobutyric acid [GABA] receptors), consist of ion channels that open when bound to the neurotransmitter and effect a very rapid response. In metabotropic receptors (eg, serotonin, alpha- and beta-adrenergic, and dopaminergic receptors), neurotransmitters interact with G proteins and activate another molecule (a second messenger, such as cAMP) that catalyzes a chain of events through protein phosphorylation, calcium mobilization, or both; cellular changes mediated by second messengers are slower and permit finer tuning of the rapid ionotropic neurotransmitter response. Far more neurotransmitters activate specific receptors than second messengers.
+
+Major Neurotransmitters and Receptors
+
+At least 100 substances can act as neurotransmitters; approximately 18 are of major importance. Several occur in slightly different forms. Neurotransmitters can be grouped in different classes, such as
+
+Small molecules (eg, glutamate, aspartate, gamma-aminobutyric acid, glycine, adenosine, acetylcholine, serotonin, histamine, noradrenaline)
+
+Neuropeptides (eg, endorphins)
+
+Gaseous molecules (eg, nitric oxide, carbon monoxide)
+
+Endocannabinoids
+
+Glutamate and aspartate
+
+The amino acids glutamate and aspartate are the major excitatory neurotransmitters in the CNS and can contribute to tolerance to opioid therapy and mediate hyperalgesia. They occur in the cortex, cerebellum, and spinal cord. In neurons, synthesis of nitric oxide (NO) increases in response to glutamate. Excess glutamate can be toxic, increasing intracellular calcium, free radicals, and proteinase activity.
+
+Glutamate receptors (stimulated by glutamate and less strongly by aspartate) are classified as NMDA (N-methyl-d-aspartate) receptors and non-NMDA receptors. Phencyclidine (PCP, also known as angel dust) and memantine (used to treat Alzheimer disease) bind to NMDA receptors.
+
+Gamma-aminobutyric acid
+
+Gamma-aminobutyric acid (GABA), an amino acid derived from glutamate, is the major inhibitory neurotransmitter in the brain. After interaction with its receptors, GABA is actively pumped back into nerve terminals and metabolized. Glycine, which resembles GABA in its action, occurs principally in interneurons (Renshaw cells) of the spinal cord and in circuits that relax antagonist muscles.
+
+GABA receptors are classified as GABA-A (activating chloride channels) and GABA-B (potentiating cAMP formation). GABA-A receptors are the site of action for several neuroactive medications, including benzodiazepines, barbiturates, picrotoxin, and muscimol. Alcohol also binds to GABA-A receptors. GABA-B receptors are activated by baclofen, used to treat muscle spasms (eg, in multiple sclerosis).
+
+Serotonin
+
+Serotonin (5-hydroxytryptamine, or 5-HT) is generated by the raphe nucleus and midline neurons of the pons and upper brain stem, and is synthesized from tryptophan. Serotonin levels are controlled by the uptake of tryptophan and intraneuronal monoamine oxidase (MAO), which breaks down serotonin. Ultimately, serotonin is excreted in the urine as 5-hydroxyindoacetic acid or 5-HIAA.
+
+Serotoninergic (5-HT) receptors (with at least 15 subtypes) are classified as 5-HT1 (with 4 subtypes), 5-HT2, and 5-HT3. Selective serotonin receptor agonists (eg, sumatriptan) can abort migraines. Selective serotonin reuptake inhibitors (SSRIs) can also be used to treat several mental health conditions (eg, depression, anxiety, obsessive compulsive disorder, posttraumatic stress disorder).
+
+Acetylcholine
+
+Acetylcholine is the major neurotransmitter of the bulbospinal motor neurons, autonomic preganglionic fibers, postganglionic cholinergic (parasympathetic) fibers, and many neurons in the CNS (eg, basal ganglia, motor cortex). It is synthesized from choline and acetyl coenzyme A by choline acetyltransferase, and its action is rapidly terminated by acetylcholinesterase. Acetylcholine levels are regulated by choline acetyltransferase and by choline uptake. Levels of this neurotransmitter are decreased in patients with Alzheimer disease.
+
+Cholinergic receptors are classified as nicotinic N1 (in the adrenal medulla and autonomic ganglia) or N2 (in skeletal muscle) or muscarinic M1 through M5 (widely distributed in the CNS). M1 occurs in the autonomic nervous system, striatum, cortex, and hippocampus; M2 occurs in the autonomic nervous system, heart, intestinal smooth muscle, hindbrain, and cerebellum.
+
+Dopamine
+
+Dopamine interacts with receptors on some peripheral nerve fibers and many central neurons (eg, in the substantia nigra, midbrain, ventral tegmental area, and hypothalamus). Dopamine is synthesized from the amino acid tyrosine. After release and interaction with receptors, dopamine is actively pumped back (reuptake) into the nerve terminal. Tyrosine hydroxylase and MAO (which breaks down dopamine) regulate dopamine levels in nerve terminals.
+
+Dopaminergic receptors are classified as D1 through D5. D3 and D4 receptors play a role in thought control (limiting the negative symptoms of schizophrenia); D2 receptor activation controls the extrapyramidal system. However, receptor affinity does not predict functional response (intrinsic activity). For example, ropinirole, which has high affinity for the D3 receptor, has intrinsic activity via activation of D2 receptors.
+
+Norepinephrine
+
+Norepinephrine is the neurotransmitter of most postganglionic sympathetic fibers and many central neurons (eg, in the locus coeruleus and hypothalamus). The precursor tyrosine is converted to dopamine, which is hydroxylated by dopamine beta-hydroxylase to norepinephrine. After release and interaction with receptors, some norepinephrine is degraded by catechol O-methyltransferase (COMT), and the remainder is actively taken back into the nerve terminal, where it is degraded by MAO. Tyrosine hydroxylase, dopamine beta-hydroxylase, and MAO regulate intraneuronal norepinephrine levels.
+
+Adrenergic receptors are classified as alpha-1 (postsynaptic in the sympathetic system), alpha-2 (presynaptic in the sympathetic system and postsynaptic in the brain), beta-1 (in the heart), or beta-2 (in other sympathetically innervated structures).
+
+Endorphins and enkephalins
+
+Endorphins and enkephalins are opioids.
+
+Endorphins are large polypeptides that activate many central neurons (eg, in the hypothalamus, amygdala, thalamus, and locus coeruleus). The cell body contains a large polypeptide called pro-opiomelanocortin, the precursor of alpha-, beta-, and gamma-endorphins. Pro-opiomelanocortin is transported down the axon and cleaved into fragments; one is beta-endorphin, contained in neurons that project to the periaqueductal gray matter, limbic structures, and major catecholamine-containing neurons in the brain. After release and interaction with receptors, beta-endorphin is hydrolyzed by peptidases.
+
+Enkephalins include met-enkephalin and leu-enkephalin, which are small polypeptides present in many central neurons (eg, in the globus pallidus, thalamus, caudate, and central gray matter). Their precursor, proenkephalin, is formed in the cell body, then split by specific peptidases into the active peptides. These substances are also localized in the spinal cord, where they modulate pain signals.
+
+The neurotransmitters of pain signals in the posterior horn of the spinal cord are glutamate and substance P. Enkephalins decrease the amount of neurotransmitter released and hyperpolarize (make more negative) the postsynaptic membrane, reducing the generation of action potentials and pain perception at the level of the postcentral gyrus. After release, enkephalins are hydrolyzed into smaller, inactive peptides and amino acids. Rapid inactivation of exogenous enkephalins prevents these substances from being clinically useful. More stable molecules (eg, morphine) are used as analgesics instead.
+
+Endorphin-enkephalin (opioid) receptors are classified as mu-1 and mu-2 (affecting sensorimotor integration and analgesia), delta-1 and delta-2 (affecting motor integration, cognitive function, and analgesia), and kappa-1, kappa-2, and kappa-3 (affecting water balance regulation, analgesia, and food intake). New data suggest the presence of many more receptor subtypes, with pharmacologic implications.
+
+Other neurotransmitters
+
+Dynorphins are a group of 7 peptides with similar amino acid sequences. They, like enkephalins, are opioids.
+
+The peptide substance P modulates the neural response to pain and mood and occurs in central neurons (in the habenula, substantia nigra, basal ganglia, medulla, and hypothalamus). It is also highly concentrated in the dorsal root ganglia. Its release is triggered by intense afferent painful stimuli. Substance P also modulates nausea and vomiting through the activation of NK1A receptors that are localized in the brain stem.
+
+Nitric oxide (NO), a labile gas that mediates many neuronal processes, is generated from arginine by NO synthetase. Neurotransmitters that increase intracellular calcium (eg, substance P, glutamate, acetylcholine) stimulate NO synthesis in neurons that express NO synthetase. NO may be an intracellular messenger and is postulated to modulate certain pre- and postsynaptic responses by diffusing from one cell into another. It may enhance glutamate (NMDA-receptor–mediated) neurotoxicity (eg, in Parkinson disease, stroke, or Alzheimer disease). NO affects other neurotransmitters (eg, GABA and acetylcholine) by changing the influx of calcium into cells to increase the release of other neurotransmitters.
+
+Additional gaseous neurotransmitters include carbon monoxide (CO) and hydrogen sulfide (H2S). These transmitters are produced in cells throughout the body (including the brain). Endogenous CO is generated from the metabolism of heme and can participate in processes that involve fever generation, inflammation, cell survival, and control of blood vessel dilation. Several enzymes are involved in the production of H2S, which is believed to be necessary for the brain to form and retain memories.
+
+Substances with less firmly established roles in neurotransmission include histamine, vasopressin, vasoactive intestinal peptide, carnosine, bradykinin, cholecystokinin, bombesin, somatostatin, corticotropin-releasing factor, neurotensin, and possibly adenosine.
+
+Endocannabinoids are endogenous lipid-based neurotransmitters that modulate brain, endocrine, and immune system function.
+
+Disorders Associated With Defects in Neurotransmission
+
+Disorders or substances that alter the production, release, reception, breakdown, or reuptake of neurotransmitters or that change the number and affinity of receptors can cause neurologic or psychiatric symptoms and cause disease (see table Examples of Disorders Associated With Defects in Neurotransmission). Medications that modify neurotransmission can alleviate many of these disorders (eg, Parkinson disease, depression).
+
+Table
+
+Examples of Disorders Associated With Defects in Neurotransmission
+
+Table
+
+Examples of Disorders Associated With Defects in Neurotransmission
+
+Examples of Disorders Associated With Defects in Neurotransmission
+
+Disorder
+
+Pathophysiology
+
+Treatment
+
+Neurotransmitter imbalance
+
+Alzheimer disease
+
+Extracellular beta-amyloid deposits, intracellular neurofibrillary tangles, and senile plaques, particularly in the limbic system (eg, hippocampus), in the association area of the cortex, and in neurons that synthesize and use acetylcholine (eg, in the basal nucleus of Meynert and its wide projections to the cortex)
+
+Cholinesterase inhibitors (donepezil, rivastigmine, galantamine) delay synaptic degradation of acetylcholine and thus modestly improve cognitive function and memory.
+
+Memantine, an NMDA-receptor antagonist, may slow progression of the disease and increase autonomy.
+
+Future treatments may involve drugs that increase H2S levels in the brain and thus improve short-term memory or affect NO levels in the brain and thus improve long-term memory.
+
+Anxiety
+
+May reflect reduced activity of GABA, perhaps due to imbalance of endogenous inhibitors, stimulators of the GABA receptor, or both
+
+May also involve imbalances in norepinephrine and 5-HT responses
+
+Benzodiazepines increase the probability of opening chloride channels modulated by GABA through GABA-A receptor activation.
+
+SSRIs are the drugs of choice for long-term treatment because tolerance to benzodiazepines can develop.
+
+Autism spectrum disorders
+
+Possible hyperserotonemia, which occurs in 30–50% of autistic people, with no evidence of central 5-HT abnormalities
+
+SSRIs and risperidone may be helpful.
+
+Brain injury
+
+Injury (eg, trauma, hypoxia, prolonged seizures) stimulating excessive release of excitatory neurotransmitters (eg, glutamate) and accumulation of intracellular calcium, which contribute to neuronal death
+
+In experimental models of ischemia and injury, calcium channel blockers, glycine, and older NMDA-receptor antagonists (eg, dextromethorphan, ketamine) may reduce the extent of neuronal loss, but these drugs are not effective in people.
+
+Depression
+
+Complex abnormalities in cholinergic, catecholaminergic (noradrenergic, dopaminergic) and serotonergic (5-HT) transmission
+
+Possible involvement of other hormones and neuropeptides (eg, substance P, dopamine, acetylcholine, GABA)
+
+Antidepressants downregulate receptors indirectly or directly by inhibiting reuptake of 5-HT (as with SSRIs) and norepinephrine or dopamine or by blocking MAO.
+
+Blockade of 5-HT2A/2C (a type of 5-HT receptor abundant in the prefrontal area) may increase the efficacy of SSRIs (eg, trazodone).
+
+Seizure disorders
+
+Seizures consisting of sudden synchronous high-frequency firing by localized groups of neurons in certain brain areas, perhaps caused by increased activity of glutamate or reduced activity of GABA
+
+Phenytoin, lamotrigine, carbamazepine, valproate, topiramate, and some other antiseizure drugs (eg, zonisamide, oxcarbazepine) stabilize voltage-dependent sodium channels.
+
+Ethosuximide and gabapentin decrease certain calcium currents.
+
+Phenytoin also reduces excessive neurotransmitter release.
+
+Lamotrigine may decrease levels of glutamate and aspartate.
+
+Phenobarbital and benzodiazepines enhance GABA activation by affecting the GABA-A receptor–chloride channel complex.
+
+Tiagabine blocks GABA glial uptake.
+
+Valproate increases levels of GABA.
+
+Topiramate increases GABA activity.
+
+Huntington disease (chorea)
+
+Major neuronal damage in the cortex and striatum due to polyglutamine expansion (encoded by CAG repeat), produced by an abnormal gene on chromosome 4 (the abnormal gene overproduces the protein huntingtin, which may combine with molecules that induce excessive stimulation of cells by excitatory amino acid neurotransmitters such as glutamate)
+
+No specific treatment exists, but drugs that block NMDA receptors may block the toxic effects of excess glutamate.
+
+GABA-mimetic drugs are ineffective.
+
+Mania
+
+Increased norepinephrine and dopamine activity, reduced 5-HT levels, and abnormal glutamate neurotransmission
+
+Lithium is the traditional first choice. It reduces norepinephrine release and increases 5-HT synthesis.
+
+Valproate and lamotrigine are beneficial, possibly by normalizing glutamate transmission.
+
+Topiramate blocks voltage-dependent sodium channels, augments GABA activity at some subtypes of the GABA-A receptor, antagonizes the AMPA/kainate subtype of the glutamate receptor, and inhibits the carbonic anhydrase enzyme, particularly isozymes II and IV.
+
+Gabapentin is thought to bind to the alpha-2/delta subunit (1 and 2) of the voltage-dependent calcium channel in the CNS.
+
+Carbamazepine and oxcarbazepine stabilize voltage dependent sodium channels.
+
+Neuroleptic malignant syndrome
+
+Blockage of dopamine (D2) receptors by drugs (eg, antipsychotic drugs, methylphenidate) or abrupt withdrawal of a dopaminergic agonist, resulting in muscle rigidity, fever, change in mental status, and autonomic instability
+
+Treatment with a D2 agonist (eg, bromocriptine) reverses the disordered neurotransmission.
+
+Other drugs are also used as needed (eg, dantrolene, a direct muscular blocker, is used to block the muscle spasms).
+
+Pain
+
+Tissue injury, which causes release of substance P and glutamate in the posterior horn of the spinal cord and release of other macromolecules that mediate pain signals, such as CGRP (which can dilate cranial blood vessels and lead to migraine pain) and neurokinin A and bradykinin (which are localized primarily in the lamina II and IV of the spinal cord)
+
+Further modulation of these signals by endorphins (in the spinal cord) and by 5-HT and norepinephrine (in the descending pathways that originate in the brain)
+
+NSAIDs inhibit prostaglandin synthesis selectively (with COX-2 inhibitors—eg, celecoxib, parecoxib) or nonselectively (with COX-1 and -2 inhibitors—eg, ibuprofen, naproxen) and reduce pain impulse formation.
+
+Opioid analgesics (eg, morphine) activate endorphin-enkephalin (mu, delta, and kappa) receptors, reducing pain impulse transmission.
+
+New treatments that can block CGRP receptors can treat pain in the nervous system. These treatments alter CGRP signaling and thus alleviate pain during migraines; they may be considered for treatment of facial pain, diabetic neuropathies, and pain after cancer treatments.
+
+Parkinsonism
+
+Inhibition of the dopaminergic system due to blockage of dopaminergic receptors by antipsychotic drugs
+
+Anticholinergic drugs reduce cholinergic activity and restore balance between cholinergic and dopaminergic systems.
+
+Parkinson disease
+
+Loss of dopaminergic neurons of the pars compacta in the substantia nigra and other areas, with reduced levels of dopamine and metenkephalin, altering the dopamine/acetylcholine balance and resulting in striatal acetylcholine overactivity
+
+Levodopa reaches the synaptic cleft, is taken up by the axon through presynaptic nigral neurons, and is decarboxylated to dopamine, which is secreted into the cleft to activate dendritic dopamine receptors. Amantadine increases the presynaptic release of dopamine; dopamine agonists stimulate dopamine receptors, although bromocriptine, pramipexole, and ropinirole bind only to D2, D3, and D4 dopamine receptor subtypes.
+
+Anticholinergic drugs reduce activity of the cholinergic system, restoring the balance of dopamine and acetylcholine.
+
+MAO-B inhibitors prevent reuptake of dopamine, increasing its levels. Selegiline, an MAO-B inhibitor, blocks dopamine breakdown and thus prolongs the response to levodopa and allows the dosage of carbidopa/levodopa to be reduced.
+
+Catechol O-methyltransferase (COMT) inhibitors also inhibit dopamine breakdown.
+
+Schizophrenia
+
+Increased presynaptic release, synthesis of dopamine, sensitivity or density of postsynaptic dopamine receptors, or a combination
+
+Antipsychotic drugs block dopamine receptors and reduce dopaminergic overactivity to normal.
+
+Haloperidol preferentially blocks D2 and D3 receptors (high affinity) and D4 receptors (low affinity) in mesocortical areas.
+
+Clozapine has a high affinity for binding D4 and 5-HT2 receptors, suggesting 5-HT system involvement in the pathogenesis of schizophrenia and its response to treatment. Clozapine has a significant risk of leukopenia.
+
+Olanzapine and risperidone, similar to haloperidol, also have high affinity for 5-HT2 and D2 receptors.
+
+Tardive dyskinesia
+
+Hypersensitive dopamine receptors due to chronic blockade by antipsychotic drugs
+
+Reducing doses of antipsychotics may reduce hypersensitivity of dopamine receptors; however, in some cases, changes can be irreversible.
+
+Normal neurotransmitters that are blocked or destroyed by the immune system
+
+Myasthenia gravis
+
+Reflects inactivation of acetylcholine receptors and postsynaptic histochemical changes at the neuromuscular junction due to autoimmune reactions
+
+Anticholinesterase drugs inhibit acetylcholinesterase, increase acetylcholine levels at the junction, and stimulate remaining receptors, increasing muscle activity.
+
+Decreased neuronal uptake of neurotransmitters
+
+Amyotrophic lateral sclerosis
+
+Destruction of upper and lower motor neurons, possibly caused in part by glutamate neurotoxicity
+
+Riluzole, which inhibits glutamate transmission, modestly extends survival.
+
+Normal neurotransmitters but ion channel defects
+
+Episodic ataxias
+
+Defective voltage-gated potassium channels, causing distal rippling and incoordination (myokymia)
+
+Treatment with acetazolamide is effective in some types of episodic ataxia.
+
+Hyperkalemic periodic paralysis
+
+Decreased sodium channel inactivation
+
+Severe attacks may be terminated by calcium gluconate, glucose, and insulin.
+
+Hypokalemic periodic paralysis
+
+Defective voltage-gated calcium channels
+
+Acute attacks can be terminated by potassium salts.
+
+Acetazolamide is effective for prevention.
+
+Lambert-Eaton syndrome*
+
+Antibodies that decrease presynaptic release of acetylcholine
+
+Corticosteroids, 3,4-diaminopyridine (DAP), guanidine, IVIG, and plasmapheresis can be helpful.
+
+Paramyotonia congenita
+
+Defective voltage-gated sodium channels, causing cold-induced myotonia and episodic weakness
+
+Mexiletine (a sodium channel blocker) and acetazolamide (a carbonic anhydrase inhibitor) may be helpful.
+
+Rasmussen encephalitis
+
+Postviral production of antibodies to glutamate receptors, affecting glutamate-gated channels
+
+Most distinctive form of epilepsia partialis continua
+
+Corticosteroids and antiviral drugs are usually ineffective.
+
+Functional hemispherectomy (eg, cutting the corpus callosum) can control seizures if spontaneous remission does not occur.
+
+Startle disease (hyperekplexia, stiff baby syndrome)
+
+Mutation in the gene for the alpha-1 subunit of the glycine-gated channel
+
+Characterized by stiffness, nocturnal myoclonus, and an exaggerated startle reflex, with hyperreflexia and falling
+
+Clonazepam or certain other antiseizure drugs (eg, phenytoin, phenobarbital, diazepam, valproate) may result in improvement.
+
+Poisoning
+
+Botulism
+
+Inhibition of acetylcholine release from motor neurons by toxin from Clostridium botulinum
+
+No specific drug therapy exists.
+
+Tiny amounts of the toxin are used to treat certain dystonias, spasticity, neuropathic pain, and migraines or cosmetically to reduce skin wrinkles.
+
+Mushroom poisoning
+
+Amanita muscaria: Contains ibotenic acid (which has effects similar to those of glutamate) and a metabolite similar to muscimol (which has effects similar to those of GABA)
+
+Inocybe and Clitocybe spp: Stimulation of muscarinic receptors by muscarine and related compounds
+
+Treatment is supportive because no drugs reverse the effects on neurotransmission.
+
+Atropine helps reverse muscarinic manifestations.
+
+Organophosphates
+
+Irreversible inhibition of acetylcholinesterase and marked increase in acetylcholine levels in synaptic cleft
+
+Pralidoxime removes toxin from acetylcholinesterase and helps reverse nicotinic as well as muscarinic manifestations.
+
+Atropine helps rapidly reverse muscarinic effects.
+
+Snake venom from Bungarus multicinctus (Taiwanese banded krait)
+
+Blocks acetylcholine receptors at neuromuscular junction by alpha-Bungarus toxin
+
+Antivenom appears to be effective and is available.
+
+* Eaton-Lambert syndrome is an antibody-mediated paraneoplastic syndrome that typically occurs in small cell lung cancer. It can be present before the tumor manifests.
+
+CGRP = calcitonin gene-related peptide; CRF =corticotropin (ACTH)-releasing factor; GABA = gamma-aminobutyric acid; H2S = hydrogen sulfide; 5-HT = serotonin; IVIG = IV immune globulin; MAO = monoamine oxidase; MAO-B = MAO type B; NMDA = N-methyl-d-aspartate; NO = nitric oxide; NSAID = nonsteroidal anti-inflammatory drug; PIP2 = phosphatidylinositol 4,5-bisphosphate; SSRI = selective serotonin reuptake inhibitor.
+
+* Eaton-Lambert syndrome is an antibody-mediated paraneoplastic syndrome that typically occurs in small cell lung cancer. It can be present before the tumor manifests.
+
+CGRP = calcitonin gene-related peptide; CRF =corticotropin (ACTH)-releasing factor; GABA = gamma-aminobutyric acid; H2S = hydrogen sulfide; 5-HT = serotonin; IVIG = IV immune globulin; MAO = monoamine oxidase; MAO-B = MAO type B; NMDA = N-methyl-d-aspartate; NO = nitric oxide; NSAID = nonsteroidal anti-inflammatory drug; PIP2 = phosphatidylinositol 4,5-bisphosphate; SSRI = selective serotonin reuptake inhibitor.

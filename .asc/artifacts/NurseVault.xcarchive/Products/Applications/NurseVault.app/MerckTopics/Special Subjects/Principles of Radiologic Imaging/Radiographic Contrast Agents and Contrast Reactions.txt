@@ -1,0 +1,124 @@
+=== Radiographic Contrast Agents and Contrast Reactions (Merck Manual Professional) ===
+Section: Special Subjects > Principles of Radiologic Imaging
+Source: https://www.merckmanuals.com/professional/special-subjects/principles-of-radiologic-imaging/radiographic-contrast-agents-and-contrast-reactions
+Retrieved: 2026-09-25
+
+Radiopaque contrast agents are often used in radiography and fluoroscopy to help delineate borders between tissues with similar radiodensity.
+
+The choice of an appropriate contrast agent depends on the target organ system and the clinical indication.
+
+Iodine-based contrast: These water-soluble agents can be administered intravascularly for catheter angiography and intravenous urography, or intrathecally for myelography. They are also suitable for oral or rectal use in gastrointestinal imaging, particularly when barium is not recommended, such as in cases of suspected bowel perforation or enteric fistula evaluation.
+
+Barium-sulfate contrast: Insoluble agents that provide excellent mucosal coating. Oral barium is used in barium swallow and upper gastrointestinal series to visualize the esophagus, stomach, and small intestine, while rectal barium is employed in barium enema studies for colon and rectal assessment. Barium should not be used if bowel perforation is suspected.
+
+Air or gas contrast: Negative contrast media often combined with barium in double-contrast studies to improve mucosal detail. These studies are useful for detecting colonic polyps or strictures.
+
+Most contrast agents are iodine based. Iodinated contrast agents may be:
+
+Ionic
+
+Nonionic
+
+Ionic contrast agents, which are salts, are hyperosmolar to blood. These agents should not be used for myelography or in injections that may enter the spinal canal (neurotoxicity is a risk) or the bronchial tree (pulmonary edema is a risk).
+
+Nonionic contrast agents are low-osmolar (but still hyperosmolar relative to blood) or iso-osmolar (with the same osmolarity as blood). Nonionic contrast agents are routinely used at nearly all institutions because they have fewer adverse effects.
+
+The most serious contrast reactions are:
+
+Allergic-type reactions
+
+Contrast nephropathy (renal damage after intravascular injection of a contrast agent)
+
+Because many protocols involving contrast agents and related reactions are specific and continually updated, it is important to discuss such details with the imaging department.
+
+Allergic-type contrast reactions
+
+Reactions vary in severity:
+
+Mild (eg, mild urticaria, itchy throat, nasal congestion)
+
+Moderate (eg, severe urticaria, mild facial angioedema, throat tightness, wheezing, slight changes in pulse or blood pressure)
+
+Severe (eg, angioedema, respiratory distress with hypoxia or multiorgan system involvement, arrhythmias such as bradycardia, seizures, shock, cardiopulmonary arrest)
+
+Reactions can be immediate or delayed. Delayed reactions can vary from mild rash or urticaria to a severe cutaneous adverse reaction or Stevens-Johnson syndrome.
+
+The mechanism is anaphylactoid (see Anaphylaxis); risk factors include the following:
+
+A previous reaction to injected contrast agents
+
+Asthma
+
+Allergies
+
+For immediate reactions, treatment begins by stopping contrast infusion.
+
+For mild reactions, diphenhydramine 25 to 50 mg IV is usually effective.
+
+For moderate or severe reactions, treatment depends on the type of reaction and may include oxygen, epinephrine, IV fluids, and possibly atropine (for bradycardia). For patients with anaphylaxis, a serum tryptase test should be performed within 2 hours.
+
+Patients with a history or previous reactions to contrast agents are at risk of reaction with reexposure; a history of shellfish allergy or "iodine allergy" does not increase risk of contrast reaction (1). For patients at increased risk, imaging tests that do not require iodinated contrast should be performed when possible. If a study that necessitates contrast is required , the severity of the prior reaction should inform the need for and type of pretreatment, as follows:
+
+Prior mild immediate reaction: Do not premedicate; switch to a different iodinated contrast media.
+
+Prior moderate immediate reaction: Consider premedication; switch to a different iodinated contrast media.
+
+Prior severe immediate reaction: Provide premedication; switch to a different iodinated contrast media.
+
+Prior mild delayed reaction: Consider premedication with oral prednisone (2).
+
+Prior delayed severe cutaneous reaction (SCAR, Stevens-Johnson syndrome): avoid using any iodinated contrast medium
+
+Premedication for patients with moderate or severe immediate reactions for whom there is no effective alternative diagnostic study involves a combination of glucocorticoid and diphenhydramine. One regimen involves premedication with prednisone (50 mg orally 13 hours, 7 hours, and 1 hour before injection of contrast) and diphenhydramine (50 mg IV, IM, or orally 1 hour before contrast administration). If patients require imaging immediately, they can be given diphenhydramine 50 mg IV, IM, or orally 1 hour before injection of contrast and hydrocortisone 200 mg IV every 4 hours until the study is performed, preferably deferring imaging, if possible, until at least 2 doses of hydrocortisone have been administered (3).
+
+Contrast nephropathy
+
+In contrast-induced nephropathy, serum creatinine typically begins to increase within 24 hours following administration of IV contrast; it peaks between days 3 and 5 and returns to baseline within 7 to 10 days; permanent renal dysfunction is rare.
+
+Common risk factors include the following:
+
+Preexisting renal insufficiency (elevated creatinine)
+
+Diabetes mellitus, especially in patients with associated chronic kidney disease
+
+Hypertension
+
+Heart failure
+
+Multiple myeloma
+
+Age > 70 years
+
+Use of other nephrotoxic medications
+
+Dehydration
+
+In patients at risk of acute kidney injury after receiving iodinated intravascular contrast, the following measures should be considered:
+
+A reduced dose of contrast
+
+Use of an iso-osmolar agent
+
+Hydration
+
+Many hydration regimens exist. One regimen suggests administration of normal saline at 100 mL per hour for a duration of 6 to 12 hours before the contrast administration and continued for 4 to 12 hours following the contrast injection (3).
+
+Administration of N-acetylcysteine has not been shown to be effective in preventing contrast-induced nephropathy (4).
+
+Lactic acidosis
+
+Patients who are taking metformin and who develop acute kidney injury as a result of contrast administration are at risk for lactic acidosis. If the patient has chronic kidney disease with an estimated glomerular filtration rate (eGFR) < 30 mL/min/1.73 m², has acute kidney injury, or is undergoing arterial catheterization with a risk of emboli to the renal arteries, metformin should be withheld for 48 hours after contrast administration, and only resumed once kidney function is evaluated and deemed satisfactory. Metformin itself does not pose a risk for the development of contrast-induced nephropathy (3).
+
+Pearls & Pitfalls
+
+Withhold metformin for 48 hours after IV contrast administration if acute kidney injury develops to avoid lactic acidosis, and restart metformin only after confirming kidney function has improved.
+
+References
+
+1.Wang C, Ramsey A, Lang D, et al. Management and Prevention of Hypersensitivity Reactions to Radiocontrast Media: A Consensus Statement From the American College of Radiology and the AAAAI. J Allergy Clin Immunol Pract. Published online March 10, 2025. doi:10.1016/j.jaip.2025.01.042
+
+2. Kim JH, Choi SI, Lee YJ, et al. Pharmacological prevention of delayed hypersensitivity reactions caused by iodinated contrast media. World Allergy Organ J. 2021;14(7):100561. doi:10.1016/j.waojou.2021.100561
+
+3. American College of Radiology Committee on Drugs and Contrast Media of the ACR Commission on Quality and Safety: ACR Manual on Contrast Media. 2025. Accessed July 25, 2025.
+
+4. Weisbord SD, Gallagher M, Jneid H, et al. Outcomes after Angiography with Sodium Bicarbonate and Acetylcysteine. N Engl J Med. 2018;378(7):603-614. doi:10.1056/NEJMoa1710933

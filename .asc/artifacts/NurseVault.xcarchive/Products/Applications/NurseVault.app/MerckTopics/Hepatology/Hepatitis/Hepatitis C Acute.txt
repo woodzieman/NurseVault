@@ -1,0 +1,172 @@
+=== Hepatitis C, Acute (Merck Manual Professional) ===
+Section: Hepatology > Hepatitis
+Source: https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/hepatitis/hepatitis-c-acute
+Retrieved: 2026-09-25
+
+(See also Causes of Hepatitis, Overview of Acute Hepatitis, and Chronic Hepatitis C.)
+
+In the United States, 4966 cases of acute hepatitis C infection were reported in 2023 (1). However, because many cases are not recognized or not reported, the U.S. Centers for Disease Control and Prevention (CDC) estimates that the actual number of new infections was 69,000 in 2023 (1). The number of acute hepatitis C cases has been relatively stable in the United States since 2021.
+
+Hepatitis C virus (HCV) is a single-stranded RNA flavivirus that causes acute viral hepatitis and is a common cause of chronic viral hepatitis. Six major HCV subtypes exist with varying amino acid sequences (genotypes); these subtypes vary geographically and in virulence and response to therapy. HCV can also alter its amino acid pattern over time in an infected person, producing quasispecies.
+
+HCV infection sometimes occurs simultaneously with specific systemic disorders, including the following:
+
+Essential mixed cryoglobulinemia
+
+Porphyria cutanea tarda (approximately 50% of porphyria patients have HCV infection (2), but only a few patients infected with HCV develop porphyria)
+
+Immune complex-mediated membranoproliferative glomerulonephritis
+
+The mechanisms are uncertain.
+
+Approximately 16% of patients with alcohol-related liver disease harbor HCV (3). The reasons for this high association are unclear because concomitant alcohol and illicit drug use accounts for only a portion of cases. In these patients, HCV and alcohol act synergistically to worsen liver inflammation and fibrosis.
+
+Transmission of hepatitis C
+
+Infection is most commonly transmitted through blood, primarily when parenteral illicit drug users share needles, but also through sharing vessels for intranasal illicit drug use, or tattoos or body piercing with nonsterile equipment.
+
+Sexual transmission and vertical transmission of hepatitis C from mother to infant are relatively rare (4).
+
+Transmission of hepatitis C through blood transfusion has become very rare since the advent of screening tests for donated blood (5).
+
+Some sporadic cases occur in patients without apparent risk factors.
+
+General references
+
+1. U.S. Centers for Disease Control and Prevention. 2023 Viral Hepatitis Surveillance Report. Published April 15, 2025. Accessed April 29, 2026.
+
+2. Gisbert JP, García-Buey L, Pajares JM, et al. Prevalence of hepatitis C virus infection in porphyria cutanea tarda: systematic review and meta-analysis. J Hepatol. 2003;39(4):620-627. doi:10.1016/s0168-8278(03)00346-5
+
+3. Novo-Veleiro I, Calle Cde L, Domínguez-Quibén S, et al. Prevalence of hepatitis C virus infection in alcoholic patients: cohort study and systematic review. Alcohol Alcohol. 2013;48(5):564-569. doi:10.1093/alcalc/agt044
+
+4. Martinello M, Solomon SS, Terrault NA, et al. Hepatitis C. Lancet. 2023;402(10407):1085-1096. doi:10.1016/S0140-6736(23)01320-X
+
+5. Dodd RY, Crowder LA, Haynes JM, et al. Screening Blood Donors for HIV, HCV, and HBV at the American Red Cross: 10-Year Trends in Prevalence, Incidence, and Residual Risk, 2007 to 2016. Transfus Med Rev. 2020;34(2):81-93. doi:10.1016/j.tmrv.2020.02.001
+
+Symptoms and Signs of Acute Hepatitis C
+
+Hepatitis C is most often asymptomatic during the acute infection (1). Its severity often fluctuates, sometimes with recrudescent hepatitis and variable aminotransferase levels for many years or even decades. Acute liver failure is extremely rare.
+
+HCV has the highest rate of chronicity (approximately 65 to 85%) (1). The resultant chronic hepatitis C is usually asymptomatic or benign but progresses to cirrhosis, which often takes decades to appear, in up to 10% of patients after 20 years. Hepatocellular carcinoma can result from HCV-induced cirrhosis at a rate of approximately 2% per year.
+
+Symptoms and signs reference
+
+1. Martinello M, Solomon SS, Terrault NA, et al. Hepatitis C. Lancet. 2023;402(10407):1085-1096. doi:10.1016/S0140-6736(23)01320-X
+
+Diagnosis of Acute Hepatitis C
+
+Serologic and nucleic acid amplification (NAAT) testing
+
+In the initial diagnosis of acute hepatitis, viral hepatitis should be differentiated from other disorders causing jaundice (see figure Simplified Diagnostic Approach to Possible Acute Viral Hepatitis).
+
+If acute viral hepatitis is suspected, the following tests are performed to test for hepatitis viruses A, B, and C:
+
+Hepatitis A virus: IgM antibody to HAV (IgM anti-HAV) (acute infection); total anti‑HAV (immunity)
+
+Hepatitis B virus: Hepatitis B surface antigen (HBsAg) and IgM antibody to hepatitis B core antigen (IgM anti-HBc)
+
+Hepatitis C virus: Antibody to hepatitis C virus (anti-HCV) and hepatitis C RNA polymerase chain reaction (HCV-RNA PCR)
+
+Hepatitis E virus (selected patients): IgM anti-HEV and HEV-RNA PCR
+
+For suspected acute viral hepatitis, the HCV-RNA PCR should be performed initially alongside the anti-HCV antibody test. HCV RNA may be detectable as early as 1 to 2 weeks after exposure, whereas anti-HCV antibody seroconversion typically occurs 4 to 10 weeks after exposure and may be delayed up to 6 months. Because a positive antibody alone cannot distinguish active from resolved infection, HCV-RNA testing is essential to confirm active hepatitis C infection (see table Hepatitis C Serology and Nucleic Acid Amplification Testing).
+
+In hepatitis C, serum anti-HCV represents chronic, past, or acute infection.
+
+Table
+
+Hepatitis C Serology and Nucleic Acid Amplification Testing
+
+Table
+
+Hepatitis C Serology and Nucleic Acid Amplification Testing
+
+Hepatitis C Serology and Nucleic Acid Amplification Testing
+
+Marker
+
+Acute HCV Infection
+
+Chronic HCV Infection
+
+Prior HCV Infection*
+
+Anti-HCV
+
++/†
+
++
+
++
+
+HCV-RNA
+
++
+
++
+
+−
+
+* Patients have had HCV infection and spontaneously recovered or been successfully treated.
+
+† Anti-HCV antibody may be negative in the first 6–10 weeks of acute infection.
+
+Anti-HCV = antibody to HCV; HCV = hepatitis C virus.
+
+* Patients have had HCV infection and spontaneously recovered or been successfully treated.
+
+† Anti-HCV antibody may be negative in the first 6–10 weeks of acute infection.
+
+Anti-HCV = antibody to HCV; HCV = hepatitis C virus.
+
+Other tests
+
+Liver tests are needed if not previously performed; they include serum alanine aminotransferase (ALT), aspartate aminotransferase (AST), and alkaline phosphatase.
+
+Other tests should be performed to evaluate liver function and disease severity; they include serum albumin, bilirubin, platelet count, and prothrombin time/international normalized ratio (PT/INR).
+
+Treatment of Acute Hepatitis C
+
+Antiviral therapy
+
+The treatment of acute hepatitis C is the same as that for chronic hepatitis C. There are a number of highly effective direct-acting antivirals (DAAs) for hepatitis C that may decrease the likelihood of developing chronic infection (1). DAAs also help prevent transmission to others. Recommendations are to start treatment after the initial diagnosis of acute HCV, without waiting for spontaneous resolution (2).
+
+Alcohol and hepatotoxic medications (eg, acetaminophen) should be avoided because they can increase liver damage. Restrictions on diet or activity, including commonly prescribed bed rest, have no scientific basis.
+
+Viral hepatitis should be reported to the local or state health department.
+
+Treatment references
+
+1. Martinello M, Solomon SS, Terrault NA, et al. Hepatitis C. Lancet. 2023;402(10407):1085-1096. doi:10.1016/S0140-6736(23)01320-X
+
+2. American Association for the Study of Liver Diseases (AASLD)–Infectious Diseases Society of America (IDSA): Management of Acute HCV Infection. Accessed May 13, 2026.
+
+Prevention of Acute Hepatitis C
+
+Patients should be advised to avoid high-risk behavior (eg, sharing needles to inject illicit drugs, getting tattoos and body piercings).
+
+Blood and other body fluids (eg, saliva, semen) are considered infectious. Risk of infection after a single needlestick exposure is approximately 2% (1). Barrier protection is recommended, but isolation of patients is of no value in preventing acute hepatitis C.
+
+Risk of transmission from hepatitis C virus (HCV)-infected medical personnel appears to be low, and there are no CDC recommendations to restrict health care workers with hepatitis C infection from working.
+
+Posttransfusion infection is minimized by avoiding unnecessary transfusions and screening all donors for hepatitis B and C. Screening has decreased the incidence of posttransfusion hepatitis B and hepatitis C, which are now extremely rare in the United States.
+
+No product exists for immunoprophylaxis of HCV. The propensity of HCV for changing its genome hampers vaccine development. Preexposure or postexposure prophylaxis with antiviral therapy is not recommended (2).
+
+Prevention references
+
+1. U.S. Centers for Disease Control and Prevention. Updated U.S. public health service guidelines for the management of occupational exposures to HBV, HCV, and HIV and recommendations for postexposure prophylaxis. MMWR Recommen Rep. 2001;50(RR11):1-42.
+
+2. American Association for the Study of Liver Diseases (AASLD)–Infectious Diseases Society of America (IDSA). Management of Acute HCV Infection. Published February 22, 2017. Accessed May 13, 2026.
+
+Key Points
+
+Hepatitis C is usually transmitted by parenteral contact with contaminated blood; transmission from mucosal contact with other body fluids and perinatal transmission from infected mothers are rare.
+
+Approximately 65 to 85% of patients with acute hepatitis C develop chronic hepatitis C, which leads to cirrhosis in 10% after 20 years; some patients with cirrhosis develop hepatocellular carcinoma.
+
+Diagnose by testing for antibody to HCV and HCV-RNA PCR.
+
+Treat with antivirals after initial diagnosis of hepatitis C, without waiting for spontaneous resolution.
+
+There is no vaccine for hepatitis C.

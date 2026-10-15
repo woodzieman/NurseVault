@@ -1,0 +1,204 @@
+=== Overview of Viral Respiratory Infections (Merck Manual Professional) ===
+Section: Infectious Disease > Respiratory Viruses
+Source: https://www.merckmanuals.com/professional/infectious-diseases/respiratory-viruses/overview-of-viral-respiratory-infections
+Retrieved: 2026-09-25
+
+Viruses frequently infect the upper or lower respiratory tract. Although respiratory infections can be classified by the causative virus (eg, influenza), they are generally classified clinically according to syndrome (eg, the common cold, bronchiolitis, croup, or pneumonia). Some specific pathogens are typically associated with characteristic clinical manifestations (eg, rhinovirus typically causes the common cold, respiratory syncytial virus [RSV] typically causes bronchiolitis); however, each pathogen can also cause many of the general symptoms of viral respiratory syndromes.
+
+The severity of viral respiratory illness varies widely; severe disease is more likely in older adults and infants (1). Morbidity may result directly from viral infection or may be indirect, ie, because of exacerbation of underlying cardiopulmonary conditions or bacterial superinfection of the lung, paranasal sinuses, or middle ear.
+
+Table
+
+Causes of Common Viral Respiratory Syndromes
+
+Causes of Common Viral Respiratory Syndromes
+
+Syndrome
+
+Common Viral Causes
+
+Less Common Viral Causes
+
+Bronchiolitis
+
+RSV
+
+Influenza viruses
+
+Parainfluenza viruses
+
+Adenoviruses
+
+Rhinoviruses
+
+Human metapneumoviruses
+
+Common cold
+
+Rhinoviruses
+
+Coronaviruses
+
+Influenza viruses
+
+Parainfluenza viruses
+
+Enteroviruses
+
+Adenoviruses
+
+Human metapneumoviruses
+
+RSV
+
+Croup
+
+Parainfluenza viruses
+
+Influenza viruses
+
+RSV
+
+Adenoviruses
+
+Influenza-like illness
+
+Influenza viruses
+
+Parainfluenza viruses
+
+Adenoviruses
+
+Human metapneumoviruses
+
+RSV
+
+Coronaviruses (including SARS-CoV-2)
+
+Pneumonia
+
+Influenza viruses
+
+RSV
+
+Adenoviruses
+
+Coronaviruses (including SARS-CoV-2)
+
+Parainfluenza viruses
+
+Enteroviruses
+
+Rhinoviruses
+
+Human metapneumoviruses
+
+RSV = respiratory syncytial virus.
+
+RSV = respiratory syncytial virus.
+
+General reference
+
+1. Centers for Disease Control and Prevention (CDC). People Most Impacted by Respiratory Viruses. May 1, 2026. Accessed April 20, 2026.
+
+Diagnosis of Viral Respiratory Infections
+
+Usually history and physical examination and local epidemiology
+
+Sometimes diagnostic testing
+
+Viral respiratory infections are typically diagnosed clinically based on symptoms and local epidemiology (1). In practice, diagnosing the syndrome based on symptoms and signs (eg, common cold) and infections that are common in a certain geographic area at that time is usually sufficient for most patients; identification of a specific pathogen is rarely necessary.
+
+Diagnostic testing should be reserved for the following:
+
+Situations in which knowing the specific pathogen affects clinical management (eg, need for antivirals versus antibiotics, in patients with immunodeficiency)
+
+Epidemiologic surveillance (ie, identifying and determining the cause of an outbreak)
+
+Pathogen identification can be important when specific antiviral therapy is indicated. Antiviral therapy is given for the following respiratory viruses and indications:
+
+Influenza: Patients or close contacts of patients at high risk of complications; may be given to average-risk patients with symptoms for < 48 hours (2)
+
+COVID-19: Patients at high risk of severe disease with symptoms for < 5 days (3)
+
+RSV infection: Specific, high-risk, immunocompromised patients (eg, post-allogeneic hematopoietic cell transplantation) (4)
+
+Identifying the specific pathogen (particularly the influenza virus or RSV in hospitalized patients or patients residing in a facility) may also be important for infection and outbreak prevention and control in institutional settings.
+
+Rapid point-of-care antigen-based and molecular diagnostic methods (eg, polymerase chain reaction [PCR]-based) diagnostic tests are available for influenza, RSV, and SARS-CoV-2. The rapid point-of-care antigen-based tests have lower sensitivity than PCR-based laboratory tests (5, 6). Point-of-care tests are typically reserved for cases when the clinical diagnosis is uncertain and:
+
+Antiviral therapy is being considered.
+
+Identification of the viral pathogen would prevent additional evaluation for or treatment of a bacterial infection.
+
+Identification of the viral pathogen would aid in infection prevention and control in the inpatient setting.
+
+PCR-based detection of viral pathogens in a multiplex panel (or individually for influenza, RSV, and SARS-CoV-2) may be preferable for management because they are highly sensitive and widely available (6, 7).
+
+Cell culture or serologic tests for viruses are sometimes available but are slower than PCR tests. They may be useful for epidemiologic surveillance.
+
+Diagnosis references
+
+1. Centers for Disease Control and Prevention (CDC). Clinical Overview of Respiratory Illnesses. Recommendations for the 2025-2026 Respiratory Virus Season. August 18, 2025. Accessed April 20, 2026.
+
+2. Uyeki TM, Bernstein HH, Bradley JS, et al. Clinical Practice Guidelines by the Infectious Diseases Society of America: 2018 Update on Diagnosis, Treatment, Chemoprophylaxis, and Institutional Outbreak Management of Seasonal Influenza. Clin Infect Dis. 2019;68(6):895-902. doi:10.1093/cid/ciy874
+
+3. Infectious Diseases Society of America (IDSA). IDSA Guidelines on the Treatment and Management of Patients with COVID-19. October 14, 2025. Accessed April 20, 2026.
+
+4. von Lilienfeld-Toal M, Khawaja F, Compagno F, et al. Community-acquired respiratory virus infections in patients with haematological malignancies or undergoing haematopoietic cell transplantation: updated recommendations from the 10th European Conference on Infections in Leukaemia. Lancet Infect Dis. 2026;26(3):e193-e206. doi:10.1016/S1473-3099(25)00365-2
+
+5. Dinnes J, Sharma P, Berhane S, et al. Rapid, point-of-care antigen tests for diagnosis of SARS-CoV-2 infection. Cochrane Database Syst Rev. 2022;7(7):CD013705. Published 2022 Jul 22. doi:10.1002/14651858.CD013705.pub3
+
+6. Chung HY, Jian MJ, Chang CK, et al. Multicenter study evaluating one multiplex RT-PCR assay to detect SARS-CoV-2, influenza A/B, and respiratory syncytia virus using the LabTurbo AIO open platform: epidemiological features, automated sample-to-result, and high-throughput testing. Aging (Albany NY). 2021;13(23):24931-24942. doi:10.18632/aging.203761
+
+7. Huang HS, Tsai CL, Chang J, Hsu TC, Lin S, Lee CC. Multiplex PCR system for the rapid diagnosis of respiratory virus infection: systematic review and meta-analysis. Clin Microbiol Infect. 2018;24(10):1055-1063. doi:10.1016/j.cmi.2017.11.018
+
+Treatment of Viral Respiratory Infections
+
+Supportive care
+
+Sometimes inhaled bronchodilators or glucocorticoids
+
+Sometimes antiviral medications
+
+The treatment of viral respiratory infections is usually supportive (eg, rest; hydration; gargling; symptomatic relief of pain, fever, and congestion).
+
+Antibiotics are ineffective for the treatment of infection caused by viral pathogens. Prophylaxis against secondary bacterial infections is not recommended. Antibiotics should be given only when secondary bacterial infections develop.
+
+Aspirin should not be used in patients aged ≤ 18 years with a suspected viral respiratory tract infection because of the risk of development of Reye syndrome.
+
+Some patients continue to cough for 3 to 8 weeks after resolution of an upper respiratory infection (1); these symptoms may lessen with use of an inhaled bronchodilator or inhaled corticosteroids (glucocorticoids), particularly in children with recurrent wheezing. (See Wheezing and Asthma in Infants and Young Children.)
+
+In some patients, antiviral medications are useful:
+
+For influenza: Oseltamivir, baloxavir marboxil, and zanamivir are effective (2, 3).
+
+For COVID-19: Nirmatrelvir with ritonavir, remdesivir, or molnupiravir after onset of symptoms of COVID-19 may be considered to prevent progression to severe disease in high-risk patients, and remdesivir may be considered for severe COVID-19 (4).
+
+For RSV: Ribavirin, a guanosine analog that inhibits replication of many RNA and DNA viruses, may be considered for severely immunocompromised patients with lower respiratory tract infection due to RSV (5).
+
+Treatment references
+
+1. Irwin RS, French CL, Chang AB, Altman KW; CHEST Expert Cough Panel*: Classification of Cough as a Symptom in Adults and Management Algorithms: CHEST Guideline and Expert Panel Report. Chest. 2018;153(1):196-209. doi:10.1016/j.chest.2017.10.016
+
+2. Centers for Disease Control and Prevention (CDC). Treating Flu with Antiviral Drugs. November 20, 2025. Accessed April 20, 2026.
+
+3. World Health Organization (WHO). Clinical practice guidelines for influenza. September 12, 2024. Accessed April 20, 2026.
+
+4. Infectious Diseases Society of America (IDSA). IDSA Guidelines on the Treatment and Management of Patients with COVID-19. October 14, 2025. Accessed April 20, 2026.
+
+5. Manothummetha K, Mongkolkaew T, Tovichayathamrong P, et al: Ribavirin treatment for respiratory syncytial virus infection in patients with haematologic malignancy and haematopoietic stem cell transplant recipients: a systematic review and meta-analysis. Clin Microbiol Infect. 2023;29(10):1272-1279. doi:10.1016/j.cmi.2023.04.021
+
+Prevention of Viral Respiratory Infections
+
+Prevention of viral respiratory infections is with immunizations or monoclonal antibodies.
+
+Immunization against RSV, COVID-19, and influenza is routinely recommended for the prevention of severe respiratory viral illnesses in most patients (1).
+
+Nirsevimab and clesrovimab are monoclonal antibodies used to prevent RSV infection in infants and young children (2). Palivizumab is not recommended for routine use. (See Prevention of RSV and hMPV.)
+
+Prevention references
+
+1. CDC. Talking with Patients About Respiratory Virus Season. June 6, 2025. Accessed April 20, 2026.
+
+2. Zar HJ, Simoes E, Madhi S, et al. 166. A Phase 2b/3 Study to Evaluate the Efficacy and Safety of an Investigational Respiratory Syncytial Virus (RSV) Antibody, Clesrovimab, in Healthy Preterm and Full-Term Infants. Open Forum Infect Dis. 2025;12(Suppl 1):ofae631.003. Published 2025 Jan 29. doi:10.1093/ofid/ofae631.003

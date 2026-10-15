@@ -1,0 +1,82 @@
+=== Overview of Pneumonia (Merck Manual Professional) ===
+Section: Pulmonology > Pneumonia
+Source: https://www.merckmanuals.com/professional/pulmonary-disorders/pneumonia/overview-of-pneumonia
+Retrieved: 2026-09-25
+
+Epidemiology of Pneumonia
+
+Pneumonia is the leading cause of death among hospital-acquired infections in the United States (1). Globally, it is the most common cause of infectious death (1, 2). Lower respiratory tract infections (including pneumonia) were responsible for 2.5 million deaths worldwide in 2023 (3).
+
+Millions of people in the United States develop pneumonia (excluding COVID-19 pneumonia) each year (4, 5).
+
+Children < 5 years of age, adults aged > 70 years, and immunocompromised adults are at the highest risk of pneumonia-related mortality (6). (See also Neonatal Pneumonia.)
+
+Epidemiology references
+
+1. Magill SS, O'Leary E, Janelle SJ, et al. Changes in Prevalence of Health Care-Associated Infections in U.S. Hospitals. N Engl J Med. 2018;379(18):1732-1744. doi:10.1056/NEJMoa1801550
+
+2. Dagenais GR, Leong DP, Rangarajan S, et al. Variations in common diseases, hospital admissions, and deaths in middle-aged adults in 21 countries from five continents (PURE): a prospective cohort study. Lancet. 2020;395(10226):785-794. doi:10.1016/S0140-6736(19)32007-0
+
+3. GBD 2023 Lower Respiratory Infections and Antimicrobial Resistance Collaborators. Global burden of lower respiratory infections and aetiologies, 1990-2023: a systematic analysis for the Global Burden of Disease Study 2023. Lancet Infect Dis. Published online December 15, 2025. doi:10.1016/S1473-3099(25)00689-9
+
+4. Holland E, Jabbar ABA, Asghar MS, et al. Demographic and regional trends of pneumonia mortality in the United States, 1999 to 2022. Sci Rep. 2025;15(1):10103. doi:10.1038/s41598-025-94715-6
+
+5. Centers for Disease Control and Prevention: National Center for Health Statistics: Fast Stats: Pneumonia. Last reviewed July 22, 2025. Accessed December 24, 2025.
+
+6. Dadonaite B, Roser M. Pneumonia. Our World in Data. November 2019. Updated February 2024. Accessed February 18, 2026.
+
+Etiology of Pneumonia
+
+While multiple pathogens, from viruses to parasites, can cause pneumonia, the most common cause of pneumonia in adults is bacterial infection (1).
+
+Streptococcus pneumoniae is the most common pathogen in all age groups, settings, and geographic regions (1). However, the incidence of S. pneumoniae infection has been declining in the United States and other countries because of increasing rates of pneumococcal vaccination and development of herd immunity (2). With the availability of sensitive molecular diagnostic methods, viruses are often recognized as causes of pneumonia, either as sole pathogens or a co-pathogens with bacteria (3).
+
+Pneumonia in the Lungs
+
+3D Model
+
+Etiology references
+
+1. GBD 2021 Lower Respiratory Infections and Antimicrobial Resistance Collaborators. Global, regional, and national incidence and mortality burden of non-COVID-19 lower respiratory infections and aetiologies, 1990-2021: a systematic analysis from the Global Burden of Disease Study 2021. Lancet Infect Dis. 2024;24(9):974-1002. doi:10.1016/S1473-3099(24)00176-2
+
+2. Wunderink RG, Feldman C. Community-Acquired Pneumonia: A Global Perspective. Semin Respir Crit Care Med. 2020;41(4):453-454. doi:10.1055/s-0040-1713003
+
+3. Shoar S, Musher DM. Etiology of community-acquired pneumonia in adults: a systematic review. Pneumonia (Nathan). 2020;12:11. doi:10.1186/s41479-020-00074-3
+
+Pathophysiology of Pneumonia
+
+Pneumonia develops when:
+
+Defense mechanisms (upper and lower airway) are compromised
+
+Macro-aspiration leads to a large inoculum of bacteria that overwhelms normal host defenses
+
+A particularly virulent pathogen is introduced
+
+Upper airway defenses include salivary IgA, proteases, and lysozyme; growth inhibitors produced by normal flora; and fibronectin, which coats the mucosa and inhibits microbial adherence. Nonspecific lower airway defenses, including cough and mucociliary clearance, prevent infection in airspaces. Specific lower airway defenses include various pathogen-specific immune mechanisms, including IgA and IgG opsonization, antimicrobial peptides, anti-inflammatory effects of surfactant, phagocytosis by alveolar macrophages, and T-cell–mediated immune responses. These mechanisms protect most people against infection.
+
+Normal host defenses can be overwhelmed by numerous conditions that alter the normal flora (eg, systemic illness, undernutrition, hospital exposure, antibiotic exposure) or impair these defenses (eg, altered mental status, cigarette smoking, nasogastric or endotracheal intubation, disorders or medications that suppress the immune system). When host defenses are overwhelmed, pathogens that then reach airspaces can multiply and cause pneumonia.
+
+The airways and lungs are continuously exposed to pathogens in the external environment. The upper airways and oropharynx are colonized with normal (ie, commensal) flora, which is sometimes referred to as the lung microbiome in the lower respiratory tract (1). Microaspiration of these pathogens from the upper respiratory tract is a regular occurrence, even in immunocompetent individuals; these pathogens are usually cleared by host immune defense mechanisms. One potential mechanism for pneumonia development is through dysbiosis in the resident microbiome of the lung (2). Particularly virulent pathogens contribute to dysbiosis primarily by creating a nutrient-rich inflammatory environment that favors pathogen proliferation while depleting protective commensal organisms.
+
+Specific pathogens causing pneumonia cannot be found in up to 50% of patients, even with extensive diagnostic investigation, primarily because of the limitations of available diagnostic tests and the difficulty of obtaining adequate deep lung (alveolar) samples (3). But because pathogens and outcomes tend to be similar in patients in similar settings and with similar risk factors, it is clinically useful to categorize pneumonias as:
+
+Community-acquired
+
+Hospital-acquired (excluding ventilator-associated)
+
+Ventilator-associated
+
+Occurring in immunocompromised patients, including patients with human immunodeficiency virus (HIV) infection (see Pneumocystis jirovecii Pneumonia)
+
+Aspiration pneumonia, which occurs when large volumes of upper airway or gastric secretions enter into the lungs
+
+These categorizations allow treatment to be initiated empirically (ie, before confirmation of a specific organism).
+
+Pathophysiology references
+
+1. Wu BG, Segal LN. The Lung Microbiome and Its Role in Pneumonia. Clin Chest Med. 2018;39(4):677-689. doi:10.1016/j.ccm.2018.07.003
+
+2. Roquilly A, Torres A, Villadangos JA, et al. Pathophysiological role of respiratory dysbiosis in hospital-acquired pneumonia. Lancet Respir Med. 2019;7(8):710-720. doi:10.1016/S2213-2600(19)30140-7
+
+3. Musher DM, Abers MS, Bartlett JG. Evolving Understanding of the Causes of Pneumonia in Adults, With Special Attention to the Role of Pneumococcus. Clin Infect Dis. 2017;65(10):1736-1744. doi:10.1093/cid/cix549

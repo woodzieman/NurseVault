@@ -1,0 +1,984 @@
+=== Irinotecan (Merck Manual Professional) ===
+Source: https://www.merckmanuals.com/professional/drug-names-generic-and-brand (productid 322)
+Retrieved: 2026-09-25
+NURSING QUICK-REFERENCE SUMMARY
+Auto-generated on 2026-09-25 from the prescribing information in this file; full details follow below.
+
+Drug Class: Irinotecan is an intravenous antineoplastic agent.
+
+Routes: injection (IV/IM/SC); Common adult doses: Single agent: 350 mg/m2 IV every 3 weeks or 125 mg/m2 IV weekly.
+
+Common Side Effects (excluding routine GI upset): asthenia, back pain, dysarthria, headache, confusion, dizziness, drowsiness, insomnia, syncope, vertigo, chills, fever, infection, rhinitis, cough, dyspnea, interstitial lung disease, pneumonitis, anemia, leukopenia, thrombocytopenia, bradycardia, colitis, diaphoresis, gi bleeding, gi obstruction, gi perforation, hypersalivation, ileus, lacrimation
+
+In an Overdose: No overdose/antidote information is listed in this file.
+
+Key Nursing Considerations: Contraindications/precautions: Irinotecan may cause fetal harm when administered to a pregnant women. Therefore, irinotecan is not recommended for use during pregnancy (FDA pregnancy risk category D). Emetic risk: Moderate Extravasation risk: Irritant Hazardous drug: NIOSH 2024 List: Table 1
+
+Brand Names
+  - Camptosar
+
+Dosage Forms
+  - Camptosar 100mg/5ml Solution for Injection
+  - Camptosar 300mg/15ml Solution for Injection
+  - Camptosar 40mg/2ml Solution for Injection
+  - Irinotecan Hydrochloride 20mg/1mL Solution for injection
+  - ONIVYDE 43mg/10mL Liposomal Injection
+
+Indication Specific Dosing
+  Indications
+    Related Indications
+      Heading
+      for the treatment of metastatic colorectal cancer in combination with fluorouracil and leucovorin (IFL)
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          125 mg/m2 IV over 90 minutes on days 1, 8, 15, and 22, in combination with leucovorin (20 mg/m2 IV bolus) followed by fluorouracil (500 mg/m2 IV bolus) on days 1, 8, 15, and 22. Repeat every 6 weeks until disease progression or unacceptable toxicity. Reduce the dose of irinotecan by at least one dose level in patients who are homozygous for the UGT1A1*28 or *6 alleles, or who are compound heterozygous for UGT1A1 *28 or *6. In a multicenter, randomized, open-label, phase 3 clinical trial, first-line treatment with IFL significantly improved median progression free survival (7 months vs. 4.3 months) as well as the objective response rate (50% vs. 28%) compared with the Mayo Clinic bolus regimen in patients with metastatic colorectal cancer. Treatment with IFL resulted in increased mortality compared with FOLFIRI with one trial, and was inferior to FOLFOX in another.
+      Heading
+      for the treatment of metastatic colorectal cancer that has recurred or progressed after fluorouracil-based therapy, as monotherapy
+      Routes
+        Heading
+        Intravenous dosage (WEEKLY)
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          125 mg/m2 IV over 90 minutes on days 1, 8, 15, and 22, repeated every 6 weeks until disease progression or unacceptable toxicity. For patients who do not experience toxicity in a given cycle, the weekly dose may be increased at the start of the next cycle by 25 mg/m2 to a maximum of 150 mg/m2. Consider reducing the dose by one dosage level for patients homozygous for the UGT1A1*28 or *6 alleles or who are compound heterozygous for UGT1A1 *28 and *6. In 3 separate open-label, single agent clinical studies of patients with metastatic colorectal cancer (mCRC) (n = 304), most of whom had progression or recurrence after previous fluorouracil-based therapy for mCRC, treatment with weekly irinotecan resulted in objective response rates of 13% to 21%, median survival of 8.1 months to 10.7 months, and 1-year survival of 31% to 46%. One of these studies included a starting dose of 150 mg/m2 in 9 patients, which was poorly tolerated due to high rates of grade 4 late diarrhea and neutropenic fever.
+      Heading
+      for the treatment of KRAS wild-type, EGFR-expressing, metastatic colorectal cancer (mCRC) in combination with cetuximab in patients who are refractory to irinotecan-based chemotherapy†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          350 mg/m2 IV every 3 weeks; 180 mg/m2 IV every 2 weeks; or 125 mg/m2 IV weekly for 4 doses every 6 weeks; the dose of irinotecan should be the same dosage that the patient had previously failed. Prior to administration of irinotecan, administer in combination with cetuximab 400 mg/m2 IV on day 1, followed by weekly infusions of cetuximab 250 mg/m2 IV until disease progression or unacceptable toxicity; complete the cetuximab infusion 1 hour prior to irinotecan. Reduce the dose of irinotecan by at least one dose level in patients who are homozygous for the UGT1A1*28 or *6 alleles, or who are compound heterozygous for UGT1A1 *28 and *6. In a randomized, open-label, phase 2 clinical trial (the BOND study), patients with metastatic colorectal cancer who were refractory to irinotecan were randomized to treatment with cetuximab monotherapy or cetuximab plus irinotecan (at the dose previously failed). The response rate in patients receiving cetuximab plus irinotecan was 22.9% compared with 10.8% in those receiving cetuximab monotherapy; the median time to progression was significantly improved in the combination therapy arm (4.1 months vs. 1.5 months). The median survival time was 8.6 months in patients receiving cetuximab plus irinotecan and 6.9 months in those who received cetuximab alone.
+      Heading
+      for the treatment of metastatic colorectal cancer, in combination with leucovorin and fluorouracil (FOLFIRI)
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          180 mg/m2 IV on day 1, administered concomitantly but in separate bags with leucovorin (200 mg/m2 IV); when the leucovorin infusion is complete, administer (400 mg/m2 IV bolus on days 1 and 2, followed by 600 mg/m2 IV over 22 hours on days 1 and 2) every 14 days until disease progression or unacceptable toxicity. Reduce the dose of irinotecan by at least one dose level in patients who are homozygous for the UGT1A1*28 or *6 alleles, or compound heterozygous for UGT1A1 *28 and *6. FOLFIRI has alternatively been administered as irinotecan (180 mg/m2 IV) concurrently but in separate bags with leucovorin (400 mg/m2 IV) on day 1; following completion of the leucovorin infusion, infuse fluorouracil (400 mg/m2 IV bolus on day 1, followed by fluorouracil 1,200 mg/m2 per day by continuous IV infusion [CIV] over 22 hours on days 1 and 2 [total infusional dose, 2,400 mg/m2 CIV over 46 hours]). Repeat this 2-day regimen (FOLFIRI) every 2 weeks until disease progression or unacceptable toxicity. In this version of FOLFIRI, if there is no toxicity greater than grade 1, the fluorouracil infusion dose may be increased to 3,000 mg/m2 for all subsequent cycles. FOLFIRI is an established chemotherapy regimen in metastatic colorectal cancer.
+      Heading
+      for the treatment of BRAF mutation-positive, RAS wild-type, metastatic colorectal cancer, in combination with vemurafenib and cetuximab†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          180 mg/m2 IV plus cetuximab (500 mg/m2 IV) on day 1, every 14 days, in combination with vemurafenib 960 mg by mouth twice daily, until disease progression or unacceptable toxicity. Reduce the dose of irinotecan by at least one dose level in patients who are homozygous for the UGT1A1*28 or *6 alleles, or who are compound heterozygous for UGT1A1 *28 and *6. Coadministration of certain drugs may need to be avoided or dosage adjustments may be necessary; review drug interactions. In a multicenter, randomized, open-label phase 2 clinical trial, treatment with vemurafenib, cetuximab and irinotecan significantly improved the median progression-free survival (PFS) over treatment with cetuximab plus irinotecan, without vemurafenib (4.4 months vs. 2 months) in patients with BRAF V600E mutation-positive, RAS wild-type, metastatic colorectal cancer (mCRC) received treatment with cetuximab and irinotecan, with or without vemurafenib (a BRAF inhibitor). Approximately 50% of patients in the control arm crossed over to receive vemurafenib after progression; the rate of disease control was also significantly improved in the vemurafenib arm (67% vs. 22%).
+      Heading
+      for the second-line treatment of metastatic colorectal cancer, in combination with oxaliplatin (IROX)
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          200 mg/m2 IV over 30 to 90 minutes on day 1, immediately preceded by oxaliplatin 85 mg/m2 IV, repeated every 3 weeks until disease progression or unacceptable toxicity (IROX). Reduce the dose of irinotecan by at least one dose level in patients who are homozygous for the UGT1A1*28 or *6 alleles, or patients who are compound heterozygous for UGT1A1 *28 and *6. In a randomized, open-label, phase 3 clinical trial, treatment with IROX significantly improved overall survival (13.4 months vs. 11.1 months) and median time to progression (5.3 months vs. 2.8 months) compared with irinotecan alone in patients with metastatic or recurrent colorectal cancer that progressed or recurred during or after first-line fluoropyrimidines (i.e., fluorouracil/leucovorin or capecitabine). Patents treated with IROX also had significant improvement in tumor-related symptoms compared with irinotecan monotherapy (32% vs. 19%).
+      Heading
+      for the first-line treatment of KRAS wild-type, EGFR-expressing, metastatic colorectal cancer (mCRC) in combination with fluorouracil, leucovorin, and cetuximab (FOLFIRI plus cetuximab)†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          180 mg/m2 IV on day 1 followed by levoleucovorin 200 mg/m2 IV (or racemic leucovorin 400 mg/m2 IV), followed by fluorouracil 400 mg/m2 IV given as a bolus then 2,400 mg/m2 as a 46-hour continuous IV infusion, repeated every 14 days. Reduce the dose of irinotecan by at least one dose level in patients who are homozygous for the UGT1A1*28 or *6 alleles, or who are compound heterozygous for UGT1A1 *28 and *6. Administer in combination with cetuximab 400 mg/m2 IV on day 1 followed by weekly infusions of cetuximab 250 mg/m2 IV, administered 1 hour prior to chemotherapy, until disease progression or unacceptable toxicity; alternatively, cetuximab may be administered at a dose of 500 mg/m2 IV every 2 weeks. Complete cetuximab administration 1 hour prior to chemotherapy. In a multicenter, randomized, open-label, phase 3 clinical trial of patients with mCRC, unselected for KRAS mutational status, first-line treatment with cetuximab plus FOLFIRI (n = 599) significantly improved the primary endpoint of median progression-free survival (PFS) compared with FOLFIRI alone (n = 599) (8.9 months vs. 8 months); the overall response rate was 46.9% vs. 38.7%, respectively. Median overall survival was 19.9 months in the cetuximab group compared with 18.6 months in patients treated with FOLFIRI alone. In a subgroup analysis of patients with known KRAS mutational status (KRAS negative, n = 666; KRAS positive, n = 397), the addition of cetuximab to FOLFIRI therapy significantly improved the median PFS (9.9 vs. 8.4 months) and overall survival (23.5 vs. 20 months) times only in patients with KRAS wild type disease.
+    Routes
+    Heading
+    For the treatment of metastatic colorectal cancer
+    Routes
+      Heading
+      Intravenous dosage
+      Route Age Groups
+        Heading
+        Adults
+        Dosage Description
+        60 mg/m2 IV over 90 minutes on days 1, 8, and 15 in combination with cisplatin 60 mg/m2 IV on day 1, every 4 weeks for 4 cycles has been studied in multiple studies.
+    Heading
+    For the treatment of extensive small cell lung cancer (SCLC)† in combination with cisplatin
+    Related Indications
+      Heading
+      for the treatment of previously untreated advanced gastric cancer in combination with 5-fluorouracil†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          80 mg/m2 IV over 30 minutes in combination with folinic acid 500 mg/m2 IV over 2 hours and fluorouracil 2,000 mg/m2 IV over 22 hours, administered weekly for 6 weeks followed by 1 week of rest. Treatment was continued until disease progression or unacceptable toxicity.
+    Routes
+    Heading
+    For the treatment of gastric cancer†
+    Related Indications
+      Heading
+      for the adjuvant treatment of pancreatic cancer, in combination with 5-fluorouracil (5-FU), leucovorin, and oxaliplatin (mFOLFIRINOX)†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          Oxaliplatin 85 mg/m2 IV over 2 hours on day 1, immediately followed by leucovorin 400 mg/m2 IV over 2 hours; begin irinotecan 150 mg/m2 IV over 90 minutes 30 minutes after the leucovorin infusion is started, followed by 5-fluorouracil 2,400 mg/m2 IV continuously over 46 hours. Repeat every 14 days for 12 cycles. In a randomized phase 3 trial, adjuvant treatment with mFOLFIRINOX significantly increased both progression-free survival (PFS) and overall survival (OS) compared with gemcitabine monotherapy in patients with pancreatic cancer. In this trial, patients were carefully selected for treatment based on age (younger than 80 years of age), R0 or R1 resection, and a CA 19-9 level of 180 units/mL or less.
+      Heading
+      for the first-line treatment of metastatic pancreatic cancer, in combination with oxaliplatin, 5-fluorouracil (5-FU), and leucovorin (FOLFIRINOX)†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          Oxaliplatin 85 mg/m2 IV over 2 hours, immediately followed by leucovorin 400 mg/m2 IV over 2 hours, and 30 minutes after the start of the leucovorin infusion, add irinotecan 180 mg /m2 IV over 90 minutes through a Y-connector, which was immediately followed by 5-fluorouracil 400 mg/m2 IV bolus and a continuous infusion of 5-fluorouracil 2,400 mg/m2 over 46 hours (FOLFIRINOX). The regimen was repeated every 2 weeks for a period of 6 months in patients who exhibited a response.
+    Routes
+    Heading
+    For the treatment of pancreatic cancer†
+    Related Indications
+      Heading
+      in previously untreated patients with metastatic disease†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Children, Adolescents, and Adults younger than 50 years
+          Dosage Description
+          20 mg/m2/day IV over 1 hour for 5 days given in weeks 0, 1, 3, and 4 plus vincristine 1.5 mg/m2 IV (max dose: 2 mg) on day 1 of weeks 0, 1, 3, and 4 was studied as window therapy in 50 patients aged less than 50 years (median age, 14 years; range, 1 to 26 years) with previously untreated metastatic rhabdomyosarcoma (RMS) (alveolar type, n = 43) in a phase II study. Patients who responded to treatment (complete (CR) or partial response) received irinotecan plus vincristine in weeks 9, 10, 26, 27, 32, 33, 38, and 39 and VAC (vincristine 1.5 mg/m2 IV (max dose: 2 mg) on day 1, dactinomycin 1.5 mg/m2 IV (max dose: 2.5 mg) on day 1, and cyclophosphamide 2.2 grams/m2 IV on day 1 with mesna 440 mg/m2 IV over 15 minutes prior to and at 3, 6, and 9 hours after cyclophosphamide) in weeks 6, 12, 23, 29, 35, and 41. Patients also received single-agent vincristine on day 1 in weeks 7, 8, 11, 13, 15, 17, 18, 24, 25, and 34; vincristine plus cyclophosphamide on day 1 in weeks 16 and 19; and radiotherapy to primary and metastatic sites during weeks 15 to 22.
+      Heading
+      in patients in first relapse or with disease progression following one previous chemotherapy regimen†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Children, Adolescents, and Adults younger than 21 years
+          Dosage Description
+          20 mg/m2/day IV over 1 hour for 5 days given in weeks 1, 2, 4, and 5 (arm A) or irinotecan 50 mg/m2/day IV for 5 days given in weeks 1 and 4 (arm B) plus vincristine 1.5 mg/m2 IV (max dose: 2 mg) on day 1 of weeks 1, 2, 4, and 5 was studied in 92 patients (aged less than 21 years at diagnosis) with rhabdomyosarcoma (RMS) in a randomized, phase II window study. Patients who responded to treatment (complete (CR) or partial (PR) response) continued to receive chemotherapy with irinotecan 20 mg/m2/day IV for 5 days given in weeks 13, 14, 25, 26, 34, 35, 46, 47, 49, and 50 (arm A) or 50 mg/m2/day IV for 5 days given in weeks 13, 25, 34, 46, and 49 (arm B) plus vincristine (1.5 mg/m2 IV (max dose: 2 mg) on day 1 of weeks 13, 14, 25, 26, 34, 35, 46, 47, 49, and 50) and doxorubicin (75 mg/m2 IV on day 1 in weeks 7, 16, 28, 37, and 40), cyclophosphamide (1.2 grams/m2 IV on day 1 in weeks 7, 16, 28, 37, and 40), etoposide (100 mg/m2/day IV for 5 days given in weeks 10, 19, 22, 28, 31, and 37), and ifosfamide (1.8 grams/m2/day IV for 5 days given in weeks 10, 19, 22, 28, 31, and 37).
+    Routes
+    Heading
+    For the treatment of rhabdomyosarcoma†, in combination with chemotherapy
+    Routes
+      Heading
+      Intravenous dosage
+      Route Age Groups
+        Heading
+        Adults
+        Dosage Description
+        60 mg/m2 IV over 90 minutes on days 1, 8, and 15 in combination with cisplatin 80 mg/m2 IV on day 1, repeated every 4 weeks. Alternatively, a regimen of cisplatin 30 mg/m2 IV then irinotecan 65 mg/m2 IV over 90 minutes (50 mg/m2 IV for previously treated patients) administered weekly for 4 weeks followed by a 2-week rest has been studied. Treatment was continued for a maximum of 6 cycles. In a phase III trial, overall survival was similar for cisplatin-irinotecan compared to other platinum-based doublets.]
+    Heading
+    For the treatment of non-small cell lung cancer (NSCLC)† in combination with cisplatin
+    Related Indications
+      Heading
+      for the treatment of patients with neuroblastoma in the relapsed, refractory, or palliative setting
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Children 2 years and older and Adolescents
+          Dosage Description
+          50 mg/m2 IV over 1 hour once daily on days 1 to 5 as monotherapy or in combination with oral temozolomide. Cycle may be repeated every 21 to 28 days. In one clinical trial, patients with refractory or relapsed neuroblastoma (n = 49) received 1 to 15 courses (median: 5) of irinotecan and temozolomide. Of the 36 patients assessable for response, 3 patients (8%) had complete or partial response and 9 patients (25%) had objective responses. In adults, it is recommended to reduce the starting dose of irinotecan by at least one level for patients homozygous for the UGT1A1*28 allele, but there is limited data in children and adolescents. One phase II study administered monotherapy irinotecan and did not find an association between UGT1A1*28 genotype and toxicity or pharmacokinetic parameters.
+      Heading
+      for the first-line treatment of patients with relapsed, refractory neuroblastoma, in combination with temozolomide and dinutuximab
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Children 2 years and older and Adolescents
+          Dosage Description
+          50 mg/m2 IV over 90 minutes once daily on days 1 to 5 in combination with oral temozolomide and IV dinutuximab. Cycles may be repeated every 21 days. In Children's Oncology Group trial ANBL1221, nine out of 17 patients (53%) assigned to the irinotecan, temozolomide, dinutuximab group had objective responses as compared to 1 of the 18 patients (6%) in the irinotecan, temozolomide, temsirolimus group. In adults, it is recommended to reduce the starting dose of irinotecan by at least one level for patients homozygous for the UGT1A1*28 allele, but there is limited data in children and adolescents. One phase II study administered monotherapy irinotecan and did not find an association between UGT1A1*28 genotype and toxicity or pharmacokinetic parameters.
+      Heading
+      for the first-line treatment of relapsed or refractory neuroblastoma, in combination with temozolomide
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults 21 years and younger
+          Dosage Description
+          10 mg/m2 IV over 1 hour once daily on days 1 to 5 and days 8 to 12 in combination with oral temozolomide. Cycles may be repeated every 21 days. In Children's Oncology Group ANBL0421, 8 patients (15%) had objective responses with the combination of irinotecan and temozolomide. In adults, it is recommended to reduce the starting dose of irinotecan by at least one level for patients homozygous for the UGT1A1*28 allele, but there is limited data in children and adolescents. One phase II study administered monotherapy irinotecan and did not find an association between UGT1A1*28 genotype and toxicity or pharmacokinetic parameters.
+          Heading
+          Infants, Children, and Adolescents
+          Dosage Description
+          10 mg/m2 IV over 1 hour once daily on days 1 to 5 and days 8 to 12 in combination with oral temozolomide. Cycles may be repeated every 21 days. In Children's Oncology Group ANBL0421, 8 patients (15%) had objective responses with the combination of irinotecan and temozolomide. In adults, it is recommended to reduce the starting dose of irinotecan by at least one level for patients homozygous for the UGT1A1*28 allele, but there is limited data in children and adolescents. One phase II study administered monotherapy irinotecan and did not find an association between UGT1A1*28 genotype and toxicity or pharmacokinetic parameters.
+    Routes
+    Heading
+    For the treatment of neuroblastoma†
+
+Contraindications And Precautions
+  Headline
+  Contraindications/Warnings/Precautions
+  General Information
+  Irinotecan may cause fetal harm when administered to a pregnant women. Therefore, irinotecan is not recommended for use during pregnancy (FDA pregnancy risk category D). Irinotecan is embryotoxic in animals; however, there are no data concerning use in pregnant humans. Teratogenic effects in animals like rats and rabbits include a variety of external, visceral, and skeletal abnormalities. Females of childbearing age should avoid becoming pregnant while receiving irinotecan. If a woman becomes pregnant during therapy with irinotecan, the patient should be informed of the potential risk to the fetus.
+ 
+Irinotecan is excreted into breast milk. Breast-feeding should be avoided during therapy with irinotecan.
+ 
+Irinotecan should be administered only under the supervision of a physician who is experienced in the use of cancer chemotherapeutic agents. Appropriate management of complications is possible only when adequate diagnostic and treatment facilities are readily available. Patients who have had previous myelosuppressive therapy, such as chemotherapy and/or prior pelvic or abdominal radiation therapy, may be at increased risk for irinotecan-induced bone marrow suppression, including neutropenia or thrombocytopenia. Concurrent administration of radiation therapy and irinotecan is not recommended. Prior to each dose of irinotecan monitoring of hematologic parameters is recommended; the absolute neutrophil count (ANC) should be >= 1500/mm3 and the platelet count >= 100,000/mm3. Treatment should be delayed 1—2 weeks to allow for recovery from treatment-related toxicities. If the patient has not recovered within 2 weeks, consider discontinuing treatment. Treatment with irinotecan should be temporarily omitted during a course of therapy if neutropenic fever occurs or the ANC drops below 1000/mm3; dosage reduction is required in these patients (see Dosage). Routine use of colony-stimulating factors is not necessary, but some clinicians may consider use in patients with significant neutropenia during irinotecan therapy. Patients with active infection should be treated prior to receiving irinotecan. Patients with a history of varicella zoster, other herpes infection (e.g., herpes simplex), or other viral infection are at risk for reactivation of the infection when treated with chemotherapy.
+ 
+Irinotecan should be administered only under the supervision of a physician who is experienced in the use of cancer chemotherapeutic agents. Appropriate management of complications is possible only when adequate diagnostic and treatment facilities are readily available. Irinotecan can cause both early and late diarrhea. Early diarrhea (during or shortly after the infusion) is accompanied by cholinergic symptoms including rhinitis, salivation, miosis, lacrimation, diaphoresis, flushing, and hyperperistalsis with possible abdominal cramping. Atropine can be used to treat early diarrhea. Late diarrhea, which occurs more than 24 hours after the administration of irinotecan, can be life-threatening as it may be prolonged and lead to severe volume depletion, electrolyte imbalance, or sepsis. Late diarrhea should be treated with loperamide. In addition, preexisting diarrhea or dehydration should be treated prior to receiving irinotecan. Irinotecan treatment may need to be delayed 1—2 weeks to allow for recovery from irinotecan-related diarrhea and dosage reduction may be necessary if severe diarrhea develops (see Dosage). Patients with diarrhea should be carefully monitored and given fluid and electrolyte replacement if they become dehydrated or antibiotic therapy if they develop ileus, fever, or severe neutropenia. After the first treatment, subsequent weekly treatments should be delayed in patients with active diarrhea until return of pretreatment bowel function for at least 24 hours without the need for antidiarrhea medication. If grade 2, 3, or 4 late diarrhea occurs, subsequent doses of irinotecan should be reduced within the current treatment cycle (see Dosage). If the patient has not recovered within 2 weeks, consider discontinuing treatment.
+ 
+Use cautiously in elderly patients; these patients are more likely to experience diarrhea after receiving irinotecan. Dosage adjustments are recommended for patients >= 70 years for the irinotecan single-agent 3-week regimen (see Dosage). In patients receiving either irinotecan/5-fluorouracil (5-FU)/leucovorin or 5-FU/leucovorin in clinical trials, higher rates of hospitalization, neutropenia, thromboembolism, first-cycle treatment discontinuation, and early deaths were observed in patients with a baseline performance status of 2 than in patients with a baseline performance status of 0 or 1.
+ 
+Intramuscular injections should not be given to patients with a platelet count 2 mg/dl or serum transaminases > 3 times the upper limit of normal without liver metastasis or serum transaminases > 5 times the upper limit of normal with liver metastasis. However, during clinical trials, patients with modestly elevated baseline serum bilirubin levels (1—2 mg/dl) have had significantly greater risk of developing first-course grade 3—4 neutropenia than those patients whose serum bilirubin levels were = 2 weeks. The administration of live vaccines to immunocompromised patients should be avoided. Those undergoing chemotherapy should not be exposed to others who have recently received the oral poliovirus vaccine (OPV). Measles-mumps-rubella (MMR) vaccination is not contraindicated for the close contacts, including health care professionals, of immunocompromised patients. Passive immunoprophylaxis with immune globulins may be indicated for immunocompromised persons instead of, or in addition to, vaccination. When exposed to a vaccine-preventable disease such as measles, severely immunocompromised children should be considered susceptible regardless of their vaccination history.
+  Contraindications And Precautions
+    Headline
+    Drug Interactions
+    General Information
+    The coadministration of certain medications may lead to harm and require avoidance or therapy modification; review all drug interactions prior to concomitant use of other medications.
+    Headline
+    Hypersensitivity
+    General Information
+    This medication is contraindicated in patients with a history of hypersensitivity to it or any of its components.
+    Headline
+    diarrhea, intestinal obstruction
+    General Information
+    Do not administer irinotecan to patients with an intestinal obstruction. Diarrhea commonly occurs with irinotecan treatment; avoid the use of diuretics or laxatives in patients with diarrhea. Diarrhea that occurs during or shortly after the irinotecan infusion ("early diarrhea") is often dose-related and may be accompanied by cholinergic symptoms; early diarrhea is typically transient and is not usually severe. Consider IV or subcutaneous administration of atropine (0.25 to 1 mg) as a preventative or treatment strategy unless contraindicated. Diarrhea that occurs generally more than 24 hours after irinotecan administration ("late diarrhea") may be prolonged and lead to dehydration, electrolyte abnormalities, sepsis, or death. Loperamide should be used at the first episode of poorly formed or loose stools, or the earliest onset of bowel movements that are more frequent than normal. Monitor and replace fluid and electrolytes and provide antibiotic support for ileus, fever, or severe neutropenia. An interruption of therapy, dose reduction, or discontinuation of therapy may be necessary depending on the severity of diarrhea.
+    Headline
+    geriatric
+    General Information
+    Closely monitor patients greater than 65 years of age (geriatric patients) due to a greater risk of early and late diarrhea in this population. In patients older than 70 years of age, reduce the starting dose of irinotecan monotherapy for the every-3-week schedule to 300 mg/m2.
+    Headline
+    bone marrow suppression, Gilbert syndrome, hyperbilirubinemia, pelvic radiation therapy
+    General Information
+    Treatment with irinotecan can cause severe bone marrow suppression; patients who have previously received abdominal or pelvic radiation therapy and those with hyperbilirubinemia (baseline total bilirubin of 1 mg/dL or more) including deficient glucuronidation of bilirubin, such as those with Gilbert syndrome, may be at increased risk. An interruption of therapy, dose reduction, or discontinuation of therapy may be required for neutropenia, depending on the severity. Based on sparse available data, the concurrent administration of irinotecan with irradiation is not recommended due to the risk of myelosuppression; irinotecan was not studied in patients with total bilirubin greater than 2 mg/dL.
+    Headline
+    infection
+    General Information
+    Use irinotecan with caution in patients with an active infection; severe myelosuppression resulting from irinotecan treatment may increase the severity of an infection and impede recovery.
+    Headline
+    UGT1A1 poor metabolizer
+    General Information
+    Consider UGT1A1 genotype testing for the *28 and *6 alleles to determine UGT1A1 metabolizer status. Consider reducing the starting dose of irinotecan by at least 1 level for patients known to have a homozygous or compound heterozygous UGT1A1 poor metabolizer status in the *28 and/or *6 alleles (*28/*28, *6/*6, *6/*28); the precise dosage reduction in this patient population is not known. Closely monitor patients with UGT1A1*28 or *6 alleles for an increase in the incidence and severity of neutropenia during and after treatment with irinotecan due to increased systemic exposure to SN-38, an active metabolite of irinotecan.
+    Headline
+    pulmonary disease, thoracic radiation therapy
+    General Information
+    Use irinotecan with caution in patients who have a history of pre-existing pulmonary disease; severe pneumonitis/interstitial lung disease has been reported in patients treated with irinotecan. Additional risk factors for irinotecan-induced pulmonary toxicity include the use of pneumotoxic drugs, thoracic radiation therapy, and the use of colony stimulating factors. Monitor patients for new or worsening respiratory symptoms including fever, cough, or dyspnea. Immediately interrupt irinotecan therapy in patients with new or worsening respiratory symptoms and permanently discontinue therapy if no other potential causes are identified.
+    Headline
+    hepatic failure
+    General Information
+    Use irinotecan with caution in patients with hepatic impairment including hepatic failure. Irinotecan clearance is decreased compared to patients with normal hepatic function in proportion to the degree of hepatic impairment (e.g., increased bilirubin and transaminitis), while exposure to the active metabolite SN-38 is increased. The use of irinotecan in patients with significant hepatic impairment has not been established; in clinical trials, irinotecan was not administered to patients with serum bilirubin greater than 2, transaminases greater than 3 times the upper limit of normal (ULN) in patients without liver metastases, or transaminases greater than 5 times ULN in patients with liver metastases.
+    Headline
+    pregnancy
+    General Information
+    Irinotecan may cause fetal harm when administered during pregnancy, based on animal data and its mechanism of action. Advise pregnant people of the potential fetal risk. Available post-marketing and published data reporting the use of irinotecan in pregnant people are insufficient and confounded by the concomitant use of other cytotoxic drugs to evaluate for any drug-associated risk for major birth defects, miscarriage, or adverse maternal or fetal outcomes. In animal studies, intravenous administration of irinotecan to rats during organogenesis increased post-implantation loss and decreased numbers of live fetuses at approximately 0.2 times the clinical exposure at a 125 mg/m2 dose in humans; at exposures of approximately 0.3 times the clinical exposure at a 125 mg/m2 dose in humans, there were increases in a variety of external, visceral, and skeletal abnormalities. When administered to rat dams following organogenesis through weaning, the offspring experienced decreased learning ability and decreased female body weights. Administration of irinotecan to pregnant rabbits at exposures of approximately half of the clinical exposure at a human dose of 125 mg/m2 resulted in similar findings to those in rats, with increased post-implantation loss, decreased live fetuses, and increased external, visceral, and skeletal abnormalities. The American Society of Clinical Oncology provides additional information on the use of certain medications for the management of cancer during pregnancy.
+    Headline
+    people who can cause pregnancy in others, people who may become pregnant, reproductive risk
+    General Information
+    Counsel people who may become pregnant and people who can cause pregnancy in others about the reproductive risk associated with irinotecan. Irinotecan can cause fetal harm. Verify pregnancy status prior to treatment initiation. Advise people who may become pregnant to use effective contraception while taking irinotecan and for 6 months after the last dose. For those that can cause pregnancy in others, contraception should be used during irinotecan treatment and for 3 months after the last dose. Based on animal data and post-marketing reports, irinotecan can cause both male and female infertility. Menstrual dysfunction has been reported following irinotecan administration. In animal studies, atrophy of reproductive organs was observed after multiple daily irinotecan doses in male rodents at approximately the same exposure seen in humans receiving a dose of 125 mg/m2, and in dogs at exposures of approximately 1/15th seen in humans receiving a dose of 125 mg/m2.
+    Headline
+    breast-feeding
+    General Information
+    Advise patients to avoid breast-feeding while taking irinotecan and for 1 week after the last dose, due to the risk of serious adverse reactions in the breast-fed child. There are no data on the presence of irinotecan or its metabolites in human milk, their effects on the breast-fed child, or their effects on milk production.
+
+Pregnancy And Lactation
+  Pregnancy
+    General Information
+    Irinotecan may cause fetal harm when administered during pregnancy, based on animal data and its mechanism of action. Advise pregnant people of the potential fetal risk. Available post-marketing and published data reporting the use of irinotecan in pregnant people are insufficient and confounded by the concomitant use of other cytotoxic drugs to evaluate for any drug-associated risk for major birth defects, miscarriage, or adverse maternal or fetal outcomes. In animal studies, intravenous administration of irinotecan to rats during organogenesis increased post-implantation loss and decreased numbers of live fetuses at approximately 0.2 times the clinical exposure at a 125 mg/m2 dose in humans; at exposures of approximately 0.3 times the clinical exposure at a 125 mg/m2 dose in humans, there were increases in a variety of external, visceral, and skeletal abnormalities. When administered to rat dams following organogenesis through weaning, the offspring experienced decreased learning ability and decreased female body weights. Administration of irinotecan to pregnant rabbits at exposures of approximately half of the clinical exposure at a human dose of 125 mg/m2 resulted in similar findings to those in rats, with increased post-implantation loss, decreased live fetuses, and increased external, visceral, and skeletal abnormalities. The American Society of Clinical Oncology provides additional information on the use of certain medications for the management of cancer during pregnancy.
+  Breastfeeding
+    General Information
+    Counsel people who may become pregnant and people who can cause pregnancy in others about the reproductive risk associated with irinotecan. Irinotecan can cause fetal harm. Verify pregnancy status prior to treatment initiation. Advise people who may become pregnant to use effective contraception while taking irinotecan and for 6 months after the last dose. For those that can cause pregnancy in others, contraception should be used during irinotecan treatment and for 3 months after the last dose. Based on animal data and post-marketing reports, irinotecan can cause both male and female infertility. Menstrual dysfunction has been reported following irinotecan administration. In animal studies, atrophy of reproductive organs was observed after multiple daily irinotecan doses in male rodents at approximately the same exposure seen in humans receiving a dose of 125 mg/m2, and in dogs at exposures of approximately 1/15th seen in humans receiving a dose of 125 mg/m2.
+
+Interactions
+Adagrasib: (Major) Avoid administration of adagrasib during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A substrates. Adagrasib is a strong CYP3A inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38.
+Amoxicillin; Clarithromycin; Omeprazole: (Major) Avoid administration of clarithromycin during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates; clarithromycin is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure of irinotecan and SN-38.
+Apalutamide: (Major) Avoid administration of apalutamide during treatment with irinotecan and for at least 2 weeks prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Apalutamide is a strong CYP3A4 inducer. Coadministration with other strong CYP3A4 inducers substantially reduced exposure to irinotecan or SN-38 in both adult and pediatric patients. An appropriate starting dose for patients taking irinotecan with strong CYP3A4 inducers has not been defined.
+Atazanavir: (Major) Avoid administration of atazanavir during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Coadministration is contraindicated if atazanavir is boosted with cobicistat. Irinotecan is a CYP3A4 substrate and its active metabolite, SN-38, is a substrate of UGT1A1. Atazanavir is a UGT1A1 inhibitor and a strong CYP3A4 inhibitor. Coadministration with another strong CYP3A4 and UGT1A1 inhibitor increased exposure to both irinotecan and its active metabolite, SN-38.
+Atazanavir; Cobicistat: (Major) Avoid administration of atazanavir during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Coadministration is contraindicated if atazanavir is boosted with cobicistat. Irinotecan is a CYP3A4 substrate and its active metabolite, SN-38, is a substrate of UGT1A1. Atazanavir is a UGT1A1 inhibitor and a strong CYP3A4 inhibitor. Coadministration with another strong CYP3A4 and UGT1A1 inhibitor increased exposure to both irinotecan and its active metabolite, SN-38. (Major) Avoid administration of cobicistat during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Coadministration is contraindicated if cobicistat is boosted with atazanavir. Irinotecan is a CYP3A4 substrate and its active metabolite, SN-38, is a substrate of UGT1A1. Cobicistat is a UGT1A1 inhibitor and a strong CYP3A4 inhibitor. Coadministration with another strong CYP3A4 and UGT1A1 inhibitor increased exposure to both irinotecan and its active metabolite, SN-38.
+Atracurium: (Moderate) Irinotecan may antagonize the neuromuscular blocking effects of atracurium due to anticholinesterase activity.
+Belumosudil: (Major) Avoid administration of belumosudil during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are UGT1A1 substrates; belumosudil is a UGT1A1 inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38.
+Capivasertib: (Major) Avoid administration of capivasertib during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are UGT1A1 substrates; capivasertib is a UGT1A1 inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38.
+carBAMazepine: (Major) Avoid administration of carbamazepine during treatment with irinotecan and for at least 2 weeks prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Carbamazepine is a strong CYP3A4 inducer. Coadministration with other strong CYP3A4 inducers substantially reduced exposure to irinotecan or SN-38 in both adult and pediatric patients. An appropriate starting dose for patients taking irinotecan with strong CYP3A4 inducers has not been defined.
+Ceritinib: (Major) Discontinue ceritinib at least 1 week prior to starting irinotecan therapy; do not administer ceritinib with irinotecan unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Ceritinib is a strong CYP3A4 inhibitor. Coadministration with another strong CYP3A4 inhibitor increased exposure to both irinotecan and SN-38.
+Chloramphenicol: (Major) Avoid administration of chloramphenicol during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates; chloramphenicol is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure of irinotecan and SN-38.
+Cholera Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the live cholera vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to cholera bacteria after receiving the vaccine.
+Cisatracurium: (Moderate) Irinotecan may antagonize the neuromuscular blocking effects of cisatracurium due to anticholinesterase activity.
+Clarithromycin: (Major) Avoid administration of clarithromycin during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates; clarithromycin is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure of irinotecan and SN-38.
+Cobicistat: (Major) Avoid administration of cobicistat during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Coadministration is contraindicated if cobicistat is boosted with atazanavir. Irinotecan is a CYP3A4 substrate and its active metabolite, SN-38, is a substrate of UGT1A1. Cobicistat is a UGT1A1 inhibitor and a strong CYP3A4 inhibitor. Coadministration with another strong CYP3A4 and UGT1A1 inhibitor increased exposure to both irinotecan and its active metabolite, SN-38.
+Darunavir: (Major) Avoid administration of darunavir during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates; darunavir is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure of irinotecan and SN-38.
+Darunavir; Cobicistat: (Major) Avoid administration of cobicistat during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Coadministration is contraindicated if cobicistat is boosted with atazanavir. Irinotecan is a CYP3A4 substrate and its active metabolite, SN-38, is a substrate of UGT1A1. Cobicistat is a UGT1A1 inhibitor and a strong CYP3A4 inhibitor. Coadministration with another strong CYP3A4 and UGT1A1 inhibitor increased exposure to both irinotecan and its active metabolite, SN-38. (Major) Avoid administration of darunavir during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates; darunavir is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure of irinotecan and SN-38.
+Darunavir; Cobicistat; Emtricitabine; Tenofovir alafenamide: (Major) Avoid administration of cobicistat during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Coadministration is contraindicated if cobicistat is boosted with atazanavir. Irinotecan is a CYP3A4 substrate and its active metabolite, SN-38, is a substrate of UGT1A1. Cobicistat is a UGT1A1 inhibitor and a strong CYP3A4 inhibitor. Coadministration with another strong CYP3A4 and UGT1A1 inhibitor increased exposure to both irinotecan and its active metabolite, SN-38. (Major) Avoid administration of darunavir during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates; darunavir is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure of irinotecan and SN-38.
+Dengue Tetravalent Vaccine, Live: (Contraindicated) Avoid administration of the live dengue virus vaccine with immunosuppressive drug therapy and prior to immune recovery following treatment with immunosuppressive drug therapy. When feasible, administer indicated live virus vaccines at least 4 weeks before planned immunosuppression or wait until at least 3 months after discontinuation. The time to restoration of immune competence may be longer in some patients. Patients with altered immunocompetence may be at increased risk for severe adverse reactions due to uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+Elvitegravir; Cobicistat; Emtricitabine; Tenofovir Alafenamide: (Major) Avoid administration of cobicistat during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Coadministration is contraindicated if cobicistat is boosted with atazanavir. Irinotecan is a CYP3A4 substrate and its active metabolite, SN-38, is a substrate of UGT1A1. Cobicistat is a UGT1A1 inhibitor and a strong CYP3A4 inhibitor. Coadministration with another strong CYP3A4 and UGT1A1 inhibitor increased exposure to both irinotecan and its active metabolite, SN-38.
+Elvitegravir; Cobicistat; Emtricitabine; Tenofovir Disoproxil Fumarate: (Major) Avoid administration of cobicistat during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Coadministration is contraindicated if cobicistat is boosted with atazanavir. Irinotecan is a CYP3A4 substrate and its active metabolite, SN-38, is a substrate of UGT1A1. Cobicistat is a UGT1A1 inhibitor and a strong CYP3A4 inhibitor. Coadministration with another strong CYP3A4 and UGT1A1 inhibitor increased exposure to both irinotecan and its active metabolite, SN-38.
+Encorafenib: (Major) Avoid administration of encorafenib during treatment with irinotecan and for at least two weeks prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A substrates and encorafenib is a strong CYP3A inducer. Coadministration with other strong CYP3A inducers substantially reduced exposure to irinotecan or SN-38 in both adult and pediatric patients. An appropriate starting dose for patients taking irinotecan with strong CYP3A inducers has not been defined.
+Ensitrelvir: (Major) Avoid administration of ensitrelvir during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A substrates; ensitrelvir is a strong CYP3A inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38.
+Enzalutamide: (Major) Avoid administration of enzalutamide during treatment with irinotecan and for at least 2 weeks prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Enzalutamide is a strong CYP3A4 inducer. Coadministration with other strong CYP3A4 inducers substantially reduced exposure to irinotecan or SN-38 in both adult and pediatric patients. An appropriate starting dose for patients taking irinotecan with strong CYP3A4 inducers has not been defined.
+Fosamprenavir: (Major) Avoid administration of fosamprenavir during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates; fosamprenavir is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure of irinotecan and SN-38.
+Fosphenytoin: (Major) Avoid administration of fosphenytoin during treatment with irinotecan and for at least 2 weeks prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Fosphenytoin is a strong CYP3A4 inducer. Coadministration with other strong CYP3A4 inducers substantially reduced exposure to irinotecan or SN-38 in both adult and pediatric patients. An appropriate starting dose for patients taking irinotecan with strong CYP3A4 inducers has not been defined.
+Gemfibrozil: (Major) Avoid administration of gemfibrozil during treatment with irinotecan unless there are no therapeutic alternatives. The active metabolite of irinotecan, SN-38, is a UGT1A1 substrate; gemfibrozil is a UGT1A1 inhibitor. Concomitant use of UGT1A1 inhibitors may increase systemic exposure to SN-38.
+Glecaprevir; Pibrentasvir: (Major) Avoid administration of glecaprevir during treatment with irinotecan unless there are no therapeutic alternatives. Irinotecan is a P-glycoprotein (P-gp) substrate and its active metabolite, SN-38, is a UGT1A1 substrate. Glecaprevir is a P-gp and UGT1A1 inhibitor. Concomitant use may increase systemic exposure to irinotecan and SN-38. (Major) Avoid administration of pibrentasvir during treatment with irinotecan unless there are no therapeutic alternatives. Irinotecan is a P-glycoprotein (P-gp) substrate and its active metabolite, SN-38, is a UGT1A1 substrate. Pibrentasvir is a P-gp and UGT1A1 inhibitor. Concomitant use may increase systemic exposure to irinotecan and SN-38.
+Idelalisib: (Major) Avoid administration of idelalisib during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Idelalisib is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38.
+Itraconazole: (Contraindicated) According to the manufacturer of itraconazole, the use of irinotecan is contraindicated for use during and for 2 weeks after discontinuation of itraconazole therapy. The manufacturer of irinotecan recommends that any strong CYP3A4 inhibitor be discontinued at least 1 week prior to starting irinotecan liposomal therapy. Itraconazole is a strong CYP3A4 inhibitor; irinotecan is metabolized extensively by CYP3A4 and UGT1A1. Exposure to irinotecan and to the active metabolite, SN-38, is increased when the drugs are used together, which can cause severe toxicity, including neutropenia and severe and life-threatening diarrhea.
+Ketoconazole: (Major) Avoid administration of ketoconazole during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Ketoconazole is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38.
+Lansoprazole; Amoxicillin; Clarithromycin: (Major) Avoid administration of clarithromycin during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates; clarithromycin is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure of irinotecan and SN-38.
+Letermovir: (Moderate) An increase in the plasma concentration of irinotecan or its active metabolite, SN-38, may occur if given with letermovir. Do not administer this combination unless there are no alternative treatment options if the patient is also receiving treatment with cyclosporine, because the magnitude of this interaction may be amplified. If possible, discontinue letermovir, cyclosporine, or both drugs at least 1 week prior to starting irinotecan. Irinotecan is a CYP3A4 substrate. Letermovir is a moderate CYP3A4 inhibitor; however, when given with cyclosporine, the combined effect on CYP3A4 substrates may be similar to a strong CYP3A4 inhibitor.
+Levoketoconazole: (Major) Avoid administration of ketoconazole during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Ketoconazole is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38.
+Lonafarnib: (Major) Avoid administration of lonafarnib during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates; lonafarnib is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38.
+Lopinavir; Ritonavir: (Major) Avoid administration of ritonavir during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Ritonavir is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38.
+Lumacaftor; Ivacaftor: (Major) Avoid administration of lumacaftor; ivacaftor during treatment with irinotecan and for at least 2 weeks prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Lumacaftor is a strong CYP3A4 inducer. Coadministration with other strong CYP3A4 inducers substantially reduced exposure to irinotecan or SN-38 in both adult and pediatric patients. An appropriate starting dose for patients taking irinotecan with strong CYP3A4 inducers has not been defined.
+Lumacaftor; Ivacaftor: (Major) Avoid administration of lumacaftor; ivacaftor during treatment with irinotecan and for at least 2 weeks prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Lumacaftor is a strong CYP3A4 inducer. Coadministration with other strong CYP3A4 inducers substantially reduced exposure to irinotecan or SN-38 in both adult and pediatric patients. An appropriate starting dose for patients taking irinotecan with strong CYP3A4 inducers has not been defined.
+miFEPRIStone: (Major) Avoid administration of mifepristone during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Mifepristone is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38. The clinical significance of this interaction with the short-term use of mifepristone for termination of pregnancy is unknown.
+Mitotane: (Major) Avoid administration of mitotane during treatment with irinotecan and for at least 2 weeks prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Mitotane is a strong CYP3A4 inducer. Coadministration with other strong CYP3A4 inducers substantially reduced exposure to irinotecan or SN-38 in both adult and pediatric patients. An appropriate starting dose for patients taking irinotecan with strong CYP3A4 inducers has not been defined.
+Nefazodone: (Major) Avoid administration of nefazodone during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Nefazodone is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38.
+Nelfinavir: (Major) Avoid administration of nelfinavir during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Nelfinavir is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38.
+Nirmatrelvir; Ritonavir: (Major) Avoid administration of ritonavir during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Ritonavir is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38.
+PHENobarbital: (Major) Avoid administration of phenobarbital during treatment with irinotecan and for at least 2 weeks prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Phenobarbital is a strong CYP3A4 inducer. Coadministration with other strong CYP3A4 inducers substantially reduced exposure to irinotecan or SN-38 in both adult and pediatric patients. An appropriate starting dose for patients taking irinotecan with strong CYP3A4 inducers has not been defined.
+PHENobarbital; Hyoscyamine; Atropine; Scopolamine: (Major) Avoid administration of phenobarbital during treatment with irinotecan and for at least 2 weeks prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Phenobarbital is a strong CYP3A4 inducer. Coadministration with other strong CYP3A4 inducers substantially reduced exposure to irinotecan or SN-38 in both adult and pediatric patients. An appropriate starting dose for patients taking irinotecan with strong CYP3A4 inducers has not been defined.
+Phenytoin: (Major) Avoid administration of phenytoin during treatment with irinotecan and for at least 2 weeks prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Phenytoin is a strong CYP3A4 inducer. Coadministration with other strong CYP3A4 inducers substantially reduced exposure to irinotecan or SN-38 in both adult and pediatric patients. An appropriate starting dose for patients taking irinotecan with strong CYP3A4 inducers has not been defined.
+Posaconazole: (Major) Avoid administration of posaconazole during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Posaconazole is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38.
+Primidone: (Major) Avoid administration of primidone during treatment with irinotecan and for at least 2 weeks prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Primidone is a strong CYP3A4 inducer. Coadministration with other strong CYP3A4 inducers substantially reduced exposure to irinotecan or SN-38 in both adult and pediatric patients. An appropriate starting dose for patients taking irinotecan with strong CYP3A4 inducers has not been defined.
+Prochlorperazine: (Minor) Monitor for an increased incidence of akathisia if prochlorperazine is administered with irinotecan. In clinical trials of patients receiving weekly irinotecan, 8.5% of patients who received prochlorperazine on the same day as irinotecan reported akathisia, compared with 1.3% of patients who received the drugs on separate days; however, this incidence is within the range reported when prochlorperazine is given as a premedication for other chemotherapies.
+Relacorilant: (Major) Avoid administration of relacorilant during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A substrates; relacorilant is a strong CYP3A inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38.
+Ribociclib: (Major) Avoid administration of ribociclib during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Ribociclib is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38.
+Ribociclib; Letrozole: (Major) Avoid administration of ribociclib during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Ribociclib is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38.
+rifAMPin: (Major) Avoid administration of rifampin during treatment with irinotecan and for at least 2 weeks prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Rifampin is a strong CYP3A4 inducer. Coadministration with other strong CYP3A4 inducers substantially reduced exposure to irinotecan or SN-38 in both adult and pediatric patients. An appropriate starting dose for patients taking irinotecan with strong CYP3A4 inducers has not been defined.
+Rifapentine: (Major) Avoid administration of rifapentine during treatment with irinotecan and for at least two weeks prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates and rifapentine is a strong CYP3A4 inducer. Coadministration with other strong CYP3A4 inducers substantially reduced exposure to irinotecan or SN-38 in both adult and pediatric patients. An appropriate starting dose for patients taking irinotecan with strong CYP3A4 inducers has not been defined.
+Ritonavir: (Major) Avoid administration of ritonavir during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Ritonavir is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38.
+Rocuronium: (Moderate) Irinotecan may antagonize the neuromuscular blocking effects of rocuronium due to anticholinesterase activity.
+Saquinavir: (Major) Avoid administration of saquinavir during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Saquinavir is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38.
+SARS-CoV-2 (COVID-19) vaccines: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) mRNA Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) Recombinant Spike Protein Nanoparticle Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+Sodium Iodide I-131: (Moderate) Monitor for bone marrow suppression during concomitant use of sodium iodide I-131 and antineoplastic agents. Concomitant use of bone marrow depressants may enhance the depression of the hematopoietic system caused by the use of large doses of sodium iodide I-131.
+SORAfenib: (Major) Avoid administration of sorafenib during treatment with irinotecan unless there are no therapeutic alternatives. The active metabolite of irinotecan, SN-38, is a UGT1A1 substrate. Sorafenib inhibits UGT1A1 in vitro and may increase the concentrations of concomitantly administered drugs that are UGT1A1 substrates.
+St. John's Wort, Hypericum perforatum: (Major) Avoid administration of St. Johns Wort during treatment with irinotecan and for at least 2 weeks prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. St. Johns Wort is a strong CYP3A4 inducer. Coadministration with other strong CYP3A4 inducers substantially reduced exposure to irinotecan or SN-38 in both adult and pediatric patients. An appropriate starting dose for patients taking irinotecan with strong CYP3A4 inducers has not been defined.
+Succinylcholine: (Moderate) Concomitant use of succinylcholine and irinotecan may prolong neuromuscular blockade. Irinotecan has anticholinesterase activity.
+Tipranavir: (Major) Avoid administration of tipranavir during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Tipranavir is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38.
+Tuberculin Purified Protein Derivative, PPD: (Moderate) Immunosuppressives may decrease the immunological response to tuberculin purified protein derivative, PPD. This suppressed reactivity can persist for up to 6 weeks after treatment discontinuation. Consider deferring the skin test until completion of the immunosuppressive therapy.
+Tucatinib: (Major) Avoid administration of tucatinib during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Tucatinib is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38.
+Vecuronium: (Moderate) Irinotecan may antagonize the neuromuscular blocking effects of vecuronium due to anticholinesterase activity.
+Vonoprazan; Amoxicillin; Clarithromycin: (Major) Avoid administration of clarithromycin during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates; clarithromycin is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure of irinotecan and SN-38.
+Voriconazole: (Major) Avoid administration of voriconazole during treatment with irinotecan and for at least 1 week prior to starting therapy unless there are no therapeutic alternatives. Irinotecan and its active metabolite, SN-38, are CYP3A4 substrates. Voriconazole is a strong CYP3A4 inhibitor. Concomitant use may increase systemic exposure to both irinotecan and SN-38.
+
+Adverse Reactions
+  Headline
+  Adverse Reactions
+  General Information
+  NOTE: The incidence of irinotecan-induced adverse reactions varies depending upon concurrent chemotherapy agent and administration schedules. Adverse reaction data for irinotecan are reported from clinical trial results. Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in one clinical trial cannot be directly compared to rates in another clinical trial and may not reflect the rates observed in clinical practice. However, this information does provide a basis for identifying the adverse events that appear to be drug-related and for approximating occurrence rates.
+ 
+Hematologic adverse reactions associated with single-agent irinotecan therapy include anemia (60—97%), leukopenia (63—81%) (including lymphopenia), neutropenia (54—83%), and thrombocytopenia (32%), however serious thrombocytopenia is uncommon. These adverse effects are dose-limiting, dose-related, and reversible. National Cancer Institute (NCI) grade 3 or 4 anemia has been reported in 2—31% of patients. Neutropenic fever has been reported in 3% of patients treated with single agent irinotecan. Therefore, the routine administration of colony-stimulating factors (CSF) is not necessary with single agent irinotecan therapy, although physicians may wish to consider CSF use in individual patients experiencing significant toxicity. Deaths due to infection/sepsis following irinotecan therapy have been reported. When irinotecan is given as part of combination with 5-fluorouracil and leucovorin, the incidence of severe (NCI grade 3—4) neutropenia and anemia increases significantly. Dosage adjustments are required depending upon the severity of myelosuppression (see Dosage). Individuals with a homozygous UGT1A1*28 allele have a decreased ability to form the SN-38G metabolite and are, therefore, at increased risk for neutropenia; consideration of a reduced initial irinotecan dosage is recommended (see Dosage). Individuals with a heterozygous UGT1A1*28 allele may be at increased risk for neutropenia development; clinical results have been variable. These patients tolerate normal irinotecan starting doses; death due to infection/sepsis following severe myelosuppression has been reported. The frequency of NCI grade 3 and 4 neutropenia with single-agent irinotecan therapy is significantly higher in patients who received previous pelvic/abdominal irradiation compared those who did not (48.1% vs. 24.1%). Patients with total serum bilirubin concentrations of >= 1 mg/dl have shown a significantly greater likelihood of experiencing first-course grade 3 or 4 neutropenia than those with bilirubin concentrations that were less than 1 mg/dl (50% vs. 17.7%). In a phase II trial in children of irinotecan in the management of rhabdomyosarcoma, Grade 3—4 infection was reported in 5 patients (23.8%) (across all courses of therapy and irrespective of causal relationship).
+ 
+Irinotecan therapy (single-agent or combination therapy) is associated with dose-limiting diarrhea, which occurs either early (during or within 24 hours of irinotecan administration) or late (more than 24 hours after administration). When given as a single-agent, irinotecan-induced early diarrhea occurs in 43% of patients and late diarrhea occurs in 83—88% of patients; severe diarrhea occurred in 6% of patients with early-stage diarrhea and in 31% of patients with late-stage diarrhea. When given in combination with 5-fluorouracil/leucovorin, the incidence of early and late irinotecan-induced diarrhea is 43% and 72—85%, respectively. Elderly patients experienced a higher incidence of severe diarrhea than patients 10% of patients, include dyspepsia, elevated hepatic enzymes (including hyperbilirubinemia), and flatulence. Colitis complicated by colonic ulceration and GI bleeding, or what may be described as toxic megacolon or typhlitis, may occur. Cases of colitis complicated by ulceration, bleeding, ileus, and infection have been observed rarely. Patients experiencing ileus should receive prompt antibiotic treatment. Symptomatic pancreatitis or asymptomatic elevated pancreatic enzymes have been observed through post-marketing use of irinotecan.
+ 
+Cholinergic symptoms including rhinitis, hypersalivation, sinus bradycardia, miosis, lacrimation, diaphoresis, flushing and intestinal hyperstasis leading to abdominal cramping and early diarrhea, may occur in some patients. If these symptoms occur, they manifest during or shortly after irinotecan infusion. These effects are thought to be related to the anticholinesterase activity of the parent compound and are expected to occur more frequently in patients receiving higher irinotecan doses. Prophylactic or therapeutic doses of atropine 0.25—1 mg IV/SC should be considered (unless clinically contraindicated) in patients experiencing cholinergic symptoms.
+ 
+Dizziness (23%), somnolence (9—12%), insomnia (19%), and confusion (5—9%) have been reported when irinotecan has been given as a single agent or in combination with 5-fluorouracil and leucovorin. The manufacturer reports that dizziness may have represented symptomatic evidence of orthostatic hypotension in patients with dehydration.
+ 
+Pulmonary adverse reactions associated with irinotecan therapy include dyspnea (22%) and cough (17.4%). Severe pulmonary adverse reactions are rare. NCI grade 3 or 4 dyspnea was reported in 3.6% of patients. Lung metastases were present in over half of the patients with dyspnea. The extent to which malignant pulmonary involvement or other preexisting lung disease may have contributed to dyspnea in these patients is unknown.
+ 
+Asthenia (75.7%), fever (45.4%), pain (23.7%), headache (16.8%), back pain (14.5%), chills (13.8%), edema (10.2%), and abdominal enlargement (10.2%) were the most common adverse reactions affecting the body as whole reported during irinotecan therapy. Approximately 30% of patients experienced weight loss. Dermatologic adverse effects include alopecia (60.5%) and rash (unspecified) (12.8%). Hypersensitivity reactions including severe anaphylactic or anaphylactoid reactions have been observed. Thromboembolism (5—9%) has been observed in patients receiving irinotecan-based treatment; the specific cause of these events has not been determined. Reported thromboembolic events include angina, arterial thrombosis, cerebral infarct, cerebrovascular accident/stroke, deep thrombophlebitis, lower extremity thrombosis, cardiac arrest, myocardial infarction, myocardial ischemia, peripheral vascular disorder, pulmonary embolism, sudden death, thrombophlebitis, thrombosis, and vascular disorder (unspecified).
+ 
+In two trials sponsored by the National Cancer Institute for initial treatment of metastatic colorectal cancer, an imbalance in the number of deaths occurring within 60 days of the initiation of treatment was associated with irinotecan, leucovorin, and 5-fluorouracil (5-FU) treatment as compared to 5-FU and leucovorin (Trial C89803) or oxaliplatin, 5-FU, and leucovorin therapy (Study N9741). In both studies, the difference in mortality between the irinotecan arms and the control group was not statistically significant. In study N9741 of patients with advanced disease, 12/14 deaths associated with irinotecan, 5-FU, and leucovorin had several characteristics in common: dehydration (resulting from diarrhea, nausea, and vomiting), neutropenia, and sepsis (alone or in combination with shock), leading to death. Thirteen deaths occurred during the first 6-week cycle or immediately afterward. In the surgical adjuvant study (Trial C89803), 14 deaths in the group assigned to receive irinotecan, 5-FU, and leucovorin included pulmonary embolism (3 patients), sepsis (3), aspiration (3), myocardial infarction (1), dehydration and neutropenia (1), stroke (1), bowel ischemia or infarct or both (1) and one unknown. Dose modifications to these trials have been made in an attempt to decrease toxicity. Close monitoring of patients receiving the combination of irinotecan, 5-FU, and leucovorin is warranted. In the pivotal trial of irinotecan, 5-FU, and leucovorin, the mortality rates from any cause within 30 or 60 days of receiving the irinotecan, 5-FU, and leucovorin were similar to the rates associated with 5-FU/leucovorin (9% vs. 7% and 7% vs. 7%, respectively).
+ 
+Hyperglycemia has been reported in patients receiving irinotecan. This is more common in patients with diabetes mellitus or glucose intolerance prior to the administration of irinotecan. It is probable that dexamethasone, given as a prophylactic antiemetic, contributes to these symptoms.
+ 
+In a phase II trial of irinotecan in 21 children with rhabdomyosarcoma, the most significant grade 3 or 4 adverse events were dehydration experienced by 6 patients (28.6%) associated with severe hypokalemia in 5 patients (23.8%) and hyponatremia in 3 patients (14.3%). This adverse event profile differs from that reported in adults and also differs from reports of a phase II trial in pediatric patients with refractory solid organ malignancies.
+  Adverse Reactions
+    Headline
+    asthenia, back pain, dysarthria, headache
+    General Information
+    Asthenia was reported in 57.9% to 76% (grade 3 or 4, 9% to 19.5%) of patients with metastatic colorectal cancer treated with irinotecan (monotherapy or in combination with fluorouracil/leucovorin) in clinical trials. Pain (unspecified) was generally reported in 22.9% to 30.7% (grade 3 or 4, 2% to 3.1%) of these patients. In one randomized clinical trial, 64.1% (grade 3 or 4, 9.7%) of patients with metastatic colorectal cancer receiving irinotecan plus infusional fluorouracil/leucovorin reported pain; however, this was similar to the incidence in patients receiving infusional fluorouracil/leucovorin without irinotecan (61.5%; grade 3 or 4, 8.4%). Grade 3 or 4 pain was also reported in 17% to 19% of patients with metastatic colorectal cancer receiving second-line irinotecan monotherapy for metastatic colorectal cancer in 2 open-label clinical trials, which was similar to the incidence in patients receiving best supportive care (22%) or fluorouracil (13%). Headache (17%; grade 3 or 4, 1%) and back pain (14%; grade 3 or 4, 2%) were additionally reported in patients receiving weekly irinotecan monotherapy as second-line therapy for metastatic colorectal cancer in an open-label, noncomparative trial. Transient dysarthria has been reported in patients treated with irinotecan in postmarketing experience; in some cases, the event was attributed to the cholinergic syndrome observed during or shortly after infusion of irinotecan.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      asthenia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      back pain
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      headache
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      dysarthria
+      Severity
+      Moderate
+    Headline
+    flushing, hypotension
+    General Information
+    Vasodilation/flushing was reported in 9% to 11% (grade 3 or 4, 0.9% or less) of patients treated with irinotecan in clinical trials while hypotension occurred in 3.4% to 5.8% (grade 3 or 4, 1.3% to 1.7%) of patients.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hypotension
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      flushing
+      Severity
+      Severe
+      Incidence To
+    Headline
+    confusion, dizziness, drowsiness, insomnia, syncope, vertigo
+    General Information
+    Dizziness (15% to 23.1%; grade 3 or 4, 1.8% or less), insomnia (grade 1 or 2, 19%), somnolence/drowsiness (9.4% to 12.4%; grade 3 or 4, 1.3% to 1.8%), and confusion (2.7% to 7.1%; grade 3 or 4, 1.8% or less) have been reported with irinotecan therapy (monotherapy or in combination with fluorouracil/leucovorin. Another clinical trial of patients with metastatic colorectal cancer reported grade 3 or 4 neurologic events such as somnolence in 9% to 12% of patients treated with irinotecan monotherapy; grade 3 or 4 syncope and vertigo were also reported in patients receiving irinotecan.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      confusion
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      dizziness
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      drowsiness
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      insomnia
+      Severity
+      Minor
+      Incidence To
+      GSTerm Name
+      syncope
+      Severity
+      Minor
+      GSTerm Name
+      vertigo
+      Severity
+      Minor
+    Headline
+    chills, fever, infection, rhinitis
+    General Information
+    Bacterial, viral, and fungal infections have occurred in patients treated with irinotecan. In clinical trials, infection was reported in 13.9% to 35.9% (grade 3 or 4, 8% or less) of patients with metastatic colorectal cancer treated with irinotecan and fever was reported in 22.1% to 45% (grade 3 or 4, 0.4% to 2%) of patients. Severe (grade 3 or 4) infection (23.8%) was also reported in a phase 2 trial of pediatric patients receiving first-line irinotecan monotherapy for rhabdomyosarcoma followed by multimodal therapy (n = 21). In a randomized clinical trial of patients receiving first-line therapy for metastatic colorectal cancer, pneumonia occurred in 6.2% (grade 3 or 4, 2.7%) of patients receiving weekly irinotecan plus bolus fluorouracil/leucovorin and in 3.6% (grade 3 or 4, 1.3%) of patients receiving weekly irinotecan monotherapy. Chills (grade 1 or 2, 14%) and rhinitis (grade 1 or 2, 16%) were also reported in patients receiving second-line irinotecan monotherapy for metastatic colorectal cancer in an open-label, noncomparative trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      chills
+      Severity
+      Minor
+      Incidence To
+      GSTerm Name
+      fever
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      infection
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      rhinitis
+      Severity
+      Minor
+      Incidence To
+    Headline
+    cough, dyspnea, interstitial lung disease, pneumonitis
+    General Information
+    Interstitial lung disease (ILD)-like or pneumonitis-like events, including fatalities, have occurred in patients receiving treatment with irinotecan. In Japanese studies, a reticulonodular pattern on chest x-ray was observed in a small percentage of patients. Symptoms of pneumonitis include new or progressive dyspnea, cough, or fever; if these symptoms occur, interrupt irinotecan therapy pending evaluation. Discontinue irinotecan for confirmed ILD and begin appropriate treatment. Cough has been reported in 17% to 26.7% (grade 3 or 4, 1.3% or less) and dyspnea in 9.7% to 27.6% (grade 3 or 4, 1.4% to 6.3%) with irinotecan treatment (monotherapy and in combination with chemotherapy). Grade 3 or 4 respiratory adverse reactions including dyspnea and cough were also reported in 5% to 10% of patients with metastatic colorectal cancer receiving second-line monotherapy with irinotecan every 3 weeks.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      cough
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      dyspnea
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      interstitial lung disease
+      Severity
+      Moderate
+      GSTerm Name
+      pneumonitis
+      Severity
+      Moderate
+    Headline
+    bone marrow suppression, neutropenia
+    General Information
+    Irinotecan can cause severe bone marrow suppression; deaths due to sepsis following severe neutropenia have been reported. When administered as first-line therapy for metastatic colorectal cancer, the incidence of severe neutropenia was greater when irinotecan was administered in combination with bolus or infusional fluorouracil compared to irinotecan monotherapy (82.5% to 96.9% vs. 96.4%; grade 3 or 4, 46.2% to 53.8% vs. 31.4%). Neutropenia was less common with irinotecan monotherapy as second-line therapy for metastatic colorectal cancer (54% or less; grade 3 or 4, 14% to 26%). The risk of grade 3 or 4 neutropenia was higher in patients who treated with weekly irinotecan and had received previous pelvic/abdominal radiation therapy compared to those who had not (48% vs. 24%). Patients with baseline total bilirubin levels of 1 mg/dL or more also had an increased risk of first-cycle grade 3 or 4 neutropenia compared to patients with baseline bilirubin less than 1 mg/dL (50% vs. 18%). Patients who are homozygous for the UGT1A1*28 allele also have an increased risk of grade 4 neutropenia. In one study (n = 66), patients who received irinotecan monotherapy (350 mg/m2 every 3 weeks), grade 4 neutropenia occurred in 50% of patients homozygous for the UGT1A1*28 allele and in 12.5% of patients heterozygous for this allele (UGT1A1 6/7 genotype); no grade 4 neutropenia occurred in patients homozygous for the wild-type allele (UGT1A1 6/6 genotype). In another study (n = 250), the incidence of grade 4 neutropenia in patients treated with irinotecan (180 mg/m2) in combination with infusional fluorouracil/leucovorin who were homozygous for the UGT1A1*28 allele was 4.5%, and in patients heterozygous for this allele the incidence was 5.3%; grade 4 neutropenia occurred in 1.8% of patients homozygous for the wild-type allele. In a third study (n = 109), the incidence of grade 4 neutropenia in patients who were treated with irinotecan (100 mg/m2 to 125 mg/m2) in combination with bolus fluorouracil/leucovorin and were homozygous for the UGT1A1*28 allele was 18.2%, and in patients heterozygous for this allele the incidence was 11.1%; grade 4 neutropenia occurred in 6.8% of patients homozygous for the wild-type allele. Febrile neutropenia occurred in 2% to 7.1% of patients treated with irinotecan across clinical trials, while neutropenic infection was reported in 1% to 2.2% of patients. Severe (grade 3 or 4) neutropenia (31.8%) and febrile neutropenia (8.8%) were reported in a phase 2 trial of pediatric patients receiving irinotecan monotherapy every 3 weeks for refractory solid tumors (n = 170), which is comparable to adults.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      neutropenia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      bone marrow suppression
+      Severity
+      Moderate
+    Headline
+    anemia, leukopenia, thrombocytopenia
+    General Information
+    Additional hematologic adverse reactions in patients receiving weekly irinotecan as monotherapy or in combination with bolus fluorouracil/leucovorin as first-line therapy for metastatic colorectal cancer included leukopenia (96.4% to 96.9%; grade 3 or 4, 21.5% to 37.8%), anemia (96.9%; grade 3 or 4, 4.5% to 8.4%), and thrombocytopenia (96%; grade 3 or 4, 1.7% to 2.6%). The incidence of leukopenia (81.3%; grade 3 or 4, 17.4%) and anemia (97.2%; grade 3 or 4, 2.1%) were similar for first-line treatment of colorectal cancer with irinotecan and infusional fluorouracil every 2 weeks; however, the incidence of thrombocytopenia was lower in combination with infusional fluorouracil every 2 weeks (grade 1 or 2, 32.6%). Hematologic adverse reactions were less common in general with irinotecan monotherapy as second-line therapy for metastatic colorectal cancer, including leukopenia (63% or less; grade 3 or 4, 28% or less), anemia (60% or less; grade 3 or 4, 6% to 7%), and thrombocytopenia (grade 3 or 4, 4% or less).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      anemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      leukopenia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      thrombocytopenia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    bleeding
+    General Information
+    Grade 3 or 4 hemorrhage (bleeding) was reported in 1% to 5% of patients treated with second-line irinotecan monotherapy, administered every 3 weeks for the treatment of metastatic colorectal cancer.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      bleeding
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+    Headline
+    bradycardia, colitis, diaphoresis, diarrhea, GI bleeding, GI obstruction, GI perforation, hypersalivation, ileus, lacrimation, miosis, toxic megacolon
+    General Information
+    Diarrhea occurs commonly with irinotecan therapy. It is proposed that the irinotecan metabolite, SN-38, is responsible for late diarrhea because of biliary elimination of SN-38 and the gastrointestinal metabolism of irinotecan by carboxylesterase. Early diarrhea is dose related and occurs during or shortly after irinotecan administration (within 24 hours). It is usually transient, is not frequently severe, and may be accompanied by cholinergic symptoms (e.g., bradycardia, rhinitis, hypersalivation, miosis, lacrimation, diaphoresis, flushing, and intestinal hyperperistalsis that can cause abdominal cramping). Overall, early diarrhea or cholinergic syndrome occurred in 28.3% to 51% (grade 3 or 4, 1.4% to 8%) of patients treated with irinotecan monotherapy or in combination with fluorouracil, independent of schedule. It was reported in 43% to 51% (grade 3 or 4, 4.9% to 8%) of patients receiving weekly irinotecan as monotherapy or in combination with fluorouracil/leucovorin for metastatic colorectal cancer in 3 randomized clinical trials. Cholinergic syndrome occurring during or shortly after infusion of irinotecan including rhinitis, increased salivation, miosis, lacrimation, diaphoresis, flushing, abdominal cramping or diarrhea was reported in 28.3% (grade 3 or 4, 1.4%) of patients receiving irinotecan in combination with fluorouracil/leucovorin every 2 weeks in another clinical trial. Consider prophylactic or therapeutic administration of atropine (0.25 mg to 1 mg IV or subcutaneously) unless clinically contraindicated. Late diarrhea, occurring more than 24 hours after irinotecan administration, can be prolonged and may lead to dehydration, electrolyte imbalance, or sepsis and may be life-threatening. Late diarrhea was reported in 72.4% to 88% (grade 3 or 4, 14.4% to 31%) of patients receiving irinotecan monotherapy or in combination with fluorouracil/leucovorin in clinical trials, independent of schedule. Patients older than 65 years of age have a higher incidence of grade 3 or 4 late diarrhea compared to younger patients (28.6% to 40% vs. 23% to 23.9%). Grade 3 or 4 diarrhea occurred in 22% of patients receiving irinotecan monotherapy every 3 weeks for recurrent metastatic colorectal cancer; early versus late diarrhea was not specified.  The median time to onset of late diarrhea was 5 days with every-3-week dosing and 11 days with weekly administration. Complications of late diarrhea include colitis, ulceration, GI bleeding, ileus, GI obstruction, and infection; cases of toxic megacolon and GI perforation have been reported. Late diarrhea can be life-threatening and should be treated promptly with loperamide. Monitor patients and give fluids and electrolytes as needed. Begin antibiotic therapy for patients with ileus, fever, or severe neutropenia. An interruption of therapy or dose reduction may be necessary for severe diarrhea.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      diarrhea
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      GI perforation
+      Severity
+      Severe
+      GSTerm Name
+      toxic megacolon
+      Severity
+      Severe
+      GSTerm Name
+      GI obstruction
+      Severity
+      Severe
+      GSTerm Name
+      bradycardia
+      Severity
+      Severe
+      GSTerm Name
+      colitis
+      Severity
+      Moderate
+      GSTerm Name
+      diaphoresis
+      Severity
+      Minor
+      GSTerm Name
+      GI bleeding
+      Severity
+      Severe
+      GSTerm Name
+      hypersalivation
+      Severity
+      Minor
+      GSTerm Name
+      ileus
+      Severity
+      Severe
+      GSTerm Name
+      lacrimation
+      Severity
+      Minor
+      GSTerm Name
+      miosis
+      Severity
+      Minor
+    Headline
+    abdominal pain, anorexia, constipation, dyspepsia, flatulence, nausea, oral ulceration, stomatitis, vomiting
+    General Information
+    Nausea (66.9% to 86%; grade 3 or 4, 2.1% to 17%) and vomiting (44.8% to 67%; grade 3 or 4, 3.5% to 14%) are commonly reported with irinotecan therapy in clinical trials. Anorexia (34.2% to 55%; grade 3 or 4, 2.1% to 7.2%) and constipation (30% to 41.3%; grade 3 or 4, 0.4% to 10%) were also reported across irinotecan clinical trials. Mucositis/oral ulceration was reported in 29.6% to 40% (grade 3 or 4, 2.2% to 4.1%) of patients receiving irinotecan (monotherapy or in combination with fluorouracil/leucovorin as first-line therapy for metastatic colorectal cancer; stomatitis occurred in 12% (grade 3 or 4, 1% to 2%) of patients receiving irinotecan monotherapy as second-line therapy for metastatic colorectal cancer. Abdominal pain was reported in 57% to 67.6% (grade 3 or 4, 9% to 16%) of patients with metastatic colorectal cancer receiving weekly irinotecan (monotherapy or in combination with bolus fluorouracil/leucovorin); in patients receiving irinotecan plus infusional fluorouracil/leucovorin every 2 weeks, abdominal pain was reported in 17.2% (grade 3 or 4, 2.1%) of patients with metastatic colorectal cancer. Mild flatulence (grade 1 or 2, 12%) and dyspepsia (grade 1 or 2, 10%) were also reported in patients with metastatic colorectal cancer receiving second-line therapy with weekly irinotecan monotherapy.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      anorexia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      constipation
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      dyspepsia
+      Severity
+      Minor
+      Incidence To
+      GSTerm Name
+      flatulence
+      Severity
+      Minor
+      Incidence To
+      GSTerm Name
+      nausea
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      stomatitis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      vomiting
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      abdominal pain
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      oral ulceration
+      Severity
+      Moderate
+    Headline
+    hyperamylasemia, pancreatitis
+    General Information
+    Symptomatic pancreatitis and asymptomatic elevations in pancreatic enzymes (e.g., hyperamylasemia, increased lipase) have been reported in postmarketing experience with irinotecan therapy.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hyperamylasemia
+      Severity
+      Moderate
+      GSTerm Name
+      pancreatitis
+      Severity
+      Severe
+    Headline
+    dehydration, hypovolemia, renal failure (unspecified)
+    General Information
+    Renal impairment and acute renal failure (unspecified) have been identified in patients treated with irinotecan, usually in patients with severe vomiting and/or diarrhea who developed hypovolemia. Dehydration was reported in 15% (grade 3 or 4, 4%) of patients with metastatic colorectal cancer treated with weekly irinotecan monotherapy in one clinical trial. Severe (grade 3 or 4) dehydration (28.6%) was also reported in a phase 2 trial of pediatric patients receiving first-line irinotecan monotherapy for rhabdomyosarcoma followed by multimodal therapy (n = 21).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      dehydration
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypovolemia
+      Severity
+      Moderate
+      GSTerm Name
+      renal failure (unspecified)
+      Severity
+      Severe
+    Headline
+    hypokalemia, hyponatremia
+    General Information
+    Severe (grade 3 or 4) hypokalemia (23.8%) and hyponatremia (14.3%) were reported in a phase 2 trial of pediatric patients receiving first-line irinotecan monotherapy for rhabdomyosarcoma followed by multimodal therapy (n = 21). Hyponatremia has also been reported in postmarketing experience with irinotecan in adult patients, mostly in association with diarrhea and vomiting.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hypokalemia
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      hyponatremia
+      Severity
+      Moderate
+      Incidence To
+    Headline
+    angina, cardiac arrest, myocardial infarction, phlebitis, pulmonary embolism, stroke, thromboembolism, thrombosis
+    General Information
+    Thromboembolic events (thromboembolism) including angina, arterial thrombosis, cerebral infarct, cerebrovascular accident (stroke), lower extremity thromboembolism, cardiac arrest, myocardial infarction, myocardial ischemia, peripheral vascular disorder, pulmonary embolism, sudden death, thrombo-phlebitis, thrombosis, and vascular disorder were reported in 5.4% to 11.7% of patients receiving first-line therapy with irinotecan (monotherapy or in combination with fluorouracil/leucovorin) for metastatic colorectal cancer in 2 randomized clinical trials. Grade 3 or 4 cardiovascular events including dysrhythmias, ischemia, and mechanical cardiac dysfunction were also reported in 4% to 9% of patients receiving irinotecan monotherapy as second-line therapy for metastatic colorectal cancer. Myocardial ischemic events and thromboembolic events have also been reported in postmarketing experience with irinotecan.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      angina
+      Severity
+      Moderate
+      GSTerm Name
+      cardiac arrest
+      Severity
+      Severe
+      GSTerm Name
+      myocardial infarction
+      Severity
+      Severe
+      GSTerm Name
+      phlebitis
+      Severity
+      Moderate
+      GSTerm Name
+      pulmonary embolism
+      Severity
+      Severe
+      GSTerm Name
+      stroke
+      Severity
+      Severe
+      GSTerm Name
+      thromboembolism
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      thrombosis
+      Severity
+      Severe
+    Headline
+    ascites, elevated hepatic enzymes, hepatomegaly, hyperbilirubinemia, jaundice
+    General Information
+    Hyperbilirubinemia was reported in 83.9% to 87.6% (grade 3 or 4, 7.1% to 7.2%) of patients with metastatic colorectal cancer receiving first-line therapy with weekly irinotecan (monotherapy or in combination with bolus fluorouracil/leucovorin) in a randomized clinical trial; the primary tumor was in the colon in 81% to 84% (primary rectum, 15% to 17%). The incidence of hyperbilirubinemia was much lower in patients receiving first-line irinotecan in combination with infusional fluorouracil/leucovorin every 2 weeks for metastatic colorectal cancer (19.1%; grade 3 or 4, 3.5%); 55% of these patients had a primary colon tumor (primary rectum, 45%). Abdominal enlargement (grade 1 or 2, 10%), increased alkaline phosphatase (13%; grade 3 or 4, 4%), and increased SGOT (10%; grade 3 or 4, 1%) were reported with weekly irinotecan monotherapy as second-line treatment for metastatic colorectal cancer in 2 open-label, noncomparative clinical trials. Grade 3 or 4 hepatic adverse reactions including jaundice and ascites were also reported with irinotecan monotherapy administered every 3 weeks in an open-label, noncomparative clinical trial; grade 3 or 4 hepatomegaly was also reported in this trial. Elevated hepatic enzymes (i.e., AST and ALT) in the absence of progressive liver metastasis have been observed in postmarketing experience with irinotecan.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      ascites
+      Severity
+      Moderate
+      GSTerm Name
+      hepatomegaly
+      Severity
+      Moderate
+      GSTerm Name
+      jaundice
+      Severity
+      Moderate
+      GSTerm Name
+      elevated hepatic enzymes
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hyperbilirubinemia
+      Severity
+      Severe
+      Incidence To
+    Headline
+    alopecia, exfoliative dermatitis, palmar-plantar erythrodysesthesia (hand and foot syndrome), rash
+    General Information
+    Alopecia including complete hair loss occurs commonly in patients treated with irinotecan in clinical trials (43.1% to 60%). Rash occurred in 13% to 19.1% (grade 3 or 4, 1% or less) of patients with metastatic colorectal cancer treated with irinotecan (monotherapy or in combination with fluorouracil/leucovorin) in 2 clinical trials, while "cutaneous signs" including rash were reported in 17.2% (grade 3 or 4, 0.7% to 2%) of patients who received irinotecan in 2 other clinical trials. Mild hyperhidrosis occurred in patients with metastatic colorectal cancer receiving weekly irinotecan monotherapy as second-line therapy (grade 1 or 2, 16%). Exfoliative dermatitis (0.9% vs. 3.2%; grade 3 or 4, 0% vs. 0.5%) and palmar-plantar erythrodysesthesia (hand and foot syndrome) (10.3% vs. 12.6%; grade 3 or 4, 0.7% vs. 0.7% to 5%) were each reported less frequently in patients with metastatic colorectal cancer receiving irinotecan in combination with fluorouracil/leucovorin compared with fluorouracil/leucovorin alone.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      alopecia
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      exfoliative dermatitis
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      palmar-plantar erythrodysesthesia (hand and foot syndrome)
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      rash
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+    Headline
+    anaphylactoid reactions
+    General Information
+    Hypersensitivity reactions including severe anaphylactic or anaphylactoid reactions have been reported during irinotecan therapy. Discontinue irinotecan if an anaphylactic reaction occurs.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      anaphylactoid reactions
+      Severity
+      Severe
+    Headline
+    akathisia
+    General Information
+    The incidence of akathisia in clinical trials of weekly irinotecan was greater when prochlorperazine was administered on the same day as irinotecan than when the drugs were administered on separate days (n = 80) (8.5% vs. 1.3%); the higher incidence, however, is within the range reported for use of prochlorperazine when given as a premedication for other chemotherapies.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      akathisia
+      Severity
+      Moderate
+    Headline
+    edema
+    General Information
+    Edema was reported in 10% (grade 3 or 4, 1%) of patients with metastatic colorectal cancer treated with second-line irinotecan monotherapy in an open-label, noncomparative clinical trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      edema
+      Severity
+      Severe
+      Incidence To
+    Headline
+    weight loss
+    General Information
+    Weight loss was reported in 30% (grade 3 or 4, 1%) of patients with metastatic colorectal cancer treated with irinotecan monotherapy in an open-label, noncomparative clinical trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      weight loss
+      Severity
+      Severe
+      Incidence To
+
+Description
+  Text
+  Irinotecan is an intravenous antineoplastic agent. Irinotecan is one of many water-soluble derivatives of camptothecin (CPT), a cytotoxic plant alkaloid isolated from the Chinese tree Camptotheca acuminata. The activity of irinotecan is due to the parent compound and the more potent active metabolite, SN-38. Irinotecan is approved by the FDA for the treatment of metastatic colorectal cancer, both as monotherapy and in combination with 5-fluorouracil and leucovorin, along with several off-label indications. Irinotecan can cause severe myelosuppression and may necessitate interruptions of therapy or dose adjustments; complete blood counts should be monitored throughout treatment. Additionally, severe diarrhea is common with irinotecan therapy. Early diarrhea, within the first 24 hours of treatment, may be associated with cholinergic effects and should be treated with atropine. Loperamide should be initiated for the first signs of loose stool or diarrhea occurring more than 24 hours after administration of irinotecan; late diarrhea may also require an interruption of therapy or dose adjustment.
+
+Mechanism Of Action
+  Text
+  Irinotecan is a camptothecin-derived topoisomerase I inhibitor. Camptothecins interact with topoisomerase I, which causes reversible single-strand breaks in the DNA, relieving torsional strain. Irinotecan and its active metabolite, SN-38, bind to the topoisomerase I/DNA complex and prevent relegation of the single-strand breaks. The cytotoxicity of irinotecan is due to double-strand DNA damage produced during DNA synthesis, when replication enzymes interact with the complex formed by topoisomerase I, DNA, and either irinotecan or SN-38, mammalian cells cannot efficiently repair these double-strand breaks.
+
+Pharmacokinetics
+  Route Specific Pharmacokinetics
+    Name
+    Intravenous Route
+    Description
+    The AUC of irinotecan increases linearly with dose over the recommended dose range of 50 mg/m2 to 350 mg/m2, while the AUC of SN-38 increases less than proportionally with dose. Maximum concentrations (Cmax) of SN-38 are generally seen within 1 hour after the end of a 90-minute infusion. After a 90-minute infusion of irinotecan 125 mg/m2, the Cmax was 1,660 +/- 797 ng/mL (SN-38, 26.3 +/- 11.9 ng/mL), the AUC was 10,200 +/- 3,270 ng*h/mL (SN-38, 229 +/- 108 ng*h/mL). After a 90-minute infusion of irinotecan 340 mg/m2, the Cmax was 3,392 +/- 874 ng/mL (SN-38, 56 +/- 28.2 ng/mL), the AUC was 20,604 +/- 6,027 ng*h/mL (SN-38, 474 +/- 245 ng*h/mL).
+  Special Populations
+    Name
+    Hepatic Impairment
+    Description
+    Irinotecan clearance is diminished in patients with hepatic impairment while exposure to the active metabolite SN-38 is increased; the magnitude of effect is proportional to the degree of liver impairment as measured by total bilirubin and transaminase concentrations.
+    Name
+    Renal Impairment
+    Description
+    The effect of renal impairment on the pharmacokinetics of irinotecan has not been evaluated.
+    Name
+    Pediatrics
+    Description
+    Pharmacokinetic parameters for irinotecan and SN-38 were determined in 2 pediatric solid-tumor trials at dose levels of 50 mg/m2 (over 60 minutes) and 125 mg/m2 (over 90 minutes). Irinotecan mean clearance was 17.3 +/- 6.7 L/hour/m2 for the 50 mg/m2 dose and 16.2 +/- 4.6 L/hour/m2 for the 125 mg/m2 dose, which is comparable to that in adults. Dose-normalized SN-38 AUC values were comparable between adults and children. Minimal accumulation of irinotecan and SN-38 was observed in children receiving daily regimens.
+    Name
+    Geriatric
+    Description
+    Age did not affect the pharmacokinetics of irinotecan, SN-38, and SN-38 glucuronide in a study designed to assess the effect of age on irinotecan toxicity when administered on a weekly schedule. In a separate study that was not prospectively designed to investigate the effect of age, significant differences (less than 18%) in dose-normalized irinotecan pharmacokinetic parameters in patients less than 65 years of age compared to greater than or equal to 65 years of age were observed. Dose-normalized SN-38 exposure was also higher in patients greater than or equal to 65 years of age compared to patients younger than 65, but the difference was not statistically significant.
+    Name
+    Gender Differences
+    Description
+    Gender does not appear to affect the pharmacokinetics of irinotecan.
+    Name
+    Ethnic Differences
+    Description
+    The effect of ethnicity on the pharmacokinetics of irinotecan has not been evaluated. However, approximately 20% of Black or African American patients, 10% of White patients, and 2% of East Asian patients are homozygous for the UGT1A1*28 allele; approximately 2% to 6% of East Asian patients are homozygous for the UGT1A1*6 allele, which is uncommon in Black/African American or White patients.
+    Name
+    Other
+    Description
+    UGT1A1 *28 or *6 Alleles
+Patients who are homozygous for either the UGT1A1*28 or *6 alleles (*28/*28 or *6/*6), or who are compound or double heterozygous for these alleles (*28/*6), have a higher SN-38 AUC than patients with the wild-type UGT1A1 alleles.
+  Text
+  Irinotecan is administered intravenously. Irinotecan and its active metabolite, SN-38, predominantly bind to albumin. Irinotecan exhibits moderate (30% to 68%) plasma protein binding, while SN-38 is highly protein bound (approximately 95%). After administration, plasma concentrations decline in a multi-exponential manner. After a 90-minute infusion of irinotecan 125 mg/m2, the mean terminal elimination half-life of irinotecan was 5.8 +/- 0.7 hours, and the mean terminal elimination half-life of SN-38 was 10.4 +/- 3.1 hours. The half-life increased with a higher dose (340 mg/m2), with the mean terminal elimination half-life 11.7 +/- 1 hour for irinotecan and 21 +/- 4.3 hours for SN-38. The volume of distribution of the terminal elimination phase was 110 +/- 48.5 L/m2 after the 125 mg/m2 dose and 235 +/- 69.6 L/m2 after the 340 mg/m2 dose. Both irinotecan and SN-38 exist in an active lactone form and an inactive hydroxy acid anion form; a pH-dependent equilibrium exists between the two forms such that an acid pH promotes the formation of the lactone, while a more basic pH favors the hydroxy acid anion form. The half-lives of the lactone forms of irinotecan and SN-38 are similar to those of total irinotecan and SN-38. Total systemic clearance of irinotecan was 13.3 to 13.9 (+/- 4 to 6.01) L/h/m2. Urinary excretion of irinotecan is 11% to 20%; SN-38, less than 1%; and SN-38 glucuronide, 3%. The cumulative biliary and urinary excretion of irinotecan and its metabolites (SN-38 and SN-38 glucuronide) over a period of 48 hours following administration of irinotecan in two patients ranged from 25% (100 mg/m2) to 50% (300 mg/m2).
+Irinotecan is a water-soluble precursor of the lipophilic active metabolite SN-38, which is formed by carboxylesterase-mediated cleavage of the carbamate bond between the camptothecin moiety and the dipiperidino side chain. SN-38 was approximately 1,000 times as potent an inhibitor of topoisomerase I as irinotecan in human and rodent tumor cell lines; in vitro cytotoxicity assays show the potency of SN-38 relative to irinotecan varies from 2-fold to 2,000-fold. The contribution of SN-38 to the activity of irinotecan is unknown.
+ 
+Affected cytochrome P-450 (CYP450) isoenzymes and drug transporters: CYP3A4, UGT1A1
+Irinotecan undergoes extensive metabolism by various enzyme systems, including esterases that form an active metabolite SN-38, and UGT1A1 which mediates the glucuronidation of SN-38 to form an inactive metabolite. This metabolite, SN-38 glucuronide, had 1/50 to 1/100 the activity of SN-38. Irinotecan is also metabolized by CYP3A4 to several inactive metabolites, one of which can be hydrolyzed by carboxylesterase to release SN-38.
+
+Administration
+  General Information
+  For storage information, see the specific product information within the How Supplied section.
+Hazardous Drugs Classification
+NIOSH 2024 List: Table 1
+Observe and exercise appropriate precautions for handling, preparation, administration, and disposal of hazardous drugs.
+Use double chemotherapy gloves and a protective gown. Prepare in a biological safety cabinet or compounding aseptic containment isolator with a closed system drug transfer device. Eye/face and respiratory protection may be needed during preparation and administration.
+Emetic Risk
+Moderate
+Administer routine antiemetic prophylaxis prior to treatment.
+Extravasation Risk
+Irritant
+  Route Specific Administrations
+    Administration Details
+      Name
+      Extemporaneous Compounding-Oral
+      Description
+      At least 30 minutes prior to oral irinotecan, administer antiemetic agents.
+Consider prophylactic or therapeutic atropine for patients experiencing cholinergic symptoms.
+Consider therapeutic loperamide for late onset irinotecan induced diarrhea.
+Consider prophylactic oral cephalosporin (e.g., cefixime, cefdinir, or cefpodoxime) starting up to 5 days before chemotherapy administration and continuing throughout irinotecan therapy for drug-induced diarrhea.
+Extemporaneous compounding instructions for irinotecan solution (20 mg/mL):
+NOTE: The extemporaneous preparation of irinotecan is not approved by the FDA.
+Obtain injectable formulation of irinotecan (20 mg/mL).
+Draw up appropriate volume of irinotecan solution (20 mg/mL) into plastic oral syringe.
+Oral syringes with undiluted irinotecan may be stored in refrigerator for up to 21 days.
+Mix irinotecan with cranberry based juice immediately prior to administration to mask bitter flavor.
+    Name
+    Oral Administration
+    Administration Details
+      Name
+      Intravenous Administration
+      Description
+      At least 30 minutes prior to irinotecan infusion, administer antiemetic agents.
+Consider prophylactic or therapeutic atropine for patients experiencing cholinergic symptoms.
+Consider therapeutic loperamide for late onset irinotecan induced diarrhea.
+Consider prophylactic oral cephalosporin (e.g., cefixime, cefdinir, or cefpodoxime) starting up to 5 days before chemotherapy administration and continuing throughout the course of irinotecan for irinotecan induced diarrhea.
+ 
+Dilution:
+NOTE: storage and stability may depend on manufacturer and/or diluent used.
+Dilute the appropriate dose of irinotecan in 5% Dextrose Injection (preferred) or 0.9% Sodium Chloride Injection, to a final concentration of 0.12 mg/mL to 2.8 mg/mL. Discard any irinotecan remaining in the single-use vial.
+Do not add other drugs to the final admixture.
+Protect from light.
+Storage following dilution: The diluted solution (if prepared with 5% Dextrose Injection) may be refrigerated for up to 24 hours at 2 to 8 degrees Celsius if immediate administration is not possible.
+ 
+Intravenous Administration:
+Administer as soon as possible after preparation.
+Infuse intravenously over 90 minutes. Some protocols may allow for infusion over 60 minutes.
+    Name
+    Injectable Administration
+    Description
+    Visually inspect parenteral products for particulate matter and discoloration prior to administration whenever solution and container permit.
+
+Maximum Dosage Limits
+  Age Groups
+    Name
+    Adults
+    Max Dosage
+    Single agent: 350 mg/m2 IV every 3 weeks or 125 mg/m2 IV weekly.
+In combination with fluorouracil and leucovorin: 180 mg/m2 IV every 2 weeks or 125 mg/m2 IV weekly.
+    Name
+    Geriatric
+    Max Dosage
+    Single agent: 350 mg/m2 IV (age greater than or equal to 70 years, 300 mg/m2) every 3 weeks or 125 mg/m2 IV weekly.
+In combination with fluorouracil and leucovorin: 180 mg/m2 IV every 2 weeks or 125 mg/m2 IV weekly.
+    Name
+    Adolescents
+    Max Dosage
+    Safety and efficacy have not been established.
+    Name
+    Children
+    Max Dosage
+    Safety and efficacy have not been established.
+
+Dosage Adjustment Guidelines
+  Hepatic Impairment
+  Increased bilirubin: Consider reducing the starting dose of irinotecan by one dose level (IFL or weekly monotherapy: 125 mg/m2 to 100 mg/m2, or 100 mg/m2 to 75 mg/m2; FOLFIRI: 180 mg/m2 to 150 mg/m2, or 150 mg/m2 to 120 mg/m2; monotherapy, every 3 weeks: 350 mg/m2 to 300 mg/m2, or 300 mg/m2 to 250 mg/m2). Dosing recommendations are not available for patients with bilirubin greater than 2 mg/dL, as irinotecan tolerability has not been assessed in these patients. In clinical trials, irinotecan was not administered to patients with serum bilirubin greater than 2 mg/dL or serum transaminases greater than 3 times the upper limit of normal (ULN) in patients without liver metastasis, or serum transaminases greater than 5 times ULN in patients with liver metastasis.
+  Renal Impairment
+  Specific guidelines for dosage adjustments in renal impairment are not available; caution is recommended if irinotecan is administered to patients with decreased renal function. Irinotecan is not recommended for use in patients on dialysis.

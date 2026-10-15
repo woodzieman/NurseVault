@@ -1,0 +1,86 @@
+=== Pharmacokinetics in Older Adults (Merck Manual Professional) ===
+Section: Geriatrics > Pharmacologic Therapy in Older Adults
+Source: https://www.merckmanuals.com/professional/geriatrics/pharmacologic-therapy-in-older-adults/pharmacokinetics-in-older-adults
+Retrieved: 2026-09-25
+
+Pharmacokinetics is best defined as what the body does to the drug; it includes
+
+Absorption
+
+Distribution throughout body compartments
+
+Metabolism
+
+Excretion
+
+With aging, there are changes in all these functions, some of which are more clinically relevant. The metabolism and excretion of many medications decrease with aging, requiring that the doses of some medications be decreased. Toxicity may develop slowly because concentrations of chronically used medications increase for 5 to 6 half-lives, until a steady state is achieved. For example, certain benzodiazepines (diazepam, flurazepam, chlordiazepoxide), or their active metabolites, have half-lives of up to 96 hours in older patients; signs of toxicity may not appear until days or weeks after therapy is started.
+
+Absorption
+
+Despite an age-related decrease in small-bowel surface area, slowed gastric emptying, and an increase in gastric pH, changes in drug absorption tend to be clinically inconsequential for most drugs. One clinically relevant exception is calcium carbonate, which requires an acidic environment for optimal absorption. Thus, increases in gastric pH—which may be age-related (such as with atrophic gastritis) or drug-related (such as with proton pump inhibitors)—can decrease calcium absorption and increase the risk of constipation. Thus, older adults should use a calcium salt (eg, calcium citrate) that dissolves and is absorbed more easily in a less acidic environment. Another example of altered absorption with increased gastric pH is early release of enteric-coated dosage forms (eg, enteric-coated aspirin, enteric-coated erythromycin, enteric-coated bisacodyl), increasing the risk of gastrointestinal adverse effects. Age-related slowing of gastrointestinal motility or use of anticholinergic medications can prolong movement of medications through the stomach to the small intestine. For medications absorbed in the upper small intestine, such as acetaminophen, slowed gastrointestinal motility can delay the absorption and onset of action and reduce peak drug concentrations and pharmacologic effects.
+
+Distribution
+
+With age, body fat generally increases and total body water decreases. Increased fat increases the volume of distribution for highly lipophilic drugs (eg, diazepam, chlordiazepoxide) and may meaningfully increase their elimination half-lives and risk for drug toxicity due to accumulation with chronic dosing. Decreased total body water decreases volume of distribution for water soluble drugs (eg, digoxin, aminoglycosides) and may lead to higher drug concentrations and risk for toxic effects.
+
+Serum albumin decreases and alpha 1-acid glycoprotein increases with age, but the clinical effect of these changes on serum drug binding varies with different medications. In patients with an acute disorder or malnutrition, rapid reductions in serum albumin may enhance drug effects because serum concentrations of unbound (free or active) drug may increase. Phenytoin and warfarin are examples of highly protein-bound drugs with a higher risk of toxic effects when the serum albumin level decreases.
+
+Hepatic metabolism
+
+Overall hepatic metabolism of many medications through the cytochrome P-450 enzyme system decreases with age. For medications with decreased hepatic metabolism, clearance typically decreases 30 to 40%. Theoretically, maintenance drug doses should be decreased by this percentage; however, rate of drug metabolism varies greatly from person to person and is often affected by pharmacogenetics. Dose adjustments should be individualized.
+
+Hepatic clearance of medications metabolized by phase I reactions (oxidation, reduction, hydrolysis—see table Common Substances That Interact With Cytochrome P-450 Enzymes) is more likely to be prolonged in older adults. Usually, age does not greatly affect clearance of medications that are metabolized by conjugation and glucuronidation (phase II reactions). As a result, medication metabolized by phase II reactions may be preferred for older patients, when feasible.
+
+First-pass metabolism (metabolism, typically hepatic, that occurs before a medication reaches systemic circulation) is also affected by aging, decreasing by about 1%/year after age 40. Thus, for a given oral dose, older adults may have higher circulating drug concentrations. Important examples of medications with a higher risk of toxic effects because of age-related reductions in first-pass metabolism include nitrates, propranolol, phenobarbital, verapamil, and nifedipine. Medications administered through the skin avoid first-pass metabolism.
+
+Other factors can also influence hepatic metabolism of medications being taken, including smoking, decreased hepatic blood flow in patients with heart failure, and taking medications that induce or inhibit cytochrome P-450 metabolic enzymes.
+
+Some categories of medications that are affected by age-related decreased hepatic metabolism include:
+
+Antiarrhythmics (eg, lidocaine, quinidine)
+
+Antidepressants (eg, imipramine, desipramine, nortriptyline, trazodone)
+
+Antifungals (eg, fluconazole, ketoconazole, itraconazole, voriconazole, posaconazole)
+
+Benzodiazepines (eg, alprazolam, chlordiazepoxide, diazepam, triazolam)
+
+Calcium channel blockers (eg, amlodipine, diltiazem, nifedipine, verapamil)
+
+Nonsteroidal anti-inflammatory drugs (NSAIDs) (eg, ibuprofen, diclofenac)
+
+Opiates (eg, morphine)
+
+Others (eg, cimetidine, levodopa, propanolol, theophylline, warfarin)
+
+Renal elimination
+
+One of the most important pharmacokinetic changes associated with aging is decreased renal elimination of medications. After age 40, glomerular filtration rate (GFR) decreases an average of 8 mL/min/1.73 m2 per decade (0.1 mL/sec/m2 per decade); however, the age-related decrease varies substantially from person to person. Serum creatinine levels often remain within normal limits despite a decrease in glomerular filtration rate (GFR) because older adults generally have less muscle mass and are generally less physically active than younger adults and thus produce less creatinine. Normal serum creatinine levels can mislead clinicians to assume those levels reflect normal kidney function. Decreases in tubular function with age parallel those in glomerular function.
+
+Some categories of medications that are affected by age-related decreased renal elimination include:
+
+Angiotensin converting enzyme (ACE) inhibitors (eg, captopril, enalapril, lisinopril, quinapril)
+
+Antiarrhythmics (eg, digoxin, dofetilide, procainamide)
+
+Antibacterials (eg, amikacin, ciprofloxacin, gentamicin, levofloxacin, nitrofurantoin, streptomycin, tobramycin, trimethoprim, gepotidacin)
+
+Anticoagulants (eg, apixaban, dabigatran, edoxaban, enoxaparin, heparin, rivaroxaban)
+
+Antidiabetics (eg, glyburide, metformin, chlorpropamide, DPP-4 inhibitors, SGLT2 inhibitors)
+
+Antipsychotics (eg, brexpiprazole, lurasidone, paliperidone, risperidone)
+
+Antivirals (eg, oseltamivir, nirmatrelvir/ritonavir, acyclovir, famciclovir, valacyclovir)
+
+Others (eg, allopurinol, amantadine, cimetidine, famotidine, gabapentin, lithium, metoclopramide, ranitidine)
+
+Clinical implications depend on the extent that renal elimination contributes to total systemic elimination and on the medication’s therapeutic index (ratio of maximum tolerated dose to minimum effective dose). Creatinine clearance (measured or estimated using computer programs or a formula, such as Cockcroft-Gault—see Evaluation of the Renal Patient: Creatinine clearance) is used to guide dosing for most medications eliminated by the kidneys. Estimated glomerular filtration rate (eGFR) is used in drug labeling to guide drug dosing. The daily dose of medications that rely heavily on renal elimination should be lower and/or the frequency of dosing should be decreased. Because renal function is dynamic, maintenance doses of medications may need adjustment when patients become ill or dehydrated or have recently recovered from dehydration.
+
+Clinical Calculators
+
+Creatinine Clearance (measured)
+
+Clinical Calculators
+
+Glomerular Filtration Rate Estimate by CKD-EPI Equation

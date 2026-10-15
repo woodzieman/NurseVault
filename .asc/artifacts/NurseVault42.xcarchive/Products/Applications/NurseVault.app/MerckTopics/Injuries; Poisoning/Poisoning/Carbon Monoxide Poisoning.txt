@@ -1,0 +1,124 @@
+=== Carbon Monoxide Poisoning (Merck Manual Professional) ===
+Section: Injuries; Poisoning > Poisoning
+Source: https://www.merckmanuals.com/professional/injuries-poisoning/poisoning/carbon-monoxide-poisoning
+Retrieved: 2026-09-25
+
+(See also General Principles of Poisoning.)
+
+Carbon monoxide (CO) poisoning, one of the most common fatal poisonings (1), occurs by inhalation. CO is a colorless, odorless gas that results from incomplete combustion of hydrocarbons. Common sources of CO in poisonings include house fires and improperly vented automobiles or motorboats, gas heaters, furnaces, hot water heaters, wood- or charcoal-burning stoves, and kerosene heaters. CO is produced when natural gas (methane or propane) burns. Exposure to methylene chloride can cause delayed CO poisoning. Inhaling tobacco smoke results in CO in the blood but not enough to cause poisoning.
+
+Reference
+
+1. Shin M, Bronstein AC, Glidden E, et al. Morbidity and Mortality of Unintentional Carbon Monoxide Poisoning: United States 2005 to 2018. Ann Emerg Med. 2023;81(3):309-317. doi:10.1016/j.annemergmed.2022.10.011
+
+Pathophysiology of CO Poisoning
+
+The elimination half-life of carbon monoxide (CO) is approximately 4.5 hours when breathing room air, 1.5 hours with 100% oxygen, and 20 minutes with 3 atmospheres (pressure) of 100% oxygen (as in a hyperbaric chamber).
+
+Mechanisms of CO toxicity are not completely understood. They appear to involve (1, 2)
+
+Displacement of oxygen from hemoglobin (because CO has greater affinity for hemoglobin than does oxygen)
+
+Shifting of the oxygen-hemoglobin dissociation curve to the left (decreasing release of oxygen from hemoglobin to tissues—see figure Oxyhemoglobin dissociation curve)
+
+Inhibition of mitochondrial respiration
+
+Possibly direct toxic effects on brain tissue
+
+Pathophysiology references
+
+1. Hardy KR, Thom SR. Pathophysiology and treatment of carbon monoxide poisoning. J Toxicol Clin Toxicol. 1994;32(6):613-629. doi:10.3109/15563659409017973
+
+2. Tritapepe L, Macchiarelli G, Rocco M, et al. Functional and ultrastructural evidence of myocardial stunning after acute carbon monoxide poisoning. Crit Care Med. 1998;26(4):797-801. doi:10.1097/00003246-199804000-00034
+
+Symptoms and Signs of CO Poisoning
+
+Carbon monoxide (CO) poisoning symptoms tend to correlate well with the patient’s peak blood carboxyhemoglobin levels (1). Many symptoms are nonspecific.
+
+Headache and nausea can begin when levels are 10 to 20%.
+
+Levels > 20% commonly cause vague dizziness, generalized weakness, difficulty concentrating, and impaired judgment.
+
+Levels > 30% commonly cause dyspnea during exertion, chest pain (in patients with coronary artery disease), and confusion.
+
+Higher levels can cause syncope, seizures, and obtundation.
+
+Hypotension, coma, respiratory failure, and death may occur, usually when levels are > 60%.
+
+Patients may also have many other symptoms, including visual deficits, abdominal pain, and focal neurologic deficits. If poisoning is severe, neuropsychiatric symptoms and signs (eg, dementia, psychosis, parkinsonism, chorea, amnestic syndromes) can develop days to weeks after exposure and become permanent. Because CO poisoning often results from house fires, patients may have concomitant airway injuries (see Smoke Inhalation), which may increase risk of respiratory failure.
+
+Symptoms and signs reference
+
+1. Kao LW, Nañagas KA. Carbon monoxide poisoning. Emerg Med Clin North Am. 2004;22(4):985-1018. doi:10.1016/j.emc.2004.05.003
+
+Diagnosis of CO Poisoning
+
+Venous carboxyhemoglobin level
+
+Sometimes arterial blood gases
+
+Because symptoms can be vague, nonspecific, and variable, the diagnosis of carbon monoxide (CO) poisoning is easily missed. Many cases of mild poisoning with nonspecific symptoms are mistaken for viral syndromes. Physicians must maintain a high level of suspicion. If people from the same dwelling, particularly a heated dwelling, experience nonspecific flu-like symptoms, CO exposure should be considered.
+
+If CO poisoning is suspected, the carboxyhemoglobin level in the blood is measured with a CO-oximeter; venous samples can be used because arteriovenous differences are trivial.(1) Arterial blood gases (ABGs) are not measured routinely. ABGs and pulse oximetry, alone or combined, are inadequate for diagnosis of CO poisoning because oxygen saturation reported in ABGs represents dissolved oxygen and is thus unaffected by carboxyhemoglobin concentration; furthermore, the pulse oximeter cannot differentiate normal hemoglobin from carboxyhemoglobin and thus provides a falsely elevated oxyhemoglobin reading (2, 3). Noninvasive CO detectors have not been shown to be accurate or useful in the diagnosis of CO exposure or toxicity.
+
+Although elevated carboxyhemoglobin levels are clear evidence of poisoning, levels may be falsely low because they decrease rapidly after CO exposure ends, particularly in patients treated with supplemental oxygen (eg, in an ambulance). Metabolic acidosis can be a clue to the diagnosis. Other tests may help evaluate specific symptoms (eg, electrocardiography for chest pain, CT, and MRI for neurologic symptoms).
+
+Treatment with hydroxocobalamin for cyanide exposure from a fire may interfere with measurement of carboxyhemoglobin by spectrophotometry or co-oximetry. The very deep ruby color of the hydroxocobalamin may give falsely elevated or depressed carboxyhemoglobin determinations (4).
+
+Diagnosis references
+
+1. Touger M, Gallagher EJ, Tyrell J. Relationship between venous and arterial carboxyhemoglobin levels in patients with suspected carbon monoxide poisoning. Ann Emerg Med. 1995;25(4):481-483. doi:10.1016/s0196-0644(95)70262-8
+
+2. Bozeman WP, Myers RA, Barish RA. Confirmation of the pulse oximetry gap in carbon monoxide poisoning. Ann Emerg Med. 1997;30(5):608-611. doi:10.1016/s0196-0644(97)70077-5
+
+3. Papin M, Latour C, Leclère B, et al. Accuracy of pulse CO-oximetry to evaluate blood carboxyhemoglobin level: a systematic review and meta-analysis of diagnostic test accuracy studies. Eur J Emerg Med. 2023;30(4):233-243. doi:10.1097/MEJ.0000000000001043
+
+4.Pace R, Bon Homme M, Hoffman RS, et al. Effects of hydroxocobalamin on carboxyhemoglobin measured under physiologic and pathologic conditions. Clin Toxicol (Phila). 2014;52(7):647-650. doi:10.3109/15563650.2014.939659
+
+Treatment of CO Poisoning
+
+100% oxygen
+
+Possibly hyperbaric oxygen
+
+Patients should be removed from the source of carbon monoxide (CO) and stabilized as necessary. They are given 100% oxygen (by nonrebreather mask) and treated supportively (1). Although its use is becoming increasingly controversial, hyperbaric oxygen therapy (in a chamber at 2 to 3 atmospheres of 100% oxygen) (2, 3) typically should be considered for patients who have any of the following:
+
+Life-threatening cardiopulmonary complications
+
+Ongoing chest pain
+
+Altered consciousness
+
+Loss of consciousness (no matter how brief)
+
+A carboxyhemoglobin level > 25%
+
+Hyperbaric oxygen therapy should also be considered for pregnant patients, possibly at lower serum CO levels than in nonpregnant patients.
+
+Hyperbaric oxygen therapy may decrease the incidence of delayed neuropsychiatric symptoms. However, this therapy may cause barotrauma and, because therapy is not available at most hospitals, may require transfer of patients, who may not be stable; also a chamber may not be available locally. Evidence for the efficacy of hyperbaric oxygen therapy is becoming more controversial, with some studies suggesting harm. In cases where hyperbaric oxygen therapy is considered, consultation with a poison control center or hyperbaric expert is strongly recommended.
+
+Treatment references
+
+1. Weaver LK, Howe S, Hopkins R, Chan KJ. Carboxyhemoglobin half-life in carbon monoxide-poisoned patients treated with 100% oxygen at atmospheric pressure. Chest. 2000;117(3):801-808. doi:10.1378/chest.117.3.801
+
+2. Huang CC, Ho CH, Chen YC, et al. Hyperbaric Oxygen Therapy Is Associated With Lower Short- and Long-Term Mortality in Patients With Carbon Monoxide Poisoning. Chest. 2017;152(5):943-953. doi:10.1016/j.chest.2017.03.049
+
+3. Hampson NB, Dunford RG, Kramer CC, Norkool DM. Selection criteria utilized for hyperbaric oxygen treatment of carbon monoxide poisoning. J Emerg Med. 1995;13(2):227-231. doi:10.1016/0736-4679(94)00144-8
+
+Prevention of CO Poisoning
+
+Prevention involves checking sources of indoor combustion to make sure they are correctly installed and vented to the outdoors. Exhaust pipes should be inspected periodically for leaks. Cars should never be left running in an enclosed garage. Carbon monoxide (CO) detectors should be installed because they provide early warning that CO is free in a dwelling’s atmosphere. If CO is suspected in a dwelling, windows should be opened, and the dwelling should be evacuated and evaluated for the source of CO.
+
+Key Points
+
+CO poisoning (eg, caused by house fires, improperly vented automobiles, gas heaters, furnaces, hot water heaters, wood- or charcoal-burning stoves, or kerosene heaters) is one of the most common fatal poisonings.
+
+Consider toxicity in patients with nonspecific symptoms (eg, flu-like symptoms in winter) or unexplained metabolic acidosis.
+
+Measure CO level in venous blood with a CO oximeter.
+
+Do not exclude toxicity based on a normal CO level because levels can decrease rapidly, particularly after treatment with supplemental oxygen.
+
+Treat with 100% oxygen.
+
+For severe poisoning, consult an expert or poison control center to discuss treatment with hyperbaric oxygen.

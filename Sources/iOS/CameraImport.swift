@@ -66,12 +66,14 @@ struct CameraImportSection: View {
                         }
                         showingCamera = true
                     }
+                    .accessibilityLabel("Retake photo with camera")
                 } else {
                     Button {
                         showingCamera = true
                     } label: {
                         Label("Open Camera", systemImage: "camera")
                     }
+                    .accessibilityLabel("Open camera to take a photo of a document or reference material")
                 }
             } footer: {
                 Text(
@@ -84,8 +86,15 @@ struct CameraImportSection: View {
             if kind == .ocr {
                 Section("Recognized Text") {
                     TextField("Title", text: $ocrTitle)
-                    TextField("Recognized text", text: $ocrText, axis: .vertical)
-                        .lineLimit(5...16)
+                    ZStack(alignment: .topTrailing) {
+                        TextField("Recognized text", text: $ocrText, axis: .vertical)
+                            .lineLimit(5...16)
+                        if ocrInProgress {
+                            ProgressView()
+                                .padding(.trailing, 8)
+                                .padding(.top, 8)
+                        }
+                    }
                 }
             }
 
@@ -94,11 +103,13 @@ struct CameraImportSection: View {
                     Button("Save Photo", systemImage: "checkmark") {
                         saveCapturedPhoto()
                     }
+                    .accessibilityLabel("Save captured photo to library")
                     .disabled(capturedImage == nil)
                 } else {
                     Button(ocrInProgress ? "Reading…" : "Save Note", systemImage: "checkmark") {
                         saveOCRNote()
                     }
+                    .accessibilityLabel(ocrInProgress ? "Reading text from photo, please wait" : "Save OCR note to library")
                     .disabled(ocrInProgress || ocrText.isEmpty)
                 }
             }
@@ -141,14 +152,15 @@ struct CameraImportSection: View {
     }
 
     private func startOCR(_ image: UIImage) {
-        guard let data = image.jpegData(compressionQuality: 0.9) else {
-            ocrInProgress = false
-            return
-        }
         ocrInProgress = true
         Task {
             do {
-                ocrText = try await OCRSupport.recognizeText(jpegData: data)
+                let result = try await OCRSupport.recognizeText(image: image)
+                if result.isEmpty {
+                    errorMessage = "No text was detected in the photo. You can try retaking it in better light, or type your notes manually below."
+                    showingErrorAlert = true
+                }
+                ocrText = result
             } catch {
                 errorMessage = "Couldn't read text from the photo. Retake it in better light, or type the text yourself."
                 showingErrorAlert = true
@@ -233,10 +245,9 @@ enum OCRSupport {
     ///
     /// The whole request is built and run on one detached thread, so no
     /// non-Sendable Vision objects cross actor boundaries.
-    static func recognizeText(jpegData: Data) async throws -> String {
+    static func recognizeText(image: UIImage) async throws -> String {
         let task = Task.detached(priority: .userInitiated) {
-            guard let source = CGImageSourceCreateWithData(jpegData as CFData, nil),
-                  let cgImage = CGImageSourceCreateImageAtIndex(source, 0, nil) else {
+            guard let cgImage = image.cgImage else {
                 throw Error.noImage
             }
             var performError: Swift.Error?
@@ -246,7 +257,6 @@ enum OCRSupport {
                     performError = error
                     return
                 }
-                // The current SDK reports VNRecognizedTextObservation results.
                 let lines = recognition.results?
                     .compactMap { ($0 as? VNRecognizedTextObservation)?.topCandidates(1).first?.string } ?? []
                 text = lines.joined(separator: "\n")

@@ -1,0 +1,152 @@
+=== Intravenous Fluid Resuscitation (Merck Manual Professional) ===
+Section: Critical Care Medicine > Shock and Fluid Resuscitation
+Source: https://www.merckmanuals.com/professional/critical-care-medicine/shock-and-fluid-resuscitation/intravenous-fluid-resuscitation
+Retrieved: 2026-09-25
+
+Resuscitation with intravenous fluids is often a key component of management of hypovolemic and distributive (including septic) shock, although it is usually contraindicated in cardiogenic and obstructive shock. IV fluid resuscitation is also used in many patients without shock, including those with severe dehydration, acute pancreatitis, and heat-related illness including exertional rhabdomyolysis).
+
+In hypovolemic shock, to maintain adequate perfusion, intravascular volume deficiency is acutely compensated for by vasoconstriction and tachycardia to maintain cardiac output, followed over hours by migration of fluid from the extravascular compartment to the intravascular compartment, maintaining circulating volume at the expense of total body water. However, if volume replacement is not adequate, decompensation shock can occur.
+
+This topic focuses mostly on fluid resuscitation in hemorrhage. See Fluid Metabolism for discussion of maintenance fluid requirements and see Dehydration and Fluid Therapy in Children for discussion of mild dehydration.
+
+Discussion of how to perform peripheral vascular catheterization or central vascular catheterization procedures are discussed separately.
+
+Types of Fluids for IV Fluid Resuscitation
+
+Choice of resuscitation fluid depends on the cause of the deficit.
+
+Crystalloid Solutions
+
+Crystalloid solutions contain small molecules that freely cross capillary membranes. Crystalloids used for intravascular volume replenishment are typically isotonic (eg, 0.9% saline, Ringer's lactate). Water freely moves from the intravascular compartment to the extravascular component. During rapid infusion of isotonic crystalloid solutions, plasma volume expands by approximately 50 to 60% of the infused volume is in the intravascular space (1). After fluid is redistributed and reaches a steady state, approximately 15 to 25% of isotonic solutions remain intravascular.
+
+Hypotonic fluid (eg, 0.45% saline, 5% dextrose in water [D5W]) should not be used in resuscitation since even less remains in the intravascular compartment.
+
+Hypertonic saline (eg, 3% saline, 7.5% saline) is not recommended for resuscitation in critically ill patients but is used in patients with neurologic injury to aid in reducing intracranial pressure (2).
+
+Although both 0.9% saline and Ringer's lactate expand volume, balanced crystalloids are preferred in hemorrhagic shock because it somewhat minimizes acidosis and will not cause hyperchloremia (3).
+
+For patients with traumatic brain injury, 0.9% saline is preferred.
+
+Colloid Solutions
+
+Colloid solutions (eg, hydroxyethyl starch, albumin, dextrans) contain large macromolecules. Colloids are also effective for volume replacement during major hemorrhage. However, colloid solutions offer no major advantage over crystalloid solutions (4). When compared to saline, albumin has been associated with higher mortality rates when administered to patients with traumatic brain injury (5).
+
+Certain colloids have potential adverse effects. Hydroxyethyl starch may increase risk of renal injury. Both dextrans and hydroxyethyl starch may adversely affect coagulation (6).
+
+Blood Products
+
+Blood typically is given as packed red blood cells, which should be cross-matched, but in an urgent situation, type O Rh-negative blood are an acceptable alternative. (See also Blood Products.)
+
+When > 1 to 2 units are transfused (eg, in major trauma), blood is warmed to 37°C.
+
+Patients receiving > 6 units may require replacement of clotting factors with infusion of fresh frozen plasma or cryoprecipitate and platelet transfusion (7).
+
+Blood substitutes are oxygen-carrying fluids that can be hemoglobin-based or perfluorocarbons. Hemoglobin-based fluids may contain free hemoglobin that is liposome-encapsulated or modified (eg, by surface modification or cross-linking with other molecules) to limit renal excretion and toxicity. Because the antigen-bearing red blood cell membrane is not present, these substances do not require cross-matching. Perfluorocarbons are IV carbon-fluorine emulsions that carry large amounts of oxygen. However, no blood substitutes have been shown to increase survival and some have significant adverse effects (eg, renal toxicity, vasoconstriction/hypertension from nitric oxide depletion) (8). Currently, no blood substitutes are commercially available for use. There is ongoing research to develop blood substitutes for clinical use.
+
+Fluids references
+
+1. Hahn RG. Understanding volume kinetics. Acta Anaesthesiol Scand. 2020;64(5):570-578. doi:10.1111/aas.13533
+
+2. Arabi YM, Belley-Cote E, Carsetti A, et al. European Society of Intensive Care Medicine clinical practice guideline on fluid therapy in adult critically ill patients. Part 1: the choice of resuscitation fluids. Intensive Care Med. 2024;50(6):813-831. doi:10.1007/s00134-024-07369-9
+
+3. LaGrone LN, Stein D, Cribari C, et al. American Association for the Surgery of Trauma/American College of Surgeons Committee on Trauma: Clinical protocol for damage-control resuscitation for the adult trauma patient. J Trauma Acute Care Surg. 2024;96(3):510-520. doi:10.1097/TA.0000000000004088
+
+4. Lewis SR, Pritchard MW, Evans DJ, et al. Colloids versus crystalloids for fluid resuscitation in critically ill people. Cochrane Database Syst Rev. 2018;8(8):CD000567. doi:10.1002/14651858.CD000567.pub7
+
+5. SAFE Study Investigators; Australian and New Zealand Intensive Care Society Clinical Trials Group; Australian Red Cross Blood Service. Saline or albumin for fluid resuscitation in patients with traumatic brain injury. N Engl J Med. 2007;357(9):874-884. doi:10.1056/NEJMoa067514
+
+6. de Jonge E, Levi M. Effects of different plasma substitutes on blood coagulation: a comparative review. Crit Care Med. 2001;29(6):1261-1267. doi:10.1097/00003246-200106000-00038
+
+7. Cannon JW. Hemorrhagic Shock. N Engl J Med. 2018;378(4):370-379. doi:10.1056/NEJMra1705649
+
+8. Chen JY, Scerbo M, Kramer G. A review of blood substitutes: examining the history, clinical trial results, and ethics of hemoglobin-based oxygen carriers. Clinics (Sao Paulo). 2009;64(8):803-813. doi:10.1590/S1807-59322009000800016
+
+Route and Rate of Fluid Administration
+
+Standard, large (eg, 14- to 16-gauge) peripheral IV catheters are adequate for most intravenous fluid infusion. Infusion pumps typically allow infusion of 1 L of crystalloid in 10 to 15 minutes and 1 unit of red blood cells in 20 minutes.
+
+For patients with significant volume depletion or continued hemorrhage, a large (eg, 8.5 French) central venous catheter provides more rapid infusion rates; a pressure infusion device can infuse 1 unit of red blood cells in < 5 minutes. Patients in hypovolemic shock typically require and tolerate infusion at the maximum rate. Adults are given 1 L of crystalloid (20 mL/kg in children) or, in hemorrhagic shock, 5 to 10 mL/kg of red blood cells, and the patient is reassessed. High volume and rapid infusion of IV fluids is usually contraindicated in patients with cardiogenic or obstructive shock.
+
+Patients with intravascular volume depletion without shock can receive infusion at a controlled rate, typically 500 mL/hour.
+
+Children should have their fluid deficit calculated and replacement given over 24 hours (half in the first 8 hours).
+
+End Point and Monitoring of Fluid Resuscitation
+
+The goal of fluid therapy in patient with shock is to optimize tissue perfusion. However, this parameter is not routinely measured directly. Surrogate end points include clinical indicators of end-organ perfusion and measurements of preload.
+
+Routine monitoring of patient status, including vital signs and urine output, gives some information about tissue perfusion. Urine output of > 0.5 to 1 mL/kg/hour indicates adequate kidney perfusion. Heart rate, mental status, and capillary refill may be affected by the underlying disease process and are less reliable markers.
+
+Serial monitoring of base deficit also provides partial information about patient status. An elevated arterial blood lactate level may reflect hypoperfusion and/or continued sympathetic drive from endogenous catecholamine production; however, lactate levels do not decline for several hours after successful resuscitation. The trend of the base deficit can help indicate whether resuscitation is adequate.
+
+Invasive and noninvasive monitoring of volume status
+
+Urine output does not provide a minute-to-minute indication of volume status; therefore, measures of preload may be helpful in guiding fluid resuscitation for critically ill patients.
+
+Because of compensatory vasoconstriction, mean arterial pressure (MAP) is only a rough guideline of volume status; organ hypoperfusion may be present despite apparently normal MAP.
+
+Central venous pressure (CVP) is the mean pressure in the superior vena cava, reflecting right ventricular end-diastolic pressure or preload. Normal CVP ranges from 2 to 7 mm Hg (3 to 9 cm water). A sick or injured patient with a CVP < 3 mm Hg is presumed to be volume depleted and may be given fluids (or blood if needed). When the CVP is within the normal range, additional fluid may optimize cardiac output by augmenting preload (1). Small fluid boluses (eg, 250 mL over 10 minutes) are followed by reassessment of CVP, systolic blood pressure, and MAP. A CVP > 12 to 15 mm Hg indicates hypovolemia is likely not the sole etiology of hypoperfusion, and fluid administration risks fluid overload.
+
+However, CVP may be unreliable in assessing volume status or left ventricular function. If there is no cardiovascular improvement after initial therapy,pulmonary artery catheterization may be considered for diagnosis or for more precise titration of fluid therapy. Although monitoring with a pulmonary artery catheter is frequently performed, it has not been shown to consistently decrease mortality (2). Care must be taken when interpreting filling pressures in patients during mechanical ventilation, particularly when positive end-expiratory pressure (PEEP) levels exceeding 10 cm water are being used or during respiratory distress when pleural pressures fluctuate widely. Measurements are made at the end of expiration, and the transducer is referenced to atrial zero levels (mid chest) and carefully calibrated.
+
+Point-of-care ultrasound of the inferior vena cava and right ventricle can provide information on circulating volume status (1). Point-of-care echocardiography can also estimate overall cardiac function. However, interpretation of the images is highly user dependent and can be complicated by the presence of valvular dysfunction and the use of positive pressure ventilation.
+
+Near-infrared spectroscopy is a noninvasive and rapid technique that may measure the degree of shock by assessing tissue oxygenation; however, high-quality studies are still needed (3). Another investigational method is measurement of sublingual tissue carbon dioxide (capnometry).
+
+End-point and monitoring of fluid resuscitation references
+
+1. Zampieri FG, Bagshaw SM, Semler MW. Fluid Therapy for Critically Ill Adults With Sepsis: A Review. JAMA. 2023;329(22):1967-1980. doi:10.1001/jama.2023.7560
+
+2. Rajaram SS, Desai NK, Kalra A, et al. Pulmonary artery catheters for adult patients in intensive care. Cochrane Database Syst Rev. 2013;2013(2):CD003408. doi:10.1002/14651858.CD003408.pub3
+
+3. Varis E, Pettilä V, Wilkman E. Near-Infrared Spectroscopy in Adult Circulatory Shock: A Systematic Review. J Intensive Care Med. 2020;35(10):943-962. doi:10.1177/0885066620907307
+
+Complications of IV Fluid Resuscitation
+
+Excessively rapid infusion of any type of fluid may precipitate pulmonary edema, acute respiratory distress syndrome, or even a compartment syndrome (eg, abdominal compartment syndrome, extremity compartment syndrome).
+
+Hemodilution resulting from crystalloid infusion is not of itself injurious, although hematocrit must be monitored to note whether threshold values for transfusion are met.
+
+Red blood cell transfusion has a low risk of directly transmitting infection. However, it appears to be associated with a slightly higher rate of hospital-acquired infection in critically ill patients, although the mechanism is not clear (1). This risk may be minimized by using blood < 12 days old; such red blood cells are more plastic and less likely to cause sludging in the microvasculature. Other complications of massive transfusion are discussed elsewhere.
+
+Complications reference
+
+1. Rohde JM, Dimcheff DE, Blumberg N, et al. Health care-associated infection after red blood cell transfusion: a systematic review and meta-analysis. JAMA. 2014;311(13):1317-1326. doi:10.1001/jama.2014.2726
+
+Clinical Indications for IV Fluid Resuscitation
+
+Hemorrhage
+
+Loss of red blood cells diminishes oxygen-carrying capacity. However, the body increases cardiac output to maintain oxygen delivery (DO2) and increases oxygen extraction (1). Despite blood loss, oxygen delivery and consumption at the cellular level can be maintained through various compensatory mechanisms (eg, Bohr effect/shifting along oxygen-hemoglobin dissociation curve) (2). Thus, non–oxygen-carrying fluids (eg, crystalloid or colloid solutions) may be used to restore intravascular volume in mild to moderate blood loss. However, in severe hemorrhagic shock, blood products are required.
+
+Early administration of plasma and platelets minimizes the dilutional and consumptive coagulopathy that accompanies major hemorrhage. A ratio of 1 unit of plasma for each 1 unit of red blood cells and each 1 unit of platelets is recommended (3). Whole blood transfusions should also be considered when available (4). Transfusions are needed if the hemoglobin is < 7 g/dL (70 g/L), in the absence of cardiac or cerebral vascular disease (5). Patients with active coronary or cerebral vascular disease or ongoing hemorrhage require blood when hemoglobin is < 10 g/dL (100 g/L).
+
+Traumatic hemorrhagic shock
+
+Patients with traumatic hemorrhagic shock may require a slightly different approach. Experimental and clinical evidence indicates that internal hemorrhage (eg, due to visceral or vascular laceration or crush) may be worsened by resuscitation to normal or supranormal MAP. Thus, some physicians allow for permissive hypotension with a target systolic blood pressure of 80 to 90 mm Hg or MAP of 55 to 60 mm Hg as the resuscitation end point in such patients pending surgical control of bleeding, unless higher pressure is needed to provide adequate brain perfusion (6, 7).
+
+After blood loss is controlled, hemoglobin is used to guide the need for further transfusion. A target hemoglobin of 9 g/dL (90 g/L) is suggested to minimize the use of blood products. Patients who may have difficulty tolerating moderate anemia (eg, those with coronary or cerebral artery disease) should be transfused to a target hemoglobin of 10 g/dL (100 g/L). A higher hemoglobin does not improve outcome and, by causing increased blood viscosity, may impair perfusion of capillary beds.
+
+Nonhemorrhagic hypovolemia
+
+Isotonic crystalloid solutions are typically given for intravascular repletion during shock and hypovolemia (8). Colloid solutions have not been shown to be more beneficial than crystalloids (9). Patients with dehydration and adequate circulatory volume typically have a free water deficit, and hypotonic solutions (eg, 5% dextrose in water, 0.45% saline) are used.
+
+Clinical indications references
+
+1. Klein HG, Spahn DR, Carson JL. Red blood cell transfusion in clinical practice. Lancet. 2007;370(9585):415-426. doi:10.1016/S0140-6736(07)61197-0
+
+2. Hsia CC. Respiratory function of hemoglobin. N Engl J Med. 1998;338(4):239-247. doi:10.1056/NEJM199801223380407
+
+3. Holcomb JB, Tilley BC, Baraniuk S, et al. Transfusion of plasma, platelets, and red blood cells in a 1:1:1 vs a 1:1:2 ratio and mortality in patients with severe trauma: The PROPPR randomized clinical trial. JAMA. 2015;313(5):471-482. doi:10.1001/jama.2015.12
+
+4. Morgan KM, Abou Khalil E, Feeney EV, et al. The Efficacy of Low-Titer Group O Whole Blood Compared With Component Therapy in Civilian Trauma Patients: A Meta-Analysis. Crit Care Med. 2024;52(7):e390-e404. doi:10.1097/CCM.0000000000006244
+
+5. Napolitano LM, Kurek S, Luchette FA, et al. Clinical practice guideline: red blood cell transfusion in adult trauma and critical care. Crit Care Med. 2009;37(12):3124-3157. doi:10.1097/CCM.0b013e3181b39f1b
+
+6. LaGrone LN, Stein D, Cribari C, et al. American Association for the Surgery of Trauma/American College of Surgeons Committee on Trauma: Clinical protocol for damage-control resuscitation for the adult trauma patient. J Trauma Acute Care Surg. 2024;96(3):510-520. doi:10.1097/TA.0000000000004088
+
+7. Schreiber MA, Meier EN, Tisherman SA, et al. A controlled resuscitation strategy is feasible and safe in hypotensive trauma patients: results of a prospective randomized pilot trial. J Trauma Acute Care Surg. 2015;78(4):687-697. doi:10.1097/TA.0000000000000600
+
+8. Myburgh JA, Mythen MG. Resuscitation fluids. N Engl J Med. 2013;369(13):1243-1251. doi:10.1056/NEJMra1208627
+
+9. Lewis SR, Pritchard MW, Evans DJ, et al. Colloids versus crystalloids for fluid resuscitation in critically ill people. Cochrane Database Syst Rev. 2018;8(8):CD000567. doi:10.1002/14651858.CD000567.pub7

@@ -27,7 +27,7 @@ public struct ImportedFile: Sendable {
 public enum FileSupport {
 
     /// CloudKit comfortably handles up to 50 MB per record; we leave headroom.
-    public static let maxFileBytes = 48 * 1024 * 1024
+    public static let maxFileBytes: Int = AppLimits.maxFileSize
 
     public static func importFile(at url: URL) throws -> ImportedFile {
         // File-picked URLs are security-scoped on iOS. Without starting the

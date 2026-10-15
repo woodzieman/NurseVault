@@ -1,0 +1,98 @@
+=== Drug–Receptor Interactions (Merck Manual Professional) ===
+Section: Clinical Pharmacology > Pharmacodynamics
+Source: https://www.merckmanuals.com/professional/clinical-pharmacology/pharmacodynamics/drug-receptor-interactions
+Retrieved: 2026-09-25
+
+Receptors are macromolecules involved in chemical signaling between and within cells; they may be located on the cell surface membrane or within the cytoplasm. Activated receptors directly or indirectly regulate cellular biochemical processes (eg, ion conductance, protein phosphorylation, DNA transcription, enzymatic activity).
+
+Molecules (eg, drugs, hormones, neurotransmitters) that bind to a receptor are called ligands. The binding can be specific and reversible or irreversible. A ligand may activate or inactivate a receptor; activation may increase or decrease a particular cell function. Each ligand may interact with multiple receptor subtypes. Few if any drugs are absolutely specific for one receptor or subtype, but most have relative selectivity. Selectivity is the degree to which a drug acts on a given site relative to other sites; selectivity relates largely to physicochemical binding of the drug to cellular receptors. (See also Overview of Pharmacodynamics.)
+
+Table
+
+Some Types of Physiologic and Drug-Receptor Proteins
+
+Table
+
+Some Types of Physiologic and Drug-Receptor Proteins
+
+Some Types of Physiologic and Drug-Receptor Proteins
+
+Type
+
+Structure
+
+Cellular Location
+
+Examples
+
+Multisubunit ion channels
+
+Cell surface transmembrane
+
+Acetylcholine (nicotinic)
+
+GABA A
+
+Glutamate
+
+Glycine
+
+G-protein–coupled receptors
+
+Cell surface transmembrane
+
+Acetylcholine (muscarinic)
+
+Alpha- and beta-adrenergic receptor proteins
+
+Eicosanoids
+
+Protein kinases
+
+Cell surface transmembrane
+
+Growth factors
+
+Insulin
+
+Peptide hormones
+
+Transcription factors
+
+Cytoplasm
+
+Steroid hormones
+
+Thyroid hormone
+
+Vitamin D
+
+GABA = gamma-aminobutyric acid; GDP = guanosine diphosphate; GTP = guanosine triphosphate.
+
+GABA = gamma-aminobutyric acid; GDP = guanosine diphosphate; GTP = guanosine triphosphate.
+
+A drug’s ability to affect a given receptor is related to the drug’s affinity (probability of the drug occupying a receptor at any given instant) and intrinsic efficacy (intrinsic activity—degree to which a ligand activates receptors and leads to cellular response). A drug’s affinity and activity are determined by its chemical structure.
+
+The pharmacologic effect is also determined by the duration of time that the drug-receptor complex persists (residence time). The lifetime of the drug-receptor complex is affected by dynamic processes (conformation changes) that control the rate of drug association and dissociation from the target. A longer residence time explains a prolonged pharmacologic effect. Drugs with long residence times include finasteride and darunavir. A longer residence time can be a potential disadvantage when it prolongs a drug's toxicity, but has the potential advantage of improved efficacy and flexibility of dosing. For some receptors, transient drug occupancy produces the desired pharmacologic effect, whereas prolonged occupancy causes toxicity.
+
+Physiologic functions (eg, contraction, secretion) are usually regulated by multiple receptor-mediated mechanisms, and several steps (eg, receptor-coupling, multiple intracellular second messenger substances) may be interposed between the initial molecular drug–receptor interaction and ultimate tissue or organ response. Thus, several dissimilar drug molecules can often be used to produce the same desired response.
+
+The ability to bind to a receptor is influenced by external factors as well as by intracellular regulatory mechanisms. Baseline receptor density and the efficiency of stimulus-response mechanisms vary from tissue to tissue. Drugs, aging, genetic mutations, and disorders can increase (upregulate) or decrease (downregulate) the number and binding affinity of receptors. For example, clonidine downregulates alpha 2 receptors; thus, rapid withdrawal of clonidine can cause hypertensive crisis. Chronic therapy with beta-blockers upregulates beta-receptor density; thus, severe hypertension or tachycardia can result from abrupt withdrawal. Receptor upregulation and downregulation affect adaptation to drugs (eg, desensitization, tachyphylaxis, tolerance, acquired resistance, postwithdrawal supersensitivity).
+
+Ligands bind to precise molecular regions, called recognition sites, on receptor macromolecules. The binding site for a drug may be the same as or different from that of an endogenous agonist (hormone or neurotransmitter). Agonists that bind to an adjacent site or a different site on a receptor are sometimes called allosteric agonists. Nonspecific drug binding also occurs—ie, at molecular sites not designated as receptors (eg, plasma proteins). Drug binding to such nonspecific sites, such as binding to serum proteins, prohibits the drug from binding to the receptor and thus inactivates the drug. Unbound drug is available to bind to receptors and thus have an effect.
+
+Agonists and antagonists
+
+Agonists activate receptors to produce the desired response. Conventional agonists increase the proportion of activated receptors. Inverse agonists stabilize the receptor in its inactive conformation and act similarly to competitive antagonists. Many hormones, neurotransmitters (eg, acetylcholine, histamine, norepinephrine), and drugs (eg, morphine, phenylephrine, isoproterenol, benzodiazepines, barbiturates) act as agonists.
+
+Antagonists prevent receptor activation. The prevention of activation has certain effects. Antagonists increase cellular function if they block the action of a substance that normally decreases cellular function. Antagonists decrease cellular function if they block the action of a substance that normally increases cellular function.
+
+Receptor antagonists can be classified as reversible or irreversible. Reversible antagonists readily dissociate from their receptor; irreversible antagonists form a stable, permanent or nearly permanent chemical bond with their receptor (eg, by alkylation). Pseudo-irreversible antagonists slowly dissociate from their receptor.
+
+In competitive antagonism, binding of the antagonist to the receptor prevents binding of the agonist to the receptor.
+
+In noncompetitive antagonism, agonist and antagonist can be bound simultaneously, but antagonist binding reduces or prevents the action of the agonist.
+
+In reversible competitive antagonism, agonist and antagonist form short-lasting bonds with the receptor, and a steady state among agonist, antagonist, and receptor is reached. Such antagonism can be overcome by increasing the concentration of the agonist. For example, naloxone (an opioid receptor antagonist that is structurally similar to morphine), when given shortly before or after morphine, blocks morphine’s effects. However, competitive antagonism by naloxone can be overcome by giving more morphine.
+
+Structural analogs of agonist molecules frequently have agonist and antagonist properties; such drugs are called partial (low-efficacy) agonists, or agonist-antagonists. For example, pentazocine activates opioid receptors but blocks their activation by other opioids. Thus, pentazocine provides opioid effects but blunts the effects of another opioid if the opioid is given while pentazocine is still bound. A drug that acts as a partial agonist in one tissue may act as a full agonist in another.

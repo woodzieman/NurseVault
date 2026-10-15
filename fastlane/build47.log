@@ -1,0 +1,223 @@
+[14:09:25]: [33mGet started using a Gemfile for fastlane https://docs.fastlane.tools/getting-started/ios/setup/#use-a-gemfile[0m
+[14:09:25]: [32m------------------------------[0m
+[14:09:25]: [32m--- Step: default_platform ---[0m
+[14:09:25]: [32m------------------------------[0m
+[14:09:25]: [32mDriving the lane 'ios upload' 🚀[0m
+[14:09:25]: [32m-----------------------[0m
+[14:09:25]: [32m--- Step: build_app ---[0m
+[14:09:25]: [32m-----------------------[0m
+[14:09:25]: [33mResolving Swift Package Manager dependencies...[0m
+[14:09:25]: [36m$ xcodebuild -resolvePackageDependencies -scheme NurseVault -project NurseVault.xcodeproj[0m
+[14:09:26]: ▸ [35mCommand line invocation:[0m
+[14:09:26]: ▸ [35m    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -resolvePackageDependencies -scheme NurseVault -project NurseVault.xcodeproj[0m
+[14:09:27]: ▸ [35mResolve Package Graph[0m
+[14:09:29]: ▸ [35mResolved source packages:[0m
+[14:09:29]: ▸ [35m  NurseVaultCore: /Users/josephwoods/Documents/Nursing app/Packages/NurseVaultCore @ local[0m
+[14:09:29]: ▸ [35mresolved source packages: NurseVaultCore[0m
+[14:09:29]: [36m$ xcodebuild -showBuildSettings -scheme NurseVault -project NurseVault.xcodeproj 2>&1[0m
+
++-----------------------------------------------------------------------------+
+|                           [32mSummary for gym 2.240.1[0m                           |
++--------------------------------------+--------------------------------------+
+| project                              | NurseVault.xcodeproj                 |
+| scheme                               | NurseVault                           |
+| output_directory                     | build/export/fastlane                |
+| export_method                        | app-store                            |
+| xcargs                               | -allowProvisioningUpdates            |
+| clean                                | false                                |
+| output_name                          | NurseVault                           |
+| silent                               | false                                |
+| skip_package_ipa                     | false                                |
+| skip_package_pkg                     | false                                |
+| build_path                           | /Users/josephwoods/Library/Develope  |
+|                                      | r/Xcode/Archives/2026-10-09          |
+| result_bundle                        | false                                |
+| buildlog_path                        | ~/Library/Logs/gym                   |
+| destination                          | generic/platform=iOS                 |
+| xcodebuild_formatter                 | xcpretty                             |
+| build_timing_summary                 | false                                |
+| skip_profile_detection               | false                                |
+| xcodebuild_command                   | xcodebuild                           |
+| skip_package_dependencies_resolutio  | false                                |
+| n                                    |                                      |
+| disallow_xcodebuild_settings_lookup  | false                                |
+| disable_package_automatic_updates    | false                                |
+| skip_package_repository_fetches      | false                                |
+| use_system_scm                       | false                                |
+| generate_appstore_info               | false                                |
+| xcode_path                           | /Applications/Xcode.app              |
++--------------------------------------+--------------------------------------+
+
+[14:09:30]: [33mUsing xcpretty can result in missing some build errors and is slower than the preferred xcbeautify. See https://docs.fastlane.tools/best-practices/xcodebuild-formatters/ for more information.[0m
+[14:09:30]: [36m$ set -o pipefail && xcodebuild -scheme NurseVault -project NurseVault.xcodeproj -destination 'generic/platform=iOS' -archivePath /Users/josephwoods/Library/Developer/Xcode/Archives/2026-10-09/NurseVault\ 2026-10-09\ 14.09.30.xcarchive -allowProvisioningUpdates archive | tee /Users/josephwoods/Library/Logs/gym/NurseVault-NurseVault.log | xcpretty[0m
+[14:09:34]: [35m[33m▸[0m [39;1mProcessing[0m empty-NurseVaultCore_NurseVaultCore.plist[0m
+[14:09:34]: [35m[33m▸[0m [39;1mCopying[0m /Users/josephwoods/Library/Developer/Xcode/DerivedData/NurseVault-bwqsatuhtjwxzwgknoyiocdqtpff/Build/Intermediates.noindex/ArchiveIntermediates/NurseVault/IntermediateBuildFilesPath/UninstalledProducts/watchos/NurseVaultCore_NurseVaultCore.bundle/WatchMerckIndex.txt.zlib[0m
+[14:09:34]: [35m[33m▸[0m [39;1mCopying[0m /Users/josephwoods/Library/Developer/Xcode/DerivedData/NurseVault-bwqsatuhtjwxzwgknoyiocdqtpff/Build/Intermediates.noindex/ArchiveIntermediates/NurseVault/IntermediateBuildFilesPath/UninstalledProducts/watchos/NurseVaultCore_NurseVaultCore.bundle/WatchDrugIndex.txt[0m
+[14:09:34]: [35m[33m▸[0m [39;1mProcessing[0m empty-NurseVaultCore_NurseVaultCore.plist[0m
+[14:09:34]: [35m[33m▸[0m [39;1mCopying[0m /Users/josephwoods/Library/Developer/Xcode/DerivedData/NurseVault-bwqsatuhtjwxzwgknoyiocdqtpff/Build/Intermediates.noindex/ArchiveIntermediates/NurseVault/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/NurseVaultCore_NurseVaultCore.bundle/WatchMerckIndex.txt.zlib[0m
+[14:09:34]: [35m[33m▸[0m [39;1mCopying[0m /Users/josephwoods/Library/Developer/Xcode/DerivedData/NurseVault-bwqsatuhtjwxzwgknoyiocdqtpff/Build/Intermediates.noindex/ArchiveIntermediates/NurseVault/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/NurseVaultCore_NurseVaultCore.bundle/WatchDrugIndex.txt[0m
+[14:09:34]: [35m[33m▸[0m [39;1mTouching[0m NurseVaultCore_NurseVaultCore.bundle (in target 'NurseVaultCore_NurseVaultCore' from project 'NurseVaultCore')[0m
+[14:09:34]: [35m[33m▸[0m [39;1mTouching[0m NurseVaultCore_NurseVaultCore.bundle (in target 'NurseVaultCore_NurseVaultCore' from project 'NurseVaultCore')[0m
+[14:09:35]: [35m[33m▸[0m [39;1mCompiling[0m compression_compat.c[0m
+[14:09:35]: [35m[33m▸[0m [39;1mCompiling[0m compression_compat.c[0m
+[14:09:35]: [35m[33m▸[0m [39;1mCompiling[0m compression_compat.c[0m
+[14:09:35]: [35m[33m▸[0m [39;1mLinking[0m CompressionCompat.o[0m
+[14:09:35]: [35m[33m▸[0m [39;1mLinking[0m CompressionCompat.o[0m
+[14:09:35]: [35m[33m▸[0m [39;1mLinking[0m CompressionCompat.o[0m
+[14:09:39]: [35m[33m▸[0m [39;1mLinking[0m NurseVaultCore.o[0m
+[14:09:39]: [35m[33m▸[0m [39;1mLinking[0m NurseVaultCore.o[0m
+[14:09:39]: [35m[33m▸[0m [39;1mLinking[0m NurseVaultCore.o[0m
+[14:09:39]: [35m[33m▸[0m [39;1mProcessing[0m Info.plist[0m
+[14:09:40]: [35m[33m▸[0m [39;1mLinking[0m NurseVault\[0m
+[14:09:40]: [35m[33m▸[0m [39;1mLinking[0m NurseVault\[0m
+[14:09:41]: [35m[33m▸[0m [39;1mGenerating 'NurseVault\ Watch\ Widget.appex.dSYM'[0m
+[14:09:43]: [35m[33m▸[0m [39;1mTouching[0m NurseVault\ Watch\ Widget.appex (in target 'NurseVault Watch Widget' from project 'NurseVault')[0m
+[14:09:43]: [35m[33m▸[0m [39;1mCopying[0m /Users/josephwoods/Library/Developer/Xcode/DerivedData/NurseVault-bwqsatuhtjwxzwgknoyiocdqtpff/Build/Intermediates.noindex/ArchiveIntermediates/NurseVault/IntermediateBuildFilesPath/UninstalledProducts/watchos/NurseVault\ Watch.app/merck.content[0m
+[14:09:43]: [35m[33m▸[0m [39;1mCopying[0m /Users/josephwoods/Library/Developer/Xcode/DerivedData/NurseVault-bwqsatuhtjwxzwgknoyiocdqtpff/Build/Intermediates.noindex/ArchiveIntermediates/NurseVault/IntermediateBuildFilesPath/UninstalledProducts/watchos/NurseVault\ Watch.app/drugs.index[0m
+[14:09:43]: [35m[33m▸[0m [39;1mCopying[0m /Users/josephwoods/Library/Developer/Xcode/DerivedData/NurseVault-bwqsatuhtjwxzwgknoyiocdqtpff/Build/Intermediates.noindex/ArchiveIntermediates/NurseVault/IntermediateBuildFilesPath/UninstalledProducts/watchos/NurseVault\ Watch.app/drugs.content[0m
+[14:09:43]: [35m[33m▸[0m [39;1mCopying[0m /Users/josephwoods/Library/Developer/Xcode/DerivedData/NurseVault-bwqsatuhtjwxzwgknoyiocdqtpff/Build/Intermediates.noindex/ArchiveIntermediates/NurseVault/IntermediateBuildFilesPath/UninstalledProducts/watchos/NurseVault\ Watch.app/merck.index[0m
+[14:09:43]: [35m[33m▸[0m [39;1mLinking[0m NurseVault\[0m
+[14:09:43]: [35m[33m▸[0m [39;1mLinking[0m NurseVault\[0m
+[14:09:43]: [35m[33m▸[0m [39;1mProcessing[0m empty-NurseVault Watch.plist[0m
+[14:09:43]: [35m[33m▸[0m [39;1mGenerating 'NurseVault\ Watch.app.dSYM'[0m
+[14:09:50]: [35m[33m▸[0m [39;1mTouching[0m NurseVault\ Watch.app (in target 'NurseVault Watch' from project 'NurseVault')[0m
+[14:09:50]: [35m[33m▸[0m [39;1mCopying[0m /Users/josephwoods/Library/Developer/Xcode/DerivedData/NurseVault-bwqsatuhtjwxzwgknoyiocdqtpff/Build/Intermediates.noindex/ArchiveIntermediates/NurseVault/InstallationBuildProductsLocation/Applications/NurseVault.app/DrugInfo[0m
+[14:09:50]: [35m[33m▸[0m [39;1mCopying[0m /Users/josephwoods/Library/Developer/Xcode/DerivedData/NurseVault-bwqsatuhtjwxzwgknoyiocdqtpff/Build/Intermediates.noindex/ArchiveIntermediates/NurseVault/InstallationBuildProductsLocation/Applications/NurseVault.app/MerckTopics[0m
+[14:09:50]: [35m[33m▸[0m [39;1mLinking[0m NurseVault[0m
+[14:09:50]: [35m[33m▸[0m [39;1mProcessing[0m empty-NurseVault.plist[0m
+[14:09:50]: [35m[33m▸[0m [39;1mGenerating 'NurseVault.app.dSYM'[0m
+[14:09:52]: [35m[33m▸[0m [39;1mTouching[0m NurseVault.app (in target 'NurseVault' from project 'NurseVault')[0m
+[14:09:53]: [35m[33m▸[0m [39;1mArchive[0m Succeeded[0m
+[14:09:53]: [33mGenerated plist file with the following values:[0m
+[14:09:53]: ▸ [35m-----------------------------------------[0m
+[14:09:53]: ▸ [35m{[0m
+[14:09:53]: ▸ [35m  "method": "app-store"[0m
+[14:09:53]: ▸ [35m}[0m
+[14:09:53]: ▸ [35m-----------------------------------------[0m
+[14:09:53]: [36m$ /usr/bin/xcrun /opt/homebrew/Cellar/fastlane/2.240.1/libexec/gems/fastlane-2.240.1/gym/lib/assets/wrap_xcodebuild/xcbuild-safe.sh -exportArchive -exportOptionsPlist '/var/folders/8x/38nx9w_106s69z4qwdcds_cr0000gn/T/gym_config20261009-70391-gmsqct.plist' -archivePath /Users/josephwoods/Library/Developer/Xcode/Archives/2026-10-09/NurseVault\ 2026-10-09\ 14.09.30.xcarchive -exportPath '/var/folders/8x/38nx9w_106s69z4qwdcds_cr0000gn/T/gym_output20261009-70391-c0iuo3' -allowProvisioningUpdates [0m
+[14:10:09]: Compressing 3 dSYM(s)
+[14:10:09]: [36m$ cd '/Users/josephwoods/Library/Developer/Xcode/Archives/2026-10-09/NurseVault 2026-10-09 14.09.30.xcarchive/dSYMs' && zip -r '/Users/josephwoods/Documents/Nursing app/build/export/fastlane/NurseVault.app.dSYM.zip' *.dSYM[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch Widget.appex.dSYM/ (stored 0%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch Widget.appex.dSYM/Contents/ (stored 0%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch Widget.appex.dSYM/Contents/Resources/ (stored 0%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch Widget.appex.dSYM/Contents/Resources/Relocations/ (stored 0%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch Widget.appex.dSYM/Contents/Resources/Relocations/aarch64_32/ (stored 0%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch Widget.appex.dSYM/Contents/Resources/Relocations/aarch64_32/NurseVault Watch Widget.yml (deflated 86%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch Widget.appex.dSYM/Contents/Resources/Relocations/aarch64/ (stored 0%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch Widget.appex.dSYM/Contents/Resources/Relocations/aarch64/NurseVault Watch Widget.yml (deflated 86%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch Widget.appex.dSYM/Contents/Resources/DWARF/ (stored 0%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch Widget.appex.dSYM/Contents/Resources/DWARF/NurseVault Watch Widget (deflated 61%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch Widget.appex.dSYM/Contents/Info.plist (deflated 51%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch.app.dSYM/ (stored 0%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch.app.dSYM/Contents/ (stored 0%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch.app.dSYM/Contents/Resources/ (stored 0%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch.app.dSYM/Contents/Resources/Relocations/ (stored 0%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch.app.dSYM/Contents/Resources/Relocations/aarch64_32/ (stored 0%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch.app.dSYM/Contents/Resources/Relocations/aarch64_32/NurseVault Watch.yml (deflated 87%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch.app.dSYM/Contents/Resources/Relocations/aarch64/ (stored 0%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch.app.dSYM/Contents/Resources/Relocations/aarch64/NurseVault Watch.yml (deflated 87%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch.app.dSYM/Contents/Resources/DWARF/ (stored 0%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch.app.dSYM/Contents/Resources/DWARF/NurseVault Watch (deflated 63%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault Watch.app.dSYM/Contents/Info.plist (deflated 51%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault.app.dSYM/ (stored 0%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault.app.dSYM/Contents/ (stored 0%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault.app.dSYM/Contents/Resources/ (stored 0%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault.app.dSYM/Contents/Resources/Relocations/ (stored 0%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault.app.dSYM/Contents/Resources/Relocations/aarch64/ (stored 0%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault.app.dSYM/Contents/Resources/Relocations/aarch64/NurseVault.yml (deflated 88%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault.app.dSYM/Contents/Resources/DWARF/ (stored 0%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault.app.dSYM/Contents/Resources/DWARF/NurseVault (deflated 69%)[0m
+[14:10:09]: ▸ [35mupdating: NurseVault.app.dSYM/Contents/Info.plist (deflated 52%)[0m
+
+[14:10:09]: [32mSuccessfully exported and compressed dSYM file[0m
+[14:10:09]: [32mSuccessfully exported and signed the ipa file:[0m
+[14:10:09]: /Users/josephwoods/Documents/Nursing app/build/export/fastlane/NurseVault.ipa
+[14:10:09]: [32m---------------------------------[0m
+[14:10:09]: [32m--- Step: upload_to_app_store ---[0m
+[14:10:09]: [32m---------------------------------[0m
+[14:10:09]: Creating authorization token for App Store Connect API
+
++-----------------------------------------------------------------------------+
+|                           [32mdeliver 2.240.1 Summary[0m                           |
++--------------------------------------+--------------------------------------+
+| api_key                              | ********                             |
+| ipa                                  | build/export/fastlane/NurseVault.ip  |
+|                                      | a                                    |
+| force                                | true                                 |
+| precheck_include_in_app_purchases    | false                                |
+| skip_metadata                        | true                                 |
+| skip_screenshots                     | true                                 |
+| skip_binary_upload                   | false                                |
+| screenshots_path                     | ./fastlane/screenshots               |
+| metadata_path                        | ./fastlane/metadata                  |
+| app_version                          | 4.1                                  |
+| app_identifier                       | com.josephwoods.nursevault           |
+| platform                             | ios                                  |
+| edit_live                            | false                                |
+| use_live_version                     | false                                |
+| preview_frame_time_code              | 00:00:05:00                          |
+| overwrite_preview_videos             | false                                |
+| skip_app_version_update              | false                                |
+| overwrite_screenshots                | false                                |
+| screenshot_processing_timeout        | 3600                                 |
+| sync_screenshots                     | false                                |
+| submit_for_review                    | false                                |
+| verify_only                          | false                                |
+| reject_if_possible                   | false                                |
+| version_check_wait_retry_limit       | 7                                    |
+| phased_release                       | false                                |
+| reset_ratings                        | false                                |
+| dev_portal_team_id                   | 2LFBN27WK8                           |
+| run_precheck_before_submit           | true                                 |
+| precheck_default_rule_level          | warn                                 |
+| ignore_language_directory_validatio  | false                                |
+| n                                    |                                      |
++--------------------------------------+--------------------------------------+
+
+[14:10:10]: Making sure the latest version on App Store Connect matches '4.1'...
+[14:10:10]: [32m'4.1' is the latest version on App Store Connect[0m
+[14:10:10]: Uploading binary to App Store Connect
+[14:10:11]: Going to upload updated app to App Store Connect
+[14:10:11]: [32mThis might take a few minutes. Please don't interrupt the script.[0m
+[14:12:39]: [32m--------------------------------------------------------------------[0m
+[14:12:39]: [32mSuccessfully uploaded package to App Store Connect. It might take a few minutes until it's visible online.[0m
+[14:12:39]: [32m--------------------------------------------------------------------[0m
+[14:12:39]: [32mFinished the upload to App Store Connect[0m
+[14:12:39]: Running precheck before submitting to review, if you'd like to disable this check you can set run_precheck_before_submit to false
+[14:12:39]: Running precheck 👮‍♀️ 👮
+
++-------------------------------------------------------+
+|             [32mSummary for precheck 2.240.1[0m              |
++--------------------------+----------------------------+
+| default_rule_level       | warn                       |
+| include_in_app_purchases | false                      |
+| app_identifier           | com.josephwoods.nursevault |
+| api_key                  | ********                   |
+| platform                 | ios                        |
+| use_live                 | false                      |
++--------------------------+----------------------------+
+
+[14:12:39]: Creating authorization token for App Store Connect API
+[14:12:39]: Checking app for precheck rule violations
+[14:12:42]: ✅  Passed: No negative  sentiment
+[14:12:42]: ✅  Passed: No placeholder text
+[14:12:42]: ✅  Passed: No mentioning  competitors
+[14:12:42]: ✅  Passed: No future functionality promises
+[14:12:42]: ✅  Passed: No words indicating test content
+[14:12:42]: ✅  Passed: No curse words
+[14:12:42]: ✅  Passed: No words indicating your IAP is free
+[14:12:42]: ✅  Passed: No incorrect or missing copyright date
+[14:12:42]: ✅  Passed: No broken urls
+[14:12:42]: [32mprecheck 👮‍♀️ 👮  finished without detecting any potential problems 🛫[0m
+
++------------------------------------------+
+|             [32mfastlane summary[0m             |
++------+---------------------+-------------+
+| Step | Action              | Time (in s) |
++------+---------------------+-------------+
+| 1    | default_platform    | 0           |
+| 2    | build_app           | 43          |
+| 3    | upload_to_app_store | 153         |
++------+---------------------+-------------+
+
+[14:12:42]: [32mfastlane.tools finished successfully 🎉[0m

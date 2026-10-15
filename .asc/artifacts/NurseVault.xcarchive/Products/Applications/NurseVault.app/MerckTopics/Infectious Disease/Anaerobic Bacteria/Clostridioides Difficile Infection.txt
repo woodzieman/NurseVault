@@ -1,0 +1,160 @@
+=== Clostridioides difficile Infection (Merck Manual Professional) ===
+Section: Infectious Disease > Anaerobic Bacteria
+Source: https://www.merckmanuals.com/professional/infectious-diseases/anaerobic-bacteria/clostridioides-difficile-infection
+Retrieved: 2026-09-25
+
+(See also Overview of Anaerobic Bacteria and Overview of Clostridial Infections.)
+
+Clostridioides difficile is the most common cause of antibiotic-associated colitis and was typically health care–associated. However, health care–associated cases are declining, whereas community-associated cases are slowly increasing over time (1, 2).
+
+Risk factors for C. difficile infection (CDI) include:
+
+Advanced age
+
+Antibiotic exposure
+
+Prolonged hospital stay
+
+Living in a nursing home
+
+Severe underlying disease
+
+Use of proton pump inhibitors and H2 blockers
+
+Abdominal surgery
+
+C. difficile is carried asymptomatically in 4 to 15% of healthy adults, up to 21% of hospitalized adults, and 15 to 30% of residents in long-term care facilities (3). It is common in the environment (eg, soil, water, household pets). Disease may develop after overgrowth of endogenous C. difficile organisms in the intestine or after infection resulting from an external source. Health care workers are frequently the source of transmission.
+
+A more virulent strain, BI/NAP1/027 (binary/North American pulsed-field type 1 [NAP1]/ribotype 027), is prominent in hospital outbreaks. This strain produces substantially more toxin, causes more severe illness with greater chance of relapse, is more transmissible, and does not respond as well to antibiotic treatment.
+
+General references
+
+1. Centers for Disease Control and Prevention (CDC). Clostridioides difficile Infection (CDI) Surveillance. June 24, 2025. Accessed August 15, 2025.
+
+2. Guh AY, Mu Y, Winston LG, et al. Trends in U.S. Burden of Clostridioides difficile Infection and Outcomes. N Engl J Med. 2020;382(14):1320-1330. doi:10.1056/NEJMoa1910215
+
+3. Kelly CR, Fischer M, Allegretti JR, et al. ACG Clinical Guidelines: Prevention, diagnosis, and treatment of Clostridioides difficile infections. Am J Gastroenterol. 2021;116(6):1124–1147. doi:10.14309/ajg.0000000000001278
+
+Pathophysiology of Clostridioides difficile Infection
+
+Antibiotic-induced changes in gastrointestinal flora are the dominant predisposing factors. Although most antibiotics have been implicated, the following pose the highest risk:
+
+Cephalosporins (particularly third-generation)
+
+Penicillins (particularly ampicillin and amoxicillin)
+
+Clindamycin
+
+Fluoroquinolones
+
+CDI may also occur after use of certain antineoplastic medications.
+
+The organism secretes both an enterotoxin and a cytotoxin, typically referred to as toxins A and B. However, not all strains of C. difficile produce toxins, and some people are asymptomatic carriers of toxin-producing strains. This carriage is particularly common among infants (1). The main effect of the toxin is on the colon, which secretes fluid and develops characteristic pseudomembranes—discrete yellow-white plaques that are easily dislodged. Plaques may coalesce in severe cases.
+
+Toxic megacolon, although rare, is somewhat more likely after use of antimotility medications. Limited tissue dissemination occurs very rarely, as do sepsis and acute abdomen.
+
+Reactive arthritis has rarely occurred after CDI.
+
+Pathophysiology reference
+
+1. Tougas SR, Lodha N, Vandermeer B, et al. Prevalence of Detection of Clostridioides difficile Among Asymptomatic Children: A Systematic Review and Meta-analysis. JAMA Pediatr. 2021;175(10):e212328. doi:10.1001/jamapediatrics.2021.2328
+
+Symptoms and Signs of Clostridioides difficile Infection
+
+Symptoms typically begin 5 to 10 days after starting antibiotics but may occur on the first day or up to 2 months later.
+
+Diarrhea may be mild and semiformed, frequent and watery, or sometimes bloody. Cramping or pain is common, but nausea and vomiting are rare. The abdomen may be slightly tender. Fever and leukocytosis may be present.
+
+Patients with fulminant colitis, which is characterized by severe acute inflammation of the colon and systemic toxicity, have more pain and appear very ill, with tachycardia and abdominal distention and tenderness. If colonic perforation occurs, peritoneal signs are present.
+
+Diagnosis of Clostridioides difficile Infection
+
+Stool assay for glutamate dehydrogenase (GDH) antigen
+
+Stool assay for C. difficile toxin
+
+Nucleic acid amplification test for the toxin gene
+
+Sometimes sigmoidoscopy
+
+C. difficile infection should be suspected in any patient who develops new and persistent diarrhea within 2 months of antibiotic use or 72 hours of hospital admission in the absence of an alternate etiology, such as laxative use or enteral nutrition delivered through a feeding tube.
+
+Glutamate dehydrogenase (GDH) antigen is produced by all C. difficile strains. Enzyme-linked immunosorbent assay (ELISA) testing for the antigen in stool is sensitive and can be done very quickly. However, a positive test indicates only presence of the organism not whether it is toxigenic (1).
+
+Toxin assays using ELISA also can be done quickly. The assay is specific for active disease but is not particularly sensitive, so false-negative results occur.
+
+A nucleic acid amplification test (NAAT) using polymerase chain reaction (PCR) to test for the toxin gene is very sensitive for the presence of toxigenic strains but does not detect whether the organisms are actively producing toxin. This test often remains positive after successful treatment, so it can be difficult to interpret in patients with known previous disease.
+
+Because of the high rates of colonization, testing should be done only on symptomatic patients (ie, those with multiple liquid stools), and test results need to be interpreted in the appropriate clinical context. Several or all of these tests are usually done, either sequentially or at once. One strategy is to first do GDH and toxin assays. If these are concordant (ie, both positive or both negative), then disease is considered confirmed or excluded. Discordant test results (ie, one positive, one negative) are resolved based on results of NAAT testing (1).
+
+A single stool sample is usually adequate. If the first sample is negative, repeat samples should not be submitted for a minimum of 7 days unless there is a clinical change and the suspicion is high. Fecal leukocytes are often present but not specific.
+
+Sigmoidoscopy, which can confirm the presence of pseudomembranes, should be done if patients have ileus or if toxin assays are nondiagnostic.
+
+Abdominal radiographs, CT scans, or both are performed if fulminant colitis, perforation, or megacolon is suspected.
+
+Diagnosis reference
+
+1. Kelly CR, Fischer M, Allegretti JR, et al: ACG Clinical Guidelines: Prevention, diagnosis, and treatment of Clostridioides difficile infections. Am J Gastroenterol 116(6):1124–1147, 2021. doi: 10.14309/ajg.0000000000001278
+
+Treatment of Clostridioides difficile Infection
+
+Oral vancomycin or oral fidaxomicin
+
+Oral vancomycin or oral fidaxomicin for 10 days is recommended by the American College of Gastroenterology (1) for the treatment of a primary episode of nonsevere C. difficile–induced diarrhea.
+
+Fidaxomicin is preferentially recommended by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA) as first-line therapy for C. difficile infection (2). Fidaxomicin is more effective than vancomycin in decreasing the risk of recurrence, but vancomycin remains an alternative. Nitazoxanide seems to be comparable to oral vancomycin but is not commonly used in the United States.
+
+Metronidazole is not recommended as first-line therapy for C. difficile–induced diarrhea in adults. However, oral metronidazole can be used if vancomycin or fidaxomicin is not available.
+
+Vancomycin 500 mg orally or by nasogastric tube 4 times a day along with metronidazole 500 mg IV every 8 hours are recommended by the ISDA/SHEA for fulminant disease without ileus.
+
+If ileus is present, a retention enema can be given as a dosage of vancomycin 500 mg in 10 mL saline per rectum 4 times a day (1).
+
+Antibiotics that are most likely to cause C. difficile–induced diarrhea should be stopped as soon as possible, or patients should be switched to an antibiotic regimen less likely to cause C. difficile–induced diarrhea.
+
+Cholestyramine resin, Saccharomyces boulardii yeast, and probiotics have not been proved to be beneficial but are frequently added.
+
+A few patients require total colectomy for treatment of fulminant disease.
+
+Treatment of recurrences
+
+C. difficile–induced diarrhea recurs in 15 to 20% of patients, typically within a few weeks of stopping treatment. Recurrence often results from reinfection (with the same or different strain), but some cases may involve persistent spores from the initial infection. For patients with recurrent infections, the ISDA guidelines suggest fidaxomicin (standard or extended-pulsed regimen) rather than a standard course of vancomycin. Vancomycin in a tapered and pulsed regimen or as a standard course is an alternative for a first recurrence. For patients with multiple recurrences, vancomycin in a tapered and pulsed regimen, vancomycin followed by rifaximin, and fecal microbiota transplantation are options in addition to fidaxomicin (2).
+
+Infusion of donor feces (fecal transplant, usually done via colonoscopy) increases the likelihood of resolution in patients who have frequent recurrences; the presumed mechanism is restoration of normal fecal microbiota. Approximately 200 to 300 mL of donor feces are used; donors are tested for enteric and systemic pathogens. Feces can be infused using a nasal-duodenal tube, colonoscope, or enema; the optimal method has not been determined.
+
+Oral fecal microbiota transplant capsules (fecal microbiota spores, live-brpk) and a fecal microbiota suspension (fecal microbiota, live-jslm) for rectal administration are commercially available. They can be given a few days after antibiotic treatment of recurrent C. difficile infection to prevent recurrence.
+
+A human monoclonal antibody, bezlotoxumab, which binds to and neutralizes C. difficile toxin B, was used for the prevention of recurrent disease but is no longer manufactured.
+
+Prevention
+
+Infection control measures are vital to reduce the spread of C. difficile among patients and health care workers. In the United States, spore-killing disinfectants approved by the Environmental Protection Agency (EPA) must be used for cleaning patient environments if C. difficile is suspected or confirmed (3).
+
+Practicing good antibiotic stewardship and eliminating unnecessary antibiotic use reduce a patient's chance of developing C. difficile–induced diarrhea.
+
+Oral vancomycin, given as primary or secondary prophylaxis for patients at high risk of developing C. difficile–induced diarrhea when they are placed on systemic antibiotics, may have some efficacy (4). The dose and duration of therapy remain to be definitively determined (5).
+
+Treatment references
+
+1. Kelly CR, Fischer M, Allegretti JR, et al. ACG Clinical Guidelines: Prevention, diagnosis, and treatment of Clostridioides difficile infections. Am J Gastroenterol. 2021;116(6):1124–1147. doi:10.14309/ajg.0000000000001278
+
+2. Johnson S, Lavergne V, Skinner AM, et al. Clinical practice guideline by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA): 2021 Focused update guidelines on management of Clostridioides difficile infection in adults. Clin Infect Dis. 2021;73(5):e1029–e1044. doi:10.1093/cid/ciab549
+
+3. United States Environmental Protection Agency (EPA). Registered Antimicrobial Products Effective Against Clostridioides difficile (C. diff) Spores [List K]. Accessed August 15, 2025.
+
+4. Van Hise NW, Bryant AM, Hennessey EK, Crannage AJ, Khoury JA, Manian FA. Efficacy of Oral Vancomycin in Preventing Recurrent Clostridium difficile Infection in Patients Treated With Systemic Antimicrobial Agents. Clin Infect Dis. 2016;63(5):651-653. doi:10.1093/cid/ciw401
+
+5. Prosty C, Bortolussi-Courval E, Dubé LR, Lee TC, McDonald EG. Oral vancomycin prophylaxis for the prevention of recurrent Clostridioides difficile infection during re-exposure to systemic antibiotics: A systematic review and meta-analysis. CMI Communications. 2024;1(2):105041. doi:10.1016/j.cmicom.2024.105041
+
+Key Points
+
+Antibiotic therapy can cause intestinal overgrowth of toxin-secreting C. difficile, resulting in a pseudomembranous colitis that can be severe and difficult to cure.
+
+Cephalosporins (particularly third-generation), penicillins, clindamycin, and fluoroquinolones pose the highest risk.
+
+Diagnose using a stool assay for C. difficile antigen and toxin and sometimes PCR testing for the toxin gene.
+
+Treat with oral fidaxomicin or vancomycin.
+
+Recurrence is common; re-treat with antibiotics, and consider fecal transplantation for refractory recurrences.

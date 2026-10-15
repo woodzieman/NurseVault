@@ -1,0 +1,40 @@
+=== Tumor Antigens (Merck Manual Professional) ===
+Section: Oncology > Tumor Immunology
+Source: https://www.merckmanuals.com/professional/oncology/tumor-immunology/tumor-antigens
+Retrieved: 2026-09-25
+
+Many tumor cells produce cancer-associated or cancer-specific molecules, usually peptides, which may be released in the blood or displayed on the cell surface. Any molecule capable of being recognized by the immune system and triggering an immune response is considered antigenic. Cancer-associated or cancer-specific antigens have been identified in most of the human cancers, including Burkitt lymphoma, neuroblastoma, melanoma, osteosarcoma, renal cell cancer, breast cancer, prostate cancer, lung cancer, and colon cancer. A key role of the immune system is detection of these antigens to permit subsequent targeting for eradication. However, the immune response to tumor antigens varies and is often insufficient to prevent tumor growth (see also Host Response to Tumors).
+
+Tumor-associated antigens (TAAs) are relatively restricted to tumor cells.
+
+Tumor-specific antigens (TSAs) are unique to tumor cells.
+
+TSAs and TAAs typically are portions of intracellular molecules expressed on the cell surface often associated with molecules encoded by the major histocompatibility complex or human leukocyte antigen (HLA) genes. However, several antigens with selective expression on the surface of tumor cells are not associated with the major histocompatibility complex and may be candidates for therapeutic targeting. Examples include
+
+Mesothelin, which is overexpressed on various tumor cells but also in normal mesothelial cells
+
+Claudin 18.2, which is expressed in a significant proportion of gastric cancers as well as in the proportion of pancreatic, esophageal, ovarian, and lung tumors
+
+Suggested mechanisms of origin for tumor antigens include
+
+Introduction of new genetic information from a virus (eg, human papillomavirus E6 and E7 proteins in cervical cancer)
+
+Alteration in oncogenes or tumor suppressor genes by carcinogens, which result in formation of neoantigens (novel protein sequences or accumulation of proteins that are normally not expressed or are expressed at very low levels, such as ras or p53), either by generating the novel protein sequence directly or by inducing accumulation of these proteins
+
+Mutations in various genes not directly associated with tumor suppressor or oncogenes and that cause appearance of tumor-specific neoantigens on the cell surface
+
+Development of abnormally high levels of proteins that normally are present at substantially lower levels (eg, prostate-specific antigens, melanoma-associated antigens) or that are expressed only during embryonic development (carcinoembryonic antigens)
+
+Uncovering of antigens normally buried in the cell membrane because of defective membrane homeostasis in tumor cells
+
+Release of antigens normally sequestered within the cell or its organelles when tumor cells die
+
+Some evidence links the immune response in cancer patients to mutations in tumor cells (1, 2, 3).
+
+References
+
+1. Ding L, Chen F: Predicting tumor response to PD-1 blockade. N Engl J Med 381(5):477–479, 2019. doi: 10.1056/NEJMcibr1906340
+
+2. Snyder A, Makarov V, Merghoub T, et al: Genetic basis for clinical response to CTLA-4 blockade in melanoma. N Engl J Med 37:2189–2199, 2014. doi: 10.1056/NEJMoa1406498
+
+3. Van Allen EM, Miao D, Schilling B, et al: Genomic correlates of response to CTLA-4 blocker in metastatic melanoma. Science 350:207–211, 2015. doi: 10.1126/science.aad0095

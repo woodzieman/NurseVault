@@ -1,0 +1,1596 @@
+=== Immunotherapeutics (Merck Manual Professional) ===
+Section: Allergy and Immunology > Biology of the Immune System
+Source: https://www.merckmanuals.com/professional/immunology-allergic-disorders/biology-of-the-immune-system/immunotherapeutics
+Retrieved: 2026-09-25
+
+Immunotherapeutic agents use or modify immune mechanisms. Use of these agents is rapidly evolving; new classes, new agents, and new uses of current agents are continuing to be developed. A number of different classes of immunotherapeutic agents have been developed (see also table Some Immunotherapeutic Agents in Clinical Use):
+
+Monoclonal antibodies
+
+Fusion proteins
+
+Soluble cytokine receptors
+
+Recombinant cytokines
+
+Small-molecule mimetics
+
+Cellular therapies
+
+Table
+
+Some Immunotherapeutic Agents in Clinical Use
+
+Table
+
+Some Immunotherapeutic Agents in Clinical Use 
+
+Some Immunotherapeutic Agents in Clinical Use
+
+Agent
+
+Effects
+
+Some Indications*
+
+Monoclonal antibodies†
+
+Abciximab
+
+Anti-platelet antiglycoprotein IIb/IIIa receptor
+
+Patients undergoing percutaneous coronary intervention
+
+Acute coronary syndrome
+
+Adalimumab
+
+Anti–TNF-alpha
+
+Ankylosing spondylitis
+
+Crohn disease
+
+Hidradenitis suppurativa
+
+Polyarticular juvenile idiopathic arthritis
+
+Rheumatoid arthritis
+
+Ulcerative colitis
+
+Non-infectious uveitis
+
+Chronic plaque psoriasis
+
+Psoriatic arthritis
+
+Alemtuzumab
+
+Anti–CD52 on B- and T-cells
+
+B-cell CLL
+
+Relapsing multiple sclerosis
+
+Alirocumab
+
+Anti-proprotein convertase subtilisin kexin type 9 (anti-PCSK-9)
+
+Primary hyperlipidemia (including heterozygous familial hypercholesterolemia)
+
+Atherosclerotic cardiovascular disease
+
+Amivantamab
+
+Bispecific anti-EGFR and anti-MET
+
+NSCLC with EGFR exon 19, 20 or 21 mutations
+
+Anifrolumab
+
+Anti-IFNAR1 (anti-interferon alpha receptor 1)
+
+Systemic lupus erythematosus
+
+Ansuvimab
+
+Anti-EBOV GP1 (anti-Ebola virus glycoprotein 1)
+
+Ebola virus infection
+
+Atezolizumab
+
+Anti–PD-L1
+
+Transitional cell (urothelial) carcinoma
+
+NSCLC
+
+SCLC
+
+Triple negative breast cancer
+
+Hepatocellular carcinoma
+
+BRAF V600 mutation positive melanoma
+
+Alveolar soft part sarcoma
+
+Atoltivimab/odesivimab/maftivimab
+
+Anti-Ebola virus
+
+Ebola virus infection
+
+Avelumab 
+
+Anti-PD-L1
+
+Merkel cell carcinoma
+
+Renal cell carcinoma
+
+Urothelial carcinoma
+
+Axatilimab
+
+Anti-CSF-1 receptor (anti colony-stimulating factor 1 receptor)
+
+Chronic graft- vs-host disease
+
+Basiliximab
+
+Anti–IL-2 receptor
+
+Prophylaxis of acute organ rejection in renal transplantation
+
+Belantamab mafodotin
+
+Anti-BCMA (anti-B-cell maturation antigen) conjugated to a cytotoxic medication
+
+Multiple myeloma
+
+Belimumab
+
+Anti–B-lymphocyte stimulator protein (anti-BLyS)
+
+Systemic lupus erythematosus, including lupus nephritis
+
+Benralizumab
+
+Anti-IL-5 receptor alpha
+
+Severe eosinophilic asthma
+
+Eosinophilic granulomatosis with polyangiitis (EGPA)
+
+Bevacizumab
+
+Anti–VEGF-A (anti-vascular endothelial growth factor)
+
+Epithelial ovarian cancer
+
+Fallopian tube cancer
+
+Primary peritoneal cancer
+
+Breast cancer (HER2 -)
+
+Cervical cancer
+
+Glioblastoma
+
+Colorectal cancer
+
+Renal cell carcinoma
+
+Nonsquamous NSCLC
+
+Neovascular (wet) age-related macular degeneration
+
+Bimekizumab
+
+Anti-IL-17A and/or anti-IL-17F
+
+Plaque psoriasis
+
+Psoriatic arthritis
+
+Non-radiographic axial spondyloarthritis
+
+Ankylosing spondylitis
+
+Hidradenitis suppurativa
+
+Blinatumomab
+
+Bispecific anti-CD19 and anti-CD3
+
+B-cell precursor ALL
+
+Brentuximab vedotin
+
+Anti-CD30 (conjugated to the antimitotic agent monomethyl auristatin E)
+
+Hodgkin lymphoma
+
+ALCL or other CD30-expressing T cell lymphomas (eg, cutaneous T cell lymphoma)
+
+Brodalumab
+
+Anti-IL-17 receptor A
+
+Plaque psoriasis
+
+Brolucizumab
+
+Anti-VEGF-A (anti-vascular endothelial growth factor)
+
+Diabetic macular edema
+
+Neovascular (wet) age-related macular degeneration
+
+Burosumab
+
+Anti-fibroblast growth factor 23
+
+X-linked hypophosphatemia
+
+Tumor-induced osteomalacia
+
+Camrelizumab
+
+Anti-PD-1
+
+Hepatocellular carcinoma
+
+Hodgkin lymphoma
+
+Esophageal squamous cell carcinoma
+
+Canakinumab
+
+Anti–IL-1 beta
+
+Still disease:
+
+Adult-onset Still disease
+
+Juvenile idiopathic arthritis (pediatric Still disease)
+
+Gout
+
+Periodic fever syndromes:
+
+Cryopyrin-associated periodic syndromes
+
+TNF receptor–associated periodic syndrome
+
+Hyperimmunoglobulin D syndrome
+
+Familial Mediterranean fever
+
+Caplacizumab
+
+Anti-von Willebrand factor
+
+Acquired thrombotic thrombocytopenic purpura
+
+Catumaxomab
+
+Anti-EPCAM and anti-CD3 bispecific
+
+Malignant ascites
+
+Cemiplimab
+
+Anti-PD-1
+
+Cutaneous squamous cell carcinoma
+
+Basal cell carcinoma
+
+NSCLC
+
+Certolizumab pegol (pegylated Fab’ fragment)
+
+Anti–TNF-alpha
+
+Ankylosing spondylitis
+
+Crohn disease
+
+Plaque psoriasis 
+
+Rheumatoid arthritis
+
+Psoriatic arthritis
+
+Nonradiographic axial spondyloarthritis
+
+Polyarticular juvenile idiopathic arthritis
+
+Cetuximab
+
+Anti-EGFR
+
+Squamous cell carcinoma of the head and neck
+
+Colorectal cancer
+
+Clesrovimab
+
+Anti-RSV
+
+RSV infection
+
+Concizumab
+
+Anti-tissue factor pathway inhibitor
+
+Hemophilia
+
+Cosibelimab
+
+Anti-PD-L1
+
+Squamous cell carcinoma
+
+Crizanlizumab
+
+Anti-P-selectin
+
+Sickle cell disease
+
+Crovalimab
+
+Anti-complement component C5
+
+Paroxysmal nocturnal hemoglobinuria
+
+Datopotamab deruxtecan
+
+Anti-TROP-2 conjugated to a cytotoxic medication
+
+Breast cancer (HR+, HER2 )
+
+EGFR-mutated NSCLC
+
+Daratumumab
+
+Anti-CD38
+
+Multiple myeloma
+
+Light chain amyloidosis
+
+Denosumab
+
+Anti-RANKL
+
+Giant cell tumor of bone
+
+Hypercalcemia of malignancy
+
+Osteoporosis
+
+multiple myeloma
+
+bone metastases from solid tumors
+
+To increase bone mass in prostate cancer and breast cancer
+
+Dinutuximab
+
+Anti-GD2 glycolipid
+
+Pediatric neuroblastoma
+
+Dostarlimab
+
+Anti-PD-1
+
+Endometrial cancer
+
+Mismatch repair–deficient recurrent or advanced solid tumors
+
+Donanemab
+
+Anti-amyloid beta
+
+Alzheimer disease
+
+Dupilumab
+
+Anti-IL-4 receptor alpha (shared receptor for IL-4 and IL-13)
+
+Atopic dermatitis
+
+Allergic asthma
+
+Chronic rhinosinusitis with nasal polyposis
+
+Eosinophilic esophagitis
+
+Prurigo nodularis
+
+Chronic obstructive pulmonary disease (COPD)
+
+Chronic spontaneous urticaria
+
+Bullous pemphigoid
+
+Durvalumab
+
+Anti-PD-L1
+
+Urothelial carcinoma
+
+Biliary tract cancer
+
+Hepatocellular carcinoma
+
+Endometrial cancer
+
+NSCLC
+
+Small cell lung cancer
+
+Eculizumab
+
+Anti–complement component C5
+
+Atypical hemolytic uremic syndrome
+
+Paroxysmal nocturnal hemoglobinuria
+
+Generalized myasthenia gravis
+
+Neuromyelitis optica spectrum disorder
+
+Elotuzumab
+
+Anti-SLAMF7
+
+Multiple myeloma
+
+Elranatamab
+
+Bispecific anti-BCMA and anti-CD3
+
+Multiple myeloma
+
+Emapalumab
+
+Anti-IFN-gamma
+
+Primary hemophagocytic lymphohistiocytosis
+
+Macrophage activation syndrome in Still disease
+
+Emicizumab
+
+Bispecific anti-factor IXa and anti-factor X
+
+Hemophilia A
+
+Enfortumab vedotin
+
+Anti-Nectin-4 conjugated to the antimitotic medication monomethyl auristatin E
+
+Urothelial cancer
+
+Epcoritamab
+
+Bispecific anti-CD20 and anti-CD3
+
+Diffuse large B-cell lymphoma
+
+Follicular lymphoma
+
+Erenumab
+
+Anti-calcitonin gene-related peptide receptor
+
+Migraine prevention
+
+Evinacumab
+
+Anti-angiopoietin-like 3 (anti-ANGPTL3)
+
+Homozygous familial hypercholesterolemia
+
+Evolocumab
+
+Anti-proprotein convertase subtilisin kexin type 9 (anti-PCSK9)
+
+Coronary artery disease
+
+Familial hypercholesterolemia or atherosclerotic cardiovascular disease
+
+Faricimab
+
+Bispecific anti-VEGF-A and anti-angiopoietin 2
+
+Neovascular (wet) age-related macular degeneration
+
+Diabetic macular edema
+
+Macular edema following retinal vein occlusion
+
+Fremanezumab
+
+Anti-calcitonin gene-related peptide receptor (anti-CGRP receptor)
+
+Migraine prevention
+
+Galcanezumab
+
+Anti-calcitonin gene-related peptide receptor (anti-CGRP receptor)
+
+Migraine prevention
+
+Garadacimab
+
+Anti-factor XIIa
+
+Hereditary angioedema
+
+Gemtuzumab ozogamicin
+
+Anti-CD33 ozogamicin conjugate
+
+CD33+ acute myeloid leukemia
+
+Glofitamab
+
+Bispecific anti-CD20 and anti-CD3
+
+Large- and diffuse-large B-cell lymphoma
+
+Golimumab
+
+Anti–TNF-alpha
+
+Rheumatoid arthritis
+
+Psoriatic arthritis
+
+Ankylosing spondylitis
+
+Ulcerative colitis
+
+Non-radiographic axial spondyloarthritis
+
+Polyarticular juvenile idiopathic arthritis 
+
+Guselkumab
+
+Anti-IL-23
+
+Plaque psoriasis
+
+Psoriatic arthritis
+
+Crohn disease or ulcerative colitis
+
+Ibalizumab
+
+Anti-CD4
+
+HIV type 1 infection
+
+Ibritumomab tiuxetan
+
+Anti–CD20 conjugated to the radioactive agent yttrium 90
+
+Follicular and B-cell non-Hodgkin lymphoma
+
+Idarucizumab
+
+Anti-dabigatran
+
+Reversal of the anticoagulant effects of dabigatran when needed for emergency surgery/urgent procedures or in life-threatening or uncontrolled bleeding
+
+Inebilizumab
+
+Anti-CD19
+
+Neuromyelitis optica spectrum disorder
+
+IgG4-related disease
+
+Generalized myasthenia gravis
+
+Infliximab
+
+Anti–TNF-alpha
+
+Crohn disease or ulcerative colitis
+
+Rheumatoid arthritis
+
+Ankylosing spondylitis
+
+Psoriatic arthritis
+
+Plaque psoriasis
+
+Inotuzumab ozogamicin
+
+Anti-CD22-ozogamicin conjugate
+
+B-cell precursor ALL
+
+Ipilimumab
+
+Anti–CTLA-4
+
+Melanoma
+
+Renal cell carcinoma
+
+Colorectal cancer
+
+Esophageal cancer
+
+Hepatocellular carcinoma
+
+NSCLC
+
+Malignant pleural mesothelioma
+
+Isatuximab
+
+Anti-CD38
+
+Multiple myeloma
+
+Ixekizumab
+
+Anti-IL17A
+
+Plaque psoriasis
+
+Psoriatic arthritis
+
+Ankylosing spondylitis
+
+Non-radiographic axial spondyloarthritis
+
+Lanadelumab
+
+Anti-plasma kallikrein
+
+Hereditary angioedema
+
+Lebrikizumab
+
+Anti-IL-13
+
+Atopic dermatitis
+
+Lecanemab
+
+Anti-amyloid beta protofibrils
+
+Alzheimer disease
+
+Linvoseltamab
+
+Bispecific anti-BCMA and anti-CD3
+
+Multiple myeloma
+
+Loncastuximab tesirine
+
+Anti-CD19 conjugated to a cytotoxic medication
+
+Large- and diffuse large B-cell lymphoma
+
+Margetuximab
+
+Anti-HER2
+
+HER2+ breast cancer
+
+Marstacimab
+
+Anti-tissue factor pathway inhibitor (Anti-TFPI)
+
+Hemophilia
+
+Mepolizumab
+
+Anti-IL-5
+
+Eosinophilic asthma 
+
+Chronic rhinosinusitis with nasal polyposis
+
+Eosinophilic granulomatosis with polyangiitis (EGPA)
+
+Hypereosinophilic syndrome (HES)
+
+Eosinophilic chronic obstructive pulmonary disease (COPD)
+
+Mirikizumab
+
+Anti-IL-23
+
+Crohn disease or ulcerative colitis
+
+Mirvetuximab soravtansine
+
+Anti-folate receptor alpha conjugated to a cytotoxic medication
+
+Ovarian cancer
+
+Fallopian tube cancer
+
+Peritoneal cancer
+
+Mogamulizumab
+
+Anti-CCR4
+
+Mycosis fungoides
+
+Sezary syndrome
+
+Mosunetuzumab
+
+Bispecific anti-CD20 and anti-CD3
+
+Follicular lymphoma
+
+Narsoplimab
+
+Anti-MASP-2
+
+Hematopoietic stem cell transplant-associated thrombotic microangiopathies
+
+Natalizumab
+
+Anti–alpha-4 integrin
+
+Multiple sclerosis
+
+Crohn disease
+
+Naxitamab
+
+Anti-GD2
+
+High-risk neuroblastoma with refractory osteomedullary disease
+
+Necitumumab
+
+Anti-EGFR1
+
+Squamous NSCLC
+
+Nemolizumab
+
+Anti-IL-31R
+
+Atopic dermatitis
+
+Prurigo nodularis
+
+Nirsevimab
+
+Anti-RSV
+
+RSV infection
+
+Nivolumab
+
+Anti–PD-1
+
+Melanoma
+
+NSCLC
+
+Malignant pleural mesothelioma
+
+Renal cell carcinoma
+
+Hodgkin lymphoma
+
+HNSCC
+
+Urothelial carcinoma
+
+Colorectal cancer
+
+Hepatocellular carcinoma
+
+Esophageal cancers and gastroesophageal junction cancers
+
+Gastric cancer
+
+Obiltoxaximab
+
+Anti-protective antigen of Bacillus anthracis
+
+Inhalational anthrax
+
+Obinutuzumab
+
+Anti-CD20
+
+Follicular lymphoma
+
+CLL
+
+Lupus nephritis
+
+Ocrelizumab
+
+Anti-CD20
+
+Multiple sclerosis
+
+Odronextamab
+
+Bispecific anti-CD20 and anti-CD3
+
+Diffuse large B cell lymphoma
+
+Follicular lymphoma
+
+Ofatumumab
+
+Anti‒CD20
+
+CLL
+
+Multiple sclerosis
+
+Omalizumab
+
+Anti-IgE
+
+Asthma
+
+Chronic spontaneous urticaria
+
+Chronic rhinosinusitis with nasal polyps
+
+IgE-mediated food allergy
+
+Panitumumab
+
+Anti-EGFR
+
+Colorectal cancer
+
+Pembrolizumab
+
+Anti–PD-1
+
+Melanoma
+
+NSCLC
+
+Small cell lung cancer
+
+HNSCC
+
+Hodgkin lymphoma
+
+B-cell lymphoma
+
+Urothelial carcinoma
+
+Colorectal cancer
+
+Triple negative breast cancer
+
+Biliary tract cancer
+
+Gastric or gastroesophageal junction adenocarcinoma
+
+Squamous cell carcinoma of the esophagus
+
+Cervical cancer
+
+Hepatocellular carcinoma
+
+Merkel cell carcinoma
+
+Renal cell carcinoma
+
+Endometrial carcinoma
+
+Pertuzumab
+
+Anti-HER2
+
+Breast cancer
+
+Polatuzumab vedotin
+
+Anti-CD79b
+
+B-cell lymphoma
+
+Pozelimab
+
+Anti-complement component C5
+
+CHAPLE disease (CD55 deficient protein losing enteropathy)
+
+Ramucirumab
+
+Anti–VEGFR-2
+
+Colorectal cancer
+
+NSCLC
+
+Gastric or gastroesophageal junction adenocarcinoma
+
+Hepatocellular carcinoma
+
+Ranibizumab
+
+Anti-VEGF
+
+Neovascular (wet) age-related macular degeneration
+
+Macular edema after retinal vein occlusion
+
+Diabetic macular edema
+
+Diabetic retinopathy
+
+Myopic choroidal neovascularization 
+
+Ravulizumab
+
+Anti-complement component 5 (C5)
+
+Paroxysmal nocturnal hemoglobinuria
+
+Atypical hemolytic uremic syndrome
+
+Generalized myasthenia gravis
+
+Neuromyelitis optica spectrum disorder
+
+Raxibacumab
+
+Anti-protective antigen of Bacillus anthracis
+
+Inhalational anthrax
+
+Relatlimab
+
+Anti-LAG-3
+
+Melanoma
+
+Reslizumab
+
+Anti-IL-5
+
+Eosinophilic asthma
+
+Retifanlimab
+
+Anti-PD-1
+
+Merkel cell carcinoma
+
+Squamous cell carcinoma of the anal canal
+
+Risankizumab
+
+Anti-IL-23
+
+Plaque psoriasis
+
+Psoriatic arthritis
+
+Crohn disease
+
+Ulcerative colitis
+
+Rituximab
+
+Anti–CD20
+
+CD20+ B-cell lymphomas
+
+CD20+ B-cell leukemias
+
+Rheumatoid arthritis
+
+Pemphigus vulgaris
+
+Granulomatosis with polyangiitis
+
+Microscopic polyangiitis
+
+Romosozumab
+
+Anti-sclerostin
+
+Osteoporosis
+
+Rozanolixizumab
+
+Anti-FcRn (neonatal Fc receptor)
+
+Generalized myasthenia gravis
+
+Sacituzumab govitecan
+
+Anti-TROP-2 conjugated to a cytotoxic medication
+
+Triple negative breast cancer
+
+Breast cancer (HR+, HER2 )
+
+Satralizumab
+
+Anti-IL-6R
+
+Neuromyelitis optica spectrum disorder
+
+Sarilumab
+
+Anti-IL-6 receptor
+
+Rheumatoid arthritis
+
+Polymyalgia rheumatica
+
+Polyarticular juvenile idiopathic arthritis
+
+Secukinumab
+
+Anti–IL-17A
+
+Ankylosing spondylitis
+
+Non-radiographic axial spondyloarthritis
+
+Psoriatic arthritis
+
+Plaque psoriasis
+
+Hidradenitis suppurativa
+
+Serplulimab
+
+Anti-PD-1
+
+Small cell lung cancer
+
+Siltuximab
+
+Anti–IL-6
+
+Multicentric Castleman disease
+
+Spesolimab
+
+Anti-IL-36 receptor
+
+Generalized pustular psoriasis
+
+Sugemalimab
+
+Anti-PD-L1
+
+NSCLC
+
+Sutimlimab
+
+Anti-complement component C1s
+
+Cold agglutinin disease
+
+Tafasitamab
+
+Anti-CD19
+
+Diffuse large B-cell lymphoma
+
+Follicular lymphoma
+
+Talquetamab
+
+Bispecific anti-G protein-coupled receptor 5D and anti-CD3
+
+Multiple myeloma
+
+Tarlatamab
+
+Bispecific anti-DLL and anti-CD3
+
+Small cell lung cancer
+
+Teclistamab
+
+Bispecific anti-BCMA and anti-CD3
+
+Multiple myeloma
+
+Teplizumab
+
+Anti-CD3
+
+Delayed onset type 1 diabetes
+
+Teprotumumab
+
+Anti-IGF-1 receptor
+
+Thyroid eye disease
+
+Tezepelumab
+
+Anti-thymic stromal lymphopoietin (anti-TSLP)
+
+Severe asthma
+
+Tildrakizumab
+
+Anti-IL-23
+
+Plaque psoriasis
+
+Tislelizumab
+
+Anti-PD-1
+
+Esophageal squamous cell carcinoma
+
+Gastric cancer
+
+Tisotumab vedotin
+
+Anti-tissue factor conjugated to a cytotoxic medication
+
+Cervical cancer
+
+Tocilizumab
+
+Anti–IL-6 receptor
+
+Rheumatoid arthritis
+
+Systemic sclerosis with early interstitial lung disease
+
+Juvenile idiopathic arthritis
+
+Giant cell arteritis
+
+Cytokine release syndrome following CAR T cell treatment 
+
+COVID-19 with hypoxia and systemic inflammation
+
+Toripalimab
+
+Anti-PD-1
+
+Nasopharyngeal carcinoma
+
+Esophageal squamous cell carcinoma
+
+Tralokinumab
+
+Anti-IL-13
+
+Atopic dermatitis
+
+Trastuzumab
+
+Anti–HER2
+
+HER2+ breast cancer
+
+HER2+ stomach or gastroesophageal junction adenocarcinoma
+
+Tremelimumab
+
+Anti-CTLA-4
+
+Hepatocellular carcinoma
+
+NSCLC
+
+Ublituximab
+
+Anti-CD20
+
+Multiple sclerosis
+
+Ustekinumab
+
+Anti–shared p40 subunit of IL-12 and IL-23
+
+Plaque psoriasis
+
+Crohn disease
+
+Ulcerative colitis
+
+Psoriatic arthritis
+
+Vedolizumab
+
+Anti–alpha-4 beta-7 integrin
+
+Ulcerative colitis
+
+Crohn disease
+
+Zanidatamab
+
+Anti-HER2
+
+Biliary tract cancer
+
+Zenocutuzumab
+
+Bispecific anti-HER2 and anti-HER3
+
+NRG1+ NSCLC
+
+Pancreatic cancer
+
+Zolbetuximab
+
+Anti-Claudin 18.2
+
+Gastric or gastroesophageal junction adenocarcinoma
+
+Fusion proteins
+
+Abatacept (CTLA-4 extracellular domain fused to the Fc region of IgG1)
+
+Inhibition of T-cell activation
+
+Rheumatoid arthritis
+
+Juvenile idiopathic arthritis
+
+Psoriatic arthritis
+
+Hematopoietic stem cell transplantation
+
+Aflibercept (portions of VEGF extracellular domains fused to the Fc region of IgG1)
+
+Inhibition of neovascularization and vascular permeability
+
+Neovascular (wet) age-related macular degeneration
+
+Macular edema following retinal vein occlusion
+
+Diabetic macular edema
+
+Diabetic retinopathy
+
+Retinopathy of prematurity
+
+Belatacept (CTLA-4 extracellular domain fused to the Fc region of IgG1)
+
+Inhibition of T-cell activation
+
+Prevention of organ rejection in kidney transplant recipients
+
+Denileukin diftitox (IL-2 fused to diphtheria toxin)
+
+Delivery of toxin to CD25 component of IL-2 receptor
+
+CD25+ cutaneous T-cell lymphoma
+
+Etanercept (2 CD120b TNF-alpha receptors fused to the Fc region of IgG1)
+
+Decrease in TNF levels
+
+Rheumatoid arthritis
+
+Juvenile idiopathic arthritis
+
+Psoriatic arthritis
+
+Ankylosing spondylitis
+
+Plaque psoriasis
+
+Nogapendekin alfa inbakicept (IL-15 variant bound to dimeric IL-15R domain fused to the Fc region of IgG1)
+
+Stimulates IL-15 receptor
+
+Bladder cancer
+
+Rilonacept (IL-1 receptor component and IL-1 receptor accessory protein fused to the Fc region of IgG1)
+
+Prevents IL-1 binding to cell surface IL-1 receptors
+
+Cryopyrin-associated periodic syndromes
+
+Deficiency of IL-1 receptor antagonist (DIRA)
+
+Recurrent pericarditis
+
+Romiplostim (two thrombopoietin receptor domains fused to the Fc region of IgG1)
+
+Increases platelet production by stimulating the thrombopoietin receptor
+
+Immune thrombocytopenia
+
+Hematopoietic syndrome of acute radiation syndrome
+
+Tebentafusp (fusion of a soluble version of an anti-gp100 TCR to the scFv region of an anti-CD3 monoclonal antibody)
+
+Targets cytotoxic T cells to kill gp100-positive melanoma cells
+
+Metastatic uveal melanoma
+
+Soluble cytokine receptor
+
+Anakinra (IL-1 receptor antagonist, sometimes pegylated for longer half-life)
+
+Competitive inhibition of IL-1 alpha and IL-1 beta activities
+
+Rheumatoid arthritis
+
+Neonatal-onset multisystem inflammatory disease (NOMID)
+
+Deficiency of IL-1 receptor antagonist (DIRA)
+
+Gout
+
+Calcium pyrophosphate arthritis (pseudogout)
+
+Cytokines
+
+Erythropoietin
+
+Stimulates erythropoiesis 
+
+Anemia
+
+IFN-alpha (eg, peginterferon alfa-2a, peginterferon alfa-2b, ropeginterferon alfa-2b, interferon alfa-2b, interferon alfa-n3, human leukocyte interferon-alpha)
+
+Antiproliferative and antiviral
+
+Chronic hepatitis B
+
+Chronic hepatitis C
+
+Advanced HIV–related Kaposi sarcoma
+
+Chronic myeloid leukemia
+
+Condylomata acuminata
+
+Hairy cell leukemia
+
+Melanoma
+
+Non-Hodgkin lymphoma
+
+IFN-beta (eg, interferon beta-1a, interferon beta-1b)
+
+Antiproliferative and antiviral
+
+Multiple sclerosis
+
+IFN-gamma
+
+Immunostimulatory and antiviral
+
+Control of infection in chronic granulomatous disease
+
+Malignant osteopetrosis
+
+IL-2 (aldesleukin)
+
+Immunostimulatory
+
+Renal cell carcinoma
+
+Melanoma
+
+IL-11 (oprelvekin)
+
+Thrombopoietic growth factor
+
+Thrombocytopenia
+
+G-CSF (filgrastim)
+
+Stimulation of granulocyte production
+
+Neutropenia
+
+GM-CSF (sargramostim)
+
+Stimulation of granulocyte and monocyte/macrophage production
+
+Neutropenia
+
+Platelet-derived growth factor (becaplermin)
+
+Stimulation of wound healing
+
+Lower extremity diabetic neuropathic ulcers
+
+Cellular therapy
+
+Afamitresgene autoleucel (affinity-enhanced T cell)
+
+MAGE4-directed autologous T cell
+
+Synovial sarcoma
+
+Axicabtagene ciloleucel (CAR T)
+
+CD19-directed genetically modified autologous T cell
+
+B cell lymphoma
+
+Brexucabtagene autoleucel (CAR T)
+
+CD19-directed genetically modified autologous T cell
+
+Mantle cell lymphoma
+
+ALL
+
+Ciltacabtagene autoleucel (CAR T)
+
+BCMA-directed genetically modified autologous T cell
+
+Multiple myeloma
+
+Exagamglogene autotemcel (gene-edited hematopoietic stem cells)
+
+Autologous CD34-positive hematopoietic stem cells gene-edited to reduce BCL11A expression and thereby increase fetal hemoglobin production
+
+Sickle cell disease
+
+Beta-thalassemia
+
+Idecabtagene vicleucel (CAR T)
+
+BCMA-directed genetically modified autologous T cell
+
+Multiple myeloma
+
+Lifileucel (TIL)
+
+Autologous TIL expanded with IL-2
+
+Melanoma
+
+Lisocabtagene maraleucel (CAR T)
+
+CD19-directed genetically modified autologous T cell
+
+Large B-cell lymphoma
+
+Chronic lymphocytic leukemia
+
+Small lymphocytic lymphoma
+
+Follicular lymphoma
+
+Mantle cell lymphoma
+
+Obecabtagene autoleucel (CAR T)
+
+CD19-directed genetically modified autologous T cell
+
+B-cell precursor ALL
+
+Sipuleucel-T (antigen-presenting cells)
+
+Autologous circulating ICAM-1+ peripheral blood mononuclear cells activated with prostatic acid phosphatase and GM-CSF
+
+Prostate cancer
+
+Tisagenlecleucel (CAR T)
+
+CD19-directed genetically modified autologous T cell
+
+B-cell precursor ALL
+
+B-cell lymphoma
+
+Follicular lymphoma
+
+* Many immunotherapeutic agents are only approved for use in certain subgroups of patients (eg, based on age, subtype and stage of disease, previous treatment, etc). They are often used in conjunction with other medications. Refer to prescribing information for more details.
+
+† Monoclonal antibodies used for diagnostic testing and radiologic imaging are not included. The Antibody Society maintains a comprehensive list of approved antibody therapeutics and those in regulatory review in the United States and the European Union.
+
+ALCL = anaplastic large cell lymphoma; ALL = acute lymphoblastic leukemia; ANCA = antineutrophil cytoplasmic antibodies; anti-BCMA = anti-B-cell maturation antigen; BCG = bacille Calmette-Guerin; CAR = chimeric antigen receptor; CD = cluster of differentiation; CHAPLE = CD55 deficiency with hyper-activation of complement, angiopathic thrombosis, and severe protein-losing enteropathy; CLL = chronic lymphocytic leukemia; CTLA = cytotoxic T-lymphocyte antigen; DLL = delta-like ligand; EGFR = epidermal growth factor receptor; Fc = crystallizable fragment; G-CSF = granulocyte colony-stimulating factor; GM-CSF = granulocyte-macrophage colony-stimulating factor; HER2 = human epidermal growth factor receptor 2; HNSCC = head and neck squamous cell carcinoma; ICAM = intercellular adhesion molecule; IFN = interferon; IL = interleukin; LDL = low density lipoprotein; mAb = monoclonal antibody; MRD = minimal residual disease; NSCLC = non small cell lung cancer; PDGFRα =  platelet-derived growth factor receptor alpha; PD-L1 = programmed death–ligand 1; RANKL = receptor activator of nuclear factor kappa beta ligand; RSV = respiratory syncytial virus; SARS-CoV-2 = severe acute respiratory syndrome coronavirus 2; SCLC = small cell lung cancer; SLAMF7 = signaling lymphocyte activation molecule family member 7; TIL = tumor-infiltrating lymphocytes; TNF = tumor necrosis factor; VEGF-A = vascular endothelial growth factor A; VEGFR = VEGF receptor.
+
+* Many immunotherapeutic agents are only approved for use in certain subgroups of patients (eg, based on age, subtype and stage of disease, previous treatment, etc). They are often used in conjunction with other medications. Refer to prescribing information for more details.
+
+† Monoclonal antibodies used for diagnostic testing and radiologic imaging are not included. The Antibody Society maintains a comprehensive list of approved antibody therapeutics and those in regulatory review in the United States and the European Union.
+
+ALCL = anaplastic large cell lymphoma; ALL = acute lymphoblastic leukemia; ANCA = antineutrophil cytoplasmic antibodies; anti-BCMA = anti-B-cell maturation antigen; BCG = bacille Calmette-Guerin; CAR = chimeric antigen receptor; CD = cluster of differentiation; CHAPLE = CD55 deficiency with hyper-activation of complement, angiopathic thrombosis, and severe protein-losing enteropathy; CLL = chronic lymphocytic leukemia; CTLA = cytotoxic T-lymphocyte antigen; DLL = delta-like ligand; EGFR = epidermal growth factor receptor; Fc = crystallizable fragment; G-CSF = granulocyte colony-stimulating factor; GM-CSF = granulocyte-macrophage colony-stimulating factor; HER2 = human epidermal growth factor receptor 2; HNSCC = head and neck squamous cell carcinoma; ICAM = intercellular adhesion molecule; IFN = interferon; IL = interleukin; LDL = low density lipoprotein; mAb = monoclonal antibody; MRD = minimal residual disease; NSCLC = non small cell lung cancer; PDGFRα =  platelet-derived growth factor receptor alpha; PD-L1 = programmed death–ligand 1; RANKL = receptor activator of nuclear factor kappa beta ligand; RSV = respiratory syncytial virus; SARS-CoV-2 = severe acute respiratory syndrome coronavirus 2; SCLC = small cell lung cancer; SLAMF7 = signaling lymphocyte activation molecule family member 7; TIL = tumor-infiltrating lymphocytes; TNF = tumor necrosis factor; VEGF-A = vascular endothelial growth factor A; VEGFR = VEGF receptor.
+
+Monoclonal antibodies
+
+Monoclonal antibodies (mAbs) are manufactured in vitro to recognize specific targeted antigens (Ags); they are used to treat solid and hematopoietic tumors, inflammatory disorders, and infections (1). Most mAbs in clinical use target a single Ag, but some are engineered to be bispecific (ie, targeting 2 antigenic epitopes). The variable (Fab) region of monoclonal antibodies can be engineered to modify their affinity for antigen and the Fc region engineered to enhance antibody-dependent cellular cytotoxicity or complement-dependent cytotoxicity or to extend the half-life. The monoclonal antibody types that are currently in clinical use include:
+
+Murine
+
+Chimeric
+
+Humanized
+
+Fully human
+
+Murine monoclonal antibodies are produced by injecting a mouse with an antigen, harvesting its spleen to obtain B cells that are producing antibody specific to that antigen, fusing those cells with immortal mouse myeloma cells, growing these hybridoma cells (eg, in cell culture), and harvesting the antibody. Although mouse antibodies are similar to human antibodies, clinical use of murine monoclonal antibodies is limited because they induce human anti-mouse antibody production, can cause immune complex serum sickness (a type III hypersensitivity reaction), and are rapidly cleared.
+
+To minimize potential complications of using pure mouse antibody, researchers have used recombinant DNA techniques to create monoclonal antibodies that are part human and part mouse. Depending on the proportion of the antibody molecule that is human, the resultant product is termed one of the following:
+
+Chimeric
+
+Humanized
+
+In both chimeric and humanized monoclonal antibodies, the process usually begins as above with production of mouse hybridoma cells that make antibody to the desired antigen. Then the DNA for some or all of the variable portion of the mouse antibody is merged with DNA for human immunoglobulin. The resultant DNA is placed in a mammalian cell culture, which then expresses the resultant gene, producing the desired antibody. If the mouse gene for the whole variable region is spliced next to the human constant region, the product is termed "chimeric." If the mouse gene for only the antigen-binding hypervariable regions of the variable region is used, the product is termed "humanized."
+
+Chimeric monoclonal antibodies activate antigen-presenting cells (APCs) and T cells more effectively than murine monoclonal antibodies but can still induce production of human anti-chimeric antibodies.
+
+Humanized monoclonal antibodies against various antigens are available for the treatment of colorectal cancer, breast cancer, leukemia, allergy, autoimmune disease, transplant rejection, and respiratory syncytial virus infection.
+
+Fully human monoclonal antibodies are produced using transgenic mice that contain human immunoglobulin genes or using phage display (ie, a bacteriophage-based cloning method) of immunoglobulin genes isolated from human B cells. Fully human monoclonal antibodies have decreased immunogenicity and therefore may have fewer adverse effects.
+
+Monoclonal antibodies that target checkpoint molecules on either T cells or tumor cells (termed checkpoint inhibitors—see table Some Immunotherapeutic Agents in Clinical Use) are used to prevent downregulation of antitumor responses and effectively treat some heretofore resistant cancers. However, because checkpoint molecules are also involved in other types of immune response, checkpoint inhibitors can cause severe immune-related inflammatory and autoimmune reactions (both systemic and organ specific).
+
+Fusion proteins
+
+Fusion proteins are hybrid proteins that are created by linking together the gene sequences encoding all or part of 2 different proteins to generate a chimeric polypeptide that incorporates desirable attributes from the parent molecules (eg, a specific cell-targeting component combined with a cell toxin). The circulating half-life of therapeutic proteins can also often be improved by fusing them to another protein that naturally has a longer serum half-life (eg, the Fc region of IgG).
+
+Soluble cytokine receptors
+
+Soluble versions of cytokine receptors can block the action of cytokines by binding with them before they attach to their normal cell surface receptor.
+
+CAR T Cell Therapy
+
+Image
+
+This illustration shows the addition of a chimeric antigen receptor (CAR) (center image) to a T cell (left image), facilitating the formation of a CAR T cell (right image), which is used to treat various cancers (particularly B-cell cancers).
+
+Kooto/stock.adobe.com
+
+An example of a soluble cytokine receptor is etanercept, a fusion protein, which consists of 2 identical chains from the CD120b receptor for tumor necrosis factor (TNF)-alpha. Etanercept blocks TNF-alpha and is used to treat rheumatoid arthritis, polyarticular juvenile idiopathic arthritis, ankylosing spondylitis, psoriatic arthritis, and plaque psoriasis.
+
+Recombinant cytokines
+
+Colony-stimulating factors (CSF), such as erythropoietin, granulocyte CSF (G-CSF), and granulocyte-macrophage CSF (GM-CSF), are used in patients undergoing chemotherapy or transplantation for hematologic disorders and cancers and in patients with severe chronic neutropenia (see table Some Immunotherapeutic Agents in Clinical Use).
+
+Interferon-alpha (IFN-alpha) and IFN-gamma are used to treat cancer, immunodeficiency disorders, and viral infections (especially viral hepatitis). IFN-beta is used to treat relapsing multiple sclerosis.
+
+An example of a recombinant cytokine is anakinra, a biologic agent used to treat autoinflammatory conditions, which is a recombinant, slightly modified form of the naturally occurring IL-1R antagonist. Anakinra attaches to the IL-1 receptor and thus prevents binding of IL-1, but unlike IL-1, it does not activate the receptor.
+
+Cells expressing cytokine receptors can also be targeted by modified versions of the relevant cytokine (eg, denileukin diftitox, which is a fusion protein containing sequences from IL-2 and from diphtheria toxin). Denileukin is used in cutaneous T-cell lymphoma to target the toxin to cells expressing the CD25 component of the IL-2 receptor.
+
+Small-molecule mimetics
+
+Small linear peptides, cyclicized peptides, and small organic molecules can function as agonists or antagonists for various applications (2). Screening libraries of peptides and organic compounds can identify potential mimetics (eg, agonists and antagonists for receptors and signaling molecules).
+
+Examples include deucravacitinib, an inhibitor of tyrosine kinase 2 (TYK2), used to treat plaque psoriasis; tapinarof, an aryl hydrocarbon receptor-modulating agent, used to treat atopic dermatitis and psoriasis; and belumosudil, a rho kinase type 1/2 (ROCK1/2) inhibitor, used to treat chronic graft-versus-host disease.
+
+Cellular therapies
+
+In cellular therapies, immune system cells are harvested (eg, by leukapheresis) and activated in vitro before they are returned to the patient. The aim of these therapies is to amplify the normally inadequate natural immune response to cancer. Methods of activating immune cells include using cytokines to stimulate and increase the numbers of antitumor cytotoxic T cells and using pulsed exposure to antigen-presenting cells such as dendritic cells with tumor antigens. Before being returned to the patient, T cells can be genetically engineered to express chimeric antigen receptors (CAR) or T cell receptors (TCR) capable of recognizing tumor antigens (eg, CD 19 in B cell lymphomas), an approach that has shown efficacy in patients with leukemia and lymphoma.
+
+References
+
+1. Chan AC, Martyn GD, Carter PJ. Fifty years of monoclonals: the past, present and future of antibody therapeutics. Nat Rev Immunol. 2025;25(10):745-765. doi:10.1038/s41577-025-01207-9
+
+2. Raavi, Koehler AN, Vegas AJ. At The Interface: Small-Molecule Inhibitors of Soluble Cytokines. Chem Rev. 2025;125(9):4528-4568. doi:10.1021/acs.chemrev.4c00469

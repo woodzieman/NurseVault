@@ -1,0 +1,100 @@
+=== Overview of Genetics (Merck Manual Professional) ===
+Section: Special Subjects > General Principles of Medical Genetics
+Source: https://www.merckmanuals.com/professional/special-subjects/general-principles-of-medical-genetics/overview-of-genetics
+Retrieved: 2026-09-25
+
+A gene, the basic unit of heredity, is a segment of deoxyribonucleic acid (DNA) containing the information necessary to synthesize a polypeptide (protein) or a functional RNA molecule. Protein synthesis, folding, and tertiary and quaternary structure ultimately determine much of the body’s structure and function.
+
+DNA provides the code that determines many aspects of an individual's development and growth and factors that impact health. However, gene function varies based on variability in gene expression that can result from genetic, epigenetic, or environmental factors. Knowledge of the many biochemical mechanisms that mediate gene expression is growing rapidly.
+
+The following are some terms that describe genetic composition and expression:
+
+Genome refers to the complete set of genetic material in an organism, including all genes and noncoding sequences.
+
+Genotype is the specific allelic composition for a certain gene or a set of genes in a cell or an organism.
+
+Phenotype refers to an individual’s observable traits, such as height, eye color, or blood type. Phenotype is determined by a complex interaction of multiple factors, including genotype, gene expression, and environmental factors. Specific genotypes may or may not correlate well with phenotype.
+
+Gene expression refers to the process in which the information encoded in a gene is used to control the assembly of a downstream molecule (protein or RNA). Gene expression depends on multiple factors such as whether a trait is dominant or recessive, the penetrance and expressivity of the gene (see Factors Affecting Gene Expression), whether expression is sex-limited or subject to chromosomal inactivation or genomic imprinting, environmental factors, and other unknown factors.
+
+Structure of DNA
+
+Humans have about 20,000 to 25,000 genes depending on how a gene is defined (1). Genes are located on chromosomes, which are contained in the cell nucleus and in mitochondria. (Mitochondrial DNA and associated disorders are discussed separately.)
+
+Each chromosome consists of several major structural components: centromere (area where a pair of chromosomes are joined and then separate during cell division); telomeres (regions at the ends of each chromosome, that help to maintain structural integrity during DNA replication); and chromatids (arms of the chromosome: each chromosome has a short arm, designated as "p," and a long arm, designated as "q"). (See figure Structure of a Chromosome.)
+
+Structure of a Chromosome
+
+The centromere is a constricted point where the 2 chromatids are held together. Chromatids are the arms of the chromosome; each chromosome has a short arm, designated as "p," and a long arm, designated as "q." Telomeres are regions at the ends of each arm of a chromosome. DNA molecule is strands of DNA that are formed into compact structures inside of the chromosome by proteins called histones.
+
+Credit: GWEN SHOCKEY / SCIENCE PHOTO LIBRARY
+
+A karyotype is the full set of chromosomes in an individual person's cells. In genetic testing results, the karyotype is represented as an image of all chromosome pairs in numerical order. During this process (called karyotyping), cells are typically collected from a sample (such as blood, amniotic fluid, or tissue); cultured to promote cell division; and then treated to stop cell division at the metaphase stage, at which chromosomes are most visible. The chromosomes are then stained and photographed to produce a karyotype that displays the size, shape, and number of chromosomes in that sample of cells.
+
+In humans, the majority of cells are somatic (nongerm) cells with nuclei that contain 23 pairs of chromosomes, resulting in a total number of 46 chromosomes (diploid). In somatic cells, each pair consists of 1 chromosome inherited from the mother and 1 from the father. Of the 23 chromosome pairs, numbers 1 to 22 are called autosomes and these pairs are normally homologous (size, shape, and position and number of genes are identical with the other chromosome in the pair). The twenty-third pair are the sex chromosomes X and Y, which determine a person’s sex. Females have two X chromosomes in somatic cell nuclei; males have one X and one Y chromosome.
+
+The X chromosome carries genes responsible for many hereditary traits. In females the two X chromosomes are homologous and therefore each gene has a pair on the other X chromosome. In males, the X chromosome and the smaller Y chromosome are heterologous. The Y chromosome carries genes that initiate male sex differentiation, as well as a small number of other genes. Because the X chromosome has many more genes than the Y chromosome, many X chromosome genes in males are not paired. However, 1 of the X chromosomes in each cell in females is inactivated early in fetal life (lyonization), and so a balance of genetic material is maintained across males and females. In some cells, the maternal X chromosome is inactivated and in others it is the paternal X chromosome. Once inactivation has taken place in an individual cell, all descendants of that cell have the same X inactivation.
+
+Germ cells (egg and sperm cells) contain 46 chromosomes at certain stages; however, during meiosis, the chromosome pairs separate so that each gamete (spermatocyte or oocyte) contains only 1 copy of each chromosome, resulting in a total number of 23 chromosomes (haploid). The unpaired chromosomes can undergo recombination, a process in which maternal and paternal chromosomes can cross over (exchange between homologous chromosomes). When an oocyte is fertilized by a spermatozoon at conception, the number of 46 chromosomes is reconstituted in the fertilized ovum.
+
+Chromosomes contain both genes (transcriptionally active segments of the chromosome, called euchromatin) as well as additional material that does not code for proteins (transcriptionally inactive segments, called heterochromatin). Genes are arranged linearly within the DNA of chromosomes. Each gene has a specific location (locus), which is typically the same on each of the 2 homologous chromosomes. The genes that occupy the same locus on each chromosome of a pair (1 inherited from the mother and 1 from the father) are called alleles. Each gene consists of a specific DNA sequence; 2 alleles may have slight differences or the same DNA sequences. A pair of identical alleles for a particular gene is called homozygous; a pair of nonidentical alleles is heterozygous. Some genes are present in multiple copies, which may be located adjacent to one another or scattered across various locations on the same or different chromosomes.
+
+Structure of DNA
+
+DNA (deoxyribonucleic acid) is the cell’s genetic material, contained in chromosomes within the cell nucleus and mitochondria.
+
+Except for certain cells (for example, sperm and egg cells), the cell nucleus contains 23 pairs of chromosomes. A chromosome contains many genes. A gene is a segment of DNA that provides the code to construct a protein or RNA molecule.
+
+The DNA molecule is a long, coiled double helix that resembles a spiral staircase. In it, 2 strands, composed of sugar (deoxyribose) and phosphate molecules, are connected by pairs of 4 molecules called bases, which form the steps of the staircase. In the steps, adenine is paired with thymine and guanine is paired with cytosine. Each pair of bases is held together by a hydrogen bond. A gene consists of a sequence of bases. Sequences of 3 bases code for an amino acid (amino acids are molecules that are the building blocks of proteins) or other information.
+
+Structure reference
+
+1. National Human Genome Research Institute. What Is a Genome? Accessed March 5, 2025.
+
+Gene Function
+
+Genes consist of DNA. The structure of DNA is a double helix in which nucleotides (bases) are paired:
+
+Adenine (A) is paired with thymine (T)
+
+Guanine (G) is paired with cytosine (C)
+
+The length of the gene determines the length of the protein or RNA synthesized from the gene code. For protein synthesis, DNA transcription occurs, in which 1 strand of DNA is used as a template from which messenger RNA (mRNA) is synthesized. RNA has the same base pairs as DNA, except that uracil (U) replaces thymine (T). mRNA molecules travel from the cell nucleus to the cytoplasm and then to a ribosome, a cellular structure. In the ribosome, translation occurs from the mRNA sequence to the sequence of amino acids required to synthesize the particular protein. Transfer RNA (tRNA) brings each amino acid back to the ribosome, where it is added to the growing polypeptide chain in a sequence determined by the mRNA. As a chain of amino acids is assembled, it folds upon itself to create a complex 3-dimensional structure aided by the presence of nearby chaperone molecules.
+
+The sequence and the 4 nucleotide bases in DNA provide the code for protein synthesis. Specific amino acids are coded for by specific combinations of 3 bases (triplets), called codons. Because there are 4 nucleotides, the number of possible triplets is 43 (which equals 64 possible codons). However, there are only 20 standard amino acids, resulting in redundancy in the genetic code, meaning that multiple codons can code for the same amino acid. In addition to these coding triplets, some codons serve special functions. For example, certain triplets are designated as start codons (typically AUG, which also codes for methionine) that signal the beginning of protein synthesis, while others function as stop codons (eg, UAA, UAG, and UGA) that indicate the termination of protein synthesis. This organization allows for both the encoding of proteins and the regulation of their synthesis (1, 2).
+
+Genes consist of exons and introns. For protein-encoding genes, exons code for amino acid components of the final protein. Introns are sequences of nucleotide bases that do not code for amino acids but contain other information that regulates the speed of protein production and the type of protein produced. Together, exons and introns are transcribed into precursor mRNA, but the segments transcribed from introns are later spliced out, resulting in mature mRNA. In addition, some segments of DNA code for antisense RNA that bind to mRNA sequences and can inhibit translation into protein. The strand of DNA that is not transcribed to form mRNA may also be used as a template for synthesis of RNA that controls transcription of the opposite strand.
+
+Intron splicing (also called alternative splicing) is a mechanism of gene expression variability. During alternative splicing, introns are spliced out and the remaining exons may be assembled in many combinations, resulting in many different mRNAs capable of being transcribed into many different protein isoforms. Thus, the number of proteins that can be synthesized by humans is > 100,000 even though the human genome has only approximately 20,000+ genes.
+
+Gene function references
+
+1. Liu CC, Simonsen CC, Levinson AD. Initiation of translation at internal AUG codons in mammalian cells. Nature. 1984 May 3-9;309(5963):82-5. doi: 10.1038/309082a0
+
+2. Brown A, Shao S, Murray J, Hegde RS, Ramakrishnan V. Structural basis for stop codon recognition in eukaryotes. Nature. 2015 Aug 27;524(7566):493-496. doi: 10.1038/nature14896
+
+Epigenetic factors
+
+Heritable changes that do not involve alterations in the DNA sequence are referred to as epigenetics. Key mechanisms that influence gene expression without modifying the genetic sequence include DNA methylation and histone modifications, such as methylation and acetylation.
+
+DNA methylation is usually associated with the silencing of gene expression. Histone proteins, which resemble spools around which DNA coils, impact the folding and unfolding of DNA. Histone modifications such as acetylation or methylation can increase or decrease the expression of a particular gene.
+
+Another important mechanism involves microRNAs (miRNAs). MiRNAs are short, hairpin-derived RNAs that repress target gene expression after transcription (hairpin refers to the shape the RNA sequences assume as they bind together). MiRNAs may be involved in the regulation of as many as 60% of transcribed proteins.
+
+Traits and Inheritance Patterns
+
+A trait may be as simple as eye color or as complex as susceptibility to diabetes. Expression of a trait may involve one gene or many genes. Some single-gene defects cause abnormalities in multiple tissues, an effect called pleiotropy. For example, osteogenesis imperfecta (a connective tissue disorder that often results from abnormalities in a single collagen gene) may cause fragile bones, deafness, blue-colored sclerae, dysplastic teeth, hypermobile joints, and heart valve abnormalities. Some traits, such as a susceptibility to developing schizophrenia, appear to be caused by multiple genes, and are thus called polygenic traits.
+
+Construction of a family pedigree
+
+The family pedigree (family tree) is used to depict inheritance patterns. Pedigrees are commonly used in genetic counseling. The pedigree uses conventional symbols to represent family members and pertinent health information about them (see figure Symbols for Constructing a Family Pedigree). Some familial disorders with identical phenotypes have multiple patterns of inheritance.
+
+Symbols for Constructing a Family Pedigree
+
+In the pedigree, symbols for each generation in the family are placed in a row and numbered with Roman numerals, starting with the older generation at the top and ending with the most recent at the bottom. Within each generation, people are numbered from left to right with Arabic numerals. Siblings are listed by age, with the oldest on the left. Thus, each member of the pedigree can be identified by 2 numbers (eg, II, 4). A spouse is also assigned an identifying number.
+
+Key Points
+
+Phenotype is determined by a complex interaction of multiple factors including genotype, gene expression, and environmental factors.
+
+Mechanisms regulating gene expression are being elucidated and include intron splicing, DNA methylation, histone modifications, microRNAs, and 3D genome organization.

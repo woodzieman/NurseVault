@@ -1,0 +1,134 @@
+=== Ventilator-Associated Pneumonia (Merck Manual Professional) ===
+Section: Pulmonology > Pneumonia
+Source: https://www.merckmanuals.com/professional/pulmonary-disorders/pneumonia/ventilator-associated-pneumonia
+Retrieved: 2026-09-25
+
+Ventilator-associated pneumonia is pneumonia that develops at least 48 hours after endotracheal intubation or within 48 hours of extubation. Ventilator-associated pneumonia is a subset of hospital-acquired pneumonia,, which includes pneumonia in inpatients who are not receiving mechanical ventilation. Ventilator-associated pneumonia often involves pathogens that are more resistant to antibiotics and poorer outcomes than other forms of hospital-acquired pneumonia.
+
+Risk factors
+
+Endotracheal intubation is the major risk factor for ventilator-associated pneumonia. Endotracheal intubation breaches airway defenses, impairs cough and mucociliary clearance, and facilitates microaspiration of bacteria-laden secretions that pool above the inflated endotracheal tube cuff. In addition, bacteria form a biofilm on and within the endotracheal tube that protects them from antibiotics and host defenses. The highest risk of ventilator-associated pneumonia occurs during the first 10 days after intubation. Ventilator-associated pneumonia occurs in approximately 9 to 27% of mechanically ventilated patients (1).
+
+General reference
+
+1. Reignier J, Mercier E, Le Gouge A, et al. Effect of not monitoring residual gastric volume on risk of ventilator-associated pneumonia in adults receiving mechanical ventilation and early enteral feeding: a randomized controlled trial. JAMA. 2013;309(3):249-256. doi:10.1001/jama.2012.196377
+
+Etiology of Ventilator-Associated Pneumonia
+
+The most common cause of ventilator-associated pneumonia is microaspiration of bacteria that colonize the oropharynx and upper airways in seriously ill patients.
+
+Pathogens
+
+Pathogens and antibiotic resistance patterns vary significantly among institutions and can vary within institutions over short periods (eg, month to month). Local antibiograms at the institutional level that are updated on a regular basis are essential in determining appropriate empiric antibiotic therapy. In general, the most important pathogens are:
+
+Pseudomonas aeruginosa
+
+Methicillin-sensitive Staphylococcus aureus (MSSA)
+
+Methicillin-resistant S. aureus (MRSA)
+
+Notably, S. aureus (28.0%) and P. aeruginosa (21.8%) consistently rank as the 2 most common pathogens associated with pneumonia that is acquired in a hospital, with MRSA comprising a significant proportion (up to 80%) of S. aureus isolates (1).
+
+Other important pathogens include enteric gram-negative bacteria (mainly Enterobacter species, Klebsiella pneumoniae, Escherichia coli, Serratia marcescens, Proteus species, and Acinetobacter species).
+
+Prior IV antibiotic treatment (within the previous 90 days) greatly increases the likelihood of infection with antibiotic-resistant organisms, particularly MRSA and Pseudomonas in ventilator-associated pneumonia (2). Infection with a resistant organism generally markedly increases mortality and morbidity in patients admitted to intensive care units (3, 4). Other risk factors for antibiotic-resistant organisms specific to ventilator-associated pneumonia include:
+
+Septic shock at the time ventilator-associated pneumonia develops
+
+Acute respiratory distress syndrome (ARDS) preceding ventilator-associated pneumonia
+
+Hospitalization for ≥ 5 days prior to the occurrence of ventilator-associated pneumonia
+
+Acute renal replacement therapy prior to ventilator-associated pneumonia onset
+
+Prior colonization with drug-resistant pathogens and high local (ie, institutional) antibiotic resistance rates also increase the risk of developing ventilator-associated pneumonia with antibiotic-resistant pathogens. Specifically local MRSA resistance of > 20% (of S. aureus isolates) and P. aeruginosa resistance of > 10% for commonly used empiric antipseudomonal antibiotics, particularly in the ICU, warrant more stringent selection of appropriate antibiotics (2).
+
+High-dose glucocorticoids increase the risk of Legionella and Pseudomonas infections. Chronic suppurative lung diseases such as cystic fibrosis and bronchiectasis increase the risk of gram-negative pathogens, including antibiotic-resistant strains.
+
+Etiology references
+
+1. Jones RN. Microbial etiologies of hospital-acquired bacterial pneumonia and ventilator-associated bacterial pneumonia. Clin Infect Dis. 2010;51 Suppl 1:S81-S87. doi:10.1086/653053
+
+2. Kalil AC, Metersky ML, Klompas M, et al. Management of adults with hospital-acquired and ventilator-associated pneumonia: 2016 clinical practice guidelines by the Infectious Diseases Society of America and the American Thoracic Society. Clin Infect Dis. 2016;63(5):e61-e111. doi:10.1093/cid/ciw353
+
+3. Lakbar I, Medam S, Ronflé R, et al. Association between mortality and highly antimicrobial-resistant bacteria in intensive care unit-acquired pneumonia. Sci Rep. 2021;11(1):16497. doi:10.1038/s41598-021-95852-4
+
+4. Lambert ML, Suetens C, Savey A, et al. Clinical outcomes of health-care-associated infections and antimicrobial resistance in patients admitted to European intensive-care units: a cohort study. Lancet Infect Dis. 2011;11(1):30-38. doi:10.1016/S1473-3099(10)70258-9
+
+Symptoms and Signs of Ventilator-Associated Pneumonia
+
+Pneumonia in critically ill patients who are mechanically ventilated typically causes fever, increased respiratory rate or heart rate, or changes in respiratory parameters, such as an increase in purulent secretions or worsening hypoxemia.
+
+Diagnosis of Ventilator-Associated Pneumonia
+
+Chest radiography and clinical criteria (limited accuracy)
+
+Sometimes bronchoscopy or blood cultures
+
+In practice, a diagnosis of ventilator-associated pneumonia is often suspected on the basis of the appearance after at least 48 hours in patients who are being ventilated (or who have been extubated) of a new or worsening opacity on a chest radiograph that is taken for evaluation of new symptoms or signs (eg, fever, increased secretions, worsening hypoxemia) or of leukocytosis (1). However, clinical diagnosis is imperfect. No single symptom, sign, or radiograph finding is sensitive or specific for the diagnosis because all can be caused by other diagnoses, including atelectasis, pulmonary embolism, pulmonary hemorrhage, pulmonary edema, or drug reactions and may be part of the clinical findings in acute respiratory distress syndrome.
+
+Gram stain and semiquantitative cultures of endotracheal aspirates, though not definitive for identifying infection, are recommended for guiding treatment in ventilator-associated pneumonia (1). Bronchoscopic sampling of lower airway secretions for quantitative culture yields more reliable specimens that can differentiate colonization from infection. Information gained from bronchoscopic sampling can reduce antibiotic use and assist in switching from broader to narrower antibiotic coverage. However, it has not been shown to improve outcomes.
+
+Measurement of inflammatory mediators (eg, interleukin 1, interleukin 8) in bronchoalveolar lavage fluid or serum has not been shown to be reliable in deciding on initiation of antibiotics (2). When ventilator-associated pneumonia is complicated by a parapneumonic effusion, a pleural fluid culture (obtained via thoracentesis in a patient with pleural effusion) that is positive for a respiratory pathogen can definitively identify the causative organism (3).
+
+Blood cultures are not sensitive but are characterized by relatively high positive-predictive values; however, even when positive, blood cultures cannot generally confirm that the organism causing the pneumonia is the same as that causing the bacteremia (4).
+
+Diagnosis references
+
+1. Kalil AC, Metersky ML, Klompas M, et al. Management of adults with hospital-acquired and ventilator-associated pneumonia: 2016 clinical practice guidelines by the Infectious Diseases Society of America and the American Thoracic Society. Clin Infect Dis. 2016;63(5):e61-e111. doi:10.1093/cid/ciw353
+
+2. Hellyer TP, McAuley DF, Walsh TS, et al. Biomarker-guided antibiotic stewardship in suspected ventilator-associated pneumonia (VAPrapid2): a randomised controlled trial and process evaluation. Lancet Respir Med. 2020;8(2):182-191. doi:10.1016/S2213-2600(19)30367-4
+
+3. Miller JM, Binnicker MJ, Campbell S, et al. Guide to Utilization of the Microbiology Laboratory for Diagnosis of Infectious Diseases: 2024 Update by the Infectious Diseases Society of America (IDSA) and the American Society for Microbiology (ASM). Clin Infect Dis. 2024; Mar 5:ciae104. Published online March 5, 2024. doi:10.1093/cid/ciae104
+
+4. Luna CM, Videla A, Mattera J, et al. Blood cultures have limited value in predicting severity of illness and as a diagnostic tool in ventilator-associated pneumonia. Chest. 1999;116(4):1075-1084. doi:10.1378/chest.116.4.1075
+
+Treatment of Ventilator-Associated Pneumonia
+
+If ventilator-associated pneumonia is suspected, treatment is with antibiotics that are chosen empirically based on:
+
+Local sensitivity patterns
+
+Patient risk factors for antibiotic-resistant pathogens
+
+Prior microbiology results from patient samples demonstrating colonization with antibiotic-resistant pathogens
+
+The 2016 guidelines of the Infectious Diseases Society of America and the American Thoracic Society emphasize the use of a narrower spectrum of empiric antibiotics when possible (1). The overall approach is similar to that described for hospital-acquired pneumonia, except that the patient-specific risk factors for antibiotic-resistant pathogens are broader.
+
+Treatment reference
+
+1. Kalil AC, Metersky ML, Klompas M, et al. Management of adults with hospital-acquired and ventilator-associated pneumonia: 2016 clinical practice guidelines by the Infectious Diseases Society of America and the American Thoracic Society. Clin Infect Dis. 2016;63(5):e61-e111. doi:10.1093/cid/ciw353
+
+Prognosis for Ventilator-Associated Pneumonia
+
+The mortality in ventilator-associated pneumonia is high (approximately 35 to 45%) despite the availability of effective antibiotics (1). However, not all mortality is attributable to the pneumonia itself; many of the deaths are related to the patient's comorbidities. Adequacy of initial antimicrobial therapy can improve the prognosis. Infection with antibiotic-resistant bacteria worsens prognosis.
+
+Prognosis reference
+
+1. Sophonsri A, Lou M, Ny P, Minejima E, Nieberg P, Wong-Beringer A. Machine learning to identify risk factors associated with the development of ventilated hospital-acquired pneumonia and mortality: implications for antibiotic therapy selection. Front Med (Lausanne). 2023;10:1268488. doi:10.3389/fmed.2023.1268488
+
+Prevention of Ventilator-Associated Pneumonia
+
+A number of measures can help prevent ventilator-associated pneumonia (1). Semiupright or upright positioning (elevating head of the bed between a 30° to 45° angle) reduces the risk of aspiration and pneumonia compared with recumbent positioning and is the simplest and most effective preventive method (2). Noninvasive ventilation using continuous positive airway pressure (CPAP) or bilevel positive airway pressure (BiPAP) prevents the breach in airway defense that occurs with endotracheal intubation and eliminates the need for intubation in some patients, and it has been associated with a reduced incidence of ventilator associated pneumonia.
+
+Continuous aspiration of subglottic secretions using a specially designed endotracheal tube attached to a suction device reduces the risk of microaspiration and the incidence of ventilator-associated pneumonia; however, overall clinical outcomes are not altered. Silver-coated endotracheal tubes should not be considered a routine part of prevention of ventilator-associated pneumonia; however, overall clinical outcomes are not altered (2).
+
+Selective decontamination of the oropharynx (using topical gentamicin, colistin, chlorhexidine, vancomycin cream, or a combination) or of the entire gastrointestinal tract (using polymyxin B, an aminoglycoside or quinolone, and either nystatin or amphotericin B) is controversial because of concerns about resistant strains and because decontamination, although it decreases incidence of ventilator-associated pneumonia, has not been shown to decrease mortality.
+
+Surveillance cultures and routinely changing ventilator circuits or endotracheal tubes have not been shown to decrease ventilator-associated pneumonia.
+
+Prevention references
+
+1. Zhu D, Zhao Q, Guo S, et al. Efficacy of preventive interventions against ventilator-associated pneumonia in critically ill patients: an umbrella review of meta-analyses. J Hosp Infect. 2024;145:174-186. doi:10.1016/j.jhin.2023.12.017
+
+2. Klompas M, Branson R, Cawcutt K, et al. Strategies to prevent ventilator-associated pneumonia, ventilator-associated events, and nonventilator hospital-acquired pneumonia in acute-care hospitals: 2022 Update. Infect Control Hosp Epidemiol. 2022;43(6):687-713. doi:10.1017/ice.2022.88
+
+Key Points
+
+Ventilator-associated pneumonia is pneumonia that develops at least 48 hours after endotracheal intubation.
+
+Likely pathogens differ from those causing community-acquired pneumonia and often require initial empiric antibiotic therapy that is active against antibiotic-resistant organisms.
+
+Diagnosis is difficult, with culture of a potential pathogen from bronchoalveolar lavage or pleural fluid being the most specific finding.
+
+Reassess patients 2 to 3 days after initiation of treatment, and change antibiotics based on available culture and clinical data.

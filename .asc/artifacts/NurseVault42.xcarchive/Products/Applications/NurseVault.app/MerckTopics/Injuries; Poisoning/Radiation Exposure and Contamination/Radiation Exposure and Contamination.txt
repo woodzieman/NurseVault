@@ -1,0 +1,1126 @@
+=== Radiation Exposure and Contamination (Merck Manual Professional) ===
+Section: Injuries; Poisoning > Radiation Exposure and Contamination
+Source: https://www.merckmanuals.com/professional/injuries-poisoning/radiation-exposure-and-contamination/radiation-exposure-and-contamination
+Retrieved: 2026-09-25
+
+Ionizing radiation is emitted by radioactive elements and by equipment such as radiography and radiation therapy machines.
+
+Types of radiation
+
+Radiation includes
+
+Particles (alpha particles, beta particles, neutrons)
+
+High-energy electromagnetic waves (x-rays, gamma rays)
+
+Alpha particles are energetic helium nuclei emitted by some radionuclides with high atomic numbers (eg, plutonium, radium, uranium); they cannot penetrate skin beyond a shallow depth (< 0.1 mm).
+
+Beta particles are high-energy electrons that are emitted from the nuclei of unstable atoms (eg, cesium-137, iodine-131). These particles can penetrate more deeply into the skin (1 to 2 cm) and cause both epithelial and subepithelial damage.
+
+Neutrons are electrically neutral particles emitted by a few radionuclides (eg, californium-252) and produced in nuclear fission reactions (eg, in nuclear reactors); their depth of tissue penetration varies from a few millimeters to several tens of centimeters, depending on their energy. They collide with the nuclei of stable atoms, resulting in the emission of energetic protons, alpha and beta particles, and gamma radiation.
+
+Gamma radiation and x-rays are electromagnetic radiation (ie, photons) of very short wavelength that can penetrate deeply into tissue (many centimeters). While some photons deposit all their energy in the body, other photons of the same energy may deposit only a fraction of their energy, and others may pass completely through the body without interacting.
+
+Because of these characteristics, alpha and beta particles cause the most damage when the radioactive atoms that emit them are within the body (internal contamination) or, in the case of beta-emitters, directly on the body; only tissue in close proximity to the radionuclide is affected. Gamma rays and x-rays can cause damage distant from their source and are typically responsible for acute radiation syndromes. Acute radiation syndromes can be caused by a sufficient dose of some internally deposited radionuclides that are widely distributed in tissues and organs and have a high specific activity. For example, polonium-210 (Po-210) has a specific activity of 166 terabecquerels per gram (TBq/g), and 1 mcg (approximately the size of a grain of salt) of Po-210 delivers a whole-body dose of 50 Sv (~20 times the median lethal dose).
+
+Measurement of radiation
+
+Conventional units of measurement include the roentgen, rad, and rem.
+
+The roentgen (R) is a unit of exposure measuring the ionizing ability of x-rays or gamma radiation in air.
+
+The radiation absorbed dose (rad) is the amount of that radiation energy absorbed per unit of mass.
+
+The roentgen equivalent in man (rem) is used because biologic damage per rad varies with radiation type (eg, it is higher for neutrons than for x-rays or gamma radiation). The dose in rad is corrected by a radiation type quality factor; the resulting equivalent dose unit is the rem.
+
+Outside the United States and in the scientific literature, SI (International System) units are used, in which the rad is replaced by the gray (Gy) and the rem by the sievert (Sv); 1 Gy = 100 rad, and 1 Sv = 100 rem. The rad and rem (and hence Gy and Sv) are essentially equal (ie, the quality factor equals 1) when describing x-rays or gamma or beta radiation.
+
+The amount (quantity) of radioactivity is expressed in terms of the number of nuclear disintegrations (transformations) per second. The becquerel (Bq) is the SI unit of radioactivity; one Bq is 1 disintegration per second (dps). The conventional unit, Curie (Ci), is sometimes still used in the United States, where 1 curie is 37 billion Bq. This is equivalent to 37,000 megabecquerels (MBq) or 37 gigabecquerels (GBq).
+
+Types of exposure
+
+Radiation exposure may result from
+
+Contamination
+
+Irradiation
+
+Radioactive contamination is the unintended contact with and retention of radioactive material, usually as dust or liquid. Contamination may be
+
+External
+
+Internal
+
+External contamination is that on skin or clothing, from which some can fall or be rubbed off, contaminating other people and objects.
+
+Internal contamination is unintended radioactive material within the body, which it may enter by ingestion, inhalation, or through breaks in the skin. Once in the body, radioactive material may be transported to various sites (eg, bone marrow), where it continues to emit radiation until it is removed or decays. Internal contamination is more difficult to remove.
+
+Although internal contamination with any radionuclide is possible, historically, most cases in which contamination posed a significant risk to the patient involved a relatively small number of radionuclides, such as phosphorus-32, cobalt-60, strontium-90, cesium-137, iodine-131, iodine-125, radium-226, uranium-235, uranium-238, plutonium-238, plutonium-239, polonium-210, and americium-241.
+
+Irradiation is exposure to radiation but not radioactive material (ie, no contamination is involved).
+
+Radiation exposure can occur without the source of radiation (eg, radioactive material, radiography machine) being in contact with the person. When the source of the radiation is removed or turned off, exposure ends.
+
+Irradiation can involve the whole body or a small part of the body (eg, from radiation therapy). If the dose is high enough, whole body radiation can result in systemic symptoms and radiation syndromes. Irradiation of a small part of the body can result in local effects. Radiation therapy can also cause injury to normal tissues near the target tissue.
+
+People do not emit radiation (ie, become radioactive) following irradiation.
+
+Sources of exposure
+
+Sources of radiation exposure may be naturally occurring or artificial (see table Average Annual Radiation Exposure in the United States).
+
+People are constantly exposed to low levels of naturally occurring radiation called background radiation. Background radiation comes from cosmic radiation and from radioactive elements in the air, water, and ground. Cosmic radiation is concentrated at the poles by the earth’s magnetic field and is attenuated by the atmosphere. Thus, exposure is greater for people living at high latitudes, at high altitudes, or both and during airplane flights.
+
+Terrestrial sources of external radiation exposure are primarily due to the presence of radioactive elements with half-lives comparable to the age of the earth (~ 4.5 billion years). In particular, uranium-238 and thorium-232, along with several dozen of their radioactive progeny and a radioactive isotope of potassium (K-40), are present in many rocks and minerals.
+
+Small quantities of these radionuclides are in food, water, and air and thus contribute to internal exposure as these radionuclides are invariably incorporated into the body. The majority of the dose from internally incorporated radionuclides is from radioisotopes of carbon (C-14) and potassium (K-40), and because these and other elements (stable and radioactive forms) are constantly replenished in the body by ingestion and inhalation, there are approximately 7000 atoms undergoing radioactive decay in the body each second.
+
+In the United States, internal exposure from the inhalation of radioactive isotopes of the noble gas radon (Rn-222 and Rn-220) accounts for the largest portion of the average per capita naturally occurring radiation dose. Cosmic radiation, radioactive elements in the body, and external terrestrial radiation are less frequent sources of radiation exposure (1, 2). People receive an average effective dose of about 3 millisieverts (mSv)/year from natural sources (range ~ 0.5 to 20 mSv/year). However, in some parts of the world, people receive > 50 mSv/year. The doses from natural background radiation are far too low to cause radiation injuries.
+
+In the United States, people receive on average about 3 mSv/year from human-made sources, the vast majority of which involve medical imaging. On a per capita basis, the contribution of exposure from medical imaging is highest for CT and nuclear cardiology procedures. However, medical diagnostic procedures rarely impart doses sufficient to cause radiation injury. Exceptions may include certain prolonged fluoroscopically guided interventional procedures (eg, endovascular reconstruction, vascular embolization, cardiac and tumor radiofrequency ablation) which have caused injuries to skin and underlying tissues. There is a small theoretical increase in the risk of cancer from sufficient exposure to medical imaging.
+
+Chronic Radiodermatitis
+
+Image
+
+Chronic radiodermatitis on the mastectomy site due to postoperative radiotherapy. Note the associated radiation hyperkeratotic plaques overlying an area of the skin consisting of hypopigmentation, hyperpigmentation, telangiectasias, and atrophy (a condition known as poikiloderma).
+
+© Springer Science+Business Media
+
+A very small portion of average public exposure results from radiation accidents and fallout from nuclear weapons testing. Accidents may involve industrial irradiators, industrial radiography sources, and nuclear reactors. These accidents commonly result from failure to follow safety procedures (eg, interlocks being bypassed).
+
+Radiation injuries have also been caused by lost or stolen medical or industrial sources containing large quantities of the radionuclide. People seeking medical care for these injuries may be unaware that they were exposed to radiation.
+
+Unintended releases of radioactive material have occurred, including from the Three Mile Island plant in Pennsylvania in 1979, the Chernobyl reactor in Ukraine in 1986, and the Fukushima Daiichi nuclear power facility in Japan in 2011 (3, 4, 5).
+
+Exposure from Three Mile Island was minimal because there was no breach of the containment vessel as occurred at Chernobyl and no hydrogen explosion as occurred at Fukushima. People living within 1.6 km of Three Mile Island received at most only approximately 0.08 mSv (a fraction of what is received from natural sources in a month).
+
+By contrast, the 115,000 people who were eventually evacuated from the area around the Chernobyl plant received an average effective dose of approximately 30 mSv and an average thyroid dose of approximately 490 mGy. People working at the Chernobyl plant at the time of the accident received significantly higher doses. More than 30 workers and emergency responders died within a few months of the accident, and many more experienced acute radiation sickness. Low-level contamination from that accident was detected as far away as other parts of Europe, Asia, and even (to a lesser extent) North America. The average cumulative exposure for the general population in various affected regions of Belarus, Russia, and Ukraine over a 20-year period after the accident was estimated to be approximately 9 mSv.
+
+The earthquake and tsunami in Japan in 2011 led to the release of radioactive material into the environment from several reactors at the Fukushima Daiichi nuclear power plant. There were no serious radiation-induced injuries to on-site workers. Among nearly 400,000 residents in Fukushima prefecture, the estimated effective dose (based on interviews and dose reconstruction modeling) was < 2 mSv for 95% of the people and < 5 mSv for 99.8%. The World Health Organization estimates were somewhat higher because of intentionally more conservative assumptions regarding exposure. The effective dose in prefectures not immediately adjacent to Fukushima was estimated to be between 0.1 to 1 mSv, and the dose to populations outside of Japan was negligible (< 0.01 mSv).
+
+The most significant radiation exposure to a population occurred following the detonation of two atomic bombs over Japan in August 1945, which caused approximately 110,000 deaths from the immediate trauma of the blast and heat. A much smaller number (< 1000) of excess deaths due to radiation-induced cancer have occurred over the ensuing years. Ongoing health surveillance of the survivors remains among the most important sources of estimates of radiation-induced cancer risk.
+
+While several criminal cases of intentional contamination of individuals have been reported, radiation exposure to a population as a result of terrorist activities has not occurred but remains a concern (see also Radiological Weapons). A possible scenario involves the use of a device to contaminate an area by dispersing radioactive material (eg, from a discarded radiotherapy or industrial source of cesium-137 or cobalt-60). A radiation dispersal device (RDD) that uses conventional explosives is referred to as a dirty bomb. Other terrorist scenarios include using a hidden radiation source to expose unsuspecting people to large doses of radiation, attacking a nuclear reactor or radioactive material storage facility, and detonating a nuclear weapon (eg, an improvised nuclear device [IND], a stolen weapon).
+
+Table
+
+Average Annual Radiation Exposure in the United States*
+
+Table
+
+Average Annual Radiation Exposure in the United States*
+
+Average Annual Radiation Exposure in the United States*
+
+Source
+
+Effective Dose (millisieverts)
+
+Naturally occurring radiation sources
+
+Radon gas
+
+2.3
+
+Other terrestrial sources
+
+0.2
+
+Solar and cosmic radiation
+
+0.3
+
+Natural internal radioactive elements
+
+0.3
+
+Subtotal
+
+3.1
+
+Human-made radiation sources (average person's exposure)
+
+Diagnostic radiography and nuclear medicine
+
+3.0
+
+Consumer products
+
+0.1
+
+Fallout from weapons testing
+
+< 0.01
+
+Nuclear industry
+
+< 0.01
+
+Subtotal
+
+3.1
+
+Total annual exposure
+
+6.2
+
+Other sources of radiation exposure (average per exposure or procedure)
+
+Airline travel†
+
+0.001–0.014/hour of flight
+
+Dental radiographs
+
+0.005
+
+Chest radiograph (posteroanterior view)
+
+0.02
+
+Chest radiographs (2 views: posteroanterior and lateral)
+
+0.1
+
+Mammography
+
+0.4
+
+CT, head
+
+2
+
+CT, body (chest, abdomen, pelvis)
+
+6–8
+
+Barium enema
+
+8
+
+Nuclear medicine (eg, bone scan)
+
+4.2
+
+* National Council on Radiation Protection and Measurements. Ionizing radiation exposure of the population of the United States. NCRP Report No. 160 National Council on Radiation Protection and Measurements, Bethesda, MD, 2009.
+
+† Radiograph–based passenger screening devices have not been used in the United States since 2014 but may be in use in other countries. In the United States, passenger screening devices use millimeter waves (mmW) that are a type of non-ionizing radiation. These same frequencies are use in 5G wireless telecommunication facilities.
+
+* National Council on Radiation Protection and Measurements. Ionizing radiation exposure of the population of the United States. NCRP Report No. 160 National Council on Radiation Protection and Measurements, Bethesda, MD, 2009.
+
+† Radiograph–based passenger screening devices have not been used in the United States since 2014 but may be in use in other countries. In the United States, passenger screening devices use millimeter waves (mmW) that are a type of non-ionizing radiation. These same frequencies are use in 5G wireless telecommunication facilities.
+
+References
+
+1. United States Environmental Protection Agency (EPA). Radiation Sources and Doses. Accessed January 2, 2025.
+
+2, Centers for Disease Control and Prevention (CDC). Radiation Emergencies: Radiation Thermometer. Accessed January 2, 2025.
+
+3. United States Nuclear Regulatory Commission. Backgrounder on the Three Mile Island Accident. Accessed January 2, 2025.
+
+4. International Atomic Energy Agency. The 1986 Chornobyl nuclear power plant accident. Accessed January 2, 2025.
+
+5. World Nuclear Association. Fukushima Daiichi Accident. Accessed January 2, 2025.
+
+Pathophysiology of Radiation Exposure and Contamination
+
+Ionizing radiation can damage DNA, RNA, and proteins directly. However, damage to these molecules is most often indirect, caused by highly reactive free radicals generated by radiation’s interaction with intracellular water molecules.
+
+Large doses of radiation can cause cell death, and lower doses may interfere with endogenous molecular repair systems, homeostasis, and cellular proliferation. Damage to these and other cellular components can result in progressive tissue hypoplasia, atrophy, and eventually fibrosis. However, cell killing alone cannot explain many tissue reactions because those reactions also depend on complex events, including inflammatory, chronic oxidative, and immune reactions, as well as damage to the vasculature and the extracellular matrix.
+
+In general, early reactions, such as in the skin and gastrointestinal tract, involve killing of the stem/early progenitor cells that supply the mature functional cells in the tissue, as well as inflammatory reactions.
+
+Late reactions (eg, in the lungs, kidneys, and brain) involve complex and dynamic interactions between multiple cell types in the tissues and organs and include infiltrating immune cells; production of cytokines and growth factors; often in persistent, cyclic cascades; and chronic oxidative stress.
+
+Factors affecting response
+
+Biologic response to radiation varies with
+
+Tissue radiosensitivity
+
+Dose
+
+Dose rate
+
+Duration of exposure
+
+Degree of inflammatory response
+
+Age
+
+Comorbidities
+
+Presence of genetic DNA repair defect disorders (eg, ataxia-telangiectasia, Bloom syndrome, Fanconi anemia)
+
+Cells and tissues differ in their radiosensitivity. In general, cells that are undifferentiated and those that have high mitotic rates (eg, stem cells, cancer cells) are particularly vulnerable to radiation. Because radiation preferentially depletes rapidly dividing stem cells over the more resistant mature cells, there is typically a latent period between radiation exposure and overt radiation injury. Injury does not manifest until a significant fraction of the mature cells die of natural senescence and, due to loss of stem cells, are not replaced.
+
+Cellular sensitivities in approximate descending order from most to least sensitive are
+
+Lymphoid cells
+
+Germ cells
+
+Proliferating bone marrow cells
+
+Intestinal epithelial cells
+
+Epidermal stem cells
+
+Hepatic cells
+
+Epithelium of lung alveoli and biliary passages
+
+Kidney epithelial cells
+
+Endothelial cells (pleura and peritoneum)
+
+Connective tissue cells
+
+Bone cells
+
+Muscle, brain, and spinal cord cells
+
+The severity of radiation injury depends on the dose and the length of time over which it is delivered. A high, single, rapid dose is more damaging than the same dose given over weeks or months. Dose-response also depends on the fraction of the body exposed. Significant illness is certain, and death is possible, after a whole-body dose > 4.5 Gy is delivered over a short time interval (minutes to hours) (1); however, 10s of Gy can be well tolerated when delivered over a long period to a small area of tissue (eg, for cancer therapy) .
+
+Other factors can increase the sensitivity to radiation injury. Children are more susceptible to radiation injury because they have a higher rate of cellular proliferation. In children, some organs and tissues such as the brain, lens of the eye, and thyroid gland, are more sensitive to radiation than in adults. People who are homozygous for the ataxia-telangiectasia gene exhibit greatly increased sensitivity to radiation injury. Disorders such as systemic rheumatic disorders and diabetes may increase sensitivity to radiation injury. Some medications and chemotherapeutic agents (eg, dactinomycin, doxorubicin, bleomycin, 5-fluorouracil, methotrexate) may also increase sensitivity to radiation injury. Some chemotherapeutic agents (eg, doxorubicin, etoposide, paclitaxel, epirubicin), antibiotics (eg, cefotetan), statins (eg, simvastatin), and herbal preparations (eg, St. John's wort) can produce an inflammatory skin reaction at the site of prior irradiation (radiation recall) weeks to years after exposure at the same location (2).
+
+Carcinogenic, teratogenic, and heritable effects
+
+Radiation-induced genetic damage to somatic cells may result in malignant transformation. In-utero radiation exposure can lead to teratogenic effects, and damage to germ cells raises the theoretical possibility of transmissible genetic defects.
+
+Protracted whole-body exposure is thought to increase an average adult’s lifetime risk of cancer mortality (3).
+
+The chance of developing cancer due to commonly encountered doses (ie, from background radiation and typical imaging tests [see Risks of Ionizing Radiation]) is much less and may be zero.
+
+Estimates of increased risk of radiation-induced cancer as a result of the typically low doses experienced by people in the vicinity of reactor incidents such as Fukushima have been made by extrapolating downward from known effects of much higher doses. The very small resultant theoretical effect is multiplied by a large population to give what may appear to be a concerning number of additional cancer deaths. The validity of such extrapolations cannot be confirmed because the hypothesized increase in risk is too small to be detected in epidemiologic studies, and the possibility that there is no increased cancer risk due to this exposure cannot be excluded.
+
+Children are more susceptible to the risk of radiation-induced cancer because they have a higher number of future cell divisions and a longer life span during which cancer may manifest. CT of the abdomen done in a 1-year-old child is estimated to increase the child's estimated lifetime absolute risk of developing cancer by approximately 0.1 to 0.2% (4).
+
+Radionuclides that are incorporated into specific tissues are potentially carcinogenic at those sites (eg, the Chernobyl reactor accident resulted in substantial radioactive iodine uptake due to consumption of contaminated milk, and subsequent excess thyroid cancers occurred among exposed children).
+
+A fetus is exceptionally susceptible to high-dose radiation injury. However, at doses < 100 mGy, teratogenic effects are unlikely. The fetal risk from radiation at doses typical of imaging tests that pregnant women are likely to undergo is very small compared with the overall risk of birth defects (2 to 6 % observable at birth) and the potential diagnostic benefit of the examination. The increased risk of developing cancer as a result of in-utero radiation exposure is approximately the same as that from radiation exposure of children, which is approximately 2 to 3 times the adult risk of 5%/Sv (5).
+
+In a fetus, exposure in excess of 300 mGy during 8 to 15 weeks after conception may cause reduced intelligence (6).
+
+The potential risks from radiation exposure mandate giving careful consideration to the need for (or alternatives to) imaging tests involving radiation, optimizing the radiation exposure for body habitus and the clinical question being asked, as well as attention to the use of proper radiation protection procedures, especially in children and pregnant women.
+
+Damage to reproductive cells has been shown to cause birth anomalies in progeny of severely irradiated animals. However, hereditary effects have not been found in children of radiation-exposed humans, including the children of Japanese atomic bomb survivors or the children of cancer survivors treated with radiotherapy.
+
+Pathophysiology references
+
+1. Centers for Disease Control and Prevention (CDC). Acute Radiation Syndrome: Information for Clinicians. Accessed January 2, 2025.
+
+2. Balter S, Hopewell JW, Miller DL, et al. Fluoroscopically guided interventional procedures: A review of radiation effects on patients' skin and hair. Radiology. 254(2):326-341, 2010. doi:10.1148/radiol.2542082312
+
+3. National Research Council of the National Academies, Committee to Assess Health Risks from Exposure to Low Levels of Ionizing Radiation. Health risks from exposure to low levels of ionizing radiation: BEIR VII, Phase 2. Accessed January 2, 2025.
+
+4. United Nations Scientific Committee on the Effects of Atomic Radiation. Sources, Effects and Risks of Ionizing Radiation. Scientific Annex B: Effects of radiation exposure of children. Accessed January 2, 2025.
+
+5. National Council on Radiation Protection and Measurements (NCRP). Report No. 174 – Preconception and Prenatal Radiation Exposure: Health Effects and Protective Guidance (2013). Accessed January 2, 2025.
+
+6. Moon EK, Wang W, Newman JS, Bayona-Molano Mdel P. Challenges in interventional radiology: the pregnant patient. Semin Intervent Radiol. 2013;30(4):394-402. doi:10.1055/s-0033-1359734
+
+Symptoms and Signs of Radiation Exposure and Contamination
+
+Clinical manifestations depend on whether radiation exposure involves the whole body (acute radiation syndrome) or is limited to a small portion of the body (focal radiation injury).
+
+Acute radiation syndromes (ARS)
+
+After the whole body, or a large portion of the body, receives a high dose of penetrating radiation, several distinct syndromes may occur:
+
+Cerebrovascular syndrome
+
+Gastrointestinal (GI) syndrome
+
+Hematopoietic syndrome
+
+These syndromes have 3 different phases:
+
+Prodromal phase (minutes to 2 days after exposure): Lethargy and GI symptoms (nausea, anorexia, vomiting, diarrhea) are possible.
+
+Latent asymptomatic phase (hours to 21 days after exposure)
+
+Overt systemic illness phase (hours to > 60 days after exposure): Illness is classified by the main organ system affected
+
+Which syndrome develops, how severe it is, and how quickly it progresses depend on radiation dose (see table Effects of Whole-Body Irradiation From External Radiation or Internal Absorption). The symptoms and time course are fairly consistent for a given dose of radiation and thus can help estimate radiation exposure.
+
+The cerebrovascular syndrome, the dominant manifestation of extremely high whole-body doses of radiation (> 30 Gy), is always fatal. The prodrome develops within minutes to 1 hour after exposure. There is little or no latent phase. Patients develop tremors, seizures, ataxia, and cerebral edema and die within hours to 1 or 2 days.
+
+The GI syndrome is the dominant manifestation after whole-body doses of approximately 6 to 30 Gy. Prodromal symptoms, often marked, develop within about 1 hour and resolve within 2 days. During the latent period of 4 to 5 days, GI mucosal cells die. Cell death is followed by intractable nausea, vomiting, and diarrhea, which lead to severe dehydration and electrolyte imbalances, diminished plasma volume, and vascular collapse. Necrosis of intestine may also occur, predisposing to intestinal perforation, bacteremia, and sepsis. Death is common. Patients receiving > 10 Gy may have cerebrovascular symptoms (suggesting a lethal dose). Survivors also have the hematopoietic syndrome.
+
+The hematopoietic syndrome is the dominant manifestation after whole-body doses of approximately 1 to 6 Gy and consists of a generalized pancytopenia. A mild prodrome may begin after 1 to 6 hours, lasting 24 to 48 hours. Bone marrow stem cells are significantly depleted, but mature blood cells in circulation are largely unaffected. Circulating lymphocytes are an exception, and lymphopenia may be evident within hours to days after exposure. As the cells in circulation die by senescence, they are not replaced in sufficient numbers, resulting in pancytopenia. Thus, patients remain asymptomatic during a latent period of up to 4.5 weeks after a 1-Gy dose as the impediment of hematopoiesis progresses. Risk of various infections is increased as a result of the neutropenia (most prominent at 2 to 4 weeks) and decreased antibody production. Petechiae and mucosal bleeding result from thrombocytopenia, which develops within 3 to 4 weeks and may persist for months. Anemia develops slowly, because preexisting red blood cells have a longer life span than white blood cells and platelets. Survivors have an increased incidence of radiation-induced cancer, including leukemia.
+
+Table
+
+Effects of Whole-Body Irradiation From External Radiation or Internal Absorption
+
+Table
+
+Effects of Whole-Body Irradiation From External Radiation or Internal Absorption
+
+Effects of Whole-Body Irradiation From External Radiation or Internal Absorption
+
+Phase of Syndrome
+
+Feature
+
+Dose Range (Gy)*, †
+
+1–2
+
+2–6
+
+6–8
+
+8–30
+
+> 30
+
+Prodrome
+
+Incidence of nausea and vomiting
+
+5–50%
+
+50–100%
+
+75–100%
+
+90–100%
+
+100%
+
+Time of onset of nausea and vomiting after exposure‡
+
+2–6 hours
+
+1–2 hours
+
+10–60 minutes
+
+< 10 minutes
+
+Minutes
+
+Duration of nausea and vomiting
+
+< 24 hours
+
+24–48 hours
+
+< 48 hours
+
+< 48 hours
+
+N/A (patients die in < 48 hours)
+
+Severity and incidence of diarrhea
+
+None
+
+None to mild (< 10%)
+
+Moderate to Severe (> 10%)
+
+Severe (> 95%)
+
+Severe (100%)
+
+Time of onset of diarrhea after exposure
+
+—
+
+3–8 hours
+
+1–3 hours
+
+< 1 hour
+
+< 1 hour
+
+Severity and incidence of headache
+
+Slight
+
+Mild to moderate (50%)
+
+Moderate (80%)
+
+Severe (80–90%)
+
+Severe (100%)
+
+Time of onset of headache after exposure
+
+—
+
+4–24 hours
+
+3–4 hours
+
+1–2 hours
+
+< 1 hour
+
+Severity of fever
+
+Afebrile
+
+Moderate increase
+
+Moderate to severe
+
+Severe
+
+Severe
+
+Incidence of fever
+
+—
+
+10–100%
+
+100%
+
+100%
+
+100%
+
+Time of onset of fever after exposure
+
+—
+
+1–3 hours
+
+< 1 hour
+
+< 1 hour
+
+< 1 hour
+
+Central nervous system function
+
+No impairment
+
+Cognitive impairment for 6–20 hours
+
+Cognitive impairment for > 24 hours
+
+At higher doses, rapid incapacitation
+
+May have a lucid interval of several hours
+
+Ataxia
+
+Seizures
+
+Tremor
+
+Lethargy
+
+Latent period
+
+No symptoms
+
+28–31 days
+
+7–28 days
+
+< 7 days
+
+None
+
+None
+
+Overt illness
+
+Clinical manifestations
+
+Mild to moderate leukopenia
+
+Fatigue
+
+Weakness
+
+Moderate to severe leukopenia
+
+Purpura
+
+Hemorrhage
+
+Infections
+
+Epilation after 3 Gy
+
+Severe leukopenia
+
+High fever
+
+Diarrhea
+
+Vomiting
+
+Dizziness and disorientation
+
+Hypotension
+
+Electrolyte disturbance
+
+Nausea
+
+Vomiting
+
+Severe diarrhea
+
+High fever
+
+Electrolyte disturbance
+
+Shock
+
+N/A (patients die in < 48 hours)
+
+Dominant organ system syndrome
+
+Hematopoietic
+
+Hematopoietic
+
+Gastrointestinal (mucosal cells)
+
+Gastrointestinal (mucosal cells)
+
+Central nervous system
+
+Hospitalization
+
+Outpatient observation
+
+Recommended to necessary
+
+Urgent
+
+Palliative treatment (symptomatic only)
+
+Palliative treatment (symptomatic only)
+
+Acute mortality without medical care
+
+0–5%
+
+5–100%
+
+95–100%
+
+100%
+
+100%
+
+Acute mortality with medical care
+
+0–5%
+
+5–50%
+
+50–100%
+
+100%
+
+100%
+
+Death
+
+6–8 weeks
+
+4–6 weeks
+
+2–4 weeks
+
+2 days–2 weeks
+
+1–2 days
+
+* 1 rad = 1 cGy; 100 rad = 1 Gy.
+
+† Whole-body irradiation of up to ~1 Gy is unlikely to cause any symptoms.
+
+‡ Although time to emesis is a rapid and inexpensive method for estimating radiation dose, it should be used with caution because it is imprecise and has a high false-positive rate. Additional information, such as lymphocyte counts and details of the potential for exposure, improve accuracy.
+
+Adapted from Military Medical Operations Armed Forces Radiobiology Research Institute: Medical Management of Radiological Casualties, edition 3. June 2010.
+
+* 1 rad = 1 cGy; 100 rad = 1 Gy.
+
+† Whole-body irradiation of up to ~1 Gy is unlikely to cause any symptoms.
+
+‡ Although time to emesis is a rapid and inexpensive method for estimating radiation dose, it should be used with caution because it is imprecise and has a high false-positive rate. Additional information, such as lymphocyte counts and details of the potential for exposure, improve accuracy.
+
+Adapted from Military Medical Operations Armed Forces Radiobiology Research Institute: Medical Management of Radiological Casualties, edition 3. June 2010.
+
+Cutaneous radiation injury is injury to the skin and underlying tissues due to acute radiation doses as low as 3 Gy (see table Focal Radiation Injury). Cutaneous radiation injury can occur with acute radiation syndromes or with focal radiation exposure and ranges from mild transient erythema to necrosis. Delayed effects (> 6 months after exposure) include hyperpigmentation and hypopigmentation, progressive fibrosis, and diffuse telangiectasia. Thin atrophic skin can be easily damaged by mild mechanical trauma. Exposed skin is at increased risk of squamous cell carcinoma. In particular, the possibility of radiation exposure should be considered when patients present with a painful nonhealing skin burn without a history of thermal injury.
+
+Focal radiation injury
+
+Radiation to almost any organ can have both acute and chronic adverse effects (see table Focal Radiation Injury). In most patients, these adverse effects result from radiation therapy. Other common sources of exposure include inadvertent contact with unsecured food irradiators, radiation therapy equipment, x-ray diffraction equipment, and other industrial or medical radiation sources capable of producing high dose rates. Also, prolonged exposure to x-rays during certain interventional procedures done under fluoroscopic guidance can result in cutaneous radiation injury. Radiation-induced sores or ulcers may take months or years to fully develop. Patients with severe cutaneous radiation injury have severe pain and often require surgical intervention.
+
+Table
+
+Focal Radiation Injury*
+
+Table
+
+Focal Radiation Injury*
+
+Focal Radiation Injury*
+
+Tissue Exposed
+
+Adverse Effects
+
+Brain
+
+See Cranial Radiation Therapy and Neurotoxicity
+
+Heart and blood vessels
+
+Chest pain, radiation pericarditis, radiation myocarditis
+
+Skin
+
+Dose 2–4 Gy: Transient erythema
+
+Dose 4–5 Gy: Transient erythema, temporary epilation (within 2–3 weeks of exposure to > ~ 4 Gy)
+
+Dose 5–10 Gy: Prolonged erythema, possibly permanent epilation, dry desquamation (with exposures at the high end of the range)
+
+Dose 10–15 Gy: Dry desquamation (within 2–8 weeks of exposure)
+
+Dose 15–20 Gy: Moist desquamation (within 2–4 weeks of exposure)
+
+Dose 15–25 Gy: Blister formation (within 2–3 weeks of exposure)
+
+Dose > 20 Gy: Ulceration (within 2–3 weeks of exposure)
+
+Dose > 25 Gy: Necrosis (> 3 weeks after exposure)
+
+Gonads
+
+Depressed spermatogenesis, amenorrhea, decreased libido
+
+Threshold dose (~1% incidence) for sterility:
+
+Testes: > 6 Gy, onset ~ 3 weeks
+
+Ovaries: > 3 Gy, onset < 1 week
+
+Head and neck
+
+Mucositis, odynophagia, thyroid carcinoma
+
+Muscle and bone
+
+Myopathy, neoplastic changes, osteosarcoma
+
+Eyes
+
+Dose > ~ 0.5 Gy: Cataracts (after ~ 20 years latent period; the higher the dose and the younger the age at exposure, the shorter the latent period)
+
+Lungs
+
+Acute pneumonitis
+
+Fractionated exposure>30 Gy: Sometimes fatal (LD-50 ~ >10 Gy single high-dose exposure)
+
+Pulmonary fibrosis
+
+Kidneys
+
+Decreased GFR, decreased renal tubular function
+
+High doses (after 6 months–1 year latent period): Proteinuria, renal insufficiency, anemia, hypertension
+
+Cumulative dose > 20 Gy in < 5 weeks: Radiation fibrosis, oliguric renal failure
+
+Spinal cord
+
+Dose > 50 Gy: Myelopathy
+
+Fetus
+
+Growth restriction, congenital malformations, inborn errors of metabolism, fetal death
+
+Dose < 0.1 Gy: No significant effect
+
+Future cancer risk approximately the same as exposure of a child: ~ 10–15% per Gy
+
+Authors on behalf of ICRP, Stewart FA, Akleyev AV, et al. ICRP publication 118: ICRP statement on tissue reactions and early and late effects of radiation in normal tissues and organs--threshold doses for tissue reactions in a radiation protection context. Ann ICRP. 2012;41(1-2):1-322. doi:10.1016/j.icrp.2012.02.001
+
+GFR = glomerular filtration rate; Gy = gray; LD-50 = dose expected to be fatal to 50% of patients.
+
+* Typically due to radiation therapy.
+
+Authors on behalf of ICRP, Stewart FA, Akleyev AV, et al. ICRP publication 118: ICRP statement on tissue reactions and early and late effects of radiation in normal tissues and organs--threshold doses for tissue reactions in a radiation protection context. Ann ICRP. 2012;41(1-2):1-322. doi:10.1016/j.icrp.2012.02.001
+
+GFR = glomerular filtration rate; Gy = gray; LD-50 = dose expected to be fatal to 50% of patients.
+
+* Typically due to radiation therapy.
+
+Diagnosis of Radiation Exposure and Contamination
+
+Symptoms, severity, and symptom latency
+
+Serial absolute lymphocyte counts and serum amylase levels
+
+Diagnosis is by history of exposure, symptoms and signs, and laboratory testing. The onset, time course, and severity of symptoms can help determine radiation dose and thus also help triage patients relative to their likely consequences. However, some prodromal symptoms (eg, nausea, vomiting, diarrhea, tremors) are nonspecific, and causes other than radiation should be considered. Many patients without sufficient exposure to cause acute radiation syndromes may present with similar, nonspecific symptoms, particularly after a terrorist attack or reactor accident, when anxiety is high.
+
+After acute radiation exposure, complete blood count (CBC) with differential and calculation of absolute lymphocyte count is done and repeated 24, 48, and 72 hours after exposure to estimate the initial radiation dose and prognosis (see table Relationship Between Absolute Lymphocyte Count, Radiation Dose, and Prognosis). The relationship between dose and lymphocyte counts can be altered by physical trauma, which can shift lymphocytes from the interstitial spaces into the vasculature, raising the lymphocyte count (1, 2). This stress-related increase is transient and typically resolves within 24 to 48 hours after the physical insult. This transient elevation in lymphocyte count may suggest a falsely optimistic prognosis until the lymphocyte count falls. The CBC is repeated weekly to monitor bone marrow activity and as needed based on the clinical course. Serum amylase level rises in a dose-dependent fashion beginning 24 hours after significant radiation exposure, so levels are measured at baseline and daily thereafter. Other laboratory tests are done if feasible:
+
+C-reactive protein (CRP) level: CRP increases with radiation dose; levels may discriminate between minimally and heavily exposed patients.
+
+Blood citrulline level: Decreasing citrulline levels indicate gastrointestinal damage.
+
+Blood fms-related tyrosine kinase-3 (FLT-3) ligand levels: FLT-3 is a marker for hematopoietic damage.
+
+Interleukin-6 (IL-6): This marker of inflammation is increased at higher radiation doses.
+
+Quantitative granulocyte colony-stimulating factor (G-CSF) test: Levels are increased at higher radiation doses.
+
+Cytogenetic studies with overdispersion index: These studies are used to evaluate for partial body exposure.
+
+Table
+
+Relationship Between Absolute Lymphocyte Count in the Adult at 48 Hours, Radiation Dose*,†, and Prognosis
+
+Table
+
+Relationship Between Absolute Lymphocyte Count in the Adult at 48 Hours, Radiation Dose*,†, and Prognosis
+
+Relationship Between Absolute Lymphocyte Count in the Adult at 48 Hours, Radiation Dose*<sup >,</sup><sup >†</sup>, and Prognosis
+
+Lowest Absolute Lymphocyte Count (Cells/mL)
+
+Radiation Dose (Gy)
+
+Prognosis
+
+>1500 (normal adults)‡ (> 1.5 × 109/L)
+
+0.0–0.4
+
+Excellent
+
+1000–1499 (1–1.499 × 109/L)
+
+0.5–1.9
+
+Good
+
+500–999 (0.5–0.999 × 109/L)
+
+2.0–3.9
+
+Fair
+
+100–499 (0.1–0.499 ×109/L)
+
+4.0–7.9
+
+Poor
+
+< 100 (< 0.1 × 109/L)
+
+≥ 8.0
+
+Almost always fatal
+
+* Whole-body irradiation (approximate dose).
+
+† The absolute lymphocyte count dose-response relationship shown in this table can be perturbed by concomitant physical trauma. The stress response to physical trauma is accompanied by a general peripheral blood leukocytosis with various changes in the leukocyte differential and lymphocyte subsets.
+
+‡ Children normally have higher counts that decrease with age from a median of 4600/mL (4.6 × 109/L) at 0–2 years to 3100/mL (3.1 × 109/L) at 2–6 years, and to 2300/mL (2.3 × 109/L) at 7–17 years.
+
+Adapted from Mettler FA Jr, Voelz GL. Major radiation exposure—what to expect and how to respond. New Engl J Med.346:1554–1561, 2002. doi: 10.1056/NEJMra000365
+
+* Whole-body irradiation (approximate dose).
+
+† The absolute lymphocyte count dose-response relationship shown in this table can be perturbed by concomitant physical trauma. The stress response to physical trauma is accompanied by a general peripheral blood leukocytosis with various changes in the leukocyte differential and lymphocyte subsets.
+
+‡ Children normally have higher counts that decrease with age from a median of 4600/mL (4.6 × 109/L) at 0–2 years to 3100/mL (3.1 × 109/L) at 2–6 years, and to 2300/mL (2.3 × 109/L) at 7–17 years.
+
+Adapted from Mettler FA Jr, Voelz GL. Major radiation exposure—what to expect and how to respond. New Engl J Med.346:1554–1561, 2002. doi: 10.1056/NEJMra000365
+
+Radioactive contamination
+
+When contamination is suspected, the entire body should be surveyed with a thin window Geiger-Muller probe attached to a survey meter (Geiger counter) to identify the location and extent of external contamination. Additionally, to detect possible internal contamination, the nares, ears, mouth, and wounds are wiped with moistened swabs that are then tested with the counter. Urine, feces, and emesis should also be tested for radioactivity if internal contamination is suspected.
+
+Diagnosis references
+
+1. Toft P, Tønnesen E, Helbo-Hansen HS, et al. Redistribution of granulocytes in patients after major surgical stress. APMIS. 102(1):43-48, 1994. doi: 10.1111/j.1699-0463.1994.tb04843.x
+
+2. DeRijk R, Michelson D, Karp B, et al. Exercise and circadian rhythm-induced variations in plasma cortisol differentially regulate interleukin-1 beta (IL-1 beta), IL-6, and tumor necrosis factor-alpha (TNF alpha) production in humans: high sensitivity of TNF alpha and resistance of IL-6. J Clin Endocrinol Metab. 82(7):2182-2191, 1997. doi: 10.1210/jcem.82.7.4041
+
+Treatment of Radiation Exposure and Contamination
+
+Treatment of severe traumatic injuries or life-threatening medical conditions first
+
+Minimization of health care professional radiation exposure and contamination
+
+Treatment of external and internal contamination
+
+Sometimes specific measures for particular radionuclides
+
+Precautions for and treatment of compromised immune system
+
+Minimization of inflammatory response
+
+Supportive care
+
+Radiation exposure may be accompanied by physical injuries (eg, from burn, blast, fall). Associated trauma is more immediately life threatening than radiation exposure and must be treated expeditiously (see Approach to the Trauma Patient: Evaluation and Treatment). Trauma resuscitation of the seriously injured takes priority over decontamination efforts and must not be delayed awaiting special radiation management equipment and personnel. Standard universal precautions, as routinely used in trauma care, adequately protect the critical care team.
+
+Pearls & Pitfalls
+
+Associated trauma is more immediately life threatening than radiation exposure and must be treated expeditiously. Standard universal precautions, as routinely used in trauma care, adequately protect the critical care team.
+
+Table
+
+Management of Acute Radiation Syndromes (ARS)
+
+Table
+
+Management of Acute Radiation Syndromes (ARS)
+
+Management of Acute Radiation Syndromes (ARS)
+
+Syndrome
+
+Recommendation and its Strength*
+
+Hematopoietic
+
+G-CSF (granulocyte-colony stimulating factor) or GM-CSF (granulocyte-macrophage colony-stimulating factor) when absolute neutrophil count (ANC) < 0.5 × 109 cells/L (↑)
+
+Erythropoietic stimulating agents in patients with prolonged anemia (↓)
+
+Hematopoietic stem cells after failure of 2 to 3 weeks of cytokine treatment to induce recovery from marrow aplasia in the absence of non-hematopoietic organ failure (↓)
+
+Gastrointestinal
+
+Fluoroquinolone or similar antibiotic from 2 to 4 days after radiation exposure (↓)
+
+Bowel decontamination and parenteral antibiotics when indicated (↓)
+
+Prophylactic serotonin receptor antagonist when suspected exposure is >2 Gy (↓)
+
+Loperamide, as needed for control of diarrhea (↓)
+
+Cutaneous
+
+Topical class II–III corticosteroids, topical antibiotics, and topical antihistamines applied to radiation burns, ulcers, or blisters (↑)
+
+Systemic corticosteroids for radiation burns, ulcers, or necrosis in the absence of a specific indication for systemic corticosteroid use (strong against the practice)
+
+Surgical excision and graft of radiation ulcers or localized necrosis with intractable pain (↑)
+
+Neurovascular
+
+Supportive care with a serotonin receptor antagonist, mannitol, furosemide, and analgesics (↑)
+
+Critical care
+
+Fluid, electrolyte replacement therapy, and sedatives in patients with significant burns, hypovolemia, and/or shock (↑)
+
+Mechanical ventilation with a lung-protective strategy in patients with acute respiratory failure (↑)
+
+Selective oropharyngeal decontamination or selective decontamination of the digestive tract (↓)
+
+Maintain average blood glucose of 140 to 180 mg/dL (7.8 to 10 mmol/L) for majority of critical care patients (↓)
+
+H2 blocker or proton pump inhibitor (↓)
+
+* Strength of recommendation in favor of the practice: ↑ = Strong; ↓ = Weak
+
+Modified from Dainiak N. Medical management of acute radiation syndrome and associated infections in a high-casualty incident. J Radiat Res. 59(suppl 2):ii54-ii64, 2018. doi:10.1093/jrr/rry004
+
+* Strength of recommendation in favor of the practice: ↑ = Strong; ↓ = Weak
+
+Modified from Dainiak N. Medical management of acute radiation syndrome and associated infections in a high-casualty incident. J Radiat Res. 59(suppl 2):ii54-ii64, 2018. doi:10.1093/jrr/rry004
+
+Preparation
+
+As part of their emergency preparedness plans, hospitals should have protocols and trained personnel available to deal with patients contaminated with hazardous materials, including radioactive material. Regulatory and accrediting agencies (eg, state departments of health or the Joint Commission in the United States) often mandate having these plans.
+
+If practical, treatment area surfaces may be covered with plastic sheeting to aid in facility decontamination. This preparation should never take precedence over provision of medical stabilization procedures. Waste receptacles (labeled “Caution, Radioactive Material”), sample containers, and Geiger counters should be readily available. All equipment that has come into contact with the room or with the patient (including ambulance equipment) should remain isolated until lack of contamination has been verified. An exception is a mass casualty situation, during which lightly contaminated critical equipment such as helicopters, ambulances, trauma rooms, and radiography, CT, and surgical facilities should be quickly decontaminated to the extent possible and returned to service.
+
+Personnel involved in treating or transporting the patient should follow standard precautions, wearing caps, masks, gowns, gloves, and shoe covers. Used gear should be placed in specially marked bags or containers. Dosimeter badges should be worn to monitor radiation exposure. Personnel may be rotated to minimize exposure, and pregnant personnel should be excluded from the treatment area.
+
+Due to the low exposure rates anticipated from most contaminated patients, medical staff members caring for typical patients are unlikely to receive doses in excess of the occupational limit of 0.05 Sv/year (1). Even in the extreme case of radiation casualties from the Chernobyl nuclear reactor accident, medical personnel who treated patients in the hospital received < 0.01 Sv. Several authoritative sources suggest that a dose of up to at least 0.5 Gy may be considered an acceptable risk for lifesaving activity.
+
+Identification of contamination
+
+Identification of radioactive contamination on patients should prompt their isolation in a designated area (if practical), decontamination, and notification of the hospital radiation safety officer, public health officials, hazardous material teams, and law enforcement agencies as appropriate to investigate the source of radioactivity.
+
+External contamination should be determined by scanning with a radiation survey meter appropriate for patients presumed to be contaminated with radioactive material (eg, Geiger counter) (2).
+
+External decontamination
+
+Typical sequence and priorities are
+
+Removing clothing and external debris
+
+Decontaminating wounds before decontaminating intact skin
+
+Cleaning the most contaminated areas first
+
+Using a radiation survey meter to monitor progress of decontamination
+
+Continuing decontamination until areas are below 2 to 3 times background radiation or there is no significant reduction between decontamination efforts
+
+Clothes are removed carefully to minimize the spread of contamination and placed in labeled containers. Clothing removal eliminates approximately 90% of external contamination. Foreign objects should be considered contaminated until checked with a radiation survey meter.
+
+Contaminated wounds are decontaminated before intact skin; they are irrigated with saline and gently scrubbed with a surgical sponge. Minimal debridement of wound edges may be done if there is residual contamination after multiple attempts at cleansing. Debridement beyond the wound margin is not required. However, embedded radioactive shrapnel can have very high radiation exposure rates and thus should be removed using long forceps or a similar device and placed in a lead container.
+
+Contaminated skin and hair are washed with lukewarm water and mild detergent until radiation survey meter measurements indicate levels below 2 to 3 times normal background radiation or until successive washings do not significantly reduce contamination levels. All wounds are covered during washing to prevent the introduction of radioactive material. Scrubbing may be firm but should not abrade the skin. Special attention is usually required for fingernails and skinfolds. Hair that remains contaminated is removed with scissors or electric clippers; shaving is avoided. Inducing sweating (eg, placing a rubber glove over a contaminated hand) may help remove residual skin contamination.
+
+Burns are rinsed gently rather than scrubbed because scrubbing may increase injury severity. Subsequent dressing changes help remove residual contamination.
+
+Decontamination is not necessary for patients who have been irradiated by an external source and are not contaminated.
+
+Internal decontamination
+
+Ingested radioactive material should be removed promptly by induced vomiting or lavage if exposure is recent. Frequent mouth rinsing with saline or dilute hydrogen peroxide is indicated for oral contamination. Exposed eyes should be decontaminated by directing a stream of water or saline laterally and directed away from the nose to avoid contaminating the nasolacrimal duct.
+
+The urgency and importance of using more specific treatment measures depend on the type and amount of the radionuclide, its chemical form and metabolic characteristics (eg, solubility, affinity for specific target organs), the route of contamination (eg, inhalation, ingestion, contaminated wounds), and the efficacy of the therapeutic method. The decision to treat internal contamination requires knowledge of the potential risks; consultation with a specialist is recommended (eg, Centers for Disease and Control and Prevention (CDC): Radiation Emergencies: Clinical Guidance and Resources for Professionals, Radiation Emergency Assistance Center/Training Site [REAC/TS] in the United States, International Atomic Energy Agency: Incident and Emergency Centre).
+
+Methods to remove radioactive contaminants (3) from the body (decorporation) include
+
+Saturation of the target organ (eg, potassium iodide [KI] for iodine isotopes) (see U.S. Department of Health and Human Services Radiation Emergency Medical Management: Guidance on Diagnosis and Treatment for Healthcare Providers)
+
+Chelation at the site of entry or in body fluids followed by rapid excretion (eg, calcium or zinc diethylenetriamine penta-acetate [DTPA] for americium, californium, plutonium, and yttrium)
+
+Acceleration of the metabolic cycle of the radionuclide by isotope dilution (eg, water for hydrogen-3)
+
+Precipitation of the radionuclide in the intestinal lumen followed by fecal excretion (eg, oral calcium or aluminum phosphate solutions for strontium-90)
+
+Ion exchange in the gastrointestinal tract (eg, Prussian blue for cesium-137, rubidium-82, thallium-201)
+
+Because a serious nuclear power reactor accident that releases fission products into the environment could expose large groups of people to radioiodine, decorporation using oral potassium iodide has been studied in great detail (4). Potassium iodide saturates the iodine receptors of the thyroid. Decorporation with oral potassium iodide prevents the gland from taking up radioactive iodine, which is the main cause of morbidity. Potassium iodide is > 95% effective when given at the optimal time (1 hour before exposure). However, effectiveness diminishes significantly over time (~80% effective at 2 hours after exposure and administration more than 24 hours after exposure will offer no protection). Potassium iodide can be given either in tablet form or as a supersaturated solution (dosage: adults and children > 68 kg, 130 mg; age 3 to 18 years [< 68 kg], 65 mg; age 1 to 36 months, 32 mg; age < 1 month, 16 mg). The compound is effective only for internal contamination with radioactive iodides and has no benefit in internal contamination with any other radioactive elements. Most other medications used for decorporation are much less effective and reduce the dose to the patient only by 25 to 75%. Contraindications to potassium iodide include iodine allergies and certain skin disorders associated with iodine sensitivity (eg, dermatitis herpetiformis, urticaria vasculitis).
+
+Specific management
+
+Supportive care is provided as needed and includes managing shock and hypoxia and relieving pain and anxiety. Frequently benzodiazepines (eg, lorazepam) are needed to control seizures, antiemetics (eg, metoclopramide, prochlorperazine, ondansetron) to control vomiting, and oral antidiarrheal agents (eg, kaolin/pectin, loperamide) for diarrhea.
+
+There is no specific treatment for the cerebrovascular syndrome. It is universally fatal; care should address patient comfort.
+
+The gastrointestinal syndrome is treated with aggressive fluid resuscitation and electrolyte replacement. Parenteral nutrition should be initiated to promote bowel rest. In febrile patients, broad-spectrum antibiotics (eg, fluoroquinolones) should be initiated immediately. Septic shock from overwhelming infection remains the most likely cause of death.
+
+Management of the hematopoietic syndrome is similar to that of bone marrow hypoplasia and pancytopenia of any cause. Blood products should be transfused to treat anemia and thrombocytopenia, and hematopoietic growth factors (granulocyte colony-stimulating factor and granulocyte macrophage colony-stimulating factor) when absolute neutrophil count < 0.5 × 109 cells/L (<500 cells/mm3). Broad-spectrum antibiotics should be given to treat neutropenia and neutropenic fever (see Treatment of Neutropenia and Lymphocytopenia) (5). Patients with neutropenia should also be placed in reverse isolation. With a whole-body radiation dose > 4 Gy, the probability of bone marrow recovery is poor, and hematopoietic growth factors should be given as soon as possible. Filgrastim can be used for the treatment of myelosuppression from radiation. Hematopoietic stem cell transplantation has had limited success but should be considered for exposure > 7 to 10 Gy.
+
+Cytokines may be helpful (5). Recommended medications and dosages are
+
+Filgrastim (granulocyte colony-stimulating factor [G-CSF]) subcutaneously administered as soon as possible after suspected or confirmed exposure to radiation doses greater than 2 Gy
+
+Sargramostim (granulocyte macrophage colony-stimulating factor [GM-CSF]) subcutaneously
+
+Pegfilgrastim (pegylated G-CSF) subcutaneously
+
+Radiation-induced sores or ulcers that fail to heal satisfactorily may be repaired by skin grafting or other surgical procedures.
+
+Aside from regular monitoring for signs of certain disorders (eg, ophthalmic examination for cataracts, thyroid function studies for thyroid disorders), there is no specific monitoring, screening, or treatment for specific organ injury or cancer.
+
+Treatment references
+
+1. Mettler FA, Upton A.C, Hendee W. 2008. Medical Effects of Ionizing Radiation: 3rd Edition. United States. https://doi.org/10.1118/1.3021455
+
+2. US Department of Health and Human Services. Radiation Emergency Medical Management: Guidance on Diagnosis and Treatment for Healthcare Providers. Accessed January 2, 2025.
+
+3. US Department of Health and Human Services. Managing Internal Radiation Contamination. Accessed January 2, 2025.
+
+4. Centers for Disease Control and Prevention (CDC). Radiation Emergencies; Potassium Iodide (KI). Accessed January 2, 2025.
+
+5. Armed Forces Radiobiology Research Institute (AFRRI). Medical Management of Radiological Casualties Handbook. 5th ed. Bethesda, MD: AFRRI; 2023. Accessed January 2, 2025.
+
+Prognosis for Radiation Exposure and Contamination
+
+Without medical care, the LD-50/60 (dose expected to be fatal to 50% of patients within 60 days) for whole-body radiation is approximately 3 Gy; exposure to > 6 Gy is nearly always fatal. Time to death decreases as the dose increases. Death may occur within hours to a few days in patients with the cerebrovascular syndrome and usually within 2 days to several weeks in patients with the gastrointestinal syndrome. In patients with the hematopoietic syndrome, death may occur within 4 to 8 weeks because of a supervening infection or massive hemorrhage.
+
+When exposure is < 6 Gy, survival is possible and is inversely related to total dose. Patients exposed to whole-body doses < 2 Gy should fully recover within 1 month, although long-term sequelae (eg, cancer) may occur.
+
+With medical care, the LD-50/60 is 6 Gy. Occasional patients have survived exposures of up to 10 Gy. Significant comorbidities, injuries, and burns worsen prognosis.
+
+Prevention of Radiation Exposure and Contamination
+
+Protection from radiation exposure is accomplished by
+
+Avoiding contamination with radioactive material
+
+Minimizing the duration of exposure
+
+Maximizing the distance from the source of radiation
+
+Shielding the source
+
+These principles can be applied to medical radiation exposures as well as industrial accidents and terrorist events with radiation exposures.
+
+Prevention of Radiation Exposure and Contamination in Patients
+
+During radiation therapy, parts of the body that are near, but are not the target of the therapy procedure, should be shielded to the extent possible with lead. However, gonadal shielding is no longer routinely recommended for diagnostic radiographs or computed tomography (1, 2). It has been determined that shielding can interfere with diagnostic imaging by potentially obscuring critical areas of the body, leading to repeat examinations, which can inadvertently lead to higher radiation exposure during an imaging exam. Furthermore, the main source of radiation exposure to organs adjacent to the imaging field is from internal scatter of x-rays from tissues within the imaging field (1, 3-5).
+
+Prevention of Radiation Exposure and Contamination in Medical Personnel
+
+Medical personnel with routine exposure to radiation sources should follow procedures to minimize duration of exposure, maximize distance from the source of radiation, and wear appropriate shielding.
+
+Although shielding of personnel with lead aprons or commercially available transparent shields effectively reduces exposure to low-energy scattered x-rays from diagnostic and interventional imaging studies, these aprons and shields are almost useless in reducing exposure to the high-energy gamma rays produced by radionuclides that would likely be used in a terrorist incident or be released in a nuclear power plant accident. In such cases, measures that can minimize exposure include using standard precautions, undergoing decontamination efforts, and maintaining distance from contaminated patients when not actively providing care.
+
+All personnel working around radiation sources should wear dosimeter badges if they are at risk for exposures > 10% of the maximum permissible occupational dose (0.05 Sv) (6). Self-reading electronic dosimeters are helpful for monitoring the cumulative dose received during an incident.
+
+Public response
+
+After widespread high-level environmental contamination from a nuclear power plant accident or intentional release of radioactive material, exposure can be reduced either by
+
+Sheltering in place
+
+Evacuating the contaminated area
+
+Which recommendation to follow depends on many event-specific variables, including
+
+The time elapsed since initial release
+
+Whether release has stopped or is ongoing
+
+Weather conditions
+
+Availability and type of shelter
+
+Evacuation conditions (eg, traffic, transportation availability)
+
+Consistent and concise messages from public health officials can help reduce unnecessary panic and reduce the number of emergency department visits from people at low risk, thus keeping emergency departments from being overwhelmed. Such a communication plan should be developed prior to any event. A plan to decrease the demand on emergency department resources by providing an alternative location for first aid, decontamination, and counseling of people without emergent medical problems is recommended.
+
+Public health officials should advise the public to follow the advice of local public health officials as given on emergency alert notification systems. If in doubt, shelter in place is the best option until additional information becomes available. If sheltering is recommended, the center of a concrete or metal structure above or below grade (eg, in a basement) is best. If the event is the detonation of a nuclear weapon, shelter in place as quickly as an effective shelter can be found for the first few hours after the detonation and then follow the advice of local emergency response officials.
+
+Preventive medications
+
+People living within 16 km (10 miles) of a nuclear power plant should have ready access to potassium iodide tablets in case radioactive iodine, which is a fission byproduct, is released from the plant. Potassium iodide helps prevent radioactive iodine uptake by the thyroid (7). These tablets can be obtained from local pharmacies and some public health agencies.
+
+Radioprotective medications, such as thiol compounds with radical scavenging properties, have been shown to reduce mortality when given before or at the time of irradiation in patients undergoing chemotherapy and/or radiation therapy. Additional investigations are needed to demonstrate benefit in nonmedical radiation exposures (eg, nuclear power plant accidents).
+
+Amifostine is a powerful injectable radioprotective agent. It is used clinically to prevent xerostomia in patients undergoing radiation therapy. Adverse effects include nausea and vomiting, hypotension, and decreased serum calcium. Exposure of an unborn child to this medication could cause birth defects (8).
+
+Palifermin, a mucocutaneous epithelial growth factor, is a modified version of a naturally occurring human protein called keratinocyte growth factor (KGF) that is manufactured in a laboratory (see U.S. Food & Drug Administration: Palifermin). It is used to reduce the chances of developing severe mucositis and decrease duration of mucositis in patients who receive high doses of chemotherapy and radiation followed by stem cell rescue. Palifermin can interact with heparin, thus intravenous lines should be rinsed with saline prior to and after palifermin administration. Adverse effects include rash, pancreatitis, fever, and peripheral edema. Exposure of a fetus to this medication could cause birth defects.
+
+Prevention references
+
+1. National Council on Radiation Protection and Measurements. NCRP Recommendations for Ending Routine Gonadal Shielding During Abdominal and Pelvic Radiography. NCRP Statement No. 13. January 12, 2021. Accessed January 2, 2025.
+
+2. National Council on Radiation Protection and Measurements. NCRP Recommendations for Ending Routine Gonadal Shielding During Abdominal and Pelvic Radiography: Companion to NCRP Statement No. 13. January 12, 2021. Accessed January 2, 2025.
+
+3. American Association of Physicists in Medicine. Publications: Medical Physics Practice Guidelines. Accessed January 2, 2025.
+
+4. American College of Radiology. Patient Gonadal and Fetal Shielding Education Module. Accessed January 2, 2025.
+
+5. American College of Radiology. NCRP Recommends Against Routine Gonadal Shielding. Accessed January 2, 2025.
+
+6. United States Code of Federal Regulations Title 10. Energy § 10.20.1502 Conditions requiring individual monitoring of external and internal occupational dose. Accessed January 2, 2025.
+
+7. United States Code of Federal Regulations Title 10. Energy § 10.50.47 Emergency plans. Accessed January 2, 2025.
+
+8. Singh VK, Seed TM.The efficacy and safety of amifostine for the acute radiation syndrome. Expert Opin Drug Saf 18(11):1077-1090, 2019. doi: 10.1080/14740338.2019.1666104

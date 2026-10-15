@@ -1,0 +1,502 @@
+=== Overview of Rickettsial and Related Infections (Merck Manual Professional) ===
+Section: Infectious Disease > Rickettsiae and Related Organisms
+Source: https://www.merckmanuals.com/professional/infectious-diseases/rickettsiae-and-related-organisms/overview-of-rickettsial-and-related-infections
+Retrieved: 2026-09-25
+
+Rickettsial diseases cause a variety of human and veterinary diseases worldwide (see also table Global Zoonotic Diseases: Bacterial and Rickettsial Diseases).
+
+Rickettsia, Orientia, Ehrlichia, Anaplasma, and Coxiella genera were historically classified together within the Rickettsiaceae family, but evidence from genetic analyses has prompted reclassification of these into separate families (1, 2). In the current classification system, they belong to the following families:
+
+Rickettsiaceae family:
+
+Rickettsia
+
+Orientia
+
+Anaplasmataceae family:
+
+Ehrlichia
+
+Anaplasma
+
+Neorickettsia
+
+Neoehrlichia
+
+Neorickettsia is another distinct genus within the Anaplasmataceae family, but it has characteristics of typical Rickettsia species capable of causing veterinary (3) and human (4) disease. Neoehrlichia (also called Candidatus Neoehrlichia) is a distinct genus within the Anaplasmataceae family that is closely related to Ehrlichia species and is an emerging pathogen of human tick-borne illness (5).
+
+Coxiellaceae family:
+
+Coxiella (specifically C. burnetii)
+
+These coccobacilli require living cells for growth; however, they are considered true bacteria (and not parasites) because they have metabolic enzymes and cell walls, use oxygen, and are susceptible to antibiotics.
+
+Most rickettsial diseases are zoonotic diseases. They are transmitted from vertebrate animals to humans via vectors. In the typical transmission cycle, the bacterium is acquired by the vectors from animal reservoir hosts and is then transmitted from the vector to humans; humans are incidental hosts. The majority of these organisms have an arthropod vector (eg, louse, mite, tick, flea), but there are exceptions: N. sennetsu requires a trematode vector, and C. burnetii does not require a vector. The bacterium can be maintained in ticks via transstadial transmission (surviving across life stages) and, in some species, transovarial transmission (passed from female to offspring). Most have an animal reservoir, but exceptions are R. prowazekii, for which humans are the primary reservoir, and some organisms (eg, R. rickettsii and other spotted fever rickettsia, R. akari, R. felis, and Orientia), for which the vector is also the reservoir.
+
+Specific vectors, reservoirs, and endemic regions differ widely by causative organism and geographic region (see table Diseases Caused by Rickettsia, Orientia, Ehrlichia, Anaplasma, and Coxiella Species). Geographic distribution of these rickettsiae is determined by that of the infected arthropod. As part of ongoing initiatives to eradicate vector-borne disease, the World Health Organization has established surveillance frameworks and control strategies worldwide (6).
+
+There are many rickettsial species, but 3 cause most human rickettsial infections:
+
+R. rickettsii
+
+R. prowazekii
+
+R. typhi
+
+Table
+
+Diseases Caused by Rickettsia, Orientia, Ehrlichia, Anaplasma, and Coxiella Species
+
+Table
+
+Diseases Caused by Rickettsia, Orientia, Ehrlichia, Anaplasma, and Coxiella Species
+
+Diseases Caused by <i >Rickettsia, Orientia, Ehrlichia, Anaplasma,</i> and <i >Coxiella</i> Species
+
+Disease
+
+Organism
+
+Rash or Eschar
+
+Vector
+
+Animal Reservoir
+
+Endemic Region
+
+Typhus
+
+Epidemic typhus, Brill-Zinsser disease
+
+Rickettsia prowazekii
+
+Trunk to extremities
+
+May be absent in Brill-Zinsser disease
+
+No eschar
+
+Body lice
+
+No animal reservoir (humans are the primary reservoir)
+
+Worldwide
+
+Murine (endemic) typhus
+
+R. typhi, R. felis
+
+Trunk to extremities
+
+No eschar
+
+Rat flea, cat flea
+
+Rats, opossums
+
+Worldwide
+
+Scrub typhus
+
+Scrub typhus (tsutsugamushi disease)
+
+Orientia tsutsugamushi
+
+Trunk to extremities
+
+Eschar present
+
+Trombiculid mite larvae (chiggers)
+
+Rodents, shrews
+
+Asia-Pacific area bounded by Japan, Korea, China, India, and northern Australia
+
+Spotted fever
+
+Rocky Mountain spotted fever
+
+R. rickettsii
+
+Extremities to trunk
+
+No eschar
+
+Ixodid (hard) ticks, including Dermacentor andersoni (wood tick), principally in the western United States, and D. variabilis (dog tick), principally in the eastern, central, and southern United States
+
+Amblyomma cajennense (Cayenne tick) and A. aureolatum (yellow dog tick) in Central and South America
+
+Rodents
+
+Western Hemisphere, including most of the United States (except Maine, Hawaii, and Alaska); Central and South America
+
+North Asian tick-borne rickettsiosis
+
+R. sibirica
+
+Trunk, extremities, face
+
+Multiple eschars present
+
+Ixodid ticks
+
+Rodents
+
+Armenia, Central Asia, Siberia, Mongolia, China
+
+Queensland tick typhus
+
+R. australis
+
+Trunk, extremities, face
+
+Eschar present
+
+Ixodid ticks
+
+Rodents
+
+Australia
+
+African tick typhus (African tick bite fever)
+
+R. africae
+
+Multiple eschars on extremities at the sites of the tick bites
+
+Ixodid ticks
+
+Ruminants (cattle, sheep, goats)
+
+Sub-Saharan Africa, West Indies
+
+Mediterranean spotted fever (boutonneuse fever)*
+
+R. conorii
+
+Trunk, extremities, face
+
+Eschar present
+
+Rhipicephalus sanguineus (brown dog tick)
+
+Rodents, dogs
+
+Africa; India; southern Europe; the Middle East adjacent to the Mediterranean, Black, and Caspian Seas
+
+Rickettsialpox
+
+R. akari
+
+Trunk, extremities, face
+
+Eschar present
+
+Mites
+
+Mice
+
+United States, Russia, Korea, Africa
+
+R. parkeri rickettsiosis
+
+R. parkeri
+
+Eschar present
+
+Amblyomma maculatum (Gulf Coast tick)
+
+Rodents
+
+Southern United States, South America
+
+Pacific Coast tick fever
+
+R. rickettsii subspecies californica (formerly R. philipii)
+
+Eschar present
+
+Mild disease
+
+Dermacentor occidentalis (Pacific Coast tick)
+
+Uncertain, likely rodents
+
+California
+
+Neorickettsial infections
+
+Sennetsu fever
+
+Neorickettsia sennetsu
+
+Rarely, a petechial rash
+
+No eschar
+
+Digenean trematodes (eg, Nanophyetus salmincola)
+
+Fish
+
+Southeast Asia, East Asia, with possible endemicity in other regions of Asia
+
+Ehrlichiosis and anaplasmosis
+
+Monocytic ehrlichiosis
+
+Ehrlichia chaffeensis
+
+Uncommon, but more common among children
+
+No eschar
+
+Ticks (A. americanum, also known as the lone star tick)
+
+White-tailed deer
+
+Southeastern and south central United States
+
+Granulocytic anaplasmosis
+
+Anaplasma phagocytophilum
+
+None
+
+No eschar
+
+Ticks (Ixodes scapularis in the eastern and Midwest United States, I. pacificus in the western United States, possibly I. ricinus in Europe)
+
+Rodents, white-tailed deer
+
+In the United States, the Northeast, mid-Atlantic, upper Midwest, and West Coast; Europe
+
+Neoehrlichiosis
+
+Neoehrlichia mikurensis
+
+Rashes resemble erythema nodosum or erysipelas
+
+No eschar
+
+Ixodid ticks
+
+Uncertain, likely rodents
+
+Europe, Asia
+
+Q Fever
+
+Q fever
+
+Coxiella burnetii
+
+Rare but more common among children
+
+No eschar
+
+No vector
+
+Ruminants, cats
+
+Worldwide
+
+* Often known by the area in which it occurs (eg, Indian tick typhus, Marseilles fever).
+
+* Often known by the area in which it occurs (eg, Indian tick typhus, Marseilles fever).
+
+General references
+
+1. Mahmoud HYAH, Soliman AM, Shahat MS, et al. Molecular detection of Rickettsia aeschlimannii, Borrelia theileri, and Francisella-like endosymbionts in Camelus dromedarius and dogs in Luxor, Egypt. Sci Rep. 2025;15(1):12872. Published 2025 Apr 15. doi:10.1038/s41598-025-91530-x
+
+2. Kocan KM, de la Fuente J, Cabezas-Cruz A. The genus Anaplasma: new challenges after reclassification. Rev Sci Tech. 2015;34(2):577-586. doi:10.20506/rst.34.2.2381
+
+3. Palerme J-S. Salmon Poisoning Disease in Dogs. In: Hess L, ed. MSD Veterinary Manual. Reviewed/Revised September 2025. Accessed January 2, 2026.
+
+4. Vaughan JA, Tkach VV, Greiman SE. Neorickettsial endosymbionts of the digenea: diversity, transmission and distribution. Adv Parasitol. 2012;79:253-297. doi:10.1016/B978-0-12-398457-9.00003-2
+
+5. Rar V, Golovljova I. Anaplasma, Ehrlichia, and "Candidatus Neoehrlichia" bacteria: pathogenicity, biodiversity, and molecular genetic characteristics, a review. Infect Genet Evol. 2011;11(8):1842-1861. doi:10.1016/j.meegid.2011.09.019
+
+6. World Health Organization. Global vector control response 2017–2030. October 2, 2017. Accessed January 6, 2026.
+
+Symptoms and Signs of Rickettsial Infections
+
+The incubation period for most rickettsial infections is 5 to 10 days (1).
+
+Rickettsiae multiply at the site of arthropod attachment and often produce a local lesion (eschar). Rickettsia prowazekii, Neorickettsia sennetsu, and Coxiella burnetii are exceptions because none is characterized by eschars or organism replication at the site of entry. They penetrate the skin or mucous membranes; some (R. rickettsii) multiply in the endothelial cells of small blood vessels, causing vasculitis, and others replicate in white blood cells (Ehrlichia species in monocytes, Anaplasma species in granulocytes). Thus, thrombocytopenia occurs in rickettsial infections, and leukopenia occurs in Anaplasma and Ehrlichia infections.
+
+Clinical presentations vary by specific pathogen. Common symptoms of rickettsial infections usually include sudden-onset fever with severe headache, malaise, prostration, and, in most cases, a characteristic rash. Hepatosplenomegaly may occur in some infections.
+
+Regional lymphadenopathy is common with infection by Orientia species or members of the spotted fever group (except for R. rickettsii).
+
+The endothelial vasculitis caused by R. rickettsii leads to increased capillary permeability, microhemorrhages, and platelet consumption. A petechial rash (due to focal areas of hemorrhage) involving the palms and soles commonly occurs, and gangrene of skin and tissues may result. Such damage in the brain may lead to encephalitis.
+
+Patients seriously ill with a rickettsial disease of the typhus or spotted fever group may have ecchymotic skin necrosis and digital gangrene. Hemodynamic compromise may result, with noncardiogenic pulmonary and cerebral edema (due to endothelial damage and vasculitis causing increased vascular permeability), circulatory collapse, shock, oliguria, anuria, azotemia, anemia, hyponatremia, hypochloremia, delirium, and coma.
+
+Symptoms and signs reference
+
+1. Centers for Disease Control and Prevention (CDC). Rickettsial Diseases. April 23, 2025. Accessed January 2, 2026.
+
+Diagnosis of Rickettsial and Related Infections
+
+History and physical examination
+
+Biopsy of rash with fluorescent antibody staining to detect organisms
+
+Acute and convalescent serologic testing (serologic testing not useful acutely)
+
+Molecular diagnostic techniques (eg, polymerase chain reaction [PCR])
+
+Differentiating rickettsial from other infections
+
+Rickettsial and related diseases must be differentiated from other acute infections that cause a rash, primarily meningococcemia, measles (rubeola), and rubella. A history of louse or flea contact, tick bite, or presence in a known endemic area is helpful, but such history is often absent. Clinicians should specifically ask about travel to an endemic region within the incubation period of the disease.
+
+Clinical features may help distinguish diseases:
+
+Meningococcemia: The rash may be pink, macular, maculopapular, or petechial in the subacute form and petechially confluent or ecchymotic in the fulminant form. The rash develops rapidly in acute meningococcal disease and, when ecchymotic, is usually tender when palpated.
+
+Measles (rubeola): The rash begins on the face, spreads to the trunk and arms, and soon becomes confluent. A prodrome of respiratory symptoms (eg, rhinorrhea, sneezing) and conjunctivitis is common.
+
+Rubella: The rash usually remains discrete. Postauricular lymph node enlargement suggests rubella.
+
+Examples of Meningococcemia, Measles (Rubeola), and Rubella
+
+Meningococcemia
+
+Fulminant meningococcemia initially causes petechiae, which become confluent and rapidly progress to ecchymoses.
+
+Fulminant meningococcemia initially causes petechiae, which become confluent and rapidly progress to ecchymoses.
+
+CDC
+
+Measles (Macular Rash)
+
+Measles (rubeola) manifests as a diffuse macular rash that becomes confluent.
+
+Measles (rubeola) manifests as a diffuse macular rash that becomes confluent.
+
+CDC
+
+Rubella
+
+Rubella manifests as a diffuse rash comprising discrete, pinpoint macules that do not coalesce.
+
+Rubella manifests as a diffuse rash comprising discrete, pinpoint macules that do not coalesce.
+
+PR. PH. FRANCESCHINI/CNRI/SCIENCE PHOTO LIBRARY
+
+Meningococcemia
+
+Fulminant meningococcemia initially causes petechiae, which become confluent and rapidly progress to ecchymoses.
+
+Fulminant meningococcemia initially causes petechiae, which become confluent and rapidly progress to ecchymoses.
+
+CDC
+
+Measles (Macular Rash)
+
+Measles (rubeola) manifests as a diffuse macular rash that becomes confluent.
+
+Measles (rubeola) manifests as a diffuse macular rash that becomes confluent.
+
+CDC
+
+Rubella
+
+Rubella manifests as a diffuse rash comprising discrete, pinpoint macules that do not coalesce.
+
+Rubella manifests as a diffuse rash comprising discrete, pinpoint macules that do not coalesce.
+
+PR. PH. FRANCESCHINI/CNRI/SCIENCE PHOTO LIBRARY
+
+Differentiating between rickettsial diseases
+
+Rickettsial diseases must also be differentiated from each other. Clinical features allow some differentiation, but overlap is considerable:
+
+Rocky Mountain spotted fever (RMSF): The rash usually appears on or about the fourth febrile day and appears as blanching macules, initially on the wrists and ankles. Then the rash spreads to the rest of the extremities and gradually becomes petechial as it spreads to the trunk, palms, and soles over several days. Some patients with RMSF never develop a rash. Vasculitis often develops; it may affect the skin, subcutaneous tissues, central nervous system, lungs, heart, kidneys, liver, or spleen.
+
+Epidemic typhus: The rash usually appears initially in the axillary folds and on the trunk. Later, it spreads peripherally, rarely involving the palms, soles, and face. Severe physiologic and pathologic abnormalities similar to those of RMSF occur.
+
+Murine typhus: The rash is nonpurpuric, nonconfluent, and less extensive, and renal and vascular complications are uncommon.
+
+Scrub typhus: Manifestations are similar to those of RMSF and epidemic typhus. However, scrub typhus occurs in different geographic areas, and, frequently, an eschar develops with satellite adenopathy.
+
+Rickettsialpox: This disease is mild, and the rash, in the form of vesicles with surrounding erythema, is sparse and may resemble varicella.
+
+African tick typhus (African tick bite fever) due to R. africae: Symptoms are similar to those of other rickettsial diseases. The rash is characterized by multiple black eschars on the distal extremities with regional adenopathy.
+
+Rocky Mountain Spotted Fever Rash (1)
+
+Image
+
+This photo shows the maculopapular and petechial rash that is typical of Rocky Mountain spotted fever.
+
+CDC
+
+Scrub Typhus
+
+Image
+
+Scrub typhus (tsutsugamushi disease) manifests as an eschar at the site of a chigger bite (top). A diffuse macular rash follows the appearance of the eschar (bottom).
+
+Images courtesy of Yoshiki Taniguchi, MD. From Taniguchi, Y: Eschar, fever, and rash in a 43-year-old man. Dermatology Online Journal 3(2), 1997.
+
+Testing
+
+Knowledge of residence and recent travel often helps in making the diagnosis because many rickettsiae are localized to certain geographic areas. However, testing is usually required for a definitive diagnosis.
+
+The most useful tests for R. rickettsii are indirect immunofluorescence assay (IFA) and polymerase chain reaction (PCR) of whole blood or a skin biopsy specimen of the rash (1). The IFA consists of serologic detection of antibodies and is considered positive when a ≥ 4-fold rise in antibody titer occurs between paired specimens (ie, acute and convalescent) typically taken 2 to 4 weeks apart (2). PCR testing performed on skin biopsy often has high sensitivity and very high specificity compared to whole blood (except in cases of advanced or progressive disease) (3). Additionally, immunohistochemistry of rash biopsies have shown 100% specificity for diagnosis (3). Culture is difficult and not clinically useful.
+
+For Ehrlichia and Anaplasma species, PCR of whole blood is the best test. Serologic tests are not as useful for acute diagnosis because they usually become positive only during convalescence (3).
+
+Diagnosis references
+
+1. Miller JM, Binnicker MJ, Campbell S, et al. A Guide to Utilization of the Microbiology Laboratory for Diagnosis of Infectious Diseases: 2018 Update by the Infectious Diseases Society of America and the American Society for Microbiology. Clin Infect Dis. 2018;67(6):e1-e94. doi:10.1093/cid/ciy381
+
+2. Centers for Disease Control and Prevention (CDC). Rickettsial Diseases. April 23, 2025. Accessed January 2, 2026.
+
+3. Biggs HM, Behravesh CB, Bradley KK, et al. Diagnosis and Management of Tickborne Rickettsial Diseases: Rocky Mountain Spotted Fever and Other Spotted Fever Group Rickettsioses, Ehrlichioses, and Anaplasmosis - United States. MMWR Recomm Rep. 2016;65(2):1-44. Published 2016 May 13. doi:10.15585/mmwr.rr6502a1
+
+Treatment of Rickettsial and Related Infections
+
+Tetracyclines
+
+If a rickettsial or related infection is clinically suspected, antibiotics are usually started empirically to prevent the risks of severe disease, death, or prolonged recovery (1, 2).
+
+Doxycycline is the treatment of choice for all rickettsial infections; it is recommended by the American Academy of Pediatrics for children of all ages (3). It is administered until the patient improves and has been afebrile for 24 to 48 hours; treatment is continued for a total of 5 to 7 days (2). IV preparations are used in patients too ill to take oral medications. Although doxycycline has been associated with tooth staining in children < 8 years of age, short courses of doxycycline (5 to 10 days, as used for rickettsial disease) do not appear to cause tooth staining or weakening of tooth enamel (4).
+
+In patients with a reported tetracycline allergy, those with a history non–life‑threatening reactions (eg, mild rash, gastrointestinal intolerance) may receive doxycycline under observed administration (5). Patients with a documented or strongly suspected life‑threatening reaction (eg, anaphylaxis, Stevens-Johnson syndrome) should be treated with alternative agents. If no alternative agents exist, an allergy and immunology specialist should be consulted for consideration of doxycycline desensitization.
+
+Chloramphenicol is second-line treatment in some diseases or clinical contexts when doxycycline cannot be used (eg, doxycycline allergy or intolerance, pregnancy); however, it is less effective (5). Oral chloramphenicol is not available in the United States, only IV formulations of chloramphenicol are available. Chloramphenicol can cause adverse hematologic effects, which require monitoring of blood indices, and, in neonates, gray baby syndrome.
+
+Both doxycycline and chloramphenicol are rickettsiostatic, not rickettsicidal.
+
+Ciprofloxacin and other fluoroquinolones are effective in vitro against certain rickettsiae, but clinical evidence supporting their use for rickettsial disease is very limited (6).
+
+Because severely ill patients with RMSF or epidemic typhus may have a marked increase in capillary permeability in later stages, IV fluids should be given cautiously to maintain blood pressure while avoiding worsening pulmonary and cerebral edema.
+
+Treatment references
+
+1. Miller JM, Binnicker MJ, Campbell S, et al. A Guide to Utilization of the Microbiology Laboratory for Diagnosis of Infectious Diseases: 2018 Update by the Infectious Diseases Society of America and the American Society for Microbiology. Clin Infect Dis. 2018;67(6):e1-e94. doi:10.1093/cid/ciy381
+
+2. Centers for Disease Control and Prevention (CDC). Rickettsial Diseases. April 23, 2025. Accessed January 2, 2026.
+
+3. Committee on Infectious Diseases, American Academy of Pediatrics: Rickettsial Diseases. In Red Book: 2024–2027 Report of the Committee on Infectious Diseases, ed. 33, edited by Kimberlin DW, Banerjee R, Barnett ED, Lynfield R, Sawyer MH. Itasca, American Academy of Pediatrics, 2024.
+
+4. CDC. Research: Doxycycline and Tooth Staining. May 15, 2024. Accessed January 2, 2026.
+
+5. Biggs HM, Behravesh CB, Bradley KK, et al. Diagnosis and Management of Tickborne Rickettsial Diseases: Rocky Mountain Spotted Fever and Other Spotted Fever Group Rickettsioses, Ehrlichioses, and Anaplasmosis - United States. MMWR Recomm Rep. 2016;65(2):1-44. Published 2016 May 13. doi:10.15585/mmwr.rr6502a1
+
+6. Botelho-Nevers E, Rovery C, Richet H, Raoult D. Analysis of risk factors for malignant Mediterranean spotted fever indicates that fluoroquinolone treatment has a deleterious effect. J Antimicrob Chemother. 2011;66(8):1821-1830. doi:10.1093/jac/dkr218
+
+Key Points
+
+Rickettsial diseases and related diseases (anaplasmosis, ehrlichiosis, Q fever, scrub typhus) are caused by a group of gram-negative, obligate intracellular coccobacilli; arthropod vectors with an animal reservoir are the most common modes of transmission.
+
+Rickettsial diseases cause fever and, depending on the disease, sometimes a local lesion (eschar), petechial rash, regional lymphadenopathy, encephalitic signs, vasculitis, gangrene of skin and tissues, organ dysfunction, and vascular collapse.
+
+Distinguish rickettsial and related diseases from other acute infections and from each other based on history, typical examination findings, and results of tests (eg, biopsy with indirect immunofluorescence assay, serologic tests, PCR, immunohistochemistry).
+
+Treat with antibiotics presumptively, without waiting for diagnostic test results, to prevent significant deterioration and death or prolonged recovery.
+
+First-line treatment is with doxycycline.

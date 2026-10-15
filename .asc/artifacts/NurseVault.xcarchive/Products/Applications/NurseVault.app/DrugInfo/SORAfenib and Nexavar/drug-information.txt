@@ -1,0 +1,1208 @@
+=== SORAfenib (Merck Manual Professional) ===
+Source: https://www.merckmanuals.com/professional/drug-names-generic-and-brand (productid 3451)
+Retrieved: 2026-09-25
+NURSING QUICK-REFERENCE SUMMARY
+Auto-generated on 2026-09-25 from the prescribing information in this file; full details follow below.
+
+Drug Class: Sorafenib is a multi-kinase inhibitor targeting several intracellular and cell surface kinases, including c-CRAF, BRAF, mutant BRAF, vascular endothelial growth factor (VEGF) receptors -1, -2 and -3, platelet-derived growth factor receptor-beta (PDGFR-beta), KIT, FLT-3, and RET.
+
+Routes: oral; Common adult doses: 800 mg/day PO.
+
+Common Side Effects (excluding routine GI upset): acne vulgaris, alopecia, atopic dermatitis, erythema, erythema multiforme, exfoliative dermatitis, flushing, folliculitis, hyperkeratosis, pruritus, stevens-johnson syndrome, toxic epidermal necrolysis, xerosis, myocardial infarction, stroke, thromboembolism, thrombosis, bleeding, epistaxis, gi bleeding, intracranial bleeding, leukopenia, lymphopenia, neutropenia, hypocalcemia, hypokalemia, hyponatremia, hypophosphatemia, dehydration, dysgeusia
+
+In an Overdose: No overdose/antidote information is listed in this file.
+
+Key Nursing Considerations: Contraindications/precautions: Sorafenib should be used cautiously in patients who have had previous myelosuppressive therapy such as chemotherapy or radiation therapy. Bone marrow suppression, including neutropenia, often occurs during sorafenib therapy. Emetic risk: Pediatrics: Doses 150 to 325 mg/m2: Low Hazardous drug: NIOSH 2024 List: Table 2
+
+Brand Names
+  - Nexavar
+
+Dosage Forms
+  - Nexavar 200mg Tablet
+  - Sorafenib tosylate 200mg Oral tablet
+
+Indication Specific Dosing
+  General Information
+  Sorafenib is contraindicated in combination with paclitaxel and carboplatin and is not recommended in combination with gemcitabine and cisplatin for the treatment of squamous cell lung cancer due to an increased risk of mortality compared with paclitaxel/carboplatin alone (HR 1.81; 95% CI, 1.19 to 2.74) and gemcitabine/cisplatin alone (HR 1.22; 95% CI, 0.82 to 1.8) in a subset analysis of 2 randomized controlled trials.
+  Indications
+    Routes
+      Heading
+      Oral dosage
+      Route Age Groups
+        Heading
+        Adults
+        Dosage Description
+        400 mg PO twice daily until clinical benefit ceases or unacceptable toxicity occurs. Coadministration of certain drugs may need to be avoided or dosage adjustments may be necessary; review drug interactions. In a multicenter,  randomized, double-blind, phase 3 clinical trial, treatment with sorafenib significantly improved median progression-free survival (PFS) compared with placebo in patients with advanced renal cell carcinoma (RCC) who had received one prior systemic therapy (5.5 months vs. 2.8 months). After the first survival analysis, crossover was allowed in the placebo arm. The final survival analysis did not show an overall survival difference with sorafenib; however, censoring the data from placebo-assigned patients who crossed over to receive sorafenib revealed a significant survival advantage in the sorafenib arm (17.8 months vs. 14.3 months). In a second randomized, phase 3 discontinuation trial that enrolled patients with metastatic malignancies including RCC, patients with RCC who were randomized to receive sorafenib had a significantly longer PFS compared with patients who received placebo (163 days vs. 41 days).
+    Heading
+    For the treatment of advanced renal cell cancer
+    Routes
+      Heading
+      Oral dosage
+      Route Age Groups
+        Heading
+        Adults
+        Dosage Description
+        400 mg PO twice daily until clinical benefit ceases or unacceptable toxicity occurs. Coadministration of certain drugs may need to be avoided or dosage adjustments may be necessary; review drug interactions. In a multicenter, randomized, double-blind, phase 3 clinical trial in patients with previously untreated unresectable hepatocellular carcinoma, treatment with sorafenib significantly improved overall survival (10.7 months vs. 7.9 months) and median time to progression (5.5 months vs. 2.8 months); time to symptomatic progression was not significantly different.
+    Heading
+    For the treatment of unresectable hepatocellular cancer (HCC)
+    Routes
+      Heading
+      Oral dosage
+      Route Age Groups
+        Heading
+        Adults
+        Dosage Description
+        400 mg PO twice daily until clinical benefit ceases or unacceptable toxicity occurs. Coadministration of certain drugs may need to be avoided or dosage adjustments may be necessary; review drug interactions. In a multicenter, randomized, double-blind clinical trial, treatment with sorafenib significantly improved progression-free survival (PFS) compared with placebo in patients with locally recurrent or metastatic, progressive, differentiated thyroid cancer refractory to radioactive iodine (10.8 months vs. 5.8 months). After disease progression, 77% of patients initially randomized to placebo crossed over to receive open-label sorafenib. Overall survival was not significantly different between groups (42.8 months vs. 39.4 months).
+    Heading
+    For the treatment of locally recurrent or metastatic, progressive, differentiated thyroid cancer that is refractory to treatment with radioactive iodine
+
+Contraindications And Precautions
+  Headline
+  Contraindications/Warnings/Precautions
+  General Information
+  Sorafenib should be used cautiously in patients who have had previous myelosuppressive therapy such as chemotherapy or radiation therapy. Bone marrow suppression, including neutropenia, often occurs during sorafenib therapy. Complete blood counts should be performed periodically thoroughly therapy with sorafenib. Patients should be closely monitored for any signs or symptoms of bleeding, especially GI bleeding.
+ 
+Patients with active infection, including fungal infection or viral infection, should be treated prior to receiving sorafenib. Patients with a history of varicella zoster, other herpes infection (i.e., herpes simplex), or other viral infection are at risk for reactivation of the infection when treated with chemotherapy. Opportunistic infection, including viral infection and fungal infection, may occur in some patients due to severe immunosuppression. Patients should immediately report any symptoms of severe myelosuppression such as fever, sore throat, or abnormal bleeding.
+ 
+Patients being treated with sorafenib should not receive intramuscular injections, as bleeding, bruising, or hematomas, due to sorafenib-induced thrombocytopenia, may result.
+ 
+In clinical trials, 32% of patients treated with sorafenib were >= 65 years and 4% were >= 75 years. No differences in safety or efficacy were observed between older and younger patients, and other reported clinical experience has not identified differences in responses between the elderly and younger patients. However, greater sensitivity of some older individuals cannot be ruled out.
+ 
+In vitro and in vivo data indicate that sorafenib is primarily metabolized by the liver; use with caution in patients with hepatic disease or jaundice. Hepatic impairment may reduce sorafenib plasma concentrations. Sorafenib concentrations may be lower in patients with hepatocellular carcinoma (HCC) as compared with concentrations obtained from patients without HCC (no hepatic impairment). Among patients with HCC and either Child-Pugh A or Child-Pugh B hepatic impairment, 400 mg doses of sorafenib appear to be associated with AUC values that were 23—65% lower as compared with data from patients with normal hepatic function. The systemic exposure of sorafenib was similar for patients with HCC and Child-Pugh A or B hepatic impairment. Specifically, the mean sorafenib systemic exposure over the first 8 hours after dosing was 25.4 mg•hr/L in patients with Child-Pugh A impairment and 30.3 mg•hr/L in patients with Child-Pugh B impairment. The pharmacokinetic parameter values of sorafenib have not been determined in patients with Child-Pugh C hepatic impairment. No sorafenib dose adjustment is needed in patients with HCC and either Child-Pugh A impairment or Child-Pugh B impairment. The optimal sorafenib dose in non-HCC patients with hepatic impairment is not established.
+ 
+Use sorafenib with caution in patients with renal disease. Sorafenib has not been studied in patients with severe renal impairment (CrCl = 2 weeks. The administration of live vaccines to immunocompromised patients should be avoided. Those undergoing chemotherapy should not be exposed to others who have recently received the oral poliovirus vaccine (OPV). Measles-mumps-rubella (MMR) vaccination is not contraindicated for the close contacts, including health care professionals, of immunocompromised patients. Passive immunoprophylaxis with immune globulins may be indicated for immunocompromised persons instead of, or in addition to, vaccination. When exposed to a vaccine-preventable disease such as measles, severely immunocompromised pediatric patients should be considered susceptible regardless of their vaccination history.
+ 
+No formal evaluation of the effect of sorafenib on wound healing have been conducted. Temporary interruption of sorafenib therapy is recommended in patients undergoing major surgical procedures. There is limited clinical experience regarding the timing of reinitiation of sorafenib therapy after surgery. Therefore, the decision to resume sorafenib therapy following a major surgical intervention should be based on clinical judgment of adequate would healing.
+ 
+Asian patients may have a different response to sorafenib as compared with Caucasian patients. Administration of sorafenib 400 mg twice daily to 6 Japanese patients led to a 45% lower mean systemic exposure at steady-state as compared with the value obtained from 25 Caucasian patients. The clinical significance of the observation is unknown.
+ 
+Sorafenib is classified as FDA pregnancy risk category D. In rats and rabbits, teratogenicity and embryo-fetal toxicity (i.e., increased rate of post-implantation loss, resorptions, skeletal retardations, and retarded fetal weight) occurred at doses considerably below the recommended human dose of 400 mg twice daily (approximately 500 mg/m2/day based on body surface area). Adverse intrauterine development effects were seen at doses >= 1.2 mg/m2/day in rats and 3.6 mg/m2/day in rabbits (approximately 0.008 times the AUC seen in cancer patients at the recommended human dose). Sorafenib should be assumed to cause human fetal harm, based on this data and also on the proposed mechanism of multikinase inhibition. Females of childbearing potential should be advised to avoid becoming pregnant while receiving sorafenib, or if the patient becomes pregnant while taking this drug, the patient should be apprised of the potential hazard to the fetus. Sorafenib should be used during pregnancy only if the potential benefits justify the potential risks to the fetus. Female patients should be counseled to use effective birth control during treatment with sorafenib and for at least 2 weeks after stopping treatment.
+ 
+Breast-feeding is not recommended during sorafenib treatment due to the potential adverse effects to the nursing infant. It is not known if sorafenib is excreted in human milk. However, following administration of radio-labeled sorafenib to lactating rats, approximately 27% of the radioactivity was secreted into the milk. Because of the potential of serious adverse reactions in nursing infants, women should be advised against breast-feeding their infants while taking sorafenib. The importance of the drug to the mother should be considered.
+ 
+The safety and efficacy of sorafenib have not been determined in children less than 18 years of age.
+  Contraindications And Precautions
+    Headline
+    Drug Interactions
+    General Information
+    The coadministration of certain medications may lead to harm and require avoidance or therapy modification; review all drug interactions prior to concomitant use of other medications.
+    Headline
+    Hypersensitivity
+    General Information
+    This medication is contraindicated in patients with a history of hypersensitivity to it or any of its components.
+    Headline
+    Treatment-Related Restrictions of Use
+    General Information
+    Sorafenib in combination with paclitaxel and carboplatin is contraindicated in patients with squamous cell lung cancer due to an increased risk of mortality compared with carboplatin/paclitaxel alone (HR 1.81; 95% CI, 1.19 to 2.74) in a subset analysis of 2 randomized controlled trials.
+    Headline
+    bleeding disorder, tumor invasion of the bronchus, tumor invasion of the esophagus, tumor invasion of the trachea
+    General Information
+    Use sorafenib with caution in patients with a bleeding disorder; sorafenib can cause serious cases of bleeding, which may be fatal. Treat tumor invasion of the trachea, tumor invasion of the bronchus, and tumor invasion of the esophagus with local therapy prior to treatment with sorafenib in patients with differentiated thyroid cancer (DTC). Regularly monitor the INR in patients receiving anticoagulant therapy. Consider permanent discontinuation of sorafenib in patients who experience any bleeding that requires medical intervention.
+    Headline
+    hypertension
+    General Information
+    Hypertension may develop with sorafenib use. Monitor blood pressure weekly during the first 6 weeks of therapy and periodically thereafter. Treat hypertension according to standard practice. Temporary or permanent discontinuation of sorafenib should be considered in patients who develop severe or persistent hypertension despite the use of antihypertensive therapy.
+    Headline
+    bradycardia, cardiomyopathy, congenital long QT syndrome, coronary artery disease, females, geriatric, hypocalcemia, hypokalemia, hypomagnesemia, QT prolongation
+    General Information
+    Avoid use of sorafenib in people with baseline QT prolongation or who have conditions that may increase the risk of QT prolongation or torsade de pointes, including bradycardia, congenital long QT syndrome, hypocalcemia, hypokalemia, hypomagnesemia, geriatric adults, females, structural abnormalities that interfere with electrical conduction (e.g., cardiomyopathy, coronary artery disease, ischemic heart disease), or in those who have other additional risk factors for QT prolongation or torsade de pointes. The use of other medications that have been associated with QT prolongation or torsade de pointes may further increase risk. Monitor electrolytes and electrocardiograms in patients with congestive heart failure, bradyarrhythmias, drugs known to prolong the QT interval, including Class Ia and III antiarrhythmics; correct any hypocalcemia, hypokalemia, or hypomagnesemia. An interruption of therapy is necessary if the QTc interval is greater than 500 msec or for an increase from baseline of 60 msec or more.
+    Headline
+    major surgery, planned procedure
+    General Information
+    Do not administer sorafenib for at least 10 days prior to a planned procedure or elective surgery. After major surgery, wait at least 2 weeks and until adequate wound healing prior to restarting sorafenib therapy. Impaired wound healing can occur in patients who receive drugs that inhibit the vascular endothelial growth factor (VEGF) signaling pathway such as sorafenib. The safety of resuming treatment after resolution of wound healing complications has not been established.
+    Headline
+    pregnancy
+    General Information
+    Sorafenib may cause fetal harm if used during pregnancy, based on its mechanism of action and data from animal studies. Oral sorafenib administration to rats and rabbits during organogenesis was teratogenic and caused embryo-fetal toxicity (e.g., increased post-implantation loss, resorptions, skeletal growth abnormalities, and reduced fetal weight) at doses significantly lower than the recommended human dose based on BSA. Adverse effects on intrauterine development were observed at exposures approximately 0.008 times the human exposure (AUC) at the recommended dose. Advise pregnant individuals of the potential fetal risk.
+    Headline
+    people who can cause pregnancy in others, people who may become pregnant, reproductive risk
+    General Information
+    Counsel people who may become pregnant and people who can cause pregnancy in others about the reproductive risk associated with sorafenib. Sorafenib may cause fetal harm. Verify pregnancy status prior to treatment initiation. Advise people who may become pregnant to use effective contraception while taking sorafenib and for 6 months after the last dose. For those that can cause pregnancy in others, contraception should be used during sorafenib treatment and for 3 months after the last dose. Based on animal data, sorafenib may impair male fertility.
+    Headline
+    breast-feeding
+    General Information
+    Advise patients to avoid breast-feeding during sorafenib treatment and for 2 weeks after the last dose due to the potential for serious side effects in the breast-fed child. There are no data on the presence of sorafenib or its metabolites in human milk, the effects on the breast-fed child, or the effect on milk production. Sorafenib is present in animal milk.
+
+Pregnancy And Lactation
+  Pregnancy
+    General Information
+    Sorafenib may cause fetal harm if used during pregnancy, based on its mechanism of action and data from animal studies. Oral sorafenib administration to rats and rabbits during organogenesis was teratogenic and caused embryo-fetal toxicity (e.g., increased post-implantation loss, resorptions, skeletal growth abnormalities, and reduced fetal weight) at doses significantly lower than the recommended human dose based on BSA. Adverse effects on intrauterine development were observed at exposures approximately 0.008 times the human exposure (AUC) at the recommended dose. Advise pregnant individuals of the potential fetal risk.
+  Breastfeeding
+    General Information
+    Advise patients to avoid breast-feeding during sorafenib treatment and for 2 weeks after the last dose due to the potential for serious side effects in the breast-fed child. There are no data on the presence of sorafenib or its metabolites in human milk, the effects on the breast-fed child, or the effect on milk production. Sorafenib is present in animal milk.
+
+Interactions
+Abacavir; Dolutegravir; lamiVUDine: (Moderate) Monitor for an increase in dolutegravir-related adverse reactions if coadministration with sorafenib is necessary. Dolutegravir is a P-glycoprotein (P-gp) and UGT1A1 substrate. Sorafenib inhibits both P-gp and UGT1A1 in vitro, and may increase the concentrations of concomitantly administered drugs that are P-gp or UGT1A1 substrates.
+Adagrasib: (Major) Concomitant use of adagrasib and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Afatinib: (Moderate) If the concomitant use of sorafenib and afatinib is necessary, monitor for afatinib-related adverse reactions. If the original dose of afatinib is not tolerated, consider reducing the daily dose of afatinib by 10 mg; resume the previous dose of afatinib as tolerated after discontinuation of sorafenib. The manufacturer of afatinib recommends permanent discontinuation of therapy for severe or intolerant adverse drug reactions at a dose of 20 mg per day, but does not address a minimum dose otherwise. Afatinib is a P-glycoprotein (P-gp) substrate. Sorafenib inhibits P-gp in vitro and may increase the concentrations of concomitantly administered drugs that are P-gp substrates. Administration with another P-gp inhibitor, given 1 hour before a single dose of afatinib, increased afatinib exposure by 48%; there was no change in afatinib exposure when the P-gp inhibitor was administered at the same time as afatinib or 6 hours later. In healthy subjects, the relative bioavailability for AUC and Cmax of afatinib was 119% and 104%, respectively, when coadministered with the same P-gp inhibitor, and 111% and 105% when the inhibitor was administered 6 hours after afatinib.
+Alfuzosin: (Major) Avoid coadministration of sorafenib with alfuzosin due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Alfuzosin may also prolong the QT interval in a dose-dependent manner.
+Amiodarone: (Major) Concomitant use of amiodarone and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary. Due to the extremely long half-life of amiodarone, a drug interaction is possible for days to weeks after drug discontinuation.
+Amisulpride: (Major) Avoid coadministration of sorafenib with amisulpride due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Amisulpride also causes dose- and concentration-dependent QT prolongation.
+amLODIPine; Atorvastatin: (Moderate) Monitor for an increase in atorvastatin-related adverse reactions, including myopathy and rhabdomyolysis, if coadministration with sorafenib is necessary. Atorvastatin is a P-glycoprotein (P-gp) substrate and sorafenib is a P-gp inhibitor in vitro. Sorafenib may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+Amoxicillin; Clarithromycin; Omeprazole: (Major) Avoid coadministration of sorafenib with clarithromycin due to the risk of additive QT prolongation. Sorafenib is associated with QTc prolongation. Clarithromycin is associated with an established risk for QT prolongation and torsade de pointes (TdP).
+Anagrelide: (Major) Do not use anagrelide with sorafenib due to the risk of QT prolongation and torsade de pointes (TdP). Torsade de pointes and ventricular tachycardia have been reported with anagrelide. In addition, dose-related increases in mean QTc and heart rate were observed in healthy subjects. Sorafenib has also been associated with QT prolongation.
+Apalutamide: (Major) Avoid coadministration of sorafenib with apalutamide due to decreased plasma concentrations of sorafenib. Sorafenib is a CYP3A4 substrate and apalutamide is a strong CYP3A4 inducer. Concomitant use with another strong CYP3A4 inducer decreased sorafenib exposure by 37%.
+Apomorphine: (Major) Avoid coadministration of sorafenib with apomorphine due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Dose-related QTc prolongation is associated with therapeutic apomorphine exposure. Sorafenib is also associated with QTc prolongation.
+ARIPiprazole: (Major) Concomitant use of sorafenib and aripiprazole increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Arsenic Trioxide: (Major) Avoid coadministration of sorafenib with arsenic trioxide due to the risk of additive QT prolongation. If concomitant use is unavoidable, frequently monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Torsade de pointes (TdP), QT interval prolongation, and complete atrioventricular block have been reported with arsenic trioxide use. Sorafenib is also associated with QTc prolongation.
+Artemether; Lumefantrine: (Major) Avoid coadministration of sorafenib with artemether; lumefantrine due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Both drugs are associated with QTc prolongation. (Major) Avoid coadministration of sorafenib with artemether; lumefantrine due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. Both drugs are associated with QTc prolongation.
+Asenapine: (Major) Avoid coadministration of asenapine with sorafenib due to the risk of QT prolongation. Both drugs have been associated with QT prolongation.
+Atomoxetine: (Major) Concomitant use of sorafenib and atomoxetine increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Atorvastatin: (Moderate) Monitor for an increase in atorvastatin-related adverse reactions, including myopathy and rhabdomyolysis, if coadministration with sorafenib is necessary. Atorvastatin is a P-glycoprotein (P-gp) substrate and sorafenib is a P-gp inhibitor in vitro. Sorafenib may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+Azithromycin: (Major) Concomitant use of sorafenib and azithromycin increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Bedaquiline: (Major) Avoid coadministration of sorafenib with bedaquiline due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of therapy may be necessary if QT prolongation occurs. Bedaquiline prolongs the QT interval. Sorafenib is also associated with QTc prolongation.
+Belinostat: (Major) Avoid concomitant use of belinostat and sorafenib. If concomitant use is required, reduce the dose of belinostat by 25% (i.e., from 1,000 mg/m2 to 750 mg/m2; from 750 mg/m2 to 562.5 mg/m2; interrupt 500 mg/m2). Concomitant use is expected to increase belinostat exposure which may increase the risk for belinostat-related adverse effects. Belinostat is a UGT1A1 substrate and sorafenib is a UGT1A1 inhibitor. Concomitant use with another UGT1A1 inhibitor increased belinostat overall exposure by 1.4-fold.
+Bictegravir; Emtricitabine; Tenofovir Alafenamide: (Moderate) Monitor for tenofovir alafenamide-related adverse effects if concomitant use with sorafenib is necessary. Concomitant use may increase tenofovir alafenamide exposure. Tenofovir alafenamide is a P-gp substrate and sorafenib is a P-gp inhibitor. Concomitant use with another P-gp inhibitor increased tenofovir alafenamide overall exposure by 2.65-fold.
+Bismuth Subcitrate Potassium; metroNIDAZOLE; Tetracycline: (Major) Concomitant use of metronidazole and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Bismuth Subsalicylate; metroNIDAZOLE; Tetracycline: (Major) Concomitant use of metronidazole and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Buprenorphine: (Major) Concomitant use of sorafenib and buprenorphine increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Buprenorphine; Naloxone: (Major) Concomitant use of sorafenib and buprenorphine increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Cabotegravir; Rilpivirine: (Major) Avoid coadministration of sorafenib with rilpivirine due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Supratherapeutic doses of rilpivirine (75 to 300 mg/day) have also caused QT prolongation.
+carBAMazepine: (Major) Avoid coadministration of sorafenib with carbamazepine due to decreased plasma concentrations of sorafenib. Sorafenib is a CYP3A4 substrate and carbamazepine is a strong CYP3A4 inducer. Concomitant use with another strong CYP3A4 inducer decreased sorafenib exposure by 37%.
+Ceritinib: (Major) Avoid coadministration of sorafenib with ceritinib due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Ceritinib causes concentration-dependent QT prolongation.
+Chloroquine: (Major) Avoid coadministration of chloroquine with sorafenib due to the risk of additive QT prolongation. If concomitant use is unavoidable, obtain an ECG at baseline to assess initial QT interval and determine frequency of subsequent ECG monitoring, avoid any non-essential QT prolonging drugs, and correct electrolyte imbalances. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Chloroquine is associated with an increased risk of QT prolongation and torsade de pointes (TdP); the risk of QT prolongation is increased with higher chloroquine doses. Sorafenib is also associated with QTc prolongation.
+chlorproMAZINE: (Major) Avoid coadministration of sorafenib with chlorpromazine due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Chlorpromazine, a phenothiazine, is associated with an established risk of QT prolongation and torsade de pointes (TdP). Sorafenib is also associated with QTc prolongation.
+Cholera Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the live cholera vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to cholera bacteria after receiving the vaccine.
+Ciprofloxacin: (Major) Concomitant use of sorafenib and ciprofloxacin increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Cisapride: (Contraindicated) Because of the potential for torsade de pointes (TdP), use of sorafenib with cisapride is contraindicated. Prolongation of the QT interval and ventricular arrhythmias, including TdP and death, have been reported with cisapride. Sorafenib has also been associated with QT prolongation.
+Citalopram: (Major) Concomitant use of sorafenib and citalopram increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Clarithromycin: (Major) Avoid coadministration of sorafenib with clarithromycin due to the risk of additive QT prolongation. Sorafenib is associated with QTc prolongation. Clarithromycin is associated with an established risk for QT prolongation and torsade de pointes (TdP).
+Clofazimine: (Major) Concomitant use of clofazimine and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+cloZAPine: (Major) Avoid coadministration of sorafenib with clozapine due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Treatment with clozapine has been associated with QT prolongation, torsade de pointes (TdP), cardiac arrest, and sudden death. Sorafenib is also associated with QTc prolongation.
+Cobimetinib: (Moderate) Monitor for an increase in cobimetinib-related adverse reactions if coadministration with sorafenib is necessary. Cobimetinib is a P-glycoprotein (P-gp) substrate. Sorafenib inhibits P-gp in vitro and may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+Codeine; Phenylephrine; Promethazine: (Major) Concomitant use of sorafenib and promethazine increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Codeine; Promethazine: (Major) Concomitant use of sorafenib and promethazine increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Colchicine: (Major) Avoid concomitant use of colchicine and sorafenib due to the risk for increased colchicine exposure which may increase the risk for adverse effects. Concomitant use is contraindicated in patients with renal or hepatic impairment. Additionally, this combination is contraindicated if colchicine is being used for cardiovascular risk reduction. If concomitant use is necessary outside of these scenarios, consider a colchicine dosage reduction. Specific dosage reduction recommendations are available for colchicine tablets for some indications; it is unclear if these dosage recommendations are appropriate for other products or indications. For colchicine tablets being used for gout prophylaxis, reduce the dose from 0.6 mg twice daily to 0.3 mg once daily or from 0.6 mg once daily to 0.3 mg once every other day. For colchicine tablets being used for gout treatment, reduce the dose from 1.2 mg followed by 0.6 mg to 0.6 mg without an additional dose. For colchicine tablets being used for Familial Mediterranean Fever, the maximum daily dose is 0.6 mg. Colchicine is a P-gp substrate and sorafenib is a P-gp inhibitor.
+Crizotinib: (Major) Avoid coadministration of crizotinib with sorafenib due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor ECGs for QT prolongation and monitor electrolytes. An interruption of therapy, dose reduction, or discontinuation of therapy may be necessary if QT prolongation occurs. Crizotinib can cause concentration-dependent QT prolongation. Sorafenib is also associated with QTc prolongation.
+cycloSPORINE: (Moderate) Monitor for an increase in cyclosporine plasma concentrations and cyclosporine-related adverse reactions if coadministration with sorafenib is necessary. Cyclosporine is a P-glycoprotein (P-gp) substrate and sorafenib inhibits P-gp in vitro. Sorafenib may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+Dabigatran: (Moderate) Monitor for an increase in dabigatran-related adverse reactions if coadministration with sorafenib is necessary in patients with creatinine clearance (CrCl) greater than 50 mL/min. Avoid coadministration in patients with CrCl less than 50 mL/min when dabigatran is administered for treatment or reduction in risk of recurrence of deep venous thrombosis (DVT) or pulmonary embolism (PE) or prophylaxis of DVT or PE following hip replacement surgery. Avoid coadministration in patients with CrCl less than 30 mL/min in patients with non-valvular atrial fibrillation. Serum concentrations of dabigatran are expected to be higher in patients with renal impairment compared to patients with normal renal function. Dabigatran is a P-glycoprotein substrate and sorafenib is a P-gp inhibitor.
+Daraxonrasib: (Major) Reduce the daraxonrasib dosage to 150 mg once daily if concomitant use with sorafenib is necessary. Concomitant use may increase daraxonrasib exposure and the risk for daraxonrasib-related adverse effects. Daraxonrasib is a P-gp substrate and sorafenib is a P-gp inhibitor. Concomitant use with another P-gp inhibitor was observed to increase daraxonrasib overall exposure by 1.8-fold.
+Darunavir: (Moderate) Monitor for an increase in darunavir-related adverse reactions if coadministration with sorafenib is necessary. Darunavir may be a P-glycoprotein (P-gp) substrate. Sorafenib inhibits P-gp in vitro and may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+Darunavir; Cobicistat: (Moderate) Monitor for an increase in darunavir-related adverse reactions if coadministration with sorafenib is necessary. Darunavir may be a P-glycoprotein (P-gp) substrate. Sorafenib inhibits P-gp in vitro and may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+Darunavir; Cobicistat; Emtricitabine; Tenofovir alafenamide: (Moderate) Monitor for an increase in darunavir-related adverse reactions if coadministration with sorafenib is necessary. Darunavir may be a P-glycoprotein (P-gp) substrate. Sorafenib inhibits P-gp in vitro and may increase the concentrations of concomitantly administered drugs that are P-gp substrates. (Moderate) Monitor for tenofovir alafenamide-related adverse effects if concomitant use with sorafenib is necessary. Concomitant use may increase tenofovir alafenamide exposure. Tenofovir alafenamide is a P-gp substrate and sorafenib is a P-gp inhibitor. Concomitant use with another P-gp inhibitor increased tenofovir alafenamide overall exposure by 2.65-fold.
+Dasatinib: (Major) Avoid coadministration of sorafenib with dasatinib due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. In vitro studies have shown that dasatinib also has the potential to prolong the QT interval.
+Degarelix: (Major) Avoid coadministration of sorafenib with degarelix due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Androgen deprivation therapy (i.e., degarelix) may also prolong the QT/QTc interval.
+Dengue Tetravalent Vaccine, Live: (Contraindicated) Avoid administration of the live dengue virus vaccine with immunosuppressive drug therapy and prior to immune recovery following treatment with immunosuppressive drug therapy. When feasible, administer indicated live virus vaccines at least 4 weeks before planned immunosuppression or wait until at least 3 months after discontinuation. The time to restoration of immune competence may be longer in some patients. Patients with altered immunocompetence may be at increased risk for severe adverse reactions due to uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+Desflurane: (Major) Avoid coadministration of sorafenib with halogenated anesthetics due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Halogenated anesthetics can also prolong the QT interval.
+Deutetrabenazine: (Major) Avoid coadministration of sorafenib with deutetrabenazine due to the potential risk of QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Deutetrabenazine may prolong the QT interval, but the degree of QT prolongation is not clinically significant when deutetrabenazine is administered within the recommended dosage range.
+dexmedeTOMIDine: (Major) Concomitant use of dexmedetomidine and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Dextromethorphan; quiNIDine: (Major) Avoid coadministration of sorafenib with quinidine due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Quinidine administration is associated with QT prolongation and torsade de pointes (TdP). Sorafenib is associated with QTc prolongation.
+Digoxin: (Moderate) Monitor for an increase in digoxin plasma concentrations and digoxin-related adverse reactions if coadministration with sorafenib is necessary. Digoxin is a P-glycoprotein (P-gp) substrate and sorafenib inhibits P-gp in vitro. Sorafenib may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+Disopyramide: (Major) Avoid coadministration of sorafenib with disopyramide due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Disopyramide administration is associated with QT prolongation and torsade de pointes (TdP). Sorafenib is associated with QTc prolongation.
+Dofetilide: (Major) Coadministration of dofetilide and sorafenib is not recommended as concurrent use may increase the risk of QT prolongation. Dofetilide, a Class III antiarrhythmic agent, is associated with a well-established risk of QT prolongation and TdP. Sorafenib is associated with QTc prolongation.
+Dolutegravir: (Moderate) Monitor for an increase in dolutegravir-related adverse reactions if coadministration with sorafenib is necessary. Dolutegravir is a P-glycoprotein (P-gp) and UGT1A1 substrate. Sorafenib inhibits both P-gp and UGT1A1 in vitro, and may increase the concentrations of concomitantly administered drugs that are P-gp or UGT1A1 substrates.
+Dolutegravir; lamiVUDine: (Moderate) Monitor for an increase in dolutegravir-related adverse reactions if coadministration with sorafenib is necessary. Dolutegravir is a P-glycoprotein (P-gp) and UGT1A1 substrate. Sorafenib inhibits both P-gp and UGT1A1 in vitro, and may increase the concentrations of concomitantly administered drugs that are P-gp or UGT1A1 substrates.
+Dolutegravir; Rilpivirine: (Major) Avoid coadministration of sorafenib with rilpivirine due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Supratherapeutic doses of rilpivirine (75 to 300 mg/day) have also caused QT prolongation. (Moderate) Monitor for an increase in dolutegravir-related adverse reactions if coadministration with sorafenib is necessary. Dolutegravir is a P-glycoprotein (P-gp) and UGT1A1 substrate. Sorafenib inhibits both P-gp and UGT1A1 in vitro, and may increase the concentrations of concomitantly administered drugs that are P-gp or UGT1A1 substrates.
+Donepezil: (Major) Avoid coadministration of sorafenib with donepezil due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Case reports indicate that QT prolongation and torsade de pointes (TdP) can occur during donepezil therapy.
+Donepezil; Memantine: (Major) Avoid coadministration of sorafenib with donepezil due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Case reports indicate that QT prolongation and torsade de pointes (TdP) can occur during donepezil therapy.
+Doravirine; lamiVUDine; Tenofovir disoproxil fumarate: (Moderate) Monitor for an increase in tenofovir-related adverse reactions if coadministration with sorafenib is necessary. Tenofovir is a P-glycoprotein (P-gp) substrate and sorafenib inhibits P-gp in vitro. Sorafenib may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+Dordaviprone: (Major) Concomitant use of dordaviprone and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+DOXOrubicin Liposomal: (Major) Avoid coadministration of sorafenib with doxorubicin due to increased systemic exposure of doxorubicin resulting in increased treatment-related adverse reactions. Sorafenib is a P-glycoprotein (P-gp) inhibitor; doxorubicin is a major substrate of P-gp. Concurrent use of P-gp inhibitors with doxorubicin has resulted in clinically significant interactions.
+DOXOrubicin: (Major) Avoid coadministration of sorafenib with doxorubicin due to increased systemic exposure of doxorubicin resulting in increased treatment-related adverse reactions. Sorafenib is a P-glycoprotein (P-gp) inhibitor; doxorubicin is a major substrate of P-gp. Concurrent use of P-gp inhibitors with doxorubicin has resulted in clinically significant interactions.
+Dronedarone: (Contraindicated) Concurrent use of dronedarone and sorafenib is contraindicated. Sorafenib has been associated with QT prolongation. Dronedarone administration is associated with a dose-related increase in the QTc interval. The increase in QTc is approximately 10 milliseconds at doses of 400 mg twice daily (the FDA-approved dose) and up to 25 milliseconds at doses of 1600 mg twice daily. Although there are no studies examining the effects of dronedarone in patients receiving other QT prolonging drugs, coadministration of such drugs may result in additive QT prolongation.
+droPERidol: (Major) Droperidol should not be used in combination with any drug known to have potential to prolong the QT interval, such as sorafenib. If coadministration cannot be avoided, use extreme caution; initiate droperidol at a low dose and increase the dose as needed to achieve the desired effect. Monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Droperidol administration is associated with an established risk for QT prolongation and torsade de pointes (TdP). Some cases have occurred in patients with no known risk factors for QT prolongation and some cases have been fatal. Sorafenib is also associated with QTc prolongation.
+Edoxaban: (Major) If coadministered with sorafenib, a P-gp inhibitor, dosage reduction of edoxaban, a P-gp substrate, may be necessary for patients being treated for deep venous thrombosis (DVT) or pulmonary embolism (PE). An edoxaban dose reduction to 30 mg PO once daily is recommended by the manufacturer for use with certain P-gp inhibitors; however, because use of concomitant P-gp inhibitors was limited to only certain drugs that inhibit P-gp in DVT/PE clinical trials, clinicians should use professional judgment and guide edoxaban dose adjustments based on patient response if coadministered with sorafenib. Based on clinical experience in patients with non-valvular atrial fibrillation no dose reduction is recommended for concomitant use of sorafenib. Increased concentrations of edoxaban may occur during concomitant use of sorafenib; monitor for increased adverse effects of edoxaban.
+Efavirenz: (Major) Avoid coadministration of sorafenib with efavirenz due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. QTc prolongation has also been observed with the use of efavirenz.
+Efavirenz; Emtricitabine; Tenofovir Disoproxil Fumarate: (Major) Avoid coadministration of sorafenib with efavirenz due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. QTc prolongation has also been observed with the use of efavirenz. (Moderate) Monitor for an increase in tenofovir-related adverse reactions if coadministration with sorafenib is necessary. Tenofovir is a P-glycoprotein (P-gp) substrate and sorafenib inhibits P-gp in vitro. Sorafenib may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+Efavirenz; lamiVUDine; Tenofovir Disoproxil Fumarate: (Major) Avoid coadministration of sorafenib with efavirenz due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. QTc prolongation has also been observed with the use of efavirenz. (Moderate) Monitor for an increase in tenofovir-related adverse reactions if coadministration with sorafenib is necessary. Tenofovir is a P-glycoprotein (P-gp) substrate and sorafenib inhibits P-gp in vitro. Sorafenib may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+Eliglustat: (Major) Avoid coadministration of sorafenib with eliglustat due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Eliglustat is also predicted to cause PR, QRS, and/or QT prolongation at significantly elevated plasma concentrations.
+Elvitegravir; Cobicistat; Emtricitabine; Tenofovir Alafenamide: (Moderate) Monitor for tenofovir alafenamide-related adverse effects if concomitant use with sorafenib is necessary. Concomitant use may increase tenofovir alafenamide exposure. Tenofovir alafenamide is a P-gp substrate and sorafenib is a P-gp inhibitor. Concomitant use with another P-gp inhibitor increased tenofovir alafenamide overall exposure by 2.65-fold.
+Elvitegravir; Cobicistat; Emtricitabine; Tenofovir Disoproxil Fumarate: (Moderate) Monitor for an increase in tenofovir-related adverse reactions if coadministration with sorafenib is necessary. Tenofovir is a P-glycoprotein (P-gp) substrate and sorafenib inhibits P-gp in vitro. Sorafenib may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+Emtricitabine; Rilpivirine; Tenofovir alafenamide: (Major) Avoid coadministration of sorafenib with rilpivirine due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Supratherapeutic doses of rilpivirine (75 to 300 mg/day) have also caused QT prolongation. (Moderate) Monitor for tenofovir alafenamide-related adverse effects if concomitant use with sorafenib is necessary. Concomitant use may increase tenofovir alafenamide exposure. Tenofovir alafenamide is a P-gp substrate and sorafenib is a P-gp inhibitor. Concomitant use with another P-gp inhibitor increased tenofovir alafenamide overall exposure by 2.65-fold.
+Emtricitabine; Rilpivirine; Tenofovir Disoproxil Fumarate: (Major) Avoid coadministration of sorafenib with rilpivirine due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Supratherapeutic doses of rilpivirine (75 to 300 mg/day) have also caused QT prolongation. (Moderate) Monitor for an increase in tenofovir-related adverse reactions if coadministration with sorafenib is necessary. Tenofovir is a P-glycoprotein (P-gp) substrate and sorafenib inhibits P-gp in vitro. Sorafenib may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+Emtricitabine; Tenofovir alafenamide: (Moderate) Monitor for tenofovir alafenamide-related adverse effects if concomitant use with sorafenib is necessary. Concomitant use may increase tenofovir alafenamide exposure. Tenofovir alafenamide is a P-gp substrate and sorafenib is a P-gp inhibitor. Concomitant use with another P-gp inhibitor increased tenofovir alafenamide overall exposure by 2.65-fold.
+Emtricitabine; Tenofovir Disoproxil Fumarate: (Moderate) Monitor for an increase in tenofovir-related adverse reactions if coadministration with sorafenib is necessary. Tenofovir is a P-glycoprotein (P-gp) substrate and sorafenib inhibits P-gp in vitro. Sorafenib may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+Encorafenib: (Major) Avoid concurrent use of encorafenib with sorafenib due to the risk for decreased sorafenib exposure and efficacy and additive risk for QT/QTc prolongation and torsade de pointes (TdP). Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary. Sorafenib is a CYP3A substrate, encorafenib is a strong CYP3A inducer, and both medications have been associated with QT/QTc prolongation. Concomitant use with another strong CYP3A inducer decreased sorafenib exposure by 37%.
+Ensartinib: (Major) Avoid concomitant use of ensartinib with sorafenib due to the risk for increased enasartinib exposure which may increase the risk for ensartinib-related adverse reactions. Ensartinib is a P-gp substrate and sorafenib is a P-gp inhibitor.
+Entrectinib: (Major) Avoid coadministration of sorafenib with entrectinib due to the risk of additive QT prolongation. Sorafenib is associated with QTc prolongation. Entrectinib has also been associated with QT prolongation.
+Enzalutamide: (Major) Avoid coadministration of sorafenib with enzalutamide due to decreased plasma concentrations of sorafenib. Sorafenib is a CYP3A4 substrate and enzalutamide is a strong CYP3A4 inducer. Concomitant use with another strong CYP3A4 inducer decreased sorafenib exposure by 37%.
+eriBULin: (Major) Avoid coadministration of sorafenib with eribulin due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Both drugs are associated with QTc prolongation.
+Erythromycin: (Major) Concomitant use of sorafenib and erythromycin increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Escitalopram: (Major) Concomitant use of sorafenib and escitalopram increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Etrasimod: (Major) Concomitant use of etrasimod and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary. Etrasimod has a limited effect on the QT/QTc interval at therapeutic doses but may cause bradycardia and atrioventricular conduction delays which may increase the risk for TdP in patients with a prolonged QT/QTc interval.
+Everolimus: (Moderate) Monitor everolimus whole blood trough concentrations as appropriate and watch for everolimus-related adverse reactions if coadministration with sorafenib is necessary. The dose of everolimus may need to be reduced. Everolimus is a P-glycoprotein (P-gp) substrate and sorafenib is a P-gp inhibitor. Coadministration with P-gp inhibitors may decrease the efflux of everolimus from intestinal cells and increase everolimus blood concentrations.
+Fexinidazole: (Major) Concomitant use of fexinidazole and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Fingolimod: (Major) Avoid coadministration of sorafenib with fingolimod due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. After the first fingolimod dose, overnight monitoring with continuous ECG in a medical facility is advised for patients taking QT prolonging drugs with a known risk of torsade de pointes (TdP). An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Fingolimod initiation results in decreased heart rate and may prolong the QT interval; it has not been studied in patients treated with drugs that prolong the QT interval, but drugs that prolong the QT interval have been associated with cases of TdP in patients with bradycardia.
+Flecainide: (Major) Concomitant use of sorafenib and flecainide increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Fluconazole: (Major) Concomitant use of sorafenib and fluconazole increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+FLUoxetine: (Major) Concomitant use of sorafenib and fluoxetine increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+fluPHENAZine: (Minor) Use caution if coadministration of sorafenib with fluphenazine is necessary due to the risk of additive QT prolongation. Theoretically, fluphenazine may increase the risk of QT prolongation if coadministered with other drugs that have a risk of QT prolongation. Sorafenib is also associated with QTc prolongation; the manufacturer of sorafenib recommends avoiding coadministration with other drugs that cause QT prolongation.
+Fluticasone; Umeclidinium; Vilanterol: (Moderate) Monitor for an increase in umeclidinium-related adverse reactions if coadministration with sorafenib is necessary. Umeclidinium is a P-glycoprotein (P-gp) substrate and sorafenib is a P-gp inhibitor in vitro. Coadministration with another P-gp inhibitor increased umeclidinium exposure by 1.4-fold.
+fluvoxaMINE: (Major) Avoid coadministration of sorafenib with fluvoxamine due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. QT prolongation and torsade de pointes (TdP) has been reported during fluvoxamine postmarketing use.
+Foscarnet: (Major) Avoid coadministration of foscarnet with sorafenib due to the risk of QT prolongation. Sorafenib has been associated with QT prolongation. Both QT prolongation and torsade de pointes (TdP) have been reported during postmarketing experience with foscarnet.
+Fosfomycin (injectable): (Major) Concomitant use of injectable fosfomycin and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Fosfomycin: (Major) Concomitant use of injectable fosfomycin and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Fosphenytoin: (Major) Avoid coadministration of sorafenib with fosphenytoin due to decreased plasma concentrations of sorafenib. Sorafenib is a CYP3A4 substrate and fosphenytoin is a strong CYP3A4 inducer. Concomitant use with another strong CYP3A4 inducer decreased sorafenib exposure by 37%.
+Fostemsavir: (Major) Monitor ECGs for QT prolongation and monitor electrolytes if coadministration of sorafenib with fostemsavir is necessary; correct any electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib has been associated with QT prolongation. Supratherapeutic doses of fostemsavir (2,400 mg twice daily, four times the recommended daily dose) have been shown to cause QT prolongation. Fostemsavir causes dose-dependent QT prolongation.
+Ganaxolone: (Moderate) Monitor for ganaxolone-related adverse effects if concomitant use with sorafenib is necessary. For those on a stable maintenance dose of ganaxolone, consider a ganaxolone dosage reduction. Concomitant use may increase ganaxolone exposure. Ganaxolone is a UGT substrate and sorafenib is a UGT inhibitor.
+Gemifloxacin: (Major) Avoid coadministration of sorafenib with gemifloxacin due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Gemifloxacin may prolong the QT interval in some patients. The likelihood of QTc prolongation may increase with increasing dose of the drug; therefore, the recommended dose should not be exceeded especially in patients with renal or hepatic impairment where the Cmax and AUC are slightly higher.
+Gemtuzumab Ozogamicin: (Major) Avoid coadministration of sorafenib with gemtuzumab due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Although QT interval prolongation has not been reported with gemtuzumab, it has been reported with other drugs that contain calicheamicin.
+Gepirone: (Major) Concomitant use of gepirone and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary. QT prolongation with gepirone has been observed at 2 times the maximum recommended dose.
+Gepotidacin: (Major) Concomitant use of gepotidacin and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Gilteritinib: (Major) Avoid coadministration of sorafenib with gilteritinib due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Both drugs are associated with QTc prolongation.
+Givinostat: (Major) Concomitant use of givinostat and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary. The degree of QT prolongation associated with givinostat is not clinically significant when administered within the recommended dosage range; QT prolongation has been described at 5 times the maximum recommended dose.
+Glasdegib: (Major) Avoid coadministration of sorafenib with glasdegib due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Glasdegib therapy may result in QT prolongation and ventricular arrhythmias including ventricular fibrillation and ventricular tachycardia. Sorafenib is also associated with QTc prolongation.
+Glecaprevir; Pibrentasvir: (Moderate) Monitor for an increase in glecaprevir-related adverse reactions if coadministration with sorafenib is necessary. Glecaprevir is a P-glycoprotein (P-gp) substrate and sorafenib inhibits P-gp in vitro. Sorafenib may increase the concentrations of concomitantly administered drugs that are P-gp substrates. (Moderate) Monitor for an increase in pibrentasvir-related adverse reactions if coadministration with sorafenib is necessary. Pibrentasvir is a P-glycoprotein (P-gp) substrate and sorafenib inhibits P-gp in vitro. Sorafenib may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+glyBURIDE: (Moderate) Monitor for an increase in glyburide-related adverse reactions, including hypoglycemia, if coadministration with sorafenib is necessary. Glyburide is a P-glycoprotein (P-gp) substrate. Sorafenib inhibits P-gp in vitro and may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+glyBURIDE; metFORMIN: (Moderate) Monitor for an increase in glyburide-related adverse reactions, including hypoglycemia, if coadministration with sorafenib is necessary. Glyburide is a P-glycoprotein (P-gp) substrate. Sorafenib inhibits P-gp in vitro and may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+Goserelin: (Major) Avoid coadministration of sorafenib with goserelin due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Androgen deprivation therapy (i.e., goserelin) may also prolong the QT/QTc interval.
+Granisetron: (Major) Avoid coadministration of sorafenib with granisetron due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Both drugs have been associated with QT prolongation.
+Halogenated Anesthetics: (Major) Avoid coadministration of sorafenib with halogenated anesthetics due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Halogenated anesthetics can also prolong the QT interval.
+Haloperidol: (Major) Avoid coadministration of sorafenib with haloperidol due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. QT prolongation and torsade de pointes (TdP) have been observed during haloperidol treatment; excessive doses (particularly in the overdose setting) or IV administration may be associated with a higher risk of QT prolongation. Sorafenib is also associated with QTc prolongation.
+Histrelin: (Major) Avoid coadministration of sorafenib with histrelin due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Androgen deprivation therapy (i.e., histrelin) may also prolong the QT/QTc interval.
+Hydroxychloroquine: (Major) Concomitant use of sorafenib and hydroxychloroquine increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+hydrOXYzine: (Major) Concomitant use of sorafenib and hydroxyzine increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Ibutilide: (Major) Avoid coadministration of sorafenib with ibutilide due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Ibutilide administration can cause QT prolongation and torsade de pointes (TdP); proarrhythmic events should be anticipated. The potential for proarrhythmic events with ibutilide increases with the coadministration of other drugs that prolong the QT interval. Sorafenib is also associated with QTc prolongation.
+Iloperidone: (Major) Avoid coadministration of iloperidone with sorafenib due to the risk of QT prolongation. Both drugs have been associated with QT prolongation.
+Inotuzumab Ozogamicin: (Major) Avoid coadministration of sorafenib with inotuzumab due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Both drugs have been associated with QT interval prolongation.
+Irinotecan Liposomal: (Major) Avoid administration of sorafenib during treatment with irinotecan unless there are no therapeutic alternatives. The active metabolite of irinotecan, SN-38, is a UGT1A1 substrate. Sorafenib inhibits UGT1A1 in vitro and may increase the concentrations of concomitantly administered drugs that are UGT1A1 substrates.
+Irinotecan: (Major) Avoid administration of sorafenib during treatment with irinotecan unless there are no therapeutic alternatives. The active metabolite of irinotecan, SN-38, is a UGT1A1 substrate. Sorafenib inhibits UGT1A1 in vitro and may increase the concentrations of concomitantly administered drugs that are UGT1A1 substrates.
+Isoflurane: (Major) Avoid coadministration of sorafenib with halogenated anesthetics due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Halogenated anesthetics can also prolong the QT interval.
+Itraconazole: (Major) Avoid coadministration of sorafenib with itraconazole due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Both drugs have been associated with prolongation of the QT interval.
+Ivosidenib: (Major) Avoid coadministration of sorafenib with ivosidenib due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Prolongation of the QTc interval and ventricular arrhythmias have been reported in patients treated with ivosidenib.
+Ketoconazole: (Contraindicated) Avoid concomitant use of ketoconazole and sorafenib due to an increased risk for torsade de pointes (TdP) and QT/QTc prolongation.
+lamiVUDine; Tenofovir Disoproxil Fumarate: (Moderate) Monitor for an increase in tenofovir-related adverse reactions if coadministration with sorafenib is necessary. Tenofovir is a P-glycoprotein (P-gp) substrate and sorafenib inhibits P-gp in vitro. Sorafenib may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+Lansoprazole; Amoxicillin; Clarithromycin: (Major) Avoid coadministration of sorafenib with clarithromycin due to the risk of additive QT prolongation. Sorafenib is associated with QTc prolongation. Clarithromycin is associated with an established risk for QT prolongation and torsade de pointes (TdP).
+Lapatinib: (Major) Avoid coadministration of sorafenib with lapatinib due to the risk of additive QT prolongation; the risk of lapatinib-related adverse reactions may also increase. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is a P-glycoprotein (P-gp) inhibitor that has been associated with QTc prolongation. Lapatinib is a P-gp substrate that has also been associated with concentration-dependent QT prolongation; ventricular arrhythmias and torsade de pointes (TdP) have been reported in postmarketing experience with lapatinib.
+Lefamulin: (Major) Avoid coadministration of sorafenib with lefamulin due to the risk of additive QT prolongation. The risk of lefamulin-related adverse reactions may also increase if lefamulin is administered orally; an interaction is not expected with intravenous lefamulin. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is a P-glycoprotein (P-gp) inhibitor that is associated with QTc prolongation. Lefamulin is a P-gp substrate has a concentration dependent QTc prolongation effect. The pharmacodynamic interaction potential to prolong the QT interval of the electrocardiogram between lefamulin and other drugs that effect cardiac conduction is unknown.
+Lenvatinib: (Major) Avoid coadministration of lenvatinib with sorafenib due to the risk of additive QT prolongation. Prolongation of the QT interval has been reported with lenvatinib therapy. Sorafenib is also associated with QTc prolongation.
+Leuprolide: (Major) Avoid coadministration of sorafenib with leuprolide due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Androgen deprivation therapy (i.e., leuprolide) may also prolong the QT/QTc interval.
+levoFLOXacin: (Major) Concomitant use of sorafenib and levofloxacin increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Levoketoconazole: (Contraindicated) Avoid concomitant use of ketoconazole and sorafenib due to an increased risk for torsade de pointes (TdP) and QT/QTc prolongation.
+Lithium: (Major) Concomitant use of sorafenib and lithium increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Lofexidine: (Major) Avoid coadministration of sorafenib with lofexidine due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Lofexidine prolongs the QT interval. Sorafenib is also associated with QTc prolongation.
+Loperamide: (Major) Concomitant use of loperamide and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary. Concomitant use may also increase loperamide exposure and the risk for other loperamide-related adverse effects; loperamide is a P-gp substrate and sorafenib is a P-gp inhibitor. Coadministration with another P-gp inhibitor increased loperamide plasma concentrations by 2- to 3-fold.
+Loperamide; Simethicone: (Major) Concomitant use of loperamide and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary. Concomitant use may also increase loperamide exposure and the risk for other loperamide-related adverse effects; loperamide is a P-gp substrate and sorafenib is a P-gp inhibitor. Coadministration with another P-gp inhibitor increased loperamide plasma concentrations by 2- to 3-fold.
+Lopinavir; Ritonavir: (Major) Avoid coadministration of sorafenib with Lopinavir due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Both drugs are associated with QTc prolongation.
+LORazepam: (Moderate) Monitor for an increase in lorazepam-related adverse reactions and consider reducing the dose of lorazepam if concomitant use of lorazepam and sorafenib is necessary. Avoid lorazepam extended-release capsules and utilize lorazepam immediate-release dosage forms that can be easily titrated. Lorazepam is an UGT substrate and sorafenib is an UGT inhibitor.
+Lumacaftor; Ivacaftor: (Major) Avoid coadministration of sorafenib with lumacaftor; ivacaftor due to decreased plasma concentrations of sorafenib. Sorafenib is a CYP3A4 substrate and lumacaftor is a strong CYP3A4 inducer. Concomitant use with another strong CYP3A4 inducer decreased sorafenib exposure by 37%.
+Lumacaftor; Ivacaftor: (Major) Avoid coadministration of sorafenib with lumacaftor; ivacaftor due to decreased plasma concentrations of sorafenib. Sorafenib is a CYP3A4 substrate and lumacaftor is a strong CYP3A4 inducer. Concomitant use with another strong CYP3A4 inducer decreased sorafenib exposure by 37%.
+Macimorelin: (Major) Avoid concurrent administration of macimorelin with drugs that prolong the QT interval, such as sorafenib. Use of these drugs together may increase the risk of developing torsade de pointes-type ventricular tachycardia. Sufficient washout time of drugs that are known to prolong the QT interval prior to administration of macimorelin is recommended. Treatment with macimorelin has been associated with an increase in the corrected QT (QTc) interval. Sorafenib has also been associated with QT prolongation.
+Maraviroc: (Moderate) Monitor for an increase in maraviroc-related adverse reactions if coadministration with sorafenib is necessary. Maraviroc is a P-glycoprotein (P-gp) substrate. Sorafenib inhibits P-gp in vitro and may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+Mavorixafor: (Major) Concomitant use of mavorixafor and sorafenib may increase mavorixafor exposure and the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Monitor for an increase in mavorixafor-related adverse effects and reduce the mavorixafor dosage if needed by 100 mg/day to a minimum of 200 mg/day if concomitant use is necessary. Additionally, consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring. Mavorixafor is a P-gp substrate, sorafenib is a P-gp inhibitor, and both medications have been associated with QT/QTc prolongation. The degree of QT prolongation associated with mavorixafor is not clinically significant when administered within the recommended dosage range; QT prolongation has been described at 2 times the maximum recommended dose.
+Mefloquine: (Major) Avoid coadministration of sorafenib with mefloquine due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. There is evidence that the use of halofantrine after mefloquine causes a significant lengthening of the QTc interval. Mefloquine alone has not been reported to cause QT prolongation.
+Methadone: (Major) Avoid coadministration of sorafenib with methadone due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Methadone is considered to be associated with an increased risk for QT prolongation and torsade de pointes (TdP), especially at higher doses (greater than 200 mg per day but averaging approximately 400 mg per day in adult patients). Most cases involve patients being treated for pain with large, multiple daily doses of methadone, although cases have been reported in patients receiving doses commonly used for maintenance treatment of opioid addiction. Sorafenib is also associated with QTc prolongation.
+metroNIDAZOLE: (Major) Concomitant use of metronidazole and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Midostaurin: (Major) Avoid coadministration of sorafenib with midostaurin due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. QT prolongation was also reported in patients who received midostaurin in clinical trials.
+miFEPRIStone: (Major) Concomitant use of sorafenib and mifepristone increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Mirtazapine: (Major) Concomitant use of sorafenib and mirtazapine increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Mitotane: (Major) Avoid coadministration of sorafenib with mitotane due to decreased plasma concentrations of sorafenib. Sorafenib is a CYP3A4 substrate and mitotane is a strong CYP3A4 inducer. Concomitant use with another strong CYP3A4 inducer decreased sorafenib exposure by 37%.
+Mobocertinib: (Major) Concomitant use of mobocertinib and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Modafinil: (Major) Sorafenib is a CYP3A4 substrate, and concomitant use with a strong CYP3A4 inducer such as modafinil may lead to reduced sorafenib concentrations. For example, concurrent use of sorafenib and the CYP3A4 inducer rifampicin resulted in an average 37% reduction in the sorafenib AUC. Avoid the use of sorafenib with a strong CYP3A4 inducer. If a strong CYP3A4 inducer must be coadministered with sorafenib, consider a sorafenib dose increase.
+Morphine: (Moderate) Monitor for an increase in morphine-related adverse reactions, including hypotension, respiratory depression, profound sedation, coma, and death, if coadministration with sorafenib is necessary; decrease the dose of morphine as clinically appropriate. Morphine is a P-glycoprotein (P-gp) substrate. Sorafenib inhibits P-gp in vitro and may increase the concentrations of concomitantly administered drugs that are P-gp substrates. The concomitant use of P-gp inhibitors can increase the exposure to morphine by about 2-fold.
+Moxifloxacin: (Major) Avoid coadministration of sorafenib with moxifloxacin due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Quinolones have also been associated with a risk of QT prolongation. Although extremely rare, torsade de pointes (TdP) has been reported during postmarketing surveillance of moxifloxacin; these reports generally involved patients with concurrent medical conditions or concomitant medications that may have been contributory.
+Naldemedine: (Major) Monitor for potential naldemedine-related adverse reactions if coadministered with sorafenib. Naldemedine is a P-gp substrate; sorafenib is a P-gp inhibitor in vitro. Sorafenib may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+Nanoparticle Albumin-Bound Sirolimus: (Major) Avoid concomitant use of sirolimus and sorafenib. Coadministration may increase sirolimus concentrations and increase the risk for sirolimus-related adverse effects. Sirolimus is a P-gp substrate and sorafenib is a P-gp inhibitor.
+Neomycin: (Moderate) Monitor for decreased clinical response to sorafenib if coadministration with neomycin is necessary. Concomitant administration of oral neomycin and sorafenib decreased the AUC of sorafenib by 54% in healthy volunteers who first received neomycin 1 gm by mouth three times daily for 5 days.
+Nilotinib: (Major) Avoid coadministration of nilotinib with sorafenib due to the risk of QT prolongation. Sudden death and QT interval prolongation have occurred in patients who received nilotinib therapy. Sorafenib has also been associated with QT prolongation.
+Ofloxacin: (Major) Concomitant use of sorafenib and ofloxacin increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+OLANZapine: (Major) Avoid coadministration of sorafenib with olanzapine due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Limited data, including some case reports, suggest that olanzapine may also be associated with a significant prolongation of the QTc interval.
+OLANZapine; FLUoxetine: (Major) Avoid coadministration of sorafenib with olanzapine due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Limited data, including some case reports, suggest that olanzapine may also be associated with a significant prolongation of the QTc interval. (Major) Concomitant use of sorafenib and fluoxetine increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+OLANZapine; Samidorphan: (Major) Avoid coadministration of sorafenib with olanzapine due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Limited data, including some case reports, suggest that olanzapine may also be associated with a significant prolongation of the QTc interval.
+Omeprazole; Amoxicillin; Rifabutin: (Major) Avoid coadministration of sorafenib with rifabutin due to decreased plasma concentrations of sorafenib. Sorafenib is a CYP3A4 substrate and rifabutin is a CYP3A4 inducer. Concomitant use with another strong CYP3A4 inducer decreased sorafenib exposure by 37%.
+Ondansetron: (Major) Concomitant use of sorafenib and ondansetron increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary. Do not exceed 16 mg of IV ondansetron in a single dose; the degree of QT prolongation associated with ondansetron significantly increases above this dose.
+Osilodrostat: (Major) Avoid coadministration of sorafenib with osilodrostat due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Osilodrostat is associated with dose-dependent QT prolongation. Sorafenib is also associated with QTc prolongation.
+Osimertinib: (Major) Avoid coadministration of sorafenib with osimertinib due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of therapy may be necessary if QT prolongation occurs. Concentration-dependent QTc prolongation occurred during clinical trials of osimertinib. Sorafenib is associated with QTc prolongation.
+Oxaliplatin: (Major) Avoid coadministration of sorafenib with oxaliplatin due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. QT prolongation and ventricular arrhythmias including fatal torsade de pointes (TdP) have been reported with oxaliplatin use in postmarketing experience.
+Ozanimod: (Major) In general, do not initiate ozanimod in patients taking sorafenib due to the risk of additive bradycardia, QT prolongation, and torsade de pointes (TdP). If treatment initiation is considered, seek advice from a cardiologist. Monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Ozanimod initiation may result in a transient decrease in heart rate and atrioventricular conduction delays. Sorafenib is associated with QTc prolongation. Ozanimod has not been studied in patients taking concurrent QT prolonging drugs; however, QT prolonging drugs have been associated with TdP in patients with bradycardia.
+Pacritinib: (Major) Concomitant use of pacritinib and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Paliperidone: (Major) Avoid coadministration of sorafenib with paliperidone due to the risk of additive QT prolongation. Sorafenib is associated with QTc prolongation. Paliperidone has been associated with QT prolongation; torsade de pointes and ventricular fibrillation have been reported in the setting of overdose.
+Panobinostat: (Major) Use of panobinostat with sorafenib is not recommended due to the risk of additive QT prolongation. QT prolongation has been reported with panobinostat. Sorafenib is also associated with QTc prolongation.
+Pasireotide: (Major) Avoid coadministration of sorafenib with pasireotide due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. QT prolongation has occurred with pasireotide at therapeutic and supra-therapeutic doses. Sorafenib is also associated with QTc prolongation.
+PAZOPanib: (Major) Coadministration of pazopanib and sorafenib is not advised due to the risk of additive QT prolongation. If concomitant use is unavoidable, closely monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Pazopanib has been reported to prolong the QT interval. Sorafenib is also associated with QTc prolongation.
+Pentamidine: (Major) Avoid coadministration of sorafenib with systemic pentamidine due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Systemic pentamidine has also been associated with QT prolongation.
+Perphenazine: (Minor) Use caution if coadministration of sorafenib with perphenazine is necessary due to the risk of additive QT prolongation. Theoretically, perphenazine may increase the risk of QT prolongation if coadministered with other drugs that have a risk of QT prolongation. Sorafenib is also associated with QTc prolongation.
+Perphenazine; Amitriptyline: (Minor) Use caution if coadministration of sorafenib with perphenazine is necessary due to the risk of additive QT prolongation. Theoretically, perphenazine may increase the risk of QT prolongation if coadministered with other drugs that have a risk of QT prolongation. Sorafenib is also associated with QTc prolongation.
+Pexidartinib: (Major) Avoid concomitant use of pexidartinib and sorafenib due to the risk of increased pexidartinib exposure which may increase the risk for adverse effects. If concomitant use is necessary, reduce the pexidartinib dosage as follows: 500 mg/day or 375 mg/day of pexidartinib, reduce to 125 mg twice daily; 250 mg/day of pexidartinib, reduce to 125 mg once daily. If sorafenib is discontinued, increase the pexidartinib dose to the original dose after 3 plasma half-lives of sorafenib. Pexidartinib is a UGT substrate; sorafenib is a UGT inhibitor. Coadministration of another UGT inhibitor increased pexidartinib exposure by 60%.
+PHENobarbital: (Major) Avoid coadministration of sorafenib with phenobarbital due to decreased plasma concentrations of sorafenib. Sorafenib is a CYP3A4 substrate and phenobarbital is a strong CYP3A4 inducer. Concomitant use with another strong CYP3A4 inducer decreased sorafenib exposure by 37%.
+PHENobarbital; Hyoscyamine; Atropine; Scopolamine: (Major) Avoid coadministration of sorafenib with phenobarbital due to decreased plasma concentrations of sorafenib. Sorafenib is a CYP3A4 substrate and phenobarbital is a strong CYP3A4 inducer. Concomitant use with another strong CYP3A4 inducer decreased sorafenib exposure by 37%.
+Phenytoin: (Major) Avoid coadministration of sorafenib with phenytoin due to decreased plasma concentrations of sorafenib. Sorafenib is a CYP3A4 substrate and phenytoin is a strong CYP3A4 inducer. Concomitant use with another strong CYP3A4 inducer decreased sorafenib exposure by 37%.
+Pimavanserin: (Major) Avoid coadministration of sorafenib with pimavanserin due to the risk of additive QT prolongation. Sorafenib is associated with QTc prolongation. Pimavanserin also prolongs the QT interval.
+Pimozide: (Contraindicated) Because of the potential for TdP, use of sorafenib with pimozide is contraindicated. Pimozide is associated with a well-established risk of QT prolongation and torsade de pointes (TdP). Sorafenib has also been associated with QT prolongation.
+Pitolisant: (Major) Avoid coadministration of sorafenib with pitolisant due to the risk of additive QT prolongation. Sorafenib is associated with QTc prolongation. Pitolisant also prolongs the QT interval.
+Ponesimod: (Major) Avoid coadministration of sorafenib with ponesimod due to the risk of additive bradycardia, QT prolongation, and torsade de pointes (TdP); additive immunosuppression may also occur which may extend the duration or severity of immune suppression. If concomitant use is unavoidable, monitor ECGs and for signs and symptoms of infection; correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Ponesimod initiation may result in a transient decrease in heart rate and atrioventricular conduction delays. Ponesimod has not been studied in patients taking concurrent QT prolonging drugs; however, QT prolonging drugs have been associated with TdP in patients with bradycardia.
+Posaconazole: (Major) Avoid coadministration of sorafenib with posaconazole due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Posaconazole has been associated with prolongation of the QT interval as well as rare cases of torsade de pointes (TdP). Sorafenib is associated with QTc prolongation.
+Pralsetinib: (Major) Avoid concomitant use of sorafenib with pralsetinib due to the risk of increased pralsetinib exposure which may increase the risk of adverse reactions. If concomitant use is necessary, reduce the daily dose of pralsetinib by 100 mg. Pralsetinib is a P-gp substrate and sorafenib is a P-gp inhibitor. Coadministration with another P-gp inhibitor increased the overall exposure of pralsetinib by 81%.
+Primaquine: (Major) Concomitant use of primaquine and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Primidone: (Major) Avoid coadministration of sorafenib with primidone due to decreased plasma concentrations of sorafenib. Sorafenib is a CYP3A4 substrate and primidone is a strong CYP3A4 inducer. Concomitant use with another strong CYP3A4 inducer decreased sorafenib exposure by 37%.
+Probenecid; Colchicine: (Major) Avoid concomitant use of colchicine and sorafenib due to the risk for increased colchicine exposure which may increase the risk for adverse effects. Concomitant use is contraindicated in patients with renal or hepatic impairment. Additionally, this combination is contraindicated if colchicine is being used for cardiovascular risk reduction. If concomitant use is necessary outside of these scenarios, consider a colchicine dosage reduction. Specific dosage reduction recommendations are available for colchicine tablets for some indications; it is unclear if these dosage recommendations are appropriate for other products or indications. For colchicine tablets being used for gout prophylaxis, reduce the dose from 0.6 mg twice daily to 0.3 mg once daily or from 0.6 mg once daily to 0.3 mg once every other day. For colchicine tablets being used for gout treatment, reduce the dose from 1.2 mg followed by 0.6 mg to 0.6 mg without an additional dose. For colchicine tablets being used for Familial Mediterranean Fever, the maximum daily dose is 0.6 mg. Colchicine is a P-gp substrate and sorafenib is a P-gp inhibitor.
+Procainamide: (Major) Avoid coadministration of sorafenib with procainamide due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Procainamide is associated with a well-established risk of QT prolongation and torsade de pointes (TdP). Sorafenib is associated with QTc prolongation.
+Prochlorperazine: (Minor) Use caution if coadministration of sorafenib with prochlorperazine is necessary due to the risk of additive QT prolongation. Theoretically, prochlorperazine may increase the risk of QT prolongation if coadministered with other drugs that have a risk of QT prolongation. Sorafenib is also associated with QTc prolongation.
+Promethazine: (Major) Concomitant use of sorafenib and promethazine increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Promethazine; Dextromethorphan: (Major) Concomitant use of sorafenib and promethazine increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Promethazine; Phenylephrine: (Major) Concomitant use of sorafenib and promethazine increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Propafenone: (Major) Concomitant use of sorafenib and propafenone increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+QUEtiapine: (Major) Concomitant use of sorafenib and quetiapine increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+quiNIDine: (Major) Avoid coadministration of sorafenib with quinidine due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Quinidine administration is associated with QT prolongation and torsade de pointes (TdP). Sorafenib is associated with QTc prolongation.
+quiNINE: (Major) Avoid coadministration of sorafenib with quinine due to the risk of additive QT prolongation. Sorafenib is associated with QTc prolongation. Quinine has been associated with QT prolongation and rare cases of torsade de pointes (TdP).
+Quizartinib: (Major) Concomitant use of quizartinib and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Ranolazine: (Major) Avoid coadministration of sorafenib with ranolazine due to the risk of additive QT prolongation; the risk of ranolazine-related adverse reactions may also increase. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Ranolazine is a P-glycoprotein (P-gp) substrate that is associated with dose- and plasma concentration-related increases in the QTc interval. Sorafenib is a P-gp inhibitor that is also associated with QTc prolongation.
+Relugolix: (Major) Avoid concomitant use of relugolix and oral sorafenib. Concomitant use may increase relugolix exposure and the risk of relugolix-related adverse effects; QT prolongation may also occur. If concomitant use is unavoidable, administer sorafenib at least six hours after relugolix; monitor ECGs for QT prolongation and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Relugolix is a P-gp substrate that may prolong the QT/QTc interval. Sorafenib inhibited P-gp in vitro and may increase the concentrations of P-gp substrates; it is also associated with QTc prolongation.
+Relugolix; Estradiol; Norethindrone acetate: (Major) Avoid concomitant use of relugolix and oral sorafenib. Concomitant use may increase relugolix exposure and the risk of relugolix-related adverse effects; QT prolongation may also occur. If concomitant use is unavoidable, administer sorafenib at least six hours after relugolix; monitor ECGs for QT prolongation and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Relugolix is a P-gp substrate that may prolong the QT/QTc interval. Sorafenib inhibited P-gp in vitro and may increase the concentrations of P-gp substrates; it is also associated with QTc prolongation.
+Repotrectinib: (Major) Avoid coadministration of repotrectinib with sorafenib due to increased repotrectinib exposure which may increase the risk for repotrectinib-related adverse effects. Repotrectinib is a P-gp substrate and sorafenib is a P-gp inhibitor.
+Revumenib: (Major) Concomitant use of revumenib and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Ribociclib: (Major) Avoid coadministration of sorafenib with ribociclib due to the risk of additive QT prolongation. Sorafenib is associated with QTc prolongation. Ribociclib has been shown to prolong the QT interval in a concentration-dependent manner.
+Ribociclib; Letrozole: (Major) Avoid coadministration of sorafenib with ribociclib due to the risk of additive QT prolongation. Sorafenib is associated with QTc prolongation. Ribociclib has been shown to prolong the QT interval in a concentration-dependent manner.
+Rifabutin: (Major) Avoid coadministration of sorafenib with rifabutin due to decreased plasma concentrations of sorafenib. Sorafenib is a CYP3A4 substrate and rifabutin is a CYP3A4 inducer. Concomitant use with another strong CYP3A4 inducer decreased sorafenib exposure by 37%.
+rifAMPin: (Major) Avoid coadministration of sorafenib with rifampin due to decreased plasma concentrations of sorafenib. Sorafenib is a CYP3A4 substrate and rifampin is a strong CYP3A4 inducer. Concomitant use with rifampin decreased sorafenib exposure by 37%.
+Rifapentine: (Major) Avoid coadministration of sorafenib with rifapentine due to decreased plasma concentrations of sorafenib. Sorafenib is a CYP3A4 substrate and rifapentine is a strong CYP3A4 inducer. Concomitant use with another strong CYP3A4 inducer decreased sorafenib exposure by 37%.
+rifAXIMin: (Moderate) Monitor for an increase in rifaximin-related adverse reactions if coadministration with sorafenib is necessary. Concomitant use may increase rifaximin exposure. In patients with hepatic impairment, a potential additive effect of reduced metabolism may further increase systemic rifaximin exposure. Rifaximin is a P-gp substrate and sorafenib is a P-gp inhibitor. Coadministration with another P-gp inhibitor increased rifaximin overall exposure by 124-fold.
+Rilpivirine: (Major) Avoid coadministration of sorafenib with rilpivirine due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Supratherapeutic doses of rilpivirine (75 to 300 mg/day) have also caused QT prolongation.
+Rimegepant: (Major) Avoid a second dose of rimegepant within 48 hours if coadministered with sorafenib; concurrent use may increase rimegepant exposure. Rimegepant is a P-gp substrate and sorafenib is a P-gp inhibitor.
+risperiDONE: (Major) Avoid coadministration of sorafenib with risperidone due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Risperidone has been associated with a possible risk for QT prolongation and/or TdP, primarily in the overdose setting. Sorafenib is also associated with QTc prolongation.
+romiDEPsin: (Major) Avoid coadministration of sorafenib with romidepsin due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Romidepsin has also been reported to prolong the QT interval.
+Saquinavir: (Contraindicated) Concurrent use of sorafenib and saquinavir boosted with ritonavir is contraindicated due to the risk of life threatening cardiac arrhythmias such as torsade de pointes (TdP). Saquinavir boosted with ritonavir causes dose-dependent QT and PR prolongation. Sorafenib is also associated with prolongation of the QT interval. Additionlly, sorafenib inhibits P-glycoprotein (P-gp) in vitro. Concurrent use of sorafenib with a P-gp substrate, such as saquinavir, could increase the concentrations of saquinavir thus increasing the risk of drug toxicity and proarrhythmic effects.
+SARS-CoV-2 (COVID-19) vaccines: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) mRNA Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) Recombinant Spike Protein Nanoparticle Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+Selpercatinib: (Major) Avoid coadministration of sorafenib with selpercatinib due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Concentration-dependent QT prolongation has been observed with selpercatinib therapy. Sorafenib is also associated with QTc prolongation.
+Sertraline: (Major) Concomitant use of sorafenib and sertraline increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary. The degree of QT prolongation associated with sertraline is not clinically significant when administered within the recommended dosage range; QT prolongation has been described at 2 times the maximum recommended dose.
+Sevoflurane: (Major) Avoid coadministration of sorafenib with halogenated anesthetics due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Halogenated anesthetics can also prolong the QT interval.
+Siponimod: (Major) In general, do not initiate treatment with siponimod in patients receiving sorafenib due to the potential for QT prolongation. Consult a cardiologist regarding appropriate monitoring if siponimod use is required. Siponimod therapy prolonged the QT interval at recommended doses in a clinical study. Sorafenib has been associated with QT prolongation.
+Sirolimus: (Moderate) Monitor sirolimus concentrations and adjust sirolimus dosage as appropriate during concomitant use of sorafenib. Coadministration may increase sirolimus concentrations and the risk for sirolimus-related adverse effects. Sirolimus is a P-gp substrate and sorafenib is a P-gp inhibitor.
+Solifenacin: (Major) Avoid coadministration of sorafenib with solifenacin due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Solifenacin has been associated with dose-dependent prolongation of the QT interval; torsade de pointes (TdP) has been reported with postmarketing use, although causality was not determined. Sorafenib is also associated with QTc prolongation.
+Sotalol: (Major) Concomitant use of sotalol and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+St. John's Wort, Hypericum perforatum: (Major) Avoid coadministration of sorafenib with St. John's Wort due to decreased plasma concentrations of sorafenib. Sorafenib is a CYP3A4 substrate and St. John's Wort is a strong CYP3A4 inducer. Concomitant use with another strong CYP3A4 inducer decreased sorafenib exposure by 37%.
+SUNItinib: (Major) Avoid coadministration of sorafenib with sunitinib due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Both drugs are associated with QTc prolongation.
+Tacrolimus: (Major) Avoid coadministration of sorafenib with tacrolimus due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Tacrolimus may prolong the QT interval and cause torsade de pointes (TdP). Sorafenib is also associated with QTc prolongation.
+Talazoparib: (Moderate) Monitor for an increase in talazoparib-related adverse reactions if coadministration with sorafenib is necessary. Talazoparib is a P-gp substrate and sorafenib is a P-gp inhibitor.
+Taletrectinib: (Major) Concomitant use of taletrectinib and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Tamoxifen: (Major) Concomitant use of tamoxifen and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Telavancin: (Major) Avoid coadministration of sorafenib with telavancin due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Both drugs are associated with QTc prolongation.
+Temsirolimus: (Moderate) Monitor for an increase in temsirolimus-related adverse reactions if coadministration with sorafenib is necessary. Temsirolimus is a P-glycoprotein (P-gp) substrate and sorafenib is a P-gp inhibitor. Concomitant use is likely to lead to increased concentrations of temsirolimus.
+Tenofovir Alafenamide: (Moderate) Monitor for tenofovir alafenamide-related adverse effects if concomitant use with sorafenib is necessary. Concomitant use may increase tenofovir alafenamide exposure. Tenofovir alafenamide is a P-gp substrate and sorafenib is a P-gp inhibitor. Concomitant use with another P-gp inhibitor increased tenofovir alafenamide overall exposure by 2.65-fold.
+Tenofovir Disoproxil Fumarate: (Moderate) Monitor for an increase in tenofovir-related adverse reactions if coadministration with sorafenib is necessary. Tenofovir is a P-glycoprotein (P-gp) substrate and sorafenib inhibits P-gp in vitro. Sorafenib may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+Tetrabenazine: (Major) Avoid coadministration of tetrabenazine with sorafenib due to the risk of QT prolongation. Tetrabenazine causes a small increase in the corrected QT interval (QTc). Sorafenib has also been associated with QT prolongation.
+Thioridazine: (Contraindicated) Because of the potential for TdP, use of sorafenib with thioridazine is contraindicated. Thioridazine is associated with a well-established risk of QT prolongation and torsade de pointes (TdP). Thioridazine is considered contraindicated for use along with agents that may prolong the QT interval and increase the risk of TdP, and/or cause orthostatic hypotension. Sorafenib has also been associated with QT prolongation.
+Tipranavir: (Moderate) Monitor for an increase in tipranavir-related adverse reactions if coadministration with sorafenib is necessary. Tipranavir is a P-glycoprotein (P-gp) substrate. Sorafenib inhibits P-gp in vitro and may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+Tolterodine: (Major) Avoid coadministration of sorafenib with tolterodine due to the risk of additive QT prolongation. Sorafenib is associated with QTc prolongation. Tolterodine has been associated with dose-dependent prolongation of the QT interval, especially in poor CYP2D6 metabolizers.
+Topotecan: (Major) Avoid coadministration of sorafenib with oral topotecan due to increased topotecan exposure; sorafenib may be administered with intravenous topotecan. Oral topotecan is a substrate of P-glycoprotein (P-gp) and sorafenib is a P-gp inhibitor. Oral administration within 4 hours of another P-gp inhibitor increased the dose-normalized AUC of topotecan lactone and total topotecan 2-fold to 3-fold compared to oral topotecan alone.
+Toremifene: (Major) Avoid coadministration of sorafenib with toremifene due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Toremifene has been shown to prolong the QTc interval in a dose- and concentration-related manner. Sorafenib is also associated with QTc prolongation.
+Trandolapril; Verapamil: (Moderate) Monitor blood pressure and heart rate if coadministration of verapamil with sorafenib is necessary. Verapamil is a P-glycoprotein (P-gp) substrate. Sorafenib inhibits P-gp in vitro and may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+traZODone: (Major) Concomitant use of trazodone and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Triclabendazole: (Major) Concomitant use of triclabendazole and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Trifluoperazine: (Minor) Use caution if coadministration of sorafenib with trifluoperazine is necessary due to the risk of additive QT prolongation. Theoretically, trifluoperazine may increase the risk of QT prolongation if coadministered with other drugs that have a risk of QT prolongation. Sorafenib is also associated with QTc prolongation; the manufacturer of sorafenib recommends avoiding coadministration with other drugs that cause QT prolongation.
+Triptorelin: (Major) Avoid coadministration of sorafenib with triptorelin due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Androgen deprivation therapy (i.e., triptorelin) may also prolong the QT/QTc interval.
+Ubrogepant: (Major) Limit the initial and second dose of ubrogepant to 50 mg if coadministered with sorafenib. Concurrent use may increase ubrogepant exposure and the risk of adverse effects. Ubrogepant is a substrate of the P-gp drug transporter; sorafenib is a P-gp inhibitor.
+Umeclidinium: (Moderate) Monitor for an increase in umeclidinium-related adverse reactions if coadministration with sorafenib is necessary. Umeclidinium is a P-glycoprotein (P-gp) substrate and sorafenib is a P-gp inhibitor in vitro. Coadministration with another P-gp inhibitor increased umeclidinium exposure by 1.4-fold.
+Umeclidinium; Vilanterol: (Moderate) Monitor for an increase in umeclidinium-related adverse reactions if coadministration with sorafenib is necessary. Umeclidinium is a P-glycoprotein (P-gp) substrate and sorafenib is a P-gp inhibitor in vitro. Coadministration with another P-gp inhibitor increased umeclidinium exposure by 1.4-fold.
+Vandetanib: (Major) Avoid coadministration of vandetanib with sorafenib due to an increased risk of additive QT prolongation and torsade de pointes (TdP). If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Vandetanib can prolong the QT interval in a concentration-dependent manner; TdP and sudden death have been reported in patients receiving vandetanib. Sorafenib is also associated with QTc prolongation.
+Vardenafil: (Major) Concomitant use of vardenafil and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Vemurafenib: (Major) Avoid vemurafenib in patients receiving medications known to prolong the QT interval such as sorafenib. Vemurafenib has been shown to prolong the QT interval in a concentration-dependent manner; these ECG changes occurred within the first month of treatment. Sorafenib is also associated with QTc prolongation.
+Venetoclax: (Major) Reduce the dose of venetoclax by at least 50% and monitor for venetoclax toxicity (e.g., hematologic toxicity, GI toxicity, and tumor lysis syndrome) if coadministered with sorafenib due to the potential for increased venetoclax exposure. Resume the original venetoclax dose 2 to 3 days after discontinuation of sorafenib. Sorafenib is a P-gp inhibitor in vitro; venetoclax is a P-gp substrate. Coadministration with a single dose of another P-gp inhibitor increased venetoclax exposure by 78% in a drug interaction study.
+Venlafaxine: (Major) Concomitant use of venlafaxine and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Vepdegestrant: (Major) Concomitant use of vepdegestrant and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Verapamil: (Moderate) Monitor blood pressure and heart rate if coadministration of verapamil with sorafenib is necessary. Verapamil is a P-glycoprotein (P-gp) substrate. Sorafenib inhibits P-gp in vitro and may increase the concentrations of concomitantly administered drugs that are P-gp substrates.
+vinCRIStine Liposomal: (Moderate) Monitor for an earlier onset or increased severity of vincristine-related adverse reactions if coadministration with sorafenib is necessary. Vincristine is a P-glycoprotein (P-gp) substrate and sorafenib is a P-gp inhibitor in vitro. The effect of concomitant use of P-gp inhibitors with vincristine has not been investigated; however, it is likely that these agents will alter the pharmacokinetics or pharmacodynamics of vincristine.
+vinCRIStine: (Moderate) Monitor for an earlier onset or increased severity of vincristine-related adverse reactions if coadministration with sorafenib is necessary. Vincristine is a P-glycoprotein (P-gp) substrate and sorafenib is a P-gp inhibitor in vitro. The effect of concomitant use of P-gp inhibitors with vincristine has not been investigated; however, it is likely that these agents will alter the pharmacokinetics or pharmacodynamics of vincristine.
+Voclosporin: (Major) Avoid concomitant use of sorafenib and voclosporin due to the risk of additive QT prolongation. If concomitant use is necessary, monitor ECGs and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Sorafenib is associated with QTc prolongation. Voclosporin has been associated with QT prolongation at supratherapeutic doses.
+Vonoprazan; Amoxicillin; Clarithromycin: (Major) Avoid coadministration of sorafenib with clarithromycin due to the risk of additive QT prolongation. Sorafenib is associated with QTc prolongation. Clarithromycin is associated with an established risk for QT prolongation and torsade de pointes (TdP).
+Voriconazole: (Major) Avoid coadministration of sorafenib with voriconazole due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Voriconazole has been associated with QT prolongation and rare cases of torsade de pointes (TdP). Sorafenib is also associated with QTc prolongation.
+Vorinostat: (Major) Avoid coadministration of sorafenib with vorinostat due to the risk of additive QT prolongation. If concomitant use is unavoidable, monitor electrocardiograms and correct electrolyte abnormalities. An interruption or discontinuation of sorafenib therapy may be necessary if QT prolongation occurs. Vorinostat therapy is associated with a risk of QT prolongation. Sorafenib is also associated with QTc prolongation.
+Warfarin: (Moderate) Monitor for an increased risk of bleeding and regularly monitor the PT/INR of patients taking sorafenib concomitantly with warfarin. Infrequent bleeding or elevations in the INR have been reported in some patients taking warfarin while on sorafenib.
+Zidesamtinib: (Major) Concomitant use of zidesamtinib and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Ziftomenib: (Major) Concomitant use of ziftomenib and sorafenib increases the risk of QT/QTc prolongation and torsade de pointes (TdP). Avoid concomitant use if possible, especially in patients with additional risk factors for TdP. Consider taking steps to minimize the risk for QT/QTc interval prolongation and TdP, such as electrolyte monitoring and repletion and ECG monitoring, if concomitant use is necessary.
+Ziprasidone: (Major) Concomitant use of ziprasidone and sorafenib should be avoided due to a potential for additive QT prolongation. Clinical trial data indicate that ziprasidone causes QT prolongation; there are postmarketing reports of torsade de pointes (TdP) in patients with multiple confounding factors. Sorafenib has also been associated with QT prolongation.
+
+Adverse Reactions
+  Headline
+  Adverse Reactions
+  General Information
+  Palmar-plantar erythrodysesthesia (hand and foot syndrome) and rash (unspecified) are the most common adverse events associated with sorafenib treatment. Hand-foot skin reaction was seen in 30% of 451 patients with renal cell cancer, and 6% had grade 3 severity. Palmar-plantar erythrodysesthesia occurred in 21% of 297 patients with hepatocellular carcinoma. The reaction is characterized by redness, pain, swelling, or blisters on the palms of the hands or soles of the feet. Rash/desquamation was seen in 40% of the patients, and the severity was grade 3 in = 30 mg/m2 (approximately 0.5 times the AUC in cancer patients at the recommended human dose). Dogs showed tubular degeneration in the testes at 600 mg/m2/day (approximately 0.3 times the AUC at the recommended human dose) and oligospermia at 1200 mg/m2/day of sorafenib.Among 297 patients with hepatocellular carcinoma who got sorafenib, 14% had alopecia, and 14% had pruritus. Among 451 patients with renal cell cancer who got sorafenib, alopecia was seen in 27% and pruritus in 19% with < 1% having grade 3 severity of either event. Xerosis occurred in 11% of patients. Among 1286 patients with cancer who got sorafenib in clinical trials, at least 10% had erythema, 1—9.9% had exfoliative dermatitis, flushing, or acne vulgaris, and < 1% had erythema multiforme. Sensory neuropathy (paresthesias) occurred in 13% of 451 patients who received sorafenib for renal cell cancer; < 1% of the patients had grade 3 severity sensory neuropathy.Among 1286 patients with cancer who got sorafenib in clinical trials, at least 10% had hypophosphatemia, and 1—9.9% had elevated hepatic enzymes. Among 451 patients with renal cell cancer, 45% had hypophosphatemia; 13% had a serum phosphate concentration of 1—2 mg/dl. Among 297 patients with hepatocellular carcinoma who got sorafenib, 35% had hypophosphatemia; 11% had grade 3 severity (concentration of 1—2 mg/dl). The etiology of hypophosphatemia is unknown.Common adverse reactions among 297 patients with hepatocellular carcinoma were diarrhea (55%), hyperamylasemia (34%), weight loss (30%), and anorexia (29%). Among 1286 patients with cancer who got sorafenib in clinical trials, at least 10% had hyperamylasemia or hyperlipasemia, and 1—9.9% had mucositis, stomatitis, xerostomia, glossodynia, dyspepsia, anorexia, or dysphagia. Among 451 patients with renal cell cancer, 41% had elevated lipase concentrations, and 12% had grade 3 or 4 elevations. Further, 30% had increased amylase concentrations, and 1% had grade 3 or 4 elevations. Ten percent of patients had weight loss of which < 1% had grade 3 severity, 43% had diarrhea with 2% of grade 3 severity, and 11% had abdominal pain with 2% of grade 3 severity. Further, 23%/16% had nausea/vomiting, 16% had anorexia, and 15% had constipation; < 1% of patients had grade 3 severity of any event. Less than 1% of patients had gastrointestinal reflux, gastritis, or GI perforation. In some cases, GI perforation was not associated with apparent intra-abdominal tumor. Discontinue sorafenib if a GI perforation occurs. Less than 1% of patients had pancreatitis. Specifically, 3 of the 451 patients had clinical pancreatitis; 2 patients had grade 4 severity. Elevations in lipase and amylase were transient in many patients, and sorafenib interruption was not necessary for most patients. A diagnosis of pancreatitis should not be solely made on the basis of abnormal laboratory values.Among 638 patients with various types of cancers who got sorafenib, 33% had fatigue. Fatigue (37%) and headache (10%) occurred among 451 patients with renal cell cancer. Among 1286 patients with cancer who got sorafenib in clinical trials, at least 10% had asthenia and 1—9.9% had fever.Among 451 patients with renal cell cancer, 10% had arthralgia of which 2% had grade 3 severity. Among 1286 patients with cancer who got sorafenib in clinical trials, at least 1—9.9% had arthralgia or myalgia.Among 1286 patients with cancer who got sorafenib in clinical trials, 1—9.9% had depression, erectile dysfunction, or hoarseness. Among 451 patients with renal cell cancer who got sorafenib, 14% had dyspnea of any grade and 3% had grade 3 severity. Acute renal failure was infrequently reported during clinical trials; the causal relationship to sorafenib has not been established.
+  Adverse Reactions
+    Headline
+    palmar-plantar erythrodysesthesia (hand and foot syndrome), rash
+    General Information
+    Palmar-plantar erythrodysesthesia (hand and foot syndrome) and rash are the most common adverse events associated with sorafenib treatment; they usually grade 1 or 2 in severity and generally appear during the first 6 weeks of treatment. The incidence of rash and hand and foot syndrome vary between indications and clinical trials. In patients with hepatocellular carcinoma (HCC) receiving sorafenib monotherapy, rash/desquamation occurred in 19% (grade 3, 1%) of patients, while the incidence was 35% (grade 3 or 4, 5%) in patients with differentiated thyroid cancer (DTC), and 40% (grade 3, less than 1%) in patients with renal cell carcinoma (RCC). Hand and foot syndrome occurred in 21% (grade 3, 8%) of patients with HCC receiving sorafenib monotherapy, in 69% (grade 3 or 4, 19%) of patients with DTC, and in 30% (grade 3, 6%) of patients with RCC. An interruption of therapy, dose reduction, or discontinuation of therapy may be necessary for dermatologic toxicities. If the dose of sorafenib has been reduced due to dermatologic toxicity, the dose of sorafenib may be increased by one dose level following at least 28 days of treatment at the reduced dose after resolution to grade 1 or less toxicity. Approximately 50% of patients requiring a dose reduction for dermatologic toxicity will meet the criteria for resuming a higher dose, and about half of those patients will tolerate the higher dose.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      palmar-plantar erythrodysesthesia (hand and foot syndrome)
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      rash
+      Severity
+      Severe
+      Incidence To
+    Headline
+    acne vulgaris, alopecia, atopic dermatitis, erythema, erythema multiforme, exfoliative dermatitis, flushing, folliculitis, hyperkeratosis, pruritus, Stevens-Johnson syndrome, toxic epidermal necrolysis, xerosis
+    General Information
+    Pruritus (14% to 20%; grade 3, less than 1%) and xerosis (10% to 13%; grade 3 or 4, 0.5% or less) were reported with a similar incidence across clinical trials. Alopecia was more common in patients with DTC (67%) than in patients with HCC or RCC (14% to 27%; grade 3, less than 1%); erythema (10%) and hyperkeratosis (7%) were only reported in patients with DTC. Overall, erythema (10% or more), exfoliative dermatitis (1% to less than 10%), acne vulgaris (1% to less than 10%), flushing (1% to less than 10%), folliculitis (1% to less than 10%), and hyperkeratosis (1% to less than 10%) were relatively common across clinical trials. Eczema/atopic dermatitis and erythema multiforme were considered uncommon (0.1% to less than 1%, each). Interruption of therapy, dose reduction, or discontinuation of therapy may be necessary for dermatologic toxicities. Approximately 50% of patients requiring a dose reduction for dermatologic toxicity will meet the criteria for resuming a higher dose, and about half of those patients will tolerate the higher dose. Stevens-Johnson Syndrome and toxic epidermal necrolysis have also been reported in postmarketing experience with sorafenib; discontinue sorafenib if Stevens-Johnson Syndrome and toxic epidermal necrolysis are suspected.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hyperkeratosis
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      acne vulgaris
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      erythema multiforme
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      exfoliative dermatitis
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      flushing
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      pruritus
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      Stevens-Johnson syndrome
+      Severity
+      Severe
+      GSTerm Name
+      toxic epidermal necrolysis
+      Severity
+      Severe
+      GSTerm Name
+      xerosis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      alopecia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      erythema
+      Severity
+      Moderate
+      Incidence From
+      GSTerm Name
+      folliculitis
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      atopic dermatitis
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+    Headline
+    hypertension, hypertensive crisis
+    General Information
+    In clinical trials, hypertension was reported in 9.4% (grade 3, 4%) of sorafenib-treated patients with hepatocellular carcinoma (n = 297), 16.9% (grade 3, 3%; grade 4, less than 1%) of sorafenib-treated patients with renal cell carcinoma (n = 451), and 40.6% (grade 3 or 4, 10%) of sorafenib-treated patients with differentiated thyroid cancer (n = 207). Hypertension was usually mild to moderate, occurring early in the course of treatment and managed with standard antihypertensive therapy. Hypertensive crisis was uncommon, occurring in 0.1% to 1% of patients treated with sorafenib monotherapy in clinical trials. Monitor blood pressure during treatment with sorafenib; manage hypertension by standard medical practice. An interruption or discontinuation of therapy may be necessary for severe or persistent hypertension. Permanent discontinuation of sorafenib due to hypertension occurred in 3 patients in clinical trials (n = 955).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hypertension
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypertensive crisis
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    heart failure
+    General Information
+    Congestive heart failure has been reported in 1.9% of sorafenib-treated patients in clinical trials (n = 2,276). Temporary or permanent discontinuation of therapy should be considered in patients who develop cardiovascular events, including heart failure.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      heart failure
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    myocardial infarction, stroke, thromboembolism, thrombosis
+    General Information
+    Myocardial infarction/ischemia was reported in 1.9% to 2.9% of patients with hepatocellular, renal cell, or differentiated thyroid cancer treated with sorafenib in separate clinical trials; patients with unstable coronary artery disease or recent myocardial infarction were excluded from these studies. Arterial thrombotic events including arterial thrombosis, stroke, cerebral ischemia, myocardial infarction, and myocardial ischemia occurred in 1.7% of patients treated with sorafenib in a meta-analysis (6 trials; n = 4,759). Transient ischemic attack, arrhythmia, and thromboembolism were reported in 0.1% to 1% of patients, but a causal relationship to sorafenib has not been established.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      myocardial infarction
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      stroke
+      Severity
+      Severe
+      GSTerm Name
+      thrombosis
+      Severity
+      Severe
+      GSTerm Name
+      thromboembolism
+      Severity
+      Severe
+    Headline
+    QT prolongation
+    General Information
+    Prolongation of the QT interval has been reported in less than 0.1% of patients treated with sorafenib in clinical trials. In a multicenter, open-label, non-randomized trial of patients with advanced cancer (n = 53), no large changes in mean QTc intervals (greater than 20 msec) from baseline were noted. After one 28-day treatment cycle, the largest mean QTc interval change of 8.5 msec (upper bound of 2-sided 90% CI, 13.3 msec) was observed 6 hours after the dose on day 1 of cycle 2. An interruption or discontinuation of therapy may be necessary for QT prolongation.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      QT prolongation
+      Severity
+      Moderate
+      Incidence To
+    Headline
+    bleeding, epistaxis, GI bleeding, intracranial bleeding
+    General Information
+    Across clinical trials, drug-related bleeding including GI bleeding and respiratory tract hemorrhage was reported in 10% or more of sorafenib-treated patients; cases of intracranial bleeding were uncommon (0.1% to less than 1%). In a randomized clinical trial of patients with renal cell carcinoma, bleeding occurred in 15.3% (grade 3, 2%) of those treated with sorafenib compared with 8.2% (grade 3 or 4, 1.5%) of patients receiving placebo; there was one fatal hemorrhage in each treatment group in this study. A subset analysis of sorafenib patients in a meta-analysis showed a significantly higher rate of bleeding events in renal cancer patients than non-renal cancer patients (20.6% v. 7.6%). Bleeding occurred in 17.4% of patients with differentiated thyroid cancer treated with sorafenib compared with 9.6% of those who received placebo (grade 3, 1% vs. 1.4%). Due to the bleeding risk, treat tracheal, bronchial, and esophageal infiltration in thyroid cancer patients with local therapy prior to administering sorafenib. The risk of bleeding was not increased in patients with hepatocellular carcinoma who were treated with sorafenib (18% vs. 20%; grade 3 or 4, 5% vs. 9%). Bleeding from esophageal varices occurred in 2.4% of patients in the sorafenib arm compared with 4% in the placebo arm; however, grade 1 or 2 epistaxis occurred more often in sorafenib-treated patients (7% vs. 1%). Bleeding with a fatal outcome from any site was also reported in 2.4% versus 4% of patients in this trial, respectively. Consider permanent discontinuation of sorafenib for any bleeding requiring medical intervention.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      bleeding
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      GI bleeding
+      Severity
+      Severe
+      Incidence From
+      GSTerm Name
+      intracranial bleeding
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      epistaxis
+      Severity
+      Minor
+      Incidence To
+    Headline
+    leukopenia, lymphopenia, neutropenia
+    General Information
+    Lymphopenia occurred in 23% of patients with renal cell cancer (RCC) treated with sorafenib compared with 13% of those who received placebo (grade 3 or 4, 13% vs. 7%). It occurred in 47% of sorafenib-treated patients with hepatocellular cancer (HCC) compared with 42% of those who received placebo; grade 3 or 4 lymphopenia was not reported in this trial. Neutropenia occurred in 18% of patients with RCC who received sorafenib compared with 10% who received placebo (grade 3 or 4, 5% vs. 2%). Across clinical trials, leukopenia (10% or more), lymphopenia (10% or more), and neutropenia (1% to 10%) were commonly reported.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      leukopenia
+      Severity
+      Moderate
+      Incidence From
+      GSTerm Name
+      lymphopenia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      neutropenia
+      Severity
+      Severe
+      Incidence To
+    Headline
+    hypocalcemia, hypokalemia, hyponatremia, hypophosphatemia
+    General Information
+    Hypophosphatemia is very common in patients treated with sorafenib, occurring in 35% to 45% of those who received sorafenib in clinical trials (grade 3 or 4, 11% to 13%); hypokalemia occurred in 5% to 10% of patients (grade 3 or 4, 1% or less). Hypocalcemia was more frequent and severe in patients with differentiated thyroid cancer (36%; grade 3 or 4, 10%), especially those with a history of hypoparathyroidism, compared to patients with hepatocellular cancer (27%; grade 3 or 4, 2.4%) or renal cell cancer (12%; grade 3 or 4, 2%). Hyponatremia has been reported in 1% to 10% of sorafenib-treated patients. Overall, hypocalcemia, hypokalemia, and hyponatremia were common (1% to 10%) in clinical trials of sorafenib.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hypophosphatemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hyponatremia
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypocalcemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypokalemia
+      Severity
+      Severe
+      Incidence To
+    Headline
+    abdominal pain, constipation, diarrhea
+    General Information
+    Diarrhea was reported in 43% to 55% (grade 3, 2% to 10%; grade 4, less than 1%) of sorafenib-treated patients with hepatocellular carcinoma or renal cell carcinoma compared with 13% to 25% (grade 3 or 4, 2% or less) of those receiving placebo in 2 separate clinical trials; it was more common in a third clinical trial of patients with differentiated thyroid cancer treated with sorafenib versus placebo (68% vs. 15%; grade 3 or 4, 6% vs. 1%). Constipation (16% or less; grade 3 or 4, less than 1%) and abdominal pain (11% to 31%; grade 3 or 4, 1% to 9%) have also been reported.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      abdominal pain
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      constipation
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      diarrhea
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    GI perforation
+    General Information
+    Gastrointestinal perforation (GI perforation) has been reported in less than 1% of patients treated with sorafenib in clinical trials (n = 955); in some cases, this was not associated with an apparent intra-abdominal tumor. Permanently discontinue sorafenib treatment if a gastrointestinal perforation occurs.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      GI perforation
+      Severity
+      Severe
+      Incidence To
+    Headline
+    anorexia, dehydration, dysgeusia, dysphagia, weight loss
+    General Information
+    Anorexia and weight loss were reported across clinical trials of sorafenib treatment. In a randomized clinical trial of patients with renal cell carcinoma, anorexia (16% vs. 13%; grade 3, less than 1% vs. 1%) and weight loss (10% vs. 6%; grade 3, less than 1% vs. 0%) occurred slightly more often in patients treated with sorafenib compared with placebo. The incidence of anorexia (29% vs. 18%; grade 3 or 4, 3% vs. less than 4%) and weight loss (30% vs. 10%; grade 3, 2% vs. 1%) was slightly higher in a clinical trial of patients with hepatocellular carcinoma treated with sorafenib versus placebo. The incidence of anorexia (30% vs. 5%; grade 3 or 4, 2% vs. 0%) and weight loss (49% vs. 14%; grade 3 or 4, 6% vs. 1%) with sorafenib was highest in patients with differentiated thyroid cancer. Mild (grade 1 or 2) dysgeusia was also reported in 6% of sorafenib-treated patients with DTC. In general, anorexia (10% or more) was a very commonly reported drug-related adverse reaction across clinical trials of sorafenib; dysgeusia (1% to 10%) and dysphagia (1% to less than 10%) were also commonly reported, with dehydration being relatively uncommon (0.1% to 1%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      anorexia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      dehydration
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      dysgeusia
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      dysphagia
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      weight loss
+      Severity
+      Severe
+      Incidence To
+    Headline
+    hyperamylasemia, pancreatitis
+    General Information
+    Increased lipase (10% or more) and amylase (10% or more) were commonly reported across clinical trials of sorafenib treatment. However, the incidence of hyperamylasemia (30% to 34% vs. 23% to 29%; grade 3 or 4, 1% to 2% vs. 2% to 3%) and increased lipase levels (40% to 41% vs. 30% to 37%; grade 3 or 4, 9% to 12% vs. 7% to 9%) were only slightly higher in patients treated with sorafenib compared to those who received placebo in 2 randomized clinical trials. A diagnosis of pancreatitis was uncommon across clinical trials (0.1% to less than 1%); in the previously mentioned HCC and RCC studies, clinical pancreatitis was reported in one patient with HCC (grade 2) and in 3 patients with RCC (grade 2, n = 1; grade 4, n = 2). Because elevations in lipase and amylase are common yet pancreatitis is uncommon, a diagnosis of pancreatitis should not be made solely on the basis of abnormal laboratory values.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hyperamylasemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      pancreatitis
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    asthenia, bone pain, dysphonia, fatigue, fever, headache
+    General Information
+    Fatigue was reported in 37% to 46% (grade 3 or 4, 5% to 10%) of patients with hepatocellular carcinoma (n = 297), renal cell carcinoma (RCC; n = 451), or differentiated thyroid cancer (DTC; n = 207) treated with sorafenib monotherapy in separate randomized clinical trials. Headache occurred in 10% to 17% (grade 3 or 4, less than 1%) of sorafenib-treated patients with RCC or DTC in these trials, while asthenia (grade 1 or 2, 12%), fever (11%; grade 3 or 4, 1%), and dysphonia (13%; grade 3 or 4, 0.5%) were additionally reported in patients with DTC. Asthenia (10% or more), pain (including mouth pain, bone pain, and tumor pain) (10% or more), and fever (10% or more) were also reported in various other clinical trials of sorafenib treatment.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      asthenia
+      Severity
+      Minor
+      Incidence From
+      GSTerm Name
+      fatigue
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      fever
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      headache
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      bone pain
+      Severity
+      Moderate
+      Incidence From
+      GSTerm Name
+      dysphonia
+      Severity
+      Severe
+      Incidence To
+    Headline
+    arthralgia, muscle cramps, myalgia, rhabdomyolysis
+    General Information
+    In clinical trials, arthralgia was reported in 10% or more of patients treated with sorafenib, while myalgia and muscle cramps (spasms) occurred in 1% to 10% of patients, each. In individual clinical trials, joint pain occurred in 10% (grade 3, 2%) of patients with hepatocellular carcinoma receiving sorafenib monotherapy compared with 6% (grade 3, less than 1%) of those receiving placebo. Pain in extremities (15% vs. 7%; grade 3 or 4, 1% vs. 0%) and muscle spasms (10% vs. 3%) were reported more often with sorafenib monotherapy compared with placebo in another trial of patients with renal cell carcinoma. Rhabdomyolysis has been reported in postmarketing experience with sorafenib.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      arthralgia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      myalgia
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      muscle cramps
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      rhabdomyolysis
+      Severity
+      Severe
+    Headline
+    acute respiratory distress syndrome (ARDS), dyspnea, pneumonitis, rhinorrhea
+    General Information
+    Dyspnea was reported in 14% (grade 3, 3%; grade 4, less than 1%) of patients with renal cell carcinoma receiving sorafenib (n = 451) in a randomized clinical trial. Additional respiratory adverse events reported in clinical trials include rhinorrhea (1 to 10%), and interstitial lung disease-like events such as pneumonitis, radiation pneumonitis, acute respiratory distress syndrome (ARDS), interstitial pneumonia, pulmonitis, and lung inflammation in 0.1 to 1% of patients. Interstitial lung disease-like events, which may have a life-threatening or fatal outcome, were also reported in postmarketing experience with sorafenib.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      dyspnea
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      acute respiratory distress syndrome (ARDS)
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      pneumonitis
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      rhinorrhea
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+    Headline
+    cholangitis, cholecystitis, elevated hepatic enzymes, hepatic failure, hepatitis, hepatotoxicity, hyperbilirubinemia, jaundice
+    General Information
+    Severe sorafenib-induced hepatotoxicity (i.e., hepatitis), defined as transaminase levels above 20 times the upper limit of normal or transaminase elevations with significant clinical sequelae (e.g., increased INR, ascites, transplantation, or death) occurred in 2 patients in a global monotherapy database (n = 3,357; 0.06%). Drug-induced liver injury, including hepatic failure and death, has also been rarely reported in clinical trials with sorafenib (less than 0.1%). Cholecystitis, cholangitis, transient increases in alkaline phosphatase, transiently elevated hepatic enzymes, and hyperbilirubinemia (including jaundice) were reported more frequently (0.1% to less than 1% each). In a randomized clinical trial of patients with hepatocellular carcinoma, liver dysfunction occurred in 11% (grade 3 or 4, 3%) of patients receiving sorafenib monotherapy compared with 8% (grade 3 or 4, 3%) of those receiving placebo. The difference between sorafenib and placebo arms was more evident in a randomized clinical trial of patients with differentiated thyroid cancer, where transaminase elevations were reported in 54% to 59% (grade 3 or higher, 2% to 4%) of patients receiving sorafenib monotherapy compared with 15% to 24% of those receiving placebo.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hyperbilirubinemia
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      cholangitis
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      cholecystitis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hepatic failure
+      Severity
+      Severe
+      GSTerm Name
+      hepatitis
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      jaundice
+      Severity
+      Moderate
+      GSTerm Name
+      elevated hepatic enzymes
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hepatotoxicity
+      Severity
+      Severe
+      Incidence To
+    Headline
+    nephrotic syndrome, proteinuria, renal failure (unspecified)
+    General Information
+    Renal failure (unspecified) was reported in less than 1% of patients with hepatocellular carcinoma receiving sorafenib in a randomized clinical trial, compared in 3% of patients receiving placebo. Overall, renal failure and proteinuria were each reported in 1% to 10% of patients in clinical trials of sorafenib; nephrotic syndrome occurred in less than 0.1% of patients.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      renal failure (unspecified)
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      nephrotic syndrome
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      proteinuria
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+    Headline
+    infection, influenza
+    General Information
+    In clinical trials, infection occurred in 10% or more of patients treated with sorafenib, while an influenza-like illness was reported in 1% to 10% of patients.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      infection
+      Severity
+      Minor
+      Incidence From
+      GSTerm Name
+      influenza
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+    Headline
+    angioedema, serious hypersensitivity reactions or anaphylaxis, urticaria
+    General Information
+    Serious hypersensitivity reactions or anaphylaxis, including skin reactions and urticaria, were uncommon in patients treated with sorafenib in clinical trials (0.1% to 1%). Angioedema has been noted in postmarketing experience with sorafenib therapy.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      angioedema
+      Severity
+      Severe
+      GSTerm Name
+      urticaria
+      Severity
+      Minor
+      GSTerm Name
+      serious hypersensitivity reactions or anaphylaxis
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    hyperthyroidism, hypothyroidism
+    General Information
+    Sorafenib interferes with exogenous thyroid suppression. Sorafenib-related hypothyroidism was common (1% to 10%) and hyperthyroidism, uncommon (0.1% to 1%) in clinical trials. In a randomized, multicenter study of patients with metastatic differentiated thyroid cancer (DTC) (n = 207), increases in thyroid stimulating hormone (TSH) above 0.5 mU/L occurred in 41% of sorafenib-treated patients compared to 16% of patients treated with placebo. The median maximal TSH was 1.6 mU/L, with TSH greater than 4.4 mU/L in 25% of patients. Monitor TSH levels monthly and adjust thyroid replacement medication as needed in patients with DTC.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hyperthyroidism
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      hypothyroidism
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+    Headline
+    leukoencephalopathy, peripheral neuropathy
+    General Information
+    Sensory neuropathy (e.g., peripheral neuropathy) occurred in 13% (grade 3, less than 1%) of patients with hepatocellular carcinoma receiving sorafenib monotherapy compared with 6% (grade 3, less than 1%) of those receiving placebo. Reversible posterior leukoencephalopathy (RPLS or PRES) occurred in 0.1% to 1% of patients in clinical trials of sorafenib therapy.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      leukoencephalopathy
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      peripheral neuropathy
+      Severity
+      Moderate
+    Headline
+    gynecomastia, impotence (erectile dysfunction), infertility
+    General Information
+    Impotence (erectile dysfunction) was reported in 1% to 10% of sorafenib-treated patients during clinical trials. Gynecomastia was noted in 0.1% to 1% of patients who received sorafenib. Based on animal data, sorafenib exposure may result in male infertility.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      infertility
+      Severity
+      Moderate
+      GSTerm Name
+      impotence (erectile dysfunction)
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      gynecomastia
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+    Headline
+    osteonecrosis
+    General Information
+    Osteonecrosis of the jaw has been reported in postmarketing experience with sorafenib therapy.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      osteonecrosis
+      Severity
+      Severe
+    Headline
+    new primary malignancy
+    General Information
+    In patients with differentiated thyroid cancer treated with sorafenib (n = 207), new primary malignancy (squamous cell carcinoma of the skin) of grade 3 or 4 severity was reported in 3% of patients, compared to 0% in patients who received placebo.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      new primary malignancy
+      Severity
+      Severe
+      Incidence To
+    Headline
+    depression
+    General Information
+    Depression was reported in 1% to 10% of patients in clinical trials of sorafenib therapy.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      depression
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+    Headline
+    tinnitus
+    General Information
+    Tinnitus was reported in 0.1% to 1% of patients in clinical trials of sorafenib therapy.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      tinnitus
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+    Headline
+    thrombotic microangiopathy
+    General Information
+    Thrombotic microangiopathy has also been reported in postmarketing experience with sorafenib.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      thrombotic microangiopathy
+      Severity
+      Severe
+    Headline
+    prolonged bleeding time
+    General Information
+    Prolonged bleeding time (abnormal INR) has been uncommonly reported in patients treated with sorafenib across clinical trials (0.1% to less than 1%). In a randomized clinical trial of patients with hepatocellular cancer, an elevated INR occurred in 42% of patients treated with sorafenib compared with 34% of those who received placebo (grade 3 or 4, 4% to 2%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      prolonged bleeding time
+      Severity
+      Severe
+      Incidence To
+    Headline
+    anemia
+    General Information
+    Anemia occurred in 44% of patients with renal cell cancer (RCC) treated with sorafenib versus 49% of those who received placebo (grade 3 or 4, 2% vs. 4%). In general, anemia was commonly reported across clinical trials (1% to 10%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      anemia
+      Severity
+      Severe
+      Incidence To
+    Headline
+    thrombocytopenia
+    General Information
+    Thrombocytopenia occurred in 12% of RCC patients treated with sorafenib compared with 5% who received placebo (grade 3 or 4, 1% vs. 0%); it occurred in 46% of HCC patients who received sorafenib compared with 41% of those who received placebo (grade 3 or 4, 4% vs. less than 1%). In general, thrombocytopenia was commonly reported across clinical trials (1% to 10%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      thrombocytopenia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    hypoalbuminemia
+    General Information
+    Hypoalbuminemia occurred in 59% of patients with hepatocellular cancer treated with sorafenib compared with 47% of those who received placebo in a randomized clinical trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hypoalbuminemia
+      Severity
+      Moderate
+      Incidence To
+    Headline
+    dyspepsia, gastritis, gastroesophageal reflux, nausea, vomiting
+    General Information
+    Nausea was reported in 23% or fewer sorafenib-treated patients with hepatocellular cancer, renal cell cancer, or differentiated thyroid cancer in 3 separate clinical trials (grade 3 or 4, 1% or less); vomiting occurred in less than 16% of these patients (grade 3 or 4, 2% or less). Dyspepsia and gastroesophageal reflux were commonly reported across clinical trials of sorafenib (1% to 10%); gastritis was reported uncommonly (0.1% to 1%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      dyspepsia
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      gastritis
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      gastroesophageal reflux
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      nausea
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      vomiting
+      Severity
+      Severe
+      Incidence To
+    Headline
+    glossitis, oral ulceration, stomatitis, xerostomia
+    General Information
+    Stomatitis (including oral ulceration and mucosal inflammation) was reported in 24% of sorafenib-treated patients with differentiated thyroid cancer in a randomized clinical trial (grade 3 or 4, 2%); oral pain (including glossitis, burning mouth syndrome, and glossodynia) was also reported in 14% of these patients. In general, mucositis and stomatitis (including xerostomia and glossodynia) were commonly reported across clinical trials of sorafenib (1% to 10% each).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      glossitis
+      Severity
+      Moderate
+      GSTerm Name
+      oral ulceration
+      Severity
+      Moderate
+      GSTerm Name
+      stomatitis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      xerostomia
+      Severity
+      Minor
+    Headline
+    aortic dissection
+    General Information
+    Arterial (including aortic) aneurysms, dissections (aortic dissection), and rupture have occurred in postmarketing experience with sorafenib.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      aortic dissection
+      Severity
+      Severe
+
+Description
+  Text
+  Sorafenib is a multi-kinase inhibitor targeting several intracellular and cell surface kinases, including c-CRAF, BRAF, mutant BRAF, vascular endothelial growth factor (VEGF) receptors -1, -2 and -3, platelet-derived growth factor receptor-beta (PDGFR-beta), KIT, FLT-3, and RET. It is indicated as monotherapy for the treatment of unresectable hepatocellular carcinoma, advanced renal cell carcinoma, and locally recurrent or metastatic, progressive, differentiated thyroid cancer refractory to radioactive iodine treatment. Dermatologic toxicities are among the most common adverse reactions associated with sorafenib treatment and may require an interruption of therapy or dose reduction. Additional common adverse reactions include diarrhea, fatigue, hypertension, and bleeding.
+
+Mechanism Of Action
+  Text
+  Sorafenib is a kinase inhibitor that decreases tumor cell proliferation in vitro. It has been shown to inhibit multiple intracellular (c-CRAF, BRAF, and mutant BRAF) and cell surface (KIT, FLT-3, RET, RET/PTC, VEGFR-1, VEGFR-2, VEGFR-3, and PDGFR-beta) kinases; several of these are thought to be involved in tumor cell signaling, angiogenesis, and apoptosis. Sorafenib inhibited tumor growth of hepatocellular cancer (HCC), renal cell cancer (RCC), and differentiated thyroid cancer (DTC) human tumor xenografts in immunocompromised mice. Reductions in tumor angiogenesis were seen in models of HCC and RCC upon sorafenib treatment, and increases in tumor apoptosis were observed in models of HCC, RCC, and DTC.
+
+Pharmacokinetics
+  Route Specific Pharmacokinetics
+    Name
+    Oral Route
+    Description
+    The mean relative bioavailability of sorafenib tablets was 38% to 49% when compared to an oral solution. Following oral administration, sorafenib reached peak plasma levels (Cmax) in approximately 3 hours. The peak-to-trough ratio of mean concentrations at steady-state was less than 2. Mean Cmax and AUC increased less than proportionally beyond oral doses of 400 mg twice daily.
+ 
+When administered with a moderate-fat meal (700 calories, 30% fat), the bioavailability of sorafenib was similar to that in the fasted state. With a high-fat meal (900 calories, 50% fat), bioavailability was reduced by 29% compared to that in the fasted state. It is recommended to administer sorafenib without food. The aqueous solubility of sorafenib is pH dependent, with higher pH resulting in lower solubility; however, coadministration with a proton-pump inhibitor for 5 days did not result in a clinically meaningful change in sorafenib single-dose exposure. No dosage adjustment is necessary for sorafenib if coadministration with gastric acid-reducing agents are necessary.
+  Special Populations
+    Name
+    Hepatic Impairment
+    Description
+    Mild (Child-Pugh A) and moderate (Child-Pugh B) hepatic impairment does not affect the pharmacokinetics of sorafenib. In a trial of hepatocellular carcinoma (HCC) patients with mild or moderate hepatic impairment, systemic exposure (AUC) of sorafenib was within the range observed in patients without hepatic impairment. In another trial in patients without HCC, the mean AUC was similar in patients with mild (n=15) and moderate (n=14) hepatic impairment as compared to patients with normal hepatic function (n=15). Another study demonstrated the mean sorafenib systemic exposure over the first 8 hours after dosing was 25.4 mg x hour/L in patients with HCC and mild hepatic impairment and 30.3 mg x hour/L in patients with HCC and moderate hepatic impairment. The pharmacokinetics of sorafenib have not been determined in patients with severe (Child-Pugh C) hepatic impairment.
+    Name
+    Renal Impairment
+    Description
+    Mild (CrCL 50 to 80 mL/min), moderate (CrCL 30 to 49 mL/min), and severe (CrCL less than 30 mL/min) renal impairment does not affect the pharmacokinetics of sorafenib. The pharmacokinetics of sorafenib have not been studied in patients who are on dialysis.
+    Name
+    Geriatric
+    Description
+    Age does not have a clinically meaningful effect on the pharmacokinetics of sorafenib.
+    Name
+    Gender Differences
+    Description
+    Gender does not have a clinically meaningful effect on the pharmacokinetics of sorafenib.
+    Name
+    Ethnic Differences
+    Description
+    The mean sorafenib AUC value was 30% lower in Asian patients (n = 78) compared with Caucasian patients (n = 40) in a pharmacokinetic study.
+  Text
+  Sorafenib is administered orally. It is 99.5% bound to human plasma proteins in vitro. The mean elimination half-life of sorafenib is approximately 25 to 48 hours; steady-state plasma concentrations of sorafenib were achieved within 7 days. Sorafenib accounts for approximately 70% to 85% of the circulating analytes in plasma at steady state. Eight metabolites have been identified, 5 of which have been detected in plasma. The main circulating metabolite, the pyridine N-oxide, comprises approximately 9% to 16% of circulating analytes at steady-state and has a similar in vitro potency to sorafenib. Following oral administration, 96% of a single dose was recovered within 14 days; 77% was recovered in the feces (51% as unchanged drug) and 19% in the urine as glucuronidated metabolites (0% as unchanged drug).
+ 
+Affected cytochrome P450 isoenzymes and drug transporters: CYP3A4, UGT1A9, UGT1A1, P-glycoprotein (P-gp)
+Sorafenib is a CYP3A4 substrate, undergoing oxidative metabolism; it is also glucuronidated by UGT1A9. Inducers of CYP3A4 activity can decrease the systemic exposure of sorafenib; however, CYP3A4 inhibitors do not impact sorafenib plasma concentrations. Sorafenib inhibits glucuronidation by UGT1A1 and UGT1A9 in vitro and could increase the systemic exposure of concomitantly administered UGT1A1 or UGT1A9 substrates. It also inhibits P-gp in vitro, and could likewise increase the systemic exposure of concomitantly administered P-gp substrates. Sorafenib competitively inhibits CYP2B6, CYP2C8, CYP2C9, CYP2C19, CYP2D6, and CYP3A4; however, steady-state exposure to sorafenib did not increase the systemic exposure of CYP3A4, CYP2D6, or CYP2C19 substrates. While sorafenib is metabolized by CYP3A4, coadministration with CYP3A4 inhibitors is unlikely to alter its metabolism. No clinically relevant change in sorafenib pharmacokinetics and no clinically relevant adverse events or laboratory abnormalities were noted with coadministration of the strong CYP3A4 inhibitor, ketoconazole; the mean systemic exposure in healthy volunteers was unaltered.
+
+Administration
+  General Information
+  For storage information, see the specific product information within the How Supplied section.
+Hazardous Drugs Classification
+NIOSH 2024 List: Table 2
+Observe and exercise appropriate precautions for handling, preparation, administration, and disposal of hazardous drugs.
+Use gloves to handle; double chemotherapy gloves and a protective gown are needed if manipulation is necessary. Cutting, crushing, or otherwise manipulating tablets/capsules will increase exposure.
+Emetic Risk
+Pediatrics: Doses 150 to 325 mg/m2: Low
+Adults: Minimal/Low
+Administer prn antiemetics as necessary.
+  Route Specific Administrations
+    Name
+    Oral Administration
+    Description
+    Administer sorafenib orally without food (at least 1 hour before or 2 hours after a meal).
+If a dose is missed, the next dose should be taken at the regularly scheduled time; do not administer 2 doses at the same time.
+
+Maximum Dosage Limits
+  Age Groups
+    Name
+    Adults
+    Max Dosage
+    800 mg/day PO.
+    Name
+    Elderly
+    Max Dosage
+    800 mg/day PO.
+    Name
+    Adolescents
+    Max Dosage
+    Safety and efficacy have not been established.
+    Name
+    Children
+    Max Dosage
+    Safety and efficacy have not been established.
+
+Dosage Adjustment Guidelines
+  Hepatic Impairment
+  Baseline Hepatic Impairment
+Mild (Child-Pugh A) or moderate (Child-Pugh B) hepatic impairment: No dose adjustment is necessary.
+Severe (Child-Pugh C) hepatic impairment: The pharmacokinetics of sorafenib have not been studied in this population.
+ 
+Treatment-Related Hepatotoxicity
+Severe drug-induced liver injury, including grade 3 or higher ALT in the absence of other causes; AST/ALT greater than 3 times the upper limit of normal (ULN) with bilirubin greater than 2 times ULN in the absence of another cause; any grade increase in alkaline phosphatase without known bone pathology and grade 2 or worse increase in bilirubin; INR 1.5 or more; ascites and/or encephalopathy in the absence of underlying cirrhosis; other organ failure considered to be due to drug-induced liver injury: Permanently discontinue sorafenib.
+  Renal Impairment
+  Mild, moderate, or severe renal impairment (CrCl 80 mL/min or less): No dose adjustment is necessary.
+Dialysis patients: The pharmacokinetics of sorafenib have not been studied in this population.

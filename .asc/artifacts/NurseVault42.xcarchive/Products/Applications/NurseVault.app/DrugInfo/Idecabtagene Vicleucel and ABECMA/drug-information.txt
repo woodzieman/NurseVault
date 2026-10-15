@@ -1,0 +1,985 @@
+=== Idecabtagene Vicleucel (Merck Manual Professional) ===
+Source: https://www.merckmanuals.com/professional/drug-names-generic-and-brand (productid 5323)
+Retrieved: 2026-09-25
+NURSING QUICK-REFERENCE SUMMARY
+Auto-generated on 2026-09-25 from the prescribing information in this file; full details follow below.
+
+Drug Class: Idecabtagene vicleucel is a chimeric antigen receptor (CAR) T-cell gene therapy.
+
+Routes: injection (IV/IM/SC); Common adult doses: 460 x 106 CAR-positive T-cells as a single IV dose.
+
+Common Side Effects (excluding routine GI upset): atrial fibrillation, cardiomyopathy, hypertension, hypotension, orthostatic hypotension, sinus tachycardia, asthenia, fatigue, malaise, edema, fluid retention, hypervolemia, peripheral edema, testicular swelling, akathisia, arthralgia, back pain, bone pain, dyskinesia, dysphonia, hypertonia, hypotonia, muscle cramps, musculoskeletal pain, myalgia, ptosis, restless legs syndrome (rls), weakness, agitation, anxiety
+
+In an Overdose: No overdose/antidote information is listed in this file.
+
+Key Nursing Considerations: Contraindications/precautions: This medication is contraindicated in patients with a history of hypersensitivity to it or any of its components. Hypersensitivity reactions including anaphylaxis may occur with idecabtagene vicleucel therapy; reactions may be due to dimethyl sulfoxide (DMSO) in the product.
+
+Brand Names
+  - ABECMA
+
+Dosage Forms
+  - ABECMA Suspension for Injection
+
+Indication Specific Dosing
+  Indications
+    Related Indications
+      Heading
+      for the treatment of relapsed or refractory multiple myeloma in patients who have received 2 or more prior lines of therapy, including an immunomodulatory agent, a proteasome inhibitor, and an anti-CD38 monoclonal antibody
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          300 to 510 X 106 CAR-positive T-cells infused as a single-dose which may be suspended in 1 or more patient-specific infusion bag(s). Premedicate patients with acetaminophen 650 mg PO and diphenhydramine 12.5 mg IV or 25 to 50 mg PO (or another H1-antihistamine) approximately 30 to 60 minutes prior to the idecabtagene vicleucel infusion. Additionally, confirm that 2 doses of tocilizumab are available for each patient prior to the infusion. The overall response rate (assessed by an independent review committee) was 73% (complete response rate, 33%) in evaluable patients with relapsed or refractory multiple myeloma who received a single dose of idecabtagene vicleucel in a phase 2 trial (the KarMMa trial; n = 128). At a median follow-up time of 13.3 (range, 0.2 to 21.2) months, the median time to response was 1 (range, 0.5 to 8.8) month, the median duration of response was 10.7 months, the median progression-free survival (PFS) time was 8.8 months, and the median overall survival time was 19.4 months. Following leukapheresis and T-cell collection, all patients had lymphocyte depletion with fludarabine (30 mg/m2 IV daily for 3 doses) and cyclophosphamide (300 mg/m2 IV daily for 3 doses) starting 5 days prior to the target infusion date of idecabtagene vicleucel. Bridging chemotherapy between leukapheresis and lymphodepleting chemotherapy was given in 88% of patients. In this trial, patients (median age, 61 years; range 33 to 78 years) had received a median of 6 (range, 3 to 16) prior therapies that must have included an immunomodulatory agent, a proteasome inhibitor, and an anti-CD38 antibody; 94% of patients had previously received an autologous stem-cell transplant (SCT). The median PFS time (assessed by an independent response committee) was significantly improved in patients with relapsed or refractory multiple myeloma who received a single dose of idecabtagene vicleucel compared with standard multiple myeloma therapy (13.3 months vs. 4.4 months; hazard ratio = 0.49; 95% CI, 0.38 to 0.65, p less than 0.001) in a randomized (2:1) phase 3 (KarMMa-3) trial (n = 386). Bridging chemotherapy between leukapheresis and lymphodepleting chemotherapy was given in 84% of patients who received idecabtagene vicleucel. In this trial, patients (median age, 63 years; range 30 to 83 years) had received a median of 3 (range 2 to 4) prior therapies that included daratumumab, an immunomodulatory agent, and a proteasome inhibitor for at least 2 consecutive cycles and had documented disease progression within 60 days of their last dose of therapy; 84% of patients in the idecabtagene vicleucel arm had previously received an autologous SCT.
+    Routes
+    Heading
+    For the treatment of multiple myeloma
+
+Contraindications And Precautions
+  Headline
+  Contraindications/Warnings/Precautions
+  Contraindications And Precautions
+    Headline
+    Drug Interactions
+    General Information
+    The coadministration of certain medications may lead to harm and require avoidance or therapy modification; review all drug interactions prior to concomitant use of other medications.
+    Headline
+    Hypersensitivity
+    General Information
+    This medication is contraindicated in patients with a history of hypersensitivity to it or any of its components. Hypersensitivity reactions including anaphylaxis may occur with idecabtagene vicleucel therapy; reactions may be due to dimethyl sulfoxide (DMSO) in the product.
+    Headline
+    Treatment-Related Restrictions of Use
+    General Information
+    Treatment-related mortality occurred more often within 9 months after randomization in patients who received idecabtagene vicleucel compared with standard therapy in a randomized trial.
+    Headline
+    General Information
+    General Information
+    Vaccination with live viral vaccines during or following treatment with idecabtagene vicleucel has not been studied. Live virus vaccination is not recommended for at least 6 weeks prior to the start of lymphodepleting chemotherapy, during idecabtagene vicleucel therapy, and until immune recovery after idecabtagene vicleucel therapy.
+    Headline
+    cytokine release syndrome
+    General Information
+    Cytokine release syndrome (CRS) is a potentially fatal reaction that has been reported with idecabtagene vicleucel therapy. Confirm that 2 tocilizumab doses are available at the facility site prior to the idecabtagene vicleucel infusion. Do not administer idecabtagene vicleucel in patients with active infection or inflammatory disorder. Promptly initiate treatment of CRS with supportive care, tocilizumab and/or corticosteroids as indicated. Consider starting a non-sedating anti-seizure medication (e.g., levetiracetam) for seizure prophylaxis. Intensive care supportive therapy may be required in patients who have severe or life-threatening CRS.
+    Headline
+    activities requiring coordination and concentration, driving or operating machinery, neurological disease, neurotoxicity
+    General Information
+    Use idecabtagene vicleucel with caution in patients with a history of neurological disease. Severe and fatal neurotoxicity (e.g., encephalopathy, myelitis, cerebral edema) has been reported with idecabtagene vicleucel therapy. Geriatric patients 65 years or older may be at increased risk of developing severe neurotoxicity. Neurologic toxicity may occur concurrently with cytokine release syndrome (CRS) or after CRS resolves. Advise patients to avoid driving or operating machinery or performing activities requiring coordination and concentration for at least 2 weeks after the idecabtagene vicleucel infusion due to the risk of neurologic events (e.g., mental status changes, seizures) and altered or decreased consciousness or coordination. Administer supportive care and/or corticosteroids as indicated. Start a non-sedating, anti-seizure medicine (e.g., levetiracetam) for seizure prophylaxis in patients who develop any grade neurotoxicity. Provide intensive care supportive therapy in patients who develop severe or life-threatening neurologic toxicities.
+    Headline
+    hemophagocytic lymphohistiocytosis
+    General Information
+    Hemophagocytic lymphohistiocytosis/macrophage activation syndrome (HLH/MAS) is a potentially fatal reaction that has been reported with idecabtagene vicleucel therapy. Symptoms of HLH/MAS may include hypotension, hypoxia, multiple organ dysfunction, renal dysfunction, and cytopenias. HLH/MAS may occur concurrently with neurotoxicity or cytokine release syndrome (CRS). Evaluate for HLH/MAS in patients with progressive symptoms of CRS or refractory CRS despite first-line treatment. Treat patients with HLH/MAS per institutional guidelines.
+    Headline
+    inflammatory disorder
+    General Information
+    Do not administer idecabtagene vicleucel in patients with active infection or inflammatory disorder. Serious and fatal infections including bacterial infection, fungal infection, viral infection, and opportunistic infections have been reported with idecabtagene vicleucel therapy. Administer prophylactic and/or therapeutic antimicrobials according to standard institutional guidelines. Viral reactivation including cytomegalovirus (CMV) infection resulting in pneumonia and hepatitis B virus infection resulting in fulminant hepatitis, hepatic failure, and death may occur with drugs directed against plasma cells, such as idecabtagene vicleucel. Screen for viral infection prior to cell collection for manufacturing (leukapheresis); consider antiviral therapy to prevent viral reactivation.
+    Headline
+    prolonged and/or recurrent cytopenias
+    General Information
+    Prolonged and/or recurrent cytopenias (e.g., neutropenia and thrombocytopenia) resulting in fatal complications have been reported following lymphodepleting chemotherapy and idecabtagene vicleucel infusion.
+    Headline
+    new primary hematologic malignancy
+    General Information
+    New primary hematologic malignancy including myelodysplastic syndrome and acute myeloid leukemia has occurred following treatment with idecabtagene vicleucel. T cell malignancies have occurred following treatment with BCMA- and CD19-directed genetically modified autologous T cell immunotherapies, including idecabtagene vicleucel. Mature T cell malignancies, including CAR-positive tumors, may present as soon as weeks following infusion, and may include fatal outcomes;. life-long monitoring is recommended following idecabtagene vicleucel therapy.
+    Headline
+    blood, organ, tissue, or cell donor
+    General Information
+    Patients must avoid being a blood, organ, tissue, or cell donor during treatment with idecabtagene vicleucel.
+    Headline
+    pregnancy
+    General Information
+    Idecabtagene vicleucel is not recommended for individuals who are pregnant, and pregnancy after administration should be discussed with the treating physician. There are no available human or animal data with the use of idecabtagene vicleucel during pregnancy. It is not known if idecabtagene vicleucel has the potential to be transferred to the fetus. However, based on its mechanism of action, fetal toxicity including plasma cell aplasia and hypogammaglobulinemia may occur if the transduced cells cross the placenta.
+    Headline
+    people who can cause pregnancy in others, people who may become pregnant, reproductive risk
+    General Information
+    Counsel people who may become pregnant and people who can cause pregnancy in others about the reproductive risk associated with idecabtagene vicleucel. Based on its mechanism of action, idecabtagene vicleucel has the potential to cause fetal harm. Verify pregnancy status prior to treatment. Follow contraceptive guidance specific to the agents used in patients who receive lymphodepleting chemotherapy. There is insufficient exposure data to provide a recommendation concerning the duration of contraception required after treatment with idecabtagene vicleucel. There are no data on the effects of idecabtagene vicleucel on fertility.
+    Headline
+    neonates and infants exposed to this medication in utero
+    General Information
+    Assess immunoglobulin levels in neonates and infants exposed to this medication in utero. Based on its mechanism of action, idecabtagene vicleucel may cause fetal toxicity, including plasma cell aplasia and hypogammaglobulinemia.
+    Headline
+    breast-feeding
+    General Information
+    Use idecabtagene vicleucel with caution during breast-feeding. There is no information on the presence of idecabtagene vicleucel in human milk, its effects on the breastfed child, or its effects on milk production. A risk to the breastfed child cannot be excluded. Consider the developmental and health benefits of breast-feeding along with the clinical need for idecabtagene vicleucel and any potential adverse effects on the breast-fed child from idecabtagene vicleucel or from the patient's underlying maternal condition.
+
+Pregnancy And Lactation
+  Pregnancy
+    General Information
+    Idecabtagene vicleucel is not recommended for individuals who are pregnant, and pregnancy after administration should be discussed with the treating physician. There are no available human or animal data with the use of idecabtagene vicleucel during pregnancy. It is not known if idecabtagene vicleucel has the potential to be transferred to the fetus. However, based on its mechanism of action, fetal toxicity including plasma cell aplasia and hypogammaglobulinemia may occur if the transduced cells cross the placenta.
+  Breastfeeding
+    General Information
+    Use idecabtagene vicleucel with caution during breast-feeding. There is no information on the presence of idecabtagene vicleucel in human milk, its effects on the breastfed child, or its effects on milk production. A risk to the breastfed child cannot be excluded. Consider the developmental and health benefits of breast-feeding along with the clinical need for idecabtagene vicleucel and any potential adverse effects on the breast-fed child from idecabtagene vicleucel or from the patient's underlying maternal condition.
+
+Interactions
+Bacillus Calmette-Guerin Vaccine, BCG: (Contraindicated) Avoid administration of live virus vaccines in the six weeks prior to the start of lymphodepleting chemotherapy, during idecabtagene vicleucel therapy, and prior to immune recovery following treatment with idecabtagene vicleucell. Patients with altered immunocompetence, including those receiving or those that have recently received immunosuppressive drug therapy, may be at increased risk for an adverse reaction because of uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+Chikungunya Vaccine, Live: (Contraindicated) Avoid administration of live virus vaccines in the six weeks prior to the start of lymphodepleting chemotherapy, during idecabtagene vicleucel therapy, and prior to immune recovery following treatment with idecabtagene vicleucell. Patients with altered immunocompetence, including those receiving or those that have recently received immunosuppressive drug therapy, may be at increased risk for an adverse reaction because of uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+Cholera Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the live cholera vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to cholera bacteria after receiving the vaccine.
+Dengue Tetravalent Vaccine, Live: (Contraindicated) Avoid administration of the live dengue virus vaccine with immunosuppressive drug therapy and prior to immune recovery following treatment with immunosuppressive drug therapy. When feasible, administer indicated live virus vaccines at least 4 weeks before planned immunosuppression or wait until at least 3 months after discontinuation. The time to restoration of immune competence may be longer in some patients. Patients with altered immunocompetence may be at increased risk for severe adverse reactions due to uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+Ebola Zaire Vaccine, Live: (Contraindicated) Avoid administration of live virus vaccines in the six weeks prior to the start of lymphodepleting chemotherapy, during idecabtagene vicleucel therapy, and prior to immune recovery following treatment with idecabtagene vicleucell. Patients with altered immunocompetence, including those receiving or those that have recently received immunosuppressive drug therapy, may be at increased risk for an adverse reaction because of uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+Intranasal Influenza Vaccine: (Contraindicated) Avoid administration of live virus vaccines in the six weeks prior to the start of lymphodepleting chemotherapy, during idecabtagene vicleucel therapy, and prior to immune recovery following treatment with idecabtagene vicleucell. Patients with altered immunocompetence, including those receiving or those that have recently received immunosuppressive drug therapy, may be at increased risk for an adverse reaction because of uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+Live Vaccines: (Contraindicated) Avoid administration of live virus vaccines in the six weeks prior to the start of lymphodepleting chemotherapy, during idecabtagene vicleucel therapy, and prior to immune recovery following treatment with idecabtagene vicleucell. Patients with altered immunocompetence, including those receiving or those that have recently received immunosuppressive drug therapy, may be at increased risk for an adverse reaction because of uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+Measles Virus; Mumps Virus; Rubella Virus; Varicella Virus Vaccine, Live: (Contraindicated) Avoid administration of live virus vaccines in the six weeks prior to the start of lymphodepleting chemotherapy, during idecabtagene vicleucel therapy, and prior to immune recovery following treatment with idecabtagene vicleucell. Patients with altered immunocompetence, including those receiving or those that have recently received immunosuppressive drug therapy, may be at increased risk for an adverse reaction because of uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+Measles/Mumps/Rubella Vaccines, MMR: (Contraindicated) Avoid administration of live virus vaccines in the six weeks prior to the start of lymphodepleting chemotherapy, during idecabtagene vicleucel therapy, and prior to immune recovery following treatment with idecabtagene vicleucell. Patients with altered immunocompetence, including those receiving or those that have recently received immunosuppressive drug therapy, may be at increased risk for an adverse reaction because of uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+Rotavirus Vaccine: (Contraindicated) Avoid administration of live virus vaccines in the six weeks prior to the start of lymphodepleting chemotherapy, during idecabtagene vicleucel therapy, and prior to immune recovery following treatment with idecabtagene vicleucell. Patients with altered immunocompetence, including those receiving or those that have recently received immunosuppressive drug therapy, may be at increased risk for an adverse reaction because of uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+SARS-CoV-2 (COVID-19) vaccines: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) mRNA Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) Recombinant Spike Protein Nanoparticle Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+Smallpox and Monkeypox Vaccine, Live, Nonreplicating: (Contraindicated) Avoid administration of live virus vaccines in the six weeks prior to the start of lymphodepleting chemotherapy, during idecabtagene vicleucel therapy, and prior to immune recovery following treatment with idecabtagene vicleucell. Patients with altered immunocompetence, including those receiving or those that have recently received immunosuppressive drug therapy, may be at increased risk for an adverse reaction because of uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+Smallpox and Mpox (Vaccinia) Vaccine, Live: (Contraindicated) Avoid administration of live virus vaccines in the six weeks prior to the start of lymphodepleting chemotherapy, during idecabtagene vicleucel therapy, and prior to immune recovery following treatment with idecabtagene vicleucell. Patients with altered immunocompetence, including those receiving or those that have recently received immunosuppressive drug therapy, may be at increased risk for an adverse reaction because of uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+Typhoid Vaccine: (Contraindicated) Avoid administration of live virus vaccines in the six weeks prior to the start of lymphodepleting chemotherapy, during idecabtagene vicleucel therapy, and prior to immune recovery following treatment with idecabtagene vicleucell. Patients with altered immunocompetence, including those receiving or those that have recently received immunosuppressive drug therapy, may be at increased risk for an adverse reaction because of uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+Varicella Virus Vaccine, Live: (Contraindicated) Avoid administration of live virus vaccines in the six weeks prior to the start of lymphodepleting chemotherapy, during idecabtagene vicleucel therapy, and prior to immune recovery following treatment with idecabtagene vicleucell. Patients with altered immunocompetence, including those receiving or those that have recently received immunosuppressive drug therapy, may be at increased risk for an adverse reaction because of uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+Yellow Fever Vaccine, Live: (Contraindicated) Avoid administration of live virus vaccines in the six weeks prior to the start of lymphodepleting chemotherapy, during idecabtagene vicleucel therapy, and prior to immune recovery following treatment with idecabtagene vicleucell. Patients with altered immunocompetence, including those receiving or those that have recently received immunosuppressive drug therapy, may be at increased risk for an adverse reaction because of uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+
+Adverse Reactions
+  Headline
+  Adverse Reactions
+  Adverse Reactions
+    Headline
+    General Information
+    General Information
+    General physical health deterioration was reported in 11% (grade 3 or 4, 10%) of patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel in a nonrandomized trial (n = 127).
+Early mortality (death within 9 months after randomization) occurred in 18% of patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel (n = 254) compared with 11% of patients who received standard therapy (n = 132) in a randomized trial.
+    Headline
+    atrial fibrillation, cardiomyopathy, hypertension, hypotension, orthostatic hypotension, sinus tachycardia
+    General Information
+    Tachycardia including sinus tachycardia (32% or less), hypotension including orthostatic hypotension (36% or less; grade 3 or 4, 2.3% or less), hypertension (14%; grade 3 or higher, 7% or less), cardiac arrhythmias (7%), atrial fibrillation (4.7% or less), and cardiomyopathy (1.6% or less) were reported in patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel in 2 trials.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      atrial fibrillation
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      cardiomyopathy
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hypertension
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hypotension
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      orthostatic hypotension
+      Severity
+      Moderate
+      GSTerm Name
+      sinus tachycardia
+      Severity
+      Moderate
+      Incidence To
+    Headline
+    asthenia, fatigue, malaise
+    General Information
+    Fatigue occurred in 45% (grade 3 or 4, 3.1%) and 33% (grade 3 or 4, 1.4%) of patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel in 2 trials. The term fatigue included asthenia and malaise.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      asthenia
+      Severity
+      Minor
+      GSTerm Name
+      fatigue
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      malaise
+      Severity
+      Minor
+    Headline
+    chills, fever
+    General Information
+    Fever (25%; grade 3 or higher, 1.6%) and chills (11%) were reported in patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel in a nonrandomized trial (n = 127). Fever (91%; grade 3 or 4, 9%) and chills (19%; grade 3 or 4, 0.5%) occurred in patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel in another trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      chills
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      fever
+      Severity
+      Severe
+      Incidence To
+    Headline
+    edema, fluid retention, hypervolemia, peripheral edema, testicular swelling
+    General Information
+    Edema occurred in 25% and 20% (grade 3 or 4, 0.5%) of patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel in 2 trials. The term edema included swelling, face edema, fluid overload, fluid retention, generalized edema, peripheral edema, peripheral swelling, hypervolemia, periorbital swelling, and scrotal/testicular swelling.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      edema
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      fluid retention
+      Severity
+      Moderate
+      GSTerm Name
+      peripheral edema
+      Severity
+      Moderate
+      GSTerm Name
+      testicular swelling
+      Severity
+      Moderate
+      GSTerm Name
+      hypervolemia
+      Severity
+      Moderate
+    Headline
+    weight loss
+    General Information
+    Weight loss occurred in 13% (grade 3 or higher, 1.6%) of patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel in a nonrandomized trial (n = 127).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      weight loss
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    akathisia, arthralgia, back pain, bone pain, dyskinesia, dysphonia, hypertonia, hypotonia, muscle cramps, musculoskeletal pain, myalgia, ptosis, restless legs syndrome (RLS), weakness
+    General Information
+    Musculoskeletal pain (45%; grade 3 or higher, 3.1%) and motor dysfunction (11%) were reported in patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel in a nonrandomized trial (n = 127). Musculoskeletal pain (36%; grade 3 or 4, 1.8%) and motor dysfunction (9%) occurred of patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel (n = 222) in another trial. The term musculoskeletal pain included arthralgia, back pain, bone pain including neck and spinal pain, musculoskeletal chest pain, musculoskeletal discomfort/stiffness, and myalgia; the term motor dysfunction included akathisia, dyskinesia, hypertonia, dysphonia, eyelid ptosis, hypotonia, muscle cramps/spasms, muscular weakness, and restless legs syndrome (RLS).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      arthralgia
+      Severity
+      Minor
+      GSTerm Name
+      back pain
+      Severity
+      Minor
+      GSTerm Name
+      bone pain
+      Severity
+      Moderate
+      GSTerm Name
+      dysphonia
+      Severity
+      Moderate
+      GSTerm Name
+      hypotonia
+      Severity
+      Moderate
+      GSTerm Name
+      muscle cramps
+      Severity
+      Minor
+      GSTerm Name
+      musculoskeletal pain
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      myalgia
+      Severity
+      Minor
+      GSTerm Name
+      ptosis
+      Severity
+      Minor
+      GSTerm Name
+      restless legs syndrome (RLS)
+      Severity
+      Minor
+      GSTerm Name
+      weakness
+      Severity
+      Minor
+      GSTerm Name
+      akathisia
+      Severity
+      Moderate
+      GSTerm Name
+      dyskinesia
+      Severity
+      Moderate
+      GSTerm Name
+      hypertonia
+      Severity
+      Moderate
+    Headline
+    agitation, anxiety, delirium, hallucinations, insomnia, restlessness
+    General Information
+    Anxiety (12% or less; grade 3 or higher, 0.8% or less), insomnia (13% or less), sleep disorder including hypersomnia (11%), and delirium (7% or less) were reported in patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel in 2 trials. The term delirium included agitation, hallucinations, and restlessness.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      anxiety
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      delirium
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      hallucinations
+      Severity
+      Moderate
+      GSTerm Name
+      insomnia
+      Severity
+      Minor
+      Incidence To
+      GSTerm Name
+      agitation
+      Severity
+      Minor
+      GSTerm Name
+      restlessness
+      Severity
+      Minor
+    Headline
+    oliguria, renal failure
+    General Information
+    Renal failure occurred in 10% (grade 3 or higher, 2.4%) and 13% (grade 3 or 4, 5%) of patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel in 2 trials. The term renal failure included kidney injury, increased blood creatinine level, chronic kidney disease, decreased glomerular filtration rate, oliguria, and renal impairment.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      renal failure
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      oliguria
+      Severity
+      Severe
+    Headline
+    cough, dyspnea, hypoxia, pulmonary edema, respiratory failure, tachypnea
+    General Information
+    Dyspnea (21% or less; grade 3 or higher, 2.4% or less), cough including upper-airway cough syndrome (23% or less), hypoxia (18% or less; grade 3 or 4, 6%), and pulmonary edema (2.4% or less) were reported in patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel in 2 trials. The term dyspnea included respiratory failure and tachypnea.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      cough
+      Severity
+      Minor
+      Incidence To
+      GSTerm Name
+      dyspnea
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      hypoxia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      pulmonary edema
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      respiratory failure
+      Severity
+      Severe
+      GSTerm Name
+      tachypnea
+      Severity
+      Moderate
+    Headline
+    acne vulgaris, bullous rash, contact dermatitis, erythema, maculopapular rash, photosensitivity, rash, skin irritation, urticaria, xerophthalmia, xerosis, xerostomia
+    General Information
+    Rash (14% or less; grade 3 or higher, 0.8% or less) and xerosis (11% or less) were reported in patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel in 2 trials. The term rash included acne vulgaris, bullous rash/dermatitis, erythema, contact dermatitis, eczema, photosensitivity reaction, follicular rash, maculopapular rash, skin irritation, and urticaria; the term xerosis included xerostomia and xerophthalmia.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      acne vulgaris
+      Severity
+      Minor
+      GSTerm Name
+      bullous rash
+      Severity
+      Moderate
+      GSTerm Name
+      erythema
+      Severity
+      Moderate
+      GSTerm Name
+      rash
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      urticaria
+      Severity
+      Minor
+      GSTerm Name
+      xerophthalmia
+      Severity
+      Minor
+      GSTerm Name
+      xerosis
+      Severity
+      Minor
+      Incidence To
+      GSTerm Name
+      xerostomia
+      Severity
+      Minor
+      GSTerm Name
+      contact dermatitis
+      Severity
+      Moderate
+      GSTerm Name
+      maculopapular rash
+      Severity
+      Minor
+      GSTerm Name
+      photosensitivity
+      Severity
+      Minor
+      GSTerm Name
+      skin irritation
+      Severity
+      Minor
+    Headline
+    infection, laryngitis, pharyngitis, rhinitis, sinusitis
+    General Information
+    In a pooled analysis of 2 trials (n = 349), infection occurred in 61% (grade 3 or 4, 21% or less) of patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel. Infectious events included pathogen unspecified infection (51% or less; grade 3 or 4, 12%), viral infection (27% or less; grade 3 or higher, 7%), bacterial infection (15%; grade 3 or 4, 4.3%), pneumonia (17% or less; grade 3 or 4, 9% or less), upper respiratory tract infection (34% or less; grade 3 or 4, 1.8% or less), fungal infection (8% or less; grade 3 or 4, 1.4%), and sepsis (9% or less). In these trials, 4.3% of patients died due to infectious causes including 8 patients (2.3%) with pathogen unspecified infections, 3 patients (0.9%) with fungal infections, 2 patients (1.6%) with pneumonia, 3 patients (0.9%) with viral infections, and 1 patient (0.3%) with a bacterial infection. The term upper respiratory tract infection included epiglottitis, HCoV-OC43 infection, laryngitis, pharyngitis/nasopharyngitis, pharyngeal erythema, respiratory tract congestion, rhinitis, rhinovirus infection, and sinusitis.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      infection
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      laryngitis
+      Severity
+      Minor
+      GSTerm Name
+      pharyngitis
+      Severity
+      Minor
+      GSTerm Name
+      rhinitis
+      Severity
+      Minor
+      GSTerm Name
+      sinusitis
+      Severity
+      Minor
+    Headline
+    elevated hepatic enzymes, hyperbilirubinemia
+    General Information
+    Grade 3 or 4 elevated hepatic enzymes (e.g., increased ALT, AST, and alkaline phosphatase levels) and hyperbilirubinemia were each reported in less than 10% of patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel in a nonrandomized trial (n = 127). Additionally, grade 3 or 4 increased ALT (13%), AST (less than 10%), gamma-glutamyltransferase (10%), and alkaline phosphatase (less than 10%) levels and hyperbilirubinemia/increased bilirubin level (less than 10%) occurred in patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel (n = 222) in a randomized trial.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      elevated hepatic enzymes
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hyperbilirubinemia
+      Severity
+      Severe
+      Incidence To
+    Headline
+    hyperglycemia
+    General Information
+    Grade 3 or 4 hyperglycemia occurred in less than 10% of patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel in 2 trials.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hyperglycemia
+      Severity
+      Severe
+      Incidence To
+    Headline
+    acute respiratory distress syndrome (ARDS), cytokine release syndrome, metabolic acidosis
+    General Information
+    In a pooled analysis of 2 trials (n = 349), cytokine release syndrome (CRS) was reported in 89% (grade 3 or 4, 7%; grade 5, 0.9%) of patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel. Common symptoms of CRS include fever (87%), hypotension (30%), tachycardia (26%), chills (19%), hypoxia (16%). Serious events that may be associated with CRS include hypotension, hypoxia, hyperbilirubinemia, hypofibrinogenemia, acute respiratory distress syndrome (ARDS), atrial fibrillation, hepatocellular injury, metabolic acidosis, pulmonary edema, coagulopathy, renal failure, and multiple organ dysfunction syndrome. Observe patients closely for signs or symptoms of CRS at least daily for 7 days following the infusion and continue monitoring for at least 2 weeks after the infusion. Evaluate for and treat other causes of fever, hypoxia, and hypotension. Treat severe or life-threatening CRS with tocilizumab or tocilizumab and corticosteroids; CRS refractory to first-line interventions may require alternative treatments such as higher dose corticosteroids, anti-cytokine agents, or anti-T-cell therapies. Monitor patients with CRS (e.g., hypotension not responsive to fluids or hypoxia requiring supplemental oxygenation) with continuous cardiac telemetry and pulse oximetry. Consider starting a non-sedating anti-seizure medication (e.g., levetiracetam) for seizure prophylaxis. Intensive care supportive therapy may be required in patients who have severe or life-threatening CRS. The incidence of grade 3 or higher CRS increased with higher CAR-positive T cell doses (460 to 510 x 10^6 CAR-positive T-cells, 10%; 300 to 460 x 10^6 CAR-positive T-cells, 5.4%).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      acute respiratory distress syndrome (ARDS)
+      Severity
+      Severe
+      GSTerm Name
+      cytokine release syndrome
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      metabolic acidosis
+      Severity
+      Moderate
+    Headline
+    amnesia, aphasia, asterixis, ataxia, carpal tunnel syndrome, cerebral edema, confusion, dizziness, drowsiness, dysesthesia, encephalopathy, gait disturbance, headache, hyperesthesia, hypoesthesia, impaired cognition, lethargy, memory impairment, myelitis, neuritis, neurotoxicity, paresis, paresthesias, peripheral neuropathy, seizures, syncope, tremor, vertigo
+    General Information
+    In a pooled analysis of 2 trials (n = 349), CAR T cell-associated neurotoxicity was reported in 40% (grade 3, 4%; grade 4, 0.6%) of patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel. Geriatric patients 65 years or older may be at increased risk of developing severe neurotoxicity. Symptoms of neurotoxicity included encephalopathy (21%; grade 3 or higher, 6% or less), headache (15%), dizziness including syncope and vertigo (8%; grade 3 or higher, 1.8% or less), peripheral neuropathy (17% or less; grade 3 or higher, 0.8% or less), tremor including asterixis (7%), aphasia including dysarthria (7% or less), delirium (6%), ataxia including gait disturbance and Romberg test positive (3.1% or less), paresis including cranial nerve disorder and hemiparesis (2.4% or less), and seizures (1.6% or less). Observe patients closely for signs or symptoms of neurotoxicity at least daily for 7 days following the infusion and continue monitoring for at least 2 weeks after the infusion. Exclude other causes of neurologic symptoms. Administer supportive care and/or corticosteroids as indicated. Start a non-sedating, anti-seizure medicine (e.g., levetiracetam) for seizure prophylaxis in patients who develop any grade neurotoxicity. Provide intensive care supportive therapy in patients who develop severe or life-threatening neurologic toxicities. Neurotoxicity occurred with cytokine release syndrome in 38% of patients. The incidence of grade 3 or 4 neurotoxicity increased with higher CAR-positive T cell doses (460 to 510 x 10^6 CAR-positive T-cells, 5.6%; 300 to 460 x 10^6 CAR-positive T-cells, 3.7%). Fatal neurotoxicity (n = 1), cerebral edema, grade 3 myelitis and grade 3 parkinsonism were reported following idecabtagene vicleucel therapy in multiple myeloma patients in another study. The term encephalopathy included amnesia, bradyphrenia, cognitive disorder/impaired cognition, confusion, depressed level of consciousness, disturbance in attention, dyscalculia, dysgraphia, immune effector cell-associated neurotoxicity syndrome (ICANS), stupor, lethargy, memory impairment, mental status changes, somnolence/drowsiness, and toxic encephalopathy. The term peripheral neuropathy included carpal tunnel syndrome, hypoesthesia, neuralgia, paresthesias, dysesthesia, hyperesthesia, neuralgia, neuritis, peroneal nerve palsy, radicular pain, radiculopathy, and sciatica. ICANS was also reported in postmarketing surveillance of idecabtagene vicleucel.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      amnesia
+      Severity
+      Moderate
+      GSTerm Name
+      aphasia
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      asterixis
+      Severity
+      Minor
+      GSTerm Name
+      ataxia
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      carpal tunnel syndrome
+      Severity
+      Minor
+      GSTerm Name
+      cerebral edema
+      Severity
+      Severe
+      GSTerm Name
+      confusion
+      Severity
+      Moderate
+      GSTerm Name
+      dizziness
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      drowsiness
+      Severity
+      Minor
+      GSTerm Name
+      encephalopathy
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      headache
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypoesthesia
+      Severity
+      Minor
+      GSTerm Name
+      impaired cognition
+      Severity
+      Moderate
+      GSTerm Name
+      lethargy
+      Severity
+      Minor
+      GSTerm Name
+      memory impairment
+      Severity
+      Moderate
+      GSTerm Name
+      myelitis
+      Severity
+      Severe
+      GSTerm Name
+      neurotoxicity
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      paresis
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      paresthesias
+      Severity
+      Minor
+      GSTerm Name
+      peripheral neuropathy
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      seizures
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      syncope
+      Severity
+      Minor
+      GSTerm Name
+      tremor
+      Severity
+      Minor
+      Incidence To
+      GSTerm Name
+      vertigo
+      Severity
+      Minor
+      GSTerm Name
+      dysesthesia
+      Severity
+      Minor
+      GSTerm Name
+      gait disturbance
+      Severity
+      Minor
+      GSTerm Name
+      hyperesthesia
+      Severity
+      Moderate
+      GSTerm Name
+      neuritis
+      Severity
+      Moderate
+    Headline
+    pulmonary embolism, thrombosis
+    General Information
+    Thrombosis including deep vein thrombosis, jugular vein thrombosis, portal vein thrombosis, and pulmonary embolism occurred in 3.2% or less of patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel in 2 trials.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      pulmonary embolism
+      Severity
+      Severe
+      GSTerm Name
+      thrombosis
+      Severity
+      Severe
+      Incidence To
+    Headline
+    hemophagocytic lymphohistiocytosis, macrophage activation syndrome
+    General Information
+    In a pooled analysis of 2 trials (n = 349), hemophagocytic lymphohistiocytosis/macrophage activation syndrome (HLH/MAS) occurred in 2.9% of patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel. Symptoms of HLH/MAS may include hypotension, hypoxia, multiple organ dysfunction, renal dysfunction, and cytopenias. HLH/MAS may occur concurrently with neurotoxicity or cytokine release syndrome (CRS). The median onset of a HLH/MAS event was 6.5 (range, 4 to 10) days; all cases occurred in the setting of ongoing or worsening CRS. Fatal cases of multi-organ HLH/MAS with CRS (n = 1), bronchopulmonary aspergillosis with HLH/MAS (n = 1), and HLH/MAS with candida sepsis and CRS (n = 1) have been reported. Evaluate for HLH/MAS in patients with progressive symptoms of CRS or refractory CRS despite first-line treatment. Treat patients with HLH/MAS per institutional standards.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hemophagocytic lymphohistiocytosis
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      macrophage activation syndrome
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    anemia, bone marrow suppression, leukopenia, lymphopenia, neutropenia, thrombocytopenia
+    General Information
+    Grade 3 or 4 bone marrow suppression/cytopenias not resolved by 1 month have been reported in patients following lymphodepleting chemotherapy and idecabtagene vicleucel; prolonged grade 3 or 4 cytopenias included thrombocytopenia (42%) and neutropenia (40%). Monitor complete blood counts prior to and after the idecabtagene vicleucel infusion. Provide myeloid growth factor and blood product transfusion support according to institutional guidelines. Grade 3 or 4 lymphopenia (98% or less), leukopenia (96%), neutropenia (96%), anemia (63% or less), and thrombocytopenia (63%) occurred in patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel in 2 clinical trials. In a pooled analysis these 2 trials (n = 349), febrile neutropenia was reported in 38% of patients who received idecabtagene vicleucel; some cases occurred concurrently with cytokine release syndrome. If a patient develops febrile neutropenia, evaluate for signs of infection and manage with broad spectrum antibiotics and supportive care therapy (e.g., fluids) as medically indicated. Five patients who underwent stem-cell therapy for hematopoietic reconstitution due to prolonged cytopenia died.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      anemia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      bone marrow suppression
+      Severity
+      Severe
+      GSTerm Name
+      leukopenia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      lymphopenia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      neutropenia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      thrombocytopenia
+      Severity
+      Severe
+      Incidence To
+    Headline
+    abdominal pain, anorexia, colitis, constipation, dental pain, diarrhea, dyspepsia, enterocolitis, GI bleeding, melena, nausea, vomiting
+    General Information
+    Diarrhea including colitis or enterocolitis (35% or less; grade 3 or 4, 2.3% or less), nausea (29% or less; grade 3 or 4, 0.9% or less), decreased appetite/anorexia (22% or less; grade 3 or 4, 1.8% or less), constipation (17% or less), vomiting (15% or less), oral pain including dental pain (12% or less), abdominal pain including dyspepsia (10% or less; grade 3 or 4, 0.5% or less), and GI bleeding (3.1% or less) were reported in patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel in 2 trials. The term GI bleeding included hemorrhoidal bleeding and melena.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      anorexia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      constipation
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      dental pain
+      Severity
+      Minor
+      GSTerm Name
+      diarrhea
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      GI bleeding
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      melena
+      Severity
+      Moderate
+      GSTerm Name
+      nausea
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      vomiting
+      Severity
+      Minor
+      Incidence To
+      GSTerm Name
+      colitis
+      Severity
+      Moderate
+      GSTerm Name
+      enterocolitis
+      Severity
+      Severe
+      GSTerm Name
+      abdominal pain
+      Severity
+      Minor
+      GSTerm Name
+      dyspepsia
+      Severity
+      Minor
+    Headline
+    coagulopathy, disseminated intravascular coagulation (DIC), hypofibrinogenemia, prolonged bleeding time
+    General Information
+    Coagulopathy (9%), grade 3 or 4 hypofibrinogenemia (less than 10%), and grade 3 or 4 prolonged activated partial thromboplastin time (aPTT) (10%) that worsened from baseline were reported in patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel in a nonrandomized trial (n = 127). Coagulopathy occurred in 14% (grade 3 or 4, 2.7%) of patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel (n = 222) in a randomized trial; increased aPTT and decreased fibrinogen level were reported in less than 10% of patients. The term coagulopathy included prolonged bleeding time (prolonged aPTT), supratherapeutic anticoagulation drug level, disseminated intravascular coagulation (DIC), and increased international normalized ratio (INR).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      coagulopathy
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      disseminated intravascular coagulation
+      Severity
+      Severe
+      GSTerm Name
+      hypofibrinogenemia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      prolonged bleeding time
+      Severity
+      Moderate
+    Headline
+    hypocalcemia, hypokalemia, hypomagnesemia, hyponatremia, hypophosphatemia
+    General Information
+    Grade 3 or 4 hypophosphatemia (45%) and hyponatremia (11% or less) that worsened from baseline were reported in patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel in 2 trials. Additionally, grade 3 or 4 hypokalemia, hypomagnesemia, and hypocalcemia occurred in less than 10% of patients.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hypocalcemia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hypokalemia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hyponatremia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hypophosphatemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypomagnesemia
+      Severity
+      Moderate
+      Incidence To
+    Headline
+    antibody formation
+    General Information
+    In a pooled analysis of 2 trials (n = 349), antibody formation to CAR T-cells occurred in 2.6% of patients prior to and 53% of patients after the idecabtagene vicleucel infusion. There is no evidence that the presence of these antibodies had an impact on cellular expansion or on the effectiveness or safety of idecabtagene vicleucel.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      antibody formation
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+    Headline
+    leukemia, lymphoma, new primary hematologic malignancy
+    General Information
+    T-cell malignancies, including chimeric antigen receptor (CAR)-positive lymphoma, have been reported in patients who received treatment with B-cell maturation antigen (BCMA)-directed autologous CAR T-cell immunotherapy, including idecabtagene vicleucel, in clinical trials and postmarketing surveillance. Mature T-cell malignancies may present in the weeks following the idecabtagene vicleucel; fatal outcomes are possible. If a patient develops a new primary hematologic malignancy following treatment with idecabtagene vicleucel, contact Bristol-Myers Squibb at 1-888-805-4555 for instructions on how to collect patient samples for testing for the presence of the CAR transgene. Report suspected adverse events, including T-cell malignancies, to the FDA. Myeloid neoplasms including myelodysplastic syndrome (n = 4) and acute myelogenous leukemia (n = 1) occurred in 2.2% of patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel (n = 222) in a randomized trial. Of these patients, 3 cases were fatal; however, 1 patient died after starting subsequent anti-myeloma therapy. The median time to onset of a myeloid neoplasm was 338 (range, 277 to 794) days.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      lymphoma
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      leukemia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      new primary hematologic malignancy
+      Severity
+      Severe
+    Headline
+    hypogammaglobulinemia
+    General Information
+    In a pooled analysis of 2 trials (n = 349), hypogammaglobulinemia (as an adverse reaction or laboratory IgG level below 500 mg/dL after infusion) occurred in 45% (grade 3 or 4, 0.9% or less) of patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel. In these trials, IV immunoglobulin was administered in 41% of patients who developed a serum IgG level less than 400 mg/dL. Monitor immunoglobulin levels after idecabtagene vicleucel therapy and administer immunoglobulin (IVIG) replacement for IgG less than 400 mg/dL; manage immunoglobulin deficiency with infection precautions and prophylactic antibiotic or antiviral therapy per standard guidelines.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hypogammaglobulinemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    hypoalbuminemia
+    General Information
+    Hypoalbuminemia/decreased albumin level were reported in less than 10% of patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel in 2 trials
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hypoalbuminemia
+      Severity
+      Moderate
+      Incidence To
+    Headline
+    laboratory test interference
+    General Information
+    False-positive HIV test results have been reported in patients who received treatment with chimeric antigen receptor (CAR) T-cell immunotherapy, such as idecabtagene vicleucel. The use of gammaretroviral or lentiviral vectors to reprogram T-cells as part of CAR T-cell therapy has resulted in laboratory test interference with HIV-1 nucleic acid amplification testing (NAAT). False test results may occur due to vector interference with long terminal repeat (LTR) genomes in HIV NAAT. Alternative testing methods for HIV (e.g., assays that target p24 antigen and anti-HIV-1 antibodies or the integrase gene) should be performed in patients who have received CAR T-cell therapy.
+
+Description
+  Text
+  Idecabtagene vicleucel is a chimeric antigen receptor (CAR) T-cell gene therapy. It is B-cell maturation antigen (BCMA)-directed immunotherapy that works by using a patient's own genetically altered immune cells to kill BCMA-expressing cancer cells in the blood. Idecabtagene vicleucel is indicated for use in adult patients with relapsed or refractory multiple myeloma who have received 2 or more prior lines of therapy, including an immunomodulatory agent, a proteasome inhibitor, and an anti-CD38 monoclonal antibody. Idecabtagene vicleucel has black box warnings for cytokine release syndrome, severe neurotoxicity, hemophagocytic lymphohistiocytosis/macrophage activation syndrome, prolonged cytopenias, and new T-cell malignancies.
+
+Mechanism Of Action
+  Text
+  Idecabtagene vicleucel is a chimeric antigen receptor (CAR) T-cell therapy that works by redirecting T-cells to target the B-cell maturation antigen (BCMA) antigen on plasma cells. The domains, CD137 (4-1BB) and CD3-zeta, activate downstream signaling cascades that lead to T-cell activation, proliferation, secretion of chemokines, and lysis of BCMA-expressing cells.
+This immunotherapy involves removing, genetically modifying, and then re-infusing a patient's own T-cells. During the manufacturing process, the cells are genetically modified using lentiviral vector transduction to express a CAR comprised of a murine anti- BCMA- single chain variable fragment linked to CD137 (4-1BB) and CD3-zeta co-stimulatory domains.
+To produce CAR T-cell therapy, T-cells are collected from the blood by leukapheresis; enriched; activated with anti-CD3 and anti-CD28 antibodies in the presence of IL-2; transduced with the replication incompetent retroviral vector containing the anti-BCMA CAR transgene; expanded to large numbers in a cell culture; and then washed, formulated into a suspension, and cryopreserved.
+
+Pharmacokinetics
+  Route Specific Pharmacokinetics
+    Name
+    Intravenous Route
+    Description
+    The geometric mean Cmax level was 256,333 copies/mcg (coefficient of variation (CV), 165%) and the geometric mean AUC(0-28 days) value was 3,088,455 day x copies/mcg (CV, 190%) in patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel (n = 99) in a clinical trial. The geometric mean Cmax level was 117,557 copies/mcg (CV, 215%) and the geometric mean AUC(0-28 days) value was 1,098,862 day x copies/mcg (CV, 228%) in patients with relapsed or refractory multiple myeloma who received idecabtagene vicleucel (n = 207) in another clinical trial. In these 2 trials, the idecabtagene vicleucel median Cmax levels were 4.6-fold and 6.5-fold higher in patients who achieved a response compared with patients who were nonresponders. Additionally, the median idecabtagene vicleucel AUC(0-28 days) values were 5.6-fold and 6.1-fold higher in responders. The median time to maximal expansion in peripheral blood of idecabtagene vicleucel (Tmax) occurred 11 days (range, 4 to 31 days) following the idecabtagene vicleucel infusion; it was present in peripheral blood for up to 1 year.
+  Special Populations
+    Name
+    Geriatric
+    Description
+    Age (range, 30 to 81 years) had no significant impact on idecabtagene vicleucel expansion parameters.
+    Name
+    Gender Differences
+    Description
+    Gender had no significant impact on idecabtagene vicleucel expansion parameters.
+    Name
+    Ethnic Differences
+    Description
+    Race or ethnicity had no significant impact on idecabtagene vicleucel expansion parameters.
+    Name
+    Obesity
+    Description
+    Patients with lower body weights had higher idecabtagene vicleucel cell expansion; however, the effect of weight on cell expansion was not considered clinically relevant.
+    Name
+    Other
+    Description
+    Immunosuppressive therapy
+The idecabtagene vicleucel Cmax and AUC(0-28 days) values were 1.3-fold and 1.6-fold higher, respectively, in patients who received tocilizumab to treat cytokine release syndrome compared with patients who did not receive tocilizumab. Additionally, the idecabtagene vicleucel Cmax and AUC(0-28 days) values were 1.7-fold and 2.2-fold higher, respectively, in patients who received corticosteroids compared with patients who did not receive corticosteroids.
+  Text
+  Idecabtagene vicleucel is administered intravenously. Post infusion, it exhibits CAR-positive cell proliferation and rapid expansion followed by a bi-exponential decline.
+Pharmacodynamics: Peak levels of plasma cytokines, chemokines, and soluble immune mediators were observed within 14 days of the idecabtagene vicleucel infusion; these levels typically returned to baseline within 1 month.
+
+Administration
+  General Information
+  For storage information, see the specific product information within the How Supplied section.
+NOTE: Idecabtagene vicleucel may carry the risk of transmitting infectious diseases to health care professionals handling the product. Follow universal precautions and local biosafety guidelines in the handling and disposal of idecabtagene vicleucel.
+Premedication
+Premedicate patients with acetaminophen 650 mg PO and diphenhydramine 12.5 mg IV or 25 to 50 mg PO (or another H1-antihistamine) approximately 30 to 60 minutes prior to the infusion.
+Avoid prophylactic use of dexamethasone (or other systemic corticosteroids) except in the case of a life-threatening emergency.
+  Route Specific Administrations
+    Administration Details
+      Name
+      Intravenous Administration
+      Description
+      Idecabtagene vicleucel is for autologous and intravenous use.
+The dose of idecabtagene vicleucel may be contained in 1 or more patient-specific infusion bags; verify the number of infusion bags prior to preparation for infusion.
+Ensure that a minimum of 2 doses of tocilizumab and emergency equipment are available prior to the infusion and during the recovery period.
+Coordinate the timing of the idecabtagene vicleucel thaw and infusion; confirm the infusion time in advance and adjust the start time for thaw so that the recipient will be ready.
+Preparation
+Match the patient's identity with the patient identifiers on the cassette; do not remove the product bag from the cassette if the patient-specific label does not match the intended recipient.
+Remove the product bag from the cassette; verify that the patient information on the cassette label matches the bag label.
+If more than 1 infusion bag is part of the treatment dose, thaw each infusion bag one at a time; do not start to thaw the next bag until the previous bag has been infused.
+Put the infusion bag(s) inside a second, sterile bag.
+Thaw the infusion bag(s) at approximately 37 degrees C using an approved thaw device or water bath.
+Once there is no visible ice in the infusion bag, gently mix the contents of the bag to disperse visible clumps of cellular material; small clumps of cellular material may persist despite gentle manual mixing.
+Do not wash, spin down, and/or resuspend idecabtagene vicleucel in new media prior to infusion.
+Storage: Give idecabtagene vicleucel within 1 hour of the start of the thaw. The product may be stored at room temperature for up to 2 hours once thawed.
+Intravenous (IV) Infusion
+Confirm the patient's identity with the patient identifiers on the infusion bag.
+Consider administering infusion bag(s) via central venous access, particularly for patients with poor peripheral access.
+Prime the tubing with normal saline prior to the infusion; do not use a leukocyte-depleting filter. An infusion set with an in-line filter (non-leukodepleting filter with a pore size range of 170 to 260 micrometer) may be used for thawed products with visible clumps of cellular material that do not disperse after gentle manual mixing.
+Administer as an IV infusion within 1 hour from the start of the thaw via gravity flow until the infusion bag is empty. Observe patients during the infusion for hypersensitivity reactions.
+Rinse the tubing with 30 to 60 mL of normal saline at the same infusion rate to ensure all product contents are delivered.
+Repeat steps for each infusion bag.
+    Name
+    Injectable Administration
+    Description
+    Visually inspect the contents of the infusion bag(s) for any breaks or cracks before thawing. Do not infuse the contents if the bag is compromised; call Bristol-Myers Squibb at 1-888-805-4555.
+
+Maximum Dosage Limits
+  Age Groups
+    Name
+    Adults
+    Max Dosage
+    460 x 106 CAR-positive T-cells as a single IV dose.
+    Name
+    Geriatric
+    Max Dosage
+    460 x 106 CAR-positive T-cells as a single IV dose.
+    Name
+    Adolescents
+    Max Dosage
+    Safety and efficacy not established.
+    Name
+    Children
+    Max Dosage
+    Safety and efficacy not established.
+    Name
+    Infants
+    Max Dosage
+    Safety and efficacy not established.
+
+Dosage Adjustment Guidelines
+  Hepatic Impairment
+  Specific guidelines for dosage adjustments in hepatic impairment are not available; it appears that no dosage adjustments are needed.
+  Renal Impairment
+  Specific guidelines for dosage adjustments in renal impairment are not available; it appears that no dosage adjustments are needed.

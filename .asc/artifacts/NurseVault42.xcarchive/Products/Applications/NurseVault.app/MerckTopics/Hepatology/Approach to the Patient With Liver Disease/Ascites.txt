@@ -1,0 +1,122 @@
+=== Ascites (Merck Manual Professional) ===
+Section: Hepatology > Approach to the Patient With Liver Disease
+Source: https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/approach-to-the-patient-with-liver-disease/ascites
+Retrieved: 2026-09-25
+
+Etiology of Ascites
+
+Ascites can result from hepatic disorders, usually chronic but sometimes acute; conditions unrelated to the liver can also cause ascites.
+
+Hepatic causes include the following:
+
+Portal hypertension (accounts for 80% of all ascites) (1), usually due to cirrhosis
+
+Chronic hepatitis
+
+Severe alcoholic hepatitis without cirrhosis
+
+Hepatic vein obstruction (eg, Budd-Chiari syndrome)
+
+Portal vein thrombosis does not usually cause ascites unless hepatocellular damage is also present.
+
+Nonhepatic causes include the following:
+
+Generalized fluid retention associated with systemic diseases (eg, heart failure, nephrotic syndrome, severe hypoalbuminemia, constrictive pericarditis)
+
+Peritoneal disorders (eg, carcinomatous or infectious peritonitis, biliary leak due to surgery or another medical procedure)
+
+Less common causes, such as renal dialysis, pancreatitis, systemic lupus erythematosus, lymphatic obstruction or injury, and endocrine disorders (eg, myxedema)
+
+Etiology reference
+
+1. Tonon M, Piano S. Cirrhosis and Portal Hypertension: How Do We Deal with Ascites and Its Consequences. Med Clin North Am. 2023;107(3):505-516. doi:10.1016/j.mcna.2022.12.004
+
+Pathophysiology of Ascites
+
+Mechanisms are complex and incompletely understood. Factors include nitric oxide-induced splanchnic vasodilation, altered Starling forces in the portal vessels (low oncotic pressure due to hypoalbuminemia plus increased portal venous pressure), avid renal sodium retention (urinary sodium concentration is typically < 5 mEq/L [5 mmol/L]), and possibly increased hepatic lymph formation.
+
+Mechanisms that seem to contribute to renal sodium retention include activation of the renin-angiotensin-aldosterone system; increased sympathetic tone; intrarenal shunting of blood away from the cortex; increased formation of nitric oxide; and altered formation or metabolism of antidiuretic hormone, kinins, prostaglandins, and atrial natriuretic factor. Vasodilation in the splanchnic arterial circulation may be a trigger, but the specific roles and interrelationships of these abnormalities remain uncertain.
+
+Symptoms and Signs of Ascites
+
+Small amounts of ascitic fluid cause no symptoms. Moderate amounts cause increased abdominal girth and weight gain. Massive amounts may cause nonspecific diffuse abdominal pressure, but actual pain is uncommon and suggests infection such as spontaneous bacterial peritonitis (SBP) or another cause of acute abdominal pain. If ascites results in elevation of the diaphragm, dyspnea may occur.
+
+Fluid volumes < 1500 mL may not produce noticeable physical findings. When present, signs include shifting dullness (detected by abdominal percussion) and a fluid wave. Massive ascites causes tautness of the abdominal wall and flattening of the umbilicus.
+
+In patients with liver disease and portal hypertension, the volume of ascites tends to be much greater than in patients with systemic diseases (eg, heart failure). In patients with portal hypertension, ascites can exist with or without lower extremity edema.
+
+Diagnosis of Ascites
+
+Ultrasound or CT unless physical examination makes the diagnosis obvious
+
+Sometimes ascitic fluid lab testing to determine ascites etiology
+
+Diagnosis may be based on physical examination if there is a large amount of fluid, but ultrasound and CT reveal much smaller volumes of fluid (100 to 200 mL) than does physical examination. Spontaneous bacterial peritonitis (SBP) is suspected if a patient with ascites also has abdominal pain, fever, or unexplained deterioration. However, SBP can also be asymptomatic with the only signs being worsening hepatic synthetic function or acute kidney injury. And because treatment delays lead to high mortality, the treatment threshold should be low (1, 2).
+
+Diagnostic abdominal paracentesis should be performed if any of the following occur:
+
+Ascites is newly diagnosed.
+
+Its cause is unknown.
+
+SBP is suspected.
+
+Typically a small volume of fluid will initially be removed to assess the etiology of ascites and rule out infection (SBP). The fluid is removed and analyzed for gross appearance; albumin; protein content; cell count and differential; culture; and as clinically indicated, cytology, acid-fast stain, and/or amylase. In contrast to ascites due to inflammation or infection, ascites due to portal hypertension produces fluid that is clear and straw-colored, has a low protein concentration, a low neutrophil (polymorphonuclear leukocyte) count (< 250 cells/mcL), and most reliably, a high serum-to-ascites albumin concentration gradient (SAAG), which is the serum albumin concentration minus the ascitic albumin concentration. SAAG ≥ 1.1 g/dL (11 g/L) and a low fluid protein is relatively specific for ascites due to portal hypertension. In ascitic fluid, a neutrophil count of > 250 cells/mcL indicates SBP, whereas bloody fluid can suggest a tumor or tuberculosis. The rare milky (chylous) ascites is most common with lymphoma or lymphatic duct occlusion.
+
+Clinical Calculators
+
+Serum-Ascites Albumin Gradient
+
+Diagnosis references
+
+1. Kim JJ, Tsukamoto MM, Mathur AK, et al. Delayed paracentesis is associated with increased in-hospital mortality in patients with spontaneous bacterial peritonitis. Am J Gastroenterol. 2014;109(9):1436-1442. doi:10.1038/ajg.2014.212
+
+2. Biggins SW, Angeli P, Garcia-Tsao G, et al. Diagnosis, Evaluation, and Management of Ascites, Spontaneous Bacterial Peritonitis and Hepatorenal Syndrome: 2021 Practice Guidance by the American Association for the Study of Liver Diseases. Hepatology. 2021;74(2):1014-1048. doi:10.1002/hep.31884
+
+Treatment of Ascites
+
+Dietary sodium restriction
+
+Medications (spironolactone, possibly plus furosemide)
+
+Therapeutic paracentesis
+
+Dietary sodium restriction (2000 mg/day) is the first and lowest-risk treatment for ascites due to portal hypertension. Diuretics should be used if rigid sodium restriction fails to initiate diuresis within a few days. Oral spironolactone is usually effective and is used in conjunction with a loop diuretic (eg, furosemide). Because spironolactone can cause potassium retention and furosemide can cause potassium depletion, the combination of these medications often provides optimal diuresis with a lower risk of potassium abnormalities. Fluid restriction is indicated only for treatment of hyponatremia (serum sodium < 125 mEq/L [125 mmol/L]).
+
+Changes in body weight and urinary sodium determinations reflect response to treatment. Weight loss of approximately 0.5 kg/day is optimal because the ascitic fluid compartment cannot be mobilized much more rapidly. More aggressive diuresis depletes fluid from the intravascular compartment, especially when peripheral edema is absent; this depletion may cause acute kidney injury or electrolyte abnormalities (eg, hypokalemia) that may precipitate portosystemic encephalopathy. If peripheral edema is present, more aggressive diuresis up to 1 kg/day is usually well tolerated (1). Inadequate dietary sodium restriction is the usual cause of persistent ascites.
+
+Therapeutic paracentesis can be combined with diuretics. If more than 5 liters of ascites are removed, 6 to 8 g of 25% albumin should be given for each liter removed. Albumin helps reduce the risk of post-paracentesis hypotension (post-paracentesis circulatory dysfunction), which can precipitate hepatorenal syndrome. Therapeutic paracentesis can reduce ascites more quickly than diuretics; however, patients require ongoing diuretics to prevent reaccumulation of ascites.
+
+Transjugular intrahepatic portosystemic shunting (TIPS) can lower portal pressure and successfully treat ascites resistant to other treatments, but TIPS is invasive and may cause complications, including portosystemic encephalopathy and worsening hepatocellular function. Techniques for the autologous infusion of ascitic fluid (eg, the LeVeen peritoneovenous shunt) often cause complications and are generally no longer used.
+
+Refractory ascites is defined as ascites that persists and requires paracentesis despite maximal dose diuretics (furosemide 160 mg and spironolactone 400 mg daily) or inability to tolerate diuretics due to acute kidney injury or hypotension. Refractory ascites is an indication for referral to TIPS or liver transplantation.
+
+Recurrent ascites is defined by AASLD as a lifetime history of more than 3 large volume paracentesis (LVP) (defined as removal of ≥ 5 L in a single procedure) (2). Patients with recurrent ascites may benefit from moving to TIPS or transplant at an earlier stage rather than waiting to meet the stringent, traditional definition of refractory ascites (3). Specifically, one study noted that 1-year transplant-free survival was significantly better in patients with recurrent ascites who received TIPS (93%) versus patients who were managed with ongoing LVP and diuretics (53%) (4).
+
+Clinical Calculators
+
+TIPS Risk predictor / Survival predictor (Transjugular Intrahepatic Portosystemic Shunt)
+
+Treatment references
+
+1. European Association for the Study of the Liver. EASL Clinical Practice Guidelines for the management of patients with decompensated cirrhosis [published correction appears in J Hepatol. 2018 Nov;69(5):1207. doi: 10.1016/j.jhep.2018.08.009.]. J Hepatol. 2018;69(2):406-460. doi:10.1016/j.jhep.2018.03.024
+
+2. Biggins SW, Angeli P, Garcia-Tsao G, et al. Diagnosis, Evaluation, and Management of Ascites, Spontaneous Bacterial Peritonitis and Hepatorenal Syndrome: 2021 Practice Guidance by the American Association for the Study of Liver Diseases. Hepatology. 2021;74(2):1014-1048. doi:10.1002/hep.31884
+
+3. García-Pagán JC, Saffo S, Mandorfer M, et al. Where does TIPS fit in the management of patients with cirrhosis?. JHEP Rep. 2020;2(4):100122. Published 2020 May 23. doi:10.1016/j.jhepr.2020.100122
+
+4. Bureau C, Thabut D, Oberti F, et al. Transjugular Intrahepatic Portosystemic Shunts With Covered Stents Increase Transplant-Free Survival of Patients With Cirrhosis and Recurrent Ascites [published correction appears in Gastroenterology. 2017 Sep;153(3):870. doi: 10.1053/j.gastro.2017.08.025.] Gastroenterology. 2017;152(1):157-163.
+
+Key Points
+
+Ascites is free fluid in the abdominal cavity, usually caused by portal hypertension and sometimes by other hepatic or nonhepatic conditions.
+
+Moderate amounts of fluid can increase abdominal girth and cause weight gain, and massive amounts can cause abdominal distention, pressure, and dyspnea; signs may be absent if fluid accumulation is < 1500 mL.
+
+Unless the diagnosis is obvious, confirm the presence of ascites using ultrasound or CT.
+
+If ascites is newly diagnosed, its cause is unknown, or spontaneous bacterial peritonitis is suspected, do paracentesis and test ascitic fluid.
+
+Recommend dietary sodium restriction; if insufficiently effective, consider use of diuretics and therapeutic paracentesis.
+
+Promptly refer patients with refractory ascites for TIPS or liver transplantation.

@@ -1,0 +1,308 @@
+=== Hypothermia (Merck Manual Professional) ===
+Section: Injuries; Poisoning > Cold Injury
+Source: https://www.merckmanuals.com/professional/injuries-poisoning/cold-injury/hypothermia
+Retrieved: 2026-09-25
+
+Primary hypothermia is widely underreported and can be classified as accidental (most common), homicidal, or suicidal. Secondary hypothermia, which is due to underlying medical conditions, is likely underrecognized (1). (See also Overview of Cold Injury.)
+
+General reference
+
+1. Paal P, Pasquier M, Darocha T, et al. Accidental Hypothermia: 2021 Update. Int J Environ Res Public Health. 2022;19(1):501. doi:10.3390/ijerph19010501
+
+Etiology of Hypothermia
+
+Hypothermia results when body heat loss exceeds body heat production. Hypothermia is most common during cold weather or immersion in cold water, but it may occur in warm climates when people lie immobile on a cool surface (eg, when they are intoxicated), after very prolonged immersion in swimming-temperature water (eg, 20 to 24° C), or when underlying medical conditions predispose to hypothermia (secondary hypothermia). Wet clothing and wind increase risk of hypothermia.
+
+Conditions that cause loss of consciousness, immobility, or both (eg, trauma, hypoglycemia, seizure disorders, stroke, drug or alcohol intoxication) are common predisposing factors (1, 2). Older adults and the very young also are at high risk ( 3, 4):
+
+Older adults often have diminished temperature sensation and impaired mobility and communication, resulting in a tendency to remain in an overly cool environment. These impairments, combined with diminished subcutaneous fat, contribute to hypothermia in older adults—sometimes even indoors in cool rooms.
+
+The very young have similarly diminished mobility and communication and have an increased surface area/mass ratio, which enhances heat loss.
+
+Etiology references
+
+1. Brown DJ, Brugger H, Boyd J, Paal P. Accidental hypothermia. N Engl J Med. 2012;367(20):1930-1938. doi:10.1056/NEJMra1114208
+
+2. Paal P, Pasquier M, Darocha T, et al. Accidental Hypothermia: 2021 Update. Int J Environ Res Public Health. 2022;19(1):501. doi:10.3390/ijerph19010501
+
+3. Forcey DS, FitzGerald MP, Burggraf MK, Nagalingam V, Ananda-Rajah MR. 'Cold and lonely': emergency presentations of patients with hypothermia to a large Australian health network. Intern Med J. 2020;50(1):54-60. doi:10.1111/imj.14308
+
+4. Matsuyama T, Morita S, Ehara N, et al. Characteristics and outcomes of accidental hypothermia in Japan: the J-Point registry. Emerg Med J. 2018;35(11):659-666. doi:10.1136/emermed-2017-207238
+
+Pathophysiology of Hypothermia
+
+Hypothermia slows all physiologic functions, including cardiovascular and respiratory systems, nerve conduction, mental acuity, neuromuscular reaction time, and metabolic rate. Thermoregulation ceases below approximately 30° C; the body must then depend on an external heat source for rewarming.
+
+Renal cell dysfunction and decreased levels of vasopressin (antidiuretic hormone [ADH]) lead to production of a large volume of dilute urine (cold diuresis). Diuresis plus fluid leakage into the interstitial tissues causes hypovolemia. Vasoconstriction, which occurs with hypothermia, may mask hypovolemia, which then manifests as sudden shock or cardiac arrest during rewarming (rewarming collapse) when peripheral vasculature dilates.
+
+Immersion in cold water can trigger the diving reflex, which involves apnea, bradycardia, and increased peripheral vascular resistance; blood is shunted to essential organs (eg, heart, brain). The reflex is most pronounced in small children and may help protect them in some cases (1, 2, 3). Also, hypothermia due to total immersion in near-freezing water may protect the brain from hypoxia by decreasing metabolic demands. The decreased demand probably accounts for the occasional survival after prolonged cardiac arrest due to extreme hypothermia (4).
+
+Pathophysiology references
+
+1. Bitzer K, Breindahl N, Kelly B, et al. The role of accidental hypothermia in drowning patients with out-of-hospital cardiac arrest: A nationwide registry-based cohort study. Resuscitation. 2025;207:110486. doi:10.1016/j.resuscitation.2024.110486
+
+2. Denny SA, Quan L, Gilchrist J, et al. Prevention of Drowning. Pediatrics. 2021;148(2):e2021052227. doi:10.1542/peds.2021-052227
+
+3. Romlin BS, Winberg H, Janson M, et al. Excellent Outcome With Extracorporeal Membrane Oxygenation After Accidental Profound Hypothermia (13.8°C) and Drowning. Crit Care Med. 2015;43(11):e521-e525. doi:10.1097/CCM.0000000000001283
+
+4. Cao D, Arens AM, Chow SL, et al. Part 10: Adult and Pediatric Special Circumstances of Resuscitation: 2025 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care. Circulation. 2025;152(16_suppl_2):S578-S672. doi:10.1161/CIR.0000000000001380
+
+Symptoms and Signs of Hypothermia
+
+Intense shivering occurs initially, followed by impairment in movement. Shivering then progressively ceases, which allows body temperature to drop more precipitously. Central nervous system dysfunction progresses as the body temperature decreases; people do not sense the cold. Lethargy and clumsiness are followed by confusion, irritability, sometimes hallucinations, and eventually coma. Pupils may become unreactive. Respirations and heartbeat slow and ultimately cease. Initial sinus bradycardia is followed by slow atrial fibrillation; the terminal rhythm is ventricular fibrillation or asystole.
+
+Diagnosis of Hypothermia
+
+Core temperature measurement
+
+Consideration of intoxication, myxedema, sepsis, hypoglycemia, and trauma
+
+Diagnosis is by measuring core, not oral, temperature using an electronic thermometer. Esophageal and epitympanic (not standard tympanic) probes are most accurate (1); rectal and bladder temperatures lag behind core temperature during rewarming. Oral and temporal thermometers are generally not reliable for diagnosing hypothermia.
+
+Temperature thresholds for classifying hypothermia severity vary. The Wilderness Medical Society uses a temperature-based system (1), which approximately corresponds to the practical field assessment using the Swiss system and its subsequent revision (2) (see table Classification and Staging of Accidental Hypothermia):
+
+Table
+
+Classification and Staging of Accidental Hypothermia
+
+Classification and Staging of Accidental Hypothermia
+
+Temperature*
+
+WMS Classification
+
+Swiss System Stage
+
+Original Swiss System Clinical Findings
+
+Revised Swiss System Clinical Findings†
+
+32 to 35°C
+
+Mild
+
+1
+
+Conscious; shivering
+
+Alert
+
+28 to 32°C
+
+Moderate
+
+2
+
+Impaired consciousness; shivering absent
+
+Responsive to verbal stimuli
+
+24 to 28°C
+
+Severe
+
+3
+
+Unconscious
+
+Responsive to painful stimuli, or unresponsive with detectable vital signs
+
+< 24°C
+
+Profound
+
+4–5
+
+Apparent death
+
+Unresponsive with no detectable vital signs
+
+* Core temperature ranges are approximate and overlap between categories.
+
+† Using the "AVPU" scale:
+
+Alert
+
+Responsive to Verbal stimuli
+
+Responsive to Painful stimuli
+
+Unresponsive
+
+WMS = Wilderness Medical Society
+
+Dow J, Giesbrecht GG, Danzl DF, et al. Wilderness Medical Society Clinical Practice Guidelines for the Out-of-Hospital Evaluation and Treatment of Accidental Hypothermia: 2019 Update. Wilderness Environ Med. 2019;30(4S):S47-S69. doi: 10.1016/j.wem.2019.10.002 and Musi ME, Sheets A, Zafren K, et al. Clinical staging of accidental hypothermia: The Revised Swiss System: Recommendation of the International Commission for Mountain Emergency Medicine (ICAR MedCom). Resuscitation. 2021;162:182-187. doi:10.1016/j.resuscitation.2021.02.038
+
+* Core temperature ranges are approximate and overlap between categories.
+
+† Using the "AVPU" scale:
+
+Alert
+
+Responsive to Verbal stimuli
+
+Responsive to Painful stimuli
+
+Unresponsive
+
+WMS = Wilderness Medical Society
+
+Dow J, Giesbrecht GG, Danzl DF, et al. Wilderness Medical Society Clinical Practice Guidelines for the Out-of-Hospital Evaluation and Treatment of Accidental Hypothermia: 2019 Update. Wilderness Environ Med. 2019;30(4S):S47-S69. doi: 10.1016/j.wem.2019.10.002 and Musi ME, Sheets A, Zafren K, et al. Clinical staging of accidental hypothermia: The Revised Swiss System: Recommendation of the International Commission for Mountain Emergency Medicine (ICAR MedCom). Resuscitation. 2021;162:182-187. doi:10.1016/j.resuscitation.2021.02.038
+
+Laboratory tests include complete blood count, glucose (including bedside measurement), electrolytes, blood urea nitrogen (BUN), creatinine, and arterial blood gases (ABGs). ABGs are not corrected for low temperature. An electrocardiogram (ECG) may show J (Osborn) waves (see figure Abnormal ECG showing J [Osborn] waves [V4]) and prolongation of the PR and QT intervals as well as of the QRS duration.
+
+If the cause of hypothermia is unclear, testing to detect contributing factors includes measuring a serum alcohol level, thyroid stimulating hormone (TSH), free thyroxine, and cortisol. Hypoadrenalism and hypothyroidism (including myxedema) can contribute to hypothermia and are often occult, with no history of cold intolerance, dry skin, arthralgias, or lassitude. Failure to rewarm is a clue. Myxedema characteristically prolongs the relaxation phase of the ankle reflex more than the contraction phase.
+
+Patients should also be screened for other exposures (ie, certain medications and substances such as toxins or illicit drugs). Sepsis and occult head or skeletal trauma must be considered.
+
+Abnormal ECG Showing J (Osborn) Waves (V4)
+
+The J (Osborn) wave is visible as a convex elevation at the junction of the QRS complex and ST segment. Computer programs cannot reliably differentiate J waveform abnormalities from myocardial injury current.
+
+Diagnosis references
+
+1. Dow J, Giesbrecht GG, Danzl DF, et al. Wilderness Medical Society Clinical Practice Guidelines for the Out-of-Hospital Evaluation and Treatment of Accidental Hypothermia: 2019 Update. Wilderness Environ Med. 2019;30(4S):S47-S69. doi: 10.1016/j.wem.2019.10.002
+
+2. Musi ME, Sheets A, Zafren K, et al. Clinical staging of accidental hypothermia: The Revised Swiss System: Recommendation of the International Commission for Mountain Emergency Medicine (ICAR MedCom). Resuscitation. 2021;162:182-187. doi:10.1016/j.resuscitation.2021.02.038
+
+Treatment of Hypothermia
+
+Drying and insulation
+
+Fluid resuscitation
+
+Active rewarming unless hypothermia is mild, accidental, and uncomplicated
+
+The first priority is to prevent further heat loss by removing wet clothing and insulating the patient (1). Subsequent measures depend on how severe hypothermia is and whether cardiovascular instability is present. Restoring a normal temperature is less urgent for patients with mild hypothermia than severe hyperthermia. For stable patients, elevating the core temperature by 1° C/hour is acceptable.
+
+During transport or evacuation, the patient should avoid physical effort, be handled gently, and remain horizontal. These measures help minimize hypotension, acidosis, and afterdrop. Afterdrop is the phenomenon in which the core temperature continues to decline during movement or early rewarming as cold peripheral blood returns to the core circulation. Gentle handling also reduces the risk of precipitating ventricular fibrillation.
+
+Fluid resuscitation is essential because patients are typically hypovolemic. Administer 500 mL to 2 L of 0.9% saline solution (20 mL/kg for children) IV; if possible, heat the solution to 40 to 42° C. More fluid is given as needed to maintain perfusion.
+
+Pearls & Pitfalls
+
+With moderate to severe hypothermia, the core temperature must be stabilized before rewarming the extremities to prevent sudden cardiovascular collapse (rewarming collapse) when the peripheral vasculature dilates.
+
+Passive rewarming
+
+In mild hypothermia (temperature 32 to 35° C) with intact thermoregulation (indicated by shivering) (1), wrapping the patient in heated blankets and providing warm fluids to drink are usually adequate.
+
+Active rewarming
+
+Active rewarming is required if patients have any of the following:
+
+Temperature < 32° C
+
+Cardiovascular instability
+
+Hormone insufficiency (such as hypoadrenalism or hypothyroidism)
+
+Hypothermia secondary to trauma
+
+Hypothermia secondary to toxins
+
+Predisposing disorders
+
+For moderate hypothermia (body temperature at the warmer end of the range, 28 to 32° C) (1) , external rewarming with forced hot air enclosures may be used. External heat is best applied to the thorax because warming the extremities may increase metabolic demands on a depressed cardiovascular system.
+
+For severe hypothermia (body temperatures < 28° C) (1), core rewarming is required, particularly for patients with low blood pressure or cardiac arrest.
+
+Core rewarming options include:
+
+Inhalation
+
+IV infusion
+
+Lavage
+
+Extracorporeal core rewarming
+
+Providing heated (40 to 45° C), humidified oxygen via face mask or endotracheal tube eliminates respiratory heat loss and can add 1 to 2° C/hour to the rewarming rate.
+
+IV crystalloids or blood should be heated to 40 to 42° C, especially when massive volume resuscitation is required. Massive volume resuscitation is generally defined as replacement of the equivalent of half of the patient's blood volume within 3 hours, 10 units of packed red blood cells within 24 hours, or blood administration at a rate greater than 150 cc/minute.
+
+Closed thoracic lavage through 2 thoracostomy tubes (see How To Do Tube and Catheter Thoracostomy) is very efficient in severe cases. Peritoneal lavage with dialysate heated to 40 to 45° C, using 2 catheters with outflow suction, is especially useful for patients with severe hypothermia with rhabdomyolysis, toxin ingestion, or electrolyte abnormalities. Heated lavage of the bladder or gastrointestinal tract transfers only minimal heat.
+
+Several types of extracorporeal life support (ECLS) may be options, depending on perfusion status, including hemodialysis, venovenous (V-V) or continuous venoarterial (V-A) extracorporeal membrane oxygenation (ECMO), and cardiopulmonary bypass (CPB). These measures require a prearranged protocol with appropriate specialists. Although intuitively attractive and heroic, such measures are not routinely available or commonly used in many hospitals. ECLS, including ECMO or CPB, should be considered in unstable, severely hypothermic patients, or in patients already in hypothermic cardiac arrest (2, 3, 4). ECMO is preferred over CPB; patients with cardiac arrest demonstrate greater survival with ECMO. Thoracic lavage can still be used in places without access to ECLS (5). Additionally, intravascular catheters can achieve rapid rates of rewarming, typically with better outcomes than surface cooling (6).
+
+Cardiopulmonary resuscitation (CPR)
+
+Hypotension and bradycardia are expected when core temperature is low. If these findings are due solely to hypothermia, they need not be aggressively treated. Instead, the focus should be on active rewarming and close monitoring.
+
+CPR should be started for patients in hypothermic cardiac arrest (2, 7, 8). Intermittent CPR is an option during prolonged transport or evacuation if mechanical CPR devices are not available. For patients with a perfusing rhythm and cardiac activity on ultrasound, CPR should generally be withheld as chest compressions may precipitate ventricular fibrillation.
+
+Patients in or at high risk for hypothermic cardiac arrest should be transported to a location capable of ECLS, when available (2, 7).
+
+Endotracheal intubation after oxygenation, when needed, must be performed gently to avoid precipitating a nonperfusing cardiac arrhythmia.
+
+Successful defibrillation is difficult if body temperature is low; 1 attempt at maximum energy setting for the defibrillator (200 J for biphasic and 360 J for monophasic) may be made but, if ineffective, further attempts are generally deferred until the temperature reaches > 30° C (2).
+
+Advanced cardiac life-support medications (eg, antiarrhythmics, vasopressors, inotropes)may be deferred until the temperature reaches > 30° C (2). Low-dose dopamine (1 to 5 mcg/kg/min) or other catecholamine infusions are typically reserved for patients with disproportionately severe hypotension who do not respond to fluid resuscitation and rewarming (7).
+
+Advanced life support should be continued until the temperature reaches 32° C unless obviously lethal injuries or disorders are present. Severe hyperkalemia (> 12 mEq/L [12 mmol/L]) during resuscitation typically indicates a fatal outcome and can guide decisions to terminate resuscitation efforts (7).
+
+Treatment references
+
+1. Dow J, Giesbrecht GG, Danzl DF, et al. Wilderness Medical Society Clinical Practice Guidelines for the Out-of-Hospital Evaluation and Treatment of Accidental Hypothermia: 2019 Update. Wilderness Environ Med. 2019;30(4S):S47-S69. doi: 10.1016/j.wem.2019.10.002
+
+2. Cao D, Arens AM, Chow SL, et al. Part 10: Adult and Pediatric Special Circumstances of Resuscitation: 2025 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care. Circulation. 2025;152(16_suppl_2):S578-S672. doi:10.1161/CIR.0000000000001380
+
+3. Cools E, Swol J, Wanscher M, et al. ELSO 2025 Narrative Guideline on the Use of ECMO for Accidental Hypothermia. ASAIO J. 2025;71(11):865-874. doi:10.1097/MAT.0000000000002557
+
+4. Paal P, Pasquier M, Darocha T, et al. Accidental Hypothermia: 2021 Update. Int J Environ Res Public Health. 2022;19(1):501. doi:10.3390/ijerph19010501
+
+5. Turtiainen J, Halonen J, Syväoja S, Hakala T. Rewarming a patient with accidental hypothermia and cardiac arrest using thoracic lavage. Ann Thorac Surg. 2014;97(6):2165-2166. doi:10.1016/j.athoracsur.2013.08.028
+
+6. Ramadanov N, Arrich J, Klein R, Herkner H, Behringer W. Intravascular Versus Surface Cooling in Patients Resuscitated From Cardiac Arrest: A Systematic Review and Network Meta-Analysis With Focus on Temperature Feedback. Crit Care Med. 2022;50(6):999-1009. doi:10.1097/CCM.0000000000005463
+
+7. Lott C, Truhlar A, Alfonzo A, et al. European Resuscitation Council Guidelines 2021: Cardiac arrest in special circumstances. Resuscitation. 2021;161:152
+
+8. Soar J, Becker LB, Berg KM, et al. Cardiopulmonary resuscitation in special circumstances. Lancet. 2021;398(10307):1257-1268. doi:10.1016/S0140-6736(21)01257-5
+
+Prognosis for Hypothermia
+
+Prognosis for hypothermia varies with severity. For patients without cardiac arrest (and who receive noninvasive rewarming), prognosis is excellent. For example, one study of patients with severe hypothermia reported a survival rate of 100% (1). Among patients who undergo hypothermic cardiorespiratory arrest and receive extracorporeal life support (ECMO or CPB), reported neurologically intact survival rates are from 42 to 56% (1, 2, 3, 4).
+
+Poor prognostic markers include (5, 6, 7, 8):
+
+Hypotension (systolic blood pressure < 90 mm Hg) or hemodynamic instability
+
+Metabolic acidosis or lactic acidosis
+
+Age ≥ 75 years
+
+Hyperkalemia (serum potassium > 5.6 mEq/L [5.6 mmol/L], with serum potassium > 12 mEq/L [12 mmol/L] considered an indication for nonresuscitation)
+
+Prognosis references
+
+1. Kornberger E, Schwarz B, Lindner KH, Mair P. Forced air surface rewarming in patients with severe accidental hypothermia. Resuscitation. 1999;41(2):105-111. doi:10.1016/s0300-9572(99)00069-6
+
+2. Farstad M, Andersen KS, Koller ME, Grong K, Segadal L, Husby P. Rewarming from accidental hypothermia by extracorporeal circulation. A retrospective study. Eur J Cardiothorac Surg. 2001;20(1):58-64. doi:10.1016/s1010-7940(01)00713-8
+
+3. Silfvast T, Pettilä V. Outcome from severe accidental hypothermia in Southern Finland--a 10-year review. Resuscitation. 2003;59(3):285-290. doi:10.1016/s0300-9572(03)00237-5
+
+4. Walpoth BH, Walpoth-Aslan BN, Mattle HP, et al. Outcome of survivors of accidental deep hypothermia and circulatory arrest treated with extracorporeal blood warming. N Engl J Med. 1997;337(21):1500-1505. doi:10.1056/NEJM199711203372103
+
+5. Brown DJ, Brugger H, Boyd J, Paal P. Accidental hypothermia. N Engl J Med. 2012;367(20):1930-1938. doi:10.1056/NEJMra1114208
+
+6. Mendrala K, Darocha T, Brožek T, et al. Prognostic thresholds of outcome predictors in severe accidental hypothermia. Intern Emerg Med. 2025;20(4):1177-1184. doi:10.1007/s11739-024-03741-1
+
+7. Okada Y, Matsuyama T, Morita S, et al. Prognostic factors for patients with accidental hypothermia: A multi-institutional retrospective cohort study. Am J Emerg Med. 2019;37(4):565-570. doi:10.1016/j.ajem.2018.06.025
+
+8. Walpoth BH, Maeder MB, Courvoisier DS, et al. Hypothermic Cardiac Arrest - Retrospective cohort study from the International Hypothermia Registry. Resuscitation. 2021;167:58-65. doi:10.1016/j.resuscitation.2021.08.016
+
+Key Points
+
+Estimate the severity of hypothermia using clinical findings or a measured core temperature.
+
+For mild hypothermia (32 to 35°C), passive rewarming with heated blankets and warm fluids to drink are usually adequate treatment.
+
+For moderate or severe hypothermia (below approximately 32° C), active rewarming should be performed, typically using forced-air hot air enclosures; heated, humidified oxygen; warm IV fluid; and sometimes heated lavage or extracorporeal methods (eg, cardiopulmonary bypass, hemodialysis).
+
+At lower temperatures, patients are hypovolemic and require fluid resuscitation.
+
+CPR should be performed with caution in hypothermic cardiac arrest.
+
+Patients experiencing or at risk for hypothermic cardiac arrest should be treated at a center capable of extracorporeal life support and rewarming.
+
+Advanced cardiac life-support medications are usually not given until temperature reaches approximately 30° C.

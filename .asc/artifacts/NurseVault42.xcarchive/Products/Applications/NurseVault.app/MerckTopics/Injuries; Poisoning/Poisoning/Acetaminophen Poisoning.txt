@@ -1,0 +1,242 @@
+=== Acetaminophen Poisoning (Merck Manual Professional) ===
+Section: Injuries; Poisoning > Poisoning
+Source: https://www.merckmanuals.com/professional/injuries-poisoning/poisoning/acetaminophen-poisoning
+Retrieved: 2026-09-25
+
+(See also General Principles of Poisoning.)
+
+Acetaminophen (N-acetyl-para-aminophenol or APAP) is contained in > 100 products sold over the counter. Products include many children’s preparations in liquid, tablet, and capsule form and many cough and cold preparations. Many prescription medications also contain acetaminophen. Consequently, acetaminophen overdose is common.
+
+Pathophysiology of Acetaminophen Poisoning
+
+The principal toxic metabolite of acetaminophen, N-acetyl-p-benzoquinone imine (NAPQI), is produced by the hepatic cytochrome P-450 enzyme system; glutathione stores in the liver detoxify this metabolite. An acute overdose depletes glutathione stores in the liver. As a result, NAPQI accumulates, causing hepatocellular necrosis and possibly damage to other organs (eg, kidneys, pancreas).
+
+Theoretically, alcohol-related liver disease or undernutrition could increase risk of toxicity because hepatic enzyme preconditioning may increase formation of NAPQI and because undernutrition (also common among patients with alcohol use disorder) reduces hepatic glutathione stores. However, therapeutic doses of acetaminophen in patients with alcohol use disorder are not associated with hepatic injury.
+
+Acute Acetaminophen Poisoning
+
+To cause toxicity, an acute oral overdose must total ≥ 150 mg/kg (approximately 7.5 to 10 g in adults) within 24 hours.
+
+IV acetaminophen
+
+An IV formulation of acetaminophen that is designed for use in hospitals and in patients > 2 years of age has been associated with several hundred reports of overdoses, including several dozen fatalities, several in children. Most of these adverse events were the result of dosing errors because the medication is dosed in milligrams but dispensed in milliliters (1). Because these overdoses are iatrogenic, reliable information regarding time and total dose is available. The Rumack-Matthew nomogram should thus be used with success to predict toxicity, although it has not been validated (2). Overdoses < 150 mg/kg are unlikely to result in toxicity, but the data are unclear, and some toxicologists recommend treatment with N-acetylcysteine for overdoses > 60 mg/kg (3). Definitive treatment of IV acetaminophen overdose has not been determined, and consultation with a toxicologist or a poison control center is recommended.
+
+Pathophysiology references
+
+1. Injectable paracetamol in children: yet more cases of 10-fold overdose. Prescrire Int. 2013;22(135):44-45.
+
+2. Dart RC, Mullins ME, Matoushek T, et al. Management of Acetaminophen Poisoning in the US and Canada: A Consensus Statement [published correction appears in JAMA Netw Open. 2023 Sep 5;6(9):e2337926. doi: 10.1001/jamanetworkopen.2023.37926]. JAMA Netw Open. 2023;6(8):e2327739. Published 2023 Aug 1. doi:10.1001/jamanetworkopen.2023.27739
+
+3. Gray T, Hoffman RS, Bateman DN. Intravenous paracetamol--an international perspective of toxicity. Clin Toxicol (Phila). 2011;49(3):150-152. doi:10.3109/15563650.2011.568491
+
+Symptoms and Signs of Acetaminophen Poisoning
+
+Mild poisoning may not cause symptoms, and when present, symptoms of acute acetaminophen poisoning are usually minor until ≥ 48 hours after ingestion. Symptoms, which occur in 4 stages (see table Stages of Acute Acetaminophen Poisoning), include anorexia, nausea, vomiting, and right upper quadrant abdominal pain. Renal failure and pancreatitis may occur, occasionally without liver failure. After > 5 days, hepatotoxicity resolves or progresses to multiple organ failure, which can be fatal.
+
+Table
+
+Stages of Acute Acetaminophen Poisoning
+
+Table
+
+Stages of Acute Acetaminophen Poisoning
+
+Stages of Acute <span class="genericDrug" data-showrollover="false">Acetaminophen</span> Poisoning
+
+Stage
+
+Time Postingestion
+
+Description
+
+I
+
+0–24 hours
+
+Anorexia, nausea, vomiting
+
+II
+
+24–72 hours
+
+Right upper quadrant abdominal pain (common)
+
+AST, ALT, and, if poisoning is severe, bilirubin and PT (usually reported as the INR) sometimes elevated
+
+III
+
+72–96 hours
+
+Vomiting and symptoms of liver failure
+
+Peaking of AST, ALT, bilirubin, and INR
+
+Sometimes renal failure and pancreatitis
+
+IV
+
+> 5 days
+
+Resolution of hepatotoxicity or progression to multiple organ failure (sometimes fatal)
+
+ALT = alanine aminotransferase; AST = aspartate aminotransferase; INR = international normalized ratio; PT = prothrombin time.
+
+ALT = alanine aminotransferase; AST = aspartate aminotransferase; INR = international normalized ratio; PT = prothrombin time.
+
+Diagnosis of Acetaminophen Poisoning
+
+Serum acetaminophen levels
+
+Rumack-Matthew nomogram
+
+Serum aspartate aminotransferase (AST) and alanine aminotransferase (ALT) levels
+
+Acetaminophen overdose should be considered in all patients with intentional ingestions of substances that are possible suicide attempts. It should also be considered in patients with unintentional ingestions of medications because many over the counter formulations and some prescription medications contain acetaminophen and the patient or caregiver may not realize that a medication contains acetaminophen. Considering acetaminophen toxicity in any patient with a possible overdose of medications is clinically important because acetaminophen often causes minimal symptoms during the early stages and is potentially lethal but treatable.
+
+Pearls & Pitfalls
+
+Consider occult acetaminophen toxicity in all patients who have ingestions.
+
+Likelihood and severity of hepatotoxicity caused by an acute ingestion can be predicted by the amount ingested or, more accurately, by the serum acetaminophen level. If the time of acute ingestion is known, the Rumack-Matthew nomogram is used to estimate likelihood of hepatotoxicity; if the time of acute ingestion is unknown, the nomogram cannot be used. For a single acute overdose of traditional acetaminophen or rapid-relief acetaminophen (which is absorbed 7 to 8 minutes faster), levels are measured ≥ 4 hours after ingestion and plotted on the nomogram. A level ≤ 150 mcg/mL (≤ 990 micromol/L) and absence of toxic symptoms indicate that hepatotoxicity is very unlikely. Higher levels indicate possible hepatotoxicity. For a single acute overdose with extended-relief acetaminophen (which has 2 peak serum levels approximately 4 hours apart), acetaminophen levels are measured ≥ 4 hours after ingestion and 4 hours later; if either level is above the Rumack-Matthew line of toxicity, treatment is required.
+
+If the exact time of a single ingestion cannot be confirmed, the worst case is assumed for risk determination. That is, the earliest possible time of ingestion is estimated and then plotted on the Rumack-Matthew nomogram. For example, if a patient states the overdose was taken between 6 and 9 PM, then 6 PM is used as the time of ingestion (worst case). Similarly, if a child lives in a home that has no acetaminophen products but for the previous 24 hours was visiting a relative whose home did have such products, then an acetaminophen level drawn at presentation would be interpreted as a 24-hour level. In practice, worst-case estimates are often difficult to make.
+
+Rumack-Matthew Nomogram for Single Acute Acetaminophen Ingestions
+
+Semilogarithmic plot of plasma acetaminophen levels vs time. Cautions for use of this nomogram:
+
+The time coordinates refer to time after ingestion.
+
+Serum levels drawn before 4 hours may not represent peak levels.
+
+The graph should be used only in relation to a single acute ingestion.
+
+The lower solid line 25% below the standard nomogram is included to allow for possible errors in acetaminophen plasma assays and estimated time from ingestion of an overdose.
+
+Adapted from Rumack BH, Matthew H: Acetaminophen poisoning and toxicity. Pediatrics 55(6): 871–876, 1975; reproduced by permission of Pediatrics.
+
+If poisoning is confirmed or strongly suspected or if the time of ingestion is unclear or unknown, additional testing is indicated. Liver tests are done and, in suspected severe poisoning, prothrombin time is measured. Aspartate aminotransferase (AST) and alanine aminotransferase (ALT) results correlate with the stage of poisoning (see table Stages of Acute Acetaminophen Poisoning). If poisoning is severe, bilirubin and international normalized ratio may be elevated.
+
+Low-level transaminase elevations (eg, up to 2 or 3 times the upper limit of normal) may occur in adults taking therapeutic doses of acetaminophen for days or weeks. These elevations appear to be transient, usually resolve or decrease within a few days (even with continued acetaminophen use), are usually clinically asymptomatic, and are probably insignificant (1).
+
+Acetaminophen/cysteine protein adducts are biomarkers developed and marketed as indicators of acetaminophen-induced hepatotoxicity. Although the biomarkers may indicate exposure to acetaminophen, they do not conclusively indicate acetaminophen-induced hepatotoxicity (2). Other biomarkers such as microRNA, high-mobility group box-1 (HMGB-1), and keratin-18 are under investigation but are not standard diagnostic tools (3).
+
+Clinical Calculators
+
+Acetaminophen (Paracetamol) Toxicity Assessment (Revised 2023)
+
+Diagnosis references
+
+1. Heard K, Green JL, Anderson V, Bucher-Bartelson B, Dart RC. A randomized, placebo-controlled trial to determine the course of aminotransferase elevation during prolonged acetaminophen administration. BMC Pharmacol Toxicol. 2014;15:39. Published 2014 Jul 22. doi:10.1186/2050-6511-15-39
+
+2. Heard KJ, Green JL, James LP, et al. Acetaminophen-cysteine adducts during therapeutic dosing and following overdose. BMC Gastroenterol. 2011;11:20. Published 2011 Mar 14. doi:10.1186/1471-230X-11-20
+
+3. Antoine DJ, Dear JW, Lewis PS, et al. Mechanistic biomarkers provide early and sensitive detection of acetaminophen-induced acute liver injury at first presentation to hospital. Hepatology. 2013;58(2):777-787. doi:10.1002/hep.26294
+
+Treatment of Acetaminophen Poisoning
+
+Oral or IV N-acetylcysteine
+
+Possibly activated charcoal
+
+Activated charcoal may be given if acetaminophen is likely to still remain in the gastrointestinal (GI) tract.
+
+N-acetylcysteine is an antidote for acetaminophen poisoning. This medication is a glutathione precursor that decreases acetaminophen toxicity by increasing hepatic glutathione stores and possibly via other mechanisms. It helps prevent hepatic toxicity by inactivating the toxic acetaminophen metabolite NAPQI (N-acetyl-p-benzoquinone imine) before it can injure liver cells. However, it does not reverse damage to liver cells that has already occurred.
+
+For acute poisoning, N-acetylcysteine is given if hepatotoxicity is likely based on acetaminophen dose or serum level. The medication is most effective if given within 8 hours of acetaminophen ingestion. After 24 hours, the benefit of the antidote is questionable, but it should still be given. If degree of toxicity is uncertain, -acetylcysteine should be given until toxicity is ruled out.
+
+N-acetylcysteine is equally effective given IV or orally. IV therapy is given as a continuous infusion. A loading dose of 150 mg/kg in 200 mL of 5% D/W given over 15 minutes is followed by maintenance doses of 50 mg/kg in 500 mL of 5% D/W given over 4 hours, then 100 mg/kg in 1000 mL of 5% D/W given over 16 hours. For children, dosing may need to be adjusted to decrease the total volume of fluid delivered; consultation with a poison control center is recommended.
+
+The oral loading dose of N-acetylcysteine is 140 mg/kg. This dose is followed by 17 additional doses of 70 mg/kg every 4 hours. Oral acetylcysteine is unpalatable; it is given diluted 1:4 in a carbonated beverage or fruit juice and may still cause vomiting. If vomiting occurs, an antiemetic can be used; if vomiting occurs within 1 hour of a dose, the dose is repeated. However, vomiting may be protracted and may limit oral use. Allergic reactions are unusual but have occurred with oral and IV use.
+
+N-acetylcysteine is continued until the following criteria are met (1):
+
+Serum acetaminophen concentration < 10mcg/mL
+
+INR < 2.0; ALT and AST normal (or baseline) or have decreased by 50% from peak
+
+Patient is clinically well
+
+Fomepizole (4-methylpyrazole) has been shown to decrease the formation of oxidative metabolites after supratherapeutic ingestion and may have a role in treatment of acetaminophen overdose, although the data is not entirely clear (2).
+
+Liver failure is treated supportively. Patients with fulminant liver failure may require liver transplantation.
+
+In massive acetaminophen overdose, patients who ingest > 50 grams of acetaminophen may present with severe metabolic acidosis, lethargy, coma, and hyperglycemia within 4 hours of ingestion. The exact mechanism is unclear. Case reports describe successful treatment with continuous infusion of N-acetylcysteine until no acetaminophen is detected in serum. Successful treatment of massive ingestion of acetaminophen has been reported with intermittent hemodialysis and continuous venovenous hemodialysis. Serum acetaminophen concentration ≥ 900 mcg/mL and altered mental status or metabolic acidosis should prompt consideration for hemodialysis in addition to acetylcysteine (1). Consultation with a poison control center or toxicologist is recommended.
+
+Treatment references
+
+1. Dart RC, Mullins ME, Matoushek T, et al. Management of Acetaminophen Poisoning in the US and Canada: A Consensus Statement [published correction appears in JAMA Netw Open. 2023 Sep 5;6(9):e2337926. doi: 10.1001/jamanetworkopen.2023.37926]. JAMA Netw Open. 2023;6(8):e2327739. Published 2023 Aug 1. doi:10.1001/jamanetworkopen.2023.27739
+
+2. Kang AM, Padilla-Jones A, Fisher ES, et al. The Effect of 4-Methylpyrazole on Oxidative Metabolism of Acetaminophen in Human Volunteers. J Med Toxicol. 2020;16(2):169-176. doi:10.1007/s13181-019-00740-z
+
+Prognosis for Acetaminophen Poisoning
+
+With appropriate treatment, the risk of mortality is low.
+
+Poor prognostic indicators at 24 to 48 hours post-ingestion include all of the following:
+
+Arterial pH < 7.3 after adequate resuscitation
+
+Blood lactate level > 31.5 mg/dL (3.5 mmol/L) after initial fluid resuscitation (< 4 hours) OR > 27 mg/dL (> 3 mmol/L) after full fluid resuscitation (12 hours) (1)
+
+International normalized ratio (INR) > 6.5
+
+Serum creatinine > 3.4 mg/dL (0.3 mmol/L)
+
+Hepatic encephalopathy grade III (confusion and somnolence) or grade IV (stupor and coma)
+
+Hypoglycemia (2)
+
+Thrombocytopenia
+
+Acute acetaminophen toxicity does not predispose patients to cirrhosis.
+
+Prognosis references
+
+1. Bernal W, Donaldson N, Wyncoll D, Wendon J. Blood lactate as an early predictor of outcome in paracetamol-induced acute liver failure: a cohort study. Lancet. 2002;359(9306):558-563. doi:10.1016/S0140-6736(02)07743-7
+
+2. Levine M, Stellpflug SJ, Pizon AF, et al. Hypoglycemia and lactic acidosis outperform King's College criteria for predicting death or transplant in acetaminophen toxic patients. Clin Toxicol (Phila). 2018;56(7):622-625. doi:10.1080/15563650.2017.1420193
+
+Key Points
+
+Because acetaminophen is ubiquitous and initially asymptomatic and treatable in overdose, consider toxicity in all possibly poisoned patients.
+
+Use the Rumack-Matthew nomogram when time of ingestion is known to predict risk of hepatotoxicity based on serum acetaminophen levels.
+
+If hepatotoxicity is likely, give oral or IV N-acetylcysteine.
+
+If acetaminophen is still probably in the gastrointestinal tract, give activated charcoal.
+
+If degree of toxicity is uncertain, begin IV or oral -acetylcysteine until more conclusive definitive information is available.
+
+Chronic Acetaminophen Poisoning
+
+Chronic excessive use or repeated overdoses cause hepatotoxicity in a few patients. Usually, chronic overdose is not an attempt at self-injury but instead results from taking inappropriately high doses to treat pain. Symptoms may be absent or may include any of those symptoms that occur with acute overdose.
+
+Diagnosis
+
+Aspartate aminotransferase (AST), alanine aminotransferase (ALT), and serum acetaminophen levels
+
+The Rumack-Matthew nomogram cannot be used, but likelihood of clinically significant hepatotoxicity can be estimated based on AST, ALT, and serum acetaminophen levels.
+
+If AST and ALT levels are normal (< 50 IU/L [0.83 microkat/L]), and the acetaminophen level is < 10 mcg/mL (< 66 micromol/L), significant hepatotoxicity is very unlikely.
+
+If AST and ALT levels are normal but the acetaminophen level is ≥ 10 mcg/mL (≥ 66 micromol/L), significant hepatotoxicity is possible; AST and ALT levels are remeasured after 24 hours. If repeat AST and ALT levels are normal, significant hepatotoxicity is unlikely; if the levels are high, significant hepatotoxicity is assumed.
+
+If initial AST and ALT levels are high, regardless of the acetaminophen level, significant hepatotoxicity is assumed.
+
+Treatment
+
+Sometimes N-acetylcysteine
+
+The role of N-acetylcysteine in treatment of chronic acetaminophen toxicity (or in the presence of established acute hepatotoxicity) is unclear. Theoretically, the antidote may have some benefit if given > 24 hours after an ingestion if residual (unmetabolized) acetaminophen is present. The following approach has not been proved effective but may be used (1):
+
+If hepatotoxicity is possible (if aspartate aminotransferase (AST) and alanine aminotransferase (ALT) levels are normal and acetaminophen level is initially elevated), N-acetylcysteine is given 140 mg/kg orally loading dose and 70 mg/kg orally every 4 hours for the first 24 hours. If oral dosing is not tolerated, intravenous treatment may be necessary. If repeat AST and ALT levels (after 24 hours) are normal, N-acetylcysteine is stopped; if repeat levels are high, they are remeasured daily, and-acetylcysteine is continued until levels are normal.
+
+If hepatotoxicity is likely (especially if initial AST and ALT levels are high), a full course of -acetylcysteine is given (ie, loading dose as above, then 70 mg/kg every 4 hours for 17 doses).
+
+Prognostic factors are similar to those in acute acetaminophen poisoning.
+
+Treatment reference
+
+1. Gravel J, Grandjean-Blanchet C, Demean-Loghin A, Noyon B, Ostrow O, Vallières É. Validation of the Hospital for Sick Children Algorithm for Discriminating Bacteremia From Contaminants in Children With a Preliminary Positive Blood Culture. Ann Emerg Med. 2024;84(5):490-499. doi:10.1016/j.annemergmed.2024.05.005

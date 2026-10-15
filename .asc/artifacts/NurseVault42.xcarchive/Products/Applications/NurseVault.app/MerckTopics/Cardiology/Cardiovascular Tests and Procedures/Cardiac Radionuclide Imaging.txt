@@ -1,0 +1,228 @@
+=== Cardiac Radionuclide Imaging (Merck Manual Professional) ===
+Section: Cardiology > Cardiovascular Tests and Procedures
+Source: https://www.merckmanuals.com/professional/cardiovascular-disorders/cardiovascular-tests-and-procedures/cardiac-radionuclide-imaging
+Retrieved: 2026-09-25
+
+Radionuclide imaging tests use a special detector (gamma camera) to create an image following injection of radioactive material. This tests are performed to evaluate:
+
+Cardiac valvular disorders
+
+Cardiomyopathy
+
+Congenital cardiac disorders
+
+Coronary artery disease (CAD)
+
+Other cardiac disorders
+
+Radionuclide imaging can expose patients to amounts of radiation that are comparable to those of computed tomography (CT) studies. However, because the radioactive material is retained in the patient briefly, sophisticated radiation alarms (eg, in airports) may be triggered by the patient for several days after such testing.
+
+Modes of Cardiac Radionuclide Imaging
+
+Cardiac radionuclide imaging can be performed via:
+
+Single-Photon Emission Computed Tomography (SPECT)
+
+Positron Emission Tomography (PET)
+
+Single-Photon Emission Computed Tomography (SPECT)
+
+SPECT in Recent-Onset Angina
+
+Image
+
+Stress and rest images from single-photon emission computed tomography (SPECT) of a 52-year-old man with recent-onset angina. Images obtained during stress (rows of images or polar maps denoted Str or Stress) show a large area of ischemia in the territory fed by the left anterior descending (LAD) artery that is absent at rest (rows of images or polar maps denoted Rst or Rest). Angiography confirmed a 95 to 99% occlusion involving the bifurcation of the LAD at the first diagonal branch. The stress images show less uptake (more purple or dull) than the bright areas at rest.
+
+Image provided by James R. Corbett, MD.
+
+SPECT detects gamma rays emitted by radionuclides (thallium-201 and Ttchnitium-99m) to evaluate myocardial perfusion at rest and under stress. SPECT typically uses a rotating camera system and tomographic reconstruction to produce a 3-dimensional image. With multihead SPECT systems, imaging can often be completed in ≤ 10 minutes. Visual comparison of stress and delayed images can be supplemented by quantitative displays. With SPECT, the following can be identified:
+
+Regional (including inferior and posterior) abnormalities
+
+Small areas of infarction
+
+Vessels responsible for infarction
+
+The mass of infarcted and viable myocardium can be quantified, helping determine prognosis.
+
+Protocols and imaging agents
+
+Table
+
+Technetium-99m (Tc-99) Myocardial Perfusion Markers
+
+Table
+
+Technetium-99m (Tc-99) Myocardial Perfusion Markers
+
+Technetium-99m (Tc-99) Myocardial Perfusion Markers
+
+Marker
+
+Characteristics
+
+Tc-99m sestamibi
+
+Myocardial uptake is slower than that with thallium, but there is little myocardial washout, allowing timing flexibility; patients with acute symptoms can be injected with sestamibi immediately and imaged several hours later.
+
+Uptake depends more on blood flow than on viable myocardium; viable regions with low blood flow may be misclassified as scar.
+
+Studies may be performed on a single or on separate days, with a low initial dose during stress followed by a much higher dose at rest.
+
+With electrocardiography (ECG)-gated imaging, ventricular wall motion, wall thickening, and ejection fraction can be estimated.
+
+Tc-99m tetrofosmin
+
+Characteristics are similar to those of sestamibi.
+
+Tc-99m teboroxime
+
+First-pass extraction from the myocardium is high, with rapid washout; half of peak myocardial activity is gone by 10 minutes.
+
+Because of its rapid dynamics, use with treadmill exercise is difficult.
+
+Studies suggest that stress-redistribution testing may be completed within 15 minutes of pharmacologic stress. Coronary artery disease may be detectable by analyzing myocardial washout of the tracer after injection at rest without the need for stress.
+
+Radioactive thallium-201 (Tl-201), which acts as a potassium analog, was the original tracer used in stress testing. It is injected at peak stress and imaged with SPECT, followed 4 hours later by injection of half the original dose during rest and by repeat SPECT. The goal of this protocol is to evaluate reversible perfusion defects that may warrant intervention. After stress testing, the perfusion imbalance between normal coronary arteries and those distal to a stenosis appears as a relative decrease in Tl-201 uptake in the areas perfused by the stenosed arteries. Sensitivity of stress testing with Tl-201 for coronary artery disease is similar whether imaging is performed after exercise stress or pharmacologic stress (1).
+
+Several technetium-99m (Tc-99m) myocardial perfusion markers have been developed because the imaging characteristics of Tl-201 are not ideal for the gamma camera. Markers include sestamibi (commonly used), tetrofosmin, and teboroxime (see table Technetium-99m Myocardial Perfusion Markers). Protocols vary, including 1-day protocols where th resting and stress portions are performed on the same day, and 2-day protocols, in which they are performed on successive days. Some protocols use dual isotopes (Tl-201 and Tc-99m), which reduces total testing time, although this approach is expensive.
+
+For 2-day protocols, imaging at rest may be omitted if the initial stress test shows no evidence of abnormal perfusion. When higher doses of Tc-99m (> 30 millicurie) are used, first-transit function studies (with ventriculography) may be used with perfusion imaging.
+
+Tc-99m is generally preferred over TI-201 for SPECT imaging except for studies focusing on myocardial viability (2).
+
+SPECT references
+
+1. Gupta NC, Esterbrooks DJ, Hilleman DE, Mohiuddin SM. Comparison of adenosine and exercise thallium-201 single-photon emission computed tomography (SPECT) myocardial perfusion imaging. The GE SPECT Multicenter Adenosine Study Group. J Am Coll Cardiol. 1992;19(2):248-257. doi:10.1016/0735-1097(92)90474-2
+
+2. Writing Committee Members, Hirshfeld JW Jr, Ferrari VA, et al. 2018 ACC/HRS/NASCI/SCAI/SCCT Expert Consensus Document on Optimal Use of Ionizing Radiation in Cardiovascular Imaging-Best Practices for Safety and Effectiveness, Part 1: Radiation Physics and Radiation Biology: A Report of the American College of Cardiology Task Force on Expert Consensus Decision Pathways Developed in Collaboration With Mended Hearts. Catheter Cardiovasc Interv. 2018;92(2):203-221. doi:10.1002/ccd.27660
+
+Positron Emission Tomography (PET)
+
+In PET, a positron-emitting radioactive tracer is injected into the patient, and, standard CT scanning is used to show the location of tissue where the tracer is taken up and positrons emitted. Depending on the tracer used, PET can evaluate perfusion or cellular metabolism.
+
+Perfusion agents are radioactive nuclides that are used to trace the amount of blood flow entering a specific region and are therefore useful in unmasking myocardial perfusion deficits not evident at rest. They include carbon-11 (C-11) carbon dioxide, oxygen-15 (O-15) water, nitrogen-13 (N-13) ammonia, fluorine-18 (F-18) flurpiridaz, and rubidium-82 (Rb-82). Only Rb-82 does not require an on-site cyclotron.
+
+Metabolic agents are radioactive analogs of normal biologic substances that are taken up and metabolized by cells. They include:
+
+F-18–labeled deoxyglucose (F-18 FDG)
+
+C-11 acetate
+
+Fluorine-18 fluorodeoxyglucose (F-18 FDG) detects the enhancement of glucose metabolism under ischemic conditions, and can thus distinguish ischemic but still viable myocardium from scar tissue. Sensitivity is greater than with technetium-99m myocardial perfusion imaging (used in SPECT), possibly making FDG imaging useful for selecting patients for revascularization and for avoiding such procedures when only scar tissue is present. This use may justify the greater expense of PET relative to SPECT. FDG has also been used to detect inflammatory cardiovascular disorders (eg, infected pacemaker wires, aortic vasculitis, cardiac sarcoidosis).
+
+Carbon-11 acetate uptake appears to reflect overall oxygen metabolism by myocytes. Uptake does not depend on such potentially variable factors as blood glucose levels, which can affect FDG distribution. C-11 acetate imaging may better predict postintervention recovery of myocardial function than FDG imaging. However, because of its 20-minute half-life, C-11 must be produced by an on-site cyclotron.
+
+PET with CT (PET-CT) is considered the gold standard for assessing myocardial viability, when available, compared with SPECT (1). PET is also considered an important imaging technique, in conjunction with cardiac MRI, in diagnosing cardiac sarcoidosis (2).
+
+FDG-PET Showing Stunned Myocardium
+
+Image
+
+Decreased myocardial perfusion of the interventricular septum (green arrows), inferior (red arrows) and apical (blue arrow) walls at rest (left) in the setting of intact fluorine-18–labeled deoxyglucose (FDG) uptake on viability PET-CT scan (right). This is consistent with hibernating myocardium (yellow arrow), which is currently underperfused and has reduced metabolic demand to match supply but is viable and may recover over time.
+
+© 2017 Elliot K. Fishman, MD.
+
+FDG PET-CT Scan in Dilated Cardiomyopathy
+
+Image
+
+This scan shows sequences of combined computed tomography (CT) and positron emission tomography (PET) scans of a heart with dilated cardiomyopathy.
+
+The sequences are short-axis from apex to base (upper), vertical long-axis from septum to lateral wall (middle), and horizontal long-axis from inferior to anterior (lower) views. The order of each sequence runs across from upper left to lower right. The PET scan used here uses F-18 FDG. Here, there is reduced FDG uptake in portions of the myocardium.
+
+CENTRE JEAN-PERRIN/SCIENCE PHOTO LIBRARY
+
+PET references
+
+1. Knott JD, Kronzer E, Anavekar N, Chareonthaitawee P, Askew JW. Radionuclide imaging techniques for assessing myocardial viability: Clinical applications, evidence, and future directions. Prog Cardiovasc Dis. 2025;93:51-59. doi:10.1016/j.pcad.2025.08.005
+
+2. Cheng RK, Kittleson MM, Beavers CJ, et al. Diagnosis and Management of Cardiac Sarcoidosis: A Scientific Statement From the American Heart Association. Circulation. 2024;149(21):e1197-e1216. doi:10.1161/CIR.0000000000001240
+
+Functional Applications of Cardiac Radionuclide Imaging
+
+Cardiac radionuclide imaging can be used for:
+
+Myocardial perfusion imaging
+
+Infarct avid and cardiac infiltration imaging
+
+Right and left ventriculography
+
+Valve assessment
+
+Myocardial Perfusion Imaging
+
+In myocardial perfusion imaging, IV radionuclides are taken up by cardiac tissues in rough proportion to perfusion; thus, areas of decreased uptake represent areas of relative or absolute ischemia. Both SPECT and PET are used for this purpose.
+
+Attenuation of myocardial activity by overlying soft tissue may cause false-positive results. Attenuation by breast tissue in women is especially common. Attenuation by the diaphragm and abdominal contents may produce spurious inferior wall defects in both sexes but is more common among men, whereas attenuation due to breast tissue is more common in women (1). Attenuation is more likely with technetium-99m (99mTc) than with radioactive thallium 201 (Tl-201).
+
+Indications
+
+Myocardial perfusion imaging is used with stress testing to:
+
+Evaluate patients with chest pain of uncertain origin (after initial electrocardiographic and biomarker-based evaluation for acute coronary syndrome) (2)
+
+Determine the functional significance of coronary artery stenosis seen on angiography
+
+Determine the functional significance of collateral vessels seen on angiography
+
+Evaluate the success of reperfusion interventions (eg, coronary artery bypass grafting [CABG], percutaneous intervention, thrombolysis)
+
+Estimate prognosis after myocardial infarction (3)
+
+Nuclear Medicine Stress Test
+
+Image
+
+This composite set of images demonstrates a normal nuclear medicine stress test. Image rows or polar maps denoted Rst or RS are obtained before stress, and those denoted Str or ST are obtained during stress. There are no areas of decreased radionuclide uptake. There is similar uptake at rest and stress.
+
+LIVING ART ENTERPRISES/SCIENCE PHOTO LIBRARY
+
+After acute myocardial infarction, myocardial perfusion imaging can help estimate prognosis because it can show extent of the perfusion abnormality due to acute myocardial infarction, extent of scarring due to previous infarcts, and residual peri-infarct or other areas of reversible ischemia (4, 5).
+
+While SPECT is more widely available and less expensive, PET with CT (PET-CT) is considered the gold standard for assessing myocardial viability (6).
+
+Myocardial perfusion imaging references
+
+1. Abbott BG, Case JA, Dorbala S, et al. Contemporary Cardiac SPECT Imaging-Innovations and Best Practices: An Information Statement from the American Society of Nuclear Cardiology. Circ Cardiovasc Imaging. 2018;11(9):e000020. doi:10.1161/HCI.0000000000000020
+
+2. Gulati M, Levy PD, Mukherjee D, et al. 2021 AHA/ACC/ASE/CHEST/SAEM/SCCT/SCMR Guideline for the Evaluation and Diagnosis of Chest Pain: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2021;144(22):e368-e454. doi:10.1161/CIR.0000000000001029
+
+3. Hoek R, van Diemen PA, Somsen YBO, et al. Myocardial perfusion imaging in advanced coronary artery disease. Eur J Clin Invest. 2025;55(7):e70024. doi:10.1111/eci.70024
+
+4. Huang JY, Huang CK, Ko CL, Chien KL, Wu YW. Myocardial Perfusion Imaging and Revascularization Predict Long-term All-cause Mortality in Patients with Suspected CAD. Acad Radiol. 2025;32(12):7166-7176. doi:10.1016/j.acra.2025.08.046
+
+5. Smit JM, Hermans MP, Dimitriu-Leen AC, et al. Long-term prognostic value of single-photon emission computed tomography myocardial perfusion imaging after primary PCI for STEMI. Eur Heart J Cardiovasc Imaging. 2018;19(11):1287-1293. doi:10.1093/ehjci/jex332
+
+6. Knott JD, Kronzer E, Anavekar N, Chareonthaitawee P, Askew JW. Radionuclide imaging techniques for assessing myocardial viability: Clinical applications, evidence, and future directions. Prog Cardiovasc Dis. 2025;93:51-59. doi:10.1016/j.pcad.2025.08.005
+
+Infarct Avid, Cardiac Infiltration, and Other Myocardial Imaging
+
+Infarct avid imaging uses radiolabeled markers such as Tc-99m pyrophosphate and antimyosin (indium-111 [In-111]–labeled antibodies to cardiac myosin) that accumulate in areas of damaged myocardium. Images usually become positive 12 to 24 hours after acute myocardial infarction and remain positive for approximately 1 week; they may remain positive if myocardial necrosis continues post-myocardial infarction or if aneurysms develop. This technique is rarely used because other diagnostic tests for myocardial infarction (eg, biomarkers) are more readily available and less expensive and because it provides no prognostic information other than infarct size.
+
+Tc-99m pyrophosphate is used similarly to evaluate cardiac infiltration in transthyretin amyloidosis (a type of amyloidosis in which sheets of misfolded transthyretin protein can accumulate in tissues, including the heart). Transthyretin amyloid deposits in the myocardium are particularly avid for Tc-99m pyrophosphate. Absent serum and urine manifestations of a light chain amyloidosis (which also can infiltrate the myocardium and result in a positive scan) or a recent infarct, a high ratio of uptake in the myocardium is specific for transthyretin cardiac amyloidosis and can eliminate the need for myocardial biopsy.
+
+Other radionuclides include iodine-123 (I-123)–labeled fatty acids, which produces cold spots where myocardium is ischemic; gallium citrate-67, which accumulates in sites of active inflammation (eg, in acute inflammatory cardiomyopathy); and I-123 metaiodobenzylguanidine, a neurotransmitter analog taken up and stored in neurons of the sympathetic nervous system and used in research to evaluate heart failure, diabetes, pheochromocytoma, certain arrhythmias, and arrhythmogenic right ventricular dysplasia.
+
+Radionuclide Ventriculography
+
+Radionuclide ventriculography is used to evaluate ventricular function. It is useful for measuring resting and exercise ejection fraction in coronary artery disease, valvular heart disease, and congenital heart disease. Some clinicians prefer it for serial assessment of ventricular function in patients taking cardiotoxic cancer chemotherapy (eg, anthracyclines). However, radionuclide ventriculography has been largely replaced by echocardiography, which is less expensive, does not require radiation exposure, and theoretically can measure ejection fractions as accurately.
+
+Tc-99m–labeled red blood cells are injected intravenously. Left ventricular (LV) and right ventricular (RV) function can be evaluated by:
+
+First-transit studies (a type of beat-to-beat evaluation)
+
+Gated (electrocardiography [ECG]-synchronized) blood pool imaging performed over several minutes (multiple-gated acquisition [MUGA])
+
+Either study can be performed during rest or after exercise. First-transit studies are rapid and relatively easy, but MUGA provides better images and is more widely used.
+
+In first-transit studies, 8 to 10 cardiac cycles are imaged as the marker mixes with blood and passes through the central circulation. First-transit studies are ideal for assessing RV function and intracardiac shunts.
+
+In MUGA, imaging is synchronized with the R wave of the ECG. Multiple images are taken of short, sequential portions of each cardiac cycle for 5 to 10 minutes. Computer analysis generates an average blood pool configuration for each portion of the cardiac cycle and synthesizes the configurations into a continuous cinematic loop resembling a beating heart. MUGA has been used for left and right ventricular functional assessment in patients with coronary artery disease and/or myocardial infarction, valvular heart disorders, and in cardio-oncology. MUGA has largely been supplanted by echocardiography, cardiac MRI, and other imaging modalities, with few indications except when other imaging is contraindicated or unavailable (1, 2).
+
+Radionuclide ventriculography references
+
+1. Addison D, Neilan TG, Barac A, et al. Cardiovascular Imaging in Contemporary Cardio-Oncology: A Scientific Statement From the American Heart Association. Circulation. 2023;148(16):1271-1286. doi:10.1161/CIR.0000000000001174
+
+2. Writing Group Members, Doherty JU, Kort S, et al. ACC/AATS/AHA/ASE/ASNC/HRS/SCAI/SCCT/SCMR/STS 2019 appropriate use criteria for multimodality imaging in the assessment of cardiac structure and function in nonvalvular heart disease: A report of the American College of Cardiology Appropriate Use Criteria Task Force, American Association for Thoracic Surgery, American Heart Association, American Society of Echocardiography, American Society of Nuclear Cardiology, Heart Rhythm Society, Society for Cardiovascular Angiography and Interventions, Society of Cardiovascular Computed Tomography, Society for Cardiovascular Magnetic Resonance, and the Society of Thoracic Surgeons. J Thorac Cardiovasc Surg. 2019;157(4):e153-e182. doi:10.1016/j.jtcvs.2018.12.061

@@ -1,0 +1,971 @@
+=== Bendamustine (Merck Manual Professional) ===
+Source: https://www.merckmanuals.com/professional/drug-names-generic-and-brand (productid 3591)
+Retrieved: 2026-09-25
+NURSING QUICK-REFERENCE SUMMARY
+Auto-generated on 2026-09-25 from the prescribing information in this file; full details follow below.
+
+Drug Class: Bendamustine is a mechlorethamine-derivative alkylating agent.
+
+Routes: injection (IV/IM/SC); Common adult doses: 120 mg/m2 IV.
+
+Common Side Effects (excluding routine GI upset): candidiasis, hepatitis, infection, pharyngitis, sinusitis, anemia, hemolysis, leukopenia, lymphopenia, neutropenia, pancytopenia, thrombocytopenia, anaphylactoid reactions, chills, fever, infusion-related reactions, pruritus, gastroesophageal reflux, hyperuricemia, renal failure, tumor lysis syndrome (tls), atrial fibrillation, chest pain (unspecified), heart failure, hypertension, hypertensive crisis, hypotension, myocardial infarction, palpitations, peripheral edema
+
+In an Overdose: No overdose/antidote information is listed in this file.
+
+Key Nursing Considerations: Contraindications/precautions: No formal studies have been performed to assess the impact of renal impairment on the pharmacokinetics of bendamustine. In vitro data indicate that 90% of drug is recovered unchanged, primarily in the feces. Emetic risk: Moderate Extravasation risk: Vesicant Hazardous drug: NIOSH 2024 List: Table 1
+
+Brand Names
+  - BELRAPZO
+  - BENDEKA
+  - Treanda
+  - VIVIMUSTA
+
+Dosage Forms
+  - BELRAPZO 100mg/4mL Solution for Injection
+  - Bendamustine Hydrochloride 100mg Powder for solution for injection
+  - Bendamustine Hydrochloride 25mg Powder for solution for injection
+  - Bendamustine Hydrochloride 25mg/1mL Solution for injection
+  - BENDEKA 100mg/4mL Solution for Injection
+  - Treanda 100mg Powder for Injection
+  - Treanda 25mg Powder for Injection
+  - VIVIMUSTA 100mg/4mL Solution for Injection
+  - Vivimusta 100mg/4mL Solution for Injection
+
+Indication Specific Dosing
+  Indications
+    Related Indications
+      Heading
+      for the treatment of CLL, as a single agent
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          100 mg/m2 IV on days 1 and 2 repeated every 28 days for up to 6 cycles. Temporary interruption of therapy and a dosage reduction may be necessary in patients who develop toxicity or intolerable side effects. At a median follow-up time of 35 months (range, 1 to 68 months), treatment with bendamustine (median of 6 cycles) resulted in significantly improved overall response rate (68% vs. 31%; p less than 0.0001) and median progression-free survival time (21.6 months vs. 8.3 months; p less than 0.0001) compared with chlorambucil in previously untreated patients with advanced chronic lymphocytic leukemia in a multicenter, randomized, phase 3 study (n = 319). At a median follow-up time of 54 months, the median overall survival times were not significantly different between treatment arms (median time not reached vs. 78.8 months; hazard ratio = 1.3; 95% CI, 0.89 to 1.91; adjusted p value = 0.1801).
+      Heading
+      for the treatment of CLL or small lymphocytic lymphoma (SLL)† in combination with ibrutinib and rituximab
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          70 mg/m2 IV on days 2 and 3 of cycle 1 and on days 1 and 2 for cycles 2 to 6 in combination with ibrutinib 420 mg orally once daily until disease progression and rituximab 375 mg/m2 IV on day 1 of cycle 1 and then 500 mg/m2 IV on day 1 for cycles 2 to 6. Treatment with bendamustine and rituximab is repeated every 28 days for up to 6 cycles. Consider administering ibrutinib before rituximab on days these agents are given on the same day. Temporary interruption of bendamustine therapy and a dosage reduction may be necessary in patients who develop toxicity or intolerable side effects. At a median follow-up time of 17 months, the median progression-free survival (PFS) time was significantly improved with ibrutinib plus bendamustine and rituximab compared with placebo plus bendamustine and rituximab (median time not reached vs. 13.3 months; hazard ratio (HR) = 0.203; 95% CI, 0.15 to 0.276; p less than 0.0001) in patients with relapsed or refractory chronic lymphocytic leukemia (CLL) or small lymphocytic lymphoma (SLL; n = 64; 11%) who had received at least 1 prior treatment including at least 2 cycles of a chemotherapy-containing regimen in a prespecified interim analysis of a multinational, randomized, double-blind, phase 3 trial (the HELIOS trial; n = 578). The 18-month PFS rates were 79% and 24% in the ibrutinib- and placebo-containing arms, respectively. There was no statistically significant difference in overall survival between treatment arms at the time of analysis; however, 31% of patients in the placebo arm crossed over to the ibrutinib arm after disease progression. Patients with a 17p deletion or who had a prior hematopoietic stem-cell transplant were excluded in this study. In the ibrutinib-containing arm, the median duration of therapy was 14.7 months and patients had a mean of 2 prior therapies (range, 1 to 11 therapies).
+    Routes
+    Heading
+    For the treatment of chronic lymphocytic leukemia (CLL)
+    Related Indications
+      Heading
+      for the treatment of indolent B-cell NHL that progressed during or within 6 months of treatment with rituximab or a rituximab-containing regimen
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          120 mg/m2 IV on days 1 and 2 repeated every 21 days for up to 8 cycles. Temporary interruption of therapy and a dosage reduction may be necessary in patients who develop toxicity or intolerable side effects.  Treatment with bendamustine (median of 6 cycles; range, 1 to 8 cycles) led to an overall response rate of 75% and a 9.2 month duration of response in patients with rituximab-refractory, indolent B-cell non-Hodgkin lymphoma (follicular, 62%, small lymphocytic, 21%; marginal zone, 16%) in a multicenter, single-arm study (n = 100). The median number of prior chemotherapy regimens was 2 (range, 0 to 6 regimens) and 36% of patients were refractory to the last chemotherapy regimen.
+      Heading
+      for the treatment of previously untreated indolent NHL (including follicular lymphoma), in combination with rituximab†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          90 mg/m2 IV on days 1 and 2 in combination with rituximab repeated every 28 days (B-R regimen) for up to 6 cycles has been evaluated in a phase 3 trial that compared B-R to standard cyclophosphamide/doxorubicin/vincristine/prednisone/rituximab (R-CHOP) in 514 patients with indolent or mantle cell lymphomas. Temporary interruption of therapy and a dosage reduction may be necessary in patients who develop toxicity or intolerable side effects.
+      Heading
+      for the treatment of previously treated indolent NHL (including follicular lymphoma), in combination with rituximab†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          90 mg/m2 IV on days 2 and 3 in combination with rituximab (375 mg/m2 IV on day 1) every 28 days for 4 to 6 cycles was evaluated in phase 2 studies. Temporary interruption of therapy and a dosage reduction may be necessary in patients who develop toxicity or intolerable side effects.
+      Heading
+      for the treatment of follicular lymphoma in patients who relapsed after or are refractory to a rituximab-containing regimen, in combination with obinutuzumab followed by obinutuzumab monotherapy†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          90 mg/m2 IV on days 1 and 2 repeated every 28 days for 6 cycles in combination with obinutuzumab. Administer obinutuzumab 1,000 mg IV on days 1, 8, and 15 on cycle 1; begin the next cycle of therapy on day 29. For cycles 2 to 6, give obinutuzumab 1,000 mg IV on day 1 repeated every 28 days. Continue single-agent obinutuzumab 1,000 mg IV every 2 months for 2 years in patients who achieve a complete response, partial response, or stable disease after 6 cycles of obinutuzumab plus bendamustine. Temporary interruption of therapy and a dosage reduction may be necessary in patients who develop toxicity or intolerable side effects. A multinational, randomized, phase 3 trial (the GADOLIN trial; n = 396) was stopped early after results from a prespecified interim analysis demonstrated that the primary endpoint of median progression-free survival time (assessed by an independent review committee) was significantly improved with obinutuzumab plus bendamustine compared with bendamustine alone (median time not reached vs. 14.9 months; hazard ratio (HR) = 0.55; 95% CI, 0.4 to 0.74; p = 0.0001) in patients with CD20-positive, indolent non-Hodgkin lymphoma that was refractory to rituximab-containing therapy. The median follow-up time was 21.9 months in the obinutuzumab plus bendamustine arm and 20.3 months in the bendamustine alone arm. There was no difference in overall survival between treatment arms at the time of analysis. Patients in this study had received a median of 2 prior therapies (interquartile range, 1 to 2 therapies); 81% of patients (n = 321) had follicular lymphoma.
+      Heading
+      for the treatment of relapsed or refractory diffuse large B-cell lymphoma (DLBCL) following at least 2 prior therapies, in combination with polatuzumab vedotin and rituximab†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          90 mg/m2 IV daily on days 1 and 2 in combination with polatuzumab vedotin 1.8 mg/kg IV on day 1 and rituximab 375 mg/m2 IV on day 1 repeated every 21 days for 6 cycles. Consider prophylactic granulocyte colony-stimulating factor use. Temporary interruption of therapy and a dosage reduction may be necessary in patients who develop toxicity or intolerable side effects. The primary endpoint of complete response (CR) rate at the end of treatment, assessed by an independent review committee (IRC), was significantly improved in a randomly assigned cohort of transplant ineligible patients with relapsed or refractory DLBCL who received polatuzumab vedotin plus bendamustine and rituximab (BR) compared with BR alone (40% v 17.5%; p = 0.026) in a randomized phase 2 trial (n = 80; GO29365 trial). At a median follow-up time of 22.3 months, the median progression-free survival (PFS; 9.5 months vs. 3.7 months; hazard ratio (HR) = 0.36; 95% CI, 0.21 to 0.63) and overall survival (OS; 12.4 months vs. 4.7 months; HR = 0.42; 95% CI, 0.24 to 0.75) times were also significantly improved in the polatuzumab vedotin-containing arm. In 106 additional patients who received polatuzumab vedotin plus BR in a single-arm extension cohort (median follow-up, 15.2 months), the IRC-assessed CR rate was 38.7%, the median PFS time was 6.6 months, and the median OS time was 12.5 months. In a pooled analysis of 152 patients (median age, 69 years; range, 24 to 94 years) who received polatuzumab vedotin plus BR, the median number of prior therapies was 2 (range, 1 to 7 therapies).
+    Routes
+    Heading
+    For the treatment of non-Hodgkin's lymphoma (NHL)
+    Related Indications
+      Heading
+      for the treatment of previously untreated MCL, in combination with rituximab†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          90 mg/m2 IV on days 1 and 2 in combination with rituximab (375 mg/m2 IV on day 1) repeated every 28 days (B-R regimen) for up to 6 cycles has been evaluated in a phase 3 trial that compared B-R to standard cyclophosphamide/doxorubicin/vincristine/prednisone/rituximab (R-CHOP) in 514 patients with indolent or mantle cell lymphomas. Temporary interruption of therapy and a dosage reduction may be necessary in patients who develop toxicity or intolerable side effects.
+      Heading
+      for the treatment of previously treated MCL, in combination with rituximab†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          90 mg/m2 IV on days 2 and 3 in combination with rituximab (375 mg/m2 IV on day 1) every 28 days for 4 to 6 cycles has been evaluated in phase 2 trials. An additional dose of rituximab was administered 1 week prior to the first cycle of B-R and 4 weeks after the last cycle. Temporary interruption of therapy and a dosage reduction may be necessary in patients who develop toxicity or intolerable side effects.
+      Heading
+      for the treatment of previously untreated MCL in patients who are ineligible for autologous hematopoietic stem cell transplantation (HSCT) in combination with acalabrutinib and rituximab†
+      Routes
+        Heading
+        Intravenous dosage
+        Route Age Groups
+          Heading
+          Adults
+          Dosage Description
+          90 mg/m2/dose IV on days 1 and 2 in combination with rituximab (375 mg/m2 IV on day 1) for 6 cycles (28-day cycles) and acalabrutinib (100 mg PO twice daily) continuously until disease progression. Patients achieving a partial or complete response after the first 6 cycles may receive maintenance rituximab on day 1 of every other cycle for a maximum of 12 additional doses starting on cycle 8 up to cycle 30. At a median follow-up of 49.8 months, progression-free survival was significantly longer in the acalabrutinib plus BR arm compared with the placebo plus BR arm (66.4 months vs. 49.6 months) in a randomized, multicenter study (ECHO) with untreated MCL patients who were 65 years or older and who were not intended to receive HSCT. Crossover to acalabrutinib monotherapy was permitted for patients in the placebo plus BR arm at disease progression.
+    Routes
+    Heading
+    For the treatment of mantle cell lymphoma (MCL)†
+    Routes
+      Heading
+      Intravenous dosage
+      Route Age Groups
+        Heading
+        Adults
+        Dosage Description
+        120 mg/m2 IV on days 1 and 2 repeated every 3 weeks for up to 6 cycles has been studied in a multicenter, nonrandomized phase 2 trial (n = 60). Temporary interruption of therapy and a dosage reduction may be necessary in patients who develop toxicity or intolerable side effects.
+    Heading
+    For the treatment of relapsed or refractory peripheral T-cell lymphoma (PTCL)†
+    Routes
+      Heading
+      Intravenous dosage
+      Route Age Groups
+        Heading
+        Adults
+        Dosage Description
+        90 mg/m2 IV on days 1 and 2 repeated every 28 days for 4 cycles in combination with rituximab.
+    Heading
+    For the treatment of cold agglutinin disease†
+
+Contraindications And Precautions
+  Headline
+  Contraindications/Warnings/Precautions
+  General Information
+  No formal studies have been performed to assess the impact of renal impairment on the pharmacokinetics of bendamustine. In vitro data indicate that 90% of drug is recovered unchanged, primarily in the feces. Use bendamustine with caution in patients with mild or moderate renal impairment, and do not use it in patients with creatinine clearance 3 xULN) hepatic impairment.Bendamustine may cause fetal harm if administered to a woman during pregnancy. Single intraperitoneal doses of bendamustine produced malformations and embryo lethality in animal studies. There are no adequate and well-controlled studies in pregnant women. If bendamustine is used during pregnancy, or if the patient becomes pregnant during treatment, the patient should be informed of the potential hazard to the fetus.It is not known if bendamustine is excreted into breast milk. Due to the potential for serious adverse reactions in nursing infants and due to the tumorigenicity displayed by bendamustine in animal studies, a decision should be made whether to discontinue breast-feeding or to discontinue the drug, taking into account the importance of the drug to the mother.Do not administer to children. The safety and efficacy of bendamustine have not been established in this population.Patients with a known hypersensitivity to bendamustine should not receive this medication. In addition, bendamustine vials contain mannitol. Patients with mannitol hypersensitivity should not receive bendamustine.Patients may develop infusion-related reactions to bendamustine. Symptoms typically include fever, chills, pruritus, and rash, but may include severe anaphylaxis (see Adverse Reactions). Discontinue the drug in patients who have severe reactions to bendamustine. In the CLL trial, patients who developed Grade 3 or 4 infusion reactions were not typically rechallenged. Antihistamine, antipyretic, and corticosteroid premedications should be considered prior to subsequent cycles of bendamustine in patients who have previously experienced a Grade 1 or 2 infusion-related reaction.Hyperuricemia and tumor-lysis syndrome (TLS) may develop during bendamustine therapy (see Adverse Reactions). Onset is typically with the first treatment cycle. Preventive measures including maintaining adequate volume status, routinely monitoring blood chemistries, and administration of allopurinol during the first one to two weeks of therapy should be considered in patients at high risk for developing TLS.
+  Contraindications And Precautions
+    Headline
+    Drug Interactions
+    General Information
+    The coadministration of certain medications may lead to harm and require avoidance or therapy modification; review all drug interactions prior to concomitant use of other medications.
+    Headline
+    Hypersensitivity
+    General Information
+    This medication is contraindicated in patients with a history of hypersensitivity to it or any of its components.
+    Headline
+    renal failure, renal impairment
+    General Information
+    Do not use bendamustine in patients with severe renal impairment including renal failure (CrCl less than 30 mL/minute).
+    Headline
+    Child-Pugh class A, Child-Pugh class B, Child-Pugh class C, hepatic failure
+    General Information
+    Use bendamustine with caution in patients with hepatic impairment (e.g., Child-Pugh class A, Child-Pugh class B, Child-Pugh class C). Fatal and serious hepatic impairment has been reported with bendamustine use; most cases occurred within the first 3 months of starting therapy. Do not use bendamustine in patients with AST or ALT level of 2.5 to 10 times the ULN and total bilirubin level of 1.5 to 3 times the ULN OR total bilirubin more than 3 times the ULN, including hepatic failure. Patients with progressive disease, receiving combination therapy, or hepatitis B virus reactivation may be at increased risk of developing hepatic dysfunction. Monitor liver function tests prior to and during bendamustine therapy.
+    Headline
+    infection
+    General Information
+    Prior to starting bendamustine therapy, treat active infections and/or administer appropriate prophylactic treatment in patients who have a history of infection; reactivation of infections may occur. Serious and fatal infection (i.e., pneumonia, sepsis, septic shock, hepatitis) has been reported with bendamustine therapy. Patients who experience myelosuppression are at increased risk for developing an infection. Monitor patients for signs and symptoms of infection prior to and during therapy.
+    Headline
+    pregnancy
+    General Information
+    Bendamustine may cause fetal harm when administered during pregnancy, based on animal data. Females of reproductive potential should avoid becoming pregnant during bendamustine therapy. Advise pregnant people of the potential fetal risk. In animal studies, skeletal and visceral malformations (e.g., exencephaly and cleft palates, accessory rib, and spinal deformities), hydronephrosis, hydrocephalus, and decreased fetal body weights were reported when intraperitoneal bendamustine was given to pregnant mice and rats at doses that were 0.6 to 1.8 times the maximum recommended human dose.
+    Headline
+    people who can cause pregnancy in others, people who may become pregnant, reproductive risk
+    General Information
+    Counsel people who may become pregnant and people who can cause pregnancy in others about the reproductive risk associated with bendamustine. Bendamustine can cause fetal harm. Verify pregnancy status prior to treatment initiation. Advise people who may become pregnant to use effective contraception while taking bendamustine and for at least 6 months after the last dose. For those that can cause pregnancy in others, contraception should be used during bendamustine treatment and for at least 3 months after the last dose. Based on animal data, bendamustine may cause male infertility. Impaired spermatogenesis, azoospermia, and total germinal aplasia have been reported in individuals who received other alkylating agents, particularly in combination with other chemotherapy drugs. Spermatogenesis may return to some individuals in remission, but this may occur only several years after intensive chemotherapy has been discontinued.
+    Headline
+    breast-feeding
+    General Information
+    Advise individuals to avoid breast-feeding while taking bendamustine and for 1 week after the last dose, due to the potential for serious adverse reactions in the breast-fed child. There are no data on the presence of bendamustine or its metabolites in human milk, their effects on the breast-fed child, or their effects on milk production.
+
+Pregnancy And Lactation
+  Pregnancy
+    General Information
+    Bendamustine may cause fetal harm when administered during pregnancy, based on animal data. Females of reproductive potential should avoid becoming pregnant during bendamustine therapy. Advise pregnant people of the potential fetal risk. In animal studies, skeletal and visceral malformations (e.g., exencephaly and cleft palates, accessory rib, and spinal deformities), hydronephrosis, hydrocephalus, and decreased fetal body weights were reported when intraperitoneal bendamustine was given to pregnant mice and rats at doses that were 0.6 to 1.8 times the maximum recommended human dose.
+  Breastfeeding
+    General Information
+    Counsel people who may become pregnant and people who can cause pregnancy in others about the reproductive risk associated with bendamustine. Bendamustine can cause fetal harm. Verify pregnancy status prior to treatment initiation. Advise people who may become pregnant to use effective contraception while taking bendamustine and for at least 6 months after the last dose. For those that can cause pregnancy in others, contraception should be used during bendamustine treatment and for at least 3 months after the last dose. Based on animal data, bendamustine may cause male infertility. Impaired spermatogenesis, azoospermia, and total germinal aplasia have been reported in individuals who received other alkylating agents, particularly in combination with other chemotherapy drugs. Spermatogenesis may return to some individuals in remission, but this may occur only several years after intensive chemotherapy has been discontinued.
+
+Interactions
+Acyclovir: (Major) Consider the use of an alternative therapy if acyclovir treatment is needed in patients receiving bendamustine. Concomitant use of acyclovir may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and acyclovir is a CYP1A2 inhibitor.
+Allopurinol: (Major) Consider the use of an alternative therapy if allopurinol treatment is needed in patients receiving bendamustine. Concomitant use of allopurinol may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and allopurinol is a weak CYP1A2 inhibitor.
+Amiodarone: (Major) Consider the use of an alternative therapy if amiodarone treatment is needed in patients receiving bendamustine. Concomitant use of amiodarone may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and amiodarone is a CYP1A2 inhibitor.
+Amobarbital: (Major) Consider the use of an alternative therapy if barbiturate treatment is needed in patients receiving bendamustine. Barbiturates may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and barbiturates are CYP1A2 inducers.
+Aspirin, ASA; Butalbital; Caffeine: (Major) Consider the use of an alternative therapy if barbiturate treatment is needed in patients receiving bendamustine. Barbiturates may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and barbiturates are CYP1A2 inducers.
+Barbiturates: (Major) Consider the use of an alternative therapy if barbiturate treatment is needed in patients receiving bendamustine. Barbiturates may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and barbiturates are CYP1A2 inducers.
+Butalbital; Acetaminophen: (Major) Consider the use of an alternative therapy if barbiturate treatment is needed in patients receiving bendamustine. Barbiturates may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and barbiturates are CYP1A2 inducers.
+Butalbital; Acetaminophen; Caffeine: (Major) Consider the use of an alternative therapy if barbiturate treatment is needed in patients receiving bendamustine. Barbiturates may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and barbiturates are CYP1A2 inducers.
+Butalbital; Acetaminophen; Caffeine; Codeine: (Major) Consider the use of an alternative therapy if barbiturate treatment is needed in patients receiving bendamustine. Barbiturates may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and barbiturates are CYP1A2 inducers.
+Butalbital; Aspirin; Caffeine; Codeine: (Major) Consider the use of an alternative therapy if barbiturate treatment is needed in patients receiving bendamustine. Barbiturates may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and barbiturates are CYP1A2 inducers.
+Cannabidiol: (Major) Consider the use of an alternative therapy if cannabidiol treatment is needed in patients receiving bendamustine. Cannabidiol may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and cannabidiol is a weak CYP1A2 inhibitor.
+Capmatinib: (Major) Consider the use of an alternative therapy if capmatinib treatment is needed in patients receiving bendamustine. Concomitant use of capmatinib may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and capmatinib is a CYP1A2 inhibitor.
+carBAMazepine: (Major) Consider the use of an alternative therapy if carbamazepine treatment is needed in patients receiving bendamustine. Carbamazepine may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and carbamazepine is a CYP1A2 inducer.
+Cholera Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the live cholera vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to cholera bacteria after receiving the vaccine.
+Cimetidine: (Major) Consider the use of an alternative therapy if cimetidine treatment is needed in patients receiving bendamustine. Cimetidine may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and cimetidine is a CYP1A2 inhibitor.
+Ciprofloxacin: (Major) Consider the use of an alternative therapy if ciprofloxacin treatment is needed in patients receiving bendamustine. Ciprofloxacin may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and ciprofloxacin is a CYP1A2 inhibitor.
+cloZAPine: (Major) It is unclear if concurrent use of other drugs known to cause neutropenia (e.g., antineoplastic agents) increases the risk or severity of clozapine-induced neutropenia. Because there is no strong rationale for avoiding clozapine in patients treated with these drugs, consider increased absolute neutrophil count (ANC) monitoring and consult the treating oncologist.
+Conjugated Estrogens: (Major) Consider the use of an alternative therapy if estrogens are needed in patients receiving bendamustine. Concomitant use of estrogens may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and estrogens are CYP1A2 inhibitors.
+Conjugated Estrogens; Bazedoxifene: (Major) Consider the use of an alternative therapy if estrogens are needed in patients receiving bendamustine. Concomitant use of estrogens may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and estrogens are CYP1A2 inhibitors.
+Conjugated Estrogens; medroxyPROGESTERone: (Major) Consider the use of an alternative therapy if estrogens are needed in patients receiving bendamustine. Concomitant use of estrogens may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and estrogens are CYP1A2 inhibitors.
+Deferasirox: (Major) Consider the use of an alternative therapy if deferasirox treatment is needed in patients receiving bendamustine. Deferasirox may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and deferasirox is a CYP1A2 inhibitor.
+Dengue Tetravalent Vaccine, Live: (Contraindicated) Avoid administration of the live dengue virus vaccine with immunosuppressive drug therapy and prior to immune recovery following treatment with immunosuppressive drug therapy. When feasible, administer indicated live virus vaccines at least 4 weeks before planned immunosuppression or wait until at least 3 months after discontinuation. The time to restoration of immune competence may be longer in some patients. Patients with altered immunocompetence may be at increased risk for severe adverse reactions due to uninhibited growth of the attenuated live virus. Additionally, vaccines may be less effective if administered during a period of altered immunocompetence.
+Desogestrel: Ethinyl Estradiol; Ferrous Bisglycinate: (Major) Consider the use of an alternative therapy if ethinyl estradiol treatment is needed in patients receiving bendamustine. Concomitant use of ethinyl estradiol may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and ethinyl estradiol is a CYP1A2 inhibitor.
+Desogestrel; Ethinyl Estradiol: (Major) Consider the use of an alternative therapy if ethinyl estradiol treatment is needed in patients receiving bendamustine. Concomitant use of ethinyl estradiol may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and ethinyl estradiol is a CYP1A2 inhibitor.
+Diazoxide: (Major) Consider the use of an alternative therapy if diazoxide treatment is needed in patients receiving bendamustine. Concomitant use of diazoxide may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and diazoxide is a CYP1A2 inhibitor.
+Dienogest; Estradiol valerate: (Major) Consider the use of an alternative therapy if estrogens are needed in patients receiving bendamustine. Concomitant use of estrogens may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and estrogens are CYP1A2 inhibitors.
+Disulfiram: (Major) Consider the use of an alternative therapy if disulfiram treatment is needed in patients receiving bendamustine. Disulfiram may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and disulfiram is a CYP1A2 inhibitor.
+Drospirenone; Estradiol: (Major) Consider the use of an alternative therapy if estrogens are needed in patients receiving bendamustine. Concomitant use of estrogens may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and estrogens are CYP1A2 inhibitors.
+Drospirenone; Ethinyl Estradiol: (Major) Consider the use of an alternative therapy if ethinyl estradiol treatment is needed in patients receiving bendamustine. Concomitant use of ethinyl estradiol may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and ethinyl estradiol is a CYP1A2 inhibitor.
+Drospirenone; Ethinyl Estradiol; Levomefolate: (Major) Consider the use of an alternative therapy if ethinyl estradiol treatment is needed in patients receiving bendamustine. Concomitant use of ethinyl estradiol may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and ethinyl estradiol is a CYP1A2 inhibitor.
+Elagolix; Estradiol; Norethindrone acetate: (Major) Consider the use of an alternative therapy if estrogens are needed in patients receiving bendamustine. Concomitant use of estrogens may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and estrogens are CYP1A2 inhibitors.
+Enasidenib: (Major) Consider the use of an alternative therapy if enasidenib treatment is needed in patients receiving bendamustine. Concomitant use of enasidenib may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and enasidenib is a CYP1A2 inhibitor.
+Esterified Estrogens: (Major) Consider the use of an alternative therapy if estrogens are needed in patients receiving bendamustine. Concomitant use of estrogens may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and estrogens are CYP1A2 inhibitors.
+Esterified Estrogens; methylTESTOSTERone: (Major) Consider the use of an alternative therapy if estrogens are needed in patients receiving bendamustine. Concomitant use of estrogens may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and estrogens are CYP1A2 inhibitors.
+Estradiol: (Major) Consider the use of an alternative therapy if estrogens are needed in patients receiving bendamustine. Concomitant use of estrogens may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and estrogens are CYP1A2 inhibitors.
+Estradiol; Levonorgestrel: (Major) Consider the use of an alternative therapy if estrogens are needed in patients receiving bendamustine. Concomitant use of estrogens may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and estrogens are CYP1A2 inhibitors.
+Estradiol; Norethindrone: (Major) Consider the use of an alternative therapy if estrogens are needed in patients receiving bendamustine. Concomitant use of estrogens may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and estrogens are CYP1A2 inhibitors.
+Estradiol; Norgestimate: (Major) Consider the use of an alternative therapy if estrogens are needed in patients receiving bendamustine. Concomitant use of estrogens may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and estrogens are CYP1A2 inhibitors.
+Estradiol; Progesterone: (Major) Consider the use of an alternative therapy if estrogens are needed in patients receiving bendamustine. Concomitant use of estrogens may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and estrogens are CYP1A2 inhibitors.
+Estrogens (selected): (Major) Consider the use of an alternative therapy if estrogens are needed in patients receiving bendamustine. Concomitant use of estrogens may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and estrogens are CYP1A2 inhibitors.
+Ethinyl Estradiol; Norelgestromin: (Major) Consider the use of an alternative therapy if ethinyl estradiol treatment is needed in patients receiving bendamustine. Concomitant use of ethinyl estradiol may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and ethinyl estradiol is a CYP1A2 inhibitor.
+Ethinyl Estradiol; Norethindrone Acetate: (Major) Consider the use of an alternative therapy if ethinyl estradiol treatment is needed in patients receiving bendamustine. Concomitant use of ethinyl estradiol may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and ethinyl estradiol is a CYP1A2 inhibitor.
+Ethinyl Estradiol; Norgestrel: (Major) Consider the use of an alternative therapy if ethinyl estradiol treatment is needed in patients receiving bendamustine. Concomitant use of ethinyl estradiol may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and ethinyl estradiol is a CYP1A2 inhibitor.
+Ethynodiol Diacetate; Ethinyl Estradiol: (Major) Consider the use of an alternative therapy if ethinyl estradiol treatment is needed in patients receiving bendamustine. Concomitant use of ethinyl estradiol may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and ethinyl estradiol is a CYP1A2 inhibitor.
+Etonogestrel; Ethinyl Estradiol: (Major) Consider the use of an alternative therapy if ethinyl estradiol treatment is needed in patients receiving bendamustine. Concomitant use of ethinyl estradiol may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and ethinyl estradiol is a CYP1A2 inhibitor.
+Fexinidazole: (Major) Consider the use of an alternative therapy if fexinidazole treatment is needed in patients receiving bendamustine. Concomitant use of fexinidazole may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and fexinidazole is a CYP1A2 inhibitor.
+fluvoxaMINE: (Major) Consider the use of an alternative therapy if fluvoxamine treatment is needed in patients receiving bendamustine. Fluvoxamine may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and fluvoxamine is a CYP1A2 inhibitor.
+Food: (Major) Advise patients to avoid cannabis use during bendamustine treatment due to decreased exposure of bendamustine which may alter its efficacy. Cannabis use induces CYP1A2 and bendamustine is a CYP1A2 substrate. The induction potential of cannabis is greatest with chronic inhalation. Other routes of administration or sporadic use may have less of an effect.
+Fosphenytoin: (Major) Consider the use of an alternative therapy if fosphenytoin treatment is needed in patients receiving bendamustine. Fosphenytoin may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and fosphenytoin is a CYP1A2 inducer.
+Givosiran: (Major) Consider the use of an alternative therapy if givosiran treatment is needed in patients receiving bendamustine. Givosiran may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate. Givosiran may moderately inhibit hepatic CYP1A2 enzyme activity because of its pharmacological effects on the hepatic heme biosynthesis pathway.
+Leflunomide: (Major) Consider the use of an alternative therapy if leflunomide treatment is needed in patients receiving bendamustine. Leflunomide may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and leflunomide is a CYP1A2 inducer.
+Levonorgestrel; Ethinyl Estradiol: (Major) Consider the use of an alternative therapy if ethinyl estradiol treatment is needed in patients receiving bendamustine. Concomitant use of ethinyl estradiol may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and ethinyl estradiol is a CYP1A2 inhibitor.
+Levonorgestrel; Ethinyl Estradiol; Ferrous Bisglycinate: (Major) Consider the use of an alternative therapy if ethinyl estradiol treatment is needed in patients receiving bendamustine. Concomitant use of ethinyl estradiol may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and ethinyl estradiol is a CYP1A2 inhibitor.
+Levonorgestrel; Ethinyl Estradiol; Ferrous Fumarate: (Major) Consider the use of an alternative therapy if ethinyl estradiol treatment is needed in patients receiving bendamustine. Concomitant use of ethinyl estradiol may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and ethinyl estradiol is a CYP1A2 inhibitor.
+Lopinavir; Ritonavir: (Major) Consider the use of an alternative therapy if ritonavir treatment is needed in patients receiving bendamustine. Ritonavir may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and ritonavir is a CYP1A2 inducer.
+Meropenem: (Major) Consider the use of an alternative therapy if meropenem treatment is needed in patients receiving bendamustine. Concomitant use of meropenem may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and meropenem is a CYP1A2 inducer.
+Meropenem; Vaborbactam: (Major) Consider the use of an alternative therapy if meropenem treatment is needed in patients receiving bendamustine. Concomitant use of meropenem may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and meropenem is a CYP1A2 inducer.
+Methohexital: (Major) Consider the use of an alternative therapy if barbiturate treatment is needed in patients receiving bendamustine. Barbiturates may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and barbiturates are CYP1A2 inducers.
+Methoxsalen: (Major) Consider the use of an alternative therapy if methoxsalen treatment is needed in patients receiving bendamustine. Methoxsalen may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and methoxsalen is a CYP1A2 inhibitor.
+Mexiletine: (Major) Consider the use of an alternative therapy if mexiletine treatment is needed in patients receiving bendamustine. Mexiletine may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and mexiletine is a CYP1A2 inhibitor.
+Nirmatrelvir; Ritonavir: (Major) Consider the use of an alternative therapy if ritonavir treatment is needed in patients receiving bendamustine. Ritonavir may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and ritonavir is a CYP1A2 inducer.
+Norethindrone Acetate; Ethinyl Estradiol; Ferrous fumarate: (Major) Consider the use of an alternative therapy if ethinyl estradiol treatment is needed in patients receiving bendamustine. Concomitant use of ethinyl estradiol may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and ethinyl estradiol is a CYP1A2 inhibitor.
+Norethindrone; Ethinyl Estradiol: (Major) Consider the use of an alternative therapy if ethinyl estradiol treatment is needed in patients receiving bendamustine. Concomitant use of ethinyl estradiol may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and ethinyl estradiol is a CYP1A2 inhibitor.
+Norethindrone; Ethinyl Estradiol; Ferrous fumarate: (Major) Consider the use of an alternative therapy if ethinyl estradiol treatment is needed in patients receiving bendamustine. Concomitant use of ethinyl estradiol may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and ethinyl estradiol is a CYP1A2 inhibitor.
+Norgestimate; Ethinyl Estradiol: (Major) Consider the use of an alternative therapy if ethinyl estradiol treatment is needed in patients receiving bendamustine. Concomitant use of ethinyl estradiol may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and ethinyl estradiol is a CYP1A2 inhibitor.
+Obeticholic Acid: (Major) Consider the use of an alternative therapy if obeticholic acid treatment is needed in patients receiving bendamustine. Concomitant use of obeticholic acid may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and obeticholic acid is a CYP1A2 inhibitor.
+Osilodrostat: (Major) Consider the use of an alternative therapy if osilodrostat treatment is needed in patients receiving bendamustine. Osilodrostat may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and osilodrostat is a CYP1A2 inhibitor.
+Pacritinib: (Major) Consider the use of an alternative therapy if pacritinib treatment is needed in patients receiving bendamustine. Concomitant use of pacritinib may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and pacritinib is a CYP1A2 inhibitor.
+Peginterferon Alfa-2b: (Major) Consider the use of an alternative therapy if peginterferon alfa-2b treatment is needed in patients receiving bendamustine. Peginterferon alfa-2b may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and peginterferon alfa-2b is a CYP1A2 inhibitor.
+PENTobarbital: (Major) Consider the use of an alternative therapy if barbiturate treatment is needed in patients receiving bendamustine. Barbiturates may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and barbiturates are CYP1A2 inducers.
+PHENobarbital: (Major) Consider the use of an alternative therapy if barbiturate treatment is needed in patients receiving bendamustine. Barbiturates may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and barbiturates are CYP1A2 inducers.
+PHENobarbital; Hyoscyamine; Atropine; Scopolamine: (Major) Consider the use of an alternative therapy if barbiturate treatment is needed in patients receiving bendamustine. Barbiturates may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and barbiturates are CYP1A2 inducers.
+Phenytoin: (Major) Consider the use of an alternative therapy if phenytoin treatment is needed in patients receiving bendamustine. Phenytoin may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and phenytoin is a CYP1A2 inducer.
+Primaquine: (Major) Consider the use of an alternative therapy if primaquine treatment is needed in patients receiving bendamustine. Concomitant use of primaquine may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and primaquine is a CYP1A2 inhibitor.
+Primidone: (Major) Consider the use of an alternative therapy if barbiturate treatment is needed in patients receiving bendamustine. Barbiturates may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and barbiturates are CYP1A2 inducers.
+Relugolix; Estradiol; Norethindrone acetate: (Major) Consider the use of an alternative therapy if estrogens are needed in patients receiving bendamustine. Concomitant use of estrogens may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and estrogens are CYP1A2 inhibitors.
+rifAMPin: (Major) Consider the use of an alternative therapy if rifampin treatment is needed in patients receiving bendamustine. Rifampin may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and rifampin is a CYP1A2 inducer.
+Ritlecitinib: (Major) Consider the use of an alternative therapy if ritlecitinib treatment is needed in patients receiving bendamustine. Concomitant use of ritlecitinib may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and ritlecitinib is a CYP1A2 inhibitor.
+Ritonavir: (Major) Consider the use of an alternative therapy if ritonavir treatment is needed in patients receiving bendamustine. Ritonavir may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and ritonavir is a CYP1A2 inducer.
+Rucaparib: (Major) Consider the use of an alternative therapy if rucaparib treatment is needed in patients receiving bendamustine. Rucaparib may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and rucaparib is a CYP1A2 inhibitor.
+SARS-CoV-2 (COVID-19) vaccines: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) mRNA Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+SARS-CoV-2 Virus (COVID-19) Recombinant Spike Protein Nanoparticle Vaccine: (Moderate) Patients receiving immunosuppressant medications may have a diminished response to the SARS-CoV-2 virus vaccine. When feasible, administer indicated vaccines prior to initiating immunosuppressant medications. Counsel patients receiving immunosuppressant medications about the possibility of a diminished vaccine response and to continue to follow precautions to avoid exposure to SARS-CoV-2 virus after receiving the vaccine.
+Secobarbital: (Major) Consider the use of an alternative therapy if barbiturate treatment is needed in patients receiving bendamustine. Barbiturates may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and barbiturates are CYP1A2 inducers.
+Segesterone Acetate; Ethinyl Estradiol: (Major) Consider the use of an alternative therapy if ethinyl estradiol treatment is needed in patients receiving bendamustine. Concomitant use of ethinyl estradiol may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and ethinyl estradiol is a CYP1A2 inhibitor.
+Sodium Iodide I-131: (Moderate) Monitor for bone marrow suppression during concomitant use of sodium iodide I-131 and antineoplastic agents. Concomitant use of bone marrow depressants may enhance the depression of the hematopoietic system caused by the use of large doses of sodium iodide I-131.
+Sodium Phenylbutyrate; Taurursodiol: (Major) Consider the use of an alternative therapy if taurursodiol treatment is needed in patients receiving bendamustine. Concomitant use of taurursodiol may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and taurursodiol is a CYP1A2 inducer.
+Stiripentol: (Major) Consider the use of an alternative therapy if stiripentol treatment is needed in patients receiving bendamustine. Stiripentol may alter bendamustine exposure. Bendamustine is a CYP1A2 substrate and stiripentol is an inhibitor and inducer of CYP1A2 in vitro.
+Teriflunomide: (Major) Consider the use of an alternative therapy if teriflunomide treatment is needed in patients receiving bendamustine. Teriflunomide may decrease bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and teriflunomide is a CYP1A2 inducer.
+Tobacco: (Major) Advise patients to avoid tobacco products while receiving bendamustine. Smoking tobacco may cause a decrease in bendamustine exposure, which may result in decreased efficacy. Bendamustine is a CYP1A2 substrate and tobacco is a CYP1A2 inducer.
+Tuberculin Purified Protein Derivative, PPD: (Moderate) Immunosuppressives may decrease the immunological response to tuberculin purified protein derivative, PPD. This suppressed reactivity can persist for up to 6 weeks after treatment discontinuation. Consider deferring the skin test until completion of the immunosuppressive therapy.
+Vemurafenib: (Major) Avoid the use of vemurafenib with bendamustine. Vemurafenib may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and vemurafenib is a CYP1A2 inhibitor.
+Viloxazine: (Major) Consider the use of an alternative therapy if viloxazine treatment is needed in patients receiving bendamustine. Concomitant use of viloxazine may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and viloxazine is a CYP1A2 inhibitor.
+Zafirlukast: (Major) Consider the use of an alternative therapy if zafirlukast treatment is needed in patients receiving bendamustine. Zafirlukast may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and zafirlukast is a CYP1A2 inhibitor.
+Zileuton: (Major) Consider the use of an alternative therapy if zileuton treatment is needed in patients receiving bendamustine. Concomitant use of zileuton may increase bendamustine exposure, which may increase the risk of adverse reactions (e.g., myelosuppression, infection, hepatotoxicity). Bendamustine is a CYP1A2 substrate and zileuton is a CYP1A2 inhibitor.
+
+Adverse Reactions
+  Headline
+  Adverse Reactions
+  General Information
+  Hematologic toxicities were the most frequently observed adverse events in clinical trials of bendamustine. In a clinical trial of 153 treatment naive chronic lymphocytic leukemia (CLL) patients, leukopenia (all grades: 18%, grades 3 or 4: 15%), neutropenia (28%, 24%), lymphopenia (7%, 7%), anemia (19%, 3%), and thrombocytopenia (23%, 13%) were observed. Hematologic toxicity rates were more pronounced in patients in trials of non-Hodgkin's lymphoma (NHL) receiving bendamustine. Grade 3 or 4 myelosuppression occurred in 98% of patients. Three patients (2%) died from myelosuppression-related adverse events including neutropenic sepsis, diffuse alveolar hemmorhage, and pneumonia from an opportunistic infection with CMV.
+ 
+Infection, including pneumonia and sepsis, has been reported in patients receiving bendamustine. Infection has been associated with septic shock and death. In a phase III trial of bendamustine/rituximab as front-line treatment for indolent and mantle-cell lymphoma, 19/139 patients experienced infectious complications.
+ 
+Infusion reactions, including anaphylactoid reactions, have occurred during therapy with bendamustine, particularly in the second and subsequent courses of therapy. Fever, chills, pruritus, and rash have been reported. Rarely severe, or anaphylactoid reactions have occurred. Patients should be questioned about the development of allergic symptoms after their first course of therapy. For patients who develop grade 1 or 2 reactions, premedication with antihistamines, corticosteroids, and antipyretics should be considered prior to subsequent treatments. Discontinuation of therapy should be considered for patients who develop grade 3 or 4 reactions. Patients in the CLL trial were not typically rechallenged after presentation of a grade 3 or 4 infusion reaction.
+ 
+Gastrointestinal adverse reactions reported in clinical trials include nausea/vomiting and diarrhea. In a trial of CLL patients receiving bendamustine monotherapy, nausea and vomiting occurred in 20% and 16%, respectively, with < 1% of patients developing grade 3 or 4 toxicity. Diarrhea was reported in 9% of patients with 1% reporting toxicity of grade 3 or 4. In a clinical trial of lymphoma patients receiving moderately higher doses of bendamustine, nausea occurred in 68% of patients and vomiting in 42%. Grade 3 or 4 nausea was reported in 5% of patients while no patients reported grade 3 or 4 vomiting.
+ 
+Tumor lysis syndrome (TLS) has been reported in clinical trials of bendamustine and in post-marketing reports. Onset of TLS typically occurs within the first treatment cycle and lack of intervention may lead to acute renal failure (unspecified) or death. Adequate measures should be taken to prevent hyperuricemia and TLS. These may include hydration to maintain adequate volume status, monitoring of blood chemistry (particularly potassium and uric acid), and the use of allopurinol during the first one to two weeks of bendamustine therapy in patients at high-risk for TLS. Hyperuricemia occurred in 7% of patients in the CLL trial. The concomitant use of allopurinol and bendamustine may result in an increased risk of severe skin toxicities.
+ 
+Skin reactions have been reported in clinical trials of bendamustine and in post-marketing reports. Rash (unspecified), bullous rash, and toxic skin reactions have occurred. Some events occurred when bendamustine was given in combination with other antineoplastic agents and therefore the relationship to bendamustine is uncertain in those cases. In a clinical trial of bendamustine with rituximab, one case of toxic epidermal necrolysis (TEN) occurred. TEN has previously been reported as a potential adverse reaction of rituximab. Cases of Stevens-Johnson syndrome (SJS) and TEN, some fatal, have been reported when bendamustine is administered with allopurinol and other medications known to cause these conditions. The relationship to bendamustine cannot be determined. When skin reactions occur, they may be progressive and get worse with additional bendamustine treatment. If skin reactions are severe or progressive, bendamustine should be withheld or discontinued.
+ 
+Hyperbilirubinemia occurred in 34% of CLL patients given bendamustine in the clinical trial, with grade 3 or 4 elevations observed in 3%. Elevated hepatic enzymes were not always associated with increases in bilirubin and grade 3 or 4 increases in AST and ALT were limited to 1% and 3% of patients, respectively.
+ 
+In a trial of 153 patients with CLL who received bendamustine, 4 patients developed worsening hypertension. Three of these patients developed a hypertensive crisis. Patients with hypertensive crisis were treated with oral medications and the crisis resolved.
+ 
+Pre-malignant and malignant diseases (i.e., secondary malignancy) have developed in patients who have been treated with bendamustine, including in patients with myelodysplastic syndrome, myeloproliferative disorders, acute myeloid leukemia and bronchial carcinoma. The association with bendamustine therapy has not been determined in these cases.
+ 
+Spermatogenesis, azoospermia, and total germinal aplasia have been reported in male patients receiving alkylating agents, especially when given in combination with other antineoplastic drugs. Spermatogenesis has returned in some patients in remission several years after intensive chemotherapy was discontinued. Patients should be advised of the potential risk of infertility prior to beginning treatment with bendamustine.
+ 
+Other adverse reactions occurring commonly in clinical trials of bendamustine include pyrexia (24%), fatigue (9%), asthenia (8%) and weight loss (7%).
+  Adverse Reactions
+    Headline
+    candidiasis, hepatitis, infection, pharyngitis, sinusitis
+    General Information
+    Serious infection (e.g., sepsis) has occurred in adult and pediatric patients who received bendamustine therapy including postmarketing reports of pneumocystis jiroveci pneumonia. Infection has resulted in hospitalization, septic shock, and death in some cases. Patients who experience myelosuppression are at increased risk for developing an infection. Monitor patients for signs and symptoms of infection prior to and during therapy; assess if the patient has a history of bacterial or viral infection that may be reactivated (e.g., mycobacterium tuberculosis, hepatitis B virus, cytomegalovirus (CMV), and herpes zoster virus). Prior to starting bendamustine therapy, treat active infections and/or administer appropriate prophylactic treatment in patients who have a history of infection; promptly treat patients who develop an infection during therapy. Infection (6%; grade 3 and 4, 2%), nasopharyngitis (7%), and herpes simplex infection (3%) occurred in patients who received bendamustine (n = 153) for the first-line treatment of chronic lymphocytic leukemia in a randomized active-control trial. Additionally, herpes zoster infection (10%; grade 3 and 4, 3%), upper respiratory tract infection (10%), urinary tract infection (10%; grade 3 and 4, 2%), sinusitis (9%), pneumonia (8%; grade 3 and 4, 5%), oral candidiasis (6%; grade 3 and 4, 1%), and nasopharyngitis (6%) were reported with bendamustine use in pooled results from 2 single-arm studies in 176 patients with indolent B-cell non-Hodgkin lymphoma.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      pharyngitis
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hepatitis
+      Severity
+      Moderate
+    Headline
+    anemia, hemolysis, leukopenia, lymphopenia, neutropenia, pancytopenia, thrombocytopenia
+    General Information
+    Hematologic toxicity (e.g., leukopenia, neutropenia, lymphopenia, anemia, thrombocytopenia, and hemolysis) has been reported with bendamustine therapy in clinical trials. Complete blood counts were monitored weekly initially in bendamustine-treated patients in clinical trials. Hematologic nadirs were typically observed in the third week of therapy. Bendamustine therapy may need to be dose reduced or delayed for grade 3 or 4 myelotoxicity. Do not administer a new cycle of bendamustine therapy until the absolute neutrophil count is at least 1 x 109 cells/L and the platelet count is at least 75 x 109 cells/L. Decreased hemoglobin concentrations (89%; grade 3 and 4, 13%); decreased platelet (77%; grade 3 and 4, 11%), neutrophil (75%; grade 3 and 4, 43%), lymphocyte (68%; grade 3 and 4, 47%), and leukocyte (61%; grade 3 and 4, 28%) counts occurred in patients who received bendamustine (n = 150) for the first-line treatment of chronic lymphocytic leukemia in a randomized active-control trial. Hematologic toxicity rates were more pronounced in patients with non-Hodgkin's lymphoma (NHL) who received bendamustine in clinical trials. Grade 3 or 4 myelosuppression occurred in 98% of patients; 3 patients (2%) died from myelosuppression-related adverse events including neutropenic sepsis, diffuse alveolar hemorrhage, and pneumonia from an opportunistic infection with CMV. Decreased hemoglobin concentrations (88%; grade 3 and 4, 11%); decreased platelet (86%; grade 3 and 4, 25%), neutrophil (86%; grade 3 and 4, 60%), lymphocyte (99%; grade 3 and 4, 94%), and leukocyte (94%; grade 3 and 4, 56%) counts; and febrile neutropenia (grade 3 and 4, 6%) were reported with bendamustine use in pooled results from 2 single-arm studies in 176 patients with indolent B-cell NHL. Pancytopenia has been reported in postmarketing surveillance of patients who received bendamustine therapy.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      anemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      leukopenia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      lymphopenia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      neutropenia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      thrombocytopenia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hemolysis
+      Severity
+      Moderate
+      GSTerm Name
+      pancytopenia
+      Severity
+      Severe
+    Headline
+    anaphylactoid reactions, chills, fever, infusion-related reactions, pruritus
+    General Information
+    Infusion-related reactions (fever, chills, pruritus, rash) have been commonly reported during therapy with bendamustine in clinical trials. Rarely, anaphylactoid reactions have occurred, usually in the second and subsequent courses of therapy. Fever (24%; grade 3 and 4, 4%), chills (6%), hypersensitivity (5%; grade 3 and 4, 1%), and pruritus (5%) occurred in patients who received bendamustine (n = 153) for the first-line treatment of chronic lymphocytic leukemia in a randomized active-control trial. Fever (34%; grade 3 and 4, 2%), chills (14%), and pruritus (6%) were reported with bendamustine use in pooled results from 2 single-arm studies in 176 patients with indolent B-cell non-Hodgkin lymphoma. Monitor patients for severe reactions after their first course of therapy. For patients who develop grade 1 or 2 reactions, consider premedication with antihistamines, corticosteroids, and antipyretics prior to subsequent treatments. Consider discontinuation of therapy for patients who develop grade 3 or 4 reactions; patients who experienced grade 3 or 4 reactions in clinical trials typically were not rechallenged.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      anaphylactoid reactions
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      chills
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      fever
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      pruritus
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      infusion-related reactions
+      Severity
+      Moderate
+      Incidence From
+    Headline
+    abdominal pain, anorexia, constipation, diarrhea, dyspepsia, gastroesophageal reflux, nausea, stomatitis, vomiting, xerostomia
+    General Information
+    Gastrointestinal adverse reactions including diarrhea (9% to 37%), nausea (8.2% to 75%), and vomiting (16% to 40%) have been reported with bendamustine use in clinical trials. Nausea (20%; grade 3 and 4, less than 1%), vomiting (16%; grade 3 and 4, less than 1%), and diarrhea (9%; grade 3 and 4, 1%) occurred in patients who received bendamustine (n = 153) for the first-line treatment of chronic lymphocytic leukemia (CLL) in a randomized active-control trial. Additionally, nausea (75%; grade 3 and 4, 4%), vomiting (40%; grade 3 and 4, 3%), diarrhea (37%; grade 3 and 4, 3%), constipation (29%; grade 3 and 4, less than 1%), anorexia (23%; grade 3 and 4, 2%), stomatitis (15%; grade 3 and 4, less than 1%), abdominal pain (13%; grade 3 and 4, 1%), decreased appetite (13%; grade 3 and 4, less than 1%), dyspepsia (11%), gastroesophageal reflux (10%), xerostomia (9%; grade 3 and 4, less than 1%), upper abdominal pain (5%), and abdominal distention (5%) were reported with bendamustine use in pooled results from 2 single-arm studies in 176 patients with indolent B-cell non-Hodgkin lymphoma. In an 8-week clinical study in 81 patients with solid tumors and hematologic malignancies (excluding CLL) who received a rapid infusion formulation of bendamustine (Bendeka), nausea was reported in 8.2% of patients during or 1-hour post the infusion and in 10.9% of patients within 24 hours of the infusion.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      diarrhea
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      nausea
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      vomiting
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      constipation
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      stomatitis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      abdominal pain
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      dyspepsia
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      gastroesophageal reflux
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      xerostomia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      anorexia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    hyperuricemia, renal failure, tumor lysis syndrome (TLS)
+    General Information
+    Tumor lysis syndrome (TLS) and acute renal failure have been reported with bendamustine use in clinical trials or in postmarketing reports. Adequate measures should be taken to prevent hyperuricemia and TLS. These may include hydration to maintain adequate volume status, monitoring of blood chemistry (i.e., potassium and uric acid), and the use of allopurinol during the start of bendamustine therapy in patients at high-risk for TLS. The concomitant use of allopurinol and bendamustine may result in an increased risk of severe skin toxicities. Monitor kidney function tests in patients with abnormal kidney function. Use is not recommended in patients with a creatinine clearance of less than 30 mL/min. Onset of TLS typically occurs within the first treatment cycle and lack of intervention may lead to acute renal failure or death. Hyperuricemia (7%; grade 3 and 4, 2%) occurred in patients who received bendamustine (n = 153) for the first-line treatment of chronic lymphocytic leukemia in a randomized active-control trial. Grade 3 or 4 elevated creatinine levels were reported in 2% of patients with indolent B-cell non-Hodgkin lymphoma treated with bendamustine in a pooled analysis of 2 single-arm studies (n = 176).
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hyperuricemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      tumor lysis syndrome
+      Severity
+      Severe
+      GSTerm Name
+      renal failure
+      Severity
+      Severe
+    Headline
+    bullous rash, Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS), hyperhidrosis, night sweats, rash, Stevens-Johnson syndrome, toxic epidermal necrolysis, xerosis
+    General Information
+    Fatal and serious skin rash (e.g., Stevens-Johnson Syndrome, toxic epidermal necrolysis, and drug reaction with eosinophilia and systemic symptoms (DRESS), and bullous rash/exanthema) has been reported in clinical trials and postmarketing safety reports. Closely monitor patients who develop skin reactions; hold or discontinue bendamustine for severe or progressive rash. Rash occurred in 8% (grade 3 and 4, 3%) of patients who received bendamustine (n = 153) for the first-line treatment of chronic lymphocytic leukemia in a randomized active-control trial and in 16% (grade 3 and 4, less than 1%) of patients with indolent B-cell non-Hodgkin lymphoma (NHL) treated with bendamustine in a pooled analysis of 2 single-arm studies (n = 176). Other toxicities experienced by patients with NHL included xerosis (5%), night sweats (5%), and hyperhidrosis (5%). Monitor patients who develop a skin reaction closely; if skin reactions are severe or progressive, bendamustine should be withheld or discontinued.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      rash
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      Stevens-Johnson syndrome
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      toxic epidermal necrolysis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hyperhidrosis
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      night sweats
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      xerosis
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      bullous rash
+      Severity
+      Moderate
+      GSTerm Name
+      Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)
+      Severity
+      Severe
+      Incidence To
+    Headline
+    elevated hepatic enzymes, hyperbilirubinemia
+    General Information
+    Fatal and serious hepatic impairment has been reported with bendamustine use; most cases occurred within the first 3 months of starting therapy. Monitor liver function tests prior to and during bendamustine therapy. Hyperbilirubinemia with or without elevated hepatic enzymes (e.g., increased AST or ALT levels) occurred in 34% (grade 3 or 4, 3%) of patients who received bendamustine (n = 153) for the first-line treatment of chronic lymphocytic leukemia in a randomized active-control trial. Grade 3 or 4 elevated AST and ALT levels occurred in 1% and 3% of patients, respectively. Monitor liver function tests in patients with abnormal hepatic function. Do not administer bendamustine to patients with AST or ALT level of 2.5 to 10 times the ULN and total bilirubin level 1.5 to 3 times the ULN OR total bilirubin level more than 3 times the ULN.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      elevated hepatic enzymes
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hyperbilirubinemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    atrial fibrillation, chest pain (unspecified), heart failure, hypertension, hypertensive crisis, hypotension, myocardial infarction, palpitations, peripheral edema, sinus tachycardia
+    General Information
+    Cardiovascular adverse events have been reported with bendamustine therapy in clinical trials or postmarketing surveillance. Worsening hypertension occurred in 4 patients who received bendamustine (n = 153) for the first-line treatment of chronic lymphocytic leukemia in a randomized active-control trial; 3 of these 4 patients experienced a hypertensive crisis that resolved following treatment with oral medications. Peripheral edema (13%; grade 3 and 4, less than 1%), sinus tachycardia (7%), chest pain (unspecified) (6%; grade 3 and 4, less than 1%), and hypotension (6%; grade 3 and 4, 1%) were reported with bendamustine use in pooled results from 2 single-arm studies in 176 patients with indolent B-cell non-Hodgkin lymphoma. Atrial fibrillation, congestive heart failure (CHF), myocardial infarction (MI), and palpitations have been reported in postmarketing surveillance of patients who received bendamustine therapy; some cases of CHF and MI resulted in death.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      hypertension
+      Severity
+      Moderate
+      Incidence To
+      GSTerm Name
+      hypertensive crisis
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      chest pain (unspecified)
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      hypotension
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      sinus tachycardia
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      peripheral edema
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      heart failure
+      Severity
+      Severe
+      GSTerm Name
+      atrial fibrillation
+      Severity
+      Severe
+      GSTerm Name
+      myocardial infarction
+      Severity
+      Severe
+      GSTerm Name
+      palpitations
+      Severity
+      Moderate
+    Headline
+    leukemia, new primary malignancy, skin cancer
+    General Information
+    New primary malignancy, including myelodysplastic syndrome, myeloproliferative disorders, acute myeloid leukemia, bronchial carcinoma, and non-melanoma skin cancer (including basal cell carcinoma and squamous cell carcinoma), has been reported in patients who have received bendamustine. Monitor patients for the development of secondary malignancies. Perform dermatologic evaluations during and after treatment with bendamustine.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      new primary malignancy
+      Severity
+      Severe
+      GSTerm Name
+      leukemia
+      Severity
+      Severe
+      GSTerm Name
+      skin cancer
+      Severity
+      Severe
+    Headline
+    azoospermia, infertility, spermatogenesis inhibition
+    General Information
+    Spermatogenesis inhibition, azoospermia, and total germinal aplasia have been reported in patients receiving alkylating agents, especially when given in combination with other antineoplastic drugs. Spermatogenesis has returned in some patients in remission several years after intensive chemotherapy was discontinued. Advise patients of the potential risk of infertility prior to beginning treatment with bendamustine.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      infertility
+      Severity
+      Moderate
+      GSTerm Name
+      azoospermia
+      Severity
+      Minor
+      GSTerm Name
+      spermatogenesis inhibition
+      Severity
+      Minor
+    Headline
+    asthenia, fatigue
+    General Information
+    Fatigue has been reported in 5.5% to 57% of patients who received bendamustine in clinical trials. Fatigue occurred in 9% of patients (grade 3 and 4, 1%) who received bendamustine (n = 153) for the first-line treatment of chronic lymphocytic leukemia (CLL) in a randomized active-control trial and in 57% (grade 3 and 4, 11%) of patients with indolent B-cell non-Hodgkin lymphoma (NHL) treated with bendamustine in a pooled analysis of 2 single-arm studies (n = 176). Additionally, asthenia was reported in 8% of CLL patients and in 11% (grade 3 and 4, 2%) of NHL patients. In an 8-week clinical study in 81 patients with solid tumors and hematologic malignancies (excluding CLL) who received a rapid infusion formulation of bendamustine (Bendeka), fatigue was reported in 5.5% of patients during or 1-hour post the infusion and in 8.2% of patients within 24 hours of the infusion.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      asthenia
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      fatigue
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+    Headline
+    erythema, injection site reaction, phlebitis, skin irritation, skin necrosis
+    General Information
+    There have been postmarketing reports of injection site reaction (e.g., erythema, phlebitis, skin irritation, pain, swelling) with IV bendamustine administration. Skin necrosis and extravasation resulting in hospitalization have also occurred with bendamustine use. Infusion site pain (6%) and catheter site pain (5%) were reported with bendamustine use in pooled results from 2 single-arm studies in 176 patients with indolent B-cell non-Hodgkin lymphoma. Caution should be exercised to avoid extravasation of bendamustine including monitoring of the infusion site for redness, swelling, pain, infection, and tissue necrosis both during and after bendamustine infusion.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      skin necrosis
+      Severity
+      Severe
+      GSTerm Name
+      injection site reaction
+      Severity
+      Minor
+      GSTerm Name
+      skin irritation
+      Severity
+      Minor
+      GSTerm Name
+      erythema
+      Severity
+      Moderate
+      GSTerm Name
+      phlebitis
+      Severity
+      Moderate
+    Headline
+    arthralgia, back pain, bone pain
+    General Information
+    Back pain (14%; grade 3 and 4, 3%), arthralgia (6%), pain (6%), extremity pain (5%; grade 3 and 4, 1%), and bone pain (5%) were reported with bendamustine use in pooled results from 2 single-arm studies in 176 patients with indolent B-cell non-Hodgkin lymphoma.
+    Headline
+    dizziness, drowsiness, dysgeusia, headache
+    General Information
+    Central nervous system adverse reactions have been reported with bendamustine use in clinical trials. Headache and somnolence (drowsiness) were reported frequently in patients with chronic lymphocytic leukemia who received bendamustine in clinical studies. Additionally, headache (21%), dizziness (14%), and dysgeusia (7%) occurred with bendamustine use in pooled results from 2 single-arm studies in 176 patients with indolent B-cell non-Hodgkin lymphoma.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      dizziness
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      drowsiness
+      Severity
+      Minor
+      Incidence From
+      GSTerm Name
+      dysgeusia
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      headache
+      Severity
+      Minor
+      Incidence To
+    Headline
+    anxiety, depression, insomnia
+    General Information
+    Insomnia (13%), anxiety (8%; grade 3 and 4, less than 1%), and depression (6%) were reported with bendamustine use in pooled results from 2 single-arm studies in 176 patients with indolent B-cell non-Hodgkin lymphoma.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      anxiety
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      depression
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      insomnia
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+    Headline
+    cough, dyspnea, nasal congestion, pneumonitis, pulmonary fibrosis, wheezing
+    General Information
+    Serious pulmonary toxicity such as pulmonary fibrosis and pneumonitis has been reported with bendamustine therapy in clinical trials or postmarketing surveillance. Cough occurred in 4% (grade 3 or 4, less than 1%) of patients who received bendamustine (n = 153) for the first-line treatment of chronic lymphocytic leukemia in a randomized active-control trial. Additionally, cough (22%; grade 3 and 4, less than 1%), dyspnea (16%; grade 3 and 4, 2%), pharyngolaryngeal pain (8%; grade 3 and 4, less than 1%), wheezing (5%), and nasal congestion (5%) were reported with bendamustine use in pooled results from 2 single-arm studies in 176 patients with indolent B-cell non-Hodgkin lymphoma.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      cough
+      Severity
+      Severe
+      Incidence To
+      GSTerm Name
+      dyspnea
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      nasal congestion
+      Severity
+      Minor
+      Incidence From
+      Incidence To
+      GSTerm Name
+      wheezing
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      pulmonary fibrosis
+      Severity
+      Severe
+      GSTerm Name
+      pneumonitis
+      Severity
+      Moderate
+    Headline
+    dehydration, hyperglycemia, hypocalcemia, hypokalemia, hyponatremia, weight loss
+    General Information
+    Metabolic adverse effects and electrolyte abnormalities have been reported with bendamustine use in clinical trials. Weight loss occurred in 7% of patients who received bendamustine (n = 153) for the first-line treatment of chronic lymphocytic leukemia in a randomized active-control trial. Additionally, weight loss (18%; grade 3 and 4, 2%), dehydration (14%; grade 3 and 4, 5%), hypokalemia (9%; grade 3 and 4, 5%), hyperglycemia (3%), hyponatremia (2%), and hypocalcemia (2%) were reported with bendamustine use in pooled results from 2 single-arm studies in 176 patients with indolent B-cell non-Hodgkin lymphoma.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      dehydration
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hyperglycemia
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypocalcemia
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hypokalemia
+      Severity
+      Severe
+      Incidence From
+      Incidence To
+      GSTerm Name
+      hyponatremia
+      Severity
+      Moderate
+      Incidence From
+      Incidence To
+      GSTerm Name
+      weight loss
+      Severity
+      Severe
+      Incidence To
+    Headline
+    progressive multifocal leukoencephalopathy
+    General Information
+    Progressive multifocal leukoencephalopathy (PML), including fatal cases, has been reported in postmarketing experience in patients treated with bendamustine, primarily in combination with rituximab or obinutuzumab. Consider PML in the differential diagnosis in patients with new or worsening neurological, cognitive, or behavioral signs or symptoms. Hold bendamustine therapy if PML is suspected and perform appropriate diagnostic evaluations. Consider discontinuation or reduction of any concomitant chemotherapy or immunosuppressive therapy in patients who develop PML.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      progressive multifocal leukoencephalopathy
+      Severity
+      Severe
+    Headline
+    nephrogenic diabetes insipidus
+    General Information
+    Nephrogenic diabetes insipidus was reported in postmarketing surveillance of bendamustine.
+    Adverse Reaction GSTerms
+      GSTerm Name
+      nephrogenic diabetes insipidus
+      Severity
+      Severe
+
+Description
+  Text
+  Bendamustine is a mechlorethamine-derivative alkylating agent. It is indicated for the treatment of adults with chronic lymphocytic leukemia or adults with indolent B-cell non-Hodgkin lymphoma that has progressed during or within 6 months of treatment with rituximab or a rituximab-containing regimen. Severe myelosuppression, infection, and anaphylactic reactions have been reported with bendamustine therapy.
+
+Mechanism Of Action
+  Text
+  Bendamustine has a unique chemical structure that provides antimetabolite and alkylating properties. It consists of three primary structural elements, a 2-chloroethylamine group, a benzimidazole ring, and a butyric acid side chain. The 2-chloroethylamine group is responsible for the alkylating properties of bendamustine and is shared with other alkylators in the nitrogen mustard family. The benzimidazole ring is unique to bendamustine and gives the drug antimetabolite function. The butyric acid side-chain is shared with chlorambucil, however the addition of a hydrochloride residue confers water solubility.
+ 
+The mechanism of action of bendamustine is not completely understood, but is thought to consist of several components. Similar to other alkylators, bendamustine is a DNA cross-linking agent which causes DNA single-strand and double-strand breaks. The DNA damage caused by bendamustine however, is more extensive and more durable than damage produced by cisplatin, cyclophosphamide, or carmustine. Bendamustine increases the activation of p53 and p53-dependent genes, a pathway resulting in strong activation of intrinsic apoptosis and previously known to be induced by nitrogen mustard alkylating agents. The activation of this pathway appears to be stronger and more rapidly induced by bendamustine than by either chlorambucil or phosphoramide mustard (metabolite of cyclophosphamide). Bendamustine is also known to inhibit several mitotic checkpoints, which results in mitotic catastrophe, a necrotic form of cell death morphologically distinct from apoptosis that occurs during metaphase. Bendamustine prevents physiologic arrest and repair of DNA damage created by alkylation, causing cells to enter mitosis with DNA damage. Mitotic catastrophe may occur in the presence or absence of the functional pro-apoptotic gene p53, including pre-treated cells refractory to conventional apoptosis mechanisms. The combination of p53 activation and mitotic catastrophe may account for the increase in bendamustine sensitivity in previously chemo-refractory cells. In addition, bendamustine does not appear to induce an alkyltransferase mechanism of DNA repair, a limitation previously shown with chlorambucil, melphalan, and phosphoramide mustard. This suggests that bendamustine is less susceptible to drug resistance based on alkylguanyl transferase expression.
+
+Pharmacokinetics
+  Route Specific Pharmacokinetics
+    Name
+    Intravenous Route
+    Description
+    In a pharmacokinetic (PK) study in 78 adult patients, the mean Cmax and AUC0-24 hr values were 5,746 nanograms (ng)/mL and 7,121 ng x hour/mL, respectively, following a dose of bendamustine 120 mg/m2 IV over 1 hour. Bendamustine is concentration independent over the range of 1 to 50 micrograms/mL. Following a single dose of bendamustine (Bendeka) 120 mg/m2 IV over 10 minutes, the mean Cmax value was 35 (range, 6 to 49) microgram/mL. Minimal accumulation in the plasma is expected after bendamustine administration on days 1 and 2 of a 28-day cycle.
+  Special Populations
+    Name
+    Hepatic Impairment
+    Description
+    Hepatic impairment that is defined as total bilirubin level of less than 1.5 times the ULN and AST/ALT level less than 2.5 times the ULN does not significantly impact the pharmacokinetic (PK) parameters of bendamustine. The effect of more severe hepatic impairment (defined as total bilirubin level of 1.5 to 3 times the ULN and ALT/AST level of 2.5 to 10 times the ULN OR total bilirubin level more than 3 times the ULN) on the PK parameters of bendamustine is unknown.
+    Name
+    Renal Impairment
+    Description
+    Mild to moderate renal impairment (creatinine clearance (CrCl), 30 mL/min or more) does not significantly impact the pharmacokinetic (PK) parameters of bendamustine. The effect of severe renal impairment (CrCl less than 30 mL/min) on the PK parameters of bendamustine is unknown.
+    Name
+    Pediatrics
+    Description
+    The pharmacokinetic parameters of bendamustine were similar in pediatric patients (n = 43; median, 10 years; range, 1 to 19 years) compared with adult patients given the same bendamustine dose based on body surface area.
+    Name
+    Geriatric
+    Description
+    Age (range, 31 to 84 years) does not significantly impact the pharmacokinetic parameters of bendamustine.
+    Name
+    Gender Differences
+    Description
+    Sex does not significantly impact the pharmacokinetic parameters of bendamustine.
+    Name
+    Ethnic Differences
+    Description
+    In a cross-study comparison, Japanese subjects (n = 6) had average exposures that were 40% higher than non-Japanese subjects receiving equivalent doses of bendamustine. The significance of this difference on the safety and efficacy of bendamustine in Japanese patients has not been established.
+  Text
+  Bendamustine is administered intravenously. It is 94% to 96% bound to protein. Bendamustine has a blood to plasma concentration ratio ranging from 0.84 to 0.86 over a concentration range of 10 to 100 micrograms/mL. The mean steady-state volume of distribution is about 20 to 25 L, the intermediate half-life is about 40 minutes, and the clearance is about 700 mL/min following a single dose of bendamustine 120 mg/m2 IV given over 1 hour. Bendamustine is metabolized via hydrolytic, oxidative, and conjugative pathways. In vitro, metabolism mostly occurs via hydrolysis to monohydroxy (HP1) and dihydroxy (HP2) bendamustine metabolites that have low cytotoxic activity and to 2 active but minor metabolites, gamma-hydroxybendamustine (M3) and N-desmethylbendamustine (M4) that are primarily formed via CYP1A2. Plasma concentrations of M3 and M4 are 1/10th and 1/100th that of the parent drug, respectively. The mean terminal elimination half-lives of M3 and M4 are approximately 3 hours and 30 minutes, respectively. Following a radiolabeled bendamustine dose, 76% of the dose was recovered (50% in the urine, 25% in the feces) in cancer patients. In the urine, 3.3% of the dose was parent drug, less than 1% of the dose was M3 and M4 metabolites, and less than 5% of the dose was the HP2 metabolite.
+Affected cytochrome P450 isoenzymes and drug transporters: CYP1A2, P-gp, BCRP
+Bendamustine is a substrate of CYP1A2, P-glycoprotein (P-gp), and breast cancer resistance protein (BCRP). Minor involvement of CYP1A2 in bendamustine elimination suggests a low likelihood of drug-drug interactions with CYP1A2 inhibitors.
+
+Administration
+  General Information
+  For storage information, see the specific product information within the How Supplied section.
+Hazardous Drugs Classification
+NIOSH 2024 List: Table 1
+Observe and exercise appropriate cautions for preparing, handling, and administering solutions of cytotoxic drugs.
+Use double chemotherapy gloves and a protective gown. Prepare in a biological safety cabinet or compounding aseptic containment isolator with a closed system drug transfer device. Eye/face and respiratory protection may be needed during preparation and administration.
+Wash the affected area immediately with soap and water if bendamustine comes into contact with the skin; flush the affected area thoroughly with water bendamustine comes into contact with mucous membranes.
+Emetic Risk
+Moderate
+Administer routine antiemetic prophylaxis prior to treatment.
+Extravasation Risk
+Vesicant
+Administer drug through a central venous line.
+  Route Specific Administrations
+    Administration Details
+      Name
+      Intravenous Administration
+      Description
+      Bendamustine hydrochloride is available as single-dose lyophilized powder vials (Treanda) and multiple-dose solution vials (Bendeka, Belrapzo, and Vivimusta); there are also generic products available.
+Dilution is required prior to administration.
+Recommended dilution solutions, admixture final concentrations and storage, and administration infusion times differ among products; refer to the manufacturer package insert for specific instructions, particularly for generic bendamustine products.
+Reconstitution of Lyophilized Powder Vials
+Add 5 mL Sterile Water for Injection to the 25-mg vial and 20 mL Sterile Water for Injection to the 100-mg vial for a final vial concentration of 5 mg/mL.
+Shake well; the lyophilized powder should completely dissolve in 5 minutes.
+Further dilute the reconstituted vial(s) within 30 minutes.
+Dilution
+If applicable, allow the refrigerated vials to warm to room temperature (15 to 30 degrees C; 59 to 86 degrees F); do not use if solid or particulate matter is present.
+Withdraw the calculated dose/volume from the reconstituted vial (5 mg/mL) or the solution (25 mg/mL) and transfer to an infusion bag containing the recommended volume of 0.9% Sodium Chloride Injection or 2.5% Dextrose/0.45% Sodium Chloride Injection. Bendeka is also compatible with 5% Dextrose injection.
+Treanda: 500 mL; final admixture concentration of 0.2 to 0.6 mg/mL.
+Belrapzo: 500 mL; final admixture concentration of 0.05 to 0.7 mg/mL.
+Vivimusta: 250 mL; final admixture concentration of 0.1 to 1.36 mg/mL.
+Bendeka: 50 mL; final admixture concentration of 0.49 to 5.6 mg/mL.
+Thoroughly mix the contents of the infusion bag.
+Storage of multiple-dose vial: Store in the refrigerator in the original carton (to protect from light) for up to 28 days; do not access the vials for more than 6 dose withdrawals.
+Storage of diluted admixture: Use within 24 hours if stored in the refrigerator (2 to 8 degrees C; 36 to 46 degrees F); refer to the manufacturer package insert for storage at room temperature.
+Intravenous (IV) infusion
+Administer the diluted bendamustine admixture based on manufacturers recommendations.
+Treanda or Belrapzo:
+CLL: 100 mg/m2 dose, infuse IV over 30 minutes
+NHL: 120 mg/m2 dose, infuse IV over 60 minutes.
+Vivimusta: Infuse IV over 20 minutes.
+Bendeka: Infuse IV over 10 minutes.
+Monitor for infusion-related reactions and extravasation during and after administration.
+    Name
+    Injectable Administration
+    Description
+    Visually inspect parenteral products for particulate matter and discoloration prior to administration whenever solution and container permit.
+
+Maximum Dosage Limits
+  Age Groups
+    Name
+    Adults
+    Max Dosage
+    120 mg/m2 IV.
+    Name
+    Geriatric
+    Max Dosage
+    120 mg/m2 IV.
+    Name
+    Adolescents
+    Max Dosage
+    Safety and efficacy have not been established.
+    Name
+    Children
+    Max Dosage
+    Safety and efficacy have not been established.
+    Name
+    Infants
+    Max Dosage
+    Safety and efficacy have not been established.
+
+Dosage Adjustment Guidelines
+  Hepatic Impairment
+  Use not recommended in patients with a total bilirubin level of 1.5 to 3 times the ULN and ALT/AST level of 2.5 to 10 times the ULN OR total bilirubin level more than 3 times the ULN.
+  Renal Impairment
+  Use not recommended in patients with a creatinine clearance of less than 30 mL/min.

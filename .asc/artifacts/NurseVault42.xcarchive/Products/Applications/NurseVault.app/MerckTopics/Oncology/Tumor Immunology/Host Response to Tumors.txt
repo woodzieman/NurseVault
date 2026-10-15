@@ -1,0 +1,118 @@
+=== Host Response to Tumors (Merck Manual Professional) ===
+Section: Oncology > Tumor Immunology
+Source: https://www.merckmanuals.com/professional/oncology/tumor-immunology/host-response-to-tumors
+Retrieved: 2026-09-25
+
+The immune response to foreign antigens, including cancer-associated or cancer-specific antigens, consists of
+
+Humoral mechanisms (eg, antibodies)
+
+Cellular mechanisms
+
+(See also Tumor Antigens.)
+
+The immune response to cancer can also be separated into innate and adaptive immunity, both of which have humoral and cellular components. Innate immunity is the initial, general and non-specific response to pathogens or cancer cells mediated by antibodies and cellular elements including dendritic cells, macrophages, natural killer (NK) cells, and natural killer T (NKT) cells. Thereafter, adaptive immune mechanisms, largely mediated by cytotoxic T lymphocytes, facilitate recognition of distinct tumor antigens as foreign and destruction of tumor cells.
+
+Most humoral responses cannot prevent tumor growth. However, effector cells, such as T cells, macrophages, and natural killer cells, have relatively effective tumoricidal abilities. Effector cell activity is induced by other cells that present tumor-specific antigens (TSAs) or tumor-associated antigens (TAAs) on their surface (these cells are called antigen-presenting cells) and is supported by cytokines (eg, interleukins, interferons). Despite the activity of effector cells, host immunoreactivity may fail to control tumor occurrence and growth.
+
+Cellular Immunity
+
+The T cell is the primary cell responsible for direct recognition and killing of tumor cells. T cells carry out immunologic surveillance, then proliferate and destroy newly transformed tumor cells after recognizing TAAs. The T-cell response to tumors is modulated by other cells of the immune system; some cells require the presence of humoral antibodies directed against the tumor cells (antibody-dependent cellular cytotoxicity) to initiate the interactions that lead to the death of tumor cells. In contrast, suppressor T cells inhibit the immune response against tumors.
+
+Cytotoxic T lymphocytes (CTLs) recognize antigens on target cells and lyse these cells. These antigens may be cell surface proteins or may be intracellular proteins (eg, TAAs) that are expressed on the surface in combination with class I major histocompatibility complex (MHC) molecules. Tumor-specific CTLs have been found in
+
+Breast cancer
+
+Cervical cancer
+
+Colon cancer
+
+Endometrial cancer
+
+Kidney cancer
+
+Lung cancer
+
+Melanoma
+
+Nasopharyngeal cancer
+
+Neuroblastoma
+
+Sarcomas
+
+Ovarian cancer
+
+Testicular cancer
+
+Natural killer (NK) cells are another population of effector T cells with anti-cancer activity. In contrast to CTLs, NK cells lack antigen receptors but can recognize normal cells infected with viruses and cancer cells. Their tumoricidal activity is termed natural because it is not induced by a specific antigen. The mechanism by which NK cells discriminate between normal and abnormal cells is under study. Evidence suggests that class I MHC molecules on the surface of normal cells inhibit NK cells and prevent lysis (1). Thus, the decreased level of class I molecule expression characteristic of many tumor cells may allow activation of NK cells and subsequent tumor lysis.
+
+Natural killer T (NKT) cells are specialized CD1d-restricted T cells that recognize lipid antigens. CD1d is a member of the CD1 (cluster of differentiation 1) group of glycoproteins on the surface of human antigen-presenting cells. Following stimulation, NKT cells lead to activation of both innate and adaptive immune cells in the tumor microenvironment. NKT cells are innate-like T cells that quickly respond to antigenic stimulation and rapidly produce large amounts of cytokines and chemokines.
+
+Macrophages can kill specific tumor cells when activated by a combination of factors, including lymphokines (soluble factors produced by T cells) and interferon. They are less effective than T-cell–mediated cytotoxic mechanisms. Under certain circumstances, macrophages may present TAAs to T cells and stimulate tumor-specific immune response. There are 2 polarized states of tumor-associated macrophages (TAM):
+
+TAM-1 (M1) cells facilitate killing of tumors by T cells
+
+TAM-2 (M2) cells promote tumor tolerance
+
+M1 and M2 are considered to exist on a continuum until they maximally differentiate (polarize) into M1 and M2. Polarization can vary over time and depends on their location inside the tumor (more or less hypoxic areas), the stage and type of cancer, and prior treatment
+
+Dendritic cells are dedicated antigen-presenting cells present in barrier tissues (eg, skin, lymph nodes). They play a central role in initiation of the tumor-specific immune response. These cells take up tumor-associated proteins, process them, and present the TAAs to T cells to stimulate the CTL response against tumor. Several classes of dendritic cells can mediate tumor promotion or suppression.
+
+Lymphokines produced by immune cells stimulate growth or induce activities of other immune cells. Such lymphokines include interleukin-2 (IL-2), also known as T-cell growth factor, and the interferons. IL-12 is produced by dendritic cells and specifically induces CTLs, thereby enhancing antitumor immune responses.
+
+Regulatory T cells are normally present in the body and help prevent autoimmune reactions. They are produced during the active phase of immune responses to pathogens and limit strong immune responses that could damage the host. Accumulation of these cells in cancers inhibits antitumor immune responses.
+
+Myeloid-derived suppressor cells consist of immature myeloid cells and their precursors. These cells increase in number in cancer as well as in inflammation and infection. The cells have potent immune suppressive activity. Two populations of these cells are recognized:
+
+Granulocytic
+
+Monocytic
+
+Myeloid-derived suppressor cells accumulate in large numbers in cancers and predict poor clinical outcomes in various types of cancer.
+
+Cellular immunity reference
+
+1. Paul S, Lal G: The Molecular Mechanism of Natural Killer Cells Function and Its Importance in Cancer Immunotherapy. Front Immunol 8:1124, 2017. doi:10.3389/fimmu.2017.01124
+
+Humoral Immunity
+
+In contrast to T-cell cytotoxic immunity, humoral antibodies do not appear to confer significant protection against cancer. Most antibodies cannot recognize TAAs. Regardless, humoral antibodies that react with tumor cells in vitro have been detected in the sera of patients with various tumors, including
+
+Breast cancer
+
+Gastrointestinal tract cancers
+
+Lymphomas
+
+Lung cancers
+
+Melanoma
+
+Neuroblastoma
+
+Osteosarcoma
+
+Plasma cell myeloma
+
+Cytotoxic antibodies are directed against surface antigens of tumor cells. These antibodies can exert anti-tumor effects through complement fixation or by serving as a flag for destruction of tumor cells by T cells (antibody-dependent cell-mediated cytotoxicity). Another population of humoral antibodies, called enhancing antibodies (blocking antibodies), may actually favor rather than inhibit tumor growth. The mechanisms and relative importance of such immunologic enhancement are not well understood. Antibodies that deliver conjugated toxins to tumor cells to selectively target tumor cells are being tested (1, 2).
+
+Humoral immunity references
+
+1. Dumontet C, Reichert JM, Senter PD, Lambert JM, Beck A: Antibody-drug conjugates come of age in oncology. Nat Rev Drug Discov 22(8):641–661, 2023. doi:10.1038/s41573-023-00709-2
+
+2. Tsuchikama K, Anami Y, Ha SYY, Yamazaki CM: Exploring the next generation of antibody-drug conjugates. Nat Rev Clin Oncol 21(3):203–223, 2024. doi:10.1038/s41571-023-00850-2
+
+Failure of Host Defenses
+
+Although some tumors are eliminated by the immune system (and thus are never detected), others continue to grow despite immune surveillance. Several mechanisms are proposed to explain this deficient host response to the cancer, including the following:
+
+Specific immunologic tolerance to TAAs in a process that involves antigen-presenting cells and suppressor T cells, possibly secondary to prenatal exposure to the antigen
+
+Suppression of immune response by chemical, physical, or viral agents (eg, helper T-cell destruction by human immunodeficiency virus [HIV])
+
+Suppression of the immune response by cytotoxic drugs or radiation
+
+Suppression of the immune response by the tumor itself through various complex mechanisms that cause various problems, including decreased T-cell, B-cell, and antigen-presenting cell function, decreased IL-2 production, generation of exhausted T cells, and increased circulating soluble IL-2 receptors (which bind and inactivate IL-2)
+
+Presence and activity of TAM-2 (M2) polarized cells, myeloid-derived suppressor cells, and regulatory T cells, promoting tolerance

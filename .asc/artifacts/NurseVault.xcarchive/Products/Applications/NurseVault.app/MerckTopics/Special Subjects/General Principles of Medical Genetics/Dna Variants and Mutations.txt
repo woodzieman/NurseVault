@@ -1,0 +1,72 @@
+=== DNA Variants and Mutations (Merck Manual Professional) ===
+Section: Special Subjects > General Principles of Medical Genetics
+Source: https://www.merckmanuals.com/professional/special-subjects/general-principles-of-medical-genetics/dna-variants-and-mutations
+Retrieved: 2026-09-25
+
+Certain situations represent aberrant inheritance, often because genes or chromosomes are altered. However, some of these alterations, such as mosaicism, are very common; others, such as polymorphisms, are so common that they may be considered normal variants.
+
+Mutations and polymorphisms
+
+Variations in DNA can occur spontaneously or in response to cellular insults (eg, radiation, mutagenic drugs, viruses). Some variations are repaired by the cell’s inbuilt DNA error-correction mechanisms. However, some variations cannot be corrected at this stage and can be passed on to subsequently replicated cells; in such cases, the variation is termed a mutation. However, offspring can inherit the mutation only if germ cells are affected. Mutations may be unique to an individual or family. Most mutations are rare.
+
+Polymorphisms begin as in 1 or more individuals' mutations and then are inherited by offspring. They are variations in DNA that have become common in a population (prevalence of ≥ 1%) through sufficient propagation or other mechanisms. Most polymorphisms are stable and do not noticeably change phenotype. A common example is human blood groups (A, B, AB, and O).
+
+Mutations (including polymorphisms) involve random changes in DNA. Many mutations have little effect on cell function. Some mutations can change cell function, often in a detrimental way, and some are lethal to the cell. Examples of detrimental changes in cell function are mutations that cause cancer by creating or activating oncogenes or altering tumor suppressor genes (see Molecular Abnormalities). Rarely, a change in cell function confers a survival advantage. These mutations are more likely to be propagated. The mutation causing sickle cell disease confers resistance to malaria. This resistance conferred a survival advantage in areas where malaria was endemic and often fatal. However, by causing symptoms and complications of sickle cell disease, the mutation also has harmful effects that are usually expressed in the homozygous state.
+
+When and in what cell type mutations occur can explain certain abnormalities in inheritance patterns. Typically, an autosomal dominant disorder is expected to be present in one or both parents of an affected person. However, some disorders with autosomal dominant inheritance can appear de novo (in people whose parents have a normal phenotype). For example, approximately 80% of people with achondroplastic dwarfism have no family history of dwarfism and thus represent new (de novo) mutations. In many of these people, the mechanism is a spontaneous mutation occurring early in their embryonic life. Thus, other offspring have no increased risk of the disorder. However, in some of them, the disorder develops because of a germ cell mutation in their parents (eg, an autosomal dominant gene in a phenotypically normal parent). If so, other offspring have an increased risk of inheriting the mutation.
+
+Mosaicism
+
+Mosaicism occurs when a person originating from a single fertilized egg develops ≥ 2 cell lines differing in genotype.
+
+Mosaicism is a normal consequence of X inactivation in females; in most females, some cells have an inactive maternal X, and other cells have an inactive paternal X. Mosaicism can also result from mutations. Mutations are likely to occur during cell division in any large multicellular organism; each time a cell divides, 1 or 2 mutational changes are estimated to occur in the DNA (1). Because these changes can be passed on to subsequently produced cells, large multicellular organisms have subclones of cells that have slightly different genotypes.
+
+Mosaicism may be recognized as the cause of disorders in which patchy changes occur. For example, McCune-Albright syndrome is associated with patchy dysplastic changes in the bone, endocrine gland abnormalities, patchy pigmentary changes, and occasionally heart or liver abnormalities. Occurrence of the McCune-Albright mutation in all cells would cause early death; however, people with mosaicism survive because normal tissue supports the abnormal tissue. Occasionally, a parent with a single-gene disorder seems to have a mild form but actually represents a mosaic; the parent’s offspring is more severely affected if they receive a germ cell with the mutant allele and thus have the abnormality in every cell.
+
+Chromosomal abnormalities are most often fatal to the fetus. However, chromosomal mosaicism occurs in some embryos, resulting in some chromosomally normal cells, which can allow offspring to be born alive. Chromosomal mosaicism can be detected with prenatal genetic testing, particularly chorionic villus sampling.
+
+Extra or missing chromosomes
+
+Abnormal numbers of autosomes (chromosomes that are not sex chromosomes) usually result in severe abnormalities. This condition is also called aneuploidy. For example, extra autosomes typically cause abnormalities such as Down syndrome and other severe syndromes; they can also be fatal to the fetus, causing recurrent spontaneous miscarriages in the first trimester. Absence of an autosome is generally fatal to the fetus. Chromosomal abnormalities can usually be diagnosed before birth.
+
+Because of X chromosome inactivation, having an abnormal number of X chromosomes is usually much less detrimental than having an abnormal number of autosomes. For example, the abnormalities resulting from the absence of one X chromosome are usually relatively minor (eg, in Turner syndrome). Also, females with 3 X chromosomes (trisomy X) are often physically and mentally normal; only one X chromosome of genetic material is fully active even if a female has > 2 X chromosomes (the extra X chromosomes are usually partly inactivated).
+
+Uniparental disomy
+
+Uniparental disomy occurs when both chromosome pairs have been inherited from only 1 parent.
+
+This results in an individual having 2 copies of a particular chromosome from 1 parent and none from the other. It is very rare and is thought to involve trisomy rescue; ie, the zygote started off as a trisomy (having 3 instead of 2 of a particular chromosome) and one of the 3 was lost, a process that leads to uniparental disomy when the 2 chromosomes that remain are from the same parent (in about one-third of cases).
+
+Uniparental disomy may cause abnormal phenotypes and inheritance patterns. For example, if duplicates of the same chromosome (isodisomy) are present and carry an abnormal allele for an autosomal recessive disorder, affected people can express phenotypic manifestations of an autosomal recessive disorder even though only 1 parent is a carrier. Uniparental disomy can result in an imprinting disorder when the disomic chromosome results in the loss of appropriate expression of a critically imprinted region (eg, Prader-Willi syndrome may result from maternal isodisomy of chromosome 15).
+
+Chromosomal translocation
+
+Chromosomal translocation is the exchange of chromosomal parts between nonpaired (nonhomologous) chromosomes.
+
+If chromosomes exchange equal parts of genetic material, the translocation is described as balanced. Unbalanced translocations result in loss of chromosomal material, usually the short arms of 2 fused chromosomes, leaving only 45 chromosomes remaining.
+
+Most people with translocations are phenotypically normal. However, translocations may cause or contribute to leukemia (acute myelocytic leukemia [AML] or chronic myelogenous leukemia [CML]) or Down syndrome. (Although most commonly caused by trisomy of chromosome 21, Down syndrome can also be caused rarely by translocations of genetic material from chromosome 21 to chromosome 14). Translocations may increase the risk of chromosomal abnormalities in offspring, particularly in the case of unbalanced translocations. Because chromosomal abnormalities are often fatal to an embryo or a fetus, a parental translocation may result in unexplained recurrent spontaneous abortions or infertility.
+
+Triplet repeat disorders (trinucleotide repeat disorders)
+
+A triplet repeat disorder results when a triplet of nucleotides is repeated an abnormal number of times within a gene (sometimes up to several hundred times).
+
+The number of triplets may increase when the gene is transmitted from one generation to the next or as cells divide within the body. When triplets increase enough, genes stop functioning normally or produce abnormal protein products. Triplet repeat disorders are infrequent but cause several neurologic disorders (eg, myotonic dystrophy, Fragile X syndrome), particularly those involving the central nervous system (eg, Huntington disease). Triplet repeat disorders can be detected by techniques that analyze DNA, such as specialized polymerase chain reaction (PCR) techniques, fluorescence in situ hybridization (FISH), or Southern blotting, or whole-exome sequencing and next-generation sequencing.
+
+Anticipation
+
+Anticipation occurs when a disorder has an earlier age of onset and is expressed more severely in each successive generation. Anticipation may occur when a parent is a mosaic and the child has the full mutation in all cells. It may also occur in triplet repeat disorders when the number of repeats and thus the severity of gene dysfunction increase with each generation.
+
+Key Points
+
+An apparently autosomal dominant mutation can arise spontaneously and thus may not indicate increased risk in siblings.
+
+Patchy changes in disorders may reflect mosaicism.
+
+Chromosomal translocations may have no phenotypic effects or may result in leukemias, Down syndrome, spontaneous abortions, or chromosomal abnormalities in offspring.
+
+Inherited disorders may become more severe and begin earlier in life with successive generations, sometimes because of triplet repeat disorders.
+
+Reference
+
+1. Werner B, Case J, Williams MJ, et al. Measuring single cell divisions in human tissues from multi-region sequencing data. Nat Commun. 2020;11(1):1035. Published 2020 Feb 25. doi:10.1038/s41467-020-14844-6

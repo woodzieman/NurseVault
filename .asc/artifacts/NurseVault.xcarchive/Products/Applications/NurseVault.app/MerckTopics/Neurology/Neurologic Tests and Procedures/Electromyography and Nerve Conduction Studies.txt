@@ -1,0 +1,22 @@
+=== Electromyography and Nerve Conduction Studies (Merck Manual Professional) ===
+Section: Neurology > Neurologic Tests and Procedures
+Source: https://www.merckmanuals.com/professional/neurologic-disorders/neurologic-tests-and-procedures/electromyography-and-nerve-conduction-studies
+Retrieved: 2026-09-25
+
+When determining whether weakness is due to a nerve, muscle, or neuromuscular junction disorder is clinically difficult, these studies can identify the affected nerves and muscles.
+
+Electromyography
+
+In electromyography (EMG), a needle is inserted into a muscle, and electrical activity is recorded while the muscle is at rest and when contracting. Normally, resting muscle is electrically silent; with minimal contraction, action potentials of single motor units appear. As contraction increases, the number of muscle action potentials increases, forming an interference pattern.
+
+Denervated muscle fibers are recognized by increased activity with needle insertion and abnormal spontaneous activity (fibrillations and fasciculations); fewer motor units are recruited during contraction, producing a reduced interference pattern. Surviving axons branch to innervate adjacent muscle fibers, enlarging the motor unit and producing giant muscle action potentials.
+
+In muscle disorders, individual fibers are affected without regard to their motor units; thus, amplitude of their potentials is diminished, but the interference pattern remains full.
+
+Nerve conduction studies
+
+In nerve conduction studies, a peripheral nerve is stimulated with electrical shocks at several points along its course to a muscle, and the time to initiation of contraction is recorded. The time an impulse takes to traverse a measured length of nerve determines conduction velocity. The time required to traverse the segment nearest the muscle is called distal latency. Similar measurements can be made for sensory nerves. In general, nerve conduction is much faster in larger myelinated nerves than in unmyelinated and thinly myelinated nerves. Thus, conduction velocity is slowed more when larger myelinated fibers are damaged. When unmyelinated axons are damaged, the amplitude of the action potential is decreased, but conduction velocity is relatively unimpaired.
+
+In neuropathy, conduction is often slowed, and the response pattern may show a dispersion of action potentials due to unequal involvement of myelinated and unmyelinated nerve fibers. When a specific neuropathy primarily affects large myelinated fibers, the predominant effect is a decrease in conduction velocity. However, when neuropathies affect only small umyelinated or thinly myelinated fibers (or when weakness is due to a muscle disorder), the amplitude of action potentials is decreased and nerve conduction velocities are typically normal.
+
+A nerve can be repeatedly stimulated to evaluate the neuromuscular junction for fatigability; eg, a progressive decremental response occurs in myasthenia gravis. Techniques focusing on single-fiber conduction may be more sensitive for detecting changes associated with neuromuscular junction disorders such as myasthenia gravis.

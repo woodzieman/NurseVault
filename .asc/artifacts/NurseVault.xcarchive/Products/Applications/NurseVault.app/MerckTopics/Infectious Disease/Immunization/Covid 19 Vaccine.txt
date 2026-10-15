@@ -1,0 +1,118 @@
+=== COVID-19 Vaccine (Merck Manual Professional) ===
+Section: Infectious Disease > Immunization
+Source: https://www.merckmanuals.com/professional/infectious-diseases/immunization/covid-19-vaccine
+Retrieved: 2026-09-25
+
+COVID-19 vaccines provide protection against COVID-19, the infection caused by the SARS-CoV-2 virus. Vaccination remains the most effective strategy to prevent severe illness and death from SARS-CoV-2 infection.
+
+There are multiple COVID-19 vaccines currently in use worldwide.
+
+(See also Overview of Immunization and COVID-19.)
+
+Preparations of COVID-19 Vaccine
+
+There are 3 SARS-CoV-2 virus (COVID-19) mRNA vaccines for COVID-19 used in the United States. The mRNA vaccines do not contain viral antigen but rather deliver a small, synthetic piece of mRNA that encodes for the desired target antigen (the spike protein). After being taken up by cells of the immune system, the vaccine mRNA degrades after instructing the cell to produce viral antigen. The antigen is then released and triggers the desired immune response to prevent severe infection upon subsequent exposure to the actual virus.
+
+There is 1 SARS-CoV-2 virus (COVID-19) recombinant spike protein nanoparticle vaccine for COVID-19 used in the United States. Protein subunit adjuvanted vaccines contain a recombinant SARS-COV-2 spike protein along with an adjuvant that triggers the desired immune response. This is a classic vaccine approach that has been used in the United States for over 30 years.
+
+Adenovirus vector vaccines contain a piece of the DNA that is used to make the distinctive “spike” protein of the SARS-CoV-2 virus, which then triggers the desired immune response. However, the adenovirus vector vaccine (Ad26.COV2.S) is not available for use in the United States because of the risk of serious adverse effects. There is a plausible causal relationship between the adenovirus vector vaccine and the rare and serious adverse event vaccine-induced immune thrombosis with thrombocytopenia (VITT).
+
+Indications for COVID-19 Vaccine
+
+The COVID-19 vaccines are indicated for the prevention of infection caused by SARS-CoV-2 virus. Guidance on COVID-19 vaccination evolves over time, and various expert organizations issue differing recommendations. See Centers for Disease Control and Prevention (CDC), American Academy of Pediatrics (AAP), American Academy of Family Physicians (AFFP), American College of Obstetrics and Gynecology ACOG, and World Health Organization (WHO) for specific recommendations and further information. 
+
+Contraindications and Precautions for COVID-19 Vaccine
+
+Contraindications for COVID-19 vaccines are the following:
+
+Severe allergic reaction after a previous dose of any vaccine
+
+Severe allergic reaction to a vaccine component
+
+Precautions for COVID-19 vaccines include the following:
+
+Acute anaphylactic reaction immediately after a dose
+
+Immunocompromise, including due to immunosuppressant therapy
+
+Moderate or severe illness, with or without fever
+
+History of multisystem inflammatory syndrome in children (MIS-C) or multisystem inflammatory syndrome in adults (MIS-A)
+
+History of myocarditis or pericarditis within 3 weeks after a dose of any COVID-19 vaccine
+
+Appropriate medical treatment to manage immediate allergic reactions must be immediately available in the event an acute anaphylactic reaction occurs after any COVID-19 vaccine is administered. COVID-19 vaccine recipients should be monitored for immediate adverse reactions.
+
+Immunocompromised people, including those receiving immunosuppressant therapy, may have a diminished immune response to these vaccines.
+
+The U.S. Food and Drug Administration (FDA) has issued a warning regarding reports of myocarditis and pericarditis after administration of COVID-19 vaccines, suggesting there may be an increased risk of these events after vaccination (1). The observed risk is highest in young males. Vaccine recipients should seek medical attention right away if they have chest pain, dyspnea, tachycardia, or palpitations after vaccination. Although some people have required intensive care, data from short-term follow-up studies suggest that symptoms usually resolved with conservative management.
+
+Contraindications and precautions reference
+
+1. CDC. Clinical Considerations: Myocarditis and Pericarditis after Receipt of COVID-19 Vaccines Among Adolescents and Young Adults. October 2023.
+
+Dose and Administration of COVID-19 Vaccine
+
+For COVID-19 vaccines available for use in the United States, all dose and administration information for all age groups and people with special conditions is available from the CDC, AAP, and AAFP (1–3).
+
+COVID-19 vaccine doses should be administered by the intramuscular route.
+
+Dose and administration references
+
+1. Centers for Disease Control and Prevention (CDC). Advisory Committee on Immunization Practices (ACIP) Recommendations. Accessed September 23, 2025.
+
+2. American Academy of Pediatrics (AAP). AAP Immunization Schedule. Accessed September 23, 2025.
+
+3. American Academy of Family Physicians (AAFP). COVID-19 Vaccine: Fall 2025-26 Immunization Recommendations. Accessed September 23, 2025.
+
+Adverse Effects of COVID-19 Vaccine
+
+The COVID-19 vaccines all have similar adverse effects.
+
+Rare, severe allergic reactions, including anaphylaxis, have been reported.
+
+Other adverse effects are common and may include:
+
+Injection site pain, swelling, and erythema
+
+Fatigue
+
+Headache
+
+Muscle and joint pains
+
+Fever and chills
+
+Nausea and vomiting
+
+Malaise
+
+Lymphadenopathy
+
+Adverse effects tend to last for several days.
+
+Reactive lymphadenopathy may occur after COVID-19 vaccination and may result in a false-positive reading on mammography (1). Multiple studies have been performed, and routine screening mammography should not be delayed after COVID vaccination (2, 3).
+
+For more information about adverse effects of these vaccines, refer to the prescribing information.
+
+Adverse effects references
+
+1. Lamb LR, Mercaldo SF, Carney A, Leyva A, D'Alessandro HA, Lehman CD. Incidence, Timing, and Long-Term Outcomes of COVID-19 Vaccine-Related Lymphadenopathy on Screening Mammography. J Am Coll Radiol. 2024;21(9):1477-1488. doi:10.1016/j.jacr.2024.02.032
+
+2. Hao M, Edmonds CE, Nachiappan AC, Conant EF, Zuckerman SP. Management Strategies for Patients Presenting With Symptomatic Lymphadenopathy and Breast Edema After Recent COVID-19 Vaccination. AJR Am J Roentgenol. 2022;218(6):970-976. doi:10.2214/AJR.21.27118
+
+3. Zhang M, Ahn RW, Hayes JC, Seiler SJ, Mootz AR, Porembka JH. Axillary Lymphadenopathy in the COVID-19 Era: What the Radiologist Needs to Know. Radiographics. 2022;42(7):1897-1911. doi:10.1148/rg.220045
+
+More Information
+
+The following English-language resources may be useful. Please note that The Manual is not responsible for the content of these resources.
+
+Advisory Committee on Immunization Practices (ACIP): ACIP Recommendations: COVID-19 Vaccine
+
+Centers for Disease Control and Prevention (CDC): Coronavirus Disease 2019 (COVID-19) Vaccine Safety
+
+American Academy of Pediatrics (AAP): Recommended Child and Adolescent Immunization Schedule for Ages 18 Years or Younger
+
+American Academy of Family Physicians (AAFP): COVID-19 Vaccine: Fall 2025-26 Immunization Recommendations
+
+European Centre for Disease Prevention and Control (ECDC): Coronavirus Disease (COVID-19): Recommended vaccinations

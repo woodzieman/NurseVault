@@ -45,10 +45,14 @@ public final class WatchMerckLibrary {
             isLoading = false
             if built.isEmpty {
                 isMissing = true
+                #if DEBUG
                 NSLog("NurseVault (watch merck): index loaded 0 entries — resource unavailable; search will return nothing.")
+                #endif
             } else {
                 entries = built
+                #if DEBUG
                 NSLog("NurseVault (watch merck): index loaded \(built.count) topics.")
+                #endif
             }
         }
     }
@@ -59,13 +63,17 @@ public final class WatchMerckLibrary {
             let url = WatchIndexBundle.indexURL(base: "WatchMerckIndex", ext: "txt.zlib"),
             let compressed = try? Data(contentsOf: url)
         else {
+            #if DEBUG
             NSLog("NurseVault (watch merck): could not locate WatchMerckIndex.txt.zlib in any bundle.")
+            #endif
             return []
         }
         guard let decompressed = try? (compressed as NSData).decompressed(using: .zlib) as Data?, 
               let content = String(data: decompressed, encoding: .utf8)
         else {
+            #if DEBUG
             NSLog("NurseVault (watch merck): zlib decompression of the Merck index failed.")
+            #endif
             return []
         }
 

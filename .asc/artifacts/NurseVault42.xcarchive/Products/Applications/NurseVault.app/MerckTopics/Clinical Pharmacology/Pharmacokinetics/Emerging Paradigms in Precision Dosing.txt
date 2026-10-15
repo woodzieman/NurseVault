@@ -1,0 +1,40 @@
+=== Emerging Paradigms in Precision Dosing (Merck Manual Professional) ===
+Section: Clinical Pharmacology > Pharmacokinetics
+Source: https://www.merckmanuals.com/professional/clinical-pharmacology/pharmacokinetics/emerging-paradigms-in-precision-dosing
+Retrieved: 2026-09-25
+
+Physiologically-based pharmacokinetic modeling (PBPK) can be used to inform precision drug dosing by providing a mechanistic framework for the body as a system of physiologic processes among interconnected organ compartments. PBPK enables prediction of drug disposition across doses and special populations. PBPK models extrapolate from available in vitro and in vivo data to characterize absorption, distribution, metabolism, and excretion. Results from PBPK are increasingly accepted by regulatory agencies for dose optimization, special population guidance, and drug-drug interaction assessment.
+
+Bayesian methods enhance precision dosing by combining population pharmacokinetic models with results of drug monitoring in individual patients to enable early dose optimization, adaptive feedback control, and integration of patient-specific covariates such as renal function. Bayesian estimation has been incorporated into dosing guidelines for drugs with narrow therapeutic indices (eg, vancomycin) (1, 2). Current vancomycin dosing guidelines, incorporating this methodology, have demonstrated significant clinical utility, particularly in pediatric populations where weighted and flattened Bayesian algorithms enhance individualized dose determinations (1, 2). 
+
+Machine learning and artificial intelligence (AI) applications (eg, tree-based models, boosting algorithms, neural networks, deep learning approaches) complement traditional pharmacometric approaches by identifying nonlinear relationships in complex, high-dimensional data (3, 4, 5). Applications span exposure prediction, dose optimization, clinical decision support, and drug modeling, particularly in the setting of high variability (5, 6). Modern precision dosing strategies increasingly integrate drug modeling, Bayesian estimation, and machine learning approaches (3, 7). Real-time individualized therapy within clinical decision support systems optimizes dosing strategies in clinical settings using continuously evolving patient-specific data (8, 9, 10). 
+
+Patients with high pharmacokinetic variability and those underrepresented in clinical trials derive the greatest benefit from integrating machine learning into pharmacokinetic modeling, including critically-ill patients, pediatric populations, individuals with obesity or organ impairment, and recipients of drugs with narrow therapeutic windows (4, 5, 6, 11, 12, 13).
+
+References
+
+1. Pham HT, Nguyen CT, Nguyen TTN, et al. Predictive Performance of Bayesian Methods to Forecast Vancomycin Concentration for Therapeutic Drug Monitoring in Critically Ill Pediatric Patients. Pharmaceutics. 2026;18(2):160. Published 2026 Jan 26. doi:10.3390/pharmaceutics18020160
+
+2. Le J, Bradley JS. Optimizing Antibiotic Drug Therapy in Pediatrics: Current State and Future Needs. J Clin Pharmacol. 2018;58 Suppl 10:S108-S122. doi:10.1002/jcph.1128
+
+3. Le J, Le HN, Nguyen G, et al. Model-Informed Precision Dosing: Conceptual Framework for Therapeutic Drug Monitoring Integrating Machine Learning and Artificial Intelligence Within Population Health Informatics. J Pers Med. 2026;16(2):76. Published 2026 Jan 31. doi:10.3390/jpm16020076
+
+4. Li QY, Tang BH, Wu YE, et al. Machine Learning: A New Approach for Dose Individualization. Clin Pharmacol Ther. 2024;115(4):727-744. doi:10.1002/cpt.3049
+
+5. Poweleit EA, Vinks AA, Mizuno T. Artificial Intelligence and Machine Learning Approaches to Facilitate Therapeutic Drug Management and Model-Informed Precision Dosing. Ther Drug Monit. 2023;45(2):143-150. doi:10.1097/FTD.0000000000001078
+
+6. Mao B, Gao Y, Xu C, et al. Opportunities for AI-based Model-informed Drug Development: A Comparative Analysis of NONMEM and AI-based Models for Population Pharmacokinetic Prediction. AAPS J. 2025;28(1):21. Published 2025 Nov 18. doi:10.1208/s12248-025-01121-x
+
+7. Wang W, Wang N, Wu Y, et al. An Integrated AI-PBPK Platform for Predicting Drug In Vivo Fate and Tissue Distribution in Human and Inter-Species Extrapolation. Clin Pharmacol Ther. 2025;118(4):865-875. doi:10.1002/cpt.3732
+
+8. Hai Le B, Phung CK, Yip O, et al. Model-Informed Precision Dosing of Vancomycin in Vietnamese Children: Innovative Midpoint Concentration Monitoring Using 2 Bayesian Programs. Ther Drug Monit. 2025;47(5):603-608. doi:10.1097/FTD.0000000000001323
+
+9. Mizuno T, Dong M, Taylor ZL, et al. Clinical implementation of pharmacogenetics and model-informed precision dosing to improve patient care. Br J Clin Pharmacol. 2022;88(4):1418-1426. doi:10.1111/bcp.14426
+
+10. Del Valle-Moreno P, Suarez-Casillas P, Mejías-Trueba M, et al. Model-Informed Precision Dosing Software Tools for Dosage Regimen Individualization: A Scoping Review. Pharmaceutics. 2023;15(7):1859. Published 2023 Jul 1. doi:10.3390/pharmaceutics15071859
+
+11. Methaneethorn J, Duangchaemkarn K, Reisfeld B, et al. Methodological Techniques Used in Machine Learning to Support Individualized Drug Dosing Regimens Based on Pharmacokinetic Data: A Scoping Review. Clin Pharmacokinet. 2025;64(9):1295-1330. doi:10.1007/s40262-025-01547-8
+
+12. Le J, Huynh J, Vo B, et al. Variability in Meropenem Distribution and Clearance in Children with Sepsis: Population-Based Pharmacokinetics with Assessment of Renal Biomarkers. Clin Pharmacokinet. 2025;64(5):769-777. doi:10.1007/s40262-025-01495-3
+
+13. Natale S, Bradley J, Nguyen WH, et al. Pediatric Obesity: Pharmacokinetic Alterations and Effects on Antimicrobial Dosing. Pharmacotherapy. 2017;37(3):361-378. doi:10.1002/phar.1899

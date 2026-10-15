@@ -1,0 +1,66 @@
+=== Evidence-Based Medicine and Clinical Guidelines (Merck Manual Professional) ===
+Section: Special Subjects > Clinical Decision Making
+Source: https://www.merckmanuals.com/professional/special-subjects/clinical-decision-making/evidence-based-medicine-and-clinical-guidelines
+Retrieved: 2026-09-25
+
+Physicians have always felt that their decisions were based on evidence; thus, the current term “evidence-based medicine” is not a new concept. However, current usage of the term implies a more formalized and structured decision process. Clinical “evidence” comes in different forms, including a combination of recollected strategies effective in previous patients, advice given by mentors and colleagues, a general impression of “what is being done” (eg, based on published review articles, abstracts and case reports, symposia, published guidelines, Food and Drug Administration [FDA] product inserts, pharmaceutical advertisements). Reliance on different sources of information may result in different strategies for diagnosing and managing similar conditions. Variations in the preference of choosing evidence exist among clinicians in different countries, regions, and hospitals, and even within individual group practices.
+
+Evidence-Based Medicine
+
+The variations in strategies among different countries, regions, and practices has led to a call for a more systematic approach to identifying appropriate strategies for individual patients using an established hierarchy of evidence; this approach is called evidence-based medicine (EBM). EBM is built on rigorous reviews of relevant medical literature and follows a discrete series of steps, but EBM does not exclude the individual clinician's incorporation of personal clinical experience or patient preferences in the decision process (1).
+
+EBM is not the blind application of advice gleaned from recently published literature to individual patient problems. It does not imply a "one size fits all" model of care. Rather, applying EBM requires a series of steps to gather sufficiently useful information to answer a carefully crafted question for an individual patient. Fully integrating the principles of EBM incorporates the patient’s value system, which includes such things as costs incurred, the patient’s religious or moral beliefs, and the patient's and family's willingness to accept risk. Applying the principles of EBM typically involves the following steps:
+
+Formulating a clinical question
+
+Gathering evidence to answer the question
+
+Evaluating the quality and validity of the evidence
+
+Deciding if and how the available evidence is relevant to the care of a specific patient
+
+Formulating a clinical question
+
+Questions must be specific. Specific questions are more likely to be addressed in the medical literature. A well-designed question specifies the population, intervention (diagnostic test, treatment), comparison (treatment A vs treatment B), and outcome. “What is the best way to evaluate someone with abdominal pain?” is not an overly useful question to pursue in the literature. A more useful and specific question could be “Is CT or ultrasound preferable for excluding acute appendicitis as the cause of acute lower abdominal pain in a 30-year-old male?”
+
+Gathering evidence to answer the question
+
+A broad selection of relevant studies is obtained from a review of the literature. Standard resources are consulted (eg, MEDLINE or PubMed for primary studies, the Cochrane Collaboration for systematic reviews of treatment options for specific clinical questions and other less structured reviews in the medical literature). There is an ever-expanding array of artificial intelligence (AI)–driven options to facilitate natural language searching (eg, Elicit, OpenEvidence, Semantic Scholar, Google Scholar Lab). Some will offer AI-summarized answers to submitted questions along with citations; care must be paid to checking both the accuracy of the citations as well as the interpretation of the published data. Follow-up questions can be posed, giving the AI software the opportunity to offer alternative interpretations of the published data. Answers to clinical questions should be personally confirmed prior to making specific management decisions.
+
+Evaluating the quality and validity of the evidence
+
+Not all scientific studies are of equal value. Different types of studies have different scientific strengths and limitations, and for any given type of study, individual examples vary in quality of the methodology, internal validity, generalizability of results, and applicability to a specific patient (external validity).
+
+Levels of evidence can be graded 1 through 5 in decreasing order of quality. Types of studies at each level vary somewhat with the clinical question (eg, of diagnosis, treatment, or economic analysis), but they typically consist of the following:
+
+Level 1 (the highest quality): Systematic reviews or meta-analyses of randomized controlled trials (RCTs) and high-quality, single, randomized controlled trials
+
+Level 2: Well-designed cohort studies
+
+Level 3: Systematically reviewed case-control studies
+
+Level 4: Case series and lesser-quality cohort and case-control studies
+
+Level 5: Expert opinion based on reasoning from physiology, bench research, or underlying principles, not on critical appraisal
+
+For EBM analysis, the highest level of evidence available should be used. However, because the number of high-quality, randomized, controlled trials is small compared with the number of possible clinical questions, less reliable level 4 or 5 evidence is very often all that is available. Lower-quality evidence does not mean that the EBM process should not be used, just that the strength of the conclusion may be weaker.
+
+Deciding how to apply the evidence to the care of a given patient
+
+Because the best available evidence may have come from patient populations with different characteristics from those of the patient in question, significant judgment is required when applying results from a randomized trial to a specific patient. Additionally, patients’ wishes regarding aggressive or invasive tests and treatment must be taken into account as well as their tolerance for discomfort, risk, and uncertainty. For example, even though an EBM review may definitively show a 3-month survival advantage from an aggressive chemotherapy regimen in a certain form of cancer, patients may differ on whether they prefer to gain the extra time or avoid the extra discomfort. The cost of tests and treatments may also influence physician and patient decision making, especially when some of the alternatives are significantly costlier for the patient. Additional considerations are that the population of patients voluntarily participating in clinical trials is usually not the same as the general population cared for in general practice, and care delivered in a clinical trial environment is not identical to general care in the medical community.
+
+Limitations of the evidence-based approach
+
+Dozens of clinical questions must be addressed during the course of a day in a clinical practice. Although some of them may be the subject of an existing EBM review available for reference, most are not, and preparing a formal EBM analysis is too time-consuming to be practical in answering every immediate clinical question. Even when time is not a consideration, many clinical questions are not addressed by any relevant studies in the literature. Challenges include deciding what clinical decisions warrant looking for supportive evidence, how to find and evaluate the evidence, and how to best use it in the specific clinical setting.
+
+Evidence-based medicine reference
+
+1. Tonelli MR, Shapiro D. Experiential knowledge in clinical medicine: use and justification. Theor Med Bioeth. 2020;41(2-3):67-82. doi:10.1007/s11017-020-09521-0
+
+Clinical Guidelines
+
+Clinical guidelines have become widely available across the practice of medicine; many specialty societies have published such guidelines. Many guidelines are developed using a specified method that incorporates principles of EBM and consensus or Delphi process recommendations made by a panel of experts. Because of patient heterogeneity, clinical guidelines alone should not automatically dictate care for an individual patient.
+
+Some clinical guidelines follow “if, then” rules (eg, if a patient is febrile and neutropenic, then institute broad-spectrum antibiotics). More complex, multistep rules may be formalized as algorithms. Guidelines and algorithms are generally straightforward and easy to use but should be applied only to patients whose clinical characteristics (eg, demographics, comorbidities, clinical features) are similar to those of the patient group used to create the guideline.
+
+Guidelines do not necessarily take into account the degree of uncertainty inherent in test results, the likelihood of treatment success, and the relative risks and benefits of each course of action. To incorporate uncertainty and the value of outcomes into clinical decision making, clinicians must often apply the principles of quantitative or analytical medical decision making (see also Clinical Decision-Making Strategies). Additionally, some groups that publish guidelines require that only randomized trial data be used in the guidelines' development, which can be a very significant limitation and result in some guideline recommendations that may differ from established usual care.

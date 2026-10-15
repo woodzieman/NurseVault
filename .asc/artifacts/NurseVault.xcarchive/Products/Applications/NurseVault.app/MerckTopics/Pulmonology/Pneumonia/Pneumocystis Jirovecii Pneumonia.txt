@@ -1,0 +1,172 @@
+=== Pneumocystis jirovecii Pneumonia (Merck Manual Professional) ===
+Section: Pulmonology > Pneumonia
+Source: https://www.merckmanuals.com/professional/pulmonary-disorders/pneumonia/pneumocystis-jirovecii-pneumonia
+Retrieved: 2026-09-25
+
+Pneumocystis jirovecii is a ubiquitous organism transmitted by aerosol route and causes no disease in immunocompetent patients. Initially classified as a protozoa, it has been considered a fungus since the 1990s based on molecular analyses (1). Its life cycle primarily consists of trophic (eg, trophozoites) and cystic forms. Pulmonary infection is most commonly seen in immunocompromised patients and is sometimes called Pneumocystis pneumonia (PCP).
+
+General reference
+
+1. Centers for Disease Control and Prevention: DPDx–Laboratory Identification of Parasites of Public Health Concern: Pneumocystis. December 30, 2017. Accessed February 24, 2026.
+
+Epidemiology of Pneumocystis jirovecii Pneumonia
+
+With the advent of effective antiretroviral therapy, the incidence of Pneumocystis jirovecii infection has dramatically declined in patients with HIV infection, particularly in resource-rich regions of the world (1). However, patients who are not aware that they have HIV or not taking antiretroviral therapy remain at high risk for developing P. jirovecii pneumonia (PCP), especially those with CD4+ T cell counts < 200/microL or < 14% (ie, stage 3 HIV infection) (2).
+
+Children who are exposed develop an initial infection typically in early childhood, and the majority of them who are immunocompetent develop organism-specific antibodies by 4 years of age (3).
+
+Besides occurrence in patients with HIV infection, some other patients are also at risk of developing P. jirovecii pneumonia, these include:
+
+Organ transplant recipients
+
+Patients with hematologic cancers
+
+Patients taking glucocorticoids or other immunosuppressive medications
+
+Epidemiology references
+
+1. ClinicalInfo.HIV.gov. Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents With HIV. September 9, 2025. Accessed February 24, 2026.
+
+2. Anyimadu H, Pingili C, Sivapalan V, Hirsch-Moverman Y, Mannheimer S. The Impact of Absolute CD4 Count and Percentage Discordance on Pneumocystis Jirovecii Pneumonia Prophylaxis in HIV-Infected Patients. J Int Assoc Provid AIDS Care. 2018;17:2325958218759199. doi:10.1177/2325958218759199
+
+3. Pifer LL, Hughes WT, Stagno S, Woods D. Pneumocystis carinii infection: evidence for high prevalence in normal and immunosuppressed children. Pediatrics. 1978;61(1):35-41.
+
+Symptoms and Signs of Pneumocystis jirovecii Pneumonia
+
+Most patients have fever, dyspnea, and a dry, nonproductive cough that evolves over several weeks (HIV infection) or over several days (other causes of compromised cell-mediated immunity). Chest discomfort may be present.
+
+On examination, fever, tachypnea and tachycardia may be present. Tachypnea and tachycardia may be particularly apparent on exertion. On auscultation, diffuse pulmonary crackles (rales) may be heard over the lung fields.
+
+Hypoxemia is a hallmark laboratory finding in Pneumocystis jirovecii pneumonia, varying in severity based on the alveolar-arterial gradient (1). Hypoxemia is often accompanied by exercise-induced oxygen desaturation. Spontaneous pneumothoraces may occur.
+
+Symptoms and signs reference
+
+1. ClinicalInfo.HIV.gov. Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents With HIV. September 9, 2025. Accessed February 24, 2026.
+
+Diagnosis of Pneumocystis jirovecii Pneumonia
+
+Chest imaging (radiography and/or CT)
+
+Pulse oximetry and arterial blood gas analysis for hypoxia and hypoxemia
+
+Nucleic acid amplification testing (eg, polymerase chain reaction [PCR])
+
+Histopathologic confirmation
+
+The diagnosis of Pneumocystis jirovecii pneumonia is usually suspected based on the clinical presentation, blood test results, and chest radiograph findings; however, none of these are considered pathognomonic (1). Definitive diagnosis requires histopathologic (or cytopathologic) demonstration of organisms in tissue, bronchoalveolar lavage (BAL) fluid, or induced sputum samples. Empiric coverage for P. jirovecii should be initiated before a definitive diagnosis is made if clinical suspicion is high.
+
+Chest radiographs characteristically show diffuse, bilateral perihilar infiltrates, but 20 to 30% of patients have normal radiographs. A CT scan often shows ground glass infiltrates, even when the chest radiograph is normal. A normal CT scan has a high negative predictive value; therefore, it is often used to exclude a diagnosis of Pneumocystis jirovecii pneumonia.
+
+Hypoxemia may be present on arterial blood gas (ABG) measurements even when chest radiographs show no infiltrate; this finding can be an important clue to diagnosis. If pulse oximetry is normal, ABG are often obtained to assess for an increase in the alveolar-arterial oxygen gradient.
+
+Clinical Calculators
+
+A-a Gradient
+
+Pearls & Pitfalls
+
+In patients who are immunosuppressed and have a dry, nonproductive cough and abnormal chest radiography or pulse oximetry, pursue further testing for P. jirovecii pneumonia.
+
+Pulmonary function tests show altered diffusing capacity (although pulmonary function tests are rarely done as a diagnostic test for Pneumocystis jirovecii pneumonia).
+
+Elevated levels of serum 1, 3 beta-D glucan (a component of fungal cell walls) and lactate dehydrogenase (LDH) are nonspecific but can support the diagnosis.
+
+Demonstration of Pneumocystis jirovecii in an appropriate respiratory specimen, which includes sputum specimens (usually induced) and bronchoalveolar lavage or endotracheal aspirates (in intubated patients) is needed for confirmation of the diagnosis. If induced sputum is negative, bronchoscopy with bronchoalveolar lavage should be done as it has a much higher sensitivity.
+
+Pneumocystis jirovecii Fungus in Lung Tissue (Light Microgra...
+
+Image
+
+This light micrograph shows the single-celled fungus Pneumocystis jirovecii (purple ovals) in a lung tissue sample from a patient with pneumocystosis and advanced HIV infection. The fungus is present within the alveolar spaces of the lung.
+
+CDC/SCIENCE PHOTO LIBRARY
+
+Nucleic acid amplification tests (eg, polymerase chain reaction [PCR]–based detection) are considered the gold standard (2) and have the highest diagnostic yield (3, 4).
+
+Direct fluorescent antibody staining with a monoclonal antibody is used by some laboratories.
+
+Fluorescent Stain (Pneumocystis jirovecii)
+
+Image
+
+This image is a direct immunofluorescence antibody stain using monoclonal antibodies that target P. jirovecii in a bronchoalveolar lavage specimen from a person with a cancer.
+
+CDC/Image courtesy of Brigham & Women's Hospital, Boston, MA
+
+Several staining techniques are available. Giemsa, Diff-Quik, and Wright stains can identify both trophic forms and cysts without coloring the wall. Grocott-Gomori methenamine silver (GMS), Gram-Weigert, cresyl violet, and toluidine blue specifically target the cyst wall; however, most staining techniques are characterized by low sensitivity (5).
+
+Pneumocystis Pneumonia
+
+Image
+
+This chest radiograph of a patient with Pneumocystis pneumonia and HIV infection reveals characteristic bilateral, diffuse, granular opacities.
+
+By permission of the publisher. From Huang L, Piliero P. In Bone's Atlas of Pulmonary and Critical Care Medicine. Edited by J Crapo. Philadelphia, Current Medicine, 2005.
+
+Diagnosis references
+
+1. ClinicalInfo.HIV.gov. Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents With HIV. September 9, 2025. Accessed February 24, 2026.
+
+2. Centers for Disease Control and Prevention: DPDx–Laboratory Identification of Parasites of Public Health Concern: Pneumocystis. December 30, 2017. Accessed February 24, 2026.
+
+3. Flori P, Bellete B, Durand F, et al. Comparison between real-time PCR, conventional PCR and different staining techniques for diagnosing Pneumocystis jiroveci pneumonia from bronchoalveolar lavage specimens. J Med Microbiol. 2004;53(Pt 7):603-607. doi:10.1099/jmm.0.45528-0
+
+4. Lu JJ, Chen CH, Bartlett MS, Smith JW, Lee CH. Comparison of six different PCR methods for detection of Pneumocystis carinii. J Clin Microbiol. 1995;33(10):2785-2788. doi:10.1128/jcm.33.10.2785-2788.1995
+
+5. Procop GW, Haddad S, Quinn J, et al. Detection of Pneumocystis jiroveci in respiratory specimens by four staining methods. J Clin Microbiol. 2004;42(7):3333-3335. doi:10.1128/JCM.42.7.3333-3335.2004
+
+Treatment of Pneumocystis jirovecii Pneumonia
+
+Sulfamethoxazole/trimethoprim
+
+Glucocorticoids if partial pressure of arterial oxygen (PaO2) is < 70 mm Hg or pulse oximetry is < 92% while breathing room air
+
+The first-line treatment of Pneumocystis jirovecii pneumonia is with sulfamethoxazole/trimethoprim (TMP/SMX) (1). Treatment is usually initiated before the diagnosis is confirmed because P. jirovecii cysts persist in the lungs for weeks. Adverse effects of treatment are more common among patients with advanced HIV and include rash, neutropenia, hepatitis, and fever.
+
+Alternative regimens, which are given for 21 days, use:
+
+Trimethoprim with dapsone
+
+Clindamycin plus primaquine
+
+Pentamidine
+
+Atovaquone (for mild pneumonia)
+
+The major limitation of pentamidine is the high frequency of toxic adverse effects, including acute kidney injury, hypotension, and hypoglycemia.
+
+Adjunctive therapy with glucocorticoids is recommended for patients with a PaO2 < 70 mm Hg or A-a gradient ≥ 35 mm Hg while breathing ambient air. The preferred agent is oral prednisone. Glucocorticoid doses are tapered over 21 days.
+
+Antiretroviral therapy (ART) should ideally be initiated in patients within 2 weeks of diagnosis of P. jirovecii pneumonia, if coinfection with HIV is confirmed (1).
+
+Treatment reference
+
+1. ClinicalInfo.HIV.gov. Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents With HIV. September 9, 2025. Accessed February 24, 2026.
+
+Prognosis for Pneumocystis jirovecii Pneumonia
+
+Overall mortality is high for patients hospitalized with P. jirovecii pneumonia. Risk factors for death may include previous history of P. jirovecii pneumonia, older age, and, in patients with HIV infection, CD4+ T cell count < 50 cells/microliter. Patients who do not have HIV infection experience higher mortality rates, increased duration of hospitalization, and greater risk of respiratory failure compared to HIV-infected patients (1).
+
+Prognosis reference
+
+1.Hänsel L, Schumacher J, Denis B, Hamane S, Cornely OA, Koehler P. How to diagnose and treat a patient without human immunodeficiency virus infection having Pneumocystis jirovecii pneumonia?. Clin Microbiol Infect. 2023;29(8):1015-1023. doi:10.1016/j.cmi.2023.04.015
+
+Prevention of Pneumocystis jirovecii Pneumonia
+
+All patients with HIV infection who have had P. jirovecii pneumonia or who have a CD4+ T cell count < 100 cells/microliter (regardless of HIV RNA on viral load testing) or 100 to 200 cells/microliter (if HIV RNA is detectable) should receive prophylaxis with sulfamethoxazole/trimethoprim (1); if this antibiotic is not tolerated, dapsone or aerosolized pentamidine can be used. These prophylactic regimens are also indicated for many patients without HIV infection who are at risk of P. jirovecii pneumonia.
+
+Prophylaxis may be discontinued if patients respond to ART with rises in CD4+ T cell counts of ≥ 200 cells/microliter for ≥ 3 months (1). TMP-SMX prophylaxis is not required for patients already receiving pyrimethamine/sulfadiazine for toxoplasmosis.
+
+Prevention reference
+
+1. ClinicalInfo.HIV.gov. Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents With HIV. September 9, 2025. Accessed February 24, 2026.
+
+Key Points
+
+Consider P. jirovecii pneumonia in patients who are immunosuppressed, even if they have mild respiratory symptoms and even if the chest radiograph is normal.
+
+Perform histopathologic or cytopathologic examination on induced sputum or bronchoscopically obtained samples.
+
+Treat patients with sulfamethoxazole/trimethoprim or use alternate therapies in patients allergic to sulfonamides, adding a glucocorticoid if PaO2 is < 70 mm Hg or A-a gradient is ≥ 35 mm Hg.
+
+If HIV infection is confirmed, ART must be initiated, ideally within 2 weeks of diagnosis of P. jirovecii pneumonia.

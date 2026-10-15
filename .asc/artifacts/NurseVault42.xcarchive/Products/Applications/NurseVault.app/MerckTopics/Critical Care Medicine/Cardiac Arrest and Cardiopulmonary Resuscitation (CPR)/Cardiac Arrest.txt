@@ -1,0 +1,186 @@
+=== Cardiac Arrest (Merck Manual Professional) ===
+Section: Critical Care Medicine > Cardiac Arrest and Cardiopulmonary Resuscitation (CPR)
+Source: https://www.merckmanuals.com/professional/critical-care-medicine/cardiac-arrest-and-cardiopulmonary-resuscitation-cpr/cardiac-arrest
+Retrieved: 2026-09-25
+
+Sudden cardiac arrest occurs outside the hospital in more than 300,000 people/year in the United States, including an estimated 5000 infants and children, with a > 90% mortality rate (1, 2).
+
+Respiratory arrest and cardiac arrest are distinct, but without treatment, one inevitably leads to the other. (See also respiratory failure, dyspnea, and hypoxia.)
+
+General references
+
+1. Tsao CW, Aday AW, Almarzooq ZI, et al. Heart Disease and Stroke Statistics-2023 Update: A Report From the American Heart Association [published correction appears in Circulation 2023 Feb 21;147(8):e622. doi: 10.1161/CIR.0000000000001137] [published correction appears in Circulation 2023 Jul 25;148(4):e4. doi: 10.1161/CIR.0000000000001167]. Circulation 2023;147(8):e93-e621. doi:10.1161/CIR.0000000000001123
+
+2. Virani SS, Alonso A, Benjamin EJ, et al. Heart Disease and Stroke Statistics-2020 Update: A Report From the American Heart Association. Circulation 2020;141(9):e139-e596. doi:10.1161/CIR.0000000000000757
+
+Etiology of Cardiac Arrest
+
+In adults, sudden cardiac arrest results primarily from cardiac disease (of all types, with most sudden cardiac arrest attributable to acute coronary syndromes, and a large majority associated with underlying cardiovascular disease). In a significant percentage of patients, sudden cardiac arrest is the first manifestation of heart disease (1). Other causes include circulatory shock due to noncardiac disorders (especially pulmonary embolism, gastrointestinal hemorrhage, or trauma), ventilatory failure, and metabolic disturbance (including drug overdose) (2).
+
+In infants and children, cardiac causes of cardiac arrest are less common than in adults. The predominant cause of cardiac arrest in infants and children is respiratory failure due to various respiratory disorders (e.g., airway obstruction, drowning, infection, sudden infant death syndrome [SIDS], smoke inhalation). However, sudden cardiac arrest (the unexpected cessation of circulation without warning) in children and adolescents is most commonly due to arrhythmia resulting from a channelopathy or underlying structural cardiac abnormality (3, 4, 5, 6).
+
+Etiology references
+
+1. Hayashi M, Shimizu W, Albert CM: The spectrum of epidemiology underlying sudden cardiac death. Circ Res 116(12):1887–1906, 2015. doi:10.1161/CIRCRESAHA.116.304521
+
+2. Truhlář A, Deakin CD, Soar J, et al: European Resuscitation Council Guidelines for Resuscitation 2015: Section 4. Cardiac arrest in special circumstances. Resuscitation 95:148–201, 2015. doi: 10.1016/j.resuscitation.2015.07.017
+
+3. Atkins DL, Everson-Stewart S, Sears GK, et al; Resuscitation Outcomes Consortium Investigators: Epidemiology and outcomes from out-of-hospital cardiac arrest in children: the Resuscitation Outcomes Consortium Epistry-Cardiac Arrest. Circulation 119(11):1484–1491, 2009. doi: 10.1161/CIRCULATIONAHA.108.802678
+
+4. Meert KL, Telford R, Holubkov R, et al; Therapeutic Hypothermia after Pediatric Cardiac Arrest (THAPCA) Trial Investigators: Pediatric out-of-hospital cardiac arrest characteristics and their association with survival and neurobehavioral outcome. Pediatr Crit Care Med 17(12):e543–e550, 2016. doi: 10.1097/PCC.0000000000000969
+
+5. Scheller RL, Johnson L, Lorts A, Ryan TD: Sudden cardiac arrest in pediatrics. Pediatr Emerg Care 32(9):630–636, 2016. doi: 10.1097/PEC.0000000000000895
+
+6. Tsao CW, Aday AW, Almarzooq ZI, et al: Heart Disease and Stroke Statistics-2023 Update: A Report From the American Heart Association [published correction appears in Circulation 147(8):e622, 2023]. Circulation 147(8):e93-e621, 2023. doi:10.1161/CIR.0000000000001123
+
+Pathophysiology of Cardiac Arrest
+
+Cardiac arrest causes global ischemia with consequences at the cellular level that adversely affect organ function even after resuscitation and restoration of perfusion. The main consequences involve direct cellular damage and edema formation. Edema is particularly harmful in the brain, which has minimal room to expand, and often results in increased intracranial pressure and corresponding decreased cerebral perfusion postresuscitation.
+
+Decreased adenosine triphosphate (ATP) production leads to loss of membrane integrity with efflux of potassium and influx of sodium and calcium. Excess intracellular sodium is one of the initial causes of cellular edema. Excess calcium damages mitochondria (depressing ATP production), increases nitric oxide production (leading to formation of damaging free radicals), and, in certain circumstances, activates proteases that further damage cells.
+
+Abnormal ion flux also results in depolarization of neurons, releasing neurotransmitters, some of which are damaging (eg, glutamate activates a specific calcium channel, worsening intracellular calcium overload).
+
+Inflammatory mediators (eg, interleukin-1B, tumor necrosis factor-alpha) are elaborated; some of them may cause microvascular thrombosis and loss of vascular integrity with further edema formation. Some mediators trigger apoptosis, resulting in accelerated cell death.
+
+Symptoms and Signs of Cardiac Arrest
+
+In critically or terminally ill patients, cardiac arrest is often preceded by a period of clinical deterioration with rapid, shallow breathing, arterial hypotension, and a progressive decrease in mental alertness.
+
+In sudden cardiac arrest, collapse occurs without warning, occasionally accompanied by brief myoclonic jerks or other seizure-like activity.
+
+Diagnosis of Cardiac Arrest
+
+History and physical examination
+
+Cardiac monitoring and electrocardiography (ECG)
+
+Sometimes testing for cause (eg, echocardiography, chest imaging [radiography, ultrasound], electrolyte testing)
+
+Diagnosis of cardiac arrest is by clinical findings of unconsciousness, apnea, and pulselessness. Arterial pressure is not measurable. Pupils dilate and become unreactive to light.
+
+A cardiac monitor should be applied; it may indicate ventricular fibrillation (VF), ventricular tachycardia (VT), or asystole. Sometimes a perfusing rhythm (eg, bradycardia, extreme tachycardia) is present; this rhythm may represent true pulseless electrical activity (previously termed electromechanical dissociation) or extreme hypotension with failure to detect a pulse.
+
+The patient is evaluated for potentially treatable causes; a useful memory aid is "Hs and Ts":
+
+H:Hypoxia, hypovolemia, acidosis (hydrogen ion), hyperkalemia or hypokalemia, hypothermia
+
+T:Tablet or toxin ingestion, cardiac tamponade, tension pneumothorax, thrombosis (pulmonary or coronary)
+
+Hypoglycemia is another potential cause of cardiac arrest, although the utility of treatment in adults is debatable and current guidelines do not support routine glucose checks or dextrose administration during adult CPR performance (1, 2, 3). In pediatrics, however, blood glucose should be checked and hypoglycemia treated promptly as a potentially treatable cause of cardiac arrest (4).
+
+Unfortunately, the cause of cardiac arrest often cannot be identified during cardiopulmonary resuscitation (CPR). Clinical examination, chest ultrasound during CPR, and chest radiographs taken after return of spontaneous circulation following needle thoracostomy can detect pneumothorax, which suggests tension pneumothorax as the cause of the arrest, particularly if the patient responds to relief of the pneumothorax.
+
+Echocardiography can detect cardiac contractions and recognize cardiac tamponade, extreme hypovolemia (empty heart), right ventricular overload suggesting pulmonary embolism, and focal wall motion abnormalities suggesting myocardial infarction, and it helps quickly identify treatable causes of cardiac arrest (5). However, further studies are needed to determine whether there are long-term survival benefits from the use of ultrasound during resuscitation. Transthoracic cardiac ultrasound should not be done if it requires significant interruption in CPR.
+
+Rapid bedside blood tests can detect abnormal levels of potassium, profound anemia, and severely low levels of glucose, all of which may be causes of cardiac arrest.
+
+History given by family or rescue personnel may suggest overdose.
+
+Diagnosis references
+
+1. Abramson TM, Bosson N, Loza-Gomez A, Eckstein M, Gausche-Hill M: Utility of Glucose Testing and Treatment of Hypoglycemia in Patients with Out-of-Hospital Cardiac Arrest. Prehosp Emerg Care 26(2):173–178, 2022. doi:10.1080/10903127.2020.1869873
+
+2. Hanefeld M, Duetting E, Bramlage P: Cardiac implications of hypoglycaemia in patients with diabetes - a systematic review. Cardiovasc Diabetol 12:135, 2013. doi:10.1186/1475-2840-12-135
+
+3. Reno CM, Daphna-Iken D, Chen YS, VanderWeele J, Jethi K, Fisher SJ: Severe hypoglycemia-induced lethal cardiac arrhythmias are mediated by sympathoadrenal activation. Diabetes 62(10):3570–3581, 2013. doi:10.2337/db13-0216
+
+4. Losek JD: Hypoglycemia and the ABC'S (sugar) of pediatric resuscitation. Ann Emerg Med 35(1):43–46, 2000. doi:10.1016/s0196-0644(00)70103-x
+
+5. Gaspari R, Weekes A, Adhikari S, et al: Emergency department point-of-care ultrasound in out-of-hospital and in-ED cardiac arrest. Resuscitation 109:33–39, 2016. doi:10.1016/j.resuscitation.2016.09.018
+
+Treatment of Cardiac Arrest
+
+High-quality CPR, including rapid defibrillation for shockable rhythms (ventricular fibrillation [VF] or ventricular tachycardia [VT])
+
+Early administration of epinephrine for nonshockable rhythms
+
+When possible, treatment of primary cause
+
+Postresuscitative care
+
+Rapid intervention is essential.
+
+Cardiopulmonary resuscitation (CPR) is an organized, sequential response to cardiac arrest; rapid initiation of uninterrupted chest compressions ("push hard and push fast") and early defibrillation of patients who are in VF or VT (more commonly adults) are the keys to success in achieving return of spontaneous circulation. The 2020 AHA guidelines for treatment of cardiac arrest also advise rapid administration of a first dose of epinephrine for patients who have nonshockable rhythms (1, 2, 3).
+
+In children, who most often have asphyxial causes of cardiac arrest, the presenting rhythm is typically a bradyarrhythmia followed by asystole. However, when cardiac arrest has not been preceded by respiratory symptoms, children present with VT or VF and thus also require prompt defibrillation (3). The incidence of VF as the initial recorded rhythm increases in children > 12 years (3, 4).
+
+After immediate initiation of high-quality and uninterrupted chest compressions, defibrillation, and initial epinephrine, primary causes (eg, hypoxia, hypovolemia, toxins, tamponade) must be promptly treated. If no treatable conditions are immediately apparent, treatment is determined by the cardiac rhythm. For patients in refractory VF or pulseless VT who do not achieve return of pulses after the first 2 defibrillation attempts, repeat defibrillation is done every 2 minutes and epinephrine is given every 3 to 5 minutes. Amiodarone or lidocaine may also be given if the patient continues in a refractory shockable rhythm despite 3 shocks and administration of epinephrine. For non-shockable rhythms, early administration of epinephrine has been associated with improved neurologically intact survival (5, 6).
+
+IV fluid (eg, 1 L 0.9% saline, whole blood, or a combination for blood loss) should be given as needed to optimize volume status. If response to IV fluid is inadequate, clinicians may give additional vasopressors (eg, norepinephrine, epinephrine, dopamine, vasopressin). However, there is no definitive evidence that high levels of vasopressor administration during cardiac arrest improve return of spontaneous circulation or neurologically intact survival.
+
+After return of pulses, postresuscitative care focuses on determination and treatment of cause, stabilization and prevention of rearrest, and optimization of neurologic outcome. In addition to treatment of cause, postresuscitative care may include methods to optimize oxygenation and ventilation and rapid coronary angiography in patients who have a ST-segment elevation myocardial infarction (STEMI). The 2020 AHA guidelines suggest that delayed coronary angiography should also be considered for patients without STEMI. Recommendations are for targeted temperature management to therapeutic normothermia < 37.5° C, although with a lower temperature boundary of 32° C (7, 8). Research is ongoing to determine whether targeted temperature management with controlled hypothermia (32° C to 34° C) benefit select cardiac arrest survivors (9).
+
+Treatment references
+
+1. Atkins DL, Sasson C, Hsu A, et al: 2022 Interim Guidance to Health Care Providers for Basic and Advanced Cardiac Life Support in Adults, Children, and Neonates With Suspected or Confirmed COVID-19: From the Emergency Cardiovascular Care Committee and Get With The Guidelines-Resuscitation Adult and Pediatric Task Forces of the American Heart Association in Collaboration With the American Academy of Pediatrics, American Association for Respiratory Care, the Society of Critical Care Anesthesiologists, and American Society of Anesthesiologists. Circ Cardiovasc Qual Outcomes 15(4):e008900, 2022. doi:10.1161/CIRCOUTCOMES.122.008900
+
+2. Panchal AR, Bartos JA, Cabañas JG, et al: Part 3: Adult Basic and Advanced Life Support: 2020 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care. Circulation 142(16_suppl_2):S366–S468, 2020. doi:10.1161/CIR.0000000000000916
+
+3. Tijssen JA, Prince DK, Morrison LJ, et al: Time on the scene and interventions are associated with improved survival in pediatric out-of-hospital cardiac arrest. Resuscitation 94:1–7, 2015. doi:10.1016/j.resuscitation.2015.06.012
+
+4. Topjian AA, Raymond TT, Atkins D, et al: Part 4: Pediatric Basic and Advanced Life Support: 2020 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care. Circulation 142(16_suppl_2):S469–S523, 2020. doi:10.1161/CIR.0000000000000901
+
+5. Okubo M, Komukai S, Callaway CW, Izawa J: Association of Timing of Epinephrine Administration With Outcomes in Adults With Out-of-Hospital Cardiac Arrest. JAMA Netw Open 4(8):e2120176, 2021. doi:10.1001/jamanetworkopen.2021.20176
+
+6. Perkins GD, Ji C, Deakin CD, et al: A Randomized Trial of Epinephrine in Out-of-Hospital Cardiac Arrest. N Engl J Med 379(8):711–721, 2018. doi:10.1056/NEJMoa1806842
+
+7. Perman SM, Bartos JA, Del Rios M, et al: Temperature Management for Comatose Adult Survivors of Cardiac Arrest: A Science Advisory From the American Heart Association. Circulation 148(12):982–988, 2023. doi:10.1161/CIR.0000000000001164
+
+8. Perman SM, Elmer J, Maciel CB, et al: 2023 American Heart Association Focused Update on Adult Advanced Cardiovascular Life Support: An Update to the American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care. Circulation 149(5):e254–e273, 2024. doi:10.1161/CIR.0000000000001194
+
+9. Wyckoff MH, Greif R, Morley PT, et al: 2022 International Consensus on Cardiopulmonary Resuscitation and Emergency Cardiovascular Care Science With Treatment Recommendations: Summary From the Basic Life Support; Advanced Life Support; Pediatric Life Support; Neonatal Life Support; Education, Implementation, and Teams; and First Aid Task Forces. Circulation 146(25):e483–e557, 2022. doi:10.1161/CIR.0000000000001095
+
+Prognosis for Cardiac Arrest
+
+Survival to hospital discharge, particularly neurologically intact survival, is a more meaningful outcome than simply return of spontaneous circulation.
+
+Survival rates vary significantly; favorable factors for neurologically intact survival include
+
+Early and effective bystander-initiated CPR
+
+Witnessed arrest
+
+In-hospital location (particularly a monitored unit)
+
+Initial rhythm of ventricular fibrillation (VF) or ventricular tachycardia (VT)
+
+Early defibrillation of VF or VT
+
+Postresuscitative care, including circulatory support and access to cardiac catheterization
+
+In adults, targeted temperature management (body temperature of 32 to 36° C for ≥ 24 hours) and avoidance of hyperthermia
+
+While the American Heart Association 2020 Advanced Cardiac Life Support (ACLS) guidelines recommend cooling to a temperature range between 32° C and 36° C, more recent recommendations from the International Liaison Committee on Resuscitation Advanced Life Support (ALS) suggest actively preventing fever with a target temperature of ≤ 37.5° C rather than active cooling. It is still unclear whether certain groups of patients with cardiac arrest will have improved neurologically intact survival with targeted hypothermia management rather than with maintaining normothermia (1, 2, 3, 4, 5).
+
+If many factors are favorable (eg, VF is witnessed in an intensive care unit or emergency department), up to around 40%of adults with inpatient cardiac arrest may survive to hospital discharge (6). Overall in the United States, survival to hospital discharge in patients experiencing in-hospital arrest exceeds 30% (7).
+
+A significant proportion of successfully resuscitated patients have short-term or long-term cerebral dysfunction manifested by altered alertness (from mild confusion to coma), seizures, or both (8, 9).
+
+When factors are uniformly unfavorable (eg, patient in asystole after unwitnessed, out-of-hospital arrest), survival is unlikely. Overall, reported survival after out-of-hospital arrest is approximately 10%.
+
+Less than 10% of all patients with cardiac arrest, either in-hospital or out-of-hospital, are discharged with good neurologic function, defined as minimal to moderate cerebral disability with ability to perform the majority of activities of daily living independently, at hospital discharge (10, 11).
+
+Prognosis references
+
+1. Bernard SA, Gray TW, Buist MD, et al: Treatment of comatose survivors of out-of-hospital cardiac arrest with induced hypothermia. N Engl J Med 346:557–563, 2002. doi 10.1056/NEJMoa003289
+
+2. Granfeldt A, Holmberg MJ, Nolan JP, Soar J, Andersen LW; International Liaison Committee on Resuscitation (ILCOR) Advanced Life Support Task Force: Targeted temperature management in adult cardiac arrest: Systematic review and meta-analysis. Resuscitation 167:160–172, 2021. doi:10.1016/j.resuscitation.2021.08.040
+
+3. Merchant RM, Topjian AA, Panchal AR, et al: Part 1: Executive Summary: 2020 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care. Circulation 2020;142(16_suppl_2):S337-S357. doi:10.1161/CIR.0000000000000918
+
+4. Nielsen N, Wetterslev J, Cronberg T, et al: Targeted temperature management at 33°C versus 36°C after cardiac arrest. N Engl J Med 369:2197–2206, 2013. doi: 10.1056/NEJMoa1310519
+
+5. Wyckoff MH, Greif R, Morley PT, et al: 2022 International Consensus on Cardiopulmonary Resuscitation and Emergency Cardiovascular Care Science With Treatment Recommendations: Summary From the Basic Life Support; Advanced Life Support; Pediatric Life Support; Neonatal Life Support; Education, Implementation, and Teams; and First Aid Task Forces. Circulation 146(25):e483–e557, 2022. doi:10.1161/CIR.0000000000001095
+
+6. Andersen LW, Holmberg MJ, Berg KM, Donnino MW, Granfeldt A: In-Hospital Cardiac Arrest: A Review. JAMA 321(12):1200–1210, 2019. doi:10.1001/jama.2019.1696
+
+7. Mallikethi-Reddy S, Akintoye E, Rubenfire M, Briasoulis A, Grines CL, Afonso L: Nationwide survival after inhospital cardiac arrest before and after 2010 cardiopulmonary resuscitation guidelines: 2007-2014. Int J Cardiol 249:231–233, 2017. doi:10.1016/j.ijcard.2017.09.199
+
+8. Glimmerveen A, Verhulst M, Verbunt J, Van Heugten C, Hofmeijer J: Predicting Long-Term Cognitive Impairments in Survivors after Cardiac Arrest: A Systematic Review. J Rehabil Med 55:jrm00368, 2023. doi:10.2340/jrm.v55.3497
+
+9. Moulaert VR, Verbunt JA, van Heugten CM, Wade DT: Cognitive impairments in survivors of out-of-hospital cardiac arrest: a systematic review. Resuscitation 80(3):297–305, 2009. doi:10.1016/j.resuscitation.2008.10.034
+
+10. Perman SM, Bartos JA, Del Rios M, et al: Temperature Management for Comatose Adult Survivors of Cardiac Arrest: A Science Advisory From the American Heart Association. Circulation 148(12):982–988, 2023. doi:10.1161/CIR.0000000000001164
+
+11. Perman SM, Elmer J, Maciel CB, et al: 2023 American Heart Association Focused Update on Adult Advanced Cardiovascular Life Support: An Update to the American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care. Circulation 149(5):e254–e273, 2024. doi:10.1161/CIR.0000000000001194

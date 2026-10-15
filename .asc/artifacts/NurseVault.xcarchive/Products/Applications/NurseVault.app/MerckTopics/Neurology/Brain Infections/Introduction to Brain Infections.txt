@@ -1,0 +1,64 @@
+=== Introduction to Brain Infections (Merck Manual Professional) ===
+Section: Neurology > Brain Infections
+Source: https://www.merckmanuals.com/professional/neurologic-disorders/brain-infections/introduction-to-brain-infections
+Retrieved: 2026-09-25
+
+Brain infections can be caused by viruses, bacteria, fungi, or, occasionally, protozoa or parasites.
+
+Encephalitis is most commonly due to viruses, such as herpes simplex, herpes zoster (1), enteroviruses (2), or arboviruses (eg, West Nile virus [3], eastern equine encephalitis virus [4]).
+
+Infections such as progressive multifocal leukoencephalopathy (caused by the JC virus) or subacute sclerosing panencephalitis (caused by the measles virus) also affect the brain; they are characterized by a long incubation and a prolonged course (5, 6).
+
+SARS-CoV-2 infection can result in encephalopathy, although this virus does not undergo neuroinvasion (7). Human studies detect inflammation of brain capillaries, with associated memory and learning impairments (8).
+
+Certain noninfectious disorders can also cause encephalitis. An example is the autoimmune condition anti-NMDA (N-methyl-d-aspartate) receptor encephalitis, which involves an autoimmune attack on neuronal membrane proteins.
+
+Brain infections often also involve other parts of the central nervous system (CNS), including the spinal cord. The brain and spinal cord are usually protected from infection, but when they become infected, the consequences are often very serious.
+
+Infections may cause the meninges to become inflamed (meningitis). Often, bacterial meningitis spreads to the brain, causing encephalitis, infecting the brain parenchyma. Similarly, viral infections that cause encephalitis often also cause meningitis. Technically, when both the brain and the meninges are infected, the disorder is called meningoencephalitis. However, the term meningitis is usually used to refer to infection that affects mainly the meninges, and encephalitis is usually used to refer to infection that affects mainly the brain parenchyma.
+
+CNS infections may manifest as follows:
+
+Diffuse parenchymal infection, resulting in encephalitis, sometimes affecting specific areas of the brain
+
+Inflammation of the brain secondary to meningeal infections or parameningeal infections
+
+Focal or multifocal infection (eg, due to a brain abscess, empyema, or fungal or parasitic brain infections such as neurocysticercosis caused by Taenia solium)
+
+HIV infection and prion diseases can also affect the brain diffusely.
+
+Brain involvement may also be a manifestation of postinfectious mechanisms, such as acute disseminated encephalomyelitis (9).
+
+Bacteria and other infectious organisms can reach the brain and meninges in several ways:
+
+Hematogenous spread
+
+Penetrating head wounds (including neurosurgical procedures)
+
+Direct extension of cranial infections (eg, sinusitis, osteomyelitis)
+
+Retrograde transport along sensory neurons (10)
+
+Many symptoms and signs of brain infections (eg, acute or subacute obtundation, seizures, focal neurologic deficits, signs of increased intracranial pressure) can develop in various brain infections (eg, brain abscess, intracranial epidural abscess, subdural empyema); thus neuroimaging is frequently necessary to differentiate among the infections.
+
+References
+
+1. Poussier L, Mailles A, Tattevin P, et al. Characteristics, management and outcome of Herpes Simplex and Varicella-Zoster virus encephalitis: a multicentre prospective cohort study. Clin Microbiol Infect. 2024;30(7):917-923. doi:10.1016/j.cmi.2024.03.017
+
+2. Chen BS, Lee HC, Lee KM, et al. Enterovirus and encephalitis. Front Microbiol. 1:261, 2020. doi: 10.3389/fmicb.2020.00261
+
+3. Petersen LR, Brault AC, Nasci RS. West Nile virus: review of the literature. JAMA. 2013;310(3):308-315. doi:10.1001/jama.2013.8042
+
+4. Zubair AS, McAlpine LS, Gobeske KT. Virology, ecology, epidemiology, pathology, and treatment of eastern equine encephalitis. J Neurol Sci. 2024;457:122886. doi:10.1016/j.jns.2024.122886
+
+5. Rocchi A, Sariyer IK, Berger JR. Revisiting JC virus and progressive multifocal leukoencephalopathy. J Neurovirol. 2023;29(5):524-537. doi:10.1007/s13365-023-01164-w
+
+6. Rota PA, Rota JS, Goodson JL. Subacute Sclerosing Panencephalitis. Clin Infect Dis. 2017;65(2):233-234. doi:10.1093/cid/cix307
+
+7. Meinhardt J, Streit S, Dittmayer C, et al. The neurobiology of SARS-CoV-2 infection. Nat Rev Neurosci. 5(1):30-42, 2024. doi: 10.1038/s41583-023-00769-8
+
+8. Greene C, Connolly R, Brennan D, et al. Blood-brain barrier disruption and sustained systemic inflammation in individuals with long COVID-associated cognitive impairment. Nat Neurosci. 2024;27(3):421-432. doi:10.1038/s41593-024-01576-9
+
+9. Tenembaum S, Chitnis T, Ness J, Hahn JS; International Pediatric MS Study Group. Acute disseminated encephalomyelitis. Neurology. 2007;68(16 Suppl 2):S23-S36. doi:10.1212/01.wnl.0000259404.51352.7f
+
+10. Cain MD, Salimi H, Diamond MS, et al. Mechanisms of pathogen invasion into the central nervous system. Neuron. 103(5):771-783, 2019. doi: 10.1016/j.neuron.2019.07.015

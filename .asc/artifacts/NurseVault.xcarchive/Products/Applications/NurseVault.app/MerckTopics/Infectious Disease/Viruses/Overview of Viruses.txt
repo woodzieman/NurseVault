@@ -1,0 +1,260 @@
+=== Overview of Viruses (Merck Manual Professional) ===
+Section: Infectious Disease > Viruses
+Source: https://www.merckmanuals.com/professional/infectious-diseases/viruses/overview-of-viruses
+Retrieved: 2026-09-25
+
+Viruses are among the smallest microbes, typically ranging from 0.02 to 0.3 micrometer in diameter, although several very large viruses up to 1 micrometer (eg, megavirus, pandoravirus) have recently been discovered. Viruses exist worldwide, but their spread is limited by inborn resistance, prior immunizing infections or vaccines, sanitary and other public health control measures, and prophylactic antiviral drugs. Several hundred different viruses infect humans.
+
+Viruses depend completely on cells (bacterial, plant, or animal) to reproduce. Some viruses have an outer envelope consisting of protein and lipid, surrounding a protein capsid complex with genomic RNA or DNA and sometimes enzymes needed for the first steps of viral replication.
+
+Classification of viruses is principally according to their genome sequence taking into consideration the nature and structure of their genome and their method of replication, but not according to the diseases they cause (see International Committee on Taxonomy of Viruses (ICTV). Thus, there are DNA viruses and RNA viruses; either DNA or RNA viruses may have single or double strands of genetic material. Single-strand RNA viruses are further divided into those with positive-sense and negative-sense RNA. Positive-sense RNA viruses possess a single-stranded RNA genome that can serve as messenger RNA (mRNA) that can be directly translated to produce an amino acid sequence. Negative-sense RNA viruses possess a single-stranded negative-sense genome that first must synthesize a complementary positive-sense antigenome, which is then used to make genomic negative-sense RNA.
+
+Viral genomes are small; the genome of RNA viruses ranges from 3.5 kilobases (some retroviruses) to 27 kilobases (some reoviruses), and the genome of DNA viruses ranges from 5 kilobases (some parvoviruses) to 280 kilobases (some poxviruses). This manageable size, together with the current advances in nucleotide sequencing technology, means that partial and whole virus genome sequencing will become an essential component in epidemiologic investigations of disease outbreaks.
+
+Certain single-strand, positive-sense RNA viruses called retroviruses use a very different method of replication. Examples of retroviruses are the human immunodeficiency viruses and the human T-cell leukemia viruses. Retroviruses use reverse transcription to create a double-stranded DNA copy (a provirus) of their RNA genome, which is inserted into the genome of their host cell. Reverse transcription is accomplished using the enzyme reverse transcriptase, which the virus carries with it inside its shell. Once the provirus is integrated into the host cell DNA, it is transcribed using typical cellular mechanisms to produce viral proteins and genetic material.
+
+If a germline cell is infected by a retrovirus, the integrated provirus can become established as an endogenous retrovirus that is transmitted to offspring. The sequencing of the human genome revealed that approximately 8% of the human genome consists of endogenous retroviral sequences, representing past encounters with retroviruses during the course of human evolution (1). Some experts speculate that some disorders of uncertain etiology, such as multiple sclerosis, certain autoimmune disorders, and various cancers, may be caused by endogenous retroviruses. A few endogenous human retroviruses have remained transcriptionally active and produce functional proteins (eg, the syncytins that contribute to the structure of the human placenta) (2).
+
+Because RNA transcription does not involve the same error-checking mechanisms as DNA transcription, RNA viruses, particularly retroviruses, are particularly prone to mutation.
+
+The mechanism of viral infection is that the virus first attaches to the host cell at one or more of several receptor molecules on the cell surface. The viral DNA or RNA then enters the host cell and separates from the outer cover (uncoating) and replicates inside the host cell in a process that requires specific enzymes. DNA viruses typically replicate in the host cell nucleus, and RNA viruses typically replicate in the cytoplasm. The newly synthesized viral components then assemble into a complete virus particle. The host cell typically dies, releasing new viruses that infect other host cells. Each step of viral replication involves different enzymes and substrates and offers an opportunity to interfere with the process of infection.
+
+The consequences of viral infection vary considerably. Many infections cause acute illness after a brief incubation period, but some are asymptomatic or cause minor symptoms that may not be recognized. Many viral infections are cleared by the immune system, but some remain in a latent state, and some cause chronic disease.
+
+(See also Types of Viral Disorders.)
+
+Timing of viral infections
+
+In latent infection, viral RNA or DNA remains in host cells but does not replicate or cause disease for a long time, sometimes for many years. Latent viral infections may be transmissible during the asymptomatic period, facilitating person-to-person spread. Sometimes a trigger (particularly immunosuppression) causes reactivation.
+
+Common viruses that remain latent include:
+
+Herpesviruses
+
+Human immunodeficiency virus (HIV)
+
+Papovaviruses (composed of 2 subgroups: papilloma and polyoma viruses)
+
+Ebola virus appears to persist in the immunologically privileged sites in the human body (eg, testes, eyes) (3).
+
+Some disorders are caused by viral reactivation in the central nervous system after a very long latency period. These diseases include:
+
+Progressive multifocal leukoencephalopathy (due to the JC [John Cunningham] virus, a polyomavirus)
+
+Subacute sclerosing panencephalitis (due to measles virus)
+
+Progressive rubella panencephalitis (due to rubella virus)
+
+Shingles (due to varicella zoster virus)
+
+Chronic viral infections are characterized by continuous, prolonged viral shedding; examples are congenital infection with rubella virus or with cytomegalovirus and persistent hepatitis B or C. HIV can cause both latent and chronic infections.
+
+Modes of transmission of viruses
+
+Mode of transmission varies by virus, and some viruses can be spread by more than one mode of transmission.
+
+Viruses that infect primarily humans often spread via the respiratory tract. This can occur when an infected person expels respiratory droplets through talking, sneezing, or coughing, and the droplets travel a short distance and can infect other individuals through mucosal surfaces such as the eyes, nose, or mouth (eg, influenza, respiratory syncytial virus [RSV]). In airborne transmission, droplets or particles remain suspended in the air over time and distance and cause infection when they are inhaled by another person (eg, measles, varicella-zoster virus). SARS-CoV-2 can spread via droplet or airborne transmission.
+
+Fomite transmission occurs when surfaces (eg, door handles, tables, medical equipment) become contaminated through direct shedding of pathogens or via hand contact from infected individuals (eg, norovirus, rhinovirus).
+
+Fecal-oral transmission is also common and occurs when fecal material contaminates food, water, or hands and is ingested (eg, norovirus, certain enteroviruses).
+
+Bloodborne transmission occurs through transfer of virus through blood or other bodily fluids (eg, HIV, hepatitis viruses A, B, C, and E). Certain arboviruses can also be transmitted through blood or bodily fluids, including chikungunya, dengue, West Nile, and Zika. Because of the risk of bloodborne viruses, blood collected for transfusion is rigorously tested (see table Infectious Disease Transmission Testing).
+
+Maternal-fetal (vertical) transmission may occur from an infected pregnant person (often a primary infection) to a fetus during pregnancy. Transmission may also occur due to contact with infected blood or vaginal secretions during childbirth or through breast milk.
+
+Sexual transmission of some viruses can occur through blood or bodily fluids (eg, vaginal secretions, semen) via mucosal contact (eg, human papillomavirus, herpes simplex virus, Zika, Ebola).
+
+Cytomegalovirus and Epstein-Barr virus are the viruses most predominantly transferred through transplantation of tissue. Other such viruses include
+
+Arboviruses such as Zika, West Nile, and dengue
+
+Lymphocytic choriomeningitis virus
+
+HIV
+
+Rabies
+
+Hepatitis B
+
+Herpes simplex virus
+
+Many viruses are transmitted via arthropod vectors such as mosquitoes (eg, chikungunya and Zika) and ticks (eg, tick-borne encephalitis virus) (see World Health Organization (WHO): Vector-borne diseases). Insects can also be vectors for bacterial or parasitic pathogens, and bats have recently been identified as hosts for many mammalian viruses, most commonly rabies, but also including viruses responsible for other serious human infections (eg, SARS-CoV-2, Ebola).
+
+Zoonotic viruses amplify in animals and then are transmitted to humans, either directly or through vectors or intermediate hosts. For example, Middle East Respiratory virus (MERS-CoV) can spread from dromedary camels to humans through direct contact with infected camels. Birds are the primary reservoir for West Nile virus; mosquitoes that feed on infected birds become vectors, and then an infected mosquito can transmit the virus to humans and other mammals.
+
+Viruses and cancer
+
+Some viruses are oncogenic and directly cause or predispose to certain cancers:
+
+Human immunodeficiency virus (HIV): Kaposi sarcoma, non-Hodgkin lymphoma, cervical carcinoma, Hodgkin lymphoma, and carcinomas of the mouth, throat, liver, lung, and anus
+
+Human papillomavirus (HPV): Cervical carcinoma, penile carcinoma, vaginal carcinoma, anal carcinoma, oropharyngeal carcinoma, and esophageal carcinoma
+
+Human T-lymphotropic virus 1: Certain types of human leukemia and lymphoma
+
+Epstein-Barr virus: Nasopharyngeal carcinoma, Burkitt lymphoma, Hodgkin lymphoma, and lymphomas in immunosuppressed organ transplant recipients
+
+Hepatitis B and hepatitis C viruses: Hepatocellular carcinoma
+
+Human herpesvirus 8: Kaposi sarcoma, primary effusion lymphomas, and multicentric Castleman disease (a lymphoproliferative disorder)
+
+References
+
+1. Suntsova M, Garazha A, Ivanova A, Kaminsky D, Zhavoronkov A, Buzdin A. Molecular functions of human endogenous retroviruses in health and disease. Cell Mol Life Sci. 2015;72(19):3653-3675. doi:10.1007/s00018-015-1947-6
+
+2. Dupressoir A, Lavialle C, Heidmann T. From ancestral infectious retroviruses to bona fide cellular genes: role of the captured syncytins in placentation. Placenta. 33(9):663-671, 2012. doi:10.1016/j.placenta.2012.05.005
+
+3. Schindell BG, Webb AL, Kindrachuk J. Persistence and sexual transmission of filoviruses. Viruses. 10(12):683, 2018. doi: 10.3390/v10120683
+
+Diagnosis of Viral Infections
+
+Viral infections and associated diseases can be diagnosed in various ways, including
+
+Clinically based on likely history of exposure, particularly during an epidemic (eg, in influenza, norovirus, SARS-CoV-2), or characteristic symptoms or signs (eg, in measles, rubella, roseola infantum, erythema infectiosum, and chickenpox)
+
+Testing of blood or other specimens (eg, sputum)
+
+Laboratory testing techniques for viruses vary by the virus and the availability within a health system. Options include
+
+Nucleic acid amplification tests (NAATs), including polymerase chain reaction (PCR) methods, detect a specific virus
+
+Antigen detection tests for viral proteins
+
+Serology detects antibodies
+
+Viral culture grows virus in cell cultures
+
+Direct fluorescent antibody (DFA) testing using fluorescently labeled antibodies to detect viral antigens
+
+Definitive laboratory diagnosis is necessary mainly when specific treatment may be helpful or when the agent may be a public health threat. In the United States, most hospital laboratories can test for many viruses, but for less common disorders (eg, rabies, Eastern equine encephalitis, human parvovirus B19), specimens must be sent to state public health laboratories or the Centers for Disease Control and Prevention. Specimens tested can be blood, sputum, tissue, or other specimens, depending on the virus and test.
+
+NAATs are sensitive and specific and results can be available in 1 to 2 hours or 12 or more hours, depending on the particular test. Antigen tests are usually used for rapid screening and some yield results within 15 minutes, but this type of test may have a lower sensitivity or specificity compared with NAATs. DFA is rapid but is available only for a limited number of viruses and has lower sensitivity compared to PCR. Viral culture is less commonly used because it takes a longer time, requires more training and at times higher containment, but is considered the gold standard test.
+
+Serologic examination for antibodies during acute and convalescent stages can be sensitive and specific, but slow; with some viruses, especially flaviviruses, cross-reactions confound diagnosis.
+
+Histopathology with electron (not light) microscopy can sometimes detect characteristic cell changes.
+
+For specific diagnostic procedures, see Laboratory Diagnosis of Infectious Disease.
+
+Treatment of Viral Infections
+
+Antiviral drugs
+
+Progress in the development and use of antiviral drugs is occurring rapidly. Mechanisms of antiviral drugs can be directed at various phases of viral replication. They can
+
+Interfere with viral particle attachment to host cell membranes or uncoating of viral nucleic acids
+
+Inhibit a cellular receptor or factor required for viral replication
+
+Block specific virus-encoded enzymes and proteins that are produced in the host cells and that are essential for viral replication but not for normal host cell metabolism
+
+Antiviral drugs are most often used therapeutically or prophylactically against herpesviruses (including cytomegalovirus), respiratory viruses (including SARS-CoV-2), HIV, chronic hepatitis B, and chronic hepatitis C. However, some drugs are effective against many different kinds of viruses. For example, some drugs active against HIV are used for other viral infections such as hepatitis B.
+
+Interferons
+
+Interferons are compounds released from infected host cells in response to viral or other foreign antigens.
+
+There are many different interferons, which have numerous effects such as blocking translation and transcription of viral RNA and stopping viral replication without disturbing normal host cell function.
+
+During interferon therapy, interferons are sometimes given attached to polyethylene glycol (pegylated formulations), allowing slow, sustained release.
+
+Viral disorders sometimes treated with interferon therapy include
+
+Chronic hepatitis B and chronic hepatitis C
+
+Genital warts (condyloma acuminata), which is caused by human papillomavirus
+
+Kaposi sarcoma, which is associated with late-stage HIV infection
+
+Adverse effects of interferons include fever, chills, weakness, and myalgia, typically starting 7 to 12 hours after the first injection and lasting up to 12 hours. Depression, hepatitis, and, when high doses are used, bone marrow suppression are also possible.
+
+Antibodies
+
+Convalescent serum and monoclonal antibodies (mAbs) can be used to treat some viral infections (eg, Zaire Ebola virus infection, respiratory syncytial virus [RSV], rabies virus).
+
+Prevention of Viral Infections
+
+Vaccines
+
+Vaccines stimulate a person's immune system to prevent infection or severe disease by a virus. Anti-viral vaccines in general use include vaccines for
+
+COVID-19
+
+Hepatitis A
+
+Hepatitis B
+
+Human papillomavirus
+
+Influenza
+
+Japanese encephalitis
+
+Measles
+
+Mumps
+
+Poliomyelitis
+
+Rabies
+
+Respiratory syncytial virus (RSV)
+
+Rotavirus
+
+Rubella
+
+Tick-borne encephalitis (not available in United States)
+
+Varicella
+
+Yellow fever
+
+Adenovirus, smallpox, and mpox vaccines are available but used only in high-risk groups (eg, susceptible individuals during an outbreak, military personnel).
+
+Ebola vaccine is given during outbreaks and to high risk individuals.
+
+Dengue vaccine is approved for use in certain people with laboratory-confirmed previous dengue infection who live in areas where dengue is endemic (see also U.S. Centers for Disease Control and Prevention [CDC]: Dengue Vaccine).
+
+Multiple vaccines for prevention of COVID-19, caused by SARS-CoV-2, have been developed, including mRNA and other types of vaccines.
+
+Viral diseases can be eradicated by effective vaccines. Smallpox was eradicated in 1978, and the cattle plague rinderpest (caused by a virus closely related to human measles virus) was eradicated in 2011. Extensive vaccination has almost eradicated polio worldwide, but cases still occur in areas with incomplete immunization. From 2022-2024, cases occurred only in Pakistan and Afghanistan (1). Measles has been almost eradicated from some parts of the world, notably the Americas, but because measles is highly contagious and vaccination coverage is incomplete, even in regions where it is considered eradicated, final eradication is not imminent.
+
+The prospects for development of vaccines and eradication of other clinically important viral infections (such as HIV) are presently uncertain.
+
+Passive immunization
+
+Immune globulins are available for passive immune prophylaxis in limited situations. They can be used preexposure (eg, for hepatitis A), postexposure (eg, for rabies, varicella, hepatitis B), and for treating disease (eg, eczema vaccinatum).
+
+Monoclonal antibodies against RSV (nirsevimab) should be used to prevent RSV infection in all infants whose mother did not receive a maternal RSV vaccine during pregnancy and is also recommended for a small group of young children 8 to 19 months of age who are at increased risk for severe RSV. (See also CDC: Respiratory Syncytial Virus: Immunizations to Protect Infants).
+
+Monoclonal antibodies with activity against SARS-CoV-2 are available for people who have moderate-to-severe immune compromise and are unlikely to mount an adequate immune response to COVID-19 vaccination (see Prevention of COVID-19: Monoclonal antibody).
+
+Monoclonal antibodies are used to treat Ebola virus disease caused by Zaire orthoebolavirus.
+
+Protective measures
+
+Many viral infections can be prevented by routine protective measures (which vary depending on the transmission mode of a given agent).
+
+Important measures include
+
+Hand washing
+
+Appropriate food preparation and water treatment
+
+Avoidance of contact with sick people
+
+Safer-sex practices
+
+Mask wearing
+
+Physical distancing when appropriate (eg, for COVID-19 prevention)
+
+For infections from an insect vector (eg, mosquitoes, ticks), personal protection against vector bites is important, such as insect repellents, proper clothing, screened windows on houses, and elimination of open standing water.
+
+For infections such as Ebola virus infection, avoiding contact with blood and body fluids (such as urine, feces, saliva, sweat, vomit, breast milk, amniotic fluid, semen, and vaginal fluids) of people who are sick is an important protective measure. Contact with semen from a man who has recovered from Ebola virus infection should be avoided until testing shows that the virus is gone from his semen.
+
+Prevention reference
+
+1. World Health Organization (WHO). Poliomyelitis (Polio). Accessed December 11, 2024.

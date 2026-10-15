@@ -1,0 +1,90 @@
+=== TNF Receptor–Associated Periodic Syndrome (TRAPS) (Merck Manual Professional) ===
+Section: Pediatrics > Hereditary Periodic Fever Syndromes
+Source: https://www.merckmanuals.com/professional/pediatrics/hereditary-periodic-fever-syndromes/tnf-receptor-associated-periodic-syndrome-traps
+Retrieved: 2026-09-25
+
+Tumor necrosis factor receptor–associated periodic syndrome (TRAPS) is a rare autosomal dominant autoinflammatory disorder characterized by recurrent, prolonged episodes of fever, migratory myalgia, abdominal and/or chest pain, erythematous rashes, and risk of AA amyloidosis.
+
+TRAPS was originally described in a family of Irish and Scottish descent but has since been reported in many different ethnic groups.
+
+TRAPS is caused by:
+
+Heterozygous mutations in the extracellular domain of the gene coding TNF receptor 1 (TNFR1, usually TNFRSF1A) (1, 2)
+
+The mutation leads to aberrant inflammation due to accumulation of misfolded TNFR1 in the endoplasmic reticulum, which activates the unfolded protein response. This response is an attempt to correct the abnormal proteins, but, in doing so, it generates reactive oxygen species that trigger inflammation (2).
+
+General references
+
+1. Bonilla FA, Khan DA, Ballas ZK, et al. Practice parameter for the diagnosis and management of primary immunodeficiency. J Allergy Clin Immunol. 2015;136(5):1186-205.e2078. doi:10.1016/j.jaci.2015.04.049
+
+2. Cudrici C, Deuitch N, Aksentijevich I. Revisiting TNF receptor-associated periodic syndrome (TRAPS): Current perspectives. Int J Mol Sci. 2020;21(9):3263. Published 2020 May 5. doi:10.3390/ijms21093263
+
+Symptoms and Signs of TRAPS
+
+The clinical features of TRAPS broadly resemble those of familial Mediterranean fever.
+
+Attacks usually begin before age 10. Febrile attacks typically last 7 to 21 days (average of 10 days) (1).
+
+The most distinctive features of an attack are fever, migratory myalgias, and swelling in the extremities. The overlying skin is erythematous and tender.
+
+Other symptoms of TRAPS may include headache, abdominal pain, diarrhea or constipation, nausea, painful conjunctivitis, periorbital edema, arthralgia, rash, and testicular pain. Males are prone to developing inguinal hernias.
+
+Although most episodes occur spontaneously, specific triggers have been reported by some patients (eg, physical or emotional stress, injuries, infection).
+
+Amyloidosis involving the kidneys has been reported in about 10% of patients at a median age of 43 years (1).
+
+Autoinflammatory Periodic Fever Disorders
+
+CAPS = cryopyrin-associated periodic syndromes; FMF = familial Mediterranean fever; NOMID = neonatal-onset multisystem inflammatory disease; PFAPA = periodic fevers with aphthous stomatitis, pharyngitis, and cervical adenitis; TRAPS = tumor necrosis factor receptor–associated periodic syndrome.
+
+Adapted from Sag E, Bilginer Y, Ozen S: Autoinflammatory diseases with periodic fevers. Curr Rheumatol Rep 19(7):41, 2017. doi: 10.1007/s11926-017-0670-8
+
+Symptoms and signs reference
+
+1. Lachmann HJ, Papa R, Gerhold K, et al: The phenotype of TNF receptor-associated autoinflammatory syndrome (TRAPS) at presentation: A series of 158 cases from the Eurofever/EUROTRAPS international registry. Ann Rheum Dis 73(12):2160–2167, 2014. doi: 10.1136/annrheumdis-2013-204184
+
+Diagnosis of TRAPS
+
+Primarily history and physical examination
+
+Genetic testing
+
+The diagnosis of TRAPS is based on history and examination and is confirmed by genetic testing for the presence of heterozygous pathogenic or likely pathogenic variants in the TNFRSF1A gene.
+
+Proposed diagnostic criteria include the presence of a positive family history, long-lasting fever episodes, periorbital edema, migratory rash, and myalgia and the absence of pharyngotonsillitis and aphthous ulcers. These criteria have a sensitivity of 87% and a specificity of 92% (1).
+
+Nonspecific findings include neutrophilia, elevated acute-phase reactants (eg, erythrocyte sedimentation rate, C-reactive protein), and polyclonal gammopathy during attacks (2). In addition, increased levels of serum amyloid protein A and complement may be evident (2).
+
+Patients should be screened regularly for proteinuria.
+
+Diagnosis references
+
+1. Gattorno M, Hofer M, Federici S, et al. Classification criteria for autoinflammatory recurrent fevers. Ann Rheum Dis. 2019;78(8):1025-1032. doi:10.1136/annrheumdis-2019-215048
+
+2. Bonilla FA, Khan DA, Ballas ZK, et al. Practice parameter for the diagnosis and management of primary immunodeficiency. J Allergy Clin Immunol. 2015;136(5):1186-205.e2078. doi:10.1016/j.jaci.2015.04.049
+
+Treatment of TRAPS
+
+Glucocorticoids
+
+Anakinra and canakinumab
+
+Short-term courses of nonsteroidal anti-inflammatory drugs may be used for mild attacks. However, inflammatory attacks may require short courses of systemic glucocorticoids (eg, prednisone). The dosage of glucocorticoids may need to be increased over time, and this therapy may, over time, paradoxically lead to more prolonged attacks.
+
+Prophylactic therapy includes anakinra once a day (1, 2) and canakinumab every 4 weeks (3, 4). Etanercept can be considered if interleukin (IL)-1 blockade is unavailable or ineffective, but responses are often incomplete or have been found to diminish over time (5, 6).
+
+The prognosis is good with treatment, but it is more guarded in patients with renal amyloidosis.
+
+Treatment references
+
+1. ter Haar NM, Oswald M, Jeyaratnam J, et al. Recommendations for the management of autoinflammatory diseases. Ann Rheum Dis. 2015;74(9):1636–1644. doi:10.1136/annrheumdis-2015-207546
+
+2. Gattorno M, Pelagatti MA, Meini A, et al. Persistent efficacy of anakinra in patients with tumor necrosis factor receptor-associated periodic syndrome. Arthritis Rheum. 2008;58:1516–1520. doi:10.1002/art.23475
+
+3. Gattorno M, Obici L, Penadés IC, et al. Long-Term Efficacy and Safety of Canakinumab in Patients With Tumor Necrosis Factor Receptor-Associated Periodic Syndrome: Results From a Phase III Trial. Arthritis Rheumatol. 2024;76(2):304-312. doi:10.1002/art.42695
+
+4. De Benedetti F, Gattorno M, Anton J, et al. Canakinumab for the treatment of autoinflammatory recurrent fever syndromes. N Engl J Med. 2018;378(20):1908–1919. doi:10.1056/NEJMoa1706314
+
+5. Drewe E, McDermott EM, Powell PT, et al. Prospective study of anti-tumour necrosis factor receptor superfamily 1B fusion protein, and case study of anti-tumour necrosis factor receptor superfamily 1A fusion protein, in tumour necrosis factor receptor associated periodic syndrome (TRAPS): Clinical and laboratory findings in a series of seven patients. Rheumatology. 2003;42:235–239. doi:10.1093/rheumatology/keg070
+
+6. Quillinan N, Mannion G, Mohammad A, et al. Failure of sustained response to etanercept and refractoriness to anakinra in patients with T50M TNF-receptor-associated periodic syndrome. Ann Rheum Dis. 2011;70(9):1692–1693. doi:10.1136/ard.2010.144279

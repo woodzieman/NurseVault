@@ -1,0 +1,198 @@
+=== Noninvasive Prenatal Fetal Screening Tests (Merck Manual Professional) ===
+Section: Gynecology and Obstetrics > Prenatal Genetic Counseling and Evaluation
+Source: https://www.merckmanuals.com/professional/gynecology-and-obstetrics/prenatal-genetic-counseling-and-evaluation/noninvasive-prenatal-fetal-screening-tests
+Retrieved: 2026-09-25
+
+Noninvasive prenatal screening for genetic disorders, unlike invasive testing, has no risk of test-related complications. Noninvasive maternal screening can help women decide whether to have invasive testing. Noninvasive maternal screening for fetal chromosomal abnormalities should be offered to all pregnant women who have not already decided to have amniocentesis or chorionic villus sampling (CVS). However, even if CVS is to be done, maternal serum screening should still be offered to check for fetal neural tube defects.
+
+Normal values vary with gestational age. Corrections for maternal weight, diabetes mellitus, race, and other factors may be necessary. Screening can be done during the
+
+First trimester
+
+Second trimester
+
+Both trimesters (called sequential or integrated screening)
+
+Any of the three approaches is acceptable. Maternal levels of alpha-fetoprotein should be measured during the second trimester to check for neural tube defects. The American College of Obstetricians and Gynecologists (ACOG) provides recommendations for screening for fetal chromosomal abnormalities and a chart to show the timing of prenatal testing for chromosomal abnormalities (see ACOG: Prenatal Genetic Testing Chart).
+
+Pearls & Pitfalls
+
+Measure maternal levels of alpha-fetoprotein during the second trimester to check for neural tube defects regardless of other tests planned and the timing of those tests.
+
+Screening in multiple gestations
+
+All forms of screening in singleton pregnancies are available to patients with a twin pregnancy. For twin pregnancies, screening performance using traditional methods (triple, quad) has lower sensitivity and specificity than in singleton pregnancies. Cell-free DNA (cfDNA) screening performance appears to be comparable for singleton and twin pregnancies. Because most dichorionic twin gestations are discordant for chromosome abnormalities, diagnostic testing is required to distinguish which twin is affected. However, screening for sex chromosome abnormalities in twin pregnancies is usually not available.
+
+No serum screening or cfDNA screening protocols are validated for triplet or higher-order pregnancies.
+
+First-Trimester Screening
+
+Ultrasonography Showing Enlarged Nuchal Translucency in a Fetus at 1...
+
+Image
+
+Chorionic villus sampling indicated that this fetus had Down syndrome.
+
+Photo from Jeffrey S. Dungan, MD.
+
+First-trimester screening should be offered to all pregnant women. It provides information early so that a definitive diagnosis can be made with CVS. An important advantage of first-trimester screening is that termination of pregnancy is safer during the first rather than the second trimester.
+
+One method of screening for fetal Down syndrome, trisomy 18, and trisomy 13 is analysis of cell-free DNA (cfDNA) in maternal plasma, which can be done as early as 10 weeks of gestation. Detection rates using this technology are higher than those with older methods. Another method, called analyte screening, uses multiple maternal serum markers (alpha-fetoprotein, beta-human chorionic gonadotropin [beta-hCG], estriol, inhibin A) to detect neural tube defects, Down syndrome (and other chromosomal abnormalities), and some other birth defects. Analyte screening is done at 15 to 20 weeks gestation.
+
+Cell-free fetal nucleic acid testing
+
+Cell-free DNA (cfDNA) testing is a type of noninvasive fetal screening that can identify fetal chromosomal abnormalities in singleton pregnancies by analyzing circulating cell-free fetal nucleic acids in a maternal blood sample. This test can be done as early as 10 gestational weeks and has replaced traditional first- and second-trimester noninvasive screening in many medical centers. Cell-free DNA screening is more accurate than serum marker screening and does not depend on gestational age. CfDNA involves collecting fetal cells, but it is considered a screening test, not a definitive fetal diagnostic test.
+
+Cell-free fetal nucleic acids, most commonly DNA fragments, are shed into the maternal circulation during normal breakdown of placental trophoblast cells. Variation in amounts of fragments from particular chromosomes predicts fetal chromosomal abnormalities with higher accuracy than traditional first- and second-trimester combined screening using serum analytes and ultrasonography. Also, sex chromosomal abnormalities (X, XXX, XYY, and XXY) can be identified in singleton pregnancies, although with somewhat lower accuracy. Early validation trials reported > 99% sensitivity and specificity for the identification of Down syndrome (trisomy 21) and trisomy 18 in high-risk pregnancies. Trisomy 13 can also be detected, although the sensitivity and specificity are somewhat lower (1).
+
+Cell-free DNA (cfDNA) screening was historically recommended only for women with preexisting risk factors for fetal trisomy. However, it is now commonly used in both average-risk and high-risk patients. The American College of Obstetricians and Gynecologists recommends offering cell-free DNA screening to all pregnant women (2). The American College of Medical Genetics and Genomics issued an evidence-based guideline advocating for cell-free DNA screening as the preferred method for all singleton and twin pregnancies (3).
+
+A meta-analysis of 117 studies found that cfDNA performance for common aneuploidies was (4):
+
+Trisomy 21: sensitivity 99%; specificity 100%
+
+Trisomy 18: sensitivity 98%; specificity 100%
+
+Trisomy 13: sensitivity 91%; specificity 100%
+
+Abnormal results from cfDNA screening should be confirmed with diagnostic karyotyping using fetal specimens obtained through invasive techniques. Negative results from cfDNA screening has reduced the use of routine invasive testing.
+
+Traditionally, first-trimester combined screening includes measurement of
+
+Maternal serum beta-hCG (total or free)
+
+Pregnancy-associated plasma protein A (PAPP-A)
+
+Sometimes, fetal nuchal translucency (by ultrasonography)
+
+Fetal Down syndrome is typically associated with high levels of beta-hCG, low levels of PAPP-A, and enlarged fetal nuchal translucency. Although enlarged nuchal translucency is associated with increased risk of fetal Down syndrome, no threshold value for nuchal translucency is considered diagnostic.
+
+In a large prospective study that included women of various ages, overall sensitivity for detection of Down syndrome was approximately 85%, with a false-positive rate of 5% (5). Specialized ultrasound training and adherence to rigorous quality-assurance monitoring of nuchal translucency measurements are necessary to achieve this level of screening accuracy.
+
+First-trimester screening references
+
+1. Badeau M, Lindsay C, Blais J, Nshimyumukiza L, et al. Genomics-based non-invasive prenatal testing for detection of fetal chromosomal aneuploidy in pregnant women. Cochrane Database Syst Rev 11:CD011767, 2017. doi: 10.1002/14651858.CD011767.pub2
+
+2. Practice Bulletin No. 162: Prenatal Diagnostic Testing for Genetic Disorders. Obstet Gynecol. 2016;127(5):e108-e122. doi:10.1097/AOG.0000000000001405
+
+3. Dungan JS, Klugman S, Darilek S, et al: Noninvasive prenatal screening (NIPS) for fetal chromosome abnormalities in a general-risk population: An evidence-based clinical guideline of the American College of Medical Genetics and Genomics (ACMG) [published correction appears in Genet Med 2023 Aug;25(8):100874]. Genet Med 25(2):100336, 2023. doi:10.1016/j.gim.2022.11.004
+
+4. Mackie FL, Hemming K, Allen S, et al: The accuracy of cell-free fetal DNA-based non-invasive prenatal testing in singleton pregnancies: a systematic review and bivariate meta-analysis. BJOG 124(1):32-46, 2017. doi:10.1111/1471-0528.14050
+
+5. Malone FD, Canick JA, Ball RH, et al: First-trimester or second-trimester screening, or both, for Down's syndrome. N Engl J Med 353(19):2001-2011, 2005. doi:10.1056/NEJMoa043693
+
+Second-Trimester Screening
+
+Second-trimester screening may include cfDNA or the multiple serum marker screening approach.
+
+Serum marker screening includes
+
+Quadruple screening (aimed mainly at trisomy 21): Maternal levels of beta-hCG, unconjugated estriol, alpha-fetoprotein, and sometimes inhibin A may be measured. This test may be used as an alternative or adjunct to first-trimester screening for chromosomal abnormalities.
+
+Screening for neural tube defects: Maternal levels of serum alpha-fetoprotein (MSAFP) may be measured as a single serum marker to screen for neural tube defects only (this approach doe not screen for Down syndrome). An elevated MSAFP level suggests open spina bifida, anencephaly, or abdominal wall defects. Unexplained elevations in MSAFP may be associated with increased risk of later pregnancy complications, such as stillbirth or intrauterine growth retardation.
+
+Second-trimester multiple marker screening is used to help assess the risk of Down syndrome, trisomy 18, and a few rarer single-gene syndromes (eg, Smith-Lemli-Opitz syndrome). Maternal serum tests are widely available, but detection rates for Down syndrome are not as high as those obtained with first-trimester serum marker screening or with cfDNA. Also, termination of pregnancy is riskier in the second trimester than in the first trimester.
+
+Second-trimester screening may also include targeted ultrasonography.
+
+Maternal serum screening for chromosomal abnormalities
+
+Measurement of serum markers, adjusted for gestational age, are used mainly to refine estimates of Down syndrome risk beyond that associated with maternal age. With triple screening (ie, alpha-fetoprotein, hCG, and unconjugated estriol), sensitivity for Down syndrome is about 67 to 73%, with a false-positive rate of about 6% (1). Quad screening is triple screening plus measurement of inhibin A. Quad screening increases sensitivity to approximately 80%, with a 7% false-positive rate (2).
+
+If maternal serum screening suggests Down syndrome, ultrasonography is done to confirm gestational age, and risk is recalculated if the gestational age is corrected. If the original sample was drawn too early based on the previously presumed gestational age, another one must be drawn at the appropriate time. Analysis of cfDNA does not depend on gestational age and thus is not prone to dating errors. In addition, amniocentesis is offered if serum screening indicates that risk of trisomy 21 exceeds a specific prespecified threshold (usually 1 in 270, which is about the same as risk when maternal age is > 35).
+
+Quad screening can also assess risk of trisomy 18, indicated by low levels of all 4 serum markers. Sensitivity for trisomy 18 is approximately 100%; the false-positive rate is about 9% (3).
+
+Maternal serum screening for neural tube defects
+
+An elevated level of MSAFP may indicate a fetal malformation such as open spina bifida. Results are most accurate when the initial sample is obtained between 16 and 18 weeks gestation, although screening can be done from about 15 to 20 weeks.
+
+Designating a cutoff value to determine whether further testing is warranted involves weighing the risk of a missed abnormality versus the risk of complications from unnecessary testing. Usually, a cutoff value in the 95th to 98th percentile, or 2.0 to 2.5 times the normal pregnancy median (multiples of the median, or MOM), is used. This value is about 80% sensitive for open spina bifida and 95% sensitive for anencephaly. False positive rates are between 2 to 5% (4). Closed spina bifida is usually not detected.
+
+Amniocentesis is eventually required in 1 to 2% of women originally screened. Lower cutoff values of MSAFP increase sensitivity but decrease specificity, resulting in more amniocenteses. Women who have been screened for fetal chromosome disorders by cell-free DNA screening should have serum screening with MSAFP alone, not with multiple marker screening.
+
+Ultrasonography is the next step if further testing is warranted. Targeted ultrasonography with or without amniocentesis is done if no explanation can be determined with basic ultrasonography. Ultrasonography can
+
+Confirm gestational age (which may be underestimated)
+
+Detect multifetal pregnancy, fetal death, or congenital malformations
+
+In some women, ultrasonography cannot identify a cause for elevated alpha-fetoprotein levels. Some experts believe that if high-resolution ultrasonography done by an experienced operator is normal, further testing is unnecessary. However, because this test occasionally misses neural tube defects, many experts recommend further testing by amniocentesis regardless of ultrasonography results.
+
+Amniocentesis with measurement of alpha-fetoprotein and acetylcholinesterase levels in amniotic fluid is done if further testing is needed. Elevated alpha-fetoprotein in amniotic fluid suggests
+
+A neural tube defect
+
+Another malformation (eg, omphalocele, congenital nephrosis, cystic hygroma, gastroschisis, upper gastrointestinal atresia)
+
+Contamination of the sample with fetal blood
+
+Presence of acetylcholinesterase in amniotic fluid suggests
+
+A neural tube defect
+
+Another malformation
+
+Elevated alpha-fetoprotein plus presence of acetylcholinesterase in amniotic fluid is nearly 100% sensitive for anencephaly and 90 to 96% sensitive for open spina bifida (4). Abnormal amniotic fluid markers indicate that a malformation is likely even if high-resolution ultrasonography (which can detect most of these malformations) does not detect a malformation, and parents should be informed.
+
+Second-trimester screening references
+
+1. Conde-Agudelo A, Kafury-Goeta AC: Triple-marker test as screening for Down syndrome: a meta-analysis. Obstet Gynecol Surv 53(6):369-376, 1998. doi:10.1097/00006254-199806000-00022
+
+2. Wald NJ, Huttly WJ, Hackshaw AK: Antenatal screening for Down's syndrome with the quadruple test. Lancet 361(9360):835-836, 2003. doi:10.1016/S0140-6736(03)12680-3
+
+3. Breathnach FM, Malone FD, Lambert-Messerlian G, et al: First- and second-trimester screening: detection of aneuploidies other than Down syndrome. Obstet Gynecol 110(3):651-657, 2007. doi:10.1097/01.AOG.0000278570.76392.a6
+
+4. Palomaki GE, Bupp C, Gregg AR, et al: Laboratory screening and diagnosis of open neural tube defects, 2019 revision: a technical standard of the American College of Medical Genetics and Genomics (ACMG). Genet Med 22(3):462-474, 2020. doi:10.1038/s41436-019-0681-0
+
+Sequential First- and Second-Trimester Screening
+
+Noninvasive first-trimester and second-trimester quad screening can be combined sequentially, with invasive fetal genetic testing withheld until results of second-trimester screening are available—whether first-trimester test results are abnormal or not. Sequential screening followed by amniocentesis for high-risk patterns increases sensitivity for Down syndrome to 95%, with a false-positive rate of only 5%.
+
+A variation of sequential screening, called contingent sequential screening, is based on the level of risk indicated by first-trimester screening:
+
+High risk: Invasive testing is offered without doing second-trimester screening.
+
+Intermediate risk: Second-trimester screening is offered.
+
+Low risk (eg, < 1 in 1500): Second-trimester screening for Down syndrome is not offered because the first-trimester risk is so low.
+
+Patients with abnormal first-trimester, second-trimester, or sequential screening should be offered diagnostic testing (eg, amniocentesis). However, some patients may choose to pursue further testing for fetal trisomy with cell-free DNA (cfDNA) analysis (1). Results of cfDNA testing may indicate low risk and be reassuring but are not definitive. Also, cfDNA testing may be inordinately expensive, and awaiting results of cfDNA testing delays definitive testing such as chorionic villus sampling or amniocentesis (2).
+
+Sequential first- and second trimester screening references
+
+1. American College of Obstetricians and Gynecologists/Committee on Genetics, and the Society for Maternal-Fetal Medicine: Practice bulletin no. 163: Screening for fetal aneuploidy. Committee on Practice Bulletins—Obstetrics, Obstet Gynecol 127 (5):e123–e137, 2016. doi: 10.1097/AOG.0000000000001406
+
+2. Norton ME, Jacobsson B, Swamy GK, et al: Cell-free DNA analysis for noninvasive examination of trisomy. N Engl J Med 372 (17):1589-1597, 2015. doi:10.1056/NEJMoa1407349
+
+Prenatal Ultrasonography
+
+Most experts recommend ultrasonography routinely for all pregnant women. Others use ultrasonography only for specific indications, such as checking for suspected genetic or obstetric abnormalities or helping interpret abnormal maternal serum marker levels. If ultrasonography is done by skilled operators, sensitivity for major congenital malformations is high. However, some conditions (eg, oligohydramnios, maternal obesity, fetal position) interfere with obtaining optimal images. Ultrasonography is noninvasive and has no known risks to the woman or fetus.
+
+Basic ultrasonography is done to
+
+Confirm gestational age
+
+Determine fetal viability
+
+Detect a multifetal pregnancy
+
+During the second or third trimester, possibly identify major malformations in the fetal intracranial structures, spine, heart, bladder, kidneys, stomach, thorax, abdominal wall, long bones, and umbilical cord
+
+Although ultrasonography provides only structural information, some structural abnormalities strongly suggest genetic abnormalities. Multiple malformations may suggest a chromosomal disorder.
+
+Targeted ultrasonography, with high-resolution ultrasonography equipment, is available at certain referral centers and provides more detailed images than basic ultrasonography. This test may be indicated for patients who have or whose partner has a family history of a congenital malformation (eg, congenital heart defects, cleft lip and palate, pyloric stenosis), particularly one that may be treated effectively before birth (eg, posterior urethral valves with megacystis) or at delivery (eg, diaphragmatic hernia). Targeted ultrasonography may also be used if maternal serum marker levels are abnormal and may also allow detection of the following:
+
+Renal malformations (eg, renal agenesis [Potter syndrome], polycystic kidney disease)
+
+Lethal forms of short-limbed skeletal dysplasias (eg, thanatophoric skeletal dysplasia, achondrogenesis)
+
+Gut malformations (eg, obstruction)
+
+Diaphragmatic hernia
+
+Microcephaly
+
+Hydrocephalus
+
+Targeted ultrasonography is used to assess risk of chromosomal abnormalities by searching for structural features associated with fetal aneuploidy (so-called soft markers, such as renal pelvis dilation or hyperechoic bowel). However, no structural finding is diagnostic for a given chromosomal abnormality, and all soft markers may also be seen in fetuses that are chromosomally normal. If results from prior trisomy screening were negative, many of these soft markers have no clinical relevance and may be ignored (1). Nonetheless, the discovery of such a marker may lead to offering the woman amniocentesis to confirm or exclude a chromosomal abnormality. If a major structural malformation is present, a fetal chromosomal abnormality is more likely. Disadvantages include unnecessary anxiety if a soft marker is detected and unnecessary amniocentesis. Several experienced centers report high sensitivity, but whether a normal ultrasound indicates a substantially reduced risk of fetal chromosomal abnormalities is unclear.

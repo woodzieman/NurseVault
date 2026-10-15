@@ -1,0 +1,176 @@
+=== Electrical Injuries (Merck Manual Professional) ===
+Section: Injuries; Poisoning > Electrical and Lightning Injuries
+Source: https://www.merckmanuals.com/professional/injuries-poisoning/electrical-and-lightning-injuries/electrical-injuries
+Retrieved: 2026-09-25
+
+Accidental electrical injuries in the home (eg, touching an electrical outlet or getting shocked by a small appliance) rarely result in significant injury or sequelae. However, each year in the United States, accidental exposure to high voltage results in nearly 400 deaths and > 30,000 nonfatal shock incidents, and electrical burns account for about 5% of admissions to burn units.
+
+Pathophysiology of Electrical Injuries
+
+Traditional teaching is that the severity of electrical injury depends on characteristics of the exposure, which are referred to as Kouwenhoven’s factors:
+
+Type of current (direct [DC] or alternating [AC])
+
+Voltage and amperage (measures of current strength)
+
+Duration of exposure (longer exposure increases injury severity)
+
+Body resistance
+
+Pathway of current (which determines the specific tissue damaged)
+
+However, electrical field strength seems to predict injury severity more accurately.
+
+Kouwenhoven’s factors
+
+AC changes direction frequently; it is the current usually supplied by household electrical outlets in the United States and worldwide. DC flows in the same direction constantly; it is the current supplied by batteries. Defibrillators and cardioverters usually deliver DC current.
+
+How AC affects the body depends largely on frequency. Low-frequency (50- to 60-hertz [Hz]) AC is used in households in the United States (60 Hz) and Europe (50 Hz). Low-frequency AC causes extended muscle contraction (tetany), which may prevent a person from removing their hand or other body part from the current’s source. Because of this potential for prolonged exposure, AC is associated with higher rates of injury and mortality than either high-frequency AC or DC of the same voltage and amperage. DC exposure is likely to cause a single convulsive contraction, which often throws the person away from the current’s source.
+
+For both AC and DC, the higher the voltage (V) and amperage (A), the greater the electrical injury (for the same duration of exposure). Household current in the United States is 110 V (standard electrical outlet) to 220 V (eg, heating/air conditioning units, clothes dryers, ovens, electrical vehicle chargers). High-voltage (> 500 V) currents tend to cause deep burns, and low-voltage (110 to 220 V) currents tend to cause muscle tetany with risk of prolonged exposure if the person cannot move their hand (or other body part) away from the current’s source. The maximum amperage that can cause flexors of the arm to contract but that allows release of the hand from the current’s source is called the "let-go current," which varies with weight and muscle mass. For an average 70-kg person, let-go current is about 75 milliamperes (mA) for DC and about 15 mA for AC.
+
+Low-voltage 60-Hz AC that travels through the chest for even a fraction of a second can cause ventricular fibrillation, even at amperage as low as 60 to 100 mA; for DC, about 300 to 500 mA are required. If current has a direct pathway to the heart (eg, via a cardiac catheter or pacemaker electrodes), < 1 mA (AC or DC) can cause ventricular fibrillation.
+
+Tissue damage due to electrical exposure is caused primarily by the conversion of electrical energy to heat, resulting in thermal injury. Amount of dissipated heat energy equals amperage2 × resistance × time; thus, for any given current and duration, tissue with the highest resistance tends to suffer the most damage. Body resistance (measured in ohms/cm2) is provided primarily by the skin, because all internal tissue (except bone) has negligible resistance. Skin thickness and dryness increase resistance; dry, well-keratinized, intact skin averages 20,000 to 30,000 ohms/cm2. For a thickly calloused palm or sole, resistance may be 2 to 3 million ohms/cm2; in contrast, moist, thin skin has a resistance of about 500 ohms/cm2. Resistance for punctured skin (eg, cut, abrasion, needle puncture) or moist mucous membranes (eg, mouth, rectum, vagina) may be as low as 200 to 300 ohms/cm2.
+
+If skin resistance is high, more electrical energy may be dissipated at the skin, resulting in large skin burns but less internal damage. If skin resistance is low, skin burns are less extensive or absent, and more electrical energy is transmitted to internal structures. Thus, the absence of external burns does not predict the absence of electrical injury, and the severity of external burns does not predict the severity of electrical injury.
+
+Pearls & Pitfalls
+
+The absence or severity of external burns does not predict the presence or severity of internal electrical injury.
+
+Damage to internal tissues depends on their resistance as well as on current density (current per unit area; energy is concentrated when the same current flows through a smaller area). For example, as electrical energy flows in an arm (primarily through lower-resistance tissues, eg, muscle, vessels, nerves), current density increases at joints because a significant proportion of the joint’s cross-sectional area consists of higher-resistance tissues (eg, bone, tendon), which decreases the area of lower-resistance tissue; thus, damage to the lower-resistance tissues tends to be most severe at joints.
+
+The current’s pathway through the body determines which structures are injured. Because AC current continually reverses direction, the commonly used terms “entry” and “exit” are inappropriate; “source” and “ground” are more precise. The hand is the most common source point, followed by the head. The foot is the most common ground point. Current traveling between arm and arm or between arm and foot is likely to traverse the heart, possibly causing arrhythmia. This current tends to be more dangerous than current traveling from one foot to the other. Current to the head may damage the central nervous system.
+
+Electrical field strength
+
+Electrical field strength is the intensity of electricity across the area to which it is applied. It, along with Kouwenhoven’s factors, also determines the degree of tissue injury. For instance, 20,000 volts (20 kV) distributed across the body of a person who is approximately 2 m (6 ft) tall result in a field strength of about 10 kV/m. Similarly, 110 volts, if applied only to 1 cm (eg, across a young child’s lip), result in a similar field strength of 11 kV/m; this relationship is why such a low-voltage injury to a small area can cause the same severity of tissue injury as some high-voltage injuries applied to a larger area. Conversely, when considering voltage rather than electrical field strength, minor or trivial electrical injuries technically could be classified as high voltage. For example, the shock received from shuffling across a carpet in the winter involves thousands of volts but causes inconsequential injury.
+
+The electrical field effect can cause cell membrane damage (electroporation) even when the energy is insufficient to cause any thermal damage.
+
+Types of injury
+
+Application of low electrical field strength causes an immediate, unpleasant feeling (being “shocked”) but seldom results in serious or permanent injury. Application of high electrical field strength causes thermal or electrochemical damage to internal tissues. Damage may include
+
+Hemolysis
+
+Protein coagulation
+
+Coagulation necrosis of muscle and other tissues
+
+Thrombosis
+
+Dehydration
+
+Muscle and tendon avulsion
+
+High electrical field strength injuries may result in massive edema, which, as blood in veins coagulates and muscles swell, can result in compartment syndrome. Massive edema may also cause hypovolemia and hypotension. Muscle destruction can result in rhabdomyolysis, myoglobinuria, and electrolyte disturbances. Myoglobinuria, hypovolemia, and hypotension increase risk of acute kidney injury. The consequences of organ dysfunction do not always correlate with the amount of tissue destroyed (eg, ventricular fibrillation may occur with relatively little tissue destruction).
+
+Symptoms and Signs of Electrical Injuries
+
+Burns may be sharply demarcated on the skin even when current penetrates irregularly into deeper tissues.
+
+Young children who bite or suck on extension cords can burn their mouth and lips. Such burns may cause cosmetic deformities and impair growth of the teeth, mandible, and maxilla. Labial artery hemorrhage, which results when the eschar separates 5 to 10 days after injury, occurs in up to 10% of these young children.
+
+An electrical shock can cause powerful muscle contractions or falls (eg, from a ladder or roof), resulting in dislocations (electrical shock is one of the few causes of posterior shoulder dislocation), vertebral or other fractures, injuries to internal organs, and other blunt force injuries.
+
+Severe involuntary muscular contractions, seizures, ventricular fibrillation, or respiratory arrest due to central nervous system (CNS) damage or muscle paralysis may occur. Brain, spinal cord, and peripheral nerve damage may result in various neurologic deficits.
+
+Cardiac arrest may occur in the absence of burns as in bathtub accidents (when a wet [grounded] person contacts a 110-V circuit—eg, from a hair dryer or radio). The most common rhythm disturbance in patients in cardiac arrest is ventricular fibrillation (1).
+
+Subtle or vaguely defined neurologic, psychologic, and physical sequelae can develop 1 to 5 years after the injury and result in significant morbidity (2) .
+
+Symptoms and signs references
+
+1. Kroll MW, Luceri RM, Efimov IR, Calkins H: The electrophysiology of electrocution. Heart Rhythm O2 4(7):457-462, 2023. Published 2023 Jun 9. doi:10.1016/j.hroo.2023.06.004
+
+2. Wesner ML, Hickie J: Long-term sequelae of electrical injury. Can Fam Physician 59(9):935-939, 2013.
+
+Diagnosis of Electrical Injuries
+
+Complete physical examination
+
+Sometimes ECG, cardiac enzyme measurement, or urinalysis
+
+The patient, once away from current, is assessed for cardiac arrest and respiratory arrest. Necessary resuscitation is done. After initial resuscitation, patients are examined from head to toe for traumatic injuries, particularly if the patient fell or was thrown.
+
+Patients who are asymptomatic, have a normal physical examination, are not pregnant, have no known cardiovascular disorders, and who have had only brief exposure to household current usually have no significant acute internal or external injuries and do not require further testing or monitoring. For other patients, ECG, complete blood count (CBC), measurement of cardiac enzymes, and urinalysis (to check for myoglobin) should be considered. Patients with impaired consciousness may require CT or MRI.
+
+Treatment of Electrical Injuries
+
+Shutting off current
+
+Resuscitation
+
+Analgesia
+
+Sometimes cardiac monitoring for 6 to 12 hours
+
+Wound care
+
+General care
+
+All electrical burn injury patients should receive appropriate tetanus prophylaxis.
+
+Young children with lip burns should be referred to a pediatric orthodontist or oral surgeon familiar with such injuries.
+
+Prehospital care
+
+The first priority is to break contact between the patient and the current source, often by shutting off the current (eg, via a circuit breaker or switch, by disconnecting the device from its electrical outlet). High- and low-voltage power lines are not always easily differentiated, particularly outdoors. CAUTION: To avoid shock, rescuers should not try to disengage anyone entangled in power lines (whether of high or low voltage) until the power is shut off.
+
+Severe injuries or shock
+
+Patients are assessed and resuscitated concurrently. Shock, which may result from trauma or massive burns, is managed. Standard burn fluid resuscitation formulas, which are based on the extent of skin burns, may underestimate the fluid requirement in electrical burns; thus, such formulas are not used. Instead, fluids are titrated to maintain adequate urine output (approximately 0.5 to 1.0 mL/kg/hour).
+
+Patients may have rhabdomyolysis with myoglobinuria, and it is particularly important to maintain adequate urine output, while alkalinizing the urine may help decrease the risk of renal failure. Surgical debridement of large amounts of muscle tissue may also help to decrease myoglobinuric renal failure.
+
+Severe pain due to an electrical burn is treated with appropriate titration of IV opioids.
+
+All patients with significant electrical burns should be referred to a specialized burn unit.
+
+Cardiac risk factors
+
+Lethal arrhythmias are uncommon in patients who have a normal ECG at initial assessment (1).
+
+However, cardiac monitoring is indicated for any of the following:
+
+Arrhythmias
+
+Chest pain
+
+Any suggestion of cardiac damage
+
+Known structural cardiovascular disorders (eg, congenital heart defects)
+
+Pregnant patients may require admission for fetal monitoring and evaluation due to potential fetal cardiac injury (2).
+
+Mild burn injuries
+
+Patients should receive topical burn wound care if required. Pain is treated with nonsteroidal anti-inflammatory drugs or other analgesics.
+
+Patients who have no or minimal symptoms, have a mild burn injury or no findings on physical examination, are not pregnant, have no known cardiovascular disorders, and who have had only brief exposure to household current usually have no significant acute internal or external injuries that would necessitate admission and can be discharged.
+
+Treatment references
+
+1. Bailey B, Gaudreault P, Thivierge RL: Cardiac monitoring of high-risk patients after an electrical injury: a prospective multicentre study [published correction appears in Emerg Med J 2007 Aug;24(8):605]. Emerg Med J 24(5):348-352, 2007. doi:10.1136/emj.2006.044677
+
+2. Caballero-Carvajal JA, Manrique-Hernández EF, Becerra-Ar C, et al: Secondary maternal-fetal consequences to electrical injury: A literature review. Taiwan J Obstet Gynecol 59(1):1-7, 2020. doi: 10.1016/j.tjog.2019.11.001
+
+Prevention of Electrical Injuries
+
+Electrical devices that touch or may be touched by the body should be properly insulated, grounded, and incorporated into circuits containing protective circuit-breaking equipment. Ground-fault circuit breakers, which trip when as little as 5 milliamperes (mA) of current leaks to ground, are effective and readily available. Outlet guards reduce risk in homes with infants or young children.
+
+To avoid injury from current that jumps (arcing injury), poles and ladders should not be used near high-voltage power lines.
+
+Key Points
+
+In addition to burn injuries, AC can prevent patients from removing their hand from the current source, while DC can throw patients, causing injury.
+
+Although skin burn severity does not predict the degree of internal damage, internal damage is more severe if the skin has low resistance.
+
+Examine patients completely, including for traumatic injuries.
+
+Consider ECG, CBC, cardiac enzymes, urinalysis, and monitoring unless patients are asymptomatic, are not pregnant, have no known heart disorders, and have had only brief exposure to household current.
+
+Refer patients with significant electrical burns to a specialized burn unit and, if significant internal damage is suspected, begin fluid resuscitation.

@@ -1,0 +1,62 @@
+=== Human Leukocyte Antigen (HLA) System (Merck Manual Professional) ===
+Section: Allergy and Immunology > Biology of the Immune System
+Source: https://www.merckmanuals.com/professional/immunology-allergic-disorders/biology-of-the-immune-system/human-leukocyte-antigen-hla-system
+Retrieved: 2026-09-25
+
+The human leukocyte antigen (HLA) system (the major histocompatibility complex [MHC] in humans) is an important part of the immune system and is controlled by genes located on the short arm of chromosome 6. HLA genes encode cell surface molecules (ie, MHC) that are specialized at presenting antigenic peptides to the T-cell receptor (TCR) on T cells. Thus, MHC molecules are integral to immune recognition and response, allowing T cells to detect and respond to pathogens. Aberrant self-antigen presentation by MHC molecules can lead to impaired immune tolerance, driving the development of some autoimmune diseases (eg, type I diabetes, celiac disease). (See also Overview of the Immune System.)
+
+MHC molecules that present antigen (Ag) are divided into 2 main classes:
+
+Class I MHC molecules
+
+Class II MHC molecules
+
+Class I MHC molecules are transmembrane glycoproteins present on the surface of all nucleated cells. Intact class I molecules consist of an alpha (α) heavy chain bound to a beta-2 microglobulin (β2m) molecule. The heavy chain consists of 2 peptide-binding domains, an immunoglobulin (Ig)-like domain, and a transmembrane region with a cytoplasmic tail. The heavy chain subunit of the class I molecule is encoded by genes at HLA-A, HLA-B, and HLA-C loci (chromosome 6), whereas the gene encoding light chain (β2m) subunit is located on chromosome 15 (1). T cells that express CD8 molecules react with class I MHC molecules. These T cells often have a cytotoxic function, requiring them to be capable of recognizing any infected cell or tumor cell.
+
+Because every nucleated cell expresses class I MHC molecules, all infected or tumor cells have the potential to act as antigen-presenting cells for CD8 T cells (CD8 binds to the nonpolymorphic part of the class I heavy chain), unless cells downregulate MHC I expression, leading to immune evasion (where infected or tumor cells escape immune detection). Some class I MHC genes encode nonclassical (ie, not CD8-binding) MHC molecules, such as HLA-G (expressed in the placenta, where it functions as an immune checkpoint molecule to protect the fetus from the maternal immune response [2]) and HLA-E (which presents peptides to certain receptors on natural killer [NK] cells) (3).
+
+Class II MHC molecules are usually present only on professional antigen-presenting cells (B cells, macrophages, dendritic cells, Langerhans cells), thymic epithelium, and activated (but not resting) T cells. Most nucleated cells can be induced to express class II MHC molecules by interferon (IFN)-gamma. Class II MHC molecules consist of 2 polypeptide (alpha [α] and beta [β]) chains; each chain has a peptide-binding domain, an Ig-like domain, and a transmembrane region with a cytoplasmic tail. Both polypeptide chains are encoded by genes in the HLA-DP, HLA-DQ, or HLA-DR region of chromosome 6. T cells reactive to class II MHC molecules express CD4 and are often helper cells (Th).
+
+The MHC class III region of the genome encodes several molecules important in inflammation; they include complement components C2, C4, and factor B; tumor necrosis factor (TNF)-alpha; lymphotoxin; and 3 heat shock proteins, which help protect cells from stress and maintain protein homeostasis.
+
+Individual serologically defined antigens encoded by the class I and class II gene loci in the HLA system are given standard designations (eg, HLA-A1, -B5, -C1, -DR1). Alleles defined by DNA sequencing are named to identify the gene, followed by an asterisk, numbers representing the allele group (often corresponding to the serologic antigen encoded by that allele), a colon, and numbers representing the specific allele (eg, A*02:01, DRB1*01:03, DQA1*01:02). Sometimes additional numbers are added after a colon to identify allelic variants that encode identical proteins, and after another colon, other numbers are added to denote polymorphisms in introns or in 5' or 3' untranslated regions (eg, A*02:101:01:02, DRB1*03:01:01:02) (4).
+
+The MHC class I and class II molecules are the most immunogenic antigens that are recognized during rejection of an allogeneic transplant. The strongest determinant is HLA-DR, followed by HLA-B and HLA-A. These 3 loci are therefore the most important for matching donor and recipient.
+
+Some autoimmune disorders are linked to specific HLA alleles—for example (5):
+
+Ankylosing spondylitis and reactive arthritis to HLA-B27
+
+Sjögren syndrome and autoimmune myositis to HLA-DR3
+
+Systemic lupus erythematosus (SLE) to HLA-DR3 and HLA-DR15
+
+Behçet syndrome to HLA-B51
+
+Rheumatoid arthritis to HLA-DR4
+
+Multiple sclerosis to HLA-DR2
+
+Narcolepsy to HLA-DR2 and HLA–DQB1*06:02
+
+Psoriasis to HLA-C*06:02
+
+Type 1 diabetes mellitus to HLA-DQ2 and HLA-DQ8
+
+Graves disease to HLA-DR3
+
+Hashimoto disease to HLA-DR11
+
+Celiac disease to HLA-DQ2 and HLA-DQ8
+
+References
+
+1. Cruz-Tapias P, Castiblanco J, Anaya JM. Major histocompatibility complex: Antigen processing and presentation. In: Anaya JM, Shoenfeld Y, Rojas-Villarraga A, et al., editors. Autoimmunity: From Bench to Bedside [Internet]. Bogota (Colombia): El Rosario University Press; 2013 Jul 18. Chapter 10. Available from: https://www.ncbi.nlm.nih.gov/books/NBK459467/
+
+2. Duhamel M, Cardon T, Ziane-Chaouche L, Salzet M. Nonclassical HLA and pseudogenes in maternal-fetal tolerance and cancer. Trends Immunol. 2025 Sep 18:S1471-4906(25)00216-9. doi:10.1016/j.it.2025.08.006
+
+3. Beltrami S, Rizzo S, Strazzabosco G, et al. Non-classical HLA class I molecules and their potential role in viral infections. Hum Immunol. 2023;84(8):384-392. doi:10.1016/j.humimm.2023.03.007
+
+4. Barker DJ, Maccari G, Georgiou X, et al. The IPD-IMGT/HLA Database. Nucleic Acids Res. 2023;51(D1):D1053-D1060. doi:10.1093/nar/gkac1011
+
+5. Klein J, Sato A. The HLA system. First of two parts. N Engl J Med. 2000;343(10):702-709. doi:10.1056/NEJM200009073431006

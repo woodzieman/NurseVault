@@ -31,10 +31,27 @@ enum WatchHomeDestination: Hashable {
 
 struct WatchHomeView: View {
     @Environment(Library.self) private var library
+    
+    /// Whether the watch has synced data from the main app.
+    private var hasSyncedData: Bool {
+        !library.watchSections.isEmpty || !library.watchDocs.isEmpty
+    }
 
     var body: some View {
         NavigationStack {
             List {
+                // Sync status indicator
+                Section {
+                    HStack {
+                        Image(systemName: library.syncState == .synced ? "icloud.checkmark" : 
+                              library.syncState == .offline ? "icloud.slash" : 
+                              "icloud")
+                            .foregroundStyle(library.syncState == .synced ? .green : 
+                                           library.syncState == .offline ? .orange : .blue)
+                        Text(syncStatusText)
+                    }
+                }
+
                 Button(action: {
                     library.reload()
                 }) {
@@ -83,6 +100,19 @@ struct WatchHomeView: View {
                     WatchMerckReferenceView()
                 }
             }
+        }
+    }
+    
+    private var syncStatusText: String {
+        switch library.syncState {
+        case .synced:
+            return "Synced"
+        case .offline:
+            return "Offline - using cached data"
+        case .notSignedIn:
+            return "Not signed in to iCloud"
+        case .syncing:
+            return "Syncing..."
         }
     }
 }
@@ -209,22 +239,66 @@ struct WatchDocDetailView: View {
                         .font(.body)
                 } else if let mimeType = doc.mimeType, mimeType.hasPrefix("text/") {
                     // For text files, we can't show content without the actual file data
-                    Text("File: \(doc.fileName ?? "unknown")")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
+                    VStack(spacing: 4) {
+                        Image(systemName: "doc.text")
+                            .font(.largeTitle)
+                            .foregroundStyle(.secondary)
+                        Text("Text File")
+                            .font(.headline)
+                        Text(doc.fileName ?? "unknown")
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
+                        Text("View on your iPhone or Mac to see the full content.")
+                            .font(.caption)
+                            .foregroundStyle(.tertiary)
+                    }
+                    .frame(maxWidth: .infinity, alignment: .center)
                 } else if let mimeType = doc.mimeType, mimeType.hasPrefix("image/") {
-                    Text("Image: \(doc.fileName ?? "unknown")")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
+                    VStack(spacing: 4) {
+                        Image(systemName: "photo")
+                            .font(.largeTitle)
+                            .foregroundStyle(.secondary)
+                        Text("Image File")
+                            .font(.headline)
+                        Text(doc.fileName ?? "unknown")
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
+                        Text("View on your iPhone or Mac to see the image.")
+                            .font(.caption)
+                            .foregroundStyle(.tertiary)
+                    }
+                    .frame(maxWidth: .infinity, alignment: .center)
                 } else if let mimeType = doc.mimeType, mimeType == "application/pdf" {
-                    Text("PDF: \(doc.fileName ?? "unknown")")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
+                    VStack(spacing: 4) {
+                        Image(systemName: "doc.richtext")
+                            .font(.largeTitle)
+                            .foregroundStyle(.secondary)
+                        Text("PDF File")
+                            .font(.headline)
+                        Text(doc.fileName ?? "unknown")
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
+                        Text("View on your iPhone or Mac to read the PDF.")
+                            .font(.caption)
+                            .foregroundStyle(.tertiary)
+                    }
+                    .frame(maxWidth: .infinity, alignment: .center)
                 } else {
                     // For other file types
-                    Text(doc.fileName ?? "Document")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
+                    VStack(spacing: 4) {
+                        Image(systemName: "doc")
+                            .font(.largeTitle)
+                            .foregroundStyle(.secondary)
+                        Text("Document")
+                            .font(.headline)
+                        Text(doc.fileName ?? "unknown")
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
+                        Text("View on your iPhone or Mac to open this file.")
+                            .font(.caption)
+                            .foregroundStyle(.tertiary)
+                    }
+                    .frame(maxWidth: .infinity, alignment: .center)
                 }
 
                 // Metadata
