@@ -12,6 +12,7 @@
 		A10000000000000000000186 /* NurseVault Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A10000000000000000000111 /* NurseVault Watch.app */; platformFilter = ios; };
 		A10000000000000000000202 /* DrugInfo in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000201 /* DrugInfo */; };
 		A10000000000000000000204 /* MerckTopics in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000203 /* MerckTopics */; };
+		A10000000000000000000206 /* DSM5TR in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000205 /* DSM5TR */; };
 		AF95AFB43064C33500E29321 /* NurseVaultCore in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000131 /* NurseVaultCore */; };
 		AF95AFB53064C33500E29321 /* NurseVaultCore in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000131 /* NurseVaultCore */; };
 /* End PBXBuildFile section */
@@ -65,6 +66,7 @@
 		A10000000000000000000166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A10000000000000000000201 /* DrugInfo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DrugInfo; sourceTree = "<group>"; };
 		A10000000000000000000203 /* MerckTopics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MerckTopics; sourceTree = "<group>"; };
+		A10000000000000000000205 /* DSM5TR */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DSM5TR; sourceTree = "<group>"; };
 		AF9F3BB63069E5DB00E8A97A /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 				A10000000000000000000167 /* Support */,
 				A10000000000000000000201 /* DrugInfo */,
 				A10000000000000000000203 /* MerckTopics */,
+				A10000000000000000000205 /* DSM5TR */,
 				A10000000000000000000105 /* Products */,
 			);
 			name = "=This Project=";
@@ -262,6 +265,7 @@
 			files = (
 				A10000000000000000000202 /* DrugInfo in Resources */,
 				A10000000000000000000204 /* MerckTopics in Resources */,
+				A10000000000000000000206 /* DSM5TR in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +330,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Sources/iOS/NurseVault.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 59;
+				CURRENT_PROJECT_VERSION = 72;
 				DEVELOPMENT_TEAM = 2LFBN27WK8;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
@@ -354,6 +358,7 @@
 					"@executable_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 4.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -370,7 +375,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Sources/iOS/NurseVault.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 59;
+				CURRENT_PROJECT_VERSION = 72;
 				DEVELOPMENT_TEAM = 2LFBN27WK8;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
@@ -398,6 +403,7 @@
 					"@executable_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 4.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -493,7 +499,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 56;
+				CURRENT_PROJECT_VERSION = 66;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 2LFBN27WK8;
@@ -516,7 +522,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 4.2;
+				MARKETING_VERSION = 4.3;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = auto;
@@ -554,7 +560,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 56;
+				CURRENT_PROJECT_VERSION = 66;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 2LFBN27WK8;
@@ -571,7 +577,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 4.2;
+				MARKETING_VERSION = 4.3;
 				MTL_FAST_MATH = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
