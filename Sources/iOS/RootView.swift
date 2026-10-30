@@ -5,15 +5,23 @@ struct RootView: View {
     @Environment(Library.self) private var library
     @Environment(DrugLibrary.self) private var drugLibrary
     @Environment(MerckTopicLibrary.self) private var merckLibrary
+    @Environment(DsmTopicLibrary.self) private var dsmLibrary
     @Environment(\.scenePhase) private var scenePhase
 
     @State private var selection: SidebarItem?
+    @State private var searchManager: UniversalSearchManager? = nil
+    /// Local storage for search text to handle the case when searchManager is not yet initialized.
+    @State private var localSearchText = ""
     @State private var showingNewSection = false
     @State private var renameTarget: SectionEditTarget?
     @State private var deleteTarget: VaultSection?
     @State private var showingDeleteDialog = false
     @State private var showingResetAlert = false
     @State private var showingSettings = false
+    /// Safari-style sidebar toggle: `.all` shows the menu column, `.detailOnly`
+    /// hides it so the reference/documents get the full width (landscape
+    /// iPhone and iPad).
+    @State private var splitVisibility: NavigationSplitViewVisibility = .all
 
     enum SidebarItem: Hashable {
         case all
@@ -22,8 +30,16 @@ struct RootView: View {
         case drugReference
         /// The read-only Merck Manual medical topics bundled with the app.
         case merckManual
+        /// The read-only DSM-5-TR nursing reference bundled with the app.
+        case dsmManual
         /// 174 clinical calculators (MedCalc library).
         case mediCalc
+        /// Bundled laboratory reference ranges (tables).
+        case labs
+        /// User-imported books (PDFs, text, RTF).
+        case books
+        /// Results of the universal search.
+        case searchResults
     }
 
     /// Wrapper so a section can drive a sheet (`item:` requires Identifiable).
@@ -48,6 +64,35 @@ struct RootView: View {
             .padding()
     }
 
+    #if DEBUG
+    /// DEBUG deep-selection: launch with
+    /// `-debugSelect <all|drugs|calculators|merck|dsm|labs>` to jump straight
+    /// into a reference, and `-hideSidebar` to pre-collapse the menu column —
+    /// for headless layout verification on the simulator (no UI scripting).
+    /// Inert in Release builds.
+    private func maybeApplyDebugSelection() {
+        let args = ProcessInfo.processInfo.arguments
+        if args.contains("-hideSidebar") {
+            // Assign after the split view has appeared: a synchronous change in
+            // onAppear gets overridden by the system's default visibility.
+            Task { @MainActor in
+                try? await Task.sleep(for: .milliseconds(300))
+                splitVisibility = .detailOnly
+            }
+        }
+        guard let i = args.firstIndex(of: "-debugSelect"), i + 1 < args.count else { return }
+        switch args[i + 1] {
+        case "all": selection = .all
+        case "drugs": selection = .drugReference
+        case "calculators": selection = .mediCalc
+        case "merck": selection = .merckManual
+        case "dsm": selection = .dsmManual
+        case "labs": selection = .labs
+        default: break
+        }
+    }
+    #endif
+
     /// Handles deep links like `nursevault://calculator/<id>` by navigating to Clinical
     /// Calculators and opening the specified calculator.
     private func handleDeeplink(_ url: URL) {
@@ -57,7 +102,7 @@ struct RootView: View {
     }
 
     private var readyContent: some View {
-        NavigationSplitView {
+        NavigationSplitView(columnVisibility: $splitVisibility) {
             List(selection: $selection) {
                 Label("All Documents", systemImage: "books.vertical")
                     .tag(SidebarItem.all)
@@ -73,6 +118,16 @@ struct RootView: View {
                 Label("Merck Manual", systemImage: "book")
                     .badge(merckLibrary.entries.count)
                     .tag(SidebarItem.merckManual)
+
+                Label("DSM-5-TR", systemImage: "book.fill")
+                    .badge(dsmLibrary.entries.count)
+                    .tag(SidebarItem.dsmManual)
+
+                Label("Labs", systemImage: "testtube.2")
+                    .tag(SidebarItem.labs)
+
+                Label("Books", systemImage: "book.closed.fill")
+                    .tag(SidebarItem.books)
 
                 ForEach(library.sections, id: \.self) { section in
                     Label(section.name ?? "Untitled", systemImage: section.icon ?? "folder")
@@ -92,7 +147,24 @@ struct RootView: View {
                 .onMove { library.moveSections(from: $0, to: $1) }
             }
             .navigationTitle("Nurse Vault")
+            #if os(iOS)
+            // Keep the menu a bounded slice of landscape width so the reference
+            // column (and the Safari-style toggle) behave like Safari's.
+            .navigationSplitViewColumnWidth(min: 220, ideal: 260, max: 320)
+            #endif
+            .searchable(text: $localSearchText)
             .toolbar {
+                // Safari-style sidebar toggle: hide the menu for full-width content.
+                #if os(iOS)
+                ToolbarItem(placement: .topBarLeading) {
+                    Button {
+                        splitVisibility = splitVisibility == .detailOnly ? .all : .detailOnly
+                    } label: {
+                        Image(systemName: "sidebar.leading")
+                    }
+                    .accessibilityLabel("Toggle menu")
+                }
+                #endif
                 #if os(iOS)
                 ToolbarItem(placement: .topBarLeading) {
                     Button {
@@ -100,6 +172,16 @@ struct RootView: View {
                     } label: {
                         Image(systemName: "gearshape")
                     }
+                }
+                #endif
+                #if os(macOS)
+                ToolbarItem(placement: .navigation) {
+                    Button {
+                        splitVisibility = splitVisibility == .detailOnly ? .all : .detailOnly
+                    } label: {
+                        Image(systemName: "sidebar.leading")
+                    }
+                    .keyboardShortcut("0", modifiers: .command)
                 }
                 #endif
                 #if os(macOS)
@@ -123,26 +205,43 @@ struct RootView: View {
                     #endif
                 }
             }
-        } content: {
-            switch selection {
-            case .drugReference:
-                DrugReferenceView()
-            case .mediCalc:
-                NavigationStack {
-                    CategoryListView()
-                }
-            case .merckManual:
-                MerckManualView()
-            case .all, .section(_), .none:
-                NavigationStack {
-                    VaultListView(container: currentContainer)
+        } detail: {
+            // Two-column split (Safari-style): the reference and vault views
+            // own their navigation, so they fill the whole detail column.
+            // The old third column was a dead "Select a Document" placeholder
+            // that wasted half the screen in landscape.
+            if let sm = searchManager, !localSearchText.isEmpty {
+            NavigationStack {
+                UniversalSearchResultsView(
+                    results: sm.results,
+                    isLoadingLibraries: sm.isLoadingLibraries
+                ) { result in
+                    handleSearchResultSelection(result)
                 }
             }
-        } detail: {
-            ContentUnavailableView {
-                Label("Select a Document", systemImage: "doc.text.magnifyingglass")
-            } description: {
-                Text("Choose a reference from the list.")
+            } else {
+                switch selection {
+                case .drugReference:
+                    DrugReferenceView()
+                case .mediCalc:
+                    NavigationStack {
+                        CategoryListView()
+                    }
+                case .merckManual:
+                    MerckManualView()
+                case .dsmManual:
+                    DsmManualView()
+                case .labs:
+                    LabsView()
+                case .books:
+                    NavigationStack {
+                        BooksView(library: library)
+                    }
+                case .all, .section(_), .none, .searchResults:
+                    NavigationStack {
+                        VaultListView(container: currentContainer)
+                    }
+                }
             }
         }
         .sheet(isPresented: $showingSettings) {
@@ -182,7 +281,6 @@ struct RootView: View {
         .navigationSplitViewStyle(.balanced)
         #if os(macOS)
         .navigationSplitViewColumnWidth(min: 200, ideal: 240, max: 320)
-        .navigationSplitViewColumnWidth(min: 280, ideal: 360, max: 500)
         #endif
         .onChange(of: scenePhase) { _, newPhase in
             if newPhase == .active {
@@ -202,14 +300,95 @@ struct RootView: View {
                 + "Your vault was re-created, so documents from the earlier alpha build didn't carry over."
             )
         }
+        .onAppear {
+            #if DEBUG
+            maybeApplyDebugSelection()
+            #endif
+            // Initialize search manager with environment values
+            if searchManager == nil {
+                searchManager = UniversalSearchManager(
+                    library: library,
+                    drugLibrary: drugLibrary,
+                    merckLibrary: merckLibrary,
+                    dsmLibrary: dsmLibrary
+                )
+            }
+        }
+        .onChange(of: drugLibrary.isLoading) { _, isLoading in
+            // Re-search when drug library finishes loading if user has typed something
+            guard !isLoading, let sm = searchManager, !localSearchText.isEmpty else { return }
+            // Trigger re-search by temporarily clearing and restoring the text
+            let query = localSearchText
+            localSearchText = ""
+            localSearchText = query
+        }
+        .onChange(of: merckLibrary.isLoading) { _, isLoading in
+            // Re-search when Merck library finishes loading if user has typed something
+            guard !isLoading, let sm = searchManager, !localSearchText.isEmpty else { return }
+            // Trigger re-search by temporarily clearing and restoring the text
+            let query = localSearchText
+            localSearchText = ""
+            localSearchText = query
+        }
+        .onChange(of: dsmLibrary.isLoading) { _, isLoading in
+            // Re-search when the DSM library finishes loading if user has typed something
+            guard !isLoading, let sm = searchManager, !localSearchText.isEmpty else { return }
+            let query = localSearchText
+            localSearchText = ""
+            localSearchText = query
+        }
+        .onChange(of: localSearchText) { _, newText in
+            // Sync local search text with search manager when available
+            if let sm = searchManager {
+                sm.searchText = newText
+            }
+            // While searching, point the split-view selection at the
+            // `.searchResults` bucket (a non-nil value) so iPhone's compact
+            // layout renders the search results in the detail column instead of
+            // hiding them until a category is tapped.
+            selection = newText.isEmpty ? selection : .searchResults
+        }
+        .onChange(of: searchManager?.searchText) { _, newText in
+            // Sync back from search manager to local state (for clearing)
+            guard let newText else { return }
+            if localSearchText != newText {
+                localSearchText = newText
+            }
+        }
         .onOpenURL { url in
             handleDeeplink(url)
         }
     }
 
+    private func handleSearchResultSelection(_ result: SearchResult) {
+        switch result {
+        case .drug(let entry):
+            selection = .drugReference
+            // Navigation to detail usually happens via NavigationLink in DrugReferenceView.
+            // To support this, we might need a shared state or deep link.
+            // For now, just switching to the view.
+        case .topic(let topic):
+            selection = .merckManual
+        case .dsmTopic:
+            selection = .dsmManual
+        case .calculator(let calc):
+            selection = .mediCalc
+            // Deep link for calculator: nursevault://calculator/<id>
+            if let url = URL(string: "nursevault://calculator/\(calc.id)") {
+                handleDeeplink(url)
+            }
+        case .document(let doc):
+            if let section = doc.section {
+                selection = .section(section)
+            } else {
+                selection = .all
+            }
+        }
+    }
+
     private var currentSection: VaultSection? {
         switch selection {
-        case .all, .none, .drugReference, .merckManual:
+        case .all, .none, .drugReference, .merckManual, .dsmManual, .labs, .books, .searchResults:
             return nil
         case .section(let section):
             return section
@@ -231,7 +410,7 @@ struct RootView: View {
 
     private func containerFromSelection() -> VaultContainer? {
         switch selection {
-        case .all, .none, .drugReference, .merckManual, .mediCalc:
+        case .all, .none, .drugReference, .merckManual, .dsmManual, .mediCalc, .labs, .books, .searchResults:
             return nil
         case .section(let section):
             return .section(section)
