@@ -27,7 +27,19 @@ enum WatchHomeDestination: Hashable {
     case search
     case drugReference
     case merckReference
+    case dsmReference
+    case labs
 }
+
+#if DEBUG
+/// DEBUG-only deep-jump target for a reference entry's detail view (see
+/// `WatchHomeView.maybeStartDebugJump`). Lets the detail screen be verified
+/// headlessly on the watch simulator.
+struct DebugDetailTarget {
+    let reference: WatchReference
+    let entry: WatchReferenceEntry
+}
+#endif
 
 struct WatchHomeView: View {
     @Environment(Library.self) private var library
@@ -38,6 +50,22 @@ struct WatchHomeView: View {
     }
 
     var body: some View {
+        #if DEBUG
+        if let target = debugTarget {
+            NavigationStack {
+                WatchReferenceDetailView(reference: target.reference, entry: target.entry)
+            }
+        } else {
+            normalHome
+                .onAppear { maybeStartDebugJump() }
+        }
+        #else
+        normalHome
+        #endif
+    }
+
+    /// The normal watch home: sync status + reference destinations.
+    private var normalHome: some View {
         NavigationStack {
             List {
                 // Sync status indicator
@@ -72,6 +100,14 @@ struct WatchHomeView: View {
                     Label("Merck Manual", systemImage: "book")
                 }
 
+                NavigationLink(value: WatchHomeDestination.dsmReference) {
+                    Label("DSM-5-TR", systemImage: "book.fill")
+                }
+
+                NavigationLink(value: WatchHomeDestination.labs) {
+                    Label("Lab Reference", systemImage: "testtube.2")
+                }
+
                 if !library.watchSections.isEmpty {
                     ForEach(library.watchSections) { watchSection in
                         NavigationLink(value: watchSection) {
@@ -98,11 +134,53 @@ struct WatchHomeView: View {
                     WatchDrugReferenceView()
                 case .merckReference:
                     WatchMerckReferenceView()
+                case .dsmReference:
+                    WatchDsmReferenceView()
+                case .labs:
+                    WatchLabsView()
                 }
             }
         }
     }
-    
+
+    #if DEBUG
+    @State private var debugTarget: DebugDetailTarget?
+
+    /// DEBUG deep-jump: launch the watch app with
+    /// `-debugDetail <dataset> [title]` (dataset = drugs/merck/dsm) to open
+    /// that entry's detail view directly, enabling headless screenshot
+    /// verification via `simctl io <device> screenshot` (the watch simulator
+    /// has no public UI-scripting API).
+    private func maybeStartDebugJump() {
+        let args = ProcessInfo.processInfo.arguments
+        guard let i = args.firstIndex(of: "-debugDetail"), i + 1 < args.count else { return }
+        let dataset = args[i + 1]
+        let title = i + 2 < args.count ? args[(i + 2)...].joined(separator: " ") : ""
+        guard let name = WatchReference.Name(rawValue: dataset) else {
+            NSLog("NurseVault (watch debug): unknown dataset '\(dataset)'")
+            return
+        }
+        let reference = WatchReference(name)
+        Task {
+            reference.loadIfNeeded()
+            // Wait for the index to load (up to ~15 s).
+            for _ in 0..<75 {
+                if !reference.isLoading { break }
+                try? await Task.sleep(for: .milliseconds(200))
+            }
+            let match = reference.entries.first {
+                title.isEmpty
+                    || $0.title.localizedCaseInsensitiveContains(title)
+                    || title.localizedCaseInsensitiveContains($0.title)
+            }
+            if let target = match {
+                debugTarget = DebugDetailTarget(reference: reference, entry: target)
+            }
+            NSLog("NurseVault (watch debug): jump '\(dataset)' '\(title)' -> '\(match?.title ?? "NO MATCH")' (\(reference.entries.count) entries; error: \(reference.loadError ?? "none"))")
+        }
+    }
+    #endif
+
     private var syncStatusText: String {
         switch library.syncState {
         case .synced:

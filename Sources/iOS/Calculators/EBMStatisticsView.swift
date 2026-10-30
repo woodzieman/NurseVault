@@ -160,7 +160,7 @@ struct EBMStatisticsView: View {
     }
     
     func calcNPV() -> String {
-        guard let tp = Double(npvDataTP), let fn = Double(npvDataFN),
+        guard let tp = Double(npvDataTP), Double(npvDataFN) != nil,
               let fp = Double(npvDataFP), let tn = Double(npvDataTN),
               tp > 0, fp > 0 else { return "Enter valid values" }
         let npv = tn / (tn + fp)
@@ -172,8 +172,8 @@ struct EBMStatisticsView: View {
     }
     
     func calcPPV() -> String {
-        guard let tp = Double(ppvDataTP), let fn = Double(ppvDataFN),
-              let fp = Double(ppvDataFP), let tn = Double(ppvDataTN),
+        guard let tp = Double(ppvDataTP), Double(ppvDataFN) != nil,
+              let fp = Double(ppvDataFP), Double(ppvDataTN) != nil,
               tp > 0, fp > 0 else { return "Enter valid values" }
         let ppv = tp / (tp + fp)
         return String(format: "PPV: %.1f%%", ppv * 100.0)
@@ -214,19 +214,19 @@ struct EBMStatisticsView: View {
     var inputFields: some View {
         Group {
             Section("Bayesian Analysis") {
-                TextField("Prevalence (%)", text: $bayesPrev).keyboardType(.decimalPad)
-                TextField("Sensitivity (%)", text: $bayesSens).keyboardType(.decimalPad)
-                TextField("Specificity (%)", text: $bayesSpec).keyboardType(.decimalPad)
+                TextField("Prevalence (%)", text: $bayesPrev).decimalPadKeyboard()
+                TextField("Sensitivity (%)", text: $bayesSens).decimalPadKeyboard()
+                TextField("Specificity (%)", text: $bayesSpec).decimalPadKeyboard()
             }
             
             Section("Benefit Increase (NNT)") {
-                TextField("Control Event Rate (%)", text: $benefitCtrl).keyboardType(.decimalPad)
-                TextField("Experimental Event Rate (%)", text: $benefitSce).keyboardType(.decimalPad)
+                TextField("Control Event Rate (%)", text: $benefitCtrl).decimalPadKeyboard()
+                TextField("Experimental Event Rate (%)", text: $benefitSce).decimalPadKeyboard()
             }
             
             Section("Likelihood Ratios") {
-                TextField("Sensitivity (%)", text: $lrSens).keyboardType(.decimalPad)
-                TextField("Specificity (%)", text: $lrSpec).keyboardType(.decimalPad)
+                TextField("Sensitivity (%)", text: $lrSens).decimalPadKeyboard()
+                TextField("Specificity (%)", text: $lrSpec).decimalPadKeyboard()
             }
             
             Section("PERC Rule") {
@@ -248,7 +248,9 @@ struct EBMStatisticsView: View {
             Section("Result") { Text(result) }
         }
         .navigationTitle(calculator.title)
+        #if os(iOS)
         .navigationBarTitleDisplayMode(.large)
+        #endif
         .medCalcResultRecording(calculator: calculator, resultText: result)
         .toolbar { Button("Close") { dismiss() } }
     }

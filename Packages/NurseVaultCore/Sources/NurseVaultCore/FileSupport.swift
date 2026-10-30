@@ -21,6 +21,14 @@ public struct ImportedFile: Sendable {
     public var fileName: String
     public var title: String
     public var mimeType: String?
+    
+    /// Creates an `ImportedFile` from a URL.
+    public init(data: Data?, fileName: String, title: String, mimeType: String?) {
+        self.data = data ?? Data()
+        self.fileName = fileName
+        self.title = title
+        self.mimeType = mimeType
+    }
 }
 
 /// Helpers for turning picked files and photos into library documents.

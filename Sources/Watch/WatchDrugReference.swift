@@ -83,8 +83,8 @@ struct WatchDrugReferenceView: View {
             if !reference.entries.isEmpty {
                 let firstEntry = reference.entries[0]
                 let text = await reference.text(for: firstEntry)
-                if text != nil {
-                    results.append("✓ Successfully loaded first entry (\(text!.count) chars)")
+                if let text, !text.isEmpty {
+                    results.append("✓ Successfully loaded first entry (\(text.count) chars)")
                 } else {
                     results.append("✗ Failed to load first entry: \(firstEntry.title)")
                     if let error = reference.loadError {
@@ -108,6 +108,10 @@ struct WatchReferenceListView: View {
     @Binding var searchText: String
     let all: [WatchReferenceEntry]
     @Binding var visibleCount: Int
+
+    /// Local mirror of `reference.shouldShowMissingAlert` for the `.alert`
+    /// presentation (the model flag is reset when the alert is dismissed).
+    @State private var showLoadAlert = false
 
     private static let pageSize = 25
 
@@ -199,11 +203,23 @@ struct WatchReferenceListView: View {
                 }
             }
         }
+        .alert("Reference data unavailable", isPresented: $showLoadAlert) {
+            Button("OK", role: .cancel) {
+                reference.shouldShowMissingAlert = false
+            }
+        } message: {
+            Text(reference.loadError ?? "Please reinstall the app to restore the reference.")
+        }
+        .onChange(of: reference.shouldShowMissingAlert) { _, shown in
+            showLoadAlert = shown
+        }
     }
 }
 
 /// The full text of one reference entry: seek + read + inflate of that entry
-/// only, rendered scrollable on the watch.
+/// only, rendered scrollable on the watch. The whole entry shows in one long
+/// scroll — no pagination, no page footer, no truncation: a single `Text`
+/// scrolls natively, and the content is loaded in full anyway.
 struct WatchReferenceDetailView: View {
     let reference: WatchReference
     let entry: WatchReferenceEntry
@@ -211,9 +227,24 @@ struct WatchReferenceDetailView: View {
     @State private var text: String?
     @State private var isLoading = true
     @State private var loadError: String? = nil
-    
+
     /// Track if we've attempted to load content yet (for retry logic)
     @State private var hasAttemptedLoad = false
+
+    /// The whole entry minus its metadata header, rendered as one long scroll.
+    /// No page cap: `text` already holds the full entry, so there is nothing
+    /// to page.
+    private var bodyText: String {
+        guard let t = text else { return "" }
+        return Self.bodyText(for: t)
+    }
+
+    /// Finds the linked "(continued)" entry if it exists.
+    private var continuedEntry: WatchReferenceEntry? {
+        guard !entry.title.hasSuffix(" (continued)") else { return nil }
+        let continuedTitle = entry.title + " (continued)"
+        return reference.entries.first(where: { $0.title == continuedTitle })
+    }
 
     var body: some View {
         ScrollView {
@@ -223,7 +254,7 @@ struct WatchReferenceDetailView: View {
                         .font(.caption)
                         .foregroundStyle(.secondary)
                 }
-                
+
                 // Show error state
                 if let error = loadError {
                     VStack(alignment: .center, spacing: 8) {
@@ -237,7 +268,6 @@ struct WatchReferenceDetailView: View {
                             .multilineTextAlignment(.center)
                             .padding(.horizontal)
                         Button(action: {
-                            // Reset and retry
                             hasAttemptedLoad = false
                             loadContent()
                         }) {
@@ -246,13 +276,19 @@ struct WatchReferenceDetailView: View {
                         }
                     }
                     .padding()
-                } else if let text {
-                    let body = Self.bodyText(for: text)
-                    // Watch has limited memory; truncate very long entries
-                    // to the first ~8KB (roughly 2-3 screens of scrolling).
-                    let displayText = body.count > 8000 ? String(body.prefix(8000)) + "\n\n…" : body
-                    Text(displayText)
+                } else if text != nil, !bodyText.isEmpty {
+                    Text(bodyText)
                         .font(.footnote)
+
+                    // Link to continued entry if it exists (for split drug monographs)
+                    if let continued = continuedEntry {
+                        NavigationLink(destination: WatchReferenceDetailView(reference: reference, entry: continued)) {
+                            Label("View continued", systemImage: "arrow.right")
+                                .frame(maxWidth: .infinity)
+                        }
+                        .buttonStyle(.bordered)
+                        .padding(.top, 4)
+                    }
                 } else if isLoading {
                     ProgressView("Loading…")
                         .padding()
@@ -288,31 +324,35 @@ struct WatchReferenceDetailView: View {
             .padding()
         }
         .navigationTitle(entry.title)
-        .task {
+        .task(id: entry) {
+            // Reset state for the new entry when the task re-fires
+            hasAttemptedLoad = false
+            isLoading = false
+            loadError = nil
+            text = nil
+
             // Wait for reference to be loaded before attempting content load
-            // Poll with increasing delays up to 5 seconds max wait time
             var attempts = 0
             while (reference.isLoading || reference.isMissing) && attempts < 10 {
                 try? await Task.sleep(for: .milliseconds(200))
                 if Task.isCancelled { return }
                 attempts += 1
             }
-            
-            // If still loading after waiting, proceed anyway to show error state
+
             loadContent()
         }
     }
-    
+
     private func loadContent() {
         hasAttemptedLoad = true
         isLoading = true
         loadError = nil
         text = nil
-        
+
         #if DEBUG
         NSLog("NurseVault (watch): Loading detail for '\(entry.title)' at offset \(entry.contentStart)-\(entry.contentEnd)")
         #endif
-        
+
         Task {
             // Check if reference is ready
             if reference.isMissing {
@@ -320,24 +360,24 @@ struct WatchReferenceDetailView: View {
                 isLoading = false
                 return
             }
-            
+
             if let error = reference.loadError {
                 loadError = error
                 isLoading = false
                 return
             }
-            
+
             // Load content with timeout protection
             let deadline = Date.now.addingTimeInterval(30)
             text = await reference.text(for: entry)
-            
+
             if Date.now > deadline {
                 loadError = "Loading timed out. Please try again."
                 #if DEBUG
                 NSLog("NurseVault (watch): Timeout loading content for '\(entry.title)'")
                 #endif
             }
-            
+
             if let t = text {
                 #if DEBUG
                 NSLog("NurseVault (watch): Loaded \(t.count) chars for '\(entry.title)'")
@@ -353,11 +393,14 @@ struct WatchReferenceDetailView: View {
         }
     }
 
-    /// Drops the leading metadata header (`===` / `Source:` / `Retrieved:` /
-    /// `Section:` lines) so the article starts at real content. Everything
-    /// else — including the nursing quick-reference summary block — stays.
+    /// Drops the leading metadata header so the article starts at real
+    /// content. Covers the drug/Merck header lines (`===` / `Section:` /
+    /// `Source:` / `Retrieved:`) and the DSM-5-TR header lines (`ICD-10-CM:`
+    /// / `DSM-5-TR CONTENT:` — the code is already shown in the row's `extra`
+    /// and the label is a generator artifact). Everything else — including
+    /// the nursing quick-reference summary block — stays.
     private static func bodyText(for text: String) -> String {
-        let headerPrefixes = ["===", "Section:", "Source:", "Retrieved:"]
+        let headerPrefixes = ["===", "Section:", "Source:", "Retrieved:", "ICD-10-CM:", "DSM-5-TR CONTENT:"]
         let lines = text.split(separator: "\n", omittingEmptySubsequences: false).map(String.init)
         var index = 0
         while index < lines.count {

@@ -55,12 +55,18 @@ struct CalculatorDetailView: View {
                 HematologyView(calculator: calculator)
             case "pharmacology & toxicology":
                 PharmacologyAndToxicologyView(calculator: calculator)
+            case "obstetrics":
+                ObstetricsView(calculator: calculator)
+            case "other":
+                OtherView(calculator: calculator)
             default:
                 Text("Calculator view not yet implemented: \(calculator.title)")
             }
         }
         .navigationTitle(calculator.title)
+        #if os(iOS)
         .navigationBarTitleDisplayMode(.large)
+        #endif
         .toolbar {
             Button("Close") { dismiss() }
             Button {

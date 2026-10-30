@@ -12,6 +12,9 @@ struct CategoryListView: View {
                 }
             }
         }
-        .navigationTitle("Clinical Calculators").navigationBarTitleDisplayMode(.inline)
+        .navigationTitle("Clinical Calculators")
+        #if os(iOS)
+        .navigationBarTitleDisplayMode(.inline)
+        #endif
     }
 }

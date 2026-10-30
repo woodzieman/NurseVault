@@ -3,6 +3,7 @@ import CoreData
 import CloudKit
 import Network
 import Observation
+import OSLog
 #if os(watchOS)
 import WidgetKit
 #endif
@@ -46,6 +47,9 @@ public final class Library {
     @ObservationIgnored private var isStoreLoaded = false
     @ObservationIgnored var searchCache: [URL: SearchEntry] = [:]
     @ObservationIgnored var searchInflight = Set<URL>()
+    /// Protects concurrent access to `searchCache` and `searchInflight`
+    /// from background extraction tasks.
+    @ObservationIgnored var searchLock = NSLock()
     private var iso8601Formatter: ISO8601DateFormatter = { let f = ISO8601DateFormatter(); return f }()
 
     /// Watch-friendly summary data, loaded from the App Group file.
@@ -91,13 +95,15 @@ public final class Library {
                 NSLog("NurseVault: could not load the local store: \(error.localizedDescription)")
                 #endif
             }
+            Self.applyDataProtection(to: container.persistentStoreDescriptions.first?.url)
             Task { @MainActor in
                 self?.markStoreLoaded()
             }
         }
     }
 
-    /// Removes the on-disk store (and its external blob file) if present.
+    /// Removes the on-disk store (and its SQLite sidecars and external blob
+    /// file) if present.
     nonisolated private static func deleteStoreFileIfNeeded(_ container: NSPersistentCloudKitContainer) -> Bool {
         guard let url = container.persistentStoreDescriptions.first?.url,
               FileManager.default.fileExists(atPath: url.path) else { return false }
@@ -105,17 +111,67 @@ public final class Library {
         if (try? FileManager.default.removeItem(at: url)) != nil {
             removed = true
         }
-        // External binary data (document files) is kept in a sibling `tmp`
-        // file; remove it too so nothing lingers from the old schema.
-        let tmp = url.deletingPathExtension().appendingPathComponent("tmp")
-        if FileManager.default.fileExists(atPath: tmp.path) {
-            try? FileManager.default.removeItem(at: tmp)
+        // The WAL/SHM sidecars and the external blob file (`<store>-tmp`,
+        // where document files live) must go too, or a half-deleted store can
+        // still fail to open on retry.
+        for suffix in ["-wal", "-shm", "-tmp"] {
+            let sidecar = URL(fileURLWithPath: url.path + suffix)
+            if FileManager.default.fileExists(atPath: sidecar.path) {
+                try? FileManager.default.removeItem(at: sidecar)
+            }
         }
         return removed
     }
 
+    /// Pins the Core Data store and its SQLite sidecars to the strongest
+    /// Data Protection class (`NSFileProtectionComplete`): unreadable until
+    /// the device is fully unlocked.
+    ///
+    /// App data is protected at rest by default, but only with the weaker
+    /// "complete-when-locked" class — still readable while the device sits
+    /// locked. The vault holds user-entered clinical notes, so every store
+    /// file gets the strongest class explicitly. The WAL/SHM sidecars are
+    /// recreated on each open, so this runs after *every* successful load,
+    /// not just at first launch.
+    nonisolated private static func applyDataProtection(to url: URL?) {
+        #if os(iOS) || os(watchOS)
+        guard let url else { return }
+        for file in [url,
+                     URL(fileURLWithPath: url.path + "-wal"),
+                     URL(fileURLWithPath: url.path + "-shm"),
+                     URL(fileURLWithPath: url.path + "-tmp")] where FileManager.default.fileExists(atPath: file.path) {
+            do {
+                try FileManager.default.setAttributes([FileAttributeKey.protectionKey: FileProtectionType.complete], ofItemAtPath: file.path)
+                #if DEBUG
+                let attrs = try FileManager.default.attributesOfItem(atPath: file.path)
+                if (attrs[.protectionKey] as? String) != FileProtectionType.complete.rawValue {
+                    NSLog("NurseVault: data protection not applied to \(file.lastPathComponent): \(String(describing: attrs[.protectionKey]))")
+                }
+                #endif
+            } catch {
+                // Log error persistently for debugging using OSLog
+                let logger = Logger(subsystem: "com.josephwoods.nursevault", category: "Security")
+                logger.error("Could not set data protection on \(file.lastPathComponent): \(error.localizedDescription)")
+            }
+        }
+        #else
+        _ = url // macOS has no Data Protection; files are covered by disk encryption.
+        #endif
+    }
+
     private func markStoreLoaded() {
         guard !isStoreLoaded else { return }
+        
+        // Check if migration is needed based on schema version
+        if VaultModel.needsMigration() {
+            #if DEBUG
+            let lastVersion = VaultModel.lastKnownSchemaVersion()
+            NSLog("NurseVault: Schema migration needed from version \(lastVersion) to \(VaultModel.currentSchemaVersion)")
+            #endif
+            // For now, perform the existing destructive reset if incompatible
+            // In future, implement proper lightweight migration here
+        }
+        
         isStoreLoaded = true
         startMonitoring()
         observeSyncEvents()
@@ -131,6 +187,10 @@ public final class Library {
         // the vault. Runs on the watch too, so the watch self-heals locally even if
         // the CloudKit deletion of those docs has not propagated yet.
         applyMerckVaultMigration()
+        
+        // Save current schema version after successful load and migration
+        VaultModel.saveCurrentSchemaVersion()
+        
         isReady = true
     }
 

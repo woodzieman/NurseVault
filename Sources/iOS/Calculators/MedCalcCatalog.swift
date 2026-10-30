@@ -46,6 +46,7 @@ enum CalculatorCategory: String, CaseIterable {
     case substanceuse = "Substance Use"
     case unitconversions = "Unit Conversions"
     case urology = "Urology"
+    case obstetrics = "Obstetrics"
 }
 
 extension CalculatorCategory {
@@ -101,6 +102,8 @@ extension CalculatorCategory {
             return "Conversions"
         case .urology:
             return "Urology"
+        case .obstetrics:
+            return "Obstetrics"
         }
     }
 }
@@ -279,6 +282,8 @@ func makeCalculatorList() -> [CalculatorInfo] {
     result.append(CalculatorInfo(id: "WHOInfantWeightForAgehtm", title: "WHO Infant Weight for Age Percentiles (< 24 months)", category: "Pediatrics", fileName: "WHOInfantWeightForAge.htm", merckPage: "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/who-infant-weight-for-age-percentiles-24-months"))
     result.append(CalculatorInfo(id: "WHOInfantWeightForLengthhtm", title: "WHO Infant Weight for Length Percentiles (< 24 months)", category: "Pediatrics", fileName: "WHOInfantWeightForLength.htm", merckPage: "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/who-infant-weight-for-length-percentiles-24-months"))
     result.append(CalculatorInfo(id: "WinterFormulahtm", title: "Winter's Formula for Expected PCO2", category: "Electrolytes & Acid-Base", fileName: "WinterFormula.htm", merckPage: "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/winters-formula-for-expected-pco2"))
+    result.append(CalculatorInfo(id: "DueDates", title: "Due Date Calculator", category: "Obstetrics", fileName: "DueDate.native"))
+    result.append(CalculatorInfo(id: "NaegelesRule", title: "Naegele's Rule Calculator", category: "Obstetrics", fileName: "NaegelesRule.native"))
 
     return result
 }

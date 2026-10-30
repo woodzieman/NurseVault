@@ -31,11 +31,7 @@ extension Data {
         guard bufferSize > 0 else { return nil }
         
         var buffer: [UInt8]
-        do {
-            buffer = try [UInt8](repeating: 0, count: bufferSize)
-        } catch {
-            return nil  // Memory allocation failed
-        }
+        buffer = [UInt8](repeating: 0, count: bufferSize)
         
         var written: size_t = 0
         // Skip the 8-byte size prefix - brotli only needs the compressed data

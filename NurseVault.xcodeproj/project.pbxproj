@@ -370,50 +370,55 @@
 			name = Debug;
 		};
 		A10000000000000000000141 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Sources/iOS/NurseVault.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 74;
-				DEVELOPMENT_TEAM = 2LFBN27WK8;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
-				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
-				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
-				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
-				ENABLE_RESOURCE_ACCESS_CAMERA = YES;
-				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
-				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
-				ENABLE_RESOURCE_ACCESS_PRINTING = YES;
-				ENABLE_RESOURCE_ACCESS_USB = NO;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Nurse Vault";
-				INFOPLIST_KEY_CFBundleURLTypes = "{\n    CFBundleURLName = \"com.josephwoods.nursevault\";\n    CFBundleURLSchemes =     (\n        nursevault\n    );\n}";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
-				INFOPLIST_KEY_NSCameraUsageDescription = "Nurse Vault uses the camera to capture photos of reference material and to read the text of printed references.";
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 5.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
+	buildSettings = {
+		"ASSETCATALOG_COMPILER_APPICON_NAME" = AppIcon;
+		"CODE_SIGN_ENTITLEMENTS" = "Sources/iOS/NurseVault.entitlements";
+		"CODE_SIGN_STYLE" = Automatic;
+		"CURRENT_PROJECT_VERSION" = 75;
+		"DEVELOPMENT_TEAM" = 2LFBN27WK8;
+		"ENABLE_APP_SANDBOX" = YES;
+		"ENABLE_INCOMING_NETWORK_CONNECTIONS" = YES;
+		"ENABLE_OUTGOING_NETWORK_CONNECTIONS" = NO;
+		"ENABLE_PREVIEWS" = YES;
+		"ENABLE_RESOURCE_ACCESS_AUDIO_INPUT" = NO;
+		"ENABLE_RESOURCE_ACCESS_BLUETOOTH" = NO;
+		"ENABLE_RESOURCE_ACCESS_CALENDARS" = NO;
+		"ENABLE_RESOURCE_ACCESS_CAMERA" = YES;
+		"ENABLE_RESOURCE_ACCESS_CONTACTS" = NO;
+		"ENABLE_RESOURCE_ACCESS_LOCATION" = NO;
+		"ENABLE_RESOURCE_ACCESS_PRINTING" = YES;
+		"ENABLE_RESOURCE_ACCESS_USB" = NO;
+		"GENERATE_INFOPLIST_FILE" = YES;
+		"INFOPLIST_KEY_CFBundleDisplayName" = "Nurse Vault";
+		"INFOPLIST_KEY_CFBundleURLTypes" = "{
+    CFBundleURLName = \"com.josephwoods.nursevault\";
+    CFBundleURLSchemes =     (
+        nursevault
+    );
+}";
+		"INFOPLIST_KEY_LSApplicationCategoryType" = "public.app-category.medical";
+		"INFOPLIST_KEY_NSCameraUsageDescription" = "Nurse Vault uses the camera to capture photos of reference material and to read the text of printed references.";
+		"INFOPLIST_KEY_UILaunchScreen_Generation" = YES;
+		"INFOPLIST_KEY_UISupportedInterfaceOrientations" = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+		"INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad" = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+		"IPHONEOS_DEPLOYMENT_TARGET" = "17.0";
+		"LD_RUNPATH_SEARCH_PATHS" = (
+			"$(inherited)",
+			"@executable_path/Frameworks",
+		);
+		"MACOSX_DEPLOYMENT_TARGET" = "14.0";
+		"MARKETING_VERSION" = "5.0.1";
+		"PRODUCT_BUNDLE_IDENTIFIER" = "com.josephwoods.nursevault";
+		"PRODUCT_NAME" = "$(TARGET_NAME)";
+		SDKROOT = auto;
+		"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator macosx";
+		"SUPPORTS_MACCATALYST" = NO;
+		"SWIFT_VERSION" = "6.0";
+		"TARGETED_DEVICE_FAMILY" = "1,2";
+	};
+	isa = XCBuildConfiguration;
+	name = Release;
+};
 		A10000000000000000000142 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -444,34 +449,36 @@
 			name = Debug;
 		};
 		A10000000000000000000143 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Sources/Watch/WatchEntitlements.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2LFBN27WK8;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Nurse Vault";
-				INFOPLIST_KEY_CFBundleIconName = AppIcon;
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.josephwoods.nursevault;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.josephwoods.nursevault.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "watchos watchsimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_WATCH = YES;
-				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = "4,5,7,8,10,11,12,13,14,15";
-				WATCHOS_DEPLOYMENT_TARGET = 10.0;
-			};
-			name = Release;
-		};
+	buildSettings = {
+		"ASSETCATALOG_COMPILER_APPICON_NAME" = AppIcon;
+		"CODE_SIGN_ENTITLEMENTS" = "Sources/Watch/WatchEntitlements.entitlements";
+		"CODE_SIGN_STYLE" = Automatic;
+		"CURRENT_PROJECT_VERSION" = 75;
+		"DEVELOPMENT_TEAM" = 2LFBN27WK8;
+		"ENABLE_PREVIEWS" = YES;
+		"GENERATE_INFOPLIST_FILE" = YES;
+		"INFOPLIST_KEY_CFBundleDisplayName" = "Nurse Vault";
+		"INFOPLIST_KEY_CFBundleIconName" = AppIcon;
+		"INFOPLIST_KEY_WKCompanionAppBundleIdentifier" = "com.josephwoods.nursevault";
+		"LD_RUNPATH_SEARCH_PATHS" = (
+			"$(inherited)",
+			"@executable_path/Frameworks",
+		);
+		"MARKETING_VERSION" = "5.0.1";
+		"PRODUCT_BUNDLE_IDENTIFIER" = "com.josephwoods.nursevault.watchkitapp";
+		"PRODUCT_NAME" = "$(TARGET_NAME)";
+		SDKROOT = watchos;
+		"SKIP_INSTALL" = YES;
+		"SUPPORTED_PLATFORMS" = "watchos watchsimulator";
+		"SUPPORTS_MACCATALYST" = NO;
+		"SUPPORTS_WATCH" = YES;
+		"SWIFT_VERSION" = "6.0";
+		"TARGETED_DEVICE_FAMILY" = "4,5,7,8,10,11,12,13,14,15";
+		"WATCHOS_DEPLOYMENT_TARGET" = "10.0";
+	};
+	isa = XCBuildConfiguration;
+	name = Release;
+};
 		A10000000000000000000144 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {

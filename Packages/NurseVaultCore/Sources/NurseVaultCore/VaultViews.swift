@@ -9,6 +9,33 @@ import UIKit
 import PDFKit
 #endif
 
+// MARK: - Image Cache for decoded platform images to avoid re-decoding on every render
+
+/// Thread-safe cache for decoded platform images.
+final class ImageCache {
+    private let nsCache: NSCache<NSString, AnyObject>
+    
+    init() {
+        nsCache = NSCache()
+        // Limit cache to 50 MB total cost (rough estimate)
+        nsCache.totalCostLimit = 50 * 1024 * 1024
+    }
+    
+    func image(for data: Data) -> AnyObject? {
+        let key = String(data: data, encoding: .ascii) ?? ""
+        return nsCache.object(forKey: key as NSString)
+    }
+    
+    func set(_ image: AnyObject, for data: Data) {
+        let key = String(data: data, encoding: .ascii) ?? ""
+        // Estimate cost based on data size (decoded images are typically larger)
+        nsCache.setObject(image, forKey: key as NSString, cost: Int(data.count))
+    }
+}
+
+/// Shared image cache instance. Access only from the main actor (UI code).
+@MainActor let sharedImageCache = ImageCache()
+
 /// A PDF preview that works on iPhone, iPad, Mac and Apple Watch.
 public struct VaultPDFView: View {
     public let data: Data
@@ -125,17 +152,43 @@ public struct ZoomableImageView: View {
     @State private var scale: CGFloat = 1.0
     @State private var offset: CGSize = .zero
     @State private var lastOffset: CGSize = .zero
+    
+    /// Cached decoded image to avoid re-decoding on every render.
+    @State private var cachedImage: AnyObject? = nil
 
     public init(data: Data) {
         self.data = data
     }
 
     public var body: some View {
+        content
+            .accessibilityLabel("Zoomable image")
+            .accessibilityHint("Pinch to zoom, two-finger tap to reset")
+            .onAppear {
+                // Load or create cached image on first appear
+                if cachedImage == nil {
+                    cachedImage = sharedImageCache.image(for: data) ?? decodeImage(from: data)
+                    if let img = cachedImage {
+                        sharedImageCache.set(img, for: data)
+                    }
+                }
+            }
+    }
+    
+    private func decodeImage(from data: Data) -> AnyObject? {
+        #if os(macOS)
+        return NSImage(data: data)
+        #else
+        return UIImage(data: data)
+        #endif
+    }
+
+    private var content: some View {
         #if os(watchOS)
         // On watch, delegate to the existing WatchZoomableImageView which
         // handles Digital Crown + drag gestures.
         GeometryReader { proxy in
-            if let image = UIImage(data: data) {
+            if let image = cachedImage as? UIImage ?? UIImage(data: data) {
                 WatchZoomableImageView(data: data)
             } else {
                 placeholder
@@ -144,7 +197,7 @@ public struct ZoomableImageView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         #elseif os(iOS)
         GeometryReader { proxy in
-            if let image = UIImage(data: data) {
+            if let image = cachedImage as? UIImage ?? UIImage(data: data) {
                 Image(uiImage: image)
                     .resizable()
                     .scaledToFit()
@@ -189,7 +242,7 @@ public struct ZoomableImageView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         #elseif os(macOS)
         GeometryReader { proxy in
-            if let image = NSImage(data: data) {
+            if let image = cachedImage as? NSImage ?? NSImage(data: data) {
                 Image(nsImage: image)
                     .resizable()
                     .scaledToFit()

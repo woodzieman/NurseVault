@@ -249,10 +249,18 @@ final class MerckTopicLibrary {
                         }
                         let folded = VaultSearch.normalize(text)
                         guard let match = folded.range(of: foldedNeedle) else { continue }
+                        // Convert the match range to integer offsets before passing
+                        // across function boundaries. String.Index values are only
+                        // valid for the exact string instance they were created on;
+                        // under concurrent load (COW buffer aliasing, compiler
+                        // specialization), passing them into another function can
+                        // trigger a validateCharacterIndex assertion failure.
+                        let matchStart = folded.distance(from: folded.startIndex, to: match.lowerBound)
+                        let matchEnd = folded.distance(from: folded.startIndex, to: match.upperBound)
                         workerHits.append(
                             MerckTopicSearchHit(
                                 entry: entry,
-                                snippet: Self.snippet(in: folded, around: match)
+                                snippet: Self.snippet(in: folded, matchStart: matchStart, matchEnd: matchEnd)
                             )
                         )
                     }
@@ -266,27 +274,27 @@ final class MerckTopicLibrary {
         return hits
     }
 
-    /// A short window of `text` around `match` for display under a
-    /// content search result.
+    /// A short window of `text` around the matched term for display under a
+    /// content search result. Takes integer character offsets (not String.Index)
+    /// so it can't trap on cross-boundary index validation failures.
     nonisolated private static func snippet(
         in text: String,
-        around match: Range<String.Index>,
+        matchStart: Int,
+        matchEnd: Int,
         context: Int = 120
     ) -> String {
-        let back = min(context, text.distance(from: text.startIndex, to: match.lowerBound))
-        let start = text.index(
-            match.lowerBound, offsetBy: -back, limitedBy: text.startIndex
-        ) ?? text.startIndex
-        let end = text.index(
-            match.upperBound, offsetBy: context, limitedBy: text.endIndex
-        ) ?? text.endIndex
-        var snippet = String(text[start...end]).replacingOccurrences(of: "\n", with: " ")
+        // Derive all indices from this local string instance using integer offsets.
+        let startOffset = max(0, matchStart - context)
+        let endOffset = min(text.count, matchEnd + context)
+        let startIndex = text.index(text.startIndex, offsetBy: startOffset)
+        let endIndex = text.index(text.startIndex, offsetBy: endOffset)
+        var snippet = String(text[startIndex..<endIndex]).replacingOccurrences(of: "\n", with: " ")
         snippet = snippet.replacingOccurrences(of: "\t", with: " ")
         while snippet.contains("  ") {
             snippet = snippet.replacingOccurrences(of: "  ", with: " ")
         }
-        if start != text.startIndex { snippet = "…" + snippet }
-        if end != text.endIndex { snippet += "…" }
+        if startIndex != text.startIndex { snippet = "…" + snippet }
+        if endIndex != text.endIndex { snippet += "…" }
         return snippet
     }
 

@@ -82,8 +82,8 @@ struct WatchMerckReferenceView: View {
             if !reference.entries.isEmpty {
                 let firstEntry = reference.entries[0]
                 let text = await reference.text(for: firstEntry)
-                if text != nil {
-                    results.append("✓ Successfully loaded first entry (\(text!.count) chars)")
+                if let text, !text.isEmpty {
+                    results.append("✓ Successfully loaded first entry (\(text.count) chars)")
                 } else {
                     results.append("✗ Failed to load first entry: \(firstEntry.title)")
                     if let error = reference.loadError {

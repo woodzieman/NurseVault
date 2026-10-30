@@ -110,6 +110,7 @@ struct DocDetailView: View {
 
 // MARK: - Editing
 
+@MainActor
 struct DocEditView: View {
     @Environment(Library.self) private var library
     @Environment(\.dismiss) private var dismiss
@@ -120,6 +121,9 @@ struct DocEditView: View {
     @State private var note = ""
     @State private var selectedSectionIndex: Int?
     @State private var selectedFolderIndex: Int?
+    
+    /// Debounce timer to batch picker state changes and avoid cascading updates.
+    @State private var debounceTimer: Timer? = nil
 
     /// All folders, path-labeled and section-grouped, for the move picker.
     private var folderOptions: [VaultFolder] {
@@ -151,12 +155,21 @@ struct DocEditView: View {
                     }
                 }
                 .onChange(of: selectedFolderIndex) { _, newIndex in
-                    // A folder's section wins over the picker above.
-                    if let newIndex, let folder = folderOptions[safe: newIndex],
-                       let folderSection = folder.section {
-                        selectedSectionIndex = library.sections.firstIndex {
-                            $0 === folderSection
+                    Task { @MainActor in
+                        // Debounce to batch state changes and avoid cascading updates.
+                        debounceTimer?.invalidate()
+                        let timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: false) { _ in
+                            Task { @MainActor in
+                                if let newIndex, let folder = folderOptions[safe: newIndex],
+                                   let folderSection = folder.section {
+                                    selectedSectionIndex = library.sections.firstIndex {
+                                        $0 === folderSection
+                                    }
+                                }
+                            }
                         }
+                        debounceTimer = timer
+                        RunLoop.main.add(timer, forMode: .common)
                     }
                 }
             }

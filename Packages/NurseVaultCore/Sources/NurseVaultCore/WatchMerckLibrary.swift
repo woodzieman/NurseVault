@@ -113,4 +113,21 @@ public final class WatchMerckLibrary {
                 return a.title.localizedCaseInsensitiveCompare(b.title) == .orderedAscending
             }
     }
+
+    /// Async version of `search(_:)` that runs off the main thread.
+    /// Use this on watchOS to avoid blocking the UI during typing.
+    public func searchAsync(_ query: String) async -> [WatchMerckEntry] {
+        await Task.detached { [entries = self.entries] in
+            let needle = VaultSearch.normalize(query.trimmingCharacters(in: .whitespacesAndNewlines))
+            guard !needle.isEmpty else { return [] }
+            return entries
+                .filter { $0.search.contains(needle) }
+                .sorted { a, b in
+                    let aName = VaultSearch.normalize(a.title).contains(needle)
+                    let bName = VaultSearch.normalize(b.title).contains(needle)
+                    if aName != bName { return aName }
+                    return a.title.localizedCaseInsensitiveCompare(b.title) == .orderedAscending
+                }
+        }.value
+    }
 }

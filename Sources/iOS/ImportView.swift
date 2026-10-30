@@ -9,6 +9,7 @@ enum ImportKind: String, Identifiable, CaseIterable {
     case note
     case camera
     case ocr
+    case book
 
     var id: String { rawValue }
 
@@ -19,6 +20,7 @@ enum ImportKind: String, Identifiable, CaseIterable {
         case .note: "New Note"
         case .camera: "Take Photo"
         case .ocr: "Scan & OCR"
+        case .book: "Import Book"
         }
     }
 
@@ -29,6 +31,7 @@ enum ImportKind: String, Identifiable, CaseIterable {
         case .note: "note.text"
         case .camera: "camera"
         case .ocr: "text.viewfinder"
+        case .book: "book.closed.fill"
         }
     }
 }
@@ -52,6 +55,7 @@ struct ImportView: View {
     }
 
     @State private var showingFileImporter = false
+    @State private var showingBookFileImporter = false
     @State private var pickedPhotos: [PhotosPickerItem] = []
     @State private var loadingPhotos = false
     @State private var noteTitle = ""
@@ -115,9 +119,10 @@ struct ImportView: View {
                             showingFileImporter = true
                         }
                     } footer: {
+                        let limitMB = FileSupport.maxFileBytes / (1024 * 1024)
                         Text(
                             "PDFs, images, text files, and folders. Folders are imported as vault folders with their contents. "
-                            + "You can also drag files or folders onto a list in the app. Files up to \(FileSupport.maxFileBytes / (1024 * 1024)) MB are stored and synced to iCloud."
+                            + "You can also drag files or folders onto a list in the app. Files up to \(limitMB) MB are stored and synced to iCloud."
                         )
                     }
                 case .photos:
@@ -143,6 +148,19 @@ struct ImportView: View {
                         TextField("Title", text: $noteTitle)
                         TextField("Reference text", text: $noteBody, axis: .vertical)
                             .lineLimit(5...16)
+                    }
+                case .book:
+                    Section {
+                        Button("Choose a PDF, Text, or RTF file…") {
+                            showingBookFileImporter = true
+                        }
+                    } footer: {
+                        let limitMB = FileSupport.maxFileBytes / (1024 * 1024)
+                        Text(
+                            "Books are imported with text extracted automatically "
+                            + "so they become searchable immediately. Files up to "
+                            + "\(limitMB) MB."
+                        )
                     }
                 case .camera, .ocr:
                     // The camera capture UI (and its state) lives in a
@@ -217,6 +235,20 @@ struct ImportView: View {
                     } else {
                         dismiss()
                     }
+                case .failure(let error):
+                    errorMessage = error.localizedDescription
+                    showingErrorAlert = true
+                }
+            }
+            .fileImporter(
+                isPresented: $showingBookFileImporter,
+                allowedContentTypes: [.pdf, .plainText, .rtf],
+                allowsMultipleSelection: false
+            ) { result in
+                switch result {
+                case .success(let urls):
+                    guard let url = urls.first else { return }
+                    importBookFile(from: url)
                 case .failure(let error):
                     errorMessage = error.localizedDescription
                     showingErrorAlert = true
@@ -299,6 +331,47 @@ struct ImportView: View {
             loadingPhotos = false
             if failures == 0 {
                 dismiss()
+            }
+        }
+    }
+    
+    /// Imports a book file through the BookIngestionEngine.
+    private func importBookFile(from url: URL) {
+        // Start security scope (no-op for Mac unscoped URLs).
+        let neededScope = url.startAccessingSecurityScopedResource()
+        defer {
+            if neededScope { url.stopAccessingSecurityScopedResource() }
+        }
+        
+        Task {
+            let mimeType = UTType(filenameExtension: url.pathExtension)?.preferredMIMEType
+            if let extractedText = await BookIngestionEngine.shared
+                .extractText(from: url, mimeType: mimeType, fileName: url.lastPathComponent),
+               let data = try? Data(contentsOf: url) {
+                let name = url.lastPathComponent
+                let title = URL(fileURLWithPath: name).deletingPathExtension()
+                    .lastPathComponent
+                let imported = ImportedFile(
+                    data: data,
+                    fileName: name,
+                    title: title,
+                    mimeType: mimeType
+                )
+                let targetFolder = makeSaveFolder()
+                library.addDocument(
+                    imported: imported,
+                    noteText: extractedText,
+                    to: targetFolder?.section,
+                    in: targetFolder
+                )
+                if errorMessage != nil {
+                    showingErrorAlert = true
+                } else {
+                    dismiss()
+                }
+            } else {
+                errorMessage = "Couldn't extract text from this file."
+                showingErrorAlert = true
             }
         }
     }

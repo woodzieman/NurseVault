@@ -25,6 +25,12 @@ public enum AppLimits {
     
     /// Delay before retrying failed save operation (seconds).
     public static let saveRetryDelay: TimeInterval = 0.5
+    
+    /// Maximum number of entries in the search cache.
+    public static let maxSearchCacheEntries: Int = 200
+    
+    /// Maximum total size for search cache in bytes (~500 MB).
+    public static let maxSearchCacheBytes: Int = 500 * 1024 * 1024
 }
 
 /// Logging subsystem and categories for structured logging.

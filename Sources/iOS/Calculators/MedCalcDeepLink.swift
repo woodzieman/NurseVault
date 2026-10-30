@@ -10,11 +10,6 @@ enum MedCalcDeepLink {
         URL(string: "\(scheme)://calculator/\(calculatorID)")
     }
 
-    /// Non-failable variant for SwiftUI Link destinations (the scheme is fixed and ids are alphanumeric).
-    static func urlValue(calculatorID: String) -> URL {
-        URL(string: "\(scheme)://calculator/\(calculatorID)") ?? URL(string: "\(scheme)://")!
-    }
-
     static func calculatorID(from url: URL) -> String? {
         guard let scheme = url.scheme?.lowercased(), scheme == Self.scheme else { return nil }
         // medcalc://calculator/<id>  -> host "calculator", path "/<id>"

@@ -316,7 +316,7 @@ struct RootView: View {
         }
         .onChange(of: drugLibrary.isLoading) { _, isLoading in
             // Re-search when drug library finishes loading if user has typed something
-            guard !isLoading, let sm = searchManager, !localSearchText.isEmpty else { return }
+            guard !isLoading, searchManager != nil, !localSearchText.isEmpty else { return }
             // Trigger re-search by temporarily clearing and restoring the text
             let query = localSearchText
             localSearchText = ""
@@ -324,7 +324,7 @@ struct RootView: View {
         }
         .onChange(of: merckLibrary.isLoading) { _, isLoading in
             // Re-search when Merck library finishes loading if user has typed something
-            guard !isLoading, let sm = searchManager, !localSearchText.isEmpty else { return }
+            guard !isLoading, searchManager != nil, !localSearchText.isEmpty else { return }
             // Trigger re-search by temporarily clearing and restoring the text
             let query = localSearchText
             localSearchText = ""
@@ -332,7 +332,7 @@ struct RootView: View {
         }
         .onChange(of: dsmLibrary.isLoading) { _, isLoading in
             // Re-search when the DSM library finishes loading if user has typed something
-            guard !isLoading, let sm = searchManager, !localSearchText.isEmpty else { return }
+            guard !isLoading, searchManager != nil, !localSearchText.isEmpty else { return }
             let query = localSearchText
             localSearchText = ""
             localSearchText = query
@@ -362,18 +362,14 @@ struct RootView: View {
 
     private func handleSearchResultSelection(_ result: SearchResult) {
         switch result {
-        case .drug(let entry):
+        case .drug:
             selection = .drugReference
-            // Navigation to detail usually happens via NavigationLink in DrugReferenceView.
-            // To support this, we might need a shared state or deep link.
-            // For now, just switching to the view.
-        case .topic(let topic):
+        case .topic:
             selection = .merckManual
         case .dsmTopic:
             selection = .dsmManual
         case .calculator(let calc):
             selection = .mediCalc
-            // Deep link for calculator: nursevault://calculator/<id>
             if let url = URL(string: "nursevault://calculator/\(calc.id)") {
                 handleDeeplink(url)
             }
@@ -384,6 +380,8 @@ struct RootView: View {
                 selection = .all
             }
         }
+        // Dismiss search UI so the detail view switches to the selected content
+        localSearchText = ""
     }
 
     private var currentSection: VaultSection? {

@@ -28,13 +28,16 @@ int nv_inflate_brotli(const uint8_t *in,
         }
     }
     
-    int result = compression_decode_buffer(out, out_cap, in, in_len, scratchBuf, COMPRESSION_BROTLI);
+    /* compression_decode_buffer() returns size_t: the number of bytes written on
+     * success, or 0 if decompression fails. Callers cap output buffers at the
+     * 10 MB entry limit (see CompressionInflate.swift), so truncation cannot occur. */
+    size_t result = compression_decode_buffer(out, out_cap, in, in_len, scratchBuf, COMPRESSION_BROTLI);
     free(scratchBuf);
     
-    if (result < 0) {
+    if (result == 0) {
         return -1;  // Decompression failed
     }
     
-    *out_len = (size_t)result;
+    *out_len = result;
     return 0;
 }

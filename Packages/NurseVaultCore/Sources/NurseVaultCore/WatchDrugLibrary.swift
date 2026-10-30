@@ -127,4 +127,21 @@ public final class WatchDrugLibrary {
                 return a.name.localizedCaseInsensitiveCompare(b.name) == .orderedAscending
             }
     }
+
+    /// Async version of `search(_:)` that runs off the main thread.
+    /// Use this on watchOS to avoid blocking the UI during typing.
+    public func searchAsync(_ query: String) async -> [WatchDrugEntry] {
+        await Task.detached { [entries = self.entries] in
+            let needle = VaultSearch.normalize(query.trimmingCharacters(in: .whitespacesAndNewlines))
+            guard !needle.isEmpty else { return [] }
+            return entries
+                .filter { $0.search.contains(needle) }
+                .sorted { a, b in
+                    let aName = VaultSearch.normalize(a.name).contains(needle)
+                    let bName = VaultSearch.normalize(b.name).contains(needle)
+                    if aName != bName { return aName }
+                    return a.name.localizedCaseInsensitiveCompare(b.name) == .orderedAscending
+                }
+        }.value
+    }
 }

@@ -211,7 +211,7 @@ struct DsmTopicDetailView: View {
         .task(id: entry) {
             await loadContent()
         }
-        .onChange(of: fullText) { _ in
+        .onChange(of: fullText) { _, _ in
             ensureCachedBodyString()
         }
     }

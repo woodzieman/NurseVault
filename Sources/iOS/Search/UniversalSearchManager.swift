@@ -4,9 +4,18 @@ import NurseVaultCore
 @MainActor
 @Observable
 class UniversalSearchManager {
+    private var searchTask: Task<Void, Never>?
+    
     var searchText = "" {
         didSet {
-            performSearch()
+            searchTask?.cancel()
+            let query = searchText
+            searchTask = Task { @MainActor in
+                // Debounce 200ms
+                try? await Task.sleep(nanoseconds: 200_000_000)
+                guard !Task.isCancelled else { return }
+                performSearch(query: query)
+            }
         }
     }
     
@@ -31,8 +40,8 @@ class UniversalSearchManager {
         dsmLibrary.loadIfNeeded()
     }
 
-    private func performSearch() {
-        let query = searchText.trimmingCharacters(in: .whitespacesAndNewlines)
+    private func performSearch(query rawQuery: String) {
+        let query = rawQuery.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !query.isEmpty else {
             results = []
             return

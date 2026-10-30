@@ -22,7 +22,7 @@ struct WatchReferenceEntry: Identifiable, Hashable {
 }
 
 /// The watch's full offline reference: a few hundred KB of in-RAM index plus a
-/// ~60 MB on-disk content blob. Only the entry the user selects is ever read
+/// multi-MB on-disk content blob. Only the entry the user selects is ever read
 /// (seek + read of its byte range + inflate), so RAM stays bounded no matter
 /// how large the dataset is — the fix for the watch OOMing after sync floods.
 @MainActor
@@ -32,23 +32,71 @@ final class WatchReference {
     enum Name: String, CaseIterable {
         case drugs
         case merck
+        case dsm
 
         var label: String {
             switch self {
             case .drugs: return "Drug Reference"
             case .merck: return "Merck Manual"
+            case .dsm: return "DSM-5-TR"
             }
         }
     }
 
     let name: Name
 
+    /// Why a reference load or entry read failed. Each failure mode maps to
+    /// a distinct user-facing message so the UI can tell "resource not
+    /// found" apart from "corrupt data", "decompression failed", and
+    /// "invalid UTF-8" — each implies a different action for the user.
+    enum LoadFailure: Equatable {
+        /// The `.index` file is absent from the app bundle.
+        case indexMissing
+        /// The `.index` file exists but is empty, unreadable, or parses to no entries.
+        case indexCorrupt
+        /// The `.content` file is absent from the app bundle.
+        case contentMissing
+        /// The `.content` file exists but is empty or implausibly sized.
+        case contentCorrupt
+
+        var message: String {
+            switch self {
+            case .indexMissing:
+                return "The reference index is missing from the app. Please reinstall the app to restore it."
+            case .indexCorrupt:
+                return "The reference index is invalid and can't be read. Please reinstall the app to restore it."
+            case .contentMissing:
+                return "The full-text content file is missing from the app. Please reinstall the app to restore it."
+            case .contentCorrupt:
+                return "The full-text content file is invalid. Please reinstall the app to restore it."
+            }
+        }
+    }
+
+    /// User-facing messages for per-entry (detail view) failure modes.
+    enum EntryErrors {
+        static let resourceNotFound = "The reference data file can't be found. Please reinstall the app to restore it."
+        static let resourceCorrupt = "The reference data file appears to be corrupted. Please reinstall the app to restore it."
+        static let entryCorrupt = "This entry's data appears to be corrupted. Please reinstall the app to restore it."
+        static let decompressionFailed = "Couldn't decompress this entry. Please try again — if it keeps failing, reinstall the app."
+        static let invalidText = "This entry's text is corrupted and can't be displayed. Please reinstall the app to restore the reference."
+        static let readFailed = "Couldn't read the reference data. Please try again."
+        static let empty = "This entry has no content. Please try again or reinstall the app."
+    }
+
     private(set) var entries: [WatchReferenceEntry] = []
     private(set) var isLoading = false
     private(set) var isMissing = false
-    
+
+    /// Categorized reason for the current load failure, if any.
+    private(set) var loadFailure: LoadFailure?
+
     /// Error message if loading failed, for display in the UI.
     private(set) var loadError: String? = nil
+
+    /// Set when a load attempt finds missing or invalid resources; the list
+    /// view presents it once as an alert. Reset on the start of each attempt.
+    var shouldShowMissingAlert = false
 
     private var contentURL: URL?
 
@@ -56,6 +104,7 @@ final class WatchReference {
     private struct Loaded {
         let entries: [WatchReferenceEntry]
         let contentURL: URL?
+        let failure: LoadFailure?
     }
 
     init(_ name: Name) {
@@ -68,21 +117,21 @@ final class WatchReference {
         guard !isLoading else { return }
         // Allow reloading even if previously failed (for retry)
         isLoading = true
-        isMissing = false  // Reset on new attempt
-        loadError = nil   // Reset error on new attempt
+        isMissing = false       // Reset on new attempt
+        loadError = nil         // Reset error on new attempt
+        loadFailure = nil       // Reset on new attempt
+        shouldShowMissingAlert = false
         let name = self.name
         Task {
             let built = await Self.build(name)
             isLoading = false
-            if built.entries.isEmpty {
-                isMissing = true
-                loadError = "Reference data not available. Please reinstall the app or contact support."
-            } else {
-                entries = built.entries
-                contentURL = built.contentURL
-                if contentURL == nil {
-                    loadError = "Content file not found. Reference data may be incomplete."
-                }
+            entries = built.entries
+            contentURL = built.contentURL
+            if let failure = built.failure {
+                isMissing = built.entries.isEmpty
+                loadFailure = failure
+                loadError = failure.message
+                shouldShowMissingAlert = true
             }
         }
     }
@@ -135,15 +184,36 @@ final class WatchReference {
         return nil
     }
 
+    /// On-disk size of a bundle file, or 0 if it's missing or unreadable.
+    private nonisolated static func fileSize(_ url: URL) -> UInt64 {
+        (try? FileManager.default.attributesOfItem(atPath: url.path)[.size] as? UInt64) ?? 0
+    }
+
     private nonisolated static func build(_ name: Name) async -> Loaded {
-        guard
-            let indexURL = resourceURL(base: name.rawValue, ext: "index")
-        else {
-            return Loaded(entries: [], contentURL: nil)
+        let indexURL = resourceURL(base: name.rawValue, ext: "index")
+        let contentURL = resourceURL(base: name.rawValue, ext: "content")
+
+        // Runtime resource verification: on first load, confirm both bundled
+        // files exist with a plausible size (non-zero, below the 50 MB cap) —
+        // a missing or empty file is a reinstall situation, and it gets its
+        // own message and alert rather than a silent empty list.
+        guard let indexURL else {
+            return Loaded(entries: [], contentURL: nil, failure: .indexMissing)
         }
-        
+        guard let contentURL else {
+            return Loaded(entries: [], contentURL: nil, failure: .contentMissing)
+        }
+        let indexSize = fileSize(indexURL)
+        let contentSize = fileSize(contentURL)
+        guard indexSize > 0, indexSize < 50 * 1024 * 1024 else {
+            return Loaded(entries: [], contentURL: contentURL, failure: .indexCorrupt)
+        }
+        guard contentSize > 0, contentSize < 50 * 1024 * 1024 else {
+            return Loaded(entries: [], contentURL: contentURL, failure: .contentCorrupt)
+        }
+
         guard let content = try? String(contentsOf: indexURL, encoding: .utf8) else {
-            return Loaded(entries: [], contentURL: nil)
+            return Loaded(entries: [], contentURL: contentURL, failure: .indexCorrupt)
         }
 
         var entries: [WatchReferenceEntry] = []
@@ -170,6 +240,9 @@ final class WatchReference {
             ))
         }
         
+        guard !entries.isEmpty else {
+            return Loaded(entries: [], contentURL: contentURL, failure: .indexCorrupt)
+        }
         entries.sort { $0.title.localizedCaseInsensitiveCompare($1.title) == .orderedAscending }
         let sorted = entries.enumerated().map { index, entry in
             WatchReferenceEntry(
@@ -182,7 +255,7 @@ final class WatchReference {
                 search: entry.search
             )
         }
-        return Loaded(entries: sorted, contentURL: resourceURL(base: name.rawValue, ext: "content"))
+        return Loaded(entries: sorted, contentURL: contentURL, failure: nil)
     }
 
     /// Reads *one* entry from the content blob.
@@ -195,7 +268,7 @@ final class WatchReference {
     
     func text(for entry: WatchReferenceEntry) async -> String? {
         guard let url = contentURL else {
-            loadError = "Content file not found. Please reinstall the app."
+            loadError = EntryErrors.resourceNotFound
             #if DEBUG
             NSLog("NurseVault (watch reference): contentURL is nil for '\(entry.title)'")
             #endif
@@ -212,16 +285,16 @@ final class WatchReference {
                 
                 // Check if file is too large for watch memory
                 guard fileSize > 0 && fileSize < 50 * 1024 * 1024 else { // Cap at 50 MB
-                    loadError = "Content file invalid or too large (\(fileSize) bytes). Please reinstall the app."
+                    loadError = EntryErrors.resourceCorrupt
                     return nil
                 }
                 
                 contentData = try Data(contentsOf: url)
                 #if DEBUG
-                NSLog("NurseVault (watch reference): successfully loaded \(contentData!.count) bytes of content")
+                NSLog("NurseVault (watch reference): successfully loaded \(contentData?.count ?? 0) bytes of content")
                 #endif
             } catch {
-                loadError = "Failed to load content: \(error.localizedDescription)"
+                loadError = EntryErrors.readFailed
                 #if DEBUG
                 NSLog("NurseVault (watch reference): failed to load content file: \(error)")
                 #endif
@@ -230,7 +303,7 @@ final class WatchReference {
         }
         
         guard let data = contentData else {
-            loadError = "Content data not available. Please try again."
+            loadError = EntryErrors.readFailed
             return nil
         }
         
@@ -238,7 +311,7 @@ final class WatchReference {
         let start = Int(entry.contentStart)
         let length = Int(entry.contentEnd - entry.contentStart)
         guard start >= 0, length > 0, start + length <= data.count else {
-            loadError = "Invalid content range for '\(entry.title)' (\(start)+\(length) in \(data.count))"
+            loadError = EntryErrors.entryCorrupt
             #if DEBUG
             NSLog("NurseVault (watch reference): invalid byte range for '\(entry.title)': \(start)+\(length) in \(data.count)")
             #endif
@@ -247,13 +320,13 @@ final class WatchReference {
         
         let chunk = data.subdata(in: start..<(start + length))
         guard !chunk.isEmpty else {
-            loadError = "No content found for '\(entry.title)'"
+            loadError = EntryErrors.entryCorrupt
             return nil
         }
         
         // Validate the size prefix before attempting decompression
         if chunk.count < 8 {
-            loadError = "Content data corrupted for '\(entry.title)' (too small: \(chunk.count) bytes)"
+            loadError = EntryErrors.entryCorrupt
             #if DEBUG
             NSLog("NurseVault (watch reference): entry '\(entry.title)' too small for size prefix")
             #endif
@@ -266,7 +339,7 @@ final class WatchReference {
         
         // Sanity check on expected size (max 10 MB per entry)
         guard expectedSize > 0 && expectedSizeLE <= 10 * 1024 * 1024 else {
-            loadError = "Content data corrupted for '\(entry.title)' (invalid size: \(expectedSizeLE) bytes)"
+            loadError = EntryErrors.entryCorrupt
             #if DEBUG
             NSLog("NurseVault (watch reference): invalid expected size for '\(entry.title)': \(expectedSizeLE)")
             #endif
@@ -275,7 +348,7 @@ final class WatchReference {
         
         // Attempt decompression with error handling
         guard let inflated = chunk.inflatingNV() else {
-            loadError = "Failed to decompress content for '\(entry.title)'"
+            loadError = EntryErrors.decompressionFailed
             #if DEBUG
             NSLog("NurseVault (watch reference): inflating entry '\(entry.title)' failed (chunk=\(chunk.count) bytes, expected \(expectedSizeLE))")
             // Log first few bytes of chunk for debugging
@@ -289,7 +362,7 @@ final class WatchReference {
         
         // Validate decompressed data
         guard inflated.count > 0 && inflated.count <= Int(expectedSizeLE) else {
-            loadError = "Decompression failed for '\(entry.title)' (got \(inflated.count) bytes, expected ~\(expectedSizeLE))"
+            loadError = EntryErrors.decompressionFailed
             #if DEBUG
             NSLog("NurseVault (watch reference): decompressed size mismatch for '\(entry.title)': got \(inflated.count), expected ~\(expectedSizeLE)")
             #endif
@@ -298,7 +371,7 @@ final class WatchReference {
         
         // Convert to string
         guard let text = String(data: inflated, encoding: .utf8) else {
-            loadError = "Failed to decode content for '\(entry.title)' (not valid UTF-8)"
+            loadError = EntryErrors.invalidText
             #if DEBUG
             NSLog("NurseVault (watch reference): failed to convert decompressed data to string")
             // Log first few bytes of inflated data
@@ -312,7 +385,7 @@ final class WatchReference {
         
         // Validate text has actual content
         if text.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
-            loadError = "Content for '\(entry.title)' is empty"
+            loadError = EntryErrors.empty
             return nil
         }
         
@@ -339,6 +412,26 @@ final class WatchReference {
                 return a.title.localizedCaseInsensitiveCompare(b.title) == .orderedAscending
             }
     }
+
+    /// Async version of `search(_:)` that runs off the main thread.
+    /// Use this on watchOS to avoid blocking the UI during typing.
+    func searchAsync(_ query: String) async -> [WatchReferenceEntry] {
+        await Task.detached { [entries = self.entries] in
+            let needle = VaultSearch.normalize(query.trimmingCharacters(in: .whitespacesAndNewlines))
+            guard !needle.isEmpty else { return [] }
+            let titleMatches = { (entry: WatchReferenceEntry) in
+                entry.title.range(of: needle, options: [.caseInsensitive, .diacriticInsensitive]) != nil
+            }
+            return entries
+                .filter { $0.search.contains(needle) }
+                .sorted { a, b in
+                    let aName = titleMatches(a)
+                    let bName = titleMatches(b)
+                    if aName != bName { return aName }
+                    return a.title.localizedCaseInsensitiveCompare(b.title) == .orderedAscending
+                }
+        }.value
+    }
     
     /// Releases the memory-mapped content data to free up RAM.
     /// Call this when the reference is no longer needed or after extended use.
@@ -349,5 +442,49 @@ final class WatchReference {
             #endif
             contentData = nil
         }
+    }
+    
+    /// Nonisolated helper to check if content data exists and release it.
+    /// Used from Sendable contexts like timer closures.
+    @MainActor func evictContentIfNeeded() {
+        #if os(watchOS)
+        if contentData != nil {
+            NSLog("NurseVault (watch reference): automatic eviction after timeout")
+            releaseContentData()
+        }
+        #endif
+    }
+    
+    /// Sets up automatic cache eviction for watchOS to prevent memory issues.
+    func setupAutomaticEviction() {
+        // Evict after 5 minutes of inactivity on watchOS
+        let timer = Timer.scheduledTimer(withTimeInterval: 300, repeats: false) { [weak self] _ in
+            #if os(watchOS)
+            if let self = self {
+                Task { @MainActor in
+                    self.evictContentIfNeeded()
+                }
+            }
+            #endif
+        }
+        RunLoop.main.add(timer, forMode: .common)
+        
+        // Also evict on memory warnings (using raw notification name for cross-platform compatibility)
+        let memoryWarningName = NSNotification.Name("UIApplication.didReceiveMemoryWarningNotification")
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(self.handleMemoryWarning),
+            name: memoryWarningName,
+            object: nil
+        )
+    }
+    
+    @objc private func handleMemoryWarning() {
+        #if os(watchOS)
+        if contentData != nil {
+            NSLog("NurseVault (watch reference): evicting cache due to memory warning")
+            releaseContentData()
+        }
+        #endif
     }
 }

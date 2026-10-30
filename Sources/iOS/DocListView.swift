@@ -10,6 +10,77 @@ enum VaultContainer: Hashable {
     case folder(VaultFolder)
 }
 
+@MainActor
+extension VaultContainer? {
+    /// Resolves the current section from this container.
+    var currentSection: VaultSection? {
+        switch self {
+        case nil:
+            return nil
+        case .section(let section):
+            return section
+        case .folder(let folder):
+            return folder.section
+        }
+    }
+    
+    /// Resolves the current folder from this container.
+    var currentFolder: VaultFolder? {
+        if case .folder(let folder) = self { return folder }
+        return nil
+    }
+    
+    /// Folders directly inside this container.
+    func directFolders(in library: Library) -> [VaultFolder] {
+        switch self {
+        case nil:
+            return library.folders(in: nil)
+        case .section(let section):
+            return library.folders(in: section)
+        case .folder(let folder):
+            return library.subfolders(of: folder)
+        }
+    }
+    
+    /// Documents directly inside this container.
+    func directDocs(in library: Library) -> [VaultDoc] {
+        switch self {
+        case nil:
+            return library.docs
+                .filter { $0.folder == nil }
+                .sorted { ($0.title ?? "").localizedCompare($1.title ?? "") == .orderedAscending }
+        case .section(let section):
+            return library.docs(in: section).filter { $0.folder == nil }
+        case .folder(let folder):
+            return library.docs(in: folder)
+        }
+    }
+    
+    /// Every folder in this container's subtree (for search + move menus).
+    func subtreeFolders(in library: Library) -> [VaultFolder] {
+        switch self {
+        case nil:
+            return library.folders
+        case .section(let section):
+            return library.folders.filter { $0.section === section }
+        case .folder(let folder):
+            return library.subtreeFolders(of: folder)
+        }
+    }
+    
+    /// Every document in this container's subtree, regardless of nesting.
+    func subtreeDocs(in library: Library) -> [VaultDoc] {
+        switch self {
+        case nil:
+            return library.docs
+        case .section(let section):
+            return library.docs(in: section)
+        case .folder(let folder):
+            return library.allDocs(in: folder)
+        }
+    }
+}
+
 struct VaultListView: View {
     @Environment(Library.self) private var library
     let container: VaultContainer?
@@ -40,73 +111,21 @@ struct VaultListView: View {
 
     // MARK: - Container helpers
 
-    private var currentSection: VaultSection? {
-        switch container {
-        case nil:
-            return nil
-        case .section(let section):
-            return section
-        case .folder(let folder):
-            return folder.section
-        }
-    }
-
-    private var currentFolder: VaultFolder? {
-        if case .folder(let folder) = container {
-            return folder
-        }
-        return nil
-    }
-
+    private var currentSection: VaultSection? { container.currentSection }
+    
+    private var currentFolder: VaultFolder? { container.currentFolder }
+    
     /// Folders directly inside the container.
-    private var directFolders: [VaultFolder] {
-        switch container {
-        case nil:
-            return library.folders(in: nil)
-        case .section(let section):
-            return library.folders(in: section)
-        case .folder(let folder):
-            return library.subfolders(of: folder)
-        }
-    }
-
+    private var directFolders: [VaultFolder] { container.directFolders(in: library) }
+    
     /// Documents directly inside the container.
-    private var directDocs: [VaultDoc] {
-        switch container {
-        case nil:
-            return library.docs
-                .filter { $0.folder == nil }
-                .sorted { ($0.title ?? "").localizedCompare($1.title ?? "") == .orderedAscending }
-        case .section(let section):
-            return library.docs(in: section).filter { $0.folder == nil }
-        case .folder(let folder):
-            return library.docs(in: folder)
-        }
-    }
-
+    private var directDocs: [VaultDoc] { container.directDocs(in: library) }
+    
     /// Every folder in the container's subtree (for search + move menus).
-    private var subtreeFolders: [VaultFolder] {
-        switch container {
-        case nil:
-            return library.folders
-        case .section(let section):
-            return library.folders.filter { $0.section === section }
-        case .folder(let folder):
-            return library.subtreeFolders(of: folder)
-        }
-    }
-
+    private var subtreeFolders: [VaultFolder] { container.subtreeFolders(in: library) }
+    
     /// Every document in the container's subtree, regardless of nesting.
-    private var subtreeDocs: [VaultDoc] {
-        switch container {
-        case nil:
-            return library.docs
-        case .section(let section):
-            return library.docs(in: section)
-        case .folder(let folder):
-            return library.allDocs(in: folder)
-        }
-    }
+    private var subtreeDocs: [VaultDoc] { container.subtreeDocs(in: library) }
 
     private var visibleItems: [VaultItem] {
         let trimmed = searchText.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -182,78 +201,24 @@ struct VaultListView: View {
         .searchable(text: $searchText, prompt: "Search documents")
         .overlay {
             if visibleItems.isEmpty {
-                VStack(spacing: 12) {
-                    if searchText.trimmingCharacters(in: .whitespaces).isEmpty {
-                        Image(systemName: "tray")
-                            .font(.largeTitle)
-                            .foregroundStyle(.secondary)
-                        Text("Nothing here yet")
-                        HStack(spacing: 12) {
-                            Button("New Folder") {
-                                showingNewFolder = true
-                            }
-                            .accessibilityLabel("Create a new folder to organize documents")
-                            Button("Add Documents") {
-                                importKind = .files
-                            }
-                            .accessibilityLabel("Import files from your device or cloud storage")
-                        }
-                    } else {
-                        Image(systemName: "magnifyingglass")
-                            .font(.largeTitle)
-                            .foregroundStyle(.secondary)
-                        Text("No matches for “\(searchText.trimmingCharacters(in: .whitespaces))”")
-                            .foregroundStyle(.secondary)
-                            .multilineTextAlignment(.center)
-                    }
-                }
-                .padding()
+                VaultListEmptyStateView(
+                    searchText: searchText,
+                    showingNewFolder: $showingNewFolder,
+                    importKind: $importKind
+                )
             }
         }
         .overlay {
             if isDropTargeted {
-                RoundedRectangle(cornerRadius: 8)
-                    .strokeBorder(Color.accentColor, style: StrokeStyle(lineWidth: 3, dash: [8]))
-                    .background(.thinMaterial, in: RoundedRectangle(cornerRadius: 8))
-                    .overlay {
-                        Label("Drop to import", systemImage: "square.and.arrow.down")
-                            .font(.title3.weight(.semibold))
-                    }
-                    .padding(12)
+                VaultListDropTargetView()
             }
         }
         .toolbar {
             ToolbarItem(placement: .primaryAction) {
-                Menu {
-                    Button { importKind = .files } label: {
-                        Label("Import Files…", systemImage: "folder")
-                    }
-                    Button { importKind = .photos } label: {
-                        Label("Import Photos…", systemImage: "photo")
-                    }
-                    Button { importKind = .note } label: {
-                        Label("New Note", systemImage: "note.text")
-                    }
-                    #if canImport(UIKit)
-                    if CameraSupport.isAvailable {
-                        Button { importKind = .camera } label: {
-                            Label("Take Photo", systemImage: "camera")
-                        }
-                        Button { importKind = .ocr } label: {
-                            Label("Scan & OCR", systemImage: "text.viewfinder")
-                        }
-                    }
-                    #endif
-                    Divider()
-                    Button { showingNewFolder = true } label: {
-                        Label("New Folder…", systemImage: "folder.badge.plus")
-                    }
-                } label: {
-                    Label("Add", systemImage: "plus")
-                }
-            }
-            ToolbarItem(placement: .automatic) {
-                SyncBadge()
+                VaultListToolbarView(
+                    importKind: $importKind,
+                    showingNewFolder: $showingNewFolder
+                )
             }
         }
         .sheet(item: $importKind) { kind in
@@ -401,35 +366,27 @@ struct VaultListView: View {
     }
 
     private func loadURL(from provider: NSItemProvider) -> URL? {
-        // Try fileURL first (most common on macOS).
-        if provider.hasItemConformingToTypeIdentifier(UTType.fileURL.identifier) {
-            let lock = NSLock()
-            var result: URL?
+        // Try fileURL first (most common on macOS), then public.url for some Finder drops.
+        let typeIDs = [UTType.fileURL.identifier, UTType.url.identifier]
+        for typeID in typeIDs where provider.hasItemConformingToTypeIdentifier(typeID) {
+            // The loadItem completion handler runs concurrently; capture an
+            // immutable reference and hand the result back through it.
+            let holder = URLHolder()
             let semaphore = DispatchSemaphore(value: 0)
-            provider.loadItem(forTypeIdentifier: UTType.fileURL.identifier, options: nil) { item, _ in
-                lock.lock()
-                result = item as? URL
-                lock.unlock()
+            provider.loadItem(forTypeIdentifier: typeID, options: nil) { item, _ in
+                holder.value = item as? URL
                 semaphore.signal()
             }
-            _ = semaphore.wait(timeout: .now() + 5)
-            return result
-        }
-        // Fall back to public.url for some Finder drops.
-        if provider.hasItemConformingToTypeIdentifier(UTType.url.identifier) {
-            let lock = NSLock()
-            var result: URL?
-            let semaphore = DispatchSemaphore(value: 0)
-            provider.loadItem(forTypeIdentifier: UTType.url.identifier, options: nil) { item, _ in
-                lock.lock()
-                result = item as? URL
-                lock.unlock()
-                semaphore.signal()
+            if semaphore.wait(timeout: .now() + 5) == .success {
+                return holder.value
             }
-            _ = semaphore.wait(timeout: .now() + 5)
-            return result
         }
         return nil
+    }
+
+    /// Reference box for handing a value out of a concurrently-executing closure.
+    private final class URLHolder: @unchecked Sendable {
+        var value: URL?
     }
 
     /// Imports multiple dropped items and shows a single aggregated alert.
@@ -524,6 +481,17 @@ struct DocRow: View {
 
 // MARK: - Folder management sheets
 
+// MARK: - Folder Sheet Helpers
+
+/// Shared validation logic for folder name input sheets.
+extension String {
+    /// Returns the trimmed string if it's valid (non-empty after trimming), nil otherwise.
+    var trimmedFolderName: String? {
+        let trimmed = self.trimmingCharacters(in: .whitespaces)
+        return trimmed.isEmpty ? nil : trimmed
+    }
+}
+
 struct NewFolderView: View {
     @Environment(Library.self) private var library
     @Environment(\.dismiss) private var dismiss
@@ -545,12 +513,12 @@ struct NewFolderView: View {
                 }
                 ToolbarItem(placement: .confirmationAction) {
                     Button("Create") {
-                        let trimmed = name.trimmingCharacters(in: .whitespaces)
-                        guard !trimmed.isEmpty else { return }
-                        library.addFolder(name: trimmed, in: section, parent: folder)
-                        dismiss()
+                        if let trimmed = name.trimmedFolderName {
+                            library.addFolder(name: trimmed, in: section, parent: folder)
+                            dismiss()
+                        }
                     }
-                    .disabled(name.trimmingCharacters(in: .whitespaces).isEmpty)
+                    .disabled(name.trimmedFolderName == nil)
                 }
             }
             #if os(macOS)
@@ -580,12 +548,12 @@ struct RenameFolderView: View {
                 }
                 ToolbarItem(placement: .confirmationAction) {
                     Button("Save") {
-                        let trimmed = name.trimmingCharacters(in: .whitespaces)
-                        guard !trimmed.isEmpty else { return }
-                        library.renameFolder(folder, to: trimmed)
-                        dismiss()
+                        if let trimmed = name.trimmedFolderName {
+                            library.renameFolder(folder, to: trimmed)
+                            dismiss()
+                        }
                     }
-                    .disabled(name.trimmingCharacters(in: .whitespaces).isEmpty)
+                    .disabled(name.trimmedFolderName == nil)
                 }
             }
             .onAppear {
@@ -626,5 +594,99 @@ struct SyncBadge: View {
             "Synced: connected to iCloud. Offline: changes are saved on this device and sync later. "
             + "Sign in to iCloud in Settings to sync across devices."
         )
+    }
+}
+
+// MARK: - Extracted Subcomponents for DocListView
+
+/// Empty state view shown when no items exist or search has no results.
+struct VaultListEmptyStateView: View {
+    let searchText: String
+    @Binding var showingNewFolder: Bool
+    @Binding var importKind: ImportKind?
+    
+    var body: some View {
+        VStack(spacing: 12) {
+            if searchText.trimmingCharacters(in: .whitespaces).isEmpty {
+                Image(systemName: "tray")
+                    .font(.largeTitle)
+                    .foregroundStyle(.secondary)
+                Text("Nothing here yet")
+                HStack(spacing: 12) {
+                    Button("New Folder") {
+                        showingNewFolder = true
+                    }
+                    .accessibilityLabel("Create a new folder to organize documents")
+                    Button("Add Documents") {
+                        importKind = .files
+                    }
+                    .accessibilityLabel("Import files from your device or cloud storage")
+                }
+            } else {
+                Image(systemName: "magnifyingglass")
+                    .font(.largeTitle)
+                    .foregroundStyle(.secondary)
+                Text("No matches for \"\(searchText.trimmingCharacters(in: .whitespaces))\"")
+                    .foregroundStyle(.secondary)
+                    .multilineTextAlignment(.center)
+            }
+        }
+        .padding()
+    }
+}
+
+/// Drop target overlay shown when files are being dragged over the list.
+struct VaultListDropTargetView: View {
+    var body: some View {
+        RoundedRectangle(cornerRadius: 8)
+            .strokeBorder(Color.accentColor, style: StrokeStyle(lineWidth: 3, dash: [8]))
+            .background(.thinMaterial, in: RoundedRectangle(cornerRadius: 8))
+            .overlay {
+                Label("Drop to import", systemImage: "square.and.arrow.down")
+                    .font(.title3.weight(.semibold))
+            }
+            .padding(12)
+    }
+}
+
+/// Toolbar items for the vault list view.
+struct VaultListToolbarView: View {
+    @Binding var importKind: ImportKind?
+    @Binding var showingNewFolder: Bool
+    
+    var body: some View {
+        HStack {
+            Menu {
+                Button { importKind = .book } label: {
+                    Label("Import Book…", systemImage: "book.closed.fill")
+                }
+                Button { importKind = .files } label: {
+                    Label("Import Files…", systemImage: "folder")
+                }
+                Button { importKind = .photos } label: {
+                    Label("Import Photos…", systemImage: "photo")
+                }
+                Button { importKind = .note } label: {
+                    Label("New Note", systemImage: "note.text")
+                }
+                #if canImport(UIKit)
+                if CameraSupport.isAvailable {
+                    Button { importKind = .camera } label: {
+                        Label("Take Photo", systemImage: "camera")
+                    }
+                    Button { importKind = .ocr } label: {
+                        Label("Scan & OCR", systemImage: "text.viewfinder")
+                    }
+                }
+                #endif
+                Divider()
+                Button { showingNewFolder = true } label: {
+                    Label("New Folder…", systemImage: "folder.badge.plus")
+                }
+            } label: {
+                Label("Add", systemImage: "plus")
+            }
+            SyncBadge()
+        }
     }
 }

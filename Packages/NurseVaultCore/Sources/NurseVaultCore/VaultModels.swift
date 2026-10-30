@@ -28,6 +28,12 @@ public final class VaultDoc: NSManagedObject {
     @NSManaged public var fileName: String?
     @NSManaged public var mimeType: String?
     @NSManaged public var fileData: Data?
+    /// The document's text content, extracted from `fileData` (PDF text
+    /// layer or decoded text file) for content search.
+    ///
+    /// Computed in the background the first time the document is indexed
+    /// and persisted so it is not re-extracted on every launch.
+    @NSManaged public var extractedText: String?
     @NSManaged public var addedDate: Date?
     @NSManaged public var section: VaultSection?
     @NSManaged public var folder: VaultFolder?
@@ -126,10 +132,63 @@ extension VaultFolder {
         }
         return parts.joined(separator: " / ")
     }
+
+    /// Validates that setting `proposedParent` as the parent won't create a cycle.
+    /// Returns true if safe to set, false if it would create a circular reference.
+    public func canSetParent(_ proposedParent: VaultFolder?) -> Bool {
+        guard let newParent = proposedParent else { return true }
+        
+        // Check if this folder is already an ancestor of the proposed parent
+        // (would create a cycle)
+        var current: VaultFolder? = newParent
+        while let folder = current {
+            if folder === self {
+                return false  // Would create circular reference
+            }
+            current = folder.parent
+        }
+        
+        return true
+    }
 }
+
+extension VaultDoc: Identifiable {
+    /// Validates that the document has either noteText OR fileData/fileName.
+    /// Returns true if valid, false if empty or ambiguous.
+    public func isValidDocument() -> Bool {
+        let hasNote = (noteText != nil) && !(noteText?.isEmpty ?? true)
+        let hasFile = (fileData != nil && !fileData!.isEmpty) || ((fileName != nil) && !(fileName?.isEmpty ?? true))
+        return hasNote || hasFile
+    }
+}
+
+
 
 /// Builds the Core Data model in code.
 public enum VaultModel {
+
+    /// Current schema version. Increment this when making incompatible changes.
+    /// Used to detect migration needs and prevent data loss.
+    public static let currentSchemaVersion: Int = 1
+
+    /// Key for storing schema version in user defaults (for tracking purposes).
+    private static let schemaVersionKey = "com.josephwoods.nursevault.schema_version"
+
+    /// Returns the last known schema version from persistent storage.
+    public static func lastKnownSchemaVersion() -> Int {
+        UserDefaults.standard.integer(forKey: schemaVersionKey)
+    }
+
+    /// Saves the current schema version to persistent storage after successful migration.
+    public static func saveCurrentSchemaVersion() {
+        UserDefaults.standard.set(currentSchemaVersion, forKey: schemaVersionKey)
+    }
+
+    /// Checks if a migration is needed based on stored version.
+    public static func needsMigration() -> Bool {
+        let lastVersion = lastKnownSchemaVersion()
+        return lastVersion == 0 || lastVersion < currentSchemaVersion
+    }
 
     public static func makeModel() -> NSManagedObjectModel {
         // Helper: create an optional attribute with a default configuration.
@@ -185,23 +244,24 @@ public enum VaultModel {
 
         // --- Entities ---
         let section = entity("Section", VaultSection.self, [
-            attr("name", .stringAttributeType),
+            requiredAttr("name", .stringAttributeType, defaultValue: "Untitled Section"),
             attr("icon", .stringAttributeType),
             attr("sortOrder", .integer64AttributeType),
             requiredAttr("syncToWatch", .booleanAttributeType, defaultValue: true)
         ])
 
         let folder = entity("Folder", VaultFolder.self, [
-            attr("name", .stringAttributeType)
+            requiredAttr("name", .stringAttributeType, defaultValue: "Untitled Folder")
         ])
 
         let doc = entity("Doc", VaultDoc.self, [
-            attr("title", .stringAttributeType),
+            requiredAttr("title", .stringAttributeType, defaultValue: "Untitled Document"),
             attr("noteText", .stringAttributeType),
             attr("fileName", .stringAttributeType),
             attr("mimeType", .stringAttributeType),
-            attr("addedDate", .dateAttributeType),
-            attr("fileData", .binaryDataAttributeType) { $0.allowsExternalBinaryDataStorage = true }
+            requiredAttr("addedDate", .dateAttributeType, defaultValue: Date()),
+            attr("fileData", .binaryDataAttributeType) { $0.allowsExternalBinaryDataStorage = true },
+            attr("extractedText", .stringAttributeType)
         ])
 
         // --- Relationships ---
