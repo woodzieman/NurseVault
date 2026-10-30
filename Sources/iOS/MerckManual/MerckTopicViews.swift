@@ -16,7 +16,9 @@ struct MerckManualView: View {
                 // When searching, show results. Otherwise show specialty browser.
                 if !searchText.isEmpty {
                     ForEach(visibleHits) { hit in
-                        NavigationLink(value: hit.entry) {
+                        NavigationLink {
+                            MerckTopicDetailView(entry: hit.entry)
+                        } label: {
                             MerckTopicRow(entry: hit.entry, snippet: hit.snippet)
                         }
                     }
@@ -36,7 +38,9 @@ struct MerckManualView: View {
                         let specialtyEntries = topics.entriesBySpecialty()[specialty, default: []]
                         Section(specialty) {
                             ForEach(specialtyEntries) { entry in
-                                NavigationLink(value: entry) {
+                                NavigationLink {
+                                    MerckTopicDetailView(entry: entry)
+                                } label: {
                                     MerckTopicRow(entry: entry)
                                 }
                             }
@@ -49,9 +53,6 @@ struct MerckManualView: View {
             .navigationTitle("Merck Manual")
             .task(id: searchText) {
                 await runContentSearch()
-            }
-            .navigationDestination(for: MerckTopicEntry.self) { entry in
-                MerckTopicDetailView(entry: entry)
             }
         }
     }
@@ -110,7 +111,7 @@ struct MerckManualView: View {
                 systemImage: "book.pages",
                 description: Text("Building the medical topics index…")
             )
-        } else if !query.isEmpty && (contentHits.isEmpty && !isScanning) {
+        } else if !query.isEmpty && visibleHits.isEmpty && !isScanning {
             ContentUnavailableView(
                 "No Results",
                 systemImage: "magnifyingglass",
@@ -160,6 +161,50 @@ struct MerckTopicDetailView: View {
 
     @State private var fullText: String?
     @State private var isLoading = true
+    
+    /// Cached processed body text string (split and joined once per fullText change).
+    @State private var cachedBodyString: String? = nil
+    
+    /// Recomputes the body string when fullText changes.
+    private func ensureCachedBodyString() {
+        guard let text = fullText else { cachedBodyString = nil; return }
+        if cachedBodyString == nil || (cachedBodyString?.count ?? 0) != text.count - headerLength(text) {
+            // Recompute: extract body lines and join them
+            let lines = text.split(omittingEmptySubsequences: false, whereSeparator: \.isNewline)
+            var bodyLines: [String] = []
+            var pastHeader = false
+            for line in lines {
+                if !pastHeader {
+                    let trimmed = line.trimmingCharacters(in: .whitespaces)
+                    let isHeader = trimmed.hasPrefix("===")
+                        || trimmed.hasPrefix("Section:")
+                        || trimmed.hasPrefix("Source:")
+                        || trimmed.hasPrefix("Retrieved:")
+                        || trimmed.isEmpty
+                    if isHeader { continue }
+                    pastHeader = true
+                }
+                bodyLines.append(String(line))
+            }
+            cachedBodyString = bodyLines.joined(separator: "\n")
+        }
+    }
+    
+    /// Estimates the header length for cache invalidation.
+    private func headerLength(_ text: String) -> Int {
+        let lines = text.split(omittingEmptySubsequences: false, whereSeparator: \.isNewline)
+        var count = 0
+        for line in lines {
+            let trimmed = line.trimmingCharacters(in: .whitespaces)
+            if !trimmed.hasPrefix("===") && !trimmed.hasPrefix("Section:")
+                && !trimmed.hasPrefix("Source:") && !trimmed.hasPrefix("Retrieved:")
+                && !trimmed.isEmpty {
+                break
+            }
+            count += line.count + 1 // +1 for newline
+        }
+        return count
+    }
 
     var body: some View {
         ScrollView {
@@ -186,8 +231,11 @@ struct MerckTopicDetailView: View {
         #if os(iOS)
         .navigationBarTitleDisplayMode(.inline)
         #endif
-        .task {
+        .task(id: entry) {
             await loadContent()
+        }
+        .onChange(of: fullText) { _ in
+            ensureCachedBodyString()
         }
     }
 
@@ -223,30 +271,9 @@ struct MerckTopicDetailView: View {
 
     // MARK: - Body text (the full article, minus the metadata header)
     private func bodyText(_ text: String) -> some View {
-        let lines = text.split(omittingEmptySubsequences: false, whereSeparator: \.isNewline)
-
-        // The file opens with a small metadata header — the `=== Title ===` line
-        // plus `Section:` / `Source:` / `Retrieved:` — which the header view above
-        // already renders. Skip that leading run (and any leading blank lines) and
-        // show the *entire* article body, including the references, so the whole
-        // topic is readable and scrollable rather than just a short tail.
-        var bodyLines: [String] = []
-        var pastHeader = false
-        for line in lines {
-            if !pastHeader {
-                let trimmed = line.trimmingCharacters(in: .whitespaces)
-                let isHeader = trimmed.hasPrefix("===")
-                    || trimmed.hasPrefix("Section:")
-                    || trimmed.hasPrefix("Source:")
-                    || trimmed.hasPrefix("Retrieved:")
-                    || trimmed.isEmpty
-                if isHeader { continue }
-                pastHeader = true
-            }
-            bodyLines.append(String(line))
-        }
-
-        return Text(bodyLines.joined(separator: "\n"))
+        // Use cached processed string to avoid re-splitting on every render
+        let bodyString = cachedBodyString ?? text
+        return Text(bodyString)
             .font(.body)
             .fixedSize(horizontal: false, vertical: true)
             .textSelection(.enabled)

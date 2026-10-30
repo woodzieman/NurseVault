@@ -14,7 +14,9 @@ struct DrugReferenceView: View {
         NavigationStack {
             List {
                 ForEach(visibleHits) { hit in
-                    NavigationLink(value: hit.entry) {
+                    NavigationLink {
+                        DrugDetailView(entry: hit.entry)
+                    } label: {
                         DrugRow(entry: hit.entry, snippet: hit.snippet)
                     }
                 }
@@ -33,13 +35,6 @@ struct DrugReferenceView: View {
             .task(id: searchText) {
                 await runContentSearch()
             }
-        }
-        // Move navigationDestination to the outer NavigationStack so
-        // NavigationSplitView's own navigationDestination on the parent
-        // content: doesn't intercept it — keeping the drug reference
-        // navigation self-contained with no blank transitional page.
-        .navigationDestination(for: DrugEntry.self) { entry in
-            DrugDetailView(entry: entry)
         }
     }
 
@@ -145,6 +140,7 @@ struct DrugRow: View {
             }
         }
         .accessibilityElement(children: .combine)
+        .accessibilityLabel("Drug: \(entry.drugName)\n\(snippet ?? brandSummary)")
     }
 
     private var brandSummary: String {
@@ -242,7 +238,7 @@ struct DrugDetailView: View {
                 }
             }
         }
-        .task {
+        .task(id: entry) {
             parsed = await drugs.detailedContent(for: entry)
             didLoad = true
         }
