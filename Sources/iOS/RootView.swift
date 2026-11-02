@@ -35,6 +35,9 @@ struct RootView: View {
     /// The last document chosen from universal search. Fallback resolution
     /// for OS versions whose SDK can't map a URI back to a managed object.
     @State private var pendingDoc: VaultDoc?
+    /// The calculator stack. Value-based so a calculator chosen from
+    /// universal search (or a deep link) can be pushed programmatically.
+    @State private var calculatorPath: [CalculatorInfo] = []
 
     /// A specific item chosen from universal search, to be opened by its
     /// reference view when that view appears.
@@ -42,6 +45,7 @@ struct RootView: View {
         case drug(DrugEntry)
         case merck(MerckTopicEntry)
         case dsm(DsmTopicEntry)
+        case calculator(CalculatorInfo)
         /// Persistent-ID URI of a vault document.
         case document(String)
     }
@@ -142,12 +146,13 @@ struct RootView: View {
     }
     #endif
 
-    /// Handles deep links like `nursevault://calculator/<id>` by navigating to Clinical
-    /// Calculators and opening the specified calculator.
+    /// Handles deep links like `nursevault://calculator/<id>` by navigating to
+    /// Clinical Calculators and opening the specified calculator.
     private func handleDeeplink(_ url: URL) {
         guard let id = MedCalcDeepLink.calculatorID(from: url),
-              MedCalcCatalog.calculator(withID: id) != nil else { return }
+              let calc = MedCalcCatalog.calculator(withID: id) else { return }
         selection = .mediCalc
+        pendingItem = .calculator(calc)
     }
 
     private var readyContent: some View {
@@ -193,8 +198,11 @@ struct RootView: View {
                         onEntryOpened: { pendingItem = nil }
                     )
                 case .mediCalc:
-                    NavigationStack {
-                        CategoryListView()
+                    NavigationStack(path: $calculatorPath) {
+                        CategoryListView(initialCalculator: pendingCalculator)
+                    }
+                    .navigationDestination(for: CalculatorInfo.self) { calc in
+                        CalculatorDetailView(calculator: calc)
                     }
                 case .merckManual:
                     MerckManualView(
@@ -346,12 +354,20 @@ struct RootView: View {
             localSearchText = ""
         }
         .onChange(of: pendingItem) { _, item in
-            // Documents are Core Data objects, so they can't travel through
-            // the views' entry points — push a reference here, onto the vault
-            // stack; the destination resolves it.
-            guard case .document(let uri) = item else { return }
-            pendingItem = nil
-            vaultPath.append(VaultDocRef(uri: uri))
+            // Items whose navigation stack lives in RootView are pushed here.
+            // (Documents are Core Data objects, so only a URI reference
+            // travels; the destination resolves it.)
+            guard let item else { return }
+            switch item {
+            case .document(let uri):
+                pendingItem = nil
+                vaultPath.append(VaultDocRef(uri: uri))
+            case .calculator(let calc):
+                pendingItem = nil
+                calculatorPath.append(calc)
+            default:
+                break
+            }
         }
         .onChange(of: searchManager?.searchText) { _, newText in
             // Sync back from search manager to local state (for clearing)
@@ -484,9 +500,7 @@ struct RootView: View {
             pendingItem = .dsm(entry)
         case .calculator(let calc):
             selection = .mediCalc
-            if let url = URL(string: "nursevault://calculator/\(calc.id)") {
-                handleDeeplink(url)
-            }
+            pendingItem = .calculator(calc)
         case .document(let doc):
             if let section = doc.section {
                 selection = .section(section)
@@ -515,6 +529,11 @@ struct RootView: View {
     private var pendingDsmTopic: DsmTopicEntry? {
         guard case .dsm(let entry) = pendingItem else { return nil }
         return entry
+    }
+
+    private var pendingCalculator: CalculatorInfo? {
+        guard case .calculator(let calc) = pendingItem else { return nil }
+        return calc
     }
 
     private var currentSection: VaultSection? {

@@ -47,6 +47,17 @@ instead of the chosen item. Now:
   headlessly. Verified on the iOS 27 simulator: drug detail and DSM detail
   open directly from a search selection.
 
+### Follow-up 2 (same day): calculators open the specific calculator
+
+The same category-root problem applied to calculators: the deep-link handler
+extracted the calculator ID and then threw it away, landing on all 174
+items. The calculator stack is now value-based in RootView
+(`calculatorPath` + `navigationDestination(for: CalculatorInfo.self)`),
+search selection and `nursevault://calculator/<id>` deep links push the
+specific calculator, and `CategoryListView` gained a name/category search
+field that filters to the chosen calculator on appear. Verified on the iOS
+27 simulator: selecting a BMI result opens the BMI calculator.
+
 ---
 
 # Changes Summary — Nurse Vault (Oct 7, 2026)
