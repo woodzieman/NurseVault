@@ -1,11 +1,30 @@
 import SwiftUI
 
 struct UniversalSearchResultsView: View {
+    /// The shared query text. On iPhone the sidebar's field slides off screen
+    /// when this column takes over, so the screen carries its own copy of the
+    /// field, bound to the same text.
+    @Binding var searchText: String
     let results: [SearchResult]
     let isLoadingLibraries: Bool
     let onSelect: (SearchResult) -> Void
 
     var body: some View {
+        VStack(spacing: 8) {
+            #if os(iOS)
+            VaultSearchField(text: $searchText, focusesOnAppear: true)
+            #endif
+            resultList
+        }
+        .navigationTitle("Search Results")
+        // Inline (not large) title: on iOS 26 the floating glass back button
+        // spills below the navigation bar and overlaps a large title.
+        #if os(iOS)
+        .navigationBarTitleDisplayMode(.inline)
+        #endif
+    }
+
+    private var resultList: some View {
         List {
             if isLoadingLibraries && results.isEmpty {
                 HStack(spacing: 8) {
@@ -32,7 +51,6 @@ struct UniversalSearchResultsView: View {
                 }
             }
         }
-        .navigationTitle("Search Results")
     }
 }
 
@@ -45,7 +63,7 @@ struct SearchResultRow: View {
                 .font(.title3)
                 .foregroundStyle(.tint)
                 .frame(width: 28)
-            
+
             VStack(alignment: .leading, spacing: 2) {
                 Text(title)
                     .fontWeight(.medium)

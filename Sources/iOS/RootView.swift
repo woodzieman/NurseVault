@@ -22,6 +22,9 @@ struct RootView: View {
     /// hides it so the reference/documents get the full width (landscape
     /// iPhone and iPad).
     @State private var splitVisibility: NavigationSplitViewVisibility = .all
+    /// Which column the collapsed (iPhone) split view shows. Driven by the
+    /// search query so results appear without touching `selection`.
+    @State private var compactColumn: NavigationSplitViewColumn = .sidebar
 
     enum SidebarItem: Hashable {
         case all
@@ -67,7 +70,8 @@ struct RootView: View {
     #if DEBUG
     /// DEBUG deep-selection: launch with
     /// `-debugSelect <all|drugs|calculators|merck|dsm|labs>` to jump straight
-    /// into a reference, and `-hideSidebar` to pre-collapse the menu column —
+    /// into a reference, `-debugSearch <text>` to fill the search field, and
+    /// `-hideSidebar` to pre-collapse the menu column —
     /// for headless layout verification on the simulator (no UI scripting).
     /// Inert in Release builds.
     private func maybeApplyDebugSelection() {
@@ -78,6 +82,14 @@ struct RootView: View {
             Task { @MainActor in
                 try? await Task.sleep(for: .milliseconds(300))
                 splitVisibility = .detailOnly
+            }
+        }
+        if let j = args.firstIndex(of: "-debugSearch"), j + 1 < args.count {
+            // Delayed: the search manager is created in onAppear, and the
+            // text must arrive after it exists to be picked up.
+            Task { @MainActor in
+                try? await Task.sleep(for: .milliseconds(300))
+                localSearchText = args[j + 1]
             }
         }
         guard let i = args.firstIndex(of: "-debugSelect"), i + 1 < args.count else { return }
@@ -102,117 +114,34 @@ struct RootView: View {
     }
 
     private var readyContent: some View {
-        NavigationSplitView(columnVisibility: $splitVisibility) {
-            List(selection: $selection) {
-                Label("All Documents", systemImage: "books.vertical")
-                    .tag(SidebarItem.all)
-
-                Label("Drug Reference", systemImage: "cross.case")
-                    .badge(drugLibrary.entries.count)
-                    .tag(SidebarItem.drugReference)
-
-                Label("Clinical Calculators", systemImage: "calculator.fill")
-                    .badge(MedCalcCatalog.all.count)
-                    .tag(SidebarItem.mediCalc)
-
-                Label("Merck Manual", systemImage: "book")
-                    .badge(merckLibrary.entries.count)
-                    .tag(SidebarItem.merckManual)
-
-                Label("DSM-5-TR", systemImage: "book.fill")
-                    .badge(dsmLibrary.entries.count)
-                    .tag(SidebarItem.dsmManual)
-
-                Label("Labs", systemImage: "testtube.2")
-                    .tag(SidebarItem.labs)
-
-                Label("Books", systemImage: "book.closed.fill")
-                    .tag(SidebarItem.books)
-
-                ForEach(library.sections, id: \.self) { section in
-                    Label(section.name ?? "Untitled", systemImage: section.icon ?? "folder")
-                        .badge(library.docs(in: section).count)
-                        .tag(SidebarItem.section(section))
-                        .contextMenu {
-                            Button("Rename…") {
-                                renameTarget = SectionEditTarget(section: section)
-                            }
-                            Divider()
-                            Button("Delete", role: .destructive) {
-                                deleteTarget = section
-                                showingDeleteDialog = true
-                            }
-                        }
-                }
-                .onMove { library.moveSections(from: $0, to: $1) }
-            }
-            .navigationTitle("Nurse Vault")
+        NavigationSplitView(
+            columnVisibility: $splitVisibility,
+            preferredCompactColumn: $compactColumn
+        ) {
             #if os(iOS)
-            // Keep the menu a bounded slice of landscape width so the reference
-            // column (and the Safari-style toggle) behave like Safari's.
-            .navigationSplitViewColumnWidth(min: 220, ideal: 260, max: 320)
-            #endif
-            .searchable(text: $localSearchText)
-            .toolbar {
-                // Safari-style sidebar toggle: hide the menu for full-width content.
-                #if os(iOS)
-                ToolbarItem(placement: .topBarLeading) {
-                    Button {
-                        splitVisibility = splitVisibility == .detailOnly ? .all : .detailOnly
-                    } label: {
-                        Image(systemName: "sidebar.leading")
-                    }
-                    .accessibilityLabel("Toggle menu")
-                }
-                #endif
-                #if os(iOS)
-                ToolbarItem(placement: .topBarLeading) {
-                    Button {
-                        showingSettings = true
-                    } label: {
-                        Image(systemName: "gearshape")
-                    }
-                }
-                #endif
-                #if os(macOS)
-                ToolbarItem(placement: .navigation) {
-                    Button {
-                        splitVisibility = splitVisibility == .detailOnly ? .all : .detailOnly
-                    } label: {
-                        Image(systemName: "sidebar.leading")
-                    }
-                    .keyboardShortcut("0", modifiers: .command)
-                }
-                #endif
-                #if os(macOS)
-                ToolbarItem(placement: .navigation) {
-                    Button {
-                        showingSettings = true
-                    } label: {
-                        Image(systemName: "gearshape")
-                    }
-                    .keyboardShortcut(",", modifiers: .command)
-                }
-                #endif
-                ToolbarItem(placement: .primaryAction) {
-                    Button {
-                        showingNewSection = true
-                    } label: {
-                        Label("New Section", systemImage: "folder.badge.plus")
-                    }
-                    #if os(macOS)
-                    .keyboardShortcut("N", modifiers: .command)
-                    #endif
-                }
+            // The search field is pinned above the sidebar list. The system
+            // `.searchable` field, in the new design, floats in a Liquid
+            // Glass container at the *bottom* of the sidebar, where it covers
+            // the rows (list text shows through the glass). A pinned field
+            // also pairs with the results screen's own field, so typing
+            // continues where the keyboard is once results take over.
+            VStack(spacing: 10) {
+                VaultSearchField(text: $localSearchText)
+                sidebarList
             }
+            #else
+            sidebarList
+                .searchable(text: $localSearchText)
+            #endif
         } detail: {
             // Two-column split (Safari-style): the reference and vault views
             // own their navigation, so they fill the whole detail column.
             // The old third column was a dead "Select a Document" placeholder
             // that wasted half the screen in landscape.
-            if let sm = searchManager, !localSearchText.isEmpty {
+            if let sm = searchManager, localSearchText.count >= 2 {
             NavigationStack {
                 UniversalSearchResultsView(
+                    searchText: $localSearchText,
                     results: sm.results,
                     isLoadingLibraries: sm.isLoadingLibraries
                 ) { result in
@@ -284,7 +213,7 @@ struct RootView: View {
         #endif
         .onChange(of: scenePhase) { _, newPhase in
             if newPhase == .active {
-                library.reload()
+                Task { await library.reload() }
             }
         }
         .onChange(of: library.storeWasReset) { _, reset in
@@ -342,11 +271,19 @@ struct RootView: View {
             if let sm = searchManager {
                 sm.searchText = newText
             }
-            // While searching, point the split-view selection at the
-            // `.searchResults` bucket (a non-nil value) so iPhone's compact
-            // layout renders the search results in the detail column instead of
-            // hiding them until a category is tapped.
-            selection = newText.isEmpty ? selection : .searchResults
+            // From 2 characters on, prefer the detail column on iPhone so the
+            // results render. `selection` is deliberately left alone: flipping
+            // it to .searchResults used to yank the user to the results screen
+            // after just two keystrokes, cutting off their typing.
+            if newText.count >= 2 {
+                compactColumn = .detail
+            } else {
+                compactColumn = selection == nil ? .sidebar : .detail
+            }
+        }
+        .onChange(of: selection) { _, _ in
+            // Choosing a section (or a search result) supersedes the query.
+            localSearchText = ""
         }
         .onChange(of: searchManager?.searchText) { _, newText in
             // Sync back from search manager to local state (for clearing)
@@ -357,6 +294,111 @@ struct RootView: View {
         }
         .onOpenURL { url in
             handleDeeplink(url)
+        }
+    }
+
+    /// The sidebar list of vault sections and bundled references.
+    private var sidebarList: some View {
+        List(selection: $selection) {
+            Label("All Documents", systemImage: "books.vertical")
+                .tag(SidebarItem.all)
+
+            Label("Drug Reference", systemImage: "cross.case")
+                .badge(drugLibrary.entries.count)
+                .tag(SidebarItem.drugReference)
+
+            Label("Clinical Calculators", systemImage: "calculator.fill")
+                .badge(MedCalcCatalog.all.count)
+                .tag(SidebarItem.mediCalc)
+
+            Label("Merck Manual", systemImage: "book")
+                .badge(merckLibrary.entries.count)
+                .tag(SidebarItem.merckManual)
+
+            Label("DSM-5-TR", systemImage: "book.fill")
+                .badge(dsmLibrary.entries.count)
+                .tag(SidebarItem.dsmManual)
+
+            Label("Labs", systemImage: "testtube.2")
+                .tag(SidebarItem.labs)
+
+            Label("Books", systemImage: "book.closed.fill")
+                .tag(SidebarItem.books)
+
+            ForEach(library.sections, id: \.self) { section in
+                Label(section.name ?? "Untitled", systemImage: section.icon ?? "folder")
+                    .badge(library.docs(in: section).count)
+                    .tag(SidebarItem.section(section))
+                    .contextMenu {
+                        Button("Rename…") {
+                            renameTarget = SectionEditTarget(section: section)
+                        }
+                        Divider()
+                        Button("Delete", role: .destructive) {
+                            deleteTarget = section
+                            showingDeleteDialog = true
+                        }
+                    }
+            }
+            .onMove { library.moveSections(from: $0, to: $1) }
+        }
+        .navigationTitle("Nurse Vault")
+        #if os(iOS)
+        // Keep the menu a bounded slice of landscape width so the reference
+        // column (and the Safari-style toggle) behave like Safari's.
+        .navigationSplitViewColumnWidth(min: 220, ideal: 260, max: 320)
+        #endif
+        .toolbar {
+            // Safari-style sidebar toggle: hide the menu for full-width content.
+            #if os(iOS)
+            ToolbarItem(placement: .topBarLeading) {
+                Button {
+                    splitVisibility = splitVisibility == .detailOnly ? .all : .detailOnly
+                } label: {
+                    Image(systemName: "sidebar.leading")
+                }
+                .accessibilityLabel("Toggle menu")
+            }
+            #endif
+            #if os(iOS)
+            ToolbarItem(placement: .topBarLeading) {
+                Button {
+                    showingSettings = true
+                } label: {
+                    Image(systemName: "gearshape")
+                }
+            }
+            #endif
+            #if os(macOS)
+            ToolbarItem(placement: .navigation) {
+                Button {
+                    splitVisibility = splitVisibility == .detailOnly ? .all : .detailOnly
+                } label: {
+                    Image(systemName: "sidebar.leading")
+                }
+                .keyboardShortcut("0", modifiers: .command)
+            }
+            #endif
+            #if os(macOS)
+            ToolbarItem(placement: .navigation) {
+                Button {
+                    showingSettings = true
+                } label: {
+                    Image(systemName: "gearshape")
+                }
+                .keyboardShortcut(",", modifiers: .command)
+            }
+            #endif
+            ToolbarItem(placement: .primaryAction) {
+                Button {
+                    showingNewSection = true
+                } label: {
+                    Label("New Section", systemImage: "folder.badge.plus")
+                }
+                #if os(macOS)
+                .keyboardShortcut("N", modifiers: .command)
+                #endif
+            }
         }
     }
 

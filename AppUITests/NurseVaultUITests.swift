@@ -69,7 +69,13 @@ import XCTest
     /// app before searching, so the field is always empty — no clearing
     /// needed.
     private func search(_ text: String) {
+        // On iOS the sidebar search is a plain TextField (the system
+        // `.searchable` field is now macOS-only); on macOS it's a search field.
+        #if os(iOS)
+        let field = app.textFields.firstMatch
+        #else
         let field = app.searchFields.firstMatch
+        #endif
         XCTAssertTrue(field.waitForExistence(timeout: 10), "Search field not found")
         field.tap()
         field.typeText(text)
