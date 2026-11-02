@@ -68,6 +68,12 @@ struct ImportView: View {
     @State private var createdNewFolder: VaultFolder?
     @State private var showingErrorAlert = false
     @State private var errorMessage: String?
+    @State private var scanFlow = CzurBookScanFlow()
+    @State private var scannerTitle = ""
+    @State private var scannerAutoCapture = false
+    @State private var scannerVideoPreview = false
+    @State private var scannerConvertToPdf = false
+    @State private var scannerDeviceId: String? = nil
 
     /// Folders the user can choose: everything in the current section
     /// (nested included, path-labeled), or the whole vault at the top level.
@@ -81,8 +87,23 @@ struct ImportView: View {
     }
 
     private var resolvedLocation: SaveLocation {
-        saveLocation ?? (folder == nil ? .section : .folder(folder!))
+        if let saveLocation { return saveLocation }
+        if let folder { return .folder(folder) }
+        return .section
     }
+
+    private var scanPhaseIsActive: Bool {
+        switch scanFlow.phase {
+        case .idle, .completed:
+            return false
+        case .connecting, .scanning, .processing, .saving:
+            return true
+        case .failed:
+            return false
+        }
+    }
+
+    // MARK: - CZUR ET Max scan state
 
     /// The folder the content should be stored in, or nil for the section
     /// top level.
@@ -153,6 +174,35 @@ struct ImportView: View {
                     Section {
                         Button("Choose a PDF, Text, or RTF file…") {
                             showingBookFileImporter = true
+                        }
+                        Button("Scan with CZUR ET Max…") {
+                            Task { await runCzurBookScan() }
+                        }
+                        TextField("Book title", text: $scannerTitle)
+                            .disabled(scanPhaseIsActive)
+                        if scanPhaseIsActive {
+                            CzurScanProgressView(phase: scanFlow.phase)
+                        }
+                        Toggle("Auto page-turn capture", isOn: $scannerAutoCapture)
+                            .disabled(scanPhaseIsActive)
+                        Toggle("Show video preview", isOn: $scannerVideoPreview)
+                            .disabled(scanPhaseIsActive)
+                        Toggle("Save converted PDF", isOn: $scannerConvertToPdf)
+                            .disabled(scanPhaseIsActive)
+                        if !scanPhaseIsActive, !scanFlow.devices.isEmpty {
+                            Picker("Scanner device", selection: Binding<String>(
+                                get: { scannerDeviceId ?? scanFlow.devices.first?.deviceId ?? "" },
+                                set: { scannerDeviceId = $0 }
+                            )) {
+                                ForEach(scanFlow.devices, id: \.deviceId) { device in
+                                    Text(device.name ?? device.deviceId)
+                                        .tag(device.deviceId)
+                                }
+                            }
+                        }
+                        if scanPhaseIsActive, scanFlow.phase == .scanning, let deviceId = scanFlow.activeDeviceId {
+                            CzurVideoPreview(client: CzurOpenRuntimeClient.shared, deviceId: deviceId)
+                                .frame(height: 240)
                         }
                     } footer: {
                         let limitMB = FileSupport.maxFileBytes / (1024 * 1024)
@@ -271,7 +321,7 @@ struct ImportView: View {
     private var saveToSection: some View {
         Section("Save to") {
             Picker("Location", selection: Binding(
-                get: { saveLocation ?? (folder == nil ? .section : .folder(folder!)) },
+                get: { resolvedLocation },
                 set: { saveLocation = $0 }
             )) {
                 Text(section?.name ?? "No Section")
@@ -335,6 +385,38 @@ struct ImportView: View {
         }
     }
     
+    /// Scans the current book with the CZUR ET Max via the local CZUR Open
+    /// runtime and saves the searchable text into the library.
+    private func runCzurBookScan() async {
+        // A scan honors the sheet's save-location picker, like file imports.
+        let targetFolder = makeSaveFolder()
+        let trimmedTitle = scannerTitle.trimmingCharacters(in: .whitespaces)
+        let title = trimmedTitle.isEmpty
+            ? "CZUR Scan \(Date.now.formatted(.dateTime.day().month().year()))"
+            : trimmedTitle
+        let outcome = await CzurBookScanFlow.shared.scanAndSaveBook(
+            library: library,
+            title: title,
+            section: targetFolder?.section,
+            folder: targetFolder,
+            options: CzurBookScanFlow.ScanOptions(
+                autoCaptureEnabled: scannerAutoCapture,
+                videoPreviewEnabled: scannerVideoPreview,
+                convertCapturedPagesToPdf: scannerConvertToPdf,
+                deviceId: scannerDeviceId
+            )
+        )
+        switch outcome {
+        case .saved:
+            dismiss()
+        case .cancelled:
+            break
+        case .failed(let message):
+            errorMessage = message
+            showingErrorAlert = true
+        }
+    }
+
     /// Imports a book file through the BookIngestionEngine.
     private func importBookFile(from url: URL) {
         // Start security scope (no-op for Mac unscoped URLs).

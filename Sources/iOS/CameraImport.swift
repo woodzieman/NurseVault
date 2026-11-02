@@ -245,7 +245,10 @@ enum OCRSupport {
     ///
     /// The whole request is built and run on one detached thread, so no
     /// non-Sendable Vision objects cross actor boundaries.
-    static func recognizeText(image: UIImage) async throws -> String {
+    ///
+    /// - Parameter recognitionLanguages: BCP-47 style codes (e.g. "en",
+    ///   "ch"). Defaults to `["en"]`.
+    static func recognizeText(image: UIImage, recognitionLanguages: [String] = ["en"]) async throws -> String {
         let task = Task.detached(priority: .userInitiated) {
             guard let cgImage = image.cgImage else {
                 throw Error.noImage
@@ -263,7 +266,7 @@ enum OCRSupport {
             }
             request.recognitionLevel = .accurate
             request.usesLanguageCorrection = true
-            request.recognitionLanguages = ["en"]
+            request.recognitionLanguages = recognitionLanguages
 
             let handler = VNImageRequestHandler(cgImage: cgImage, options: [:])
             try handler.perform([request])
