@@ -6,17 +6,21 @@ import SwiftUI
 struct DrugReferenceView: View {
     @Environment(DrugLibrary.self) private var drugs
 
+    /// A drug chosen from the universal search; opened (with the list
+    /// filtered to it) when the view appears.
+    var initialEntry: DrugEntry? = nil
+    var onEntryOpened: (() -> Void)? = nil
+
     @State private var searchText = ""
     @State private var contentHits: [DrugSearchHit] = []
     @State private var isScanning = false
+    @State private var path: [DrugEntry] = []
 
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $path) {
             List {
                 ForEach(visibleHits) { hit in
-                    NavigationLink {
-                        DrugDetailView(entry: hit.entry)
-                    } label: {
+                    NavigationLink(value: hit.entry) {
                         DrugRow(entry: hit.entry, snippet: hit.snippet)
                     }
                 }
@@ -32,8 +36,20 @@ struct DrugReferenceView: View {
             .overlay { emptyState }
             .searchable(text: $searchText, prompt: "Name, brand, or content")
             .navigationTitle("Drug Reference")
+            .navigationDestination(for: DrugEntry.self) { entry in
+                DrugDetailView(entry: entry)
+            }
             .task(id: searchText) {
                 await runContentSearch()
+            }
+        }
+        .onAppear {
+            if let entry = initialEntry {
+                // Open the chosen drug and filter the list to it, so going
+                // back lands on a short, relevant list.
+                searchText = entry.drugName
+                path.append(entry)
+                onEntryOpened?()
             }
         }
     }

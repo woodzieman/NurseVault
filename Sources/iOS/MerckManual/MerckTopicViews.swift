@@ -5,20 +5,24 @@ import SwiftUI
 struct MerckManualView: View {
     @Environment(MerckTopicLibrary.self) private var topics
 
+    /// A topic chosen from the universal search; opened (with the list
+    /// filtered to it) when the view appears.
+    var initialEntry: MerckTopicEntry? = nil
+    var onEntryOpened: (() -> Void)? = nil
+
     @State private var searchText = ""
     @State private var contentHits: [MerckTopicSearchHit] = []
     @State private var isScanning = false
     @State private var selectedSpecialty: String? = nil
+    @State private var path: [MerckTopicEntry] = []
 
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $path) {
             List {
                 // When searching, show results. Otherwise show specialty browser.
                 if !searchText.isEmpty {
                     ForEach(visibleHits) { hit in
-                        NavigationLink {
-                            MerckTopicDetailView(entry: hit.entry)
-                        } label: {
+                        NavigationLink(value: hit.entry) {
                             MerckTopicRow(entry: hit.entry, snippet: hit.snippet)
                         }
                     }
@@ -38,9 +42,7 @@ struct MerckManualView: View {
                         let specialtyEntries = topics.entriesBySpecialty()[specialty, default: []]
                         Section(specialty) {
                             ForEach(specialtyEntries) { entry in
-                                NavigationLink {
-                                    MerckTopicDetailView(entry: entry)
-                                } label: {
+                                NavigationLink(value: entry) {
                                     MerckTopicRow(entry: entry)
                                 }
                             }
@@ -51,8 +53,20 @@ struct MerckManualView: View {
             .overlay { emptyState }
             .searchable(text: $searchText, prompt: "Topic, specialty, or content")
             .navigationTitle("Merck Manual")
+            .navigationDestination(for: MerckTopicEntry.self) { entry in
+                MerckTopicDetailView(entry: entry)
+            }
             .task(id: searchText) {
                 await runContentSearch()
+            }
+        }
+        .onAppear {
+            if let entry = initialEntry {
+                // Open the chosen topic and filter the list to it, so going
+                // back lands on a short, relevant list.
+                searchText = entry.title
+                path.append(entry)
+                onEntryOpened?()
             }
         }
     }

@@ -10,6 +10,13 @@ enum VaultContainer: Hashable {
     case folder(VaultFolder)
 }
 
+/// A document reference by persistent-ID URI, for value-based navigation.
+/// Core Data objects can't be navigation values across a stack owned by
+/// another view, so the universal-search flow pushes these instead.
+struct VaultDocRef: Hashable {
+    let uri: String
+}
+
 @MainActor
 extension VaultContainer? {
     /// Resolves the current section from this container.
@@ -185,9 +192,8 @@ struct VaultListView: View {
                         folderContextMenu(folder)
                     }
                 case .doc(let doc):
-                    NavigationLink {
-                        DocDetailView(doc: doc)
-                    } label: {
+                    let docRef = VaultDocRef(uri: doc.objectID.uriRepresentation().absoluteString)
+                    NavigationLink(value: docRef) {
                         DocRow(doc: doc)
                     }
                     .contextMenu {
@@ -267,9 +273,11 @@ struct VaultListView: View {
             Text(importErrorMessage ?? "")
         }
         .onDrop(of: [UTType.fileURL, UTType.folder, UTType.directory], isTargeted: $isDropTargeted) { providers in
-            let urls = collectDroppedURLs(from: providers)
-            guard !urls.isEmpty else { return false }
+            // `collectDroppedURLs` is now async; bridge it so the drop handler can
+            // await without blocking the main thread (see §3.1).
             Task { @MainActor in
+                let urls = await collectDroppedURLs(from: providers)
+                guard !urls.isEmpty else { return }
                 importMultiple(urls)
             }
             return true
@@ -355,38 +363,74 @@ struct VaultListView: View {
 
     /// Extracts file URLs from drop providers. On macOS, Finder drops may
     /// use different type identifiers, so we try multiple.
-    private func collectDroppedURLs(from providers: [NSItemProvider]) -> [URL] {
+    private func collectDroppedURLs(from providers: [NSItemProvider]) async -> [URL] {
         var urls: [URL] = []
         for provider in providers {
-            if let url = loadURL(from: provider) {
+            if let url = await loadURL(from: provider) {
                 urls.append(url)
             }
         }
         return urls
     }
 
-    private func loadURL(from provider: NSItemProvider) -> URL? {
+    /// Extracts a dropped item's URL without blocking the main thread.
+    ///
+    /// `NSItemProvider.loadItem` is completion-based; we bridge it to async with
+    /// `withCheckedContinuation`. A 5-second timeout (enforced by a background
+    /// `Task`, which is `Sendable`) preserves the safety margin the old
+    /// `DispatchSemaphore` gave, so a provider that never callbacks can neither
+    /// hang the drop nor freeze the UI. The `ResumeGate` guarantees the
+    /// continuation resumes exactly once even if both the timeout and the
+    /// callback fire.
+    private func loadURL(from provider: NSItemProvider) async -> URL? {
         // Try fileURL first (most common on macOS), then public.url for some Finder drops.
         let typeIDs = [UTType.fileURL.identifier, UTType.url.identifier]
         for typeID in typeIDs where provider.hasItemConformingToTypeIdentifier(typeID) {
-            // The loadItem completion handler runs concurrently; capture an
-            // immutable reference and hand the result back through it.
-            let holder = URLHolder()
-            let semaphore = DispatchSemaphore(value: 0)
-            provider.loadItem(forTypeIdentifier: typeID, options: nil) { item, _ in
-                holder.value = item as? URL
-                semaphore.signal()
-            }
-            if semaphore.wait(timeout: .now() + 5) == .success {
-                return holder.value
-            }
+            guard let url = await loadItemURL(from: provider, typeID: typeID) else { continue }
+            return url
         }
         return nil
     }
 
-    /// Reference box for handing a value out of a concurrently-executing closure.
-    private final class URLHolder: @unchecked Sendable {
-        var value: URL?
+    private func loadItemURL(from provider: NSItemProvider, typeID: String) async -> URL? {
+        let gate = ResumeGate()
+        return await withCheckedContinuation { continuation in
+            gate.start(continuation)
+            let timeout = Task {
+                try? await Task.sleep(for: .seconds(5))
+                gate.resume(with: nil)
+            }
+            provider.loadItem(forTypeIdentifier: typeID, options: nil) { item, _ in
+                timeout.cancel()
+                gate.resume(with: item as? URL)
+            }
+        }
+    }
+
+    /// Ensures a `CheckedContinuation` resumes at most once, even when both a
+    /// timeout task and the real completion handler try to fire. Thread-safe so
+    /// they can race without double-resuming (which would be a runtime error).
+    private final class ResumeGate: @unchecked Sendable {
+        private let lock = NSLock()
+        private var continuation: CheckedContinuation<URL?, Never>?
+        private var resumed = false
+
+        func start(_ continuation: CheckedContinuation<URL?, Never>) {
+            lock.lock()
+            self.continuation = continuation
+            lock.unlock()
+        }
+
+        func resume(with value: URL?) {
+            lock.lock()
+            guard !resumed, let continuation else {
+                lock.unlock()
+                return
+            }
+            resumed = true
+            lock.unlock()
+            continuation.resume(returning: value)
+        }
     }
 
     /// Imports multiple dropped items and shows a single aggregated alert.

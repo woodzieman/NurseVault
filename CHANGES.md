@@ -28,6 +28,25 @@ verification on the simulator; UI-test search helper now finds the plain
 TextField on iOS. Verified on an iOS 27 simulator: sidebar, results, and
 no-results states; iOS + macOS builds pass.
 
+### Follow-up (same day): search results open the *specific* item
+
+Selecting a result used to land on the category root (e.g. all 2,383 drugs)
+instead of the chosen item. Now:
+
+- `DrugReferenceView` / `MerckManualView` / `DsmManualView` take an
+  `initialEntry` (+ `onEntryOpened`), convert their stacks to value-based
+  navigation, and push the chosen entry on appear (filtering the list to it,
+  so going back shows a short relevant list).
+- Document results push a new `VaultDocRef` (persistent-ID URI) onto the
+  vault stack owned by `RootView`; the destination resolves it via a new
+  `Library.doc(withPersistentURI:)` fetch, with an in-memory-object fallback
+  for OS versions whose SDK removed `NSPersistentIdentifier` (iOS 27 SDK
+  note: URI→ID now goes through
+  `NSPersistentStoreCoordinator.managedObjectID(for:)`, iOS 18+/macOS 15+).
+- `-debugSelectResult <text>` DEBUG launch argument verifies the flow
+  headlessly. Verified on the iOS 27 simulator: drug detail and DSM detail
+  open directly from a search selection.
+
 ---
 
 # Changes Summary — Nurse Vault (Oct 7, 2026)

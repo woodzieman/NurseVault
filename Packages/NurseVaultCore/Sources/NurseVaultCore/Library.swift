@@ -50,6 +50,10 @@ public final class Library {
     /// Protects concurrent access to `searchCache` and `searchInflight`
     /// from background extraction tasks.
     @ObservationIgnored var searchLock = NSLock()
+
+    /// In-flight PDF-extraction tasks keyed by document cache ID, so a task can
+    /// be cancelled if its document is removed before extraction finishes.
+    @ObservationIgnored var inFlightExtractions: [URL: Task<Void, Never>] = [:]
     private var iso8601Formatter: ISO8601DateFormatter = { let f = ISO8601DateFormatter(); return f }()
 
     /// Watch-friendly summary data, loaded from the App Group file.
@@ -97,7 +101,7 @@ public final class Library {
             }
             Self.applyDataProtection(to: container.persistentStoreDescriptions.first?.url)
             Task { @MainActor in
-                self?.markStoreLoaded()
+                await self?.markStoreLoaded()
             }
         }
     }
@@ -159,7 +163,7 @@ public final class Library {
         #endif
     }
 
-    private func markStoreLoaded() {
+    private func markStoreLoaded() async {
         guard !isStoreLoaded else { return }
         
         // Check if migration is needed based on schema version
@@ -176,7 +180,7 @@ public final class Library {
         startMonitoring()
         observeSyncEvents()
         refreshAccountStatus()
-        reload()
+        await reload()
         #if !os(watchOS)
         if sections.isEmpty {
             ensureDefaultSections()
@@ -261,7 +265,7 @@ public final class Library {
         switch event.type {
         case .import:
             if event.succeeded {
-                reload()
+                Task { await reload() }
                 setCloudAvailable(true)
             }
         case .export:
@@ -295,26 +299,44 @@ public final class Library {
 
     // MARK: - Loading
 
-    public func reload() {
+    /// Fetches sections, folders, and documents on a background context so
+    /// `reload()` doesn't block the main thread while the store is opened or the
+    /// vault is large. Results are plain fetched objects handed back to this
+    /// @MainActor call; they are read-only reference data, so reading their
+    /// attributes from the main actor once materialized is safe.
+    private static func fetchReloadSnapshot(container: NSPersistentCloudKitContainer) async -> (sections: [VaultSection], folders: [VaultFolder], docs: [VaultDoc]) {
+        return await withCheckedContinuation { continuation in
+            // `newBackgroundContext()` returns a private-queue context configured
+            // for this container's store; we never name its coordinator type.
+            let background = container.newBackgroundContext()
+            background.perform {
+                // Build the requests inside the background block so nothing
+                // non-Sendable is captured across the actor boundary.
+                let sectionFetch = NSFetchRequest<VaultSection>(entityName: "Section")
+                sectionFetch.sortDescriptors = [
+                    NSSortDescriptor(key: "sortOrder", ascending: true),
+                    NSSortDescriptor(key: "name", ascending: true)
+                ]
+                let folderFetch = NSFetchRequest<VaultFolder>(entityName: "Folder")
+                let docFetch = NSFetchRequest<VaultDoc>(entityName: "Doc")
+                let snapshot = (
+                    sections: (try? background.fetch(sectionFetch)) ?? [],
+                    folders: (try? background.fetch(folderFetch)) ?? [],
+                    docs: (try? background.fetch(docFetch)) ?? []
+                )
+                continuation.resume(returning: snapshot)
+            }
+        }
+    }
+
+    public func reload() async {
         guard isStoreLoaded else { return }
-        let sectionFetch = NSFetchRequest<VaultSection>(entityName: "Section")
-        sectionFetch.sortDescriptors = [
-            NSSortDescriptor(key: "sortOrder", ascending: true),
-            NSSortDescriptor(key: "name", ascending: true)
-        ]
-        if let fetched = try? context.fetch(sectionFetch) {
-            sections = fetched
-        }
-
-        let folderFetch = NSFetchRequest<VaultFolder>(entityName: "Folder")
-        if let fetched = try? context.fetch(folderFetch) {
-            folders = fetched
-        }
-
-        let docFetch = NSFetchRequest<VaultDoc>(entityName: "Doc")
-        if let fetched = try? context.fetch(docFetch) {
-            docs = fetched
-        }
+        // Fetch off the main thread so opening the store or scanning a large
+        // vault can't freeze the UI (see §7.1).
+        let snapshot = await Self.fetchReloadSnapshot(container: container)
+        sections = snapshot.sections
+        folders = snapshot.folders
+        docs = snapshot.docs
         maintainSearchIndex()
         writeSummary()
         // On watchOS the Core Data store is always empty (separate store URL).
@@ -380,6 +402,21 @@ public final class Library {
                 sectionIcon: doc.sectionIcon
             )
         }
+    }
+
+    /// Fetches a document by its persistent-ID URI. Used to open a document
+    /// chosen from the universal search, where only the ID survives the hop
+    /// into the vault stack. Returns nil on OS versions whose SDK can't
+    /// resolve the URI (callers fall back to the in-memory object).
+    public func doc(withPersistentURI uri: String) -> VaultDoc? {
+        guard #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, *) else { return nil }
+        guard let objectID = context.persistentStoreCoordinator?.managedObjectID(for: uri) else {
+            return nil
+        }
+        let request = NSFetchRequest<VaultDoc>(entityName: "Doc")
+        request.predicate = NSPredicate(format: "objectID == %@", objectID)
+        request.fetchLimit = 1
+        return try? context.fetch(request).first
     }
 
     /// Filtered documents matching the search text, from either source.
@@ -514,7 +551,7 @@ public final class Library {
             section.sortOrder = NSNumber(value: index)
         }
         _ = save()
-        reload()
+        Task { await reload() }
     }
 
     /// Merck Manual is a **bundled, read-only reference** — presented through
@@ -569,26 +606,26 @@ public final class Library {
         let highest = sections.map { ($0.sortOrder?.int64Value) ?? 0 }.max() ?? -1
         section.sortOrder = NSNumber(value: highest + 1)
         _ = save()
-        reload()
+        Task { await reload() }
         return section
     }
 
     public func renameSection(_ section: VaultSection, to name: String) {
         section.name = name
         _ = save()
-        reload()
+        Task { await reload() }
     }
 
     public func renameFolder(_ folder: VaultFolder, to name: String) {
         folder.name = name
         _ = save()
-        reload()
+        Task { await reload() }
     }
 
     public func deleteSection(_ section: VaultSection) {
         context.delete(section)
         _ = save()
-        reload()
+        Task { await reload() }
     }
 
     @discardableResult
@@ -598,14 +635,14 @@ public final class Library {
         folder.section = parent?.section ?? section
         folder.parent = parent
         _ = save()
-        reload()
+        Task { await reload() }
         return folder
     }
 
     public func deleteFolder(_ folder: VaultFolder) {
         context.delete(folder)
         _ = save()
-        reload()
+        Task { await reload() }
     }
 
     /// Moves a folder under a new parent (or to the top level with `nil`).
@@ -623,7 +660,7 @@ public final class Library {
         folder.parent = parent
         folder.section = parent?.section
         _ = save()
-        reload()
+        Task { await reload() }
     }
 
     /// Reorders sections after a drag (indices refer to the current `sections` array).
@@ -634,7 +671,7 @@ public final class Library {
             section.sortOrder = NSNumber(value: index)
         }
         _ = save()
-        reload()
+        Task { await reload() }
     }
 
     // MARK: - Documents
@@ -656,7 +693,7 @@ public final class Library {
         doc.section = folder?.section ?? section
         doc.folder = folder
         _ = save()
-        reload()
+        Task { await reload() }
         return doc
     }
 
@@ -731,7 +768,7 @@ public final class Library {
         var progress = ImportProgress()
         importDirectory(url, into: root, section: section, existingNames: destinationNames, progress: &progress)
         _ = save()
-        reload()
+        Task { await reload() }
         return .init(
             folderName: rootName,
             importedCount: progress.imported,
@@ -825,14 +862,14 @@ public final class Library {
         doc.section = folder?.section ?? section
         doc.folder = folder
         _ = save()
-        reload()
+        Task { await reload() }
         return doc
     }
 
     public func deleteDocument(_ doc: VaultDoc) {
         context.delete(doc)
         _ = save()
-        reload()
+        Task { await reload() }
     }
 
     /// Pass `section: nil` to remove the document from any section.
@@ -852,7 +889,7 @@ public final class Library {
         doc.section = folder?.section ?? section
         doc.folder = folder
         _ = save()
-        reload()
+        Task { await reload() }
     }
 
     /// Documents directly in one section, or everything when `section` is

@@ -25,6 +25,26 @@ struct RootView: View {
     /// Which column the collapsed (iPhone) split view shows. Driven by the
     /// search query so results appear without touching `selection`.
     @State private var compactColumn: NavigationSplitViewColumn = .sidebar
+    /// The specific item chosen from universal search, opened by its target
+    /// detail view (which clears it via `onEntryOpened`). Documents are
+    /// resolved and pushed here, since the vault stack lives in RootView.
+    @State private var pendingItem: PendingItem?
+    /// The vault document stack. Value-based so a document chosen from
+    /// universal search can be pushed programmatically.
+    @State private var vaultPath: [VaultDocRef] = []
+    /// The last document chosen from universal search. Fallback resolution
+    /// for OS versions whose SDK can't map a URI back to a managed object.
+    @State private var pendingDoc: VaultDoc?
+
+    /// A specific item chosen from universal search, to be opened by its
+    /// reference view when that view appears.
+    enum PendingItem: Hashable {
+        case drug(DrugEntry)
+        case merck(MerckTopicEntry)
+        case dsm(DsmTopicEntry)
+        /// Persistent-ID URI of a vault document.
+        case document(String)
+    }
 
     enum SidebarItem: Hashable {
         case all
@@ -70,7 +90,8 @@ struct RootView: View {
     #if DEBUG
     /// DEBUG deep-selection: launch with
     /// `-debugSelect <all|drugs|calculators|merck|dsm|labs>` to jump straight
-    /// into a reference, `-debugSearch <text>` to fill the search field, and
+    /// into a reference, `-debugSearch <text>` to fill the search field,
+    /// `-debugSelectResult <text>` to also tap the first result, and
     /// `-hideSidebar` to pre-collapse the menu column —
     /// for headless layout verification on the simulator (no UI scripting).
     /// Inert in Release builds.
@@ -90,6 +111,22 @@ struct RootView: View {
             Task { @MainActor in
                 try? await Task.sleep(for: .milliseconds(300))
                 localSearchText = args[j + 1]
+            }
+        }
+        if let k = args.firstIndex(of: "-debugSelectResult"), k + 1 < args.count {
+            // Search, then simulate tapping the first result once the
+            // libraries have produced any — verifies the "open the specific
+            // item" flow headlessly.
+            Task { @MainActor in
+                try? await Task.sleep(for: .milliseconds(300))
+                localSearchText = args[k + 1]
+                for _ in 0..<60 {
+                    if let first = searchManager?.results.first {
+                        handleSearchResultSelection(first)
+                        return
+                    }
+                    try? await Task.sleep(for: .milliseconds(500))
+                }
             }
         }
         guard let i = args.firstIndex(of: "-debugSelect"), i + 1 < args.count else { return }
@@ -151,15 +188,24 @@ struct RootView: View {
             } else {
                 switch selection {
                 case .drugReference:
-                    DrugReferenceView()
+                    DrugReferenceView(
+                        initialEntry: pendingDrug,
+                        onEntryOpened: { pendingItem = nil }
+                    )
                 case .mediCalc:
                     NavigationStack {
                         CategoryListView()
                     }
                 case .merckManual:
-                    MerckManualView()
+                    MerckManualView(
+                        initialEntry: pendingTopic,
+                        onEntryOpened: { pendingItem = nil }
+                    )
                 case .dsmManual:
-                    DsmManualView()
+                    DsmManualView(
+                        initialEntry: pendingDsmTopic,
+                        onEntryOpened: { pendingItem = nil }
+                    )
                 case .labs:
                     LabsView()
                 case .books:
@@ -167,8 +213,22 @@ struct RootView: View {
                         BooksView(library: library)
                     }
                 case .all, .section(_), .none, .searchResults:
-                    NavigationStack {
+                    NavigationStack(path: $vaultPath) {
                         VaultListView(container: currentContainer)
+                    }
+                    .navigationDestination(for: VaultDocRef.self) { ref in
+                        let doc = library.doc(withPersistentURI: ref.uri)
+                            ?? (pendingDoc?.objectID.uriRepresentation().absoluteString == ref.uri
+                                ? pendingDoc : nil)
+                        if let doc {
+                            DocDetailView(doc: doc)
+                        } else {
+                            ContentUnavailableView(
+                                "Document Not Found",
+                                systemImage: "doc.questionmark",
+                                description: Text("This document may have been deleted.")
+                            )
+                        }
                     }
                 }
             }
@@ -284,6 +344,14 @@ struct RootView: View {
         .onChange(of: selection) { _, _ in
             // Choosing a section (or a search result) supersedes the query.
             localSearchText = ""
+        }
+        .onChange(of: pendingItem) { _, item in
+            // Documents are Core Data objects, so they can't travel through
+            // the views' entry points — push a reference here, onto the vault
+            // stack; the destination resolves it.
+            guard case .document(let uri) = item else { return }
+            pendingItem = nil
+            vaultPath.append(VaultDocRef(uri: uri))
         }
         .onChange(of: searchManager?.searchText) { _, newText in
             // Sync back from search manager to local state (for clearing)
@@ -403,13 +471,17 @@ struct RootView: View {
     }
 
     private func handleSearchResultSelection(_ result: SearchResult) {
+        // Open the *specific* item chosen, not just its category root.
         switch result {
-        case .drug:
+        case .drug(let entry):
             selection = .drugReference
-        case .topic:
+            pendingItem = .drug(entry)
+        case .topic(let entry):
             selection = .merckManual
-        case .dsmTopic:
+            pendingItem = .merck(entry)
+        case .dsmTopic(let entry):
             selection = .dsmManual
+            pendingItem = .dsm(entry)
         case .calculator(let calc):
             selection = .mediCalc
             if let url = URL(string: "nursevault://calculator/\(calc.id)") {
@@ -421,9 +493,28 @@ struct RootView: View {
             } else {
                 selection = .all
             }
+            // Keep the object itself: on OS versions whose SDK can't map a
+            // URI back to a managed-object ID, it's the only way to resolve.
+            pendingDoc = doc
+            pendingItem = .document(doc.objectID.uriRepresentation().absoluteString)
         }
         // Dismiss search UI so the detail view switches to the selected content
         localSearchText = ""
+    }
+
+    private var pendingDrug: DrugEntry? {
+        guard case .drug(let entry) = pendingItem else { return nil }
+        return entry
+    }
+
+    private var pendingTopic: MerckTopicEntry? {
+        guard case .merck(let entry) = pendingItem else { return nil }
+        return entry
+    }
+
+    private var pendingDsmTopic: DsmTopicEntry? {
+        guard case .dsm(let entry) = pendingItem else { return nil }
+        return entry
     }
 
     private var currentSection: VaultSection? {

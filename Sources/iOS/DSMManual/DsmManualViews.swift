@@ -5,10 +5,16 @@ import SwiftUI
 struct DsmManualView: View {
     @Environment(DsmTopicLibrary.self) private var topics
 
+    /// A topic chosen from the universal search; opened (with the list
+    /// filtered to it) when the view appears.
+    var initialEntry: DsmTopicEntry? = nil
+    var onEntryOpened: (() -> Void)? = nil
+
     @State private var searchText = ""
     @State private var contentHits: [DsmTopicSearchHit] = []
     @State private var isScanning = false
     @State private var selectedSpecialty: String? = nil
+    @State private var path: [DsmTopicEntry] = []
 
     private var visibleHits: [DsmTopicSearchHit] {
         let query = searchText.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -26,13 +32,11 @@ struct DsmManualView: View {
     }
 
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $path) {
             List {
                 if !searchText.isEmpty {
                     ForEach(visibleHits) { hit in
-                        NavigationLink {
-                            DsmTopicDetailView(entry: hit.entry)
-                        } label: {
+                        NavigationLink(value: hit.entry) {
                             DsmTopicRow(entry: hit.entry, snippet: hit.snippet)
                         }
                     }
@@ -51,9 +55,7 @@ struct DsmManualView: View {
                         let specialtyEntries = topics.entriesBySpecialty()[specialty, default: []]
                         Section(specialty) {
                             ForEach(specialtyEntries) { entry in
-                                NavigationLink {
-                                    DsmTopicDetailView(entry: entry)
-                                } label: {
+                                NavigationLink(value: entry) {
                                     DsmTopicRow(entry: entry)
                                 }
                             }
@@ -64,8 +66,20 @@ struct DsmManualView: View {
             .overlay { emptyState }
             .searchable(text: $searchText, prompt: "Topic, code, or content")
             .navigationTitle("DSM-5-TR")
+            .navigationDestination(for: DsmTopicEntry.self) { entry in
+                DsmTopicDetailView(entry: entry)
+            }
             .task(id: searchText) {
                 await runContentSearch()
+            }
+        }
+        .onAppear {
+            if let entry = initialEntry {
+                // Open the chosen topic and filter the list to it, so going
+                // back lands on a short, relevant list.
+                searchText = entry.title
+                path.append(entry)
+                onEntryOpened?()
             }
         }
     }
