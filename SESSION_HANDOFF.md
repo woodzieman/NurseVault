@@ -1,5 +1,27 @@
 # Session handoff — Nurse Vault → TestFlight alpha
 
+## INFRASTRUCTURE NOTE (2026-10-27)
+Internet connection upgraded to fiber optic — significantly faster upload/download speeds than previous. This is permanent and should be factored into any time estimates for uploads, downloads, or network-dependent operations.
+
+## STATUS (2026-10-16) — TODO.md complete: calculator conversion done, watch error handling, Labs sidebar
+
+Everything in `TODO.md` is now finished. Builds verified: **NurseVault** and **NurseVault Watch** schemes clean, zero warnings.
+
+**§B Calculator conversion — COMPLETE (all 172 calculators):**
+- Pediatrics (14) converted: `MedCalcSpecs_pediatrics.swift` + generated `MedCalcData_Pediatrics.swift` (LMS/z-score tables, BP 2017 coefficients). All 22 category arrays in `MedCalcSpecs.all` are populated.
+- Fixed a type-checker timeout in `MedCalcSpecs_cardiovascular.swift` (Wells PE score expression split into explicit `Double` casts).
+
+**Watch LOW tasks 10 & 11 — DONE** (`WatchReferenceStore.swift`, `WatchDrugReference.swift`):
+- `build()` now verifies `.index` + `.content` exist with plausible sizes (non-zero, < 50 MB) and categorizes failures via new `WatchReference.LoadFailure` (indexMissing/indexCorrupt/contentMissing/contentCorrupt); list view presents a one-shot alert.
+- All failure paths map to distinct user-friendly messages via `WatchReference.EntryErrors` (resource not found / corrupt / decompression failed / invalid UTF-8 / empty).
+
+**Labs sidebar — DONE:**
+- New shared model `Packages/NurseVaultCore/Sources/NurseVaultCore/LabReference.swift` — Merck Manual Professional "Laboratory Reference Ranges" (23-test × 7-panel matrix + 8-drug TDM table), verified against the live page. Data is code (not a resource) → offline by construction. **Caveat for future work:** package types must be `public` + `Sendable` (internal types are invisible across the module boundary — this looks like a phantom "cannot find in scope").
+- iOS: `Sources/iOS/Labs/LabsView.swift` (Grid tables + about sections), "Labs" row in `RootView` sidebar.
+- Watch: `Sources/Watch/WatchLabsView.swift` (plain-text paragraphs via model `panelsText`/`tdmText`), "Lab Reference" row on watch home.
+
+**Files:** new `LabReference.swift` (package), `LabsView.swift` (iOS), `WatchLabsView.swift` (watch); edited `RootView.swift` (sidebar), `NurseVaultWatchApp.swift` (watch home), `WatchReferenceStore.swift`, `WatchDrugReference.swift`, `MedCalcSpecs_cardiovascular.swift`, `TODO.md`.
+
 ## STATUS (2026-10-12) — code audit fixes applied, watch app improvements
 
 - **Code audit completed** (`CODE_AUDIT.md`): 14 findings across concurrency, bugs, security, performance, and UI categories.

@@ -14,7 +14,7 @@ struct NurseVaultWatchApp: App {
                     // We rely on the JSON summary written by the main app.
                     // Try loading it immediately; if not available yet, show
                     // a helpful message rather than an empty list.
-                    library.reload()
+                    Task { await library.reload() }
                 }
         }
     }
@@ -81,7 +81,7 @@ struct WatchHomeView: View {
                 }
 
                 Button(action: {
-                    library.reload()
+                    Task { await library.reload() }
                 }) {
                     Label("Refresh", systemImage: "arrow.clockwise")
                         .frame(maxWidth: .infinity, alignment: .leading)

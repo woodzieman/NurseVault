@@ -122,7 +122,7 @@ final class WatchReference {
         loadFailure = nil       // Reset on new attempt
         shouldShowMissingAlert = false
         let name = self.name
-        Task {
+        Task { @MainActor in
             let built = await Self.build(name)
             isLoading = false
             entries = built.entries
@@ -438,7 +438,7 @@ final class WatchReference {
     func releaseContentData() {
         if contentData != nil {
             #if DEBUG
-            NSLog("NurseVault (watch reference): releasing \(contentData!.count) bytes of mapped content")
+            NSLog("NurseVault (watch reference): releasing \(contentData?.count ?? 0) bytes of mapped content")
             #endif
             contentData = nil
         }
@@ -449,7 +449,9 @@ final class WatchReference {
     @MainActor func evictContentIfNeeded() {
         #if os(watchOS)
         if contentData != nil {
+            #if DEBUG
             NSLog("NurseVault (watch reference): automatic eviction after timeout")
+            #endif
             releaseContentData()
         }
         #endif
@@ -482,7 +484,9 @@ final class WatchReference {
     @objc private func handleMemoryWarning() {
         #if os(watchOS)
         if contentData != nil {
+            #if DEBUG
             NSLog("NurseVault (watch reference): evicting cache due to memory warning")
+            #endif
             releaseContentData()
         }
         #endif

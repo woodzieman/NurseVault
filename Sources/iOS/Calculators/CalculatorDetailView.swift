@@ -4,7 +4,9 @@ struct CalculatorDetailView: View {
     @Environment(\.dismiss) var dismiss
     let calculator: CalculatorInfo
 
-    @State private var isFavorite = false
+    // Observe the shared result store directly (Observation) instead of through a
+    // NotificationCenter publisher, so toggling a favorite updates this view live.
+    private let store = ResultStore.shared
 
     var body: some View {
         Group {
@@ -70,19 +72,11 @@ struct CalculatorDetailView: View {
         .toolbar {
             Button("Close") { dismiss() }
             Button {
-                ResultStore.shared.toggleFavorite(calculator.id)
+                store.toggleFavorite(calculator.id)
             } label: {
-                Image(systemName: isFavorite ? "star.fill" : "star")
+                Image(systemName: store.isFavorite(calculator.id) ? "star.fill" : "star")
             }
             .accessibilityLabel("Favorite")
         }
-        .onAppear { refreshFavoriteState() }
-        .onReceive(NotificationCenter.default.publisher(for: ResultStore.didChange)) { _ in
-            refreshFavoriteState()
-        }
-    }
-
-    private func refreshFavoriteState() {
-        isFavorite = ResultStore.shared.isFavorite(calculator.id)
     }
 }

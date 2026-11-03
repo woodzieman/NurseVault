@@ -11,8 +11,8 @@ class UniversalSearchManager {
             searchTask?.cancel()
             let query = searchText
             searchTask = Task { @MainActor in
-                // Debounce 200ms
-                try? await Task.sleep(nanoseconds: 200_000_000)
+                // Debounce 400ms to allow typing
+                try? await Task.sleep(nanoseconds: 400_000_000)
                 guard !Task.isCancelled else { return }
                 performSearch(query: query)
             }

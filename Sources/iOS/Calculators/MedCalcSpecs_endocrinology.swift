@@ -102,9 +102,15 @@ let endocrinologyCalculatorSpecs: [MedCalcSpec] = [
             var h1: Double?
             switch filled[0] {
             case "h1": h1 = v.number("h1")
-            case "h2": h1 = (v.number("h2")! / 10.929) + 2.15
-            case "ag": h1 = (v.number("ag")! + 46.7) / 28.7
-            default: h1 = ((v.number("ags")! * 18.015) + 46.7) / 28.7
+            case "h2":
+                guard let h2 = v.number("h2") else { return "" }
+                h1 = (h2 / 10.929) + 2.15
+            case "ag":
+                guard let ag = v.number("ag") else { return "" }
+                h1 = (ag + 46.7) / 28.7
+            default:
+                guard let ags = v.number("ags") else { return "" }
+                h1 = ((ags * 18.015) + 46.7) / 28.7
             }
             guard let pct = h1 else { return "" }
             let ifcc = 10.929 * (pct - 2.15)

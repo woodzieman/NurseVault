@@ -48,7 +48,7 @@ struct WatchDsmReferenceView: View {
             // Short debounce keeps the crown/typing responsive without
             // re-filtering on every intermediate keystroke.
             let text = newValue
-            Task {
+            Task { @MainActor in
                 try? await Task.sleep(for: .milliseconds(150))
                 if !Task.isCancelled && searchText == text {
                     query = text
@@ -60,7 +60,7 @@ struct WatchDsmReferenceView: View {
     
     /// Run diagnostics to test resource access and decompression
     private func runDiagnostics() {
-        Task {
+        Task { @MainActor in
             var results: [String] = []
             
             // Test 1: Check if index file exists

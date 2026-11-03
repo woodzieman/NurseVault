@@ -44,7 +44,7 @@ enum MedCalcValueParser {
             if taken > 0 && !isUnitLike { break } // a second plain word ("Elevated") is prose, not a unit
             unit = (unit.map { $0 + " " } ?? "") + word
             taken += 1
-            if unit!.count > 14 { break }
+            if let unit, unit.count > 14 { break }
             if taken >= 2 { break }
         }
 

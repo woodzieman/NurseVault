@@ -32,7 +32,7 @@ struct CzurScanProgressView: View {
             case .completed:
                 Label("Scan complete", systemImage: "checkmark.circle.fill")
             case .failed(let message):
-                Label(message ?? "The CZUR scan failed.", systemImage: "exclamationmark.triangle.fill")
+                Label(message, systemImage: "exclamationmark.triangle.fill")
             }
         }
         .padding(16)

@@ -28,7 +28,9 @@ struct BooksView: View {
             }
             .navigationTitle("Books")
             .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
+                // `.confirmationAction` exists on both iOS and macOS, so the
+                // "Add Book" button works cross-platform without a `#if os(iOS)` guard.
+                ToolbarItem(placement: .confirmationAction) {
                     Button {
                         showingBookImport = true
                     } label: {

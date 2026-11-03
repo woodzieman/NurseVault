@@ -41,7 +41,7 @@ extension Data {
             buffer.withUnsafeMutableBytes { destination -> Bool in
                 // Pass pointer offset by 8 bytes to skip size prefix
                 nv_inflate_brotli(
-                    source.baseAddress!.advanced(by: MemoryLayout<UInt64>.size),
+                    source.baseAddress?.advanced(by: MemoryLayout<UInt64>.size),
                     sourceCount,
                     destination.baseAddress,
                     bufferSize,

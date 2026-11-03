@@ -33,11 +33,10 @@ struct CalculationResult: Codable, Hashable, Identifiable, Sendable {
 ///
 /// The app records results as the user calculates; widgets and the watch app read this store.
 /// Mutations notify observers on the main thread and schedule a debounced widget reload.
-final class ResultStore: @unchecked Sendable {
+@MainActor @Observable final class ResultStore {
     static let shared = ResultStore()
 
-    /// Posted on the main thread whenever results or favorites change.
-    static let didChange = Notification.Name("MedCalcResultStoreDidChange")
+
 
     static let appGroupID = "group.com.josephwoods.nursevault"
     private static let resultsKey = "medcalc.recentResults"
@@ -48,7 +47,7 @@ final class ResultStore: @unchecked Sendable {
     private let defaults: UserDefaults
     private var storedResults: [CalculationResult] = []
     private var storedFavorites: [String] = []
-    private var reloadWorkItem: DispatchWorkItem?
+    private var widgetReloadTask: Task<Void, Never>?
 
     private init() {
         // Fall back to standard defaults if the App Group suite is unavailable (e.g. unsigned dev builds).
@@ -149,23 +148,19 @@ final class ResultStore: @unchecked Sendable {
     // MARK: - Change propagation
 
     private func notifyChange() {
-        DispatchQueue.main.async {
-            NotificationCenter.default.post(name: Self.didChange, object: nil)
-            self.scheduleWidgetReload()
-        }
+        // Views observe the store directly via Observation; here we only need to
+        // schedule the debounced widget reload (Observation doesn't reach the
+        // separate widget process).
+        self.scheduleWidgetReload()
     }
 
     /// Debounced so typing in the app doesn't burn the daily widget reload budget on every keystroke.
     private func scheduleWidgetReload() {
-        lock.lock()
-        reloadWorkItem?.cancel()
-        let workItem = DispatchWorkItem { [weak self] in
-            self?.triggerWidgetReload()
+        widgetReloadTask?.cancel()
+        widgetReloadTask = Task { [weak self] in
+            try? await Task.sleep(for: .seconds(2))
+            await MainActor.run { self?.triggerWidgetReload() }
         }
-        reloadWorkItem = workItem
-        lock.unlock()
-
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0, execute: workItem)
     }
 
     #if canImport(WidgetKit)

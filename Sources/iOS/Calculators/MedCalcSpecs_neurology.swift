@@ -136,7 +136,8 @@ let neurologyCalculatorSpecs: [MedCalcSpec] = [
             guard ids.allSatisfy({ v.selection($0) != nil }) else { return "" }
             var total = 0
             for (i, id) in ids.enumerated() {
-                total += tables[i][v.selection(id)!]
+                guard i < tables.count, let selection = v.selection(id), selection < tables[i].count else { return "" }
+                total += tables[i][selection]
             }
             return String(format: "NIH Stroke Score: %d/42", total)
         }

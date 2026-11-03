@@ -62,10 +62,12 @@ let gastroenterologyCalculatorSpecs: [MedCalcSpec] = [
             let risksShort = ["2.4%", "5.3%", "66.7%"]
             let risksLong = ["6.8%", "35%", "77.8%"]
             let table = length == 0 ? risksShort : risksLong
+            guard dysplasia < table.count else { return "" }
+            guard let percent = Double(table[dysplasia].replacingOccurrences(of: "%", with: "")) else { return "" }
             return String(format: "%@ Barrett lesion with %@ dysplasia:\n%.1f%% Risk of progression",
                           length == 0 ? "<6 cm" : "≥6 cm",
                           ["None", "Low grade", "High grade unifocal"][dysplasia],
-                          Double(table[dysplasia].replacingOccurrences(of: "%", with: ""))!)
+                          percent)
         }
     ),
 

@@ -25,12 +25,13 @@ final class CzurVideoPreviewModel: ObservableObject {
     }
 
     func start() async throws {
-        handler = { data in
+        let frameHandler: @Sendable (Data?) -> Void = { data in
             Task { @MainActor in
                 self.frameData = data
             }
         }
-        client.registerVideoFrameHandler(handler!)
+        handler = frameHandler
+        client.registerVideoFrameHandler(frameHandler)
         try await client.startVideo(deviceId: deviceId)
     }
 

@@ -1,5 +1,4 @@
 import SwiftUI
-import PDFKit
 import NurseVaultCore
 
 struct BookReaderView: View {
@@ -22,6 +21,7 @@ struct BookReaderView: View {
             }
         }
         .navigationTitle(doc.title ?? "Reader")
+        #if os(iOS)
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
@@ -30,6 +30,7 @@ struct BookReaderView: View {
                 }
             }
         }
+        #endif
     }
 
     @ViewBuilder
@@ -51,19 +52,4 @@ struct BookReaderView: View {
             ContentUnavailableView("Unsupported Format", systemImage: "doc.questionmark")
         }
     }
-}
-
-// Simple PDFView wrapper if not already defined globally as VaultPDFView
-struct VaultPDFView: UIViewRepresentable {
-    let data: Data
-
-    @MainActor
-    func makeUIView(context: Context) -> PDFView {
-        let pdfView = PDFView()
-        pdfView.document = PDFDocument(data: data)
-        pdfView.autoScales = true
-        return pdfView
-    }
-
-    func updateUIView(_ uiView: PDFView, context: Context) {}
 }

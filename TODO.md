@@ -259,6 +259,25 @@
 - [x] User-settable book title for scans ("Book title" field in the Import Book sheet; defaults to a date-stamped name) — previously every scan was titled "CZUR ET Max".
 - [x] Full Czur integration committed (Czur/ sources, ImportView wiring, CameraImport OCR-language passthrough, app-group entitlement) and released to TestFlight.
 
+### Phase 4 — iPad/iPhone-alone via Linux Flatpak runtime (IN PROGRESS — begun 2026-11-02)
+
+**User direction:** begin working on iPhone-alone via Linux Flatpak runtime (user's Phase 4 ask); Mac-as-hub remains the user-approved fallback.
+
+**Kickoff research (2026-11-02, live CZUR Open Platform sources):**
+- The CZUR Open SDK runtime's implemented platform is currently **Linux**; Windows/macOS support is listed as "to be added gradually" (GitHub `CZUR-Developer/czur-sdk-open`).
+- Linux install path: official release package (GitHub Releases / Gitee Releases) shipping a **deb** package (`sdk_open_<version>_<arch>_common.deb`); runtime installs as a local background service (`sudo apt install ./…`; `sudo systemctl enable --now sdk-open.service`); CLI: `czur-open runtime install`, `czur-open doctor` (`@czur/open-cli`).
+- Default external SDK endpoints: Admin HTTP `http://127.0.0.1:17080`, Demo HTTP `http://127.0.0.1:17081`, Asset HTTPS `https://sdk-runtime.localhost:18082`, Command WSS `wss://sdk-runtime.localhost:18090`, Video WSS `wss://sdk-runtime.localhost:18091`.
+- SANE scanning capability (`sane.*`) is **Linux-only** (`supported_platforms[]` currently `["linux"]`, provider `private-sane-provider`); non-Linux runtimes report `sane.status.available=false`.
+- TLS: external SDK enables TLS by default; plaintext `ws://127.0.0.1:17090` / `http://127.0.0.1:17082` are compatibility-only.
+
+**Phase 4 tasks (iPad/iPhone-alone via Linux Flatpak runtime):**
+- [ ] 2026-11-02 – Provision Linux runtime host: `czur-open runtime install`, start `sdk-open.service`, run `czur-open doctor`, open demo site, validate end-to-end.
+- [ ] 2026-11-02 – Confirm Flatpak packaging option for the runtime (deb-hosted Linux runtime is the current Linux host path).
+- [x] 2026-11-02 – Added `CzurOpenRuntimeClient.configure(commandWebSocketURL:assetBaseURL:)` endpoint override API for iOS/iPadOS → remote Linux runtime host over LAN (Command WS + asset endpoint); caller wiring to a specific host still pending.
+- [ ] 2026-11-02 – Validate iPhone-alone device flow: iPhone Wi-Fi → Linux runtime host → scanner → OCR → barcode → save → CloudKit sync.
+
+**Fallback:** **Mac-as-hub (user-approved fallback — accepted)** if the Linux Flatpak/deb runtime route fails.
+
 ### Device flows (documented)
 - **iPhone / iPad (NurseVault app):** scanner → USB dongle / Wi‑Fi → CZUR Open Runtime (hosted on Mac) → NurseVault iOS/iPadOS app over local network (Command WS `ws://…:17090`, Local HTTP `…:17082`) → scan → OCR → barcode → save → CloudKit sync. Runtime host override via configurable endpoints.
 - **Mac (NurseVault Mac app):** scanner → USB → runtime on Mac → app control via loopback/LAN.
@@ -272,7 +291,7 @@
    - Auto page-turn capture, image enhancement, barcode wired/surfaced via scan path + Import sheet (2026-11-01).
    - File conversion capability landed (`file.convert` + task-based convert/poll, `CzurOpenError.conversionFailed`) and video capability surface landed (`video.start/stop/set_format/set_profile`) (2026-11-01); video preview UI landed via “Show video preview” toggle; PDF conversion save path landed via “Save converted PDF” toggle.
 3. **Phase 3 — Device reachability:** document iPad flow (iPad Wi-Fi → Mac runtime host), Mac-native flow, iPhone flow; confirm Mac-as-hub fallback.
-4. **Phase 4 — iPad/iPhone-alone:** Linux Flatpak runtime + decompile/extract; else iOS emulation layer; else **Mac-as-hub (user-approved fallback — accepted)**.
+4. **Phase 4 — iPad/iPhone-alone:** Linux Flatpak runtime + decompile/extract; else iOS emulation layer; else **Mac-as-hub (user-approved fallback — accepted)**. → **IN PROGRESS (began 2026-11-02):** Linux Flatpak runtime route is the chosen path; Mac-as-hub remains the accepted fallback.
 5. **Phase 5 — UI elements:** design scan-connection status, device picker, page preview, save destination flows.
 
 ### Findings / remaining items (2026-11-01)
@@ -294,3 +313,4 @@
 
 ### Notes
 - iOS/iPadOS cannot host the CZUR Open Runtime (desktop-only); scanner realistically hosts to Mac, app control via local network, vault sync carries content across devices.
+- Phase 4 direction (2026-11-02): runtime host moves to **Linux** (deb / Flatpak candidate) so the iPhone/iPad can operate the scanner **alone** (iPhone-alone); Mac remains the accepted fallback.

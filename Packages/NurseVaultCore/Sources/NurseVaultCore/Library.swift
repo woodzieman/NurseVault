@@ -337,7 +337,7 @@ public final class Library {
         sections = snapshot.sections
         folders = snapshot.folders
         docs = snapshot.docs
-        maintainSearchIndex()
+        await maintainSearchIndex()
         writeSummary()
         // On watchOS the Core Data store is always empty (separate store URL).
         // Fall back to the watch-friendly summary written by the main app.

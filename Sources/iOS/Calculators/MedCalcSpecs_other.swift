@@ -228,18 +228,17 @@ let otherCalculatorSpecs: [MedCalcSpec] = [
                     + coeff(22, n) * ageTerm * (min(egfr, 60) - 60) / -15
                     + coeff(31, n)
                 let a1cFactor: Double
-                if hba1c == nil {
-                    a1cFactor = coeff(30, n)
-                } else if diabetes == 1 {
-                    a1cFactor = (hba1c! - 5.3) * coeff(28, n)
+                if let hba1c {
+                    let base = hba1c - 5.3
+                    a1cFactor = base * (diabetes == 1 ? coeff(28, n) : coeff(29, n))
                 } else {
-                    a1cFactor = (hba1c! - 5.3) * coeff(29, n)
+                    a1cFactor = coeff(30, n)
                 }
                 let uacrFactor: Double
-                if uacr == nil || uacr == 0 {
-                    uacrFactor = coeff(27, n)
+                if let uacr, uacr != 0 {
+                    uacrFactor = log(uacr) * coeff(26, n)
                 } else {
-                    uacrFactor = log(uacr!) * coeff(26, n)
+                    uacrFactor = coeff(27, n)
                 }
                 let sdiFactor: Double
                 switch sdiTier {
@@ -257,8 +256,8 @@ let otherCalculatorSpecs: [MedCalcSpec] = [
             }
 
             // Model index sets per source: base, HbA1C, UACR, SDI, add-on.
-            let hasHba1c = hba1c != nil && hba1c! > 0
-            let hasUacr = uacr != nil && uacr! > 0
+            let hasHba1c = (hba1c ?? 0) > 0
+            let hasUacr = (uacr ?? 0) > 0
             let hasZip = sdiTier != 0
             let (t10, a10, hf10, t30, a30, hf30): (Int, Int, Int, Int, Int, Int)
             if !hasHba1c && !hasUacr && !hasZip {

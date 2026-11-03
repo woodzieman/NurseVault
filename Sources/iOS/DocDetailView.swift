@@ -13,6 +13,14 @@ struct DocDetailView: View {
     @Environment(Library.self) private var library
     let doc: VaultDoc
 
+    // ByteCountFormatter has no internal cache, so we build it once and reuse it
+    // instead of allocating a fresh formatter for every list/detail row.
+    private static let byteCountFormatter: ByteCountFormatter = {
+        let formatter = ByteCountFormatter()
+        formatter.countStyle = .file
+        return formatter
+    }()
+
     @State private var isEditing = false
 
     private var kind: DocKind {
@@ -45,7 +53,7 @@ struct DocDetailView: View {
                     Label(fileName, systemImage: "doc")
                 }
                 if let size = doc.fileData {
-                    Text(ByteCountFormatter.string(fromByteCount: Int64(size.count), countStyle: .file))
+                    Text(Self.byteCountFormatter.string(fromByteCount: Int64(size.count)))
                 }
                 if let added = doc.addedDate {
                     Text("Added \(added.formatted(date: .abbreviated, time: .shortened))")

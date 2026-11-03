@@ -67,6 +67,13 @@ There is also a fixed **Drug Reference** entry in the sidebar (badged with its c
 
 ---
 
+## Signing & Provisioning requirements (what the build needs)
+
+- **App Groups:** the shared suite is `group.com.josephwoods.nursevault`. The watch app and widget entitlement files (`Sources/Watch/WatchEntitlements.entitlements`, `Sources/Widget/WatchWidget.entitlements`) already declare it; the iOS target (`Sources/iOS/NurseVault.entitlements`) must declare it too, and **the provisioning profile must include the App Groups capability**.
+- **CloudKit container:** `iCloud.com.josephwoods.nursevault` (both apps).
+- **If the iOS provisioning profile lacks the App Groups capability**, the Release archive fails with: `Provisioning profile "iOS Team Provisioning Profile: com.josephwoods.nursevault" doesn't include the App Groups capability` / `… doesn't support the group.com.josephwoods.nursevault App Group` / `… doesn't include the com.apple.security.application-groups entitlement.`
+- **Release:** bump version + build via `asc xcode version edit`, archive (`--configuration Release`), export, publish (`asc publish appstore`).
+
 ## Building & Running
 
 ```bash
@@ -87,28 +94,52 @@ xcodebuild -project NurseVault.xcodeproj -scheme "NurseVault Watch" \
 
 ## App Store Publishing (using `asc` CLI)
 
-```bash
-# Bump build number
-asc xcode version edit --version "4.1" --build-number "52"
+**App ID:** 6816576078 | **Bundle ID:** com.josephwoods.nursevault
 
+### Version Bumping Strategy
+- Bug fixes: bump patch version (e.g., 4.3 → 4.4) and increment build number
+- New features: bump minor version (e.g., 4.4 → 5.0)
+- Major changes: bump major version (e.g., 5.0 → 6.0)
+
+```bash
+# Check current version
+asc xcode version view --project "NurseVault.xcodeproj" --target "NurseVault" --configuration "Release"
+
+# Bump version and build number
+asc xcode version edit --version "4.4" --build-number "68" \
+  --project "NurseVault.xcodeproj" --target "NurseVault" --configuration "Release"
+```
+
+### Build and Upload Workflow
+```bash
 # Archive for iOS
-asc xcode archive --project NurseVault.xcodeproj --scheme "NurseVault" \
+asc xcode archive --project "NurseVault.xcodeproj" --scheme "NurseVault" \
   --configuration Release --clean \
-  --archive-path build/NurseVault-Release.xcarchive --overwrite \
+  --archive-path ".asc/artifacts/NurseVault-4.4.xcarchive" --overwrite \
   --xcodebuild-flag=-destination --xcodebuild-flag="generic/platform=iOS"
 
 # Export IPA
-asc xcode export --archive-path build/NurseVault-Release.xcarchive \
-  --ipa-path build/NurseVault.ipa --overwrite
+asc xcode export --archive-path ".asc/artifacts/NurseVault-4.4.xcarchive" \
+  --ipa-path ".asc/artifacts/NurseVault-4.4.ipa" --overwrite
 
 # Upload to App Store Connect (waits for processing)
-asc publish appstore --app 6816576078 --ipa build/NurseVault.ipa \
-  --version 4.1 --wait
-
-# Submit for review (when ready)
-asc publish appstore --app 6816576078 --ipa build/NurseVault.ipa \
-  --version 4.1 --submit --confirm
+asc publish appstore --app 6816576078 --ipa ".asc/artifacts/NurseVault-4.4.ipa" \
+  --version 4.4 --wait
 ```
+
+### Checking Upload Status
+```bash
+# List recent builds on App Store Connect
+asc builds list --app 6816576078 --platform IOS --output table
+
+# View app info
+asc apps view --id 6816576078 --output json
+```
+
+### Known Issues & Notes
+- The `asc publish appstore` command may report an error about "cannot create a new version" even after successful upload. Check the builds list to confirm the build was uploaded.
+- Build processing on App Store Connect typically takes 5-15 minutes before the build appears in the builds list.
+- Use `.asc/artifacts/` as the standard location for archives and IPAs.
 
 ---
 

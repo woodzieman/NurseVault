@@ -77,27 +77,22 @@ public enum VaultSearch {
 extension Library {
 
     /// Keeps the in-memory search cache in sync with `docs`.
-    internal func maintainSearchIndex() {
+    internal func maintainSearchIndex() async {
         let liveIDs = Set(docs.compactMap(\.cacheID))
-        
-        // Evict stale entries and prune inflight set
-        searchLock.lock()
-        defer { searchLock.unlock() }
-        for key in searchCache.keys where !liveIDs.contains(key) {
-            searchCache[key] = nil
-        }
-        searchInflight.formIntersection(liveIDs)
 
-        // Process each document with lock held to prevent concurrent modification
+        // Evict stale entries and prune inflight set.
+        pruneSearchIndex(liveIDs: liveIDs)
+
+        // Process each document. CPU-heavy decode/normalization work is handed
+        // to a nonisolated async helper so it runs off the main actor; the
+        // `searchLock` is held only inside the synchronous cache helpers.
         for doc in docs {
             guard let id = doc.cacheID else { continue }
             let fingerprint = VaultSearch.fingerprint(for: doc)
-            if let entry = searchCache[id], entry.fingerprint == fingerprint {
+
+            if searchCacheIsCurrent(id: id, fingerprint: fingerprint) {
                 continue
             }
-
-            // Evict oldest entries if cache is full
-            evictOldestSearchEntries()
 
             let kind = DocKind.kind(
                 mimeType: doc.mimeType,
@@ -106,41 +101,100 @@ extension Library {
             )
             switch kind {
             case .text:
-                // Text decoding is cheap enough to do inline. When the
-                // text was already extracted in a previous run, reuse the
-                // persisted copy and skip the decode entirely.
+                // When the text was already extracted in a previous run, reuse
+                // the persisted copy and skip the decode entirely.
+                let persisted = doc.extractedText ?? ""
                 let content: String
-                if let persisted = doc.extractedText, !persisted.isEmpty {
+                if !persisted.isEmpty {
                     content = persisted
                 } else {
-                    let decoded = VaultSearch.text(from: doc.fileData)
-                    if !decoded.isEmpty {
+                    let fileData = doc.fileData
+                    let decoded = await Self.decodeTextOffMain(fileData)
+                    // The document may have been deleted while the decode was
+                    // running off the main actor; don't persist or index it.
+                    if !decoded.isEmpty, documentStillExists(id) {
                         persistExtractedText(decoded, for: doc)
                     }
                     content = decoded
                 }
-                searchCache[id] = SearchEntry(
-                    fingerprint: fingerprint,
-                    content: VaultSearch.normalize(content)
-                )
+                if documentStillExists(id) {
+                    let normalized = await Self.normalizeSearchContent(content)
+                    setSearchCacheEntry(SearchEntry(fingerprint: fingerprint, content: normalized), for: id)
+                }
             case .pdf:
-                if let persisted = doc.extractedText, !persisted.isEmpty {
+                let persisted = doc.extractedText ?? ""
+                if !persisted.isEmpty {
                     // Already extracted in a previous run — seed the cache
                     // from it instead of re-running PDFKit on every launch.
-                    searchCache[id] = SearchEntry(
-                        fingerprint: fingerprint,
-                        content: VaultSearch.normalize(persisted)
-                    )
+                    let normalized = await Self.normalizeSearchContent(persisted)
+                    if documentStillExists(id) {
+                        setSearchCacheEntry(SearchEntry(fingerprint: fingerprint, content: normalized), for: id)
+                    }
                 } else {
                     // Start with an empty entry so metadata search works
                     // immediately; fill in the PDF text in the background.
-                    searchCache[id] = SearchEntry(fingerprint: fingerprint, content: "")
-                    schedulePDFExtraction(for: doc, id: id, fingerprint: fingerprint)
+                    if documentStillExists(id) {
+                        setSearchCacheEntry(SearchEntry(fingerprint: fingerprint, content: ""), for: id)
+                        schedulePDFExtraction(for: doc, id: id, fingerprint: fingerprint)
+                    }
                 }
             case .image, .other, .note:
-                searchCache[id] = SearchEntry(fingerprint: fingerprint, content: "")
+                if documentStillExists(id) {
+                    setSearchCacheEntry(SearchEntry(fingerprint: fingerprint, content: ""), for: id)
+                }
             }
         }
+    }
+
+    /// Runs pure string normalization off the main actor. Called with `await`
+    /// from `@MainActor` code so the CPU work happens on the cooperative pool.
+    nonisolated private static func normalizeSearchContent(_ content: String) async -> String {
+        VaultSearch.normalize(content)
+    }
+
+    /// Runs text decoding off the main actor.
+    nonisolated private static func decodeTextOffMain(_ data: Data?) async -> String {
+        VaultSearch.text(from: data)
+    }
+
+    /// Guards against a document being deleted while background work is in flight.
+    private func documentStillExists(_ id: URL) -> Bool {
+        docs.contains { $0.cacheID == id }
+    }
+
+    /// Removes stale cache entries and cancels in-flight extractions.
+    private func pruneSearchIndex(liveIDs: Set<URL>) {
+        searchLock.lock()
+        for key in searchCache.keys where !liveIDs.contains(key) {
+            searchCache[key] = nil
+        }
+        searchInflight.formIntersection(liveIDs)
+        // Cancel any extraction still running for a document that's been removed,
+        // so its task can't outlive the document and write stale content.
+        for (key, task) in inFlightExtractions where !liveIDs.contains(key) {
+            task.cancel()
+            inFlightExtractions[key] = nil
+        }
+        searchLock.unlock()
+    }
+
+    /// Returns `true` when the cache already has a fresh entry for `id`.
+    /// Evicts stale entries when the cache exceeds its limits.
+    private func searchCacheIsCurrent(id: URL, fingerprint: String) -> Bool {
+        searchLock.lock()
+        defer { searchLock.unlock() }
+        if let entry = searchCache[id], entry.fingerprint == fingerprint {
+            return true
+        }
+        evictOldestSearchEntries()
+        return false
+    }
+
+    /// Inserts or replaces a cache entry.
+    private func setSearchCacheEntry(_ entry: SearchEntry, for id: URL) {
+        searchLock.lock()
+        searchCache[id] = entry
+        searchLock.unlock()
     }
 
     /// Evicts oldest entries from the search cache when it exceeds limits.
@@ -240,38 +294,47 @@ extension Library {
             data.count <= VaultSearch.maxPDFSearchBytes
         else { return }
 
-        // Atomic check-and-insert to prevent duplicate extraction tasks
+        // Check-and-insert without holding the lock across the whole closure.
         searchLock.lock()
-        defer { searchLock.unlock() }
-        
-        guard !searchInflight.contains(id) else { return }
+        guard !searchInflight.contains(id) else {
+            searchLock.unlock()
+            return
+        }
         searchInflight.insert(id)
-        
-        let dataCopy = data  // Copy data while lock is held
-        let fingerprintCopy = fingerprint
-        
-        Task {
+        let dataCopy = data
+        searchLock.unlock()
+
+        // Track the task so it can be cancelled if its document is removed
+        // before extraction finishes (see maintainSearchIndex).
+        let extraction = Task { @MainActor in
             let extracted = await Task.detached(priority: .utility) {
                 VaultSearch.pdfText(from: dataCopy)
             }.value
-            
-            await MainActor.run {
-                self.searchLock.lock()
-                self.searchInflight.remove(id)
-                guard self.searchCache[id]?.fingerprint == fingerprintCopy else {
-                    self.searchLock.unlock()
-                    return
-                }
-                
-                // Evict before updating to prevent cache from growing too large
-                self.evictOldestSearchEntries()
-                self.searchLock.unlock()
-                
-                self.searchCache[id]?.content = VaultSearch.normalize(extracted)
-                if !extracted.isEmpty {
-                    self.persistExtractedText(extracted, for: doc)
-                }
+            let normalized = await Task.detached(priority: .utility) {
+                VaultSearch.normalize(extracted)
+            }.value
+
+            updateSearchCacheAfterPDFExtraction(id: id, fingerprint: fingerprint, content: normalized)
+
+            if !extracted.isEmpty {
+                persistExtractedText(extracted, for: doc)
             }
         }
+
+        searchLock.lock()
+        inFlightExtractions[id] = extraction
+        searchLock.unlock()
+    }
+
+    /// Applies a finished PDF extraction to the cache under the search lock.
+    private func updateSearchCacheAfterPDFExtraction(id: URL, fingerprint: String, content: String) {
+        searchLock.lock()
+        searchInflight.remove(id)
+        inFlightExtractions[id] = nil
+        if let entry = searchCache[id], entry.fingerprint == fingerprint {
+            evictOldestSearchEntries()
+            searchCache[id]?.content = content
+        }
+        searchLock.unlock()
     }
 }

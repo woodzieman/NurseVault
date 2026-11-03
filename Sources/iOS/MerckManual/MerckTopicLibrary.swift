@@ -77,7 +77,7 @@ final class MerckTopicLibrary {
         guard !isLoading, entries.isEmpty, !isMissing else { return }
         isLoading = true
         let directory = directoryURL
-        Task {
+        Task { @MainActor in
             let built = await Self.loadFromIndex(in: directory)
             isLoading = false
             if built.isEmpty {

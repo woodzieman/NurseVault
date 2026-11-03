@@ -31,9 +31,14 @@ enum CzurOpenError: Error {
 }
 
 /// A scanner device exposed by the local CZUR Open SDK Runtime.
-struct CzurOpenDevice: Sendable {
+struct CzurOpenDevice: Sendable, Codable {
     let deviceId: String
     let name: String?
+
+    enum CodingKeys: String, CodingKey {
+        case deviceId = "device_id"
+        case name = "device_name"
+    }
 }
 
 /// Snapshot of a capture task, as returned by `capture.get`.
@@ -55,7 +60,7 @@ struct CzurOpenBarcode: Sendable {
     let barcodes: [CzurOpenBarcodeInfo]
 }
 
-struct CzurOpenBarcodeInfo: Sendable {
+struct CzurOpenBarcodeInfo: Sendable, Codable {
     let type: String?
     let value: String?
 }
@@ -92,8 +97,19 @@ final class CzurOpenRuntimeClient: NSObject, URLSessionWebSocketDelegate, @unche
     /// AppKit; views decode for their platform.
     private var videoFrameHandler: (@Sendable (Data?) -> Void)?
 
-    nonisolated(unsafe) private(set) static var commandWebSocketBaseURL: URL = URL(string: "ws://127.0.0.1:17090")!
-    nonisolated(unsafe) private(set) static var assetBaseURL: URL = URL(string: "http://127.0.0.1:17082")!
+    nonisolated(unsafe) static var commandWebSocketBaseURL: URL = URL(string: "ws://127.0.0.1:17090") ?? URL(fileURLWithPath: "/")
+    nonisolated(unsafe) static var assetBaseURL: URL = URL(string: "http://127.0.0.1:17082") ?? URL(fileURLWithPath: "/")
+
+    /// Configures the local CZUR Open SDK Runtime endpoints.
+    ///
+    /// iOS/iPadOS cannot host the runtime themselves, so iPhone/iPad "alone"
+    /// operation points this client at a runtime host running elsewhere (e.g. a
+    /// Linux runtime host on the local network) over Command WS + Local HTTP.
+    /// Defaults remain loopback for a runtime on the same device.
+    static func configure(commandWebSocketURL: URL, assetBaseURL: URL) {
+        CzurOpenRuntimeClient.commandWebSocketBaseURL = commandWebSocketURL
+        CzurOpenRuntimeClient.assetBaseURL = assetBaseURL
+    }
 
     // MARK: - State helpers (synchronous; must not be called from async context)
 
@@ -220,9 +236,10 @@ final class CzurOpenRuntimeClient: NSObject, URLSessionWebSocketDelegate, @unche
         }
     }
 
+    @discardableResult
     func createSession() async throws -> String {
         let response = try await send("auth.create_session", params: [:])
-        guard response.error == nil, let token = response.data?["session_token"] as? String else {
+        guard response.error == nil, let token = response.data?["session_token"] else {
             throw CzurOpenError.notAuthorized
         }
         sessionTokenValue = token
@@ -233,13 +250,16 @@ final class CzurOpenRuntimeClient: NSObject, URLSessionWebSocketDelegate, @unche
 
     func listDevices() async throws -> [CzurOpenDevice] {
         let response = try await send("device.list", params: [:])
-        guard response.error == nil, let devices = response.data?["devices"] as? [[String: String]] else { return [] }
-        return devices.compactMap { dict in
-            guard let deviceId = dict["device_id"] as? String else { return nil }
-            return CzurOpenDevice(deviceId: deviceId, name: dict["device_name"] as? String)
+        guard response.error == nil else { return [] }
+        if let raw = response.data?["devices"],
+           let jsonData = raw.data(using: .utf8),
+           let devices = try? JSONDecoder().decode([CzurOpenDevice].self, from: jsonData) {
+            return devices
         }
+        return []
     }
 
+    @discardableResult
     func openDevice(deviceId: String) async throws -> Bool {
         let response = try await send("device.open", params: ["device_id": deviceId])
         guard response.error == nil else { throw CzurOpenError.deviceNotFound }
@@ -279,6 +299,7 @@ final class CzurOpenRuntimeClient: NSObject, URLSessionWebSocketDelegate, @unche
 
     /// Enables / disables page-turn detection and (when `autoCapture` is true)
     /// lets the runtime trigger captures by itself.
+    @discardableResult
     func setTurnDetect(deviceId: String, enabled: Bool, autoCapture: Bool, cooldownMs: Int) async throws -> Bool {
         let response = try await send(
             "capture.set_turn_detect",
@@ -305,8 +326,8 @@ final class CzurOpenRuntimeClient: NSObject, URLSessionWebSocketDelegate, @unche
             throw CzurOpenError.scanFailed(response.error ?? "ocr.extract_text failed")
         }
         let data = response.data ?? [:]
-        let recognized = data["recognized"] as? String == "true"
-        let text = data["text"] as? String ?? ""
+        let recognized = data["recognized"] == "true"
+        let text = data["text"] ?? ""
         return CzurOpenOcrText(recognized: recognized, text: text)
     }
 
@@ -319,12 +340,12 @@ final class CzurOpenRuntimeClient: NSObject, URLSessionWebSocketDelegate, @unche
             throw CzurOpenError.scanFailed(response.error ?? "recognition.barcode_detect failed")
         }
         let data = response.data ?? [:]
-        let detected = (data["detected"] as? String) == "true"
+        let detected = data["detected"] == "true"
         var barcodes: [CzurOpenBarcodeInfo] = []
-        if let raw = data["barcodes"] as? [[String: String]] {
-            for dict in raw {
-                barcodes.append(CzurOpenBarcodeInfo(type: dict["type"] as? String, value: dict["value"] as? String))
-            }
+        if let raw = data["barcodes"],
+           let jsonData = raw.data(using: .utf8),
+           let decoded = try? JSONDecoder().decode([CzurOpenBarcodeInfo].self, from: jsonData) {
+            barcodes = decoded
         }
         return CzurOpenBarcode(detected: detected, barcodes: barcodes)
     }
@@ -493,7 +514,7 @@ final class CzurOpenRuntimeClient: NSObject, URLSessionWebSocketDelegate, @unche
         guard let array = value as? [Any] else { return nil }
         var result: [String] = []
         for item in array {
-            if let dict = item as? [String: String], let id = dict["asset_id"] as? String {
+            if let dict = item as? [String: String], let id = dict["asset_id"] {
                 result.append(id)
             } else if let str = item as? String {
                 result.append(str)
