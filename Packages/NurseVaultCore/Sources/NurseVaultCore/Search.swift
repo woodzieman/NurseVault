@@ -139,8 +139,14 @@ extension Library {
                     }
                 }
             case .image, .other, .note:
+                // No decodable text content of their own — but the book
+                // ingestion engine stores extracted text on `extractedText`
+                // for kinds this classifier calls `.other` (notably RTF
+                // books), so index that persisted copy instead of dropping it.
+                let persisted = doc.extractedText ?? ""
                 if documentStillExists(id) {
-                    setSearchCacheEntry(SearchEntry(fingerprint: fingerprint, content: ""), for: id)
+                    let normalized = await Self.normalizeSearchContent(persisted)
+                    setSearchCacheEntry(SearchEntry(fingerprint: fingerprint, content: normalized), for: id)
                 }
             }
         }

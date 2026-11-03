@@ -680,12 +680,14 @@ public final class Library {
     public func addDocument(
         imported: ImportedFile,
         noteText: String? = nil,
+        extractedText: String? = nil,
         to section: VaultSection? = nil,
         in folder: VaultFolder? = nil
     ) -> VaultDoc {
         let doc = VaultDoc(context: context)
         doc.title = imported.title
         doc.noteText = noteText
+        doc.extractedText = extractedText
         doc.fileName = imported.fileName
         doc.mimeType = imported.mimeType
         doc.fileData = imported.data

@@ -1,4 +1,49 @@
-# Changes Summary — Nurse Vault (Nov 2, 2026)
+# Changes Summary — Nurse Vault (Nov 3, 2026)
+
+## Book import: loading bar, real import, searchable text — v5.3 (build 84)
+
+The book ingestion engine was non-functional: file-picked URLs are
+security-scoped on iOS, and the old code started the scope in the
+*synchronous* caller, then `defer` stopped it before the async extraction
+ran — so every file read silently failed and no book was ever added.
+
+1. **Fixed the import path** (`BooksView`, `ImportView`): the scope is now
+   opened inside the engine's own reads and in `FileSupport.importFileAsync`
+   (a new nonisolated wrapper so the blocking file read runs off the main
+   actor). Imported books are saved with their text in `extractedText`
+   (`Library.addDocument` gained the parameter) — the searchable-content
+   field — and the search index now also indexes persisted `extractedText`
+   for document kinds it classifies as `.other` (notably RTF books).
+   Result: PDF/txt/RTF books are added *and* searchable from the universal
+   search bar, including on the watch.
+2. **Loading bar**: new shared `BookImportState` + `BookImportProgressOverlay`
+   used by both Books and Import views; the engine reports ~100 progress
+   ticks for PDFs (page-based) and coarse start/finish for text/RTF. Failed
+   imports surface an error alert (scanned PDFs without a text layer get a
+   specific message).
+3. **Labs (tables tab) expanded**: Normal Lab Values now covers 15
+   categories / ~70 tests, each with a plain-language description of what
+   the test measures — electrolytes, renal, glucose/endocrine, hepatic,
+   pancreatic, lipids, CBC, coagulation (+fibrinogen), cardiac, plus six new
+   groups: blood gas (pH/PaCO2/PaO2/HCO3/base excess/SaO2/lactate),
+   urinalysis, iron & bone (iron/TIBC/ferritin/vitamins/PTH), hormones
+   (thyroid/cortisol/sex hormones/prolactin/hCG), tumor markers, and CSF.
+   Ranges sourced from Medscape normal-adult values, NBME, and nursing
+   references. The **watch** Lab Reference now renders all of it correctly
+   (the earlier build showed nothing for lab values) in a vertical
+   label/range/description layout, with all attribution sources listed.
+4. **Code audit follow-through** (Nov 3 audit, committed in the previous
+   build): all targets — iOS, watch, widget, macOS — build with 0 errors /
+   0 warnings; also fixed a CZUR scan-state desync in ImportView (the view
+   now observes the shared flow instance its progress UI depends on).
+5. **DSM-5-TR dataset committed**: the 54 disorder text files that the
+   index referenced but git never tracked (3.1 MB) are now in the repo,
+   so a fresh clone builds the complete app.
+6. Housekeeping: README (sidebar table, books) and the GitHub Pages site
+   (What's New) updated for the release; fastlane metadata-validation
+   ignore for the untracked helper folders.
+
+---
 
 ## Universal Search UI fixes (from user screen recording, iOS 26)
 

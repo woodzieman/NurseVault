@@ -20,19 +20,19 @@ No third-party servers, no accounts, no subscriptions. Your data is only ever ac
 
 ## Main Menu Sections
 
-The app ships with six read-only reference entries (plus user sections) and a **+** button to add unlimited more:
+The sidebar ships with fixed read-only reference entries (plus your own user sections) and a **+** button to add unlimited more:
 
-| Section | Icon | Typical use |
+| Entry | Icon | Typical use |
 |---|---|---|
-| Code Blue | cross.vial | ACL/Code Blue flows, resuscitation checklists |
-| Lab Values | test tubes | Normal lab ranges, critical values |
-| Drugs | pills | Dose tables, drug references |
-| Merck Manual | book.pages | Medical topics by specialty (2,834 articles, 28 specialties) |
-| Other | folder | Anything else |
+| All Documents | books.vertical | Everything in your vault |
+| Drug Reference | cross.case | 2,383 Merck Manual drug monographs, name/brand/content search |
+| Clinical Calculators | calculator.fill | 174 medical calculators with saved results |
+| Merck Manual | book | 2,834 medical topics by specialty |
+| DSM-5-TR | book.fill | 54 disorders with full diagnostic criteria, searchable |
+| Labs | testtube.2 | Normal lab values (~70 tests in 15 categories, each described), standardized panels, therapeutic drug monitoring |
+| Books | book.closed.fill | Imported PDF/text/RTF books, indexed for full-text search |
 
-Sections can be renamed, reordered (drag), or deleted at any time.
-
-There is also a fixed **Drug Reference** entry in the sidebar (badged with its count). It is not a user section — it is a read-only reference bundled with the app itself.
+User sections can be renamed, reordered (drag), or deleted at any time. All reference entries are bundled with the app — read-only, offline-capable, never synced to iCloud.
 
 ---
 
@@ -43,8 +43,8 @@ There is also a fixed **Drug Reference** entry in the sidebar (badged with its c
 - **Bundled drug reference** — Complete Merck Manual Professional drug dataset (2,383 drugs, ~350 MB in `DrugInfo/`). Lives in the app bundle, not the vault: always present, offline-capable, never synced to iCloud. Search by name, brand name (instant), or full content (few-second scan with snippets).
 - **Notes** — Pure text references (**Add → New Note**).
 - **Camera** — Capture from camera and store as a syncing image (iPhone/iPad).
-- **Scan & OCR** — Point camera at printed reference, read text with Apple's on-device Vision OCR, save as editable searchable note.
-- **Search** — Find documents by title, file name, notes, or file content (PDFs/text). Available in main app toolbar and watch search pages.
+- **Books** — **Add → Import Book** (or the Books sidebar entry) ingests PDF, text, or RTF files: a progress bar tracks extraction, the full text is stored on the document, and it is indexed so the book is immediately searchable from the universal search bar (including on the watch).
+- **Search** — Find documents by title, file name, notes, or file content (PDFs/text/books). Available in main app toolbar and watch search pages.
 
 ---
 

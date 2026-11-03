@@ -60,6 +60,50 @@ public struct LabReferenceSection: Identifiable, Hashable, Sendable {
     }
 }
 
+/// One attribution line for a bundled laboratory reference.
+public struct LabSource: Identifiable, Hashable, Sendable {
+    public let text: String
+    public let url: String
+
+    public init(text: String, url: String) {
+        self.text = text
+        self.url = url
+    }
+
+    public var id: String { text }
+}
+
+/// One commonly ordered laboratory test with a typical adult range and a
+/// concise description of what the test measures.
+public struct LabValueEntry: Identifiable, Hashable, Sendable {
+    public let name: String
+    public let description: String
+    /// Typical adult reference interval. May contain sex-specific or
+    /// condition-specific sub-values separated by newlines.
+    public let range: String
+
+    public init(name: String, description: String, range: String) {
+        self.name = name
+        self.description = description
+        self.range = range
+    }
+
+    public var id: String { name }
+}
+
+/// A category of laboratory tests (e.g. "Electrolytes", "Hepatic").
+public struct LabValueGroup: Identifiable, Hashable, Sendable {
+    public let title: String
+    public let tests: [LabValueEntry]
+
+    public init(title: String, tests: [LabValueEntry]) {
+        self.title = title
+        self.tests = tests
+    }
+
+    public var id: String { title }
+}
+
 /// A bundled laboratory reference dataset.
 ///
 /// Shared by the iOS app (table presentation) and the watch app (plain-text
@@ -80,9 +124,13 @@ public struct LabReference: Identifiable, Hashable, Sendable {
     public let tdmRows: [LabTDMRow]
     /// Footnote under the TDM table ("" if none).
     public let tdmNote: String
-    /// Attribution line.
+    /// Primary attribution line.
     public let source: String
     public let sourceURL: String
+    /// Normal lab values, grouped by category — empty if the reference has none.
+    public let valueGroups: [LabValueGroup]
+    /// Additional attribution lines (normal-range sources, etc.).
+    public let additionalSources: [LabSource]
 
     public init(
         id: String,
@@ -94,7 +142,9 @@ public struct LabReference: Identifiable, Hashable, Sendable {
         tdmRows: [LabTDMRow],
         tdmNote: String,
         source: String,
-        sourceURL: String
+        sourceURL: String,
+        valueGroups: [LabValueGroup] = [],
+        additionalSources: [LabSource] = []
     ) {
         self.id = id
         self.title = title
@@ -106,6 +156,13 @@ public struct LabReference: Identifiable, Hashable, Sendable {
         self.tdmNote = tdmNote
         self.source = source
         self.sourceURL = sourceURL
+        self.valueGroups = valueGroups
+        self.additionalSources = additionalSources
+    }
+
+    /// Primary source plus any additional sources, in presentation order.
+    public var allSources: [LabSource] {
+        [LabSource(text: source, url: sourceURL)] + additionalSources
     }
 }
 
@@ -137,6 +194,15 @@ extension LabReference {
                 Laboratories that are accredited (CAP, CLIA, COLA, or FDA) are required to establish and validate their own reference ranges for FDA-approved assays and for laboratory developed tests (LDTs). Thus, any given result should be interpreted based on the reference range of the laboratory in which the test was performed; the laboratory typically provides reference values on the clinical report that corresponds with the test result.
 
                 Reference ranges generally represent 95% of the otherwise healthy population and do not usually allow 100% distinction between health and disease. Use these values as a general guide, and interpret a patient's result against the range printed by the laboratory that performed the test.
+                """
+            ),
+            LabReferenceSection(
+                id: "about-values",
+                title: "About Normal Lab Values",
+                text: """
+                The normal lab values below are typical adult serum/venous reference intervals compiled from NBME, Medscape, and Merck Manual sources. They are general guides, not patient-specific targets.
+
+                Ranges vary by laboratory, assay, instrument, age, sex, pregnancy status, altitude, and specimen type. Some values are sex-specific (for example, hemoglobin and creatinine clearance). Always interpret a patient's result against the reference interval printed on the report from the laboratory that performed the test.
                 """
             ),
             LabReferenceSection(
@@ -211,7 +277,499 @@ extension LabReference {
         ],
         tdmNote: "* All values are for lithium-heparin serum samples. Source: Baselt, R. C. (2020). Disposition of toxic drugs and chemicals in man (12th ed.), Biomedical Publications.",
         source: "Merck Manual Professional — Resources > Normal Laboratory Values",
-        sourceURL: "https://www.merckmanuals.com/professional/resources/normal-laboratory-values/laboratory-reference-ranges"
+        sourceURL: "https://www.merckmanuals.com/professional/resources/normal-laboratory-values/laboratory-reference-ranges",
+        valueGroups: [
+            LabValueGroup(title: "Electrolytes & Acid–Base", tests: [
+                LabValueEntry(
+                    name: "Sodium (Na)",
+                    description: "Major extracellular cation; regulates fluid balance, nerve conduction, and muscle function.",
+                    range: "136–146 mEq/L"
+                ),
+                LabValueEntry(
+                    name: "Potassium (K)",
+                    description: "Major intracellular cation; critical for resting membrane potential and cardiac rhythm.",
+                    range: "3.5–5.0 mEq/L"
+                ),
+                LabValueEntry(
+                    name: "Chloride (Cl)",
+                    description: "Principal extracellular anion; follows sodium in fluid and acid–base balance.",
+                    range: "95–105 mEq/L"
+                ),
+                LabValueEntry(
+                    name: "Bicarbonate / CO2",
+                    description: "Metabolic component of acid–base balance; low suggests metabolic acidosis, high suggests metabolic alkalosis.",
+                    range: "22–28 mEq/L"
+                ),
+                LabValueEntry(
+                    name: "Calcium (total)",
+                    description: "Bone health, muscle contraction, and clotting; interpret together with albumin.",
+                    range: "8.4–10.2 mg/dL"
+                ),
+                LabValueEntry(
+                    name: "Magnesium",
+                    description: "Cofactor for many enzymes; low levels can cause arrhythmias and neuromuscular irritability.",
+                    range: "1.5–2.0 mg/dL"
+                ),
+                LabValueEntry(
+                    name: "Phosphorus",
+                    description: "Bone mineral and energy metabolism; affected by renal function and vitamin D status.",
+                    range: "3.0–4.5 mg/dL"
+                )
+            ]),
+            LabValueGroup(title: "Renal Function", tests: [
+                LabValueEntry(
+                    name: "BUN (urea nitrogen)",
+                    description: "Urea from protein breakdown; rises with renal impairment, dehydration, or GI bleeding.",
+                    range: "7–18 mg/dL"
+                ),
+                LabValueEntry(
+                    name: "Creatinine",
+                    description: "Waste product of muscle metabolism; primary marker of kidney filtration.",
+                    range: "0.6–1.2 mg/dL"
+                ),
+                LabValueEntry(
+                    name: "Creatinine clearance",
+                    description: "Estimated kidney filtration over 24 h; often replaced by eGFR in routine care.",
+                    range: "Male: 97–137 mL/min\nFemale: 88–128 mL/min"
+                ),
+                LabValueEntry(
+                    name: "Uric acid",
+                    description: "Purine breakdown product; high in gout, tumor lysis, and renal impairment.",
+                    range: "3.0–8.2 mg/dL"
+                )
+            ]),
+            LabValueGroup(title: "Glucose & Endocrine", tests: [
+                LabValueEntry(
+                    name: "Glucose (fasting)",
+                    description: "Primary energy source; fasting range is used for diabetes screening.",
+                    range: "70–100 mg/dL"
+                ),
+                LabValueEntry(
+                    name: "Hemoglobin A1c",
+                    description: "Glycated hemoglobin reflecting approximately 3 months of average glucose.",
+                    range: "Normal: <5.7% (<39 mmol/mol)\nDiabetes: ≥6.5% (≥48 mmol/mol)"
+                ),
+                LabValueEntry(
+                    name: "TSH",
+                    description: "Pituitary hormone regulating the thyroid; first-line screen for thyroid disease.",
+                    range: "0.4–4.0 mIU/L"
+                )
+            ]),
+            LabValueGroup(title: "Hepatic", tests: [
+                LabValueEntry(
+                    name: "ALT (alanine aminotransferase)",
+                    description: "Liver enzyme; rises with hepatocellular injury.",
+                    range: "10–40 U/L"
+                ),
+                LabValueEntry(
+                    name: "AST (aspartate aminotransferase)",
+                    description: "Found in liver, heart, and skeletal muscle; less specific than ALT.",
+                    range: "12–38 U/L"
+                ),
+                LabValueEntry(
+                    name: "Alkaline phosphatase",
+                    description: "Elevated with bile duct obstruction, liver disease, and high bone turnover.",
+                    range: "25–100 U/L"
+                ),
+                LabValueEntry(
+                    name: "Albumin",
+                    description: "Most abundant plasma protein; reflects liver synthetic function and nutrition.",
+                    range: "3.5–5.5 g/dL"
+                ),
+                LabValueEntry(
+                    name: "Total protein",
+                    description: "Albumin plus globulins; affected by liver, kidney, and immune status.",
+                    range: "6.0–7.8 g/dL"
+                ),
+                LabValueEntry(
+                    name: "Bilirubin, total",
+                    description: "Breakdown product of hemoglobin; elevated in hemolysis, hepatocellular injury, or cholestasis.",
+                    range: "0.1–1.0 mg/dL"
+                ),
+                LabValueEntry(
+                    name: "Bilirubin, direct",
+                    description: "Conjugated fraction; elevated with obstructive/biliary disease.",
+                    range: "0.0–0.3 mg/dL"
+                )
+            ]),
+            LabValueGroup(title: "Pancreatic / GI", tests: [
+                LabValueEntry(
+                    name: "Amylase",
+                    description: "Pancreatic and salivary enzyme; rises in pancreatitis and salivary gland disease.",
+                    range: "25–125 U/L"
+                ),
+                LabValueEntry(
+                    name: "Lipase",
+                    description: "More specific than amylase for acute pancreatitis.",
+                    range: "13–60 U/L"
+                )
+            ]),
+            LabValueGroup(title: "Lipids", tests: [
+                LabValueEntry(
+                    name: "Cholesterol, total",
+                    description: "Overall atherosclerotic risk marker; includes all lipoprotein fractions.",
+                    range: "Desirable: <200 mg/dL\nHigh: >240 mg/dL"
+                ),
+                LabValueEntry(
+                    name: "HDL cholesterol",
+                    description: "“Good” cholesterol; higher levels are generally protective.",
+                    range: "40–60 mg/dL"
+                ),
+                LabValueEntry(
+                    name: "LDL cholesterol",
+                    description: "“Bad” cholesterol; target is lower in high-risk patients.",
+                    range: "<160 mg/dL"
+                ),
+                LabValueEntry(
+                    name: "Triglycerides",
+                    description: "Endogenous fat; high levels increase cardiovascular and pancreatitis risk.",
+                    range: "Normal: <150 mg/dL\nBorderline: 150–199 mg/dL\nHigh: ≥200 mg/dL"
+                )
+            ]),
+            LabValueGroup(title: "Complete Blood Count", tests: [
+                LabValueEntry(
+                    name: "WBC",
+                    description: "Total leukocyte count; high suggests infection/inflammation, low suggests marrow suppression or sepsis.",
+                    range: "4,500–11,000/µL"
+                ),
+                LabValueEntry(
+                    name: "RBC count",
+                    description: "Red blood cell count; low suggests anemia, high suggests polycythemia or dehydration.",
+                    range: "Male: 4.3–5.9 million/µL\nFemale: 3.5–5.5 million/µL"
+                ),
+                LabValueEntry(
+                    name: "Hemoglobin",
+                    description: "Oxygen-carrying protein in red cells; the main anemia marker.",
+                    range: "Male: 13.5–17.5 g/dL\nFemale: 12.0–16.0 g/dL"
+                ),
+                LabValueEntry(
+                    name: "Hematocrit",
+                    description: "Volume fraction of blood occupied by red cells.",
+                    range: "Male: 41–53%\nFemale: 36–46%"
+                ),
+                LabValueEntry(
+                    name: "MCV",
+                    description: "Mean corpuscular volume; classifies anemia as microcytic, normocytic, or macrocytic.",
+                    range: "80–100 fL"
+                ),
+                LabValueEntry(
+                    name: "MCH",
+                    description: "Mean corpuscular hemoglobin; average hemoglobin content per red cell.",
+                    range: "25–35 pg"
+                ),
+                LabValueEntry(
+                    name: "MCHC",
+                    description: "Mean corpuscular hemoglobin concentration; hemoglobin density inside red cells.",
+                    range: "31–36 g/dL"
+                ),
+                LabValueEntry(
+                    name: "Platelets",
+                    description: "Thrombocyte count; low increases bleeding risk, high may be reactive or myeloproliferative.",
+                    range: "150,000–400,000/µL"
+                )
+            ]),
+            LabValueGroup(title: "Coagulation", tests: [
+                LabValueEntry(
+                    name: "PT",
+                    description: "Prothrombin time; extrinsic and common pathways of coagulation.",
+                    range: "11–15 seconds"
+                ),
+                LabValueEntry(
+                    name: "INR",
+                    description: "Standardized PT; used to monitor warfarin therapy.",
+                    range: "Un anticoagulated: 0.9–1.2"
+                ),
+                LabValueEntry(
+                    name: "aPTT",
+                    description: "Activated partial thromboplastin time; intrinsic and common pathways.",
+                    range: "25–40 seconds"
+                ),
+                LabValueEntry(
+                    name: "D-dimer",
+                    description: "Fibrin degradation product; high suggests active clot formation/lysis.",
+                    range: "≤250 ng/mL (lab-specific)"
+                ),
+                LabValueEntry(
+                    name: "Fibrinogen",
+                    description: "Clotting factor; low with liver disease or DIC, high as an acute-phase reactant.",
+                    range: "200–400 mg/dL"
+                )
+            ]),
+            LabValueGroup(title: "Cardiac & Inflammatory", tests: [
+                LabValueEntry(
+                    name: "Troponin I",
+                    description: "Cardiac-specific protein; rises with myocardial injury.",
+                    range: "≤0.04 ng/mL (assay-specific)"
+                ),
+                LabValueEntry(
+                    name: "Creatine kinase (CK)",
+                    description: "Muscle enzyme; rises with myocardial, skeletal, or brain injury.",
+                    range: "Male: 25–90 U/L\nFemale: 10–70 U/L"
+                ),
+                LabValueEntry(
+                    name: "LDH",
+                    description: "Tissue enzyme released with cell turnover; nonspecific marker of hemolysis or tissue injury.",
+                    range: "45–200 U/L"
+                ),
+                LabValueEntry(
+                    name: "CRP",
+                    description: "Acute-phase reactant; rises with inflammation, infection, and tissue injury.",
+                    range: "Usually <10 mg/L (lab-specific)"
+                ),
+                LabValueEntry(
+                    name: "ESR",
+                    description: "Erythrocyte sedimentation rate; nonspecific marker of inflammation.",
+                    range: "Male: 0–15 mm/h\nFemale: 0–20 mm/h"
+                )
+            ]),
+            LabValueGroup(title: "Blood Gas (arterial)", tests: [
+                LabValueEntry(
+                    name: "pH",
+                    description: "Acid–base balance of the blood; <7.35 is acidemia, >7.45 is alkalemia.",
+                    range: "7.35–7.45"
+                ),
+                LabValueEntry(
+                    name: "PaCO2",
+                    description: "Respiratory component of acid–base balance; reflects alveolar ventilation.",
+                    range: "35–45 mm Hg"
+                ),
+                LabValueEntry(
+                    name: "PaO2",
+                    description: "Arterial oxygen tension; the primary marker of oxygenation (room-air reference).",
+                    range: "80–100 mm Hg"
+                ),
+                LabValueEntry(
+                    name: "HCO3\u{208B} (bicarbonate)",
+                    description: "Metabolic component of acid–base balance.",
+                    range: "22–26 mEq/L"
+                ),
+                LabValueEntry(
+                    name: "Base excess",
+                    description: "Calculated metabolic correction; negative suggests metabolic acidosis.",
+                    range: "0 \u{00B1} 2 mEq/L"
+                ),
+                LabValueEntry(
+                    name: "SaO2",
+                    description: "Oxygen saturation of hemoglobin; the target is \u{2265}95% on room air.",
+                    range: "95–100%"
+                ),
+                LabValueEntry(
+                    name: "Lactate",
+                    description: "Rises with tissue hypoperfusion; used to monitor shock, sepsis, and post-resuscitation care.",
+                    range: "0.5–2.0 mmol/L (\u{2248}5–18 mg/dL)"
+                )
+            ]),
+            LabValueGroup(title: "Urinalysis", tests: [
+                LabValueEntry(
+                    name: "pH",
+                    description: "Acidity of the urine; diet, infection, and renal tubular function shift it.",
+                    range: "4.6–8.0 (average \u{2248}6)"
+                ),
+                LabValueEntry(
+                    name: "Specific gravity",
+                    description: "Urine concentration; reflects kidney concentrating ability and hydration.",
+                    range: "1.005–1.030"
+                ),
+                LabValueEntry(
+                    name: "Protein",
+                    description: "Dipstick detects mainly albumin; sustained protein suggests glomerular disease.",
+                    range: "Negative (<150 mg/day)"
+                ),
+                LabValueEntry(
+                    name: "Glucose",
+                    description: "Present above the renal threshold (\u{2248}180 mg/dL blood glucose); a diabetes screen.",
+                    range: "Negative"
+                ),
+                LabValueEntry(
+                    name: "Ketones",
+                    description: "Fat-metabolism byproduct; positive in DKA, starvation, and very low-carbohydrate diets.",
+                    range: "None (trace possible)"
+                ),
+                LabValueEntry(
+                    name: "Blood",
+                    description: "Detects hemoglobin; positive in UTIs, stones, trauma, or malignancy.",
+                    range: "Negative"
+                ),
+                LabValueEntry(
+                    name: "Leukocyte esterase",
+                    description: "Enzyme from white cells; a screen for urinary tract infection.",
+                    range: "Negative"
+                ),
+                LabValueEntry(
+                    name: "Nitrite",
+                    description: "Produced when nitrate-reducing bacteria sit in the bladder; suggests bacteriuria.",
+                    range: "Negative"
+                ),
+                LabValueEntry(
+                    name: "Bilirubin",
+                    description: "Urine bilirubin indicates conjugated hyperbilirubinemia (hepatic/biliary disease).",
+                    range: "Negative"
+                ),
+                LabValueEntry(
+                    name: "Urobilinogen",
+                    description: "Breakdown product of bilirubin; high in hemolysis or hepatocellular injury, absent in obstruction.",
+                    range: "0.2–1.0 mg/dL"
+                ),
+                LabValueEntry(
+                    name: "WBC (microscopy)",
+                    description: "Bacteria with WBCs suggests infection; many WBCs without bacteria suggests other inflammation.",
+                    range: "0–4 per high-power field"
+                ),
+                LabValueEntry(
+                    name: "RBC (microscopy)",
+                    description: "Dysmorphic RBCs suggest glomerular bleeding; uniform RBCs suggest stones or trauma.",
+                    range: "\u{2264}2 per high-power field"
+                )
+            ]),
+            LabValueGroup(title: "Iron & Bone", tests: [
+                LabValueEntry(
+                    name: "Iron, serum",
+                    description: "Circulating iron; low in iron-deficiency anemia, high in hemochromatosis.",
+                    range: "50–150 \u{00B5}g/dL"
+                ),
+                LabValueEntry(
+                    name: "TIBC",
+                    description: "Total iron-binding capacity; rises when iron stores are depleted.",
+                    range: "250–310 \u{00B5}g/dL"
+                ),
+                LabValueEntry(
+                    name: "Transferrin saturation",
+                    description: "Fraction of the iron-binding capacity that is saturated (serum iron \u{00F7} TIBC).",
+                    range: "20–50%"
+                ),
+                LabValueEntry(
+                    name: "Ferritin",
+                    description: "Iron stores; the most sensitive marker of iron deficiency (also an acute-phase reactant).",
+                    range: "Male: 12–300 ng/mL\nFemale: 10–150 ng/mL"
+                ),
+                LabValueEntry(
+                    name: "Vitamin D (25-hydroxy)",
+                    description: "Primary measure of vitamin D status; <20 ng/mL indicates deficiency.",
+                    range: "30–60 ng/mL"
+                ),
+                LabValueEntry(
+                    name: "Vitamin B12",
+                    description: "Low levels suggest pernicious anemia, malabsorption, or strict vegan diet without supplementation.",
+                    range: "200–800 pg/mL"
+                ),
+                LabValueEntry(
+                    name: "Folate, serum",
+                    description: "Deficiency causes macrocytic anemia; affected by diet, alcohol, and malabsorption.",
+                    range: "5–25 ng/mL"
+                ),
+                LabValueEntry(
+                    name: "PTH (intact)",
+                    description: "Regulates calcium and phosphorus; high in primary hyperparathyroidism or vitamin D deficiency.",
+                    range: "15–65 pg/mL"
+                )
+            ]),
+            LabValueGroup(title: "Hormones", tests: [
+                LabValueEntry(
+                    name: "Free T4",
+                    description: "Active thyroid hormone; the key test for hypo-/hyperthyroidism alongside TSH.",
+                    range: "0.8–1.8 ng/dL"
+                ),
+                LabValueEntry(
+                    name: "Total T3",
+                    description: "Thyroid hormone; falls in non-thyroidal illness and with amiodarone.",
+                    range: "80–180 ng/dL"
+                ),
+                LabValueEntry(
+                    name: "Cortisol (8 a.m.)",
+                    description: "Adrenal steroid with a morning peak; low values suggest adrenal insufficiency.",
+                    range: "5–23 \u{00B5}g/dL"
+                ),
+                LabValueEntry(
+                    name: "Testosterone (total)",
+                    description: "Primary sex hormone; low in hypogonadism, rises in PCOS.",
+                    range: "Male: 291–1100 ng/dL\nFemale: 18–54 ng/dL"
+                ),
+                LabValueEntry(
+                    name: "Estradiol",
+                    description: "Primary estrogen; interpret against the menstrual phase or menopausal status.",
+                    range: "Follicular: 20–350 pg/mL\nMidcycle peak: 150–750 pg/mL\nLuteal: 30–450 pg/mL"
+                ),
+                LabValueEntry(
+                    name: "Prolactin",
+                    description: "Elevated in hypothyroidism, pregnancy, and many medications; a macroadenoma marker.",
+                    range: "Male: 3–13 ng/mL\nFemale: 3–27 ng/mL"
+                ),
+                LabValueEntry(
+                    name: "\u{03B}-hCG",
+                    description: "Pregnancy test; also a tumor marker for germ-cell and trophoblastic cancers.",
+                    range: "Male: <1.4 IU/L\nFemale (nonpregnant): <1.0 IU/L"
+                )
+            ]),
+            LabValueGroup(title: "Tumor Markers", tests: [
+                LabValueEntry(
+                    name: "AFP",
+                    description: "Hepatocellular carcinoma and germ-cell tumor marker; elevated in liver disease and pregnancy.",
+                    range: "<40 ng/mL"
+                ),
+                LabValueEntry(
+                    name: "PSA",
+                    description: "Prostate screening/monitoring; also elevated in BPH and prostatitis, so interpret with the clinical picture.",
+                    range: "0–2.5 ng/mL (age-adjusted higher)"
+                ),
+                LabValueEntry(
+                    name: "CEA",
+                    description: "Colorectal cancer monitoring; not a screening test, and smokers may run mildly higher.",
+                    range: "<2.5 ng/mL"
+                ),
+                LabValueEntry(
+                    name: "CA-125",
+                    description: "Ovarian cancer monitoring; rises with many benign conditions (endometriosis, menstruation, ascites).",
+                    range: "<35 U/mL"
+                ),
+                LabValueEntry(
+                    name: "CA 19-9",
+                    description: "Pancreatic and biliary cancers; can be elevated in cholestasis even without cancer.",
+                    range: "0–37 U/mL"
+                )
+            ]),
+            LabValueGroup(title: "Cerebrospinal Fluid (CSF)", tests: [
+                LabValueEntry(
+                    name: "WBC",
+                    description: "Lymphocytes predominate in healthy adults; neutrophilic shifts suggest bacterial infection.",
+                    range: "0–5 cells/\u{00B5}L"
+                ),
+                LabValueEntry(
+                    name: "RBC",
+                    description: "Usually absent; a few may be traumatic tap, many suggest hemorrhage.",
+                    range: "0"
+                ),
+                LabValueEntry(
+                    name: "Protein",
+                    description: "Elevated in infection, inflammation, or spinal block; very high in Guillian-Barr\u{00E9}.",
+                    range: "15–45 mg/dL"
+                ),
+                LabValueEntry(
+                    name: "Glucose",
+                    description: "Normally 60–70% of simultaneous serum glucose; low in bacterial/fungal infection.",
+                    range: "25–80 mg/dL (60–70% of blood)"
+                ),
+                LabValueEntry(
+                    name: "Chloride",
+                    description: "Low with tuberculous or carcinomatous meningitis; rarely used now.",
+                    range: "120–130 mEq/L"
+                ),
+                LabValueEntry(
+                    name: "Opening pressure",
+                    description: "Measured with the patient lateral; high suggests raised intracranial pressure or meningitis.",
+                    range: "6–25 cm H2O"
+                )
+            ])
+        ],
+        additionalSources: [
+            LabSource(
+                text: "NBME Laboratory Values (ranges above)",
+                url: "https://www.nbme.org/laboratory-values/"
+            ),
+            LabSource(
+                text: "Medscape — Lab Values, Normal Adult (ranges above)",
+                url: "https://emedicine.medscape.com/article/2172316-overview"
+            )
+        ]
     )
 }
 
@@ -248,5 +806,23 @@ extension LabReference {
         return [rows.joined(separator: "\n"), tdmNote]
             .filter { !$0.isEmpty }
             .joined(separator: "\n")
+    }
+
+    /// Plain-text rendering of the normal lab values: one block per test.
+    public var valuesText: String {
+        guard !valueGroups.isEmpty else { return "" }
+        let blocks = valueGroups.flatMap { group -> [String] in
+            let header = group.title
+            let entries = group.tests.map { entry in
+                [
+                    entry.name,
+                    "Range: \(entry.range.replacingOccurrences(of: "\n", with: "; ")),",
+                    entry.description
+                ]
+                .joined(separator: "\n")
+            }
+            return [header, ""] + entries
+        }
+        return blocks.joined(separator: "\n\n")
     }
 }

@@ -16,6 +16,15 @@ struct LabsView: View {
                         }
                     }
                 }
+                if !reference.valueGroups.isEmpty {
+                    Section {
+                        NavigationLink("Normal Lab Values") {
+                            LabValuesView(reference: reference)
+                        }
+                    } footer: {
+                        Text("Typical adult ranges and what each test measures.")
+                    }
+                }
                 if !reference.panelTests.isEmpty {
                     Section {
                         NavigationLink("Commonly Used Panels") {
@@ -35,10 +44,14 @@ struct LabsView: View {
                     }
                 }
                 Section {
-                    VStack(alignment: .leading, spacing: 2) {
-                        Text(reference.source)
-                        if let url = URL(string: reference.sourceURL) {
-                            Link("View source", destination: url)
+                    VStack(alignment: .leading, spacing: 4) {
+                        ForEach(reference.allSources) { source in
+                            VStack(alignment: .leading, spacing: 1) {
+                                Text(source.text)
+                                if let url = URL(string: source.url) {
+                                    Link("View source", destination: url)
+                                }
+                            }
                         }
                     }
                     .font(.caption)
@@ -63,6 +76,47 @@ private struct LabAboutView: View {
         #if os(iOS)
         .navigationBarTitleDisplayMode(.inline)
         #endif
+    }
+}
+
+/// Normal lab values, grouped by category. Each row shows the test name,
+/// typical adult range, and a concise description.
+private struct LabValuesView: View {
+    let reference: LabReference
+
+    var body: some View {
+        List {
+            ForEach(reference.valueGroups) { group in
+                Section(group.title) {
+                    ForEach(group.tests) { entry in
+                        LabValueRow(entry: entry)
+                    }
+                }
+            }
+        }
+        .navigationTitle("Normal Lab Values")
+        #if os(iOS)
+        .navigationBarTitleDisplayMode(.inline)
+        #endif
+    }
+}
+
+private struct LabValueRow: View {
+    let entry: LabValueEntry
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 4) {
+            Text(entry.name)
+                .font(.body.weight(.medium))
+            Text(entry.range)
+                .font(.footnote)
+                .foregroundStyle(.secondary)
+            Text(entry.description)
+                .font(.footnote)
+                .foregroundStyle(.tertiary)
+        }
+        .padding(.vertical, 2)
+        .accessibilityElement(children: .combine)
     }
 }
 
@@ -116,9 +170,11 @@ private struct LabPanelsView: View {
                         .font(.caption)
                         .foregroundStyle(.secondary)
                 }
-                Text(reference.source)
-                    .font(.caption2)
-                    .foregroundStyle(.secondary)
+                ForEach(reference.allSources) { source in
+                    Text(source.text)
+                        .font(.caption2)
+                        .foregroundStyle(.secondary)
+                }
             }
             .padding()
         }
@@ -179,9 +235,11 @@ private struct LabTDMView: View {
                         .font(.caption)
                         .foregroundStyle(.secondary)
                 }
-                Text(reference.source)
-                    .font(.caption2)
-                    .foregroundStyle(.secondary)
+                ForEach(reference.allSources) { source in
+                    Text(source.text)
+                        .font(.caption2)
+                        .foregroundStyle(.secondary)
+                }
             }
             .padding()
         }

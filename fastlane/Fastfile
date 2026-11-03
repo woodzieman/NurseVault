@@ -37,8 +37,11 @@ platform :ios do
       force: true,
       # precheck can't verify IAPs via API key (fastlane 2.240 limitation)
       precheck_include_in_app_purchases: false,
-      # Skip metadata/screenshots (locale "en-us" already exists as a bug in ASC API)
+      # Skip metadata/screenshots (locale "en-us" already exists as a bug in ASC API).
+      # The local metadata dir also holds untracked helper folders (e.g. version/) that
+      # aren't valid locale names; ignore validation since we never upload from it here.
       skip_metadata: true,
+      ignore_language_directory_validation: true,
       skip_screenshots: true,
       skip_binary_upload: false
     )

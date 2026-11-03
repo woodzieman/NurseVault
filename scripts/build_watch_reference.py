@@ -56,6 +56,9 @@ HEADER_PREFIXES = (
     "Retrieved:",
     "NURSING QUICK-REFERENCE SUMMARY",
     "Auto-generated",
+    # DSM-5-TR nursing reference header lines (never present in drug/Merck files).
+    "ICD-10-CM:",
+    "DSM-5-TR CONTENT:",
 )
 
 
@@ -171,7 +174,30 @@ def collect_drugs():
         )
 
 
-COLLECTORS = {"merck": collect_merck, "drugs": collect_drugs}
+def collect_dsm():
+    """Yield (title, preview, extra, raw_bytes) for every DSM-5-TR disorder.
+
+    Titles/codes come from the iOS `dsm5tr_index.json` (the source of truth
+    for the entry set); the content is the bundled `DSM5TR/*.txt`.
+    `extra` carries the ICD-10-CM code (brand names for drugs, specialty for
+    Merck).
+    """
+    import json
+
+    index = json.loads((ROOT / "DSM5TR" / "dsm5tr_index.json").read_text(encoding="utf-8"))
+    for item in index["entries"]:
+        path = ROOT / "DSM5TR" / item["relative_path"]
+        raw = path.read_bytes()
+        text = raw.decode("utf-8", errors="ignore")
+        yield (
+            clean_one_line(item["title"]),
+            make_preview(text),
+            clean_one_line(item.get("code", "")),
+            raw,
+        )
+
+
+COLLECTORS = {"merck": collect_merck, "drugs": collect_drugs, "dsm": collect_dsm}
 
 
 def build(dataset: str) -> None:
@@ -222,9 +248,9 @@ def build(dataset: str) -> None:
 if __name__ == "__main__":
     dataset = sys.argv[1] if len(sys.argv) > 1 else "all"
     if dataset == "all":
-        for name in ("merck", "drugs"):
+        for name in ("merck", "drugs", "dsm"):
             build(name)
     elif dataset in COLLECTORS:
         build(dataset)
     else:
-        sys.exit(f"Unknown dataset '{dataset}'. Options: merck, drugs, all")
+        sys.exit(f"Unknown dataset '{dataset}'. Options: merck, drugs, dsm, all")

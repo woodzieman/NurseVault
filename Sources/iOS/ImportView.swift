@@ -68,7 +68,11 @@ struct ImportView: View {
     @State private var createdNewFolder: VaultFolder?
     @State private var showingErrorAlert = false
     @State private var errorMessage: String?
-    @State private var scanFlow = CzurBookScanFlow()
+    // Observe the shared flow instance: `scanAndSaveBook` mutates the
+    // singleton's phase/devices/activeDeviceId, so the view must read from
+    // the same object or the progress UI would never update.
+    @State private var scanFlow = CzurBookScanFlow.shared
+    @State private var importState = BookImportState()
     @State private var scannerTitle = ""
     @State private var scannerAutoCapture = false
     @State private var scannerVideoPreview = false
@@ -172,12 +176,14 @@ struct ImportView: View {
                     }
                 case .book:
                     Section {
-                        Button("Choose a PDF, Text, or RTF file…") {
+                        Button(importState.isActive ? "Importing…" : "Choose a PDF, Text, or RTF file…") {
                             showingBookFileImporter = true
                         }
+                        .disabled(importState.isActive)
                         Button("Scan with CZUR ET Max…") {
                             Task { await runCzurBookScan() }
                         }
+                        .disabled(importState.isActive || scanPhaseIsActive)
                         TextField("Book title", text: $scannerTitle)
                             .disabled(scanPhaseIsActive)
                         if scanPhaseIsActive {
@@ -309,6 +315,22 @@ struct ImportView: View {
             } message: {
                 Text(errorMessage ?? "")
             }
+            .alert(
+                "Couldn\u{2019}t Import Book",
+                isPresented: Binding(
+                    get: { importState.error != nil },
+                    set: { if !$0 { importState.error = nil } }
+                )
+            ) {
+                Button("OK", role: .cancel) { }
+            } message: {
+                Text(importState.error ?? "Unknown error")
+            }
+            .overlay {
+                if importState.isActive {
+                    BookImportProgressOverlay(state: importState)
+                }
+            }
             #if os(macOS)
             .formStyle(.grouped)
             .frame(minWidth: 460, minHeight: 320)
@@ -418,42 +440,55 @@ struct ImportView: View {
     }
 
     /// Imports a book file through the BookIngestionEngine.
+    ///
+    /// The security scope is started *inside* the engine's reads and in
+    /// `FileSupport.importFileAsync` — never in this synchronous caller, where
+    /// a `defer` would stop the scope before the async work runs and every
+    /// file read would silently fail on iOS. The extracted text is saved as
+    /// `extractedText` (the searchable-content field) so the book is indexed
+    /// by the system-wide search immediately.
     private func importBookFile(from url: URL) {
-        // Start security scope (no-op for Mac unscoped URLs).
-        let neededScope = url.startAccessingSecurityScopedResource()
-        defer {
-            if neededScope { url.stopAccessingSecurityScopedResource() }
-        }
-        
-        Task {
-            let mimeType = UTType(filenameExtension: url.pathExtension)?.preferredMIMEType
-            if let extractedText = await BookIngestionEngine.shared
-                .extractText(from: url, mimeType: mimeType, fileName: url.lastPathComponent),
-               let data = try? Data(contentsOf: url) {
-                let name = url.lastPathComponent
-                let title = URL(fileURLWithPath: name).deletingPathExtension()
-                    .lastPathComponent
-                let imported = ImportedFile(
-                    data: data,
-                    fileName: name,
-                    title: title,
-                    mimeType: mimeType
-                )
+        importState.begin(url.lastPathComponent)
+        let importModel = importState
+
+        Task { @MainActor in
+            do {
+                let mimeType = UTType(filenameExtension: url.pathExtension)?.preferredMIMEType
+
+                let extractedText = await BookIngestionEngine.shared.extractText(
+                    from: url,
+                    mimeType: mimeType,
+                    fileName: url.lastPathComponent
+                ) { fraction in
+                    Task { @MainActor in
+                        importModel.update(fraction)
+                    }
+                }
+
+                guard let extractedText else {
+                    importModel.fail(
+                        "Couldn\u{2019}t extract searchable text from this file. The PDF may be scanned images without a text layer."
+                    )
+                    return
+                }
+
+                // `importFileAsync` is nonisolated, so the blocking file read
+                // runs off the main actor while the progress bar stays live.
+                let imported = try await FileSupport.importFileAsync(at: url)
+                importModel.update(1)
+
                 let targetFolder = makeSaveFolder()
                 library.addDocument(
                     imported: imported,
-                    noteText: extractedText,
+                    extractedText: extractedText,
                     to: targetFolder?.section,
                     in: targetFolder
                 )
-                if errorMessage != nil {
-                    showingErrorAlert = true
-                } else {
-                    dismiss()
-                }
-            } else {
-                errorMessage = "Couldn't extract text from this file."
-                showingErrorAlert = true
+
+                importModel.finish()
+                dismiss()
+            } catch {
+                importModel.fail("Couldn\u{2019}t import \(url.lastPathComponent): \(error.localizedDescription)")
             }
         }
     }

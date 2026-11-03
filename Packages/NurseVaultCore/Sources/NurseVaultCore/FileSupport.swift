@@ -77,6 +77,12 @@ public enum FileSupport {
         }
     }
 
+    /// Async wrapper around `importFile(at:)` so the blocking file read runs
+    /// off the caller's actor (typically the main actor).
+    nonisolated public static func importFileAsync(at url: URL) async throws -> ImportedFile {
+        return try importFile(at: url)
+    }
+
     /// Imports raw data (e.g. from the Photos picker) where no file URL exists.
     public static func importFile(
         data: Data,

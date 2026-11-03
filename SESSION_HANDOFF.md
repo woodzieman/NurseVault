@@ -1,5 +1,39 @@
 # Session handoff — Nurse Vault → TestFlight alpha
 
+## STATUS (2026-11-03) — v5.3 (84): book engine fixed + loading bar, labs expanded, watch labs fixed, uploaded
+
+- **Book import engine fixed & functional.** Root cause: security-scope
+  lifetime bug (scope opened in the sync caller, `defer` closed it before the
+  async reads ran → every file read failed on iOS). Scope now opens inside the
+  engine's reads + `FileSupport.importFileAsync`. Books save text in
+  `extractedText`; the search index (`Search.swift`) now also indexes persisted
+  `extractedText` for `.other`-kind docs (RTF books), so PDF/txt/RTF books are
+  added AND searchable from the universal search bar + watch. New shared
+  `BookImportState` + `BookImportProgressOverlay` give both `BooksView` and
+  `ImportView` a live progress bar (page-based for PDFs, coarse for txt/RTF)
+  and a failure alert (scanned-PDF-without-text-layer message).
+- **CZUR progress desync fixed** in ImportView: view now observes
+  `CzurBookScanFlow.shared` (the instance `scanAndSaveBook` mutates) — before,
+  the scan-progress UI read a dead local instance.
+- **Labs (tables tab) expanded to 15 categories / ~70 tests, each with a
+  description** (what the test measures + typical adult range): added Blood
+  Gas, Urinalysis, Iron & Bone, Hormones, Tumor Markers, CSF groups +
+  fibrinogen. Ranges from Medscape normal-adult page, NBME, nursing refs
+  (web-verified Nov 3). Watch Lab Reference now renders all values correctly
+  in a vertical label/range/description layout (was previously empty for
+  values) — fixes "watch not displaying lab values correctly".
+- **All targets clean**: iOS sim, watch, widget, macOS Debug builds —
+  0 errors / 0 warnings.
+- **DSM-5-TR data committed**: the 54 untracked `DSM5TR/*.txt` files (index
+  was tracked but the data never committed) are now in the repo. `DSM5TR_full/`
+  (201 empty stubs) left on disk, untracked — user to decide on deletion.
+- **Docs**: README (real sidebar table incl. Labs/Books, books storage entry),
+  CHANGES.md (Nov 3 entry), GitHub Pages site `What's New` (gh-pages branch),
+  fastlane `ignore_language_directory_validation` for the local metadata dir.
+- **Version**: 5.3 / build 84 (was 5.2/83). Committed + pushed to
+  `origin/bionic/save-state-20261014`; archived, uploaded to App Store Connect
+  via fastlane, distributed to the external TestFlight group (joe) if it exists.
+
 ## INFRASTRUCTURE NOTE (2026-10-27)
 Internet connection upgraded to fiber optic — significantly faster upload/download speeds than previous. This is permanent and should be factored into any time estimates for uploads, downloads, or network-dependent operations.
 
