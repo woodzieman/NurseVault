@@ -1,0 +1,438 @@
+{
+  "version": "1.0",
+  "total_entries": 54,
+  "entries": [
+    {
+      "id": "agoraphobia",
+      "title": "Agoraphobia",
+      "code": "F40.00",
+      "relative_path": "Agoraphobia.txt",
+      "searchName": "agoraphobia f40.00",
+      "specialty": "Anxiety Disorders"
+    },
+    {
+      "id": "anxiety_disorder_due_to_another_medical_condition",
+      "title": "Anxiety Disorder Due to Another Medical Condition",
+      "code": "F06.4",
+      "relative_path": "Anxiety_Disorder_Due_to_Another_Medical_Condition.txt",
+      "searchName": "anxiety disorder due to another medical condition f06.4",
+      "specialty": "Anxiety Disorders"
+    },
+    {
+      "id": "generalized_anxiety_disorder",
+      "title": "Generalized Anxiety Disorder",
+      "code": "F41.1",
+      "relative_path": "Generalized_Anxiety_Disorder.txt",
+      "searchName": "generalized anxiety disorder f41.1",
+      "specialty": "Anxiety Disorders"
+    },
+    {
+      "id": "panic_disorder",
+      "title": "Panic Disorder",
+      "code": "F41.0",
+      "relative_path": "Panic_Disorder.txt",
+      "searchName": "panic disorder f41.0",
+      "specialty": "Anxiety Disorders"
+    },
+    {
+      "id": "selective_mutism",
+      "title": "Selective Mutism",
+      "code": "F94.0",
+      "relative_path": "Selective_Mutism.txt",
+      "searchName": "selective mutism f94.0",
+      "specialty": "Anxiety Disorders"
+    },
+    {
+      "id": "separation_anxiety_disorder",
+      "title": "Separation Anxiety Disorder",
+      "code": "F93.0",
+      "relative_path": "Separation_Anxiety_Disorder.txt",
+      "searchName": "separation anxiety disorder f93.0",
+      "specialty": "Anxiety Disorders"
+    },
+    {
+      "id": "social_anxiety_disorder",
+      "title": "Social Anxiety Disorder",
+      "code": "F40.10",
+      "relative_path": "Social_Anxiety_Disorder.txt",
+      "searchName": "social anxiety disorder f40.10",
+      "specialty": "Anxiety Disorders"
+    },
+    {
+      "id": "disruptive_mood_dysregulation_disorder",
+      "title": "Disruptive Mood Dysregulation Disorder",
+      "code": "F34.81",
+      "relative_path": "Disruptive_Mood_Dysregulation_Disorder.txt",
+      "searchName": "disruptive mood dysregulation disorder f34.81",
+      "specialty": "Depressive Disorders"
+    },
+    {
+      "id": "persistent_depressive_disorder",
+      "title": "Persistent Depressive Disorder",
+      "code": "F34.1",
+      "relative_path": "Persistent_Depressive_Disorder.txt",
+      "searchName": "persistent depressive disorder f34.1",
+      "specialty": "Depressive Disorders"
+    },
+    {
+      "id": "premenstrual_dysphoric_disorder",
+      "title": "Premenstrual Dysphoric Disorder",
+      "code": "F32.81",
+      "relative_path": "Premenstrual_Dysphoric_Disorder.txt",
+      "searchName": "premenstrual dysphoric disorder f32.81",
+      "specialty": "Depressive Disorders"
+    },
+    {
+      "id": "gambling_disorder",
+      "title": "Gambling Disorder",
+      "code": "F63.0",
+      "relative_path": "Gambling_Disorder.txt",
+      "searchName": "gambling disorder f63.0",
+      "specialty": "Disruptive, Impulse-Control, and Conduct Disorders"
+    },
+    {
+      "id": "depersonalizationderealization_disorder",
+      "title": "Depersonalization/Derealization Disorder",
+      "code": "F48.1",
+      "relative_path": "DepersonalizationDerealization_Disorder.txt",
+      "searchName": "depersonalization/derealization disorder f48.1",
+      "specialty": "Dissociative Disorders"
+    },
+    {
+      "id": "dissociative_amnesia",
+      "title": "Dissociative Amnesia",
+      "code": "F44.0",
+      "relative_path": "Dissociative_Amnesia.txt",
+      "searchName": "dissociative amnesia f44.0",
+      "specialty": "Dissociative Disorders"
+    },
+    {
+      "id": "dissociative_identity_disorder",
+      "title": "Dissociative Identity Disorder",
+      "code": "F44.81",
+      "relative_path": "Dissociative_Identity_Disorder.txt",
+      "searchName": "dissociative identity disorder f44.81",
+      "specialty": "Dissociative Disorders"
+    },
+    {
+      "id": "encopresis",
+      "title": "Encopresis",
+      "code": "F98.1",
+      "relative_path": "Encopresis.txt",
+      "searchName": "encopresis f98.1",
+      "specialty": "Elimination Disorders"
+    },
+    {
+      "id": "enuresis",
+      "title": "Enuresis",
+      "code": "F98.0",
+      "relative_path": "Enuresis.txt",
+      "searchName": "enuresis f98.0",
+      "specialty": "Elimination Disorders"
+    },
+    {
+      "id": "avoidantrestrictive_food_intake_disorder",
+      "title": "Avoidant/Restrictive Food Intake Disorder",
+      "code": "F50.82",
+      "relative_path": "AvoidantRestrictive_Food_Intake_Disorder.txt",
+      "searchName": "avoidant/restrictive food intake disorder f50.82",
+      "specialty": "Feeding and Eating Disorders"
+    },
+    {
+      "id": "binge-eating_disorder",
+      "title": "Binge-Eating Disorder",
+      "code": "F50.81",
+      "relative_path": "Binge-Eating_Disorder.txt",
+      "searchName": "binge-eating disorder f50.81",
+      "specialty": "Feeding and Eating Disorders"
+    },
+    {
+      "id": "bulimia_nervosa",
+      "title": "Bulimia Nervosa",
+      "code": "F50.2",
+      "relative_path": "Bulimia_Nervosa.txt",
+      "searchName": "bulimia nervosa f50.2",
+      "specialty": "Feeding and Eating Disorders"
+    },
+    {
+      "id": "rumination_disorder",
+      "title": "Rumination Disorder",
+      "code": "F98.21",
+      "relative_path": "Rumination_Disorder.txt",
+      "searchName": "rumination disorder f98.21",
+      "specialty": "Feeding and Eating Disorders"
+    },
+    {
+      "id": "autism_spectrum_disorder",
+      "title": "Autism Spectrum Disorder",
+      "code": "F84.0",
+      "relative_path": "Autism_Spectrum_Disorder.txt",
+      "searchName": "autism spectrum disorder f84.0",
+      "specialty": "Neurodevelopmental Disorders"
+    },
+    {
+      "id": "childhood-onset_fluency_disorder",
+      "title": "Childhood-Onset Fluency Disorder",
+      "code": "F80.81",
+      "relative_path": "Childhood-Onset_Fluency_Disorder.txt",
+      "searchName": "childhood-onset fluency disorder f80.81",
+      "specialty": "Neurodevelopmental Disorders"
+    },
+    {
+      "id": "developmental_coordination_disorder",
+      "title": "Developmental Coordination Disorder",
+      "code": "F82",
+      "relative_path": "Developmental_Coordination_Disorder.txt",
+      "searchName": "developmental coordination disorder f82",
+      "specialty": "Neurodevelopmental Disorders"
+    },
+    {
+      "id": "language_disorder",
+      "title": "Language Disorder",
+      "code": "F80.2",
+      "relative_path": "Language_Disorder.txt",
+      "searchName": "language disorder f80.2",
+      "specialty": "Neurodevelopmental Disorders"
+    },
+    {
+      "id": "social_pragmatic_communication_disorder",
+      "title": "Social (Pragmatic) Communication Disorder",
+      "code": "F80.82",
+      "relative_path": "Social_Pragmatic_Communication_Disorder.txt",
+      "searchName": "social (pragmatic) communication disorder f80.82",
+      "specialty": "Neurodevelopmental Disorders"
+    },
+    {
+      "id": "stereotypic_movement_disorder",
+      "title": "Stereotypic Movement Disorder",
+      "code": "F98.4",
+      "relative_path": "Stereotypic_Movement_Disorder.txt",
+      "searchName": "stereotypic movement disorder f98.4",
+      "specialty": "Neurodevelopmental Disorders"
+    },
+    {
+      "id": "exhibitionistic_disorder",
+      "title": "Exhibitionistic Disorder",
+      "code": "F65.2",
+      "relative_path": "Exhibitionistic_Disorder.txt",
+      "searchName": "exhibitionistic disorder f65.2",
+      "specialty": "Paraphilic Disorders"
+    },
+    {
+      "id": "fetishistic_disorder",
+      "title": "Fetishistic Disorder",
+      "code": "F65.0",
+      "relative_path": "Fetishistic_Disorder.txt",
+      "searchName": "fetishistic disorder f65.0",
+      "specialty": "Paraphilic Disorders"
+    },
+    {
+      "id": "frotteuristic_disorder",
+      "title": "Frotteuristic Disorder",
+      "code": "F65.81",
+      "relative_path": "Frotteuristic_Disorder.txt",
+      "searchName": "frotteuristic disorder f65.81",
+      "specialty": "Paraphilic Disorders"
+    },
+    {
+      "id": "pedophilic_disorder",
+      "title": "Pedophilic Disorder",
+      "code": "F65.4",
+      "relative_path": "Pedophilic_Disorder.txt",
+      "searchName": "pedophilic disorder f65.4",
+      "specialty": "Paraphilic Disorders"
+    },
+    {
+      "id": "sexual_masochism_disorder",
+      "title": "Sexual Masochism Disorder",
+      "code": "F65.51",
+      "relative_path": "Sexual_Masochism_Disorder.txt",
+      "searchName": "sexual masochism disorder f65.51",
+      "specialty": "Paraphilic Disorders"
+    },
+    {
+      "id": "sexual_sadism_disorder",
+      "title": "Sexual Sadism Disorder",
+      "code": "F65.52",
+      "relative_path": "Sexual_Sadism_Disorder.txt",
+      "searchName": "sexual sadism disorder f65.52",
+      "specialty": "Paraphilic Disorders"
+    },
+    {
+      "id": "transvestic_disorder",
+      "title": "Transvestic Disorder",
+      "code": "F65.1",
+      "relative_path": "Transvestic_Disorder.txt",
+      "searchName": "transvestic disorder f65.1",
+      "specialty": "Paraphilic Disorders"
+    },
+    {
+      "id": "voyeuristic_disorder",
+      "title": "Voyeuristic Disorder",
+      "code": "F65.3",
+      "relative_path": "Voyeuristic_Disorder.txt",
+      "searchName": "voyeuristic disorder f65.3",
+      "specialty": "Paraphilic Disorders"
+    },
+    {
+      "id": "brief_psychotic_disorder",
+      "title": "Brief Psychotic Disorder",
+      "code": "F23",
+      "relative_path": "Brief_Psychotic_Disorder.txt",
+      "searchName": "brief psychotic disorder f23",
+      "specialty": "Schizophrenia Spectrum and Other Psychotic Disorders"
+    },
+    {
+      "id": "delusional_disorder",
+      "title": "Delusional Disorder",
+      "code": "F22",
+      "relative_path": "Delusional_Disorder.txt",
+      "searchName": "delusional disorder f22",
+      "specialty": "Schizophrenia Spectrum and Other Psychotic Disorders"
+    },
+    {
+      "id": "schizophrenia",
+      "title": "Schizophrenia",
+      "code": "F20.9",
+      "relative_path": "Schizophrenia.txt",
+      "searchName": "schizophrenia f20.9",
+      "specialty": "Schizophrenia Spectrum and Other Psychotic Disorders"
+    },
+    {
+      "id": "schizophreniform_disorder",
+      "title": "Schizophreniform Disorder",
+      "code": "F20.81",
+      "relative_path": "Schizophreniform_Disorder.txt",
+      "searchName": "schizophreniform disorder f20.81",
+      "specialty": "Schizophrenia Spectrum and Other Psychotic Disorders"
+    },
+    {
+      "id": "delayed_ejaculation",
+      "title": "Delayed Ejaculation",
+      "code": "F52.32",
+      "relative_path": "Delayed_Ejaculation.txt",
+      "searchName": "delayed ejaculation f52.32",
+      "specialty": "Sexual Dysfunctions"
+    },
+    {
+      "id": "erectile_disorder",
+      "title": "Erectile Disorder",
+      "code": "F52.21",
+      "relative_path": "Erectile_Disorder.txt",
+      "searchName": "erectile disorder f52.21",
+      "specialty": "Sexual Dysfunctions"
+    },
+    {
+      "id": "female_orgasmic_disorder",
+      "title": "Female Orgasmic Disorder",
+      "code": "F52.31",
+      "relative_path": "Female_Orgasmic_Disorder.txt",
+      "searchName": "female orgasmic disorder f52.31",
+      "specialty": "Sexual Dysfunctions"
+    },
+    {
+      "id": "female_sexual_interestarousal_disorder",
+      "title": "Female Sexual Interest/Arousal Disorder",
+      "code": "F52.22",
+      "relative_path": "Female_Sexual_InterestArousal_Disorder.txt",
+      "searchName": "female sexual interest/arousal disorder f52.22",
+      "specialty": "Sexual Dysfunctions"
+    },
+    {
+      "id": "genito-pelvic_painpenetration_disorder",
+      "title": "Genito-Pelvic Pain/Penetration Disorder",
+      "code": "F52.6",
+      "relative_path": "Genito-Pelvic_PainPenetration_Disorder.txt",
+      "searchName": "genito-pelvic pain/penetration disorder f52.6",
+      "specialty": "Sexual Dysfunctions"
+    },
+    {
+      "id": "male_hypoactive_sexual_desire_disorder",
+      "title": "Male Hypoactive Sexual Desire Disorder",
+      "code": "F52.0",
+      "relative_path": "Male_Hypoactive_Sexual_Desire_Disorder.txt",
+      "searchName": "male hypoactive sexual desire disorder f52.0",
+      "specialty": "Sexual Dysfunctions"
+    },
+    {
+      "id": "premature_early_ejaculation",
+      "title": "Premature (Early) Ejaculation",
+      "code": "F52.4",
+      "relative_path": "Premature_Early_Ejaculation.txt",
+      "searchName": "premature (early) ejaculation f52.4",
+      "specialty": "Sexual Dysfunctions"
+    },
+    {
+      "id": "caffeine_intoxication",
+      "title": "Caffeine Intoxication",
+      "code": "F15.920",
+      "relative_path": "Caffeine_Intoxication.txt",
+      "searchName": "caffeine intoxication f15.920",
+      "specialty": "Substance-Related and Addictive Disorders"
+    },
+    {
+      "id": "caffeine_withdrawal",
+      "title": "Caffeine Withdrawal",
+      "code": "F15.93",
+      "relative_path": "Caffeine_Withdrawal.txt",
+      "searchName": "caffeine withdrawal f15.93",
+      "specialty": "Substance-Related and Addictive Disorders"
+    },
+    {
+      "id": "hallucinogen_persisting_perception_disorder",
+      "title": "Hallucinogen Persisting Perception Disorder",
+      "code": "F16.983",
+      "relative_path": "Hallucinogen_Persisting_Perception_Disorder.txt",
+      "searchName": "hallucinogen persisting perception disorder f16.983",
+      "specialty": "Substance-Related and Addictive Disorders"
+    },
+    {
+      "id": "tobacco_withdrawal",
+      "title": "Tobacco Withdrawal",
+      "code": "F17.203",
+      "relative_path": "Tobacco_Withdrawal.txt",
+      "searchName": "tobacco withdrawal f17.203",
+      "specialty": "Substance-Related and Addictive Disorders"
+    },
+    {
+      "id": "acute_stress_disorder",
+      "title": "Acute Stress Disorder",
+      "code": "F43.0",
+      "relative_path": "Acute_Stress_Disorder.txt",
+      "searchName": "acute stress disorder f43.0",
+      "specialty": "Trauma- and Stressor-Related Disorders"
+    },
+    {
+      "id": "disinhibited_social_engagement_disorder",
+      "title": "Disinhibited Social Engagement Disorder",
+      "code": "F94.2",
+      "relative_path": "Disinhibited_Social_Engagement_Disorder.txt",
+      "searchName": "disinhibited social engagement disorder f94.2",
+      "specialty": "Trauma- and Stressor-Related Disorders"
+    },
+    {
+      "id": "posttraumatic_stress_disorder",
+      "title": "Posttraumatic Stress Disorder",
+      "code": "F43.10",
+      "relative_path": "Posttraumatic_Stress_Disorder.txt",
+      "searchName": "posttraumatic stress disorder f43.10",
+      "specialty": "Trauma- and Stressor-Related Disorders"
+    },
+    {
+      "id": "prolonged_grief_disorder",
+      "title": "Prolonged Grief Disorder",
+      "code": "F43.8",
+      "relative_path": "Prolonged_Grief_Disorder.txt",
+      "searchName": "prolonged grief disorder f43.8",
+      "specialty": "Trauma- and Stressor-Related Disorders"
+    },
+    {
+      "id": "reactive_attachment_disorder",
+      "title": "Reactive Attachment Disorder",
+      "code": "F94.1",
+      "relative_path": "Reactive_Attachment_Disorder.txt",
+      "searchName": "reactive attachment disorder f94.1",
+      "specialty": "Trauma- and Stressor-Related Disorders"
+    }
+  ]
+}
