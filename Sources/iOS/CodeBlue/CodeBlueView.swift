@@ -1,28 +1,36 @@
 import SwiftUI
 import NurseVaultCore
 
-/// Dedicated sidebar tab for the built-in resuscitation algorithms (ACLS + PALS).
-/// Replaces the old approach of hiding these inside the "Code Blue" vault section —
-/// now it's a first-class reference view alongside Drugs, Calculators, Merck, etc.
+/// Dedicated sidebar tab for the built-in resuscitation algorithms and
+/// emergency reference. Shows all 7 algorithms organized by clinical scenario.
 struct CodeBlueView: View {
-    let algorithms = CodeBlueContent.algorithms
+    /// All Code Blue algorithms, organized into categories.
+    private let categories = [
+        Category(title: "Cardiac Arrest", algorithms: [CodeBlueContent.adultACLS, CodeBlueContent.pediatricPALS]),
+        Category(title: "Airway & Breathing", algorithms: [CodeBlueContent.respiratoryDistress]),
+        Category(title: "Arrhythmias", algorithms: [CodeBlueContent.tachycardia, CodeBlueContent.bradycardia]),
+        Category(title: "Neurologic Emergencies", algorithms: [CodeBlueContent.acuteStroke]),
+        Category(title: "Medical Emergencies", algorithms: [CodeBlueContent.sepsis])
+    ]
     
     var body: some View {
         NavigationStack {
             List {
-                Section("Resuscitation Algorithms") {
-                    ForEach(algorithms) { algorithm in
-                        NavigationLink {
-                            AlgorithmDetail(algorithm: algorithm)
-                        } label: {
-                            VStack(alignment: .leading, spacing: 4) {
-                                Text(algorithm.title)
-                                    .font(.body)
-                                    .fontWeight(.medium)
-                                Text(algorithm.summary)
-                                    .font(.caption)
-                                    .foregroundStyle(.secondary)
-                                    .lineLimit(3)
+                ForEach(categories) { category in
+                    Section(category.title) {
+                        ForEach(category.algorithms) { algorithm in
+                            NavigationLink {
+                                AlgorithmDetail(algorithm: algorithm)
+                            } label: {
+                                VStack(alignment: .leading, spacing: 4) {
+                                    Text(algorithm.title)
+                                        .font(.body)
+                                        .fontWeight(.medium)
+                                    Text(algorithm.summary)
+                                        .font(.caption)
+                                        .foregroundStyle(.secondary)
+                                        .lineLimit(3)
+                                }
                             }
                         }
                     }
@@ -30,6 +38,13 @@ struct CodeBlueView: View {
             }
             .navigationTitle("Code Blue")
         }
+    }
+    
+    /// Groups algorithms under a heading.
+    private struct Category: Identifiable {
+        let id = UUID()
+        let title: String
+        let algorithms: [CodeBlueAlgorithm]
     }
 }
 

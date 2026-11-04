@@ -7,6 +7,10 @@ struct CalculatorInfo: Identifiable, Hashable {
     let id: String
     let title: String
     let category: String
+    /// A stable, normalized key derived from `category` for routing.
+    /// Strips punctuation and lowercases, so "Critical Care Scores" →
+    /// "critical caresscores" and "EBM & Statistics" → "ebm statistics".
+    let categoryKey: String
     let fileName: String
     let merckPage: String?
     
@@ -16,6 +20,12 @@ struct CalculatorInfo: Identifiable, Hashable {
         self.category = category
         self.fileName = fileName
         self.merckPage = merckPage
+        // Normalize: strip spaces and everything except letters/numbers, then lowercase.
+        // This produces keys like "criticalcaresscores" and "ebmstatistics" that
+        // match the hardcoded cases in CalculatorDetailView.
+        let normalized = category.filter { $0.isLetter || $0.isNumber }
+            .lowercased()
+        self.categoryKey = normalized
     }
 }
 
