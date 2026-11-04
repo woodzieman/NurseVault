@@ -31,7 +31,7 @@ struct DocDetailView: View {
         VStack(alignment: .leading, spacing: 12) {
             if let data = doc.fileData {
                 fileContent(data: data)
-            } else if let note = doc.noteText, !note.isEmpty {
+            } else if let note = doc.extractedText ?? doc.noteText, !note.isEmpty {
                 Text(note)
                     .textSelection(.enabled)
                     .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)

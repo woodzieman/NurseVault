@@ -196,6 +196,13 @@ struct VaultListView: View {
                     NavigationLink(value: docRef) {
                         DocRow(doc: doc)
                     }
+                    .swipeActions {
+                        Button(role: .destructive) {
+                            library.deleteDocument(doc)
+                        } label: {
+                            Label("Delete", systemImage: "trash")
+                        }
+                    }
                     .contextMenu {
                         docContextMenu(doc)
                     }

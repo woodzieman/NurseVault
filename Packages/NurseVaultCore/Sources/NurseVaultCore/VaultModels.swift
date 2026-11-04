@@ -37,6 +37,13 @@ public final class VaultDoc: NSManagedObject {
     @NSManaged public var addedDate: Date?
     @NSManaged public var section: VaultSection?
     @NSManaged public var folder: VaultFolder?
+    // MARK: - Book-specific properties
+    @NSManaged public var currentPage: Int32
+    @NSManaged public var totalPages: Int32
+    @NSManaged public var lastReadDate: Date?
+    /// Comma-separated bookmark page numbers (e.g. "3,7,12"). Stored as String
+    /// because Core Data has no native Set<Int> type.
+    @NSManaged public var bookmarksStr: String?
 }
 
 // MARK: - Watch Display Types
@@ -261,7 +268,12 @@ public enum VaultModel {
             attr("mimeType", .stringAttributeType),
             requiredAttr("addedDate", .dateAttributeType, defaultValue: Date()),
             attr("fileData", .binaryDataAttributeType) { $0.allowsExternalBinaryDataStorage = true },
-            attr("extractedText", .stringAttributeType)
+            attr("extractedText", .stringAttributeType),
+            // MARK: - Book-specific attributes
+            requiredAttr("currentPage", .integer32AttributeType, defaultValue: Int32(1)),
+            requiredAttr("totalPages", .integer32AttributeType, defaultValue: Int32(0)),
+            attr("lastReadDate", .dateAttributeType),
+            attr("bookmarksStr", .stringAttributeType)
         ])
 
         // --- Relationships ---
@@ -291,5 +303,68 @@ public enum VaultModel {
         e.managedObjectClassName = NSStringFromClass(type)
         e.properties = properties
         return e
+    }
+}
+
+// MARK: - Book convenience properties
+
+extension VaultDoc {
+    /// Whether this document is flagged as a book (imported through the
+    /// book import path). Books are excluded from the general document list
+    /// and appear only on the BookShelf.
+    public var isBook: Bool {
+        totalPages > 0
+    }
+    
+    /// Reading progress as a 0…1 fraction. Returns 0 when totalPages is 0.
+    public var readingProgress: Double {
+        guard totalPages > 0 else { return 0 }
+        return Double(currentPage) / Double(totalPages)
+    }
+    
+    /// Total pages as an Int (from Int32).
+    public var bookTotalPages: Int {
+        Int(totalPages)
+    }
+    
+    /// Current reading page as an Int (from Int32).
+    public var bookCurrentPage: Int {
+        Int(currentPage)
+    }
+    
+    /// Sets the total page count and flags this document as a book.
+    public func markAsBook(totalPages: Int) {
+        self.totalPages = Int32(totalPages)
+        if self.currentPage == 0 {
+            self.currentPage = 1
+        }
+        self.lastReadDate = Date()
+    }
+    
+    /// Updates the current reading page and last-read timestamp.
+    public func updateReadingProgress(to page: Int) {
+        self.currentPage = Int32(max(1, min(page, Int(totalPages))))
+        self.lastReadDate = Date()
+    }
+    
+    // MARK: - Bookmarks
+    
+    /// Returns the set of bookmarked page numbers (page 1-indexed).
+    public var bookmarkPages: Set<Int> {
+        guard let str = bookmarksStr, !str.isEmpty else { return [] }
+        return str.split(separator: ",")
+            .compactMap { Int($0.trimmingCharacters(in: .whitespaces)) }
+            .reduce(into: []) { $0.insert($1) }
+    }
+    
+    /// Adds or removes a single page from the bookmark set.
+    public func toggleBookmarkPage(_ page: Int) {
+        var pages = bookmarkPages
+        if pages.contains(page) {
+            pages.remove(page)
+        } else {
+            pages.insert(page)
+        }
+        bookmarksStr = pages.isEmpty ? nil : pages.map { String($0) }.joined(separator: ",")
     }
 }

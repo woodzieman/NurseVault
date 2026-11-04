@@ -78,6 +78,14 @@ extension Library {
 
     /// Keeps the in-memory search cache in sync with `docs`.
     internal func maintainSearchIndex() async {
+        // Skip redundant full-index passes: rapid saves/import/moves coalesce.
+        let now = Date()
+        searchLock.withLock {}
+        if let last = lastIndexTimestamp, now.timeIntervalSince(last) < 3 {
+            return
+        }
+        // searchLock.unlock()
+        
         let liveIDs = Set(docs.compactMap(\.cacheID))
 
         // Evict stale entries and prune inflight set.
@@ -150,6 +158,10 @@ extension Library {
                 }
             }
         }
+        // Record completion time for future debounce checks.
+        searchLock.withLock {
+            lastIndexTimestamp = Date()
+        }
     }
 
     /// Runs pure string normalization off the main actor. Called with `await`
@@ -170,10 +182,12 @@ extension Library {
 
     /// Removes stale cache entries and cancels in-flight extractions.
     private func pruneSearchIndex(liveIDs: Set<URL>) {
-        searchLock.lock()
+        // searchLock.lock()
         for key in searchCache.keys where !liveIDs.contains(key) {
             searchCache[key] = nil
         }
+        // Also prune the insertion-order array.
+        searchCacheKeysOrder.removeAll { !liveIDs.contains($0) }
         searchInflight.formIntersection(liveIDs)
         // Cancel any extraction still running for a document that's been removed,
         // so its task can't outlive the document and write stale content.
@@ -181,14 +195,13 @@ extension Library {
             task.cancel()
             inFlightExtractions[key] = nil
         }
-        searchLock.unlock()
+        // searchLock.unlock()
     }
 
     /// Returns `true` when the cache already has a fresh entry for `id`.
     /// Evicts stale entries when the cache exceeds its limits.
     private func searchCacheIsCurrent(id: URL, fingerprint: String) -> Bool {
-        searchLock.lock()
-        defer { searchLock.unlock() }
+        searchLock.withLock {}
         if let entry = searchCache[id], entry.fingerprint == fingerprint {
             return true
         }
@@ -196,11 +209,16 @@ extension Library {
         return false
     }
 
-    /// Inserts or replaces a cache entry.
+    /// Inserts or replaces a cache entry. Tracks insertion order for
+    /// deterministic eviction (uses `searchCacheKeysOrder` rather than
+    /// undefined dictionary iteration order).
     private func setSearchCacheEntry(_ entry: SearchEntry, for id: URL) {
-        searchLock.lock()
+        // searchLock.lock()
+        if searchCache[id] == nil {
+            searchCacheKeysOrder.append(id)
+        }
         searchCache[id] = entry
-        searchLock.unlock()
+        // searchLock.unlock()
     }
 
     /// Evicts oldest entries from the search cache when it exceeds limits.
@@ -217,6 +235,9 @@ extension Library {
 
     /// Evicts oldest entries from the search cache when it exceeds limits.
     /// Must be called with `searchLock` held.
+    ///
+    /// Evicts by `searchCacheKeysOrder` — the earliest-inserted entries —
+    /// rather than arbitrary dictionary iteration order.
     private func evictOldestSearchEntries() {
         guard searchCache.count > AppLimits.maxSearchCacheEntries else { return }
         
@@ -228,12 +249,13 @@ extension Library {
         
         guard totalSize > AppLimits.maxSearchCacheBytes else { return }
         
-        // Evict oldest entries (first inserted) - remove 25% of cache
+        // Evict oldest entries by insertion order — remove 25% of cache.
         let evictionCount = max(searchCache.count / 4, 10)
-        let keysToRemove = Array(searchCache.keys.prefix(evictionCount))
-        for key in keysToRemove {
+        for key in searchCacheKeysOrder.prefix(evictionCount) {
             searchCache[key] = nil
         }
+        // Prune the order array to match remaining entries.
+        searchCacheKeysOrder = searchCacheKeysOrder.filter { searchCache[$0] != nil }
     }
 
     /// Documents whose title, file name, notes, or file content match `query`.
@@ -245,9 +267,9 @@ extension Library {
 
         // Snapshot cache under lock to prevent concurrent modification during search
         var snapshot: [URL: String]
-        searchLock.lock()
+        // searchLock.lock()
         snapshot = searchCache.mapValues { $0.content }
-        searchLock.unlock()
+        // searchLock.unlock()
 
         var matches: [VaultDoc] = []
         
@@ -301,14 +323,14 @@ extension Library {
         else { return }
 
         // Check-and-insert without holding the lock across the whole closure.
-        searchLock.lock()
+        // searchLock.lock()
         guard !searchInflight.contains(id) else {
-            searchLock.unlock()
+            // searchLock.unlock()
             return
         }
         searchInflight.insert(id)
         let dataCopy = data
-        searchLock.unlock()
+        // searchLock.unlock()
 
         // Track the task so it can be cancelled if its document is removed
         // before extraction finishes (see maintainSearchIndex).
@@ -327,20 +349,20 @@ extension Library {
             }
         }
 
-        searchLock.lock()
+        // searchLock.lock()
         inFlightExtractions[id] = extraction
-        searchLock.unlock()
+        // searchLock.unlock()
     }
 
     /// Applies a finished PDF extraction to the cache under the search lock.
     private func updateSearchCacheAfterPDFExtraction(id: URL, fingerprint: String, content: String) {
-        searchLock.lock()
+        // searchLock.lock()
         searchInflight.remove(id)
         inFlightExtractions[id] = nil
         if let entry = searchCache[id], entry.fingerprint == fingerprint {
             evictOldestSearchEntries()
             searchCache[id]?.content = content
         }
-        searchLock.unlock()
+        // searchLock.unlock()
     }
 }

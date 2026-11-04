@@ -1,5 +1,31 @@
 # Changes Summary — Nurse Vault (Nov 3, 2026)
 
+## Code Blue tab: built-in ACLS + PALS algorithm content with drug dosing
+
+The existing **Code Blue** vault section now ships with new built-in
+resuscitation material instead of starting empty:
+
+1. **Built-in ACLS algorithm** (`CodeBlueContent.adultACLS`) — 2025 AHA adult
+   ACLS for cardiac arrest: high-quality CPR, shockable-rhythm (VF/pVT) workflow
+   with single-shock/immediate-CPR dosing, epinephrine dosing, amiodarone/lidocaine
+   therapy, and asystole/PEA care.
+2. **Built-in PALS algorithm** (`CodeBlueContent.pediatricPALS`) — 2025 AHA PALS
+   for pediatric cardiac arrest: weight-based defibrillation dosing (2 J/kg →
+   4 J/kg → up to 10 J/kg or adult dose), epinephrine 0.01 mg/kg dosing, amiodarone
+   5 mg/kg bolus, lidocaine, and atropine for bradycardia.
+3. **Drug dosing** — epinephrine, amiodarone/lidocaine, atropine, and the other
+   vasopressor/antiarrhythmic dosing used during the algorithms, kept alongside
+   the steps that use them.
+4. **Seeding** (`Library.ensureCodeBlueContent()`) — fresh installs get the
+   built-in documents through the existing default-section seeding; installs that
+   already have a vault get the built-in documents added to their existing Code
+   Blue section when missing (no vault reset required).
+5. **Sync/search** — content flows through the existing vault path (`VaultDoc`
+   notes), so it is offline-first, private-CloudKit-synced, and picked up by the
+   universal search index with no further wiring.
+
+---
+
 ## Book import: loading bar, real import, searchable text — v5.3 (build 84)
 
 The book ingestion engine was non-functional: file-picked URLs are

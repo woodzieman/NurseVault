@@ -2,17 +2,12 @@ import Foundation
 import Observation
 import SwiftUI
 
-/// UI state for an in-flight book import.
-///
-/// The ingestion engine reports progress from a background executor; this
-/// object is `@MainActor`-isolated so views can observe it safely, and the
-/// progress closure hops onto the main actor before mutating it.
+/// Minimal UI state for an in-flight document import.
 @MainActor
 @Observable
 final class BookImportState {
     var isActive = false
     var fileName: String? = nil
-    /// `nil` means “indeterminate”; `0…1` means determinate.
     var progress: Double? = nil
     var error: String? = nil
 
@@ -29,40 +24,11 @@ final class BookImportState {
 
     func finish() {
         isActive = false
-        fileName = nil
-        progress = nil
+        progress = 1
     }
 
     func fail(_ message: String) {
         isActive = false
-        progress = nil
         error = message
-    }
-}
-
-/// A small centered loading bar shown while the book ingestion engine is
-/// extracting and indexing text.
-struct BookImportProgressOverlay: View {
-    @Bindable var state: BookImportState
-
-    var body: some View {
-        VStack(spacing: 10) {
-            if let progress = state.progress {
-                ProgressView(value: progress)
-                    .tint(.accentColor)
-            } else {
-                ProgressView()
-            }
-
-            Text(state.fileName.map { "Importing \($0)…" } ?? "Importing book…")
-                .font(.footnote)
-                .foregroundStyle(.secondary)
-                .multilineTextAlignment(.center)
-        }
-        .padding(16)
-        .frame(maxWidth: 320)
-        .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 14))
-        .shadow(radius: 10)
-        .padding()
     }
 }

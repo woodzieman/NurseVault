@@ -4,6 +4,9 @@ import CloudKit
 import Network
 import Observation
 import OSLog
+#if canImport(PDFKit)
+import PDFKit
+#endif
 #if os(watchOS)
 import WidgetKit
 #endif
@@ -46,9 +49,16 @@ public final class Library {
     @ObservationIgnored private var isOnline = false
     @ObservationIgnored private var isStoreLoaded = false
     @ObservationIgnored var searchCache: [URL: SearchEntry] = [:]
+    /// Tracks cache entry insertion order so `evictOldestSearchEntries`
+    /// removes the *earliest inserted* entries (not arbitrary dictionary
+    /// iteration order, which is undefined in Swift).
+    @ObservationIgnored var searchCacheKeysOrder: [URL] = []
     @ObservationIgnored var searchInflight = Set<URL>()
-    /// Protects concurrent access to `searchCache` and `searchInflight`
-    /// from background extraction tasks.
+    /// Timestamp of the last full index pass; skips redundant full passes
+    /// within 3 seconds (rapid saves, imports, moves coalesce).
+    @ObservationIgnored var lastIndexTimestamp: Date? = nil
+    /// Protects concurrent access to `searchCache`, `searchCacheKeysOrder`,
+    /// `searchInflight`, and `lastIndexTimestamp`.
     @ObservationIgnored var searchLock = NSLock()
 
     /// In-flight PDF-extraction tasks keyed by document cache ID, so a task can
@@ -185,6 +195,10 @@ public final class Library {
         if sections.isEmpty {
             ensureDefaultSections()
         }
+        // The built-in Code Blue content (ACLS + PALS algorithms and the drug
+        // dosing used during those algorithms) is seeded above for fresh installs
+        // and added to an existing Code Blue section by this step.
+        ensureCodeBlueContent()
         #endif
         // One-time migration (all platforms): remove the legacy Merck vault import.
         // Merck is a bundled read-only reference (like the Drug Reference), never in
@@ -329,14 +343,26 @@ public final class Library {
         }
     }
 
-    public func reload() async {
+    /// Reloads local data when a sync with the server finishes, so edits made
+    /// on the user's other devices appear while the app is open.
+    ///
+    /// - Parameter `suppressIfSaved`: when `true`, skips updating in-memory
+    ///   arrays if the caller just saved (the arrays are already correct from
+    ///   the synchronous mutation). This prevents a saved deletion from being
+    ///   undone when `reload` refetches from Core Data.
+    public func reload(suppressIfSaved: Bool = false) async {
         guard isStoreLoaded else { return }
         // Fetch off the main thread so opening the store or scanning a large
         // vault can't freeze the UI (see §7.1).
         let snapshot = await Self.fetchReloadSnapshot(container: container)
-        sections = snapshot.sections
-        folders = snapshot.folders
-        docs = snapshot.docs
+        // If the caller just saved, the in-memory arrays are already correct
+        // (synchronous mutations + saved to Core Data). Refreshing from the
+        // store would re-add a deleted doc or miss a newly added one, so skip.
+        if !suppressIfSaved {
+            sections = snapshot.sections
+            folders = snapshot.folders
+            docs = snapshot.docs
+        }
         await maintainSearchIndex()
         writeSummary()
         // On watchOS the Core Data store is always empty (separate store URL).
@@ -377,7 +403,7 @@ public final class Library {
             title: doc.title,
             fileName: doc.fileName,
             mimeType: doc.mimeType,
-            noteText: doc.noteText,
+            noteText: doc.extractedText ?? doc.noteText,
             addedDateISO: doc.addedDate.map { iso8601Formatter.string(from: $0) },
             sectionName: doc.section?.name,
             sectionIcon: doc.section?.icon
@@ -502,6 +528,11 @@ public final class Library {
         )
     }
 
+    /// Saves pending Core Data changes to the store. Returns `true` on
+    /// success, `false` when the save fails (disk full, corruption, etc).
+    ///
+    /// A failed save does **not** roll back the context — the pending changes
+    /// remain so the user can retry (e.g., after freeing disk space).
     public func save() -> Bool {
         guard isStoreLoaded, context.hasChanges else { return true }
         do {
@@ -513,23 +544,43 @@ public final class Library {
             NSLog("NurseVault: save failed: \(error.localizedDescription)")
             #endif
             lastSaveError = error
-            context.rollback()
-            // Attempt to retry once after a brief delay
-            weak let weakSelf = self
-            Task { @MainActor in
-                try? await Task.sleep(for: .milliseconds(500))
-                guard let self = weakSelf, self.context.hasChanges else { return }
-                do {
-                    try self.context.save()
-                    self.lastSaveError = nil
-                } catch {
-                    #if DEBUG
-                    NSLog("NurseVault: retry save also failed: \(error.localizedDescription)")
-                    #endif
-                }
-            }
             return false
         }
+    }
+
+    // MARK: - Code Blue content
+
+    /// The built-in vault section that hosts the resuscitation content.
+    private static let codeBlueSectionName = "Code Blue"
+    private static let codeBlueSectionIcon = "cross.vial"
+
+    /// Ensures the built-in Code Blue content — the ACLS and PALS resuscitation
+    /// algorithms plus the drug dosing used during those algorithms — is present
+    /// in the vault.
+    ///
+    /// Fresh installs create the empty "Code Blue" default section and seed the
+    /// built-in documents through `ensureDefaultSections`. Installs that already
+    /// have a vault get the built-in documents added to their existing Code Blue
+    /// section when missing, so the new ACLS/PALS material ships without a vault
+    /// reset.
+    public func ensureCodeBlueContent() {
+        guard isStoreLoaded else { return }
+        guard let section = codeBlueSection() else { return }
+        let existingTitles = Set(docs(in: section).map { $0.title ?? "" })
+        for algorithm in [CodeBlueContent.adultACLS, CodeBlueContent.pediatricPALS] {
+            if existingTitles.contains(algorithm.title) { continue }
+            _ = addNote(title: algorithm.title, body: algorithm.documentBody, to: section)
+        }
+    }
+
+    /// Finds the built-in Code Blue section.
+    private func codeBlueSection() -> VaultSection? {
+        if let existing = sections.first(where: { $0.name == Self.codeBlueSectionName }) {
+            return existing
+        }
+        let request = NSFetchRequest<VaultSection>(entityName: "Section")
+        request.predicate = NSPredicate(format: "name == %@", Self.codeBlueSectionName)
+        return try? context.fetch(request).first
     }
 
     // MARK: - Sections
@@ -550,8 +601,8 @@ public final class Library {
             section.icon = preset.icon
             section.sortOrder = NSNumber(value: index)
         }
-        _ = save()
-        Task { await reload() }
+        let saved = save()
+        Task { await reload(suppressIfSaved: saved) }
     }
 
     /// Merck Manual is a **bundled, read-only reference** — presented through
@@ -612,20 +663,21 @@ public final class Library {
 
     public func renameSection(_ section: VaultSection, to name: String) {
         section.name = name
-        _ = save()
-        Task { await reload() }
+        let saved = save()
+        Task { await reload(suppressIfSaved: saved) }
     }
 
     public func renameFolder(_ folder: VaultFolder, to name: String) {
         folder.name = name
-        _ = save()
-        Task { await reload() }
+        let saved = save()
+        Task { await reload(suppressIfSaved: saved) }
     }
 
     public func deleteSection(_ section: VaultSection) {
         context.delete(section)
-        _ = save()
-        Task { await reload() }
+        let saved = save()
+        sections.removeAll { $0 === section }
+        Task { await reload(suppressIfSaved: saved) }
     }
 
     @discardableResult
@@ -634,15 +686,16 @@ public final class Library {
         folder.name = name
         folder.section = parent?.section ?? section
         folder.parent = parent
-        _ = save()
-        Task { await reload() }
+        let saved = save()
+        Task { await reload(suppressIfSaved: saved) }
         return folder
     }
 
     public func deleteFolder(_ folder: VaultFolder) {
         context.delete(folder)
-        _ = save()
-        Task { await reload() }
+        let saved = save()
+        folders.removeAll { $0 === folder }
+        Task { await reload(suppressIfSaved: saved) }
     }
 
     /// Moves a folder under a new parent (or to the top level with `nil`).
@@ -659,8 +712,8 @@ public final class Library {
         }
         folder.parent = parent
         folder.section = parent?.section
-        _ = save()
-        Task { await reload() }
+        let saved = save()
+        Task { await reload(suppressIfSaved: saved) }
     }
 
     /// Reorders sections after a drag (indices refer to the current `sections` array).
@@ -670,8 +723,8 @@ public final class Library {
         for (index, section) in ordered.enumerated() {
             section.sortOrder = NSNumber(value: index)
         }
-        _ = save()
-        Task { await reload() }
+        let saved = save()
+        Task { await reload(suppressIfSaved: saved) }
     }
 
     // MARK: - Documents
@@ -694,8 +747,8 @@ public final class Library {
         doc.addedDate = Date()
         doc.section = folder?.section ?? section
         doc.folder = folder
-        _ = save()
-        Task { await reload() }
+        let saved = save()
+        Task { await reload(suppressIfSaved: saved) }
         return doc
     }
 
@@ -769,8 +822,8 @@ public final class Library {
 
         var progress = ImportProgress()
         importDirectory(url, into: root, section: section, existingNames: destinationNames, progress: &progress)
-        _ = save()
-        Task { await reload() }
+        let saved = save()
+        Task { await reload(suppressIfSaved: saved) }
         return .init(
             folderName: rootName,
             importedCount: progress.imported,
@@ -863,15 +916,22 @@ public final class Library {
         doc.addedDate = Date()
         doc.section = folder?.section ?? section
         doc.folder = folder
-        _ = save()
-        Task { await reload() }
+        let saved = save()
+        Task { await reload(suppressIfSaved: saved) }
         return doc
     }
 
+    /// Deletes a document from the vault.
+    ///
+    /// This method is synchronous but spawns an async reload task so the
+    /// UI updates quickly via the synchronous `docs.removeAll` and then
+    /// receives the definitive list from the store.
     public func deleteDocument(_ doc: VaultDoc) {
         context.delete(doc)
-        _ = save()
-        Task { await reload() }
+        let saved = save()
+        // Update in-memory arrays immediately for responsive UI.
+        docs.removeAll { $0.objectID == doc.objectID }
+        Task { await reload(suppressIfSaved: saved) }
     }
 
     /// Pass `section: nil` to remove the document from any section.
@@ -890,10 +950,66 @@ public final class Library {
         doc.noteText = noteText
         doc.section = folder?.section ?? section
         doc.folder = folder
-        _ = save()
-        Task { await reload() }
+        let saved = save()
+        Task { await reload(suppressIfSaved: saved) }
     }
 
+    // MARK: - Books
+    
+    /// Documents flagged as books (totalPages > 0, set by `addBook`).
+    /// These are excluded from the general document list and appear
+    /// only on the BookShelf.
+    public var books: [VaultDoc] {
+        docs.filter { $0.isBook }
+            .sorted { ($0.title ?? "").localizedCompare($1.title ?? "") == .orderedAscending }
+    }
+    
+    /// Adds a document as a book with extracted text and page metadata.
+    /// Returns the created document.
+    @discardableResult
+    public func addBook(
+        imported: ImportedFile,
+        extractedText: String? = nil
+    ) -> VaultDoc {
+        let doc = addDocument(
+            imported: imported,
+            extractedText: extractedText,
+            to: nil,
+            in: nil
+        )
+        // Determine page count from PDF data.
+        let pageCount: Int
+        #if canImport(PDFKit)
+        if let pdf = PDFDocument(data: imported.data) {
+            pageCount = pdf.pageCount
+        } else {
+            pageCount = 0
+        }
+        #else
+        pageCount = 0
+        #endif
+        doc.markAsBook(totalPages: pageCount)
+        let saved = save()
+        Task { await reload(suppressIfSaved: saved) }
+        return doc
+    }
+    
+    /// Toggles a bookmark on a specific page of a book document.
+    /// Updates the in-memory state and persists the change.
+    public func toggleBookmark(_ doc: VaultDoc, page: Int) {
+        doc.toggleBookmarkPage(page)
+        let saved = save()
+        Task { await reload(suppressIfSaved: saved) }
+    }
+    
+    /// Saves reading progress for a book document.
+    /// Updates the current page and last-read timestamp, persists the change.
+    public func saveBookReadingProgress(_ doc: VaultDoc, page: Int) {
+        doc.updateReadingProgress(to: page)
+        let saved = save()
+        Task { await reload(suppressIfSaved: saved) }
+    }
+    
     /// Documents directly in one section, or everything when `section` is
     /// nil. Documents inside folders of the section count toward the section
     /// (a document's `section` always names the top-level section it

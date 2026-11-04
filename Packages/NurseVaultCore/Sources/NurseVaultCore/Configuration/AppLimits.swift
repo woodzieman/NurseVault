@@ -8,8 +8,7 @@ public enum AppLimits {
     /// Maximum PDF size to search in bytes (16 MB).
     public static let maxPDFSearchSize: Int = 16 * 1024 * 1024
     
-    /// Maximum number of import attempts before giving up.
-    public static let maxImportAttempts: Int = 1_000
+
     
     /// Number of parallel workers for content scanning operations.
     public static let scanWorkers: Int = 4

@@ -38,6 +38,9 @@ struct RootView: View {
     /// The calculator stack. Value-based so a calculator chosen from
     /// universal search (or a deep link) can be pushed programmatically.
     @State private var calculatorPath: [CalculatorInfo] = []
+    /// The book reader stack. Books opened from the BookShelf are pushed
+    /// here so the RootView's detail column can show the reader.
+    @State private var bookReaderPath: [VaultDoc] = []
 
     /// A specific item chosen from universal search, to be opened by its
     /// reference view when that view appears.
@@ -67,6 +70,8 @@ struct RootView: View {
         case books
         /// Results of the universal search.
         case searchResults
+        /// Built-in resuscitation algorithms (ACLS + PALS).
+        case codeBlue
     }
 
     /// Wrapper so a section can drive a sheet (`item:` requires Identifiable).
@@ -141,6 +146,7 @@ struct RootView: View {
         case "merck": selection = .merckManual
         case "dsm": selection = .dsmManual
         case "labs": selection = .labs
+        case "codeblue": selection = .codeBlue
         default: break
         }
     }
@@ -216,9 +222,20 @@ struct RootView: View {
                     )
                 case .labs:
                     LabsView()
+                case .codeBlue:
+                    CodeBlueView()
                 case .books:
                     NavigationStack {
-                        BooksView(library: library)
+                        if bookReaderPath.isEmpty {
+                            BookShelfView(library: library) { doc in
+                                bookReaderPath.append(doc)
+                            }
+                        } else {
+                            NavigationStack(path: $bookReaderPath) { bookShelf }
+                        }
+                    }
+                    .navigationDestination(for: VaultDoc.self) { doc in
+                        BookReaderView(doc: doc)
                     }
                 case .all, .section(_), .none, .searchResults:
                     NavigationStack(path: $vaultPath) {
@@ -406,6 +423,9 @@ struct RootView: View {
             Label("Labs", systemImage: "testtube.2")
                 .tag(SidebarItem.labs)
 
+            Label("Code Blue", systemImage: "cross.vial")
+                .tag(SidebarItem.codeBlue)
+
             Label("Books", systemImage: "book.closed.fill")
                 .tag(SidebarItem.books)
 
@@ -486,6 +506,14 @@ struct RootView: View {
         }
     }
 
+    // MARK: - Book reader navigation property
+    /// The BookShelf content, used when the book reader is pushed.
+    private var bookShelf: some View {
+        BookShelfView(library: library) { doc in
+            bookReaderPath.append(doc)
+        }
+    }
+
     private func handleSearchResultSelection(_ result: SearchResult) {
         // Open the *specific* item chosen, not just its category root.
         switch result {
@@ -538,7 +566,7 @@ struct RootView: View {
 
     private var currentSection: VaultSection? {
         switch selection {
-        case .all, .none, .drugReference, .merckManual, .dsmManual, .labs, .books, .searchResults:
+        case .all, .none, .drugReference, .merckManual, .dsmManual, .labs, .codeBlue, .books, .searchResults:
             return nil
         case .section(let section):
             return section
@@ -560,7 +588,7 @@ struct RootView: View {
 
     private func containerFromSelection() -> VaultContainer? {
         switch selection {
-        case .all, .none, .drugReference, .merckManual, .dsmManual, .mediCalc, .labs, .books, .searchResults:
+        case .all, .none, .drugReference, .merckManual, .dsmManual, .mediCalc, .labs, .codeBlue, .books, .searchResults:
             return nil
         case .section(let section):
             return .section(section)

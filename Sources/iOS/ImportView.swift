@@ -328,7 +328,8 @@ struct ImportView: View {
             }
             .overlay {
                 if importState.isActive {
-                    BookImportProgressOverlay(state: importState)
+                    ProgressView("Importing...\(importState.fileName ?? "")")
+                        .padding()
                 }
             }
             #if os(macOS)
@@ -450,20 +451,25 @@ struct ImportView: View {
     private func importBookFile(from url: URL) {
         importState.begin(url.lastPathComponent)
         let importModel = importState
+        // Hold security scope for the entire async import to avoid iOS security-scoped URL expiry
+        let neededScope = url.startAccessingSecurityScopedResource()
 
         Task { @MainActor in
+            defer {
+                if neededScope {
+                    url.stopAccessingSecurityScopedResource()
+                }
+            }
             do {
                 let mimeType = UTType(filenameExtension: url.pathExtension)?.preferredMIMEType
 
-                let extractedText = await BookIngestionEngine.shared.extractText(
-                    from: url,
-                    mimeType: mimeType,
-                    fileName: url.lastPathComponent
-                ) { fraction in
-                    Task { @MainActor in
-                        importModel.update(fraction)
-                    }
+                // For text files, extract directly; for PDFs/RTFs, rely on background extraction.
+                let ext = url.pathExtension.lowercased()
+                var extractedText: String?
+                if ext == "txt" {
+                    extractedText = FileSupport.text(from: try? Data(contentsOf: url))
                 }
+                // For PDFs/RTFs the Library.addBook() triggers background search extraction.
 
                 guard let extractedText else {
                     importModel.fail(

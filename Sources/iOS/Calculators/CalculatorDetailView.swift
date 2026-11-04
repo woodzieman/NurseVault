@@ -9,63 +9,8 @@ struct CalculatorDetailView: View {
     private let store = ResultStore.shared
 
     var body: some View {
-        Group {
-            switch calculator.category.lowercased() {
-            case "cardiovascular":
-                CardiovascularView(calculator: calculator)
-            case "critical care scores":
-                CriticalCareView(calculator: calculator)
-            case "ebm & statistics":
-                EBMStatisticsView(calculator: calculator)
-            case "electrolytes & acid-base":
-                ElectrolytesAcidBaseView(calculator: calculator)
-            case "growth & anthropometrics":
-                GrowthAnthropometricsView(calculator: calculator)
-            case "hepatic":
-                HepaticView(calculator: calculator)
-            case "pulmonary", "respiratory & gas exchange":
-                PulmonaryView(calculator: calculator)
-            case "renal":
-                RenalView(calculator: calculator)
-            case "neurology":
-                NeurologyView(calculator: calculator)
-            case "neonatology":
-                NeonatologyView(calculator: calculator)
-            case "infectious disease":
-                InfectiousDiseaseView(calculator: calculator)
-            case "gastroenterology":
-                GastroenterologyView(calculator: calculator)
-            case "endocrinology":
-                EndocrinologyView(calculator: calculator)
-            case "oncology & risk":
-                OncologyView(calculator: calculator)
-            case "rheumatology":
-                RheumatologyView(calculator: calculator)
-            case "mental health & screening":
-                MentalHealthView(calculator: calculator)
-            case "substance use":
-                SubstanceUseView(calculator: calculator)
-            case "sleep medicine":
-                SleepMedicineView(calculator: calculator)
-            case "urology":
-                UrologyView(calculator: calculator)
-            case "unit conversions":
-                UnitConversionsView(calculator: calculator)
-            case "pediatrics":
-                PediatricsView(calculator: calculator)
-            case "hematology":
-                HematologyView(calculator: calculator)
-            case "pharmacology & toxicology":
-                PharmacologyAndToxicologyView(calculator: calculator)
-            case "obstetrics":
-                ObstetricsView(calculator: calculator)
-            case "other":
-                OtherView(calculator: calculator)
-            default:
-                Text("Calculator view not yet implemented: \(calculator.title)")
-            }
-        }
-        .navigationTitle(calculator.title)
+        calculatorView
+            .navigationTitle(calculator.title ?? "Untitled")
         #if os(iOS)
         .navigationBarTitleDisplayMode(.large)
         #endif
@@ -77,6 +22,78 @@ struct CalculatorDetailView: View {
                 Image(systemName: store.isFavorite(calculator.id) ? "star.fill" : "star")
             }
             .accessibilityLabel("Favorite")
+        }
+    }
+
+    /// Routes the calculator to its implementation view by its normalized
+    /// `categoryKey`, which strips punctuation and lowercases the category
+    /// string. This is the single source of truth — a category mismatch in
+    /// the spec file now produces a clear "not found" message instead of
+    /// silently falling through to the default case.
+    private var calculatorView: some View {
+        switch calculator.categoryKey {
+        case "cardiovascular":
+            return AnyView(CardiovascularView(calculator: calculator))
+        case "criticalcaresscores":
+            return AnyView(CriticalCareView(calculator: calculator))
+        case "ebmstatistics":
+            return AnyView(EBMStatisticsView(calculator: calculator))
+        case "electrolytesacidbase":
+            return AnyView(ElectrolytesAcidBaseView(calculator: calculator))
+        case "growthanthropometrics":
+            return AnyView(GrowthAnthropometricsView(calculator: calculator))
+        case "hepatic":
+            return AnyView(HepaticView(calculator: calculator))
+        case "pulmonary", "respiratorygasexchange":
+            return AnyView(PulmonaryView(calculator: calculator))
+        case "renal":
+            return AnyView(RenalView(calculator: calculator))
+        case "neurology":
+            return AnyView(NeurologyView(calculator: calculator))
+        case "neonatology":
+            return AnyView(NeonatologyView(calculator: calculator))
+        case "infectiousdisease":
+            return AnyView(InfectiousDiseaseView(calculator: calculator))
+        case "gastroenterology":
+            return AnyView(GastroenterologyView(calculator: calculator))
+        case "endocrinology":
+            return AnyView(EndocrinologyView(calculator: calculator))
+        case "oncologyandrisk":
+            return AnyView(OncologyView(calculator: calculator))
+        case "rheumatology":
+            return AnyView(RheumatologyView(calculator: calculator))
+        case "mentalhealthscreening":
+            return AnyView(MentalHealthView(calculator: calculator))
+        case "substanceuse":
+            return AnyView(SubstanceUseView(calculator: calculator))
+        case "sleepmedicine":
+            return AnyView(SleepMedicineView(calculator: calculator))
+        case "urology":
+            return AnyView(UrologyView(calculator: calculator))
+        case "unitconversions":
+            return AnyView(UnitConversionsView(calculator: calculator))
+        case "pediatrics":
+            return AnyView(PediatricsView(calculator: calculator))
+        case "hematology":
+            return AnyView(HematologyView(calculator: calculator))
+        case "pharmacologytoxicology":
+            return AnyView(PharmacologyAndToxicologyView(calculator: calculator))
+        case "obstetrics":
+            return AnyView(ObstetricsView(calculator: calculator))
+        default:
+            return AnyView(NeverView(calculator: calculator))
+        }
+    }
+
+    /// Shows a placeholder when no calculator spec matches.
+    private struct NeverView: View {
+        let calculator: CalculatorInfo
+        var body: some View {
+            ContentUnavailableView(
+                "Calculator Not Found",
+                systemImage: "questionmark.circle",
+                description: Text("No view implementation for \(calculator.title).")
+            )
         }
     }
 }
