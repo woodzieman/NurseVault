@@ -34,7 +34,7 @@ struct CalculatorDetailView: View {
         switch calculator.categoryKey {
         case "cardiovascular":
             return AnyView(CardiovascularView(calculator: calculator))
-        case "criticalcaresscores":
+        case "criticalcarescores":
             return AnyView(CriticalCareView(calculator: calculator))
         case "ebmstatistics":
             return AnyView(EBMStatisticsView(calculator: calculator))
@@ -58,7 +58,7 @@ struct CalculatorDetailView: View {
             return AnyView(GastroenterologyView(calculator: calculator))
         case "endocrinology":
             return AnyView(EndocrinologyView(calculator: calculator))
-        case "oncologyandrisk":
+        case "oncologyrisk":
             return AnyView(OncologyView(calculator: calculator))
         case "rheumatology":
             return AnyView(RheumatologyView(calculator: calculator))
@@ -80,6 +80,8 @@ struct CalculatorDetailView: View {
             return AnyView(PharmacologyAndToxicologyView(calculator: calculator))
         case "obstetrics":
             return AnyView(ObstetricsView(calculator: calculator))
+        case "other":
+            return AnyView(OtherView(calculator: calculator))
         default:
             return AnyView(NeverView(calculator: calculator))
         }
