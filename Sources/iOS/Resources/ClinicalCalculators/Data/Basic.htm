@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Basic Unit Coversions</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="units, fac_all, fac_uc, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+
+codes = new Array();
+codeparts = new Array();
+var dp = 1;
+var tovalue;
+var to_selected = 0;
+
+function showToValue(){
+with (document.Basic_form){
+to_param.value = fixDP(tovalue, dp);
+}}
+
+function setDecPts(){
+with (document.Basic_form){
+dp = decpts.options[decpts.selectedIndex].text;
+unitConvert();
+}}
+
+function unitLoad(){
+with (document.Basic_form){
+
+to_selected = 0;
+
+for (i = 0; i < from_unit.options.length; i++) { codes[i] = from_unit.options[i].value; }
+
+codeparts = from_unit.options[from_unit.selectedIndex].value.split('|');
+findunit = codeparts[0];
+findtype = codeparts[1];
+to_unit.options.length = 0;
+
+for (i = 0; i < codes.length; i++){
+codeparts = codes[i].split('|');
+if (codeparts[1]  == findtype) {
+	to_unit.options[to_unit.options.length] = new Option(codeparts[0],codes[i]);
+	if ((to_selected == 0) && (codeparts[0] != findunit)) { to_unit.options[to_unit.options.length - 1].selected = true; to_selected = 1; }
+	}
+}
+to_param.value = "";
+unitConvert();
+}}
+
+function unitConvert(){
+with (document.Basic_form){
+
+if (to_unit.selectedIndex + from_unit.selectedIndex == 0) return;
+
+if (from_param.value > ''){
+unitcode = from_unit.options[from_unit.selectedIndex].value;
+codeparts = unitcode.split('|');
+fromtype = codeparts[1];
+frommult = parseFloat(codeparts[2]);
+fromadd = parseFloat(codeparts[3]);
+
+unitcode = to_unit.options[to_unit.selectedIndex].value;
+codeparts = unitcode.split('|');
+totype = codeparts[1];
+tomult = parseFloat(codeparts[2]);
+toadd = parseFloat(codeparts[3]);
+
+fromvalue = parseFloat(from_param.value);
+tovalue = ((fromvalue * frommult + fromadd) - toadd) / tomult;
+showToValue();
+}}}
+
+function clrResults(){
+with (document.Basic_form){
+from_param.value = '';
+fromvalue = 0;
+to_param.value = '';
+tovalue = 0;
+}}
+
+/* ]]> */
+</script>
+
+
+
+<form name="Basic_form" id="Basic_form" action="" onsubmit="return false;" onkeydown="to_param.value='';" onkeyup="unitConvert();">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Basic Unit Coversions
+</span></td></tr></table><br />&nbsp;<br />
+<br />&nbsp;<br />
+<center>
+<div id="calc_main">
+<div id="calc_input">
+<table border="0" cellpadding="6" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right"><span class="medCalcFontOneBold">FROM</span></td>
+<td align="left"><input type="text" name="from_param" style="width:50px;" onchange="unitConvert();" /></td>
+<td>
+<select name="from_unit" onchange="unitLoad();">
+<option value="Pull-Down|0|1|0" selected="selected">Pull-Down</option>
+<option value="#|0|1|0|">#</option>
+<option value="$|42|1|0|">$</option>
+<option value="%O2|23|1|0|">%O2</option>
+<option value="%|6|1|0|">%</option>
+<option value="/mm^3|19|1|0|">/mm^3</option>
+<option value="10^12/L|15|1|0|">10^12/L</option>
+<option value="10^3/microL|37|1|0|">10^3/microL</option>
+<option value="10^3/mm^3|58|1|0|">10^3/mm^3</option>
+<option value="10^9/L|39|1|0|">10^9/L</option>
+<option value="atm|10|101325|0|">atm</option>
+<option value="bar|10|1e5|0|">bar</option>
+<option value="beats/min|38|1|0|">beats/min</option>
+<option value="bpm|26|1|0|">bpm</option>
+<option value="breaths/min|36|1|0|">breaths/min</option>
+<option value="centimeters|49|.01|0|">centimeters</option>
+<option value="cents|42|.01|0|">cents</option>
+<option value="cmH2O|10|98.06653543307087|0|">cmH2O</option>
+<option value="cmHg|10|1333.22|0|">cmHg</option>
+<option value="cm^2|14|1|0|">cm^2</option>
+<option value="cm|9|.01|0|">cm</option>
+<option value="days|48|86400|0|">days</option>
+<option value="degC|7|1|0|">degC</option>
+<option value="degF|7|.555555555555556|-17.77777777777778|">degF</option>
+<option value="dyn-sec-cm-5|18|1|0|">dyn-sec-cm-5</option>
+<option value="eq|16|1|0|">eq</option>
+<option value="fL|8|1e-15|0|">fL</option>
+<option value="fractionO2|23|100|0|">fractionO2</option>
+<option value="fraction|6|100|0|">fraction</option>
+<option value="ftH2O|10|2989.068|0|">ftH2O</option>
+<option value="ft|9|.3048|0|">ft</option>
+<option value="g/dL_Alb|30|10|0|">g/dL_Alb</option>
+<option value="g/dL|2|1000|0|">g/dL</option>
+<option value="g/L_Alb|30|1|0|">g/L_Alb</option>
+<option value="gallon|57|3.785411784|0|">gallon</option>
+<option value="gm/day|35|1000|0|">gm/day</option>
+<option value="gm/day|44|1|0|">gm/day</option>
+<option value="gm/dL|2|1000|0|">gm/dL</option>
+<option value="gm/kg/day|20|1|0|">gm/kg/day</option>
+<option value="gm/kg|54|1000000|0|">gm/kg</option>
+<option value="gm/L|2|100|0|">gm/L</option>
+<option value="gm/sqcm|10|98.06653543307087|0|">gm/sqcm</option>
+<option value="gm_BUN|53|35.714|0|">gm_BUN</option>
+<option value="gm|1|1|0|">gm</option>
+<option value="hrs|48|3600|0|">hrs</option>
+<option value="hr|3|3600|0|">hr</option>
+<option value="inches|49|.0254|0|">inches</option>
+<option value="index|0|1|0|">index</option>
+<option value="inH2O|10|249.089|0|">inH2O</option>
+<option value="inHg|10|3386.39|0|">inHg</option>
+<option value="in|9|.0254|0|">in</option>
+<option value="IU/L|40|1|0|">IU/L</option>
+<option value="kcal/day|17|1|0|">kcal/day</option>
+<option value="kg|1|1000|0|">kg</option>
+<option value="kilograms|50|1000|0|">kilograms</option>
+<option value="km/hr|13|.2777777777777778|0|">km/hr</option>
+<option value="km/sec|13|1000|0|">km/sec</option>
+<option value="knots|13|.514444|0|">knots</option>
+<option value="kPa|10|1000|0|">kPa</option>
+<option value="L/min|4|1000|0|">L/min</option>
+<option value="L/sec|4|60000|0|">L/sec</option>
+<option value="lb|1|453.59237|0|">lb</option>
+<option value="Liter|57|1|0|">Liter</option>
+<option value="litresO2|23|3|21|">litresO2</option>
+<option value="L|8|1|0|">L</option>
+<option value="m/sec|13|1|0|">m/sec</option>
+<option value="mbar|10|100|0|">mbar</option>
+<option value="mcg/dL|2|.001|0|">mcg/dL</option>
+<option value="mcg/kg|54|1|0|">mcg/kg</option>
+<option value="mcgm/mL|41|1|0|">mcgm/mL</option>
+<option value="mcmol/L_Bili|34|1|0|">mcmol/L_Bili</option>
+<option value="mcmol/L_Cr|27|1|0|">mcmol/L_Cr</option>
+<option value="mEq/L/hr|25|1|0|">mEq/L/hr</option>
+<option value="mEq/L_Na|32|1|0|">mEq/L_Na</option>
+<option value="meq/L|59|1|0|">meq/L</option>
+<option value="mEq/L|5|.1|0|">mEq/L</option>
+<option value="mEq|16|.001|0|">mEq</option>
+<option value="mg%_Bili|34|17.1|0|">mg%_Bili</option>
+<option value="mg%_Cr|27|88.4|0|">mg%_Cr</option>
+<option value="mg%|2|1|0|">mg%</option>
+<option value="mg/day|35|1|0|">mg/day</option>
+<option value="mg/dL_Bili|34|17.1|0|">mg/dL_Bili</option>
+<option value="mg/dL_BUN|29|0.357|0|">mg/dL_BUN</option>
+<option value="mg/dL_Ca|31|0.25|0|">mg/dL_Ca</option>
+<option value="mg/dL_Chol|55|0.02586|0|">mg/dL_Chol</option>
+<option value="mg/dL_Cr|27|88.4|0|">mg/dL_Cr</option>
+<option value="mg/dL_Glu|28|0.0555|0|">mg/dL_Glu</option>
+<option value="mg/dL_HDL|56|0.02586|0|">mg/dL_HDL</option>
+<option value="mg/dL|2|1|0|">mg/dL</option>
+<option value="mg/kg|54|1000|0|">mg/kg</option>
+<option value="mg/mL|2|100|0|">mg/mL</option>
+<option value="mg|1|.001|0|">mg</option>
+<option value="micm|9|1e-6|0|">micm</option>
+<option value="miles/hr|13|.44704|0|">miles/hr</option>
+<option value="miles/sec|13|1609.344|0|">miles/sec</option>
+<option value="million/mm^3|19|1e6|0|">million/mm^3</option>
+<option value="mins|48|60|0|">mins</option>
+<option value="min|3|60|0|">min</option>
+<option value="mIU/mL|46|1|0|">mIU/mL</option>
+<option value="mL/dL|47|1|0|">mL/dL</option>
+<option value="mL/hr|4|.01666666667|0|">mL/hr</option>
+<option value="mL/L|47|.1|0|">mL/L</option>
+<option value="mL/min|4|1|0|">mL/min</option>
+<option value="mL/sec|4|60|0|">mL/sec</option>
+<option value="mL/sqm|22|1|0|">mL/sqm</option>
+<option value="mL|8|.001|0|">mL</option>
+<option value="mm/hr|45|1|0|">mm/hr</option>
+<option value="mmHg|10|133.322|0|">mmHg</option>
+<option value="mmol/L_BUN|29|1|0|">mmol/L_BUN</option>
+<option value="mmol/L_Ca|31|1|0|">mmol/L_Ca</option>
+<option value="mmol/L_Chol|55|1|0|">mmol/L_Chol</option>
+<option value="mmol/L_Glu|28|1|0|">mmol/L_Glu</option>
+<option value="mmol/L_HDL|56|1|0|">mmol/L_HDL</option>
+<option value="mmol/L_Na|32|1|0|">mmol/L_Na</option>
+<option value="mmol/L|33|1|0|">mmol/L</option>
+<option value="mmol_BUN|53|1|0|">mmol_BUN</option>
+<option value="mm|9|.001|0|">mm</option>
+<option value="months|43|1|0|">months</option>
+<option value="mOsm/dL|11|10|0|">mOsm/dL</option>
+<option value="mOsm/kg|11|1|0|">mOsm/kg</option>
+<option value="mo|52|1|0|">mo</option>
+<option value="m|9|1|0|">m</option>
+<option value="ng/kg/min|24|1|0|">ng/kg/min</option>
+<option value="ng/mL|2|.0001|0|">ng/mL</option>
+<option value="nm|9|1e-9|0|">nm</option>
+<option value="none|0|1|0|">none</option>
+<option value="number|0|1|0|">number</option>
+<option value="Pascal|10|1|0|">Pascal</option>
+<option value="pg|51|1|0|">pg</option>
+<option value="ph|12|1|0|">ph</option>
+<option value="points|0|1|0|">points</option>
+<option value="pounds|50|453.59237|0|">pounds</option>
+<option value="psi|10|6894.76|0|">psi</option>
+<option value="ratio|6|100|0|">ratio</option>
+<option value="score|0|1|0|">score</option>
+<option value="secs|48|1|0|">secs</option>
+<option value="sec|3|1|0|">sec</option>
+<option value="sqcm|14|1|0|">sqcm</option>
+<option value="sqm|14|10000|0|">sqm</option>
+<option value="sqrcm|14|1|0|">sqrcm</option>
+<option value="sqrm|14|10000|0|">sqrm</option>
+<option value="torr|10|133.322|0|">torr</option>
+<option value="u/L|21|1|0|">u/L</option>
+<option value="Vol%|47|1|0|">Vol%</option>
+<option value="weeks|48|604800|0|">weeks</option>
+<option value="yd|9|.9144|0|">yd</option>
+<option value="years|43|12|0|">years</option>
+<option value="yr|52|12|0|">yr</option>
+<option value="0|0|1|0"></option>
+</select></td></tr>
+<tr><td align="right"><span class="medCalcFontOneBold">TO</span></td>
+<td align="left"><input type="text" name="to_param" style="width:50px;" aria-readonly="true" /></td>
+<td align="left">
+<select name="to_unit" onchange="unitConvert();">
+<option value="Pull-Down|0|1|0" selected="selected">Pull-Down</option>
+<option value="#|0|1|0|">#</option>
+<option value="$|42|1|0|">$</option>
+<option value="%O2|23|1|0|">%O2</option>
+<option value="%|6|1|0|">%</option>
+<option value="/mm^3|19|1|0|">/mm^3</option>
+<option value="10^12/L|15|1|0|">10^12/L</option>
+<option value="10^3/microL|37|1|0|">10^3/microL</option>
+<option value="10^3/mm^3|58|1|0|">10^3/mm^3</option>
+<option value="10^9/L|39|1|0|">10^9/L</option>
+<option value="atm|10|101325|0|">atm</option>
+<option value="bar|10|1e5|0|">bar</option>
+<option value="beats/min|38|1|0|">beats/min</option>
+<option value="bpm|26|1|0|">bpm</option>
+<option value="breaths/min|36|1|0|">breaths/min</option>
+<option value="centimeters|49|.01|0|">centimeters</option>
+<option value="cents|42|.01|0|">cents</option>
+<option value="cmH2O|10|98.06653543307087|0|">cmH2O</option>
+<option value="cmHg|10|1333.22|0|">cmHg</option>
+<option value="cm^2|14|1|0|">cm^2</option>
+<option value="cm|9|.01|0|">cm</option>
+<option value="days|48|86400|0|">days</option>
+<option value="degC|7|1|0|">degC</option>
+<option value="degF|7|.555555555555556|-17.77777777777778|">degF</option>
+<option value="dyn-sec-cm-5|18|1|0|">dyn-sec-cm-5</option>
+<option value="eq|16|1|0|">eq</option>
+<option value="fL|8|1e-15|0|">fL</option>
+<option value="fractionO2|23|100|0|">fractionO2</option>
+<option value="fraction|6|100|0|">fraction</option>
+<option value="ftH2O|10|2989.068|0|">ftH2O</option>
+<option value="ft|9|.3048|0|">ft</option>
+<option value="g/dL_Alb|30|10|0|">g/dL_Alb</option>
+<option value="g/dL|2|1000|0|">g/dL</option>
+<option value="g/L_Alb|30|1|0|">g/L_Alb</option>
+<option value="gallon|57|3.785411784|0|">gallon</option>
+<option value="gm/day|35|1000|0|">gm/day</option>
+<option value="gm/day|44|1|0|">gm/day</option>
+<option value="gm/dL|2|1000|0|">gm/dL</option>
+<option value="gm/kg/day|20|1|0|">gm/kg/day</option>
+<option value="gm/kg|54|1000000|0|">gm/kg</option>
+<option value="gm/L|2|100|0|">gm/L</option>
+<option value="gm/sqcm|10|98.06653543307087|0|">gm/sqcm</option>
+<option value="gm_BUN|53|35.714|0|">gm_BUN</option>
+<option value="gm|1|1|0|">gm</option>
+<option value="hrs|48|3600|0|">hrs</option>
+<option value="hr|3|3600|0|">hr</option>
+<option value="inches|49|.0254|0|">inches</option>
+<option value="index|0|1|0|">index</option>
+<option value="inH2O|10|249.089|0|">inH2O</option>
+<option value="inHg|10|3386.39|0|">inHg</option>
+<option value="in|9|.0254|0|">in</option>
+<option value="IU/L|40|1|0|">IU/L</option>
+<option value="kcal/day|17|1|0|">kcal/day</option>
+<option value="kg|1|1000|0|">kg</option>
+<option value="kilograms|50|1000|0|">kilograms</option>
+<option value="km/hr|13|.2777777777777778|0|">km/hr</option>
+<option value="km/sec|13|1000|0|">km/sec</option>
+<option value="knots|13|.514444|0|">knots</option>
+<option value="kPa|10|1000|0|">kPa</option>
+<option value="L/min|4|1000|0|">L/min</option>
+<option value="L/sec|4|60000|0|">L/sec</option>
+<option value="lb|1|453.59237|0|">lb</option>
+<option value="Liter|57|1|0|">Liter</option>
+<option value="litresO2|23|3|21|">litresO2</option>
+<option value="L|8|1|0|">L</option>
+<option value="m/sec|13|1|0|">m/sec</option>
+<option value="mbar|10|100|0|">mbar</option>
+<option value="mcg/dL|2|.001|0|">mcg/dL</option>
+<option value="mcg/kg|54|1|0|">mcg/kg</option>
+<option value="mcgm/mL|41|1|0|">mcgm/mL</option>
+<option value="mcmol/L_Bili|34|1|0|">mcmol/L_Bili</option>
+<option value="mcmol/L_Cr|27|1|0|">mcmol/L_Cr</option>
+<option value="mEq/L/hr|25|1|0|">mEq/L/hr</option>
+<option value="mEq/L_Na|32|1|0|">mEq/L_Na</option>
+<option value="meq/L|59|1|0|">meq/L</option>
+<option value="mEq/L|5|.1|0|">mEq/L</option>
+<option value="mEq|16|.001|0|">mEq</option>
+<option value="mg%_Bili|34|17.1|0|">mg%_Bili</option>
+<option value="mg%_Cr|27|88.4|0|">mg%_Cr</option>
+<option value="mg%|2|1|0|">mg%</option>
+<option value="mg/day|35|1|0|">mg/day</option>
+<option value="mg/dL_Bili|34|17.1|0|">mg/dL_Bili</option>
+<option value="mg/dL_BUN|29|0.357|0|">mg/dL_BUN</option>
+<option value="mg/dL_Ca|31|0.25|0|">mg/dL_Ca</option>
+<option value="mg/dL_Chol|55|0.02586|0|">mg/dL_Chol</option>
+<option value="mg/dL_Cr|27|88.4|0|">mg/dL_Cr</option>
+<option value="mg/dL_Glu|28|0.0555|0|">mg/dL_Glu</option>
+<option value="mg/dL_HDL|56|0.02586|0|">mg/dL_HDL</option>
+<option value="mg/dL|2|1|0|">mg/dL</option>
+<option value="mg/kg|54|1000|0|">mg/kg</option>
+<option value="mg/mL|2|100|0|">mg/mL</option>
+<option value="mg|1|.001|0|">mg</option>
+<option value="micm|9|1e-6|0|">micm</option>
+<option value="miles/hr|13|.44704|0|">miles/hr</option>
+<option value="miles/sec|13|1609.344|0|">miles/sec</option>
+<option value="million/mm^3|19|1e6|0|">million/mm^3</option>
+<option value="mins|48|60|0|">mins</option>
+<option value="min|3|60|0|">min</option>
+<option value="mIU/mL|46|1|0|">mIU/mL</option>
+<option value="mL/dL|47|1|0|">mL/dL</option>
+<option value="mL/hr|4|.01666666667|0|">mL/hr</option>
+<option value="mL/L|47|.1|0|">mL/L</option>
+<option value="mL/min|4|1|0|">mL/min</option>
+<option value="mL/sec|4|60|0|">mL/sec</option>
+<option value="mL/sqm|22|1|0|">mL/sqm</option>
+<option value="mL|8|.001|0|">mL</option>
+<option value="mm/hr|45|1|0|">mm/hr</option>
+<option value="mmHg|10|133.322|0|">mmHg</option>
+<option value="mmol/L_BUN|29|1|0|">mmol/L_BUN</option>
+<option value="mmol/L_Ca|31|1|0|">mmol/L_Ca</option>
+<option value="mmol/L_Chol|55|1|0|">mmol/L_Chol</option>
+<option value="mmol/L_Glu|28|1|0|">mmol/L_Glu</option>
+<option value="mmol/L_HDL|56|1|0|">mmol/L_HDL</option>
+<option value="mmol/L_Na|32|1|0|">mmol/L_Na</option>
+<option value="mmol/L|33|1|0|">mmol/L</option>
+<option value="mmol_BUN|53|1|0|">mmol_BUN</option>
+<option value="mm|9|.001|0|">mm</option>
+<option value="months|43|1|0|">months</option>
+<option value="mOsm/dL|11|10|0|">mOsm/dL</option>
+<option value="mOsm/kg|11|1|0|">mOsm/kg</option>
+<option value="mo|52|1|0|">mo</option>
+<option value="m|9|1|0|">m</option>
+<option value="ng/kg/min|24|1|0|">ng/kg/min</option>
+<option value="ng/mL|2|.0001|0|">ng/mL</option>
+<option value="nm|9|1e-9|0|">nm</option>
+<option value="none|0|1|0|">none</option>
+<option value="number|0|1|0|">number</option>
+<option value="Pascal|10|1|0|">Pascal</option>
+<option value="pg|51|1|0|">pg</option>
+<option value="ph|12|1|0|">ph</option>
+<option value="points|0|1|0|">points</option>
+<option value="pounds|50|453.59237|0|">pounds</option>
+<option value="psi|10|6894.76|0|">psi</option>
+<option value="ratio|6|100|0|">ratio</option>
+<option value="score|0|1|0|">score</option>
+<option value="secs|48|1|0|">secs</option>
+<option value="sec|3|1|0|">sec</option>
+<option value="sqcm|14|1|0|">sqcm</option>
+<option value="sqm|14|10000|0|">sqm</option>
+<option value="sqrcm|14|1|0|">sqrcm</option>
+<option value="sqrm|14|10000|0|">sqrm</option>
+<option value="torr|10|133.322|0|">torr</option>
+<option value="u/L|21|1|0|">u/L</option>
+<option value="Vol%|47|1|0|">Vol%</option>
+<option value="weeks|48|604800|0|">weeks</option>
+<option value="yd|9|.9144|0|">yd</option>
+<option value="years|43|12|0|">years</option>
+<option value="yr|52|12|0|">yr</option>
+<option value="0|0|1|0"></option>
+</select></td></tr></table>
+
+<br />&nbsp;<br />
+<span class="medCalcFontOneBold">
+Set maximal display precision in decimal points:
+</span>
+<select name="decpts" onchange="setDecPts();" class="medCalcFontSelect">
+<option>0</option>
+<option selected="selected">1</option>
+<option>2</option>
+<option>3</option>
+</select>
+</div>
+</div>
+</center>
+</form>
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li><font color="#aa0000">In this calculator, <b>mcgm</b> is the abbreviation for <b>micrograms</b>.</font></li>
+<li>To make simple unit conversions, select the starting units with the pull-down selector on the right. 
+Then type a starting value in the top <b>FROM</b> input box. To convert the value, choose the 
+new unit in the lower right selector. The converted value will appear immediately in the <b>TO</b> box. 
+</li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Data conversions are done by simple factor multiplication, 
+using the conversion factors listed below.
+</span></li>
+
+</ol>
+</div>
+
+<div class="calc_tables_supp">
+<br />&nbsp;<br />
+<span class="medCalcFontOneBold">Conversion factors</span>
+<br />&nbsp;<br />
+<table border="1" cellpadding="4" cellspacing="0" summary="EBMcalc Table" class="medCalcFontOne">
+
+<tr><td align="left">atm</td><td>X</td><td align="center">101325</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">bar</td><td>X</td><td align="center">1e5</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">centimeters</td><td>X</td><td align="center">.01</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">cents</td><td>X</td><td align="center">.01</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">cmH2O</td><td>X</td><td align="center">98.06653543307087</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">cmHg</td><td>X</td><td align="center">1333.22</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">cm</td><td>X</td><td align="center">.01</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">days</td><td>X</td><td align="center">86400</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">degF</td><td>X</td><td align="center">.555555555555556</td><td>=</td><td align="left">degC</td></tr>
+<tr><td align="left">fL</td><td>X</td><td align="center">1e-15</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">fractionO2</td><td>X</td><td align="center">100</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">fraction</td><td>X</td><td align="center">100</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">ftH2O</td><td>X</td><td align="center">2989.068</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">ft</td><td>X</td><td align="center">.3048</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">g/dL_Alb</td><td>X</td><td align="center">10</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">g/dL</td><td>X</td><td align="center">1000</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">gallon</td><td>X</td><td align="center">3.785411784</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">gm/day</td><td>X</td><td align="center">1000</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">gm/dL</td><td>X</td><td align="center">1000</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">gm/kg</td><td>X</td><td align="center">1000000</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">gm/L</td><td>X</td><td align="center">100</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">gm/sqcm</td><td>X</td><td align="center">98.06653543307087</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">gm_BUN</td><td>X</td><td align="center">35.714</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">hrs</td><td>X</td><td align="center">3600</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">hr</td><td>X</td><td align="center">3600</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">inches</td><td>X</td><td align="center">.0254</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">inH2O</td><td>X</td><td align="center">249.089</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">inHg</td><td>X</td><td align="center">3386.39</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">in</td><td>X</td><td align="center">.0254</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">kg</td><td>X</td><td align="center">1000</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">kilograms</td><td>X</td><td align="center">1000</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">km/hr</td><td>X</td><td align="center">.2777777777777778</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">km/sec</td><td>X</td><td align="center">1000</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">knots</td><td>X</td><td align="center">.514444</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">kPa</td><td>X</td><td align="center">1000</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">L/min</td><td>X</td><td align="center">1000</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">L/sec</td><td>X</td><td align="center">60000</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">lb</td><td>X</td><td align="center">453.59237</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">litresO2</td><td>X</td><td align="center">3</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mbar</td><td>X</td><td align="center">100</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mcg/dL</td><td>X</td><td align="center">.001</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mEq/L</td><td>X</td><td align="center">.1</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mEq</td><td>X</td><td align="center">.001</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mg%_Bili</td><td>X</td><td align="center">17.1</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mg%_Cr</td><td>X</td><td align="center">88.4</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mg/dL_Bili</td><td>X</td><td align="center">17.1</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mg/dL_BUN</td><td>X</td><td align="center">0.357</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mg/dL_Ca</td><td>X</td><td align="center">0.25</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mg/dL_Chol</td><td>X</td><td align="center">0.02586</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mg/dL_Cr</td><td>X</td><td align="center">88.4</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mg/dL_Glu</td><td>X</td><td align="center">0.0555</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mg/dL_HDL</td><td>X</td><td align="center">0.02586</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mg/kg</td><td>X</td><td align="center">1000</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mg/mL</td><td>X</td><td align="center">100</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mg</td><td>X</td><td align="center">.001</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">micm</td><td>X</td><td align="center">1e-6</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">miles/hr</td><td>X</td><td align="center">.44704</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">miles/sec</td><td>X</td><td align="center">1609.344</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">million/mm^3</td><td>X</td><td align="center">1e6</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mins</td><td>X</td><td align="center">60</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">min</td><td>X</td><td align="center">60</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mL/hr</td><td>X</td><td align="center">.01666666667</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mL/L</td><td>X</td><td align="center">.1</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mL/sec</td><td>X</td><td align="center">60</td><td>=</td><td align="left">mL/min</td></tr>
+<tr><td align="left">mL</td><td>X</td><td align="center">.001</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mmHg</td><td>X</td><td align="center">133.322</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mm</td><td>X</td><td align="center">.001</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">mOsm/dL</td><td>X</td><td align="center">10</td><td>=</td><td align="left">mOsm/kg</td></tr>
+<tr><td align="left">ng/mL</td><td>X</td><td align="center">.0001</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">nm</td><td>X</td><td align="center">1e-9</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">number</td><td>X</td><td align="center">1</td><td>=</td><td align="left">none</td></tr>
+<tr><td align="left">pounds</td><td>X</td><td align="center">453.59237</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">psi</td><td>X</td><td align="center">6894.76</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">ratio</td><td>X</td><td align="center">100</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">sqm</td><td>X</td><td align="center">10000</td><td>=</td><td align="left">sqcm</td></tr>
+<tr><td align="left">sqrcm</td><td>X</td><td align="center">1</td><td>=</td><td align="left">sqcm</td></tr>
+<tr><td align="left">sqrm</td><td>X</td><td align="center">10000</td><td>=</td><td align="left">sqcm</td></tr>
+<tr><td align="left">torr</td><td>X</td><td align="center">133.322</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">weeks</td><td>X</td><td align="center">604800</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">yd</td><td>X</td><td align="center">.9144</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">years</td><td>X</td><td align="center">12</td><td>=</td><td align="left"></td></tr>
+<tr><td align="left">yr</td><td>X</td><td align="center">12</td><td>=</td><td align="left"></td></tr>
+
+</table>
+</div>
+<br />&nbsp;<br /><div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div></div>
+</body>
+</html>
+
+<!-- 1662473251 //-->

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Sequential Organ Failure Assessment (Quick): qSOFA Score</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="covid, critical care, cardio, renal, emergency, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+QSOFA_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+QSOFA_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function QSOFA_fx() {
+
+with(document.QSOFA_form){
+
+
+doCalc = true;
+param_value = parseFloat(Glasgow_Coma_Score_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Glasgow_Coma_Score_unit.options[Glasgow_Coma_Score_unit.selectedIndex].value.split('|');
+Glasgow_Coma_Score = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Systolic_BP_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Systolic_BP_unit.options[Systolic_BP_unit.selectedIndex].value.split('|');
+Systolic_BP = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Respiratory_Rate_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Respiratory_Rate_unit.options[Respiratory_Rate_unit.selectedIndex].value.split('|');
+Respiratory_Rate = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+dp = 0;
+var gcs_p = 0; var rr_p = 0; var sysbp_p = 0;
+if (Glasgow_Coma_Score < 15) gcs_p = 1;
+else gcs_p = 0;
+if (Respiratory_Rate >= 22) rr_p = 1;
+else rr_p = 0;
+if (Systolic_BP <= 100) sysbp_p = 1;
+qSOFA_Score =   gcs_p + rr_p + sysbp_p;
+
+unit_parts = qSOFA_Score_unit.options[qSOFA_Score_unit.selectedIndex].value.split('|');
+if (doCalc) qSOFA_Score_param.value = fixDP((qSOFA_Score - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+
+if (doCalc){
+rrclr();
+if ((qSOFA_Score >= 2) && (qSOFA_Score <= 3)){ document.getElementById('rr1_1').bgColor = '#8ab2be';
+interptxt = '\n\nqSOFA Interpretation: 2 to 3 points: High risk';
+calctxt += '\n\nqSOFA Interpretation: 2 to 3 points: High risk';
+xmltxt += '\n<Result_Interpretation>qSOFA Interpretation: 2 to 3 points: High risk<\/Result_Interpretation>\n';
+}
+if ((qSOFA_Score >= 0) && (qSOFA_Score <= 1)){ document.getElementById('rr1_2').bgColor = '#8ab2be';
+interptxt = '\n\nqSOFA Interpretation: 0 to 1 point: Not high risk';
+calctxt += '\n\nqSOFA Interpretation: 0 to 1 point: Not high risk';
+xmltxt += '\n<Result_Interpretation>qSOFA Interpretation: 0 to 1 point: Not high risk<\/Result_Interpretation>\n';
+}
+document.getElementById('rr1_tag').ariaLabel = interptxt;
+interptxt = '';
+
+
+}
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.QSOFA_form){
+
+if (Glasgow_Coma_Score_param.value && isNaN(Glasgow_Coma_Score_param.value)){ clrValue(Glasgow_Coma_Score_param); alertNaN('Glasgow Coma Score'); }
+if (Glasgow_Coma_Score_param.value && (Glasgow_Coma_Score < (1 - 0.00001))) {
+Glasgow_Coma_Score = 0;
+clrValue(Glasgow_Coma_Score_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Glasgow Coma Score is 1 points.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Glasgow_Coma_Score_param.value && Glasgow_Coma_Score > 15) {
+clrValue(Glasgow_Coma_Score_param);
+clrResults();
+Glasgow_Coma_Score = 0;
+doCalc = false;
+ alert("The maximum value for Glasgow Coma Score is 15 points.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Systolic_BP_param.value && isNaN(Systolic_BP_param.value)){ clrValue(Systolic_BP_param); alertNaN('Systolic BP'); }
+if (Respiratory_Rate_param.value && isNaN(Respiratory_Rate_param.value)){ clrValue(Respiratory_Rate_param); alertNaN('Respiratory Rate'); }
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.QSOFA_form){
+
+qSOFA_Score_param.value = '';
+
+rrclr();
+
+}
+
+}
+
+var Glasgow_Coma_Score = null,
+Systolic_BP = null,
+Respiratory_Rate = null,
+qSOFA_Score = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+function rrclr(){
+document.getElementById('rr1_1').bgColor = '';
+document.getElementById('rr1_2').bgColor = '';
+document.getElementById('rr1_tag').ariaLabel = 'This table highlights the result qSOFA Interpretation. No result is highlighted'; interptxt = '';
+}
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="QSOFA_form" id="QSOFA_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="QSOFA_fx();" onreset="rrclr();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Sequential Organ Failure Assessment (Quick): qSOFA Score
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Glasgow Coma Score</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Glasgow_Coma_Score_param" size="6" value="" onblur="QSOFA_fx(); minMaxCheck();" onchange="QSOFA_fx();" aria-label="Use this input box to enter the value Glasgow Coma Score" /></td>
+<td align="left" valign="top"> <select name="Glasgow_Coma_Score_unit" onchange="QSOFA_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Glasgow Coma Score">
+<option value="1|0|#">#</option>
+<option value="1|0|index">index</option>
+<option value="1|0|none">none</option>
+<option value="1|0|number">number</option>
+<option value="1|0|points" selected="selected">points</option>
+<option value="1|0|score">score</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Systolic BP</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Systolic_BP_param" size="6" value="" onblur="QSOFA_fx(); minMaxCheck();" onchange="QSOFA_fx();" aria-label="Use this input box to enter the value Systolic BP" /></td>
+<td align="left" valign="top"> <select name="Systolic_BP_unit" onchange="QSOFA_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Systolic BP">
+<option value="0.00750063755419211|0|Pascal">Pascal</option>
+<option value="760.002100178515|0|atm">atm</option>
+<option value="750.063755419211|0|bar">bar</option>
+<option value="0.735561538478802|0|cmH2O">cmH2O</option>
+<option value="10|0|cmHg">cmHg</option>
+<option value="22.4199156928339|0|ftH2O">ftH2O</option>
+<option value="0.735561538478802|0|gm/sqcm">gm/sqcm</option>
+<option value="1.86832630773616|0|inH2O">inH2O</option>
+<option value="25.4000840071406|0|inHg">inHg</option>
+<option value="7.50063755419211|0|kPa">kPa</option>
+<option value="0.750063755419211|0|mbar">mbar</option>
+<option value="1|0|mmHg" selected="selected">mmHg</option>
+<option value="51.7150957831416|0|psi">psi</option>
+<option value="1|0|torr">torr</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Respiratory Rate</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Respiratory_Rate_param" size="6" value="" onblur="QSOFA_fx(); minMaxCheck();" onchange="QSOFA_fx();" aria-label="Use this input box to enter the value Respiratory Rate" /></td>
+<td align="left" valign="top"> <select name="Respiratory_Rate_unit" onchange="QSOFA_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Respiratory Rate">
+<option value="1|0|breaths/min" selected="selected">breaths/min</option>
+</select></td></tr>
+
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Results</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">qSOFA Score</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="qSOFA_Score_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value qSOFA Score" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="qSOFA_Score_unit" onchange="QSOFA_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value qSOFA Score">
+<option value="1|0|#">#</option>
+<option value="1|0|index">index</option>
+<option value="1|0|none">none</option>
+<option value="1|0|number">number</option>
+<option value="1|0|points" selected="selected">points</option>
+<option value="1|0|score">score</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+<div id="rr1_tag" aria-label="This table highlights the result qSOFA Interpretation. No result is highlighted" tabindex="0">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+
+qSOFA Interpretation
+</span></td></tr></table><br />&nbsp;<br />
+</div>
+<center>
+<table border="1" cellpadding="4" cellspacing="0" summary="RRTable">
+<tr id="rr1_1"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">2 to 3 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">High risk</span></td></tr>
+<tr id="rr1_2"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">0 to 1 point:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Not high risk</span></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li><sup>*</sup>A  Glasgow coma scale score  of 15 requires all the following: Spontaneous eye opening; accurate orientation  to person, place, and time; and appropriate motor responses to commands.  If this score is less than 15 <b>gcsp</b> is set to 1.</li>
+<li>For this calculation, <b>rrp</b> = 1 when the respiratory rate is &ge;22 breaths/min, and 0 for slower rates.  <b>sysbpp</b> is set to 1 when the systolic blood pressure is &le;100 mmHg, and 0 for higher blood pressures.</li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">qSOFAScore =  gcsp + rrp + sysbpp</span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Singer M, Deutschman CS, Seymour CW, et al. The Third International Consensus Definitions for Sepsis and Septic Shock  (Sepsis-3). <i>JAMA</i>. 2016 Feb 23;315(8):801-10. PubMed ID: 26903338 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/26903338"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">LeGuen M, Ballueer Y, McKay R, et al. Frequency and significance of qSOFA criteria during  adult rapid response team reviews: A prospective cohort study. <i>Resuscitation</i>. 2018 Jan;122:13-18. PubMed ID: 29133019 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/29133019"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Vincent JL, de Mendonca A, Cantraine F, et al. Use of the SOFA score to assess the incidence of organ  dysfunction/failure in intensive care units: results of a multicenter, prospective study. Working group  on "sepsis-related problems" of the European Society of Intensive Care Medicine. <i>Crit Care Med</i>. 1998 Nov;26(11):1793-800. PubMed ID: 9824069 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/9824069"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div>
+</div>
+</body>
+</html>
+
+<!-- 1662473294 //-->

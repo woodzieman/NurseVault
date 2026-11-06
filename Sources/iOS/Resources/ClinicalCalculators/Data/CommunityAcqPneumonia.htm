@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Community-Acquired Pneumonia Severity Index (PSI) for Adults</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="Pulmonary, Infectious Diseases, acpjc, Geriatrics, Emergency, prognosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+CommunityAcqPneumonia_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+CommunityAcqPneumonia_fx();
+}
+
+
+/* ]]> */
+</script>
+
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+
+
+var calctxt = '';
+var xmltxt = '';
+var xmlresult = '';
+var htmtxt = '';
+var postNow = false;
+var printing = false;
+var rbchk = false;
+
+
+function CommunityAcqPneumonia_fx() {
+with(document.CommunityAcqPneumonia_form){
+
+Score = 0.0;
+doCalc = true;
+
+rbchk = false;
+if (cc1[0].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (cc1[1].checked){
+rbchk = true; Score = Score + -10; 
+}
+if (!rbchk) doCalc = false;
+
+if (cc2.value && isNaN(cc2.value)){
+cc2.value = '';
+if (!postNow) alert("This field is improperly formatted.\n\nYou may only input the digits 0-9 and a decimal point.");
+doCalc = false;
+}
+else{
+thisvalue = parseFloat(cc2.value);
+ThisScore =  thisvalue * 1 + 0;
+Score =  Score + ThisScore;
+}
+if (cc3.checked){
+Score = Score + 10;
+}
+if (cc4.checked){
+Score = Score + 30;
+}
+if (cc5.checked){
+Score = Score + 20;
+}
+if (cc6.checked){
+Score = Score + 10;
+}
+if (cc7.checked){
+Score = Score + 10;
+}
+if (cc8.checked){
+Score = Score + 10;
+}
+if (cc9.checked){
+Score = Score + 20;
+}
+if (cc10.checked){
+Score = Score + 20;
+}
+if (cc11.checked){
+Score = Score + 20;
+}
+if (cc12.checked){
+Score = Score + 15;
+}
+if (cc13.checked){
+Score = Score + 10;
+}
+if (cc14.checked){
+Score = Score + 30;
+}
+if (cc15.checked){
+Score = Score + 20;
+}
+if (cc16.checked){
+Score = Score + 20;
+}
+if (cc17.checked){
+Score = Score + 10;
+}
+if (cc18.checked){
+Score = Score + 10;
+}
+if (cc19.checked){
+Score = Score + 10;
+}
+if (cc20.checked){
+Score = Score + 10;
+}
+if (doCalc){
+cctotal.value = Score;
+if (cctotal.value == 'NaN') cctotal.value = '';
+}
+else{
+Score = null;
+cctotal.value = '';
+if (typeof rrclr == 'function') { rrclr(); };
+document.CommunityAcqPneumonia_form.cctotal.value = '';
+}
+
+
+
+
+if (doCalc){
+rrclr();
+if ((Score >= -10) && (Score <= -10)){ document.getElementById('rr1_1').bgColor = '#8ab2be';
+interptxt = '\n\nPneumonia Score Interpretation: -10 Points: Class I 0.1% Mortality';
+calctxt += '\n\nPneumonia Score Interpretation: -10 Points: Class I 0.1% Mortality';
+xmltxt += '\n<Result_Interpretation>Pneumonia Score Interpretation: -10 Points: Class I 0.1% Mortality<\/Result_Interpretation>\n';
+}
+if ((Score >= 51) && (Score <= 70)){ document.getElementById('rr1_2').bgColor = '#8ab2be';
+interptxt = '\n\nPneumonia Score Interpretation: 51 to 70 Points: Class II 0.6% Mortality';
+calctxt += '\n\nPneumonia Score Interpretation: 51 to 70 Points: Class II 0.6% Mortality';
+xmltxt += '\n<Result_Interpretation>Pneumonia Score Interpretation: 51 to 70 Points: Class II 0.6% Mortality<\/Result_Interpretation>\n';
+}
+if ((Score >= 71) && (Score <= 90)){ document.getElementById('rr1_3').bgColor = '#8ab2be';
+interptxt = '\n\nPneumonia Score Interpretation: 71 to 90 Points: Class III 0.9% Mortality';
+calctxt += '\n\nPneumonia Score Interpretation: 71 to 90 Points: Class III 0.9% Mortality';
+xmltxt += '\n<Result_Interpretation>Pneumonia Score Interpretation: 71 to 90 Points: Class III 0.9% Mortality<\/Result_Interpretation>\n';
+}
+if ((Score >= 91) && (Score <= 130)){ document.getElementById('rr1_4').bgColor = '#8ab2be';
+interptxt = '\n\nPneumonia Score Interpretation: 91 to 130 Points: Class IV 9.3% Mortality';
+calctxt += '\n\nPneumonia Score Interpretation: 91 to 130 Points: Class IV 9.3% Mortality';
+xmltxt += '\n<Result_Interpretation>Pneumonia Score Interpretation: 91 to 130 Points: Class IV 9.3% Mortality<\/Result_Interpretation>\n';
+}
+if ((Score >= 131) && (Score <= 395)){ document.getElementById('rr1_5').bgColor = '#8ab2be';
+interptxt = '\n\nPneumonia Score Interpretation: 131 to 395 Points: Class V 27.0% Mortality';
+calctxt += '\n\nPneumonia Score Interpretation: 131 to 395 Points: Class V 27.0% Mortality';
+xmltxt += '\n<Result_Interpretation>Pneumonia Score Interpretation: 131 to 395 Points: Class V 27.0% Mortality<\/Result_Interpretation>\n';
+}
+document.getElementById('rr1_tag').ariaLabel = interptxt;
+interptxt = '';
+
+if ((cc2.value && (parseFloat(cc2.value) < 51) && !cc4.checked && !cc5.checked && !cc6.checked && !cc6.checked && !cc7.checked & !cc8.checked &&  !cc9.checked && !cc10.checked && !cc11.checked && !cc12.checked && !cc13.checked)){ rrclr(); document.getElementById('rr1_1').bgColor = '#cccccc'; cctotal.value = '';  cc14.disabled = true; cc15.disabled = true; cc16.disabled = true; cc17.disabled = true; cc18.disabled = true; cc19.disabled = true; cc20.disabled = true; }  else { cc14.disabled = false; cc15.disabled = false; cc16.disabled = false; cc17.disabled = false; cc18.disabled = false; cc19.disabled = false; cc20.disabled = false; }
+}
+}
+}
+
+
+
+
+function rrclr(){
+document.getElementById('rr1_1').bgColor = '';
+document.getElementById('rr1_2').bgColor = '';
+document.getElementById('rr1_3').bgColor = '';
+document.getElementById('rr1_4').bgColor = '';
+document.getElementById('rr1_5').bgColor = '';
+document.getElementById('rr1_tag').ariaLabel = 'This table highlights the result Pneumonia Score Interpretation. No result is highlighted'; interptxt = '';
+}
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+<form name="CommunityAcqPneumonia_form" id="CommunityAcqPneumonia_form" action="" onsubmit="return false;" onreset="rrclr(); " onkeydown="document.CommunityAcqPneumonia_form.cctotal.value='';" onkeyup="CommunityAcqPneumonia_fx();">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Community-Acquired Pneumonia Severity Index (PSI) for Adults
+</span></td></tr></table><br />&nbsp;<br />
+<div id="calc_main">
+<div id="calc_input">
+<center>
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Sex </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel1" name="cc1" onclick="CommunityAcqPneumonia_fx();" aria-label="This button selects an option for: Sex. The option is M (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel1');">M (0 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel2" name="cc1" onclick="CommunityAcqPneumonia_fx();" aria-label="This button selects an option for: Sex. The option is F (-10 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel2');">F (-10 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Demographic factors</span></td></tr>
+
+<tr><td width="20"><br /></td>
+<td align="right">  <input type="text" name="cc2" size="4" value="" onchange="CommunityAcqPneumonia_fx();" onfocus="this.value=''; document.CommunityAcqPneumonia_form.cctotal.value='';"  /></td>
+<td align="left"> <span class="medCalcFontCCTab"> Age (1 point for each year) </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel3" name="cc3" onclick="CommunityAcqPneumonia_fx();" aria-label="Check this box to indicate Nursing home resident (10 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel3');" >Nursing home resident (10 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Comorbid illnesses</span></td></tr>
+
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel4" name="cc4" onclick="CommunityAcqPneumonia_fx();" aria-label="Check this box to indicate Neoplastic disease (30 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel4');" >Neoplastic disease (30 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel5" name="cc5" onclick="CommunityAcqPneumonia_fx();" aria-label="Check this box to indicate Liver disease (20 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel5');" >Liver disease (20 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel6" name="cc6" onclick="CommunityAcqPneumonia_fx();" aria-label="Check this box to indicate Congestive heart failure (10 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel6');" >Congestive heart failure (10 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel7" name="cc7" onclick="CommunityAcqPneumonia_fx();" aria-label="Check this box to indicate Cerebrovascular disease (10 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel7');" >Cerebrovascular disease (10 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel8" name="cc8" onclick="CommunityAcqPneumonia_fx();" aria-label="Check this box to indicate Renal disease (10 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel8');" >Renal disease (10 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Physical examination findings</span></td></tr>
+
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel9" name="cc9" onclick="CommunityAcqPneumonia_fx();" aria-label="Check this box to indicate Altered mental status (20 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel9');" >Altered mental status (20 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel10" name="cc10" onclick="CommunityAcqPneumonia_fx();" aria-label="Check this box to indicate Respiratory rate &ge;30/minute (20 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel10');" >Respiratory rate &ge;30/minute (20 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel11" name="cc11" onclick="CommunityAcqPneumonia_fx();" aria-label="Check this box to indicate Systolic blood pressure &lt;90 mmHg (20 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel11');" >Systolic blood pressure &lt;90 mmHg (20 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel12" name="cc12" onclick="CommunityAcqPneumonia_fx();" aria-label="Check this box to indicate Temperature &lt;35 degrees C or &ge;40 degrees C (15 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel12');" >Temperature &lt;35 degrees C or &ge;40 degrees C (15 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel13" name="cc13" onclick="CommunityAcqPneumonia_fx();" aria-label="Check this box to indicate Pulse &ge;125/minute (10 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel13');" >Pulse &ge;125/minute (10 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Laboratory and radiographic findings</span></td></tr>
+
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel14" name="cc14" onclick="CommunityAcqPneumonia_fx();" aria-label="Check this box to indicate Arterial pH &lt;7.35 (30 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel14');" >Arterial pH &lt;7.35 (30 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel15" name="cc15" onclick="CommunityAcqPneumonia_fx();" aria-label="Check this box to indicate Blood urea nitrogen &ge;30 mg/dL (11 mmol/L) (20 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel15');" >Blood urea nitrogen &ge;30 mg/dL (11 mmol/L) (20 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel16" name="cc16" onclick="CommunityAcqPneumonia_fx();" aria-label="Check this box to indicate Sodium &lt;130 mEq/L (20 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel16');" >Sodium &lt;130 mEq/L (20 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel17" name="cc17" onclick="CommunityAcqPneumonia_fx();" aria-label="Check this box to indicate Glucose &ge;250 mg/dL (14 mmol/L) (10 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel17');" >Glucose &ge;250 mg/dL (14 mmol/L) (10 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel18" name="cc18" onclick="CommunityAcqPneumonia_fx();" aria-label="Check this box to indicate Hematocrit &lt;30 percent (10 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel18');" >Hematocrit &lt;30 percent (10 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel19" name="cc19" onclick="CommunityAcqPneumonia_fx();" aria-label="Check this box to indicate Partial pressure of arterial oxygen &lt;60 mmHg or oxygen saturation &lt;90% (10 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel19');" >Partial pressure of arterial oxygen &lt;60 mmHg or oxygen saturation &lt;90% (10 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel20" name="cc20" onclick="CommunityAcqPneumonia_fx();" aria-label="Check this box to indicate Pleural effusion (10 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel20');" >Pleural effusion (10 points)</span></td></tr>
+
+</table>
+
+</center>
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<span class="medCalcFontCCTabBold">
+Total Criteria Point Count:
+</span>
+<input type="text" size="6" name="cctotal" aria-readonly="true" aria-label="This box holds the total criteria point count" /><br />&nbsp;<br />
+<center><input type="reset" name="reset" value="Reset Form" />    </center>
+<br />&nbsp;<br />
+<div id="rr1_tag" aria-label="This table highlights the result Pneumonia Score Interpretation. No result is highlighted" tabindex="0">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+
+Pneumonia Score Interpretation
+</span></td></tr></table><br />&nbsp;<br />
+</div>
+<center>
+<table border="1" cellpadding="4" cellspacing="0" summary="RRTable">
+<tr id="rr1_1"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">&nbsp;</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Class I 0.1% Mortality</span></td></tr>
+<tr id="rr1_2"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">51 to 70 Points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Class II 0.6% Mortality</span></td></tr>
+<tr id="rr1_3"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">71 to 90 Points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Class III 0.9% Mortality</span></td></tr>
+<tr id="rr1_4"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">91 to 130 Points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Class IV 9.3% Mortality</span></td></tr>
+<tr id="rr1_5"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">131 to 395 Points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Class V 27.0% Mortality</span></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+
+</div>
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Steinberg DI. ACP Journal Club. Review: Risk prediction scales have different  strengths and weaknesses for predicting mortality in community-acquired  pneumonia. <i>Ann Intern Med</i>. 2011 Apr 19;154(8):JC4-12. doi:  10.1059/0003-4819-154-8-201104190-02012. PubMed ID: 21502638 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/21502638"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Loke YK, Kwok CS, Niruban A, Myint PK. Value of severity scales in predicting  mortality from community-acquired pneumonia: systematic review and meta-analysis. <i> Thorax</i>. 2010 Oct;65(10):884-90. doi: 10.1136/thx.2009.134072. Epub 2010 Aug 20. Review. PubMed ID: 20729235 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/20729235"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Morris A. ACP Journal Club. Review: CURB65, CRB65, and Pneumonia Severity  Index similarly predict mortality in community-acquired pneumonia. <i>Ann Intern  Med</i>. 2011 Apr 19;154(8):JC4-13. doi: 10.1059/0003-4819-154-8-201104190-02013. PubMed ID: 21502639 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/21502639"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Chalmers JD, Singanayagam A, Akram AR, et al. Severity assessment tools for predicting mortality in hospitalised  patients with community-acquired pneumonia. Systematic review and meta-analysis. <i> Thorax</i>. 2010 Oct;65(10):878-83. doi: 10.1136/thx.2009.133280. Epub 2010 Aug 20. Review. PubMed ID: 20729231 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/20729231"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Fine MJ, Auble TE, Yealy DM, et al. A prediction rule to identify low-risk patients with community-acquired pneumonia. <i>N Engl J Med</i>. 1997; 336:243-250. PubMed ID: 8995086 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/8995086"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+ 
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div><script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+
+
+function loadQueryParams(thisqs){
+if (thisqs) alert('Data panel values cannot be transferred to this calculator.');
+return;
+}
+
+
+/* ]]> */
+</script>
+
+
+
+
+
+</div>
+</body>
+</html>
+
+
+<!-- 1662473264 //-->

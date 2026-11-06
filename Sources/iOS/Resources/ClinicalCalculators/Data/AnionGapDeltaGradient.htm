@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Anion Gap Delta Delta Gradient Multicalc</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="Renal, Fluid, Electrolytes, Metabolism, Emergency, diagnosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+AnionGapDeltaGradient_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+AnionGapDeltaGradient_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function AnionGapDeltaGradient_fx() {
+
+with(document.AnionGapDeltaGradient_form){
+
+
+doCalc = true;
+param_value = parseFloat(Na_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Na_unit.options[Na_unit.selectedIndex].value.split('|');
+Na = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Cl_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Cl_unit.options[Cl_unit.selectedIndex].value.split('|');
+Cl = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(HCO3_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = HCO3_unit.options[HCO3_unit.selectedIndex].value.split('|');
+HCO3 = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Baseline_Gap_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Baseline_Gap_unit.options[Baseline_Gap_unit.selectedIndex].value.split('|');
+Baseline_Gap = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+dp = decpts.options[decpts.selectedIndex].text;
+Anion_Gap =  Na - (Cl + HCO3);
+
+unit_parts = Anion_Gap_unit.options[Anion_Gap_unit.selectedIndex].value.split('|');
+if (doCalc) Anion_Gap_param.value = fixDP((Anion_Gap - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+Delta_Gap =  Anion_Gap - Baseline_Gap;
+
+unit_parts = Delta_Gap_unit.options[Delta_Gap_unit.selectedIndex].value.split('|');
+if (doCalc) Delta_Gap_param.value = fixDP((Delta_Gap - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+Delta_HCO3 =  25 - HCO3;
+
+unit_parts = Delta_HCO3_unit.options[Delta_HCO3_unit.selectedIndex].value.split('|');
+if (doCalc) Delta_HCO3_param.value = fixDP((Delta_HCO3 - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+Delta_Delta_Gradient =  Delta_Gap - Delta_HCO3;
+
+unit_parts = Delta_Delta_Gradient_unit.options[Delta_Delta_Gradient_unit.selectedIndex].value.split('|');
+if (doCalc) Delta_Delta_Gradient_param.value = fixDP((Delta_Delta_Gradient - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.AnionGapDeltaGradient_form){
+
+if (Na_param.value && isNaN(Na_param.value)){ clrValue(Na_param); alertNaN('Na'); }
+if (Na_param.value && (Na < (80 - 0.00001))) {
+Na = 0;
+clrValue(Na_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Na is 80 mEq/L.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Na_param.value && Na > 200) {
+clrValue(Na_param);
+clrResults();
+Na = 0;
+doCalc = false;
+ alert("The maximum value for Na is 200 mEq/L.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Cl_param.value && isNaN(Cl_param.value)){ clrValue(Cl_param); alertNaN('Cl'); }
+if (Cl_param.value && (Cl < (60 - 0.00001))) {
+Cl = 0;
+clrValue(Cl_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Cl is 60 mEq/L.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Cl_param.value && Cl > 180) {
+clrValue(Cl_param);
+clrResults();
+Cl = 0;
+doCalc = false;
+ alert("The maximum value for Cl is 180 mEq/L.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (HCO3_param.value && isNaN(HCO3_param.value)){ clrValue(HCO3_param); alertNaN('HCO3'); }
+if (HCO3_param.value && (HCO3 < (0 - 0.00001))) {
+HCO3 = 0;
+clrValue(HCO3_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for HCO3 is 0 mEq/L.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (HCO3_param.value && HCO3 > 30) {
+clrValue(HCO3_param);
+clrResults();
+HCO3 = 0;
+doCalc = false;
+ alert("The maximum value for HCO3 is 30 mEq/L.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Baseline_Gap_param.value && isNaN(Baseline_Gap_param.value)){ clrValue(Baseline_Gap_param); alertNaN('Baseline Gap'); }
+if (Baseline_Gap_param.value && (Baseline_Gap < (0 - 0.00001))) {
+Baseline_Gap = 0;
+clrValue(Baseline_Gap_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Baseline Gap is 0 mEq/L.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Baseline_Gap_param.value && Baseline_Gap > 50) {
+clrValue(Baseline_Gap_param);
+clrResults();
+Baseline_Gap = 0;
+doCalc = false;
+ alert("The maximum value for Baseline Gap is 50 mEq/L.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.AnionGapDeltaGradient_form){
+
+Anion_Gap_param.value = '';
+Delta_Gap_param.value = '';
+Delta_HCO3_param.value = '';
+Delta_Delta_Gradient_param.value = '';
+
+
+}
+
+}
+
+var Na = null,
+Cl = null,
+HCO3 = null,
+Baseline_Gap = null,
+Anion_Gap = null,
+Delta_Gap = null,
+Delta_HCO3 = null,
+Delta_Delta_Gradient = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="AnionGapDeltaGradient_form" id="AnionGapDeltaGradient_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="AnionGapDeltaGradient_fx();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Anion Gap Delta Delta Gradient Multicalc
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Na</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Na_param" size="6" value="" onblur="AnionGapDeltaGradient_fx(); minMaxCheck();" onchange="AnionGapDeltaGradient_fx();" aria-label="Use this input box to enter the value Na" /></td>
+<td align="left" valign="top"> <select name="Na_unit" onchange="AnionGapDeltaGradient_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Na">
+<option value="1|0|mEq/L" selected="selected">mEq/L</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Cl</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Cl_param" size="6" value="" onblur="AnionGapDeltaGradient_fx(); minMaxCheck();" onchange="AnionGapDeltaGradient_fx();" aria-label="Use this input box to enter the value Cl" /></td>
+<td align="left" valign="top"> <select name="Cl_unit" onchange="AnionGapDeltaGradient_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Cl">
+<option value="1|0|mEq/L" selected="selected">mEq/L</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">HCO3</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="HCO3_param" size="6" value="" onblur="AnionGapDeltaGradient_fx(); minMaxCheck();" onchange="AnionGapDeltaGradient_fx();" aria-label="Use this input box to enter the value HCO3" /></td>
+<td align="left" valign="top"> <select name="HCO3_unit" onchange="AnionGapDeltaGradient_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value HCO3">
+<option value="1|0|mEq/L" selected="selected">mEq/L</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Baseline Gap</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Baseline_Gap_param" size="6" value="" onblur="AnionGapDeltaGradient_fx(); minMaxCheck();" onchange="AnionGapDeltaGradient_fx();" aria-label="Use this input box to enter the value Baseline Gap" /></td>
+<td align="left" valign="top"> <select name="Baseline_Gap_unit" onchange="AnionGapDeltaGradient_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Baseline Gap">
+<option value="1|0|mEq/L" selected="selected">mEq/L</option>
+</select></td></tr>
+
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Results</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Anion Gap</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Anion_Gap_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Anion Gap" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Anion_Gap_unit" onchange="AnionGapDeltaGradient_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Anion Gap">
+<option value="1|0|mEq/L" selected="selected">mEq/L</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Delta Gap</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Delta_Gap_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Delta Gap" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Delta_Gap_unit" onchange="AnionGapDeltaGradient_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Delta Gap">
+<option value="1|0|mEq/L" selected="selected">mEq/L</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Delta HCO3</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Delta_HCO3_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Delta HCO3" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Delta_HCO3_unit" onchange="AnionGapDeltaGradient_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Delta HCO3">
+<option value="1|0|mEq/L" selected="selected">mEq/L</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Delta Delta Gradient</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Delta_Delta_Gradient_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Delta Delta Gradient" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Delta_Delta_Gradient_unit" onchange="AnionGapDeltaGradient_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Delta Delta Gradient">
+<option value="1|0|mEq/L" selected="selected">mEq/L</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr><td colspan="3" align="center"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="AnionGapDeltaGradient_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option>1</option>
+<option selected="selected">2</option>
+<option>3</option>
+
+</select></td></tr>
+
+</table>
+</center>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+<br />&nbsp;<br />
+<div id="calc_hints">
+
+<span class="medCalcFontOne">
+<br />&nbsp;<br />A simple high anion gap metabolic acidosis produces a <b>Delta Delta Gradient</b> around 0.
+<br />&nbsp;<br />A <b>Delta Delta Gradient</b> significantly greater than 0 usually indicates either:
+</span>
+<ul class="medCalcFontOne">
+<li>A mixed high anion gap metabolic acidosis plus a primary metabolic alkalosis.</li>
+<li>A mixed high anion gap metabolic acidosis plus a chronic respiratory acidosis.</li>
+<li>A non-acidotic high anion gap state (such as with excess penicillin administration.)</li>
+</ul>
+<span class="medCalcFontOne">
+<br />&nbsp;<br />A <b>Delta Delta Gradient</b> significantly less than 0 may result from:
+</span>
+<ul class="medCalcFontOne">
+<li>A mixed high anion gap metabolic acidosis plus a normal anion gap metabolic acidosis.</li>
+<li>A  mixture of high anion gap metabolic acidosis plus chronic respiratory alkalosis plus hyperchloremia acidosis.</li>
+<li>A high anion gap acidosis with a prexisting low anion gap state (such as hypoalbuminemia, para-proteinemia, etc ...)</li>
+</ul> 
+</div>
+
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">AnionGap = Na - (Cl + HCO3)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">DeltaGap = AnionGap - BaselineGap</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">DeltaHCO3 = 25 - HCO3</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">DeltaDeltaGradient = DeltaGap - DeltaHCO3</span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Wrenn K. The delta (delta) gap: an approach to mixed acid-base disorders. <i>Ann Emerg Med</i>. 1990 Nov;19(11):1310-3. PubMed ID: 2240729 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/2240729"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Breyer JA. Acid base course material. <i>6th National Critical Care Medicine Review Course</i>.</span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div>
+</div>
+</body>
+</html>
+
+<!-- 1662473247 //-->

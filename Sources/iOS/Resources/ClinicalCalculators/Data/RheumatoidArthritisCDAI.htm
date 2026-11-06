@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Rheumatoid Arthritis Clinical Disease Activity Index CDAI</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="xce, ypad, pain, Nurse, Rheumatology, geriatrics, orthopedics, diagnosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+RheumatoidArthritisCDAI_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+RheumatoidArthritisCDAI_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function RheumatoidArthritisCDAI_fx() {
+
+with(document.RheumatoidArthritisCDAI_form){
+
+
+doCalc = true;
+param_value = parseFloat(PGA_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = PGA_unit.options[PGA_unit.selectedIndex].value.split('|');
+PGA = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(EGA_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = EGA_unit.options[EGA_unit.selectedIndex].value.split('|');
+EGA = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+var TJC = 0;
+for (jcount = 0; jcount < 28; jcount++){
+if(TJC_box[jcount].checked) TJC = TJC + 1;
+}
+TJC_param.value = TJC;
+var SJC = 0;
+for (jcount = 0; jcount < 28; jcount++){
+if(SJC_box[jcount].checked) SJC = SJC + 1;
+}
+SJC_param.value = SJC;
+dp = decpts.options[decpts.selectedIndex].text;
+CDAI =  SJC + TJC + PGA + EGA;
+
+unit_parts = CDAI_unit.options[CDAI_unit.selectedIndex].value.split('|');
+if (doCalc) CDAI_param.value = fixDP((CDAI - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+
+if (doCalc){
+rrclr();
+if (CDAI <= 2.8){ document.getElementById('rr1_1').bgColor = '#8ab2be';
+interptxt = '\n\nCDAI Interpretation: <= 2.8 CDAI: Remission';
+calctxt += '\n\nCDAI Interpretation: <= 2.8 CDAI: Remission';
+xmltxt += '\n<Result_Interpretation>CDAI Interpretation: &lt;= 2.8 CDAI: Remission<\/Result_Interpretation>\n';
+}
+if ((CDAI > 2.8) && (CDAI <= 10)){ document.getElementById('rr1_2').bgColor = '#8ab2be';
+interptxt = '\n\nCDAI Interpretation: > 2.8 and <= 10 CDAI: Low Disease Activity';
+calctxt += '\n\nCDAI Interpretation: > 2.8 and <= 10 CDAI: Low Disease Activity';
+xmltxt += '\n<Result_Interpretation>CDAI Interpretation: &gt; 2.8 and &lt;= 10 CDAI: Low Disease Activity<\/Result_Interpretation>\n';
+}
+if ((CDAI > 10) && (CDAI <= 22)){ document.getElementById('rr1_3').bgColor = '#8ab2be';
+interptxt = '\n\nCDAI Interpretation: > 10 and <= 22 CDAI: Moderate Disease Activity';
+calctxt += '\n\nCDAI Interpretation: > 10 and <= 22 CDAI: Moderate Disease Activity';
+xmltxt += '\n<Result_Interpretation>CDAI Interpretation: &gt; 10 and &lt;= 22 CDAI: Moderate Disease Activity<\/Result_Interpretation>\n';
+}
+if (CDAI > 22){ document.getElementById('rr1_4').bgColor = '#8ab2be';
+interptxt = '\n\nCDAI Interpretation: > 22 CDAI: High Disease Activity';
+calctxt += '\n\nCDAI Interpretation: > 22 CDAI: High Disease Activity';
+xmltxt += '\n<Result_Interpretation>CDAI Interpretation: &gt; 22 CDAI: High Disease Activity<\/Result_Interpretation>\n';
+}
+document.getElementById('rr1_tag').ariaLabel = interptxt;
+interptxt = '';
+
+
+}
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.RheumatoidArthritisCDAI_form){
+
+if (PGA_param.value && isNaN(PGA_param.value)){ clrValue(PGA_param); alertNaN('PGA'); }
+if (PGA_param.value && (PGA < (0 - 0.00001))) {
+PGA = 0;
+clrValue(PGA_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for PGA is 0 #.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (PGA_param.value && PGA > 10) {
+clrValue(PGA_param);
+clrResults();
+PGA = 0;
+doCalc = false;
+ alert("The maximum value for PGA is 10 #.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (EGA_param.value && isNaN(EGA_param.value)){ clrValue(EGA_param); alertNaN('EGA'); }
+if (EGA_param.value && (EGA < (0 - 0.00001))) {
+EGA = 0;
+clrValue(EGA_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for EGA is 0 #.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (EGA_param.value && EGA > 10) {
+clrValue(EGA_param);
+clrResults();
+EGA = 0;
+doCalc = false;
+ alert("The maximum value for EGA is 10 #.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.RheumatoidArthritisCDAI_form){
+
+CDAI_param.value = '';
+
+rrclr();
+
+}
+
+}
+
+var PGA = null,
+EGA = null,
+CDAI = null,
+param_value = null;
+
+
+
+
+function TJCClr() {
+with(document.RheumatoidArthritisCDAI_form){
+TJC = 0;
+for (jcount = 0; jcount < 28; jcount++){
+TJC_box[jcount].checked = false;
+}
+TJC_param.value = TJC;
+RheumatoidArthritisCDAI_fx();
+}}
+
+
+function TJCAll() {
+with(document.RheumatoidArthritisCDAI_form){
+TJC = 28;
+for (jcount = 0; jcount < 28; jcount++){
+TJC_box[jcount].checked = true;
+}
+TJC_param.value = TJC;
+RheumatoidArthritisCDAI_fx();
+}}
+
+function SJCClr() {
+with(document.RheumatoidArthritisCDAI_form){
+SJC = 0;
+for (jcount = 0; jcount < 28; jcount++){
+SJC_box[jcount].checked = false;
+}
+SJC_param.value = SJC;
+RheumatoidArthritisCDAI_fx();
+}}
+
+
+function SJCAll() {
+with(document.RheumatoidArthritisCDAI_form){
+SJC = 28;
+for (jcount = 0; jcount < 28; jcount++){
+SJC_box[jcount].checked = true;
+}
+SJC_param.value = SJC;
+RheumatoidArthritisCDAI_fx();
+}}
+
+
+
+
+
+
+
+function rrclr(){
+document.getElementById('rr1_1').bgColor = '';
+document.getElementById('rr1_2').bgColor = '';
+document.getElementById('rr1_3').bgColor = '';
+document.getElementById('rr1_4').bgColor = '';
+document.getElementById('rr1_tag').ariaLabel = 'This table highlights the result CDAI Interpretation. No result is highlighted'; interptxt = '';
+}
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="RheumatoidArthritisCDAI_form" id="RheumatoidArthritisCDAI_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="RheumatoidArthritisCDAI_fx();" onreset="rrclr();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Rheumatoid Arthritis Clinical Disease Activity Index CDAI
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">PGA</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="PGA_param" size="6" value="" onblur="RheumatoidArthritisCDAI_fx(); minMaxCheck();" onchange="RheumatoidArthritisCDAI_fx();" aria-label="Use this input box to enter the value PGA" /></td>
+<td align="left" valign="top"> <select name="PGA_unit" onchange="RheumatoidArthritisCDAI_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value PGA">
+<option value="1|0|#" selected="selected">#</option>
+<option value="1|0|index">index</option>
+<option value="1|0|none">none</option>
+<option value="1|0|number">number</option>
+<option value="1|0|points">points</option>
+<option value="1|0|score">score</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">EGA</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="EGA_param" size="6" value="" onblur="RheumatoidArthritisCDAI_fx(); minMaxCheck();" onchange="RheumatoidArthritisCDAI_fx();" aria-label="Use this input box to enter the value EGA" /></td>
+<td align="left" valign="top"> <select name="EGA_unit" onchange="RheumatoidArthritisCDAI_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value EGA">
+<option value="1|0|#" selected="selected">#</option>
+<option value="1|0|index">index</option>
+<option value="1|0|none">none</option>
+<option value="1|0|number">number</option>
+<option value="1|0|points">points</option>
+<option value="1|0|score">score</option>
+</select></td></tr>
+
+
+</table>
+<br />&nbsp;<br /><center><table border="0" cellspacing="0" cellpadding="5" summary="EBMcalc Table"><tr><td align="center" valign="top">
+
+<table border="1" class="handTableOuter" summary="EBMcalc Table">
+<tr><td colspan="2" align="center" class="handTdOuter"><b>Tender Joint Count</b></td></tr>
+<tr><td align="center" valign="top" class="handTdOuter">
+
+<table border="0" class="handTableInner" summary="EBMcalc Table">
+<tr><td bgcolor="#ffffff" class="handTdInner">&nbsp;</td><td colspan="8" bgcolor="#cccccc" align="left" valign="middle" class="handTdInner">&nbsp;<input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" />&nbsp;Shoulder</td></tr>
+<tr><td colspan="9" height="5" bgcolor="#ffffff" class="handTdInner"></td></tr>
+<tr><td bgcolor="#ffffff" class="handTdInner">&nbsp;</td><td colspan="8" bgcolor="#cccccc" align="left" valign="middle" class="handTdInner">&nbsp;<input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" />&nbsp;Elbow</td></tr>
+<tr><td colspan="9" height="5" bgcolor="#ffffff" class="handTdInner"></td></tr>
+<tr><td bgcolor="#ffffff" class="handTdInner">&nbsp;</td><td colspan="8" bgcolor="#cccccc" align="left" valign="middle" class="handTdInner">&nbsp;<input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" />&nbsp;Wrist</td></tr>
+<tr><td colspan="9" bgcolor="#ffffff" height="10" class="handTdInner"></td></tr>
+
+<tr>
+
+<td bgcolor="#ffffff" height="20" width="20" valign="top" style="background-image:url(tipl.jpg)" class="handTdInner"><br /></td>
+
+<td colspan="8" bgcolor="#cccccc" align="center" class="handTdInner">Right hand</td>
+</tr>
+
+<tr>
+<td bgcolor="#cccccc" width="20" height="20" align="center" class="handTdInner">&nbsp;</td>
+<td colspan="8" bgcolor="#cccccc" align="center" class="handTdInner"><span class="medCalcFontTwo">MCP 1-5<br />IP 1, PIP 2-5</span></td>
+</tr>
+
+<tr>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#ffffff" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#cccccc" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#cccccc" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#cccccc" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+</tr>
+
+<tr>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#ffffff" class="handTdInner"></td>
+<td bgcolor="#cccccc" align="center" class="handTdInner"><input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#ffffff" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" align="center" class="handTdInner"><input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#ffffff" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" align="center" class="handTdInner"><input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#ffffff" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" align="center" class="handTdInner"><input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+</tr>
+
+<tr>
+<td bgcolor="#ffffff" height="20" valign="top" style="background-image:url(tip1.jpg)" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" width="3" class="handTdInner">&nbsp;</td>
+<td bgcolor="#cccccc" height="20" class="handTdInner">&nbsp;</td>
+<td bgcolor="#ffffff" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" height="20" class="handTdInner">&nbsp;</td>
+<td bgcolor="#ffffff" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" height="20" class="handTdInner">&nbsp;</td>
+<td bgcolor="#ffffff" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" height="20" class="handTdInner">&nbsp;</td>
+</tr>
+
+<tr>
+<td colspan="2" bgcolor="#ffffff" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" valign="top" style="background-image:url(tip2.jpg)" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" class="handTdInner" style="background-image:url(tip3.jpg)"></td>
+<td bgcolor="#ffffff" height="30" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" class="handTdInner" valign="top" style="background-image:url(tip2.jpg)"><br /></td>
+<td bgcolor="#ffffff" height="30" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" valign="top" style="background-image:url(tip1.jpg)" class="handTdInner"><br /></td>
+</tr>
+
+<tr><td colspan="9" class="handTdInner"><br /></td></tr>
+<tr><td height="20" class="handTdInner"></td><td colspan="8" bgcolor="#cccccc" align="left" valign="middle" class="handTdInner">&nbsp;<input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" />&nbsp;Knee</td></tr>
+
+</table></td>
+
+
+<td align="center" valign="top" class="handTdOuter">
+<table border="0" class="handTableInner" summary="EBMcalc Table">
+<tr><td colspan="8" bgcolor="#cccccc" align="right" valign="middle" class="handTdInner">Shoulder&nbsp;<input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" />&nbsp;</td><td class="handTdInner"></td></tr>
+<tr><td colspan="9" height="5" class="handTdInner"></td></tr>
+<tr><td colspan="8" bgcolor="#cccccc" align="right" valign="middle" class="handTdInner">Elbow&nbsp;<input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" />&nbsp;</td><td class="handTdInner"></td></tr>
+<tr><td colspan="9" height="5" class="handTdInner"></td></tr>
+<tr><td colspan="8" bgcolor="#cccccc" align="right" valign="middle" class="handTdInner">Wrist&nbsp;<input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" />&nbsp;</td><td class="handTdInner"></td></tr>
+<tr><td colspan="9" height="10" class="handTdInner"></td></tr>
+
+<tr>
+<td colspan="8" bgcolor="#cccccc" align="center" valign="bottom" class="handTdInner">Left hand</td>
+<td bgcolor="#ffffff" height="20" width="20" valign="top" style="background-image:url(tipr.jpg)" class="handTdInner"><br /></td>
+</tr>
+
+<tr>
+<td colspan="8" bgcolor="#cccccc" height="20" align="center" class="handTdInner"><span class="medCalcFontTwo">MCP 1-5<br />IP 1, PIP 2-5</span></td>
+<td bgcolor="#cccccc" width="20" class="handTdInner">&nbsp;</td>
+</tr>
+
+<tr>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#cccccc" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#cccccc" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#cccccc" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#ffffff" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+</tr>
+
+<tr>
+<td bgcolor="#cccccc" align="center" class="handTdInner"><input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#ffffff" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" align="center" class="handTdInner"><input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#ffffff" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" align="center" class="handTdInner"><input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#ffffff" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" align="center" class="handTdInner"><input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#ffffff" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+</tr>
+
+<tr>
+<td bgcolor="#cccccc" height="20" class="handTdInner">&nbsp;</td>
+<td bgcolor="#ffffff" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" height="20" class="handTdInner">&nbsp;</td>
+<td bgcolor="#ffffff" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" height="20" class="handTdInner">&nbsp;</td>
+<td bgcolor="#ffffff" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" height="20" class="handTdInner">&nbsp;</td>
+<td bgcolor="#ffffff" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="20" valign="top" style="background-image:url(tip1.jpg)" class="handTdInner"><br /></td>
+</tr>
+
+
+<tr>
+<td bgcolor="#ffffff" height="30" valign="top" style="background-image:url(tip1.jpg)" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" valign="top" style="background-image:url(tip2.jpg)" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" valign="top" style="background-image:url(tip3.jpg)" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" valign="top" style="background-image:url(tip2.jpg)" class="handTdInner"><br /></td>
+<td colspan="2" bgcolor="#ffffff" class="handTdInner"><br /></td>
+</tr>
+
+<tr><td colspan="9" class="handTdInner"><br /></td></tr>
+
+<tr><td colspan="8" bgcolor="#cccccc" align="right" valign="middle" height="20" class="handTdInner">Knee&nbsp;<input type="checkbox" name="TJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" />&nbsp;</td><td class="handTdInner"></td></tr>
+
+</table></td></tr>
+<tr><td colspan="2" align="center">
+TJC &nbsp; <input type="text" name="TJC_param" size="3" aria-readonly="true" />  &nbsp;&nbsp;&nbsp;
+<input type="button" onclick="TJCAll();" value="Select all" /> &nbsp;&nbsp;&nbsp;
+<input type="button" onclick="TJCClr();" value="Clear all" />
+</td></tr>
+</table>
+
+</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td align="center" valign="top">
+<table border="1" class="handTableOuter" summary="EBMcalc Table">
+<tr><td colspan="2" align="center" class="handTdOuter"><b>Swollen Joint Count</b></td></tr>
+<tr><td align="center" valign="top" class="handTdOuter">
+
+<table border="0" class="handTableInner" summary="EBMcalc Table">
+<tr><td bgcolor="#ffffff" class="handTdInner">&nbsp;</td><td colspan="8" bgcolor="#cccccc" align="left" valign="middle" class="handTdInner">&nbsp;<input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" />&nbsp;Shoulder</td></tr>
+<tr><td colspan="9" height="5" bgcolor="#ffffff" class="handTdInner"></td></tr>
+<tr><td bgcolor="#ffffff" class="handTdInner">&nbsp;</td><td colspan="8" bgcolor="#cccccc" align="left" valign="middle" class="handTdInner">&nbsp;<input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" />&nbsp;Elbow</td></tr>
+<tr><td colspan="9" height="5" bgcolor="#ffffff" class="handTdInner"></td></tr>
+<tr><td bgcolor="#ffffff" class="handTdInner">&nbsp;</td><td colspan="8" bgcolor="#cccccc" align="left" valign="middle" class="handTdInner">&nbsp;<input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" />&nbsp;Wrist</td></tr>
+<tr><td colspan="9" bgcolor="#ffffff" height="10" class="handTdInner"></td></tr>
+
+<tr>
+
+<td bgcolor="#ffffff" height="20" width="20" valign="top" style="background-image:url(tipl.jpg)" class="handTdInner"><br /></td>
+
+<td colspan="8" bgcolor="#cccccc" align="center" class="handTdInner">Right hand</td>
+</tr>
+
+<tr>
+<td bgcolor="#cccccc" width="20" height="20" align="center" class="handTdInner">&nbsp;</td>
+<td colspan="8" bgcolor="#cccccc" align="center" class="handTdInner"><span class="medCalcFontTwo">MCP 1-5<br />IP 1, PIP 2-5</span></td>
+</tr>
+
+<tr>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#ffffff" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#cccccc" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#cccccc" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#cccccc" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+</tr>
+
+<tr>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#ffffff" class="handTdInner"></td>
+<td bgcolor="#cccccc" align="center" class="handTdInner"><input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#ffffff" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" align="center" class="handTdInner"><input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#ffffff" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" align="center" class="handTdInner"><input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#ffffff" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" align="center" class="handTdInner"><input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+</tr>
+
+<tr>
+<td bgcolor="#ffffff" height="20" valign="top" style="background-image:url(tip1.jpg)" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" width="3" class="handTdInner">&nbsp;</td>
+<td bgcolor="#cccccc" height="20" class="handTdInner">&nbsp;</td>
+<td bgcolor="#ffffff" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" height="20" class="handTdInner">&nbsp;</td>
+<td bgcolor="#ffffff" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" height="20" class="handTdInner">&nbsp;</td>
+<td bgcolor="#ffffff" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" height="20" class="handTdInner">&nbsp;</td>
+</tr>
+
+<tr>
+<td colspan="2" bgcolor="#ffffff" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" valign="top" style="background-image:url(tip2.jpg)" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" class="handTdInner" style="background-image:url(tip3.jpg)"></td>
+<td bgcolor="#ffffff" height="30" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" class="handTdInner" valign="top" style="background-image:url(tip2.jpg)"><br /></td>
+<td bgcolor="#ffffff" height="30" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" valign="top" style="background-image:url(tip1.jpg)" class="handTdInner"><br /></td>
+</tr>
+
+<tr><td colspan="9" class="handTdInner"><br /></td></tr>
+<tr><td height="20" class="handTdInner"></td><td colspan="8" bgcolor="#cccccc" align="left" valign="middle" class="handTdInner">&nbsp;<input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" />&nbsp;Knee</td></tr>
+
+</table></td>
+
+
+<td align="center" valign="top" class="handTdOuter">
+<table border="0" class="handTableInner" summary="EBMcalc Table">
+<tr><td colspan="8" bgcolor="#cccccc" align="right" valign="middle" class="handTdInner">Shoulder&nbsp;<input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" />&nbsp;</td><td class="handTdInner"></td></tr>
+<tr><td colspan="9" height="5" class="handTdInner"></td></tr>
+<tr><td colspan="8" bgcolor="#cccccc" align="right" valign="middle" class="handTdInner">Elbow&nbsp;<input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" />&nbsp;</td><td class="handTdInner"></td></tr>
+<tr><td colspan="9" height="5" class="handTdInner"></td></tr>
+<tr><td colspan="8" bgcolor="#cccccc" align="right" valign="middle" class="handTdInner">Wrist&nbsp;<input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" />&nbsp;</td><td class="handTdInner"></td></tr>
+<tr><td colspan="9" height="10" class="handTdInner"></td></tr>
+
+<tr>
+<td colspan="8" bgcolor="#cccccc" align="center" valign="bottom" class="handTdInner">Left hand</td>
+<td bgcolor="#ffffff" height="20" width="20" valign="top" style="background-image:url(tipr.jpg)" class="handTdInner"><br /></td>
+</tr>
+
+<tr>
+<td colspan="8" bgcolor="#cccccc" height="20" align="center" class="handTdInner"><span class="medCalcFontTwo">MCP 1-5<br />IP 1, PIP 2-5</span></td>
+<td bgcolor="#cccccc" width="20" class="handTdInner">&nbsp;</td>
+</tr>
+
+<tr>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#cccccc" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#cccccc" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#cccccc" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#ffffff" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+</tr>
+
+<tr>
+<td bgcolor="#cccccc" align="center" class="handTdInner"><input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#ffffff" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" align="center" class="handTdInner"><input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#ffffff" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" align="center" class="handTdInner"><input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#ffffff" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" align="center" class="handTdInner"><input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+<td bgcolor="#ffffff" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" width="20" align="center" class="handTdInner"><input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" /></td>
+</tr>
+
+<tr>
+<td bgcolor="#cccccc" height="20" class="handTdInner">&nbsp;</td>
+<td bgcolor="#ffffff" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" height="20" class="handTdInner">&nbsp;</td>
+<td bgcolor="#ffffff" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" height="20" class="handTdInner">&nbsp;</td>
+<td bgcolor="#ffffff" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#cccccc" height="20" class="handTdInner">&nbsp;</td>
+<td bgcolor="#ffffff" width="3" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="20" valign="top" style="background-image:url(tip1.jpg)" class="handTdInner"><br /></td>
+</tr>
+
+
+<tr>
+<td bgcolor="#ffffff" height="30" valign="top" style="background-image:url(tip1.jpg)" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" valign="top" style="background-image:url(tip2.jpg)" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" valign="top" style="background-image:url(tip3.jpg)" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" class="handTdInner"><br /></td>
+<td bgcolor="#ffffff" height="30" valign="top" style="background-image:url(tip2.jpg)" class="handTdInner"><br /></td>
+<td colspan="2" bgcolor="#ffffff" class="handTdInner"><br /></td>
+</tr>
+
+<tr><td colspan="9" class="handTdInner"><br /></td></tr>
+
+<tr><td colspan="8" bgcolor="#cccccc" align="right" valign="middle" height="20" class="handTdInner">Knee&nbsp;<input type="checkbox" name="SJC_box" onclick="RheumatoidArthritisCDAI_fx();" style="height: 12px; width: 12px;" />&nbsp;</td><td class="handTdInner"></td></tr>
+
+</table></td></tr>
+<tr><td colspan="2" align="center">
+SJC &nbsp; <input type="text" name="SJC_param" size="3" aria-readonly="true" />  &nbsp;&nbsp;&nbsp;
+<input type="button" onclick="SJCAll();" value="Select all" /> &nbsp;&nbsp;&nbsp;
+<input type="button" onclick="SJCClr();" value="Clear all" />
+</td></tr>
+</table>
+</td>
+</tr></table></center>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Result</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">CDAI</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="CDAI_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value CDAI" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="CDAI_unit" onchange="RheumatoidArthritisCDAI_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value CDAI">
+<option value="1|0|#">#</option>
+<option value="1|0|index">index</option>
+<option value="1|0|none">none</option>
+<option value="1|0|number">number</option>
+<option value="1|0|points">points</option>
+<option value="1|0|score" selected="selected">score</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr><td colspan="3" align="center"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="RheumatoidArthritisCDAI_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option selected="selected">1</option>
+<option>2</option>
+<option>3</option>
+
+</select></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+<div id="rr1_tag" aria-label="This table highlights the result CDAI Interpretation. No result is highlighted" tabindex="0">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+
+CDAI Interpretation
+</span></td></tr></table><br />&nbsp;<br />
+</div>
+<center>
+<table border="1" cellpadding="4" cellspacing="0" summary="RRTable">
+<tr id="rr1_1"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">CDAI &lt;= 2.8:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Remission</span></td></tr>
+<tr id="rr1_2"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">CDAI &gt; 2.8 and &lt;= 10:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Low Disease Activity</span></td></tr>
+<tr id="rr1_3"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">CDAI &gt; 10 and &lt;= 22:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Moderate Disease Activity</span></td></tr>
+<tr id="rr1_4"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">CDAI &gt; 22:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">High Disease Activity</span></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li>In the hands, the joints that are evaluated include the first through fifth metacarpophalangeal joint, the interphalangeal joint of the thumb, and the second through fifth proximal interphalangeal joint.</li>
+<li>The <b>PGA</b> or Patient Global disease Activity estimate represents the patient's self assessment of disease activity on a 0-10 scale where 10 means maximal activity.</li>
+<li>The <b>EGA</b> or Evaluator Global disease Activity estimate represents the evaluator's assessment of disease activity on a 0-10 scale where 10 means maximal activity.</li>
+<li>A <b>CDAI</b> reduction by 6.5 represents a moderate improvement.</li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">CDAI = SJC + TJC + PGA + EGA</span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Aletaha D, Nell VP, Stamm T, et al. Acute phase reactants add little to composite disease activity  indices for rheumatoid arthritis: validation of a clinical activity score. <i> Arthritis Res Ther</i>. 2005;7(4):R796-806. PubMed ID: 15987481 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/15987481"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Aletaha D, Smolen J. The Simplified Disease Activity Index (SDAI) and the Clinical Disease Activity  Index (CDAI): a review of their usefulness and validity in rheumatoid arthritis. <i>Clin Exp Rheumatol</i>. 2005  Sep-Oct;23(5 Suppl 39):S100-8. PubMed ID: 16273793 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/16273793"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div>
+</div>
+</body>
+</html>
+
+<!-- 1662473295 //-->

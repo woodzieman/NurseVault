@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>A-a Gradient</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="sst, pulmonary, critical care, diagnosis, prognosis, pediatrics, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+AAGradient_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+AAGradient_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function AAGradient_fx() {
+
+with(document.AAGradient_form){
+
+
+doCalc = true;
+param_value = parseFloat(Age_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Age_unit.options[Age_unit.selectedIndex].value.split('|');
+Age = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Patient_Temp_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Patient_Temp_unit.options[Patient_Temp_unit.selectedIndex].value.split('|');
+Patient_Temp = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Elevation_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Elevation_unit.options[Elevation_unit.selectedIndex].value.split('|');
+Elevation = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Percent_Inspired_O2_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Percent_Inspired_O2_unit.options[Percent_Inspired_O2_unit.selectedIndex].value.split('|');
+Percent_Inspired_O2 = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(p_CO2_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = p_CO2_unit.options[p_CO2_unit.selectedIndex].value.split('|');
+p_CO2 = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Resp_Quot_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Resp_Quot_unit.options[Resp_Quot_unit.selectedIndex].value.split('|');
+Resp_Quot = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(p_aO2_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = p_aO2_unit.options[p_aO2_unit.selectedIndex].value.split('|');
+p_aO2 = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+dp = decpts.options[decpts.selectedIndex].text;
+p_Atm =  760 * eTo(Elevation / -7000);
+
+p_H2O =  47 * eTo((Patient_Temp - 37) / 18.4);
+
+FIO2 =  Percent_Inspired_O2 / 100;
+
+Expected_AaG =  2.5 + (0.21 * Age);
+
+unit_parts = Expected_AaG_unit.options[Expected_AaG_unit.selectedIndex].value.split('|');
+if (doCalc) Expected_AaG_param.value = fixDP((Expected_AaG - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+Measured_AaG =  (FIO2 * (p_Atm - p_H2O)) - (p_CO2 / Resp_Quot) + (p_CO2 * FIO2 * (1 - Resp_Quot) / Resp_Quot) - p_aO2;
+
+unit_parts = Measured_AaG_unit.options[Measured_AaG_unit.selectedIndex].value.split('|');
+if (doCalc) Measured_AaG_param.value = fixDP((Measured_AaG - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.AAGradient_form){
+
+if (Age_param.value && isNaN(Age_param.value)){ clrValue(Age_param); alertNaN('Age'); }
+if (Patient_Temp_param.value && isNaN(Patient_Temp_param.value)){ clrValue(Patient_Temp_param); alertNaN('Patient Temp'); }
+if (Patient_Temp_param.value && (Patient_Temp < (0 - 0.00001))) {
+Patient_Temp = 0;
+clrValue(Patient_Temp_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Patient Temp is 0 degC.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Patient_Temp_param.value && Patient_Temp > 50) {
+clrValue(Patient_Temp_param);
+clrResults();
+Patient_Temp = 0;
+doCalc = false;
+ alert("The maximum value for Patient Temp is 50 degC.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Elevation_param.value && isNaN(Elevation_param.value)){ clrValue(Elevation_param); alertNaN('Elevation'); }
+if (Elevation_param.value && (Elevation < (0 - 0.00001))) {
+Elevation = 0;
+clrValue(Elevation_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Elevation is 0 m.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Elevation_param.value && Elevation > 10000) {
+clrValue(Elevation_param);
+clrResults();
+Elevation = 0;
+doCalc = false;
+ alert("The maximum value for Elevation is 10000 m.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Percent_Inspired_O2_param.value && isNaN(Percent_Inspired_O2_param.value)){ clrValue(Percent_Inspired_O2_param); alertNaN('Percent Inspired O<sub>2</sub>'); }
+if (Percent_Inspired_O2_param.value && (Percent_Inspired_O2 < (1 - 0.00001))) {
+Percent_Inspired_O2 = 0;
+clrValue(Percent_Inspired_O2_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Percent Inspired O2 is 1 %O2.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Percent_Inspired_O2_param.value && Percent_Inspired_O2 > 100) {
+clrValue(Percent_Inspired_O2_param);
+clrResults();
+Percent_Inspired_O2 = 0;
+doCalc = false;
+ alert("The maximum value for Percent Inspired O2 is 100 %O2.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (p_CO2_param.value && isNaN(p_CO2_param.value)){ clrValue(p_CO2_param); alertNaN('p CO<sub>2</sub>'); }
+if (Resp_Quot_param.value && isNaN(Resp_Quot_param.value)){ clrValue(Resp_Quot_param); alertNaN('Resp Quot'); }
+if (Resp_Quot_param.value && (Resp_Quot < (0.01 - 0.00001))) {
+Resp_Quot = 0;
+clrValue(Resp_Quot_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Resp Quot is 0.01 ratio.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Resp_Quot_param.value && Resp_Quot > 1) {
+clrValue(Resp_Quot_param);
+clrResults();
+Resp_Quot = 0;
+doCalc = false;
+ alert("The maximum value for Resp Quot is 1 ratio.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (p_aO2_param.value && isNaN(p_aO2_param.value)){ clrValue(p_aO2_param); alertNaN('p aO<sub>2</sub>'); }
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.AAGradient_form){
+
+Expected_AaG_param.value = '';
+Measured_AaG_param.value = '';
+
+
+}
+
+}
+
+var Age = null,
+Patient_Temp = null,
+Elevation = null,
+Percent_Inspired_O2 = null,
+p_CO2 = null,
+Resp_Quot = null,
+p_aO2 = null,
+p_Atm = null,
+p_H2O = null,
+FIO2 = null,
+Expected_AaG = null,
+Measured_AaG = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="AAGradient_form" id="AAGradient_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="AAGradient_fx();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+A-a Gradient
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Age</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Age_param" size="6" value="" onblur="AAGradient_fx(); minMaxCheck();" onchange="AAGradient_fx();" aria-label="Use this input box to enter the value Age" /></td>
+<td align="left" valign="top"> <select name="Age_unit" onchange="AAGradient_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Age">
+<option value="0.0833333333333333|0|mo">mo</option>
+<option value="1|0|yr" selected="selected">yr</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Patient Temp</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Patient_Temp_param" size="6" value="37" onblur="AAGradient_fx(); minMaxCheck();" onchange="AAGradient_fx();" aria-label="Use this input box to enter the value Patient Temp" /></td>
+<td align="left" valign="top"> <select name="Patient_Temp_unit" onchange="AAGradient_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Patient Temp">
+<option value="1|0|degC" selected="selected">degC</option>
+<option value="0.555555555555556|-17.7777777777778|degF">degF</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Elevation</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Elevation_param" size="6" value="0" onblur="AAGradient_fx(); minMaxCheck();" onchange="AAGradient_fx();" aria-label="Use this input box to enter the value Elevation" /></td>
+<td align="left" valign="top"> <select name="Elevation_unit" onchange="AAGradient_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Elevation">
+<option value="0.01|0|cm">cm</option>
+<option value="0.3048|0|ft">ft</option>
+<option value="0.0254|0|in">in</option>
+<option value="1e-06|0|micm">micm</option>
+<option value="0.001|0|mm">mm</option>
+<option value="1|0|m" selected="selected">m</option>
+<option value="1e-09|0|nm">nm</option>
+<option value="0.9144|0|yd">yd</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Percent Inspired O<sub>2</sub></span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Percent_Inspired_O2_param" size="6" value="21" onblur="AAGradient_fx(); minMaxCheck();" onchange="AAGradient_fx();" aria-label="Use this input box to enter the value Percent Inspired O2" /></td>
+<td align="left" valign="top"> <select name="Percent_Inspired_O2_unit" onchange="AAGradient_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Percent Inspired O2">
+<option value="1|0|%O2" selected="selected">%O2</option>
+<option value="100|0|fractionO2">fractionO2</option>
+<option value="3|21|litresO2">litresO2</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">p CO<sub>2</sub></span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="p_CO2_param" size="6" value="" onblur="AAGradient_fx(); minMaxCheck();" onchange="AAGradient_fx();" aria-label="Use this input box to enter the value p CO2" /></td>
+<td align="left" valign="top"> <select name="p_CO2_unit" onchange="AAGradient_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value p CO2">
+<option value="0.00750063755419211|0|Pascal">Pascal</option>
+<option value="760.002100178515|0|atm">atm</option>
+<option value="750.063755419211|0|bar">bar</option>
+<option value="0.735561538478802|0|cmH2O">cmH2O</option>
+<option value="10|0|cmHg">cmHg</option>
+<option value="22.4199156928339|0|ftH2O">ftH2O</option>
+<option value="0.735561538478802|0|gm/sqcm">gm/sqcm</option>
+<option value="1.86832630773616|0|inH2O">inH2O</option>
+<option value="25.4000840071406|0|inHg">inHg</option>
+<option value="7.50063755419211|0|kPa">kPa</option>
+<option value="0.750063755419211|0|mbar">mbar</option>
+<option value="1|0|mmHg" selected="selected">mmHg</option>
+<option value="51.7150957831416|0|psi">psi</option>
+<option value="1|0|torr">torr</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Resp Quot</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Resp_Quot_param" size="6" value="0.8" onblur="AAGradient_fx(); minMaxCheck();" onchange="AAGradient_fx();" aria-label="Use this input box to enter the value Resp Quot" /></td>
+<td align="left" valign="top"> <select name="Resp_Quot_unit" onchange="AAGradient_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Resp Quot">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction">fraction</option>
+<option value="1|0|ratio" selected="selected">ratio</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">p aO<sub>2</sub></span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="p_aO2_param" size="6" value="" onblur="AAGradient_fx(); minMaxCheck();" onchange="AAGradient_fx();" aria-label="Use this input box to enter the value p aO2" /></td>
+<td align="left" valign="top"> <select name="p_aO2_unit" onchange="AAGradient_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value p aO2">
+<option value="0.00750063755419211|0|Pascal">Pascal</option>
+<option value="760.002100178515|0|atm">atm</option>
+<option value="750.063755419211|0|bar">bar</option>
+<option value="0.735561538478802|0|cmH2O">cmH2O</option>
+<option value="10|0|cmHg">cmHg</option>
+<option value="22.4199156928339|0|ftH2O">ftH2O</option>
+<option value="0.735561538478802|0|gm/sqcm">gm/sqcm</option>
+<option value="1.86832630773616|0|inH2O">inH2O</option>
+<option value="25.4000840071406|0|inHg">inHg</option>
+<option value="7.50063755419211|0|kPa">kPa</option>
+<option value="0.750063755419211|0|mbar">mbar</option>
+<option value="1|0|mmHg" selected="selected">mmHg</option>
+<option value="51.7150957831416|0|psi">psi</option>
+<option value="1|0|torr">torr</option>
+</select></td></tr>
+
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Results</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Expected AaG</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Expected_AaG_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Expected AaG" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Expected_AaG_unit" onchange="AAGradient_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Expected AaG">
+<option value="0.00750063755419211|0|Pascal">Pascal</option>
+<option value="760.002100178515|0|atm">atm</option>
+<option value="750.063755419211|0|bar">bar</option>
+<option value="0.735561538478802|0|cmH2O">cmH2O</option>
+<option value="10|0|cmHg">cmHg</option>
+<option value="22.4199156928339|0|ftH2O">ftH2O</option>
+<option value="0.735561538478802|0|gm/sqcm">gm/sqcm</option>
+<option value="1.86832630773616|0|inH2O">inH2O</option>
+<option value="25.4000840071406|0|inHg">inHg</option>
+<option value="7.50063755419211|0|kPa">kPa</option>
+<option value="0.750063755419211|0|mbar">mbar</option>
+<option value="1|0|mmHg" selected="selected">mmHg</option>
+<option value="51.7150957831416|0|psi">psi</option>
+<option value="1|0|torr">torr</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Measured AaG</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Measured_AaG_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Measured AaG" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Measured_AaG_unit" onchange="AAGradient_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Measured AaG">
+<option value="0.00750063755419211|0|Pascal">Pascal</option>
+<option value="760.002100178515|0|atm">atm</option>
+<option value="750.063755419211|0|bar">bar</option>
+<option value="0.735561538478802|0|cmH2O">cmH2O</option>
+<option value="10|0|cmHg">cmHg</option>
+<option value="22.4199156928339|0|ftH2O">ftH2O</option>
+<option value="0.735561538478802|0|gm/sqcm">gm/sqcm</option>
+<option value="1.86832630773616|0|inH2O">inH2O</option>
+<option value="25.4000840071406|0|inHg">inHg</option>
+<option value="7.50063755419211|0|kPa">kPa</option>
+<option value="0.750063755419211|0|mbar">mbar</option>
+<option value="1|0|mmHg" selected="selected">mmHg</option>
+<option value="51.7150957831416|0|psi">psi</option>
+<option value="1|0|torr">torr</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr><td colspan="3" align="center"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="AAGradient_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option selected="selected">1</option>
+<option>2</option>
+<option>3</option>
+
+</select></td></tr>
+
+</table>
+</center>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li>High A-a gradients are associated with oxygen transfer / gas exchange problems. These are usually associated with alveolar membrane diseases, interstitial diseases or V/Q mismatch.</li>
+<li>Hypoxemia in the face of a normal A-a gradient implies hypoventilation with displacement of alveolar O<sub>2</sub> by CO<sub>2</sub> or other substance.</li>
+<li>The <b>FIO<sub>2</sub></b> (fraction of inspired oxygen) is equal to the <b>Percent Inspired O<sub>2</sub></b> / 100.</li>
+<li>In this calculator, <b>pATM</b> is estimated by elevation above sea level using this formula: <b>pAtm</b> = 760 * eTo(<b>Elevation</b> / -7000)</li>
+<li><b>pH2O</b> is dependent on body temperature and calculated with the following formula: <b>pH2O</b> = 47 * eTo((<b>Patient Temp</b> - 37) / 18.4)</li>
+<li>The equation for expected A-a gradient assumes the patient is breathing room air; therefore, it is less accurate at higher percentages of inspired oxygen.</li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">pAtm = 760 * e<sup>(Elevation/-7000)</sup></span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">pH2O = 47 * e<sup>((PatientTemp-37)/18.4)</sup></span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">FIO2 = Percent Inspired O<sub>2</sub> / 100</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">ExpectedAaG = 2.5 + (0.21 * Age)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">MeasuredAaG = (FIO2 * (pAtm - pH2O)) - (pCO<sub>2</sub> / RespQuot) + (pCO<sub>2</sub> * FIO2 * (1 - RespQuot) / RespQuot) - paO<sub>2</sub></span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Kanber GJ, King FW, Eshchar YR, et al. The alveolar-arterial oxygen gradient in young and elderly men during air and  oxygen breathing. <i>Am Rev Respir Dis</i>. 1968 Mar;97(3):376-81. PubMed ID: 5638492 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/5638492"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Mellemgaard K. The alveolar-arterial oxygen difference: its size and components in normal man. <i> Acta Physiol Scand</i>. 1966 May;67(1):10-20. PubMed ID: 5963295 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/5963295"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div>
+</div>
+</body>
+</html>
+
+<!-- 1662473244 //-->

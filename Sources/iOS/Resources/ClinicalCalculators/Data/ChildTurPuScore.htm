@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Child Pugh Classification for Severity of Liver Disease</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="Gastroenterology, fac_all, fac_med, prognosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+var calctxt = '';
+var xmltxt = '';
+var xmlresult = '';
+var htmtxt = '';
+var postNow = false;
+var printing = false;
+
+
+function ChildTurPuScore_fx() {
+with(document.ChildTurPuScore_form){
+
+Score = 0.0;
+doCalc = true;
+
+if (cc1[0].checked){
+Score = Score + 1; 
+}
+if (cc1[1].checked){
+Score = Score + 2; 
+}
+if (cc1[2].checked){
+Score = Score + 2; 
+}
+if (cc1[3].checked){
+Score = Score + 3; 
+}
+if (cc1[4].checked){
+Score = Score + 3; 
+}
+if (cc2[0].checked){
+Score = Score + 1; 
+}
+if (cc2[1].checked){
+Score = Score + 2; 
+}
+if (cc2[2].checked){
+Score = Score + 3; 
+}
+if (cc3[0].checked){
+Score = Score + 1; 
+}
+if (cc3[1].checked){
+Score = Score + 2; 
+}
+if (cc3[2].checked){
+Score = Score + 3; 
+}
+if (cc4[0].checked){
+Score = Score + 1; 
+}
+if (cc4[1].checked){
+Score = Score + 2; 
+}
+if (cc4[2].checked){
+Score = Score + 3; 
+}
+if (cc5[0].checked){
+Score = Score + 1; 
+}
+if (cc5[1].checked){
+Score = Score + 2; 
+}
+if (cc5[2].checked){
+Score = Score + 3; 
+}
+if (doCalc){
+cctotal.value = Score;
+if (cctotal.value == 'NaN') cctotal.value = '';
+}
+else{
+Score = null;
+cctotal.value = '';
+if (typeof rrclr == 'function') { rrclr(); };
+document.ChildTurPuScore_form.cctotal.value = '';
+}
+
+if (doCalc){
+rrclr();
+if ((Score >= 5) && (Score <= 6)){ document.getElementById('rr1_1').bgColor = '#cccccc';
+}
+if ((Score >= 7) && (Score <= 9)){ document.getElementById('rr1_2').bgColor = '#cccccc';
+}
+if ((Score >= 10) && (Score <= 15)){ document.getElementById('rr1_3').bgColor = '#cccccc';
+}
+
+
+}
+}
+}
+
+
+
+
+function rrclr(){
+document.getElementById('rr1_1').bgColor = '';
+document.getElementById('rr1_2').bgColor = '';
+document.getElementById('rr1_3').bgColor = '';
+}
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+<form name="ChildTurPuScore_form" id="ChildTurPuScore_form" action="" onsubmit="return false;" onreset="rrclr(); ">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Child Pugh Classification for Severity of Liver Disease
+</span></td></tr></table><br />&nbsp;<br />
+<div id="calc_main">
+<div id="calc_input">
+<center>
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Encephalopathy </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" name="cc1" onclick="ChildTurPuScore_fx();" /></td>
+<td align="left"><span class="medCalcFontCCTab">None (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" name="cc1" onclick="ChildTurPuScore_fx();" /></td>
+<td align="left"><span class="medCalcFontCCTab">Grade 1: Altered mood/confusion (2 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" name="cc1" onclick="ChildTurPuScore_fx();" /></td>
+<td align="left"><span class="medCalcFontCCTab">Grade 2: Inappropriate behavior, impending stupor, somnolence (2 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" name="cc1" onclick="ChildTurPuScore_fx();" /></td>
+<td align="left"><span class="medCalcFontCCTab"> Grade 3: Markedly confused, stuporous but arousable (3 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" name="cc1" onclick="ChildTurPuScore_fx();" /></td>
+<td align="left"><span class="medCalcFontCCTab">Grade 4: Comatose/unresponsive (3 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Ascites </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" name="cc2" onclick="ChildTurPuScore_fx();" /></td>
+<td align="left"><span class="medCalcFontCCTab">Absent (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" name="cc2" onclick="ChildTurPuScore_fx();" /></td>
+<td align="left"><span class="medCalcFontCCTab">Slight (2 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" name="cc2" onclick="ChildTurPuScore_fx();" /></td>
+<td align="left"><span class="medCalcFontCCTab">Moderate (3 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Bilirubin </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" name="cc3" onclick="ChildTurPuScore_fx();" /></td>
+<td align="left"><span class="medCalcFontCCTab">&lt;2 mg/dL (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" name="cc3" onclick="ChildTurPuScore_fx();" /></td>
+<td align="left"><span class="medCalcFontCCTab">2-3 mg/dL (2 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" name="cc3" onclick="ChildTurPuScore_fx();" /></td>
+<td align="left"><span class="medCalcFontCCTab">&gt;3 mg/dL (3 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Albumin </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" name="cc4" onclick="ChildTurPuScore_fx();" /></td>
+<td align="left"><span class="medCalcFontCCTab">&gt;3.5 g/dL (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" name="cc4" onclick="ChildTurPuScore_fx();" /></td>
+<td align="left"><span class="medCalcFontCCTab">2.8-3.5 g/dL (2 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" name="cc4" onclick="ChildTurPuScore_fx();" /></td>
+<td align="left"><span class="medCalcFontCCTab">&lt;2.8 g/dL (3 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Prothrombin time prolongation </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" name="cc5" onclick="ChildTurPuScore_fx();" /></td>
+<td align="left"><span class="medCalcFontCCTab">Less than 4 seconds above control/INR &lt;1.7 (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" name="cc5" onclick="ChildTurPuScore_fx();" /></td>
+<td align="left"><span class="medCalcFontCCTab">4-6 seconds above control/INR 1.7-2.3 (2 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" name="cc5" onclick="ChildTurPuScore_fx();" /></td>
+<td align="left"><span class="medCalcFontCCTab">More than 6 seconds above control/INR &gt;2.3 (3 points)</span></td></tr>
+
+</table>
+</center>
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<span class="medCalcFontCCTabBold">
+Total Criteria Point Count:
+</span>
+<input type="text" size="6" name="cctotal" onfocus="blur();" /><br />&nbsp;<br />
+<center><input type="reset" name="reset" value="Reset Form" />    </center>
+<br />&nbsp;<br />
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ CTP Score Interpretation
+</span></td></tr></table><br />&nbsp;<br />
+<center>
+<table border="1" cellpadding="4" cellspacing="0" summary="RRTable">
+<tr id="rr1_1"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">5 to 6 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Child class A</span></td></tr>
+<tr id="rr1_2"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">7 to 9 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Child class B</span></td></tr>
+<tr id="rr1_3"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">10 to 15 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Child class C</span></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+
+</div>
+</div>
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li>In cases of Primary Biliary Cirrhosis, <b>Bilirubin</b> point values are sometimes considered differently: <br />&nbsp;<br /><ul class="medCalcFontOne"><li>1-4 mg/dL --&gt;1 point</li><li>4-10 mg/dL --&gt;2 points</li><li>&gt;10 mg/dL --&gt;3 points</li></ul></li>
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Pugh RN, Murray-Lyon IM, Dawson JL, et al. Transection of the oesophagus for bleeding oesophageal varices. <i>Br J Surg</i>. 1973; 60:646. PubMed ID: 4541913 <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/4541913"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Child CG, Turcotte JG. <i>The Liver and Portal Hypertension</i>. Philadelphia, WB Saunders Co. 1964. NLMN ID: 46218 <a target="_blank" href="http://www.ncbi.nlm.nih.gov/nlmcatalog/46218"><img border="0" src="ncbi.gif" align="top" alt="NCBI Logo" /></a></span></li>
+<li><span class="medCalcFontRef">Trey C, Burns DG, Saunders SJ. Treatment of hepatic coma by exchange blood transfusion. <i>NEJM</i>. 1966; 274:473. PubMed ID: 5904286 <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/5904286"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+ 
+</form>
+<div id="calc_disclaimer"><br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2018 Foundation Internet Services &nbsp;&nbsp; [Build 255633 v18.3]</span></center></td></tr></table></center>
+</div><script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+ChildTurPuScore_fx();
+
+/* ]]> */
+</script>
+
+
+
+</div>
+</body>
+</html>
+
+
+<!-- 1532964186 //-->

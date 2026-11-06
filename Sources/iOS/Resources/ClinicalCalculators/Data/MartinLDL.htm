@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Martin Equation for Low Density Lipoprotein (LDL-C)</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5MKXR9');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="cardio, metabolism, endocrine, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="googlebot" content="noindex,indexifembedded" />
+</head>
+
+<body class="medCalcBody">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MKXR9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+NF = new Array();
+
+NF[0] = [3.5,3.4,3.3,3.3,3.2,3.1];
+NF[1] = [4.0,3.9,3.7,3.6,3.6,3.4];
+NF[2] = [4.3,4.1,4.0,3.9,3.8,3.6];
+NF[3] = [4.5,4.3,4.1,4.0,3.9,3.9];
+NF[4] = [4.7,4.4,4.3,4.2,4.1,3.9];
+NF[5] = [4.8,4.6,4.4,4.2,4.2,4.1];
+NF[6] = [4.9,4.6,4.5,4.3,4.3,4.2];
+NF[7] = [5.0,4.8,4.6,4.4,4.3,4.2];
+NF[8] = [5.1,4.8,4.6,4.5,4.4,4.3];
+NF[9] = [5.2,4.9,4.7,4.6,4.4,4.3];
+NF[10] = [5.3,5.0,4.8,4.7,4.5,4.4];
+NF[11] = [5.4,5.1,4.8,4.7,4.5,4.3];
+NF[12] = [5.5,5.2,5.0,4.7,4.6,4.5];
+NF[13] = [5.6,5.3,5.0,4.8,4.6,4.5];
+NF[14] = [5.7,5.4,5.1,4.9,4.7,4.5];
+NF[15] = [5.8,5.5,5.2,5.0,4.8,4.6];
+NF[16] = [6.0,5.5,5.3,5.0,4.8,4.6];
+NF[17] = [6.1,5.7,5.3,5.1,4.9,4.7];
+NF[18] = [6.2,5.8,5.4,5.2,5.0,4.7];
+NF[19] = [6.3,5.9,5.6,5.3,5.0,4.8];
+NF[20] = [6.5,6.0,5.7,5.4,5.1,4.8];
+NF[21] = [6.7,6.2,5.8,5.4,5.2,4.9];
+NF[22] = [6.8,6.3,5.9,5.5,5.3,5.0];
+NF[23] = [7.0,6.5,6.0,5.7,5.4,5.1];
+NF[24] = [7.3,6.7,6.2,5.8,5.5,5.2];
+NF[25] = [7.6,6.9,6.4,6.0,5.6,5.3];
+NF[26] = [8.0,7.2,6.6,6.2,5.9,5.4];
+NF[27] = [8.5,7.6,7.0,6.5,6.1,5.6];
+NF[28] = [9.5,8.3,7.5,7.0,6.5,5.9];
+NF[29] = [11.9,10.0,8.8,8.1,7.5,6.7];
+
+/* ]]> */
+</script>
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 2000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+MartinLDL_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+MartinLDL_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+
+function aDelay(atxt, ffield){
+with (document.MartinLDL_form){
+clrResults();
+ffield.value = '';
+doCalc = false;
+setTimeout(function(){ alert(atxt); }, 100);
+
+}}
+
+
+function MartinLDL_fx() {
+
+with(document.MartinLDL_form){
+
+
+doCalc = true;
+param_value = parseFloat(Total_Cholesterol_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Total_Cholesterol_unit.options[Total_Cholesterol_unit.selectedIndex].value.split('|');
+Total_Cholesterol = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(HDL_Cholesterol_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = HDL_Cholesterol_unit.options[HDL_Cholesterol_unit.selectedIndex].value.split('|');
+HDL_Cholesterol = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Triglycerides_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+Triglycerides = param_value;
+dp = decpts.options[decpts.selectedIndex].text;
+if (Triglycerides >= 400) ti = 29;
+else if (Triglycerides >= 293) ti = 28;
+else if (Triglycerides >= 248) ti = 27;
+else if (Triglycerides >= 221) ti = 26;
+else if (Triglycerides >= 202) ti = 25;
+else if (Triglycerides >= 186) ti = 24;
+else if (Triglycerides >= 174) ti = 23;
+else if (Triglycerides >= 164) ti = 22;
+else if (Triglycerides >= 155) ti = 21;
+else if (Triglycerides >= 147) ti = 20;
+else if (Triglycerides >= 139) ti = 19;
+else if (Triglycerides >= 133) ti = 18;
+else if (Triglycerides >= 127) ti = 17;
+else if (Triglycerides >= 121) ti = 16;
+else if (Triglycerides >= 116) ti = 15;
+else if (Triglycerides >= 111) ti = 14;
+else if (Triglycerides >= 106) ti = 13;
+else if (Triglycerides >= 101) ti = 12;
+else if (Triglycerides >= 97) ti = 11;
+else if (Triglycerides >= 93) ti = 10;
+else if (Triglycerides >= 88) ti = 9;
+else if (Triglycerides >= 84) ti = 8;
+else if (Triglycerides >= 80) ti = 7;
+else if (Triglycerides >= 76) ti = 6;
+else if (Triglycerides >= 72) ti = 5;
+else if (Triglycerides >= 67) ti = 4;
+else if (Triglycerides >= 62) ti = 3;
+else if (Triglycerides >= 57) ti = 2;
+else if (Triglycerides >= 50) ti = 1;
+else ti = 0;
+Non_HDL_Cholesterol =  Total_Cholesterol - HDL_Cholesterol;
+
+if (doCalc) Non_HDL_Cholesterol_param.value = fixDP(Non_HDL_Cholesterol, dp);
+
+
+
+if (Non_HDL_Cholesterol >= 220) ni = 5;
+else if (Non_HDL_Cholesterol >= 190) ni = 4;
+else if (Non_HDL_Cholesterol >= 160) ni = 3;
+else if (Non_HDL_Cholesterol >= 130) ni = 2;
+else if (Non_HDL_Cholesterol >= 100) ni = 1;
+else ni = 0;
+Novel_Factor =  NF[ti][ni];
+
+if (doCalc) Novel_Factor_param.value = fixDP(Novel_Factor, dp);
+
+
+
+LDL_Cholesterol =  Non_HDL_Cholesterol - (Triglycerides / Novel_Factor);
+
+if (doCalc) LDL_Cholesterol_param.value = fixDP(LDL_Cholesterol, dp);
+
+
+
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.MartinLDL_form){
+
+if (Total_Cholesterol_param.value && isNaN(Total_Cholesterol_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Total_Cholesterol_param); }
+if (Total_Cholesterol_param.value && (Total_Cholesterol < (0 - 0.00001))) {
+Total_Cholesterol = 0;
+ aDelay("The minimum value for Total Cholesterol is 0 mg/dL.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Total_Cholesterol_param);
+}
+
+if (HDL_Cholesterol_param.value && isNaN(HDL_Cholesterol_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', HDL_Cholesterol_param); }
+if (HDL_Cholesterol_param.value && (HDL_Cholesterol < (0 - 0.00001))) {
+HDL_Cholesterol = 0;
+ aDelay("The minimum value for HDL Cholesterol is 0 mg/dL.\n\nIf you are specifying a value with a different unit, change the unit selector first.", HDL_Cholesterol_param);
+}
+
+if (Triglycerides_param.value && isNaN(Triglycerides_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Triglycerides_param); }
+if (Triglycerides_param.value && (Triglycerides < (0 - 0.00001))) {
+Triglycerides = 0;
+ aDelay("The minimum value for Triglycerides is 0 mg/dL.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Triglycerides_param);
+}
+
+if (Triglycerides_param.value && Triglycerides > 13975) {
+Triglycerides = 0;
+ aDelay("The maximum value for Triglycerides is 13975 mg/dL.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Triglycerides_param);
+}
+
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.MartinLDL_form){
+
+Non_HDL_Cholesterol_param.value = '';
+Novel_Factor_param.value = '';
+LDL_Cholesterol_param.value = '';
+
+
+}
+
+}
+
+var Total_Cholesterol = null,
+HDL_Cholesterol = null,
+Triglycerides = null,
+Non_HDL_Cholesterol = null,
+Novel_Factor = null,
+LDL_Cholesterol = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="MartinLDL_form" id="MartinLDL_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="MartinLDL_fx();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Martin Equation for Low Density Lipoprotein (LDL-C)
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Total Cholesterol</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Total_Cholesterol_param" size="6" value="" onblur="MartinLDL_fx(); minMaxCheck();" onchange="MartinLDL_fx();" aria-label="Use this input box to enter the value Total Cholesterol" /></td>
+<td align="left" valign="top"> <select name="Total_Cholesterol_unit" onchange="MartinLDL_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Total Cholesterol">
+<option value="1|0|mg/dL_Chol" selected="selected">mg/dL</option>
+<option value="38.6697602474865|0|mmol/L_Chol">mmol/L</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">HDL Cholesterol</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="HDL_Cholesterol_param" size="6" value="" onblur="MartinLDL_fx(); minMaxCheck();" onchange="MartinLDL_fx();" aria-label="Use this input box to enter the value HDL Cholesterol" /></td>
+<td align="left" valign="top"> <select name="HDL_Cholesterol_unit" onchange="MartinLDL_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value HDL Cholesterol">
+<option value="1|0|mg/dL_HDL" selected="selected">mg/dL</option>
+<option value="38.6697602474865|0|mmol/L_HDL">mmol/L</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Triglycerides</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Triglycerides_param" size="6" value="" onblur="MartinLDL_fx(); minMaxCheck();" onchange="MartinLDL_fx();" aria-label="Use this input box to enter the value Triglycerides" /></td>
+<td align="left" valign="top"> <span style="white-space: nowrap;"><span class="medCalcFontOneBold">mg/dL_Trig</span>
+</span></td></tr>
+
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Results</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Non-HDL Cholesterol</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Non_HDL_Cholesterol_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Non-HDL Cholesterol" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<span style="white-space: nowrap;"><span class="medCalcFontResultParam">mg/dL_NonHDL</span>
+</span>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Novel Factor</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Novel_Factor_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Novel Factor" /></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">LDL Cholesterol</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="LDL_Cholesterol_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value LDL Cholesterol" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<span style="white-space: nowrap;"><span class="medCalcFontResultParam">mg/dL_LDL</span>
+</span>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr><td colspan="3" align="center"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="MartinLDL_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option selected="selected">1</option>
+<option>2</option>
+<option>3</option>
+
+</select></td></tr>
+
+</table>
+</center>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+<br />&nbsp;<br />
+<div id="calc_hints">
+<span class="medCalcFontOne">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</span>
+ 
+</div>
+
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li><b>Novel Factor</b> represents the triglyceride to VLDL-cholesterol ratio. This ratio varies depending on the <b>Triglycerides</b> and <b>Non-HDL Cholesterol</b> levels.</li>
+<li>The <b>Novel Factor</b> improves accuracy of <b>LDL Cholesterol</b> determination throughout a wide range of triglyceride levels.</li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">Non-HDL Cholesterol = Total Cholesterol - HDL Cholesterol</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">LDL Cholesterol = Non-HDL Cholesterol - (Triglycerides / Novel Factor)</span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+
+<div id="calc_tables">
+<br />&nbsp;<br />
+<span class="medCalcFontOneBold">Novel Factors based on Triglycerides and Non-HDL Cholesterol</span>
+<br />&nbsp;<br />
+<center>
+<table border="1" cellpadding="1" cellspacing="0" width="40%" class="MedCalcFontOne" summary="EBMcalc Table 1">
+ <tr bgcolor="#cccccc"><td colspan="1" rowspan="2" align="center">Triglycerides [mg/dL]</td><td colspan="6" align="center">Non-HDL Cholesterol [mg/dL]</td></tr> <tr bgcolor="#cccccc"><td>&lt;100</td><td>100-129</td><td>130-159</td><td>160-189</td><td>190-219</td><td>&ge;220</td></tr>
+<tr><td align="center"> 7-49</td><td align="center">3.5</td><td align="center">3.4</td><td align="center">3.3</td><td align="center">3.3</td><td align="center">3.2</td><td align="center">3.1</td></tr>
+<tr><td align="center"> 50-56</td><td align="center">4.0</td><td align="center">3.9</td><td align="center">3.7</td><td align="center">3.6</td><td align="center">3.6</td><td align="center">3.4</td></tr>
+<tr><td align="center"> 57-61</td><td align="center">4.3</td><td align="center">4.1</td><td align="center">4.0</td><td align="center">3.9</td><td align="center">3.8</td><td align="center">3.6</td></tr>
+<tr><td align="center"> 62-66</td><td align="center">4.5</td><td align="center">4.3</td><td align="center">4.1</td><td align="center">4.0</td><td align="center">3.9</td><td align="center">3.9</td></tr>
+<tr><td align="center"> 67-71</td><td align="center">4.7</td><td align="center">4.4</td><td align="center">4.3</td><td align="center">4.2</td><td align="center">4.1</td><td align="center">3.9</td></tr>
+<tr><td align="center"> 72-75</td><td align="center">4.8</td><td align="center">4.6</td><td align="center">4.4</td><td align="center">4.2</td><td align="center">4.2</td><td align="center">4.1</td></tr>
+<tr><td align="center"> 76-79</td><td align="center">4.9</td><td align="center">4.6</td><td align="center">4.5</td><td align="center">4.3</td><td align="center">4.3</td><td align="center">4.2</td></tr>
+<tr><td align="center"> 80-83</td><td align="center">5.0</td><td align="center">4.8</td><td align="center">4.6</td><td align="center">4.4</td><td align="center">4.3</td><td align="center">4.2</td></tr>
+<tr><td align="center"> 84-87</td><td align="center">5.1</td><td align="center">4.8</td><td align="center">4.6</td><td align="center">4.5</td><td align="center">4.4</td><td align="center">4.3</td></tr>
+<tr><td align="center"> 88-92</td><td align="center">5.2</td><td align="center">4.9</td><td align="center">4.7</td><td align="center">4.6</td><td align="center">4.4</td><td align="center">4.3</td></tr>
+<tr><td align="center"> 93-96</td><td align="center">5.3</td><td align="center">5.0</td><td align="center">4.8</td><td align="center">4.7</td><td align="center">4.5</td><td align="center">4.4</td></tr>
+<tr><td align="center"> 97-100</td><td align="center">5.4</td><td align="center">5.1</td><td align="center">4.8</td><td align="center">4.7</td><td align="center">4.5</td><td align="center">4.3</td></tr>
+<tr><td align="center"> 101-105</td><td align="center">5.5</td><td align="center">5.2</td><td align="center">5.0</td><td align="center">4.7</td><td align="center">4.6</td><td align="center">4.5</td></tr>
+<tr><td align="center"> 106-110</td><td align="center">5.6</td><td align="center">5.3</td><td align="center">5.0</td><td align="center">4.8</td><td align="center">4.6</td><td align="center">4.5</td></tr>
+<tr><td align="center"> 111-115</td><td align="center">5.7</td><td align="center">5.4</td><td align="center">5.1</td><td align="center">4.9</td><td align="center">4.7</td><td align="center">4.5</td></tr>
+<tr><td align="center"> 116-120</td><td align="center">5.8</td><td align="center">5.5</td><td align="center">5.2</td><td align="center">5.0</td><td align="center">4.8</td><td align="center">4.6</td></tr>
+<tr><td align="center"> 121-126</td><td align="center">6.0</td><td align="center">5.5</td><td align="center">5.3</td><td align="center">5.0</td><td align="center">4.8</td><td align="center">4.6</td></tr>
+<tr><td align="center"> 127-132</td><td align="center">6.1</td><td align="center">5.7</td><td align="center">5.3</td><td align="center">5.1</td><td align="center">4.9</td><td align="center">4.7</td></tr>
+<tr><td align="center"> 133-138</td><td align="center">6.2</td><td align="center">5.8</td><td align="center">5.4</td><td align="center">5.2</td><td align="center">5.0</td><td align="center">4.7</td></tr>
+<tr><td align="center"> 139-146</td><td align="center">6.3</td><td align="center">5.9</td><td align="center">5.6</td><td align="center">5.3</td><td align="center">5.0</td><td align="center">4.8</td></tr>
+<tr><td align="center"> 147-154</td><td align="center">6.5</td><td align="center">6.0</td><td align="center">5.7</td><td align="center">5.4</td><td align="center">5.1</td><td align="center">4.8</td></tr>
+<tr><td align="center"> 155-163</td><td align="center">6.7</td><td align="center">6.2</td><td align="center">5.8</td><td align="center">5.4</td><td align="center">5.2</td><td align="center">4.9</td></tr>
+<tr><td align="center"> 164-173</td><td align="center">6.8</td><td align="center">6.3</td><td align="center">5.9</td><td align="center">5.5</td><td align="center">5.3</td><td align="center">5.0</td></tr>
+<tr><td align="center"> 174-185</td><td align="center">7.0</td><td align="center">6.5</td><td align="center">6.0</td><td align="center">5.7</td><td align="center">5.4</td><td align="center">5.1</td></tr>
+<tr><td align="center"> 186-201</td><td align="center">7.3</td><td align="center">6.7</td><td align="center">6.2</td><td align="center">5.8</td><td align="center">5.5</td><td align="center">5.2</td></tr>
+<tr><td align="center"> 202-220</td><td align="center">7.6</td><td align="center">6.9</td><td align="center">6.4</td><td align="center">6.0</td><td align="center">5.6</td><td align="center">5.3</td></tr>
+<tr><td align="center"> 221-247</td><td align="center">8.0</td><td align="center">7.2</td><td align="center">6.6</td><td align="center">6.2</td><td align="center">5.9</td><td align="center">5.4</td></tr>
+<tr><td align="center"> 248-292</td><td align="center">8.5</td><td align="center">7.6</td><td align="center">7.0</td><td align="center">6.5</td><td align="center">6.1</td><td align="center">5.6</td></tr>
+<tr><td align="center"> 293-399</td><td align="center">9.5</td><td align="center">8.3</td><td align="center">7.5</td><td align="center">7.0</td><td align="center">6.5</td><td align="center">5.9</td></tr>
+<tr><td align="center"> 400-13975</td><td align="center">11.9</td><td align="center">10.0</td><td align="center">8.8</td><td align="center">8.1</td><td align="center">7.5</td><td align="center">6.7</td></tr>
+</table></center>
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Martin SS, Blaha MJ, Elshazly MB, et al. Comparison of a novel method vs the Friedewald equation for estimating  low-density lipoprotein cholesterol levels from the standard lipid profile. <i>JAMA</i>. 2013 Nov 20;310(19):2061-8. PubMed ID: 24240933 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/24240933" rel="noopener noreferrer"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2023 Foundation Internet Services &nbsp;&nbsp; [Build 269824 v23.1]</span></center></td></tr></table></center>
+</div><script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+with(document.MartinLDL_form){
+
+var ti, ni;
+
+}
+/* ]]> */
+</script>
+
+
+
+</div>
+</body>
+</html>
+
+<!-- 1679495276 //-->

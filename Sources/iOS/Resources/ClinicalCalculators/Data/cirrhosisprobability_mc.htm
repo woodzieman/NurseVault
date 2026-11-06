@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Cirrhosis Probability in Hepatitis C MultiCalc</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="hepatology, infect, gastro, prognosis, diagnosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+CirrhosisProbability_MC_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+CirrhosisProbability_MC_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function CirrhosisProbability_MC_fx() {
+
+with(document.CirrhosisProbability_MC_form){
+
+
+doCalc = true;
+param_value = parseFloat(Age_param.value);
+unit_parts = Age_unit.options[Age_unit.selectedIndex].value.split('|');
+Age = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Platelets_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Platelets_unit.options[Platelets_unit.selectedIndex].value.split('|');
+Platelets = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(ALT_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+ALT = param_value;
+param_value = parseFloat(AST_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+AST = param_value;
+param_value = parseFloat(Top_Normal_AST_param.value);
+Top_Normal_AST = param_value;
+param_value = parseFloat(INR_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = INR_unit.options[INR_unit.selectedIndex].value.split('|');
+INR = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+dp = decpts.options[decpts.selectedIndex].text;
+var Platelet_Score;
+var ALT_AST_Ratio_Score;
+var INR_Score;
+if (Platelets > 340) Platelet_Score = 0;
+if ((Platelets >= 280) && (Platelets <= 340)) Platelet_Score = 1;
+if ((Platelets >= 220) && (Platelets < 280)) Platelet_Score = 2;
+if ((Platelets >= 160) && (Platelets < 220)) Platelet_Score = 3;
+if ((Platelets >= 100) && (Platelets < 160)) Platelet_Score = 4;
+if ((Platelets >= 40) && (Platelets < 100)) Platelet_Score = 5;
+if (Platelets < 40) Platelet_Score = 6;
+ALT_AST_Ratio = ALT / AST;
+if (ALT_AST_Ratio > 1.7) ALT_AST_Ratio_Score = 0;
+if ((ALT_AST_Ratio <= 1.7) && (ALT_AST_Ratio >= 1.2)) ALT_AST_Ratio_Score = 1;
+if ((ALT_AST_Ratio < 1.2) && (ALT_AST_Ratio >= 0.6)) ALT_AST_Ratio_Score = 2;
+if (ALT_AST_Ratio < 0.6) ALT_AST_Ratio_Score = 3;
+if (INR < 1.1) INR_Score = 0;
+if ((INR >= 1.1) && (INR <= 1.4)) INR_Score = 1;
+if (INR > 1.4) INR_Score = 2;
+CDS =  Platelet_Score + ALT_AST_Ratio_Score + INR_Score;
+
+unit_parts = CDS_unit.options[CDS_unit.selectedIndex].value.split('|');
+if (doCalc) CDS_param.value = fixDP((CDS - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+Log_Odds_Lok =  (1.26 * AST / ALT) + (5.27 * INR) - (0.0089 * Platelets) - 5.56;
+
+Lok_Index =  eTo(Log_Odds_Lok) / (1 + eTo(Log_Odds_Lok));
+
+unit_parts = Lok_Index_unit.options[Lok_Index_unit.selectedIndex].value.split('|');
+if (doCalc) Lok_Index_param.value = fixDP((Lok_Index - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+GUCI =  (AST / Top_Normal_AST) * INR * 100 / Platelets;
+
+unit_parts = GUCI_unit.options[GUCI_unit.selectedIndex].value.split('|');
+if (doCalc) GUCI_param.value = fixDP((GUCI - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+if (isNaN(GUCI_param.value)) GUCI_param.value = '';
+
+APRI =  (AST / Top_Normal_AST) * (100 / Platelets);
+
+unit_parts = APRI_unit.options[APRI_unit.selectedIndex].value.split('|');
+if (doCalc) APRI_param.value = fixDP((APRI - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+if (isNaN(APRI_param.value)) APRI_param.value = '';
+
+FIB4 =  Age * AST / (Platelets * sqr(ALT));
+
+unit_parts = FIB4_unit.options[FIB4_unit.selectedIndex].value.split('|');
+if (doCalc) FIB4_param.value = fixDP((FIB4 - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+if (isNaN(FIB4_param.value)) FIB4_param.value = '';
+
+
+if (doCalc){
+rrclr();
+if ((CDS >= 0) && (CDS <= 7)){ document.getElementById('rr1_1').bgColor = '#8ab2be';
+interptxt = '\n\nCDS Interpretation: 0 to 7 Points: Cirrhosis less likely';
+calctxt += '\n\nCDS Interpretation: 0 to 7 Points: Cirrhosis less likely';
+xmltxt += '\n<Result_Interpretation>CDS Interpretation: 0 to 7 Points: Cirrhosis less likely<\/Result_Interpretation>\n';
+}
+if ((CDS >= 8) && (CDS <= 11)){ document.getElementById('rr1_2').bgColor = '#8ab2be';
+interptxt = '\n\nCDS Interpretation: 8 to 11 Points: Cirrhosis more likely';
+calctxt += '\n\nCDS Interpretation: 8 to 11 Points: Cirrhosis more likely';
+xmltxt += '\n<Result_Interpretation>CDS Interpretation: 8 to 11 Points: Cirrhosis more likely<\/Result_Interpretation>\n';
+}
+if (Lok_Index < 0.2){ document.getElementById('rr2_3').bgColor = '#8ab2be';
+interptxt = '\n\nLok Index Interpretation: < 0.2 Fraction: Cirrhosis less likely';
+calctxt += '\n\nLok Index Interpretation: < 0.2 Fraction: Cirrhosis less likely';
+xmltxt += '\n<Result_Interpretation>Lok Index Interpretation: &lt; 0.2 Fraction: Cirrhosis less likely<\/Result_Interpretation>\n';
+}
+if ((Lok_Index >= 0.2) && (Lok_Index <= 0.5)){ document.getElementById('rr2_4').bgColor = '#8ab2be';
+interptxt = '\n\nLok Index Interpretation: >= 0.2 and <= 0.5 Fraction: Indeterminate';
+calctxt += '\n\nLok Index Interpretation: >= 0.2 and <= 0.5 Fraction: Indeterminate';
+xmltxt += '\n<Result_Interpretation>Lok Index Interpretation: &gt;= 0.2 and &lt;= 0.5 Fraction: Indeterminate<\/Result_Interpretation>\n';
+}
+if (Lok_Index > 0.5){ document.getElementById('rr2_5').bgColor = '#8ab2be';
+interptxt = '\n\nLok Index Interpretation: > 0.5 Fraction: Cirrhosis more likely';
+calctxt += '\n\nLok Index Interpretation: > 0.5 Fraction: Cirrhosis more likely';
+xmltxt += '\n<Result_Interpretation>Lok Index Interpretation: &gt; 0.5 Fraction: Cirrhosis more likely<\/Result_Interpretation>\n';
+}
+if (GUCI < 1){ document.getElementById('rr3_6').bgColor = '#8ab2be';
+interptxt = '\n\nGUCI Interpretation: < 1 Point: Cirrhosis less likely';
+calctxt += '\n\nGUCI Interpretation: < 1 Point: Cirrhosis less likely';
+xmltxt += '\n<Result_Interpretation>GUCI Interpretation: &lt; 1 Point: Cirrhosis less likely<\/Result_Interpretation>\n';
+}
+if (GUCI >= 1){ document.getElementById('rr3_7').bgColor = '#8ab2be';
+interptxt = '\n\nGUCI Interpretation: >= 1 Point: Cirrhosis more likely';
+calctxt += '\n\nGUCI Interpretation: >= 1 Point: Cirrhosis more likely';
+xmltxt += '\n<Result_Interpretation>GUCI Interpretation: &gt;= 1 Point: Cirrhosis more likely<\/Result_Interpretation>\n';
+}
+if (APRI <= 0.5){ document.getElementById('rr4_8').bgColor = '#8ab2be';
+interptxt = '\n\nAPRI Interpretation: <= 0.5 Points:  Significant Fibrosis or Cirrhosis less likely';
+calctxt += '\n\nAPRI Interpretation: <= 0.5 Points:  Significant Fibrosis or Cirrhosis less likely';
+xmltxt += '\n<Result_Interpretation>APRI Interpretation: &lt;= 0.5 Points:  Significant Fibrosis or Cirrhosis less likely<\/Result_Interpretation>\n';
+}
+if ((APRI > 0.5) && (APRI <= 1)){ document.getElementById('rr4_9').bgColor = '#8ab2be';
+interptxt = '\n\nAPRI Interpretation: > 0.5 and <= 1 Point:  Significant Fibrosis indeterminate, Cirrhosis less likely';
+calctxt += '\n\nAPRI Interpretation: > 0.5 and <= 1 Point:  Significant Fibrosis indeterminate, Cirrhosis less likely';
+xmltxt += '\n<Result_Interpretation>APRI Interpretation: &gt; 0.5 and &lt;= 1 Point:  Significant Fibrosis indeterminate, Cirrhosis less likely<\/Result_Interpretation>\n';
+}
+if ((APRI > 1) && (APRI <= 1.5)){ document.getElementById('rr4_10').bgColor = '#8ab2be';
+interptxt = '\n\nAPRI Interpretation: > 1 and <= 1.5 Points:  Significant Fibrosis more likely, Cirrhosis indeterminate';
+calctxt += '\n\nAPRI Interpretation: > 1 and <= 1.5 Points:  Significant Fibrosis more likely, Cirrhosis indeterminate';
+xmltxt += '\n<Result_Interpretation>APRI Interpretation: &gt; 1 and &lt;= 1.5 Points:  Significant Fibrosis more likely, Cirrhosis indeterminate<\/Result_Interpretation>\n';
+}
+if ((APRI > 1.5) && (APRI <= 2)){ document.getElementById('rr4_11').bgColor = '#8ab2be';
+interptxt = '\n\nAPRI Interpretation: > 1.5 and <= 2 Points:  Significant Fibrosis more likely but Cirrhosis indeterminate';
+calctxt += '\n\nAPRI Interpretation: > 1.5 and <= 2 Points:  Significant Fibrosis more likely but Cirrhosis indeterminate';
+xmltxt += '\n<Result_Interpretation>APRI Interpretation: &gt; 1.5 and &lt;= 2 Points:  Significant Fibrosis more likely but Cirrhosis indeterminate<\/Result_Interpretation>\n';
+}
+if (APRI > 2){ document.getElementById('rr4_12').bgColor = '#8ab2be';
+interptxt = '\n\nAPRI Interpretation: > 2 Points:  Significant Fibrosis and Cirrhosis more likely';
+calctxt += '\n\nAPRI Interpretation: > 2 Points:  Significant Fibrosis and Cirrhosis more likely';
+xmltxt += '\n<Result_Interpretation>APRI Interpretation: &gt; 2 Points:  Significant Fibrosis and Cirrhosis more likely<\/Result_Interpretation>\n';
+}
+if (FIB4 < 1.45){ document.getElementById('rr5_13').bgColor = '#8ab2be';
+interptxt = '\n\nFIB-4 Interpretation: < 1.45 Points: Cirrhosis less likely';
+calctxt += '\n\nFIB-4 Interpretation: < 1.45 Points: Cirrhosis less likely';
+xmltxt += '\n<Result_Interpretation>FIB-4 Interpretation: &lt; 1.45 Points: Cirrhosis less likely<\/Result_Interpretation>\n';
+}
+if ((FIB4 >= 1.45) && (FIB4 <= 3.25)){ document.getElementById('rr5_14').bgColor = '#8ab2be';
+interptxt = '\n\nFIB-4 Interpretation: >= 1.45 and <= 3.25 Points: Indeterminate';
+calctxt += '\n\nFIB-4 Interpretation: >= 1.45 and <= 3.25 Points: Indeterminate';
+xmltxt += '\n<Result_Interpretation>FIB-4 Interpretation: &gt;= 1.45 and &lt;= 3.25 Points: Indeterminate<\/Result_Interpretation>\n';
+}
+if (FIB4 > 3.25){ document.getElementById('rr5_15').bgColor = '#8ab2be';
+interptxt = '\n\nFIB-4 Interpretation: > 3.25 Points: Cirrhosis more likely';
+calctxt += '\n\nFIB-4 Interpretation: > 3.25 Points: Cirrhosis more likely';
+xmltxt += '\n<Result_Interpretation>FIB-4 Interpretation: &gt; 3.25 Points: Cirrhosis more likely<\/Result_Interpretation>\n';
+}
+document.getElementById('rr5_tag').ariaLabel = interptxt;
+interptxt = '';
+
+
+}
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.CirrhosisProbability_MC_form){
+
+if (Age_param.value && isNaN(Age_param.value)){ clrValue(Age_param); alertNaN('Age'); }
+if (Platelets_param.value && isNaN(Platelets_param.value)){ clrValue(Platelets_param); alertNaN('Platelets'); }
+if (ALT_param.value && isNaN(ALT_param.value)){ clrValue(ALT_param); alertNaN('ALT'); }
+if (AST_param.value && isNaN(AST_param.value)){ clrValue(AST_param); alertNaN('AST'); }
+if (Top_Normal_AST_param.value && isNaN(Top_Normal_AST_param.value)){ clrValue(Top_Normal_AST_param); alertNaN('Top Normal AST'); }
+if (INR_param.value && isNaN(INR_param.value)){ clrValue(INR_param); alertNaN('INR'); }
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.CirrhosisProbability_MC_form){
+
+CDS_param.value = '';
+Lok_Index_param.value = '';
+GUCI_param.value = '';
+APRI_param.value = '';
+FIB4_param.value = '';
+
+rrclr();
+
+}
+
+}
+
+var Age = null,
+Platelets = null,
+ALT = null,
+AST = null,
+Top_Normal_AST = null,
+INR = null,
+CDS = null,
+Log_Odds_Lok = null,
+Lok_Index = null,
+GUCI = null,
+APRI = null,
+FIB4 = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+function rrclr(){
+document.getElementById('rr1_1').bgColor = '';
+document.getElementById('rr1_2').bgColor = '';
+document.getElementById('rr1_tag').ariaLabel = 'This table highlights the result CDS Interpretation. No result is highlighted'; interptxt = '';
+document.getElementById('rr2_3').bgColor = '';
+document.getElementById('rr2_4').bgColor = '';
+document.getElementById('rr2_5').bgColor = '';
+document.getElementById('rr2_tag').ariaLabel = 'This table highlights the result Lok Index Interpretation. No result is highlighted'; interptxt = '';
+document.getElementById('rr3_6').bgColor = '';
+document.getElementById('rr3_7').bgColor = '';
+document.getElementById('rr3_tag').ariaLabel = 'This table highlights the result GUCI Interpretation. No result is highlighted'; interptxt = '';
+document.getElementById('rr4_8').bgColor = '';
+document.getElementById('rr4_9').bgColor = '';
+document.getElementById('rr4_10').bgColor = '';
+document.getElementById('rr4_11').bgColor = '';
+document.getElementById('rr4_12').bgColor = '';
+document.getElementById('rr4_tag').ariaLabel = 'This table highlights the result APRI Interpretation. No result is highlighted'; interptxt = '';
+document.getElementById('rr5_13').bgColor = '';
+document.getElementById('rr5_14').bgColor = '';
+document.getElementById('rr5_15').bgColor = '';
+document.getElementById('rr5_tag').ariaLabel = 'This table highlights the result FIB-4 Interpretation. No result is highlighted'; interptxt = '';
+}
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="CirrhosisProbability_MC_form" id="CirrhosisProbability_MC_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="CirrhosisProbability_MC_fx();" onreset="rrclr();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Cirrhosis Probability in Hepatitis C MultiCalc
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Age</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Age_param" size="6" value="" onblur="CirrhosisProbability_MC_fx(); minMaxCheck();" onchange="CirrhosisProbability_MC_fx();" aria-label="Use this input box to enter the value Age" /></td>
+<td align="left" valign="top"> <select name="Age_unit" onchange="CirrhosisProbability_MC_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Age">
+<option value="0.0833333333333333|0|mo">mo</option>
+<option value="1|0|yr" selected="selected">yr</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Platelets</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Platelets_param" size="6" value="" onblur="CirrhosisProbability_MC_fx(); minMaxCheck();" onchange="CirrhosisProbability_MC_fx();" aria-label="Use this input box to enter the value Platelets" /></td>
+<td align="left" valign="top"> <select name="Platelets_unit" onchange="CirrhosisProbability_MC_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Platelets">
+<option value="1|0|10^9/L" selected="selected">10^9/L</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">ALT</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="ALT_param" size="6" value="" onblur="CirrhosisProbability_MC_fx(); minMaxCheck();" onchange="CirrhosisProbability_MC_fx();" aria-label="Use this input box to enter the value ALT" /></td>
+<td align="left" valign="top"> <span style="white-space: nowrap;"><span class="medCalcFontOneBold">U/L</span>
+</span></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">AST</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="AST_param" size="6" value="" onblur="CirrhosisProbability_MC_fx(); minMaxCheck();" onchange="CirrhosisProbability_MC_fx();" aria-label="Use this input box to enter the value AST" /></td>
+<td align="left" valign="top"> <span style="white-space: nowrap;"><span class="medCalcFontOneBold">U/L</span>
+</span></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Top Normal AST</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Top_Normal_AST_param" size="6" value="" onblur="CirrhosisProbability_MC_fx(); minMaxCheck();" onchange="CirrhosisProbability_MC_fx();" aria-label="Use this input box to enter the value Top Normal AST" /></td>
+<td align="left" valign="top"> <span style="white-space: nowrap;"><span class="medCalcFontOneBold">U/L</span>
+</span></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">INR</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="INR_param" size="6" value="" onblur="CirrhosisProbability_MC_fx(); minMaxCheck();" onchange="CirrhosisProbability_MC_fx();" aria-label="Use this input box to enter the value INR" /></td>
+<td align="left" valign="top"> <select name="INR_unit" onchange="CirrhosisProbability_MC_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value INR">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction">fraction</option>
+<option value="1|0|ratio" selected="selected">ratio</option>
+</select></td></tr>
+
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Results</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">CDS</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="CDS_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value CDS" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="CDS_unit" onchange="CirrhosisProbability_MC_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value CDS">
+<option value="1|0|#">#</option>
+<option value="1|0|index">index</option>
+<option value="1|0|none">none</option>
+<option value="1|0|number">number</option>
+<option value="1|0|points" selected="selected">points</option>
+<option value="1|0|score">score</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Lok Index</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Lok_Index_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Lok Index" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Lok_Index_unit" onchange="CirrhosisProbability_MC_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Lok Index">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction" selected="selected">fraction</option>
+<option value="1|0|ratio">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">GUCI</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="GUCI_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value GUCI" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="GUCI_unit" onchange="CirrhosisProbability_MC_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value GUCI">
+<option value="1|0|#">#</option>
+<option value="1|0|index" selected="selected">index</option>
+<option value="1|0|none">none</option>
+<option value="1|0|number">number</option>
+<option value="1|0|points">points</option>
+<option value="1|0|score">score</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">APRI</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="APRI_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value APRI" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="APRI_unit" onchange="CirrhosisProbability_MC_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value APRI">
+<option value="1|0|#">#</option>
+<option value="1|0|index" selected="selected">index</option>
+<option value="1|0|none">none</option>
+<option value="1|0|number">number</option>
+<option value="1|0|points">points</option>
+<option value="1|0|score">score</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">FIB4</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="FIB4_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value FIB4" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="FIB4_unit" onchange="CirrhosisProbability_MC_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value FIB4">
+<option value="1|0|#">#</option>
+<option value="1|0|index" selected="selected">index</option>
+<option value="1|0|none">none</option>
+<option value="1|0|number">number</option>
+<option value="1|0|points">points</option>
+<option value="1|0|score">score</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr><td colspan="3" align="center"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="CirrhosisProbability_MC_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option>1</option>
+<option selected="selected">2</option>
+<option>3</option>
+
+</select></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+<div id="rr1_tag" aria-label="This table highlights the result CDS Interpretation. No result is highlighted" tabindex="0">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+
+CDS Interpretation
+</span></td></tr></table><br />&nbsp;<br />
+</div>
+<center>
+<table border="1" cellpadding="4" cellspacing="0" summary="RRTable">
+<tr id="rr1_1"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">0 to 7 Points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Cirrhosis less likely</span></td></tr>
+<tr id="rr1_2"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">8 to 11 Points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Cirrhosis more likely</span></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+<br />&nbsp;<br />
+<div id="rr2_tag" aria-label="This table highlights the result Lok Index Interpretation. No result is highlighted" tabindex="0" tabindex="0">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+
+Lok Index Interpretation
+</span></td></tr></table><br />&nbsp;<br />
+</div>
+<center>
+<table border="1" cellpadding="4" cellspacing="0" summary="RRTable">
+<tr id="rr2_3"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">Fraction &lt; 0.2:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Cirrhosis less likely</span></td></tr>
+<tr id="rr2_4"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">Fraction &gt;= 0.2 and &lt;= 0.5:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Indeterminate</span></td></tr>
+<tr id="rr2_5"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">Fraction &gt; 0.5:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Cirrhosis more likely</span></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+<br />&nbsp;<br />
+<div id="rr3_tag" aria-label="This table highlights the result GUCI Interpretation. No result is highlighted" tabindex="0" tabindex="0" tabindex="0">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+
+GUCI Interpretation
+</span></td></tr></table><br />&nbsp;<br />
+</div>
+<center>
+<table border="1" cellpadding="4" cellspacing="0" summary="RRTable">
+<tr id="rr3_6"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">Point &lt; 1:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Cirrhosis less likely</span></td></tr>
+<tr id="rr3_7"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">Point &gt;= 1:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Cirrhosis more likely</span></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+<br />&nbsp;<br />
+<div id="rr4_tag" aria-label="This table highlights the result APRI Interpretation. No result is highlighted" tabindex="0" tabindex="0" tabindex="0" tabindex="0">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+
+APRI Interpretation
+</span></td></tr></table><br />&nbsp;<br />
+</div>
+<center>
+<table border="1" cellpadding="4" cellspacing="0" summary="RRTable">
+<tr id="rr4_8"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">Points &lt;= 0.5:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne"> Significant Fibrosis or Cirrhosis less likely</span></td></tr>
+<tr id="rr4_9"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">Point &gt; 0.5 and &lt;= 1:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne"> Significant Fibrosis indeterminate, Cirrhosis less likely</span></td></tr>
+<tr id="rr4_10"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">Points &gt; 1 and &lt;= 1.5:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne"> Significant Fibrosis more likely, Cirrhosis indeterminate</span></td></tr>
+<tr id="rr4_11"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">Points &gt; 1.5 and &lt;= 2:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne"> Significant Fibrosis more likely but Cirrhosis indeterminate</span></td></tr>
+<tr id="rr4_12"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">Points &gt; 2:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne"> Significant Fibrosis and Cirrhosis more likely</span></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+<br />&nbsp;<br />
+<div id="rr5_tag" aria-label="This table highlights the result FIB-4 Interpretation. No result is highlighted" tabindex="0" tabindex="0" tabindex="0" tabindex="0" tabindex="0">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+
+FIB-4 Interpretation
+</span></td></tr></table><br />&nbsp;<br />
+</div>
+<center>
+<table border="1" cellpadding="4" cellspacing="0" summary="RRTable">
+<tr id="rr5_13"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">Points &lt; 1.45:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Cirrhosis less likely</span></td></tr>
+<tr id="rr5_14"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">Points &gt;= 1.45 and &lt;= 3.25:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Indeterminate</span></td></tr>
+<tr id="rr5_15"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">Points &gt; 3.25:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Cirrhosis more likely</span></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li><b>Platelets</b> is the platelet count.  <b>ALT</b> is alanine aminotransferase. <b>AST</b> is aspartate  aminotransferase and <b>INR</b> is the prothrombin time international normalized ratio.</li>
+<li><b>Cirrhosis Discriminant Scores (CDS)</b> &gt;7 have a high predictive value of predicting cirrhosis with a specificity of &gt;90%</li>
+<li>In the Lok study, a <b>Lok Index</b> &lt;0.2 missed only 7.8% of patients with cirrhosis while a <b>Lok Index</b> &gt;0.5 misdiagnosed 14.8% of patients with cirrhosis.</li>
+<li>In the Islam study, the <b>Goteborg University Cirrhosis Index (GUCI)</b> cutoff of 1.0 has a sensitivity of 80% and specificity of 78%.</li>
+<li>Wai's <b>AST to Platelet Ratio Index (APRI)</b> cutoff values help predict both significant fibrosis and cirrhosis.</li>
+<li>The <b>FIB 4</b> index diagnostic cutoffs produce a negative predictive value of 94.7% with sensitivity 73.4%, and a positive predictive value of 82.1% with a specificity of 98.2%.</li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">CDS = PlateletScore + ALTASTRatioScore + INRScore</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">LogOddsLok = (1.26 * AST / ALT) + (5.27 * INR) - (0.0089 * Platelets) - 5.56</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">LokIndex = e<sup>(LogOddsLok)</sup> / (1 + e<sup>(LogOddsLok)</sup>)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">GUCI = (AST / TopNormalAST) * INR * 100 / Platelets</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">APRI = (AST / TopNormalAST) * (100 / Platelets)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">FIB4 = Age * AST / (Platelets * sqr(ALT))</span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Udell JA, Wang CS, Tinmouth J, et al.  Does this patient with liver disease have cirrhosis? <i>JAMA</i>. 2012 Feb 22;307(8):832-42. PubMed ID: 22357834 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/22357834"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Bonacini M, Hadi G, Govindarajan S, Lindsay KL. Utility of a discriminant  score for diagnosing advanced fibrosis or cirrhosis in patients with chronic  hepatitis C virus infection. <i>Am J Gastroenterol</i>. 1997 Aug;92(8):1302-4. PubMed ID: 9260794 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/9260794"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Lok AS, Ghany MG, Goodman ZD, et al. Predicting cirrhosis in patients with hepatitis C based on standard  laboratory tests: results of the HALT-C cohort. <i>Hepatology</i>. 2005 Aug;42(2):282-92. PubMed ID: 15986415 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/15986415"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Islam S, Antonsson L, Westin J, Lagging M. Cirrhosis in hepatitis C  virus-infected patients can be excluded using an index of standard biochemical  serum markers. <i>Scand J Gastroenterol</i>. 2005 Jul;40(7):867-72. PubMed ID: 16109665 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/16109665"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Wai CT, Greenson JK, Fontana RJ, et al. A simple noninvasive index can predict both significant fibrosis and  cirrhosis in patients with chronic hepatitis C. <i>Hepatology</i>. 2003 Aug;38(2):518-26. PubMed ID: 12883497 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/12883497"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Vallet-Pichard A, Mallet V, Nalpas B, et al. FIB-4: an inexpensive and accurate marker of fibrosis in HCV  infection. comparison with liver biopsy and fibrotest. <i>Hepatology</i>. 2007 Jul;46(1):32-6. PubMed ID: 17567829 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/17567829"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div>
+</div>
+</body>
+</html>
+
+<!-- 1662473263 //-->

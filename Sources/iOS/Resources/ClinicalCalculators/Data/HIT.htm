@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Pretest probability of heparin-induced thrombocytopenia (4-T's score)</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="heme, critical care, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+HIT_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+HIT_fx();
+}
+
+
+/* ]]> */
+</script>
+
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+
+
+var calctxt = '';
+var xmltxt = '';
+var xmlresult = '';
+var htmtxt = '';
+var postNow = false;
+var printing = false;
+var rbchk = false;
+
+
+function HIT_fx() {
+with(document.HIT_form){
+
+Score = 0.0;
+doCalc = true;
+
+rbchk = false;
+if (cc1[0].checked){
+rbchk = true; Score = Score + 2; 
+}
+if (cc1[1].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc1[2].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc2[0].checked){
+rbchk = true; Score = Score + 2; 
+}
+if (cc2[1].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc2[2].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc3[0].checked){
+rbchk = true; Score = Score + 2; 
+}
+if (cc3[1].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc3[2].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc4[0].checked){
+rbchk = true; Score = Score + 2; 
+}
+if (cc4[1].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc4[2].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (!rbchk) doCalc = false;
+if (doCalc){
+cctotal.value = Score;
+if (cctotal.value == 'NaN') cctotal.value = '';
+}
+else{
+Score = null;
+cctotal.value = '';
+if (typeof rrclr == 'function') { rrclr(); };
+document.HIT_form.cctotal.value = '';
+}
+
+
+
+
+if (doCalc){
+rrclr();
+if ((Score >= 0) && (Score <= 3)){ document.getElementById('rr1_1').bgColor = '#8ab2be';
+interptxt = '\n\n4 T\'s score interpretation: 0 to 3 points: Low probability';
+calctxt += '\n\n4 T\'s score interpretation: 0 to 3 points: Low probability';
+xmltxt += '\n<Result_Interpretation>4 T\'s score interpretation: 0 to 3 points: Low probability<\/Result_Interpretation>\n';
+}
+if ((Score >= 4) && (Score <= 5)){ document.getElementById('rr1_2').bgColor = '#8ab2be';
+interptxt = '\n\n4 T\'s score interpretation: 4 to 5 points: Intermediate probability';
+calctxt += '\n\n4 T\'s score interpretation: 4 to 5 points: Intermediate probability';
+xmltxt += '\n<Result_Interpretation>4 T\'s score interpretation: 4 to 5 points: Intermediate probability<\/Result_Interpretation>\n';
+}
+if ((Score >= 6) && (Score <= 8)){ document.getElementById('rr1_3').bgColor = '#8ab2be';
+interptxt = '\n\n4 T\'s score interpretation: 6 to 8 points: High probability';
+calctxt += '\n\n4 T\'s score interpretation: 6 to 8 points: High probability';
+xmltxt += '\n<Result_Interpretation>4 T\'s score interpretation: 6 to 8 points: High probability<\/Result_Interpretation>\n';
+}
+document.getElementById('rr1_tag').ariaLabel = interptxt;
+interptxt = '';
+
+
+}
+}
+}
+
+
+
+
+function rrclr(){
+document.getElementById('rr1_1').bgColor = '';
+document.getElementById('rr1_2').bgColor = '';
+document.getElementById('rr1_3').bgColor = '';
+document.getElementById('rr1_tag').ariaLabel = 'This table highlights the result 4 T's score interpretation. No result is highlighted'; interptxt = '';
+}
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+<form name="HIT_form" id="HIT_form" action="" onsubmit="return false;" onreset="rrclr(); ">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Pretest probability of heparin-induced thrombocytopenia (4-T's score)
+</span></td></tr></table><br />&nbsp;<br />
+<div id="calc_main">
+<div id="calc_input">
+<center>
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Thrombocytopenia </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel1" name="cc1" onclick="HIT_fx();" aria-label="This button selects an option for: Thrombocytopenia. The option is Platelet count fall &gt;50 percent AND nadir &ge;20,000/microL (2 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel1');">Platelet count fall &gt;50 percent AND nadir &ge;20,000/microL (2 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel2" name="cc1" onclick="HIT_fx();" aria-label="This button selects an option for: Thrombocytopenia. The option is  Platelet count fall 30 to 50 percent OR nadir 10 to 19,000/microL (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel2');"> Platelet count fall 30 to 50 percent OR nadir 10 to 19,000/microL (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel3" name="cc1" onclick="HIT_fx();" aria-label="This button selects an option for: Thrombocytopenia. The option is  Platelet count fall &lt;30 percent OR nadir &lt;10,000/microL (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel3');"> Platelet count fall &lt;30 percent OR nadir &lt;10,000/microL (0 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Timing of platelet count fall </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel4" name="cc2" onclick="HIT_fx();" aria-label="This button selects an option for: Timing of platelet count fall. The option is Clear onset between days 5 and 10 of heparin exposure, OR platelet count fall  at &le;1 day if prior heparin exposure within the last 30 days (2 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel4');">Clear onset between days 5 and 10 of heparin exposure, OR platelet count fall  at &le;1 day if prior heparin exposure within the last 30 days (2 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel5" name="cc2" onclick="HIT_fx();" aria-label="This button selects an option for: Timing of platelet count fall. The option is  Consistent with fall in platelet count at 5 to 10 days, but unclear (eg, missing platelet counts),  OR onset after day 10, OR fall &le;1 day with prior heparin exposure within 30 to 100 days (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel5');"> Consistent with fall in platelet count at 5 to 10 days, but unclear (eg, missing platelet counts),  OR onset after day 10, OR fall &le;1 day with prior heparin exposure within 30 to 100 days (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel6" name="cc2" onclick="HIT_fx();" aria-label="This button selects an option for: Timing of platelet count fall. The option is  Platelet count fall at &lt;4 days without recent heparin exposure (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel6');"> Platelet count fall at &lt;4 days without recent heparin exposure (0 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Thrombosis or other sequelae </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel7" name="cc3" onclick="HIT_fx();" aria-label="This button selects an option for: Thrombosis or other sequelae. The option is Confirmed new thrombosis, skin necrosis, or acute systemic reaction  after intravenous unfractionated heparin bolus (2 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel7');">Confirmed new thrombosis, skin necrosis, or acute systemic reaction  after intravenous unfractionated heparin bolus (2 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel8" name="cc3" onclick="HIT_fx();" aria-label="This button selects an option for: Thrombosis or other sequelae. The option is  Progressive or recurrent thrombosis, non-necrotizing (erythematous) skin lesions, or suspected  thrombosis that has not been proven (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel8');"> Progressive or recurrent thrombosis, non-necrotizing (erythematous) skin lesions, or suspected  thrombosis that has not been proven (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel9" name="cc3" onclick="HIT_fx();" aria-label="This button selects an option for: Thrombosis or other sequelae. The option is None (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel9');">None (0 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Other causes for thrombocytopenia present </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel10" name="cc4" onclick="HIT_fx();" aria-label="This button selects an option for: Other causes for thrombocytopenia present. The option is None apparent (2 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel10');">None apparent (2 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel11" name="cc4" onclick="HIT_fx();" aria-label="This button selects an option for: Other causes for thrombocytopenia present. The option is Possible (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel11');">Possible (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel12" name="cc4" onclick="HIT_fx();" aria-label="This button selects an option for: Other causes for thrombocytopenia present. The option is Definite (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel12');">Definite (0 points)</span></td></tr>
+
+</table>
+
+</center>
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<span class="medCalcFontCCTabBold">
+Total Criteria Point Count:
+</span>
+<input type="text" size="6" name="cctotal" aria-readonly="true" aria-label="This box holds the total criteria point count" /><br />&nbsp;<br />
+<center><input type="reset" name="reset" value="Reset Form" />    </center>
+<br />&nbsp;<br />
+<div id="rr1_tag" aria-label="This table highlights the result 4 T's score interpretation. No result is highlighted" tabindex="0">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+
+4 T's score interpretation
+</span></td></tr></table><br />&nbsp;<br />
+</div>
+<center>
+<table border="1" cellpadding="4" cellspacing="0" summary="RRTable">
+<tr id="rr1_1"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">0 to 3 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Low probability</span></td></tr>
+<tr id="rr1_2"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">4 to 5 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Intermediate probability</span></td></tr>
+<tr id="rr1_3"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">6 to 8 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">High probability</span></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+
+</div>
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Lo GK, Juhl D, Warkentin TE, et al. Evaluation of pretest clinical score (4 T's) for the diagnosis of  heparin-induced thrombocytopenia in two clinical settings. <i>J Thromb Haemost</i>. 2006 Apr;4(4):759-65. PubMed ID: 16634744 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/16634744"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+ 
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div><script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+
+
+function loadQueryParams(thisqs){
+if (thisqs) alert('Data panel values cannot be transferred to this calculator.');
+return;
+}
+
+
+/* ]]> */
+</script>
+
+
+
+
+
+</div>
+</body>
+</html>
+
+
+<!-- 1662473276 //-->

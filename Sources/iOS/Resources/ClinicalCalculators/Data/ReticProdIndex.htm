@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Reticulocyte Production Index</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="Heme-Onc, diagnosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+ReticProdIndex_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+ReticProdIndex_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function ReticProdIndex_fx() {
+
+with(document.ReticProdIndex_form){
+
+
+doCalc = true;
+param_value = parseFloat(Hct_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Hct_unit.options[Hct_unit.selectedIndex].value.split('|');
+Hct = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Retic_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Retic_unit.options[Retic_unit.selectedIndex].value.split('|');
+Retic = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+dp = decpts.options[decpts.selectedIndex].text;
+var Maturation;
+if (Hct >= 40) Maturation = 1;
+if ((Hct >= 30) && (Hct < 40)) Maturation = 1.5;
+if ((Hct >= 20) && (Hct < 30)) Maturation = 2;
+if (Hct < 20) Maturation = 2.5;
+RPI =  (Hct / 45) * Retic / Maturation;
+
+unit_parts = RPI_unit.options[RPI_unit.selectedIndex].value.split('|');
+if (doCalc) RPI_param.value = fixDP((RPI - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.ReticProdIndex_form){
+
+if (Hct_param.value && isNaN(Hct_param.value)){ clrValue(Hct_param); alertNaN('Hct'); }
+if (Retic_param.value && isNaN(Retic_param.value)){ clrValue(Retic_param); alertNaN('Retic'); }
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.ReticProdIndex_form){
+
+RPI_param.value = '';
+
+
+}
+
+}
+
+var Hct = null,
+Retic = null,
+RPI = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="ReticProdIndex_form" id="ReticProdIndex_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="ReticProdIndex_fx();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Reticulocyte Production Index
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Hct</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Hct_param" size="6" value="" onblur="ReticProdIndex_fx(); minMaxCheck();" onchange="ReticProdIndex_fx();" aria-label="Use this input box to enter the value Hct" /></td>
+<td align="left" valign="top"> <select name="Hct_unit" onchange="ReticProdIndex_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Hct">
+<option value="1|0|%" selected="selected">%</option>
+<option value="100|0|fraction">fraction</option>
+<option value="100|0|ratio">ratio</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Retic</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Retic_param" size="6" value="" onblur="ReticProdIndex_fx(); minMaxCheck();" onchange="ReticProdIndex_fx();" aria-label="Use this input box to enter the value Retic" /></td>
+<td align="left" valign="top"> <select name="Retic_unit" onchange="ReticProdIndex_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Retic">
+<option value="1|0|%" selected="selected">%</option>
+<option value="100|0|fraction">fraction</option>
+<option value="100|0|ratio">ratio</option>
+</select></td></tr>
+
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Results</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">RPI</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="RPI_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value RPI" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="RPI_unit" onchange="ReticProdIndex_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value RPI">
+<option value="1|0|%" selected="selected">%</option>
+<option value="100|0|fraction">fraction</option>
+<option value="100|0|ratio">ratio</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr><td colspan="3" align="center"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="ReticProdIndex_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option selected="selected">1</option>
+<option>2</option>
+<option>3</option>
+
+</select></td></tr>
+
+</table>
+</center>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li>The <b>Maturation</b> term represents the maturation time of RBC's (in days) at various levels of anemia.</li>
+<li><b>Maturation</b> = 1.0 for <b>Hct</b> &ge;40%.</li>
+<li><b>Maturation</b> = 1.5 for <b>Hct</b> 30-39.9%.</li>
+<li><b>Maturation</b> = 2.0 for <b>Hct</b> 20-29.9%.</li>
+<li><b>Maturation</b> = 2.5 for <b>Hct</b> &lt;20%.</li>
+<li>An <b>RPI</b> &gt;3 shows a normal marrow response to anemia.  An <b>RPI</b> &lt;2 is an inadequate response to anemia.</li>
+<li>With a normal H&amp;H, an <b>RPI</b> of 1 is normal.</li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">RPI = (Hct / 45) * Retic / Maturation</span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Hutchinson RE, Davey FR. Hematopoiesis. In: Henry JB, ed. <i>Clinical Diagnosis and Management by Laboratory Methods 19th edition</i>. WB Saunders 1996. NLMN ID: 9513812 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/nlmcatalog/9513812"><img border="0" src="ncbi.gif" align="top" alt="NCBI Logo" /></a></span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div>
+</div>
+</body>
+</html>
+
+<!-- 1662473295 //-->

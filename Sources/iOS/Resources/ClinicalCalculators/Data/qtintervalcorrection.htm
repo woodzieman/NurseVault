@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>QT Interval Correction (EKG)</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5MKXR9');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees">
+<meta name="keywords" content="Cardiovascular, Emergency, diagnosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical"> 
+<meta name="author" content="Foundation Internet Services, LLC">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="googlebot" content="noindex,indexifembedded">
+</head>
+
+<body class="medCalcBody">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MKXR9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="mc3k">
+<script>
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+var x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 2000);
+}
+
+function wait(ms) {
+var stime = new Date().getTime();
+for (var i = 0; i < 1e8; i++) {
+if ((new Date().getTime() - stime) > ms){
+break;
+}}}
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+QTIntervalCorrection_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+QTIntervalCorrection_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+var inputchktxt = '<br />&nbsp;<br /><b>Important:</b> Inputs must be complete to perform calculation. <br />'
+
+
+function aDelay(atxt, ffield){
+with (document.QTIntervalCorrection_form){
+clrResults();
+ffield.value = '';
+doCalc = false;
+setTimeout(function(){ alert(atxt); }, 100);
+document.getElementById('inputchk').innerHTML = inputchktxt;
+
+}}
+
+
+function QTIntervalCorrection_fx() {
+
+with(document.QTIntervalCorrection_form){
+
+
+doCalc = true;
+param_value = parseFloat(QT_Interval_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = QT_Interval_unit.options[QT_Interval_unit.selectedIndex].value.split('|');
+QT_Interval = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Heart_Rate_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Heart_Rate_unit.options[Heart_Rate_unit.selectedIndex].value.split('|');
+Heart_Rate = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+dp = decpts.options[decpts.selectedIndex].text;
+RR_Interval =  60 / Heart_Rate;
+
+unit_parts = RR_Interval_unit.options[RR_Interval_unit.selectedIndex].value.split('|');
+if (doCalc) RR_Interval_param.value = fixDP((RR_Interval - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+QTI_Corrected =  QT_Interval / sqr(RR_Interval);
+
+unit_parts = QTI_Corrected_unit.options[QTI_Corrected_unit.selectedIndex].value.split('|');
+if (doCalc) QTI_Corrected_param.value = fixDP((QTI_Corrected - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+
+
+}
+
+
+if (doCalc) document.getElementById('inputchk').innerHTML = '';
+else document.getElementById('inputchk').innerHTML = inputchktxt;
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.QTIntervalCorrection_form){
+
+if (QT_Interval_param.value && isNaN(QT_Interval_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', QT_Interval_param); }
+if (Heart_Rate_param.value && isNaN(Heart_Rate_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Heart_Rate_param); }
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.QTIntervalCorrection_form){
+
+RR_Interval_param.value = '';
+QTI_Corrected_param.value = '';
+
+
+}
+
+}
+
+var QT_Interval = null,
+Heart_Rate = null,
+RR_Interval = null,
+QTI_Corrected = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+<form name="QTIntervalCorrection_form" id="QTIntervalCorrection_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="QTIntervalCorrection_fx();" onreset="document.getElementById('inputchk').innerHTML=inputchktxt; ">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+QT Interval Correction (EKG)
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">QT Interval</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="QT_Interval_param" size="6" value="" onblur="QTIntervalCorrection_fx(); minMaxCheck();" onchange="QTIntervalCorrection_fx();" aria-label="Use this input box to enter the value QT Interval" /></td>
+<td align="left" valign="top"> <select name="QT_Interval_unit" onchange="QTIntervalCorrection_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value QT Interval">
+<option value="0.001|0|msec">msec</option>
+<option value="1|0|sec" selected="selected">sec</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Heart Rate</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Heart_Rate_param" size="6" value="" onblur="QTIntervalCorrection_fx(); minMaxCheck();" onchange="QTIntervalCorrection_fx();" aria-label="Use this input box to enter the value Heart Rate" /></td>
+<td align="left" valign="top"> <select name="Heart_Rate_unit" onchange="QTIntervalCorrection_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Heart Rate">
+<option value="1|0|bpm" selected="selected">bpm</option>
+</select></td></tr>
+
+
+</table>
+
+</center>
+
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Results<span id="inputchk" class="medCalcFontOne"><br />&nbsp;<br /><b>Important:</b> Inputs must be complete to perform calculation. <br /></span></span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">RR Interval</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="RR_Interval_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value RR Interval" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="RR_Interval_unit" onchange="QTIntervalCorrection_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value RR Interval">
+<option value="0.001|0|msec">msec</option>
+<option value="1|0|sec" selected="selected">sec</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">QTI Corrected</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="QTI_Corrected_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value QTI Corrected" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="QTI_Corrected_unit" onchange="QTIntervalCorrection_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value QTI Corrected">
+<option value="0.001|0|msec">msec</option>
+<option value="1|0|sec" selected="selected">sec</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr><td colspan="3" align="center"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="QTIntervalCorrection_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option>1</option>
+<option selected="selected">2</option>
+<option>3</option>
+
+</select></td></tr>
+<tr><td>&nbsp;</td></tr>
+</table>
+</center>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_notes">
+<span class="medCalcFontRef"><b>Notes</b></span>
+<ul class="medCalcFontOne">
+<li>Use caution when interpreting the results of QT interval correction in the setting of drug-induced QT prolongation.<sup>[2]</sup></li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">RRInterval = 60 / HeartRate</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">QTICorrected = QTInterval / sqr(RRInterval)</span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Bazett HC. An analysis of the time relationships of electrocardiograms. <i>Heart</i>. 1920;7:355-70.</span></li>
+<li><span class="medCalcFontRef">Malik M. Problems of heart rate correction in assessment of drug-induced QT  interval prolongation. <i>J Cardiovasc Electrophysiol</i>. 2001 Apr;12(4):411-20. PubMed ID: 11332559 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/11332559" rel="nofollow noopener noreferrer"><img border="0" src="pubmed.gif" align="top" alt="PubMedLink" /></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br>&nbsp;<br><center><br>&nbsp;<br>&nbsp;<br><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><div class="ac"><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></div><br>&nbsp;<br><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.  EBMcalc is NOT a medical device.
+EBMcalc NEVER stores <i>cookies</i> or other persistent data in user's browsers.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br>&nbsp;<br><div class="ac"><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2025 Foundation Internet Services &nbsp;&nbsp; [Build 275671 v25.1]</span></div></td></tr></table></center>
+</div><script>
+
+with(document.QTIntervalCorrection_form){
+QT_Interval_param.focus();
+
+}
+</script>
+
+
+
+</div>
+</body>
+</html>
+
+<!-- 1735839047 //-->

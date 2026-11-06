@@ -1,0 +1,843 @@
+/*
+EBMcalc primary style sheet
+Copyright 1998-2020 EBMcalc, LLC
+*/
+
+
+.medCalcBody {
+        BACKGROUND-COLOR: white;
+        MARGIN: 10px;
+        FONT-WEIGHT: normal;
+        FONT-SIZE: 14px;
+        COLOR: #000000;
+        FONT-STYLE: normal;
+        FONT-FAMILY: arial, helvetica, sans-serif;
+        TEXT-DECORATION:  none;
+	}
+
+#mc3k table { 
+ border-spacing: 0px; 
+ border-collapse: collapse;   
+}
+
+
+#mc3k td {
+ padding: 4px;
+}
+
+#mc3k select {
+	font-size: 14px;
+	cursor: pointer;
+}    
+
+#mc3k input[type=number] { WIDTH: 60px; }
+#mc3k input[type=number][size='3'],input[type=number].num3wide { WIDTH: 42px; }
+#mc3k input[type=number][size='4'],input[type=number].num4wide { WIDTH: 52px; }
+#mc3k input[type=number][size='5'],input[type=number].num5wide { WIDTH: 54px; }
+#mc3k input[type=number][size='6'],input[type=number].num6wide { WIDTH: 64px; }
+#mc3k input[type=number][size='7'],input[type=number].num7wide { WIDTH: 76px; }
+#mc3k input[type=number][size='8'],input[type=number].num8wide { WIDTH: 84px; }
+#mc3k input[type=number][size='9'],input[type=number].num9wide { WIDTH: 92px; }
+#mc3k input[type=number][size='10'],input[type=number].num10wide { WIDTH: 100px; }
+
+
+#mc3k pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+#mc3k input[type=radio]:hover {
+	cursor: pointer;
+}
+
+#mc3k input[type=checkbox]:hover {
+        cursor: pointer;
+}
+
+#mc3k .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 5%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 95%;
+  height: -webkit-fill-available; 
+  height: fill-available;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#mc3k .modal-content {
+  background-color: #ffffff;
+  margin: auto;
+  padding: 20px;
+  border: 3px solid #888;
+  width: 80%;
+}
+
+#mc3k .close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#mc3k .close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#mc3k a:link {
+        color: #0e3139;
+	cursor: pointer;
+        }                  
+
+#mc3k a:visited {
+        color: #0e3139;
+	cursor: pointer;
+        }                   
+
+#mc3k a:active {
+        color: #0e3139;
+	cursor: pointer;
+        } 
+
+
+#mc3k li {
+        MARGIN-TOP: 16px;
+	}
+
+#mc3k dd {
+        MARGIN-TOP: 16px;
+        FONT-WEIGHT: bold;
+        FONT-SIZE: 16px;
+        COLOR: #1e4149;
+        FONT-STYLE: normal;
+        FONT-FAMILY: arial, helvetica, sans-serif;
+        TEXT-DECORATION: none;
+	}
+
+#mc3k sup {
+	POSITION: relative;
+	TOP: -3px;
+	VERTICAL-ALIGN: top;
+	FONT-SIZE: 100%;
+	}
+
+
+#mc3k #cnvItm {
+	margin-bottom:10px;
+}
+
+#mc3k #cnvPnl {
+	display:none;
+}
+
+#mc3k #cnvPnl div {
+	margin-bottom:10px;
+}
+
+#mc3k #cnvPnl span {
+	display:inline-block;
+	width:78px;
+	text-align:right;
+}
+
+#mc3k #cnvPnl input[type='text'] {
+	width:85px;
+}
+
+#mc3k #cnvPnl input[type='number'] {
+	width:85px;
+}
+
+#mc3k #cnvPnl input.locked {
+	border:1px dotted #333;
+	background-color:#dedede;
+	color:#111;
+}
+
+
+#mc3k input[type='button'] {
+	background-color: #1e4149;
+	border: none;
+	color: white;
+	padding: 3px 12px;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	text-align: center;
+	font-size: 14px;
+        FONT-WEIGHT: bold;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#mc3k input[type='reset'] {
+	background-color: #1e4149;
+	border: none;
+	color: white;
+	padding: 3px 12px;
+	text-align: center;
+        FONT-FAMILY: arial, helvetica, sans-serif;
+	font-size: 14px;
+        FONT-WEIGHT: bold;
+	border-radius:5px;
+}
+
+
+#mc3k .iphoneDropDown:hover {
+
+       background-color:#B0ABAB;
+
+}
+
+#mc3k .iphoneDropDown {
+
+                FONT-WEIGHT: normal;
+                FONT-SIZE: 13px;
+                COLOR: #000000;
+                FONT-STYLE: normal;
+                FONT-FAMILY: arial, helvetica, sans-serif;
+                TEXT-DECORATION:  none;
+                TEXT-ALIGN:left;
+                border:1px ridge #000000;
+                padding:2px;
+                width:100%;
+                cursor:pointer;
+
+}
+
+ 
+
+#mc3k .dropdownmenu {
+
+                FONT-WEIGHT: normal;
+                FONT-SIZE: 13px;
+                COLOR: #000000;
+                FONT-STYLE: normal;
+                FONT-FAMILY: arial, helvetica, sans-serif;
+                TEXT-DECORATION:  none;
+                TEXT-ALIGN:left;
+                border:1px solid #000000;
+
+}
+
+ 
+#mc3k .dropdownback td {
+
+                border-top: 1px solid #eaeaea;
+		padding: 3px;
+}
+
+
+#mc3k .medCalcContents {
+        BACKGROUND-COLOR: #1e4149;
+        MARGIN: 10px;
+        FONT-WEIGHT: normal;
+        FONT-SIZE: 14px;
+        COLOR: #000000;
+        FONT-STYLE: normal;
+        FONT-FAMILY: arial, helvetica, sans-serif;
+        TEXT-DECORATION:  none;
+	}
+
+
+#mc3k .medCalcIndexLetter {
+	BACKGROUND-COLOR: #1e4149;
+	PADDING: 4px 4px;
+}
+
+#mc3k .medCalcTitleBoxBackButton{
+	BACKGROUND-COLOR: #1e4149;
+	VERTICAL-ALIGN: middle;
+	TEXT-ALIGN: left;
+	}
+
+#mc3k .medCalcIndexIP {
+        PADDING: 10px;
+	BACKGROUND-COLOR: #ffffff;
+	BORDER-BOTTOM: 1px solid #cccccc;
+	BORDER-TOP: 0px;
+	BORDER-LEFT: 0px;
+	BORDER-RIGHT: 0px;
+        FONT-WEIGHT: bold;
+        FONT-SIZE: 18px;
+        COLOR: #000000;
+        FONT-STYLE: normal;
+        FONT-FAMILY: arial, helvetica, sans-serif;
+        TEXT-DECORATION: none;
+}
+
+#mc3k .medCalcIndexIPFirst {
+        PADDING: 10px;
+        BACKGROUND-COLOR: #ffffff;
+        BORDER-TOP: 1px solid #cccccc;
+        BORDER-BOTTOM: 1px solid #cccccc;
+        BORDER-LEFT: 0px;
+        BORDER-RIGHT: 0px;
+        FONT-WEIGHT: bold;
+        FONT-SIZE: 18px;
+        COLOR: #000000;
+        FONT-STYLE: normal;
+        FONT-FAMILY: arial, helvetica, sans-serif;
+        TEXT-DECORATION: none;
+}
+
+#mc3k .medCalcSearchRow {
+	BACKGROUND-COLOR: #ffffff;
+	BORDER-BOTTOM: 1px solid #cccccc;
+	BORDER-TOP: 0px;
+	BORDER-LEFT: 0px;
+	BORDER-RIGHT: 0px;
+        FONT-WEIGHT: bold;
+        FONT-SIZE: 18px;
+        COLOR: #000000;
+        FONT-STYLE: normal;
+        FONT-FAMILY: arial, helvetica, sans-serif;
+}
+
+#mc3k .medCalcIndexIPTop {
+	BACKGROUND-COLOR: #1e4149;
+        FONT-WEIGHT: bold;
+        FONT-SIZE: 20px;
+        COLOR: #ffffff;
+        FONT-STYLE: normal;
+        FONT-FAMILY: arial, helvetica, sans-serif;
+}
+
+#mc3k .medCalcIndexIPTitle {
+	PADDING-TOP: 0px;
+	PADDING-BOTTOM: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 4px;
+	BACKGROUND-COLOR: #1e4149;
+        FONT-WEIGHT: bold;
+        FONT-SIZE: 20px;
+        COLOR: #ffffff;
+        FONT-STYLE: normal;
+        FONT-FAMILY: arial, helvetica, sans-serif;
+}
+
+#mc3k .medCalcFontDT {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 16px;
+	COLOR: #000000;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFontZero {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 16px;
+	COLOR: #000000;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFontE16 {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 16px;
+	COLOR: #1e4149;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFontE24 {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 24px;
+	COLOR: #1e4149;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFontE24Bold {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 24px;
+	COLOR: #1e4149;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFontE16Bold {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 16px;
+	COLOR: #1e4149;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFontE16BoldWhite {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 16px;
+	COLOR: #ffffff;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFontDither {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 16px;
+	COLOR: #aaaaaa;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFontZeroBold {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 16px;
+	COLOR: #000000;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFontZeroItalic {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 16px;
+	COLOR: #000000;
+	FONT-STYLE: italic;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFontOne {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 14px;
+	COLOR: #000000;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION:  none;
+	}
+
+#mc3k .medCalcFontOneClick {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 14px;
+	COLOR: #000000;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION:  none;
+	CURSOR: pointer;
+	}
+
+#mc3k .medCalcFontOneBold {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	COLOR: #000000;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION:  none;
+	}
+
+#mc3k .medCalcFontOneBoldClick {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	COLOR: #000000;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION:  none;
+	CURSOR: pointer;
+	}
+
+#mc3k .medCalcFontResultParam {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	COLOR: #ffffff;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION:  none;
+	}
+
+#mc3k .medCalcFontZeroWhite {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 16px;
+	COLOR: #ffffff;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION:  none;
+	}
+#mc3k .medCalcFontZeroWhiteBold {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 16px;
+	COLOR: #ffffff;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION:  none;
+	}
+
+#mc3k .medCalcFontOneWhiteBold {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	COLOR: #ffffff;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION:  none;
+	}
+
+#mc3k .medCalcFontRR {
+        FONT-WEIGHT: normal;
+        FONT-SIZE: 14px;
+        COLOR: #000000;
+        FONT-STYLE: normal;
+        FONT-FAMILY: 'Lucida Console', Monaco, 'Lucida Grande', monospace;
+        TEXT-DECORATION:  none;
+        }
+
+#mc3k .medCalcFontSelect {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 14px;
+	COLOR: #000000;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION:  none;
+	}
+
+#mc3k .medCalcFontTextArea {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 16px;
+	COLOR: #000000;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION:  none;
+	}
+
+#mc3k .medCalcFontTwo {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcResultBox {
+	BACKGROUND-COLOR: #3e6169;
+	FONT-SIZE: 14px;
+	FONT-WEIGHT: bold;
+	COLOR: #ffffff;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcTitleBox {
+        BACKGROUND-COLOR: #eeeeee;
+        VERTICAL-ALIGN: top;
+        TEXT-ALIGN: left;
+	}
+
+#mc3k .medCalcFontTitleBox {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 18px;
+	COLOR: #1e4149;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+
+#mc3k .medCalcDisclaimerBox {
+        BACKGROUND-COLOR: #eeeeee;
+        TEXT-ALIGN: left;
+	}
+
+
+#mc3k .medCalcFontEqName {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	COLOR: #1e4149;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFormuliBox {
+        BACKGROUND-COLOR: #3e6169;
+        TEXT-ALIGN: left;
+	PADDING: 10px;
+	}
+
+#mc3k .medCalcFontFormuli {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 14px;
+	COLOR: #ffffff;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+
+#mc3k .selectedTab {
+	PADDING: 8px;
+	BORDER: solid 3px #eeeeee;
+	CURSOR: pointer;
+	BORDER-TOP-LEFT-RADIUS: 12px;
+	WHITE-SPACE: nowrap;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 16px;
+	COLOR: #000000;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	BACKGROUND-COLOR: #8ab2be;
+	TEXT-ALIGN: center;
+	}
+
+#mc3k .notSelectedTab {
+	PADDING: 8px;
+	BORDER: solid 3px #eeeeee;
+	CURSOR: pointer;
+	BORDER-TOP-LEFT-RADIUS: 12px;
+	WHITE-SPACE: nowrap;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 16px;
+	COLOR: #ffffff;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	BACKGROUND-COLOR: #1e4149;
+	TEXT-ALIGN: center;
+	}
+
+
+#mc3k .medCalcFontIO {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 18px;
+	COLOR: #1e4149;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFontIO2 {
+        FONT-WEIGHT: normal;
+        FONT-SIZE: 12px;
+        COLOR: #ffffff;
+        FONT-STYLE: normal;
+        FONT-FAMILY: arial, helvetica, sans-serif;
+        TEXT-DECORATION: none;
+        }
+
+#mc3k .medCalcFontIOBold {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	COLOR: #aa0000;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFontRef {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 14px;
+	COLOR: #000000;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFontCCTab {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 14px;
+	COLOR: #000000;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFontCCTabBold {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	COLOR: #1e4149;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFontIndex {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 16px;
+	COLOR: #1e4149;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFontIndexBold {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 16px;
+	COLOR: #333300;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcMath {
+	BACKGROUND-COLOR: #1e4149;
+	TEXT-ALIGN: left;
+	}
+
+#mc3k .medCalcFontMathPref {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 14px;
+	COLOR: #000000;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFontMathPrefLight {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	COLOR: #ffffff;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFontMathPrefBold {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	COLOR: #000000;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+
+#mc3k .medCalcFHIRDataTable {
+	border-spacing: 2px;
+	border-collapse: separate;
+	}
+
+#mc3k .medCalcFHIRDataFound {
+	PADDING: 10px;
+	TEXT-ALIGN: left;
+	BACKGROUND-COLOR: #1e4149;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	COLOR: #FFFFFF;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFHIRDataFocus {
+	PADDING: 10px;
+	TEXT-ALIGN: left;
+	BACKGROUND-COLOR: #cccccc;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	COLOR: #111111;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFHIRDataError {
+	PADDING: 10px;
+	TEXT-ALIGN: left;
+	BACKGROUND-COLOR: #990000;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	COLOR: #FFFFFF;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+#mc3k .medCalcFHIRDataNotFound {
+	PADDING: 10px;
+	TEXT-ALIGN: left;
+	BACKGROUND-COLOR: #666666;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	COLOR: #FFFFFF;
+	FONT-STYLE: normal;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	}
+
+
+#mc3k .handTableOuter {
+ FONT-WEIGHT: bold;
+ FONT-SIZE: 14px;
+ COLOR: #000000;
+ FONT-STYLE: normal;
+ FONT-FAMILY: arial, helvetica, sans-serif;
+ TEXT-DECORATION:  none;
+ border-spacing: 0px;
+ border-collapse: collapse;
+}
+
+
+#mc3k .handTdOuter {
+ padding: 10px;
+}
+
+
+#mc3k .handTableInner {
+ FONT-WEIGHT: bold;
+ FONT-SIZE: 14px;
+ COLOR: #000000;
+ FONT-STYLE: normal;
+ FONT-FAMILY: arial, helvetica, sans-serif;
+ TEXT-DECORATION:  none;
+ border-spacing: 0px;
+ border-collapse: collapse;
+}
+
+
+#mc3k .handTdInner {
+ padding: 0px;
+ white-space: nowrap;
+}
+
+
+#mc3k .medCalcFingerTip1 { padding: 0px; background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCAAeABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+mNz87fUj+Y/xpldl8QPC914O8X67oNzFJGlrfTtYu4IFzps0jS2FyjHhg9s0ZOCcMGU8qQONoAkVgBgnvxx2/wA5or1vwR8GvFnjjRf7c0yGKOya8ntYXucxmf7OsXmSwkj95CJHdNw43wuvVTRQB96+P/hh4W+I1rFFrlvLFfWqMljq1i6w39qrncY9zoyT25fkxyKwG4lNjEtXjWj/ALKnhizv47jV/EOqaxZRtv8A7PjtYdNWYg5Ec9yk8rmEjhhH5bns619U0UAVLCwstKsrXTtOtobOxsoUt7W1t0EcMEMY2pGijoAPxJJJJJJoq3RQB//Z) }
+
+#mc3k .medCalcFingerTip2 { padding: 0px; background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCAAeABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+mlnUF155JOSecDOAcHrzUfmD0P6f40To8U0scilZI5HjdSCGVkYqykEcEEEVFQBOCCMiio1LY4AIz/h70UAfQXx4+FmqeFvEepeJdOs5bnwzrd1NqBuLeJ3TSry6lMlzZ3excW8RuJGMLHClHCA7lNeBWtpdXtxDaWdvPd3VxIsUFtbRPNPNK5wscUUalpHJ6AAk1+xzokiNHIqujqVdHUMjqwwysrDDKQSCDwc1k2Ph7QNLna50zQ9H065dSjXFjpllaTsjHLK0tvArFSeoJwaAPmr4dfs66Snhi2m8bWztrt7LJeSW0b7Tp9vLHEtvYysDh7hRGzyY4VpynOzcSvq2igD/2Q==) }
+
+#mc3k .medCalcFingerTip3 { padding: 0px; background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCAAeABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+nU3B+fr97j/x7p+npUf2g479/X296qO53tz656dTk54HrUe9vX9B/hQBf+0H3/X/AOKoqopJHPriigDR1/SbnQtb1bRrtSlzpeo3lhMCCAXtZ5ISy56odmVPcEHvWRX6DfGf4GW3jWabxToV3a6Vr0dsTqMd0kosdVjtowEllkgR3t7xYU27hG4kCKrBSN9fKfgv4Q614y1z+x4dT0uxWJWlurmQ3crJBG+2RoIVth503Pyqzxqe7rQBwOmeHNa1eB7nTtMvLyBJmgaW3haRFlVI5GjLAfeCSocejCiv1N8GeCdE8D+H7Pw/pMAaC33S3FzMiNcX15KF+0Xlw2OZHKqABwiIqL8qiigD/9k=) }
+
+#mc3k .medCalcFingerTipLeft { padding: 0px; background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCAAUABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+6/4l/E3RPhrpK3moBrzU7wSppOkQuqzXksYG6SVyD9ns0Zk3yEE/MAqsxxX5/wDjL4v+OvGs8p1DWLiy09mbytH0uSSy0+OM9EkjjfddsB/FM0jcnBA4qj8T/GNz448Z6xrMsjNaLcSWWlREkpb6ZayPHaoin7pZQZHxwZJnbvXn1AEnnTHrLJ/323+NFR0UAPk/1kn++3/oRplFFABRRRQB/9k=) }
+
+#mc3k .medCalcFingerTipRight { padding: 0px; background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCAAUABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+nTTtb1jR7hbvStV1DTrlCCtxZXk9tKpByMPDIDX1d8Lf2krxbm20P4hSJPbTMkNv4kjiWOe2diEQarFEAs1vzzMih1xlxICWX49ooA/ZZHSRVdGV0dVdHRgyujAFWVgcMpBBBHBBor43+Efx00/RfBlpo3iWSae70q4msrKXczO2mJHBJaJIxU5MbSTRrjgRwovaigD4xooooA0LU/u24B+c9c/3V9DRRRQB/9k=) }
+
+ 
+
+/*
+     FILE ARCHIVED ON 09:43:40 Jun 09, 2024 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:08:44 Sep 26, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.57
+  exclusion.robots: 0.062
+  exclusion.robots.policy: 0.052
+  esindex: 0.008
+  cdx.remote: 16.337
+  LoadShardBlock: 247.795 (3)
+  PetaboxLoader3.datanode: 178.944 (5)
+  PetaboxLoader3.resolve: 422.127 (2)
+  load_resource: 485.133
+  loaddict: 52.71
+*/

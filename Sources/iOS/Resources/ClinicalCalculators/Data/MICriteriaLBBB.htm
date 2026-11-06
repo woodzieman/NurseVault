@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>M.I. Criteria for Likelyhood in Chest Pain with LBBB</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="Cardiovascular, Geriatrics, acpjc, diagnosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+MICriteriaLBBB_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+MICriteriaLBBB_fx();
+}
+
+
+/* ]]> */
+</script>
+
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+
+
+var calctxt = '';
+var xmltxt = '';
+var xmlresult = '';
+var htmtxt = '';
+var postNow = false;
+var printing = false;
+var rbchk = false;
+
+
+function MICriteriaLBBB_fx() {
+with(document.MICriteriaLBBB_form){
+
+Score = 0.0;
+doCalc = true;
+
+if (cc1.checked){
+Score = Score + 5;
+}
+if (cc2.checked){
+Score = Score + 3;
+}
+if (cc3.checked){
+Score = Score + 2;
+}
+if (doCalc){
+cctotal.value = Score;
+if (cctotal.value == 'NaN') cctotal.value = '';
+}
+else{
+Score = null;
+cctotal.value = '';
+if (typeof rrclr == 'function') { rrclr(); };
+document.MICriteriaLBBB_form.cctotal.value = '';
+}
+
+
+
+
+if (doCalc){
+rrclr();
+if ((Score >= 10) && (Score <= 10)){ document.getElementById('rr1_1').bgColor = '#8ab2be';
+interptxt = '\n\nM.I. Criteria: 10 Points: 100 % MI';
+calctxt += '\n\nM.I. Criteria: 10 Points: 100 % MI';
+xmltxt += '\n<Result_Interpretation>M.I. Criteria: 10 Points: 100 % MI<\/Result_Interpretation>\n';
+}
+if ((Score >= 8) && (Score <= 8)){ document.getElementById('rr1_2').bgColor = '#8ab2be';
+interptxt = '\n\nM.I. Criteria: 8 Points: 92 % MI';
+calctxt += '\n\nM.I. Criteria: 8 Points: 92 % MI';
+xmltxt += '\n<Result_Interpretation>M.I. Criteria: 8 Points: 92 % MI<\/Result_Interpretation>\n';
+}
+if ((Score >= 7) && (Score <= 7)){ document.getElementById('rr1_3').bgColor = '#8ab2be';
+interptxt = '\n\nM.I. Criteria: 7 Points: 93 % MI';
+calctxt += '\n\nM.I. Criteria: 7 Points: 93 % MI';
+xmltxt += '\n<Result_Interpretation>M.I. Criteria: 7 Points: 93 % MI<\/Result_Interpretation>\n';
+}
+if ((Score >= 5) && (Score <= 5)){ document.getElementById('rr1_4').bgColor = '#8ab2be';
+interptxt = '\n\nM.I. Criteria: 5 Points: 88 % MI';
+calctxt += '\n\nM.I. Criteria: 5 Points: 88 % MI';
+xmltxt += '\n<Result_Interpretation>M.I. Criteria: 5 Points: 88 % MI<\/Result_Interpretation>\n';
+}
+if ((Score >= 3) && (Score <= 3)){ document.getElementById('rr1_5').bgColor = '#8ab2be';
+interptxt = '\n\nM.I. Criteria: 3 Points: 66 % MI';
+calctxt += '\n\nM.I. Criteria: 3 Points: 66 % MI';
+xmltxt += '\n<Result_Interpretation>M.I. Criteria: 3 Points: 66 % MI<\/Result_Interpretation>\n';
+}
+if ((Score >= 2) && (Score <= 2)){ document.getElementById('rr1_6').bgColor = '#8ab2be';
+interptxt = '\n\nM.I. Criteria: 2 Points: 50 % MI';
+calctxt += '\n\nM.I. Criteria: 2 Points: 50 % MI';
+xmltxt += '\n<Result_Interpretation>M.I. Criteria: 2 Points: 50 % MI<\/Result_Interpretation>\n';
+}
+if ((Score >= 0) && (Score <= 0)){ document.getElementById('rr1_7').bgColor = '#8ab2be';
+interptxt = '\n\nM.I. Criteria: 0 Points: 16 % MI';
+calctxt += '\n\nM.I. Criteria: 0 Points: 16 % MI';
+xmltxt += '\n<Result_Interpretation>M.I. Criteria: 0 Points: 16 % MI<\/Result_Interpretation>\n';
+}
+document.getElementById('rr1_tag').ariaLabel = interptxt;
+interptxt = '';
+
+
+}
+}
+}
+
+
+
+
+function rrclr(){
+document.getElementById('rr1_1').bgColor = '';
+document.getElementById('rr1_2').bgColor = '';
+document.getElementById('rr1_3').bgColor = '';
+document.getElementById('rr1_4').bgColor = '';
+document.getElementById('rr1_5').bgColor = '';
+document.getElementById('rr1_6').bgColor = '';
+document.getElementById('rr1_7').bgColor = '';
+document.getElementById('rr1_tag').ariaLabel = 'This table highlights the result M.I. Criteria. No result is highlighted'; interptxt = '';
+}
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+<form name="MICriteriaLBBB_form" id="MICriteriaLBBB_form" action="" onsubmit="return false;" onreset="rrclr(); ">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+M.I. Criteria for Likelyhood in Chest Pain with LBBB
+</span></td></tr></table><br />&nbsp;<br />
+<div id="calc_main">
+<div id="calc_input">
+<center>
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel1" name="cc1" onclick="MICriteriaLBBB_fx();" aria-label="Check this box to indicate ST Elevation &ge;1 mm concordant with QRS axis (5 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel1');" >ST Elevation &ge;1 mm concordant with QRS axis (5 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel2" name="cc2" onclick="MICriteriaLBBB_fx();" aria-label="Check this box to indicate ST depression &ge;1 mm in V1, V2 or V3 (3 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel2');" >ST depression &ge;1 mm in V1, V2 or V3 (3 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel3" name="cc3" onclick="MICriteriaLBBB_fx();" aria-label="Check this box to indicate ST Elevation &ge;5 mm discordant with QRS axis (2 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel3');" >ST Elevation &ge;5 mm discordant with QRS axis (2 points)</span></td></tr>
+
+</table>
+
+</center>
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<span class="medCalcFontCCTabBold">
+Total Criteria Point Count:
+</span>
+<input type="text" size="6" name="cctotal" aria-readonly="true" aria-label="This box holds the total criteria point count" /><br />&nbsp;<br />
+<center><input type="reset" name="reset" value="Reset Form" />    </center>
+<br />&nbsp;<br />
+<div id="rr1_tag" aria-label="This table highlights the result M.I. Criteria. No result is highlighted" tabindex="0">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+
+M.I. Criteria
+</span></td></tr></table><br />&nbsp;<br />
+</div>
+<center>
+<table border="1" cellpadding="4" cellspacing="0" summary="RRTable">
+<tr id="rr1_1"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">10 Points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">100 % MI</span></td></tr>
+<tr id="rr1_2"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">8 Points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">92 % MI</span></td></tr>
+<tr id="rr1_3"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">7 Points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">93 % MI</span></td></tr>
+<tr id="rr1_4"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">5 Points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">88 % MI</span></td></tr>
+<tr id="rr1_5"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">3 Points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">66 % MI</span></td></tr>
+<tr id="rr1_6"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">2 Points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">50 % MI</span></td></tr>
+<tr id="rr1_7"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">0 Points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">16 % MI</span></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+
+</div>
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Bates ER. ACP Journal Club. Review: Sgarbossa scores &gt; or = 3 have low  sensitivity and high specificity for predicting MI in left bundle branch block. <i>Ann Intern Med</i>. 2009 Feb 17;150(4):JC2-15. PubMed ID: 19238613 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/19238613"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Sgarbossa EB, Pinski SL, Barbagelata A, et al. Electrocardiographic diagnosis of evolving acute myocardial infarction in the  presence of left bundle-branch block. GUSTO-1 (Global Utilization of Streptokinase and Tissue Plasminogen Activator for Occluded  Coronary Arteries) Investigators. <i>N Engl J Med</i>. 1996 Feb 22;334(8):481-7. PubMed ID: 8559200 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/8559200"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Tabas JA, Rodriguez RM, Seligman HK, Goldschlager NF. Electrocardiographic  criteria for detecting acute myocardial infarction in patients with left bundle  branch block: a meta-analysis. <i>Ann Emerg Med</i>. 2008 Oct;52(4):329-336.e1. doi:  10.1016/j.annemergmed.2007.12.006. Epub 2008 Mar 17. PubMed ID: 18342992 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/18342992"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+ 
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div><script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+
+
+function loadQueryParams(thisqs){
+if (thisqs) alert('Data panel values cannot be transferred to this calculator.');
+return;
+}
+
+
+/* ]]> */
+</script>
+
+
+
+
+
+</div>
+</body>
+</html>
+
+
+<!-- 1662473283 //-->

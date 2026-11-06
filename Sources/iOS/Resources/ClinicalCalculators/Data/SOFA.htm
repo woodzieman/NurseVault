@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Sequential Organ Failure Assessment: SOFA Score</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="covid, critical care, cardio, renal, emergency, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+SOFA_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+SOFA_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function SOFA_fx() {
+
+with(document.SOFA_form){
+
+
+doCalc = true;
+param_value = parseFloat(PaO2_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = PaO2_unit.options[PaO2_unit.selectedIndex].value.split('|');
+PaO2 = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(FIO2_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = FIO2_unit.options[FIO2_unit.selectedIndex].value.split('|');
+FIO2 = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+rbchk = false;
+if (Ventilatory_Support_radio[0].checked){ rbchk = true; Ventilatory_Support = 1;  }
+if (Ventilatory_Support_radio[1].checked){ rbchk = true; Ventilatory_Support = 0;  }
+if (!rbchk) doCalc = false;
+param_value = parseFloat(Platelets_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Platelets_unit.options[Platelets_unit.selectedIndex].value.split('|');
+Platelets = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Total_Bilirubin_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Total_Bilirubin_unit.options[Total_Bilirubin_unit.selectedIndex].value.split('|');
+Total_Bilirubin = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+rbchk = false;
+if (Blood_Pressure_radio[0].checked){ rbchk = true; Blood_Pressure = 0;  }
+if (Blood_Pressure_radio[1].checked){ rbchk = true; Blood_Pressure = 1;  }
+if (Blood_Pressure_radio[2].checked){ rbchk = true; Blood_Pressure = 2;  }
+if (Blood_Pressure_radio[3].checked){ rbchk = true; Blood_Pressure = 3;  }
+if (Blood_Pressure_radio[4].checked){ rbchk = true; Blood_Pressure = 4;  }
+if (!rbchk) doCalc = false;
+param_value = parseFloat(Glasgow_Coma_Score_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Glasgow_Coma_Score_unit.options[Glasgow_Coma_Score_unit.selectedIndex].value.split('|');
+Glasgow_Coma_Score = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Creatinine_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Creatinine_unit.options[Creatinine_unit.selectedIndex].value.split('|');
+Creatinine = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Urine_Output_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+Urine_Output = param_value;
+dp = 0;
+
+if (Platelets<20){
+Platelets_Factor = 4;
+}
+else 
+if (Platelets<50){
+Platelets_Factor = 3;
+}
+else 
+if (Platelets<100){
+Platelets_Factor = 2;
+}
+else 
+if (Platelets<150){
+Platelets_Factor = 1;
+}
+else{ Platelets_Factor = 0;
+}
+if (Total_Bilirubin<1.2){
+Total_Bilirubin_Factor = 0;
+}
+else 
+if (Total_Bilirubin<2){
+Total_Bilirubin_Factor = 1;
+}
+else 
+if (Total_Bilirubin<6){
+Total_Bilirubin_Factor = 2;
+}
+else 
+if (Total_Bilirubin<12){
+Total_Bilirubin_Factor = 3;
+}
+else{ Total_Bilirubin_Factor = 4;
+}
+if (Glasgow_Coma_Score>14){
+Glasgow_Coma_Score_Factor = 0;
+}
+else 
+if (Glasgow_Coma_Score>12){
+Glasgow_Coma_Score_Factor = 1;
+}
+else 
+if (Glasgow_Coma_Score>9){
+Glasgow_Coma_Score_Factor = 2;
+}
+else 
+if (Glasgow_Coma_Score>5){
+Glasgow_Coma_Score_Factor = 3;
+}
+else{ Glasgow_Coma_Score_Factor = 4;
+}var pafi = 0; var pafi_Factor = 0; var Renal_Factor = 0;
+pafi =  100 * PaO2 / FIO2;
+
+unit_parts = pafi_unit.options[pafi_unit.selectedIndex].value.split('|');
+if (doCalc) pafi_param.value = fixDP((pafi - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+if ((pafi <= 100) && (Ventilatory_Support == 1)) pafi_Factor = 4;
+else if ((pafi <= 200) && (Ventilatory_Support == 1)) pafi_Factor = 3;
+else if (pafi <= 300) pafi_Factor = 2;
+else if (pafi <= 400) pafi_Factor = 1;
+else pafi_Factor = 0;
+if (Creatinine < 1.2) Renal_Factor = 0;
+else if (Creatinine < 2) Renal_Factor = 1;
+else if (Creatinine < 3.5) Renal_Factor = 2;
+else if (Creatinine < 5) Renal_Factor = 3;
+else Renal_Factor = 4;
+if ((Renal_Factor < 3) && (Urine_Output < 500)) Renal_Factor = 3;
+if ((Renal_Factor < 4) && (Urine_Output < 200)) Renal_Factor = 4;
+SOFA_Score =  pafi_Factor + Platelets_Factor + Total_Bilirubin_Factor + Blood_Pressure + Glasgow_Coma_Score_Factor + Renal_Factor;
+
+unit_parts = SOFA_Score_unit.options[SOFA_Score_unit.selectedIndex].value.split('|');
+if (doCalc) SOFA_Score_param.value = fixDP((SOFA_Score - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.SOFA_form){
+
+if (PaO2_param.value && isNaN(PaO2_param.value)){ clrValue(PaO2_param); alertNaN('PaO<sub>2</sub>'); }
+if (FIO2_param.value && isNaN(FIO2_param.value)){ clrValue(FIO2_param); alertNaN('FIO<sub>2</sub>'); }
+if (FIO2_param.value && (FIO2 < (0 - 0.00001))) {
+FIO2 = 0;
+clrValue(FIO2_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for FIO2 is 0 %O2.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (FIO2_param.value && FIO2 > 100) {
+clrValue(FIO2_param);
+clrResults();
+FIO2 = 0;
+doCalc = false;
+ alert("The maximum value for FIO2 is 100 %O2.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Platelets_param.value && isNaN(Platelets_param.value)){ clrValue(Platelets_param); alertNaN('Platelets'); }
+if (Total_Bilirubin_param.value && isNaN(Total_Bilirubin_param.value)){ clrValue(Total_Bilirubin_param); alertNaN('Total Bilirubin'); }
+if (Glasgow_Coma_Score_param.value && isNaN(Glasgow_Coma_Score_param.value)){ clrValue(Glasgow_Coma_Score_param); alertNaN('Glasgow Coma Score'); }
+if (Glasgow_Coma_Score_param.value && (Glasgow_Coma_Score < (1 - 0.00001))) {
+Glasgow_Coma_Score = 0;
+clrValue(Glasgow_Coma_Score_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Glasgow Coma Score is 1 points.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Glasgow_Coma_Score_param.value && Glasgow_Coma_Score > 15) {
+clrValue(Glasgow_Coma_Score_param);
+clrResults();
+Glasgow_Coma_Score = 0;
+doCalc = false;
+ alert("The maximum value for Glasgow Coma Score is 15 points.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Creatinine_param.value && isNaN(Creatinine_param.value)){ clrValue(Creatinine_param); alertNaN('Creatinine'); }
+if (Urine_Output_param.value && isNaN(Urine_Output_param.value)){ clrValue(Urine_Output_param); alertNaN('Urine Output'); }
+if (Urine_Output_param.value && (Urine_Output < (0 - 0.00001))) {
+Urine_Output = 0;
+clrValue(Urine_Output_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Urine Output is 0 mL/day.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Urine_Output_param.value && Urine_Output > 100000) {
+clrValue(Urine_Output_param);
+clrResults();
+Urine_Output = 0;
+doCalc = false;
+ alert("The maximum value for Urine Output is 100000 mL/day.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.SOFA_form){
+
+pafi_param.value = '';
+SOFA_Score_param.value = '';
+
+
+}
+
+}
+
+var PaO2 = null,
+FIO2 = null,
+Ventilatory_Support = null,
+Platelets = null,
+Total_Bilirubin = null,
+Blood_Pressure = null,
+Glasgow_Coma_Score = null,
+Creatinine = null,
+Urine_Output = null,
+pafi = null,
+SOFA_Score = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="SOFA_form" id="SOFA_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="SOFA_fx();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Sequential Organ Failure Assessment: SOFA Score
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">PaO<sub>2</sub></span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="PaO2_param" size="6" value="" onblur="SOFA_fx(); minMaxCheck();" onchange="SOFA_fx();" aria-label="Use this input box to enter the value PaO2" /></td>
+<td align="left" valign="top"> <select name="PaO2_unit" onchange="SOFA_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value PaO2">
+<option value="0.00750063755419211|0|Pascal">Pascal</option>
+<option value="760.002100178515|0|atm">atm</option>
+<option value="750.063755419211|0|bar">bar</option>
+<option value="0.735561538478802|0|cmH2O">cmH2O</option>
+<option value="10|0|cmHg">cmHg</option>
+<option value="22.4199156928339|0|ftH2O">ftH2O</option>
+<option value="0.735561538478802|0|gm/sqcm">gm/sqcm</option>
+<option value="1.86832630773616|0|inH2O">inH2O</option>
+<option value="25.4000840071406|0|inHg">inHg</option>
+<option value="7.50063755419211|0|kPa">kPa</option>
+<option value="0.750063755419211|0|mbar">mbar</option>
+<option value="1|0|mmHg" selected="selected">mmHg</option>
+<option value="51.7150957831416|0|psi">psi</option>
+<option value="1|0|torr">torr</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">FIO<sub>2</sub></span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="FIO2_param" size="6" value="" onblur="SOFA_fx(); minMaxCheck();" onchange="SOFA_fx();" aria-label="Use this input box to enter the value FIO2" /></td>
+<td align="left" valign="top"> <select name="FIO2_unit" onchange="SOFA_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value FIO2">
+<option value="1|0|%O2" selected="selected">%O2</option>
+<option value="100|0|fractionO2">fractionO2</option>
+<option value="3|21|litresO2">litresO2</option>
+</select></td></tr>
+
+<tr><td align="right" valign="top"><span class="medCalcFontOneBold">Ventilatory Support</span></td>
+<td colspan="2" align="left"><input type="radio" name="Ventilatory_Support_radio" id="togel1" value="Yes|1" onclick="SOFA_fx();" aria-label="This button selects an option for the variable: Ventilatory Support. The variable option is Yes. The value for this variable is 1" /><span class="medCalcFontOneClick" onclick="setRB('togel1');"> Yes (1)</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Ventilatory_Support_radio" id="togel2" value="No|0" onclick="SOFA_fx();" aria-label="This button selects an option for the variable: Ventilatory Support. The variable option is No. The value for this variable is 0" /><span class="medCalcFontOneClick" onclick="setRB('togel2');"> No (0)</span></td></tr>
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Platelets</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Platelets_param" size="6" value="" onblur="SOFA_fx(); minMaxCheck();" onchange="SOFA_fx();" aria-label="Use this input box to enter the value Platelets" /></td>
+<td align="left" valign="top"> <select name="Platelets_unit" onchange="SOFA_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Platelets">
+<option value="0.001|0|#/mcL">#/mcL</option>
+<option value="0.001|0|#/microL">#/microL</option>
+<option value="0.001|0|/mcL">/mcL</option>
+<option value="0.001|0|/microL">/microL</option>
+<option value="1|0|10E+9/L">10E+9/L</option>
+<option value="1000|0|Mill/mcl">Mill/mcl</option>
+<option value="1|0|Thous/mcL">Thous/mcL</option>
+<option value="1|0|X10E+09/L">X10E+09/L</option>
+<option value="0.001|0|cells/mcL">cells/mcL</option>
+<option value="0.001|0|cells/microL">cells/microL</option>
+<option value="1|0|x10(3)/mcL" selected="selected">x10(3)/mcL</option>
+<option value="1|0|x10(3)/microL">x10(3)/microL</option>
+<option value="0.001|0|x10(6)/L">x10(6)/L</option>
+<option value="1000|0|x10(6)/mcL">x10(6)/mcL</option>
+<option value="1000|0|x10(6)/microL">x10(6)/microL</option>
+<option value="1|0|x10(9)/L">x10(9)/L</option>
+<option value="1|0|x1000/mm3">x1000/mm3</option>
+<option value="1|0|x10^3/mcL">x10^3/mcL</option>
+<option value="1|0|x10^3/microL">x10^3/microL</option>
+<option value="0.001|0|x10^6/L">x10^6/L</option>
+<option value="1000|0|x10^6/mcL">x10^6/mcL</option>
+<option value="1000|0|x10^6/microL">x10^6/microL</option>
+<option value="1|0|x10^9/L">x10^9/L</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Total Bilirubin</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Total_Bilirubin_param" size="6" value="" onblur="SOFA_fx(); minMaxCheck();" onchange="SOFA_fx();" aria-label="Use this input box to enter the value Total Bilirubin" /></td>
+<td align="left" valign="top"> <select name="Total_Bilirubin_unit" onchange="SOFA_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Total Bilirubin">
+<option value="0.0584795321637427|0|mcmol/L_Bili">mcmol/L</option>
+<option value="1|0|mg%_Bili">mg%</option>
+<option value="1|0|mg/dL_Bili" selected="selected">mg/dL</option>
+</select></td></tr>
+
+<tr><td align="right" valign="top"><span class="medCalcFontOneBold">Blood Pressure</span></td>
+<td colspan="2" align="left"><input type="radio" name="Blood_Pressure_radio" id="togel3" value="Hypotension absent|0" onclick="SOFA_fx();" aria-label="This button selects an option for the variable: Blood Pressure. The variable option is Hypotension absent. The value for this variable is 0" /><span class="medCalcFontOneClick" onclick="setRB('togel3');"> Hypotension absent (0)</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Blood_Pressure_radio" id="togel4" value="Mean arterial pressure &lt;70 mmHg|1" onclick="SOFA_fx();" aria-label="This button selects an option for the variable: Blood Pressure. The variable option is Mean arterial pressure &lt;70 mmHg. The value for this variable is 1" /><span class="medCalcFontOneClick" onclick="setRB('togel4');"> Mean arterial pressure &lt;70 mmHg (1)</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Blood_Pressure_radio" id="togel5" value="On Dopamine &le;5 mcg/kg/min or any Dobutamine|2" onclick="SOFA_fx();" aria-label="This button selects an option for the variable: Blood Pressure. The variable option is On Dopamine &le;5 mcg/kg/min or any Dobutamine. The value for this variable is 2" /><span class="medCalcFontOneClick" onclick="setRB('togel5');"> On Dopamine &le;5 mcg/kg/min or any Dobutamine (2)</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Blood_Pressure_radio" id="togel6" value=" On Dopamine &gt;5 mcg/kg/min, Epinephrine &lt;=0.1 mcg/kg/min or Norepinephrine &lt;=0.1 mcg/kg/min|3" onclick="SOFA_fx();" aria-label="This button selects an option for the variable: Blood Pressure. The variable option is  On Dopamine &gt;5 mcg/kg/min, Epinephrine &lt;=0.1 mcg/kg/min or Norepinephrine &lt;=0.1 mcg/kg/min. The value for this variable is 3" /><span class="medCalcFontOneClick" onclick="setRB('togel6');">  On Dopamine &gt;5 mcg/kg/min, Epinephrine &lt;=0.1 mcg/kg/min or Norepinephrine &lt;=0.1 mcg/kg/min (3)</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Blood_Pressure_radio" id="togel7" value="On Dopamine &gt;15 mcg/kg/min or Epinephrine &gt;0.1 mcg/kg/min or Norepinephrine &gt;0.1 mcg/kg/min|4" onclick="SOFA_fx();" aria-label="This button selects an option for the variable: Blood Pressure. The variable option is On Dopamine &gt;15 mcg/kg/min or Epinephrine &gt;0.1 mcg/kg/min or Norepinephrine &gt;0.1 mcg/kg/min. The value for this variable is 4" /><span class="medCalcFontOneClick" onclick="setRB('togel7');"> On Dopamine &gt;15 mcg/kg/min or Epinephrine &gt;0.1 mcg/kg/min or Norepinephrine &gt;0.1 mcg/kg/min (4)</span></td></tr>
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Glasgow Coma Score</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Glasgow_Coma_Score_param" size="6" value="" onblur="SOFA_fx(); minMaxCheck();" onchange="SOFA_fx();" aria-label="Use this input box to enter the value Glasgow Coma Score" /></td>
+<td align="left" valign="top"> <select name="Glasgow_Coma_Score_unit" onchange="SOFA_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Glasgow Coma Score">
+<option value="1|0|#">#</option>
+<option value="1|0|index">index</option>
+<option value="1|0|none">none</option>
+<option value="1|0|number">number</option>
+<option value="1|0|points" selected="selected">points</option>
+<option value="1|0|score">score</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Creatinine</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Creatinine_param" size="6" value="" onblur="SOFA_fx(); minMaxCheck();" onchange="SOFA_fx();" aria-label="Use this input box to enter the value Creatinine" /></td>
+<td align="left" valign="top"> <select name="Creatinine_unit" onchange="SOFA_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Creatinine">
+<option value="0.0113122171945701|0|mcmol/L_Cr">mcmol/L</option>
+<option value="1|0|mg%_Cr">mg%</option>
+<option value="1|0|mg/dL_Cr" selected="selected">mg/dL</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Urine Output</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Urine_Output_param" size="6" value="" onblur="SOFA_fx(); minMaxCheck();" onchange="SOFA_fx();" aria-label="Use this input box to enter the value Urine Output" /></td>
+<td align="left" valign="top"> <span style="white-space: nowrap;"><span class="medCalcFontOneBold">mL/day</span>
+</span></td></tr>
+
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Results</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">PaO<sub>2</sub>/FIO<sub>2</sub></span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="pafi_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value PaO2/FIO2" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="pafi_unit" onchange="SOFA_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value PaO2/FIO2">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction">fraction</option>
+<option value="1|0|ratio" selected="selected">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">SOFA Score</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="SOFA_Score_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value SOFA Score" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="SOFA_Score_unit" onchange="SOFA_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value SOFA Score">
+<option value="1|0|#">#</option>
+<option value="1|0|index">index</option>
+<option value="1|0|none">none</option>
+<option value="1|0|number">number</option>
+<option value="1|0|points" selected="selected">points</option>
+<option value="1|0|score">score</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+
+</table>
+</center>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li>Vasoactive drug dose criteria based on administration for at least one hour.</li>
+<li>The SOFA score helps predict morbidity rather than mortality, though individuals with a score of 15 or more had a mortality rate of 90%<sup>1</sup>.</li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">PaO<sub>2</sub>/FIO<sub>2</sub> = 100 * PaO<sub>2</sub> / FIO<sub>2</sub></span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">SOFAScore = PaO<sub>2</sub>/FIO<sub>2</sub>Factor + PlateletsFactor + TotalBilirubinFactor + BloodPressure + GlasgowComaScoreFactor + RenalFactor</span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+<br />&nbsp;<br />
+<div id="calc_details_and_variables">
+<span class="medCalcFontOneBold">Calculation Details and Variables</span>
+<ul class="medCalcFontOne">
+<li>Equation parameters such as <b>Ventilatory Support</b>, have two or more discrete values that may be used in the calculation. The numbers in the parentheses, e.g.  (1), represent the values that will be used.</li>
+<li><b>PlateletsFactor</b> is assigned values by this ordered logic: <ul><li><span style="white-space: nowrap;">If <b>Platelets</b> &lt;20 x10(3)/mcL <b>PlateletsFactor</b> = 4</span></li><li><span style="white-space: nowrap;">Else if <b>Platelets</b> &lt;50 x10(3)/mcL <b>PlateletsFactor</b> = 3</span></li><li><span style="white-space: nowrap;">Else if <b>Platelets</b> &lt;100 x10(3)/mcL <b>PlateletsFactor</b> = 2</span></li><li><span style="white-space: nowrap;">Else if <b>Platelets</b> &lt;150 x10(3)/mcL <b>PlateletsFactor</b> = 1</span></li><li><span style="white-space: nowrap;">Else <b>PlateletsFactor</b> = 0.</span></li></ul></li><li><b>TotalBilirubinFactor</b> is assigned values by this ordered logic: <ul><li><span style="white-space: nowrap;">If <b>Total Bilirubin</b> &lt;1.2 mg/dL <b>TotalBilirubinFactor</b> = 0</span></li><li><span style="white-space: nowrap;">Else if <b>Total Bilirubin</b> &lt;2 mg/dL <b>TotalBilirubinFactor</b> = 1</span></li><li><span style="white-space: nowrap;">Else if <b>Total Bilirubin</b> &lt;6 mg/dL <b>TotalBilirubinFactor</b> = 2</span></li><li><span style="white-space: nowrap;">Else if <b>Total Bilirubin</b> &lt;12 mg/dL <b>TotalBilirubinFactor</b> = 3</span></li><li><span style="white-space: nowrap;">Else <b>TotalBilirubinFactor</b> = 4.</span></li></ul></li><li><b>GlasgowComaScoreFactor</b> is assigned values by this ordered logic: <ul><li><span style="white-space: nowrap;">If <b>Glasgow Coma Score</b> &gt;14 points <b>GlasgowComaScoreFactor</b> = 0</span></li><li><span style="white-space: nowrap;">Else if <b>Glasgow Coma Score</b> &gt;12 points <b>GlasgowComaScoreFactor</b> = 1</span></li><li><span style="white-space: nowrap;">Else if <b>Glasgow Coma Score</b> &gt;9 points <b>GlasgowComaScoreFactor</b> = 2</span></li><li><span style="white-space: nowrap;">Else if <b>Glasgow Coma Score</b> &gt;5 points <b>GlasgowComaScoreFactor</b> = 3</span></li><li><span style="white-space: nowrap;">Else <b>GlasgowComaScoreFactor</b> = 4.</span></li></ul></li><li><b>pafiFactor</b> is assigned values by this ordered logic: <ul> <li>If <b>PaO<sub>2</sub>/FIO<sub>2</sub></b> &le;100 with <b>Ventilatory Support</b> <b>pafiFactor</b> = 4</li> <li>Else if <b>PaO<sub>2</sub>/FIO<sub>2</sub></b> &le;200 with <b>Ventilatory Support</b> <b>pafiFactor</b> = 3</li> <li>Else if <b>PaO<sub>2</sub>/FIO<sub>2</sub></b> &le;300 <b>pafiFactor</b> = 2</li> <li>Else if <b>PaO<sub>2</sub>/FIO<sub>2</sub></b> &le;400 <b>pafiFactor</b> = 1</li> <li>Else <b>pafiFactor</b> = 0</li></ul></li>
+<li><b>RenalFactor</b> is assigned values by this ordered logic:<ul> <li>If <b>Creatinine</b> &lt;1.2 mg/dL <b>RenalFactor</b> = 0</li> <li>Else if <b>Creatinine</b> &lt;2 mg/dL <b>RenalFactor</b> = 1</li> <li>Else if <b>Creatinine</b> &lt;3.5 mg/dL <b>RenalFactor</b> = 2</li> <li>Else if <b>Creatinine</b> &lt;5 mg/dL <b>RenalFactor</b> = 3</li> <li>Else <b>RenalFactor</b> = 4</li></ul></li>
+<li><b>RenalFactor</b> may also be set based on urine output:<ul> <li>If <b>Urine Output</b> &lt;500 mL/day <b>RenalFactor</b> = 3</li> <li>Else if <b>Urine Output</b> &lt;200 mL/day <b>RenalFactor</b> = 4</li></ul></li>
+
+</ul>
+</div>
+
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Singer M, Deutschman CS, Seymour CW, et al. The Third International Consensus Definitions for Sepsis and Septic Shock  (Sepsis-3). <i>JAMA</i>. 2016 Feb 23;315(8):801-10. PubMed ID: 26903338 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/26903338"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Vincent JL, de Mendonca A, Cantraine F, et al. Use of the SOFA score to assess the incidence of organ  dysfunction/failure in intensive care units: results of a multicenter, prospective study. Working group  on "sepsis-related problems" of the European Society of Intensive Care Medicine. <i>Crit Care Med</i>. 1998 Nov;26(11):1793-800. PubMed ID: 9824069 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/9824069"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div><script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+with(document.SOFA_form){
+var Platelets_Factor = 0;
+var Total_Bilirubin_Factor = 0;
+var Glasgow_Coma_Score_Factor = 0;
+
+}
+/* ]]> */
+</script>
+
+
+
+</div>
+</body>
+</html>
+
+<!-- 1662473298 //-->

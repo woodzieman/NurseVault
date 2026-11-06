@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Kt/V Dialysis Dose Formulae MultiCalc</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="Nurse, Renal, elctrolytes, metabolism, diagnosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+Kt_V_Formulae_Multi_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+Kt_V_Formulae_Multi_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function Kt_V_Formulae_Multi_fx() {
+
+with(document.Kt_V_Formulae_Multi_form){
+
+
+doCalc = true;
+param_value = parseFloat(BUN_Pre_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = BUN_Pre_unit.options[BUN_Pre_unit.selectedIndex].value.split('|');
+BUN_Pre = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(BUN_Post_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = BUN_Post_unit.options[BUN_Post_unit.selectedIndex].value.split('|');
+BUN_Post = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Hours_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Hours_unit.options[Hours_unit.selectedIndex].value.split('|');
+Hours = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(UF_Vol_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = UF_Vol_unit.options[UF_Vol_unit.selectedIndex].value.split('|');
+UF_Vol = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Weight_Post_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Weight_Post_unit.options[Weight_Post_unit.selectedIndex].value.split('|');
+Weight_Post = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+dp = decpts.options[decpts.selectedIndex].text;
+KtV_Daugirdas =  -ln((BUN_Post / BUN_Pre) - (0.008 * Hours)) + ((4 - (3.5 * BUN_Post / BUN_Pre)) * UF_Vol / Weight_Post);
+
+if (doCalc) KtV_Daugirdas_param.value = fixDP(KtV_Daugirdas, dp);
+
+
+
+KtV_Lowrie =  ln( BUN_Pre / BUN_Post);
+
+if (doCalc) KtV_Lowrie_param.value = fixDP(KtV_Lowrie, dp);
+
+
+
+KtV_Keshaviah =  1.162 * ln( BUN_Pre / BUN_Post);
+
+if (doCalc) KtV_Keshaviah_param.value = fixDP(KtV_Keshaviah, dp);
+
+
+
+KtV_Barth =  3.1 * ((BUN_Pre - BUN_Post) / BUN_Pre) - 0.66;
+
+if (doCalc) KtV_Barth_param.value = fixDP(KtV_Barth, dp);
+
+
+
+KtV_Basile =  2.3 * ((BUN_Pre - BUN_Post) / BUN_Pre) - 0.284;
+
+if (doCalc) KtV_Basile_param.value = fixDP(KtV_Basile, dp);
+
+
+
+KtV_Jindal =  4 * ((BUN_Pre - BUN_Post) / BUN_Pre) - 1.2;
+
+if (doCalc) KtV_Jindal_param.value = fixDP(KtV_Jindal, dp);
+
+
+
+KtV_Kerr =  4.2 * ((BUN_Pre - BUN_Post) / BUN_Pre) - 1.48;
+
+if (doCalc) KtV_Kerr_param.value = fixDP(KtV_Kerr, dp);
+
+
+
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.Kt_V_Formulae_Multi_form){
+
+if (BUN_Pre_param.value && isNaN(BUN_Pre_param.value)){ clrValue(BUN_Pre_param); alertNaN('BUN Pre'); }
+if (BUN_Post_param.value && isNaN(BUN_Post_param.value)){ clrValue(BUN_Post_param); alertNaN('BUN Post'); }
+if (Hours_param.value && isNaN(Hours_param.value)){ clrValue(Hours_param); alertNaN('Hours'); }
+if (UF_Vol_param.value && isNaN(UF_Vol_param.value)){ clrValue(UF_Vol_param); alertNaN('UF Vol'); }
+if (Weight_Post_param.value && isNaN(Weight_Post_param.value)){ clrValue(Weight_Post_param); alertNaN('Weight Post'); }
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.Kt_V_Formulae_Multi_form){
+
+KtV_Daugirdas_param.value = '';
+KtV_Lowrie_param.value = '';
+KtV_Keshaviah_param.value = '';
+KtV_Barth_param.value = '';
+KtV_Basile_param.value = '';
+KtV_Jindal_param.value = '';
+KtV_Kerr_param.value = '';
+
+
+}
+
+}
+
+var BUN_Pre = null,
+BUN_Post = null,
+Hours = null,
+UF_Vol = null,
+Weight_Post = null,
+KtV_Daugirdas = null,
+KtV_Lowrie = null,
+KtV_Keshaviah = null,
+KtV_Barth = null,
+KtV_Basile = null,
+KtV_Jindal = null,
+KtV_Kerr = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="Kt_V_Formulae_Multi_form" id="Kt_V_Formulae_Multi_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="Kt_V_Formulae_Multi_fx();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Kt/V Dialysis Dose Formulae MultiCalc
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">BUN Pre</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="BUN_Pre_param" size="6" value="" onblur="Kt_V_Formulae_Multi_fx(); minMaxCheck();" onchange="Kt_V_Formulae_Multi_fx();" aria-label="Use this input box to enter the value BUN Pre" /></td>
+<td align="left" valign="top"> <select name="BUN_Pre_unit" onchange="Kt_V_Formulae_Multi_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value BUN Pre">
+<option value="1000|0|g/dL">g/dL</option>
+<option value="100|0|gm/L">gm/L</option>
+<option value="1000|0|gm/dL">gm/dL</option>
+<option value="0.001|0|mcg/dL">mcg/dL</option>
+<option value="1|0|mg%" selected="selected">mg%</option>
+<option value="1|0|mg/dL">mg/dL</option>
+<option value="100|0|mg/mL">mg/mL</option>
+<option value="0.0001|0|ng/mL">ng/mL</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">BUN Post</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="BUN_Post_param" size="6" value="" onblur="Kt_V_Formulae_Multi_fx(); minMaxCheck();" onchange="Kt_V_Formulae_Multi_fx();" aria-label="Use this input box to enter the value BUN Post" /></td>
+<td align="left" valign="top"> <select name="BUN_Post_unit" onchange="Kt_V_Formulae_Multi_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value BUN Post">
+<option value="1000|0|g/dL">g/dL</option>
+<option value="100|0|gm/L">gm/L</option>
+<option value="1000|0|gm/dL">gm/dL</option>
+<option value="0.001|0|mcg/dL">mcg/dL</option>
+<option value="1|0|mg%" selected="selected">mg%</option>
+<option value="1|0|mg/dL">mg/dL</option>
+<option value="100|0|mg/mL">mg/mL</option>
+<option value="0.0001|0|ng/mL">ng/mL</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Hours</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Hours_param" size="6" value="0" onblur="Kt_V_Formulae_Multi_fx(); minMaxCheck();" onchange="Kt_V_Formulae_Multi_fx();" aria-label="Use this input box to enter the value Hours" /></td>
+<td align="left" valign="top"> <select name="Hours_unit" onchange="Kt_V_Formulae_Multi_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Hours">
+<option value="1|0|hr" selected="selected">hr</option>
+<option value="0.0166666666666667|0|min">min</option>
+<option value="0.000277777777777778|0|sec">sec</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">UF Vol</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="UF_Vol_param" size="6" value="0" onblur="Kt_V_Formulae_Multi_fx(); minMaxCheck();" onchange="Kt_V_Formulae_Multi_fx();" aria-label="Use this input box to enter the value UF Vol" /></td>
+<td align="left" valign="top"> <select name="UF_Vol_unit" onchange="Kt_V_Formulae_Multi_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value UF Vol">
+<option value="1|0|L" selected="selected">L</option>
+<option value="1e-15|0|fL">fL</option>
+<option value="0.001|0|mL">mL</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Weight Post</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Weight_Post_param" size="6" value="0" onblur="Kt_V_Formulae_Multi_fx(); minMaxCheck();" onchange="Kt_V_Formulae_Multi_fx();" aria-label="Use this input box to enter the value Weight Post" /></td>
+<td align="left" valign="top"> <select name="Weight_Post_unit" onchange="Kt_V_Formulae_Multi_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Weight Post">
+<option value="0.001|0|gm">gm</option>
+<option value="1|0|kg" selected="selected">kg</option>
+<option value="0.45359237|0|lb">lb</option>
+<option value="1e-06|0|mg">mg</option>
+</select></td></tr>
+
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Results</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Kt/V Daugirdas</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="KtV_Daugirdas_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Kt/V Daugirdas" /></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Kt/V Lowrie</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="KtV_Lowrie_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Kt/V Lowrie" /></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Kt/V Keshaviah</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="KtV_Keshaviah_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Kt/V Keshaviah" /></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Kt/V Barth</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="KtV_Barth_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Kt/V Barth" /></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Kt/V Basile</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="KtV_Basile_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Kt/V Basile" /></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Kt/V Jindal</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="KtV_Jindal_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Kt/V Jindal" /></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Kt/V Kerr</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="KtV_Kerr_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Kt/V Kerr" /></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr><td colspan="3" align="center"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="Kt_V_Formulae_Multi_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option>1</option>
+<option selected="selected">2</option>
+<option>3</option>
+
+</select></td></tr>
+
+</table>
+</center>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li><font color="#aa0000">In this calculator, <b>mcg</b> is the abbreviation for <b>micrograms</b>.</font></li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">Kt/VDaugirdas = -ln((BUNPost / BUNPre) - (0.008 * Hours)) + ((4 - (3.5 * BUNPost / BUNPre)) * UFVol / WeightPost)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">Kt/VLowrie = ln( BUNPre / BUNPost)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">Kt/VKeshaviah = 1.162 * ln( BUNPre / BUNPost)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">Kt/VBarth = 3.1 * ((BUNPre - BUNPost) / BUNPre) - 0.66</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">Kt/VBasile = 2.3 * ((BUNPre - BUNPost) / BUNPre) - 0.284</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">Kt/VJindal = 4 * ((BUNPre - BUNPost) / BUNPre) - 1.2</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">Kt/VKerr = 4.2 * ((BUNPre - BUNPost) / BUNPre) - 1.48</span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Kovacic V, Roguljic L, Jukic I, Kovacic V. Comparison of Methods for Hemodialysis Dose Calculation. <i> Dialysis &amp; Transplantation</i>. Vol 32:4 April 2003, p.170-175.</span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div>
+</div>
+</body>
+</html>
+
+<!-- 1662473279 //-->

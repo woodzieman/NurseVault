@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Milan Criteria in Liver Transplantation for Hepatocellular Carcinoma</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="gastro, hepatology, oncology, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+Milan_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+Milan_fx();
+}
+
+
+/* ]]> */
+</script>
+
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+
+
+var calctxt = '';
+var xmltxt = '';
+var xmlresult = '';
+var htmtxt = '';
+var postNow = false;
+var printing = false;
+var rbchk = false;
+
+
+function Milan_fx() {
+with(document.Milan_form){
+
+Score = 0.0;
+doCalc = true;
+
+rbchk = false;
+if (cc1[0].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (cc1[1].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (cc1[2].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc1[3].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc2[0].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (cc2[1].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc3[0].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (cc3[1].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (!rbchk) doCalc = false;
+if (doCalc){
+cctotal.value = Score;
+if (cctotal.value == 'NaN') cctotal.value = '';
+}
+else{
+Score = null;
+cctotal.value = '';
+if (typeof rrclr == 'function') { rrclr(); };
+document.Milan_form.cctotal.value = '';
+}
+
+
+
+
+if (doCalc){
+rrclr();
+if ((Score >= 0) && (Score <= 0)){ document.getElementById('rr1_1').bgColor = '#8ab2be';
+interptxt = '\n\nMilan Criteria Interpretation: 0 points: Transplantation may be considered';
+calctxt += '\n\nMilan Criteria Interpretation: 0 points: Transplantation may be considered';
+xmltxt += '\n<Result_Interpretation>Milan Criteria Interpretation: 0 points: Transplantation may be considered<\/Result_Interpretation>\n';
+}
+if ((Score >= 1) && (Score <= 3)){ document.getElementById('rr1_2').bgColor = '#8ab2be';
+interptxt = '\n\nMilan Criteria Interpretation: 1 to 3 points: Transplantation may be futile';
+calctxt += '\n\nMilan Criteria Interpretation: 1 to 3 points: Transplantation may be futile';
+xmltxt += '\n<Result_Interpretation>Milan Criteria Interpretation: 1 to 3 points: Transplantation may be futile<\/Result_Interpretation>\n';
+}
+document.getElementById('rr1_tag').ariaLabel = interptxt;
+interptxt = '';
+
+
+}
+}
+}
+
+
+
+
+function rrclr(){
+document.getElementById('rr1_1').bgColor = '';
+document.getElementById('rr1_2').bgColor = '';
+document.getElementById('rr1_tag').ariaLabel = 'This table highlights the result Milan Criteria Interpretation. No result is highlighted'; interptxt = '';
+}
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+<form name="Milan_form" id="Milan_form" action="" onsubmit="return false;" onreset="rrclr(); ">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Milan Criteria in Liver Transplantation for Hepatocellular Carcinoma
+</span></td></tr></table><br />&nbsp;<br />
+<div id="calc_main">
+<div id="calc_input">
+<center>
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Number and size of hepatocellular carcinoma tumors in the liver </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel1" name="cc1" onclick="Milan_fx();" aria-label="This button selects an option for: Number and size of hepatocellular carcinoma tumors in the liver. The option is One tumor &le;5 cm in diameter (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel1');">One tumor &le;5 cm in diameter (0 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel2" name="cc1" onclick="Milan_fx();" aria-label="This button selects an option for: Number and size of hepatocellular carcinoma tumors in the liver. The option is  Up to three tumors, each &le;3 cm in diameter (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel2');"> Up to three tumors, each &le;3 cm in diameter (0 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel3" name="cc1" onclick="Milan_fx();" aria-label="This button selects an option for: Number and size of hepatocellular carcinoma tumors in the liver. The option is More than three tumors (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel3');">More than three tumors (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel4" name="cc1" onclick="Milan_fx();" aria-label="This button selects an option for: Number and size of hepatocellular carcinoma tumors in the liver. The option is Any tumor &gt;5 cm in diameter (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel4');">Any tumor &gt;5 cm in diameter (1 point)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Tumor invasion of lymph nodes </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel5" name="cc2" onclick="Milan_fx();" aria-label="This button selects an option for: Tumor invasion of lymph nodes. The option is No (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel5');">No (0 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel6" name="cc2" onclick="Milan_fx();" aria-label="This button selects an option for: Tumor invasion of lymph nodes. The option is Yes (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel6');">Yes (1 point)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Tumor invasion of blood vessels </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel7" name="cc3" onclick="Milan_fx();" aria-label="This button selects an option for: Tumor invasion of blood vessels. The option is No (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel7');">No (0 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel8" name="cc3" onclick="Milan_fx();" aria-label="This button selects an option for: Tumor invasion of blood vessels. The option is Yes (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel8');">Yes (1 point)</span></td></tr>
+
+</table>
+
+</center>
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<span class="medCalcFontCCTabBold">
+Total Criteria Point Count:
+</span>
+<input type="text" size="6" name="cctotal" aria-readonly="true" aria-label="This box holds the total criteria point count" /><br />&nbsp;<br />
+<center><input type="reset" name="reset" value="Reset Form" />    </center>
+<br />&nbsp;<br />
+<div id="rr1_tag" aria-label="This table highlights the result Milan Criteria Interpretation. No result is highlighted" tabindex="0">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+
+Milan Criteria Interpretation
+</span></td></tr></table><br />&nbsp;<br />
+</div>
+<center>
+<table border="1" cellpadding="4" cellspacing="0" summary="RRTable">
+<tr id="rr1_1"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">0 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Transplantation may be considered</span></td></tr>
+<tr id="rr1_2"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">1 to 3 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Transplantation may be futile</span></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+
+</div>
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Mazzaferro V, Regalia E, Doci R, et al. Liver transplantation for the treatment of small  hepatocellular carcinomas in patients with cirrhosis. <i>N Engl J Med</i>. 1996 Mar 14;334(11):693-9. PubMed ID: 8594428 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/8594428"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Martin P, DiMartini A, Feng S, et al. Evaluation for liver transplantation in adults:  2013 practice guideline by the American Association for the Study of Liver Diseases and  the American Society of Transplantation. <i>Hepatology</i>. 2014 Mar;59(3):1144-65. PubMed ID: 24716201 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/24716201"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+ 
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div><script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+
+
+function loadQueryParams(thisqs){
+if (thisqs) alert('Data panel values cannot be transferred to this calculator.');
+return;
+}
+
+
+/* ]]> */
+</script>
+
+
+
+
+
+</div>
+</body>
+</html>
+
+
+<!-- 1662473285 //-->

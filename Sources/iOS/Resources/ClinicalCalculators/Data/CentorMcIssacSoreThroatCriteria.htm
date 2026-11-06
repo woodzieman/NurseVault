@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Centor Strep Pharyngitis Criteria With McIsaac Modification</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="Nurse, Infectious Diseases, ENT, Pediatrics, fac_all, fac_med, diagnosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+CentorMcIssacSoreThroatCriteria_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+CentorMcIssacSoreThroatCriteria_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function CentorMcIssacSoreThroatCriteria_fx() {
+
+with(document.CentorMcIssacSoreThroatCriteria_form){
+
+
+doCalc = true;
+param_value = parseFloat(Age_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Age_unit.options[Age_unit.selectedIndex].value.split('|');
+Age = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Temperature_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Temperature_unit.options[Temperature_unit.selectedIndex].value.split('|');
+Temperature = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+rbchk = false;
+if (Cough_radio[0].checked){ rbchk = true; Cough = 0;  }
+if (Cough_radio[1].checked){ rbchk = true; Cough = 1;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (Tender_Anterior_Cervical_Nodes_radio[0].checked){ rbchk = true; Tender_Anterior_Cervical_Nodes = 1;  }
+if (Tender_Anterior_Cervical_Nodes_radio[1].checked){ rbchk = true; Tender_Anterior_Cervical_Nodes = 0;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (Tonsillar_Swelling_or_Exudate_radio[0].checked){ rbchk = true; Tonsillar_Swelling_or_Exudate = 1;  }
+if (Tonsillar_Swelling_or_Exudate_radio[1].checked){ rbchk = true; Tonsillar_Swelling_or_Exudate = 0;  }
+if (!rbchk) doCalc = false;
+dp = 0;
+
+if (Age>=45){
+Age_Factor = -1;
+}
+else 
+if (Age>=15){
+Age_Factor = 0;
+}
+else{ Age_Factor = 1;
+}
+if (Temperature>38){
+Temperature_Factor = 1;
+}
+else{ Temperature_Factor = 0;
+}Score =  Age_Factor + Temperature_Factor + Cough + Tender_Anterior_Cervical_Nodes + Tonsillar_Swelling_or_Exudate;
+
+unit_parts = Score_unit.options[Score_unit.selectedIndex].value.split('|');
+if (doCalc) Score_param.value = fixDP((Score - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+
+if (doCalc){
+rrclr();
+if ((Score >= 0) && (Score <= 0)){ document.getElementById('rr1_1').bgColor = '#8ab2be';
+interptxt = '\n\nSore Throat Score: 0 points: 2-3% chance of strep; no culture or antibiotics ';
+calctxt += '\n\nSore Throat Score: 0 points: 2-3% chance of strep; no culture or antibiotics ';
+xmltxt += '\n<Result_Interpretation>Sore Throat Score: 0 points: 2-3% chance of strep; no culture or antibiotics <\/Result_Interpretation>\n';
+}
+if ((Score >= 1) && (Score <= 1)){ document.getElementById('rr1_2').bgColor = '#8ab2be';
+interptxt = '\n\nSore Throat Score: 1 point: 4-6% chance of strep; no culture or antibiotics ';
+calctxt += '\n\nSore Throat Score: 1 point: 4-6% chance of strep; no culture or antibiotics ';
+xmltxt += '\n<Result_Interpretation>Sore Throat Score: 1 point: 4-6% chance of strep; no culture or antibiotics <\/Result_Interpretation>\n';
+}
+if ((Score >= 2) && (Score <= 2)){ document.getElementById('rr1_3').bgColor = '#8ab2be';
+interptxt = '\n\nSore Throat Score: 2 points: 10-12% chance of strep; culture and treat if positive ';
+calctxt += '\n\nSore Throat Score: 2 points: 10-12% chance of strep; culture and treat if positive ';
+xmltxt += '\n<Result_Interpretation>Sore Throat Score: 2 points: 10-12% chance of strep; culture and treat if positive <\/Result_Interpretation>\n';
+}
+if ((Score >= 3) && (Score <= 3)){ document.getElementById('rr1_4').bgColor = '#8ab2be';
+interptxt = '\n\nSore Throat Score: 3 points: 27-28% chance of strep; culture and treat if positive ';
+calctxt += '\n\nSore Throat Score: 3 points: 27-28% chance of strep; culture and treat if positive ';
+xmltxt += '\n<Result_Interpretation>Sore Throat Score: 3 points: 27-28% chance of strep; culture and treat if positive <\/Result_Interpretation>\n';
+}
+if ((Score >= 4) && (Score <= 5)){ document.getElementById('rr1_5').bgColor = '#8ab2be';
+interptxt = '\n\nSore Throat Score: 4 to 5 points: 38-63% chance of strep; culture and treat with antibiotic on clinical grounds';
+calctxt += '\n\nSore Throat Score: 4 to 5 points: 38-63% chance of strep; culture and treat with antibiotic on clinical grounds';
+xmltxt += '\n<Result_Interpretation>Sore Throat Score: 4 to 5 points: 38-63% chance of strep; culture and treat with antibiotic on clinical grounds<\/Result_Interpretation>\n';
+}
+document.getElementById('rr1_tag').ariaLabel = interptxt;
+interptxt = '';
+
+
+}
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.CentorMcIssacSoreThroatCriteria_form){
+
+if (Age_param.value && isNaN(Age_param.value)){ clrValue(Age_param); alertNaN('Age'); }
+if (Age_param.value && (Age < (3 - 0.00001))) {
+Age = 0;
+clrValue(Age_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Age is 3 yr.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Temperature_param.value && isNaN(Temperature_param.value)){ clrValue(Temperature_param); alertNaN('Temperature'); }
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.CentorMcIssacSoreThroatCriteria_form){
+
+Score_param.value = '';
+
+rrclr();
+
+}
+
+}
+
+var Age = null,
+Temperature = null,
+Cough = null,
+Tender_Anterior_Cervical_Nodes = null,
+Tonsillar_Swelling_or_Exudate = null,
+Score = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+function rrclr(){
+document.getElementById('rr1_1').bgColor = '';
+document.getElementById('rr1_2').bgColor = '';
+document.getElementById('rr1_3').bgColor = '';
+document.getElementById('rr1_4').bgColor = '';
+document.getElementById('rr1_5').bgColor = '';
+document.getElementById('rr1_tag').ariaLabel = 'This table highlights the result Sore Throat Score. No result is highlighted'; interptxt = '';
+}
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="CentorMcIssacSoreThroatCriteria_form" id="CentorMcIssacSoreThroatCriteria_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="CentorMcIssacSoreThroatCriteria_fx();" onreset="rrclr();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Centor Strep Pharyngitis Criteria With McIsaac Modification
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Age</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Age_param" size="6" value="" onblur="CentorMcIssacSoreThroatCriteria_fx(); minMaxCheck();" onchange="CentorMcIssacSoreThroatCriteria_fx();" aria-label="Use this input box to enter the value Age" /></td>
+<td align="left" valign="top"> <select name="Age_unit" onchange="CentorMcIssacSoreThroatCriteria_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Age">
+<option value="0.0833333333333333|0|mo">mo</option>
+<option value="1|0|yr" selected="selected">yr</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Temperature</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Temperature_param" size="6" value="" onblur="CentorMcIssacSoreThroatCriteria_fx(); minMaxCheck();" onchange="CentorMcIssacSoreThroatCriteria_fx();" aria-label="Use this input box to enter the value Temperature" /></td>
+<td align="left" valign="top"> <select name="Temperature_unit" onchange="CentorMcIssacSoreThroatCriteria_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Temperature">
+<option value="1|0|degC" selected="selected">degC</option>
+<option value="0.555555555555556|-17.7777777777778|degF">degF</option>
+</select></td></tr>
+
+<tr><td align="right" valign="top"><span class="medCalcFontOneBold">Cough</span></td>
+<td colspan="2" align="left"><input type="radio" name="Cough_radio" id="togel1" value="Yes|0" onclick="CentorMcIssacSoreThroatCriteria_fx();" aria-label="This button selects an option for the variable: Cough. The variable option is Yes. The value for this variable is 0" /><span class="medCalcFontOneClick" onclick="setRB('togel1');"> Yes (0)</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Cough_radio" id="togel2" value="No|1" onclick="CentorMcIssacSoreThroatCriteria_fx();" aria-label="This button selects an option for the variable: Cough. The variable option is No. The value for this variable is 1" /><span class="medCalcFontOneClick" onclick="setRB('togel2');"> No (1)</span></td></tr>
+<tr><td align="right" valign="top"><span class="medCalcFontOneBold">Tender Anterior Cervical Nodes</span></td>
+<td colspan="2" align="left"><input type="radio" name="Tender_Anterior_Cervical_Nodes_radio" id="togel3" value="Yes|1" onclick="CentorMcIssacSoreThroatCriteria_fx();" aria-label="This button selects an option for the variable: Tender Anterior Cervical Nodes. The variable option is Yes. The value for this variable is 1" /><span class="medCalcFontOneClick" onclick="setRB('togel3');"> Yes (1)</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Tender_Anterior_Cervical_Nodes_radio" id="togel4" value="No|0" onclick="CentorMcIssacSoreThroatCriteria_fx();" aria-label="This button selects an option for the variable: Tender Anterior Cervical Nodes. The variable option is No. The value for this variable is 0" /><span class="medCalcFontOneClick" onclick="setRB('togel4');"> No (0)</span></td></tr>
+<tr><td align="right" valign="top"><span class="medCalcFontOneBold">Tonsillar Swelling or Exudate</span></td>
+<td colspan="2" align="left"><input type="radio" name="Tonsillar_Swelling_or_Exudate_radio" id="togel5" value="Yes|1" onclick="CentorMcIssacSoreThroatCriteria_fx();" aria-label="This button selects an option for the variable: Tonsillar Swelling or Exudate. The variable option is Yes. The value for this variable is 1" /><span class="medCalcFontOneClick" onclick="setRB('togel5');"> Yes (1)</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Tonsillar_Swelling_or_Exudate_radio" id="togel6" value="No|0" onclick="CentorMcIssacSoreThroatCriteria_fx();" aria-label="This button selects an option for the variable: Tonsillar Swelling or Exudate. The variable option is No. The value for this variable is 0" /><span class="medCalcFontOneClick" onclick="setRB('togel6');"> No (0)</span></td></tr>
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Result</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Score</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Score_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Score" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Score_unit" onchange="CentorMcIssacSoreThroatCriteria_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Score">
+<option value="1|0|#">#</option>
+<option value="1|0|index">index</option>
+<option value="1|0|none">none</option>
+<option value="1|0|number">number</option>
+<option value="1|0|points" selected="selected">points</option>
+<option value="1|0|score">score</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+<div id="rr1_tag" aria-label="This table highlights the result Sore Throat Score. No result is highlighted" tabindex="0">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+
+Sore Throat Score
+</span></td></tr></table><br />&nbsp;<br />
+</div>
+<center>
+<table border="1" cellpadding="4" cellspacing="0" summary="RRTable">
+<tr id="rr1_1"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">0 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">2-3% chance of strep; no culture or antibiotics </span></td></tr>
+<tr id="rr1_2"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">1 point:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">4-6% chance of strep; no culture or antibiotics </span></td></tr>
+<tr id="rr1_3"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">2 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">10-12% chance of strep; culture and treat if positive </span></td></tr>
+<tr id="rr1_4"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">3 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">27-28% chance of strep; culture and treat if positive </span></td></tr>
+<tr id="rr1_5"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">4 to 5 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">38-63% chance of strep; culture and treat with antibiotic on clinical grounds</span></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">Score = AgeFactor + TemperatureFactor + Cough + Tender Anterior Cervical Nodes + Tonsillar Swelling or Exudate</span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+<br />&nbsp;<br />
+<div id="calc_details_and_variables">
+<span class="medCalcFontOneBold">Calculation Details and Variables</span>
+<ul class="medCalcFontOne">
+<li><b>AgeFactor</b> is assigned values by this ordered logic: <ul><li><span style="white-space: nowrap;">If <b>Age</b> &ge;45 yr <b>AgeFactor</b> = -1</span></li><li><span style="white-space: nowrap;">Else if <b>Age</b> &ge;15 yr <b>AgeFactor</b> = 0</span></li><li><span style="white-space: nowrap;">Else <b>AgeFactor</b> = 1.</span></li></ul></li><li><b>TemperatureFactor</b> is assigned values by this ordered logic: <ul><li><span style="white-space: nowrap;">If <b>Temperature</b> &gt;38 degC <b>TemperatureFactor</b> = 1</span></li><li><span style="white-space: nowrap;">Else <b>TemperatureFactor</b> = 0.</span></li></ul></li><li>Equation parameters such as <b>Cough</b>, have two or more discrete values that may be used in the calculation. The numbers in the parentheses, e.g.  (0), represent the values that will be used.</li>
+
+</ul>
+</div>
+
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">McIsaac WJ, White D, Tannenbaum D, Low D. A clinical score to reduce unnecessary antibiotic use in patients with sore throat. <i>Can Med Assoc J</i>. 158(1), 75-83, 1998. PubMed ID: 9475915 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/9475915"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">McIsaac WJ, Goel V, To T, Low DE. The validity of a sore throat score in family practice. <i>CMAJ</i>. 2000; 163: 811-5. PubMed ID: 11033707 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/11033707"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Fine AM, Nizet V, Mandl KD. Large-scale validation of the Centor and McIsaac scores to predict  group A streptococcal pharyngitis. <i>Arch Intern Med</i>. 2012 Jun 11;172(11):847-52. PubMed ID: 22566485 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/22566485"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div><script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+with(document.CentorMcIssacSoreThroatCriteria_form){
+var Age_Factor = 0;
+var Temperature_Factor = 0;
+
+}
+/* ]]> */
+</script>
+
+
+
+</div>
+</body>
+</html>
+
+<!-- 1662473262 //-->

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Apgar Score</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="Neurology, Pediatrics, Obstetrics, Women, Nurse, fac_all, fac_med, prognosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+ApgarScore_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+ApgarScore_fx();
+}
+
+
+/* ]]> */
+</script>
+
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+
+
+var calctxt = '';
+var xmltxt = '';
+var xmlresult = '';
+var htmtxt = '';
+var postNow = false;
+var printing = false;
+var rbchk = false;
+
+
+function ApgarScore_fx() {
+with(document.ApgarScore_form){
+
+Score = 0.0;
+doCalc = true;
+
+rbchk = false;
+if (cc1[0].checked){
+rbchk = true; Score = Score + 2; 
+}
+if (cc1[1].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc1[2].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc2[0].checked){
+rbchk = true; Score = Score + 2; 
+}
+if (cc2[1].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc2[2].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc3[0].checked){
+rbchk = true; Score = Score + 2; 
+}
+if (cc3[1].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc3[2].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc4[0].checked){
+rbchk = true; Score = Score + 2; 
+}
+if (cc4[1].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc4[2].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc5[0].checked){
+rbchk = true; Score = Score + 2; 
+}
+if (cc5[1].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc5[2].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (!rbchk) doCalc = false;
+if (doCalc){
+cctotal.value = Score;
+if (cctotal.value == 'NaN') cctotal.value = '';
+}
+else{
+Score = null;
+cctotal.value = '';
+if (typeof rrclr == 'function') { rrclr(); };
+document.ApgarScore_form.cctotal.value = '';
+}
+
+
+
+
+if (doCalc){
+rrclr();
+if ((Score >= 7) && (Score <= 10)){ document.getElementById('rr1_1').bgColor = '#8ab2be';
+interptxt = '\n\nApgar Score: 7 to 10 Points: Normal';
+calctxt += '\n\nApgar Score: 7 to 10 Points: Normal';
+xmltxt += '\n<Result_Interpretation>Apgar Score: 7 to 10 Points: Normal<\/Result_Interpretation>\n';
+}
+if ((Score >= 0) && (Score <= 6)){ document.getElementById('rr1_2').bgColor = '#8ab2be';
+interptxt = '\n\nApgar Score: 0 to 6 Points: Distress';
+calctxt += '\n\nApgar Score: 0 to 6 Points: Distress';
+xmltxt += '\n<Result_Interpretation>Apgar Score: 0 to 6 Points: Distress<\/Result_Interpretation>\n';
+}
+document.getElementById('rr1_tag').ariaLabel = interptxt;
+interptxt = '';
+
+
+}
+}
+}
+
+
+
+
+function rrclr(){
+document.getElementById('rr1_1').bgColor = '';
+document.getElementById('rr1_2').bgColor = '';
+document.getElementById('rr1_tag').ariaLabel = 'This table highlights the result Apgar Score. No result is highlighted'; interptxt = '';
+}
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+<form name="ApgarScore_form" id="ApgarScore_form" action="" onsubmit="return false;" onreset="rrclr(); ">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Apgar Score
+</span></td></tr></table><br />&nbsp;<br />
+<div id="calc_main">
+<div id="calc_input">
+<center>
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Strength and regularity of heart rate </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel1" name="cc1" onclick="ApgarScore_fx();" aria-label="This button selects an option for: Strength and regularity of heart rate. The option is 100 beats/minute or more (2 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel1');">100 beats/minute or more (2 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel2" name="cc1" onclick="ApgarScore_fx();" aria-label="This button selects an option for: Strength and regularity of heart rate. The option is Less than 100 (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel2');">Less than 100 (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel3" name="cc1" onclick="ApgarScore_fx();" aria-label="This button selects an option for: Strength and regularity of heart rate. The option is None (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel3');">None (0 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Lung maturity </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel4" name="cc2" onclick="ApgarScore_fx();" aria-label="This button selects an option for: Lung maturity. The option is Regular breathing (2 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel4');">Regular breathing (2 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel5" name="cc2" onclick="ApgarScore_fx();" aria-label="This button selects an option for: Lung maturity. The option is Irregular (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel5');">Irregular (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel6" name="cc2" onclick="ApgarScore_fx();" aria-label="This button selects an option for: Lung maturity. The option is None (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel6');">None (0 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Muscle tone and movement </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel7" name="cc3" onclick="ApgarScore_fx();" aria-label="This button selects an option for: Muscle tone and movement. The option is Active (2 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel7');">Active (2 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel8" name="cc3" onclick="ApgarScore_fx();" aria-label="This button selects an option for: Muscle tone and movement. The option is Moderate (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel8');">Moderate (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel9" name="cc3" onclick="ApgarScore_fx();" aria-label="This button selects an option for: Muscle tone and movement. The option is Limp (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel9');">Limp (0 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Skin color / oxygenation </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel10" name="cc4" onclick="ApgarScore_fx();" aria-label="This button selects an option for: Skin color / oxygenation. The option is Pink (2 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel10');">Pink (2 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel11" name="cc4" onclick="ApgarScore_fx();" aria-label="This button selects an option for: Skin color / oxygenation. The option is Bluish extremeties (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel11');">Bluish extremeties (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel12" name="cc4" onclick="ApgarScore_fx();" aria-label="This button selects an option for: Skin color / oxygenation. The option is Totally blue (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel12');">Totally blue (0 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Reflex response to irritable stimuli </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel13" name="cc5" onclick="ApgarScore_fx();" aria-label="This button selects an option for: Reflex response to irritable stimuli. The option is Crying (2 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel13');">Crying (2 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel14" name="cc5" onclick="ApgarScore_fx();" aria-label="This button selects an option for: Reflex response to irritable stimuli. The option is Whimpering (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel14');">Whimpering (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel15" name="cc5" onclick="ApgarScore_fx();" aria-label="This button selects an option for: Reflex response to irritable stimuli. The option is Silence (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel15');">Silence (0 points)</span></td></tr>
+
+</table>
+
+</center>
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<span class="medCalcFontCCTabBold">
+Total Criteria Point Count:
+</span>
+<input type="text" size="6" name="cctotal" aria-readonly="true" aria-label="This box holds the total criteria point count" /><br />&nbsp;<br />
+<center><input type="reset" name="reset" value="Reset Form" />    </center>
+<br />&nbsp;<br />
+<div id="rr1_tag" aria-label="This table highlights the result Apgar Score. No result is highlighted" tabindex="0">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+
+Apgar Score
+</span></td></tr></table><br />&nbsp;<br />
+</div>
+<center>
+<table border="1" cellpadding="4" cellspacing="0" summary="RRTable">
+<tr id="rr1_1"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">7 to 10 Points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Normal</span></td></tr>
+<tr id="rr1_2"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">0 to 6 Points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Distress</span></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+
+</div>
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Apgar V. A proposal of a New Method of Evaluation of the Newborn Infant. <i>Current Researches in Anesthesia and Analgesia</i>. 1953, 32: 261-267. PubMed ID: 13083014 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/13083014"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Apgar V, Holaday DA, James LS, et al. Evaluation of the newborn infant. <i>JAMA</i>. 1958, 168: 1985-1988. PubMed ID: 13598635 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/13598635"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Casey BM, McIntire DD, Leveno KJ. The continuing value of the Apgar score for the assessment of newborn infants. <i>N Engl J Med</i>. 2001 Feb 15;344(7):467-71. PubMed ID: 11172187 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/11172187"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+ 
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div><script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+
+
+function loadQueryParams(thisqs){
+if (thisqs) alert('Data panel values cannot be transferred to this calculator.');
+return;
+}
+
+
+/* ]]> */
+</script>
+
+
+
+
+
+</div>
+</body>
+</html>
+
+
+<!-- 1662473249 //-->

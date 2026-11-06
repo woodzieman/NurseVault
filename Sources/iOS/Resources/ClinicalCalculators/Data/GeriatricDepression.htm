@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Geriatric Depression Scale</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="Neurology, Nurse, Psychiatry, Geriatrics, screening, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+GeriatricDepression_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+GeriatricDepression_fx();
+}
+
+
+/* ]]> */
+</script>
+
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+
+
+var calctxt = '';
+var xmltxt = '';
+var xmlresult = '';
+var htmtxt = '';
+var postNow = false;
+var printing = false;
+var rbchk = false;
+
+
+function GeriatricDepression_fx() {
+with(document.GeriatricDepression_form){
+
+Score = 0.0;
+doCalc = true;
+
+rbchk = false;
+if (cc1[0].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (cc1[1].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc2[0].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc2[1].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc3[0].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc3[1].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc4[0].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc4[1].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc5[0].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (cc5[1].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc6[0].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc6[1].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc7[0].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (cc7[1].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc8[0].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc8[1].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc9[0].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc9[1].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc10[0].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc10[1].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc11[0].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (cc11[1].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc12[0].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc12[1].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc13[0].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (cc13[1].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc14[0].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc14[1].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc15[0].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc15[1].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (!rbchk) doCalc = false;
+if (doCalc){
+cctotal.value = Score;
+if (cctotal.value == 'NaN') cctotal.value = '';
+}
+else{
+Score = null;
+cctotal.value = '';
+if (typeof rrclr == 'function') { rrclr(); };
+document.GeriatricDepression_form.cctotal.value = '';
+}
+
+
+
+
+if (doCalc){
+rrclr();
+if ((Score >= 10) && (Score <= 15)){ document.getElementById('rr1_1').bgColor = '#8ab2be';
+interptxt = '\n\nDepression Scale: 10 to 15 Points: Depression likely present';
+calctxt += '\n\nDepression Scale: 10 to 15 Points: Depression likely present';
+xmltxt += '\n<Result_Interpretation>Depression Scale: 10 to 15 Points: Depression likely present<\/Result_Interpretation>\n';
+}
+if ((Score >= 6) && (Score <= 9)){ document.getElementById('rr1_2').bgColor = '#8ab2be';
+interptxt = '\n\nDepression Scale: 6 to 9 Points: Depression possible';
+calctxt += '\n\nDepression Scale: 6 to 9 Points: Depression possible';
+xmltxt += '\n<Result_Interpretation>Depression Scale: 6 to 9 Points: Depression possible<\/Result_Interpretation>\n';
+}
+if ((Score >= 0) && (Score <= 5)){ document.getElementById('rr1_3').bgColor = '#8ab2be';
+interptxt = '\n\nDepression Scale: 0 to 5 Points: Depression unlikely';
+calctxt += '\n\nDepression Scale: 0 to 5 Points: Depression unlikely';
+xmltxt += '\n<Result_Interpretation>Depression Scale: 0 to 5 Points: Depression unlikely<\/Result_Interpretation>\n';
+}
+document.getElementById('rr1_tag').ariaLabel = interptxt;
+interptxt = '';
+
+
+}
+}
+}
+
+
+
+
+function rrclr(){
+document.getElementById('rr1_1').bgColor = '';
+document.getElementById('rr1_2').bgColor = '';
+document.getElementById('rr1_3').bgColor = '';
+document.getElementById('rr1_tag').ariaLabel = 'This table highlights the result Depression Scale. No result is highlighted'; interptxt = '';
+}
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+<form name="GeriatricDepression_form" id="GeriatricDepression_form" action="" onsubmit="return false;" onreset="rrclr(); ">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Geriatric Depression Scale
+</span></td></tr></table><br />&nbsp;<br />
+<div id="calc_main">
+<div id="calc_input">
+<center>
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Choose the best answer for how you felt over the past week:</span></td></tr>
+
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Are you basically satisfied with your life? </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel1" name="cc1" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Are you basically satisfied with your life?. The option is Yes (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel1');">Yes (0 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel2" name="cc1" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Are you basically satisfied with your life?. The option is No (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel2');">No (1 point)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Have you dropped many of your activities and interests? </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel3" name="cc2" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Have you dropped many of your activities and interests?. The option is Yes (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel3');">Yes (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel4" name="cc2" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Have you dropped many of your activities and interests?. The option is No (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel4');">No (0 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Do you feel your life is empty? </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel5" name="cc3" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you feel your life is empty?. The option is Yes (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel5');">Yes (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel6" name="cc3" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you feel your life is empty?. The option is No (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel6');">No (0 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Do you often get bored? </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel7" name="cc4" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you often get bored?. The option is Yes (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel7');">Yes (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel8" name="cc4" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you often get bored?. The option is No (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel8');">No (0 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Are you in good spirits most of the time? </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel9" name="cc5" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Are you in good spirits most of the time?. The option is Yes (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel9');">Yes (0 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel10" name="cc5" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Are you in good spirits most of the time?. The option is No (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel10');">No (1 point)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Are you afraid something bad is going to happen to you? </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel11" name="cc6" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Are you afraid something bad is going to happen to you?. The option is Yes (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel11');">Yes (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel12" name="cc6" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Are you afraid something bad is going to happen to you?. The option is No (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel12');">No (0 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Do you feel happy most of the time? </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel13" name="cc7" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you feel happy most of the time?. The option is Yes (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel13');">Yes (0 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel14" name="cc7" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you feel happy most of the time?. The option is No (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel14');">No (1 point)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Do you often feel helpless? </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel15" name="cc8" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you often feel helpless?. The option is Yes (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel15');">Yes (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel16" name="cc8" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you often feel helpless?. The option is No (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel16');">No (0 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Do you prefer to stay home, rather than going out and doing new things? </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel17" name="cc9" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you prefer to stay home, rather than going out and doing new things?. The option is Yes (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel17');">Yes (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel18" name="cc9" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you prefer to stay home, rather than going out and doing new things?. The option is No (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel18');">No (0 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Do you feel you have more problems with memory than most? </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel19" name="cc10" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you feel you have more problems with memory than most?. The option is Yes (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel19');">Yes (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel20" name="cc10" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you feel you have more problems with memory than most?. The option is No (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel20');">No (0 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Do you think it is wonderful to be alive now? </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel21" name="cc11" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you think it is wonderful to be alive now?. The option is Yes (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel21');">Yes (0 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel22" name="cc11" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you think it is wonderful to be alive now?. The option is No (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel22');">No (1 point)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Do you feel pretty worthless the way you are now? </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel23" name="cc12" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you feel pretty worthless the way you are now?. The option is Yes (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel23');">Yes (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel24" name="cc12" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you feel pretty worthless the way you are now?. The option is No (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel24');">No (0 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Do you feel full of energy? </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel25" name="cc13" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you feel full of energy?. The option is Yes (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel25');">Yes (0 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel26" name="cc13" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you feel full of energy?. The option is No (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel26');">No (1 point)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Do you feel that your situation is hopeless? </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel27" name="cc14" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you feel that your situation is hopeless?. The option is Yes (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel27');">Yes (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel28" name="cc14" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you feel that your situation is hopeless?. The option is No (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel28');">No (0 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Do you think that most people are better off than you? </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel29" name="cc15" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you think that most people are better off than you?. The option is Yes (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel29');">Yes (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel30" name="cc15" onclick="GeriatricDepression_fx();" aria-label="This button selects an option for: Do you think that most people are better off than you?. The option is No (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel30');">No (0 points)</span></td></tr>
+
+</table>
+
+</center>
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<span class="medCalcFontCCTabBold">
+Total Criteria Point Count:
+</span>
+<input type="text" size="6" name="cctotal" aria-readonly="true" aria-label="This box holds the total criteria point count" /><br />&nbsp;<br />
+<center><input type="reset" name="reset" value="Reset Form" />    </center>
+<br />&nbsp;<br />
+<div id="rr1_tag" aria-label="This table highlights the result Depression Scale. No result is highlighted" tabindex="0">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+
+Depression Scale
+</span></td></tr></table><br />&nbsp;<br />
+</div>
+<center>
+<table border="1" cellpadding="4" cellspacing="0" summary="RRTable">
+<tr id="rr1_1"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">10 to 15 Points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Depression likely present</span></td></tr>
+<tr id="rr1_2"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">6 to 9 Points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Depression possible</span></td></tr>
+<tr id="rr1_3"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">0 to 5 Points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Depression unlikely</span></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+
+</div>
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Sheikh JI, Yesavage JA. Geriatric Depression Scale; recent evidence and development of a shorter version. <i>Clin. Gerontol</i>. 1986:5:165-172.</span></li>
+<li><span class="medCalcFontRef">Sheikh JI, Yesavage JA, Brooks JO 3rd, et al. Proposed factor structure of the Geriatric Depression Scale. <i> Int Psychogeriatr</i>. 1991 Spring;3(1):23-8. PubMed ID: 1863703 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/1863703"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+ 
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div><script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+
+
+function loadQueryParams(thisqs){
+if (thisqs) alert('Data panel values cannot be transferred to this calculator.');
+return;
+}
+
+
+/* ]]> */
+</script>
+
+
+
+
+
+</div>
+</body>
+</html>
+
+
+<!-- 1662473274 //-->

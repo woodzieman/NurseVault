@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Volume Unit Conversions</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="units, Pediatrics, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+
+codes = new Array();
+codeparts = new Array();
+var dp = 1;
+var tovalue;
+var to_selected = 0;
+
+function showToValue(){
+with (document.Volume_form){
+to_param.value = fixDP(tovalue, dp);
+}}
+
+function setDecPts(){
+with (document.Volume_form){
+dp = decpts.options[decpts.selectedIndex].text;
+unitConvert();
+}}
+
+
+function unitConvert(){
+with (document.Volume_form){
+
+if ((to_unit.selectedIndex == 0) || (from_unit.selectedIndex == 0)){ to_param.value = ''; return; }
+
+if (from_param.value && isNaN(from_param.value)){ clrValue(from_param); alertNaN('From Value'); return;}
+if (from_param.value && (parseFloat(from_param.value) < 0)){ clrValue(from_param); alert('Negative values are not allowed'); return;}
+
+if (from_param.value > ''){
+unitcode = from_unit.options[from_unit.selectedIndex].value;
+codeparts = unitcode.split('|');
+frommult = parseFloat(codeparts[1]);
+fromadd = parseFloat(codeparts[2]);
+
+unitcode = to_unit.options[to_unit.selectedIndex].value;
+codeparts = unitcode.split('|');
+tomult = parseFloat(codeparts[1]);
+toadd = parseFloat(codeparts[2]);
+
+fromvalue = parseFloat(from_param.value);
+tovalue = ((fromvalue * frommult + fromadd) - toadd) / tomult;
+showToValue();
+}}}
+
+function clrResults(){
+with (document.Volume_form){
+from_param.value = '';
+to_param.value = '';
+}}
+
+function loadQueryParams(thisqs){
+if (thisqs) alert('Data panel values cannot be transferred to this calculator.');
+return;
+}
+
+/* ]]> */
+</script>
+
+
+
+<form name="Volume_form" id="Volume_form" action="" onsubmit="return false;" onkeydown="to_param.value='';" onkeyup="unitConvert();">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+Volume Unit Conversions
+</span></td></tr></table><br />&nbsp;<br />
+<center>
+<div id="calc_main">
+<div id="calc_input">
+<table summary="EBMcalc Table">
+<tr><td colspan="2"><span class="medCalcFontZeroBold">FROM:</span></td></tr>
+<tr><td align="left"><b><input type="text" name="from_param" size="7" onchange="unitConvert();" aria-label="Use this input box to enter from-value" /></b></td>
+<td align="left"><b><select name="from_unit" onchange="unitConvert();" style="width:250px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the from-value unit of measure">
+<option value="Pull-Down|0|1|0" selected="selected">Pull-Down</option>
+<option value="fluid ounce (US)|2.957352956e-2|0">fluid ounce (US)</option>
+<option value="gallon (US, liquid)|3.785411784|0">gallon (US, liquid)</option>
+<option value="litre (1964)|1|0">litre (1964)</option>
+<option value="microlitre|1e-6|0">microlitre</option>
+<option value="millilitre|1e-3|0">millilitre</option>
+<option value="pint (US, liquid)|4.731764730e-1|0">pint (US, liquid)</option>
+<option value="quart (US, liquid)|9.463529460e-1|0">quart (US, liquid)</option>
+<option value="tablespoon (US)|1.478677e-2|0">tablespoon (US)</option>
+<option value="teaspoon (US)|4.928922e-3|0">teaspoon (US)</option>
+</select></b></td></tr>
+<tr><td colspan="2"><span class="medCalcFontZeroBold">TO:</span></td></tr>
+<tr><td align="left"><input type="text" name="to_param" size="7" aria-readonly="true" aria-label="The calculated to-value will display here" /></td>
+<td align="left"><b><select name="to_unit" onchange="unitConvert();" style="width:250px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the to-value unit of measure">
+<option value="Pull-Down|0|1|0" selected="selected">Pull-Down</option>
+<option value="fluid ounce (US)|2.957352956e-2|0">fluid ounce (US)</option>
+<option value="gallon (US, liquid)|3.785411784|0">gallon (US, liquid)</option>
+<option value="litre (1964)|1|0">litre (1964)</option>
+<option value="microlitre|1e-6|0">microlitre</option>
+<option value="millilitre|1e-3|0">millilitre</option>
+<option value="pint (US, liquid)|4.731764730e-1|0">pint (US, liquid)</option>
+<option value="quart (US, liquid)|9.463529460e-1|0">quart (US, liquid)</option>
+<option value="tablespoon (US)|1.478677e-2|0">tablespoon (US)</option>
+<option value="teaspoon (US)|4.928922e-3|0">teaspoon (US)</option>
+</select></b></td></tr></table>
+<br />&nbsp;<br />
+<span class="medCalcFontOneBold">
+Set maximal display precision in decimal points:
+</span>
+<select name="decpts" onchange="setDecPts();" class="medCalcFontSelect" aria-label="">
+<option>0</option>
+<option selected="selected">1</option>
+<option>2</option>
+<option>3</option>
+</select>
+<br />&nbsp;<br />
+
+</div>
+</div>
+</center>
+</form>
+<br />&nbsp;<br />
+
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li>To make simple unit conversions, select the starting units with the pull-down selector on the right. 
+Then type a starting value in the top <b>FROM</b> input box. To convert the value, choose the 
+new unit in the lower right selector. The converted value will appear immediately in the <b>TO</b> box. 
+</li>
+
+
+</ul>
+</div>
+
+<div id="calc_hints">
+<span class="medCalcFontOne"></span> 
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs"><span class="medCalcFontRef"><b>References</b></span>
+<ol><li><span class="medCalcFontRef">Data conversions are done by simple factor multiplication, 
+using the conversion factors listed below.
+</span></li>
+
+</ol></div>
+
+<br />&nbsp;<br />
+<div class="calc_tables_supp">
+<br />&nbsp;<br />
+<span class="medCalcFontOneBold">Conversion factors</span>
+<br />&nbsp;<br />
+<table border="1" cellpadding="4" cellspacing="0" summary="EBMcalc Table" class="medCalcFontOne">
+
+<tr><td align="left">fluid ounce (US)</td><td>X</td><td align="center">2.957352956e-2</td><td>=</td><td align="left">litre (1964)</td></tr>
+<tr><td align="left">gallon (US, liquid)</td><td>X</td><td align="center">3.785411784</td><td>=</td><td align="left">litre (1964)</td></tr>
+<tr><td align="left">microlitre</td><td>X</td><td align="center">1e-6</td><td>=</td><td align="left">litre (1964)</td></tr>
+<tr><td align="left">millilitre</td><td>X</td><td align="center">1e-3</td><td>=</td><td align="left">litre (1964)</td></tr>
+<tr><td align="left">pint (US, liquid)</td><td>X</td><td align="center">4.731764730e-1</td><td>=</td><td align="left">litre (1964)</td></tr>
+<tr><td align="left">quart (US, liquid)</td><td>X</td><td align="center">9.463529460e-1</td><td>=</td><td align="left">litre (1964)</td></tr>
+<tr><td align="left">tablespoon (US)</td><td>X</td><td align="center">1.478677e-2</td><td>=</td><td align="left">litre (1964)</td></tr>
+<tr><td align="left">teaspoon (US)</td><td>X</td><td align="center">4.928922e-3</td><td>=</td><td align="left">litre (1964)</td></tr>
+
+</table>
+</div>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div></div>
+</body>
+</html>
+
+<!-- 1662473306 //-->

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Energy Unit Conversions</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="units, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+
+codes = new Array();
+codeparts = new Array();
+var dp = 1;
+var tovalue;
+var to_selected = 0;
+
+function showToValue(){
+with (document.Energy_form){
+to_param.value = fixDP(tovalue, dp);
+}}
+
+function setDecPts(){
+with (document.Energy_form){
+dp = decpts.options[decpts.selectedIndex].text;
+unitConvert();
+}}
+
+function unitLoad(){
+with (document.Energy_form){
+
+to_selected = 0;
+
+for (i = 0; i < from_unit.options.length; i++) { codes[i] = from_unit.options[i].value; }
+
+codeparts = from_unit.options[from_unit.selectedIndex].value.split('|');
+findunit = codeparts[0];
+findtype = codeparts[1];
+to_unit.options.length = 0;
+
+for (i = 0; i < codes.length; i++){
+codeparts = codes[i].split('|');
+if (codeparts[1]  == findtype) {
+	to_unit.options[to_unit.options.length] = new Option(codeparts[0],codes[i]);
+	if ((to_selected == 0) && (codeparts[0] != findunit)) { to_unit.options[to_unit.options.length - 1].selected = true; to_selected = 1; }
+	}
+}
+to_param.value = "";
+unitConvert();
+}}
+
+function unitConvert(){
+with (document.Energy_form){
+
+if (to_unit.selectedIndex + from_unit.selectedIndex == 0) return;
+
+if (from_param.value > ''){
+unitcode = from_unit.options[from_unit.selectedIndex].value;
+codeparts = unitcode.split('|');
+fromtype = codeparts[1];
+frommult = parseFloat(codeparts[2]);
+fromadd = parseFloat(codeparts[3]);
+
+unitcode = to_unit.options[to_unit.selectedIndex].value;
+codeparts = unitcode.split('|');
+totype = codeparts[1];
+tomult = parseFloat(codeparts[2]);
+toadd = parseFloat(codeparts[3]);
+
+fromvalue = parseFloat(from_param.value);
+tovalue = ((fromvalue * frommult + fromadd) - toadd) / tomult;
+showToValue();
+}}}
+
+function clrResults(){
+with (document.Energy_form){
+from_param.value = '';
+fromvalue = 0;
+to_param.value = '';
+tovalue = 0;
+}}
+
+/* ]]> */
+</script>
+
+
+
+<form name="Energy_form" id="Energy_form" action="" onsubmit="return false;" onkeydown="to_param.value='';" onkeyup="unitConvert();">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Energy Unit Conversions
+</span></td></tr></table><br />&nbsp;<br />
+<br />&nbsp;<br />
+<center>
+<div id="calc_main">
+<div id="calc_input">
+<table border="0" cellpadding="6" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right"><span class="medCalcFontOneBold">FROM</span></td>
+<td align="left"><input type="text" name="from_param" style="width:50px;" onchange="unitConvert();" /></td>
+<td>
+<select name="from_unit" onchange="unitLoad();">
+<option value="Pull-Down|0|1|0" selected="selected">Pull-Down</option>
+<option value="barrel oil equiv.|101|6.12e+9|0|">barrel oil equiv.</option>
+<option value="billion electronvolt (GeV)|101|1.60217733e-10|0|">billion electronvolt (GeV)</option>
+<option value="British thermal unit (39.2&#176;F)|101|1059.67|0|">British thermal unit (39.2&#176;F)</option>
+<option value="British thermal unit (60&#176;C)|101|1054.678|0|">British thermal unit (60&#176;C)</option>
+<option value="British thermal unit (Gas ins. act reg.)|101|1054.615|0|">British thermal unit (Gas ins. act reg.)</option>
+<option value="British thermal unit (ISO/TC 12)|101|1055.06|0|">British thermal unit (ISO/TC 12)</option>
+<option value="British thermal unit (IST)|101|1055.05585262|0|">British thermal unit (IST)</option>
+<option value="British thermal unit (mean)|101|1055.87|0|">British thermal unit (mean)</option>
+<option value="British thermal unit (thermochem.)|101|1054.35|0|">British thermal unit (thermochem.)</option>
+<option value="British thermal unit (UK gas)|101|1054.76|0|">British thermal unit (UK gas)</option>
+<option value="calorie (15&#176;C)|101|4.18550|0|">calorie (15&#176;C)</option>
+<option value="calorie (20&#176;C)|101|4.1819|0|">calorie (20&#176;C)</option>
+<option value="calorie (4&#176;C)|101|4.2045|0|">calorie (4&#176;C)</option>
+<option value="calorie (IST)|101|4.18674|0|">calorie (IST)</option>
+<option value="calorie (mean)|101|4.19002|0|">calorie (mean)</option>
+<option value="calorie (thermochem.)|101|4.184|0|">calorie (thermochem.)</option>
+<option value="Celsius heat unit (15&#176;C)|101|1899.1|0|">Celsius heat unit (15&#176;C)</option>
+<option value="Celsius heat unit|101|1899.18|0|">Celsius heat unit</option>
+<option value="electronvolt|101|1.60217733e-19|0|">electronvolt</option>
+<option value="erg|101|1e-7|0|">erg</option>
+<option value="foot-pound-force (duty)|101|1.355817948|0|">foot-pound-force (duty)</option>
+<option value="foot-poundal|101|4.214011009e-2|0|">foot-poundal</option>
+<option value="frigorie|101|-4.1855e+3|0|">frigorie</option>
+<option value="hartree (u.a. of energy)|101|4.3597482e-18|0|">hartree (u.a. of energy)</option>
+<option value="joule (int.)|101|1.000165|0|">joule (int.)</option>
+<option value="joule|101|1|0|">joule</option>
+<option value="kilocalorie (therm.)|101|4184|0|">kilocalorie (therm.)</option>
+<option value="kilogram-force-metre|101|9.80665|0|">kilogram-force-metre</option>
+<option value="kiloton (TNT)|101|4.18e+18|0|">kiloton (TNT)</option>
+<option value="kilowatt-hour|101|3.6e+6|0|">kilowatt-hour</option>
+<option value="litre-atmosphere|101|101.625|0|">litre-atmosphere</option>
+<option value="megaton (TNT)|101|4.18e+21|0|">megaton (TNT)</option>
+<option value="pound centigrade unit (15&#176;C)|101|1899.1|0|">pound centigrade unit (15&#176;C)</option>
+<option value="prout|101|2.9638e-14|0|">prout</option>
+<option value="Q unit|101|1.055e+21|0|">Q unit</option>
+<option value="quad (quadrillion, Btu)|101|1.055055853e+18|0|">quad (quadrillion, Btu)</option>
+<option value="rydberg|101|2.1798741e-18|0|">rydberg</option>
+<option value="therm (EEG)|101|1.055055853e+8|0|">therm (EEG)</option>
+<option value="therm (US)|101|1.054804000e+8|0|">therm (US)</option>
+<option value="thermie (15&#176;C)|101|4.1855e+6|0|">thermie (15&#176;C)</option>
+<option value="ton coal equiv.|101|2.929e+8|0|">ton coal equiv.</option>
+<option value="ton oil equiv.|101|4.187e+8|0|">ton oil equiv.</option>
+<option value="0|0|1|0"></option>
+</select></td></tr>
+<tr><td align="right"><span class="medCalcFontOneBold">TO</span></td>
+<td align="left"><input type="text" name="to_param" style="width:50px;" aria-readonly="true" /></td>
+<td align="left">
+<select name="to_unit" onchange="unitConvert();">
+<option value="Pull-Down|0|1|0" selected="selected">Pull-Down</option>
+<option value="barrel oil equiv.|101|6.12e+9|0|">barrel oil equiv.</option>
+<option value="billion electronvolt (GeV)|101|1.60217733e-10|0|">billion electronvolt (GeV)</option>
+<option value="British thermal unit (39.2&#176;F)|101|1059.67|0|">British thermal unit (39.2&#176;F)</option>
+<option value="British thermal unit (60&#176;C)|101|1054.678|0|">British thermal unit (60&#176;C)</option>
+<option value="British thermal unit (Gas ins. act reg.)|101|1054.615|0|">British thermal unit (Gas ins. act reg.)</option>
+<option value="British thermal unit (ISO/TC 12)|101|1055.06|0|">British thermal unit (ISO/TC 12)</option>
+<option value="British thermal unit (IST)|101|1055.05585262|0|">British thermal unit (IST)</option>
+<option value="British thermal unit (mean)|101|1055.87|0|">British thermal unit (mean)</option>
+<option value="British thermal unit (thermochem.)|101|1054.35|0|">British thermal unit (thermochem.)</option>
+<option value="British thermal unit (UK gas)|101|1054.76|0|">British thermal unit (UK gas)</option>
+<option value="calorie (15&#176;C)|101|4.18550|0|">calorie (15&#176;C)</option>
+<option value="calorie (20&#176;C)|101|4.1819|0|">calorie (20&#176;C)</option>
+<option value="calorie (4&#176;C)|101|4.2045|0|">calorie (4&#176;C)</option>
+<option value="calorie (IST)|101|4.18674|0|">calorie (IST)</option>
+<option value="calorie (mean)|101|4.19002|0|">calorie (mean)</option>
+<option value="calorie (thermochem.)|101|4.184|0|">calorie (thermochem.)</option>
+<option value="Celsius heat unit (15&#176;C)|101|1899.1|0|">Celsius heat unit (15&#176;C)</option>
+<option value="Celsius heat unit|101|1899.18|0|">Celsius heat unit</option>
+<option value="electronvolt|101|1.60217733e-19|0|">electronvolt</option>
+<option value="erg|101|1e-7|0|">erg</option>
+<option value="foot-pound-force (duty)|101|1.355817948|0|">foot-pound-force (duty)</option>
+<option value="foot-poundal|101|4.214011009e-2|0|">foot-poundal</option>
+<option value="frigorie|101|-4.1855e+3|0|">frigorie</option>
+<option value="hartree (u.a. of energy)|101|4.3597482e-18|0|">hartree (u.a. of energy)</option>
+<option value="joule (int.)|101|1.000165|0|">joule (int.)</option>
+<option value="joule|101|1|0|">joule</option>
+<option value="kilocalorie (therm.)|101|4184|0|">kilocalorie (therm.)</option>
+<option value="kilogram-force-metre|101|9.80665|0|">kilogram-force-metre</option>
+<option value="kiloton (TNT)|101|4.18e+18|0|">kiloton (TNT)</option>
+<option value="kilowatt-hour|101|3.6e+6|0|">kilowatt-hour</option>
+<option value="litre-atmosphere|101|101.625|0|">litre-atmosphere</option>
+<option value="megaton (TNT)|101|4.18e+21|0|">megaton (TNT)</option>
+<option value="pound centigrade unit (15&#176;C)|101|1899.1|0|">pound centigrade unit (15&#176;C)</option>
+<option value="prout|101|2.9638e-14|0|">prout</option>
+<option value="Q unit|101|1.055e+21|0|">Q unit</option>
+<option value="quad (quadrillion, Btu)|101|1.055055853e+18|0|">quad (quadrillion, Btu)</option>
+<option value="rydberg|101|2.1798741e-18|0|">rydberg</option>
+<option value="therm (EEG)|101|1.055055853e+8|0|">therm (EEG)</option>
+<option value="therm (US)|101|1.054804000e+8|0|">therm (US)</option>
+<option value="thermie (15&#176;C)|101|4.1855e+6|0|">thermie (15&#176;C)</option>
+<option value="ton coal equiv.|101|2.929e+8|0|">ton coal equiv.</option>
+<option value="ton oil equiv.|101|4.187e+8|0|">ton oil equiv.</option>
+<option value="0|0|1|0"></option>
+</select></td></tr></table>
+
+<br />&nbsp;<br />
+<span class="medCalcFontOneBold">
+Set maximal display precision in decimal points:
+</span>
+<select name="decpts" onchange="setDecPts();" class="medCalcFontSelect">
+<option>0</option>
+<option selected="selected">1</option>
+<option>2</option>
+<option>3</option>
+</select>
+</div>
+</div>
+</center>
+</form>
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li>To make simple unit conversions, select the starting units with the pull-down selector on the right. 
+Then type a starting value in the top <b>FROM</b> input box. To convert the value, choose the 
+new unit in the lower right selector. The converted value will appear immediately in the <b>TO</b> box. 
+</li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Data conversions are done by simple factor multiplication, 
+using the conversion factors listed below.
+</span></li>
+
+</ol>
+</div>
+
+<div class="calc_tables_supp">
+<br />&nbsp;<br />
+<span class="medCalcFontOneBold">Conversion factors</span>
+<br />&nbsp;<br />
+<table border="1" cellpadding="4" cellspacing="0" summary="EBMcalc Table" class="medCalcFontOne">
+
+<tr><td align="left">barrel oil equiv.</td><td>X</td><td align="center">6.12e+9</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">billion electronvolt (GeV)</td><td>X</td><td align="center">1.60217733e-10</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">British thermal unit (39.2&#176;F)</td><td>X</td><td align="center">1059.67</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">British thermal unit (60&#176;C)</td><td>X</td><td align="center">1054.678</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">British thermal unit (Gas ins. act reg.)</td><td>X</td><td align="center">1054.615</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">British thermal unit (ISO/TC 12)</td><td>X</td><td align="center">1055.06</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">British thermal unit (IST)</td><td>X</td><td align="center">1055.05585262</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">British thermal unit (mean)</td><td>X</td><td align="center">1055.87</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">British thermal unit (thermochem.)</td><td>X</td><td align="center">1054.35</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">British thermal unit (UK gas)</td><td>X</td><td align="center">1054.76</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">calorie (15&#176;C)</td><td>X</td><td align="center">4.18550</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">calorie (20&#176;C)</td><td>X</td><td align="center">4.1819</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">calorie (4&#176;C)</td><td>X</td><td align="center">4.2045</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">calorie (IST)</td><td>X</td><td align="center">4.18674</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">calorie (mean)</td><td>X</td><td align="center">4.19002</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">calorie (thermochem.)</td><td>X</td><td align="center">4.184</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">Celsius heat unit (15&#176;C)</td><td>X</td><td align="center">1899.1</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">Celsius heat unit</td><td>X</td><td align="center">1899.18</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">electronvolt</td><td>X</td><td align="center">1.60217733e-19</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">erg</td><td>X</td><td align="center">1e-7</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">foot-pound-force (duty)</td><td>X</td><td align="center">1.355817948</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">foot-poundal</td><td>X</td><td align="center">4.214011009e-2</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">frigorie</td><td>X</td><td align="center">-4.1855e+3</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">hartree (u.a. of energy)</td><td>X</td><td align="center">4.3597482e-18</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">joule (int.)</td><td>X</td><td align="center">1.000165</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">kilocalorie (therm.)</td><td>X</td><td align="center">4184</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">kilogram-force-metre</td><td>X</td><td align="center">9.80665</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">kiloton (TNT)</td><td>X</td><td align="center">4.18e+18</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">kilowatt-hour</td><td>X</td><td align="center">3.6e+6</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">litre-atmosphere</td><td>X</td><td align="center">101.625</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">megaton (TNT)</td><td>X</td><td align="center">4.18e+21</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">pound centigrade unit (15&#176;C)</td><td>X</td><td align="center">1899.1</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">prout</td><td>X</td><td align="center">2.9638e-14</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">Q unit</td><td>X</td><td align="center">1.055e+21</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">quad (quadrillion, Btu)</td><td>X</td><td align="center">1.055055853e+18</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">rydberg</td><td>X</td><td align="center">2.1798741e-18</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">therm (EEG)</td><td>X</td><td align="center">1.055055853e+8</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">therm (US)</td><td>X</td><td align="center">1.054804000e+8</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">thermie (15&#176;C)</td><td>X</td><td align="center">4.1855e+6</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">ton coal equiv.</td><td>X</td><td align="center">2.929e+8</td><td>=</td><td align="left">joule</td></tr>
+<tr><td align="left">ton oil equiv.</td><td>X</td><td align="center">4.187e+8</td><td>=</td><td align="left">joule</td></tr>
+
+</table>
+</div>
+<br />&nbsp;<br /><div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div></div>
+</body>
+</html>
+
+<!-- 1662473268 //-->

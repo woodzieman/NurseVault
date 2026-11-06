@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>TIPS Risk predictor / Survival predictor (Transjugular Intrahepatic Portosystemic Shunt)</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="Gastroenterology, prognosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+TipsRisk_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+TipsRisk_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function TipsRisk_fx() {
+
+with(document.TipsRisk_form){
+
+
+doCalc = true;
+param_value = parseFloat(Creat_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Creat_unit.options[Creat_unit.selectedIndex].value.split('|');
+Creat = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Bili_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Bili_unit.options[Bili_unit.selectedIndex].value.split('|');
+Bili = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(INR_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = INR_unit.options[INR_unit.selectedIndex].value.split('|');
+INR = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+rbchk = false;
+if (Cause_radio[0].checked){ rbchk = true; Cause = 0;  }
+if (Cause_radio[1].checked){ rbchk = true; Cause = 1;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (Days_radio[0].checked){ rbchk = true; Days = 0.990;  }
+if (Days_radio[1].checked){ rbchk = true; Days = 0.966;  }
+if (Days_radio[2].checked){ rbchk = true; Days = 0.860;  }
+if (Days_radio[3].checked){ rbchk = true; Days = 0.707;  }
+if (Days_radio[4].checked){ rbchk = true; Days = 0.621;  }
+if (Days_radio[5].checked){ rbchk = true; Days = 0.551;  }
+if (Days_radio[6].checked){ rbchk = true; Days = 0.428;  }
+if (!rbchk) doCalc = false;
+dp = decpts.options[decpts.selectedIndex].text;
+Risk_Score =  (0.957 * ln(Creat)) + (0.378 * ln(Bili)) + (1.12 * ln(INR)) + (0.643 * Cause);
+
+unit_parts = Risk_Score_unit.options[Risk_Score_unit.selectedIndex].value.split('|');
+if (doCalc) Risk_Score_param.value = fixDP((Risk_Score - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+Survival =  power(Days, eTo(Risk_Score - 1.127));
+
+unit_parts = Survival_unit.options[Survival_unit.selectedIndex].value.split('|');
+if (doCalc) Survival_param.value = fixDP((Survival - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.TipsRisk_form){
+
+if (Creat_param.value && isNaN(Creat_param.value)){ clrValue(Creat_param); alertNaN('Creat'); }
+if (Bili_param.value && isNaN(Bili_param.value)){ clrValue(Bili_param); alertNaN('Bili'); }
+if (INR_param.value && isNaN(INR_param.value)){ clrValue(INR_param); alertNaN('INR'); }
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.TipsRisk_form){
+
+Risk_Score_param.value = '';
+Survival_param.value = '';
+
+
+}
+
+}
+
+var Creat = null,
+Bili = null,
+INR = null,
+Cause = null,
+Days = null,
+Risk_Score = null,
+Survival = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="TipsRisk_form" id="TipsRisk_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="TipsRisk_fx();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+TIPS Risk predictor / Survival predictor (Transjugular Intrahepatic Portosystemic Shunt)
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Creat</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Creat_param" size="6" value="" onblur="TipsRisk_fx(); minMaxCheck();" onchange="TipsRisk_fx();" aria-label="Use this input box to enter the value Creat" /></td>
+<td align="left" valign="top"> <select name="Creat_unit" onchange="TipsRisk_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Creat">
+<option value="1000|0|g/dL">g/dL</option>
+<option value="100|0|gm/L">gm/L</option>
+<option value="1000|0|gm/dL">gm/dL</option>
+<option value="0.001|0|mcg/dL">mcg/dL</option>
+<option value="1|0|mg%">mg%</option>
+<option value="1|0|mg/dL" selected="selected">mg/dL</option>
+<option value="100|0|mg/mL">mg/mL</option>
+<option value="0.0001|0|ng/mL">ng/mL</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Bili</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Bili_param" size="6" value="" onblur="TipsRisk_fx(); minMaxCheck();" onchange="TipsRisk_fx();" aria-label="Use this input box to enter the value Bili" /></td>
+<td align="left" valign="top"> <select name="Bili_unit" onchange="TipsRisk_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Bili">
+<option value="1000|0|g/dL">g/dL</option>
+<option value="100|0|gm/L">gm/L</option>
+<option value="1000|0|gm/dL">gm/dL</option>
+<option value="0.001|0|mcg/dL">mcg/dL</option>
+<option value="1|0|mg%">mg%</option>
+<option value="1|0|mg/dL" selected="selected">mg/dL</option>
+<option value="100|0|mg/mL">mg/mL</option>
+<option value="0.0001|0|ng/mL">ng/mL</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">INR</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="INR_param" size="6" value="" onblur="TipsRisk_fx(); minMaxCheck();" onchange="TipsRisk_fx();" aria-label="Use this input box to enter the value INR" /></td>
+<td align="left" valign="top"> <select name="INR_unit" onchange="TipsRisk_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value INR">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction">fraction</option>
+<option value="1|0|ratio" selected="selected">ratio</option>
+</select></td></tr>
+
+<tr><td align="right" valign="top"><span class="medCalcFontOneBold">Cause</span></td>
+<td colspan="2" align="left"><input type="radio" name="Cause_radio" id="togel1" value="Alcoholic or Cholestatic|0" onclick="TipsRisk_fx();" aria-label="This button selects an option for the variable: Cause. The variable option is Alcoholic or Cholestatic. The value for this variable is 0" /><span class="medCalcFontOneClick" onclick="setRB('togel1');"> Alcoholic or Cholestatic (0)</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Cause_radio" id="togel2" value="Viral or other liver disese|1" onclick="TipsRisk_fx();" aria-label="This button selects an option for the variable: Cause. The variable option is Viral or other liver disese. The value for this variable is 1" /><span class="medCalcFontOneClick" onclick="setRB('togel2');"> Viral or other liver disese (1)</span></td></tr>
+<tr><td align="right" valign="top"><span class="medCalcFontOneBold">Days</span></td>
+<td colspan="2" align="left"><input type="radio" name="Days_radio" id="togel3" value="1|0.990" onclick="TipsRisk_fx();" aria-label="This button selects an option for the variable: Days. The variable option is 1. The value for this variable is 0.990" /><span class="medCalcFontOneClick" onclick="setRB('togel3');"> 1 (0.990)</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Days_radio" id="togel4" value="7|0.966" onclick="TipsRisk_fx();" aria-label="This button selects an option for the variable: Days. The variable option is 7. The value for this variable is 0.966" /><span class="medCalcFontOneClick" onclick="setRB('togel4');"> 7 (0.966)</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Days_radio" id="togel5" value="30|0.860" onclick="TipsRisk_fx();" aria-label="This button selects an option for the variable: Days. The variable option is 30. The value for this variable is 0.860" /><span class="medCalcFontOneClick" onclick="setRB('togel5');"> 30 (0.860)</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Days_radio" id="togel6" value="90|0.707" onclick="TipsRisk_fx();" aria-label="This button selects an option for the variable: Days. The variable option is 90. The value for this variable is 0.707" /><span class="medCalcFontOneClick" onclick="setRB('togel6');"> 90 (0.707)</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Days_radio" id="togel7" value="183|0.621" onclick="TipsRisk_fx();" aria-label="This button selects an option for the variable: Days. The variable option is 183. The value for this variable is 0.621" /><span class="medCalcFontOneClick" onclick="setRB('togel7');"> 183 (0.621)</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Days_radio" id="togel8" value="365|0.551" onclick="TipsRisk_fx();" aria-label="This button selects an option for the variable: Days. The variable option is 365. The value for this variable is 0.551" /><span class="medCalcFontOneClick" onclick="setRB('togel8');"> 365 (0.551)</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Days_radio" id="togel9" value="730|0.428" onclick="TipsRisk_fx();" aria-label="This button selects an option for the variable: Days. The variable option is 730. The value for this variable is 0.428" /><span class="medCalcFontOneClick" onclick="setRB('togel9');"> 730 (0.428)</span></td></tr>
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Results</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Risk Score</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Risk_Score_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Risk Score" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Risk_Score_unit" onchange="TipsRisk_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Risk Score">
+<option value="1|0|#">#</option>
+<option value="1|0|index">index</option>
+<option value="1|0|none">none</option>
+<option value="1|0|number">number</option>
+<option value="1|0|points">points</option>
+<option value="1|0|score" selected="selected">score</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Survival</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Survival_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Survival" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Survival_unit" onchange="TipsRisk_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Survival">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction">fraction</option>
+<option value="1|0|ratio" selected="selected">ratio</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr><td colspan="3" align="center"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="TipsRisk_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option>1</option>
+<option selected="selected">2</option>
+<option>3</option>
+
+</select></td></tr>
+
+</table>
+</center>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li><font color="#aa0000">In this calculator, <b>mcg</b> is the abbreviation for <b>micrograms</b>.</font></li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">RiskScore = (0.957 * ln(Creat)) + (0.378 * ln(Bili)) + (1.12 * ln(INR)) + (0.643 * Cause)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">Survival = Days<sup>e<sup>(RiskScore-1.127)</sup></sup></span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+<br />&nbsp;<br />
+<div id="calc_details_and_variables">
+<span class="medCalcFontOneBold">Calculation Details and Variables</span>
+<ul class="medCalcFontOne">
+<li>Equation parameters such as <b>Cause</b>, have two or more discrete values that may be used in the calculation. The numbers in the parentheses, e.g.  (0), represent the values that will be used.</li>
+
+</ul>
+</div>
+
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Malinchoc M, Kamath PS, Gordon FD, et al. A model to predict poor survival in patients undergoing transjugular intrahepatic portosystemic shunts. <i>Hepatology</i>. 2000;31:864-871. PubMed ID: 10733541 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/10733541"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div>
+</div>
+</body>
+</html>
+
+<!-- 1662473304 //-->

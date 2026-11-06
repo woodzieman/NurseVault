@@ -1,0 +1,1051 @@
+{
+ "retrieved": "2026-09-26T21:24:32.146520+00:00",
+ "source": "https://www.merckmanuals.com/professional/pages-with-widgets/clinical-calculators?mode=list",
+ "count": 174,
+ "calculators": [
+  {
+   "title": "5-Year Risk of Cardiovascular Disease in Type I Diabetes",
+   "file": "CVDinDM1.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/5-year-risk-of-cardiovascular-disease-in-type-i-diabetes",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/CVDinDM1.htm"
+  },
+  {
+   "title": "A-a Gradient",
+   "file": "AAGradient.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/a-a-gradient",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/AAGradient.htm"
+  },
+  {
+   "title": "ABC Score for Prediction of 30-Day Mortality in Acute GI Bleeding",
+   "file": "abc.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/abc-score-for-prediction-of-30-day-mortality-in-acute-gi-bleeding",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/abc.htm"
+  },
+  {
+   "title": "Absolute Eosinophil Count",
+   "file": "AbsEoCount.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/absolute-eosinophil-count",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/AbsEoCount.htm"
+  },
+  {
+   "title": "Absolute Lymphocyte Count",
+   "file": "AbsLymphocyteCnt.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/absolute-lymphocyte-count",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/AbsLymphocyteCnt.htm"
+  },
+  {
+   "title": "Absolute Neutrophil Count",
+   "file": "AbsNeutrophileCnt.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/absolute-neutrophil-count",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/AbsNeutrophileCnt.htm"
+  },
+  {
+   "title": "Absolute Reticulocyte Count",
+   "file": "AbsReticCnt.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/absolute-reticulocyte-count",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/AbsReticCnt.htm"
+  },
+  {
+   "title": "Acetaminophen (Paracetamol) Toxicity Assessment (Revised 2023)",
+   "file": "acetaminophentox2023.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/acetaminophen-paracetamol-toxicity-assessment-revised-2023",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/acetaminophentox2023.htm"
+  },
+  {
+   "title": "Alcohol Consumption Screening AUDIT Questionnaire",
+   "file": "AlcoholScreen.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/alcohol-consumption-screening-audit-questionnaire",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/AlcoholScreen.htm"
+  },
+  {
+   "title": "Androgen Deficiency in Aging Males (ADAM) Screener",
+   "file": "AndrogenDef.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/androgen-deficiency-in-aging-males-adam-screener",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/AndrogenDef.htm"
+  },
+  {
+   "title": "Anion Gap",
+   "file": "AnionGap.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/anion-gap",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/AnionGap.htm"
+  },
+  {
+   "title": "Anion Gap Delta Delta Gradient Multicalc",
+   "file": "AnionGapDeltaGradient.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/anion-gap-delta-delta-gradient-multicalc",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/AnionGapDeltaGradient.htm"
+  },
+  {
+   "title": "Anion Gap in Hypoalbumin States",
+   "file": "AnionGapHypoAlb.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/anion-gap-in-hypoalbumin-states",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/AnionGapHypoAlb.htm"
+  },
+  {
+   "title": "Anthrax Screening for Exposed Patients",
+   "file": "AnthraxScreening.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/anthrax-screening-for-exposed-patients",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/AnthraxScreening.htm"
+  },
+  {
+   "title": "APACHE II Scoring System and Mortality Estimates (Acute Physiology and Chronic Health Disease Classification System II)",
+   "file": "ApacheScore.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/apache-ii-scoring-system-and-mortality-estimates-acute-physiology-and-chronic-health-disease-classification-system-ii",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/ApacheScore.htm"
+  },
+  {
+   "title": "Apgar Score",
+   "file": "ApgarScore.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/apgar-score",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/ApgarScore.htm"
+  },
+  {
+   "title": "Arterial Blood Gas Interpretation TreeCalc",
+   "file": "ArterialBloodGas.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/arterial-blood-gas-interpretation-treecalc",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/ArterialBloodGas.htm"
+  },
+  {
+   "title": "Atrial Fibrillation CHA(2)DS(2)-VASc Score for Stroke Risk",
+   "file": "AtrialFibCHADSVASc.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/atrial-fibrillation-cha2ds2-vasc-score-for-stroke-risk",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/AtrialFibCHADSVASc.htm"
+  },
+  {
+   "title": "Autoimmune Hepatitis Diagnostic Criteria",
+   "file": "autoImmunehepatitis.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/autoimmune-hepatitis-diagnostic-criteria",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/autoImmunehepatitis.htm"
+  },
+  {
+   "title": "Barrett Esophagus Progression Risk TreeCalc\u00ae",
+   "file": "BarrettProgRisk.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/barrett-esophagus-progression-risk-treecalc",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/BarrettProgRisk.htm"
+  },
+  {
+   "title": "Basic Unit Conversions",
+   "file": "Basic.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/basic-unit-conversions",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/Basic.htm"
+  },
+  {
+   "title": "Bayesian Statistics I MultiCalc",
+   "file": "BayesianAnalysis_1.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/bayesian-statistics-i-multicalc",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/BayesianAnalysis_1.htm"
+  },
+  {
+   "title": "Bayesian Statistics II MultiCalc",
+   "file": "BayesianAnalysis_2.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/bayesian-statistics-ii-multicalc",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/BayesianAnalysis_2.htm"
+  },
+  {
+   "title": "Bedside index of severity in acute pancreatitis (BISAP) score",
+   "file": "BISAPScore.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/bedside-index-of-severity-in-acute-pancreatitis-bisap-score",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/BISAPScore.htm"
+  },
+  {
+   "title": "Benefit Increase / Number Needed to Treat Multicalc",
+   "file": "BenefitIncrease.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/benefit-increase-number-needed-to-treat-multicalc",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/BenefitIncrease.htm"
+  },
+  {
+   "title": "Blood Pressure Percentiles for Boys (2 - 17 years)",
+   "file": "BloodPressurePercentBoys.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/blood-pressure-percentiles-for-boys-2-17-years",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/BloodPressurePercentBoys.htm"
+  },
+  {
+   "title": "Blood Pressure Percentiles for Girls (2 - 17 years)",
+   "file": "BloodPressurePercentGirls.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/blood-pressure-percentiles-for-girls-2-17-years",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/BloodPressurePercentGirls.htm"
+  },
+  {
+   "title": "Blood pressure percentiles, 0 to 17 years (2017 standard)",
+   "file": "BloodPressurePercent2017.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/blood-pressure-percentiles-0-to-17-years-2017-standard",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/BloodPressurePercent2017.htm"
+  },
+  {
+   "title": "BODE Index for COPD Survival Prediction",
+   "file": "BODE.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/bode-index-for-copd-survival-prediction",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/BODE.htm"
+  },
+  {
+   "title": "Body Mass Index (BMI) percentiles for boys (2 to 20 years)",
+   "file": "BodyMassIndexBoys.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/body-mass-index-bmi-percentiles-for-boys-2-to-20-years",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/BodyMassIndexBoys.htm"
+  },
+  {
+   "title": "Body Mass Index (BMI) percentiles for girls (2 to 20 years)",
+   "file": "BodyMassIndexGirls.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/body-mass-index-bmi-percentiles-for-girls-2-to-20-years",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/BodyMassIndexGirls.htm"
+  },
+  {
+   "title": "Body Mass Index (Quetelet's index)",
+   "file": "BodyMassIndex.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/body-mass-index-quetelets-index",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/BodyMassIndex.htm"
+  },
+  {
+   "title": "Body Surface Area (Du Bois Method)",
+   "file": "BodySurfaceArea.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/body-surface-area-du-bois-method",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/BodySurfaceArea.htm"
+  },
+  {
+   "title": "Breast cancer risk assessment by Gail Model (2018)",
+   "file": "gail2018.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/breast-cancer-risk-assessment-by-gail-model-2018",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/gail2018.htm"
+  },
+  {
+   "title": "Burn Injury Fluid Resuscitation, Adult (Parkland crystalloid estimate)",
+   "file": "BurnInjuryFluidParkland.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/burn-injury-fluid-resuscitation-adult-parkland-crystalloid-estimate",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/BurnInjuryFluidParkland.htm"
+  },
+  {
+   "title": "Calcium Correction in Hypoalbuminemia",
+   "file": "CalciumAlbumin.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/calcium-correction-in-hypoalbuminemia",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/CalciumAlbumin.htm"
+  },
+  {
+   "title": "Calcium Correction in Hypoalbuminemia (SI units)",
+   "file": "CalciumAlbumin_SI.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/calcium-correction-in-hypoalbuminemia-si-units",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/CalciumAlbumin_SI.htm"
+  },
+  {
+   "title": "Cardiac Output",
+   "file": "CardiacOutput.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/cardiac-output",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/CardiacOutput.htm"
+  },
+  {
+   "title": "Cardiac Output MultiCalc",
+   "file": "CardiacOutput_MC.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/cardiac-output-multicalc",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/CardiacOutput_MC.htm"
+  },
+  {
+   "title": "Cardiovascular Risk Assessment (10-year, Revised Pooled Cohort Equations 2018)",
+   "file": "CVRiskRevised2018.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/cardiovascular-risk-assessment-10-year-revised-pooled-cohort-equations-2018",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/CVRiskRevised2018.htm"
+  },
+  {
+   "title": "Cardiovascular risk assessment in adults (10 and 30-year, AHA PREVENT 2023)",
+   "file": "aha_prev.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/cardiovascular-risk-assessment-in-adults-10-and-30-year-aha-prevent-2023",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/aha_prev.htm"
+  },
+  {
+   "title": "CDC Weight for Age Percentiles for Boys (2-20 years)",
+   "file": "CDCWeightForAgeBoys.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/cdc-weight-for-age-percentiles-for-boys-2-20-years",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/CDCWeightForAgeBoys.htm"
+  },
+  {
+   "title": "CDC Weight for Age Percentiles for Girls (2-20 years)",
+   "file": "CDCWeightForAgeGirls.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/cdc-weight-for-age-percentiles-for-girls-2-20-years",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/CDCWeightForAgeGirls.htm"
+  },
+  {
+   "title": "CDC Weight for Height Percentiles for Boys (77-121 cm tall)",
+   "file": "CDCWeightForHeightBoys.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/cdc-weight-for-height-percentiles-for-boys-77-121-cm-tall",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/CDCWeightForHeightBoys.htm"
+  },
+  {
+   "title": "CDC Weight for Height Percentiles for Girls (77-121 cm tall)",
+   "file": "CDCWeightForHeightGirls.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/cdc-weight-for-height-percentiles-for-girls-77-121-cm-tall",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/CDCWeightForHeightGirls.htm"
+  },
+  {
+   "title": "Centor Strep Pharyngitis Criteria With McIsaac Modification",
+   "file": "CentorMcIssacSoreThroatCriteria.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/centor-strep-pharyngitis-criteria-with-mcisaac-modification",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/CentorMcIssacSoreThroatCriteria.htm"
+  },
+  {
+   "title": "Child Pugh Classification for Severity of Liver Disease",
+   "file": "ChildTurPuScore.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/child-pugh-classification-for-severity-of-liver-disease",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/ChildTurPuScore.htm"
+  },
+  {
+   "title": "Cirrhosis Probability in Hepatitis C",
+   "file": "cirrhosisprobability_mc.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/cirrhosis-probability-in-hepatitis-c",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/cirrhosisprobability_mc.htm"
+  },
+  {
+   "title": "CIWA-Ar Clinical Institute Withdrawal Assessment for Alcohol Scale",
+   "file": "CIWA.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/ciwa-ar-clinical-institute-withdrawal-assessment-for-alcohol-scale",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/CIWA.htm"
+  },
+  {
+   "title": "Clock Drawing Task (Cognitive Impairment Screening)",
+   "file": "clockdrawing.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/clock-drawing-task-cognitive-impairment-screening",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/clockdrawing.htm"
+  },
+  {
+   "title": "Community-Acquired Pneumonia Severity Index (PSI) for Adults",
+   "file": "CommunityAcqPneumonia.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/community-acquired-pneumonia-severity-index-psi-for-adults",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/CommunityAcqPneumonia.htm"
+  },
+  {
+   "title": "Creatinine Clearance (measured SI units)",
+   "file": "CreatinineCl_SI.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/creatinine-clearance-measured-si-units",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/CreatinineCl_SI.htm"
+  },
+  {
+   "title": "Creatinine Clearance (measured)",
+   "file": "CreatinineCl.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/creatinine-clearance-measured",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/CreatinineCl.htm"
+  },
+  {
+   "title": "Creatinine Clearance Estimate by Cockcroft-Gault Equation (SI units)",
+   "file": "CreatinineCl_CG_SI.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/creatinine-clearance-estimate-by-cockcroft-gault-equation-si-units",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/CreatinineCl_CG_SI.htm"
+  },
+  {
+   "title": "Creatinine Clearance Estimate by Sanaka Formula (for older subjects with low muscle mass)",
+   "file": "CreatinineCl_Sanaka.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/creatinine-clearance-estimate-by-sanaka-formula-for-older-subjects-with-low-muscle-mass",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/CreatinineCl_Sanaka.htm"
+  },
+  {
+   "title": "Crohn Disease Activity Index (CDAI)",
+   "file": "CDAI.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/crohn-disease-activity-index-cdai",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/CDAI.htm"
+  },
+  {
+   "title": "CSF Protein Concentration Correction in Blood Contaminated CSF",
+   "file": "CSFProtein.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/csf-protein-concentration-correction-in-blood-contaminated-csf",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/CSFProtein.htm"
+  },
+  {
+   "title": "CSF WBC Correction in Blood Contaminated CSF",
+   "file": "CSF_WBC.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/csf-wbc-correction-in-blood-contaminated-csf",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/CSF_WBC.htm"
+  },
+  {
+   "title": "Diabetes Risk Self-Assessment",
+   "file": "DMSelfAssess.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/diabetes-risk-self-assessment",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/DMSelfAssess.htm"
+  },
+  {
+   "title": "Diffusing capacity for carbon monoxide (DLCO) corrected for anemia",
+   "file": "DLCO_Anemia.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/diffusing-capacity-for-carbon-monoxide-dlco-corrected-for-anemia",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/DLCO_Anemia.htm"
+  },
+  {
+   "title": "DVT Probability: Wells Score System",
+   "file": "DVTScoreWells.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/dvt-probability-wells-score-system",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/DVTScoreWells.htm"
+  },
+  {
+   "title": "ECOG Performance Status",
+   "file": "ecog.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/ecog-performance-status",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/ecog.htm"
+  },
+  {
+   "title": "Endotracheal tube size for children (Age 1 to 8 years)",
+   "file": "PediatricETTubeSize.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/endotracheal-tube-size-for-children-age-1-to-8-years",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/PediatricETTubeSize.htm"
+  },
+  {
+   "title": "Energy Unit Conversions",
+   "file": "Energy.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/energy-unit-conversions",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/Energy.htm"
+  },
+  {
+   "title": "Epworth Sleepiness Scale (ESS)",
+   "file": "epworthsleepscale.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/epworth-sleepiness-scale-ess",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/epworthsleepscale.htm"
+  },
+  {
+   "title": "EuroSCORE for Cardiac Surgery Risk Assessment (additive version)",
+   "file": "EuroSCOREAdd.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/euroscore-for-cardiac-surgery-risk-assessment-additive-version",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/EuroSCOREAdd.htm"
+  },
+  {
+   "title": "False Negative Rate from Sensitivity and Prevalence",
+   "file": "FalseNegativeRateSSP.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/false-negative-rate-from-sensitivity-and-prevalence",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/FalseNegativeRateSSP.htm"
+  },
+  {
+   "title": "False Positive Rate from Specificity and Prevalence",
+   "file": "FalsePositiveRateSSP.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/false-positive-rate-from-specificity-and-prevalence",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/FalsePositiveRateSSP.htm"
+  },
+  {
+   "title": "FIB-4 Index, an Indirect Marker for Liver Fibrosis in Adults (2026 update)",
+   "file": "fib4_multidx.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/fib-4-index-an-indirect-marker-for-liver-fibrosis-in-adults-2026-update",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/fib4_multidx.htm"
+  },
+  {
+   "title": "Flow Unit Conversions",
+   "file": "Flow.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/flow-unit-conversions",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/Flow.htm"
+  },
+  {
+   "title": "Fractional Excretion of Amylase (Amylase to creatinine clearance ratio)",
+   "file": "FractExcAmylase.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/fractional-excretion-of-amylase-amylase-to-creatinine-clearance-ratio",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/FractExcAmylase.htm"
+  },
+  {
+   "title": "Fractional Excretion of Sodium",
+   "file": "FractExcSodium.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/fractional-excretion-of-sodium",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/FractExcSodium.htm"
+  },
+  {
+   "title": "Fractional Excretion of Sodium (SI units)",
+   "file": "FractExcSodium_SI.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/fractional-excretion-of-sodium-si-units",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/FractExcSodium_SI.htm"
+  },
+  {
+   "title": "Friedewald Equation for Low Density Lipoprotein (LDL-C SI units)",
+   "file": "Friedewald_SI.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/friedewald-equation-for-low-density-lipoprotein-ldl-c-si-units",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/Friedewald_SI.htm"
+  },
+  {
+   "title": "Friedewald Equation for Low Density Lipoprotein (LDL-C)",
+   "file": "Friedewald.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/friedewald-equation-for-low-density-lipoprotein-ldl-c",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/Friedewald.htm"
+  },
+  {
+   "title": "Genetically Inspired International Prognostic Scoring System (GIPSS) for Primary Myelofibrosis in Adults",
+   "file": "GIPSS.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/genetically-inspired-international-prognostic-scoring-system-gipss-for-primary-myelofibrosis-in-adults",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/GIPSS.htm"
+  },
+  {
+   "title": "Geriatric Depression Scale",
+   "file": "GeriatricDepression.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/geriatric-depression-scale",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/GeriatricDepression.htm"
+  },
+  {
+   "title": "Glasgow Coma Scale",
+   "file": "GlasgowComaScale.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/glasgow-coma-scale",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/GlasgowComaScale.htm"
+  },
+  {
+   "title": "Glomerular Filtration Rate Estimate by CKD-EPI Equation",
+   "file": "GFR_CKD_EPI.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/glomerular-filtration-rate-estimate-by-ckd-epi-equation",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/GFR_CKD_EPI.htm"
+  },
+  {
+   "title": "Glomerular Filtration Rate Estimate by the MDRD Equation",
+   "file": "GFR_MDRD_Full.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/glomerular-filtration-rate-estimate-by-the-mdrd-equation",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/GFR_MDRD_Full.htm"
+  },
+  {
+   "title": "Glomerular Filtration Rate Estimation (eGFR) by CKD-EPI Equation with Creatinine and Cystatin C, without Race (2021)",
+   "file": "gfr_ckd_epi_with_cystatin_2021.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/glomerular-filtration-rate-estimation-egfr-by-ckd-epi-equation-with-creatinine-and-cystatin-c-without-race-2021",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/gfr_ckd_epi_with_cystatin_2021.htm"
+  },
+  {
+   "title": "Glomerular Filtration Rate Estimation (eGFR) by CKD-EPI Equation with Creatinine, without Race (2021)",
+   "file": "GFR_CKD_EPI_2021.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/glomerular-filtration-rate-estimation-egfr-by-ckd-epi-equation-with-creatinine-without-race-2021",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/GFR_CKD_EPI_2021.htm"
+  },
+  {
+   "title": "Glomerular Filtration Rate Estimation (eGFR) by CKD-EPI Equation with Cystatin C, without Race (2012)",
+   "file": "GFR_CKD_EPI_by_Cystatin_2012.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/glomerular-filtration-rate-estimation-egfr-by-ckd-epi-equation-with-cystatin-c-without-race-2012",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/GFR_CKD_EPI_by_Cystatin_2012.htm"
+  },
+  {
+   "title": "Glycemic Assessment",
+   "file": "GlycemicAssessment.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/glycemic-assessment",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/GlycemicAssessment.htm"
+  },
+  {
+   "title": "GRACE 2.0 Score for Acute Coronary Syndrome Prognosis (non-linear model 2014)",
+   "file": "GRACE2Score.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/grace-20-score-for-acute-coronary-syndrome-prognosis-non-linear-model-2014",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/GRACE2Score.htm"
+  },
+  {
+   "title": "HAS-BLED Bleeding Risk Score",
+   "file": "HASBLED.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/has-bled-bleeding-risk-score",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/HASBLED.htm"
+  },
+  {
+   "title": "Height Potential: A Child's Target Height Based on Midparental Height",
+   "file": "HeightPotential.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/height-potential-a-childs-target-height-based-on-midparental-height",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/HeightPotential.htm"
+  },
+  {
+   "title": "Henderson-Hasselbalch Equation",
+   "file": "HendersonHasselbach.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/henderson-hasselbalch-equation",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/HendersonHasselbach.htm"
+  },
+  {
+   "title": "Hepatitis Discriminant Function for Corticosteroid Therapy in Alcoholic Hepatitis",
+   "file": "HepatitisCriteria.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/hepatitis-discriminant-function-for-corticosteroid-therapy-in-alcoholic-hepatitis",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/HepatitisCriteria.htm"
+  },
+  {
+   "title": "Hyponatremia Correction Infusate Rate",
+   "file": "HyponatremiaCorrection.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/hyponatremia-correction-infusate-rate",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/HyponatremiaCorrection.htm"
+  },
+  {
+   "title": "Ideal Body Weight",
+   "file": "IdealBodyWgt.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/ideal-body-weight",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/IdealBodyWgt.htm"
+  },
+  {
+   "title": "Intracranial Bleeding Risk from Thrombolytic Therapy of MI",
+   "file": "IntracranialBleedingRiskThrombolytics.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/intracranial-bleeding-risk-from-thrombolytic-therapy-of-mi",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/IntracranialBleedingRiskThrombolytics.htm"
+  },
+  {
+   "title": "Kt/V Dialysis Dose Formulae MultiCalc",
+   "file": "Kt_V_Formulae_Multi.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/ktv-dialysis-dose-formulae-multicalc",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/Kt_V_Formulae_Multi.htm"
+  },
+  {
+   "title": "Lean Body Weight (Female)",
+   "file": "LeanBodyWgtF.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/lean-body-weight-female",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/LeanBodyWgtF.htm"
+  },
+  {
+   "title": "Lean Body Weight (Male)",
+   "file": "LeanBodyWgtM.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/lean-body-weight-male",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/LeanBodyWgtM.htm"
+  },
+  {
+   "title": "Length Unit Conversions",
+   "file": "Length.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/length-unit-conversions",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/Length.htm"
+  },
+  {
+   "title": "Likelihood Ratio MultiCalc",
+   "file": "Likelihood.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/likelihood-ratio-multicalc",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/Likelihood.htm"
+  },
+  {
+   "title": "Likelihood Ratio of Negative from Raw Data",
+   "file": "LikelihoodRNData.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/likelihood-ratio-of-negative-from-raw-data",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/LikelihoodRNData.htm"
+  },
+  {
+   "title": "Likelihood Ratio of Positive from Raw Data",
+   "file": "LikelihoodRPData.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/likelihood-ratio-of-positive-from-raw-data",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/LikelihoodRPData.htm"
+  },
+  {
+   "title": "Lung Volume Multicalc",
+   "file": "LungVolumes.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/lung-volume-multicalc",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/LungVolumes.htm"
+  },
+  {
+   "title": "M.I. Criteria for Likelihood in Chest Pain with LBBB",
+   "file": "MICriteriaLBBB.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/mi-criteria-for-likelihood-in-chest-pain-with-lbbb",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/MICriteriaLBBB.htm"
+  },
+  {
+   "title": "MAGGIC Score Predicting Heart Failure Survival",
+   "file": "maggic.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/maggic-score-predicting-heart-failure-survival",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/maggic.htm"
+  },
+  {
+   "title": "Maintenance Fluid Calculation for Children",
+   "file": "MaintenanceFluidChildren.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/maintenance-fluid-calculation-for-children",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/MaintenanceFluidChildren.htm"
+  },
+  {
+   "title": "Martin Equation for Low Density Lipoprotein (LDL-C)",
+   "file": "MartinLDL.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/martin-equation-for-low-density-lipoprotein-ldl-c",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/MartinLDL.htm"
+  },
+  {
+   "title": "Mean Vascular Pressure (systemic or pulmonary)",
+   "file": "MeanVascPres.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/mean-vascular-pressure-systemic-or-pulmonary",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/MeanVascPres.htm"
+  },
+  {
+   "title": "MEDS Score: Mortality in ER Sepsis",
+   "file": "MedsScore.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/meds-score-mortality-in-er-sepsis",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/MedsScore.htm"
+  },
+  {
+   "title": "MELD 3.0 Score Including Serum Albumin",
+   "file": "meld3.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/meld-30-score-including-serum-albumin",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/meld3.htm"
+  },
+  {
+   "title": "MELD Score for End-Stage Liver Disease (NOT appropriate for patients under the age of 12)",
+   "file": "MELD.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/meld-score-for-end-stage-liver-disease-not-appropriate-for-patients-under-the-age-of-12",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/MELD.htm"
+  },
+  {
+   "title": "Mifflin-St. Jeor Resting Energy Expenditure (REE)",
+   "file": "MifflinStJeor.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/mifflin-st-jeor-resting-energy-expenditure-ree",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/MifflinStJeor.htm"
+  },
+  {
+   "title": "Milan Criteria in Liver Transplantation for Hepatocellular Carcinoma",
+   "file": "Milan.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/milan-criteria-in-liver-transplantation-for-hepatocellular-carcinoma",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/Milan.htm"
+  },
+  {
+   "title": "Multiple Organ Dysfunction Score (MODS)",
+   "file": "MODS.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/multiple-organ-dysfunction-score-mods",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/MODS.htm"
+  },
+  {
+   "title": "Negative Predictive Value from Raw Data",
+   "file": "NegPredValueData.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/negative-predictive-value-from-raw-data",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/NegPredValueData.htm"
+  },
+  {
+   "title": "Negative Predictive Value of a Test",
+   "file": "NegPredVal.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/negative-predictive-value-of-a-test",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/NegPredVal.htm"
+  },
+  {
+   "title": "Neonatal Early-Onset Sepsis Risk Prediction",
+   "file": "neonatalsepsis.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/neonatal-early-onset-sepsis-risk-prediction",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/neonatalsepsis.htm"
+  },
+  {
+   "title": "Newborn hyperbilirubinemia assessment for infants born at 35 weeks or more gestation (2022 update)",
+   "file": "newbornhyperbili2022.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/newborn-hyperbilirubinemia-assessment-for-infants-born-at-35-weeks-or-more-gestation-2022-update",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/newbornhyperbili2022.htm"
+  },
+  {
+   "title": "NIH Stroke Score",
+   "file": "NIHStrokeScore.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/nih-stroke-score",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/NIHStrokeScore.htm"
+  },
+  {
+   "title": "Odds from Probability",
+   "file": "oddsprob.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/odds-from-probability",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/oddsprob.htm"
+  },
+  {
+   "title": "Osmolality Estimator (serum)",
+   "file": "Osmolality.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/osmolality-estimator-serum",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/Osmolality.htm"
+  },
+  {
+   "title": "Oxygen Delivery Units Conversions",
+   "file": "Oxygen.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/oxygen-delivery-units-conversions",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/Oxygen.htm"
+  },
+  {
+   "title": "PaO2 / FIO2 Ratio (for MODS Calculation)",
+   "file": "PaO2_FIO2Ratio.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/pao2-fio2-ratio-for-mods-calculation",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/PaO2_FIO2Ratio.htm"
+  },
+  {
+   "title": "Peak Expiratory Flow Prediction",
+   "file": "PeakExpFlow.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/peak-expiratory-flow-prediction",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/PeakExpFlow.htm"
+  },
+  {
+   "title": "PELD-Cr Score for End-stage Liver Disease in patients less than 12 years old (2023 update)",
+   "file": "peldcr.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/peld-cr-score-for-end-stage-liver-disease-in-patients-less-than-12-years-old-2023-update",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/peldcr.htm"
+  },
+  {
+   "title": "PERC Rule for the Assessment of Possible Pulmonary Embolism",
+   "file": "perc.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/perc-rule-for-the-assessment-of-possible-pulmonary-embolism",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/perc.htm"
+  },
+  {
+   "title": "PFT predicted values by 2022 race-neutral GLI equations, ages 3 to 95",
+   "file": "pft_gli_22.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/pft-predicted-values-by-2022-race-neutral-gli-equations-ages-3-to-95",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/pft_gli_22.htm"
+  },
+  {
+   "title": "PLASMIC Score for Estimating the Likelihood of Severe ADAMTS13 Deficiency in Adults with Suspected TTP",
+   "file": "plasmic.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/plasmic-score-for-estimating-the-likelihood-of-severe-adamts13-deficiency-in-adults-with-suspected-ttp",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/plasmic.htm"
+  },
+  {
+   "title": "Pneumothorax Degree of Collapse",
+   "file": "PneumoThorax.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/pneumothorax-degree-of-collapse",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/PneumoThorax.htm"
+  },
+  {
+   "title": "Positive Predictive Value from Raw Data",
+   "file": "PosPredValueData.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/positive-predictive-value-from-raw-data",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/PosPredValueData.htm"
+  },
+  {
+   "title": "Positive Predictive Value of a Test",
+   "file": "PosPredValue.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/positive-predictive-value-of-a-test",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/PosPredValue.htm"
+  },
+  {
+   "title": "Pregnancy Gestation by LMP and Ultrasound Biometry",
+   "file": "GestationDate.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/pregnancy-gestation-by-lmp-and-ultrasound-biometry",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/GestationDate.htm"
+  },
+  {
+   "title": "Pretest probability of heparin-induced thrombocytopenia (4-T's score)",
+   "file": "HIT.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/pretest-probability-of-heparin-induced-thrombocytopenia-4-ts-score",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/HIT.htm"
+  },
+  {
+   "title": "Probability from Odds",
+   "file": "ProbOdds.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/probability-from-odds",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/ProbOdds.htm"
+  },
+  {
+   "title": "Prostatism Symptom Score",
+   "file": "ProstatismSymptomScore.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/prostatism-symptom-score",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/ProstatismSymptomScore.htm"
+  },
+  {
+   "title": "Pulmonary Embolism Wells Score",
+   "file": "PulmonaryEmbRisk.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/pulmonary-embolism-wells-score",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/PulmonaryEmbRisk.htm"
+  },
+  {
+   "title": "QT Interval Correction (EKG)",
+   "file": "qtintervalcorrection.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/qt-interval-correction-ekg",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/qtintervalcorrection.htm"
+  },
+  {
+   "title": "Reticulocyte Production Index",
+   "file": "ReticProdIndex.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/reticulocyte-production-index",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/ReticProdIndex.htm"
+  },
+  {
+   "title": "Revised Geneva Score for Estimation of the Clinical Probability of Pulmonary Embolism in Adults",
+   "file": "revisedgenevascore.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/revised-geneva-score-for-estimation-of-the-clinical-probability-of-pulmonary-embolism-in-adults",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/revisedgenevascore.htm"
+  },
+  {
+   "title": "Rheumatoid Arthritis Clinical Disease Activity Index CDAI",
+   "file": "RheumatoidArthritisCDAI.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/rheumatoid-arthritis-clinical-disease-activity-index-cdai",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/RheumatoidArthritisCDAI.htm"
+  },
+  {
+   "title": "Rheumatoid Arthritis Disease Activity Score DAS-28",
+   "file": "RheumatoidArthritisDAS28.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/rheumatoid-arthritis-disease-activity-score-das-28",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/RheumatoidArthritisDAS28.htm"
+  },
+  {
+   "title": "Romhilt-Estes Criteria for Left Ventricular Hypertrophy",
+   "file": "RomhiltEstes.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/romhilt-estes-criteria-for-left-ventricular-hypertrophy",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/RomhiltEstes.htm"
+  },
+  {
+   "title": "Sensitivity of a Test",
+   "file": "Sensitivity.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/sensitivity-of-a-test",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/Sensitivity.htm"
+  },
+  {
+   "title": "Sequential Organ Failure Assessment (Quick): qSOFA Score",
+   "file": "QSOFA.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/sequential-organ-failure-assessment-quick-qsofa-score",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/QSOFA.htm"
+  },
+  {
+   "title": "Sequential Organ Failure Assessment (SOFA)",
+   "file": "SOFA.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/sequential-organ-failure-assessment-sofa",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/SOFA.htm"
+  },
+  {
+   "title": "Serum-Ascites Albumin Gradient",
+   "file": "AscitesAlbGradient.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/serum-ascites-albumin-gradient",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/AscitesAlbGradient.htm"
+  },
+  {
+   "title": "Smallpox Risk Assessment (CDC version 1.0 2002) TreeCalc",
+   "file": "SmallPox.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/smallpox-risk-assessment-cdc-version-10-2002-treecalc",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/SmallPox.htm"
+  },
+  {
+   "title": "Sodium Change in Hyperproteinemia",
+   "file": "SodiumProtein.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/sodium-change-in-hyperproteinemia",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/SodiumProtein.htm"
+  },
+  {
+   "title": "Sodium Change in Hypertriglyceridemia",
+   "file": "SodiumLipids.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/sodium-change-in-hypertriglyceridemia",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/SodiumLipids.htm"
+  },
+  {
+   "title": "Sodium Correction in Hyperglycemia (Katz 1973)",
+   "file": "SodiumHyperglycemiaKatz.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/sodium-correction-in-hyperglycemia-katz-1973",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/SodiumHyperglycemiaKatz.htm"
+  },
+  {
+   "title": "Sodium Correction in Hyperglycemia (Katz 1973)",
+   "file": "SodiumHyperglycemiaKatz.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/sodium-correction-in-hyperglycemia-katz-1973",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/SodiumHyperglycemiaKatz.htm"
+  },
+  {
+   "title": "Sodium Deficit in Hyponatremia",
+   "file": "SodiumDeficit.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/sodium-deficit-in-hyponatremia",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/SodiumDeficit.htm"
+  },
+  {
+   "title": "Solitary pulmonary nodule malignancy risk (Cummings prediction model: Bayesian approach)",
+   "file": "SolitaryPulmNod_Cummings.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/solitary-pulmonary-nodule-malignancy-risk-cummings-prediction-model-bayesian-approach",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/SolitaryPulmNod_Cummings.htm"
+  },
+  {
+   "title": "Specificity of a Test",
+   "file": "Specificity.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/specificity-of-a-test",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/Specificity.htm"
+  },
+  {
+   "title": "Temperature Unit Conversions",
+   "file": "Temperature.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/temperature-unit-conversions",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/Temperature.htm"
+  },
+  {
+   "title": "Thrombolysis in Myocardial Infarction (TIMI) Score for ST Elevation Acute Myocardial Infarction",
+   "file": "TIMI_STEMI.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/thrombolysis-in-myocardial-infarction-timi-score-for-st-elevation-acute-myocardial-infarction",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/TIMI_STEMI.htm"
+  },
+  {
+   "title": "Thrombolysis in Myocardial Infarction (TIMI) Score for Unstable Angina Non ST Elevation Myocardial Infarction",
+   "file": "TIMI_UA_NSTEMI.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/thrombolysis-in-myocardial-infarction-timi-score-for-unstable-angina-non-st-elevation-myocardial-infarction",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/TIMI_UA_NSTEMI.htm"
+  },
+  {
+   "title": "TIPS Risk predictor / Survival predictor (Transjugular Intrahepatic Portosystemic Shunt)",
+   "file": "TipsRisk.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/tips-risk-predictor-survival-predictor-transjugular-intrahepatic-portosystemic-shunt",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/TipsRisk.htm"
+  },
+  {
+   "title": "Total Body Water Estimation Based on Weight Alone",
+   "file": "TBW_58.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/total-body-water-estimation-based-on-weight-alone",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/TBW_58.htm"
+  },
+  {
+   "title": "Total Body Water in Men (Watson formula)",
+   "file": "TBW_M_Watson.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/total-body-water-in-men-watson-formula",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/TBW_M_Watson.htm"
+  },
+  {
+   "title": "Total Body Water in Women (Watson formula)",
+   "file": "TBW_W_Watson.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/total-body-water-in-women-watson-formula",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/TBW_W_Watson.htm"
+  },
+  {
+   "title": "Transferrin Saturation",
+   "file": "Transferrin.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/transferrin-saturation",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/Transferrin.htm"
+  },
+  {
+   "title": "Urea Reduction Percentage in Hemodialysis (PRU)",
+   "file": "UreaReducPercent.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/urea-reduction-percentage-in-hemodialysis-pru",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/UreaReducPercent.htm"
+  },
+  {
+   "title": "Urinary Protein Excretion Estimation",
+   "file": "UrinaryProteinExcretion.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/urinary-protein-excretion-estimation",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/UrinaryProteinExcretion.htm"
+  },
+  {
+   "title": "Urine anion gap",
+   "file": "UrineAnionGap.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/urine-anion-gap",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/UrineAnionGap.htm"
+  },
+  {
+   "title": "Very Low Density Lipoprotein (VLDL)",
+   "file": "VeryLowDensityLipoprotein.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/very-low-density-lipoprotein-vldl",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/VeryLowDensityLipoprotein.htm"
+  },
+  {
+   "title": "Volume of Distribution of Urea",
+   "file": "VolumeDistUrea.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/volume-of-distribution-of-urea",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/VolumeDistUrea.htm"
+  },
+  {
+   "title": "Volume Unit Conversions",
+   "file": "Volume.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/volume-unit-conversions",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/Volume.htm"
+  },
+  {
+   "title": "Water Deficit in Hypernatremia",
+   "file": "WaterDeficit.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/water-deficit-in-hypernatremia",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/WaterDeficit.htm"
+  },
+  {
+   "title": "Weight Unit Conversions",
+   "file": "Weight.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/weight-unit-conversions",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/Weight.htm"
+  },
+  {
+   "title": "Westley croup severity score (appropriate for use in children \u2264 6 years of age)",
+   "file": "westleycroupscore.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/westley-croup-severity-score-appropriate-for-use-in-children-6-years-of-age",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/westleycroupscore.htm"
+  },
+  {
+   "title": "WHO Infant Head Circumference for Age Percentiles (< 24 months)",
+   "file": "WHOInfantHeadCircForAge.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/who-infant-head-circumference-for-age-percentiles-24-months",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/WHOInfantHeadCircForAge.htm"
+  },
+  {
+   "title": "WHO Infant Length for Age Percentiles (< 24 months)",
+   "file": "WHOInfantLengthForAge.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/who-infant-length-for-age-percentiles-24-months",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/WHOInfantLengthForAge.htm"
+  },
+  {
+   "title": "WHO Infant Weight for Age Percentiles (< 24 months)",
+   "file": "WHOInfantWeightForAge.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/who-infant-weight-for-age-percentiles-24-months",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/WHOInfantWeightForAge.htm"
+  },
+  {
+   "title": "WHO Infant Weight for Length Percentiles (< 24 months)",
+   "file": "WHOInfantWeightForLength.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/who-infant-weight-for-length-percentiles-24-months",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/WHOInfantWeightForLength.htm"
+  },
+  {
+   "title": "WHO Infant Weight for Length Percentiles (<24 months)",
+   "file": "WHOInfantWeightForLength.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/who-infant-weight-for-length-percentiles-24-months",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/WHOInfantWeightForLength.htm"
+  },
+  {
+   "title": "Winter's Formula for Expected PCO2",
+   "file": "WinterFormula.htm",
+   "merck_page": "https://www.merckmanuals.com/professional/multimedia/clinical-calculator/winters-formula-for-expected-pco2",
+   "widget_url": "https://www.merckmanuals.com/iframe/manual/medical-calculators/WinterFormula.htm"
+  }
+ ]
+}

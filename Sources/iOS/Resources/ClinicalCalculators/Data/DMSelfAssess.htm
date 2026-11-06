@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Diabetes Risk Self Assessment</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="endo, patient, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+DMSelfAssess_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+DMSelfAssess_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function DMSelfAssess_fx() {
+
+with(document.DMSelfAssess_form){
+
+
+doCalc = true;
+rbchk = false;
+if (Age_radio[0].checked){ rbchk = true; Age = 0;  }
+if (Age_radio[1].checked){ rbchk = true; Age = 1;  }
+if (Age_radio[2].checked){ rbchk = true; Age = 2;  }
+if (Age_radio[3].checked){ rbchk = true; Age = 3;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (Sex_radio[0].checked){ rbchk = true; Sex = 0;  }
+if (Sex_radio[1].checked){ rbchk = true; Sex = 1;  }
+if (!rbchk) doCalc = false;
+param_value = parseFloat(Weight_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Weight_unit.options[Weight_unit.selectedIndex].value.split('|');
+Weight = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Height_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Height_unit.options[Height_unit.selectedIndex].value.split('|');
+Height = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+if (Active_checkbox.checked){ Active = -1;
+} else { Active = 0; }
+if (HTN_checkbox.checked){ HTN = 1;
+} else { HTN = 0; }
+if (FMH_checkbox.checked){ FMH = 1;
+} else { FMH = 0; }
+dp = 0;
+BMI =  (Weight/2.205) / power((Height/39.37), 2);
+
+if (doCalc) BMI_param.value = fixDP(BMI, dp);
+
+
+
+if (BMI < 25) {BMIP = 0} else if (BMI < 30){BMIP = 1} else if (BMI < 40) {BMIP = 2} else BMIP = 3;
+BMI_Points =  BMIP;
+
+if (doCalc) BMI_Points_param.value = fixDP(BMI_Points, dp);
+
+
+
+Diabetes_Risk_Score =  BMIP + Age + Sex + FMH + Active + HTN;
+
+if (doCalc) Diabetes_Risk_Score_param.value = fixDP(Diabetes_Risk_Score, dp);
+
+
+
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.DMSelfAssess_form){
+
+if (Weight_param.value && isNaN(Weight_param.value)){ clrValue(Weight_param); alertNaN('Weight'); }
+if (Height_param.value && isNaN(Height_param.value)){ clrValue(Height_param); alertNaN('Height'); }
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.DMSelfAssess_form){
+
+BMI_param.value = '';
+BMI_Points_param.value = '';
+Diabetes_Risk_Score_param.value = '';
+
+
+}
+
+}
+
+var Age = null,
+Sex = null,
+Weight = null,
+Height = null,
+Active = null,
+HTN = null,
+FMH = null,
+BMI = null,
+BMI_Points = null,
+Diabetes_Risk_Score = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="DMSelfAssess_form" id="DMSelfAssess_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="DMSelfAssess_fx();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Diabetes Risk Self Assessment
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right" valign="top"><span class="medCalcFontOneBold">Age</span></td>
+<td colspan="2" align="left"><input type="radio" name="Age_radio" id="togel1" value="&lt;40 years|0" onclick="DMSelfAssess_fx();" aria-label="This button selects an option for the variable: Age. The variable option is &lt;40 years. The value for this variable is 0" /><span class="medCalcFontOneClick" onclick="setRB('togel1');"> &lt;40 years (0)</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Age_radio" id="togel2" value="40-49 years|1" onclick="DMSelfAssess_fx();" aria-label="This button selects an option for the variable: Age. The variable option is 40-49 years. The value for this variable is 1" /><span class="medCalcFontOneClick" onclick="setRB('togel2');"> 40-49 years (1)</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Age_radio" id="togel3" value="50-59 years|2" onclick="DMSelfAssess_fx();" aria-label="This button selects an option for the variable: Age. The variable option is 50-59 years. The value for this variable is 2" /><span class="medCalcFontOneClick" onclick="setRB('togel3');"> 50-59 years (2)</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Age_radio" id="togel4" value="&ge;60 years|3" onclick="DMSelfAssess_fx();" aria-label="This button selects an option for the variable: Age. The variable option is &ge;60 years. The value for this variable is 3" /><span class="medCalcFontOneClick" onclick="setRB('togel4');"> &ge;60 years (3)</span></td></tr>
+<tr><td align="right" valign="top"><span class="medCalcFontOneBold">Sex</span></td>
+<td colspan="2" align="left"><input type="radio" name="Sex_radio" id="togel5" value="Female|0" onclick="DMSelfAssess_fx();" aria-label="This button selects an option for the variable: Sex. The variable option is Female. The value for this variable is 0" /><span class="medCalcFontOneClick" onclick="setRB('togel5');"> Female (0)</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Sex_radio" id="togel6" value="Male|1" onclick="DMSelfAssess_fx();" aria-label="This button selects an option for the variable: Sex. The variable option is Male. The value for this variable is 1" /><span class="medCalcFontOneClick" onclick="setRB('togel6');"> Male (1)</span></td></tr>
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Weight</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Weight_param" size="6" value="" onblur="DMSelfAssess_fx(); minMaxCheck();" onchange="DMSelfAssess_fx();" aria-label="Use this input box to enter the value Weight" /></td>
+<td align="left" valign="top"> <select name="Weight_unit" onchange="DMSelfAssess_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Weight">
+<option value="2.20462262184878|0|kg">kg</option>
+<option value="1|0|lb" selected="selected">lb</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Height</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Height_param" size="6" value="" onblur="DMSelfAssess_fx(); minMaxCheck();" onchange="DMSelfAssess_fx();" aria-label="Use this input box to enter the value Height" /></td>
+<td align="left" valign="top"> <select name="Height_unit" onchange="DMSelfAssess_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Height">
+<option value="0.393700787401575|0|cm">cm</option>
+<option value="1|0|in" selected="selected">in</option>
+<option value="39.3700787401575|0|m">m</option>
+</select></td></tr>
+
+<tr><td align="right"><span class="medCalcFontOneBoldClick" onclick="togCB('togel7');">Physically active</span></td>
+<td align="left" colspan="2"><input type="checkbox" id="togel7" name="Active_checkbox" onclick="DMSelfAssess_fx();" aria-label="Check this box to indicate: Physically active. The value for the associated variable is -1" />
+<span class="medCalcFontOne">(-1)</span></td></tr>
+<tr><td align="right"><span class="medCalcFontOneBoldClick" onclick="togCB('togel8');">History of hypertension</span></td>
+<td align="left" colspan="2"><input type="checkbox" id="togel8" name="HTN_checkbox" onclick="DMSelfAssess_fx();" aria-label="Check this box to indicate: History of hypertension. The value for the associated variable is 1" />
+<span class="medCalcFontOne">(1)</span></td></tr>
+<tr><td align="right"><span class="medCalcFontOneBoldClick" onclick="togCB('togel9');">Family history of diabetes</span></td>
+<td align="left" colspan="2"><input type="checkbox" id="togel9" name="FMH_checkbox" onclick="DMSelfAssess_fx();" aria-label="Check this box to indicate: Family history of diabetes. The value for the associated variable is 1" />
+<span class="medCalcFontOne">(1)</span></td></tr>
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Results</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">BMI</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="BMI_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value BMI" /></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">BMI Points</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="BMI_Points_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value BMI Points" /></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Diabetes Risk Score</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Diabetes_Risk_Score_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Diabetes Risk Score" /></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+
+</table>
+</center>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li>A diabetes risk score of 4 or more indicates increased risk of pre-diabetes or undiagnosed diabetes.</li>
+<li>A diabetes risk score of 5 or more indicates increased risk of undiagnosed diabetes.</li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">BMI = (Weight/2.205) / (Height/39.37)<sup>2</sup></span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">BMIPoints = BMIP</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">DiabetesRiskScore = BMIP + Age + Sex + FMH + Active + HTN</span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+<br />&nbsp;<br />
+<div id="calc_details_and_variables">
+<span class="medCalcFontOneBold">Calculation Details and Variables</span>
+<ul class="medCalcFontOne">
+<li>Equation parameters such as <b>Age</b>, have two or more discrete values that may be used in the calculation. The numbers in the parentheses, e.g.  (0), represent the values that will be used.</li>
+
+</ul>
+</div>
+
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Bang H, Edwards AM, Bomback AS, et al. Development and validation of a patient self-assessment  score for diabetes risk. <i>Ann Intern Med</i>. 2009 Dec 1;151(11):775-83. PubMed ID: 19949143 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/19949143"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div><script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+with(document.DMSelfAssess_form){
+
+var BMIP = 0; var AgeP = 0;
+
+}
+/* ]]> */
+</script>
+
+
+
+</div>
+</body>
+</html>
+
+<!-- 1662473266 //-->

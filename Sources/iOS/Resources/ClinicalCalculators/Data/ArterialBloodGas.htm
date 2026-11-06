@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Arterial Blood Gas Interpretation TreeCalc</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="Pulmonary, Pediatrics, Metabolism, Electrolytes, Geriatrics, fac_all, fac_lab, fac_med, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Arterial Blood Gas Interpretation TreeCalc<sup>&#174;</sup>
+</span></td></tr></table><br />&nbsp;<br />
+<br />&nbsp;<br />
+<span id="txhtm" class="medCalcFontOne"> </span>
+<br />&nbsp;<br />
+<center>
+<form name="hereform" id="hereform" action="">
+<input type="button" name="backup" onclick="backUp();" value="Back" />
+&nbsp; 
+<input type="button" name="restart" onclick="mainTrunk();" value="Restart" />  
+</form>
+</center>
+
+
+
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+
+branch = new Array();
+bparts = new Array();
+var historytxt;
+var branchpointshead;
+var branchpointsfoot;
+var historyref = '<br />&nbsp;<br /><span class=\"medCalcFontRef\"><br />&nbsp;<br /><b>References:<\/b><\/span><ol>' + " <\/ol>";
+
+var calctxt = '';
+var xmltxt = '';
+var xmlresult = '';
+var htmtxt = '';
+var postNow = false;
+var printing = false;
+
+
+var hxidx;
+decpoints = new Array();
+decselected = new Array();
+decpoints[1] = 1;
+decselected[1] = '';
+htmtitle = '<span class="medCalcFontDT">Decision Tool: Arterial Blood Gas Interpretation TreeCalc<\/span><br \/>&nbsp;<br \/>';
+
+function alertRestart(){
+alert('The decision tree must restart when this preference is changed.');
+mainTrunk();
+}
+
+branch[1] = "Click pCO2 (mmHg) in arterial blood|&lt;35|2|35-45|3|&gt;45|4";
+branch[2] = "Indicate the pH from the ABG|&lt;7.4|5|&gt;7.4|6";
+branch[3] = "Indicate the pH from the ABG|&lt;7.4|7|Normal|8|&gt;7.4|9";
+branch[4] = "Indicate the pH from the ABG|&lt;7.4|10|&gt;7.4|11";
+branch[5] = "Metabolic acidosis with reduced respiratory acid helping to compensate the low pH";
+branch[6] = "Respiratory alkalosis with reduced respiratory acid causing the high pH";
+branch[7] = "Metabolic acidosis not compensated by respiratory change";
+branch[8] = "Normal acid base balance";
+branch[9] = "Metabolic alkalosis not compensated by respiratory change";
+branch[10] = "Respiratory acidosis";
+branch[11] = "Metabolic alkalosis compensated by respiratory acid retention";
+
+function backUp(){
+
+if (hxidx > 1){
+hxidx--;
+
+branchpointshead = '<br />&nbsp;<br /><b>Decision Points<\/b><br /><ul class="medCalcFontOneBold">';
+branchpointsfoot = '<\/ul>';
+
+historytxt = '';
+for (h = hxidx; h > 0; h--) historytxt = historytxt + decselected[h];
+loadBranch(decpoints[hxidx]);
+}
+
+else{
+branchpointshead = '';
+branchpointsfoot = '';
+}}
+
+function writeHxTxt(htxt){
+document.getElementById('txhtm').innerHTML = htxt + '<sc' + 'ript language="JavaScript1.1">window.scroll(0,0)<\/s' + 'cript>';
+}
+
+function makeChoice(b,i,c){
+bparts = branch[b].split('|');
+hxidx++;
+decselected[hxidx] = '<li>' +  bparts[0] + ':<b> &nbsp;' + bparts[i] + '<\/b><\/li>';
+decpoints[hxidx] = c;
+historytxt = '';
+for (h = hxidx; h > 0; h--) historytxt = historytxt + decselected[h];
+branchpointshead = '<br />&nbsp;<br /><b>Decision Points<\/b><br /><ul class="medCalcFontOneBold">';
+branchpointsfoot = '<\/ul>';
+loadBranch(c);
+}
+
+function mainTrunk(){
+branchpointshead = '';
+branchpointsfoot = '';
+historytxt = '';
+hxidx = 1;
+loadBranch(1);
+}
+
+function loadBranch(b){
+bparts = branch[b].split('|');
+
+if (!bparts[1]) {
+historytxt = '<b>End Point<\/b><br />&nbsp;<br /><ul class="medCalcFontOneBold"><li>' + bparts[0] + '<\/li><\/ul>' + branchpointshead + historytxt + branchpointsfoot;
+writeHxTxt(historytxt);
+return;
+}
+
+i = 1;
+htxtoptions = '<ul class="medCalcFontOneBold">';
+
+while (bparts[i]){
+htxtoptions = htxtoptions + '\n<li><a href="" onclick="makeChoice(' + b + ',' + i + ','  + bparts[i+1] + '); return false;">' + bparts[i] + '<\/a><\/li>';
+i=i+2;
+}
+
+htxtoptions = htxtoptions + '<\/ul>';
+
+writeHxTxt('<b>' + bparts[0] + '<\/b>' + htxtoptions + branchpointshead + historytxt + branchpointsfoot);
+}
+mainTrunk();
+
+
+
+
+
+function loadQueryParams(thisqs){
+if (thisqs) alert('Data panel values cannot be transferred to this calculator.');
+return;
+}
+
+
+/* ]]> */
+</script>
+
+
+<div id="calc_disclaimer">  <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u> Legal Notices and Disclaimer </u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo"> All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+ <b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b> <a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span> <br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+ </div>
+</div>
+</body>
+</html>
+
+
+<!-- 1662473249 //-->

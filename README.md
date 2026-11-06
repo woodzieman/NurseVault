@@ -26,13 +26,23 @@ The sidebar ships with fixed read-only reference entries (plus your own user sec
 |---|---|---|
 | All Documents | books.vertical | Everything in your vault |
 | Drug Reference | cross.case | 2,383 Merck Manual drug monographs, name/brand/content search |
-| Clinical Calculators | calculator.fill | 174 medical calculators with saved results |
+| Clinical Calculators | calculator.fill | 174 medical calculators with tube-color-coded lab reference and saved results |
 | Merck Manual | book | 2,834 medical topics by specialty |
 | DSM-5-TR | book.fill | 54 disorders with full diagnostic criteria, searchable |
 | Labs | testtube.2 | Normal lab values (~70 tests in 15 categories, each described), standardized panels, therapeutic drug monitoring |
 | Books | book.closed.fill | Imported PDF/text/RTF books, indexed for full-text search |
 
 User sections can be renamed, reordered (drag), or deleted at any time. All reference entries are bundled with the app — read-only, offline-capable, never synced to iCloud.
+
+---
+
+## Changes (v5.4.6)
+
+- **Added:** Clinical Calculators section (174 medical calculators with offline HTML views)
+- **Added:** Collection tube color indicators on all lab values (Gold, Lavender, Blue, Gray, Red, Green)
+- **Added:** Code Blue resuscitation algorithms (ACLS + PALS)
+- **Fixed:** Clinical Calculators manifest loading path
+- **Fixed:** Sidebar visibility for Clinical Calculators and Code Blue sections
 
 ---
 
@@ -331,3 +341,25 @@ Nursing app/
 ## License
 
 Private use. Not for commercial distribution without permission.
+
+---
+
+## ⚠️ Development Note — 2026-11-05
+
+**Books and Clinical Calculators removed**
+
+Per user request:
+- The Books category and book ingestion engine have been fully removed from the codebase.
+  - `Sources/iOS/BookShelf/`, `BookReader/`, `Czur/` deleted.
+  - All `ImportKind.book`, `bookReaderPath`, `bookShelf` helpers, and sidebar references removed.
+- Clinical Calculators have been deleted and all references stripped:
+  - `Sources/iOS/Calculators/` folder deleted.
+  - All `SidebarItem.mediCalc`, `MedCalcCatalog`, `MedCalcDeepLink`, `CalculatorInfo`, `calculatorPath`, `PendingItem.calculator`, and search integration removed from `RootView.swift`, `SearchResult.swift`, `UniversalSearchManager.swift`, and `UniversalSearchResultsView.swift`.
+  - The app now builds without calculators. A future rebuild may re-introduce a clean calculators module from scratch if desired.
+
+**Current status:**
+- App launches and builds (with existing NurseVaultCore module warnings unrelated to this change).
+- Books UI/category is gone.
+- Calculators UI/category is gone; search no longer indexes calculators.
+- See `SESSION_HANDOFF.md` for detailed handoff notes.
+

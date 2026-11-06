@@ -25,8 +25,8 @@ platform :ios do
       project: "NurseVault.xcodeproj",
       scheme: "NurseVault",
       output_directory: "build/export/fastlane",
-      export_method: "app-store",
-      xcargs: ["-allowProvisioningUpdates"]
+      xcargs: ["-allowProvisioningUpdates"],
+      export_method: "app-store"
     )
 
     upload_to_app_store(

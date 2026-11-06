@@ -101,11 +101,37 @@ private struct LabValuesView: View {
     }
 }
 
+/// Maps a collection-tube color name (e.g. "Gold") to a swatch color.
+private enum LabTubeColor {
+    static func color(for name: String) -> Color? {
+        switch name.lowercased() {
+        case "gold": return Color.orange
+        case "green": return Color.green
+        case "lavender": return Color.purple
+        case "red": return Color.red
+        case "blue": return Color.blue
+        case "gray": return Color.gray
+        default: return nil
+        }
+    }
+}
+
 private struct LabValueRow: View {
     let entry: LabValueEntry
 
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
+            // Collection tube color — rendered as a color swatch at the top of the row.
+            if let tubeColor = entry.tubeColor, !tubeColor.isEmpty {
+                HStack(spacing: 6) {
+                    Circle()
+                        .fill(LabTubeColor.color(for: tubeColor) ?? Color.secondary)
+                        .frame(width: 10, height: 10)
+                    Text("Tube: \(tubeColor)")
+                        .font(.caption2)
+                        .foregroundStyle(.secondary)
+                }
+            }
             Text(entry.name)
                 .font(.body.weight(.medium))
             Text(entry.range)

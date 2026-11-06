@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Crohn's disease activity index (CDAI)</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="gastro, prognosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+CDAI_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+CDAI_fx();
+}
+
+
+/* ]]> */
+</script>
+
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+
+
+var calctxt = '';
+var xmltxt = '';
+var xmlresult = '';
+var htmtxt = '';
+var postNow = false;
+var printing = false;
+var rbchk = false;
+
+
+function CDAI_fx() {
+with(document.CDAI_form){
+
+Score = 0.0;
+doCalc = true;
+
+
+if (cc1.value && isNaN(cc1.value)){
+cc1.value = '';
+if (!postNow) alert("This field is improperly formatted.\n\nYou may only input the digits 0-9 and a decimal point.");
+doCalc = false;
+}
+else{
+thisvalue = parseFloat(cc1.value);
+ThisScore =  thisvalue * 14 + 0;
+Score =  Score + ThisScore;
+}
+if (cc2.checked){
+Score = Score + 30;
+}
+rbchk = false;
+if (cc3[0].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (cc3[1].checked){
+rbchk = true; Score = Score + 35; 
+}
+if (cc3[2].checked){
+rbchk = true; Score = Score + 70; 
+}
+if (cc3[3].checked){
+rbchk = true; Score = Score + 105; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc4[0].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (cc4[1].checked){
+rbchk = true; Score = Score + 49; 
+}
+if (cc4[2].checked){
+rbchk = true; Score = Score + 98; 
+}
+if (cc4[3].checked){
+rbchk = true; Score = Score + 147; 
+}
+if (cc4[4].checked){
+rbchk = true; Score = Score + 196; 
+}
+if (!rbchk) doCalc = false;
+if (cc5.checked){
+Score = Score + 20;
+}
+if (cc6.checked){
+Score = Score + 20;
+}
+if (cc7.checked){
+Score = Score + 20;
+}
+if (cc8.checked){
+Score = Score + 20;
+}
+if (cc9.checked){
+Score = Score + 20;
+}
+if (cc10.checked){
+Score = Score + 20;
+}
+rbchk = false;
+if (cc11[0].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (cc11[1].checked){
+rbchk = true; Score = Score + 20; 
+}
+if (cc11[2].checked){
+rbchk = true; Score = Score + 50; 
+}
+if (!rbchk) doCalc = false;
+
+if (cc12.value && isNaN(cc12.value)){
+cc12.value = '';
+if (!postNow) alert("This field is improperly formatted.\n\nYou may only input the digits 0-9 and a decimal point.");
+doCalc = false;
+}
+else{
+thisvalue = parseFloat(cc12.value);
+ThisScore =  thisvalue * 6 + 0;
+Score =  Score + ThisScore;
+}
+
+if (cc13.value && isNaN(cc13.value)){
+cc13.value = '';
+if (!postNow) alert("This field is improperly formatted.\n\nYou may only input the digits 0-9 and a decimal point.");
+doCalc = false;
+}
+else{
+thisvalue = parseFloat(cc13.value);
+ThisScore =  thisvalue * 1 + 0;
+Score =  Score + ThisScore;
+}
+if (doCalc){
+cctotal.value = Score;
+if (cctotal.value == 'NaN') cctotal.value = '';
+}
+else{
+Score = null;
+cctotal.value = '';
+if (typeof rrclr == 'function') { rrclr(); };
+document.CDAI_form.cctotal.value = '';
+}
+
+
+
+
+if (doCalc){
+rrclr();
+if ((Score >= 0) && (Score <= 149)){ document.getElementById('rr1_1').bgColor = '#8ab2be';
+interptxt = '\n\nCDAI Interpretation: 0 to 149 points: Asymptomatic remission';
+calctxt += '\n\nCDAI Interpretation: 0 to 149 points: Asymptomatic remission';
+xmltxt += '\n<Result_Interpretation>CDAI Interpretation: 0 to 149 points: Asymptomatic remission<\/Result_Interpretation>\n';
+}
+if ((Score >= 150) && (Score <= 220)){ document.getElementById('rr1_2').bgColor = '#8ab2be';
+interptxt = '\n\nCDAI Interpretation: 150 to 220 points: Mildly to moderately active Crohn\'s disease';
+calctxt += '\n\nCDAI Interpretation: 150 to 220 points: Mildly to moderately active Crohn\'s disease';
+xmltxt += '\n<Result_Interpretation>CDAI Interpretation: 150 to 220 points: Mildly to moderately active Crohn\'s disease<\/Result_Interpretation>\n';
+}
+if ((Score >= 221) && (Score <= 450)){ document.getElementById('rr1_3').bgColor = '#8ab2be';
+interptxt = '\n\nCDAI Interpretation: 221 to 450 points: Moderately to severely active Crohn\'s disease';
+calctxt += '\n\nCDAI Interpretation: 221 to 450 points: Moderately to severely active Crohn\'s disease';
+xmltxt += '\n<Result_Interpretation>CDAI Interpretation: 221 to 450 points: Moderately to severely active Crohn\'s disease<\/Result_Interpretation>\n';
+}
+if ((Score >= 451) && (Score <= 1100)){ document.getElementById('rr1_4').bgColor = '#8ab2be';
+interptxt = '\n\nCDAI Interpretation: 451 to 1100 points: Severely active to fulminant disease';
+calctxt += '\n\nCDAI Interpretation: 451 to 1100 points: Severely active to fulminant disease';
+xmltxt += '\n<Result_Interpretation>CDAI Interpretation: 451 to 1100 points: Severely active to fulminant disease<\/Result_Interpretation>\n';
+}
+document.getElementById('rr1_tag').ariaLabel = interptxt;
+interptxt = '';
+
+
+}
+}
+}
+
+
+
+
+function rrclr(){
+document.getElementById('rr1_1').bgColor = '';
+document.getElementById('rr1_2').bgColor = '';
+document.getElementById('rr1_3').bgColor = '';
+document.getElementById('rr1_4').bgColor = '';
+document.getElementById('rr1_tag').ariaLabel = 'This table highlights the result CDAI Interpretation. No result is highlighted'; interptxt = '';
+}
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+<form name="CDAI_form" id="CDAI_form" action="" onsubmit="return false;" onreset="rrclr(); " onkeydown="document.CDAI_form.cctotal.value='';" onkeyup="CDAI_fx();">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Crohn's disease activity index (CDAI)
+</span></td></tr></table><br />&nbsp;<br />
+<div id="calc_main">
+<div id="calc_input">
+<center>
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Patient reported stool pattern</span></td></tr>
+
+<tr><td width="20"><br /></td>
+<td align="right">  <input type="text" name="cc1" size="4" value="" onchange="CDAI_fx();"  /></td>
+<td align="left"> <span class="medCalcFontCCTab"> Average number of liquid or soft stools per day over seven days (14 points per stool) </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel1" name="cc2" onclick="CDAI_fx();" aria-label="Check this box to indicate Using diphenoxylate or loperimide for diarrhea (30 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel1');" >Using diphenoxylate or loperimide for diarrhea (30 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Average abdominal pain rating over seven days </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel2" name="cc3" onclick="CDAI_fx();" aria-label="This button selects an option for: Average abdominal pain rating over seven days. The option is None (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel2');">None (0 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel3" name="cc3" onclick="CDAI_fx();" aria-label="This button selects an option for: Average abdominal pain rating over seven days. The option is Mild pain (35 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel3');">Mild pain (35 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel4" name="cc3" onclick="CDAI_fx();" aria-label="This button selects an option for: Average abdominal pain rating over seven days. The option is Moderate pain (70 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel4');">Moderate pain (70 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel5" name="cc3" onclick="CDAI_fx();" aria-label="This button selects an option for: Average abdominal pain rating over seven days. The option is Severe pain (105 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel5');">Severe pain (105 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">General well being each day over seven days </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel6" name="cc4" onclick="CDAI_fx();" aria-label="This button selects an option for: General well being each day over seven days. The option is Well (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel6');">Well (0 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel7" name="cc4" onclick="CDAI_fx();" aria-label="This button selects an option for: General well being each day over seven days. The option is Slightly below average (49 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel7');">Slightly below average (49 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel8" name="cc4" onclick="CDAI_fx();" aria-label="This button selects an option for: General well being each day over seven days. The option is Poor (98 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel8');">Poor (98 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel9" name="cc4" onclick="CDAI_fx();" aria-label="This button selects an option for: General well being each day over seven days. The option is Very poor (147 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel9');">Very poor (147 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel10" name="cc4" onclick="CDAI_fx();" aria-label="This button selects an option for: General well being each day over seven days. The option is Terrible (196 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel10');">Terrible (196 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Complications</span></td></tr>
+
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel11" name="cc5" onclick="CDAI_fx();" aria-label="Check this box to indicate Arthritis or arthralgia (20 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel11');" >Arthritis or arthralgia (20 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel12" name="cc6" onclick="CDAI_fx();" aria-label="Check this box to indicate Iritis or uveitis (20 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel12');" >Iritis or uveitis (20 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel13" name="cc7" onclick="CDAI_fx();" aria-label="Check this box to indicate Erythema nodosum, pyoderma gangrenosum or aphthous stomatitis (20 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel13');" >Erythema nodosum, pyoderma gangrenosum or aphthous stomatitis (20 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel14" name="cc8" onclick="CDAI_fx();" aria-label="Check this box to indicate Anal fissure, fistula or abcess (20 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel14');" >Anal fissure, fistula or abcess (20 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel15" name="cc9" onclick="CDAI_fx();" aria-label="Check this box to indicate Other fistula (20 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel15');" >Other fistula (20 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel16" name="cc10" onclick="CDAI_fx();" aria-label="Check this box to indicate Temperature over 100 degrees F (37.8 degrees C) in the last week (20 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel16');" >Temperature over 100 degrees F (37.8 degrees C) in the last week (20 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Finding of an abdominal mass </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel17" name="cc11" onclick="CDAI_fx();" aria-label="This button selects an option for: Finding of an abdominal mass. The option is No mass (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel17');">No mass (0 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel18" name="cc11" onclick="CDAI_fx();" aria-label="This button selects an option for: Finding of an abdominal mass. The option is Possible mass (20 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel18');">Possible mass (20 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel19" name="cc11" onclick="CDAI_fx();" aria-label="This button selects an option for: Finding of an abdominal mass. The option is Definite mass (50 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel19');">Definite mass (50 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Anemia and weight change</span></td></tr>
+
+<tr><td width="20"><br /></td>
+<td align="right">  <input type="text" name="cc12" size="4" value="" onchange="CDAI_fx();"  /></td>
+<td align="left"> <span class="medCalcFontCCTab"> Absolute deviation of hematocrit from 47% in males or 42% in females (6 points per percent deviation) </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right">  <input type="text" name="cc13" size="4" value="" onchange="CDAI_fx();"  /></td>
+<td align="left"> <span class="medCalcFontCCTab"> Percentage deviation from standard weight (1 point for each percent deviation) </span></td></tr>
+
+</table>
+
+</center>
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<span class="medCalcFontCCTabBold">
+Total Criteria Point Count:
+</span>
+<input type="text" size="6" name="cctotal" aria-readonly="true" aria-label="This box holds the total criteria point count" /><br />&nbsp;<br />
+<center><input type="reset" name="reset" value="Reset Form" />    </center>
+<br />&nbsp;<br />
+<div id="rr1_tag" aria-label="This table highlights the result CDAI Interpretation. No result is highlighted" tabindex="0">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+
+CDAI Interpretation
+</span></td></tr></table><br />&nbsp;<br />
+</div>
+<center>
+<table border="1" cellpadding="4" cellspacing="0" summary="RRTable">
+<tr id="rr1_1"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">0 to 149 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Asymptomatic remission</span></td></tr>
+<tr id="rr1_2"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">150 to 220 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Mildly to moderately active Crohn's disease</span></td></tr>
+<tr id="rr1_3"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">221 to 450 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Moderately to severely active Crohn's disease</span></td></tr>
+<tr id="rr1_4"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">451 to 1100 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Severely active to fulminant disease</span></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+
+</div>
+</div>
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li>Patients requiring steroids to remain asymptomatic are not considered to be in remission but are referred to as being "steroid dependent."</li>
+<li>Absolute deviation of hematocrit is simply the difference in hematocrit from standard.  A male patient with a hematocrit of 40% has an absolute deviation of 7.</li>
+<li>Percent deviation from standard weight is (1 - weight/standard weight) * 100, thus positive percent deviation represents weight loss, adding points to the CDAI.</li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Best WR. Predicting the Crohn's disease activity index from the Harvey-Bradshaw Index. <i> Inflamm Bowel Dis</i>. 2006 Apr;12(4):304-10. PubMed ID: 16633052 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/16633052"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Best WR, Becktel JM, Singleton JW, Kern F Jr. Development of a Crohn's disease activity index.  National Cooperative Crohn's Disease Study. <i>Gastroenterology</i>. 1976 Mar;70(3):439-44. PubMed ID: 1248701 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/1248701"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+ 
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div><script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+
+
+function loadQueryParams(thisqs){
+if (thisqs) alert('Data panel values cannot be transferred to this calculator.');
+return;
+}
+
+
+/* ]]> */
+</script>
+
+
+
+
+
+</div>
+</body>
+</html>
+
+
+<!-- 1662473255 //-->

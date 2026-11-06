@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ABC Score for Prediction of 30-Day Mortality in Acute GI Bleeding</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5MKXR9');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees">
+<meta name="keywords" content="Gastro, critical, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical"> 
+<meta name="author" content="EBMcalc, LLC">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="googlebot" content="noindex,indexifembedded">
+</head>
+
+<body class="medCalcBody">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MKXR9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="mc3k">
+<script>
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+var x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 2000);
+}
+
+function wait(ms) {
+var stime = new Date().getTime();
+for (var i = 0; i < 1e8; i++) {
+if ((new Date().getTime() - stime) > ms){
+break;
+}}}
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+ABC_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+ABC_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+var inputchktxt = '<br>&nbsp;<br><b>Important:</b> Inputs must be complete to perform calculation. <br>'
+
+
+function aDelay(atxt, ffield){
+with (document.ABC_form){
+clrResults();
+ffield.value = '';
+doCalc = false;
+setTimeout(function(){ alert(atxt); }, 100);
+document.getElementById('inputchk').innerHTML = inputchktxt;
+
+}}
+
+
+function ABC_fx() {
+
+with(document.ABC_form){
+
+
+doCalc = true;
+param_value = parseFloat(Age_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Age_unit.options[Age_unit.selectedIndex].value.split('|');
+Age = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Urea_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Urea_unit.options[Urea_unit.selectedIndex].value.split('|');
+Urea = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Albumin_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Albumin_unit.options[Albumin_unit.selectedIndex].value.split('|');
+Albumin = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Creatinine_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Creatinine_unit.options[Creatinine_unit.selectedIndex].value.split('|');
+Creatinine = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+rbchk = false;
+if (Altered_Mental_Status_radio[0].checked){ rbchk = true; Altered_Mental_Status = 0;  }
+if (Altered_Mental_Status_radio[1].checked){ rbchk = true; Altered_Mental_Status = 2;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (Cirrhosis_radio[0].checked){ rbchk = true; Cirrhosis = 0;  }
+if (Cirrhosis_radio[1].checked){ rbchk = true; Cirrhosis = 2;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (Metastatic_Cancer_radio[0].checked){ rbchk = true; Metastatic_Cancer = 0;  }
+if (Metastatic_Cancer_radio[1].checked){ rbchk = true; Metastatic_Cancer = 4;  }
+if (!rbchk) doCalc = false;
+param_value = parseFloat(ASA_Score_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = ASA_Score_unit.options[ASA_Score_unit.selectedIndex].value.split('|');
+ASA_Score = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+dp = 0;
+
+if (Age>=75){
+Age_Factor = 2;
+}
+else 
+if (Age>=60){
+Age_Factor = 1;
+}
+else{
+Age_Factor = 0;
+}
+
+if (Urea>10){
+Urea_Factor = 1;
+}
+else{
+Urea_Factor = 0;
+}
+
+if (Albumin<30){
+Albumin_Factor = 2;
+}
+else{
+Albumin_Factor = 0;
+}
+
+if (Creatinine>150){
+Creatinine_Factor = 2;
+}
+else 
+if (Creatinine>=100){
+Creatinine_Factor = 1;
+}
+else{
+Creatinine_Factor = 0;
+}
+
+if (ASA_Score>=4){
+ASA_Factor = 3;
+}
+else 
+if (ASA_Score>=3){
+ASA_Factor = 1;
+}
+else{
+ASA_Factor = 0;
+}
+ABC_Score =  Age_Factor + Urea_Factor + Albumin_Factor + Creatinine_Factor + Altered_Mental_Status + Cirrhosis + Metastatic_Cancer + ASA_Factor;
+
+unit_parts = ABC_Score_unit.options[ABC_Score_unit.selectedIndex].value.split('|');
+if (doCalc) ABC_Score_param.value = fixDP((ABC_Score - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+
+if (doCalc){
+rrclr();
+if ((ABC_Score >= 0) && (ABC_Score <= 3)){ document.getElementById('rr1_1').bgColor = '#8ab2be';
+interptxt = '\n\nABC Score Interpretation: 0 to 3 points: 0.7% 30-day mortality';
+calctxt += '\n\nABC Score Interpretation: 0 to 3 points: 0.7% 30-day mortality';
+xmltxt += '\n<Result_Interpretation>ABC Score Interpretation: 0 to 3 points: 0.7% 30-day mortality<\/Result_Interpretation>\n';
+}
+if ((ABC_Score >= 4) && (ABC_Score <= 7)){ document.getElementById('rr1_2').bgColor = '#8ab2be';
+interptxt = '\n\nABC Score Interpretation: 4 to 7 points: 9.3% 30-mortality';
+calctxt += '\n\nABC Score Interpretation: 4 to 7 points: 9.3% 30-mortality';
+xmltxt += '\n<Result_Interpretation>ABC Score Interpretation: 4 to 7 points: 9.3% 30-mortality<\/Result_Interpretation>\n';
+}
+if ((ABC_Score >= 8) && (ABC_Score <= 18)){ document.getElementById('rr1_3').bgColor = '#8ab2be';
+interptxt = '\n\nABC Score Interpretation: 8 to 18 points: 34% 30-day mortality';
+calctxt += '\n\nABC Score Interpretation: 8 to 18 points: 34% 30-day mortality';
+xmltxt += '\n<Result_Interpretation>ABC Score Interpretation: 8 to 18 points: 34% 30-day mortality<\/Result_Interpretation>\n';
+}
+document.getElementById('rr1_tag').ariaLabel = interptxt;
+interptxt = '';
+
+
+}
+
+
+}
+
+
+if (doCalc) document.getElementById('inputchk').innerHTML = '';
+else document.getElementById('inputchk').innerHTML = inputchktxt;
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.ABC_form){
+
+if (Age_param.value && isNaN(Age_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Age_param); }
+if (Urea_param.value && isNaN(Urea_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Urea_param); }
+if (Albumin_param.value && isNaN(Albumin_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Albumin_param); }
+if (Creatinine_param.value && isNaN(Creatinine_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Creatinine_param); }
+if (ASA_Score_param.value && isNaN(ASA_Score_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', ASA_Score_param); }
+if (ASA_Score_param.value && (ASA_Score < (0 - 0.00001))) {
+ASA_Score = 0;
+ aDelay("The minimum value for ASA Score is 0 score.\n\nIf you are specifying a value with a different unit, change the unit selector first.", ASA_Score_param);
+}
+
+if (ASA_Score_param.value && ASA_Score > 5) {
+ASA_Score = 0;
+ aDelay("The maximum value for ASA Score is 5 score.\n\nIf you are specifying a value with a different unit, change the unit selector first.", ASA_Score_param);
+}
+
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.ABC_form){
+
+ABC_Score_param.value = '';
+
+rrclr();
+
+}
+
+}
+
+var Age = null,
+Urea = null,
+Albumin = null,
+Creatinine = null,
+Altered_Mental_Status = null,
+Cirrhosis = null,
+Metastatic_Cancer = null,
+ASA_Score = null,
+ABC_Score = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+function rrclr(){
+document.getElementById('rr1_1').bgColor = '';
+document.getElementById('rr1_2').bgColor = '';
+document.getElementById('rr1_3').bgColor = '';
+document.getElementById('rr1_tag').ariaLabel = "This table highlights the result ABC Score Interpretation. No result is highlighted"; interptxt = '';
+}
+
+
+
+
+</script>
+
+
+
+
+<form name="ABC_form" id="ABC_form" action="#" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="ABC_fx();" onreset="rrclr(); document.getElementById('inputchk').innerHTML=inputchktxt; ">
+
+<table class="medCalcTitleBox">
+<tr><td class="al">
+<span class="medCalcFontTitleBox">
+
+ 
+ABC Score for Prediction of 30-Day Mortality in Acute GI Bleeding
+</span></td></tr></table><br>&nbsp;<br>
+
+<div id="calc_main">
+
+<div id="calc_input">
+
+<div class="ac">
+<span class="medCalcFontIO">
+Input
+</span>
+<br>&nbsp;<br>
+<table class="medCalcFormuliBoxWhite">
+<tr><td class="ar42"><span class="medCalcFontOneBold">Age</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Age_param"  size="6" value="" onblur="ABC_fx(); minMaxCheck();" onchange="ABC_fx();" aria-label="Use this input box to enter the value Age"></td>
+<td class="al"> <select name="Age_unit" onchange="ABC_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Age">
+<option value="0.0833333333333333|0|mo">mo</option>
+<option value="1|0|yr" selected="selected">yr</option>
+</select></td></tr>
+
+<tr><td class="ar42"><span class="medCalcFontOneBold">Urea</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Urea_param"  size="6" value="" onblur="ABC_fx(); minMaxCheck();" onchange="ABC_fx();" aria-label="Use this input box to enter the value Urea"></td>
+<td class="al"> <select name="Urea_unit" onchange="ABC_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Urea">
+<option value="0.1665|0|mg/dL_Urea">mg/dL</option>
+<option value="1|0|mmol/L_Urea" selected="selected">mmol/L</option>
+</select></td></tr>
+
+<tr><td class="ar42"><span class="medCalcFontOneBold">Albumin</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Albumin_param"  size="6" value="" onblur="ABC_fx(); minMaxCheck();" onchange="ABC_fx();" aria-label="Use this input box to enter the value Albumin"></td>
+<td class="al"> <select name="Albumin_unit" onchange="ABC_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Albumin">
+<option value="1|0|g/L_Alb" selected="selected">g/L</option>
+<option value="10|0|g/dL_Alb">g/dL</option>
+<option value="1|0|gm/L_Alb">gm/L</option>
+<option value="10|0|gm/dL_Alb">gm/dL</option>
+<option value="0.001|0|mg/L_Alb">mg/L</option>
+<option value="0.01|0|mg/dL_Alb">mg/dL</option>
+</select></td></tr>
+
+<tr><td class="ar42"><span class="medCalcFontOneBold">Creatinine</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Creatinine_param"  size="6" value="" onblur="ABC_fx(); minMaxCheck();" onchange="ABC_fx();" aria-label="Use this input box to enter the value Creatinine"></td>
+<td class="al"> <select name="Creatinine_unit" onchange="ABC_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Creatinine">
+<option value="1|0|mcmol/L_Cr" selected="selected">mcmol/L</option>
+<option value="88.4|0|mg/dL_Cr">mg/dL</option>
+<option value="1000|0|mmol/L_Cr">mmol/L</option>
+</select></td></tr>
+
+<tr><td class="ar"><span class="medCalcFontOneBold">Altered Mental Status</span></td>
+<td colspan="2" class="al"><input type="radio" name="Altered_Mental_Status_radio" id="togel1" value="No|0" onclick="ABC_fx();" aria-label="This button selects an option for the variable: Altered Mental Status. The variable option is No. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel1');"> No (0)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="Altered_Mental_Status_radio" id="togel2" value="Yes|2" onclick="ABC_fx();" aria-label="This button selects an option for the variable: Altered Mental Status. The variable option is Yes. The value for this variable is 2"><span class="medCalcFontOneClick" onclick="setRB('togel2');"> Yes (2)</span></td></tr>
+<tr><td class="ar"><span class="medCalcFontOneBold">Cirrhosis</span></td>
+<td colspan="2" class="al"><input type="radio" name="Cirrhosis_radio" id="togel3" value="No|0" onclick="ABC_fx();" aria-label="This button selects an option for the variable: Cirrhosis. The variable option is No. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel3');"> No (0)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="Cirrhosis_radio" id="togel4" value="Yes|2" onclick="ABC_fx();" aria-label="This button selects an option for the variable: Cirrhosis. The variable option is Yes. The value for this variable is 2"><span class="medCalcFontOneClick" onclick="setRB('togel4');"> Yes (2)</span></td></tr>
+<tr><td class="ar"><span class="medCalcFontOneBold">Metastatic Cancer</span></td>
+<td colspan="2" class="al"><input type="radio" name="Metastatic_Cancer_radio" id="togel5" value="No|0" onclick="ABC_fx();" aria-label="This button selects an option for the variable: Metastatic Cancer. The variable option is No. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel5');"> No (0)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="Metastatic_Cancer_radio" id="togel6" value="Yes|4" onclick="ABC_fx();" aria-label="This button selects an option for the variable: Metastatic Cancer. The variable option is Yes. The value for this variable is 4"><span class="medCalcFontOneClick" onclick="setRB('togel6');"> Yes (4)</span></td></tr>
+<tr><td class="ar42"><span class="medCalcFontOneBold">ASA Score</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="ASA_Score_param"  size="6" value="" onblur="ABC_fx(); minMaxCheck();" onchange="ABC_fx();" aria-label="Use this input box to enter the value ASA Score"></td>
+<td class="al"> <select name="ASA_Score_unit" onchange="ABC_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value ASA Score">
+<option value="1|0|#">#</option>
+<option value="1|0|count">count</option>
+<option value="1|0|index">index</option>
+<option value="1|0|logit">logit</option>
+<option value="1|0|none">none</option>
+<option value="1|0|number">number</option>
+<option value="1|0|points">points</option>
+<option value="1|0|score" selected="selected">score</option>
+<option value="1|0|">[No Unit]</option>
+</select></td></tr>
+
+
+</table>
+
+</div>
+
+
+</div>
+<br>&nbsp;<br>
+<div id="calc_result">
+<div class="ac"><span class="medCalcFontIO">Result<span id="inputchk" class="medCalcFontOne"><br>&nbsp;<br><b>Important:</b> Inputs must be complete to perform calculation. <br></span></span>
+
+<br>&nbsp;<br>
+<table class="medCalcFormuliBox">
+<tr><td colspan="3">&nbsp;<br></td></tr>
+<tr>
+<td class="ar"><span class="medCalcFontResultParam">ABC Score</span></td>
+<td class="alnw">&nbsp; <input type="text" name="ABC_Score_param" class="resultBold" size="6" aria-readonly="true" aria-label="This output box will display the calculated value ABC Score"></td>
+<td class="al"><span class="medCalcFontResultParam">
+<select name="ABC_Score_unit" onchange="ABC_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value ABC Score">
+<option value="1|0|#">#</option>
+<option value="1|0|count">count</option>
+<option value="1|0|index">index</option>
+<option value="1|0|logit">logit</option>
+<option value="1|0|none">none</option>
+<option value="1|0|number">number</option>
+<option value="1|0|points" selected="selected">points</option>
+<option value="1|0|score">score</option>
+<option value="1|0|">[No Unit]</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br></td></tr>
+</table>
+</div>
+
+<br>&nbsp;<br>
+<div id="rr1_tag" aria-label="This table highlights the result ABC Score Interpretation. No result is highlighted" tabindex="0">
+<table class="medCalcTitleBox">
+<tr><td class="al">
+<span class="medCalcFontTitleBox">
+
+
+ABC Score Interpretation
+</span></td></tr></table><br>&nbsp;<br>
+</div>
+<table class="tableb1p4c">
+<tr id="rr1_1"><td class="arnw" style="border-right: 0px;"><span class="medCalcFontOneBold">0 to 3 points:</span></td>
+<td class="al" style="border-left: 0px;"><span class="medCalcFontOne">0.7% 30-day mortality</span></td></tr>
+<tr id="rr1_2"><td class="arnw" style="border-right: 0px;"><span class="medCalcFontOneBold">4 to 7 points:</span></td>
+<td class="al" style="border-left: 0px;"><span class="medCalcFontOne">9.3% 30-mortality</span></td></tr>
+<tr id="rr1_3"><td class="arnw" style="border-right: 0px;"><span class="medCalcFontOneBold">8 to 18 points:</span></td>
+<td class="al" style="border-left: 0px;"><span class="medCalcFontOne">34% 30-day mortality</span></td></tr>
+
+</table>
+<br>&nbsp;<br>
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br>&nbsp;<br>
+
+<div id="calc_notes">
+<span class="medCalcFontRef"><b>Notes</b></span>
+<ul class="medCalcFontOne">
+<li><b>ABC</b>: <b>A</b>ge, <b>B</b>lood tests, <b>C</b>omorbidities; <b>ASA</b>: American Society of Anesthesiologists.</li>
+
+
+</ul>
+</div>
+
+<br>&nbsp;<br>
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br>&nbsp;<br>
+<div class="ac">
+<div id="calc_equation">
+<table class="medCalcFormuliBox"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">ABC Score = Age Factor + Urea Factor + Albumin Factor + Creatinine Factor + Altered Mental Status + Cirrhosis + Metastatic Cancer + ASA Factor</span></td></tr></table><br>&nbsp;<br>
+</div> </div>
+<br>&nbsp;<br>
+<div id="calc_details_and_variables">
+<span class="medCalcFontRef"><b>Calculation Details and Variables</b></span>
+<ul class="medCalcFontOne">
+<li><b>Age Factor</b> is assigned values by this ordered logic: <ul><li>If <b>Age</b> &ge;75 yr, <span style="white-space: nowrap;"><b>Age Factor</b> = 2</span></li><li>Else if <b>Age</b> &ge;60 yr, <span style="white-space: nowrap;"><b>Age Factor</b> = 1</span></li><li><span style="white-space: nowrap;">Else <b>Age Factor</b> = 0.</span></li></ul></li>
+<li><b>Urea Factor</b> is assigned values by this ordered logic: <ul><li>If <b>Urea</b> &gt;10 mmol/L, <span style="white-space: nowrap;"><b>Urea Factor</b> = 1</span></li><li><span style="white-space: nowrap;">Else <b>Urea Factor</b> = 0.</span></li></ul></li>
+<li><b>Albumin Factor</b> is assigned values by this ordered logic: <ul><li>If <b>Albumin</b> &lt;30 g/L, <span style="white-space: nowrap;"><b>Albumin Factor</b> = 2</span></li><li><span style="white-space: nowrap;">Else <b>Albumin Factor</b> = 0.</span></li></ul></li>
+<li><b>Creatinine Factor</b> is assigned values by this ordered logic: <ul><li>If <b>Creatinine</b> &gt;150 mcmol/L, <span style="white-space: nowrap;"><b>Creatinine Factor</b> = 2</span></li><li>Else if <b>Creatinine</b> &ge;100 mcmol/L, <span style="white-space: nowrap;"><b>Creatinine Factor</b> = 1</span></li><li><span style="white-space: nowrap;">Else <b>Creatinine Factor</b> = 0.</span></li></ul></li>
+<li>Equation parameters such as <b>Altered Mental Status</b>, have two or more discrete values that may be used in the calculation. The numbers in the parentheses, e.g.  (0), represent the values that will be used.</li>
+<li><b>ASA Factor</b> is assigned values by this ordered logic: <ul><li>If <b>ASA Score</b> &ge;4 score, <span style="white-space: nowrap;"><b>ASA Factor</b> = 3</span></li><li>Else if <b>ASA Score</b> &ge;3 score, <span style="white-space: nowrap;"><b>ASA Factor</b> = 1</span></li><li><span style="white-space: nowrap;">Else <b>ASA Factor</b> = 0.</span></li></ul></li>
+
+</ul>
+</div>
+
+
+<div id="calc_tables">
+
+</div>
+
+<br>&nbsp;<br>
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Laursen SB, Oakland K, Laine L, et al. ABC score: a new risk score that accurately predicts mortality in  acute upper and lower gastrointestinal bleeding: an international multicentre study. <i>Gut</i>. 2021 Apr;70(4):707-716. PubMed ID: 32723845 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/32723845" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br>&nbsp;<br><table class="medCalcFormuliBoxWhite"><tr><td class="medCalcDisclaimerBox"><div class="ac"><span class="medCalcFontTwo"><br>&nbsp;<br><b><u>Legal Notices and Disclaimer</u></b></span></div><br>&nbsp;<br><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.  EBMcalc is NOT a medical device.
+EBMcalc NEVER stores <i>cookies</i> or other persistent data in user's browsers.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br>&nbsp;<br><div class="ac"><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2025 EBMcalc, LLC &nbsp;&nbsp; [Build 278333 v25.3]</span></div></td></tr></table>
+</div><script>
+
+with(document.ABC_form){
+Age_param.focus();
+var Age_Factor = 0;
+var Urea_Factor = 0;
+var Albumin_Factor = 0;
+var Creatinine_Factor = 0;
+var ASA_Factor = 0;
+
+}
+</script>
+
+
+
+</div>
+</body>
+</html>
+
+<!-- 1751464734 //-->

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Acetaminophen (Paracetamol) Toxicity Assessment (Revised 2023)</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5MKXR9');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees">
+<meta name="keywords" content="toxicol, pain, Nurse, pharmacology, pediatrics, critical care, psych, gastro, fac_all, fac_med, fac_gp, prognosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical"> 
+<meta name="author" content="EBMcalc, LLC">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="googlebot" content="noindex,indexifembedded">
+</head>
+
+<body class="medCalcBody">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MKXR9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="mc3k">
+<script>
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+var x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 2000);
+}
+
+function wait(ms) {
+var stime = new Date().getTime();
+for (var i = 0; i < 1e8; i++) {
+if ((new Date().getTime() - stime) > ms){
+break;
+}}}
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+AcetaminophenTox2023_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+AcetaminophenTox2023_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+var inputchktxt = '<br>&nbsp;<br><b>Important:</b> Inputs must be complete to perform calculation. <br>'
+
+
+function aDelay(atxt, ffield){
+with (document.AcetaminophenTox2023_form){
+clrResults();
+ffield.value = '';
+doCalc = false;
+setTimeout(function(){ alert(atxt); }, 100);
+document.getElementById('inputchk').innerHTML = inputchktxt;
+
+}}
+
+
+function AcetaminophenTox2023_fx() {
+
+with(document.AcetaminophenTox2023_form){
+
+
+doCalc = true;
+param_value = parseFloat(Time_After_Ingestion_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Time_After_Ingestion_unit.options[Time_After_Ingestion_unit.selectedIndex].value.split('|');
+Time_After_Ingestion = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Acetaminophen_Level_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Acetaminophen_Level_unit.options[Acetaminophen_Level_unit.selectedIndex].value.split('|');
+Acetaminophen_Level = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+dp = 1;
+ToxLevel =  fixDP(eTo(5.703782 - ((Time_After_Ingestion - 4) * 0.1732868)),1);
+
+RxLevel =  fixDP(ToxLevel - (0.5 * ToxLevel),1);
+
+document.getElementById('ttxt').innerHTML = '';
+if(doCalc){
+RxLevelSI = fixDP(RxLevel * 6.62, 1); ToxLevelSI = fixDP(ToxLevel * 6.62, 1); RxLevel = fixDP(RxLevel,1); ToxLevel = fixDP(ToxLevel,1);
+if( acetUnit.options[acetUnit.selectedIndex].text.indexOf('mol') > 0 ){
+RxLevelTxt = RxLevelSI + " mcmol/L [" + RxLevel + " mcg/mL]";
+ToxLevelTxt = ToxLevelSI + " mcmol/L [" + ToxLevel + " mcg/mL]";
+}
+else{
+RxLevelTxt = RxLevel + " mcg/mL [" + RxLevelSI + " mcmol/L]";
+ToxLevelTxt = ToxLevel + " mcg/mL [" + ToxLevelSI + " mcmol/L]";
+}
+if(Acetaminophen_Level < RxLevel){
+resultInterp1 = "At " + fixDP(Time_After_Ingestion,1) + " hours after ingestion the subject's acetaminophen level is less than the treatment threshold of " + RxLevelTxt + ".<br>&nbsp;<br> Some patients may still require treatment with acetylcysteine (eg, ingestion of an extended-release acetaminophen product); consultation with a poison control center or clinical toxicologist is highly recommended.";
+resultInterp2 = "Because the high-risk threshold at this hour is " + ToxLevelTxt + ", there is lower risk of significant toxicity.";
+document.getElementById('ttxt').innerHTML = resultInterp1 + '<br>&nbsp;<br>' + resultInterp2;
+document.getElementById('ttxt').ariaLabel = resultInterp1 + ' ' + resultInterp2;
+}
+if((Acetaminophen_Level >= RxLevel) && (Acetaminophen_Level < ToxLevel)){
+resultInterp1 = "At " + fixDP(Time_After_Ingestion,1) + " hours after ingestion the subject's acetaminophen level is GREATER than the treatment threshold of " + RxLevelTxt + "; treatment with acetylcysteine should be initiated for this overdose.";
+resultInterp2 = "Because the high-risk threshold at this hour is " + ToxLevelTxt + ", there is a lower risk of significant toxicity.";
+document.getElementById('ttxt').innerHTML = resultInterp1 + '<br>&nbsp;<br>' + resultInterp2;
+document.getElementById('ttxt').ariaLabel = resultInterp1 + ' ' + resultInterp2;
+}
+if(Acetaminophen_Level >= ToxLevel){
+resultInterp1 = "At " + fixDP(Time_After_Ingestion,1) + " hours after ingestion the subject's acetaminophen level is GREATER than the treatment threshold of " + RxLevelTxt + "; treatment with acetylcysteine should be initiated for this overdose.";
+resultInterp2 = "Because the high-risk threshold at this hour is " + ToxLevelTxt + ", there is a high risk of SERIOUS TOXICITY.<br>&nbsp;<br>An increased dose of acetylcysteine may be appropriate. Consultation with a poison control center or clinical toxicologist is highly recommended.";
+document.getElementById('ttxt').innerHTML = resultInterp1 + '<br>&nbsp;<br>' + resultInterp2;
+document.getElementById('ttxt').ariaLabel = resultInterp1 + ' ' + resultInterp2;
+}
+}
+
+
+}
+
+
+if (doCalc) document.getElementById('inputchk').innerHTML = '';
+else document.getElementById('inputchk').innerHTML = inputchktxt;
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.AcetaminophenTox2023_form){
+
+if (Time_After_Ingestion_param.value && isNaN(Time_After_Ingestion_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Time_After_Ingestion_param); }
+if (Time_After_Ingestion_param.value && (Time_After_Ingestion < (4 - 0.00001))) {
+Time_After_Ingestion = 0;
+ aDelay("The minimum value for Time After Ingestion is 4 Hours.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Time_After_Ingestion_param);
+}
+
+if (Time_After_Ingestion_param.value && Time_After_Ingestion > 24) {
+Time_After_Ingestion = 0;
+ aDelay("The maximum value for Time After Ingestion is 24 Hours.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Time_After_Ingestion_param);
+}
+
+if (Acetaminophen_Level_param.value && isNaN(Acetaminophen_Level_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Acetaminophen_Level_param); }
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.AcetaminophenTox2023_form){
+
+document.getElementById('ttxt').innerHTML = '';
+
+
+}
+
+}
+
+var Time_After_Ingestion = null,
+Acetaminophen_Level = null,
+ToxLevel = null,
+RxLevel = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+<form name="AcetaminophenTox2023_form" id="AcetaminophenTox2023_form" action="#" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="AcetaminophenTox2023_fx();" onreset="document.getElementById('inputchk').innerHTML=inputchktxt; ">
+
+<table class="medCalcTitleBox">
+<tr><td class="al">
+<span class="medCalcFontTitleBox">
+
+ 
+Acetaminophen (Paracetamol) Toxicity Assessment (Revised 2023)
+</span></td></tr></table><br>&nbsp;<br>
+
+<div id="calc_main">
+
+<div id="calc_input">
+
+<div class="ac">
+<span class="medCalcFontIO">
+Input
+</span>
+<br>&nbsp;<br>
+<table class="medCalcFormuliBoxWhite">
+<tr><td class="ar42"><span class="medCalcFontOneBold">Time After Ingestion</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Time_After_Ingestion_param"  size="6" value="" onblur="AcetaminophenTox2023_fx(); minMaxCheck();" onchange="AcetaminophenTox2023_fx();" aria-label="Use this input box to enter the value Time After Ingestion"></td>
+<td class="al"> <select name="Time_After_Ingestion_unit" onchange="AcetaminophenTox2023_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Time After Ingestion">
+<option value="24|0|Days">Days</option>
+<option value="1|0|Hours" selected="selected">Hours</option>
+</select></td></tr>
+
+<tr><td class="ar42"><span class="medCalcFontOneBold">Acetaminophen Level</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Acetaminophen_Level_param"  size="6" value="" onblur="AcetaminophenTox2023_fx(); minMaxCheck();" onchange="AcetaminophenTox2023_fx();" aria-label="Use this input box to enter the value Acetaminophen Level"></td>
+<td class="al"> <select name="Acetaminophen_Level_unit" onchange="AcetaminophenTox2023_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Acetaminophen Level">
+<option value="1|0|mcg/mL_acet" selected="selected">mcg/mL</option>
+<option value="0.151057401812689|0|mcmol/L_acet">mcmol/L</option>
+<option value="1|0|mg/L_acet">mg/L</option>
+<option value="10|0|mg/dL_acet">mg/dL</option>
+</select></td></tr>
+
+
+</table>
+
+</div>
+
+
+</div>
+<br>&nbsp;<br>
+<div id="calc_result">
+<div class="ac"><span class="medCalcFontIO">Results<span id="inputchk" class="medCalcFontOne"><br>&nbsp;<br><b>Important:</b> Inputs must be complete to perform calculation. <br></span></span>
+
+<br>&nbsp;<br>
+<table class="medCalcFormuliBox">
+<tr><td colspan="3">&nbsp;<br></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td colspan="3" class="al" style="border: 1px solid black; height: 285px; width: 285px; background-color: #ffffff;"><div id="ttxt" class="medCalcFontOneBold" aria-label="Calculation results will be displayed here" tabindex="0">&nbsp;</div></td>
+</tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+<tr><td colspan="3">&nbsp;<br></td></tr>
+</table>
+</div>
+<br>&nbsp;<br>
+<div id="calc_buttons">
+<div class="ac">
+<span class="medCalcFontOne">
+
+
+
+<input type="reset" name="reset" value="Reset form" onclick="clrResults(); document.getElementById('ttxt').ariaLabel = '';">
+
+</span>
+</div>
+</div>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br>&nbsp;<br>
+
+<div id="calc_notes">
+<span class="medCalcFontRef"><b>Notes</b></span>
+<ul class="medCalcFontOne">
+<li class="aared">In this calculator, <b>mcg</b> is the abbreviation for <b>micrograms</b>.</li>
+<li>This calculator is based on the 2023 revised Rumack and Matthew Nomogram.<sup>1</sup> Treatment threshold levels are calculated to be 50% lower than the high-risk drug level.</li>
+<li>Drug levels done before the 4 hour point may not represent the true peak of absorption.</li>
+<li>The revised Rumack-Matthew nomogram may be used following an acute acetaminophen ingestion (ie, an ingestion period of &le;24  hours regardless of the ingestion pattern) when the history is reliable and accurate. Use of this nomogram is not appropriate for acute  ingestions when the history is unknown or unreliable, or following repeated supratherapeutic ingestions.</li>
+<li class="parentNote">In this calculation, the revised Rumack nomogram is represented by the following equations:
+<ul class="childNoteList">
+<li class="childNote"> Toxic Level = e<sup>(5.703782 - ((Time_After_Ingestion - 4) * 0.1732868))</sup></li>
+<li class="childNote"> Treatment Level = Toxic Level - (0.5 * Toxic Level)</li>
+</ul></li>
+
+
+</ul>
+</div>
+
+<br>&nbsp;<br>
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br>&nbsp;<br>
+<div class="ac">
+<div id="calc_equation">
+<table class="medCalcFormuliBox"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">ToxLevel = fixDP(e<sup>(5.703782-((TimeAfterIngestion-4)*0.1732868))</sup>,1)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">RxLevel = fixDP(ToxLevel - (0.5 * ToxLevel),1)</span></td></tr></table><br>&nbsp;<br>
+</div> </div>
+
+<div id="calc_tables">
+
+</div>
+
+<br>&nbsp;<br>
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Dart RC, Mullins ME, Matoushek T, et al. Management of Acetaminophen Poisoning in the US and  Canada: A Consensus Statement. <i>JAMA Netw Open</i>. 2023 Aug 1;6(8):e2327739. PubMed ID: 37552484 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/37552484" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+<li><span class="medCalcFontRef">Rumack BH, Matthew H. Acetaminophen poisoning and toxicity. <i>Pediatrics</i>. 1975 Jun;55(6):871-6. PubMed ID: 1134886 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/1134886" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+<li><span class="medCalcFontRef">White SJ, Rumack BH. The acetaminophen toxicity equations: "solutions" for acetaminophen toxicity based on the  Rumack-Matthew nomogram. <i>Ann Emerg Med</i>. 2005 May;45(5):563-4. PubMed ID: 15855961 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/15855961" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+<li><span class="medCalcFontRef">Buckley NA, Whyte IM, O'Connell DL, et al. Activated charcoal reduces the need for N-acetylcysteine treatment after acetaminophen (paracetamol) overdose. <i>J Toxicol Clin Toxicol</i>. 1999;37(6):753-7. PubMed ID: 10584587 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/10584587" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+<li><span class="medCalcFontRef">Vale JA, Proudfoot AT. Paracetamol (acetaminophen) poisoning. <i>Lancet</i>. 1995 Aug 26;346(8974):547-52. Review. PubMed ID: 7658783 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/7658783" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br>&nbsp;<br><table class="medCalcFormuliBoxWhite"><tr><td class="medCalcDisclaimerBox"><div class="ac"><span class="medCalcFontTwo"><br>&nbsp;<br><b><u>Legal Notices and Disclaimer</u></b></span></div><br>&nbsp;<br><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.  EBMcalc is NOT a medical device.
+EBMcalc NEVER stores <i>cookies</i> or other persistent data in user's browsers.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br>&nbsp;<br><div class="ac"><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2025 EBMcalc, LLC &nbsp;&nbsp; [Build 276615 v25.1]</span></div></td></tr></table>
+</div><script>
+
+with(document.AcetaminophenTox2023_form){
+
+var resultInterp1 = ''; var resultInterp2 = '';
+
+var acetUnit = document.AcetaminophenTox2023_form.Acetaminophen_Level_unit;
+Time_After_Ingestion_param.focus();
+
+}
+</script>
+
+
+
+</div>
+</body>
+</html>
+
+<!-- 1739902184 //-->

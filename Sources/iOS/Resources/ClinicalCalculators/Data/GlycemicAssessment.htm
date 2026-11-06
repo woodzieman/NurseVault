@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Glycemic Assessment</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="endocrine, internat, diagnosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+Glycemic Assessment
+</span></td></tr></table><br />&nbsp;<br />
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+return msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+}
+
+var currenttimeout;
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var htmtxt = ''; 
+var currentvar = '';
+
+function GlycemicAssessment_fx() {
+
+currenttimeout = self.setTimeout('minMaxCheck();', 3000);
+
+with(document.GlycemicAssessment_form){
+
+if (currentvar == 'H1'){
+if (H1_param.value.indexOf(',') >= 0){ H1_param.value = ''; doCalc = false; alert('Comma character not allowed'); }
+param_value = parseFloat(H1_param.value);
+if (isNaN(param_value)){param_value = ''; clrResults(); return;}
+H1 = param_value;
+
+H2 = 10.929 * (H1 - 2.15);
+H2_param.value = fixDP(H2,1);
+
+AG = (28.7 * H1) - 46.7;
+AG_param.value = fixDP(AG,1);
+
+AGS = AG / 18.015;
+AGS_param.value = fixDP(AGS,1);
+
+}
+
+if (currentvar == 'H2'){
+if (H2_param.value.indexOf(',') >= 0){ H2_param.value = ''; doCalc = false; alert('Comma character not allowed'); }
+param_value = parseFloat(H2_param.value);
+if (isNaN(param_value)){param_value = ""; clrResults(); return;}
+H2 = param_value;
+
+H1 = (H2 / 10.929) + 2.15;
+H1_param.value = fixDP(H1,1);
+
+AG = (28.7 * H1) - 46.7;
+AG_param.value = fixDP(AG,1);
+ 
+AGS = AG / 18.015;
+AGS_param.value = fixDP(AGS,1);
+
+}
+
+if (currentvar == 'AG'){
+if (AG_param.value.indexOf(',') >= 0){ AG_param.value = ''; doCalc = false; alert('Comma character not allowed'); }
+param_value = parseFloat(AG_param.value);
+if (isNaN(param_value)){param_value = ""; clrResults(); return;}
+AG = param_value;
+
+H1 = (AG + 46.7) / 28.7;
+H1_param.value = fixDP(H1,1);
+
+H2 = 10.929 * (H1 - 2.15);
+H2_param.value = fixDP(H2,1);
+
+AGS = AG / 18.015;
+AGS_param.value = fixDP(AGS,1);
+
+
+}
+
+
+if (currentvar == 'AGS'){
+if (AGS_param.value.indexOf(',') >= 0){ AGS_param.value = ''; doCalc = false; alert('Comma character not allowed'); }
+param_value = parseFloat(AGS_param.value);
+if (isNaN(param_value)){param_value = ""; clrResults(); return;}
+AGS = param_value;
+
+AG = AGS * 18.015;
+AG_param.value = fixDP(AG,1);
+
+H1 = (AG +46.7) / 28.7;
+H1_param.value = fixDP(H1,1);
+
+H2 = 10.929 * (H1 - 2.15);
+H2_param.value = fixDP(H2,1);
+
+}
+
+}
+
+}
+
+function minMaxCheck(){
+
+if (currenttimeout) self.clearTimeout(currenttimeout);
+
+with(document.GlycemicAssessment_form){
+
+if (H1_param.value && H1_param.value > 100) {
+clrResults();
+doCalc = false;
+alert("The maximum value or result for A1C (DCCT) is 100%.");
+}
+
+}
+
+}
+
+
+function clrResults(){
+
+if (currenttimeout) self.clearTimeout(currenttimeout);
+
+with(document.GlycemicAssessment_form){
+H1_param.value = '';
+H1 = 0;
+H2_param.value = '';
+H2 = 0;
+AG_param.value = '';
+AG = 0;
+AGS_param.value = '';
+AGS = 0;
+}
+
+}
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="GlycemicAssessment_form" id="GlycemicAssessment_form" action="" onsubmit="return false;" onkeyup="GlycemicAssessment_fx();">
+
+<center>
+<span class="medCalcFontIO">
+Input any one of the following:
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="MedCalc 3000 Table">
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">A1C (DCCT)</span></td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="H1_param" size="7" value="" onblur="GlycemicAssessment_fx(); minMaxCheck();" onchange="GlycemicAssessment_fx();" onfocus="clrResults(); currentvar = 'H1';" /></td>
+<td align="left"><span class="medCalcFontOneBold">&nbsp;percent</span></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">A1C (IFCC, SI units)</span></td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="H2_param" size="7" value="" onblur="GlycemicAssessment_fx(); minMaxCheck();" onchange="GlycemicAssessment_fx();" onfocus="clrResults(); currentvar = 'H2';" /></td>
+<td align="left"><span class="medCalcFontOneBold">&nbsp;mmol/mol</span></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Estimated average glucose</span></td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="AG_param" size="7" value="" onblur="GlycemicAssessment_fx(); minMaxCheck();" onchange="GlycemicAssessment_fx();" onfocus="clrResults(); currentvar = 'AG';" /></td>
+<td align="left"><span class="medCalcFontOneBold">&nbsp;mg/dL</span></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Estimated average glucose (SI units)</span></td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="AGS_param" size="7" value="" onblur="GlycemicAssessment_fx(); minMaxCheck();" onchange="GlycemicAssessment_fx();" onfocus="clrResults(); currentvar = 'AGS';" /></td>
+<td align="left"><span class="medCalcFontOneBold">&nbsp;mmol/L</span></td></tr>
+
+
+</table>
+<br />&nbsp;<br />
+<input type="reset" name="reset" value="Reset form" />
+</center>
+
+
+</form>
+<br />&nbsp;<br />
+
+
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li>Click any of the four input boxes to enter a value.  The other three values will be calculated from your input.</li>
+<li><b>DCCT</b> is the Diabetes Control and Complications Trial.</li>
+<li><b>IFCC</b> is the International Federation of Clinical Chemistry.</li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Nathan DM, Kuenen J, Borg R, et al. Translating the A1C assay into estimated average  glucose values. A1c-Derived Average Glucose Study Group. <i>Diabetes Care</i>. 2008 Aug;31(8):1473-8 Erratum in:  Diabetes Care. 2009 Jan;32(1):207. PubMed ID: 18540046 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/18540046"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Trevino G. Consensus statement on the Worldwide Standardization of the Hemoglobin A1C Measurement:  the American Diabetes Association, European Association for the Study of Diabetes, International Federation  of Clinical Chemistry and Laboratory Medicine, and the International Diabetes Federation: response to the  Consensus Committee. <i>Diabetes Care</i>. 2007 Dec;30(12):e141. PubMed ID: 18042750 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/18042750"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Hoelzel W, Weykamp C, Jeppsson JO, et al., IFCC Working Group on HbA1c Standardization.  IFCC reference system for measurement of hemoglobin A1c in human blood and the national standardization  schemes in the United States, Japan, and Sweden: a method-comparison study. <i>Clin Chem</i>. 2004 Jan;50(1):166-74. PubMed ID: 14709644 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/14709644"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Little RR, Sacks DB. HbA1c: how do we measure it and what does it mean? <i> Curr Opin Endocrinol Diabetes Obes</i>. 2009 Apr;16(2):113-8. Review. PubMed ID: 19300091 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/19300091"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+              
+
+<div id="calc_disclaimer">  <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u> Legal Notices and Disclaimer </u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo"> All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+ <b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b> <a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span> <br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+ </div>
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+/* ]]> */
+</script>
+
+
+
+</div>
+</body>
+</html>
+
+
+<!-- 1662473276 //-->

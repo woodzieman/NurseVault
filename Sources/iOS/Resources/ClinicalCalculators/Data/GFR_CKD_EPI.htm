@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Glomerular Filtration Rate Estimate by CKD-EPI Equation</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="sst, renal, acpjc, diagnosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+GFR_CKD_EPI_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+GFR_CKD_EPI_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function GFR_CKD_EPI_fx() {
+
+with(document.GFR_CKD_EPI_form){
+
+
+doCalc = true;
+rbchk = false;
+if (Sex_radio[0].checked){ rbchk = true;
+Sex = 1.018; alpha = -0.329; kappa = 0.7;
+}
+if (Sex_radio[1].checked){ rbchk = true;
+Sex = 1; alpha = -0.411; kappa = 0.9;;
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (Race_radio[0].checked){ rbchk = true; Race = 1;  }
+if (Race_radio[1].checked){ rbchk = true; Race = 1.159;  }
+if (!rbchk) doCalc = false;
+param_value = parseFloat(Age_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Age_unit.options[Age_unit.selectedIndex].value.split('|');
+Age = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Serum_creatinine_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Serum_creatinine_unit.options[Serum_creatinine_unit.selectedIndex].value.split('|');
+Serum_creatinine = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+dp = decpts.options[decpts.selectedIndex].text;
+GFR =  141 * power(Math.min(Serum_creatinine/kappa, 1), alpha) * power(Math.max(Serum_creatinine/kappa, 1), -1.209) * power(0.993,Age) * Sex * Race;
+
+if (doCalc) GFR_param.value = fixDP(GFR, dp);
+
+
+
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.GFR_CKD_EPI_form){
+
+if (Age_param.value && isNaN(Age_param.value)){ clrValue(Age_param); alertNaN('Age'); }
+if (Serum_creatinine_param.value && isNaN(Serum_creatinine_param.value)){ clrValue(Serum_creatinine_param); alertNaN('Serum creatinine'); }
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.GFR_CKD_EPI_form){
+
+GFR_param.value = '';
+
+
+}
+
+}
+
+var Sex = null,
+Race = null,
+Age = null,
+Serum_creatinine = null,
+GFR = null,
+param_value = null;
+
+
+
+
+
+var alpha;
+
+var kappa;
+
+
+
+
+
+
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="GFR_CKD_EPI_form" id="GFR_CKD_EPI_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="GFR_CKD_EPI_fx();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Glomerular Filtration Rate Estimate by CKD-EPI Equation
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right"><span class="medCalcFontOneBold">Sex</span></td>
+<td colspan="2" nowrap="nowrap" align="left">
+<span class="medCalcFontCCTab">&nbsp;&nbsp;
+Female <input type="radio" name="Sex_radio" value="Female" onclick="Sex = 1.018; alpha = -0.329; kappa = 0.7; GFR_CKD_EPI_fx();" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+Male <input type="radio" name="Sex_radio" value="Male" onclick="Sex = 1; alpha = -0.411; kappa = 0.9;; GFR_CKD_EPI_fx();" />
+&nbsp;&nbsp;&nbsp;
+
+<br />&nbsp;</span></td></tr>
+<tr><td align="right" valign="top"><span class="medCalcFontOneBold">Race</span></td>
+<td colspan="2" align="left"><input type="radio" name="Race_radio" id="togel1" value="White or Other|1" onclick="GFR_CKD_EPI_fx();" aria-label="This button selects an option for the variable: Race. The variable option is White or Other. The value for this variable is 1" /><span class="medCalcFontOneClick" onclick="setRB('togel1');"> White or Other (1)</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Race_radio" id="togel2" value="Black|1.159" onclick="GFR_CKD_EPI_fx();" aria-label="This button selects an option for the variable: Race. The variable option is Black. The value for this variable is 1.159" /><span class="medCalcFontOneClick" onclick="setRB('togel2');"> Black (1.159)</span></td></tr>
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Age</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Age_param" size="6" value="" onblur="GFR_CKD_EPI_fx(); minMaxCheck();" onchange="GFR_CKD_EPI_fx();" aria-label="Use this input box to enter the value Age" /></td>
+<td align="left" valign="top"> <select name="Age_unit" onchange="GFR_CKD_EPI_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Age">
+<option value="0.0833333333333333|0|mo">mo</option>
+<option value="1|0|yr" selected="selected">yr</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Serum creatinine</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Serum_creatinine_param" size="6" value="" onblur="GFR_CKD_EPI_fx(); minMaxCheck();" onchange="GFR_CKD_EPI_fx();" aria-label="Use this input box to enter the value Serum creatinine" /></td>
+<td align="left" valign="top"> <select name="Serum_creatinine_unit" onchange="GFR_CKD_EPI_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Serum creatinine">
+<option value="0.0113122171945701|0|mcmol/L_Cr">mcmol/L</option>
+<option value="1|0|mg%_Cr">mg%</option>
+<option value="1|0|mg/dL_Cr" selected="selected">mg/dL</option>
+<option value="11.3122171945701|0|mmol/L_Cr">mmol/L</option>
+</select></td></tr>
+
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Result</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">GFR</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="GFR_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value GFR" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<span style="white-space: nowrap;"><span class="medCalcFontResultParam">mL/min/1.73m<sup>2</sup></span>
+</span>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr><td colspan="3" align="center"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="GFR_CKD_EPI_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option>1</option>
+<option selected="selected">2</option>
+<option>3</option>
+
+</select></td></tr>
+
+</table>
+</center>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li>GFR is estimated by an equation developed by the Chronic Kidney Disease Epidemiology Collaboration.</li>
+<li>GFR = 141 * min(Serum_creatinine/kappa, 1)<sup>alpha</sup> * max(Serum_creatinine/kappa, 1) <sup>-1.209</sup> * 0.993<sup>Age</sup> * Sex * Race</li>
+<li>For females, the following values are used: Sex = 1.018; alpha = -0.329; kappa = 0.7</li>
+<li>For males, the following values are used: Sex = 1; alpha = -0.411; kappa = 0.9</li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">GFR = 141 * Math.min(Serumcreatinine/kappa<sup>1),alpha</sup> * Math.max(Serumcreatinine/kappa<sup>1),-1.209</sup> * 0.993<sup>Age</sup> * Sex * Race</span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+<br />&nbsp;<br />
+<div id="calc_details_and_variables">
+<span class="medCalcFontOneBold">Calculation Details and Variables</span>
+<ul class="medCalcFontOne">
+<li>Equation parameters such as <b>Race</b>, have two or more discrete values that may be used in the calculation. The numbers in the parentheses, e.g.  (1), represent the values that will be used.</li>
+
+</ul>
+</div>
+
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Levey AS, Stevens LA, Schmid CH, et al. for the CKD-EPI (Chronic Kidney Disease Epidemiology Collaboration).  A New Equation to Estimate Glomerular Filtration Rate. <i>Ann Intern Med</i>. 2009 May 5;150(9):604-612. PubMed ID: 19414839 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/19414839"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Hsu CY. ACP Journal Club. CKD-EPI eGFR categories were better than MDRD categories for  predicting mortality in a range of populations. <i>Ann Intern Med</i>. 2012 Nov  20;157(10):JC5-12. doi: 10.7326/0003-4819-157-10-201211200-02012. PubMed ID: 23165688 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/23165688"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Matsushita K, Mahmoodi BK, Woodward M, et al., Chronic Kidney Disease Prognosis  Consortium. Comparison of risk prediction using the CKD-EPI equation and the MDRD  study equation for estimated glomerular filtration rate. <i>JAMA</i>. 2012 May  9;307(18):1941-51. doi: 10.1001/jama.2012.3954. PubMed ID: 22570462 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/22570462"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Parsh J, Seth M, Aronow H, et al. Choice of Estimated Glomerular Filtration Rate Equation Impacts Drug-Dosing Recommendations  and Risk Stratification in Patients With Chronic Kidney Disease Undergoing  Percutaneous Coronary Interventions. <i>J Am Coll Cardiol</i>. 2015 Jun 30;65(25):2714-23. PubMed ID: 26112195 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/26112195"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div>
+</div>
+</body>
+</html>
+
+<!-- 1662473272 //-->

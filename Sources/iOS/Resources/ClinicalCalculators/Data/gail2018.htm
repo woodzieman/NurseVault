@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Breast cancer risk assessment by Gail Model (2018)</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5MKXR9');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees">
+<meta name="keywords" content="oncology, women, epidem, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical"> 
+<meta name="author" content="EBMcalc, LLC">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="googlebot" content="noindex,indexifembedded">
+</head>
+
+<body class="medCalcBody">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MKXR9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="mc3k">
+<script>
+
+var REN_Beta;
+
+NB_data = new Array();
+AM_data = new Array();
+AF_data = new Array();
+NR_data = new Array();
+A50NB_data = new Array;
+AFNR_data = new Array();
+
+NB_data = [0, 0.529264, 0.182212, 0.097078, 0.479862, 0.529264, 0.552636];
+AM_data = [0, 0.094010, 0.267253, 0, 0.259392, 0.094010, 0.074993];
+AF_data = [0, 0.218626, 0, 0.231837, 0.466925, 0.218626, 0.276383];
+NR_data = [0, 0.958303, 0.475724, 0.166685, 0.907668, 0.958303, 0.791856];
+A50NB_data = [0, -0.288042, -0.111941, 0, 0, -0.288042, 0];
+AFNR_data = [0, -0.190811, 0, 0, 0, -0.190811, 0];
+
+BrCaCI = new Array();
+
+BrCaCI[1] = [0,0.0000100,0.0000270,0.0000166,0.0000102,0.0000100,0.0000041,0.0000000,0.0000075,0.0000451,0.0000000,0.0000124,0.0000122];
+BrCaCI[2] = [0,0.0000760,0.0001130,0.0000741,0.0000531,0.0000760,0.0000459,0.0000995,0.0000811,0.0000986,0.0000715,0.0000595,0.0000741];
+BrCaCI[3] = [0,0.0002660,0.0003109,0.0002740,0.0001578,0.0002660,0.0001883,0.0002870,0.0002275,0.0003400,0.0002888,0.0001843,0.0002297];
+BrCaCI[4] = [0,0.0006610,0.0006764,0.0006099,0.0003602,0.0006610,0.0004929,0.0005453,0.0005498,0.0008526,0.0006023,0.0004547,0.0005649];
+BrCaCI[5] = [0,0.0012650,0.0011944,0.0012225,0.0007617,0.0012650,0.0009136,0.0011522,0.0011294,0.0016686,0.0007556,0.0007913,0.0011645];
+BrCaCI[6] = [0,0.0018660,0.0018739,0.0019027,0.0011599,0.0018660,0.0014715,0.0018592,0.0018139,0.0025527,0.0007664,0.0010485,0.0019525];
+BrCaCI[7] = [0,0.0022110,0.0024150,0.0023142,0.0014111,0.0022110,0.0014213,0.0026063,0.0022237,0.0033218,0.0018931,0.0013725,0.0026154];
+BrCaCI[8] = [0,0.0027210,0.0029111,0.0028357,0.0017245,0.0027210,0.0019709,0.0032218,0.0026803,0.0053730,0.0023656,0.0014955,0.0030279];
+BrCaCI[9] = [0,0.0033480,0.0031013,0.0031144,0.0020619,0.0033480,0.0016747,0.0040070,0.0028912,0.0052378,0.0028439,0.0016467,0.0036757];
+BrCaCI[10] = [0,0.0039230,0.0036656,0.0030794,0.0023603,0.0039230,0.0018216,0.0035217,0.0025344,0.0055817,0.0029209,0.0014784,0.0042029];
+BrCaCI[11] = [0,0.0041780,0.0039313,0.0033344,0.0025575,0.0041780,0.0018345,0.0035930,0.0024572,0.0056774,0.0023304,0.0012160,0.0047308];
+BrCaCI[12] = [0,0.0044390,0.0040895,0.0035082,0.0028227,0.0044390,0.0019199,0.0035893,0.0022866,0.0065134,0.0020363,0.0010677,0.0049425];
+BrCaCI[13] = [0,0.0044210,0.0039679,0.0025308,0.0028295,0.0044210,0.0022334,0.0035385,0.0018148,0.0038895,0.0014827,0.0013761,0.0047976];
+BrCaCI[14] = [0,0.0041090,0.0036371,0.0020414,0.0025868,0.0041090,0.0022473,0.0020516,0.0017509,0.0029491,0.0010122,0.0006616,0.0040106];
+
+CompMort = new Array();
+
+CompMort[1] = [0,0.0004930,0.0007435,0.0003561,0.0003129,0.0004930,0.0002106,0.0001736,0.0002291,0.0005635,0.0004655,0.0002126,0.0004412];
+CompMort[2] = [0,0.0005310,0.0010170,0.0004038,0.0002908,0.0005310,0.0001926,0.0002958,0.0002630,0.0003696,0.0006005,0.0002422,0.0005254];
+CompMort[3] = [0,0.0006250,0.0014594,0.0005281,0.0003515,0.0006250,0.0002444,0.0002283,0.0003148,0.0010199,0.0008511,0.0003016,0.0006746];
+CompMort[4] = [0,0.0008250,0.0021593,0.0008875,0.0004943,0.0008250,0.0003179,0.0003632,0.0003945,0.0012340,0.0014783,0.0003691,0.0009092];
+CompMort[5] = [0,0.0013070,0.0031508,0.0013987,0.0007807,0.0013070,0.0004733,0.0005906,0.0006476,0.0020983,0.0019315,0.0005430,0.0012534];
+CompMort[6] = [0,0.0021810,0.0044878,0.0020769,0.0012840,0.0021810,0.0008003,0.0010861,0.0011702,0.0029829,0.0038666,0.0008939,0.0019570];
+CompMort[7] = [0,0.0036550,0.0063228,0.0030912,0.0020325,0.0036550,0.0012175,0.0018600,0.0018094,0.0054024,0.0049249,0.0015152,0.0032984];
+CompMort[8] = [0,0.0058520,0.0096304,0.0046960,0.0034533,0.0058520,0.0020998,0.0032166,0.0026142,0.0095915,0.0081771,0.0025747,0.0054622];
+CompMort[9] = [0,0.0094390,0.0147182,0.0076050,0.0058674,0.0094390,0.0034369,0.0047194,0.0044833,0.0163155,0.0086382,0.0043244,0.0091035];
+CompMort[10] = [0,0.0150280,0.0211630,0.0120555,0.0096888,0.0150280,0.0060974,0.0085353,0.0073937,0.0201522,0.0189747,0.0074196,0.0141854];
+CompMort[11] = [0,0.0238390,0.0326604,0.0193805,0.0154429,0.0238390,0.0106645,0.0124335,0.0122331,0.0273548,0.0292576,0.0132518,0.0225935];
+CompMort[12] = [0,0.0388320,0.0456409,0.0288386,0.0254675,0.0388320,0.0201487,0.0202302,0.0211271,0.0504470,0.0384090,0.0222914,0.0361146];
+CompMort[13] = [0,0.0668280,0.0683519,0.0429634,0.0448037,0.0668280,0.0379908,0.0377255,0.0379370,0.0722620,0.0528696,0.0417466,0.0613626];
+CompMort[14] = [0,0.1449080,0.1327126,0.0740349,0.1125678,0.1449080,0.0983339,0.1061491,0.0851385,0.1458445,0.0747457,0.0874858,0.1420663];
+
+AR50 = new Array();
+
+AR50[0] = [0,0.578841,0.729499,0.749295,0.428865,0.578841,0.475198];
+AR50[1] = [0,0.578841,0.743971,0.778215,0.450352,0.578841,0.503164];
+
+var Strt_Intvl;
+var NumbrIntvl;
+var RskWrk;
+var Cum_H;
+var jj;
+var j_intvl;
+var PI_j;
+var h1;
+var h2;
+var One_AR_RR;
+var R5A;
+var RLA;
+
+function absRisk(T1, T2, REN, REN_Beta, RR, RR50, doAVG){
+
+Strt_Intvl = Math.floor(T1) - 20 + 1;
+NumbrIntvl =  Math.ceil(T2) - Math.floor(T1);
+
+if ((T1 < 20) || (T1 > 90)) return;
+
+RskWrk = 0;
+Cum_H  = 0;
+
+for (jj = 1; jj <= NumbrIntvl; jj++){
+
+   j_intvl = Strt_Intvl + (jj - 1);
+
+   if (j_intvl <= 30) One_AR_RR = AR50[0][REN_Beta] * RR;
+   else One_AR_RR = AR50[1][REN_Beta] * RR50;
+
+   if (doAVG) One_AR_RR = 1;
+
+   if ((NumbrIntvl > 1) && (jj > 1) && (jj < NumbrIntvl)) IntgrlLngth = 1;
+   else if ((NumbrIntvl > 1) && (jj == 1)) IntgrlLngth = 1 - (T1 - Math.floor(T1));
+   else if ((NumbrIntvl > 1) && (jj == NumbrIntvl)) IntgrlLngth = (T2 - Math.floor(T2)) * (T2 > Math.floor(T2)) + (T2 == Math.floor(T2));
+   else if (NumbrIntvl == 1) IntgrlLngth = T2 - T1;
+
+   cur_age_grp = Math.floor((j_intvl + 19) / 5) - 3;
+
+   h1 = BrCaCI[cur_age_grp][REN];
+   h2 = CompMort[cur_age_grp][REN];
+
+//alert('IL = ' + IntgrlLngth + ' jj = ' + jj + ' j_intvl = ' + j_intvl + ' cur_age_grp = ' + cur_age_grp + ' h1 = ' + h1 + ' h2 = ' + h2 + ' One_AR_RR = ' + One_AR_RR);
+
+
+   Hj = (h1 * One_AR_RR) + h2;
+
+   PI_j = ((One_AR_RR * h1 / Hj) * eTo(-Cum_H)) * (1 - eTo(-Hj * IntgrlLngth));
+   RskWrk = RskWrk + PI_j;
+   Cum_H = Cum_H  + Hj * IntgrlLngth;
+   }
+
+return 100 * RskWrk;
+
+}
+
+</script>
+
+<script>
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+var x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 2000);
+}
+
+function wait(ms) {
+var stime = new Date().getTime();
+for (var i = 0; i < 1e8; i++) {
+if ((new Date().getTime() - stime) > ms){
+break;
+}}}
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+Gail2018_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+Gail2018_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+var inputchktxt = '<br>&nbsp;<br><b>Important:</b> Inputs must be complete to perform calculation. <br>'
+
+
+function aDelay(atxt, ffield){
+with (document.Gail2018_form){
+clrResults();
+ffield.value = '';
+doCalc = false;
+setTimeout(function(){ alert(atxt); }, 100);
+document.getElementById('inputchk').innerHTML = inputchktxt;
+
+}}
+
+
+function Gail2018_fx() {
+
+with(document.Gail2018_form){
+
+
+doCalc = true;
+param_value = parseFloat(Age_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Age_unit.options[Age_unit.selectedIndex].value.split('|');
+Age = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+if (REN_pulldown.options[REN_pulldown.selectedIndex].value != ''){
+REN = parseFloat(REN_pulldown.options[REN_pulldown.selectedIndex].value); }
+else { doCalc = false; clrResults(); };
+rbchk = false;
+if (NBiop_radio[0].checked){ rbchk = true; NBiop = 0;  }
+if (NBiop_radio[1].checked){ rbchk = true; NBiop = 1;  }
+if (NBiop_radio[2].checked){ rbchk = true; NBiop = 2;  }
+if (NBiop_radio[3].checked){ rbchk = true; NBiop = 0;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (HyperPlasia_radio[0].checked){ rbchk = true; HyperPlasia = -0.0725707;  }
+if (HyperPlasia_radio[1].checked){ rbchk = true; HyperPlasia = 0.5988365;  }
+if (HyperPlasia_radio[2].checked){ rbchk = true; HyperPlasia = 0;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (AgeMen_radio[0].checked){ rbchk = true; AgeMen = 2;  }
+if (AgeMen_radio[1].checked){ rbchk = true; AgeMen = 1;  }
+if (AgeMen_radio[2].checked){ rbchk = true; AgeMen = 0;  }
+if (AgeMen_radio[3].checked){ rbchk = true; AgeMen = 0;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (Age1st_radio[0].checked){ rbchk = true; Age1st = 0;  }
+if (Age1st_radio[1].checked){ rbchk = true; Age1st = 1;  }
+if (Age1st_radio[2].checked){ rbchk = true; Age1st = 2;  }
+if (Age1st_radio[3].checked){ rbchk = true; Age1st = 3;  }
+if (Age1st_radio[4].checked){ rbchk = true; Age1st = 2;  }
+if (Age1st_radio[5].checked){ rbchk = true; Age1st = 0;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (NRels_radio[0].checked){ rbchk = true; NRels = 0;  }
+if (NRels_radio[1].checked){ rbchk = true; NRels = 1;  }
+if (NRels_radio[2].checked){ rbchk = true; NRels = 2;  }
+if (NRels_radio[3].checked){ rbchk = true; NRels = 0;  }
+if (!rbchk) doCalc = false;
+dp = decpts.options[decpts.selectedIndex].text;
+if (NBiop == 0){ HyperPlasia_radio[2].checked = true; HyperPlasia = 0; }
+if ((REN == 3) || (REN == 4)) if (NBiop == 2) NBiop = 1;
+if (REN == 2) if (AgeMen == 2) AgeMen = 1;
+if ((REN == 3) || (REN == 4)){
+if (Age1st == 2) Age1st = 1;
+if (Age1st == 3) Age1st = 2;
+}
+if ((REN == 3) || (REN == 4) || (REN >=6)) if (NRels == 2) NRels = 1;
+REN_Beta = REN;
+if (REN > 6) REN_Beta = 6;
+LogRR =  (NBiop * NB_data[REN_Beta]) + (AgeMen * AM_data[REN_Beta]) + (Age1st * AF_data[REN_Beta]) + (NRels * NR_data[REN_Beta]) + (Age1st * NRels * AFNR_data[REN_Beta]) + HyperPlasia;
+
+LogRR50 =  LogRR + (NBiop * A50NB_data[REN_Beta]);
+
+RRisk =  eTo(LogRR);
+
+if (doCalc) RRisk_param.value = fixDP(RRisk, dp);
+
+
+
+RRisk50 =  eTo(LogRR50);
+
+if (doCalc) RRisk50_param.value = fixDP(RRisk50, dp);
+
+
+
+if ((REN == 1) || (REN == 5)){
+R5A = absRisk(Age, Age + 5, 12, 5, RRisk, RRisk50, 1);
+RLA = absRisk(Age, 90, 12, 5, RRisk, RRisk50, 1);
+}
+else{
+R5A = absRisk(Age, Age + 5, REN, REN_Beta, RRisk, RRisk50, 1);
+RLA = absRisk(Age, 90, REN, REN_Beta, RRisk, RRisk50, 1);
+}
+R5AVG =  R5A;
+
+unit_parts = R5AVG_unit.options[R5AVG_unit.selectedIndex].value.split('|');
+if (doCalc) R5AVG_param.value = fixDP((R5AVG - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+RLAVG =  RLA;
+
+unit_parts = RLAVG_unit.options[RLAVG_unit.selectedIndex].value.split('|');
+if (doCalc) RLAVG_param.value = fixDP((RLAVG - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+Risk5 =  absRisk(Age, Age + 5, REN, REN_Beta, RRisk, RRisk50, 0);
+
+unit_parts = Risk5_unit.options[Risk5_unit.selectedIndex].value.split('|');
+if (doCalc) Risk5_param.value = fixDP((Risk5 - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+RiskLife =  absRisk(Age, 90, REN, REN_Beta, RRisk, RRisk50, 0);
+
+unit_parts = RiskLife_unit.options[RiskLife_unit.selectedIndex].value.split('|');
+if (doCalc) RiskLife_param.value = fixDP((RiskLife - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+
+
+}
+
+
+if (doCalc) document.getElementById('inputchk').innerHTML = '';
+else document.getElementById('inputchk').innerHTML = inputchktxt;
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.Gail2018_form){
+
+if (Age_param.value && isNaN(Age_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Age_param); }
+if (Age_param.value && (Age < (20 - 0.00001))) {
+Age = 0;
+ aDelay("The minimum value for Age is 20 yr.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Age_param);
+}
+
+if (Age_param.value && Age > 85) {
+Age = 0;
+ aDelay("The maximum value for Age is 85 yr.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Age_param);
+}
+
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.Gail2018_form){
+
+RRisk_param.value = '';
+RRisk50_param.value = '';
+R5AVG_param.value = '';
+RLAVG_param.value = '';
+Risk5_param.value = '';
+RiskLife_param.value = '';
+
+
+}
+
+}
+
+var Age = null,
+REN = null,
+NBiop = null,
+HyperPlasia = null,
+AgeMen = null,
+Age1st = null,
+NRels = null,
+LogRR = null,
+LogRR50 = null,
+RRisk = null,
+RRisk50 = null,
+R5AVG = null,
+RLAVG = null,
+Risk5 = null,
+RiskLife = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+<form name="Gail2018_form" id="Gail2018_form" action="#" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="Gail2018_fx();" onreset="document.getElementById('inputchk').innerHTML=inputchktxt; ">
+
+<table class="medCalcTitleBox">
+<tr><td class="al">
+<span class="medCalcFontTitleBox">
+
+ 
+Breast cancer risk assessment by Gail Model (2018)
+</span></td></tr></table><br>&nbsp;<br>
+
+<div id="calc_main">
+
+<div id="calc_input">
+
+<div class="ac">
+<span class="medCalcFontIO">
+Input
+</span>
+<br>&nbsp;<br>
+<table class="medCalcFormuliBoxWhite">
+<tr><td class="ar42"><span class="medCalcFontOneBold">Age</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Age_param"  size="6" value="" onblur="Gail2018_fx(); minMaxCheck();" onchange="Gail2018_fx();" aria-label="Use this input box to enter the value Age"></td>
+<td class="al"> <select name="Age_unit" onchange="Gail2018_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Age">
+<option value="0.0833333333333333|0|mo">mo</option>
+<option value="1|0|yr" selected="selected">yr</option>
+</select></td></tr>
+
+<tr><td class="ar"><span class="medCalcFontOneBold">Race/ethnicity/nativity (REN)</span></td>
+<td colspan="2" class="al"> &nbsp;
+<select name="REN_pulldown" onchange="Gail2018_fx();" class="medCalcFontSelect">
+<option value="">Pull down to select</option>
+<option value="1">White non-Hispanic (1)</option>
+<option value="2">African American (2)</option>
+<option value="3">Hispanic US Born (3)</option>
+<option value="4">Hispanic foreign born (4)</option>
+<option value="5"> American Indian or Alaskan native (5)</option>
+<option value="6">Chinese American (6)</option>
+<option value="7">Japanese American (7)</option>
+<option value="8">Filipino American (8)</option>
+<option value="9">Hawaiian (9)</option>
+<option value="10">Other Pacific Islander American (10)</option>
+<option value="11">Other Asian American (11)</option>
+<option value="5">Other race/ethnicity American (5)</option>
+</select></td></tr>
+<tr><td class="ar"><span class="medCalcFontOneBold">Number of prior breast biopsies (NBiop)</span></td>
+<td colspan="2" class="al"><input type="radio" name="NBiop_radio" id="togel1" value="No biopsies|0" onclick="Gail2018_fx();" aria-label="This button selects an option for the variable: Number of prior breast biopsies (NBiop). The variable option is No biopsies. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel1');"> No biopsies (0)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="NBiop_radio" id="togel2" value="1 biopsy|1" onclick="Gail2018_fx();" aria-label="This button selects an option for the variable: Number of prior breast biopsies (NBiop). The variable option is 1 biopsy. The value for this variable is 1"><span class="medCalcFontOneClick" onclick="setRB('togel2');"> 1 biopsy (1)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="NBiop_radio" id="togel3" value="2 or more biopsies|2" onclick="Gail2018_fx();" aria-label="This button selects an option for the variable: Number of prior breast biopsies (NBiop). The variable option is 2 or more biopsies. The value for this variable is 2"><span class="medCalcFontOneClick" onclick="setRB('togel3');"> 2 or more biopsies (2)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="NBiop_radio" id="togel4" value="Unknown|0" onclick="Gail2018_fx();" aria-label="This button selects an option for the variable: Number of prior breast biopsies (NBiop). The variable option is Unknown. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel4');"> Unknown (0)</span></td></tr>
+<tr><td class="ar"><span class="medCalcFontOneBold">Biopsies with atypical hyperplasia (HyperPlasia)</span></td>
+<td colspan="2" class="al"><input type="radio" name="HyperPlasia_radio" id="togel5" value="No|-0.0725707" onclick="Gail2018_fx();" aria-label="This button selects an option for the variable: Biopsies with atypical hyperplasia (HyperPlasia). The variable option is No. The value for this variable is -0.0725707"><span class="medCalcFontOneClick" onclick="setRB('togel5');"> No <span style="white-space: nowrap;">(-0.0725707)</span></span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="HyperPlasia_radio" id="togel6" value="Yes|0.5988365" onclick="Gail2018_fx();" aria-label="This button selects an option for the variable: Biopsies with atypical hyperplasia (HyperPlasia). The variable option is Yes. The value for this variable is 0.5988365"><span class="medCalcFontOneClick" onclick="setRB('togel6');"> Yes (0.5988365)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="HyperPlasia_radio" id="togel7" value="Unknown|0" onclick="Gail2018_fx();" aria-label="This button selects an option for the variable: Biopsies with atypical hyperplasia (HyperPlasia). The variable option is Unknown. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel7');"> Unknown (0)</span></td></tr>
+<tr><td class="ar"><span class="medCalcFontOneBold">Age at menarche (AgeMen)</span></td>
+<td colspan="2" class="al"><input type="radio" name="AgeMen_radio" id="togel8" value="7 to 11 years old|2" onclick="Gail2018_fx();" aria-label="This button selects an option for the variable: Age at menarche (AgeMen). The variable option is 7 to 11 years old. The value for this variable is 2"><span class="medCalcFontOneClick" onclick="setRB('togel8');"> 7 to 11 years old (2)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="AgeMen_radio" id="togel9" value="12 to 13 years old|1" onclick="Gail2018_fx();" aria-label="This button selects an option for the variable: Age at menarche (AgeMen). The variable option is 12 to 13 years old. The value for this variable is 1"><span class="medCalcFontOneClick" onclick="setRB('togel9');"> 12 to 13 years old (1)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="AgeMen_radio" id="togel10" value="14 years or older|0" onclick="Gail2018_fx();" aria-label="This button selects an option for the variable: Age at menarche (AgeMen). The variable option is 14 years or older. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel10');"> 14 years or older (0)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="AgeMen_radio" id="togel11" value="Unknown|0" onclick="Gail2018_fx();" aria-label="This button selects an option for the variable: Age at menarche (AgeMen). The variable option is Unknown. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel11');"> Unknown (0)</span></td></tr>
+<tr><td class="ar"><span class="medCalcFontOneBold">Age at first live birth (Age1st)</span></td>
+<td colspan="2" class="al"><input type="radio" name="Age1st_radio" id="togel12" value="&lt;20 years old|0" onclick="Gail2018_fx();" aria-label="This button selects an option for the variable: Age at first live birth (Age1st). The variable option is &lt;20 years old. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel12');"> &lt;20 years old (0)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="Age1st_radio" id="togel13" value="20 to 24 years old|1" onclick="Gail2018_fx();" aria-label="This button selects an option for the variable: Age at first live birth (Age1st). The variable option is 20 to 24 years old. The value for this variable is 1"><span class="medCalcFontOneClick" onclick="setRB('togel13');"> 20 to 24 years old (1)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="Age1st_radio" id="togel14" value="25 to 29 years old|2" onclick="Gail2018_fx();" aria-label="This button selects an option for the variable: Age at first live birth (Age1st). The variable option is 25 to 29 years old. The value for this variable is 2"><span class="medCalcFontOneClick" onclick="setRB('togel14');"> 25 to 29 years old (2)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="Age1st_radio" id="togel15" value="30 or more years old|3" onclick="Gail2018_fx();" aria-label="This button selects an option for the variable: Age at first live birth (Age1st). The variable option is 30 or more years old. The value for this variable is 3"><span class="medCalcFontOneClick" onclick="setRB('togel15');"> 30 or more years old (3)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="Age1st_radio" id="togel16" value="Nulliparous|2" onclick="Gail2018_fx();" aria-label="This button selects an option for the variable: Age at first live birth (Age1st). The variable option is Nulliparous. The value for this variable is 2"><span class="medCalcFontOneClick" onclick="setRB('togel16');"> Nulliparous (2)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="Age1st_radio" id="togel17" value="Unknown|0" onclick="Gail2018_fx();" aria-label="This button selects an option for the variable: Age at first live birth (Age1st). The variable option is Unknown. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel17');"> Unknown (0)</span></td></tr>
+<tr><td class="ar"><span class="medCalcFontOneBold">First-degree relatives with breast cancer (NRels)</span></td>
+<td colspan="2" class="al"><input type="radio" name="NRels_radio" id="togel18" value="None|0" onclick="Gail2018_fx();" aria-label="This button selects an option for the variable: First-degree relatives with breast cancer (NRels). The variable option is None. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel18');"> None (0)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="NRels_radio" id="togel19" value="1 relative|1" onclick="Gail2018_fx();" aria-label="This button selects an option for the variable: First-degree relatives with breast cancer (NRels). The variable option is 1 relative. The value for this variable is 1"><span class="medCalcFontOneClick" onclick="setRB('togel19');"> 1 relative (1)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="NRels_radio" id="togel20" value="2 or more relatives|2" onclick="Gail2018_fx();" aria-label="This button selects an option for the variable: First-degree relatives with breast cancer (NRels). The variable option is 2 or more relatives. The value for this variable is 2"><span class="medCalcFontOneClick" onclick="setRB('togel20');"> 2 or more relatives (2)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="NRels_radio" id="togel21" value="Unknown|0" onclick="Gail2018_fx();" aria-label="This button selects an option for the variable: First-degree relatives with breast cancer (NRels). The variable option is Unknown. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel21');"> Unknown (0)</span></td></tr>
+
+</table>
+
+</div>
+
+
+</div>
+<br>&nbsp;<br>
+<div id="calc_result">
+<div class="ac"><span class="medCalcFontIO">Results<span id="inputchk" class="medCalcFontOne"><br>&nbsp;<br><b>Important:</b> Inputs must be complete to perform calculation. <br></span></span>
+
+<br>&nbsp;<br>
+<table class="medCalcFormuliBox">
+<tr><td colspan="3">&nbsp;<br></td></tr>
+<tr>
+<td class="ar"><span class="medCalcFontResultParam">Relative risk when less than 50 years old</span></td>
+<td class="alnw">&nbsp; <input type="text" name="RRisk_param" class="resultBold" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Relative risk when less than 50 years old"></td>
+<td>&nbsp;</td></tr>
+
+<tr>
+<td class="ar"><span class="medCalcFontResultParam">Relative risk when 50 or more years old</span></td>
+<td class="alnw">&nbsp; <input type="text" name="RRisk50_param" class="resultBold" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Relative risk when 50 or more years old"></td>
+<td>&nbsp;</td></tr>
+
+<tr><td colspan="3"><br>&nbsp;<br></td></tr>
+<tr>
+<td class="ar"><span class="medCalcFontResultParam">Average 5-year risk of breast cancer</span></td>
+<td class="alnw">&nbsp; <input type="text" name="R5AVG_param" class="resultBold" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Average 5-year risk of breast cancer"></td>
+<td class="al"><span class="medCalcFontResultParam">
+<select name="R5AVG_unit" onchange="Gail2018_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Average 5-year risk of breast cancer">
+<option value="1|0|%" selected="selected">%</option>
+<option value="100|0|fraction">fraction</option>
+<option value="1|0|percent">percent</option>
+<option value="100|0|rate">rate</option>
+<option value="100|0|ratio">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td class="ar"><span class="medCalcFontResultParam">Average lifetime risk of breast cancer</span></td>
+<td class="alnw">&nbsp; <input type="text" name="RLAVG_param" class="resultBold" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Average lifetime risk of breast cancer"></td>
+<td class="al"><span class="medCalcFontResultParam">
+<select name="RLAVG_unit" onchange="Gail2018_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Average lifetime risk of breast cancer">
+<option value="1|0|%" selected="selected">%</option>
+<option value="100|0|fraction">fraction</option>
+<option value="1|0|percent">percent</option>
+<option value="100|0|rate">rate</option>
+<option value="100|0|ratio">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr><td colspan="3"><br>&nbsp;<br></td></tr>
+<tr>
+<td class="ar"><span class="medCalcFontResultParam">Patient 5-year risk of breast cancer</span></td>
+<td class="alnw">&nbsp; <input type="text" name="Risk5_param" class="resultBold" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Patient 5-year risk of breast cancer"></td>
+<td class="al"><span class="medCalcFontResultParam">
+<select name="Risk5_unit" onchange="Gail2018_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Patient 5-year risk of breast cancer">
+<option value="1|0|%" selected="selected">%</option>
+<option value="100|0|fraction">fraction</option>
+<option value="1|0|percent">percent</option>
+<option value="100|0|rate">rate</option>
+<option value="100|0|ratio">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td class="ar"><span class="medCalcFontResultParam">Patient lifetime risk of breast cancer</span></td>
+<td class="alnw">&nbsp; <input type="text" name="RiskLife_param" class="resultBold" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Patient lifetime risk of breast cancer"></td>
+<td class="al"><span class="medCalcFontResultParam">
+<select name="RiskLife_unit" onchange="Gail2018_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Patient lifetime risk of breast cancer">
+<option value="1|0|%" selected="selected">%</option>
+<option value="100|0|fraction">fraction</option>
+<option value="1|0|percent">percent</option>
+<option value="100|0|rate">rate</option>
+<option value="100|0|ratio">ratio</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br></td></tr>
+<tr><td colspan="3" class="ac"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="Gail2018_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option>1</option>
+<option selected="selected">2</option>
+<option>3</option>
+
+</select><br>&nbsp;<br></td></tr>
+</table>
+</div>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+<br>&nbsp;<br>
+<div id="calc_hints">
+<span class="medCalcFontOne">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</span>
+ 
+</div>
+
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br>&nbsp;<br>
+
+<div id="calc_notes">
+<span class="medCalcFontRef"><b>Notes</b></span>
+<ul class="medCalcFontOne">
+<li>This calculator is not appropriate for woman with  history of  breast cancer,  ductal carcinoma in situ (DCIS), lobular carcinoma in situ (LCIS), or previous radiation therapy to the chest for treatment of Hodgkin lymphoma.</li>
+<li>It is also not appropriate for woman with  mutation in either the BRCA1 or BRCA2 gene, or genetic syndrome that may be  associated with elevated risk of breast cancer.</li>
+<li><b>First-degree relatives</b> are mother, sisters, and daughters.</li>
+<li class="parentNote">The risk codes above (e.g. 0 for "<b>NBiop</b>") are based on data for non Hispanic white women.  Some recoding is done for other groups:
+<ul class="childNoteList">
+<li class="childNote"> For US born and foreign born Hispanic women, <b>NBiop</b> remains coded as 0 for no biopsies and <b>NBiop</b> is recoded to 1 for 1 or more biopsies.  For the <b>Age1st</b> risk factor in the Hispanic groups 19 years and younger remains coded as 0; 20 to 29 years is recoded to 1; 30+ years or nulliparous is recoded to 2.</li>
+<li class="childNote"> For African-American women  <b>AgeMen</b> &le;11 are grouped with <b>AgeMen</b> = 12 or 13.</li>
+<li class="childNote"> For Asian-Americans, US born and foreign born Hispanic women <b>NRels</b> 0 remains coded as 0; for 1 or more first degree relatives with breast cancer  <b>NRels</b> is recoded to 1.</li>
+<li class="childNote"> For non Hispanic white women and Native American women, average 5-year and lifetime absolute risk calculations use the <b>WhiteAvg</b>  cancer incidence  data (<b>h1</b>) and competing mortality data (<b>h2</b>).  Average risk calculations for all other groups use there own  cancer incidence data (<b>h1</b>) and competing mortality data (<b>h2</b>).</li>
+</ul></li>
+
+
+</ul>
+</div>
+
+<br>&nbsp;<br>
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br>&nbsp;<br>
+<div class="ac">
+<div id="calc_equation">
+<table class="medCalcFormuliBox"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">LogRR= (NBiop * NBdata[RENBeta]) + (AgeMen * AMdata[RENBeta]) + (Age1st * AFdata[RENBeta]) + (NRels * NRdata[RENBeta]) + (Age1st * NRels * AFNRdata[RENBeta]) + HyperPlasia</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">LogRR50 = LogRR + (NBiop * A50NBdata[RENBeta])</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">RRisk = e<sup>(LogRR)</sup></span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">RRisk50 = e<sup>(LogRR50)</sup></span></td></tr></table><br>&nbsp;<br>
+</div> </div>
+<br>&nbsp;<br>
+<div id="calc_details_and_variables">
+<span class="medCalcFontRef"><b>Calculation Details and Variables</b></span>
+<ul class="medCalcFontOne">
+<li>Equation parameters such as <b>Number of prior breast biopsies (NBiop)</b>, have two or more discrete values that may be used in the calculation. The numbers in the parentheses, e.g.  (0), represent the values that will be used.</li>
+<li><b>REN</b>: Race-Ethnicity-Nativity codes;  T1 is the age at start of risk interval (typically current age); T2 is the age at end of risk interval; T2 is set to 90 years old for lifetime risk calculation. </li>
+<li>REN_Beta = <b>REN</b> when <b>REN</b> is &le;6.  For <b>REN</b> &gt;6 REN_Beta is set to 6.</li>
+<li>NumbrIntvl =  T2(rounded up) - T1(rounded down)</li>
+<li>Absolute risk is calculated by looping through the next steps with index jj spanning jj = 1 to jj = NumbrIntvl:<ul> <li>if ((NumbrIntvl &gt;1) and (jj &gt;1) and (jj &lt;NumbrIntvl)) IntgrlLngth = 1</li> <li>else if ((NumbrIntvl &gt;1) and (jj = 1)) IntgrlLngth = 1 - (T1 - T1(rounded down))</li> <li>else if ((NumbrIntvl &gt;1) and (jj = NumbrIntvl)) IntgrlLngth = (T2 - T2(rounded down)) * (T2 &gt;T2(rounded down)) + (T2 = T2(rounded down))</li> <li>else if (NumbrIntvl = 1) IntgrlLngth = T2 - T1</li> <li>ARxRR = AR50[age category above or below 50][REN_Beta] * Relative Risk[age category above or below 50]</li> <li>Hj = (h1 * ARxRR) + h2 where h1 and h2 are the AgeGrp-REN coefficients from the h1 and h2 tables below</li> <li>PIj = ((ARxRR * h1 / Hj) * e<sup>(-CumulativeH)</sup>) * (1 - e<sup>(-Hj * IntgrlLngth)</sup>)</li> <li>CumulativeH = CumulativeH  + Hj * IntgrlLngth</li> <li>RskWrk = RskWrk + PIj</li></ul></li>
+<li>When the loop is complete, the final risk percentage is: 100 * RskWrk</li>
+<li>Average risks are calculated by ignoring the patient relative risks, and setting ARxRR to 1 in the loop above.</li>
+
+</ul>
+</div>
+
+
+<div id="calc_tables">
+<br>&nbsp;<br>
+<span class="medCalcFontRef"><b>Natural Log Relative Risk Factors (Beta coefficients)</b></span>
+<br>&nbsp;<br>
+<div class="ac">
+<table class="tableb1p4c">
+
+<tr id="T1HR">
+<th id="T1HR_C1"> Variable</th><th id="T1HR_C2">White</th><th id="T1HR_C3">AfrnAmrcn</th><th id="T1HR_C4">HispUSBorn</th><th id="T1HR_C5">HispForgnBorn</th><th id="T1HR_C6">NativAmrcn</th><th id="T1HR_C7">AsianAmrcn</th></tr>
+<tr><td class="ac" id="T1CellR1C1"><div id="T1R1C1"> NBiop</div></td><td class="ac" id="T1CellR1C2"><div id="T1R1C2">0.529264</div></td><td class="ac" id="T1CellR1C3"><div id="T1R1C3">0.182212</div></td><td class="ac" id="T1CellR1C4"><div id="T1R1C4">0.097078</div></td><td class="ac" id="T1CellR1C5"><div id="T1R1C5">0.479862</div></td><td class="ac" id="T1CellR1C6"><div id="T1R1C6">0.529264</div></td><td class="ac" id="T1CellR1C7"><div id="T1R1C7">0.552636</div></td></tr>
+<tr><td class="ac" id="T1CellR2C1"><div id="T1R2C1"> AgeMen</div></td><td class="ac" id="T1CellR2C2"><div id="T1R2C2">0.094010</div></td><td class="ac" id="T1CellR2C3"><div id="T1R2C3">0.267253</div></td><td class="ac" id="T1CellR2C4"><div id="T1R2C4">0</div></td><td class="ac" id="T1CellR2C5"><div id="T1R2C5">0.259392</div></td><td class="ac" id="T1CellR2C6"><div id="T1R2C6">0.094010</div></td><td class="ac" id="T1CellR2C7"><div id="T1R2C7">0.074993</div></td></tr>
+<tr><td class="ac" id="T1CellR3C1"><div id="T1R3C1"> Age1st</div></td><td class="ac" id="T1CellR3C2"><div id="T1R3C2">0.218626</div></td><td class="ac" id="T1CellR3C3"><div id="T1R3C3">0</div></td><td class="ac" id="T1CellR3C4"><div id="T1R3C4">0.231837</div></td><td class="ac" id="T1CellR3C5"><div id="T1R3C5">0.466925</div></td><td class="ac" id="T1CellR3C6"><div id="T1R3C6">0.218626</div></td><td class="ac" id="T1CellR3C7"><div id="T1R3C7">0.276383</div></td></tr>
+<tr><td class="ac" id="T1CellR4C1"><div id="T1R4C1"> NRels</div></td><td class="ac" id="T1CellR4C2"><div id="T1R4C2">0.958303</div></td><td class="ac" id="T1CellR4C3"><div id="T1R4C3">0.475724</div></td><td class="ac" id="T1CellR4C4"><div id="T1R4C4">0.166685</div></td><td class="ac" id="T1CellR4C5"><div id="T1R4C5">0.907668</div></td><td class="ac" id="T1CellR4C6"><div id="T1R4C6">0.958303</div></td><td class="ac" id="T1CellR4C7"><div id="T1R4C7">0.791856</div></td></tr>
+<tr><td class="ac" id="T1CellR5C1"><div id="T1R5C1"> A50*NBiop</div></td><td class="ac" id="T1CellR5C2"><div id="T1R5C2">-0.288042</div></td><td class="ac" id="T1CellR5C3"><div id="T1R5C3">-0.111941</div></td><td class="ac" id="T1CellR5C4"><div id="T1R5C4">0</div></td><td class="ac" id="T1CellR5C5"><div id="T1R5C5">0</div></td><td class="ac" id="T1CellR5C6"><div id="T1R5C6">-0.288042</div></td><td class="ac" id="T1CellR5C7"><div id="T1R5C7">0</div></td></tr>
+<tr><td class="ac" id="T1CellR6C1"><div id="T1R6C1"> Age1st*NRels</div></td><td class="ac" id="T1CellR6C2"><div id="T1R6C2">-0.190811</div></td><td class="ac" id="T1CellR6C3"><div id="T1R6C3">0</div></td><td class="ac" id="T1CellR6C4"><div id="T1R6C4">0</div></td><td class="ac" id="T1CellR6C5"><div id="T1R6C5">0</div></td><td class="ac" id="T1CellR6C6"><div id="T1R6C6">-0.190811</div></td><td class="ac" id="T1CellR6C7"><div id="T1R6C7">0</div></td></tr>
+</table></div>
+<br>&nbsp;<br>
+<span class="medCalcFontRef"><b>Attributable Risk (AR50 coefficients)</b></span>
+<br>&nbsp;<br>
+<div class="ac">
+<table class="tableb1p4c">
+
+<tr id="T2HR">
+<th id="T2HR_C1"> Age</th><th id="T2HR_C2">White</th><th id="T2HR_C3">AfrnAmrcn</th><th id="T2HR_C4">HispUSBorn</th><th id="T2HR_C5">HispForgnBorn</th><th id="T2HR_C6">NativAmrcn</th><th id="T2HR_C7">AsianAmrcn</th></tr>
+<tr><td class="ac" id="T2CellR1C1"><div id="T2R1C1"> Age &lt;50</div></td><td class="ac" id="T2CellR1C2"><div id="T2R1C2">0.578841</div></td><td class="ac" id="T2CellR1C3"><div id="T2R1C3">0.729499</div></td><td class="ac" id="T2CellR1C4"><div id="T2R1C4">0.749295</div></td><td class="ac" id="T2CellR1C5"><div id="T2R1C5">0.428865</div></td><td class="ac" id="T2CellR1C6"><div id="T2R1C6">0.578841</div></td><td class="ac" id="T2CellR1C7"><div id="T2R1C7">0.475198</div></td></tr>
+<tr><td class="ac" id="T2CellR2C1"><div id="T2R2C1"> Age &ge;50</div></td><td class="ac" id="T2CellR2C2"><div id="T2R2C2">0.578841</div></td><td class="ac" id="T2CellR2C3"><div id="T2R2C3">0.743971</div></td><td class="ac" id="T2CellR2C4"><div id="T2R2C4">0.778215</div></td><td class="ac" id="T2CellR2C5"><div id="T2R2C5">0.450352</div></td><td class="ac" id="T2CellR2C6"><div id="T2R2C6">0.578841</div></td><td class="ac" id="T2CellR2C7"><div id="T2R2C7">0.503164</div></td></tr>
+</table></div>
+<br>&nbsp;<br>
+<span class="medCalcFontRef"><b>Breast Cancer Composite Incidences (h1 coefficients)</b></span>
+<br>&nbsp;<br>
+<div class="ac">
+<table class="tableb1p4c">
+
+<tr id="T3HR">
+<th id="T3HR_C1"> AgeGrp</th><th id="T3HR_C2">Ages</th><th id="T3HR_C3">White</th><th id="T3HR_C4">AfrnAmrcn</th><th id="T3HR_C5">HispUSBorn</th><th id="T3HR_C6">HispForgnBorn</th><th id="T3HR_C7">NativAmrcn</th><th id="T3HR_C8"> Chinese</th><th id="T3HR_C9">Japanese</th><th id="T3HR_C10">Filipino</th><th id="T3HR_C11">Hawaiian</th><th id="T3HR_C12">OtrPacIsl</th><th id="T3HR_C13">OtrAsian</th><th id="T3HR_C14">WhiteAvg</th></tr>
+<tr><td class="ac" id="T3CellR1C1"><div id="T3R1C1"> 1</div></td><td class="ac" id="T3CellR1C2"><div id="T3R1C2">20-24</div></td><td class="ac" id="T3CellR1C3"><div id="T3R1C3">0.0000100</div></td><td class="ac" id="T3CellR1C4"><div id="T3R1C4">0.0000270</div></td><td class="ac" id="T3CellR1C5"><div id="T3R1C5">0.0000166</div></td><td class="ac" id="T3CellR1C6"><div id="T3R1C6">0.0000102</div></td><td class="ac" id="T3CellR1C7"><div id="T3R1C7">0.0000100</div></td><td class="ac" id="T3CellR1C8"><div id="T3R1C8">0.0000041</div></td><td class="ac" id="T3CellR1C9"><div id="T3R1C9">0.0000000</div></td><td class="ac" id="T3CellR1C10"><div id="T3R1C10">0.0000075</div></td><td class="ac" id="T3CellR1C11"><div id="T3R1C11">0.0000451</div></td><td class="ac" id="T3CellR1C12"><div id="T3R1C12">0.0000000</div></td><td class="ac" id="T3CellR1C13"><div id="T3R1C13">0.0000124</div></td><td class="ac" id="T3CellR1C14"><div id="T3R1C14">0.0000122</div></td></tr>
+<tr><td class="ac" id="T3CellR2C1"><div id="T3R2C1"> 2</div></td><td class="ac" id="T3CellR2C2"><div id="T3R2C2">25-29</div></td><td class="ac" id="T3CellR2C3"><div id="T3R2C3">0.0000760</div></td><td class="ac" id="T3CellR2C4"><div id="T3R2C4">0.0001130</div></td><td class="ac" id="T3CellR2C5"><div id="T3R2C5">0.0000741</div></td><td class="ac" id="T3CellR2C6"><div id="T3R2C6">0.0000531</div></td><td class="ac" id="T3CellR2C7"><div id="T3R2C7">0.0000760</div></td><td class="ac" id="T3CellR2C8"><div id="T3R2C8">0.0000459</div></td><td class="ac" id="T3CellR2C9"><div id="T3R2C9">0.0000995</div></td><td class="ac" id="T3CellR2C10"><div id="T3R2C10">0.0000811</div></td><td class="ac" id="T3CellR2C11"><div id="T3R2C11">0.0000986</div></td><td class="ac" id="T3CellR2C12"><div id="T3R2C12">0.0000715</div></td><td class="ac" id="T3CellR2C13"><div id="T3R2C13">0.0000595</div></td><td class="ac" id="T3CellR2C14"><div id="T3R2C14">0.0000741</div></td></tr>
+<tr><td class="ac" id="T3CellR3C1"><div id="T3R3C1"> 3</div></td><td class="ac" id="T3CellR3C2"><div id="T3R3C2">30-34</div></td><td class="ac" id="T3CellR3C3"><div id="T3R3C3">0.0002660</div></td><td class="ac" id="T3CellR3C4"><div id="T3R3C4">0.0003109</div></td><td class="ac" id="T3CellR3C5"><div id="T3R3C5">0.0002740</div></td><td class="ac" id="T3CellR3C6"><div id="T3R3C6">0.0001578</div></td><td class="ac" id="T3CellR3C7"><div id="T3R3C7">0.0002660</div></td><td class="ac" id="T3CellR3C8"><div id="T3R3C8">0.0001883</div></td><td class="ac" id="T3CellR3C9"><div id="T3R3C9">0.0002870</div></td><td class="ac" id="T3CellR3C10"><div id="T3R3C10">0.0002275</div></td><td class="ac" id="T3CellR3C11"><div id="T3R3C11">0.0003400</div></td><td class="ac" id="T3CellR3C12"><div id="T3R3C12">0.0002888</div></td><td class="ac" id="T3CellR3C13"><div id="T3R3C13">0.0001843</div></td><td class="ac" id="T3CellR3C14"><div id="T3R3C14">0.0002297</div></td></tr>
+<tr><td class="ac" id="T3CellR4C1"><div id="T3R4C1"> 4</div></td><td class="ac" id="T3CellR4C2"><div id="T3R4C2">35-39</div></td><td class="ac" id="T3CellR4C3"><div id="T3R4C3">0.0006610</div></td><td class="ac" id="T3CellR4C4"><div id="T3R4C4">0.0006764</div></td><td class="ac" id="T3CellR4C5"><div id="T3R4C5">0.0006099</div></td><td class="ac" id="T3CellR4C6"><div id="T3R4C6">0.0003602</div></td><td class="ac" id="T3CellR4C7"><div id="T3R4C7">0.0006610</div></td><td class="ac" id="T3CellR4C8"><div id="T3R4C8">0.0004929</div></td><td class="ac" id="T3CellR4C9"><div id="T3R4C9">0.0005453</div></td><td class="ac" id="T3CellR4C10"><div id="T3R4C10">0.0005498</div></td><td class="ac" id="T3CellR4C11"><div id="T3R4C11">0.0008526</div></td><td class="ac" id="T3CellR4C12"><div id="T3R4C12">0.0006023</div></td><td class="ac" id="T3CellR4C13"><div id="T3R4C13">0.0004547</div></td><td class="ac" id="T3CellR4C14"><div id="T3R4C14">0.0005649</div></td></tr>
+<tr><td class="ac" id="T3CellR5C1"><div id="T3R5C1"> 5</div></td><td class="ac" id="T3CellR5C2"><div id="T3R5C2">40-44</div></td><td class="ac" id="T3CellR5C3"><div id="T3R5C3">0.0012650</div></td><td class="ac" id="T3CellR5C4"><div id="T3R5C4">0.0011944</div></td><td class="ac" id="T3CellR5C5"><div id="T3R5C5">0.0012225</div></td><td class="ac" id="T3CellR5C6"><div id="T3R5C6">0.0007617</div></td><td class="ac" id="T3CellR5C7"><div id="T3R5C7">0.0012650</div></td><td class="ac" id="T3CellR5C8"><div id="T3R5C8">0.0009136</div></td><td class="ac" id="T3CellR5C9"><div id="T3R5C9">0.0011522</div></td><td class="ac" id="T3CellR5C10"><div id="T3R5C10">0.0011294</div></td><td class="ac" id="T3CellR5C11"><div id="T3R5C11">0.0016686</div></td><td class="ac" id="T3CellR5C12"><div id="T3R5C12">0.0007556</div></td><td class="ac" id="T3CellR5C13"><div id="T3R5C13">0.0007913</div></td><td class="ac" id="T3CellR5C14"><div id="T3R5C14">0.0011645</div></td></tr>
+<tr><td class="ac" id="T3CellR6C1"><div id="T3R6C1"> 6</div></td><td class="ac" id="T3CellR6C2"><div id="T3R6C2">45-49</div></td><td class="ac" id="T3CellR6C3"><div id="T3R6C3">0.0018660</div></td><td class="ac" id="T3CellR6C4"><div id="T3R6C4">0.0018739</div></td><td class="ac" id="T3CellR6C5"><div id="T3R6C5">0.0019027</div></td><td class="ac" id="T3CellR6C6"><div id="T3R6C6">0.0011599</div></td><td class="ac" id="T3CellR6C7"><div id="T3R6C7">0.0018660</div></td><td class="ac" id="T3CellR6C8"><div id="T3R6C8">0.0014715</div></td><td class="ac" id="T3CellR6C9"><div id="T3R6C9">0.0018592</div></td><td class="ac" id="T3CellR6C10"><div id="T3R6C10">0.0018139</div></td><td class="ac" id="T3CellR6C11"><div id="T3R6C11">0.0025527</div></td><td class="ac" id="T3CellR6C12"><div id="T3R6C12">0.0007664</div></td><td class="ac" id="T3CellR6C13"><div id="T3R6C13">0.0010485</div></td><td class="ac" id="T3CellR6C14"><div id="T3R6C14">0.0019525</div></td></tr>
+<tr><td class="ac" id="T3CellR7C1"><div id="T3R7C1"> 7</div></td><td class="ac" id="T3CellR7C2"><div id="T3R7C2">50-54</div></td><td class="ac" id="T3CellR7C3"><div id="T3R7C3">0.0022110</div></td><td class="ac" id="T3CellR7C4"><div id="T3R7C4">0.0024150</div></td><td class="ac" id="T3CellR7C5"><div id="T3R7C5">0.0023142</div></td><td class="ac" id="T3CellR7C6"><div id="T3R7C6">0.0014111</div></td><td class="ac" id="T3CellR7C7"><div id="T3R7C7">0.0022110</div></td><td class="ac" id="T3CellR7C8"><div id="T3R7C8">0.0014213</div></td><td class="ac" id="T3CellR7C9"><div id="T3R7C9">0.0026063</div></td><td class="ac" id="T3CellR7C10"><div id="T3R7C10">0.0022237</div></td><td class="ac" id="T3CellR7C11"><div id="T3R7C11">0.0033218</div></td><td class="ac" id="T3CellR7C12"><div id="T3R7C12">0.0018931</div></td><td class="ac" id="T3CellR7C13"><div id="T3R7C13">0.0013725</div></td><td class="ac" id="T3CellR7C14"><div id="T3R7C14">0.0026154</div></td></tr>
+<tr><td class="ac" id="T3CellR8C1"><div id="T3R8C1"> 8</div></td><td class="ac" id="T3CellR8C2"><div id="T3R8C2">55-59</div></td><td class="ac" id="T3CellR8C3"><div id="T3R8C3">0.0027210</div></td><td class="ac" id="T3CellR8C4"><div id="T3R8C4">0.0029111</div></td><td class="ac" id="T3CellR8C5"><div id="T3R8C5">0.0028357</div></td><td class="ac" id="T3CellR8C6"><div id="T3R8C6">0.0017245</div></td><td class="ac" id="T3CellR8C7"><div id="T3R8C7">0.0027210</div></td><td class="ac" id="T3CellR8C8"><div id="T3R8C8">0.0019709</div></td><td class="ac" id="T3CellR8C9"><div id="T3R8C9">0.0032218</div></td><td class="ac" id="T3CellR8C10"><div id="T3R8C10">0.0026803</div></td><td class="ac" id="T3CellR8C11"><div id="T3R8C11">0.0053730</div></td><td class="ac" id="T3CellR8C12"><div id="T3R8C12">0.0023656</div></td><td class="ac" id="T3CellR8C13"><div id="T3R8C13">0.0014955</div></td><td class="ac" id="T3CellR8C14"><div id="T3R8C14">0.0030279</div></td></tr>
+<tr><td class="ac" id="T3CellR9C1"><div id="T3R9C1"> 9</div></td><td class="ac" id="T3CellR9C2"><div id="T3R9C2">60-64</div></td><td class="ac" id="T3CellR9C3"><div id="T3R9C3">0.0033480</div></td><td class="ac" id="T3CellR9C4"><div id="T3R9C4">0.0031013</div></td><td class="ac" id="T3CellR9C5"><div id="T3R9C5">0.0031144</div></td><td class="ac" id="T3CellR9C6"><div id="T3R9C6">0.0020619</div></td><td class="ac" id="T3CellR9C7"><div id="T3R9C7">0.0033480</div></td><td class="ac" id="T3CellR9C8"><div id="T3R9C8">0.0016747</div></td><td class="ac" id="T3CellR9C9"><div id="T3R9C9">0.0040070</div></td><td class="ac" id="T3CellR9C10"><div id="T3R9C10">0.0028912</div></td><td class="ac" id="T3CellR9C11"><div id="T3R9C11">0.0052378</div></td><td class="ac" id="T3CellR9C12"><div id="T3R9C12">0.0028439</div></td><td class="ac" id="T3CellR9C13"><div id="T3R9C13">0.0016467</div></td><td class="ac" id="T3CellR9C14"><div id="T3R9C14">0.0036757</div></td></tr>
+<tr><td class="ac" id="T3CellR10C1"><div id="T3R10C1"> 10</div></td><td class="ac" id="T3CellR10C2"><div id="T3R10C2">65-69</div></td><td class="ac" id="T3CellR10C3"><div id="T3R10C3">0.0039230</div></td><td class="ac" id="T3CellR10C4"><div id="T3R10C4">0.0036656</div></td><td class="ac" id="T3CellR10C5"><div id="T3R10C5">0.0030794</div></td><td class="ac" id="T3CellR10C6"><div id="T3R10C6">0.0023603</div></td><td class="ac" id="T3CellR10C7"><div id="T3R10C7">0.0039230</div></td><td class="ac" id="T3CellR10C8"><div id="T3R10C8">0.0018216</div></td><td class="ac" id="T3CellR10C9"><div id="T3R10C9">0.0035217</div></td><td class="ac" id="T3CellR10C10"><div id="T3R10C10">0.0025344</div></td><td class="ac" id="T3CellR10C11"><div id="T3R10C11">0.0055817</div></td><td class="ac" id="T3CellR10C12"><div id="T3R10C12">0.0029209</div></td><td class="ac" id="T3CellR10C13"><div id="T3R10C13">0.0014784</div></td><td class="ac" id="T3CellR10C14"><div id="T3R10C14">0.0042029</div></td></tr>
+<tr><td class="ac" id="T3CellR11C1"><div id="T3R11C1"> 11</div></td><td class="ac" id="T3CellR11C2"><div id="T3R11C2">70-74</div></td><td class="ac" id="T3CellR11C3"><div id="T3R11C3">0.0041780</div></td><td class="ac" id="T3CellR11C4"><div id="T3R11C4">0.0039313</div></td><td class="ac" id="T3CellR11C5"><div id="T3R11C5">0.0033344</div></td><td class="ac" id="T3CellR11C6"><div id="T3R11C6">0.0025575</div></td><td class="ac" id="T3CellR11C7"><div id="T3R11C7">0.0041780</div></td><td class="ac" id="T3CellR11C8"><div id="T3R11C8">0.0018345</div></td><td class="ac" id="T3CellR11C9"><div id="T3R11C9">0.0035930</div></td><td class="ac" id="T3CellR11C10"><div id="T3R11C10">0.0024572</div></td><td class="ac" id="T3CellR11C11"><div id="T3R11C11">0.0056774</div></td><td class="ac" id="T3CellR11C12"><div id="T3R11C12">0.0023304</div></td><td class="ac" id="T3CellR11C13"><div id="T3R11C13">0.0012160</div></td><td class="ac" id="T3CellR11C14"><div id="T3R11C14">0.0047308</div></td></tr>
+<tr><td class="ac" id="T3CellR12C1"><div id="T3R12C1"> 12</div></td><td class="ac" id="T3CellR12C2"><div id="T3R12C2">75-79</div></td><td class="ac" id="T3CellR12C3"><div id="T3R12C3">0.0044390</div></td><td class="ac" id="T3CellR12C4"><div id="T3R12C4">0.0040895</div></td><td class="ac" id="T3CellR12C5"><div id="T3R12C5">0.0035082</div></td><td class="ac" id="T3CellR12C6"><div id="T3R12C6">0.0028227</div></td><td class="ac" id="T3CellR12C7"><div id="T3R12C7">0.0044390</div></td><td class="ac" id="T3CellR12C8"><div id="T3R12C8">0.0019199</div></td><td class="ac" id="T3CellR12C9"><div id="T3R12C9">0.0035893</div></td><td class="ac" id="T3CellR12C10"><div id="T3R12C10">0.0022866</div></td><td class="ac" id="T3CellR12C11"><div id="T3R12C11">0.0065134</div></td><td class="ac" id="T3CellR12C12"><div id="T3R12C12">0.0020363</div></td><td class="ac" id="T3CellR12C13"><div id="T3R12C13">0.0010677</div></td><td class="ac" id="T3CellR12C14"><div id="T3R12C14">0.0049425</div></td></tr>
+<tr><td class="ac" id="T3CellR13C1"><div id="T3R13C1"> 13</div></td><td class="ac" id="T3CellR13C2"><div id="T3R13C2">80-84</div></td><td class="ac" id="T3CellR13C3"><div id="T3R13C3">0.0044210</div></td><td class="ac" id="T3CellR13C4"><div id="T3R13C4">0.0039679</div></td><td class="ac" id="T3CellR13C5"><div id="T3R13C5">0.0025308</div></td><td class="ac" id="T3CellR13C6"><div id="T3R13C6">0.0028295</div></td><td class="ac" id="T3CellR13C7"><div id="T3R13C7">0.0044210</div></td><td class="ac" id="T3CellR13C8"><div id="T3R13C8">0.0022334</div></td><td class="ac" id="T3CellR13C9"><div id="T3R13C9">0.0035385</div></td><td class="ac" id="T3CellR13C10"><div id="T3R13C10">0.0018148</div></td><td class="ac" id="T3CellR13C11"><div id="T3R13C11">0.0038895</div></td><td class="ac" id="T3CellR13C12"><div id="T3R13C12">0.0014827</div></td><td class="ac" id="T3CellR13C13"><div id="T3R13C13">0.0013761</div></td><td class="ac" id="T3CellR13C14"><div id="T3R13C14">0.0047976</div></td></tr>
+<tr><td class="ac" id="T3CellR14C1"><div id="T3R14C1"> 14</div></td><td class="ac" id="T3CellR14C2"><div id="T3R14C2">85-89</div></td><td class="ac" id="T3CellR14C3"><div id="T3R14C3">0.0041090</div></td><td class="ac" id="T3CellR14C4"><div id="T3R14C4">0.0036371</div></td><td class="ac" id="T3CellR14C5"><div id="T3R14C5">0.0020414</div></td><td class="ac" id="T3CellR14C6"><div id="T3R14C6">0.0025868</div></td><td class="ac" id="T3CellR14C7"><div id="T3R14C7">0.0041090</div></td><td class="ac" id="T3CellR14C8"><div id="T3R14C8">0.0022473</div></td><td class="ac" id="T3CellR14C9"><div id="T3R14C9">0.0020516</div></td><td class="ac" id="T3CellR14C10"><div id="T3R14C10">0.0017509</div></td><td class="ac" id="T3CellR14C11"><div id="T3R14C11">0.0029491</div></td><td class="ac" id="T3CellR14C12"><div id="T3R14C12">0.0010122</div></td><td class="ac" id="T3CellR14C13"><div id="T3R14C13">0.0006616</div></td><td class="ac" id="T3CellR14C14"><div id="T3R14C14">0.0040106</div></td></tr>
+</table></div>
+<br>&nbsp;<br>
+<span class="medCalcFontRef"><b>Competing Mortality Excluding Breast Cancer (h2 coefficients)</b></span>
+<br>&nbsp;<br>
+<div class="ac">
+<table class="tableb1p4c">
+
+<tr id="T4HR">
+<th id="T4HR_C1"> AgeGrp</th><th id="T4HR_C2">Ages</th><th id="T4HR_C3">White</th><th id="T4HR_C4">AfrnAmrcn</th><th id="T4HR_C5">HispUSBorn</th><th id="T4HR_C6">HispForgnBorn</th><th id="T4HR_C7">NativAmrcn</th><th id="T4HR_C8"> Chinese</th><th id="T4HR_C9">Japanese</th><th id="T4HR_C10">Filipino</th><th id="T4HR_C11">Hawaiian</th><th id="T4HR_C12">OtrPacIsl</th><th id="T4HR_C13">OtrAsian</th><th id="T4HR_C14">WhiteAvg</th></tr>
+<tr><td class="ac" id="T4CellR1C1"><div id="T4R1C1"> 1</div></td><td class="ac" id="T4CellR1C2"><div id="T4R1C2">20-24</div></td><td class="ac" id="T4CellR1C3"><div id="T4R1C3">0.0004930</div></td><td class="ac" id="T4CellR1C4"><div id="T4R1C4">0.0007435</div></td><td class="ac" id="T4CellR1C5"><div id="T4R1C5">0.0003561</div></td><td class="ac" id="T4CellR1C6"><div id="T4R1C6">0.0003129</div></td><td class="ac" id="T4CellR1C7"><div id="T4R1C7">0.0004930</div></td><td class="ac" id="T4CellR1C8"><div id="T4R1C8">0.0002106</div></td><td class="ac" id="T4CellR1C9"><div id="T4R1C9">0.0001736</div></td><td class="ac" id="T4CellR1C10"><div id="T4R1C10">0.0002291</div></td><td class="ac" id="T4CellR1C11"><div id="T4R1C11">0.0005635</div></td><td class="ac" id="T4CellR1C12"><div id="T4R1C12">0.0004655</div></td><td class="ac" id="T4CellR1C13"><div id="T4R1C13">0.0002126</div></td><td class="ac" id="T4CellR1C14"><div id="T4R1C14">0.0004412</div></td></tr>
+<tr><td class="ac" id="T4CellR2C1"><div id="T4R2C1"> 2</div></td><td class="ac" id="T4CellR2C2"><div id="T4R2C2">25-29</div></td><td class="ac" id="T4CellR2C3"><div id="T4R2C3">0.0005310</div></td><td class="ac" id="T4CellR2C4"><div id="T4R2C4">0.0010170</div></td><td class="ac" id="T4CellR2C5"><div id="T4R2C5">0.0004038</div></td><td class="ac" id="T4CellR2C6"><div id="T4R2C6">0.0002908</div></td><td class="ac" id="T4CellR2C7"><div id="T4R2C7">0.0005310</div></td><td class="ac" id="T4CellR2C8"><div id="T4R2C8">0.0001926</div></td><td class="ac" id="T4CellR2C9"><div id="T4R2C9">0.0002958</div></td><td class="ac" id="T4CellR2C10"><div id="T4R2C10">0.0002630</div></td><td class="ac" id="T4CellR2C11"><div id="T4R2C11">0.0003696</div></td><td class="ac" id="T4CellR2C12"><div id="T4R2C12">0.0006005</div></td><td class="ac" id="T4CellR2C13"><div id="T4R2C13">0.0002422</div></td><td class="ac" id="T4CellR2C14"><div id="T4R2C14">0.0005254</div></td></tr>
+<tr><td class="ac" id="T4CellR3C1"><div id="T4R3C1"> 3</div></td><td class="ac" id="T4CellR3C2"><div id="T4R3C2">30-34</div></td><td class="ac" id="T4CellR3C3"><div id="T4R3C3">0.0006250</div></td><td class="ac" id="T4CellR3C4"><div id="T4R3C4">0.0014594</div></td><td class="ac" id="T4CellR3C5"><div id="T4R3C5">0.0005281</div></td><td class="ac" id="T4CellR3C6"><div id="T4R3C6">0.0003515</div></td><td class="ac" id="T4CellR3C7"><div id="T4R3C7">0.0006250</div></td><td class="ac" id="T4CellR3C8"><div id="T4R3C8">0.0002444</div></td><td class="ac" id="T4CellR3C9"><div id="T4R3C9">0.0002283</div></td><td class="ac" id="T4CellR3C10"><div id="T4R3C10">0.0003148</div></td><td class="ac" id="T4CellR3C11"><div id="T4R3C11">0.0010199</div></td><td class="ac" id="T4CellR3C12"><div id="T4R3C12">0.0008511</div></td><td class="ac" id="T4CellR3C13"><div id="T4R3C13">0.0003016</div></td><td class="ac" id="T4CellR3C14"><div id="T4R3C14">0.0006746</div></td></tr>
+<tr><td class="ac" id="T4CellR4C1"><div id="T4R4C1"> 4</div></td><td class="ac" id="T4CellR4C2"><div id="T4R4C2">35-39</div></td><td class="ac" id="T4CellR4C3"><div id="T4R4C3">0.0008250</div></td><td class="ac" id="T4CellR4C4"><div id="T4R4C4">0.0021593</div></td><td class="ac" id="T4CellR4C5"><div id="T4R4C5">0.0008875</div></td><td class="ac" id="T4CellR4C6"><div id="T4R4C6">0.0004943</div></td><td class="ac" id="T4CellR4C7"><div id="T4R4C7">0.0008250</div></td><td class="ac" id="T4CellR4C8"><div id="T4R4C8">0.0003179</div></td><td class="ac" id="T4CellR4C9"><div id="T4R4C9">0.0003632</div></td><td class="ac" id="T4CellR4C10"><div id="T4R4C10">0.0003945</div></td><td class="ac" id="T4CellR4C11"><div id="T4R4C11">0.0012340</div></td><td class="ac" id="T4CellR4C12"><div id="T4R4C12">0.0014783</div></td><td class="ac" id="T4CellR4C13"><div id="T4R4C13">0.0003691</div></td><td class="ac" id="T4CellR4C14"><div id="T4R4C14">0.0009092</div></td></tr>
+<tr><td class="ac" id="T4CellR5C1"><div id="T4R5C1"> 5</div></td><td class="ac" id="T4CellR5C2"><div id="T4R5C2">40-44</div></td><td class="ac" id="T4CellR5C3"><div id="T4R5C3">0.0013070</div></td><td class="ac" id="T4CellR5C4"><div id="T4R5C4">0.0031508</div></td><td class="ac" id="T4CellR5C5"><div id="T4R5C5">0.0013987</div></td><td class="ac" id="T4CellR5C6"><div id="T4R5C6">0.0007807</div></td><td class="ac" id="T4CellR5C7"><div id="T4R5C7">0.0013070</div></td><td class="ac" id="T4CellR5C8"><div id="T4R5C8">0.0004733</div></td><td class="ac" id="T4CellR5C9"><div id="T4R5C9">0.0005906</div></td><td class="ac" id="T4CellR5C10"><div id="T4R5C10">0.0006476</div></td><td class="ac" id="T4CellR5C11"><div id="T4R5C11">0.0020983</div></td><td class="ac" id="T4CellR5C12"><div id="T4R5C12">0.0019315</div></td><td class="ac" id="T4CellR5C13"><div id="T4R5C13">0.0005430</div></td><td class="ac" id="T4CellR5C14"><div id="T4R5C14">0.0012534</div></td></tr>
+<tr><td class="ac" id="T4CellR6C1"><div id="T4R6C1"> 6</div></td><td class="ac" id="T4CellR6C2"><div id="T4R6C2">45-49</div></td><td class="ac" id="T4CellR6C3"><div id="T4R6C3">0.0021810</div></td><td class="ac" id="T4CellR6C4"><div id="T4R6C4">0.0044878</div></td><td class="ac" id="T4CellR6C5"><div id="T4R6C5">0.0020769</div></td><td class="ac" id="T4CellR6C6"><div id="T4R6C6">0.0012840</div></td><td class="ac" id="T4CellR6C7"><div id="T4R6C7">0.0021810</div></td><td class="ac" id="T4CellR6C8"><div id="T4R6C8">0.0008003</div></td><td class="ac" id="T4CellR6C9"><div id="T4R6C9">0.0010861</div></td><td class="ac" id="T4CellR6C10"><div id="T4R6C10">0.0011702</div></td><td class="ac" id="T4CellR6C11"><div id="T4R6C11">0.0029829</div></td><td class="ac" id="T4CellR6C12"><div id="T4R6C12">0.0038666</div></td><td class="ac" id="T4CellR6C13"><div id="T4R6C13">0.0008939</div></td><td class="ac" id="T4CellR6C14"><div id="T4R6C14">0.0019570</div></td></tr>
+<tr><td class="ac" id="T4CellR7C1"><div id="T4R7C1"> 7</div></td><td class="ac" id="T4CellR7C2"><div id="T4R7C2">50-54</div></td><td class="ac" id="T4CellR7C3"><div id="T4R7C3">0.0036550</div></td><td class="ac" id="T4CellR7C4"><div id="T4R7C4">0.0063228</div></td><td class="ac" id="T4CellR7C5"><div id="T4R7C5">0.0030912</div></td><td class="ac" id="T4CellR7C6"><div id="T4R7C6">0.0020325</div></td><td class="ac" id="T4CellR7C7"><div id="T4R7C7">0.0036550</div></td><td class="ac" id="T4CellR7C8"><div id="T4R7C8">0.0012175</div></td><td class="ac" id="T4CellR7C9"><div id="T4R7C9">0.0018600</div></td><td class="ac" id="T4CellR7C10"><div id="T4R7C10">0.0018094</div></td><td class="ac" id="T4CellR7C11"><div id="T4R7C11">0.0054024</div></td><td class="ac" id="T4CellR7C12"><div id="T4R7C12">0.0049249</div></td><td class="ac" id="T4CellR7C13"><div id="T4R7C13">0.0015152</div></td><td class="ac" id="T4CellR7C14"><div id="T4R7C14">0.0032984</div></td></tr>
+<tr><td class="ac" id="T4CellR8C1"><div id="T4R8C1"> 8</div></td><td class="ac" id="T4CellR8C2"><div id="T4R8C2">55-59</div></td><td class="ac" id="T4CellR8C3"><div id="T4R8C3">0.0058520</div></td><td class="ac" id="T4CellR8C4"><div id="T4R8C4">0.0096304</div></td><td class="ac" id="T4CellR8C5"><div id="T4R8C5">0.0046960</div></td><td class="ac" id="T4CellR8C6"><div id="T4R8C6">0.0034533</div></td><td class="ac" id="T4CellR8C7"><div id="T4R8C7">0.0058520</div></td><td class="ac" id="T4CellR8C8"><div id="T4R8C8">0.0020998</div></td><td class="ac" id="T4CellR8C9"><div id="T4R8C9">0.0032166</div></td><td class="ac" id="T4CellR8C10"><div id="T4R8C10">0.0026142</div></td><td class="ac" id="T4CellR8C11"><div id="T4R8C11">0.0095915</div></td><td class="ac" id="T4CellR8C12"><div id="T4R8C12">0.0081771</div></td><td class="ac" id="T4CellR8C13"><div id="T4R8C13">0.0025747</div></td><td class="ac" id="T4CellR8C14"><div id="T4R8C14">0.0054622</div></td></tr>
+<tr><td class="ac" id="T4CellR9C1"><div id="T4R9C1"> 9</div></td><td class="ac" id="T4CellR9C2"><div id="T4R9C2">60-64</div></td><td class="ac" id="T4CellR9C3"><div id="T4R9C3">0.0094390</div></td><td class="ac" id="T4CellR9C4"><div id="T4R9C4">0.0147182</div></td><td class="ac" id="T4CellR9C5"><div id="T4R9C5">0.0076050</div></td><td class="ac" id="T4CellR9C6"><div id="T4R9C6">0.0058674</div></td><td class="ac" id="T4CellR9C7"><div id="T4R9C7">0.0094390</div></td><td class="ac" id="T4CellR9C8"><div id="T4R9C8">0.0034369</div></td><td class="ac" id="T4CellR9C9"><div id="T4R9C9">0.0047194</div></td><td class="ac" id="T4CellR9C10"><div id="T4R9C10">0.0044833</div></td><td class="ac" id="T4CellR9C11"><div id="T4R9C11">0.0163155</div></td><td class="ac" id="T4CellR9C12"><div id="T4R9C12">0.0086382</div></td><td class="ac" id="T4CellR9C13"><div id="T4R9C13">0.0043244</div></td><td class="ac" id="T4CellR9C14"><div id="T4R9C14">0.0091035</div></td></tr>
+<tr><td class="ac" id="T4CellR10C1"><div id="T4R10C1"> 10</div></td><td class="ac" id="T4CellR10C2"><div id="T4R10C2">65-69</div></td><td class="ac" id="T4CellR10C3"><div id="T4R10C3">0.0150280</div></td><td class="ac" id="T4CellR10C4"><div id="T4R10C4">0.0211630</div></td><td class="ac" id="T4CellR10C5"><div id="T4R10C5">0.0120555</div></td><td class="ac" id="T4CellR10C6"><div id="T4R10C6">0.0096888</div></td><td class="ac" id="T4CellR10C7"><div id="T4R10C7">0.0150280</div></td><td class="ac" id="T4CellR10C8"><div id="T4R10C8">0.0060974</div></td><td class="ac" id="T4CellR10C9"><div id="T4R10C9">0.0085353</div></td><td class="ac" id="T4CellR10C10"><div id="T4R10C10">0.0073937</div></td><td class="ac" id="T4CellR10C11"><div id="T4R10C11">0.0201522</div></td><td class="ac" id="T4CellR10C12"><div id="T4R10C12">0.0189747</div></td><td class="ac" id="T4CellR10C13"><div id="T4R10C13">0.0074196</div></td><td class="ac" id="T4CellR10C14"><div id="T4R10C14">0.0141854</div></td></tr>
+<tr><td class="ac" id="T4CellR11C1"><div id="T4R11C1"> 11</div></td><td class="ac" id="T4CellR11C2"><div id="T4R11C2">70-74</div></td><td class="ac" id="T4CellR11C3"><div id="T4R11C3">0.0238390</div></td><td class="ac" id="T4CellR11C4"><div id="T4R11C4">0.0326604</div></td><td class="ac" id="T4CellR11C5"><div id="T4R11C5">0.0193805</div></td><td class="ac" id="T4CellR11C6"><div id="T4R11C6">0.0154429</div></td><td class="ac" id="T4CellR11C7"><div id="T4R11C7">0.0238390</div></td><td class="ac" id="T4CellR11C8"><div id="T4R11C8">0.0106645</div></td><td class="ac" id="T4CellR11C9"><div id="T4R11C9">0.0124335</div></td><td class="ac" id="T4CellR11C10"><div id="T4R11C10">0.0122331</div></td><td class="ac" id="T4CellR11C11"><div id="T4R11C11">0.0273548</div></td><td class="ac" id="T4CellR11C12"><div id="T4R11C12">0.0292576</div></td><td class="ac" id="T4CellR11C13"><div id="T4R11C13">0.0132518</div></td><td class="ac" id="T4CellR11C14"><div id="T4R11C14">0.0225935</div></td></tr>
+<tr><td class="ac" id="T4CellR12C1"><div id="T4R12C1"> 12</div></td><td class="ac" id="T4CellR12C2"><div id="T4R12C2">75-79</div></td><td class="ac" id="T4CellR12C3"><div id="T4R12C3">0.0388320</div></td><td class="ac" id="T4CellR12C4"><div id="T4R12C4">0.0456409</div></td><td class="ac" id="T4CellR12C5"><div id="T4R12C5">0.0288386</div></td><td class="ac" id="T4CellR12C6"><div id="T4R12C6">0.0254675</div></td><td class="ac" id="T4CellR12C7"><div id="T4R12C7">0.0388320</div></td><td class="ac" id="T4CellR12C8"><div id="T4R12C8">0.0201487</div></td><td class="ac" id="T4CellR12C9"><div id="T4R12C9">0.0202302</div></td><td class="ac" id="T4CellR12C10"><div id="T4R12C10">0.0211271</div></td><td class="ac" id="T4CellR12C11"><div id="T4R12C11">0.0504470</div></td><td class="ac" id="T4CellR12C12"><div id="T4R12C12">0.0384090</div></td><td class="ac" id="T4CellR12C13"><div id="T4R12C13">0.0222914</div></td><td class="ac" id="T4CellR12C14"><div id="T4R12C14">0.0361146</div></td></tr>
+<tr><td class="ac" id="T4CellR13C1"><div id="T4R13C1"> 13</div></td><td class="ac" id="T4CellR13C2"><div id="T4R13C2">80-84</div></td><td class="ac" id="T4CellR13C3"><div id="T4R13C3">0.0668280</div></td><td class="ac" id="T4CellR13C4"><div id="T4R13C4">0.0683519</div></td><td class="ac" id="T4CellR13C5"><div id="T4R13C5">0.0429634</div></td><td class="ac" id="T4CellR13C6"><div id="T4R13C6">0.0448037</div></td><td class="ac" id="T4CellR13C7"><div id="T4R13C7">0.0668280</div></td><td class="ac" id="T4CellR13C8"><div id="T4R13C8">0.0379908</div></td><td class="ac" id="T4CellR13C9"><div id="T4R13C9">0.0377255</div></td><td class="ac" id="T4CellR13C10"><div id="T4R13C10">0.0379370</div></td><td class="ac" id="T4CellR13C11"><div id="T4R13C11">0.0722620</div></td><td class="ac" id="T4CellR13C12"><div id="T4R13C12">0.0528696</div></td><td class="ac" id="T4CellR13C13"><div id="T4R13C13">0.0417466</div></td><td class="ac" id="T4CellR13C14"><div id="T4R13C14">0.0613626</div></td></tr>
+<tr><td class="ac" id="T4CellR14C1"><div id="T4R14C1"> 14</div></td><td class="ac" id="T4CellR14C2"><div id="T4R14C2">85-89</div></td><td class="ac" id="T4CellR14C3"><div id="T4R14C3">0.1449080</div></td><td class="ac" id="T4CellR14C4"><div id="T4R14C4">0.1327126</div></td><td class="ac" id="T4CellR14C5"><div id="T4R14C5">0.0740349</div></td><td class="ac" id="T4CellR14C6"><div id="T4R14C6">0.1125678</div></td><td class="ac" id="T4CellR14C7"><div id="T4R14C7">0.1449080</div></td><td class="ac" id="T4CellR14C8"><div id="T4R14C8">0.0983339</div></td><td class="ac" id="T4CellR14C9"><div id="T4R14C9">0.1061491</div></td><td class="ac" id="T4CellR14C10"><div id="T4R14C10">0.0851385</div></td><td class="ac" id="T4CellR14C11"><div id="T4R14C11">0.1458445</div></td><td class="ac" id="T4CellR14C12"><div id="T4R14C12">0.0747457</div></td><td class="ac" id="T4CellR14C13"><div id="T4R14C13">0.0874858</div></td><td class="ac" id="T4CellR14C14"><div id="T4R14C14">0.1420663</div></td></tr>
+</table></div>
+
+</div>
+
+<br>&nbsp;<br>
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">NIH National Cancer Institute SAS calculator source code (version 4.1) <a href="https://bcrisktool.cancer.gov/about.html" style="color: green; text-decoration: none;" target="_blank">https://bcrisktool.cancer.gov/about.html</a>  (accessed Sept 20, 2022).</span></li>
+<li><span class="medCalcFontRef">Banegas MP, John EM, Slattery ML, et al. Projecting Individualized Absolute Invasive  Breast Cancer Risk in US Hispanic Women. <i>J Natl Cancer Inst</i>. 2016; 109(2). PubMed ID: 28003316 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/28003316" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+<li><span class="medCalcFontRef">Matsuno RK, Costantino JP, Ziegler RG, et al. Projecting individualized absolute invasive breast cancer risk in Asian  and Pacific Islander American women. <i>J Natl Cancer Inst</i>. 2011; 103(12):951-61. PubMed ID: 21562243 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/21562243" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+<li><span class="medCalcFontRef">Schonfeld SJ, Pee D, Greenlee RT, et al. Effect of changing breast cancer incidence  rates on the calibration of the Gail model. <i>J Clin Oncol</i>. 2010; 28(14):2411-7. PubMed ID: 20368565 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/20368565" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+<li><span class="medCalcFontRef">Gail MH, Costantino JP, Pee D, et al. Projecting individualized absolute invasive breast cancer risk in  African American women. <i>J Natl Cancer Inst</i>. 2007; 99(23):1782-92. PubMed ID: 18042936 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/18042936" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+<li><span class="medCalcFontRef">Gail MH, Constantino JP, Bryant J, et al. Weighing the Risks and Benefits of Tamoxifen Treatment for Preventing Breast Cancer. <i>J. National Cancer Institute</i>. 1999; 91(21):1829-1846. PubMed ID: 10547390 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/10547390" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+<li><span class="medCalcFontRef">Costantino JP, Gail MH, Pee D, et al. Validation studies for models projecting the risk of invasive and total breast cancer incidence. <i>J Natl Cancer Inst</i>. 1999; 91(18):1541-8. PubMed ID: 10491430 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/10491430" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+<li><span class="medCalcFontRef">Benichou J, Gail MH. Estimates of absolute cause-specific risk in cohort studies. <i>Biometrics</i>. 1990; 46(3):813-26. PubMed ID: 2242416 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/2242416" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br>&nbsp;<br><table class="medCalcFormuliBoxWhite"><tr><td class="medCalcDisclaimerBox"><div class="ac"><span class="medCalcFontTwo"><br>&nbsp;<br><b><u>Legal Notices and Disclaimer</u></b></span></div><br>&nbsp;<br><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.  EBMcalc is NOT a medical device.
+EBMcalc NEVER stores <i>cookies</i> or other persistent data in user's browsers.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br>&nbsp;<br><div class="ac"><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2026 EBMcalc, LLC &nbsp;&nbsp; [Build 279814 v26.1]</span></div></td></tr></table>
+</div><script>
+
+with(document.Gail2018_form){
+Age_param.focus();
+
+}
+</script>
+
+
+
+</div>
+</body>
+</html>
+
+<!-- 1768579347 //-->

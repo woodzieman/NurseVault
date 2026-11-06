@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MELD Score for End-Stage Liver Disease (NOT appropriate for patients under the age of 12)</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="patientuse, Gastroenterology, critical care, pediatrics, infectious disease, prognosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+MELD_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+MELD_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function MELD_fx() {
+
+with(document.MELD_form){
+
+
+doCalc = true;
+param_value = parseFloat(Creatinine_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Creatinine_unit.options[Creatinine_unit.selectedIndex].value.split('|');
+Creatinine = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Bilirubin_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Bilirubin_unit.options[Bilirubin_unit.selectedIndex].value.split('|');
+Bilirubin = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(INR_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = INR_unit.options[INR_unit.selectedIndex].value.split('|');
+INR = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+dp = 0;
+if (Hemodialysis_twice_in_week_prior_radio[0].checked){
+Creatinine_param.value = '4'; Creatinine = 4;
+for(i = 0; i < Creatinine_unit.options.length; i++){
+if (Creatinine_unit.options[i].value == '1|0|mg/dL') Creatinine_unit.selectedIndex = i;
+}}
+MELD_Score =  10 * ((0.957 * ln(Creatinine)) + (0.378 * ln(Bilirubin)) + (1.12 * ln(INR))) + 6.43;
+
+if (doCalc) MELD_Score_param.value = fixDP(MELD_Score, dp);
+
+
+
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.MELD_form){
+
+if (Creatinine_param.value && isNaN(Creatinine_param.value)){ clrValue(Creatinine_param); alertNaN('Creatinine'); }
+if (Creatinine_param.value && (Creatinine < (1 - 0.00001))) {
+Creatinine = 0;
+clrValue(Creatinine_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Creatinine is 1 mg/dL.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Creatinine_param.value && Creatinine > 4) {
+clrValue(Creatinine_param);
+clrResults();
+Creatinine = 0;
+doCalc = false;
+ alert("The maximum value for Creatinine is 4 mg/dL.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Bilirubin_param.value && isNaN(Bilirubin_param.value)){ clrValue(Bilirubin_param); alertNaN('Bilirubin'); }
+if (Bilirubin_param.value && (Bilirubin < (1 - 0.00001))) {
+Bilirubin = 0;
+clrValue(Bilirubin_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Bilirubin is 1 mg/dL.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Bilirubin_param.value && Bilirubin > 200) {
+clrValue(Bilirubin_param);
+clrResults();
+Bilirubin = 0;
+doCalc = false;
+ alert("The maximum value for Bilirubin is 200 mg/dL.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (INR_param.value && isNaN(INR_param.value)){ clrValue(INR_param); alertNaN('INR'); }
+if (INR_param.value && (INR < (1 - 0.00001))) {
+INR = 0;
+clrValue(INR_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for INR is 1 ratio.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (INR_param.value && INR > 100) {
+clrValue(INR_param);
+clrResults();
+INR = 0;
+doCalc = false;
+ alert("The maximum value for INR is 100 ratio.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.MELD_form){
+
+MELD_Score_param.value = '';
+
+
+}
+
+}
+
+var Creatinine = null,
+Bilirubin = null,
+INR = null,
+MELD_Score = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="MELD_form" id="MELD_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="MELD_fx();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+MELD Score for End-Stage Liver Disease (NOT appropriate for patients under the age of 12)
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Creatinine</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Creatinine_param" size="6" value="" onblur="MELD_fx(); minMaxCheck();" onchange="MELD_fx();" aria-label="Use this input box to enter the value Creatinine" /></td>
+<td align="left" valign="top"> <select name="Creatinine_unit" onchange="MELD_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Creatinine">
+<option value="0.0113122171945701|0|mcmol/L_Cr">mcmol/L</option>
+<option value="1|0|mg%_Cr">mg%</option>
+<option value="1|0|mg/dL_Cr" selected="selected">mg/dL</option>
+<option value="11.3122171945701|0|mmol/L_Cr">mmol/L</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Bilirubin</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Bilirubin_param" size="6" value="" onblur="MELD_fx(); minMaxCheck();" onchange="MELD_fx();" aria-label="Use this input box to enter the value Bilirubin" /></td>
+<td align="left" valign="top"> <select name="Bilirubin_unit" onchange="MELD_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Bilirubin">
+<option value="0.0584795321637427|0|mcmol/L_Bili">mcmol/L</option>
+<option value="1|0|mg%_Bili">mg%</option>
+<option value="1|0|mg/dL_Bili" selected="selected">mg/dL</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">INR</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="INR_param" size="6" value="" onblur="MELD_fx(); minMaxCheck();" onchange="MELD_fx();" aria-label="Use this input box to enter the value INR" /></td>
+<td align="left" valign="top"> <select name="INR_unit" onchange="MELD_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value INR">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction">fraction</option>
+<option value="1|0|ratio" selected="selected">ratio</option>
+</select></td></tr>
+
+<tr><td align="right"><span class="medCalcFontOneBold">Hemodialysis twice in week prior</span></td>
+<td colspan="3" align="left"><input type="radio" name="Hemodialysis_twice_in_week_prior_radio" value="Yes" onclick="Creatinine_param.value = '4'; Creatinine = 4; MELD_fx()" /><span class="medCalcFontOne"> Yes</span></td></tr>
+<tr><td align="left"><br /></td>
+<td colspan="3" align="left"><input type="radio" name="Hemodialysis_twice_in_week_prior_radio" checked="checked" value="No" onclick="Creatinine_param.value = ''; MELD_Score_param.value = '';" /><span class="medCalcFontOne"> No</span></td></tr>
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Results</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">MELD Score</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="MELD_Score_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value MELD Score" /></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+
+</table>
+</center>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li>The Model of End-stage Liver Disease, or <b>MELD Score</b> is used to estimate relative disease severity and likely survival of patients awaiting liver transplantation.</li>
+<li>Children under the age of 12 should be assessed by the <b>PELD Score</b>.</li>
+<li>If a patient has had 2 or more hemodialysis treatments or 24 hours of CVVHD in the week prior to the time of the scoring, <b>Creatinine</b> will be set to 4 mg/dL, the maximum creatinine level allowed in the model.</li>
+<li>If the patient is between 12 and 17 years old, and has either a urea cycle disorder, organic acidemia or hepatoblastoma, the <b>MELD Score</b> is set at 30.</li>
+<li>For patients with hepatocellular carcinoma, the PELD/MELD score is increased according to an algorithm established by UNOS (United Network for Organ Sharing.)</li>
+<li>Additional information about the <b>MELD</b> and <b>PELD</b> scores is at the UNOS website,  http://optn.transplant.hrsa.gov/resources/professionalResources.asp?index=8</li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">MELDScore = 10 * ((0.957 * ln(Creatinine)) + (0.378 * ln(Bilirubin)) + (1.12 * ln(INR))) + 6.43</span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+
+<div id="calc_tables">
+
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div>
+</div>
+</body>
+</html>
+
+<!-- 1662473282 //-->

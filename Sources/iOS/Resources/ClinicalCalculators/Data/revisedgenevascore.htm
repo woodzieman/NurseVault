@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Revised Geneva Score for Estimation of the Clinical Probability of Pulmonary Embolism in Adults</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5MKXR9');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="pulmonary, critical, emergency, acpjc, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="googlebot" content="noindex,indexifembedded" />
+</head>
+
+<body class="medCalcBody">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MKXR9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="mc3k">
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+RevisedGenevaScore_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+RevisedGenevaScore_fx();
+}
+
+
+/* ]]> */
+</script>
+
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+var inputchktxt = '<br />&nbsp;<br /><b>Important:</b> Inputs must be complete to perform calculation. <br />'
+
+
+var calctxt = '';
+var xmltxt = '';
+var xmlresult = '';
+var htmtxt = '';
+var postNow = false;
+var printing = false;
+var rbchk = false;
+
+
+function RevisedGenevaScore_fx() {
+with(document.RevisedGenevaScore_form){
+
+Score = 0.0;
+doCalc = true;
+
+if (cc1.checked){
+Score = Score + 1;
+}
+if (cc2.checked){
+Score = Score + 3;
+}
+if (cc3.checked){
+Score = Score + 2;
+}
+if (cc4.checked){
+Score = Score + 2;
+}
+if (cc5.checked){
+Score = Score + 3;
+}
+if (cc6.checked){
+Score = Score + 2;
+}
+rbchk = false;
+if (cc7[0].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (cc7[1].checked){
+rbchk = true; Score = Score + 3; 
+}
+if (cc7[2].checked){
+rbchk = true; Score = Score + 5; 
+}
+if (!rbchk) doCalc = false;
+if (cc8.checked){
+Score = Score + 4;
+}
+if (doCalc){
+cctotal.value = Score;
+if (cctotal.value == 'NaN') cctotal.value = '';
+}
+else{
+Score = null;
+cctotal.value = '';
+if (typeof rrclr == 'function') { rrclr(); };
+document.RevisedGenevaScore_form.cctotal.value = '';
+}
+
+if (doCalc) document.getElementById('inputchk').innerHTML = '';
+else document.getElementById('inputchk').innerHTML = inputchktxt;
+
+
+
+if (doCalc){
+rrclr();
+if ((Score >= 0) && (Score <= 3)){ document.getElementById('rr1_1').bgColor = '#8ab2be';
+interptxt = '\n\nModified Geneva score interpretation:  Modified Geneva score (points): 0 to 3';
+calctxt += '\n\nModified Geneva score interpretation:  Modified Geneva score (points): 0 to 3';
+xmltxt += '\n<Result_Interpretation>\nModified Geneva score interpretation:\nModified Geneva score (points): 0 to 3';
+interptxt += '\n\nClinical probability of PE: Low';
+calctxt += '\n\nClinical probability of PE: Low';
+xmltxt += '\nClinical probability of PE: Low\n';
+xmltxt = xmltxt + '<\/Result_Interpretation>';
+}
+if ((Score >= 4) && (Score <= 10)){ document.getElementById('rr1_2').bgColor = '#8ab2be';
+interptxt = '\n\nModified Geneva score interpretation:  Modified Geneva score (points): 4 to 10';
+calctxt += '\n\nModified Geneva score interpretation:  Modified Geneva score (points): 4 to 10';
+xmltxt += '\n<Result_Interpretation>\nModified Geneva score interpretation:\nModified Geneva score (points): 4 to 10';
+interptxt += '\n\nClinical probability of PE: Intermediate';
+calctxt += '\n\nClinical probability of PE: Intermediate';
+xmltxt += '\nClinical probability of PE: Intermediate\n';
+xmltxt = xmltxt + '<\/Result_Interpretation>';
+}
+if ((Score >= 11) && (Score <= 22)){ document.getElementById('rr1_3').bgColor = '#8ab2be';
+interptxt = '\n\nModified Geneva score interpretation:  Modified Geneva score (points): 11 to 22';
+calctxt += '\n\nModified Geneva score interpretation:  Modified Geneva score (points): 11 to 22';
+xmltxt += '\n<Result_Interpretation>\nModified Geneva score interpretation:\nModified Geneva score (points): 11 to 22';
+interptxt += '\n\nClinical probability of PE: High';
+calctxt += '\n\nClinical probability of PE: High';
+xmltxt += '\nClinical probability of PE: High\n';
+xmltxt = xmltxt + '<\/Result_Interpretation>';
+}
+document.getElementById('rr1_tag').ariaLabel = interptxt;
+interptxt = '';
+
+
+}
+}
+}
+
+
+
+
+function rrclr(){
+document.getElementById('rr1_1').bgColor = '';
+document.getElementById('rr1_2').bgColor = '';
+document.getElementById('rr1_3').bgColor = '';
+document.getElementById('rr1_tag').ariaLabel = "This table highlights the result Modified Geneva score interpretation. No result is highlighted"; interptxt = '';
+}
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+<form name="RevisedGenevaScore_form" id="RevisedGenevaScore_form" action="" onsubmit="return false;" onreset="rrclr(); document.getElementById('inputchk').innerHTML=inputchktxt; ">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Revised Geneva Score for Estimation of the Clinical Probability of Pulmonary Embolism in Adults
+</span></td></tr></table><br />&nbsp;<br />
+<div id="calc_main">
+<div id="calc_input">
+<center>
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Risk factors</span></td></tr>
+
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel1" name="cc1" onclick="RevisedGenevaScore_fx();" aria-label="Check this box to indicate Age &gt;65 years old (1 point)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel1');" >Age &gt;65 years old (1 point)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel2" name="cc2" onclick="RevisedGenevaScore_fx();" aria-label="Check this box to indicate Previous DVT or PE (3 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel2');" >Previous DVT or PE (3 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel3" name="cc3" onclick="RevisedGenevaScore_fx();" aria-label="Check this box to indicate Surgery or lower limb fracture within 1 month (2 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel3');" >Surgery or lower limb fracture within 1 month (2 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel4" name="cc4" onclick="RevisedGenevaScore_fx();" aria-label="Check this box to indicate Active malignant disease<sup>*</sup> (2 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel4');" >Active malignant disease<sup>*</sup> (2 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Symptoms</span></td></tr>
+
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel5" name="cc5" onclick="RevisedGenevaScore_fx();" aria-label="Check this box to indicate Unilateral lower limb pain (3 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel5');" >Unilateral lower limb pain (3 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel6" name="cc6" onclick="RevisedGenevaScore_fx();" aria-label="Check this box to indicate Hemoptysis (2 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel6');" >Hemoptysis (2 points)</span></td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Signs </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel7" name="cc7" onclick="RevisedGenevaScore_fx();" aria-label="This button selects an option for: Signs. The option is Heart rate &lt;75 beats per minute (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel7');">Heart rate &lt;75 beats per minute (0 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel8" name="cc7" onclick="RevisedGenevaScore_fx();" aria-label="This button selects an option for: Signs. The option is Heart rate 75 to 94 beats per minute (3 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel8');">Heart rate 75 to 94 beats per minute (3 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel9" name="cc7" onclick="RevisedGenevaScore_fx();" aria-label="This button selects an option for: Signs. The option is Heart rate &ge;95 beats per minute (5 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel9');">Heart rate &ge;95 beats per minute (5 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right" valign="top"><input type="checkbox" id="togel10" name="cc8" onclick="RevisedGenevaScore_fx();" aria-label="Check this box to indicate Pain (tenderness) on palpation of lower limb deep venous structure and unilateral edema (4 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="togCB('togel10');" >Pain (tenderness) on palpation of lower limb deep venous structure and unilateral edema (4 points)</span></td></tr>
+
+</table>
+<span id="inputchk" class="medCalcFontOne"><br />&nbsp;<br /><b>Important:</b> Inputs must be complete to perform calculation. <br /></span>
+</center>
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<span class="medCalcFontCCTabBold">
+Total Criteria Point Count:
+</span>
+<input type="text" size="6" name="cctotal" aria-readonly="true" aria-label="This box holds the total criteria point count" /><br />&nbsp;<br />
+<center><input type="reset" name="reset" value="Reset Form" />  </center>
+<br />&nbsp;<br />
+<div id="rr1_tag" aria-label="This table highlights the result Modified Geneva score interpretation. No result is highlighted" tabindex="0">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+
+Modified Geneva score interpretation
+</span></td></tr></table><br />&nbsp;<br />
+</div>
+<center>
+<table border="1" cellpadding="4" cellspacing="0" summary="RRTable">
+<tr bgcolor="#ffffff">
+<td align="center"><span class="medCalcFontOneBold">Modified Geneva score (points)</span></td>
+<td align="center"><span class="medCalcFontOneBold">Clinical probability of PE</span></td>
+</tr>
+<tr id="rr1_1"><td align="center" nowrap="nowrap"><span class="medCalcFontOneBold"> 0 to 3</span></td>
+<td align="center"><span class="medCalcFontOne">Low</span></td>    
+</tr>
+<tr id="rr1_2"><td align="center" nowrap="nowrap"><span class="medCalcFontOneBold"> 4 to 10</span></td>
+<td align="center"><span class="medCalcFontOne">Intermediate</span></td>    
+</tr>
+<tr id="rr1_3"><td align="center" nowrap="nowrap"><span class="medCalcFontOneBold"> 11 to 22</span></td>
+<td align="center"><span class="medCalcFontOne">High</span></td>    
+</tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+
+</div>
+</div>
+
+<div id="calc_notes">
+<span class="medCalcFontRef"><b>Notes</b></span>
+<ul class="medCalcFontOne">
+<li><b>DVT</b>: deep venous thrombosis; <b>PE</b>: pulmonary embolism.</li>
+<li>*Active malignant disease, defined as a solid or hematologic malignant condition, currently active or considered cured less than 1 year ago.</li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Le Gal G, Righini M, Roy PM, et al. Prediction of pulmonary embolism in the emergency  department: the revised Geneva score. <i>Ann Intern Med</i>. 2006 Feb 7;144(3):165-71. PubMed ID: 16461960 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/16461960" rel="nofollow noopener noreferrer"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+ 
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.  EBMcalc is NOT a medical device.
+EBMcalc NEVER stores <i>cookies</i> or other persistent data in user's browsers.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2024 Foundation Internet Services &nbsp;&nbsp; [Build 274303 v24.4]</span></center></td></tr></table></center>
+</div><script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+
+
+function loadQueryParams(thisqs){
+if (thisqs) alert('Data panel values cannot be transferred to this calculator.');
+return;
+}
+
+
+/* ]]> */
+</script>
+
+
+
+
+
+</div>
+</body>
+</html>
+
+
+<!-- 1729623375 //-->

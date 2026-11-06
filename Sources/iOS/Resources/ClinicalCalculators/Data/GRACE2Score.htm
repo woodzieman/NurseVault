@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>GRACE 2.0 Score for Acute Coronary Syndrome Prognosis (non-linear model 2014)</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5MKXR9');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees">
+<meta name="keywords" content="cardiovascular, critical care, diagnosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical"> 
+<meta name="author" content="EBMcalc, LLC">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="googlebot" content="noindex,indexifembedded">
+</head>
+
+<body class="medCalcBody">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MKXR9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="mc3k">
+<script>
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+var x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 2000);
+}
+
+function wait(ms) {
+var stime = new Date().getTime();
+for (var i = 0; i < 1e8; i++) {
+if ((new Date().getTime() - stime) > ms){
+break;
+}}}
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+GRACE2Score_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+GRACE2Score_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+var inputchktxt = '<br>&nbsp;<br><b>Important:</b> Inputs must be complete to perform calculation. <br>'
+
+
+function aDelay(atxt, ffield){
+with (document.GRACE2Score_form){
+clrResults();
+ffield.value = '';
+doCalc = false;
+setTimeout(function(){ alert(atxt); }, 100);
+document.getElementById('inputchk').innerHTML = inputchktxt;
+
+}}
+
+
+function GRACE2Score_fx() {
+
+with(document.GRACE2Score_form){
+
+
+doCalc = true;
+param_value = parseFloat(Age_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Age_unit.options[Age_unit.selectedIndex].value.split('|');
+Age = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Heart_Rate_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Heart_Rate_unit.options[Heart_Rate_unit.selectedIndex].value.split('|');
+Heart_Rate = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Systolic_BP_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Systolic_BP_unit.options[Systolic_BP_unit.selectedIndex].value.split('|');
+Systolic_BP = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Serum_Creatinine_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Serum_Creatinine_unit.options[Serum_Creatinine_unit.selectedIndex].value.split('|');
+Serum_Creatinine = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+rbchk = false;
+if (Killip_radio[0].checked){ rbchk = true; Killip = 0;  }
+if (Killip_radio[1].checked){ rbchk = true; Killip = 15;  }
+if (Killip_radio[2].checked){ rbchk = true; Killip = 29;  }
+if (Killip_radio[3].checked){ rbchk = true; Killip = 44;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (Arrest_radio[0].checked){ rbchk = true; Arrest = 0;  }
+if (Arrest_radio[1].checked){ rbchk = true; Arrest = 30;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (Enzymes_radio[0].checked){ rbchk = true; Enzymes = 0;  }
+if (Enzymes_radio[1].checked){ rbchk = true; Enzymes = 13;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (ST_Seg_Dev_radio[0].checked){ rbchk = true; ST_Seg_Dev = 0;  }
+if (ST_Seg_Dev_radio[1].checked){ rbchk = true; ST_Seg_Dev = 17;  }
+if (!rbchk) doCalc = false;
+dp = 0;
+
+if (Age <35){
+Age_Factor = 0;
+}
+else 
+if (Age <45){
+Age_Factor = (Age - 35) * 1.8;
+}
+else 
+if (Age <55){
+Age_Factor = 18 + ((Age - 45) * 1.8);
+}
+else 
+if (Age <65){
+Age_Factor = 36 + ((Age - 55) * 1.8);
+}
+else 
+if (Age <75){
+Age_Factor = 54 + ((Age - 65) * 1.9);
+}
+else 
+if (Age <85){
+Age_Factor = 73 + ((Age - 75) * 1.8);
+}
+else 
+if (Age <90){
+Age_Factor = 91 + ((Age - 85) * 1.8);
+}
+else{
+Age_Factor = 100;
+}
+
+if (Heart_Rate <70){
+Heart_Rate_Factor = 0;
+}
+else 
+if (Heart_Rate <80){
+Heart_Rate_Factor = (Heart_Rate - 70) * 0.3;
+}
+else 
+if (Heart_Rate <90){
+Heart_Rate_Factor = 3 + ((Heart_Rate - 80) * 0.2);
+}
+else 
+if (Heart_Rate <100){
+Heart_Rate_Factor = 5 + ((Heart_Rate - 90) * 0.3);
+}
+else 
+if (Heart_Rate <110){
+Heart_Rate_Factor = 8 + ((Heart_Rate - 100) * 0.2);
+}
+else 
+if (Heart_Rate <150){
+Heart_Rate_Factor = 10 + ((Heart_Rate - 110) * 0.3);
+}
+else 
+if (Heart_Rate <200){
+Heart_Rate_Factor = 22 + ((Heart_Rate - 150) * 0.3);
+}
+else{
+Heart_Rate_Factor = 34;
+}
+
+if (Systolic_BP <80){
+Systolc_BP_Factor = 40;
+}
+else 
+if (Systolic_BP <100){
+Systolc_BP_Factor = 40 - ((Systolic_BP - 80) * 0.3);
+}
+else 
+if (Systolic_BP <110){
+Systolc_BP_Factor = 34 - ((Systolic_BP - 100) * 0.3);
+}
+else 
+if (Systolic_BP <120){
+Systolc_BP_Factor = 31 - ((Systolic_BP - 110) * 0.4);
+}
+else 
+if (Systolic_BP <130){
+Systolc_BP_Factor = 27 - ((Systolic_BP - 120) * 0.3);
+}
+else 
+if (Systolic_BP <140){
+Systolc_BP_Factor = 24 - ((Systolic_BP - 130) * 0.3);
+}
+else 
+if (Systolic_BP <150){
+Systolc_BP_Factor = 20 - ((Systolic_BP - 140) * 0.4);
+}
+else 
+if (Systolic_BP <160){
+Systolc_BP_Factor = 17 - ((Systolic_BP - 150) * 0.3);
+}
+else 
+if (Systolic_BP <180){
+Systolc_BP_Factor = 14 - ((Systolic_BP - 160) * 0.3);
+}
+else 
+if (Systolic_BP <200){
+Systolc_BP_Factor = 8 - ((Systolic_BP - 180) * 0.4);
+}
+else{
+Systolc_BP_Factor = 0;
+}
+
+if (Serum_Creatinine <0.2){
+Serum_Creatinine_Factor = Serum_Creatinine * 5;
+}
+else 
+if (Serum_Creatinine <0.4){
+Serum_Creatinine_Factor = 1 + ((Serum_Creatinine - 0.2) * 10);
+}
+else 
+if (Serum_Creatinine <0.6){
+Serum_Creatinine_Factor = 3 + ((Serum_Creatinine - 0.4) * 5);
+}
+else 
+if (Serum_Creatinine <0.8){
+Serum_Creatinine_Factor = 4 + ((Serum_Creatinine - 0.6) * 10);
+}
+else 
+if (Serum_Creatinine <1.0){
+Serum_Creatinine_Factor = 6 + ((Serum_Creatinine - 0.8) * 5);
+}
+else 
+if (Serum_Creatinine <1.2){
+Serum_Creatinine_Factor = 7 + ((Serum_Creatinine - 1.0) * 5);
+}
+else 
+if (Serum_Creatinine <1.4){
+Serum_Creatinine_Factor = 8 + ((Serum_Creatinine - 1.2) * 10);
+}
+else 
+if (Serum_Creatinine <1.6){
+Serum_Creatinine_Factor = 10 + ((Serum_Creatinine - 1.4) * 5);
+}
+else 
+if (Serum_Creatinine <1.8){
+Serum_Creatinine_Factor = 11 + ((Serum_Creatinine - 1.6) * 10);
+}
+else 
+if (Serum_Creatinine <2.0){
+Serum_Creatinine_Factor = 13 + ((Serum_Creatinine - 1.8) * 5);
+}
+else 
+if (Serum_Creatinine <3.0){
+Serum_Creatinine_Factor = 14 + ((Serum_Creatinine - 2.0) * 7);
+}
+else 
+if (Serum_Creatinine <4.0){
+Serum_Creatinine_Factor = 21 + ((Serum_Creatinine - 3.0) * 7);
+}
+else{
+Serum_Creatinine_Factor = 28;
+}
+GRACE_Score =  Math.round(Age_Factor + Heart_Rate_Factor + Systolc_BP_Factor + Serum_Creatinine_Factor + Killip + Arrest + Enzymes + ST_Seg_Dev);
+
+unit_parts = GRACE_Score_unit.options[GRACE_Score_unit.selectedIndex].value.split('|');
+if (doCalc) GRACE_Score_param.value = fixDP((GRACE_Score - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+
+if (doCalc){
+rrclr();
+if ((GRACE_Score >= 0) && (GRACE_Score <= 75)){ document.getElementById('rr1_1').bgColor = '#8ab2be';
+interptxt = '\n\nGRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 0 to 75 points:  0.2 to 1.8% Mortality';
+calctxt += '\n\nGRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 0 to 75 points:  0.2 to 1.8% Mortality';
+xmltxt += '\n<Result_Interpretation>GRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 0 to 75 points:  0.2 to 1.8% Mortality<\/Result_Interpretation>\n';
+}
+if ((GRACE_Score >= 76) && (GRACE_Score <= 128)){ document.getElementById('rr1_2').bgColor = '#8ab2be';
+interptxt = '\n\nGRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 76 to 128 points: 2 to 10% Mortality';
+calctxt += '\n\nGRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 76 to 128 points: 2 to 10% Mortality';
+xmltxt += '\n<Result_Interpretation>GRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 76 to 128 points: 2 to 10% Mortality<\/Result_Interpretation>\n';
+}
+if ((GRACE_Score >= 129) && (GRACE_Score <= 140)){ document.getElementById('rr1_3').bgColor = '#8ab2be';
+interptxt = '\n\nGRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 129 to 140 points: 11 to 15% Mortality';
+calctxt += '\n\nGRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 129 to 140 points: 11 to 15% Mortality';
+xmltxt += '\n<Result_Interpretation>GRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 129 to 140 points: 11 to 15% Mortality<\/Result_Interpretation>\n';
+}
+if ((GRACE_Score >= 141) && (GRACE_Score <= 149)){ document.getElementById('rr1_4').bgColor = '#8ab2be';
+interptxt = '\n\nGRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 141 to 149 points:  16 to 20% Mortality';
+calctxt += '\n\nGRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 141 to 149 points:  16 to 20% Mortality';
+xmltxt += '\n<Result_Interpretation>GRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 141 to 149 points:  16 to 20% Mortality<\/Result_Interpretation>\n';
+}
+if ((GRACE_Score >= 150) && (GRACE_Score <= 173)){ document.getElementById('rr1_5').bgColor = '#8ab2be';
+interptxt = '\n\nGRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 150 to 173 points: 21 to 30% Mortality';
+calctxt += '\n\nGRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 150 to 173 points: 21 to 30% Mortality';
+xmltxt += '\n<Result_Interpretation>GRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 150 to 173 points: 21 to 30% Mortality<\/Result_Interpretation>\n';
+}
+if ((GRACE_Score >= 174) && (GRACE_Score <= 199)){ document.getElementById('rr1_6').bgColor = '#8ab2be';
+interptxt = '\n\nGRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 174 to 199 points: 40 to 60% Mortality';
+calctxt += '\n\nGRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 174 to 199 points: 40 to 60% Mortality';
+xmltxt += '\n<Result_Interpretation>GRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 174 to 199 points: 40 to 60% Mortality<\/Result_Interpretation>\n';
+}
+if ((GRACE_Score >= 200) && (GRACE_Score <= 218)){ document.getElementById('rr1_7').bgColor = '#8ab2be';
+interptxt = '\n\nGRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 200 to 218 points:  70 to 80% Mortality';
+calctxt += '\n\nGRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 200 to 218 points:  70 to 80% Mortality';
+xmltxt += '\n<Result_Interpretation>GRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 200 to 218 points:  70 to 80% Mortality<\/Result_Interpretation>\n';
+}
+if ((GRACE_Score >= 219) && (GRACE_Score <= 306)){ document.getElementById('rr1_8').bgColor = '#8ab2be';
+interptxt = '\n\nGRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 219 to 306 points: 90 to 99% Mortality';
+calctxt += '\n\nGRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 219 to 306 points: 90 to 99% Mortality';
+xmltxt += '\n<Result_Interpretation>GRACE 2.0 Score and Estimation 6-Month Mortality from Admission: 219 to 306 points: 90 to 99% Mortality<\/Result_Interpretation>\n';
+}
+document.getElementById('rr1_tag').ariaLabel = interptxt;
+interptxt = '';
+
+
+}
+
+
+}
+
+
+if (doCalc) document.getElementById('inputchk').innerHTML = '';
+else document.getElementById('inputchk').innerHTML = inputchktxt;
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.GRACE2Score_form){
+
+if (Age_param.value && isNaN(Age_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Age_param); }
+if (Age_param.value && (Age < (30 - 0.00001))) {
+Age = 0;
+ aDelay("The minimum value for Age is 30 yr.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Age_param);
+}
+
+if (Age_param.value && Age > 90) {
+Age = 0;
+ aDelay("The maximum value for Age is 90 yr.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Age_param);
+}
+
+if (Heart_Rate_param.value && isNaN(Heart_Rate_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Heart_Rate_param); }
+if (Heart_Rate_param.value && (Heart_Rate < (0 - 0.00001))) {
+Heart_Rate = 0;
+ aDelay("The minimum value for Heart rate is 0 beats/min.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Heart_Rate_param);
+}
+
+if (Heart_Rate_param.value && Heart_Rate > 300) {
+Heart_Rate = 0;
+ aDelay("The maximum value for Heart rate is 300 beats/min.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Heart_Rate_param);
+}
+
+if (Systolic_BP_param.value && isNaN(Systolic_BP_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Systolic_BP_param); }
+if (Systolic_BP_param.value && (Systolic_BP < (60 - 0.00001))) {
+Systolic_BP = 0;
+ aDelay("The minimum value for Systolic BP is 60 mmHg.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Systolic_BP_param);
+}
+
+if (Systolic_BP_param.value && Systolic_BP > 300) {
+Systolic_BP = 0;
+ aDelay("The maximum value for Systolic BP is 300 mmHg.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Systolic_BP_param);
+}
+
+if (Serum_Creatinine_param.value && isNaN(Serum_Creatinine_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Serum_Creatinine_param); }
+if (Serum_Creatinine_param.value && (Serum_Creatinine < (0 - 0.00001))) {
+Serum_Creatinine = 0;
+ aDelay("The minimum value for Serum creatinine is 0 mg/dL.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Serum_Creatinine_param);
+}
+
+if (Serum_Creatinine_param.value && Serum_Creatinine > 10) {
+Serum_Creatinine = 0;
+ aDelay("The maximum value for Serum creatinine is 10 mg/dL.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Serum_Creatinine_param);
+}
+
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.GRACE2Score_form){
+
+GRACE_Score_param.value = '';
+
+rrclr();
+
+}
+
+}
+
+var Age = null,
+Heart_Rate = null,
+Systolic_BP = null,
+Serum_Creatinine = null,
+Killip = null,
+Arrest = null,
+Enzymes = null,
+ST_Seg_Dev = null,
+GRACE_Score = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+function rrclr(){
+document.getElementById('rr1_1').bgColor = '';
+document.getElementById('rr1_2').bgColor = '';
+document.getElementById('rr1_3').bgColor = '';
+document.getElementById('rr1_4').bgColor = '';
+document.getElementById('rr1_5').bgColor = '';
+document.getElementById('rr1_6').bgColor = '';
+document.getElementById('rr1_7').bgColor = '';
+document.getElementById('rr1_8').bgColor = '';
+document.getElementById('rr1_tag').ariaLabel = "This table highlights the result GRACE 2.0 Score and Estimation 6-Month Mortality from Admission. No result is highlighted"; interptxt = '';
+}
+
+
+
+
+</script>
+
+
+
+
+<form name="GRACE2Score_form" id="GRACE2Score_form" action="#" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="GRACE2Score_fx();" onreset="rrclr(); document.getElementById('inputchk').innerHTML=inputchktxt; ">
+
+<table class="medCalcTitleBox">
+<tr><td class="al">
+<span class="medCalcFontTitleBox">
+
+ 
+GRACE 2.0 Score for Acute Coronary Syndrome Prognosis (non-linear model 2014)
+</span></td></tr></table><br>&nbsp;<br>
+
+<div id="calc_main">
+
+<div id="calc_input">
+
+<div class="ac">
+<span class="medCalcFontIO">
+Input
+</span>
+<br>&nbsp;<br>
+<table class="medCalcFormuliBoxWhite">
+<tr><td class="ar42"><span class="medCalcFontOneBold">Age</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Age_param"  size="6" value="" onblur="GRACE2Score_fx(); minMaxCheck();" onchange="GRACE2Score_fx();" aria-label="Use this input box to enter the value Age"></td>
+<td class="al"> <select name="Age_unit" onchange="GRACE2Score_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Age">
+<option value="0.0833333333333333|0|mo">mo</option>
+<option value="1|0|yr" selected="selected">yr</option>
+</select></td></tr>
+
+<tr><td class="ar42"><span class="medCalcFontOneBold">Heart rate</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Heart_Rate_param"  size="6" value="" onblur="GRACE2Score_fx(); minMaxCheck();" onchange="GRACE2Score_fx();" aria-label="Use this input box to enter the value Heart rate"></td>
+<td class="al"> <select name="Heart_Rate_unit" onchange="GRACE2Score_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Heart rate">
+<option value="1|0|/min">/min</option>
+<option value="1|0|beats/min" selected="selected">beats/min</option>
+<option value="1|0|bpm">bpm</option>
+</select></td></tr>
+
+<tr><td class="ar42"><span class="medCalcFontOneBold">Systolic BP</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Systolic_BP_param"  size="6" value="" onblur="GRACE2Score_fx(); minMaxCheck();" onchange="GRACE2Score_fx();" aria-label="Use this input box to enter the value Systolic BP"></td>
+<td class="al"> <select name="Systolic_BP_unit" onchange="GRACE2Score_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Systolic BP">
+<option value="0.00750063755419211|0|Pascal">Pascal</option>
+<option value="0.735561538478802|0|cmH2O">cmH2O</option>
+<option value="0.735561538478802|0|cm[H2O]">cm[H2O]</option>
+<option value="1|0|mm Hg">mm Hg</option>
+<option value="1|0|mm/Hg">mm/Hg</option>
+<option value="1|0|mmHg" selected="selected">mmHg</option>
+<option value="1|0|mm[Hg]">mm[Hg]</option>
+<option value="1|0|torr">torr</option>
+</select></td></tr>
+
+<tr><td class="ar42"><span class="medCalcFontOneBold">Serum creatinine</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Serum_Creatinine_param"  size="6" value="" onblur="GRACE2Score_fx(); minMaxCheck();" onchange="GRACE2Score_fx();" aria-label="Use this input box to enter the value Serum creatinine"></td>
+<td class="al"> <select name="Serum_Creatinine_unit" onchange="GRACE2Score_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Serum creatinine">
+<option value="0.0113122171945701|0|mcmol/L_Cr">mcmol/L</option>
+<option value="1|0|mg/dL_Cr" selected="selected">mg/dL</option>
+<option value="11.3122171945701|0|mmol/L_Cr">mmol/L</option>
+</select></td></tr>
+
+<tr><td class="ar"><span class="medCalcFontOneBold">Killip</span></td>
+<td colspan="2" class="al"><input type="radio" name="Killip_radio" id="togel1" value="Class 1: no heart failure findings|0" onclick="GRACE2Score_fx();" aria-label="This button selects an option for the variable: Killip. The variable option is Class 1: no heart failure findings. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel1');"> Class 1: no heart failure findings (0)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="Killip_radio" id="togel2" value="Class 2: pulmonary rales|15" onclick="GRACE2Score_fx();" aria-label="This button selects an option for the variable: Killip. The variable option is Class 2: pulmonary rales. The value for this variable is 15"><span class="medCalcFontOneClick" onclick="setRB('togel2');"> Class 2: pulmonary rales (15)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="Killip_radio" id="togel3" value="Class 3: pulmonary edema|29" onclick="GRACE2Score_fx();" aria-label="This button selects an option for the variable: Killip. The variable option is Class 3: pulmonary edema. The value for this variable is 29"><span class="medCalcFontOneClick" onclick="setRB('togel3');"> Class 3: pulmonary edema (29)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="Killip_radio" id="togel4" value="Class 4: cardiogenic shock|44" onclick="GRACE2Score_fx();" aria-label="This button selects an option for the variable: Killip. The variable option is Class 4: cardiogenic shock. The value for this variable is 44"><span class="medCalcFontOneClick" onclick="setRB('togel4');"> Class 4: cardiogenic shock (44)</span></td></tr>
+<tr><td class="ar"><span class="medCalcFontOneBold">Cardiac arrest at presentation</span></td>
+<td colspan="2" class="al"><input type="radio" name="Arrest_radio" id="togel5" value="No|0" onclick="GRACE2Score_fx();" aria-label="This button selects an option for the variable: Cardiac arrest at presentation. The variable option is No. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel5');"> No (0)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="Arrest_radio" id="togel6" value="Yes|30" onclick="GRACE2Score_fx();" aria-label="This button selects an option for the variable: Cardiac arrest at presentation. The variable option is Yes. The value for this variable is 30"><span class="medCalcFontOneClick" onclick="setRB('togel6');"> Yes (30)</span></td></tr>
+<tr><td class="ar"><span class="medCalcFontOneBold">Elevated cardiac enzymes</span></td>
+<td colspan="2" class="al"><input type="radio" name="Enzymes_radio" id="togel7" value="No|0" onclick="GRACE2Score_fx();" aria-label="This button selects an option for the variable: Elevated cardiac enzymes. The variable option is No. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel7');"> No (0)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="Enzymes_radio" id="togel8" value="Yes|13" onclick="GRACE2Score_fx();" aria-label="This button selects an option for the variable: Elevated cardiac enzymes. The variable option is Yes. The value for this variable is 13"><span class="medCalcFontOneClick" onclick="setRB('togel8');"> Yes (13)</span></td></tr>
+<tr><td class="ar"><span class="medCalcFontOneBold">ST-segment deviation</span></td>
+<td colspan="2" class="al"><input type="radio" name="ST_Seg_Dev_radio" id="togel9" value="No|0" onclick="GRACE2Score_fx();" aria-label="This button selects an option for the variable: ST-segment deviation. The variable option is No. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel9');"> No (0)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="ST_Seg_Dev_radio" id="togel10" value="Yes|17" onclick="GRACE2Score_fx();" aria-label="This button selects an option for the variable: ST-segment deviation. The variable option is Yes. The value for this variable is 17"><span class="medCalcFontOneClick" onclick="setRB('togel10');"> Yes (17)</span></td></tr>
+
+</table>
+
+</div>
+
+
+</div>
+<br>&nbsp;<br>
+<div id="calc_result">
+<div class="ac"><span class="medCalcFontIO">Result<span id="inputchk" class="medCalcFontOne"><br>&nbsp;<br><b>Important:</b> Inputs must be complete to perform calculation. <br></span></span>
+
+<br>&nbsp;<br>
+<table class="medCalcFormuliBox">
+<tr><td colspan="3">&nbsp;<br></td></tr>
+<tr>
+<td class="ar"><span class="medCalcFontResultParam">GRACE Score</span></td>
+<td class="alnw">&nbsp; <input type="text" name="GRACE_Score_param" class="resultBold" size="6" aria-readonly="true" aria-label="This output box will display the calculated value GRACE Score"></td>
+<td class="al"><span class="medCalcFontResultParam">
+<select name="GRACE_Score_unit" onchange="GRACE2Score_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value GRACE Score">
+<option value="1|0|#">#</option>
+<option value="1|0|count">count</option>
+<option value="1|0|index">index</option>
+<option value="1|0|logit">logit</option>
+<option value="1|0|none">none</option>
+<option value="1|0|number">number</option>
+<option value="1|0|points" selected="selected">points</option>
+<option value="1|0|score">score</option>
+<option value="1|0|">[No Unit]</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br></td></tr>
+</table>
+</div>
+
+<br>&nbsp;<br>
+<table class="medCalcTitleBox">
+<tr><td class="al">
+<span class="medCalcFontTitleBox">
+
+
+GRACE 2.0 Score and Estimation 6-Month Mortality from Admission
+</span></td></tr></table><br>&nbsp;<br>
+<table class="tableb1p4c" id="rr1_tag" aria-label="This table highlights the result GRACE 2.0 Score and Estimation 6-Month Mortality from Admission. No result is highlighted" tabindex="0">
+<tr id="rr1_1"><td class="arnw" style="border-right: 0px;"><span class="medCalcFontOneBold">0 to 75 points:</span></td>
+<td class="al" style="border-left: 0px;"><span class="medCalcFontOne"> 0.2 to 1.8% Mortality</span></td></tr>
+<tr id="rr1_2"><td class="arnw" style="border-right: 0px;"><span class="medCalcFontOneBold">76 to 128 points:</span></td>
+<td class="al" style="border-left: 0px;"><span class="medCalcFontOne">2 to 10% Mortality</span></td></tr>
+<tr id="rr1_3"><td class="arnw" style="border-right: 0px;"><span class="medCalcFontOneBold">129 to 140 points:</span></td>
+<td class="al" style="border-left: 0px;"><span class="medCalcFontOne">11 to 15% Mortality</span></td></tr>
+<tr id="rr1_4"><td class="arnw" style="border-right: 0px;"><span class="medCalcFontOneBold">141 to 149 points:</span></td>
+<td class="al" style="border-left: 0px;"><span class="medCalcFontOne"> 16 to 20% Mortality</span></td></tr>
+<tr id="rr1_5"><td class="arnw" style="border-right: 0px;"><span class="medCalcFontOneBold">150 to 173 points:</span></td>
+<td class="al" style="border-left: 0px;"><span class="medCalcFontOne">21 to 30% Mortality</span></td></tr>
+<tr id="rr1_6"><td class="arnw" style="border-right: 0px;"><span class="medCalcFontOneBold">174 to 199 points:</span></td>
+<td class="al" style="border-left: 0px;"><span class="medCalcFontOne">40 to 60% Mortality</span></td></tr>
+<tr id="rr1_7"><td class="arnw" style="border-right: 0px;"><span class="medCalcFontOneBold">200 to 218 points:</span></td>
+<td class="al" style="border-left: 0px;"><span class="medCalcFontOne"> 70 to 80% Mortality</span></td></tr>
+<tr id="rr1_8"><td class="arnw" style="border-right: 0px;"><span class="medCalcFontOneBold">219 to 306 points:</span></td>
+<td class="al" style="border-left: 0px;"><span class="medCalcFontOne">90 to 99% Mortality</span></td></tr>
+
+</table>
+<br>&nbsp;<br>
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br>&nbsp;<br>
+
+<div id="calc_notes">
+<span class="medCalcFontRef"><b>Notes</b></span>
+<ul class="medCalcFontOne">
+<li>The GRACE 2.0 Score calculator is a revised, non-linear model incorporating the 8 risk factors from the 2003 paper by Granger, et al.<sup>[3]</sup></li>
+<li><b>GRACE</b>: Global Registry of Acute Coronary Events.</li>
+
+
+</ul>
+</div>
+
+<br>&nbsp;<br>
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br>&nbsp;<br>
+<div class="ac">
+<div id="calc_equation">
+<table class="medCalcFormuliBox"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">GRACEScore = Math.round(AgeFactor + Heart rateFactor + SystolcBPFactor + Serum creatinineFactor + Killip + Cardiac arrest at presentation + Elevated cardiac enzymes + ST-segment deviation)</span></td></tr></table><br>&nbsp;<br>
+</div> </div>
+<br>&nbsp;<br>
+<div id="calc_details_and_variables">
+<span class="medCalcFontRef"><b>Calculation Details and Variables</b></span>
+<ul class="medCalcFontOne">
+<li><b>AgeFactor</b> is assigned values by this ordered logic: <ul><li>If <b>Age</b>  yr &lt;35, <span style="white-space: nowrap;"><b>AgeFactor</b> = 0</span></li><li>Else if <b>Age</b>  yr &lt;45, <span style="white-space: nowrap;"><b>AgeFactor</b> = (Age - 35) * 1.8</span></li><li>Else if <b>Age</b>  yr &lt;55, <span style="white-space: nowrap;"><b>AgeFactor</b> = 18 + ((Age - 45) * 1.8)</span></li><li>Else if <b>Age</b>  yr &lt;65, <span style="white-space: nowrap;"><b>AgeFactor</b> = 36 + ((Age - 55) * 1.8)</span></li><li>Else if <b>Age</b>  yr &lt;75, <span style="white-space: nowrap;"><b>AgeFactor</b> = 54 + ((Age - 65) * 1.9)</span></li><li>Else if <b>Age</b>  yr &lt;85, <span style="white-space: nowrap;"><b>AgeFactor</b> = 73 + ((Age - 75) * 1.8)</span></li><li>Else if <b>Age</b>  yr &lt;90, <span style="white-space: nowrap;"><b>AgeFactor</b> = 91 + ((Age - 85) * 1.8)</span></li><li><span style="white-space: nowrap;">Else <b>AgeFactor</b> = 100.</span></li></ul></li>
+<li><b>HeartRateFactor</b> is assigned values by this ordered logic: <ul><li>If <b>Heart rate</b>  beats/min &lt;70, <span style="white-space: nowrap;"><b>HeartRateFactor</b> = 0</span></li><li>Else if <b>Heart rate</b>  beats/min &lt;80, <span style="white-space: nowrap;"><b>HeartRateFactor</b> = (Heart_Rate - 70) * 0.3</span></li><li>Else if <b>Heart rate</b>  beats/min &lt;90, <span style="white-space: nowrap;"><b>HeartRateFactor</b> = 3 + ((Heart_Rate - 80) * 0.2)</span></li><li>Else if <b>Heart rate</b>  beats/min &lt;100, <span style="white-space: nowrap;"><b>HeartRateFactor</b> = 5 + ((Heart_Rate - 90) * 0.3)</span></li><li>Else if <b>Heart rate</b>  beats/min &lt;110, <span style="white-space: nowrap;"><b>HeartRateFactor</b> = 8 + ((Heart_Rate - 100) * 0.2)</span></li><li>Else if <b>Heart rate</b>  beats/min &lt;150, <span style="white-space: nowrap;"><b>HeartRateFactor</b> = 10 + ((Heart_Rate - 110) * 0.3)</span></li><li>Else if <b>Heart rate</b>  beats/min &lt;200, <span style="white-space: nowrap;"><b>HeartRateFactor</b> = 22 + ((Heart_Rate - 150) * 0.3)</span></li><li><span style="white-space: nowrap;">Else <b>HeartRateFactor</b> = 34.</span></li></ul></li>
+<li><b>SystolcBPFactor</b> is assigned values by this ordered logic: <ul><li>If <b>Systolic BP</b>  mmHg &lt;80, <span style="white-space: nowrap;"><b>SystolcBPFactor</b> = 40</span></li><li>Else if <b>Systolic BP</b>  mmHg &lt;100, <span style="white-space: nowrap;"><b>SystolcBPFactor</b> = 40 - ((Systolic_BP - 80) * 0.3)</span></li><li>Else if <b>Systolic BP</b>  mmHg &lt;110, <span style="white-space: nowrap;"><b>SystolcBPFactor</b> = 34 - ((Systolic_BP - 100) * 0.3)</span></li><li>Else if <b>Systolic BP</b>  mmHg &lt;120, <span style="white-space: nowrap;"><b>SystolcBPFactor</b> = 31 - ((Systolic_BP - 110) * 0.4)</span></li><li>Else if <b>Systolic BP</b>  mmHg &lt;130, <span style="white-space: nowrap;"><b>SystolcBPFactor</b> = 27 - ((Systolic_BP - 120) * 0.3)</span></li><li>Else if <b>Systolic BP</b>  mmHg &lt;140, <span style="white-space: nowrap;"><b>SystolcBPFactor</b> = 24 - ((Systolic_BP - 130) * 0.3)</span></li><li>Else if <b>Systolic BP</b>  mmHg &lt;150, <span style="white-space: nowrap;"><b>SystolcBPFactor</b> = 20 - ((Systolic_BP - 140) * 0.4)</span></li><li>Else if <b>Systolic BP</b>  mmHg &lt;160, <span style="white-space: nowrap;"><b>SystolcBPFactor</b> = 17 - ((Systolic_BP - 150) * 0.3)</span></li><li>Else if <b>Systolic BP</b>  mmHg &lt;180, <span style="white-space: nowrap;"><b>SystolcBPFactor</b> = 14 - ((Systolic_BP - 160) * 0.3)</span></li><li>Else if <b>Systolic BP</b>  mmHg &lt;200, <span style="white-space: nowrap;"><b>SystolcBPFactor</b> = 8 - ((Systolic_BP - 180) * 0.4)</span></li><li><span style="white-space: nowrap;">Else <b>SystolcBPFactor</b> = 0.</span></li></ul></li>
+<li><b>SerumCreatinineFactor</b> is assigned values by this ordered logic: <ul><li>If <b>Serum creatinine</b>  mg/dL &lt;0.2, <span style="white-space: nowrap;"><b>SerumCreatinineFactor</b> = Serum_Creatinine * 5</span></li><li>Else if <b>Serum creatinine</b>  mg/dL &lt;0.4, <span style="white-space: nowrap;"><b>SerumCreatinineFactor</b> = 1 + ((Serum_Creatinine - 0.2) * 10)</span></li><li>Else if <b>Serum creatinine</b>  mg/dL &lt;0.6, <span style="white-space: nowrap;"><b>SerumCreatinineFactor</b> = 3 + ((Serum_Creatinine - 0.4) * 5)</span></li><li>Else if <b>Serum creatinine</b>  mg/dL &lt;0.8, <span style="white-space: nowrap;"><b>SerumCreatinineFactor</b> = 4 + ((Serum_Creatinine - 0.6) * 10)</span></li><li>Else if <b>Serum creatinine</b>  mg/dL &lt;1.0, <span style="white-space: nowrap;"><b>SerumCreatinineFactor</b> = 6 + ((Serum_Creatinine - 0.8) * 5)</span></li><li>Else if <b>Serum creatinine</b>  mg/dL &lt;1.2, <span style="white-space: nowrap;"><b>SerumCreatinineFactor</b> = 7 + ((Serum_Creatinine - 1.0) * 5)</span></li><li>Else if <b>Serum creatinine</b>  mg/dL &lt;1.4, <span style="white-space: nowrap;"><b>SerumCreatinineFactor</b> = 8 + ((Serum_Creatinine - 1.2) * 10)</span></li><li>Else if <b>Serum creatinine</b>  mg/dL &lt;1.6, <span style="white-space: nowrap;"><b>SerumCreatinineFactor</b> = 10 + ((Serum_Creatinine - 1.4) * 5)</span></li><li>Else if <b>Serum creatinine</b>  mg/dL &lt;1.8, <span style="white-space: nowrap;"><b>SerumCreatinineFactor</b> = 11 + ((Serum_Creatinine - 1.6) * 10)</span></li><li>Else if <b>Serum creatinine</b>  mg/dL &lt;2.0, <span style="white-space: nowrap;"><b>SerumCreatinineFactor</b> = 13 + ((Serum_Creatinine - 1.8) * 5)</span></li><li>Else if <b>Serum creatinine</b>  mg/dL &lt;3.0, <span style="white-space: nowrap;"><b>SerumCreatinineFactor</b> = 14 + ((Serum_Creatinine - 2.0) * 7)</span></li><li>Else if <b>Serum creatinine</b>  mg/dL &lt;4.0, <span style="white-space: nowrap;"><b>SerumCreatinineFactor</b> = 21 + ((Serum_Creatinine - 3.0) * 7)</span></li><li><span style="white-space: nowrap;">Else <b>SerumCreatinineFactor</b> = 28.</span></li></ul></li>
+<li>Equation parameters such as <b>Killip</b>, have two or more discrete values that may be used in the calculation. The numbers in the parentheses, e.g.  (0), represent the values that will be used.</li>
+<li>All equation coefficients were adapted from the Fox article supplemental material<sup>[1]</sup>  Copyright 1998-2014, Center for Outcomes Research, University of Massachusetts Medical School.</li>
+
+</ul>
+</div>
+
+
+<div id="calc_tables">
+
+</div>
+
+<br>&nbsp;<br>
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Fox KA, Fitzgerald G, Puymirat E, et al. Should patients with acute coronary disease be stratified for management according to their risk? Derivation,  external validation and outcomes using the updated GRACE risk score. <i>BMJ Open</i>. 2014 Feb 21;4(2):e004425. PubMed ID: 24561498 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/24561498" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+<li><span class="medCalcFontRef">Fox KA, Dabbous OH, Goldberg RJ, et al. Prediction of risk of death and myocardial infarction in the six months after presentation with acute coronary  syndrome: prospective multinational observational study (GRACE). <i>BMJ</i>. 2006 Nov 25;333(7578):1091. PubMed ID: 17032691 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/17032691" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+<li><span class="medCalcFontRef">Granger CB, Goldberg RJ, Dabbous O, et al. Predictors of hospital mortality in the global registry of acute  coronary events. <i>Arch Intern Med</i>. 2003 Oct 27;163(19):2345-53. PubMed ID: 14581255 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/14581255" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br>&nbsp;<br><table class="medCalcFormuliBoxWhite"><tr><td class="medCalcDisclaimerBox"><div class="ac"><span class="medCalcFontTwo"><br>&nbsp;<br><b><u>Legal Notices and Disclaimer</u></b></span></div><br>&nbsp;<br><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.  EBMcalc is NOT a medical device.
+EBMcalc NEVER stores <i>cookies</i> or other persistent data in user's browsers.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br>&nbsp;<br><div class="ac"><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2026 EBMcalc, LLC &nbsp;&nbsp; [Build 279814 v26.1]</span></div></td></tr></table>
+</div><script>
+
+with(document.GRACE2Score_form){
+Age_param.focus();
+var Age_Factor = 0;
+var Heart_Rate_Factor = 0;
+var Systolc_BP_Factor = 0;
+var Serum_Creatinine_Factor = 0;
+
+}
+</script>
+
+
+
+</div>
+</body>
+</html>
+
+<!-- 1768579346 //-->

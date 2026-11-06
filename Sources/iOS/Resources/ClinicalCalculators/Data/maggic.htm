@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MAGGIC Score Predicting Heart Failure Survival</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5MKXR9');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees">
+<meta name="keywords" content="cardio, acpjc, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical"> 
+<meta name="author" content="EBMcalc, LLC">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="googlebot" content="noindex,indexifembedded">
+</head>
+
+<body class="medCalcBody">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MKXR9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="mc3k">
+<script>
+const mort1 = new Array();
+const mort3 = new Array();
+mort1[0] = 1.5; mort3[0] = 3.9;
+mort1[1] = 1.6; mort3[1] = 4.3;
+mort1[2] = 1.8; mort3[2] = 4.8;
+mort1[3] = 2.0; mort3[3] = 5.2;
+mort1[4] = 2.2; mort3[4] = 5.8;
+mort1[5] = 2.4; mort3[5] = 6.3;
+mort1[6] = 2.7; mort3[6] = 7;
+mort1[7] = 2.9; mort3[7] = 7.7;
+mort1[8] = 3.2; mort3[8] = 8.4;
+mort1[9] = 3.6; mort3[9] = 9.2;
+mort1[10] = 3.9; mort3[10] = 10.2;
+mort1[11] = 4.3; mort3[11] = 11.1;
+mort1[12] = 4.8; mort3[12] = 12.2;
+mort1[13] = 5.2; mort3[13] = 13.4;
+mort1[14] = 5.8; mort3[14] = 14.6;
+mort1[15] = 6.3; mort3[15] = 16;
+mort1[16] = 7; mort3[16] = 17.5;
+mort1[17] = 7.7; mort3[17] = 19.1;
+mort1[18] = 8.4; mort3[18] = 20.9;
+mort1[19] = 9.3; mort3[19] = 22.7;
+mort1[20] = 10.2; mort3[20] = 24.7;
+mort1[21] = 11.1; mort3[21] = 26.9;
+mort1[22] = 12.2; mort3[22] = 29.2;
+mort1[23] = 13.4; mort3[23] = 31.6;
+mort1[24] = 14.7; mort3[24] = 34.2;
+mort1[25] = 16; mort3[25] = 36.9;
+mort1[26] = 17.5; mort3[26] = 39.7;
+mort1[27] = 19.1; mort3[27] = 42.7;
+mort1[28] = 20.9; mort3[28] = 45.8;
+mort1[29] = 22.7; mort3[29] = 49;
+mort1[30] = 24.8; mort3[30] = 52.3;
+mort1[31] = 26.9; mort3[31] = 55.6;
+mort1[32] = 29.2; mort3[32] = 59;
+mort1[33] = 31.6; mort3[33] = 62.5;
+mort1[34] = 34.2; mort3[34] = 65.8;
+mort1[35] = 36.9; mort3[35] = 69.2;
+mort1[36] = 39.8; mort3[36] = 72.5;
+mort1[37] = 42.7; mort3[37] = 75.6;
+mort1[38] = 45.8; mort3[38] = 78.7;
+mort1[39] = 49; mort3[39] = 81.5;
+mort1[40] = 52.3; mort3[40] = 84.2;
+mort1[41] = 55.7; mort3[41] = 86.6;
+mort1[42] = 59.1; mort3[42] = 88.9;
+mort1[43] = 62.5; mort3[43] = 90.8;
+mort1[44] = 65.9; mort3[44] = 92.6;
+mort1[45] = 69.2; mort3[45] = 94.1;
+mort1[46] = 72.5; mort3[46] = 95.3;
+mort1[47] = 75.7; mort3[47] = 96.4;
+mort1[48] = 78.7; mort3[48] = 97.3;
+mort1[49] = 81.6; mort3[49] = 98;
+mort1[50] = 84.2; mort3[50] = 98.5;
+</script><script>
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+var x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 2000);
+}
+
+function wait(ms) {
+var stime = new Date().getTime();
+for (var i = 0; i < 1e8; i++) {
+if ((new Date().getTime() - stime) > ms){
+break;
+}}}
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+MAGGIC_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+MAGGIC_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+var inputchktxt = '<br>&nbsp;<br><b>Important:</b> Inputs must be complete to perform calculation. <br>'
+
+
+function aDelay(atxt, ffield){
+with (document.MAGGIC_form){
+clrResults();
+ffield.value = '';
+doCalc = false;
+setTimeout(function(){ alert(atxt); }, 100);
+document.getElementById('inputchk').innerHTML = inputchktxt;
+
+}}
+
+
+function MAGGIC_fx() {
+
+with(document.MAGGIC_form){
+
+
+doCalc = true;
+param_value = parseFloat(Age_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Age_unit.options[Age_unit.selectedIndex].value.split('|');
+Age = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+rbchk = false;
+if (Sex_radio[0].checked){ rbchk = true; Sex = 0;  }
+if (Sex_radio[1].checked){ rbchk = true; Sex = 1;  }
+if (!rbchk) doCalc = false;
+param_value = parseFloat(Ejection_Fraction_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Ejection_Fraction_unit.options[Ejection_Fraction_unit.selectedIndex].value.split('|');
+Ejection_Fraction = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Systolic_Blood_Pressure_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Systolic_Blood_Pressure_unit.options[Systolic_Blood_Pressure_unit.selectedIndex].value.split('|');
+Systolic_Blood_Pressure = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Body_Mass_Index_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Body_Mass_Index_unit.options[Body_Mass_Index_unit.selectedIndex].value.split('|');
+Body_Mass_Index = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Creatinine_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Creatinine_unit.options[Creatinine_unit.selectedIndex].value.split('|');
+Creatinine = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+rbchk = false;
+if (NYHA_Class_radio[0].checked){ rbchk = true; NYHA_Class = 0;  }
+if (NYHA_Class_radio[1].checked){ rbchk = true; NYHA_Class = 2;  }
+if (NYHA_Class_radio[2].checked){ rbchk = true; NYHA_Class = 6;  }
+if (NYHA_Class_radio[3].checked){ rbchk = true; NYHA_Class = 8;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (On_Beta_Blocker_radio[0].checked){ rbchk = true; On_Beta_Blocker = 3;  }
+if (On_Beta_Blocker_radio[1].checked){ rbchk = true; On_Beta_Blocker = 0;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (On_ACEI_ARB_radio[0].checked){ rbchk = true; On_ACEI_ARB = 1;  }
+if (On_ACEI_ARB_radio[1].checked){ rbchk = true; On_ACEI_ARB = 0;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (Smoker_radio[0].checked){ rbchk = true; Smoker = 0;  }
+if (Smoker_radio[1].checked){ rbchk = true; Smoker = 1;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (Diabetes_radio[0].checked){ rbchk = true; Diabetes = 0;  }
+if (Diabetes_radio[1].checked){ rbchk = true; Diabetes = 3;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (COPD_radio[0].checked){ rbchk = true; COPD = 0;  }
+if (COPD_radio[1].checked){ rbchk = true; COPD = 2;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (HF_Dx_Within_18_Months_radio[0].checked){ rbchk = true; HF_Dx_Within_18_Months = 0;  }
+if (HF_Dx_Within_18_Months_radio[1].checked){ rbchk = true; HF_Dx_Within_18_Months = 2;  }
+if (!rbchk) doCalc = false;
+dp = decpts.options[decpts.selectedIndex].text;
+
+if (Ejection_Fraction<20){
+EF_Factor = 7;
+}
+else 
+if (Ejection_Fraction<=24){
+EF_Factor = 6;
+}
+else 
+if (Ejection_Fraction<=29){
+EF_Factor = 5;
+}
+else 
+if (Ejection_Fraction<=34){
+EF_Factor = 3;
+}
+else 
+if (Ejection_Fraction<=39){
+EF_Factor = 2;
+}
+else{
+EF_Factor = 0;
+}
+
+if (Body_Mass_Index<15){
+BMI_Factor = 6;
+}
+else 
+if (Body_Mass_Index<=19){
+BMI_Factor = 5;
+}
+else 
+if (Body_Mass_Index<=24){
+BMI_Factor = 3;
+}
+else 
+if (Body_Mass_Index<=29){
+BMI_Factor = 2;
+}
+else{
+BMI_Factor = 0;
+}
+
+if (Creatinine>=250){
+Creatinine_Factor = 8;
+}
+else 
+if (Creatinine>=210){
+Creatinine_Factor = 6;
+}
+else 
+if (Creatinine>=170){
+Creatinine_Factor = 5;
+}
+else 
+if (Creatinine>=150){
+Creatinine_Factor = 4;
+}
+else 
+if (Creatinine>=130){
+Creatinine_Factor = 3;
+}
+else 
+if (Creatinine>=110){
+Creatinine_Factor = 2;
+}
+else 
+if (Creatinine>=90){
+Creatinine_Factor = 1;
+}
+else{
+Creatinine_Factor = 0;
+}
+var AGE_EF_Factor, SBP_EF_Factor;
+if (Ejection_Fraction >= 40){
+if (Age >= 80) AGE_EF_Factor = 15;
+else if (Age >= 75) AGE_EF_Factor = 12;
+else if (Age >= 70) AGE_EF_Factor = 9;
+else if (Age >= 65) AGE_EF_Factor = 7;
+else if (Age >= 60) AGE_EF_Factor = 5;
+else if (Age >= 56) AGE_EF_Factor = 3;
+else AGE_EF_Factor = 0;
+if (Systolic_Blood_Pressure < 110) SBP_EF_Factor = 2;
+else if (Systolic_Blood_Pressure <= 129) SBP_EF_Factor = 1;
+else SBP_EF_Factor = 0;
+}
+else if (Ejection_Fraction >= 30){
+if (Age >= 80) AGE_EF_Factor = 13;
+else if (Age >= 75) AGE_EF_Factor = 10;
+else if (Age >= 70) AGE_EF_Factor = 8;
+else if (Age >= 65) AGE_EF_Factor = 6;
+else if (Age >= 60) AGE_EF_Factor = 4;
+else if (Age >= 56) AGE_EF_Factor = 2;
+else AGE_EF_Factor = 0;
+if (Systolic_Blood_Pressure < 110) SBP_EF_Factor = 3;
+else if (Systolic_Blood_Pressure <= 119) SBP_EF_Factor = 2;
+else if (Systolic_Blood_Pressure <= 139) SBP_EF_Factor = 1;
+else SBP_EF_Factor = 0;
+}
+else{
+if (Age >= 80) AGE_EF_Factor = 10;
+else if (Age >= 75) AGE_EF_Factor = 8;
+else if (Age >= 70) AGE_EF_Factor = 6;
+else if (Age >= 65) AGE_EF_Factor = 4;
+else if (Age >= 60) AGE_EF_Factor = 2;
+else if (Age >= 56) AGE_EF_Factor = 1;
+else AGE_EF_Factor = 0;
+if (Systolic_Blood_Pressure < 110) SBP_EF_Factor = 5;
+else if (Systolic_Blood_Pressure <= 119) SBP_EF_Factor = 4;
+else if (Systolic_Blood_Pressure <= 129) SBP_EF_Factor = 3;
+else if (Systolic_Blood_Pressure <= 139) SBP_EF_Factor = 2;
+else if (Systolic_Blood_Pressure <= 149) SBP_EF_Factor = 1;
+else SBP_EF_Factor = 0;
+}
+MAGGIC_Score =  EF_Factor + AGE_EF_Factor + SBP_EF_Factor + BMI_Factor + Creatinine_Factor + NYHA_Class + Sex + Smoker + Diabetes + COPD + HF_Dx_Within_18_Months + On_Beta_Blocker + On_ACEI_ARB;
+
+unit_parts = MAGGIC_Score_unit.options[MAGGIC_Score_unit.selectedIndex].value.split('|');
+if (doCalc) MAGGIC_Score_param.value = fixDP((MAGGIC_Score - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+m1 =  mort1[MAGGIC_Score];
+
+unit_parts = m1_unit.options[m1_unit.selectedIndex].value.split('|');
+if (doCalc) m1_param.value = fixDP((m1 - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+m3 =  mort3[MAGGIC_Score];
+
+unit_parts = m3_unit.options[m3_unit.selectedIndex].value.split('|');
+if (doCalc) m3_param.value = fixDP((m3 - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+
+
+}
+
+
+if (doCalc) document.getElementById('inputchk').innerHTML = '';
+else document.getElementById('inputchk').innerHTML = inputchktxt;
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.MAGGIC_form){
+
+if (Age_param.value && isNaN(Age_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Age_param); }
+if (Ejection_Fraction_param.value && isNaN(Ejection_Fraction_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Ejection_Fraction_param); }
+if (Systolic_Blood_Pressure_param.value && isNaN(Systolic_Blood_Pressure_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Systolic_Blood_Pressure_param); }
+if (Body_Mass_Index_param.value && isNaN(Body_Mass_Index_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Body_Mass_Index_param); }
+if (Creatinine_param.value && isNaN(Creatinine_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Creatinine_param); }
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.MAGGIC_form){
+
+MAGGIC_Score_param.value = '';
+m1_param.value = '';
+m3_param.value = '';
+
+
+}
+
+}
+
+var Age = null,
+Sex = null,
+Ejection_Fraction = null,
+Systolic_Blood_Pressure = null,
+Body_Mass_Index = null,
+Creatinine = null,
+NYHA_Class = null,
+On_Beta_Blocker = null,
+On_ACEI_ARB = null,
+Smoker = null,
+Diabetes = null,
+COPD = null,
+HF_Dx_Within_18_Months = null,
+MAGGIC_Score = null,
+m1 = null,
+m3 = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+<form name="MAGGIC_form" id="MAGGIC_form" action="#" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="MAGGIC_fx();" onreset="document.getElementById('inputchk').innerHTML=inputchktxt; ">
+
+<table class="medCalcTitleBox">
+<tr><td class="al">
+<span class="medCalcFontTitleBox">
+
+ 
+MAGGIC Score Predicting Heart Failure Survival
+</span></td></tr></table><br>&nbsp;<br>
+
+<div id="calc_main">
+
+<div id="calc_input">
+
+<div class="ac">
+<span class="medCalcFontIO">
+Input
+</span>
+<br>&nbsp;<br>
+<table class="medCalcFormuliBoxWhite">
+<tr><td class="ar42"><span class="medCalcFontOneBold">Age</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Age_param"  size="6" value="" onblur="MAGGIC_fx(); minMaxCheck();" onchange="MAGGIC_fx();" aria-label="Use this input box to enter the value Age"></td>
+<td class="al"> <select name="Age_unit" onchange="MAGGIC_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Age">
+<option value="0.0833333333333333|0|mo">mo</option>
+<option value="1|0|yr" selected="selected">yr</option>
+</select></td></tr>
+
+<tr><td class="ar"><span class="medCalcFontOneBold">Sex</span></td>
+<td colspan="2" class="al"><input type="radio" name="Sex_radio" id="togel1" value="Female|0" onclick="MAGGIC_fx();" aria-label="This button selects an option for the variable: Sex. The variable option is Female. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel1');"> Female (0)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="Sex_radio" id="togel2" value="Male|1" onclick="MAGGIC_fx();" aria-label="This button selects an option for the variable: Sex. The variable option is Male. The value for this variable is 1"><span class="medCalcFontOneClick" onclick="setRB('togel2');"> Male (1)</span></td></tr>
+<tr><td class="ar42"><span class="medCalcFontOneBold">Ejection Fraction</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Ejection_Fraction_param"  size="6" value="" onblur="MAGGIC_fx(); minMaxCheck();" onchange="MAGGIC_fx();" aria-label="Use this input box to enter the value Ejection Fraction"></td>
+<td class="al"> <select name="Ejection_Fraction_unit" onchange="MAGGIC_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Ejection Fraction">
+<option value="1|0|%" selected="selected">%</option>
+<option value="100|0|fraction">fraction</option>
+<option value="1|0|percent">percent</option>
+<option value="100|0|rate">rate</option>
+<option value="100|0|ratio">ratio</option>
+</select></td></tr>
+
+<tr><td class="ar42"><span class="medCalcFontOneBold">Systolic Blood Pressure</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Systolic_Blood_Pressure_param"  size="6" value="" onblur="MAGGIC_fx(); minMaxCheck();" onchange="MAGGIC_fx();" aria-label="Use this input box to enter the value Systolic Blood Pressure"></td>
+<td class="al"> <select name="Systolic_Blood_Pressure_unit" onchange="MAGGIC_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Systolic Blood Pressure">
+<option value="0.00750063755419211|0|Pascal">Pascal</option>
+<option value="0.735561538478802|0|cmH2O">cmH2O</option>
+<option value="0.735561538478802|0|cm[H2O]">cm[H2O]</option>
+<option value="1|0|mm/Hg">mm/Hg</option>
+<option value="1|0|mmHg" selected="selected">mmHg</option>
+<option value="1|0|mm[Hg]">mm[Hg]</option>
+<option value="1|0|torr">torr</option>
+</select></td></tr>
+
+<tr><td class="ar42"><span class="medCalcFontOneBold">Body Mass Index</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Body_Mass_Index_param"  size="6" value="" onblur="MAGGIC_fx(); minMaxCheck();" onchange="MAGGIC_fx();" aria-label="Use this input box to enter the value Body Mass Index"></td>
+<td class="al"> <select name="Body_Mass_Index_unit" onchange="MAGGIC_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Body Mass Index">
+<option value="1|0|kg/m(2)_BMI">kg/m(2)</option>
+<option value="1|0|kg/m2_BMI">kg/m2</option>
+<option value="1|0|kg/m^2_BMI" selected="selected">kg/m^2</option>
+<option value="1|0|kg/sqm_BMI">kg/sqm</option>
+<option value="1|0|">[No Unit]</option>
+</select></td></tr>
+
+<tr><td class="ar42"><span class="medCalcFontOneBold">Creatinine</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Creatinine_param"  size="6" value="" onblur="MAGGIC_fx(); minMaxCheck();" onchange="MAGGIC_fx();" aria-label="Use this input box to enter the value Creatinine"></td>
+<td class="al"> <select name="Creatinine_unit" onchange="MAGGIC_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Creatinine">
+<option value="1|0|mcmol/L_Cr" selected="selected">mcmol/L</option>
+<option value="88.4|0|mg/dL_Cr">mg/dL</option>
+<option value="1000|0|mmol/L_Cr">mmol/L</option>
+</select></td></tr>
+
+<tr><td class="ar"><span class="medCalcFontOneBold">NYHA Class</span></td>
+<td colspan="2" class="al"><input type="radio" name="NYHA_Class_radio" id="togel3" value="Class I|0" onclick="MAGGIC_fx();" aria-label="This button selects an option for the variable: NYHA Class. The variable option is Class I. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel3');"> Class I (0)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="NYHA_Class_radio" id="togel4" value="Class II|2" onclick="MAGGIC_fx();" aria-label="This button selects an option for the variable: NYHA Class. The variable option is Class II. The value for this variable is 2"><span class="medCalcFontOneClick" onclick="setRB('togel4');"> Class II (2)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="NYHA_Class_radio" id="togel5" value="Class III|6" onclick="MAGGIC_fx();" aria-label="This button selects an option for the variable: NYHA Class. The variable option is Class III. The value for this variable is 6"><span class="medCalcFontOneClick" onclick="setRB('togel5');"> Class III (6)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="NYHA_Class_radio" id="togel6" value="Class IV|8" onclick="MAGGIC_fx();" aria-label="This button selects an option for the variable: NYHA Class. The variable option is Class IV. The value for this variable is 8"><span class="medCalcFontOneClick" onclick="setRB('togel6');"> Class IV (8)</span></td></tr>
+<tr><td class="ar"><span class="medCalcFontOneBold">On Beta Blocker</span></td>
+<td colspan="2" class="al"><input type="radio" name="On_Beta_Blocker_radio" id="togel7" value="No|3" onclick="MAGGIC_fx();" aria-label="This button selects an option for the variable: On Beta Blocker. The variable option is No. The value for this variable is 3"><span class="medCalcFontOneClick" onclick="setRB('togel7');"> No (3)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="On_Beta_Blocker_radio" id="togel8" value="Yes|0" onclick="MAGGIC_fx();" aria-label="This button selects an option for the variable: On Beta Blocker. The variable option is Yes. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel8');"> Yes (0)</span></td></tr>
+<tr><td class="ar"><span class="medCalcFontOneBold">On ACEI ARB</span></td>
+<td colspan="2" class="al"><input type="radio" name="On_ACEI_ARB_radio" id="togel9" value="No|1" onclick="MAGGIC_fx();" aria-label="This button selects an option for the variable: On ACEI ARB. The variable option is No. The value for this variable is 1"><span class="medCalcFontOneClick" onclick="setRB('togel9');"> No (1)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="On_ACEI_ARB_radio" id="togel10" value="Yes|0" onclick="MAGGIC_fx();" aria-label="This button selects an option for the variable: On ACEI ARB. The variable option is Yes. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel10');"> Yes (0)</span></td></tr>
+<tr><td class="ar"><span class="medCalcFontOneBold">Smoker</span></td>
+<td colspan="2" class="al"><input type="radio" name="Smoker_radio" id="togel11" value="No|0" onclick="MAGGIC_fx();" aria-label="This button selects an option for the variable: Smoker. The variable option is No. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel11');"> No (0)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="Smoker_radio" id="togel12" value="Yes|1" onclick="MAGGIC_fx();" aria-label="This button selects an option for the variable: Smoker. The variable option is Yes. The value for this variable is 1"><span class="medCalcFontOneClick" onclick="setRB('togel12');"> Yes (1)</span></td></tr>
+<tr><td class="ar"><span class="medCalcFontOneBold">Diabetes</span></td>
+<td colspan="2" class="al"><input type="radio" name="Diabetes_radio" id="togel13" value="No|0" onclick="MAGGIC_fx();" aria-label="This button selects an option for the variable: Diabetes. The variable option is No. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel13');"> No (0)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="Diabetes_radio" id="togel14" value="Yes|3" onclick="MAGGIC_fx();" aria-label="This button selects an option for the variable: Diabetes. The variable option is Yes. The value for this variable is 3"><span class="medCalcFontOneClick" onclick="setRB('togel14');"> Yes (3)</span></td></tr>
+<tr><td class="ar"><span class="medCalcFontOneBold">COPD</span></td>
+<td colspan="2" class="al"><input type="radio" name="COPD_radio" id="togel15" value="No|0" onclick="MAGGIC_fx();" aria-label="This button selects an option for the variable: COPD. The variable option is No. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel15');"> No (0)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="COPD_radio" id="togel16" value="Yes|2" onclick="MAGGIC_fx();" aria-label="This button selects an option for the variable: COPD. The variable option is Yes. The value for this variable is 2"><span class="medCalcFontOneClick" onclick="setRB('togel16');"> Yes (2)</span></td></tr>
+<tr><td class="ar"><span class="medCalcFontOneBold">HF Dx Within 18 Months</span></td>
+<td colspan="2" class="al"><input type="radio" name="HF_Dx_Within_18_Months_radio" id="togel17" value="No|0" onclick="MAGGIC_fx();" aria-label="This button selects an option for the variable: HF Dx Within 18 Months. The variable option is No. The value for this variable is 0"><span class="medCalcFontOneClick" onclick="setRB('togel17');"> No (0)</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="HF_Dx_Within_18_Months_radio" id="togel18" value="Yes|2" onclick="MAGGIC_fx();" aria-label="This button selects an option for the variable: HF Dx Within 18 Months. The variable option is Yes. The value for this variable is 2"><span class="medCalcFontOneClick" onclick="setRB('togel18');"> Yes (2)</span></td></tr>
+
+</table>
+
+</div>
+
+
+</div>
+<br>&nbsp;<br>
+<div id="calc_result">
+<div class="ac"><span class="medCalcFontIO">Results<span id="inputchk" class="medCalcFontOne"><br>&nbsp;<br><b>Important:</b> Inputs must be complete to perform calculation. <br></span></span>
+
+<br>&nbsp;<br>
+<table class="medCalcFormuliBox">
+<tr><td colspan="3">&nbsp;<br></td></tr>
+<tr>
+<td class="ar"><span class="medCalcFontResultParam">MAGGIC Score</span></td>
+<td class="alnw">&nbsp; <input type="text" name="MAGGIC_Score_param" class="resultBold" size="6" aria-readonly="true" aria-label="This output box will display the calculated value MAGGIC Score"></td>
+<td class="al"><span class="medCalcFontResultParam">
+<select name="MAGGIC_Score_unit" onchange="MAGGIC_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value MAGGIC Score">
+<option value="1|0|#">#</option>
+<option value="1|0|count">count</option>
+<option value="1|0|index">index</option>
+<option value="1|0|logit">logit</option>
+<option value="1|0|none">none</option>
+<option value="1|0|number">number</option>
+<option value="1|0|points" selected="selected">points</option>
+<option value="1|0|score">score</option>
+<option value="1|0|">[No Unit]</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td class="ar"><span class="medCalcFontResultParam">1-Year Mortality</span></td>
+<td class="alnw">&nbsp; <input type="text" name="m1_param" class="resultBold" size="6" aria-readonly="true" aria-label="This output box will display the calculated value 1-Year Mortality"></td>
+<td class="al"><span class="medCalcFontResultParam">
+<select name="m1_unit" onchange="MAGGIC_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value 1-Year Mortality">
+<option value="1|0|%" selected="selected">%</option>
+<option value="100|0|fraction">fraction</option>
+<option value="1|0|percent">percent</option>
+<option value="100|0|rate">rate</option>
+<option value="100|0|ratio">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td class="ar"><span class="medCalcFontResultParam">3-Year Mortality</span></td>
+<td class="alnw">&nbsp; <input type="text" name="m3_param" class="resultBold" size="6" aria-readonly="true" aria-label="This output box will display the calculated value 3-Year Mortality"></td>
+<td class="al"><span class="medCalcFontResultParam">
+<select name="m3_unit" onchange="MAGGIC_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value 3-Year Mortality">
+<option value="1|0|%" selected="selected">%</option>
+<option value="100|0|fraction">fraction</option>
+<option value="1|0|percent">percent</option>
+<option value="100|0|rate">rate</option>
+<option value="100|0|ratio">ratio</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br></td></tr>
+<tr><td colspan="3" class="ac"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="MAGGIC_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option selected="selected">1</option>
+<option>2</option>
+<option>3</option>
+
+</select><br>&nbsp;<br></td></tr>
+</table>
+</div>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+<br>&nbsp;<br>
+<div id="calc_hints">
+<span class="medCalcFontOne">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</span>
+ 
+</div>
+
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br>&nbsp;<br>
+
+<div id="calc_notes">
+<span class="medCalcFontRef"><b>Notes</b></span>
+<ul class="medCalcFontOne">
+<li>Mortality predictions are looked up in a table that has data for 0 to 50 points (see below in the Appendix).   In rare cases the score may be &gt;50. In these cases the calculator reports "NaN" but it is likely the mortality is at or above that for 50 points.</li>
+<li><b>MAGGIC</b>: <b>M</b>eta-<b>A</b>nalysis <b>G</b>lobal <b>G</b>roup in <b>C</b>hronic Heart Failure.</li>
+
+
+</ul>
+</div>
+
+<br>&nbsp;<br>
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br>&nbsp;<br>
+<div class="ac">
+<div id="calc_equation">
+<table class="medCalcFormuliBox"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">MAGGICScore = EFFactor + AGEEFFactor + SBPEFFactor + BMIFactor + CreatinineFactor + NYHAClass + Sex + Smoker + Diabetes + COPD + HFDxWithin18Months + OnBetaBlocker + OnACEIARB</span></td></tr></table><br>&nbsp;<br>
+</div> </div>
+<br>&nbsp;<br>
+<div id="calc_details_and_variables">
+<span class="medCalcFontRef"><b>Calculation Details and Variables</b></span>
+<ul class="medCalcFontOne">
+<li>Equation parameters such as <b>Sex</b>, have two or more discrete values that may be used in the calculation. The numbers in the parentheses, e.g.  (0), represent the values that will be used.</li>
+<li><b>EFFactor</b> is assigned values by this ordered logic: <ul><li>If <b>Ejection Fraction</b> &lt;20 %, <span style="white-space: nowrap;"><b>EFFactor</b> = 7</span></li><li>Else if <b>Ejection Fraction</b> &le;24 %, <span style="white-space: nowrap;"><b>EFFactor</b> = 6</span></li><li>Else if <b>Ejection Fraction</b> &le;29 %, <span style="white-space: nowrap;"><b>EFFactor</b> = 5</span></li><li>Else if <b>Ejection Fraction</b> &le;34 %, <span style="white-space: nowrap;"><b>EFFactor</b> = 3</span></li><li>Else if <b>Ejection Fraction</b> &le;39 %, <span style="white-space: nowrap;"><b>EFFactor</b> = 2</span></li><li><span style="white-space: nowrap;">Else <b>EFFactor</b> = 0.</span></li></ul></li>
+<li><b>BMIFactor</b> is assigned values by this ordered logic: <ul><li>If <b>Body Mass Index</b> &lt;15 kg/m^2, <span style="white-space: nowrap;"><b>BMIFactor</b> = 6</span></li><li>Else if <b>Body Mass Index</b> &le;19 kg/m^2, <span style="white-space: nowrap;"><b>BMIFactor</b> = 5</span></li><li>Else if <b>Body Mass Index</b> &le;24 kg/m^2, <span style="white-space: nowrap;"><b>BMIFactor</b> = 3</span></li><li>Else if <b>Body Mass Index</b> &le;29 kg/m^2, <span style="white-space: nowrap;"><b>BMIFactor</b> = 2</span></li><li><span style="white-space: nowrap;">Else <b>BMIFactor</b> = 0.</span></li></ul></li>
+<li><b>CreatinineFactor</b> is assigned values by this ordered logic: <ul><li>If <b>Creatinine</b> &ge;250 mcmol/L, <span style="white-space: nowrap;"><b>CreatinineFactor</b> = 8</span></li><li>Else if <b>Creatinine</b> &ge;210 mcmol/L, <span style="white-space: nowrap;"><b>CreatinineFactor</b> = 6</span></li><li>Else if <b>Creatinine</b> &ge;170 mcmol/L, <span style="white-space: nowrap;"><b>CreatinineFactor</b> = 5</span></li><li>Else if <b>Creatinine</b> &ge;150 mcmol/L, <span style="white-space: nowrap;"><b>CreatinineFactor</b> = 4</span></li><li>Else if <b>Creatinine</b> &ge;130 mcmol/L, <span style="white-space: nowrap;"><b>CreatinineFactor</b> = 3</span></li><li>Else if <b>Creatinine</b> &ge;110 mcmol/L, <span style="white-space: nowrap;"><b>CreatinineFactor</b> = 2</span></li><li>Else if <b>Creatinine</b> &ge;90 mcmol/L, <span style="white-space: nowrap;"><b>CreatinineFactor</b> = 1</span></li><li><span style="white-space: nowrap;">Else <b>CreatinineFactor</b> = 0.</span></li></ul></li>
+<li>The following logic is used to add additional <b>Ejection Fraction</b> interaction points:</li>
+<li class="parentNote">When <b>Ejection Fraction</b> &ge;40 %
+<ul class="childNoteList">
+<li class="childNote"> If <b>Age</b> &ge;80, <b>AGE EF Factor</b> = 15</li>
+<li class="childNote"> Else if <b>Age</b> &ge;75, <b>AGE EF Factor</b> = 12</li>
+<li class="childNote"> Else if <b>Age</b> &ge;70, <b>AGE EF Factor</b> = 9</li>
+<li class="childNote"> Else if <b>Age</b> &ge;65, <b>AGE EF Factor</b> = 7</li>
+<li class="childNote"> Else if <b>Age</b> &ge;60, <b>AGE EF Factor</b> = 5</li>
+<li class="childNote"> Else if <b>Age</b> &ge;56, <b>AGE EF Factor</b> = 3</li>
+<li class="childNote"> Else <b>AGE EF Factor</b> = 0</li>
+<li class="childNote"> If <b>Systolic Blood Pressure</b> &lt;110 mmHg, <b>SBP EF Factor</b> = 2</li>
+<li class="childNote"> Else if <b>Systolic Blood Pressure</b> &le;129 mmHg, <b>SBP EF Factor</b> = 1</li>
+<li class="childNote"> Else <b>SBP EF Factor</b> = 0</li>
+</ul></li>
+<li class="parentNote">Else when <b>Ejection Fraction</b> &ge;30 %
+<ul class="childNoteList">
+<li class="childNote"> If <b>Age</b> &ge;80, <b>AGE EF Factor</b> = 13</li>
+<li class="childNote"> Else if <b>Age</b> &ge;75, <b>AGE EF Factor</b> = 10</li>
+<li class="childNote"> Else if <b>Age</b> &ge;70, <b>AGE EF Factor</b> = 8</li>
+<li class="childNote"> Else if <b>Age</b> &ge;65, <b>AGE EF Factor</b> = 6</li>
+<li class="childNote"> Else if <b>Age</b> &ge;60, <b>AGE EF Factor</b> = 4</li>
+<li class="childNote"> Else if <b>Age</b> &ge;56, <b>AGE EF Factor</b> = 2</li>
+<li class="childNote"> Else <b>AGE EF Factor</b> = 0</li>
+<li class="childNote"> If <b>Systolic Blood Pressure</b> &lt;110 mmHg, <b>SBP EF Factor</b> = 3</li>
+<li class="childNote"> Else if <b>Systolic Blood Pressure</b> &le;119 mmHg, <b>SBP EF Factor</b> = 2</li>
+<li class="childNote"> Else if <b>Systolic Blood Pressure</b> &le;139 mmHg, <b>SBP EF Factor</b> = 1</li>
+<li class="childNote"> Else <b>SBP EF Factor</b> = 0</li>
+</ul></li>
+<li class="parentNote">Else when <b>Ejection Fraction</b> &lt;30 %
+<ul class="childNoteList">
+<li class="childNote"> If <b>Age</b> &ge; 80, <b>AGE EF Factor</b> = 10</li>
+<li class="childNote"> Else if <b>Age</b> &ge;75, <b>AGE EF Factor</b> = 8</li>
+<li class="childNote"> Else if <b>Age</b> &ge;70, <b>AGE EF Factor</b> = 6</li>
+<li class="childNote"> Else if <b>Age</b> &ge;65, <b>AGE EF Factor</b> = 4</li>
+<li class="childNote"> Else if <b>Age</b> &ge;60, <b>AGE EF Factor</b> = 2</li>
+<li class="childNote"> Else if <b>Age</b> &ge;56, <b>AGE EF Factor</b> = 1</li>
+<li class="childNote"> Else <b>AGE EF Factor</b> = 0</li>
+<li class="childNote"> If <b>Systolic Blood Pressure</b> &lt;110 mmHg, <b>SBP EF Factor</b> = 5</li>
+<li class="childNote"> Else if <b>Systolic Blood Pressure</b> &le;119 mmHg, <b>SBP EF Factor</b> = 4</li>
+<li class="childNote"> Else if <b>Systolic Blood Pressure</b> &le;129 mmHg, <b>SBP EF Factor</b> = 3</li>
+<li class="childNote"> Else if <b>Systolic Blood Pressure</b> &le;139 mmHg, <b>SBP EF Factor</b> = 2</li>
+<li class="childNote"> Else if <b>Systolic Blood Pressure</b> &le;149 mmHg, <b>SBP EF Factor</b> = 1</li>
+<li class="childNote"> Else <b>SBP EF Factor</b> = 0</li>
+</ul></li>
+
+</ul>
+</div>
+
+
+<div id="calc_tables">
+
+</div>
+
+<br>&nbsp;<br>
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Chatterjee S. ACP Journal Club. A 13-item score based on readily available risk factors  predicted risk for 3-year mortality in heart failure. <i>Ann Intern Med</i>. 2013 Jan  15;158(2):JC13. doi: 10.7326/0003-4819-158-2-201301150-02013. PubMed ID: 23318335 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/23318335" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+<li><span class="medCalcFontRef">Pocock SJ, Ariti CA, McMurray JJ, Meta-Analysis Global Group in Chronic Heart Failure, et al. Predicting  survival in heart failure: a risk score based on 39 372 patients from 30 studies. <i>Eur Heart J</i>. 2013 May;34(19):1404-13. PubMed ID: 23095984 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/23095984" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+<li><span class="medCalcFontRef">Rich JD, Burns J, Freed BH, Maurer MS, et al. Meta-Analysis Global Group in Chronic (MAGGIC)  Heart Failure Risk Score: Validation of a Simple Tool for the Prediction of Morbidity and Mortality in Heart Failure  With Preserved Ejection Fraction. <i>J Am Heart Assoc</i>. 2018 Oct 16;7(20):e009594. PubMed ID: 30371285 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/30371285" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div class="calc_tables_supp">
+<br>&nbsp;<br>
+<table class="medCalcTitleBox">
+<tr><td class="al">
+<span class="medCalcFontTitleBox">
+Appendix
+</span></td></tr></table>
+<br>&nbsp;<br>
+<span class="medCalcFontRef"><b>1- and 3-Year Mortality Prediction</b></span>
+<br>&nbsp;<br>
+<table class="tableb1p4c">
+ <tr><th>MAGGIC Points</th><th>1-Year Mortality</th><th>3-Year Mortality</th></tr>
+<tr class="ac"><td> 0</td><td>1.5%</td><td>3.9%</td></tr>
+<tr class="ac"><td> 1</td><td>1.6%</td><td>4.3%</td></tr>
+<tr class="ac"><td> 2</td><td>1.8%</td><td>4.8%</td></tr>
+<tr class="ac"><td> 3</td><td>2%</td><td>5.2%</td></tr>
+<tr class="ac"><td> 4</td><td>2.2%</td><td>5.8%</td></tr>
+<tr class="ac"><td> 5</td><td>2.4%</td><td>6.3%</td></tr>
+<tr class="ac"><td> 6</td><td>2.7%</td><td>7%</td></tr>
+<tr class="ac"><td> 7</td><td>2.9%</td><td>7.7%</td></tr>
+<tr class="ac"><td> 8</td><td>3.2%</td><td>8.4%</td></tr>
+<tr class="ac"><td> 9</td><td>3.6%</td><td>9.2%</td></tr>
+<tr class="ac"><td> 10</td><td>3.9%</td><td>10.2%</td></tr>
+<tr class="ac"><td> 11</td><td>4.3%</td><td>11.1%</td></tr>
+<tr class="ac"><td> 12</td><td>4.8%</td><td>12.2%</td></tr>
+<tr class="ac"><td> 13</td><td>5.2%</td><td>13.4%</td></tr>
+<tr class="ac"><td> 14</td><td>5.8%</td><td>14.6%</td></tr>
+<tr class="ac"><td> 15</td><td>6.3%</td><td>16%</td></tr>
+<tr class="ac"><td> 16</td><td>7%</td><td>17.5%</td></tr>
+<tr class="ac"><td> 17</td><td>7.7%</td><td>19.1%</td></tr>
+<tr class="ac"><td> 18</td><td>8.4%</td><td>20.9%</td></tr>
+<tr class="ac"><td> 19</td><td>9.3%</td><td>22.7%</td></tr>
+<tr class="ac"><td> 20</td><td>10.2%</td><td>24.7%</td></tr>
+<tr class="ac"><td> 21</td><td>11.1%</td><td>26.9%</td></tr>
+<tr class="ac"><td> 22</td><td>12.2%</td><td>29.2%</td></tr>
+<tr class="ac"><td> 23</td><td>13.4%</td><td>31.6%</td></tr>
+<tr class="ac"><td> 24</td><td>14.7%</td><td>34.2%</td></tr>
+<tr class="ac"><td> 25</td><td>16%</td><td>36.9%</td></tr>
+<tr class="ac"><td> 26</td><td>17.5%</td><td>39.7%</td></tr>
+<tr class="ac"><td> 27</td><td>19.1%</td><td>42.7%</td></tr>
+<tr class="ac"><td> 28</td><td>20.9%</td><td>45.8%</td></tr>
+<tr class="ac"><td> 29</td><td>22.7%</td><td>49%</td></tr>
+<tr class="ac"><td> 30</td><td>24.8%</td><td>52.3%</td></tr>
+<tr class="ac"><td> 31</td><td>26.9%</td><td>55.6%</td></tr>
+<tr class="ac"><td> 32</td><td>29.2%</td><td>59%</td></tr>
+<tr class="ac"><td> 33</td><td>31.6%</td><td>62.5%</td></tr>
+<tr class="ac"><td> 34</td><td>34.2%</td><td>65.8%</td></tr>
+<tr class="ac"><td> 35</td><td>36.9%</td><td>69.2%</td></tr>
+<tr class="ac"><td> 36</td><td>39.8%</td><td>72.5%</td></tr>
+<tr class="ac"><td> 37</td><td>42.7%</td><td>75.6%</td></tr>
+<tr class="ac"><td> 38</td><td>45.8%</td><td>78.7%</td></tr>
+<tr class="ac"><td> 39</td><td>49%</td><td>81.5%</td></tr>
+<tr class="ac"><td> 40</td><td>52.3%</td><td>84.2%</td></tr>
+<tr class="ac"><td> 41</td><td>55.7%</td><td>86.6%</td></tr>
+<tr class="ac"><td> 42</td><td>59.1%</td><td>88.9%</td></tr>
+<tr class="ac"><td> 43</td><td>62.5%</td><td>90.8%</td></tr>
+<tr class="ac"><td> 44</td><td>65.9%</td><td>92.6%</td></tr>
+<tr class="ac"><td> 45</td><td>69.2%</td><td>94.1%</td></tr>
+<tr class="ac"><td> 46</td><td>72.5%</td><td>95.3%</td></tr>
+<tr class="ac"><td> 47</td><td>75.7%</td><td>96.4%</td></tr>
+<tr class="ac"><td> 48</td><td>78.7%</td><td>97.3%</td></tr>
+<tr class="ac"><td> 49</td><td>81.6%</td><td>98%</td></tr>
+<tr class="ac"><td> 50</td><td>84.2%</td><td>98.5%</td></tr>
+</table>
+
+<br>&nbsp;<br>
+
+
+
+</div>
+
+<div id="calc_disclaimer"> <br>&nbsp;<br><table class="medCalcFormuliBoxWhite"><tr><td class="medCalcDisclaimerBox"><div class="ac"><span class="medCalcFontTwo"><br>&nbsp;<br><b><u>Legal Notices and Disclaimer</u></b></span></div><br>&nbsp;<br><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.  EBMcalc is NOT a medical device.
+EBMcalc NEVER stores <i>cookies</i> or other persistent data in user's browsers.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br>&nbsp;<br><div class="ac"><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2025 EBMcalc, LLC &nbsp;&nbsp; [Build 278906 v25.4]</span></div></td></tr></table>
+</div><script>
+
+with(document.MAGGIC_form){
+Age_param.focus();
+var EF_Factor = 0;
+var BMI_Factor = 0;
+var Creatinine_Factor = 0;
+
+}
+</script>
+
+
+
+</div>
+</body>
+</html>
+
+<!-- 1761238335 //-->

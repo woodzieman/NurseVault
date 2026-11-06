@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>FIB-4 Index, an Indirect Marker for Liver Fibrosis in Adults (2026 update)</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5MKXR9');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees">
+<meta name="keywords" content="hepatology, infect, gastro, diagnosis, prognosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical"> 
+<meta name="author" content="EBMcalc, LLC">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="googlebot" content="noindex,indexifembedded">
+</head>
+
+<body class="medCalcBody">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MKXR9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="mc3k">
+<script>
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+var x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 2000);
+}
+
+function wait(ms) {
+var stime = new Date().getTime();
+for (var i = 0; i < 1e8; i++) {
+if ((new Date().getTime() - stime) > ms){
+break;
+}}}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+var inputchktxt = '<br>&nbsp;<br><b>Important:</b> Inputs must be complete to perform calculation. <br>'
+
+
+function aDelay(atxt, ffield){
+with (document.FIB4_MultiDx_form){
+clrResults();
+ffield.value = '';
+doCalc = false;
+setTimeout(function(){ alert(atxt); }, 100);
+document.getElementById('inputchk').innerHTML = inputchktxt;
+
+}}
+
+
+function FIB4_MultiDx_fx() {
+
+with(document.FIB4_MultiDx_form){
+
+
+doCalc = true;
+rbchk = false;
+if (Type_of_liver_disease_radio[0].checked){ rbchk = true; Type_of_liver_disease = 1;  }
+if (Type_of_liver_disease_radio[1].checked){ rbchk = true; Type_of_liver_disease = 2;  }
+if (!rbchk) doCalc = false;
+param_value = parseFloat(Age_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Age_unit.options[Age_unit.selectedIndex].value.split('|');
+Age = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Platelets_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Platelets_unit.options[Platelets_unit.selectedIndex].value.split('|');
+Platelets = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(AST_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = AST_unit.options[AST_unit.selectedIndex].value.split('|');
+AST = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(ALT_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = ALT_unit.options[ALT_unit.selectedIndex].value.split('|');
+ALT = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+dp = decpts.options[decpts.selectedIndex].text;
+FIB4 =  Age * AST / (0.001 * Platelets * sqr(ALT));
+
+if (doCalc) FIB4_param.value = fixDP(FIB4, dp);
+
+
+
+if(doCalc){
+rrclr();
+calctxt += '\n\nRisk Based on Disease Type and Age:\n\n';
+htmtxt += '\n<br>&nbsp;<br><b>Risk Based on Disease Type and Age:<\/b><br>&nbsp;<br>';
+xmltxt += '\n<Result_Interpretation>Risk Based on Disease Type and Age:\n';
+if ((Type_of_liver_disease === 1) && (Age < 65)){
+document.getElementById('rr1row1col0').innerHTML = '&lt;1.3';
+document.getElementById('rr1row2col0').innerHTML = '&ge;1.3 and &le;2.67';
+document.getElementById('rr1row3col0').innerHTML = '&gt;2.67';
+if (FIB4 > 2.67){
+document.getElementById('rr1row3').bgColor = '#8ab2be';
+calctxt += 'FIB-4 >2.67: Advanced fibrosis/cirrhosis more likely';
+htmtxt += 'FIB-4 &gt;2.67: Advanced fibrosis/cirrhosis more likely';
+xmltxt += 'FIB-4 &gt;2.67: Advanced fibrosis/cirrhosis more likely';
+}
+else if (FIB4 >= 1.3){
+document.getElementById('rr1row2').bgColor = '#8ab2be';
+calctxt += 'FIB-4 >=1.3 and <=2.67: Indeterminate risk';
+htmtxt += 'FIB-4 &ge;1.3 and &le;2.67: Indeterminate risk';
+xmltxt += 'FIB-4 &ge;1.3 and &le;2.67: Indeterminate risk';
+}
+else {
+document.getElementById('rr1row1').bgColor = '#8ab2be';
+calctxt += 'FIB-4 <1.3: Cirrhosis less likely';
+htmtxt += 'FIB-4 &lt;1.3: Cirrhosis less likely';
+xmltxt += 'FIB-4 &lt;1.3: Cirrhosis less likely';
+}
+}
+else if (Type_of_liver_disease === 1){
+document.getElementById('rr1row1col0').innerHTML = '&lt;2';
+document.getElementById('rr1row2col0').innerHTML = '&ge;2 and &le;2.67';
+document.getElementById('rr1row3col0').innerHTML = '&gt;2.67';
+if (FIB4 > 2.67){
+document.getElementById('rr1row3').bgColor = '#8ab2be';
+calctxt += 'FIB-4 >2.67: Advanced fibrosis/cirrhosis more likely';
+htmtxt += 'FIB-4 &gt;2.67: Advanced fibrosis/cirrhosis more likely';
+xmltxt += 'FIB-4 &gt;2.67: Advanced fibrosis/cirrhosis more likely';
+}
+else if (FIB4 >= 2){
+document.getElementById('rr1row2').bgColor = '#8ab2be';
+calctxt += 'FIB-4 >=2 and <=2.67: Indeterminate risk';
+htmtxt += 'FIB-4 &ge;2 and &le;2.67: Indeterminate risk';
+xmltxt += 'FIB-4 &ge;2 and &le;2.67: Indeterminate risk';
+}
+else{
+document.getElementById('rr1row1').bgColor = '#8ab2be';
+calctxt += 'FIB-4 <2: Cirrhosis less likely';
+htmtxt += 'FIB-4 &lt;2: Cirrhosis less likely';
+xmltxt += 'FIB-4 &lt;2: Cirrhosis less likely';
+}
+}
+else if (Type_of_liver_disease === 2){
+document.getElementById('rr1row1col0').innerHTML = '&lt;1.45';
+document.getElementById('rr1row2col0').innerHTML = '&ge;1.45 and &le;3.25';
+document.getElementById('rr1row3col0').innerHTML = '&gt;3.25';
+if (FIB4 > 3.25){
+document.getElementById('rr1row3').bgColor = '#8ab2be';
+calctxt += 'FIB-4 >3.25: Advanced fibrosis/cirrhosis more likely';
+htmtxt += 'FIB-4 &gt;3.25: Advanced fibrosis/cirrhosis more likely';
+xmltxt += 'FIB-4 &gt;3.25: Advanced fibrosis/cirrhosis more likely';
+}
+else if (FIB4 >= 1.45){
+document.getElementById('rr1row2').bgColor = '#8ab2be';
+calctxt += 'FIB-4 >=1.45 and <=3.25: Indeterminate risk';
+htmtxt += 'FIB-4 &ge;1.45 and &le;3.25: Indeterminate risk';
+xmltxt += 'FIB-4 &ge;1.45 and &le;3.25: Indeterminate risk';
+}
+else{
+document.getElementById('rr1row1').bgColor = '#8ab2be';
+calctxt += 'FIB-4 <1.45: Cirrhosis less likely';
+htmtxt += 'FIB-4 &lt;1.45: Cirrhosis less likely';
+xmltxt += 'FIB-4 &lt;1.45: Cirrhosis less likely';
+}
+htmtxt += '<br>&nbsp;<br>';
+xmltxt += '</Result_Interpretation>';
+}
+}
+
+
+}
+
+
+if (doCalc) document.getElementById('inputchk').innerHTML = '';
+else document.getElementById('inputchk').innerHTML = inputchktxt;
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.FIB4_MultiDx_form){
+
+if (Age_param.value && isNaN(Age_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Age_param); }
+if (Age_param.value && (Age < (18 - 0.00001))) {
+Age = 0;
+ aDelay("The minimum value for Age is 18 yr.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Age_param);
+}
+
+if (Age_param.value && Age > 120) {
+Age = 0;
+ aDelay("The maximum value for Age is 120 yr.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Age_param);
+}
+
+if (Platelets_param.value && isNaN(Platelets_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Platelets_param); }
+if (Platelets_param.value && (Platelets < (100 - 0.00001))) {
+Platelets = 0;
+ aDelay("The minimum value for Platelets is 100 count/microL.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Platelets_param);
+}
+
+if (Platelets_param.value && Platelets > 1000000) {
+Platelets = 0;
+ aDelay("The maximum value for Platelets is 1000000 count/microL.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Platelets_param);
+}
+
+if (AST_param.value && isNaN(AST_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', AST_param); }
+if (ALT_param.value && isNaN(ALT_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', ALT_param); }
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.FIB4_MultiDx_form){
+
+document.getElementById('rr1row1').bgColor = '#ffffff';
+document.getElementById('rr1row2').bgColor = '#ffffff';
+document.getElementById('rr1row3').bgColor = '#ffffff';
+interptxt = '';
+document.getElementById('rr1_tag').ariaLabel = "Table highlights result FIB-4 interpretation. No result highlighted";
+FIB4_param.value = '';
+
+
+}
+
+}
+
+var Type_of_liver_disease = null,
+Age = null,
+Platelets = null,
+AST = null,
+ALT = null,
+FIB4 = null,
+param_value = null;
+
+
+
+
+
+function rrclr(){
+
+document.getElementById('rr1row1').bgColor = '#ffffff';
+
+document.getElementById('rr1row2').bgColor = '#ffffff';
+
+document.getElementById('rr1row3').bgColor = '#ffffff';
+
+document.getElementById('rr1row1col0').innerHTML = '&nbsp;';
+
+document.getElementById('rr1row2col0').innerHTML = '&nbsp;';
+
+document.getElementById('rr1row3col0').innerHTML = '&nbsp;';
+
+}
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+<form name="FIB4_MultiDx_form" id="FIB4_MultiDx_form" action="#" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="FIB4_MultiDx_fx();" onreset="clrResults(); rrclr();document.getElementById('inputchk').innerHTML=inputchktxt; ">
+
+<table class="medCalcTitleBox">
+<tr><td class="al">
+<span class="medCalcFontTitleBox">
+
+ 
+FIB-4 Index, an Indirect Marker for Liver Fibrosis in Adults (2026 update)
+</span></td></tr></table><br>&nbsp;<br>
+
+<div id="calc_main">
+
+<div id="calc_input">
+
+<div class="ac">
+<span class="medCalcFontIO">
+Input
+</span>
+<br>&nbsp;<br>
+<table class="medCalcFormuliBoxWhite" role="presentation">
+<tr>
+<td class="ar"><span class="medCalcFontOneBold" id="rbg1">Type of liver disease</span></td>
+<td class="al" colspan="2"><div role="radiogroup" aria-labelledby="rbg1" style="line-height: 1.8;">
+<input type="radio" name="Type_of_liver_disease_radio" id="togel1" value="MASLD|1" onclick="FIB4_MultiDx_fx();"><span class="medCalcFontOneClick"> <label for="togel1">MASLD</label></span><br>
+<input type="radio" name="Type_of_liver_disease_radio" id="togel2" value="Non-MASLD|2" onclick="FIB4_MultiDx_fx();"><span class="medCalcFontOneClick"> <label for="togel2">Non-MASLD</label></span><br>
+</div></td></tr>
+<tr><td class="ar42"><span class="medCalcFontOneBold">Age</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Age_param"  size="6" value="" onblur="FIB4_MultiDx_fx(); minMaxCheck();" onchange="FIB4_MultiDx_fx();" aria-label="Enter value Age"></td>
+<td class="al"> <select name="Age_unit" onchange="FIB4_MultiDx_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Unit of measure for Age">
+<option value="0.0833333333333333|0|mo">mo</option>
+<option value="1|0|yr" selected="selected">yr</option>
+</select></td></tr>
+
+<tr><td class="ar42"><span class="medCalcFontOneBold">Platelets</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Platelets_param"  size="6" value="" onblur="FIB4_MultiDx_fx(); minMaxCheck();" onchange="FIB4_MultiDx_fx();" aria-label="Enter value Platelets"></td>
+<td class="al"> <select name="Platelets_unit" onchange="FIB4_MultiDx_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Unit of measure for Platelets">
+<option value="1|0|#/mcL">#/mcL</option>
+<option value="1|0|#/microL">#/microL</option>
+<option value="1000|0|/ nl">/ nl</option>
+<option value="1|0|/mcL">/mcL</option>
+<option value="1|0|/microL">/microL</option>
+<option value="1000|0|/uL">/uL</option>
+<option value="1000|0|10*3/uL">10*3/uL</option>
+<option value="1000000|0|10*6/uL">10*6/uL</option>
+<option value="1000|0|10E+9/L">10E+9/L</option>
+<option value="1000|0|10^3/microL">10^3/microL</option>
+<option value="1000|0|10e3cells/mcL">10e3cells/mcL</option>
+<option value="1000000|0|10e6 cells/mcL">10e6 cells/mcL</option>
+<option value="1000000|0|10e6cells/mcL">10e6cells/mcL</option>
+<option value="1000|0|K/mm3">K/mm3</option>
+<option value="1000|0|K/uL">K/uL</option>
+<option value="1000000|0|Mill/mcl">Mill/mcl</option>
+<option value="1000000|0|Million/ul">Million/ul</option>
+<option value="1000|0|Thous/mcL">Thous/mcL</option>
+<option value="1000|0|Thousand/uL">Thousand/uL</option>
+<option value="1000|0|X10E+09/L">X10E+09/L</option>
+<option value="1000000|0|X10E+12/L">X10E+12/L</option>
+<option value="1|0|cells/mcL">cells/mcL</option>
+<option value="1|0|cells/microL">cells/microL</option>
+<option value="1|0|cells/uL">cells/uL</option>
+<option value="1|0|count/microL" selected="selected">count/microL</option>
+<option value="1000000|0|m/cmm">m/cmm</option>
+<option value="1000000|0|m/mmm3">m/mmm3</option>
+<option value="1000|0|thou/mcL">thou/mcL</option>
+<option value="1000000|0|x10(12)/L">x10(12)/L</option>
+<option value="1000|0|x10(3)/mcL">x10(3)/mcL</option>
+<option value="1000|0|x10(3)/microL">x10(3)/microL</option>
+<option value="1|0|x10(6)/L">x10(6)/L</option>
+<option value="1000000|0|x10(6)/mcL">x10(6)/mcL</option>
+<option value="1000000|0|x10(6)/microL">x10(6)/microL</option>
+<option value="1000|0|x10(9)/L">x10(9)/L</option>
+<option value="1000|0|x1000/mm3">x1000/mm3</option>
+<option value="1000|0|x10E3/uL">x10E3/uL</option>
+<option value="1000000|0|x10E6/uL">x10E6/uL</option>
+<option value="1000000|0|x10^12/L">x10^12/L</option>
+<option value="1000|0|x10^3/mcL">x10^3/mcL</option>
+<option value="1000|0|x10^3/microL">x10^3/microL</option>
+<option value="1|0|x10^6/L">x10^6/L</option>
+<option value="1000000|0|x10^6/mcL">x10^6/mcL</option>
+<option value="1000000|0|x10^6/microL">x10^6/microL</option>
+<option value="1000|0|x10^9/L">x10^9/L</option>
+<option value="1|0|{cells}/uL">{cells}/uL</option>
+</select></td></tr>
+
+<tr><td class="ar42"><span class="medCalcFontOneBold">AST</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="AST_param"  size="6" value="" onblur="FIB4_MultiDx_fx(); minMaxCheck();" onchange="FIB4_MultiDx_fx();" aria-label="Enter value AST"></td>
+<td class="al"> <select name="AST_unit" onchange="FIB4_MultiDx_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Unit of measure for AST">
+<option value="1|0|IU/L_AST">IU/L</option>
+<option value="1|0|IntUnit/L_AST">IntUnit/L</option>
+<option value="1|0|U/L_AST">U/L</option>
+<option value="1|0|Unit/L_AST">Unit/L</option>
+<option value="1|0|Units/L_AST" selected="selected">Units/L</option>
+<option value="59.9880023995201|0|mcKat/L_AST">mcKat/L</option>
+</select></td></tr>
+
+<tr><td class="ar42"><span class="medCalcFontOneBold">ALT</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="ALT_param"  size="6" value="" onblur="FIB4_MultiDx_fx(); minMaxCheck();" onchange="FIB4_MultiDx_fx();" aria-label="Enter value ALT"></td>
+<td class="al"> <select name="ALT_unit" onchange="FIB4_MultiDx_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Unit of measure for ALT">
+<option value="1|0|IU/L_ALT">IU/L</option>
+<option value="1|0|IntUnit/L_ALT">IntUnit/L</option>
+<option value="1|0|U/L_ALT">U/L</option>
+<option value="1|0|Unit/L_ALT">Unit/L</option>
+<option value="1|0|Units/L_ALT" selected="selected">Units/L</option>
+<option value="59.9880023995201|0|mcKat/L_ALT">mcKat/L</option>
+</select></td></tr>
+
+
+</table>
+
+</div>
+
+
+</div>
+<br>&nbsp;<br>
+<div id="calc_result">
+<div class="ac"><span class="medCalcFontIO">Results<span id="inputchk" class="medCalcFontOne"><br>&nbsp;<br><b>Important:</b> Inputs must be complete to perform calculation. <br></span></span>
+
+<br>&nbsp;<br>
+<table class="medCalcFormuliBox" role="presentation">
+<tr><td colspan="3">&nbsp;<br></td></tr>
+<tr>
+<td class="ar"><span class="medCalcFontResultParam">FIB-4</span></td>
+<td class="alnw">&nbsp; <input type="text" name="FIB4_param" class="resultBold" size="6" aria-readonly="true" aria-label="Calculated value FIB-4"></td>
+<td>&nbsp;</td></tr>
+
+
+<tr><td colspan="3">&nbsp;<br></td></tr>
+<tr><td colspan="3" class="ac"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="FIB4_MultiDx_fx();" class="medCalcFontSelect" aria-label="Decimal precision of calculations">
+<option>0</option>
+<option>1</option>
+<option selected="selected">2</option>
+<option>3</option>
+
+</select><br>&nbsp;<br></td></tr>
+</table>
+</div>
+
+<br>&nbsp;<br>
+<table class="medCalcTitleBox">
+<tr><td class="al">
+<span class="medCalcFontTitleBox">
+
+ FIB-4 interpretation
+</span></td></tr></table><br>&nbsp;<br>
+<table class="tableb1p4c" id="rr1_tag" aria-label="Table highlights result FIB-4 interpretation. No result highlighted" tabindex="0" role="presentation">
+
+<tr id="rr1row0">
+<th class="ac" id="rr1row0col0">FIB-4 index</th>
+<th class="ac" id="rr1row0col1">Risk</th>
+</tr>
+
+<tr id="rr1row1">
+<td class="ac" id="rr1row1col0">&nbsp;</td>
+<td class="al" id="rr1row1col1">Cirrhosis less likely</td>
+</tr>
+
+<tr id="rr1row2">
+<td class="ac" id="rr1row2col0">&nbsp;</td>
+<td class="al" id="rr1row2col1">Indeterminate</td>
+</tr>
+
+<tr id="rr1row3">
+<td class="ac" id="rr1row3col0">&nbsp;</td>
+<td class="al" id="rr1row3col1">Advanced fibrosis/cirrhosis more likely</td>
+</tr>
+</table>
+<br>&nbsp;<br>
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+<br>&nbsp;<br>
+<div id="calc_hints">
+<span class="medCalcFontOne">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</span>
+ 
+</div>
+
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br>&nbsp;<br>
+
+<div id="calc_notes">
+<span class="medCalcFontRef"><b>Notes</b></span>
+<ul class="medCalcFontOne">
+<li>The <b>FIB-4</b> index ranges for interpretation are based on type of liver disease and patient age.<sup>[2,3,4]</sup></li>
+<li><b>FIB-4</b> accuracy is low in patients under 35 years of age.<sup>[2,4]</sup></li>
+<li>The normal <b>Platelet</b> count range is 150,000 to 400,000/microL [150 to 400 X 10<sup>9</sup>/L].</li>
+<li><b>ALT</b>: alanine aminotransferase; <b>AST</b>: aspartate aminotransferase;  <b>FIB-4</b>: Fibrosis-4; <b>MASLD</b>: metabolic dysfunction-associated steatotic liver disease.</li>
+
+
+</ul>
+</div>
+
+<br>&nbsp;<br>
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br>&nbsp;<br>
+<div class="ac">
+<div id="calc_equation">
+<table class="medCalcFormuliBox" role="presentation"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">FIB-4 = Age * AST / (0.001 * Platelets * sqr(ALT))</span></td></tr></table><br>&nbsp;<br>
+</div> </div>
+
+<div id="calc_tables">
+
+</div>
+
+<br>&nbsp;<br>
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Vallet-Pichard A, Mallet V, Nalpas B, et al. FIB-4: an inexpensive and accurate marker of fibrosis  in HCV infection. Comparison with liver biopsy and fibrotest. <i>Hepatology</i>. 2007; 46:32. PubMed ID: 17567829 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/17567829" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+<li><span class="medCalcFontRef">McPherson S, Hardy T, Dufour JF, et al. Age as a Confounding Factor for the Accurate Non-Invasive  Diagnosis of Advanced NAFLD Fibrosis. <i>Am J Gastroenterol</i>. 2017; 112:740. PubMed ID: 27725647 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/27725647" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+<li><span class="medCalcFontRef">Sterling RK, Patel K, Duarte-Rojo A, et al. AASLD Practice Guideline on blood-based noninvasive  liver disease assessment of hepatic fibrosis and steatosis. <i>Hepatology</i>. 2025; 81:321. PubMed ID: 38489523 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/38489523" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+<li><span class="medCalcFontRef">Rinella ME, Neuschwander-Tetri BA, Siddiqui MS, et al. AASLD Practice Guidance on the clinical  assessment and management of nonalcoholic fatty liver disease. <i>Hepatology</i>. 2023; 77:1797. PubMed ID: 36727674 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/36727674" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br>&nbsp;<br><table class="medCalcFormuliBoxWhite"><tr><td class="medCalcDisclaimerBox"><div class="ac"><span class="medCalcFontTwo"><br>&nbsp;<br><b><u>Legal Notices and Disclaimer</u></b></span></div><br>&nbsp;<br><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.  EBMcalc is NOT a medical device.
+EBMcalc NEVER stores <i>cookies</i> or other persistent data in user's browsers.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br>&nbsp;<br><div class="ac"><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2026 EBMcalc, LLC &nbsp;&nbsp; [Build 280870 v26.2]</span></div></td></tr></table>
+</div><script>
+
+
+var interps = {
+"rr1row1": "FIB-4 index:  ; Risk: Cirrhosis less likely",
+"rr1row2": "FIB-4 index:  ; Risk: Indeterminate",
+"rr1row3": "FIB-4 index:  ; Risk: Advanced fibrosis/cirrhosis more likely"
+};
+
+function sttJS(row){
+document.getElementById(row).bgColor = '#8ab2be';
+interptxt += interps[row] + '\n';
+}
+
+</script>
+
+
+
+</div>
+</body>
+</html>
+
+<!-- 1778425410 //-->

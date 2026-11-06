@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sodium Correction in Hyperglycemia (Katz 1973)</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5MKXR9');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees">
+<meta name="keywords" content="critical, Metabolism, Fluid, Electrolytes, Endocrinology, Emergency, diagnosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical"> 
+<meta name="author" content="EBMcalc, LLC">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="googlebot" content="noindex,indexifembedded">
+</head>
+
+<body class="medCalcBody">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MKXR9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="mc3k">
+<script>
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+var x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 2000);
+}
+
+function wait(ms) {
+var stime = new Date().getTime();
+for (var i = 0; i < 1e8; i++) {
+if ((new Date().getTime() - stime) > ms){
+break;
+}}}
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+SodiumHyperglycemiaKatz_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+SodiumHyperglycemiaKatz_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+var inputchktxt = '<br>&nbsp;<br><b>Important:</b> Inputs must be complete to perform calculation. <br>'
+
+
+function aDelay(atxt, ffield){
+with (document.SodiumHyperglycemiaKatz_form){
+clrResults();
+ffield.value = '';
+doCalc = false;
+setTimeout(function(){ alert(atxt); }, 100);
+document.getElementById('inputchk').innerHTML = inputchktxt;
+
+}}
+
+
+function SodiumHyperglycemiaKatz_fx() {
+
+with(document.SodiumHyperglycemiaKatz_form){
+
+
+doCalc = true;
+param_value = parseFloat(Measured_Sodium_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Measured_Sodium_unit.options[Measured_Sodium_unit.selectedIndex].value.split('|');
+Measured_Sodium = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Glucose_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Glucose_unit.options[Glucose_unit.selectedIndex].value.split('|');
+Glucose = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+dp = decpts.options[decpts.selectedIndex].text;
+Corrected_Sodium =  Measured_Sodium + 0.016 * (Glucose - 100);
+
+unit_parts = Corrected_Sodium_unit.options[Corrected_Sodium_unit.selectedIndex].value.split('|');
+if (doCalc) Corrected_Sodium_param.value = fixDP((Corrected_Sodium - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+
+
+}
+
+
+if (doCalc) document.getElementById('inputchk').innerHTML = '';
+else document.getElementById('inputchk').innerHTML = inputchktxt;
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.SodiumHyperglycemiaKatz_form){
+
+if (Measured_Sodium_param.value && isNaN(Measured_Sodium_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Measured_Sodium_param); }
+if (Glucose_param.value && isNaN(Glucose_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Glucose_param); }
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.SodiumHyperglycemiaKatz_form){
+
+Corrected_Sodium_param.value = '';
+
+
+}
+
+}
+
+var Measured_Sodium = null,
+Glucose = null,
+Corrected_Sodium = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+<form name="SodiumHyperglycemiaKatz_form" id="SodiumHyperglycemiaKatz_form" action="#" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="SodiumHyperglycemiaKatz_fx();" onreset="document.getElementById('inputchk').innerHTML=inputchktxt; ">
+
+<table class="medCalcTitleBox">
+<tr><td class="al">
+<span class="medCalcFontTitleBox">
+
+ 
+Sodium Correction in Hyperglycemia (Katz 1973)
+</span></td></tr></table><br>&nbsp;<br>
+
+<div id="calc_main">
+
+<div id="calc_input">
+
+<div class="ac">
+<span class="medCalcFontIO">
+Input
+</span>
+<br>&nbsp;<br>
+<table class="medCalcFormuliBoxWhite">
+<tr><td class="ar42"><span class="medCalcFontOneBold">Measured Sodium</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Measured_Sodium_param"  size="6" value="" onblur="SodiumHyperglycemiaKatz_fx(); minMaxCheck();" onchange="SodiumHyperglycemiaKatz_fx();" aria-label="Use this input box to enter the value Measured Sodium"></td>
+<td class="al"> <select name="Measured_Sodium_unit" onchange="SodiumHyperglycemiaKatz_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Measured Sodium">
+<option value="1|0|mEq/L_Na" selected="selected">mEq/L</option>
+<option value="1|0|mmol/L_Na">mmol/L</option>
+</select></td></tr>
+
+<tr><td class="ar42"><span class="medCalcFontOneBold">Glucose</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Glucose_param"  size="6" value="" onblur="SodiumHyperglycemiaKatz_fx(); minMaxCheck();" onchange="SodiumHyperglycemiaKatz_fx();" aria-label="Use this input box to enter the value Glucose"></td>
+<td class="al"> <select name="Glucose_unit" onchange="SodiumHyperglycemiaKatz_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Glucose">
+<option value="1|0|mg/dL_Glu" selected="selected">mg/dL</option>
+<option value="18.018018018018|0|mmol/L_Glu">mmol/L</option>
+</select></td></tr>
+
+
+</table>
+
+</div>
+
+
+</div>
+<br>&nbsp;<br>
+<div id="calc_result">
+<div class="ac"><span class="medCalcFontIO">Result<span id="inputchk" class="medCalcFontOne"><br>&nbsp;<br><b>Important:</b> Inputs must be complete to perform calculation. <br></span></span>
+
+<br>&nbsp;<br>
+<table class="medCalcFormuliBox">
+<tr><td colspan="3">&nbsp;<br></td></tr>
+<tr>
+<td class="ar"><span class="medCalcFontResultParam">Corrected Sodium</span></td>
+<td class="alnw">&nbsp; <input type="text" name="Corrected_Sodium_param" class="resultBold" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Corrected Sodium"></td>
+<td class="al"><span class="medCalcFontResultParam">
+<select name="Corrected_Sodium_unit" onchange="SodiumHyperglycemiaKatz_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Corrected Sodium">
+<option value="1|0|mEq/L_Na" selected="selected">mEq/L</option>
+<option value="1|0|mmol/L_Na">mmol/L</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br></td></tr>
+<tr><td colspan="3" class="ac"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="SodiumHyperglycemiaKatz_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option selected="selected">1</option>
+<option>2</option>
+<option>3</option>
+
+</select><br>&nbsp;<br></td></tr>
+</table>
+</div>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br>&nbsp;<br>
+<br>&nbsp;<br>
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br>&nbsp;<br>
+<div class="ac">
+<div id="calc_equation">
+<table class="medCalcFormuliBox"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">CorrectedSodium = MeasuredSodium + 0.016 * (Glucose - 100)</span></td></tr></table><br>&nbsp;<br>
+</div> </div>
+
+<div id="calc_tables">
+
+</div>
+
+<br>&nbsp;<br>
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Katz MA. Hyperglycemia-induced hyponatremia--calculation of expected serum sodium depression. <i> N Engl J Med</i>. 1973 Oct 18;289(16):843-4. PubMed ID: 4763428 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/4763428" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br>&nbsp;<br><table class="medCalcFormuliBoxWhite"><tr><td class="medCalcDisclaimerBox"><div class="ac"><span class="medCalcFontTwo"><br>&nbsp;<br><b><u>Legal Notices and Disclaimer</u></b></span></div><br>&nbsp;<br><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.  EBMcalc is NOT a medical device.
+EBMcalc NEVER stores <i>cookies</i> or other persistent data in user's browsers.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br>&nbsp;<br><div class="ac"><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2025 EBMcalc, LLC &nbsp;&nbsp; [Build 278771 v25.4]</span></div></td></tr></table>
+</div><script>
+
+with(document.SodiumHyperglycemiaKatz_form){
+Measured_Sodium_param.focus();
+
+}
+</script>
+
+
+
+</div>
+</body>
+</html>
+
+<!-- 1760562180 //-->

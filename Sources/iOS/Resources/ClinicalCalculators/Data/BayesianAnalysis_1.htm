@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Bayesian Statistics I MultiCalc</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="Statistics, Epidemiology, EBM, acpjc, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+BayesianAnalysis_1_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+BayesianAnalysis_1_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function BayesianAnalysis_1_fx() {
+
+with(document.BayesianAnalysis_1_form){
+
+
+doCalc = true;
+param_value = parseFloat(Prevalence_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Prevalence_unit.options[Prevalence_unit.selectedIndex].value.split('|');
+Prevalence = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Sensitivity_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Sensitivity_unit.options[Sensitivity_unit.selectedIndex].value.split('|');
+Sensitivity = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Specificity_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Specificity_unit.options[Specificity_unit.selectedIndex].value.split('|');
+Specificity = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+dp = decpts.options[decpts.selectedIndex].text;
+True_Pos =  Sensitivity * Prevalence;
+
+unit_parts = True_Pos_unit.options[True_Pos_unit.selectedIndex].value.split('|');
+if (doCalc) True_Pos_param.value = fixDP((True_Pos - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+False_Pos =  (1 - Specificity) * (1 - Prevalence);
+
+unit_parts = False_Pos_unit.options[False_Pos_unit.selectedIndex].value.split('|');
+if (doCalc) False_Pos_param.value = fixDP((False_Pos - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+True_Neg =  Specificity * (1 - Prevalence);
+
+unit_parts = True_Neg_unit.options[True_Neg_unit.selectedIndex].value.split('|');
+if (doCalc) True_Neg_param.value = fixDP((True_Neg - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+False_Neg =  (1 - Sensitivity) * Prevalence;
+
+unit_parts = False_Neg_unit.options[False_Neg_unit.selectedIndex].value.split('|');
+if (doCalc) False_Neg_param.value = fixDP((False_Neg - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+Pos_Pred_Value =  100 * True_Pos / (True_Pos + False_Pos);
+
+unit_parts = Pos_Pred_Value_unit.options[Pos_Pred_Value_unit.selectedIndex].value.split('|');
+if (doCalc) Pos_Pred_Value_param.value = fixDP((Pos_Pred_Value - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+Neg_Pred_Value =  100 * True_Neg / (True_Neg + False_Neg);
+
+unit_parts = Neg_Pred_Value_unit.options[Neg_Pred_Value_unit.selectedIndex].value.split('|');
+if (doCalc) Neg_Pred_Value_param.value = fixDP((Neg_Pred_Value - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+LR_Pos =  Sensitivity / (1-Specificity);
+
+unit_parts = LR_Pos_unit.options[LR_Pos_unit.selectedIndex].value.split('|');
+if (doCalc) LR_Pos_param.value = fixDP((LR_Pos - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+LR_Neg =  (1-Sensitivity) / Specificity;
+
+unit_parts = LR_Neg_unit.options[LR_Neg_unit.selectedIndex].value.split('|');
+if (doCalc) LR_Neg_param.value = fixDP((LR_Neg - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+Pre_Test_Odds =  Prevalence / (1 - Prevalence);
+
+unit_parts = Pre_Test_Odds_unit.options[Pre_Test_Odds_unit.selectedIndex].value.split('|');
+if (doCalc) Pre_Test_Odds_param.value = fixDP((Pre_Test_Odds - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+Post_Odds_Pos =  Pre_Test_Odds * LR_Pos;
+
+unit_parts = Post_Odds_Pos_unit.options[Post_Odds_Pos_unit.selectedIndex].value.split('|');
+if (doCalc) Post_Odds_Pos_param.value = fixDP((Post_Odds_Pos - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+Post_Prob_Pos =  Post_Odds_Pos / (1 + Post_Odds_Pos);
+
+unit_parts = Post_Prob_Pos_unit.options[Post_Prob_Pos_unit.selectedIndex].value.split('|');
+if (doCalc) Post_Prob_Pos_param.value = fixDP((Post_Prob_Pos - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+Post_Odds_Neg =  Pre_Test_Odds * LR_Neg;
+
+unit_parts = Post_Odds_Neg_unit.options[Post_Odds_Neg_unit.selectedIndex].value.split('|');
+if (doCalc) Post_Odds_Neg_param.value = fixDP((Post_Odds_Neg - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+Post_Prob_Neg =  Post_Odds_Neg / (1 + Post_Odds_Neg);
+
+unit_parts = Post_Prob_Neg_unit.options[Post_Prob_Neg_unit.selectedIndex].value.split('|');
+if (doCalc) Post_Prob_Neg_param.value = fixDP((Post_Prob_Neg - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+False_Pos_Rate =  100 * False_Pos / (False_Pos + True_Neg);
+
+unit_parts = False_Pos_Rate_unit.options[False_Pos_Rate_unit.selectedIndex].value.split('|');
+if (doCalc) False_Pos_Rate_param.value = fixDP((False_Pos_Rate - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+False_Neg_Rate =  100 * False_Neg / (True_Pos + False_Neg);
+
+unit_parts = False_Neg_Rate_unit.options[False_Neg_Rate_unit.selectedIndex].value.split('|');
+if (doCalc) False_Neg_Rate_param.value = fixDP((False_Neg_Rate - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+Overall_Acc =  100 * (True_Pos + True_Neg);
+
+unit_parts = Overall_Acc_unit.options[Overall_Acc_unit.selectedIndex].value.split('|');
+if (doCalc) Overall_Acc_param.value = fixDP((Overall_Acc - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.BayesianAnalysis_1_form){
+
+if (Prevalence_param.value && isNaN(Prevalence_param.value)){ clrValue(Prevalence_param); alertNaN('Prevalence'); }
+if (Prevalence_param.value && (Prevalence < (0 - 0.00001))) {
+Prevalence = 0;
+clrValue(Prevalence_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Prevalence is 0 fraction.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Prevalence_param.value && Prevalence > 1) {
+clrValue(Prevalence_param);
+clrResults();
+Prevalence = 0;
+doCalc = false;
+ alert("The maximum value for Prevalence is 1 fraction.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Sensitivity_param.value && isNaN(Sensitivity_param.value)){ clrValue(Sensitivity_param); alertNaN('Sensitivity'); }
+if (Sensitivity_param.value && (Sensitivity < (0 - 0.00001))) {
+Sensitivity = 0;
+clrValue(Sensitivity_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Sensitivity is 0 fraction.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Sensitivity_param.value && Sensitivity > 1) {
+clrValue(Sensitivity_param);
+clrResults();
+Sensitivity = 0;
+doCalc = false;
+ alert("The maximum value for Sensitivity is 1 fraction.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Specificity_param.value && isNaN(Specificity_param.value)){ clrValue(Specificity_param); alertNaN('Specificity'); }
+if (Specificity_param.value && (Specificity < (0 - 0.00001))) {
+Specificity = 0;
+clrValue(Specificity_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Specificity is 0 fraction.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Specificity_param.value && Specificity > 1) {
+clrValue(Specificity_param);
+clrResults();
+Specificity = 0;
+doCalc = false;
+ alert("The maximum value for Specificity is 1 fraction.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.BayesianAnalysis_1_form){
+
+True_Pos_param.value = '';
+False_Pos_param.value = '';
+True_Neg_param.value = '';
+False_Neg_param.value = '';
+Pos_Pred_Value_param.value = '';
+Neg_Pred_Value_param.value = '';
+LR_Pos_param.value = '';
+LR_Neg_param.value = '';
+Pre_Test_Odds_param.value = '';
+Post_Odds_Pos_param.value = '';
+Post_Prob_Pos_param.value = '';
+Post_Odds_Neg_param.value = '';
+Post_Prob_Neg_param.value = '';
+False_Pos_Rate_param.value = '';
+False_Neg_Rate_param.value = '';
+Overall_Acc_param.value = '';
+
+
+}
+
+}
+
+var Prevalence = null,
+Sensitivity = null,
+Specificity = null,
+True_Pos = null,
+False_Pos = null,
+True_Neg = null,
+False_Neg = null,
+Pos_Pred_Value = null,
+Neg_Pred_Value = null,
+LR_Pos = null,
+LR_Neg = null,
+Pre_Test_Odds = null,
+Post_Odds_Pos = null,
+Post_Prob_Pos = null,
+Post_Odds_Neg = null,
+Post_Prob_Neg = null,
+False_Pos_Rate = null,
+False_Neg_Rate = null,
+Overall_Acc = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="BayesianAnalysis_1_form" id="BayesianAnalysis_1_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="BayesianAnalysis_1_fx();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Bayesian Statistics I MultiCalc
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Prevalence</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Prevalence_param" size="6" value="" onblur="BayesianAnalysis_1_fx(); minMaxCheck();" onchange="BayesianAnalysis_1_fx();" aria-label="Use this input box to enter the value Prevalence" /></td>
+<td align="left" valign="top"> <select name="Prevalence_unit" onchange="BayesianAnalysis_1_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Prevalence">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction" selected="selected">fraction</option>
+<option value="1|0|ratio">ratio</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Sensitivity</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Sensitivity_param" size="6" value="" onblur="BayesianAnalysis_1_fx(); minMaxCheck();" onchange="BayesianAnalysis_1_fx();" aria-label="Use this input box to enter the value Sensitivity" /></td>
+<td align="left" valign="top"> <select name="Sensitivity_unit" onchange="BayesianAnalysis_1_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Sensitivity">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction" selected="selected">fraction</option>
+<option value="1|0|ratio">ratio</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Specificity</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Specificity_param" size="6" value="" onblur="BayesianAnalysis_1_fx(); minMaxCheck();" onchange="BayesianAnalysis_1_fx();" aria-label="Use this input box to enter the value Specificity" /></td>
+<td align="left" valign="top"> <select name="Specificity_unit" onchange="BayesianAnalysis_1_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Specificity">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction" selected="selected">fraction</option>
+<option value="1|0|ratio">ratio</option>
+</select></td></tr>
+
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Results</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">True Pos</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="True_Pos_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value True Pos" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="True_Pos_unit" onchange="BayesianAnalysis_1_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value True Pos">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction">fraction</option>
+<option value="1|0|ratio" selected="selected">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">False Pos</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="False_Pos_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value False Pos" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="False_Pos_unit" onchange="BayesianAnalysis_1_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value False Pos">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction">fraction</option>
+<option value="1|0|ratio" selected="selected">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">True Neg</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="True_Neg_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value True Neg" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="True_Neg_unit" onchange="BayesianAnalysis_1_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value True Neg">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction">fraction</option>
+<option value="1|0|ratio" selected="selected">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">False Neg</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="False_Neg_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value False Neg" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="False_Neg_unit" onchange="BayesianAnalysis_1_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value False Neg">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction">fraction</option>
+<option value="1|0|ratio" selected="selected">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Pos Pred Value</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Pos_Pred_Value_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Pos Pred Value" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Pos_Pred_Value_unit" onchange="BayesianAnalysis_1_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Pos Pred Value">
+<option value="1|0|%" selected="selected">%</option>
+<option value="100|0|fraction">fraction</option>
+<option value="100|0|ratio">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Neg Pred Value</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Neg_Pred_Value_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Neg Pred Value" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Neg_Pred_Value_unit" onchange="BayesianAnalysis_1_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Neg Pred Value">
+<option value="1|0|%" selected="selected">%</option>
+<option value="100|0|fraction">fraction</option>
+<option value="100|0|ratio">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">LR Pos</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="LR_Pos_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value LR Pos" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="LR_Pos_unit" onchange="BayesianAnalysis_1_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value LR Pos">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction">fraction</option>
+<option value="1|0|ratio" selected="selected">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">LR Neg</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="LR_Neg_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value LR Neg" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="LR_Neg_unit" onchange="BayesianAnalysis_1_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value LR Neg">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction">fraction</option>
+<option value="1|0|ratio" selected="selected">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Pre Test Odds</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Pre_Test_Odds_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Pre Test Odds" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Pre_Test_Odds_unit" onchange="BayesianAnalysis_1_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Pre Test Odds">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction">fraction</option>
+<option value="1|0|ratio" selected="selected">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Post Odds Pos</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Post_Odds_Pos_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Post Odds Pos" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Post_Odds_Pos_unit" onchange="BayesianAnalysis_1_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Post Odds Pos">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction">fraction</option>
+<option value="1|0|ratio" selected="selected">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Post Prob Pos</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Post_Prob_Pos_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Post Prob Pos" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Post_Prob_Pos_unit" onchange="BayesianAnalysis_1_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Post Prob Pos">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction">fraction</option>
+<option value="1|0|ratio" selected="selected">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Post Odds Neg</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Post_Odds_Neg_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Post Odds Neg" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Post_Odds_Neg_unit" onchange="BayesianAnalysis_1_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Post Odds Neg">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction">fraction</option>
+<option value="1|0|ratio" selected="selected">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Post Prob Neg</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Post_Prob_Neg_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Post Prob Neg" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Post_Prob_Neg_unit" onchange="BayesianAnalysis_1_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Post Prob Neg">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction">fraction</option>
+<option value="1|0|ratio" selected="selected">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">False Pos Rate</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="False_Pos_Rate_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value False Pos Rate" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="False_Pos_Rate_unit" onchange="BayesianAnalysis_1_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value False Pos Rate">
+<option value="1|0|%" selected="selected">%</option>
+<option value="100|0|fraction">fraction</option>
+<option value="100|0|ratio">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">False Neg Rate</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="False_Neg_Rate_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value False Neg Rate" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="False_Neg_Rate_unit" onchange="BayesianAnalysis_1_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value False Neg Rate">
+<option value="1|0|%" selected="selected">%</option>
+<option value="100|0|fraction">fraction</option>
+<option value="100|0|ratio">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Overall Acc</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Overall_Acc_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Overall Acc" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Overall_Acc_unit" onchange="BayesianAnalysis_1_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Overall Acc">
+<option value="1|0|%" selected="selected">%</option>
+<option value="100|0|fraction">fraction</option>
+<option value="100|0|ratio">ratio</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr><td colspan="3" align="center"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="BayesianAnalysis_1_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option>1</option>
+<option>2</option>
+<option selected="selected">3</option>
+
+</select></td></tr>
+
+</table>
+</center>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">TruePos = Sensitivity * Prevalence</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">FalsePos = (1 - Specificity) * (1 - Prevalence)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">TrueNeg = Specificity * (1 - Prevalence)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">FalseNeg = (1 - Sensitivity) * Prevalence</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">PosPredValue = 100 * TruePos / (TruePos + FalsePos)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">NegPredValue = 100 * TrueNeg / (TrueNeg + FalseNeg)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">LRPos = Sensitivity / (1-Specificity)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">LRNeg = (1-Sensitivity) / Specificity</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">PreTestOdds = Prevalence / (1 - Prevalence)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">PostOddsPos = PreTestOdds * LRPos</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">PostProbPos = PostOddsPos / (1 + PostOddsPos)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">PostOddsNeg = PreTestOdds * LRNeg</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">PostProbNeg = PostOddsNeg / (1 + PostOddsNeg)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">FalsePosRate = 100 * FalsePos / (FalsePos + TrueNeg)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">FalseNegRate = 100 * FalseNeg / (TruePos + FalseNeg)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">OverallAcc = 100 * (TruePos + TrueNeg)</span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Perera R, Heneghan C. Making sense of diagnostic test likelihood ratios. <i>ACP J Club</i>. 2007 Mar-Apr;146(2):A8-9. PubMed ID: 17335149 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/17335149"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Page J, Attia J. Using Bayes' nomogram to help interpret odds ratios. <i>ACP J Club</i>. 2003 Sep-Oct;139(2):A11-2. PubMed ID: 12954046 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/12954046"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div>
+</div>
+</body>
+</html>
+
+<!-- 1662473251 //-->

@@ -81,11 +81,18 @@ public struct LabValueEntry: Identifiable, Hashable, Sendable {
     /// Typical adult reference interval. May contain sex-specific or
     /// condition-specific sub-values separated by newlines.
     public let range: String
+    /// Collection tube color for this lab (e.g. "Gold" for serum,
+    /// "Green" for heparin plasma, "Lavender" for EDTA plasma, "Red" for
+    /// EDTA urine, "Blue" for sodium citrate, "Gray" for blood gas).
+    /// Every bundled lab carries a collection-tube color; the UI renders a
+    /// color swatch at the top of each lab row.
+    public let tubeColor: String?
 
-    public init(name: String, description: String, range: String) {
+    public init(name: String, description: String, range: String, tubeColor: String? = nil) {
         self.name = name
         self.description = description
         self.range = range
+        self.tubeColor = tubeColor
     }
 
     public var id: String { name }
@@ -283,480 +290,570 @@ extension LabReference {
                 LabValueEntry(
                     name: "Sodium (Na)",
                     description: "Major extracellular cation; regulates fluid balance, nerve conduction, and muscle function.",
-                    range: "136–146 mEq/L"
+                    range: "136–146 mEq/L",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Potassium (K)",
                     description: "Major intracellular cation; critical for resting membrane potential and cardiac rhythm.",
-                    range: "3.5–5.0 mEq/L"
+                    range: "3.5–5.0 mEq/L",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Chloride (Cl)",
                     description: "Principal extracellular anion; follows sodium in fluid and acid–base balance.",
-                    range: "95–105 mEq/L"
+                    range: "95–105 mEq/L",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Bicarbonate / CO2",
                     description: "Metabolic component of acid–base balance; low suggests metabolic acidosis, high suggests metabolic alkalosis.",
-                    range: "22–28 mEq/L"
+                    range: "22–28 mEq/L",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Calcium (total)",
                     description: "Bone health, muscle contraction, and clotting; interpret together with albumin.",
-                    range: "8.4–10.2 mg/dL"
+                    range: "8.4–10.2 mg/dL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Magnesium",
                     description: "Cofactor for many enzymes; low levels can cause arrhythmias and neuromuscular irritability.",
-                    range: "1.5–2.0 mg/dL"
+                    range: "1.5–2.0 mg/dL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Phosphorus",
                     description: "Bone mineral and energy metabolism; affected by renal function and vitamin D status.",
-                    range: "3.0–4.5 mg/dL"
+                    range: "3.0–4.5 mg/dL",
+                    tubeColor: "Gold"
                 )
             ]),
             LabValueGroup(title: "Renal Function", tests: [
                 LabValueEntry(
                     name: "BUN (urea nitrogen)",
                     description: "Urea from protein breakdown; rises with renal impairment, dehydration, or GI bleeding.",
-                    range: "7–18 mg/dL"
+                    range: "7–18 mg/dL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Creatinine",
                     description: "Waste product of muscle metabolism; primary marker of kidney filtration.",
-                    range: "0.6–1.2 mg/dL"
+                    range: "0.6–1.2 mg/dL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Creatinine clearance",
                     description: "Estimated kidney filtration over 24 h; often replaced by eGFR in routine care.",
-                    range: "Male: 97–137 mL/min\nFemale: 88–128 mL/min"
+                    range: "Male: 97–137 mL/min\nFemale: 88–128 mL/min",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Uric acid",
                     description: "Purine breakdown product; high in gout, tumor lysis, and renal impairment.",
-                    range: "3.0–8.2 mg/dL"
+                    range: "3.0–8.2 mg/dL",
+                    tubeColor: "Gold"
                 )
             ]),
             LabValueGroup(title: "Glucose & Endocrine", tests: [
                 LabValueEntry(
                     name: "Glucose (fasting)",
                     description: "Primary energy source; fasting range is used for diabetes screening.",
-                    range: "70–100 mg/dL"
+                    range: "70–100 mg/dL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Hemoglobin A1c",
                     description: "Glycated hemoglobin reflecting approximately 3 months of average glucose.",
-                    range: "Normal: <5.7% (<39 mmol/mol)\nDiabetes: ≥6.5% (≥48 mmol/mol)"
+                    range: "Normal: <5.7% (<39 mmol/mol)\nDiabetes: ≥6.5% (≥48 mmol/mol)",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "TSH",
                     description: "Pituitary hormone regulating the thyroid; first-line screen for thyroid disease.",
-                    range: "0.4–4.0 mIU/L"
+                    range: "0.4–4.0 mIU/L",
+                    tubeColor: "Gold"
                 )
             ]),
             LabValueGroup(title: "Hepatic", tests: [
                 LabValueEntry(
                     name: "ALT (alanine aminotransferase)",
                     description: "Liver enzyme; rises with hepatocellular injury.",
-                    range: "10–40 U/L"
+                    range: "10–40 U/L",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "AST (aspartate aminotransferase)",
                     description: "Found in liver, heart, and skeletal muscle; less specific than ALT.",
-                    range: "12–38 U/L"
+                    range: "12–38 U/L",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Alkaline phosphatase",
                     description: "Elevated with bile duct obstruction, liver disease, and high bone turnover.",
-                    range: "25–100 U/L"
+                    range: "25–100 U/L",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Albumin",
                     description: "Most abundant plasma protein; reflects liver synthetic function and nutrition.",
-                    range: "3.5–5.5 g/dL"
+                    range: "3.5–5.5 g/dL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Total protein",
                     description: "Albumin plus globulins; affected by liver, kidney, and immune status.",
-                    range: "6.0–7.8 g/dL"
+                    range: "6.0–7.8 g/dL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Bilirubin, total",
                     description: "Breakdown product of hemoglobin; elevated in hemolysis, hepatocellular injury, or cholestasis.",
-                    range: "0.1–1.0 mg/dL"
+                    range: "0.1–1.0 mg/dL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Bilirubin, direct",
                     description: "Conjugated fraction; elevated with obstructive/biliary disease.",
-                    range: "0.0–0.3 mg/dL"
+                    range: "0.0–0.3 mg/dL",
+                    tubeColor: "Gold"
                 )
             ]),
             LabValueGroup(title: "Pancreatic / GI", tests: [
                 LabValueEntry(
                     name: "Amylase",
                     description: "Pancreatic and salivary enzyme; rises in pancreatitis and salivary gland disease.",
-                    range: "25–125 U/L"
+                    range: "25–125 U/L",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Lipase",
                     description: "More specific than amylase for acute pancreatitis.",
-                    range: "13–60 U/L"
+                    range: "13–60 U/L",
+                    tubeColor: "Gold"
                 )
             ]),
             LabValueGroup(title: "Lipids", tests: [
                 LabValueEntry(
                     name: "Cholesterol, total",
                     description: "Overall atherosclerotic risk marker; includes all lipoprotein fractions.",
-                    range: "Desirable: <200 mg/dL\nHigh: >240 mg/dL"
+                    range: "Desirable: <200 mg/dL\nHigh: >240 mg/dL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "HDL cholesterol",
                     description: "“Good” cholesterol; higher levels are generally protective.",
-                    range: "40–60 mg/dL"
+                    range: "40–60 mg/dL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "LDL cholesterol",
                     description: "“Bad” cholesterol; target is lower in high-risk patients.",
-                    range: "<160 mg/dL"
+                    range: "<160 mg/dL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Triglycerides",
                     description: "Endogenous fat; high levels increase cardiovascular and pancreatitis risk.",
-                    range: "Normal: <150 mg/dL\nBorderline: 150–199 mg/dL\nHigh: ≥200 mg/dL"
+                    range: "Normal: <150 mg/dL\nBorderline: 150–199 mg/dL\nHigh: ≥200 mg/dL",
+                    tubeColor: "Gold"
                 )
             ]),
             LabValueGroup(title: "Complete Blood Count", tests: [
                 LabValueEntry(
                     name: "WBC",
                     description: "Total leukocyte count; high suggests infection/inflammation, low suggests marrow suppression or sepsis.",
-                    range: "4,500–11,000/µL"
+                    range: "4,500–11,000/µL",
+                    tubeColor: "Lavender"
                 ),
                 LabValueEntry(
                     name: "RBC count",
                     description: "Red blood cell count; low suggests anemia, high suggests polycythemia or dehydration.",
-                    range: "Male: 4.3–5.9 million/µL\nFemale: 3.5–5.5 million/µL"
+                    range: "Male: 4.3–5.9 million/µL\nFemale: 3.5–5.5 million/µL",
+                    tubeColor: "Lavender"
                 ),
                 LabValueEntry(
                     name: "Hemoglobin",
                     description: "Oxygen-carrying protein in red cells; the main anemia marker.",
-                    range: "Male: 13.5–17.5 g/dL\nFemale: 12.0–16.0 g/dL"
+                    range: "Male: 13.5–17.5 g/dL\nFemale: 12.0–16.0 g/dL",
+                    tubeColor: "Lavender"
                 ),
                 LabValueEntry(
                     name: "Hematocrit",
                     description: "Volume fraction of blood occupied by red cells.",
-                    range: "Male: 41–53%\nFemale: 36–46%"
+                    range: "Male: 41–53%\nFemale: 36–46%",
+                    tubeColor: "Lavender"
                 ),
                 LabValueEntry(
                     name: "MCV",
                     description: "Mean corpuscular volume; classifies anemia as microcytic, normocytic, or macrocytic.",
-                    range: "80–100 fL"
+                    range: "80–100 fL",
+                    tubeColor: "Lavender"
                 ),
                 LabValueEntry(
                     name: "MCH",
                     description: "Mean corpuscular hemoglobin; average hemoglobin content per red cell.",
-                    range: "25–35 pg"
+                    range: "25–35 pg",
+                    tubeColor: "Lavender"
                 ),
                 LabValueEntry(
                     name: "MCHC",
                     description: "Mean corpuscular hemoglobin concentration; hemoglobin density inside red cells.",
-                    range: "31–36 g/dL"
+                    range: "31–36 g/dL",
+                    tubeColor: "Lavender"
                 ),
                 LabValueEntry(
                     name: "Platelets",
                     description: "Thrombocyte count; low increases bleeding risk, high may be reactive or myeloproliferative.",
-                    range: "150,000–400,000/µL"
+                    range: "150,000–400,000/µL",
+                    tubeColor: "Lavender"
                 )
             ]),
             LabValueGroup(title: "Coagulation", tests: [
                 LabValueEntry(
                     name: "PT",
                     description: "Prothrombin time; extrinsic and common pathways of coagulation.",
-                    range: "11–15 seconds"
+                    range: "11–15 seconds",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "INR",
                     description: "Standardized PT; used to monitor warfarin therapy.",
-                    range: "Un anticoagulated: 0.9–1.2"
+                    range: "Un anticoagulated: 0.9–1.2",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "aPTT",
                     description: "Activated partial thromboplastin time; intrinsic and common pathways.",
-                    range: "25–40 seconds"
+                    range: "25–40 seconds",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "D-dimer",
                     description: "Fibrin degradation product; high suggests active clot formation/lysis.",
-                    range: "≤250 ng/mL (lab-specific)"
+                    range: "≤250 ng/mL (lab-specific)",
+                    tubeColor: "Blue"
                 ),
                 LabValueEntry(
                     name: "Fibrinogen",
                     description: "Clotting factor; low with liver disease or DIC, high as an acute-phase reactant.",
-                    range: "200–400 mg/dL"
+                    range: "200–400 mg/dL",
+                    tubeColor: "Gold"
                 )
             ]),
             LabValueGroup(title: "Cardiac & Inflammatory", tests: [
                 LabValueEntry(
                     name: "Troponin I",
                     description: "Cardiac-specific protein; rises with myocardial injury.",
-                    range: "≤0.04 ng/mL (assay-specific)"
+                    range: "≤0.04 ng/mL (assay-specific)",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Creatine kinase (CK)",
                     description: "Muscle enzyme; rises with myocardial, skeletal, or brain injury.",
-                    range: "Male: 25–90 U/L\nFemale: 10–70 U/L"
+                    range: "Male: 25–90 U/L\nFemale: 10–70 U/L",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "LDH",
                     description: "Tissue enzyme released with cell turnover; nonspecific marker of hemolysis or tissue injury.",
-                    range: "45–200 U/L"
+                    range: "45–200 U/L",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "CRP",
                     description: "Acute-phase reactant; rises with inflammation, infection, and tissue injury.",
-                    range: "Usually <10 mg/L (lab-specific)"
+                    range: "Usually <10 mg/L (lab-specific)",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "ESR",
                     description: "Erythrocyte sedimentation rate; nonspecific marker of inflammation.",
-                    range: "Male: 0–15 mm/h\nFemale: 0–20 mm/h"
+                    range: "Male: 0–15 mm/h\nFemale: 0–20 mm/h",
+                    tubeColor: "Gold"
                 )
             ]),
             LabValueGroup(title: "Blood Gas (arterial)", tests: [
                 LabValueEntry(
                     name: "pH",
                     description: "Acid–base balance of the blood; <7.35 is acidemia, >7.45 is alkalemia.",
-                    range: "7.35–7.45"
+                    range: "7.35–7.45",
+                    tubeColor: "Gray"
                 ),
                 LabValueEntry(
                     name: "PaCO2",
                     description: "Respiratory component of acid–base balance; reflects alveolar ventilation.",
-                    range: "35–45 mm Hg"
+                    range: "35–45 mm Hg",
+                    tubeColor: "Gray"
                 ),
                 LabValueEntry(
                     name: "PaO2",
                     description: "Arterial oxygen tension; the primary marker of oxygenation (room-air reference).",
-                    range: "80–100 mm Hg"
+                    range: "80–100 mm Hg",
+                    tubeColor: "Gray"
                 ),
                 LabValueEntry(
                     name: "HCO3\u{208B} (bicarbonate)",
                     description: "Metabolic component of acid–base balance.",
-                    range: "22–26 mEq/L"
+                    range: "22–26 mEq/L",
+                    tubeColor: "Gray"
                 ),
                 LabValueEntry(
                     name: "Base excess",
                     description: "Calculated metabolic correction; negative suggests metabolic acidosis.",
-                    range: "0 \u{00B1} 2 mEq/L"
+                    range: "0 \u{00B1} 2 mEq/L",
+                    tubeColor: "Gray"
                 ),
                 LabValueEntry(
                     name: "SaO2",
                     description: "Oxygen saturation of hemoglobin; the target is \u{2265}95% on room air.",
-                    range: "95–100%"
+                    range: "95–100%",
+                    tubeColor: "Gray"
                 ),
                 LabValueEntry(
                     name: "Lactate",
                     description: "Rises with tissue hypoperfusion; used to monitor shock, sepsis, and post-resuscitation care.",
-                    range: "0.5–2.0 mmol/L (\u{2248}5–18 mg/dL)"
+                    range: "0.5–2.0 mmol/L (\u{2248}5–18 mg/dL)",
+                    tubeColor: "Gray"
                 )
             ]),
             LabValueGroup(title: "Urinalysis", tests: [
                 LabValueEntry(
                     name: "pH",
                     description: "Acidity of the urine; diet, infection, and renal tubular function shift it.",
-                    range: "4.6–8.0 (average \u{2248}6)"
+                    range: "4.6–8.0 (average \u{2248}6)",
+                    tubeColor: "Red"
                 ),
                 LabValueEntry(
                     name: "Specific gravity",
                     description: "Urine concentration; reflects kidney concentrating ability and hydration.",
-                    range: "1.005–1.030"
+                    range: "1.005–1.030",
+                    tubeColor: "Red"
                 ),
                 LabValueEntry(
                     name: "Protein",
                     description: "Dipstick detects mainly albumin; sustained protein suggests glomerular disease.",
-                    range: "Negative (<150 mg/day)"
+                    range: "Negative (<150 mg/day)",
+                    tubeColor: "Red"
                 ),
                 LabValueEntry(
                     name: "Glucose",
                     description: "Present above the renal threshold (\u{2248}180 mg/dL blood glucose); a diabetes screen.",
-                    range: "Negative"
+                    range: "Negative",
+                    tubeColor: "Red"
                 ),
                 LabValueEntry(
                     name: "Ketones",
                     description: "Fat-metabolism byproduct; positive in DKA, starvation, and very low-carbohydrate diets.",
-                    range: "None (trace possible)"
+                    range: "None (trace possible)",
+                    tubeColor: "Red"
                 ),
                 LabValueEntry(
                     name: "Blood",
                     description: "Detects hemoglobin; positive in UTIs, stones, trauma, or malignancy.",
-                    range: "Negative"
+                    range: "Negative",
+                    tubeColor: "Red"
                 ),
                 LabValueEntry(
                     name: "Leukocyte esterase",
                     description: "Enzyme from white cells; a screen for urinary tract infection.",
-                    range: "Negative"
+                    range: "Negative",
+                    tubeColor: "Red"
                 ),
                 LabValueEntry(
                     name: "Nitrite",
                     description: "Produced when nitrate-reducing bacteria sit in the bladder; suggests bacteriuria.",
-                    range: "Negative"
+                    range: "Negative",
+                    tubeColor: "Red"
                 ),
                 LabValueEntry(
                     name: "Bilirubin",
                     description: "Urine bilirubin indicates conjugated hyperbilirubinemia (hepatic/biliary disease).",
-                    range: "Negative"
+                    range: "Negative",
+                    tubeColor: "Red"
                 ),
                 LabValueEntry(
                     name: "Urobilinogen",
                     description: "Breakdown product of bilirubin; high in hemolysis or hepatocellular injury, absent in obstruction.",
-                    range: "0.2–1.0 mg/dL"
+                    range: "0.2–1.0 mg/dL",
+                    tubeColor: "Red"
                 ),
                 LabValueEntry(
                     name: "WBC (microscopy)",
                     description: "Bacteria with WBCs suggests infection; many WBCs without bacteria suggests other inflammation.",
-                    range: "0–4 per high-power field"
+                    range: "0–4 per high-power field",
+                    tubeColor: "Red"
                 ),
                 LabValueEntry(
                     name: "RBC (microscopy)",
                     description: "Dysmorphic RBCs suggest glomerular bleeding; uniform RBCs suggest stones or trauma.",
-                    range: "\u{2264}2 per high-power field"
+                    range: "\u{2264}2 per high-power field",
+                    tubeColor: "Red"
                 )
             ]),
             LabValueGroup(title: "Iron & Bone", tests: [
                 LabValueEntry(
                     name: "Iron, serum",
                     description: "Circulating iron; low in iron-deficiency anemia, high in hemochromatosis.",
-                    range: "50–150 \u{00B5}g/dL"
+                    range: "50–150 \u{00B5}g/dL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "TIBC",
                     description: "Total iron-binding capacity; rises when iron stores are depleted.",
-                    range: "250–310 \u{00B5}g/dL"
+                    range: "250–310 \u{00B5}g/dL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Transferrin saturation",
                     description: "Fraction of the iron-binding capacity that is saturated (serum iron \u{00F7} TIBC).",
-                    range: "20–50%"
+                    range: "20–50%",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Ferritin",
                     description: "Iron stores; the most sensitive marker of iron deficiency (also an acute-phase reactant).",
-                    range: "Male: 12–300 ng/mL\nFemale: 10–150 ng/mL"
+                    range: "Male: 12–300 ng/mL\nFemale: 10–150 ng/mL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Vitamin D (25-hydroxy)",
                     description: "Primary measure of vitamin D status; <20 ng/mL indicates deficiency.",
-                    range: "30–60 ng/mL"
+                    range: "30–60 ng/mL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Vitamin B12",
                     description: "Low levels suggest pernicious anemia, malabsorption, or strict vegan diet without supplementation.",
-                    range: "200–800 pg/mL"
+                    range: "200–800 pg/mL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Folate, serum",
                     description: "Deficiency causes macrocytic anemia; affected by diet, alcohol, and malabsorption.",
-                    range: "5–25 ng/mL"
+                    range: "5–25 ng/mL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "PTH (intact)",
                     description: "Regulates calcium and phosphorus; high in primary hyperparathyroidism or vitamin D deficiency.",
-                    range: "15–65 pg/mL"
+                    range: "15–65 pg/mL",
+                    tubeColor: "Gold"
                 )
             ]),
             LabValueGroup(title: "Hormones", tests: [
                 LabValueEntry(
                     name: "Free T4",
                     description: "Active thyroid hormone; the key test for hypo-/hyperthyroidism alongside TSH.",
-                    range: "0.8–1.8 ng/dL"
+                    range: "0.8–1.8 ng/dL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Total T3",
                     description: "Thyroid hormone; falls in non-thyroidal illness and with amiodarone.",
-                    range: "80–180 ng/dL"
+                    range: "80–180 ng/dL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Cortisol (8 a.m.)",
                     description: "Adrenal steroid with a morning peak; low values suggest adrenal insufficiency.",
-                    range: "5–23 \u{00B5}g/dL"
+                    range: "5–23 \u{00B5}g/dL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Testosterone (total)",
                     description: "Primary sex hormone; low in hypogonadism, rises in PCOS.",
-                    range: "Male: 291–1100 ng/dL\nFemale: 18–54 ng/dL"
+                    range: "Male: 291–1100 ng/dL\nFemale: 18–54 ng/dL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Estradiol",
                     description: "Primary estrogen; interpret against the menstrual phase or menopausal status.",
-                    range: "Follicular: 20–350 pg/mL\nMidcycle peak: 150–750 pg/mL\nLuteal: 30–450 pg/mL"
+                    range: "Follicular: 20–350 pg/mL\nMidcycle peak: 150–750 pg/mL\nLuteal: 30–450 pg/mL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "Prolactin",
                     description: "Elevated in hypothyroidism, pregnancy, and many medications; a macroadenoma marker.",
-                    range: "Male: 3–13 ng/mL\nFemale: 3–27 ng/mL"
+                    range: "Male: 3–13 ng/mL\nFemale: 3–27 ng/mL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "\u{03B}-hCG",
                     description: "Pregnancy test; also a tumor marker for germ-cell and trophoblastic cancers.",
-                    range: "Male: <1.4 IU/L\nFemale (nonpregnant): <1.0 IU/L"
+                    range: "Male: <1.4 IU/L\nFemale (nonpregnant): <1.0 IU/L",
+                    tubeColor: "Gold"
                 )
             ]),
             LabValueGroup(title: "Tumor Markers", tests: [
                 LabValueEntry(
                     name: "AFP",
                     description: "Hepatocellular carcinoma and germ-cell tumor marker; elevated in liver disease and pregnancy.",
-                    range: "<40 ng/mL"
+                    range: "<40 ng/mL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "PSA",
                     description: "Prostate screening/monitoring; also elevated in BPH and prostatitis, so interpret with the clinical picture.",
-                    range: "0–2.5 ng/mL (age-adjusted higher)"
+                    range: "0–2.5 ng/mL (age-adjusted higher)",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "CEA",
                     description: "Colorectal cancer monitoring; not a screening test, and smokers may run mildly higher.",
-                    range: "<2.5 ng/mL"
+                    range: "<2.5 ng/mL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "CA-125",
                     description: "Ovarian cancer monitoring; rises with many benign conditions (endometriosis, menstruation, ascites).",
-                    range: "<35 U/mL"
+                    range: "<35 U/mL",
+                    tubeColor: "Gold"
                 ),
                 LabValueEntry(
                     name: "CA 19-9",
                     description: "Pancreatic and biliary cancers; can be elevated in cholestasis even without cancer.",
-                    range: "0–37 U/mL"
+                    range: "0–37 U/mL",
+                    tubeColor: "Gold"
                 )
             ]),
             LabValueGroup(title: "Cerebrospinal Fluid (CSF)", tests: [
                 LabValueEntry(
                     name: "WBC",
                     description: "Lymphocytes predominate in healthy adults; neutrophilic shifts suggest bacterial infection.",
-                    range: "0–5 cells/\u{00B5}L"
+                    range: "0–5 cells/\u{00B5}L",
+                    tubeColor: "Red"
                 ),
                 LabValueEntry(
                     name: "RBC",
                     description: "Usually absent; a few may be traumatic tap, many suggest hemorrhage.",
-                    range: "0"
+                    range: "0",
+                    tubeColor: "Red"
                 ),
                 LabValueEntry(
                     name: "Protein",
                     description: "Elevated in infection, inflammation, or spinal block; very high in Guillian-Barr\u{00E9}.",
-                    range: "15–45 mg/dL"
+                    range: "15–45 mg/dL",
+                    tubeColor: "Red"
                 ),
                 LabValueEntry(
                     name: "Glucose",
                     description: "Normally 60–70% of simultaneous serum glucose; low in bacterial/fungal infection.",
-                    range: "25–80 mg/dL (60–70% of blood)"
+                    range: "25–80 mg/dL (60–70% of blood)",
+                    tubeColor: "Red"
                 ),
                 LabValueEntry(
                     name: "Chloride",
                     description: "Low with tuberculous or carcinomatous meningitis; rarely used now.",
-                    range: "120–130 mEq/L"
+                    range: "120–130 mEq/L",
+                    tubeColor: "Red"
                 ),
                 LabValueEntry(
                     name: "Opening pressure",
                     description: "Measured with the patient lateral; high suggests raised intracranial pressure or meningitis.",
-                    range: "6–25 cm H2O"
+                    range: "6–25 cm H2O",
+                    tubeColor: "Red"
                 )
             ])
         ],

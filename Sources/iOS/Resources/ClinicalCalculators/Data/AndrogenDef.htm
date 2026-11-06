@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Androgen Deficiency in Aging Males (ADAM) Screener</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="patientuse, Geriatrics, Endocrinology, diagnosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+AndrogenDef_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+AndrogenDef_fx();
+}
+
+
+
+var calctxt = '';
+var xmltxt = '';
+var xmlresult = '';
+var htmtxt = '';
+var postNow = false;
+var printing = false;
+
+
+
+function AndrogenDef_fx() {
+
+with(document.AndrogenDef_form){
+
+mcResult = "Insufficient";
+
+setScore0 = 0;
+setScore1 = 0;
+
+if (cc1.checked){ setScore0 = setScore0 + 1;
+}
+if (cc2.checked){ setScore0 = setScore0 + 1;
+}
+if (cc3.checked){ setScore1 = setScore1 + 1;
+}
+if (cc4.checked){ setScore1 = setScore1 + 1;
+}
+if (cc5.checked){ setScore1 = setScore1 + 1;
+}
+if (cc6.checked){ setScore1 = setScore1 + 1;
+}
+if (cc7.checked){ setScore1 = setScore1 + 1;
+}
+if (cc8.checked){ setScore1 = setScore1 + 1;
+}
+if (cc9.checked){ setScore1 = setScore1 + 1;
+}
+if (setScore0 >= 1 && setScore1 >= 0) mcResult = "Consider Testing for Possible Androgen Deficiency";
+if (setScore0 >= 0 && setScore1 >= 3) mcResult = "Consider Testing for Possible Androgen Deficiency";
+mccriteria.value = mcResult + ' with:\r\n' + setScore0 + " Major Criteria \r\n" + setScore1 + " Minor Criteria \r\n";
+document.getElementById('mccriteriadiv').ariaLabel = 'Interpretation: ' + mccriteria.value;
+
+
+}
+
+}
+/* ]]> */
+</script>
+
+
+
+<form name="AndrogenDef_form" id="AndrogenDef_form" action="" onsubmit="return false;">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Androgen Deficiency in Aging Males (ADAM) Screener
+</span></td></tr></table><br />&nbsp;<br />
+<div id="calc_main">
+<div id="calc_input">
+<center>
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="left"><br /></td><td colspan="2"><span class="medCalcFontOneBold">Consider Testing for Possible Androgen Deficiency:</span>
+<span class="medCalcFontCCTab">
+1 Major Criteria and 0 Minor Criteria </span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2"><span class="medCalcFontOneBold">Consider Testing for Possible Androgen Deficiency:</span>
+<span class="medCalcFontCCTab">
+0 Major Criteria and 3 Minor Criteria </span></td></tr>
+
+<tr><td colspan="3">&nbsp;</td></tr>
+<tr><td colspan="3" align="left"><br />&nbsp;<br /><span class="medCalcFontOneBold">Major Criteria</span></td></tr>
+
+<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right" valign="top"><input type="checkbox" name="cc1" id="togel1" onclick="AndrogenDef_fx();" aria-label="Check this box to indicate: Major Criteria: Decreased libido" /></td>
+<td align="left" class="medCalcFontOneClick" onclick="togCB('togel1');" >Decreased libido</td></tr>
+<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right" valign="top"><input type="checkbox" name="cc2" id="togel2" onclick="AndrogenDef_fx();" aria-label="Check this box to indicate: Major Criteria: Decrease in erection strength" /></td>
+<td align="left" class="medCalcFontOneClick" onclick="togCB('togel2');" >Decrease in erection strength</td></tr>
+<tr><td colspan="3" align="left"><br />&nbsp;<br /><span class="medCalcFontOneBold">Minor Criteria</span></td></tr>
+
+<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right" valign="top"><input type="checkbox" name="cc3" id="togel3" onclick="AndrogenDef_fx();" aria-label="Check this box to indicate: Minor Criteria: Decrease in strength, endurance or both" /></td>
+<td align="left" class="medCalcFontOneClick" onclick="togCB('togel3');" >Decrease in strength, endurance or both</td></tr>
+<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right" valign="top"><input type="checkbox" name="cc4" id="togel4" onclick="AndrogenDef_fx();" aria-label="Check this box to indicate: Minor Criteria: Loss of body height" /></td>
+<td align="left" class="medCalcFontOneClick" onclick="togCB('togel4');" >Loss of body height</td></tr>
+<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right" valign="top"><input type="checkbox" name="cc5" id="togel5" onclick="AndrogenDef_fx();" aria-label="Check this box to indicate: Minor Criteria: Decreased enjoyment of life" /></td>
+<td align="left" class="medCalcFontOneClick" onclick="togCB('togel5');" >Decreased enjoyment of life</td></tr>
+<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right" valign="top"><input type="checkbox" name="cc6" id="togel6" onclick="AndrogenDef_fx();" aria-label="Check this box to indicate: Minor Criteria: Sadness, grumpiness, or both" /></td>
+<td align="left" class="medCalcFontOneClick" onclick="togCB('togel6');" >Sadness, grumpiness, or both</td></tr>
+<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right" valign="top"><input type="checkbox" name="cc7" id="togel7" onclick="AndrogenDef_fx();" aria-label="Check this box to indicate: Minor Criteria: Recent deterioration in the ability to play sports" /></td>
+<td align="left" class="medCalcFontOneClick" onclick="togCB('togel7');" >Recent deterioration in the ability to play sports</td></tr>
+<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right" valign="top"><input type="checkbox" name="cc8" id="togel8" onclick="AndrogenDef_fx();" aria-label="Check this box to indicate: Minor Criteria: Tendency to fall asleep after dinner" /></td>
+<td align="left" class="medCalcFontOneClick" onclick="togCB('togel8');" >Tendency to fall asleep after dinner</td></tr>
+<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="right" valign="top"><input type="checkbox" name="cc9" id="togel9" onclick="AndrogenDef_fx();" aria-label="Check this box to indicate: Minor Criteria: Recent deterioration in work performance" /></td>
+<td align="left" class="medCalcFontOneClick" onclick="togCB('togel9');" >Recent deterioration in work performance</td></tr>
+
+</table>
+</center>
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center>
+<div id="mccriteriadiv" aria-label="This output box will display the calculated value " tabindex="0">
+<textarea cols="35" rows="5" name="mccriteria" id="mccriteria" onfocus="blur();" class="medCalcFontTextArea"></textarea>
+</div>
+</center>
+<br />&nbsp;<br />
+<center>
+<input type="reset" name="reset" value="Reset Form"onclick = "document.getElementById('mccriteriadiv').ariaLabel = 'This output box will display the calculated value ';" />    
+</center>
+</div>
+</div>
+<br />&nbsp;<br />
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Morley JE, Perry HM 3rd. Androgen deficiency in aging men. <i>Med Clin North Am</i>.  1999 Sep;83(5):1279-89, vii. Review. PubMed ID: 10503065 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/10503065"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Morley JE, Charlton E, Patrick P, et al. Validation of a screening questionnaire for androgen deficiency in aging males. <i>Metabolism</i>. 2000 Sep;49(9):1239-42. PubMed ID: 11016912 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/11016912"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+
+
+</form>
+<div id="calc_disclaimer">  <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u> Legal Notices and Disclaimer </u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo"> All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+ <b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b> <a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span> <br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+ </div>
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+function loadQueryParams(thisqs){
+if (thisqs) alert('Data panel values cannot be transferred to this calculator.');
+return;
+}
+
+
+/* ]]> */
+</script>
+
+
+</div>
+</body>
+</html>
+
+
+<!-- 1662473246 //-->

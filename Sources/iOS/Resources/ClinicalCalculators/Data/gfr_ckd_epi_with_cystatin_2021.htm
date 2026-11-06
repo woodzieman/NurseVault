@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Glomerular Filtration Rate Estimation (eGFR) by CKD-EPI Equation with Creatinine and Cystatin C, without Race (2021)</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5MKXR9');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees">
+<meta name="keywords" content="renal, diagnosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical"> 
+<meta name="author" content="EBMcalc, LLC">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="googlebot" content="noindex,indexifembedded">
+</head>
+
+<body class="medCalcBody">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MKXR9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="mc3k">
+<script>
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+var x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 2000);
+}
+
+function wait(ms) {
+var stime = new Date().getTime();
+for (var i = 0; i < 1e8; i++) {
+if ((new Date().getTime() - stime) > ms){
+break;
+}}}
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+GFR_CKD_EPI_with_Cystatin_2021_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+GFR_CKD_EPI_with_Cystatin_2021_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+var inputchktxt = '<br>&nbsp;<br><b>Important:</b> Inputs must be complete to perform calculation. <br>'
+
+
+function aDelay(atxt, ffield){
+with (document.GFR_CKD_EPI_with_Cystatin_2021_form){
+clrResults();
+ffield.value = '';
+doCalc = false;
+setTimeout(function(){ alert(atxt); }, 100);
+document.getElementById('inputchk').innerHTML = inputchktxt;
+
+}}
+
+
+function GFR_CKD_EPI_with_Cystatin_2021_fx() {
+
+with(document.GFR_CKD_EPI_with_Cystatin_2021_form){
+
+
+doCalc = true;
+rbchk = false;
+if (Sex_radio[0].checked){ rbchk = true; Sex = 1;  }
+if (Sex_radio[1].checked){ rbchk = true; Sex = 2;  }
+if (!rbchk) doCalc = false;
+param_value = parseFloat(Age_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Age_unit.options[Age_unit.selectedIndex].value.split('|');
+Age = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Serum_Creatinine_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Serum_Creatinine_unit.options[Serum_Creatinine_unit.selectedIndex].value.split('|');
+Serum_Creatinine = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Cystatin_C_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Cystatin_C_unit.options[Cystatin_C_unit.selectedIndex].value.split('|');
+Cystatin_C = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Height_param.value);
+unit_parts = Height_unit.options[Height_unit.selectedIndex].value.split('|');
+Height = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Weight_param.value);
+unit_parts = Weight_unit.options[Weight_unit.selectedIndex].value.split('|');
+Weight = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+dp = decpts.options[decpts.selectedIndex].text;
+var alpha, kappa, Sex, SexFactor, eGFR_not_rounded, eGFR_BSA_not_rounded;
+if (Sex == 1){ SexFactor = 0.963; alpha = -0.219; kappa = 0.7; }
+if (Sex == 2){ SexFactor = 1; alpha = -0.144; kappa = 0.9; }
+eGFR_not_rounded = 135 * Math.pow(Math.min(Serum_Creatinine / kappa, 1), alpha) * Math.pow(Math.max(Serum_Creatinine / kappa, 1), -0.544)  * Math.pow(Math.min(Cystatin_C / 0.8, 1), -0.323) * Math.pow(Math.max(Cystatin_C / 0.8, 1), -0.778) * Math.pow(0.9961,Age) * SexFactor
+eGFR =  Math.round(eGFR_not_rounded);
+
+unit_parts = eGFR_unit.options[eGFR_unit.selectedIndex].value.split('|');
+if (doCalc) eGFR_param.value = fixDP((eGFR - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+if (eGFR_param.value == 'NaN') eGFR_param.value = '';
+
+
+
+BSA =  0.007184 * power(Height, 0.725) * power(Weight, 0.425);
+
+unit_parts = BSA_unit.options[BSA_unit.selectedIndex].value.split('|');
+if (doCalc) BSA_param.value = fixDP((BSA - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+if (BSA_param.value == 'NaN') BSA_param.value = '';
+
+
+
+eGFR_BSA_not_rounded = eGFR_not_rounded * BSA / 1.73;
+eGFR_for_this_BSA =  Math.round(eGFR_BSA_not_rounded);
+
+unit_parts = eGFR_for_this_BSA_unit.options[eGFR_for_this_BSA_unit.selectedIndex].value.split('|');
+if (doCalc) eGFR_for_this_BSA_param.value = fixDP((eGFR_for_this_BSA - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+if (eGFR_for_this_BSA_param.value == 'NaN') eGFR_for_this_BSA_param.value = '';
+
+
+
+
+
+}
+
+
+if (doCalc) document.getElementById('inputchk').innerHTML = '';
+else document.getElementById('inputchk').innerHTML = inputchktxt;
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.GFR_CKD_EPI_with_Cystatin_2021_form){
+
+if (Age_param.value && isNaN(Age_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Age_param); }
+if (Age_param.value && (Age < (18 - 0.00001))) {
+Age = 0;
+ aDelay("The minimum value for Age is 18 yr.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Age_param);
+}
+
+if (Age_param.value && Age > 120) {
+Age = 0;
+ aDelay("The maximum value for Age is 120 yr.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Age_param);
+}
+
+if (Serum_Creatinine_param.value && isNaN(Serum_Creatinine_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Serum_Creatinine_param); }
+if (Serum_Creatinine_param.value && (Serum_Creatinine < (0.3 - 0.00001))) {
+Serum_Creatinine = 0;
+ aDelay("The minimum value for Serum Creatinine is 0.3 mg/dL.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Serum_Creatinine_param);
+}
+
+if (Serum_Creatinine_param.value && Serum_Creatinine > 30) {
+Serum_Creatinine = 0;
+ aDelay("The maximum value for Serum Creatinine is 30 mg/dL.\n\nIf you are specifying a value with a different unit, change the unit selector first.", Serum_Creatinine_param);
+}
+
+if (Cystatin_C_param.value && isNaN(Cystatin_C_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Cystatin_C_param); }
+if (Height_param.value && isNaN(Height_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Height_param); }
+if (Weight_param.value && isNaN(Weight_param.value)){ aDelay('This field is improperly formatted\n\nYou may only input the digits 0-9 and a decimal point', Weight_param); }
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.GFR_CKD_EPI_with_Cystatin_2021_form){
+
+eGFR_param.value = '';
+BSA_param.value = '';
+eGFR_for_this_BSA_param.value = '';
+
+
+}
+
+}
+
+var Sex = null,
+Age = null,
+Serum_Creatinine = null,
+Cystatin_C = null,
+Height = null,
+Weight = null,
+eGFR = null,
+BSA = null,
+eGFR_for_this_BSA = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+<form name="GFR_CKD_EPI_with_Cystatin_2021_form" id="GFR_CKD_EPI_with_Cystatin_2021_form" action="#" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="GFR_CKD_EPI_with_Cystatin_2021_fx();" onreset="document.getElementById('inputchk').innerHTML=inputchktxt; ">
+
+<table class="medCalcTitleBox">
+<tr><td class="al">
+<span class="medCalcFontTitleBox">
+
+ 
+Glomerular Filtration Rate Estimation (eGFR) by CKD-EPI Equation with Creatinine and Cystatin C, without Race (2021)
+</span></td></tr></table><br>&nbsp;<br>
+
+<div id="calc_main">
+
+<div id="calc_input">
+
+<div class="ac">
+<span class="medCalcFontIO">
+Input
+</span>
+<br>&nbsp;<br>
+<table class="medCalcFormuliBoxWhite">
+<tr><td class="ar"><span class="medCalcFontOneBold">Sex</span></td>
+<td colspan="2" class="al"><input type="radio" name="Sex_radio" id="togel1" value="Female|1" onclick="GFR_CKD_EPI_with_Cystatin_2021_fx();" aria-label="This button selects an option for the variable: Sex. The variable option is Female."><span class="medCalcFontOneClick" onclick="setRB('togel1');"> Female</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="Sex_radio" id="togel2" value="Male|2" onclick="GFR_CKD_EPI_with_Cystatin_2021_fx();" aria-label="This button selects an option for the variable: Sex. The variable option is Male."><span class="medCalcFontOneClick" onclick="setRB('togel2');"> Male</span></td></tr>
+<tr><td class="ar42"><span class="medCalcFontOneBold">Age</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Age_param"  size="6" value="" onblur="GFR_CKD_EPI_with_Cystatin_2021_fx(); minMaxCheck();" onchange="GFR_CKD_EPI_with_Cystatin_2021_fx();" aria-label="Use this input box to enter the value Age"></td>
+<td class="al"> <select name="Age_unit" onchange="GFR_CKD_EPI_with_Cystatin_2021_fx(); minMaxCheck();" style="width:130px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Age">
+<option value="0.0833333333333333|0|mo">mo</option>
+<option value="1|0|yr" selected="selected">yr</option>
+</select></td></tr>
+
+<tr><td class="ar42"><span class="medCalcFontOneBold">Serum Creatinine</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Serum_Creatinine_param"  size="6" value="" onblur="GFR_CKD_EPI_with_Cystatin_2021_fx(); minMaxCheck();" onchange="GFR_CKD_EPI_with_Cystatin_2021_fx();" aria-label="Use this input box to enter the value Serum Creatinine"></td>
+<td class="al"> <select name="Serum_Creatinine_unit" onchange="GFR_CKD_EPI_with_Cystatin_2021_fx(); minMaxCheck();" style="width:130px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Serum Creatinine">
+<option value="0.0113122171945701|0|mcmol/L_Cr">mcmol/L</option>
+<option value="1|0|mg/dL_Cr" selected="selected">mg/dL</option>
+<option value="11.3122171945701|0|mmol/L_Cr">mmol/L</option>
+</select></td></tr>
+
+<tr><td class="ar42"><span class="medCalcFontOneBold">Cystatin C</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Cystatin_C_param"  size="6" value="" onblur="GFR_CKD_EPI_with_Cystatin_2021_fx(); minMaxCheck();" onchange="GFR_CKD_EPI_with_Cystatin_2021_fx();" aria-label="Use this input box to enter the value Cystatin C"></td>
+<td class="al"> <select name="Cystatin_C_unit" onchange="GFR_CKD_EPI_with_Cystatin_2021_fx(); minMaxCheck();" style="width:130px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Cystatin C">
+<option value="1|0|mcg/mL">mcg/mL</option>
+<option value="1|0|mg/L" selected="selected">mg/L</option>
+</select></td></tr>
+
+<tr><td colspan="3" class="ac"><span class="medCalcFontCCTabBold"><br />&nbsp;<br />Optional parameters to calculate patient-specific eGFR<br />based on patient's Body Surface Area (BSA)<br />&nbsp;<br /></span></td></tr>
+
+<tr><td class="ar42"><span class="medCalcFontOneBold">Height</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Height_param"  size="6" value="" onblur="GFR_CKD_EPI_with_Cystatin_2021_fx(); minMaxCheck();" onchange="GFR_CKD_EPI_with_Cystatin_2021_fx();" aria-label="Use this input box to enter the value Height"></td>
+<td class="al"> <select name="Height_unit" onchange="GFR_CKD_EPI_with_Cystatin_2021_fx(); minMaxCheck();" style="width:130px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Height">
+<option value="1|0|cm" selected="selected">cm</option>
+<option value="2.54|0|inch(es)">inch(es)</option>
+<option value="2.54|0|inch">inch</option>
+<option value="2.54|0|in">in</option>
+<option value="0.1|0|mm">mm</option>
+<option value="100|0|m">m</option>
+</select></td></tr>
+
+<tr><td class="ar42"><span class="medCalcFontOneBold">Weight</span> </td>
+<td class="alnw5">&nbsp; <input type="text" name="Weight_param"  size="6" value="" onblur="GFR_CKD_EPI_with_Cystatin_2021_fx(); minMaxCheck();" onchange="GFR_CKD_EPI_with_Cystatin_2021_fx();" aria-label="Use this input box to enter the value Weight"></td>
+<td class="al"> <select name="Weight_unit" onchange="GFR_CKD_EPI_with_Cystatin_2021_fx(); minMaxCheck();" style="width:130px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Weight">
+<option value="0.001|0|gm">gm</option>
+<option value="1|0|kg" selected="selected">kg</option>
+<option value="0.45359237|0|lb">lb</option>
+</select></td></tr>
+
+
+</table>
+
+</div>
+
+
+</div>
+<br>&nbsp;<br>
+<div id="calc_result">
+<div class="ac"><span class="medCalcFontIO">Results<span id="inputchk" class="medCalcFontOne"><br>&nbsp;<br><b>Important:</b> Inputs must be complete to perform calculation. <br></span></span>
+
+<br>&nbsp;<br>
+<table class="medCalcFormuliBox">
+<tr><td colspan="3">&nbsp;<br></td></tr>
+<tr><td colspan="3"><span class="acrs" style="display: block;">eGFR normalized to a BSA of 1.73 m<sup>2</sup></span><br></td></tr>
+<tr>
+<td class="ar"><span class="medCalcFontResultParam">eGFR</span></td>
+<td class="alnw">&nbsp; <input type="text" name="eGFR_param"  size="6" aria-readonly="true" aria-label="This output box will display the calculated value eGFR"></td>
+<td class="al"><span class="medCalcFontResultParam">
+<select name="eGFR_unit" onchange="GFR_CKD_EPI_with_Cystatin_2021_fx();" style="width:130px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value eGFR">
+<option value="1|0|mL/min/1.73 m(2)">mL/min/1.73 m(2)</option>
+<option value="1|0|mL/min/1.73 m2">mL/min/1.73 m2</option>
+<option value="1|0|mL/min/1.73 m^2">mL/min/1.73 m^2</option>
+<option value="1|0|mL/min/1.73m2" selected="selected">mL/min/1.73m2</option>
+<option value="60|0|mL/sec/1.73 m^2">mL/sec/1.73 m^2</option>
+</select>
+</span></td>
+</tr>
+
+<tr><td colspan="3"><br><span class="acrs" style="display: block;">eGFR without normalization to BSA</span><br></td></tr>
+<tr>
+<td class="ar"><span class="medCalcFontResultParam">BSA</span></td>
+<td class="alnw">&nbsp; <input type="text" name="BSA_param"  size="6" aria-readonly="true" aria-label="This output box will display the calculated value BSA"></td>
+<td class="al"><span class="medCalcFontResultParam">
+<select name="BSA_unit" onchange="GFR_CKD_EPI_with_Cystatin_2021_fx();" style="width:130px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value BSA">
+<option value="0.0001|0|cm^2">cm^2</option>
+<option value="1|0|m(2)">m(2)</option>
+<option value="1|0|m^2">m^2</option>
+<option value="0.0001|0|sqcm">sqcm</option>
+<option value="1|0|sqm" selected="selected">sqm</option>
+<option value="0.0001|0|sqrcm">sqrcm</option>
+<option value="1|0|sqrm">sqrm</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td class="ar"><span class="medCalcFontResultParam">eGFR for this BSA</span></td>
+<td class="alnw">&nbsp; <input type="text" name="eGFR_for_this_BSA_param"  size="6" aria-readonly="true" aria-label="This output box will display the calculated value eGFR for this BSA"></td>
+<td class="al"><span class="medCalcFontResultParam">
+<select name="eGFR_for_this_BSA_unit" onchange="GFR_CKD_EPI_with_Cystatin_2021_fx();" style="width:130px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value eGFR for this BSA">
+<option value="16.666666667|0|L/hr">L/hr</option>
+<option value="1000|0|L/min">L/min</option>
+<option value="60000|0|L/sec">L/sec</option>
+<option value="0.01666666667|0|mL/hr">mL/hr</option>
+<option value="1|0|mL/min" selected="selected">mL/min</option>
+<option value="60|0|mL/sec">mL/sec</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br></td></tr>
+<tr><td colspan="3" class="ac"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="GFR_CKD_EPI_with_Cystatin_2021_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option selected="selected">1</option>
+<option>2</option>
+<option>3</option>
+
+</select><br>&nbsp;<br></td></tr>
+</table>
+</div>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br>&nbsp;<br>
+
+<div id="calc_notes">
+<span class="medCalcFontRef"><b>Notes</b></span>
+<ul class="medCalcFontOne">
+<li class="aared">In this calculator, <b>mcg</b> is the abbreviation for <b>micrograms</b>.</li>
+<li><span class="aared">The default units of measure for weight and height are kilograms and centimeters.  Please verify that the correct unit of measure has been selected.</span></li>
+<li><b>eGFR</b> is calculated by equations developed by the Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI).</li>
+<li>Calculated <b>eGFR</b> results are rounded to the nearest integer. There may be significant differences at between estimated and measured <b>GFR</b> on an individual patient-level.<sup>[4]</sup></li>
+<li><b>eGFR</b> without normalization to <b>BSA</b> may be used for purposes of adjustments in medication dosing. Note that using  non-normalized <b>eGFR</b> in obese patients can result in overestimation of <b>GFR</b> and potential overdosing.</li>
+
+
+</ul>
+</div>
+
+<br>&nbsp;<br>
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br>&nbsp;<br>
+<div class="ac">
+<div id="calc_equation">
+<table class="medCalcFormuliBox"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">eGFR = 135 * min(Serum Creatinine/kappa, 1)<sup>alpha</sup> * max(Serum Creatinine/kappa, 1)<sup>-0.544</sup>  * min(CystatinC/0.8, 1)<sup>-0.323</sup> * max(CystatinC/0.8, 1)<sup>-0.778</sup> * 0.9961<sup>Age</sup> * SexFactor</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">BSA = 0.007184 * Height<sup>0.725</sup> * Weight<sup>0.425</sup></span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">eGFR for this BSA = eGFR * BSA / 1.73</span></td></tr></table><br>&nbsp;<br>
+</div> </div>
+<br>&nbsp;<br>
+<div id="calc_details_and_variables">
+<span class="medCalcFontRef"><b>Calculation Details and Variables</b></span>
+<ul class="medCalcFontOne">
+<li>For females, the following values are used: SexFactor = 0.963; alpha = -0.219; kappa = 0.7</li>
+<li>For males, the following values are used: SexFactor = 1; alpha = -0.144; kappa = 0.9</li>
+<li>The <b>min</b> function returns the minimum of the 2 arguments within the parentheses. The <b>max</b> function returns the maximum of the 2 arguments within the parentheses.</li>
+
+</ul>
+</div>
+
+
+<div id="calc_tables">
+
+</div>
+
+<br>&nbsp;<br>
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Inker LA, Eneanya ND, Coresh J, et al. Chronic Kidney Disease Epidemiology Collaboration. New Creatinine- and  Cystatin C-Based Equations to Estimate GFR without Race. <i>N Engl J Med</i>. 2021 Sep 23. PubMed ID: 34554658 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/34554658" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+<li><span class="medCalcFontRef">Levey AS, Titan SM, Powe NR, et al. Kidney Disease, Race, and GFR Estimation. <i> Clin J Am Soc Nephrol</i>. 2020 Aug 7;15(8):1203-1212. PubMed ID: 32393465 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/32393465" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+<li><span class="medCalcFontRef">Du Bois D, Du Bois EF. A formula to estimate the approximate surface area if height and weight be known. <i>Arch Intern Med</i>. 1916; 17:863-871.</span></li>
+<li><span class="medCalcFontRef">Shafi T, Zhu X, Lirette ST, et al. Quantifying Individual-Level Inaccuracy in Glomerular  Filtration Rate Estimation : A Cross-Sectional Study. <i>Ann Intern Med</i>. 2022 Aug;175(8):1073-1082. PubMed ID: 35785532 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/35785532" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br>&nbsp;<br><table class="medCalcFormuliBoxWhite"><tr><td class="medCalcDisclaimerBox"><div class="ac"><span class="medCalcFontTwo"><br>&nbsp;<br><b><u>Legal Notices and Disclaimer</u></b></span></div><br>&nbsp;<br><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.  EBMcalc is NOT a medical device.
+EBMcalc NEVER stores <i>cookies</i> or other persistent data in user's browsers.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br>&nbsp;<br><div class="ac"><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2025 EBMcalc, LLC &nbsp;&nbsp; [Build 276615 v25.1]</span></div></td></tr></table>
+</div>
+</div>
+</body>
+</html>
+
+<!-- 1739902209 //-->

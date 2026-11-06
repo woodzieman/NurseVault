@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>APACHE II Scoring System and Mortality Estimates (Acute Physiology and Chronic Health Disease Classification System II)</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="Renal, Pulmonary, Metabolism, Cardivascular, Hematology, Geriatrics, critical, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+ApacheScore_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+ApacheScore_fx();
+}
+
+
+/* ]]> */
+</script>
+
+
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+
+
+var calctxt = '';
+var xmltxt = '';
+var xmlresult = '';
+var htmtxt = '';
+var postNow = false;
+var printing = false;
+var rbchk = false;
+
+
+function ApacheScore_fx() {
+with(document.ApacheScore_form){
+
+Score = 0.0;
+doCalc = true;
+
+Score = Score + parseFloat(cc1.options[cc1.selectedIndex].value);
+Score = Score + parseFloat(cc2.options[cc2.selectedIndex].value);
+Score = Score + parseFloat(cc3.options[cc3.selectedIndex].value);
+Score = Score + parseFloat(cc4.options[cc4.selectedIndex].value);
+Score = Score + parseFloat(cc5.options[cc5.selectedIndex].value);
+Score = Score + parseFloat(cc6.options[cc6.selectedIndex].value);
+Score = Score + parseFloat(cc7.options[cc7.selectedIndex].value);
+Score = Score + parseFloat(cc8.options[cc8.selectedIndex].value);
+Score = Score + parseFloat(cc9.options[cc9.selectedIndex].value);
+Score = Score + parseFloat(cc10.options[cc10.selectedIndex].value);
+Score = Score + parseFloat(cc11.options[cc11.selectedIndex].value);
+Score = Score + parseFloat(cc12.options[cc12.selectedIndex].value);
+Score = Score + parseFloat(cc13.options[cc13.selectedIndex].value);
+rbchk = false;
+if (cc14[0].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (cc14[1].checked){
+rbchk = true; Score = Score + 5; 
+}
+if (cc14[2].checked){
+rbchk = true; Score = Score + 5; 
+}
+if (cc14[3].checked){
+rbchk = true; Score = Score + 2; 
+}
+if (!rbchk) doCalc = false;
+if (doCalc){
+cctotal.value = Score;
+if (cctotal.value == 'NaN') cctotal.value = '';
+}
+else{
+Score = null;
+cctotal.value = '';
+if (typeof rrclr == 'function') { rrclr(); };
+document.ApacheScore_form.cctotal.value = '';
+}
+
+
+
+
+if (doCalc){
+rrclr();
+if ((Score >= 0) && (Score <= 4)){ document.getElementById('rr1_1').bgColor = '#8ab2be';
+interptxt = '\n\nApache II Score / Approximate Mortality: 0 to 4 points: 4% non-op, 1% post-op ';
+calctxt += '\n\nApache II Score / Approximate Mortality: 0 to 4 points: 4% non-op, 1% post-op ';
+xmltxt += '\n<Result_Interpretation>Apache II Score / Approximate Mortality: 0 to 4 points: 4% non-op, 1% post-op <\/Result_Interpretation>\n';
+}
+if ((Score >= 5) && (Score <= 9)){ document.getElementById('rr1_2').bgColor = '#8ab2be';
+interptxt = '\n\nApache II Score / Approximate Mortality: 5 to 9 points: 8% non-op, 3% post-op';
+calctxt += '\n\nApache II Score / Approximate Mortality: 5 to 9 points: 8% non-op, 3% post-op';
+xmltxt += '\n<Result_Interpretation>Apache II Score / Approximate Mortality: 5 to 9 points: 8% non-op, 3% post-op<\/Result_Interpretation>\n';
+}
+if ((Score >= 10) && (Score <= 14)){ document.getElementById('rr1_3').bgColor = '#8ab2be';
+interptxt = '\n\nApache II Score / Approximate Mortality: 10 to 14 points: 15% non-op, 7% post-op';
+calctxt += '\n\nApache II Score / Approximate Mortality: 10 to 14 points: 15% non-op, 7% post-op';
+xmltxt += '\n<Result_Interpretation>Apache II Score / Approximate Mortality: 10 to 14 points: 15% non-op, 7% post-op<\/Result_Interpretation>\n';
+}
+if ((Score >= 15) && (Score <= 19)){ document.getElementById('rr1_4').bgColor = '#8ab2be';
+interptxt = '\n\nApache II Score / Approximate Mortality: 15 to 19 points: 24% non-op, 12% post-op ';
+calctxt += '\n\nApache II Score / Approximate Mortality: 15 to 19 points: 24% non-op, 12% post-op ';
+xmltxt += '\n<Result_Interpretation>Apache II Score / Approximate Mortality: 15 to 19 points: 24% non-op, 12% post-op <\/Result_Interpretation>\n';
+}
+if ((Score >= 20) && (Score <= 24)){ document.getElementById('rr1_5').bgColor = '#8ab2be';
+interptxt = '\n\nApache II Score / Approximate Mortality: 20 to 24 points: 40% non-op, 30% post-op';
+calctxt += '\n\nApache II Score / Approximate Mortality: 20 to 24 points: 40% non-op, 30% post-op';
+xmltxt += '\n<Result_Interpretation>Apache II Score / Approximate Mortality: 20 to 24 points: 40% non-op, 30% post-op<\/Result_Interpretation>\n';
+}
+if ((Score >= 25) && (Score <= 29)){ document.getElementById('rr1_6').bgColor = '#8ab2be';
+interptxt = '\n\nApache II Score / Approximate Mortality: 25 to 29 points: 55% non-op, 35% post-op';
+calctxt += '\n\nApache II Score / Approximate Mortality: 25 to 29 points: 55% non-op, 35% post-op';
+xmltxt += '\n<Result_Interpretation>Apache II Score / Approximate Mortality: 25 to 29 points: 55% non-op, 35% post-op<\/Result_Interpretation>\n';
+}
+if ((Score >= 30) && (Score <= 34)){ document.getElementById('rr1_7').bgColor = '#8ab2be';
+interptxt = '\n\nApache II Score / Approximate Mortality: 30 to 34 points: Approx 73% both';
+calctxt += '\n\nApache II Score / Approximate Mortality: 30 to 34 points: Approx 73% both';
+xmltxt += '\n<Result_Interpretation>Apache II Score / Approximate Mortality: 30 to 34 points: Approx 73% both<\/Result_Interpretation>\n';
+}
+if ((Score >= 35) && (Score <= 100)){ document.getElementById('rr1_8').bgColor = '#8ab2be';
+interptxt = '\n\nApache II Score / Approximate Mortality: 35 to 100 points:  85% non-op, 88% post-op';
+calctxt += '\n\nApache II Score / Approximate Mortality: 35 to 100 points:  85% non-op, 88% post-op';
+xmltxt += '\n<Result_Interpretation>Apache II Score / Approximate Mortality: 35 to 100 points:  85% non-op, 88% post-op<\/Result_Interpretation>\n';
+}
+document.getElementById('rr1_tag').ariaLabel = interptxt;
+interptxt = '';
+
+
+}
+}
+}
+
+
+
+
+function rrclr(){
+document.getElementById('rr1_1').bgColor = '';
+document.getElementById('rr1_2').bgColor = '';
+document.getElementById('rr1_3').bgColor = '';
+document.getElementById('rr1_4').bgColor = '';
+document.getElementById('rr1_5').bgColor = '';
+document.getElementById('rr1_6').bgColor = '';
+document.getElementById('rr1_7').bgColor = '';
+document.getElementById('rr1_8').bgColor = '';
+document.getElementById('rr1_tag').ariaLabel = 'This table highlights the result Apache II Score / Approximate Mortality. No result is highlighted'; interptxt = '';
+}
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+<form name="ApacheScore_form" id="ApacheScore_form" action="" onsubmit="return false;" onreset="rrclr(); ">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+APACHE II Scoring System and Mortality Estimates (Acute Physiology and Chronic Health Disease Classification System II)
+</span></td></tr></table><br />&nbsp;<br />
+<div id="calc_main">
+<div id="calc_input">
+<center>
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td colspan="3"><span class="medCalcFontCCTabBold">Temperature (Degrees C)</span></td></tr>
+<tr><td width="20"><br /></td><td colspan="2"> <select name="cc1" onchange="ApacheScore_fx();" class="medCalcFontSelect" aria-label="Use this pull-down selector to choose a value for Temperature (Degrees C)">
+<option value="4">&gt;= 41 (4 points)</option>
+<option value="3">39-40.9 (3 points)</option>
+<option value="1">38.5-38.9 (1 point)</option>
+<option value="0" selected="selected">36-38.4 (0 points)</option>
+<option value="1">34-35.9 (1 point)</option>
+<option value="2">32-33.9 (2 points)</option>
+<option value="3">30-31.9 (3 points)</option>
+<option value="4">&lt;= 29.9 (4 points)</option>
+<option value="">_______________________________</option>
+</select> &nbsp; </td></tr>
+<tr><td colspan="3"><span class="medCalcFontCCTabBold">Mean Arterial Pressure (mmHg)</span></td></tr>
+<tr><td width="20"><br /></td><td colspan="2"> <select name="cc2" onchange="ApacheScore_fx();" class="medCalcFontSelect" aria-label="Use this pull-down selector to choose a value for Mean Arterial Pressure (mmHg)">
+<option value="4">&gt;= 160 (4 points)</option>
+<option value="3">130-159 (3 points)</option>
+<option value="2">110-129 (2 points)</option>
+<option value="0" selected="selected">70-109 (0 points)</option>
+<option value="2">50-69 (2 points)</option>
+<option value="4">&lt;= 49 (4 points)</option>
+<option value="">_______________________________</option>
+</select> &nbsp; </td></tr>
+<tr><td colspan="3"><span class="medCalcFontCCTabBold">Heart Rate</span></td></tr>
+<tr><td width="20"><br /></td><td colspan="2"> <select name="cc3" onchange="ApacheScore_fx();" class="medCalcFontSelect" aria-label="Use this pull-down selector to choose a value for Heart Rate">
+<option value="4">&gt;= 180 (4 points)</option>
+<option value="3">140-179 (3 points)</option>
+<option value="2">110-139 (2 points)</option>
+<option value="0" selected="selected">70-109 (0 points)</option>
+<option value="2">55-69 (2 points)</option>
+<option value="3">40-54 (3 points)</option>
+<option value="4">&lt;= 39 (4 points)</option>
+<option value="">_______________________________</option>
+</select> &nbsp; </td></tr>
+<tr><td colspan="3"><span class="medCalcFontCCTabBold">Respiratory Rate</span></td></tr>
+<tr><td width="20"><br /></td><td colspan="2"> <select name="cc4" onchange="ApacheScore_fx();" class="medCalcFontSelect" aria-label="Use this pull-down selector to choose a value for Respiratory Rate">
+<option value="4">&gt;= 50 (4 points)</option>
+<option value="3">35-49 (3 points)</option>
+<option value="1">25-34 (1 point)</option>
+<option value="0" selected="selected">12-24 (0 points)</option>
+<option value="1">10-11 (1 point)</option>
+<option value="2">6-9 (2 points)</option>
+<option value="4">&lt;= 5 (4 points)</option>
+<option value="">_______________________________</option>
+</select> &nbsp; </td></tr>
+<tr><td colspan="3"><span class="medCalcFontCCTabBold">A-aPO2(FiO2&gt;50%) or PaO2(FiO2&lt;50%)</span></td></tr>
+<tr><td width="20"><br /></td><td colspan="2"> <select name="cc5" onchange="ApacheScore_fx();" class="medCalcFontSelect" aria-label="Use this pull-down selector to choose a value for A-aPO2(FiO2&gt;50%) or PaO2(FiO2&lt;50%)">
+<option value="4">&gt;= 500 (4 points)</option>
+<option value="3">350-499 (3 points)</option>
+<option value="2">200-349 (2 points)</option>
+<option value="0" selected="selected">&lt; 200 or PaO2 &gt; 70 (0 points)</option>
+<option value="1">PaO2 61-70 (1 point)</option>
+<option value="3">PaO2 55-60 (3 points)</option>
+<option value="4">PaO2 &lt; 55 (4 points)</option>
+<option value="">_______________________________</option>
+</select> &nbsp; </td></tr>
+<tr><td colspan="3"><span class="medCalcFontCCTabBold">Arterial pH or HCO3</span></td></tr>
+<tr><td width="20"><br /></td><td colspan="2"> <select name="cc6" onchange="ApacheScore_fx();" class="medCalcFontSelect" aria-label="Use this pull-down selector to choose a value for Arterial pH or HCO3">
+<option value="4">pH &gt;=7.7 or HCO3 &gt;=52 (4 points)</option>
+<option value="3">pH 7.6-7.69 or HCO3 41-51.9 (3 points)</option>
+<option value="1">pH 7.5-7.59 or HCO3 32-40.9 (1 point)</option>
+<option value="0" selected="selected">pH 7.33-7.49 or HCO3 22-31.9 (0 points)</option>
+<option value="2">pH 7.25-7.32 or HCO3 18-21.9 (2 points)</option>
+<option value="3">pH 7.15-7.24 or HCO3 15-17.9 (3 points)</option>
+<option value="4">pH &lt;7.15 or HCO3 &lt;15 (4 points)</option>
+<option value="">_______________________________</option>
+</select> &nbsp; </td></tr>
+<tr><td colspan="3"><span class="medCalcFontCCTabBold">Serum Na+ (mEq/L)</span></td></tr>
+<tr><td width="20"><br /></td><td colspan="2"> <select name="cc7" onchange="ApacheScore_fx();" class="medCalcFontSelect" aria-label="Use this pull-down selector to choose a value for Serum Na+ (mEq/L)">
+<option value="4">&gt;= 180 (4 points)</option>
+<option value="3">160-179 (3 points)</option>
+<option value="2">155-159 (2 points)</option>
+<option value="1">150-154 (1 point)</option>
+<option value="0" selected="selected">130-149 (0 points)</option>
+<option value="2">120-129 (2 points)</option>
+<option value="3">111-119 (3 points)</option>
+<option value="4">&lt;= 110 (4 points)</option>
+<option value="">_______________________________</option>
+</select> &nbsp; </td></tr>
+<tr><td colspan="3"><span class="medCalcFontCCTabBold">Serum K+ (mEq/L)</span></td></tr>
+<tr><td width="20"><br /></td><td colspan="2"> <select name="cc8" onchange="ApacheScore_fx();" class="medCalcFontSelect" aria-label="Use this pull-down selector to choose a value for Serum K+ (mEq/L)">
+<option value="4">&gt;= 7 (4 points)</option>
+<option value="3">6-6.9 (3 points)</option>
+<option value="1">5.5-5.9 (1 point)</option>
+<option value="0" selected="selected">3.5-5.4 (0 points)</option>
+<option value="1">3-3.4 (1 point)</option>
+<option value="2">2.5-2.9 (2 points)</option>
+<option value="4">&lt; 2.5 (4 points)</option>
+<option value="">_______________________________</option>
+</select> &nbsp; </td></tr>
+<tr><td colspan="3"><span class="medCalcFontCCTabBold">Serum Creatinine (ARF means  Acute Renal Failure)</span></td></tr>
+<tr><td width="20"><br /></td><td colspan="2"> <select name="cc9" onchange="ApacheScore_fx();" class="medCalcFontSelect" aria-label="Use this pull-down selector to choose a value for Serum Creatinine (ARF means  Acute Renal Failure)">
+<option value="4">&gt;= 3.5 (4 points)</option>
+<option value="8">&gt; 3.5 in ARF (8 points)</option>
+<option value="3">2-3.4 (3 points)</option>
+<option value="6">2-3.4 in ARF (6 points)</option>
+<option value="2">1.5-1.9 (2 points)</option>
+<option value="4">1.5-1.9 in ARF (4 points)</option>
+<option value="0" selected="selected">0.6-1.4 (0 points)</option>
+<option value="2">&lt; 0.6 (2 points)</option>
+<option value="">_______________________________</option>
+</select> &nbsp; </td></tr>
+<tr><td colspan="3"><span class="medCalcFontCCTabBold">Hematocrit</span></td></tr>
+<tr><td width="20"><br /></td><td colspan="2"> <select name="cc10" onchange="ApacheScore_fx();" class="medCalcFontSelect" aria-label="Use this pull-down selector to choose a value for Hematocrit">
+<option value="4">&gt;= 60 (4 points)</option>
+<option value="2">50-59.9 (2 points)</option>
+<option value="1">46-49.9 (1 point)</option>
+<option value="0" selected="selected">30-45.9 (0 points)</option>
+<option value="2">20-29.9 (2 points)</option>
+<option value="4">&lt; 20 (4 points)</option>
+<option value="">_______________________________</option>
+</select> &nbsp; </td></tr>
+<tr><td colspan="3"><span class="medCalcFontCCTabBold">WBC Count(10^9/L)</span></td></tr>
+<tr><td width="20"><br /></td><td colspan="2"> <select name="cc11" onchange="ApacheScore_fx();" class="medCalcFontSelect" aria-label="Use this pull-down selector to choose a value for WBC Count(10^9/L)">
+<option value="4">&gt;= 40 (4 points)</option>
+<option value="2">20-39.9 (2 points)</option>
+<option value="1">15-19.9 (1 point)</option>
+<option value="0" selected="selected">3-14.9 (0 points)</option>
+<option value="2">1-2.9 (2 points)</option>
+<option value="4">&lt; 1 (4 points)</option>
+<option value="">_______________________________</option>
+</select> &nbsp; </td></tr>
+<tr><td colspan="3"><span class="medCalcFontCCTabBold">Glasgow</span></td></tr>
+<tr><td width="20"><br /></td><td colspan="2"> <select name="cc12" onchange="ApacheScore_fx();" class="medCalcFontSelect" aria-label="Use this pull-down selector to choose a value for Glasgow">
+<option value="0" selected="selected">15 (0 points)</option>
+<option value="1">14 (1 point)</option>
+<option value="2">13 (2 points)</option>
+<option value="3">12 (3 points)</option>
+<option value="4">11 (4 points)</option>
+<option value="5">10 (5 points)</option>
+<option value="6">9 (6 points)</option>
+<option value="7">8 (7 points)</option>
+<option value="8">7 (8 points)</option>
+<option value="9">6 (9 points)</option>
+<option value="10">5 (10 points)</option>
+<option value="11">4 (11 points)</option>
+<option value="12">&lt;=3 (12 points)</option>
+<option value="">_______________________________</option>
+</select> &nbsp; </td></tr>
+<tr><td colspan="3"><span class="medCalcFontCCTabBold">Age (years)</span></td></tr>
+<tr><td width="20"><br /></td><td colspan="2"> <select name="cc13" onchange="ApacheScore_fx();" class="medCalcFontSelect" aria-label="Use this pull-down selector to choose a value for Age (years)">
+<option value="6">&gt;= 75 (6 points)</option>
+<option value="5">65-74 (5 points)</option>
+<option value="3">55-64 (3 points)</option>
+<option value="2">45-54 (2 points)</option>
+<option value="0" selected="selected">&lt;= 44 (0 points)</option>
+<option value="">_______________________________</option>
+</select> &nbsp; </td></tr>
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">Chronic Health Problems: 1) Cirrhosis of the liver confirmed by biopsy 2) New York Heart Association Class IV 3) Severe COPD --  Hypercapnia, home O2 use, or  pulmonary hypertension 4) On regular dialysis or 5) Immunocompromised </span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel1" name="cc14" onclick="ApacheScore_fx();" checked="checked" aria-label="This button selects an option for: Chronic Health Problems: 1) Cirrhosis of the liver confirmed by biopsy 2) New York Heart Association Class IV 3) Severe COPD --  Hypercapnia, home O2 use, or  pulmonary hypertension 4) On regular dialysis or 5) Immunocompromised. The option is None (0 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel1');">None (0 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel2" name="cc14" onclick="ApacheScore_fx();" aria-label="This button selects an option for: Chronic Health Problems: 1) Cirrhosis of the liver confirmed by biopsy 2) New York Heart Association Class IV 3) Severe COPD --  Hypercapnia, home O2 use, or  pulmonary hypertension 4) On regular dialysis or 5) Immunocompromised. The option is Non-Surgical (5 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel2');">Non-Surgical (5 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel3" name="cc14" onclick="ApacheScore_fx();" aria-label="This button selects an option for: Chronic Health Problems: 1) Cirrhosis of the liver confirmed by biopsy 2) New York Heart Association Class IV 3) Severe COPD --  Hypercapnia, home O2 use, or  pulmonary hypertension 4) On regular dialysis or 5) Immunocompromised. The option is Emergent operation (5 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel3');">Emergent operation (5 points)</span></td></tr>
+<tr><td width="20"><br /></td>
+<td align="right"><input type="radio" id="togel4" name="cc14" onclick="ApacheScore_fx();" aria-label="This button selects an option for: Chronic Health Problems: 1) Cirrhosis of the liver confirmed by biopsy 2) New York Heart Association Class IV 3) Severe COPD --  Hypercapnia, home O2 use, or  pulmonary hypertension 4) On regular dialysis or 5) Immunocompromised. The option is Elective operation (2 points)" /></td>
+<td align="left"><span class="medCalcFontOneClick" onclick="setRB('togel4');">Elective operation (2 points)</span></td></tr>
+
+</table>
+
+</center>
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<span class="medCalcFontCCTabBold">
+Total Criteria Point Count:
+</span>
+<input type="text" size="6" name="cctotal" aria-readonly="true" aria-label="This box holds the total criteria point count" /><br />&nbsp;<br />
+<center><input type="reset" name="reset" value="Reset Form" />    </center>
+<br />&nbsp;<br />
+<div id="rr1_tag" aria-label="This table highlights the result Apache II Score / Approximate Mortality. No result is highlighted" tabindex="0">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+
+Apache II Score / Approximate Mortality
+</span></td></tr></table><br />&nbsp;<br />
+</div>
+<center>
+<table border="1" cellpadding="4" cellspacing="0" summary="RRTable">
+<tr id="rr1_1"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">0 to 4 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">4% non-op, 1% post-op </span></td></tr>
+<tr id="rr1_2"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">5 to 9 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">8% non-op, 3% post-op</span></td></tr>
+<tr id="rr1_3"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">10 to 14 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">15% non-op, 7% post-op</span></td></tr>
+<tr id="rr1_4"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">15 to 19 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">24% non-op, 12% post-op </span></td></tr>
+<tr id="rr1_5"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">20 to 24 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">40% non-op, 30% post-op</span></td></tr>
+<tr id="rr1_6"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">25 to 29 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">55% non-op, 35% post-op</span></td></tr>
+<tr id="rr1_7"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">30 to 34 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Approx 73% both</span></td></tr>
+<tr id="rr1_8"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">35 to 100 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne"> 85% non-op, 88% post-op</span></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+
+</div>
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Knaus WA, et al. APACHE II: a severity of disease classification system. <i>Crit Care Med</i>. 1985 Oct;13(10):818-29. PubMed ID: 3928249 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/3928249"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+ 
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div><script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+
+
+
+function loadQueryParams(thisqs){
+if (thisqs) alert('Data panel values cannot be transferred to this calculator.');
+return;
+}
+
+
+/* ]]> */
+</script>
+
+
+
+
+
+</div>
+</body>
+</html>
+
+
+<!-- 1662473248 //-->

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Cardiovascular Risk Assessment (10-year, Revised Pooled Cohort Equations 2018)</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="cardiac, endocrin, patient, epidem, riskEvidence, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+CVRiskRevised2018_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+CVRiskRevised2018_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function CVRiskRevised2018_fx() {
+
+with(document.CVRiskRevised2018_form){
+
+
+doCalc = true;
+param_value = parseFloat(Age_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Age_unit.options[Age_unit.selectedIndex].value.split('|');
+Age = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+rbchk = false;
+if (Race_radio[0].checked){ rbchk = true; Race = 0;  }
+if (Race_radio[1].checked){ rbchk = true; Race = 0;  }
+if (Race_radio[2].checked){ rbchk = true; Race = 1;  }
+if (Race_radio[3].checked){ rbchk = true; Race = 0;  }
+if (Race_radio[4].checked){ rbchk = true; Race = 0;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (Sex_radio[0].checked){ rbchk = true; Sex = 1;  }
+if (Sex_radio[1].checked){ rbchk = true; Sex = 2;  }
+if (!rbchk) doCalc = false;
+param_value = parseFloat(Chol_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Chol_unit.options[Chol_unit.selectedIndex].value.split('|');
+Chol = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(HDL_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = HDL_unit.options[HDL_unit.selectedIndex].value.split('|');
+HDL = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(SBP_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = SBP_unit.options[SBP_unit.selectedIndex].value.split('|');
+SBP = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+rbchk = false;
+if (On_Hypertension_Med_radio[0].checked){ rbchk = true; On_Hypertension_Med = 0;  }
+if (On_Hypertension_Med_radio[1].checked){ rbchk = true; On_Hypertension_Med = 1;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (Diabetes_radio[0].checked){ rbchk = true; Diabetes = 0;  }
+if (Diabetes_radio[1].checked){ rbchk = true; Diabetes = 1;  }
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (Smoker_radio[0].checked){ rbchk = true; Smoker = 0;  }
+if (Smoker_radio[1].checked){ rbchk = true; Smoker = 1;  }
+if (!rbchk) doCalc = false;
+dp = decpts.options[decpts.selectedIndex].text;
+Logit_Female =   -12.823110 +  (0.106501 * Age) +  (0.432440 * Race) +  (0.000056 * power(SBP, 2)) +  (0.017666 * SBP) +  (0.731678 * On_Hypertension_Med) +  (0.943970 * Diabetes) +  (1.009790 * Smoker) +  (0.151318 * (Chol / HDL)) +  (-0.008580 * Age * Race) +  (-0.003647 * SBP * On_Hypertension_Med) +  (0.006208 * SBP * Race) +  (0.152968 * Race * On_Hypertension_Med) +  (-0.000153 * Age * SBP) +  (0.115232 * Race * Diabetes) +  (-0.092231 * Race * Smoker) +  (0.070498 * Race * (Chol / HDL)) +  (-0.000173 * Race * SBP * On_Hypertension_Med) +  (-0.000094 * Age * SBP * Race);
+
+Risk_Female =  100 / (1 + eTo(- Logit_Female));
+
+Logit_Male =  -11.679980 +  (0.064200 * Age) +  (0.482835 * Race) +  (-0.000061 * power(SBP, 2)) +  (0.038950 * SBP) +  (2.055533 * On_Hypertension_Med) +  (0.842209 * Diabetes) +  (0.895589 * Smoker) +  (0.193307 * Chol / HDL) +  (-0.014207 * SBP * On_Hypertension_Med) +  (0.011609 * SBP * Race) +  (-0.119460 * On_Hypertension_Med * Race) +  (0.000025 * Age * SBP) +  (-0.077214 * Race * Diabetes) +  (-0.226771 * Race * Smoker) +  (-0.117749 * Race * Chol / HDL) +  (0.004190 * Race * On_Hypertension_Med * SBP) +  (-0.000199 * Race * Age * SBP);
+
+Risk_Male =  100 / (1 + eTo(- Logit_Male));
+
+Risk =  (Math.abs(Sex == 1) * Risk_Female) + (Math.abs(Sex == 2) * Risk_Male);
+
+unit_parts = Risk_unit.options[Risk_unit.selectedIndex].value.split('|');
+if (doCalc) Risk_param.value = fixDP((Risk - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.CVRiskRevised2018_form){
+
+if (Age_param.value && isNaN(Age_param.value)){ clrValue(Age_param); alertNaN('Age'); }
+if (Age_param.value && (Age < (20 - 0.00001))) {
+Age = 0;
+clrValue(Age_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Age is 20 yr.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Age_param.value && Age > 79) {
+clrValue(Age_param);
+clrResults();
+Age = 0;
+doCalc = false;
+ alert("The maximum value for Age is 79 yr.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Chol_param.value && isNaN(Chol_param.value)){ clrValue(Chol_param); alertNaN('Total Cholesterol'); }
+if (Chol_param.value && (Chol < (130 - 0.00001))) {
+Chol = 0;
+clrValue(Chol_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Total Cholesterol is 130 mg/dL.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Chol_param.value && Chol > 320) {
+clrValue(Chol_param);
+clrResults();
+Chol = 0;
+doCalc = false;
+ alert("The maximum value for Total Cholesterol is 320 mg/dL.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (HDL_param.value && isNaN(HDL_param.value)){ clrValue(HDL_param); alertNaN('HDL Cholesterol'); }
+if (HDL_param.value && (HDL < (20 - 0.00001))) {
+HDL = 0;
+clrValue(HDL_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for HDL Cholesterol is 20 mg/dL.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (HDL_param.value && HDL > 100) {
+clrValue(HDL_param);
+clrResults();
+HDL = 0;
+doCalc = false;
+ alert("The maximum value for HDL Cholesterol is 100 mg/dL.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (SBP_param.value && isNaN(SBP_param.value)){ clrValue(SBP_param); alertNaN('Systolic Blood Pressure'); }
+if (SBP_param.value && (SBP < (90 - 0.00001))) {
+SBP = 0;
+clrValue(SBP_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Systolic Blood Pressure is 90 mmHg.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (SBP_param.value && SBP > 200) {
+clrValue(SBP_param);
+clrResults();
+SBP = 0;
+doCalc = false;
+ alert("The maximum value for Systolic Blood Pressure is 200 mmHg.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.CVRiskRevised2018_form){
+
+Risk_param.value = '';
+
+
+}
+
+}
+
+var Age = null,
+Race = null,
+Sex = null,
+Chol = null,
+HDL = null,
+SBP = null,
+On_Hypertension_Med = null,
+Diabetes = null,
+Smoker = null,
+Logit_Female = null,
+Risk_Female = null,
+Logit_Male = null,
+Risk_Male = null,
+Risk = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="CVRiskRevised2018_form" id="CVRiskRevised2018_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="CVRiskRevised2018_fx();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Cardiovascular Risk Assessment (10-year, Revised Pooled Cohort Equations 2018)
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Age</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Age_param" size="6" value="" onblur="CVRiskRevised2018_fx(); minMaxCheck();" onchange="CVRiskRevised2018_fx();" aria-label="Use this input box to enter the value Age" /></td>
+<td align="left" valign="top"> <select name="Age_unit" onchange="CVRiskRevised2018_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Age">
+<option value="0.0833333333333333|0|mo">mo</option>
+<option value="1|0|yr" selected="selected">yr</option>
+</select></td></tr>
+
+<tr><td align="right" valign="top"><span class="medCalcFontOneBold">Race</span></td>
+<td colspan="2" align="left"><input type="radio" name="Race_radio" id="togel1" value="American Indian or Alaska Native|0" onclick="CVRiskRevised2018_fx();" aria-label="This button selects an option for the variable: Race. The variable option is American Indian or Alaska Native." /><span class="medCalcFontOneClick" onclick="setRB('togel1');"> American Indian or Alaska Native</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Race_radio" id="togel2" value="Asian|0" onclick="CVRiskRevised2018_fx();" aria-label="This button selects an option for the variable: Race. The variable option is Asian." /><span class="medCalcFontOneClick" onclick="setRB('togel2');"> Asian</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Race_radio" id="togel3" value="Black or African American|1" onclick="CVRiskRevised2018_fx();" aria-label="This button selects an option for the variable: Race. The variable option is Black or African American." /><span class="medCalcFontOneClick" onclick="setRB('togel3');"> Black or African American</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Race_radio" id="togel4" value="Native Hawaiian or Other Pacific Islander|0" onclick="CVRiskRevised2018_fx();" aria-label="This button selects an option for the variable: Race. The variable option is Native Hawaiian or Other Pacific Islander." /><span class="medCalcFontOneClick" onclick="setRB('togel4');"> Native Hawaiian or Other Pacific Islander</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Race_radio" id="togel5" value="White|0" onclick="CVRiskRevised2018_fx();" aria-label="This button selects an option for the variable: Race. The variable option is White." /><span class="medCalcFontOneClick" onclick="setRB('togel5');"> White</span></td></tr>
+<tr><td align="right" valign="top"><span class="medCalcFontOneBold">Sex</span></td>
+<td colspan="2" align="left"><input type="radio" name="Sex_radio" id="togel6" value="Female|1" onclick="CVRiskRevised2018_fx();" aria-label="This button selects an option for the variable: Sex. The variable option is Female." /><span class="medCalcFontOneClick" onclick="setRB('togel6');"> Female</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Sex_radio" id="togel7" value="Male|2" onclick="CVRiskRevised2018_fx();" aria-label="This button selects an option for the variable: Sex. The variable option is Male." /><span class="medCalcFontOneClick" onclick="setRB('togel7');"> Male</span></td></tr>
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Total Cholesterol</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Chol_param" size="6" value="" onblur="CVRiskRevised2018_fx(); minMaxCheck();" onchange="CVRiskRevised2018_fx();" aria-label="Use this input box to enter the value Total Cholesterol" /></td>
+<td align="left" valign="top"> <select name="Chol_unit" onchange="CVRiskRevised2018_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Total Cholesterol">
+<option value="1|0|mg/dL_Chol" selected="selected">mg/dL</option>
+<option value="38.6697602474865|0|mmol/L_Chol">mmol/L</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">HDL Cholesterol</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="HDL_param" size="6" value="" onblur="CVRiskRevised2018_fx(); minMaxCheck();" onchange="CVRiskRevised2018_fx();" aria-label="Use this input box to enter the value HDL Cholesterol" /></td>
+<td align="left" valign="top"> <select name="HDL_unit" onchange="CVRiskRevised2018_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value HDL Cholesterol">
+<option value="1|0|mg/dL_HDL" selected="selected">mg/dL</option>
+<option value="38.6697602474865|0|mmol/L_HDL">mmol/L</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Systolic Blood Pressure</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="SBP_param" size="6" value="" onblur="CVRiskRevised2018_fx(); minMaxCheck();" onchange="CVRiskRevised2018_fx();" aria-label="Use this input box to enter the value Systolic Blood Pressure" /></td>
+<td align="left" valign="top"> <select name="SBP_unit" onchange="CVRiskRevised2018_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Systolic Blood Pressure">
+<option value="0.00750063755419211|0|Pascal">Pascal</option>
+<option value="760.002100178515|0|atm">atm</option>
+<option value="750.063755419211|0|bar">bar</option>
+<option value="0.735561538478802|0|cmH2O">cmH2O</option>
+<option value="10|0|cmHg">cmHg</option>
+<option value="22.4199156928339|0|ftH2O">ftH2O</option>
+<option value="0.735561538478802|0|gm/sqcm">gm/sqcm</option>
+<option value="1.86832630773616|0|inH2O">inH2O</option>
+<option value="25.4000840071406|0|inHg">inHg</option>
+<option value="7.50063755419211|0|kPa">kPa</option>
+<option value="0.750063755419211|0|mbar">mbar</option>
+<option value="1|0|mmHg" selected="selected">mmHg</option>
+<option value="51.7150957831416|0|psi">psi</option>
+<option value="1|0|torr">torr</option>
+</select></td></tr>
+
+<tr><td align="right" valign="top"><span class="medCalcFontOneBold">On Hypertension Med</span></td>
+<td colspan="2" align="left"><input type="radio" name="On_Hypertension_Med_radio" id="togel8" value="No|0" onclick="CVRiskRevised2018_fx();" aria-label="This button selects an option for the variable: On Hypertension Med. The variable option is No." /><span class="medCalcFontOneClick" onclick="setRB('togel8');"> No</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="On_Hypertension_Med_radio" id="togel9" value="Yes|1" onclick="CVRiskRevised2018_fx();" aria-label="This button selects an option for the variable: On Hypertension Med. The variable option is Yes." /><span class="medCalcFontOneClick" onclick="setRB('togel9');"> Yes</span></td></tr>
+<tr><td align="right" valign="top"><span class="medCalcFontOneBold">Diabetes</span></td>
+<td colspan="2" align="left"><input type="radio" name="Diabetes_radio" id="togel10" value="No|0" onclick="CVRiskRevised2018_fx();" aria-label="This button selects an option for the variable: Diabetes. The variable option is No." /><span class="medCalcFontOneClick" onclick="setRB('togel10');"> No</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Diabetes_radio" id="togel11" value="Yes|1" onclick="CVRiskRevised2018_fx();" aria-label="This button selects an option for the variable: Diabetes. The variable option is Yes." /><span class="medCalcFontOneClick" onclick="setRB('togel11');"> Yes</span></td></tr>
+<tr><td align="right" valign="top"><span class="medCalcFontOneBold">Smoker</span></td>
+<td colspan="2" align="left"><input type="radio" name="Smoker_radio" id="togel12" value="No|0" onclick="CVRiskRevised2018_fx();" aria-label="This button selects an option for the variable: Smoker. The variable option is No." /><span class="medCalcFontOneClick" onclick="setRB('togel12');"> No</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Smoker_radio" id="togel13" value="Yes|1" onclick="CVRiskRevised2018_fx();" aria-label="This button selects an option for the variable: Smoker. The variable option is Yes." /><span class="medCalcFontOneClick" onclick="setRB('togel13');"> Yes</span></td></tr>
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Results</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">10-year risk</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Risk_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value 10-year risk" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Risk_unit" onchange="CVRiskRevised2018_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value 10-year risk">
+<option value="1|0|%" selected="selected">%</option>
+<option value="100|0|fraction">fraction</option>
+<option value="100|0|ratio">ratio</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr><td colspan="3" align="center"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="CVRiskRevised2018_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option selected="selected">1</option>
+<option>2</option>
+<option>3</option>
+
+</select></td></tr>
+
+</table>
+</center>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">LogitFemale =  -12.823110 +  (0.106501 * Age) +  (0.432440 * Race) +  (0.000056 * SystolicBloodPressure<sup>2</sup>) +  (0.017666 * SystolicBloodPressure) +  (0.731678 * OnHypertensionMed) +  (0.943970 * Diabetes) +  (1.009790 * Smoker) +  (0.151318 * (TotalCholesterol / HDLCholesterol)) +  (-0.008580 * Age * Race) +  (-0.003647 * SystolicBloodPressure * OnHypertensionMed) +  (0.006208 * SystolicBloodPressure * Race) +  (0.152968 * Race * OnHypertensionMed) +  (-0.000153 * Age * SystolicBloodPressure) +  (0.115232 * Race * Diabetes) +  (-0.092231 * Race * Smoker) +  (0.070498 * Race * (TotalCholesterol / HDLCholesterol)) +  (-0.000173 * Race * SystolicBloodPressure * OnHypertensionMed) +  (-0.000094 * Age * SystolicBloodPressure * Race)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">10-year riskFemale = 100 / (1 + e<sup>(-LogitFemale)</sup>)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">LogitMale = -11.679980 +  (0.064200 * Age) +  (0.482835 * Race) +  (-0.000061 * SystolicBloodPressure<sup>2</sup>) +  (0.038950 * SystolicBloodPressure) +  (2.055533 * OnHypertensionMed) +  (0.842209 * Diabetes) +  (0.895589 * Smoker) +  (0.193307 * TotalCholesterol / HDLCholesterol) +  (-0.014207 * SystolicBloodPressure * OnHypertensionMed) +  (0.011609 * SystolicBloodPressure * Race) +  (-0.119460 * OnHypertensionMed * Race) +  (0.000025 * Age * SystolicBloodPressure) +  (-0.077214 * Race * Diabetes) +  (-0.226771 * Race * Smoker) +  (-0.117749 * Race * TotalCholesterol / HDLCholesterol) +  (0.004190 * Race * OnHypertensionMed * SystolicBloodPressure) +  (-0.000199 * Race * Age * SystolicBloodPressure)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">10-year riskMale = 100 / (1 + e<sup>(-LogitMale)</sup>)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">10-year risk = (Math.abs(Sex == 1) * 10-year riskFemale) + (Math.abs(Sex == 2) * 10-year riskMale)</span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Yadlowsky S, Hayward RA, Sussman JB, et al. Implications of Revised Pooled Cohort Equations for Estimating  Atherosclerotic Cardiovascular Disease Risk. <i>Ann Intern Med</i>. 2018 Jul 3;169(1):20-29. PubMed ID: 29868850 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/29868850"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div>
+</div>
+</body>
+</html>
+
+<!-- 1662473260 //-->

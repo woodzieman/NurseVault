@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Diffusing capacity for carbon monoxide (DLCO) corrected for anemia</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="pulmonary, cardiology, pediatrics, hematology, diagnosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+DLCO_Anemia_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+DLCO_Anemia_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function DLCO_Anemia_fx() {
+
+with(document.DLCO_Anemia_form){
+
+
+doCalc = true;
+rbchk = false;
+if (Sex_radio[0].checked){ rbchk = true; Sex = 'female'; }
+if (Sex_radio[1].checked){ rbchk = true; Sex = 'male'; }
+if (!rbchk) doCalc = false;
+param_value = parseFloat(Age_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+Age = param_value;
+param_value = parseFloat(Hgb_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Hgb_unit.options[Hgb_unit.selectedIndex].value.split('|');
+Hgb = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(DLCO_Predicted_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+DLCO_Predicted = param_value;
+dp = decpts.options[decpts.selectedIndex].text;
+if ((Sex == 'male') && (Age >= 15)) DLCO_Predicted_Corrected = DLCO_Predicted * (1.7 * Hgb /(10.22 + Hgb));
+if (Sex == 'female') DLCO_Predicted_Corrected = DLCO_Predicted * (1.7 * Hgb /(9.38 + Hgb));
+if (Age < 15) DLCO_Predicted_Corrected = DLCO_Predicted * (1.7 * Hgb /(9.38 + Hgb));
+DLCO_Predicted_Corrected =  DLCO_Predicted_Corrected;
+
+if (doCalc) DLCO_Predicted_Corrected_param.value = fixDP(DLCO_Predicted_Corrected, dp);
+
+
+
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.DLCO_Anemia_form){
+
+if (Age_param.value && isNaN(Age_param.value)){ clrValue(Age_param); alertNaN('Age'); }
+if (Age_param.value && (Age < (1 - 0.00001))) {
+Age = 0;
+clrValue(Age_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Age is 1 Years old.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Age_param.value && Age > 120) {
+clrValue(Age_param);
+clrResults();
+Age = 0;
+doCalc = false;
+ alert("The maximum value for Age is 120 Years old.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Hgb_param.value && isNaN(Hgb_param.value)){ clrValue(Hgb_param); alertNaN('Hgb'); }
+if (Hgb_param.value && (Hgb < (5 - 0.00001))) {
+Hgb = 0;
+clrValue(Hgb_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Hgb is 5 g/dL.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Hgb_param.value && Hgb > 20) {
+clrValue(Hgb_param);
+clrResults();
+Hgb = 0;
+doCalc = false;
+ alert("The maximum value for Hgb is 20 g/dL.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (DLCO_Predicted_param.value && isNaN(DLCO_Predicted_param.value)){ clrValue(DLCO_Predicted_param); alertNaN('DLCO Predicted'); }
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.DLCO_Anemia_form){
+
+DLCO_Predicted_Corrected_param.value = '';
+
+
+}
+
+}
+
+var Age = null,
+Hgb = null,
+DLCO_Predicted = null,
+DLCO_Predicted_Corrected = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="DLCO_Anemia_form" id="DLCO_Anemia_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="DLCO_Anemia_fx();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Diffusing capacity for carbon monoxide (DLCO) corrected for anemia
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right"><span class="medCalcFontOneBold">Sex</span></td>
+<td colspan="3" align="left"><input type="radio" name="Sex_radio" id="togel1" value="Female" onclick="DLCO_Anemia_fx();" aria-label="This button selects an option for the variable: Sex. The variable option is Female." /><span class="medCalcFontOneClick" onclick="setRB('togel1');"> Female</span></td></tr>
+<tr><td align="left"><br /></td>
+<td colspan="3" align="left"><input type="radio" name="Sex_radio" id="togel2" value="Male" onclick="DLCO_Anemia_fx();" aria-label="This button selects an option for the variable: Sex. The variable option is Male." /><span class="medCalcFontOneClick" onclick="setRB('togel2');"> Male</span></td></tr>
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Age</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Age_param" size="6" value="" onblur="DLCO_Anemia_fx(); minMaxCheck();" onchange="DLCO_Anemia_fx();" aria-label="Use this input box to enter the value Age" /></td>
+<td align="left" valign="top"> <span style="white-space: nowrap;"><span class="medCalcFontOneBold">Years old</span>
+</span></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Hgb</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Hgb_param" size="6" value="" onblur="DLCO_Anemia_fx(); minMaxCheck();" onchange="DLCO_Anemia_fx();" aria-label="Use this input box to enter the value Hgb" /></td>
+<td align="left" valign="top"> <select name="Hgb_unit" onchange="DLCO_Anemia_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Hgb">
+<option value="1|0|g/dL" selected="selected">g/dL</option>
+<option value="0.1|0|gm/L">gm/L</option>
+<option value="1|0|gm/dL">gm/dL</option>
+<option value="1e-06|0|mcg/dL">mcg/dL</option>
+<option value="0.001|0|mg%">mg%</option>
+<option value="0.001|0|mg/dL">mg/dL</option>
+<option value="0.1|0|mg/mL">mg/mL</option>
+<option value="1e-07|0|ng/mL">ng/mL</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">DLCO Predicted</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="DLCO_Predicted_param" size="6" value="" onblur="DLCO_Anemia_fx(); minMaxCheck();" onchange="DLCO_Anemia_fx();" aria-label="Use this input box to enter the value DLCO Predicted" /></td>
+<td align="left" valign="top"> <span style="white-space: nowrap;"><span class="medCalcFontOneBold">mL CO (STPD)</span>
+</span></td></tr>
+
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Results</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">DLCO Predicted Corrected</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="DLCO_Predicted_Corrected_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value DLCO Predicted Corrected" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<span style="white-space: nowrap;"><span class="medCalcFontResultParam">mL CO (STPD)</span>
+</span>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr><td colspan="3" align="center"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="DLCO_Anemia_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option>1</option>
+<option selected="selected">2</option>
+<option>3</option>
+
+</select></td></tr>
+
+</table>
+</center>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li><font color="#aa0000">In this calculator, <b>mcg</b> is the abbreviation for <b>micrograms</b>.</font></li>
+<li>Predicted DLCO adjusted for hemoglobin is converted from mL CO per min per mmHg to mmol per min per kPa by multiplying by a factor of 0.3348.</li>
+<li>STPD: Standard Temperature and Pressure, Dry.</li>
+<li>For females of any age, and children less than 15 years old the <b>Age-Sex-Factor</b> is 9.38</li>
+<li>For males 15 years old or older, the <b>Age-Sex-Facor</b> is 10.22</li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">DLCOPredictedCorrected = DLCOPredictedCorrected</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">DLCO Predicted Corrected = DLCO Predicted * (1.7 * Hgb /(Age-Sex-Factor + Hgb))</span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Macintyre N, Crapo RO, Viegi G, et al. Standardisation of the single-breath determination of carbon monoxide uptake in  the lung. <i>Eur Respir J</i>. 2005 Oct;26(4):720-35. PubMed ID: 16204605 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/16204605"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div><script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+with(document.DLCO_Anemia_form){
+
+var Sex;
+
+}
+/* ]]> */
+</script>
+
+
+
+</div>
+</body>
+</html>
+
+<!-- 1662473266 //-->

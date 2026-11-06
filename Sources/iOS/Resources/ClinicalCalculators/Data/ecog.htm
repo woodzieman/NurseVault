@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ECOG Performance Status</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5MKXR9');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees">
+<meta name="keywords" content="hemato, onco, prognosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical"> 
+<meta name="author" content="EBMcalc, LLC">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="googlebot" content="noindex,indexifembedded">
+</head>
+
+<body class="medCalcBody">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MKXR9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="mc3k">
+<script>
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+var x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 2000);
+}
+
+function wait(ms) {
+var stime = new Date().getTime();
+for (var i = 0; i < 1e8; i++) {
+if ((new Date().getTime() - stime) > ms){
+break;
+}}}
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+ECOG_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+ECOG_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+var inputchktxt = '<br>&nbsp;<br><b>Important:</b> Inputs must be complete to perform calculation. <br>'
+
+
+function aDelay(atxt, ffield){
+with (document.ECOG_form){
+clrResults();
+ffield.value = '';
+doCalc = false;
+setTimeout(function(){ alert(atxt); }, 100);
+document.getElementById('inputchk').innerHTML = inputchktxt;
+
+}}
+
+
+function ECOG_fx() {
+
+with(document.ECOG_form){
+
+
+doCalc = true;
+rbchk = false;
+if (Scale_radio[0].checked){ rbchk = true; Scale = 0;  }
+if (Scale_radio[1].checked){ rbchk = true; Scale = 1;  }
+if (Scale_radio[2].checked){ rbchk = true; Scale = 2;  }
+if (Scale_radio[3].checked){ rbchk = true; Scale = 3;  }
+if (Scale_radio[4].checked){ rbchk = true; Scale = 4;  }
+if (!rbchk) doCalc = false;
+dp = 0;
+ECOG_Performance_Status =  Scale;
+
+unit_parts = ECOG_Performance_Status_unit.options[ECOG_Performance_Status_unit.selectedIndex].value.split('|');
+if (doCalc) ECOG_Performance_Status_param.value = fixDP((ECOG_Performance_Status - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+
+
+}
+
+
+if (doCalc) document.getElementById('inputchk').innerHTML = '';
+else document.getElementById('inputchk').innerHTML = inputchktxt;
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.ECOG_form){
+
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.ECOG_form){
+
+ECOG_Performance_Status_param.value = '';
+
+
+}
+
+}
+
+var Scale = null,
+ECOG_Performance_Status = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+<form name="ECOG_form" id="ECOG_form" action="#" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="ECOG_fx();" onreset="document.getElementById('inputchk').innerHTML=inputchktxt; ">
+
+<table class="medCalcTitleBox">
+<tr><td class="al">
+<span class="medCalcFontTitleBox">
+
+ 
+ECOG Performance Status
+</span></td></tr></table><br>&nbsp;<br>
+
+<div id="calc_main">
+
+<div id="calc_input">
+
+<div class="ac">
+<span class="medCalcFontIO">
+Input
+</span>
+<br>&nbsp;<br>
+<table class="medCalcFormuliBoxWhite">
+<tr style="height: 2px;">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr><td class="ar"><span class="medCalcFontOneBold">Scale</span></td>
+<td colspan="2" class="al"><input type="radio" name="Scale_radio" id="togel1" value=" Fully active; no performance restrictions|0" onclick="ECOG_fx();" aria-label="This button selects an option for the variable: Scale. The variable option is  Fully active; no performance restrictions."><span class="medCalcFontOneClick" onclick="setRB('togel1');">  Fully active; no performance restrictions</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="Scale_radio" id="togel2" value=" Strenuous physical activity restricted; fully ambulatory and able to carry out light work|1" onclick="ECOG_fx();" aria-label="This button selects an option for the variable: Scale. The variable option is  Strenuous physical activity restricted; fully ambulatory and able to carry out light work."><span class="medCalcFontOneClick" onclick="setRB('togel2');">  Strenuous physical activity restricted; fully ambulatory and able to carry out light work</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="Scale_radio" id="togel3" value=" Capable of all self-care but unable to carry out any work activities. Up and about &gt;50 percent of waking hours|2" onclick="ECOG_fx();" aria-label="This button selects an option for the variable: Scale. The variable option is  Capable of all self-care but unable to carry out any work activities. Up and about &gt;50 percent of waking hours."><span class="medCalcFontOneClick" onclick="setRB('togel3');">  Capable of all self-care but unable to carry out any work activities. Up and about &gt;50 percent of waking hours</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="Scale_radio" id="togel4" value=" Capable of only limited self-care; confined to bed or chair &gt;50 percent of waking hours|3" onclick="ECOG_fx();" aria-label="This button selects an option for the variable: Scale. The variable option is  Capable of only limited self-care; confined to bed or chair &gt;50 percent of waking hours."><span class="medCalcFontOneClick" onclick="setRB('togel4');">  Capable of only limited self-care; confined to bed or chair &gt;50 percent of waking hours</span></td></tr>
+<tr><td class="al"><br></td><td colspan="2" class="al"><input type="radio" name="Scale_radio" id="togel5" value=" Completely disabled; cannot carry out any self-care; totally confined to bed or chair|4" onclick="ECOG_fx();" aria-label="This button selects an option for the variable: Scale. The variable option is  Completely disabled; cannot carry out any self-care; totally confined to bed or chair."><span class="medCalcFontOneClick" onclick="setRB('togel5');">  Completely disabled; cannot carry out any self-care; totally confined to bed or chair</span></td></tr>
+
+</table>
+
+</div>
+
+
+</div>
+<br>&nbsp;<br>
+<div id="calc_result">
+<div class="ac"><span class="medCalcFontIO">Result<span id="inputchk" class="medCalcFontOne"><br>&nbsp;<br><b>Important:</b> Inputs must be complete to perform calculation. <br></span></span>
+
+<br>&nbsp;<br>
+<table class="medCalcFormuliBox">
+<tr><td colspan="3">&nbsp;<br></td></tr>
+<tr>
+<td class="ar"><span class="medCalcFontResultParam">ECOG Performance Status</span></td>
+<td class="alnw">&nbsp; <input type="text" name="ECOG_Performance_Status_param" class="resultBold" size="6" aria-readonly="true" aria-label="This output box will display the calculated value ECOG Performance Status"></td>
+<td class="al"><span class="medCalcFontResultParam">
+<select name="ECOG_Performance_Status_unit" onchange="ECOG_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value ECOG Performance Status">
+<option value="1|0|#">#</option>
+<option value="1|0|count">count</option>
+<option value="1|0|index">index</option>
+<option value="1|0|logit">logit</option>
+<option value="1|0|none">none</option>
+<option value="1|0|number">number</option>
+<option value="1|0|points" selected="selected">points</option>
+<option value="1|0|score">score</option>
+<option value="1|0|">[No Unit]</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br></td></tr>
+</table>
+</div>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br>&nbsp;<br>
+
+<div id="calc_notes">
+<span class="medCalcFontRef"><b>Notes</b></span>
+<ul class="medCalcFontOne">
+<li><b>ECOG</b>: Eastern Cooperative Oncology Group</li>
+
+
+</ul>
+</div>
+
+
+<div id="calc_tables">
+
+</div>
+
+<br>&nbsp;<br>
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">The International Non-Hodgkin's Lymphoma Prognostic Factors Project. A predictive model for aggressive  non-Hodgkin's lymphoma. <i>N Engl J Med</i>. 1993 Sep 30;329(14):987-94. PubMed ID: 8141877 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/8141877" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+<li><span class="medCalcFontRef">Ziepert M, Hasenclever D, Kuhnt E, et al. Standard International prognostic index remains a valid  predictor of outcome for patients with aggressive CD20+ B-cell lymphoma in the rituximab era. <i> J Clin Oncol</i>. 2010 May 10;28(14):2373-80. Epub 2010 Apr 12. Erratum in: J Clin Oncol. 2011 Feb 20;29(6):779. PubMed ID: 20385988 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/20385988" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+<li><span class="medCalcFontRef">Oken MM, Creech RH, Tormey DC, et al., Eastern Cooperative Oncology Group, Robert Comis M.D., Group Chair.  Toxicity and response criteria of the Eastern Cooperative Oncology Group. <i> Am J Clin Oncol</i>. 1982 Dec;5(6):649-55. PubMed ID: 7165009 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/7165009" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br>&nbsp;<br><table class="medCalcFormuliBoxWhite"><tr><td class="medCalcDisclaimerBox"><div class="ac"><span class="medCalcFontTwo"><br>&nbsp;<br><b><u>Legal Notices and Disclaimer</u></b></span></div><br>&nbsp;<br><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.  EBMcalc is NOT a medical device.
+EBMcalc NEVER stores <i>cookies</i> or other persistent data in user's browsers.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br>&nbsp;<br><div class="ac"><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2026 EBMcalc, LLC &nbsp;&nbsp; [Build 279814 v26.1]</span></div></td></tr></table>
+</div>
+</div>
+</body>
+</html>
+
+<!-- 1768579339 //-->

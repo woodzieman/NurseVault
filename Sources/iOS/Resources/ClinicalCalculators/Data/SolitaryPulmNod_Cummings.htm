@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Solitary pulmonary nodule malignancy risk (Cummings prediction model: Bayesian approach)</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="pulm, onc, smoke, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+SolitaryPulmNod_Cummings_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+SolitaryPulmNod_Cummings_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function SolitaryPulmNod_Cummings_fx() {
+
+with(document.SolitaryPulmNod_Cummings_form){
+
+
+doCalc = true;
+if (Patient_age_pulldown.options[Patient_age_pulldown.selectedIndex].value != ''){
+Patient_age = parseFloat(Patient_age_pulldown.options[Patient_age_pulldown.selectedIndex].value); }
+else { doCalc = false; clrResults(); };
+if (Nodule_size_pulldown.options[Nodule_size_pulldown.selectedIndex].value != ''){
+Nodule_size = parseFloat(Nodule_size_pulldown.options[Nodule_size_pulldown.selectedIndex].value); }
+else { doCalc = false; clrResults(); };
+if (Edge_on_CXR_pulldown.options[Edge_on_CXR_pulldown.selectedIndex].value != ''){
+Edge_on_CXR = parseFloat(Edge_on_CXR_pulldown.options[Edge_on_CXR_pulldown.selectedIndex].value); }
+else { doCalc = false; clrResults(); };
+if (Tomographic_appearance_pulldown.options[Tomographic_appearance_pulldown.selectedIndex].value != ''){
+Tomographic_appearance = parseFloat(Tomographic_appearance_pulldown.options[Tomographic_appearance_pulldown.selectedIndex].value); }
+else { doCalc = false; clrResults(); };
+if (Edge_by_CT_pulldown.options[Edge_by_CT_pulldown.selectedIndex].value != ''){
+Edge_by_CT = parseFloat(Edge_by_CT_pulldown.options[Edge_by_CT_pulldown.selectedIndex].value); }
+else { doCalc = false; clrResults(); };
+if (Calcification_on_tomography_pulldown.options[Calcification_on_tomography_pulldown.selectedIndex].value != ''){
+Calcification_on_tomography = parseFloat(Calcification_on_tomography_pulldown.options[Calcification_on_tomography_pulldown.selectedIndex].value); }
+else { doCalc = false; clrResults(); };
+if (Calcification_on_CT_pulldown.options[Calcification_on_CT_pulldown.selectedIndex].value != ''){
+Calcification_on_CT = parseFloat(Calcification_on_CT_pulldown.options[Calcification_on_CT_pulldown.selectedIndex].value); }
+else { doCalc = false; clrResults(); };
+if (Growth_rate_pulldown.options[Growth_rate_pulldown.selectedIndex].value != ''){
+Growth_rate = parseFloat(Growth_rate_pulldown.options[Growth_rate_pulldown.selectedIndex].value); }
+else { doCalc = false; clrResults(); };
+if (Location_pulldown.options[Location_pulldown.selectedIndex].value != ''){
+Location = parseFloat(Location_pulldown.options[Location_pulldown.selectedIndex].value); }
+else { doCalc = false; clrResults(); };
+if (Max_cavity_wall_thickness_pulldown.options[Max_cavity_wall_thickness_pulldown.selectedIndex].value != ''){
+Max_cavity_wall_thickness = parseFloat(Max_cavity_wall_thickness_pulldown.options[Max_cavity_wall_thickness_pulldown.selectedIndex].value); }
+else { doCalc = false; clrResults(); };
+if (Smoking_history_pulldown.options[Smoking_history_pulldown.selectedIndex].value != ''){
+Smoking_history = parseFloat(Smoking_history_pulldown.options[Smoking_history_pulldown.selectedIndex].value); }
+else { doCalc = false; clrResults(); };
+if (Hemoptysis_pulldown.options[Hemoptysis_pulldown.selectedIndex].value != ''){
+Hemoptysis = parseFloat(Hemoptysis_pulldown.options[Hemoptysis_pulldown.selectedIndex].value); }
+else { doCalc = false; clrResults(); };
+if (Previous_malignancy_pulldown.options[Previous_malignancy_pulldown.selectedIndex].value != ''){
+Previous_malignancy = parseFloat(Previous_malignancy_pulldown.options[Previous_malignancy_pulldown.selectedIndex].value); }
+else { doCalc = false; clrResults(); };
+dp = decpts.options[decpts.selectedIndex].text;
+Post_test_odds =  0.28 * Patient_age * Nodule_size * Edge_on_CXR * Tomographic_appearance * Edge_by_CT * Calcification_on_tomography *  Calcification_on_CT * Growth_rate * Location * Max_cavity_wall_thickness * Smoking_history * Hemoptysis * Previous_malignancy;
+
+if (doCalc) Post_test_odds_param.value = fixDP(Post_test_odds, dp);
+
+
+
+Cancer_probability =  100 * Post_test_odds / (1 + Post_test_odds);
+
+unit_parts = Cancer_probability_unit.options[Cancer_probability_unit.selectedIndex].value.split('|');
+if (doCalc) Cancer_probability_param.value = fixDP((Cancer_probability - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.SolitaryPulmNod_Cummings_form){
+
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.SolitaryPulmNod_Cummings_form){
+
+Post_test_odds_param.value = '';
+Cancer_probability_param.value = '';
+
+
+}
+
+}
+
+var Patient_age = null,
+Nodule_size = null,
+Edge_on_CXR = null,
+Tomographic_appearance = null,
+Edge_by_CT = null,
+Calcification_on_tomography = null,
+Calcification_on_CT = null,
+Growth_rate = null,
+Location = null,
+Max_cavity_wall_thickness = null,
+Smoking_history = null,
+Hemoptysis = null,
+Previous_malignancy = null,
+Post_test_odds = null,
+Cancer_probability = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="SolitaryPulmNod_Cummings_form" id="SolitaryPulmNod_Cummings_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="SolitaryPulmNod_Cummings_fx();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Solitary pulmonary nodule malignancy risk (Cummings prediction model: Bayesian approach)
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td colspan="3"><span class="medCalcFontOneBold">Patient age</span><br />
+<select name="Patient_age_pulldown" onchange="SolitaryPulmNod_Cummings_fx();" class="medCalcFontSelect" style="width:200px;">
+<option value="0.05">20 to 29 years old (0.05)</option>
+<option value="0.24">30 to 39 years old (0.24)</option>
+<option value="0.94">40 to 49 years old (0.94)</option>
+<option value="1.9">50 to 59 years old (1.9)</option>
+<option value="2.64">60 to 69 years old (2.64)</option>
+<option value="4.16">&ge;70 years old (4.16)</option>
+</select></td></tr>
+<tr><td colspan="3"><span class="medCalcFontOneBold">Nodule size</span><br />
+<select name="Nodule_size_pulldown" onchange="SolitaryPulmNod_Cummings_fx();" class="medCalcFontSelect" style="width:200px;">
+<option value="0.52">0 to 1 cm (0.52)</option>
+<option value="0.74">1.1 to 2 cm (0.74)</option>
+<option value="3.67">2.1 to 3 cm (3.67)</option>
+<option value="5.23">&gt;3 cm (5.23)</option>
+</select></td></tr>
+<tr><td colspan="3"><span class="medCalcFontOneBold">Edge on CXR</span><br />
+<select name="Edge_on_CXR_pulldown" onchange="SolitaryPulmNod_Cummings_fx();" class="medCalcFontSelect" style="width:200px;">
+<option value="0.36">Well defined, smooth (0.36)</option>
+<option value="1.27">Well defined, lobular (1.27)</option>
+<option value="2.51">Ill defined (2.51)</option>
+</select></td></tr>
+<tr><td colspan="3"><span class="medCalcFontOneBold">Tomographic appearance</span><br />
+<select name="Tomographic_appearance_pulldown" onchange="SolitaryPulmNod_Cummings_fx();" class="medCalcFontSelect" style="width:200px;">
+<option value="1">Not available (1)</option>
+<option value="37.2">Malignant (37.2)</option>
+<option value="0.73">Intermediate (0.73)</option>
+<option value="0">Benign (0)</option>
+</select></td></tr>
+<tr><td colspan="3"><span class="medCalcFontOneBold">Edge by CT</span><br />
+<select name="Edge_by_CT_pulldown" onchange="SolitaryPulmNod_Cummings_fx();" class="medCalcFontSelect" style="width:200px;">
+<option value="1">Not available (1)</option>
+<option value="0.3">Smooth (0.3)</option>
+<option value="0.74">Lobulated (0.74)</option>
+<option value="5.54">Irregular/spicular (5.54)</option>
+</select></td></tr>
+<tr><td colspan="3"><span class="medCalcFontOneBold">Calcification on tomography</span><br />
+<select name="Calcification_on_tomography_pulldown" onchange="SolitaryPulmNod_Cummings_fx();" class="medCalcFontSelect" style="width:200px;">
+<option value="1">Not available (1)</option>
+<option value="0">Calcified (0)</option>
+<option value="1.5">Noncalcified (1.5)</option>
+</select></td></tr>
+<tr><td colspan="3"><span class="medCalcFontOneBold">Calcification on CT</span><br />
+<select name="Calcification_on_CT_pulldown" onchange="SolitaryPulmNod_Cummings_fx();" class="medCalcFontSelect" style="width:200px;">
+<option value="1">Not available (1)</option>
+<option value="0.07">In phantom (benign) (0.07)</option>
+<option value="2.2">In phantom (2.2)</option>
+</select></td></tr>
+<tr><td colspan="3"><span class="medCalcFontOneBold">Growth rate</span><br />
+<select name="Growth_rate_pulldown" onchange="SolitaryPulmNod_Cummings_fx();" class="medCalcFontSelect" style="width:200px;">
+<option value="1">Not available (1)</option>
+<option value="0">&lt;7 days (0)</option>
+<option value="3.4">7 to 465 days (3.4)</option>
+<option value="0.01">&gt;465 days (0.01)</option>
+</select></td></tr>
+<tr><td colspan="3"><span class="medCalcFontOneBold">Location</span><br />
+<select name="Location_pulldown" onchange="SolitaryPulmNod_Cummings_fx();" class="medCalcFontSelect" style="width:200px;">
+<option value="0.66">Lower lobe (0.66)</option>
+<option value="1.22">Upper or middle lobe (1.22)</option>
+</select></td></tr>
+<tr><td colspan="3"><span class="medCalcFontOneBold">Max cavity wall thickness</span><br />
+<select name="Max_cavity_wall_thickness_pulldown" onchange="SolitaryPulmNod_Cummings_fx();" class="medCalcFontSelect" style="width:200px;">
+<option value="1">Not available (1)</option>
+<option value="0.07">&le;4 mm (0.07)</option>
+<option value="0.72">5 to 15 mm (0.72)</option>
+<option value="37.97">&ge;16 mm (37.97)</option>
+</select></td></tr>
+<tr><td colspan="3"><span class="medCalcFontOneBold">Smoking history</span><br />
+<select name="Smoking_history_pulldown" onchange="SolitaryPulmNod_Cummings_fx();" class="medCalcFontSelect" style="width:200px;">
+<option value="0.19">Never smoker (0.19)</option>
+<option value="2.27">Current cigarette smoker (2.27)</option>
+<option value="1">Pipe or cigar smoker (1)</option>
+<option value="0.92">Ex-cigarette smoker (0.92)</option>
+<option value="0.55">Ex pipe or cigar smoker (0.55)</option>
+</select></td></tr>
+<tr><td colspan="3"><span class="medCalcFontOneBold">Hemoptysis</span><br />
+<select name="Hemoptysis_pulldown" onchange="SolitaryPulmNod_Cummings_fx();" class="medCalcFontSelect" style="width:200px;">
+<option value="1">No (1)</option>
+<option value="5.08">Yes (5.08)</option>
+</select></td></tr>
+<tr><td colspan="3"><span class="medCalcFontOneBold">Previous malignancy</span><br />
+<select name="Previous_malignancy_pulldown" onchange="SolitaryPulmNod_Cummings_fx();" class="medCalcFontSelect" style="width:200px;">
+<option value="1">No (1)</option>
+<option value="4.95">Yes (4.95)</option>
+</select></td></tr>
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Results</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Post test odds</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Post_test_odds_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Post test odds" /></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Cancer probability</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Cancer_probability_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Cancer probability" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Cancer_probability_unit" onchange="SolitaryPulmNod_Cummings_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Cancer probability">
+<option value="1|0|%" selected="selected">%</option>
+<option value="100|0|fraction">fraction</option>
+<option value="100|0|ratio">ratio</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr><td colspan="3" align="center"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="SolitaryPulmNod_Cummings_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option>1</option>
+<option selected="selected">2</option>
+<option>3</option>
+
+</select></td></tr>
+
+</table>
+</center>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li>This calculator incorporates a pretest odds of 0.28:1.  Local prevalence may be different than the population studied in the Gurney articles.<sup>1,2</sup></li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">Post test odds = 0.28 * Patient age * Nodule size * Edge on CXR * Tomographic appearance * Edge by CT * Calcification on tomography *  Calcification on CT * Growth rate * Location * Max cavity wall thickness * Smoking history * Hemoptysis * Previous malignancy</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">Posttestodds = 0.28 * Patientage * Nodulesize * EdgeonCXR * Tomographicappearance * EdgebyCT * Calcificationontomography *  CalcificationonCT * Growthrate * Location * Maxcavitywallthickness * Smokinghistory * Hemoptysis * Previousmalignancy</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">Cancer probability = 100 * Post test odds / (1 + Post test odds)</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">Cancerprobability = 100 * Posttestodds / (1 + Posttestodds)</span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Gurney JW. Determining the likelihood of malignancy in solitary pulmonary  nodules with Bayesian analysis. Part I. Theory. <i>Radiology</i>. 1993 Feb;186(2):405-13. PubMed ID: 8421743 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/8421743"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Gurney JW, Lyddon DM, McKay JA. Determining the likelihood of malignancy in  solitary pulmonary nodules with Bayesian analysis. Part II. Application. <i>Radiology</i>. 1993 Feb;186(2):415-22. PubMed ID: 8421744 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/8421744"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div>
+</div>
+</body>
+</html>
+
+<!-- 1662473301 //-->

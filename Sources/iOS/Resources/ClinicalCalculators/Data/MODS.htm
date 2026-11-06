@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Multiple Organ Dysfunction Score (MODS)</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="covid, Renal, Pulmonary, Cardivascular, Hematology, Geriatrics, critical, prognosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+MODS_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+MODS_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function MODS_fx() {
+
+with(document.MODS_form){
+
+
+doCalc = true;
+param_value = parseFloat(PaO2_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = PaO2_unit.options[PaO2_unit.selectedIndex].value.split('|');
+PaO2 = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(FIO2_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = FIO2_unit.options[FIO2_unit.selectedIndex].value.split('|');
+FIO2 = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Central_Venous_Pressure_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Central_Venous_Pressure_unit.options[Central_Venous_Pressure_unit.selectedIndex].value.split('|');
+Central_Venous_Pressure = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Mean_Arterial_Pressure_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Mean_Arterial_Pressure_unit.options[Mean_Arterial_Pressure_unit.selectedIndex].value.split('|');
+Mean_Arterial_Pressure = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Heart_Rate_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Heart_Rate_unit.options[Heart_Rate_unit.selectedIndex].value.split('|');
+Heart_Rate = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Platelets_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Platelets_unit.options[Platelets_unit.selectedIndex].value.split('|');
+Platelets = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Bilirubin_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Bilirubin_unit.options[Bilirubin_unit.selectedIndex].value.split('|');
+Bilirubin = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Creatinine_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Creatinine_unit.options[Creatinine_unit.selectedIndex].value.split('|');
+Creatinine = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Glasgow_Coma_Score_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Glasgow_Coma_Score_unit.options[Glasgow_Coma_Score_unit.selectedIndex].value.split('|');
+Glasgow_Coma_Score = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+dp = decpts.options[decpts.selectedIndex].text;
+
+if (Platelets>120){
+platelets_p = 0;
+}
+else 
+if (Platelets>=81){
+platelets_p = 1;
+}
+else 
+if (Platelets>=51){
+platelets_p = 2;
+}
+else 
+if (Platelets>=21){
+platelets_p = 3;
+}
+else{ platelets_p = 4;
+}
+if (Bilirubin<=20){
+bili_p = 0;
+}
+else 
+if (Bilirubin<61){
+bili_p = 1;
+}
+else 
+if (Bilirubin<121){
+bili_p = 2;
+}
+else 
+if (Bilirubin<=240){
+bili_p = 3;
+}
+else{ bili_p = 4;
+}
+if (Creatinine<=100){
+renal_p = 0;
+}
+else 
+if (Creatinine<201){
+renal_p = 1;
+}
+else 
+if (Creatinine<351){
+renal_p = 2;
+}
+else 
+if (Creatinine<=500){
+renal_p = 3;
+}
+else{ renal_p = 4;
+}
+if (Glasgow_Coma_Score>14){
+gcs_p = 0;
+}
+else 
+if (Glasgow_Coma_Score>12){
+gcs_p = 1;
+}
+else 
+if (Glasgow_Coma_Score>9){
+gcs_p = 2;
+}
+else 
+if (Glasgow_Coma_Score>6){
+gcs_p = 3;
+}
+else{ gcs_p = 4;
+}var pafi = 0; var pafi_p = 0; var pahr = 0; var pahr_p = 0;
+pafi =  100 * PaO2 / FIO2;
+
+unit_parts = pafi_unit.options[pafi_unit.selectedIndex].value.split('|');
+if (doCalc) pafi_param.value = fixDP((pafi - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+if (pafi > 300) pafi_p = 0;
+else if (pafi >= 226) pafi_p = 1;
+else if (pafi >= 226) pafi_p = 1;
+else if (pafi >= 151) pafi_p = 2;
+else if (pafi >= 76) pafi_p = 3;
+else pafi_p = 4;
+pahr =  Heart_Rate * Central_Venous_Pressure / Mean_Arterial_Pressure;
+
+unit_parts = pahr_unit.options[pahr_unit.selectedIndex].value.split('|');
+if (doCalc) pahr_param.value = fixDP((pahr - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+if (pahr > 30) pahr_p = 4;
+else if (pahr > 20) pahr_p = 3;
+else if (pahr > 15) pahr_p = 2;
+else if (pahr > 10) pahr_p = 1;
+else pahr_p = 0;
+MODS_Score =  pafi_p + platelets_p + bili_p + pahr_p + renal_p + gcs_p;
+
+unit_parts = MODS_Score_unit.options[MODS_Score_unit.selectedIndex].value.split('|');
+if (doCalc) MODS_Score_param.value = fixDP((MODS_Score - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+
+if (doCalc){
+rrclr();
+if ((MODS_Score >= 0) && (MODS_Score <= 0)){ document.getElementById('rr1_1').bgColor = '#8ab2be';
+interptxt = '\n\nMODS Score: 0 points: ICU Mort 0%, Hosp Mort 0%, ICU Stay 2 Days';
+calctxt += '\n\nMODS Score: 0 points: ICU Mort 0%, Hosp Mort 0%, ICU Stay 2 Days';
+xmltxt += '\n<Result_Interpretation>MODS Score: 0 points: ICU Mort 0%, Hosp Mort 0%, ICU Stay 2 Days<\/Result_Interpretation>\n';
+}
+if ((MODS_Score >= 1) && (MODS_Score <= 4)){ document.getElementById('rr1_2').bgColor = '#8ab2be';
+interptxt = '\n\nMODS Score: 1 to 4 points:  ICU Mort 1-2%, Hosp Mort 7%, ICU Stay 3 Days';
+calctxt += '\n\nMODS Score: 1 to 4 points:  ICU Mort 1-2%, Hosp Mort 7%, ICU Stay 3 Days';
+xmltxt += '\n<Result_Interpretation>MODS Score: 1 to 4 points:  ICU Mort 1-2%, Hosp Mort 7%, ICU Stay 3 Days<\/Result_Interpretation>\n';
+}
+if ((MODS_Score >= 5) && (MODS_Score <= 8)){ document.getElementById('rr1_3').bgColor = '#8ab2be';
+interptxt = '\n\nMODS Score: 5 to 8 points:  ICU Mort 3-5%, Hosp Mort 16%, ICU Stay 6 Days';
+calctxt += '\n\nMODS Score: 5 to 8 points:  ICU Mort 3-5%, Hosp Mort 16%, ICU Stay 6 Days';
+xmltxt += '\n<Result_Interpretation>MODS Score: 5 to 8 points:  ICU Mort 3-5%, Hosp Mort 16%, ICU Stay 6 Days<\/Result_Interpretation>\n';
+}
+if ((MODS_Score >= 9) && (MODS_Score <= 12)){ document.getElementById('rr1_4').bgColor = '#8ab2be';
+interptxt = '\n\nMODS Score: 9 to 12 points:  ICU Mort 25%, Hosp Mort 50%, ICU Stay 10 Days';
+calctxt += '\n\nMODS Score: 9 to 12 points:  ICU Mort 25%, Hosp Mort 50%, ICU Stay 10 Days';
+xmltxt += '\n<Result_Interpretation>MODS Score: 9 to 12 points:  ICU Mort 25%, Hosp Mort 50%, ICU Stay 10 Days<\/Result_Interpretation>\n';
+}
+if ((MODS_Score >= 13) && (MODS_Score <= 16)){ document.getElementById('rr1_5').bgColor = '#8ab2be';
+interptxt = '\n\nMODS Score: 13 to 16 points:  ICU Mort 50%, Hosp Mort 70%, ICU Stay 17 Days';
+calctxt += '\n\nMODS Score: 13 to 16 points:  ICU Mort 50%, Hosp Mort 70%, ICU Stay 17 Days';
+xmltxt += '\n<Result_Interpretation>MODS Score: 13 to 16 points:  ICU Mort 50%, Hosp Mort 70%, ICU Stay 17 Days<\/Result_Interpretation>\n';
+}
+if ((MODS_Score >= 17) && (MODS_Score <= 20)){ document.getElementById('rr1_6').bgColor = '#8ab2be';
+interptxt = '\n\nMODS Score: 17 to 20 points:  ICU Mort 75%, Hosp Mort 82%, ICU Stay 21 Days';
+calctxt += '\n\nMODS Score: 17 to 20 points:  ICU Mort 75%, Hosp Mort 82%, ICU Stay 21 Days';
+xmltxt += '\n<Result_Interpretation>MODS Score: 17 to 20 points:  ICU Mort 75%, Hosp Mort 82%, ICU Stay 21 Days<\/Result_Interpretation>\n';
+}
+if ((MODS_Score >= 21) && (MODS_Score <= 24)){ document.getElementById('rr1_7').bgColor = '#8ab2be';
+interptxt = '\n\nMODS Score: 21 to 24 points:  ICU Mort 100%, Hosp Mort 100%';
+calctxt += '\n\nMODS Score: 21 to 24 points:  ICU Mort 100%, Hosp Mort 100%';
+xmltxt += '\n<Result_Interpretation>MODS Score: 21 to 24 points:  ICU Mort 100%, Hosp Mort 100%<\/Result_Interpretation>\n';
+}
+document.getElementById('rr1_tag').ariaLabel = interptxt;
+interptxt = '';
+
+
+}
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.MODS_form){
+
+if (PaO2_param.value && isNaN(PaO2_param.value)){ clrValue(PaO2_param); alertNaN('PaO2'); }
+if (FIO2_param.value && isNaN(FIO2_param.value)){ clrValue(FIO2_param); alertNaN('FIO2'); }
+if (FIO2_param.value && (FIO2 < (0 - 0.00001))) {
+FIO2 = 0;
+clrValue(FIO2_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for FIO2 is 0 %O2.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (FIO2_param.value && FIO2 > 100) {
+clrValue(FIO2_param);
+clrResults();
+FIO2 = 0;
+doCalc = false;
+ alert("The maximum value for FIO2 is 100 %O2.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Central_Venous_Pressure_param.value && isNaN(Central_Venous_Pressure_param.value)){ clrValue(Central_Venous_Pressure_param); alertNaN('Central Venous Pressure'); }
+if (Mean_Arterial_Pressure_param.value && isNaN(Mean_Arterial_Pressure_param.value)){ clrValue(Mean_Arterial_Pressure_param); alertNaN('Mean Arterial Pressure'); }
+if (Heart_Rate_param.value && isNaN(Heart_Rate_param.value)){ clrValue(Heart_Rate_param); alertNaN('Heart Rate'); }
+if (Platelets_param.value && isNaN(Platelets_param.value)){ clrValue(Platelets_param); alertNaN('Platelets'); }
+if (Bilirubin_param.value && isNaN(Bilirubin_param.value)){ clrValue(Bilirubin_param); alertNaN('Bilirubin'); }
+if (Creatinine_param.value && isNaN(Creatinine_param.value)){ clrValue(Creatinine_param); alertNaN('Creatinine'); }
+if (Glasgow_Coma_Score_param.value && isNaN(Glasgow_Coma_Score_param.value)){ clrValue(Glasgow_Coma_Score_param); alertNaN('Glasgow Coma Score'); }
+if (Glasgow_Coma_Score_param.value && (Glasgow_Coma_Score < (1 - 0.00001))) {
+Glasgow_Coma_Score = 0;
+clrValue(Glasgow_Coma_Score_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Glasgow Coma Score is 1 points.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Glasgow_Coma_Score_param.value && Glasgow_Coma_Score > 15) {
+clrValue(Glasgow_Coma_Score_param);
+clrResults();
+Glasgow_Coma_Score = 0;
+doCalc = false;
+ alert("The maximum value for Glasgow Coma Score is 15 points.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.MODS_form){
+
+pafi_param.value = '';
+pahr_param.value = '';
+MODS_Score_param.value = '';
+
+rrclr();
+
+}
+
+}
+
+var PaO2 = null,
+FIO2 = null,
+Central_Venous_Pressure = null,
+Mean_Arterial_Pressure = null,
+Heart_Rate = null,
+Platelets = null,
+Bilirubin = null,
+Creatinine = null,
+Glasgow_Coma_Score = null,
+pafi = null,
+pahr = null,
+MODS_Score = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+function rrclr(){
+document.getElementById('rr1_1').bgColor = '';
+document.getElementById('rr1_2').bgColor = '';
+document.getElementById('rr1_3').bgColor = '';
+document.getElementById('rr1_4').bgColor = '';
+document.getElementById('rr1_5').bgColor = '';
+document.getElementById('rr1_6').bgColor = '';
+document.getElementById('rr1_7').bgColor = '';
+document.getElementById('rr1_tag').ariaLabel = 'This table highlights the result MODS Score. No result is highlighted'; interptxt = '';
+}
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="MODS_form" id="MODS_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="MODS_fx();" onreset="rrclr();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Multiple Organ Dysfunction Score (MODS)
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">PaO2</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="PaO2_param" size="6" value="" onblur="MODS_fx(); minMaxCheck();" onchange="MODS_fx();" aria-label="Use this input box to enter the value PaO2" /></td>
+<td align="left" valign="top"> <select name="PaO2_unit" onchange="MODS_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value PaO2">
+<option value="0.00750063755419211|0|Pascal">Pascal</option>
+<option value="760.002100178515|0|atm">atm</option>
+<option value="750.063755419211|0|bar">bar</option>
+<option value="0.735561538478802|0|cmH2O">cmH2O</option>
+<option value="10|0|cmHg">cmHg</option>
+<option value="22.4199156928339|0|ftH2O">ftH2O</option>
+<option value="0.735561538478802|0|gm/sqcm">gm/sqcm</option>
+<option value="1.86832630773616|0|inH2O">inH2O</option>
+<option value="25.4000840071406|0|inHg">inHg</option>
+<option value="7.50063755419211|0|kPa">kPa</option>
+<option value="0.750063755419211|0|mbar">mbar</option>
+<option value="1|0|mmHg" selected="selected">mmHg</option>
+<option value="51.7150957831416|0|psi">psi</option>
+<option value="1|0|torr">torr</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">FIO2</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="FIO2_param" size="6" value="" onblur="MODS_fx(); minMaxCheck();" onchange="MODS_fx();" aria-label="Use this input box to enter the value FIO2" /></td>
+<td align="left" valign="top"> <select name="FIO2_unit" onchange="MODS_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value FIO2">
+<option value="1|0|%O2" selected="selected">%O2</option>
+<option value="100|0|fractionO2">fractionO2</option>
+<option value="3|21|litresO2">litresO2</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Central Venous Pressure</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Central_Venous_Pressure_param" size="6" value="" onblur="MODS_fx(); minMaxCheck();" onchange="MODS_fx();" aria-label="Use this input box to enter the value Central Venous Pressure" /></td>
+<td align="left" valign="top"> <select name="Central_Venous_Pressure_unit" onchange="MODS_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Central Venous Pressure">
+<option value="0.00750063755419211|0|Pascal">Pascal</option>
+<option value="760.002100178515|0|atm">atm</option>
+<option value="750.063755419211|0|bar">bar</option>
+<option value="0.735561538478802|0|cmH2O">cmH2O</option>
+<option value="10|0|cmHg">cmHg</option>
+<option value="22.4199156928339|0|ftH2O">ftH2O</option>
+<option value="0.735561538478802|0|gm/sqcm">gm/sqcm</option>
+<option value="1.86832630773616|0|inH2O">inH2O</option>
+<option value="25.4000840071406|0|inHg">inHg</option>
+<option value="7.50063755419211|0|kPa">kPa</option>
+<option value="0.750063755419211|0|mbar">mbar</option>
+<option value="1|0|mmHg" selected="selected">mmHg</option>
+<option value="51.7150957831416|0|psi">psi</option>
+<option value="1|0|torr">torr</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Mean Arterial Pressure</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Mean_Arterial_Pressure_param" size="6" value="" onblur="MODS_fx(); minMaxCheck();" onchange="MODS_fx();" aria-label="Use this input box to enter the value Mean Arterial Pressure" /></td>
+<td align="left" valign="top"> <select name="Mean_Arterial_Pressure_unit" onchange="MODS_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Mean Arterial Pressure">
+<option value="0.00750063755419211|0|Pascal">Pascal</option>
+<option value="760.002100178515|0|atm">atm</option>
+<option value="750.063755419211|0|bar">bar</option>
+<option value="0.735561538478802|0|cmH2O">cmH2O</option>
+<option value="10|0|cmHg">cmHg</option>
+<option value="22.4199156928339|0|ftH2O">ftH2O</option>
+<option value="0.735561538478802|0|gm/sqcm">gm/sqcm</option>
+<option value="1.86832630773616|0|inH2O">inH2O</option>
+<option value="25.4000840071406|0|inHg">inHg</option>
+<option value="7.50063755419211|0|kPa">kPa</option>
+<option value="0.750063755419211|0|mbar">mbar</option>
+<option value="1|0|mmHg" selected="selected">mmHg</option>
+<option value="51.7150957831416|0|psi">psi</option>
+<option value="1|0|torr">torr</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Heart Rate</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Heart_Rate_param" size="6" value="" onblur="MODS_fx(); minMaxCheck();" onchange="MODS_fx();" aria-label="Use this input box to enter the value Heart Rate" /></td>
+<td align="left" valign="top"> <select name="Heart_Rate_unit" onchange="MODS_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Heart Rate">
+<option value="1|0|beats/min" selected="selected">beats/min</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Platelets</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Platelets_param" size="6" value="" onblur="MODS_fx(); minMaxCheck();" onchange="MODS_fx();" aria-label="Use this input box to enter the value Platelets" /></td>
+<td align="left" valign="top"> <select name="Platelets_unit" onchange="MODS_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Platelets">
+<option value="0.001|0|#/mcL">#/mcL</option>
+<option value="0.001|0|#/microL">#/microL</option>
+<option value="0.001|0|/mcL">/mcL</option>
+<option value="0.001|0|/microL">/microL</option>
+<option value="1|0|10E+9/L">10E+9/L</option>
+<option value="1000|0|Mill/mcl">Mill/mcl</option>
+<option value="1|0|Thous/mcL">Thous/mcL</option>
+<option value="1|0|X10E+09/L">X10E+09/L</option>
+<option value="0.001|0|cells/mcL">cells/mcL</option>
+<option value="0.001|0|cells/microL">cells/microL</option>
+<option value="1|0|x10(3)/mcL" selected="selected">x10(3)/mcL</option>
+<option value="1|0|x10(3)/microL">x10(3)/microL</option>
+<option value="0.001|0|x10(6)/L">x10(6)/L</option>
+<option value="1000|0|x10(6)/mcL">x10(6)/mcL</option>
+<option value="1000|0|x10(6)/microL">x10(6)/microL</option>
+<option value="1|0|x10(9)/L">x10(9)/L</option>
+<option value="1|0|x1000/mm3">x1000/mm3</option>
+<option value="1|0|x10^3/mcL">x10^3/mcL</option>
+<option value="1|0|x10^3/microL">x10^3/microL</option>
+<option value="0.001|0|x10^6/L">x10^6/L</option>
+<option value="1000|0|x10^6/mcL">x10^6/mcL</option>
+<option value="1000|0|x10^6/microL">x10^6/microL</option>
+<option value="1|0|x10^9/L">x10^9/L</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Bilirubin</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Bilirubin_param" size="6" value="" onblur="MODS_fx(); minMaxCheck();" onchange="MODS_fx();" aria-label="Use this input box to enter the value Bilirubin" /></td>
+<td align="left" valign="top"> <select name="Bilirubin_unit" onchange="MODS_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Bilirubin">
+<option value="1|0|mcmol/L_Bili" selected="selected">mcmol/L</option>
+<option value="17.1|0|mg%_Bili">mg%</option>
+<option value="17.1|0|mg/dL_Bili">mg/dL</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Creatinine</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Creatinine_param" size="6" value="" onblur="MODS_fx(); minMaxCheck();" onchange="MODS_fx();" aria-label="Use this input box to enter the value Creatinine" /></td>
+<td align="left" valign="top"> <select name="Creatinine_unit" onchange="MODS_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Creatinine">
+<option value="1|0|mcmol/L_Cr" selected="selected">mcmol/L</option>
+<option value="88.4|0|mg%_Cr">mg%</option>
+<option value="88.4|0|mg/dL_Cr">mg/dL</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Glasgow Coma Score</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Glasgow_Coma_Score_param" size="6" value="" onblur="MODS_fx(); minMaxCheck();" onchange="MODS_fx();" aria-label="Use this input box to enter the value Glasgow Coma Score" /></td>
+<td align="left" valign="top"> <select name="Glasgow_Coma_Score_unit" onchange="MODS_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Glasgow Coma Score">
+<option value="1|0|#">#</option>
+<option value="1|0|index">index</option>
+<option value="1|0|none">none</option>
+<option value="1|0|number">number</option>
+<option value="1|0|points" selected="selected">points</option>
+<option value="1|0|score">score</option>
+</select></td></tr>
+
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Results</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">PaO<sub>2</sub>/FIO<sub>2</sub></span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="pafi_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value PaO2/FIO2" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="pafi_unit" onchange="MODS_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value PaO2/FIO2">
+<option value="0.01|0|%">%</option>
+<option value="1|0|fraction">fraction</option>
+<option value="1|0|ratio" selected="selected">ratio</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Pressure Adjusted Heart Rate</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="pahr_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Pressure Adjusted Heart Rate" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="pahr_unit" onchange="MODS_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Pressure Adjusted Heart Rate">
+<option value="1|0|beats/min" selected="selected">beats/min</option>
+</select>
+</span></td>
+</tr>
+
+<tr>
+<td align="right"><span class="medCalcFontResultParam">MODS Score</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="MODS_Score_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value MODS Score" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="MODS_Score_unit" onchange="MODS_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value MODS Score">
+<option value="1|0|#">#</option>
+<option value="1|0|index">index</option>
+<option value="1|0|none">none</option>
+<option value="1|0|number">number</option>
+<option value="1|0|points" selected="selected">points</option>
+<option value="1|0|score">score</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr><td colspan="3" align="center"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="MODS_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option selected="selected">1</option>
+<option>2</option>
+<option>3</option>
+
+</select></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+<div id="rr1_tag" aria-label="This table highlights the result MODS Score. No result is highlighted" tabindex="0">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+
+MODS Score
+</span></td></tr></table><br />&nbsp;<br />
+</div>
+<center>
+<table border="1" cellpadding="4" cellspacing="0" summary="RRTable">
+<tr id="rr1_1"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">0 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">ICU Mort 0%, Hosp Mort 0%, ICU Stay 2 Days</span></td></tr>
+<tr id="rr1_2"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">1 to 4 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne"> ICU Mort 1-2%, Hosp Mort 7%, ICU Stay 3 Days</span></td></tr>
+<tr id="rr1_3"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">5 to 8 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne"> ICU Mort 3-5%, Hosp Mort 16%, ICU Stay 6 Days</span></td></tr>
+<tr id="rr1_4"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">9 to 12 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne"> ICU Mort 25%, Hosp Mort 50%, ICU Stay 10 Days</span></td></tr>
+<tr id="rr1_5"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">13 to 16 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne"> ICU Mort 50%, Hosp Mort 70%, ICU Stay 17 Days</span></td></tr>
+<tr id="rr1_6"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">17 to 20 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne"> ICU Mort 75%, Hosp Mort 82%, ICU Stay 21 Days</span></td></tr>
+<tr id="rr1_7"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">21 to 24 points:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne"> ICU Mort 100%, Hosp Mort 100%</span></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+<br />&nbsp;<br />
+<div id="calc_hints">
+<span class="medCalcFontOne">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</span>
+ 
+</div>
+
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">PaO<sub>2</sub>/FIO<sub>2</sub> = 100 * PaO2 / FIO2</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">Pressure Adjusted Heart Rate = HeartRate * CentralVenousPressure / MeanArterialPressure</span></td></tr><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">MODSScore = PaO<sub>2</sub>/FIO<sub>2</sub>p + plateletsp + bilip + Pressure Adjusted Heart Ratep + renalp + gcsp</span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+<br />&nbsp;<br />
+<div id="calc_details_and_variables">
+<span class="medCalcFontOneBold">Calculation Details and Variables</span>
+<ul class="medCalcFontOne">
+<li><b>PaO<sub>2</sub>/FIO<sub>2</sub>p</b> is assigned values by this ordered logic: <ul> <li><span style="white-space: nowrap;">If <b>PaO<sub>2</sub>/FIO<sub>2</sub></b> &gt;300 <b>PaO<sub>2</sub>/FIO<sub>2</sub>p</b> = 0</span></li> <li><span style="white-space: nowrap;">Else if <b>PaO<sub>2</sub>/FIO<sub>2</sub></b> &ge;226 <b>PaO<sub>2</sub>/FIO<sub>2</sub>p</b> = 1</span></li> <li><span style="white-space: nowrap;">Else if <b>PaO<sub>2</sub>/FIO<sub>2</sub></b> &ge;151 <b>PaO<sub>2</sub>/FIO<sub>2</sub>p</b> = 2</span></li> <li><span style="white-space: nowrap;">Else if <b>PaO<sub>2</sub>/FIO<sub>2</sub></b> &ge;76 <b>PaO<sub>2</sub>/FIO<sub>2</sub>p</b> = 3</span></li> <li><span style="white-space: nowrap;">Else <b>PaO<sub>2</sub>/FIO<sub>2</sub>p</b> = 4</span></li></ul></li>
+<li><b>Pressure Adjusted Heart Ratep</b> is assigned values by this ordered logic: <ul> <li><span style="white-space: nowrap;">If <b>Pressure Adjusted Heart Rate</b> &le;10 <b>Pressure Adjusted Heart Ratep</b> = 0</span></li> <li><span style="white-space: nowrap;">Else if <b>Pressure Adjusted Heart Rate</b> &le;15 <b>Pressure Adjusted Heart Ratep</b> = 1</span></li> <li><span style="white-space: nowrap;">Else if <b>Pressure Adjusted Heart Rate</b> &le;20 <b>Pressure Adjusted Heart Ratep</b> = 2</span></li> <li><span style="white-space: nowrap;">Else if <b>Pressure Adjusted Heart Rate</b> &le;30 <b>Pressure Adjusted Heart Ratep</b> = 3</span></li> <li><span style="white-space: nowrap;">Else <b>Pressure Adjusted Heart Ratep</b> = 4</span></li></ul></li>
+<li><b>plateletsp</b> is assigned values by this ordered logic: <ul><li><span style="white-space: nowrap;">If <b>Platelets</b> &gt;120 x10(3)/mcL <b>plateletsp</b> = 0</span></li><li><span style="white-space: nowrap;">Else if <b>Platelets</b> &ge;81 x10(3)/mcL <b>plateletsp</b> = 1</span></li><li><span style="white-space: nowrap;">Else if <b>Platelets</b> &ge;51 x10(3)/mcL <b>plateletsp</b> = 2</span></li><li><span style="white-space: nowrap;">Else if <b>Platelets</b> &ge;21 x10(3)/mcL <b>plateletsp</b> = 3</span></li><li><span style="white-space: nowrap;">Else <b>plateletsp</b> = 4.</span></li></ul></li><li><b>bilip</b> is assigned values by this ordered logic: <ul><li><span style="white-space: nowrap;">If <b>Bilirubin</b> &le;20 mcmol/L <b>bilip</b> = 0</span></li><li><span style="white-space: nowrap;">Else if <b>Bilirubin</b> &lt;61 mcmol/L <b>bilip</b> = 1</span></li><li><span style="white-space: nowrap;">Else if <b>Bilirubin</b> &lt;121 mcmol/L <b>bilip</b> = 2</span></li><li><span style="white-space: nowrap;">Else if <b>Bilirubin</b> &le;240 mcmol/L <b>bilip</b> = 3</span></li><li><span style="white-space: nowrap;">Else <b>bilip</b> = 4.</span></li></ul></li><li><b>renalp</b> is assigned values by this ordered logic: <ul><li><span style="white-space: nowrap;">If <b>Creatinine</b> &le;100 mcmol/L <b>renalp</b> = 0</span></li><li><span style="white-space: nowrap;">Else if <b>Creatinine</b> &lt;201 mcmol/L <b>renalp</b> = 1</span></li><li><span style="white-space: nowrap;">Else if <b>Creatinine</b> &lt;351 mcmol/L <b>renalp</b> = 2</span></li><li><span style="white-space: nowrap;">Else if <b>Creatinine</b> &le;500 mcmol/L <b>renalp</b> = 3</span></li><li><span style="white-space: nowrap;">Else <b>renalp</b> = 4.</span></li></ul></li><li><b>gcsp</b> is assigned values by this ordered logic: <ul><li><span style="white-space: nowrap;">If <b>Glasgow Coma Score</b> &gt;14 points <b>gcsp</b> = 0</span></li><li><span style="white-space: nowrap;">Else if <b>Glasgow Coma Score</b> &gt;12 points <b>gcsp</b> = 1</span></li><li><span style="white-space: nowrap;">Else if <b>Glasgow Coma Score</b> &gt;9 points <b>gcsp</b> = 2</span></li><li><span style="white-space: nowrap;">Else if <b>Glasgow Coma Score</b> &gt;6 points <b>gcsp</b> = 3</span></li><li><span style="white-space: nowrap;">Else <b>gcsp</b> = 4.</span></li></ul></li>
+</ul>
+</div>
+
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Marshall JC, Cook DJ, Christou NV, et al. Multiple organ dysfunction score: a reliable descriptor of a complex clinical outcome. <i>Crit Care Med</i>. 1995 Oct;23(10):1638-52. Review. PubMed ID: 7587228 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/7587228"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div><script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+with(document.MODS_form){
+var platelets_p = 0;
+var bili_p = 0;
+var renal_p = 0;
+var gcs_p = 0;
+
+}
+/* ]]> */
+</script>
+
+
+
+</div>
+</body>
+</html>
+
+<!-- 1662473283 //-->

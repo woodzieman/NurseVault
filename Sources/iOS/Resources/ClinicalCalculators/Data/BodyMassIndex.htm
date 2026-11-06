@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Body Mass Index (Quetelet's index)</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="patientuse, PMR, Anthropometrics, Nurse, Metabolism, Nutrition, Geriatrics, Rhematology, fac_all, fac_body, diagnosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+BodyMassIndex_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+BodyMassIndex_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function BodyMassIndex_fx() {
+
+with(document.BodyMassIndex_form){
+
+
+doCalc = true;
+param_value = parseFloat(Height_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Height_unit.options[Height_unit.selectedIndex].value.split('|');
+Height = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Weight_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Weight_unit.options[Weight_unit.selectedIndex].value.split('|');
+Weight = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+dp = decpts.options[decpts.selectedIndex].text;
+BMI =  (Weight/2.205) / power((Height/39.37), 2);
+
+if (doCalc) BMI_param.value = fixDP(BMI, dp);
+
+
+
+
+if (doCalc){
+rrclr();
+if (BMI < 18.5){ document.getElementById('rr1_1').bgColor = '#8ab2be';
+interptxt = '\n\nBody Mass Index Interpretation: < 18.5 BMI: Below normal weight';
+calctxt += '\n\nBody Mass Index Interpretation: < 18.5 BMI: Below normal weight';
+xmltxt += '\n<Result_Interpretation>Body Mass Index Interpretation: &lt; 18.5 BMI: Below normal weight<\/Result_Interpretation>\n';
+}
+if ((BMI >= 18.5) && (BMI < 25)){ document.getElementById('rr1_2').bgColor = '#8ab2be';
+interptxt = '\n\nBody Mass Index Interpretation: >= 18.5 and < 25 BMI: Normal weight';
+calctxt += '\n\nBody Mass Index Interpretation: >= 18.5 and < 25 BMI: Normal weight';
+xmltxt += '\n<Result_Interpretation>Body Mass Index Interpretation: &gt;= 18.5 and &lt; 25 BMI: Normal weight<\/Result_Interpretation>\n';
+}
+if ((BMI >= 25) && (BMI < 30)){ document.getElementById('rr1_3').bgColor = '#8ab2be';
+interptxt = '\n\nBody Mass Index Interpretation: >= 25 and < 30 BMI: Overweight';
+calctxt += '\n\nBody Mass Index Interpretation: >= 25 and < 30 BMI: Overweight';
+xmltxt += '\n<Result_Interpretation>Body Mass Index Interpretation: &gt;= 25 and &lt; 30 BMI: Overweight<\/Result_Interpretation>\n';
+}
+if ((BMI >= 30) && (BMI < 35)){ document.getElementById('rr1_4').bgColor = '#8ab2be';
+interptxt = '\n\nBody Mass Index Interpretation: >= 30 and < 35 BMI:  Class I Obesity';
+calctxt += '\n\nBody Mass Index Interpretation: >= 30 and < 35 BMI:  Class I Obesity';
+xmltxt += '\n<Result_Interpretation>Body Mass Index Interpretation: &gt;= 30 and &lt; 35 BMI:  Class I Obesity<\/Result_Interpretation>\n';
+}
+if ((BMI >= 35) && (BMI < 40)){ document.getElementById('rr1_5').bgColor = '#8ab2be';
+interptxt = '\n\nBody Mass Index Interpretation: >= 35 and < 40 BMI: Class II Obesity';
+calctxt += '\n\nBody Mass Index Interpretation: >= 35 and < 40 BMI: Class II Obesity';
+xmltxt += '\n<Result_Interpretation>Body Mass Index Interpretation: &gt;= 35 and &lt; 40 BMI: Class II Obesity<\/Result_Interpretation>\n';
+}
+if (BMI >= 40){ document.getElementById('rr1_6').bgColor = '#8ab2be';
+interptxt = '\n\nBody Mass Index Interpretation: >= 40 BMI: Class III Obesity';
+calctxt += '\n\nBody Mass Index Interpretation: >= 40 BMI: Class III Obesity';
+xmltxt += '\n<Result_Interpretation>Body Mass Index Interpretation: &gt;= 40 BMI: Class III Obesity<\/Result_Interpretation>\n';
+}
+document.getElementById('rr1_tag').ariaLabel = interptxt;
+interptxt = '';
+
+
+}
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.BodyMassIndex_form){
+
+if (Height_param.value && isNaN(Height_param.value)){ clrValue(Height_param); alertNaN('Height'); }
+if (Weight_param.value && isNaN(Weight_param.value)){ clrValue(Weight_param); alertNaN('Weight'); }
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.BodyMassIndex_form){
+
+BMI_param.value = '';
+
+rrclr();
+
+}
+
+}
+
+var Height = null,
+Weight = null,
+BMI = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+function rrclr(){
+document.getElementById('rr1_1').bgColor = '';
+document.getElementById('rr1_2').bgColor = '';
+document.getElementById('rr1_3').bgColor = '';
+document.getElementById('rr1_4').bgColor = '';
+document.getElementById('rr1_5').bgColor = '';
+document.getElementById('rr1_6').bgColor = '';
+document.getElementById('rr1_tag').ariaLabel = 'This table highlights the result Body Mass Index Interpretation. No result is highlighted'; interptxt = '';
+}
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="BodyMassIndex_form" id="BodyMassIndex_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="BodyMassIndex_fx();" onreset="rrclr();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Body Mass Index (Quetelet's index)
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Height</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Height_param" size="6" value="" onblur="BodyMassIndex_fx(); minMaxCheck();" onchange="BodyMassIndex_fx();" aria-label="Use this input box to enter the value Height" /></td>
+<td align="left" valign="top"> <select name="Height_unit" onchange="BodyMassIndex_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Height">
+<option value="0.393700787401575|0|cm">cm</option>
+<option value="1|0|in" selected="selected">in</option>
+<option value="39.3700787401575|0|m">m</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Weight</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Weight_param" size="6" value="" onblur="BodyMassIndex_fx(); minMaxCheck();" onchange="BodyMassIndex_fx();" aria-label="Use this input box to enter the value Weight" /></td>
+<td align="left" valign="top"> <select name="Weight_unit" onchange="BodyMassIndex_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Weight">
+<option value="2.20462262184878|0|kg">kg</option>
+<option value="1|0|lb" selected="selected">lb</option>
+</select></td></tr>
+
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Result</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">BMI</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="BMI_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value BMI" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<span style="white-space: nowrap;"><span class="medCalcFontResultParam">kg/m<sup>2</sup></span>
+</span>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr><td colspan="3" align="center"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="BodyMassIndex_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option>1</option>
+<option selected="selected">2</option>
+<option>3</option>
+
+</select></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+<div id="rr1_tag" aria-label="This table highlights the result Body Mass Index Interpretation. No result is highlighted" tabindex="0">
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+
+Body Mass Index Interpretation
+</span></td></tr></table><br />&nbsp;<br />
+</div>
+<center>
+<table border="1" cellpadding="4" cellspacing="0" summary="RRTable">
+<tr id="rr1_1"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">BMI &lt; 18.5:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Below normal weight</span></td></tr>
+<tr id="rr1_2"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">BMI &gt;= 18.5 and &lt; 25:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Normal weight</span></td></tr>
+<tr id="rr1_3"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">BMI &gt;= 25 and &lt; 30:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Overweight</span></td></tr>
+<tr id="rr1_4"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">BMI &gt;= 30 and &lt; 35:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne"> Class I Obesity</span></td></tr>
+<tr id="rr1_5"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">BMI &gt;= 35 and &lt; 40:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Class II Obesity</span></td></tr>
+<tr id="rr1_6"><td align="right" style="border-right: 0px;" nowrap="nowrap"><span class="medCalcFontOneBold">BMI &gt;= 40:</span></td>
+<td align="left" style="border-left: 0px;"><span class="medCalcFontOne">Class III Obesity</span></td></tr>
+
+</table>
+</center>
+<br />&nbsp;<br />
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li><font color="#aa0000">The default unit of measure for weight is pounds.  Please verify that the correct unit of measure has been selected.</font></li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">BMI = (Weight/2.205) / (Height/39.37)<sup>2</sup></span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Pi-Sunyer FX, Aronne LJ, et al. The Practical guide:Identification, Evaluation and treatment of Overweight and Obesity in  Adults. <i>National Institute of Health, National Heart, Lung, And Blood Institute, North American Association For The Study  Of Obesity</i>. NIH publication 00-4084, 2002.</span></li>
+<li><span class="medCalcFontRef">Khosla T, Lowe CR. Indices of obesity derived from body weight and height. <i>Br J Prev Soc Med</i>. 1967; 21: 122-128. PubMed ID: 6033482 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/6033482"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div>
+</div>
+</body>
+</html>
+
+<!-- 1662473254 //-->

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Creatinine Clearance Estimate by Cockcroft-Gault Equation (SI units)</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="SIfriendly, Renal, Electrolytes, Fluid, Geriatrics, fac_all, fac_lab, fac_med, diagnosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+CreatinineCl_CG_SI_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+CreatinineCl_CG_SI_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function CreatinineCl_CG_SI_fx() {
+
+with(document.CreatinineCl_CG_SI_form){
+
+
+doCalc = true;
+rbchk = false;
+if (Sex_radio[0].checked){ rbchk = true; Sex = 0.85;  }
+if (Sex_radio[1].checked){ rbchk = true; Sex = 1;  }
+if (!rbchk) doCalc = false;
+param_value = parseFloat(Age_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Age_unit.options[Age_unit.selectedIndex].value.split('|');
+Age = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Serum_Creat_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Serum_Creat_unit.options[Serum_Creat_unit.selectedIndex].value.split('|');
+Serum_Creat = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Weight_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Weight_unit.options[Weight_unit.selectedIndex].value.split('|');
+Weight = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+dp = decpts.options[decpts.selectedIndex].text;
+Creat_Clear =  0.0205 * Sex * (140 - Age) * Weight / Serum_Creat;
+
+unit_parts = Creat_Clear_unit.options[Creat_Clear_unit.selectedIndex].value.split('|');
+if (doCalc) Creat_Clear_param.value = fixDP((Creat_Clear - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.CreatinineCl_CG_SI_form){
+
+if (Age_param.value && isNaN(Age_param.value)){ clrValue(Age_param); alertNaN('Age'); }
+if (Serum_Creat_param.value && isNaN(Serum_Creat_param.value)){ clrValue(Serum_Creat_param); alertNaN('Serum Creat'); }
+if (Weight_param.value && isNaN(Weight_param.value)){ clrValue(Weight_param); alertNaN('Weight'); }
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.CreatinineCl_CG_SI_form){
+
+Creat_Clear_param.value = '';
+
+
+}
+
+}
+
+var Sex = null,
+Age = null,
+Serum_Creat = null,
+Weight = null,
+Creat_Clear = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="CreatinineCl_CG_SI_form" id="CreatinineCl_CG_SI_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="CreatinineCl_CG_SI_fx();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Creatinine Clearance Estimate by Cockcroft-Gault Equation (SI units)
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right" valign="top"><span class="medCalcFontOneBold">Sex</span></td>
+<td colspan="2" align="left"><input type="radio" name="Sex_radio" id="togel1" value="Female|0.85" onclick="CreatinineCl_CG_SI_fx();" aria-label="This button selects an option for the variable: Sex. The variable option is Female. The value for this variable is 0.85" /><span class="medCalcFontOneClick" onclick="setRB('togel1');"> Female (0.85)</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Sex_radio" id="togel2" value="Male|1" onclick="CreatinineCl_CG_SI_fx();" aria-label="This button selects an option for the variable: Sex. The variable option is Male. The value for this variable is 1" /><span class="medCalcFontOneClick" onclick="setRB('togel2');"> Male (1)</span></td></tr>
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Age</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Age_param" size="6" value="" onblur="CreatinineCl_CG_SI_fx(); minMaxCheck();" onchange="CreatinineCl_CG_SI_fx();" aria-label="Use this input box to enter the value Age" /></td>
+<td align="left" valign="top"> <select name="Age_unit" onchange="CreatinineCl_CG_SI_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Age">
+<option value="0.0833333333333333|0|mo">mo</option>
+<option value="1|0|yr" selected="selected">yr</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Serum Creat</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Serum_Creat_param" size="6" value="" onblur="CreatinineCl_CG_SI_fx(); minMaxCheck();" onchange="CreatinineCl_CG_SI_fx();" aria-label="Use this input box to enter the value Serum Creat" /></td>
+<td align="left" valign="top"> <select name="Serum_Creat_unit" onchange="CreatinineCl_CG_SI_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Serum Creat">
+<option value="1|0|mcmol/L_Cr" selected="selected">mcmol/L</option>
+<option value="88.4|0|mg%_Cr">mg%</option>
+<option value="88.4|0|mg/dL_Cr">mg/dL</option>
+<option value="1000|0|mmol/L_Cr">mmol/L</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Weight</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Weight_param" size="6" value="" onblur="CreatinineCl_CG_SI_fx(); minMaxCheck();" onchange="CreatinineCl_CG_SI_fx();" aria-label="Use this input box to enter the value Weight" /></td>
+<td align="left" valign="top"> <select name="Weight_unit" onchange="CreatinineCl_CG_SI_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Weight">
+<option value="1|0|kg" selected="selected">kg</option>
+<option value="0.45359237|0|lb">lb</option>
+</select></td></tr>
+
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Result</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Creat Clear</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Creat_Clear_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Creat Clear" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Creat_Clear_unit" onchange="CreatinineCl_CG_SI_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Creat Clear">
+<option value="16.6666666666667|0|L/min">L/min</option>
+<option value="1000|0|L/sec">L/sec</option>
+<option value="0.000277777777833333|0|mL/hr">mL/hr</option>
+<option value="0.0166666666666667|0|mL/min">mL/min</option>
+<option value="1|0|mL/sec" selected="selected">mL/sec</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr><td colspan="3" align="center"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="CreatinineCl_CG_SI_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option>1</option>
+<option selected="selected">2</option>
+<option>3</option>
+
+</select></td></tr>
+
+</table>
+</center>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li><font color="#aa0000">The default unit of measure for weight is kilograms.  Please verify that the correct unit of measure has been selected.</font></li>
+<li>This equation provides an estimate of the creatinine clearance (<b>Creat Clear</b>) if the plasma creatinine concentration is stable. <b>Weight</b> is the estimated lean body weight.</li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">CreatClear = 0.0205 * Sex * (140 - Age) * Weight / SerumCreat</span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+<br />&nbsp;<br />
+<div id="calc_details_and_variables">
+<span class="medCalcFontOneBold">Calculation Details and Variables</span>
+<ul class="medCalcFontOne">
+<li>Equation parameters such as <b>Sex</b>, have two or more discrete values that may be used in the calculation. The numbers in the parentheses, e.g.  (0.85), represent the values that will be used.</li>
+
+</ul>
+</div>
+
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Cockcroft DW, Gault MH. Prediction of creatinine clearance from serum creatinine. <i>Nephron</i>. 1976;16(1):31-41. PubMed ID: 1244564 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/1244564"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div>
+</div>
+</body>
+</html>
+
+<!-- 1662473265 //-->

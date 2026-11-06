@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Westley croup severity score (appropriate for use in children &le;6 years of age)</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5MKXR9');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees">
+<meta name="keywords" content="Infectious disease, pediatrics, emergency, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical"> 
+<meta name="author" content="EBMcalc, LLC">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="googlebot" content="noindex,indexifembedded">
+</head>
+
+<body class="medCalcBody">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MKXR9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="mc3k">
+
+<script>
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+WestleyCroupScore_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+WestleyCroupScore_fx();
+}
+
+
+</script>
+
+
+<script>
+
+
+
+
+
+var inputchktxt = '<br>&nbsp;<br><b>Important:</b> Inputs must be complete to perform calculation. <br>'
+
+
+var calctxt = '';
+var xmltxt = '';
+var xmlresult = '';
+var htmtxt = '';
+var postNow = false;
+var printing = false;
+var rbchk = false;
+
+
+function WestleyCroupScore_fx() {
+with(document.WestleyCroupScore_form){
+
+Score = 0.0;
+doCalc = true;
+
+rbchk = false;
+if (cc1[0].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (cc1[1].checked){
+rbchk = true; Score = Score + 5; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc2[0].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (cc2[1].checked){
+rbchk = true; Score = Score + 4; 
+}
+if (cc2[2].checked){
+rbchk = true; Score = Score + 5; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc3[0].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (cc3[1].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc3[2].checked){
+rbchk = true; Score = Score + 2; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc4[0].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (cc4[1].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc4[2].checked){
+rbchk = true; Score = Score + 2; 
+}
+if (!rbchk) doCalc = false;
+rbchk = false;
+if (cc5[0].checked){
+rbchk = true; Score = Score + 0; 
+}
+if (cc5[1].checked){
+rbchk = true; Score = Score + 1; 
+}
+if (cc5[2].checked){
+rbchk = true; Score = Score + 2; 
+}
+if (cc5[3].checked){
+rbchk = true; Score = Score + 3; 
+}
+if (!rbchk) doCalc = false;
+if (doCalc){
+cctotal.value = Score;
+if (cctotal.value == 'NaN') cctotal.value = '';
+}
+else{
+Score = null;
+cctotal.value = '';
+if (typeof rrclr == 'function') { rrclr(); };
+document.WestleyCroupScore_form.cctotal.value = '';
+}
+
+if (doCalc) document.getElementById('inputchk').innerHTML = '';
+else document.getElementById('inputchk').innerHTML = inputchktxt;
+
+
+
+
+
+if (doCalc){
+rrclr();
+if ((Score >= 0) && (Score <= 2)){ document.getElementById('rr1_1').bgColor = '#8ab2be';
+interptxt = '\n\nWestley croup severity score interpretation:   Score: 0 to 2';
+calctxt += '\n\nWestley croup severity score interpretation:   Score: 0 to 2';
+xmltxt += '\n<Result_Interpretation>\nWestley croup severity score interpretation:\n Score: 0 to 2';
+interptxt += '\n\nSeverity:  Mild';
+calctxt += '\n\nSeverity:  Mild';
+xmltxt += '\nSeverity:  Mild\n';
+interptxt += '\n\nDescription: Occasional barky cough, no stridor at rest, mild or no retractions';
+calctxt += '\n\nDescription: Occasional barky cough, no stridor at rest, mild or no retractions';
+xmltxt += '\nDescription: Occasional barky cough, no stridor at rest, mild or no retractions\n';
+xmltxt = xmltxt + '<\/Result_Interpretation>';
+}
+if ((Score >= 3) && (Score <= 7)){ document.getElementById('rr1_2').bgColor = '#8ab2be';
+interptxt = '\n\nWestley croup severity score interpretation:   Score: 3 to 7';
+calctxt += '\n\nWestley croup severity score interpretation:   Score: 3 to 7';
+xmltxt += '\n<Result_Interpretation>\nWestley croup severity score interpretation:\n Score: 3 to 7';
+interptxt += '\n\nSeverity:  Moderate';
+calctxt += '\n\nSeverity:  Moderate';
+xmltxt += '\nSeverity:  Moderate\n';
+interptxt += '\n\nDescription: Frequent barky cough, stridor at rest, and mild-to-moderate retractions, but no or little distress or agitation';
+calctxt += '\n\nDescription: Frequent barky cough, stridor at rest, and mild-to-moderate retractions, but no or little distress or agitation';
+xmltxt += '\nDescription: Frequent barky cough, stridor at rest, and mild-to-moderate retractions, but no or little distress or agitation\n';
+xmltxt = xmltxt + '<\/Result_Interpretation>';
+}
+if ((Score >= 8) && (Score <= 11)){ document.getElementById('rr1_3').bgColor = '#8ab2be';
+interptxt = '\n\nWestley croup severity score interpretation:   Score: 8 to 11';
+calctxt += '\n\nWestley croup severity score interpretation:   Score: 8 to 11';
+xmltxt += '\n<Result_Interpretation>\nWestley croup severity score interpretation:\n Score: 8 to 11';
+interptxt += '\n\nSeverity:  Severe';
+calctxt += '\n\nSeverity:  Severe';
+xmltxt += '\nSeverity:  Severe\n';
+interptxt += '\n\nDescription: Frequent barky cough, stridor at rest, marked retractions, significant distress and agitation';
+calctxt += '\n\nDescription: Frequent barky cough, stridor at rest, marked retractions, significant distress and agitation';
+xmltxt += '\nDescription: Frequent barky cough, stridor at rest, marked retractions, significant distress and agitation\n';
+xmltxt = xmltxt + '<\/Result_Interpretation>';
+}
+if ((Score >= 12) && (Score <= 17)){ document.getElementById('rr1_4').bgColor = '#8ab2be';
+interptxt = '\n\nWestley croup severity score interpretation:   Score: 12 to 17';
+calctxt += '\n\nWestley croup severity score interpretation:   Score: 12 to 17';
+xmltxt += '\n<Result_Interpretation>\nWestley croup severity score interpretation:\n Score: 12 to 17';
+interptxt += '\n\nSeverity:  Impending respiratory failure';
+calctxt += '\n\nSeverity:  Impending respiratory failure';
+xmltxt += '\nSeverity:  Impending respiratory failure\n';
+interptxt += '\n\nDescription: Depressed level of consciousness, stridor at rest,  severe retractions, poor air entry, cyanosis or pallor';
+calctxt += '\n\nDescription: Depressed level of consciousness, stridor at rest,  severe retractions, poor air entry, cyanosis or pallor';
+xmltxt += '\nDescription: Depressed level of consciousness, stridor at rest,  severe retractions, poor air entry, cyanosis or pallor\n';
+xmltxt = xmltxt + '<\/Result_Interpretation>';
+}
+document.getElementById('rr1_tag').ariaLabel = interptxt;
+interptxt = '';
+
+
+}
+}
+}
+
+
+
+
+function rrclr(){
+document.getElementById('rr1_1').bgColor = '';
+document.getElementById('rr1_2').bgColor = '';
+document.getElementById('rr1_3').bgColor = '';
+document.getElementById('rr1_4').bgColor = '';
+document.getElementById('rr1_tag').ariaLabel = "This table highlights the result Westley croup severity score interpretation. No result is highlighted"; interptxt = '';
+}
+
+
+
+
+</script>
+
+
+
+<form name="WestleyCroupScore_form" id="WestleyCroupScore_form" action="#" onsubmit="return false;" onreset="rrclr(); document.getElementById('inputchk').innerHTML=inputchktxt; ">
+<table class="medCalcTitleBox">
+<tr><td class="al">
+<span class="medCalcFontTitleBox">
+
+ 
+Westley croup severity score (appropriate for use in children &le;6 years of age)
+</span></td></tr></table><br>&nbsp;<br>
+<div id="calc_main">
+<div id="calc_input">
+
+<table class="medCalcFormuliBoxWhite">
+<tr><td colspan="3" class="al"><span class="medCalcFontCCTabBold">Level of consciousness </span></td></tr>
+<tr><td class="td20"><br></td>
+<td class="ar"><input type="radio" id="togel1" name="cc1" onclick="WestleyCroupScore_fx();" aria-label="This button selects an option for: Level of consciousness. The option is Normal, including sleep (0 points)"></td>
+<td class="al"><span class="medCalcFontOneClick" onclick="setRB('togel1');">Normal, including sleep (0 points)</span></td></tr>
+<tr><td class="td20"><br></td>
+<td class="ar"><input type="radio" id="togel2" name="cc1" onclick="WestleyCroupScore_fx();" aria-label="This button selects an option for: Level of consciousness. The option is Disoriented (5 points)"></td>
+<td class="al"><span class="medCalcFontOneClick" onclick="setRB('togel2');">Disoriented (5 points)</span></td></tr>
+<tr><td colspan="3" class="al"><span class="medCalcFontCCTabBold">Cyanosis </span></td></tr>
+<tr><td class="td20"><br></td>
+<td class="ar"><input type="radio" id="togel3" name="cc2" onclick="WestleyCroupScore_fx();" aria-label="This button selects an option for: Cyanosis. The option is None (0 points)"></td>
+<td class="al"><span class="medCalcFontOneClick" onclick="setRB('togel3');">None (0 points)</span></td></tr>
+<tr><td class="td20"><br></td>
+<td class="ar"><input type="radio" id="togel4" name="cc2" onclick="WestleyCroupScore_fx();" aria-label="This button selects an option for: Cyanosis. The option is With agitation (4 points)"></td>
+<td class="al"><span class="medCalcFontOneClick" onclick="setRB('togel4');">With agitation (4 points)</span></td></tr>
+<tr><td class="td20"><br></td>
+<td class="ar"><input type="radio" id="togel5" name="cc2" onclick="WestleyCroupScore_fx();" aria-label="This button selects an option for: Cyanosis. The option is At rest (5 points)"></td>
+<td class="al"><span class="medCalcFontOneClick" onclick="setRB('togel5');">At rest (5 points)</span></td></tr>
+<tr><td colspan="3" class="al"><span class="medCalcFontCCTabBold">Stridor </span></td></tr>
+<tr><td class="td20"><br></td>
+<td class="ar"><input type="radio" id="togel6" name="cc3" onclick="WestleyCroupScore_fx();" aria-label="This button selects an option for: Stridor. The option is None (0 points)"></td>
+<td class="al"><span class="medCalcFontOneClick" onclick="setRB('togel6');">None (0 points)</span></td></tr>
+<tr><td class="td20"><br></td>
+<td class="ar"><input type="radio" id="togel7" name="cc3" onclick="WestleyCroupScore_fx();" aria-label="This button selects an option for: Stridor. The option is With agitation (1 point)"></td>
+<td class="al"><span class="medCalcFontOneClick" onclick="setRB('togel7');">With agitation (1 point)</span></td></tr>
+<tr><td class="td20"><br></td>
+<td class="ar"><input type="radio" id="togel8" name="cc3" onclick="WestleyCroupScore_fx();" aria-label="This button selects an option for: Stridor. The option is At rest (2 points)"></td>
+<td class="al"><span class="medCalcFontOneClick" onclick="setRB('togel8');">At rest (2 points)</span></td></tr>
+<tr><td colspan="3" class="al"><span class="medCalcFontCCTabBold">Air entry </span></td></tr>
+<tr><td class="td20"><br></td>
+<td class="ar"><input type="radio" id="togel9" name="cc4" onclick="WestleyCroupScore_fx();" aria-label="This button selects an option for: Air entry. The option is Normal (0 points)"></td>
+<td class="al"><span class="medCalcFontOneClick" onclick="setRB('togel9');">Normal (0 points)</span></td></tr>
+<tr><td class="td20"><br></td>
+<td class="ar"><input type="radio" id="togel10" name="cc4" onclick="WestleyCroupScore_fx();" aria-label="This button selects an option for: Air entry. The option is Decreased (1 point)"></td>
+<td class="al"><span class="medCalcFontOneClick" onclick="setRB('togel10');">Decreased (1 point)</span></td></tr>
+<tr><td class="td20"><br></td>
+<td class="ar"><input type="radio" id="togel11" name="cc4" onclick="WestleyCroupScore_fx();" aria-label="This button selects an option for: Air entry. The option is Markedly decreased (2 points)"></td>
+<td class="al"><span class="medCalcFontOneClick" onclick="setRB('togel11');">Markedly decreased (2 points)</span></td></tr>
+<tr><td colspan="3" class="al"><span class="medCalcFontCCTabBold">Retractions </span></td></tr>
+<tr><td class="td20"><br></td>
+<td class="ar"><input type="radio" id="togel12" name="cc5" onclick="WestleyCroupScore_fx();" aria-label="This button selects an option for: Retractions. The option is None (0 points)"></td>
+<td class="al"><span class="medCalcFontOneClick" onclick="setRB('togel12');">None (0 points)</span></td></tr>
+<tr><td class="td20"><br></td>
+<td class="ar"><input type="radio" id="togel13" name="cc5" onclick="WestleyCroupScore_fx();" aria-label="This button selects an option for: Retractions. The option is Mild (1 point)"></td>
+<td class="al"><span class="medCalcFontOneClick" onclick="setRB('togel13');">Mild (1 point)</span></td></tr>
+<tr><td class="td20"><br></td>
+<td class="ar"><input type="radio" id="togel14" name="cc5" onclick="WestleyCroupScore_fx();" aria-label="This button selects an option for: Retractions. The option is Moderate (2 points)"></td>
+<td class="al"><span class="medCalcFontOneClick" onclick="setRB('togel14');">Moderate (2 points)</span></td></tr>
+<tr><td class="td20"><br></td>
+<td class="ar"><input type="radio" id="togel15" name="cc5" onclick="WestleyCroupScore_fx();" aria-label="This button selects an option for: Retractions. The option is Severe (3 points)"></td>
+<td class="al"><span class="medCalcFontOneClick" onclick="setRB('togel15');">Severe (3 points)</span></td></tr>
+
+</table>
+<div class="ac">
+<span id="inputchk" class="medCalcFontOne"><br>&nbsp;<br><b>Important:</b> Inputs must be complete to perform calculation. <br></span>
+</div>
+
+</div>
+
+<br>&nbsp;<br>
+<div id="calc_result">
+<span class="medCalcFontCCTabBold">
+Total Criteria Point Count:
+</span>
+<input type="text"  size="6" name="cctotal" aria-readonly="true" aria-label="This box holds the total criteria point count"><br>&nbsp;<br>
+<div class="ac"><input type="reset" name="reset" value="Reset Form">  </div>
+<br>&nbsp;<br>
+<table class="medCalcTitleBox">
+<tr><td class="al">
+<span class="medCalcFontTitleBox">
+
+
+Westley croup severity score interpretation
+</span></td></tr></table><br>&nbsp;<br>
+<table class="tableb1p4c" id="rr1_tag" aria-label="This table highlights the result Westley croup severity score interpretation. No result is highlighted" tabindex="0">
+<tr>
+<th><span class="medCalcFontOneBold"> Score</span></th>
+<th><span class="medCalcFontOneBold">Severity</span></th>
+<th><span class="medCalcFontOneBold">Description</span></th>
+</tr>
+<tr id="rr1_1"><td class="alnw"><span class="medCalcFontOneBold"> 0 to 2</span></td>
+<td class="alnw"><span class="medCalcFontOne"> Mild</span></td>    
+<td class="alnw"><span class="medCalcFontOne">Occasional barky cough, no stridor at rest, mild or no retractions</span></td>    
+</tr>
+<tr id="rr1_2"><td class="alnw"><span class="medCalcFontOneBold"> 3 to 7</span></td>
+<td class="alnw"><span class="medCalcFontOne"> Moderate</span></td>    
+<td class="alnw"><span class="medCalcFontOne">Frequent barky cough, stridor at rest, and mild-to-moderate retractions, but no or little distress or agitation</span></td>    
+</tr>
+<tr id="rr1_3"><td class="alnw"><span class="medCalcFontOneBold"> 8 to 11</span></td>
+<td class="alnw"><span class="medCalcFontOne"> Severe</span></td>    
+<td class="alnw"><span class="medCalcFontOne">Frequent barky cough, stridor at rest, marked retractions, significant distress and agitation</span></td>    
+</tr>
+<tr id="rr1_4"><td class="alnw"><span class="medCalcFontOneBold"> 12 to 17</span></td>
+<td class="alnw"><span class="medCalcFontOne"> Impending respiratory failure</span></td>    
+<td class="alnw"><span class="medCalcFontOne">Depressed level of consciousness, stridor at rest,  severe retractions, poor air entry, cyanosis or pallor</span></td>    
+</tr>
+
+</table>
+<br>&nbsp;<br>
+
+</div>
+</div>
+<br>&nbsp;<br>
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Westley CR, Cotton EK, Brooks JG. Nebulized racemic epinephrine by IPPB for  the treatment of croup: a double-blind study. <i>Am J Dis Child</i>. 1978 May;132(5):484-7. PubMed ID: 347921 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/347921" rel="nofollow noopener noreferrer"><img src="pubmed.gif" alt="PubMedLink"></a> </span></li>
+
+</ol>
+</div>
+
+ 
+</form>
+<div id="calc_disclaimer"> <br>&nbsp;<br><table class="medCalcFormuliBoxWhite"><tr><td class="medCalcDisclaimerBox"><div class="ac"><span class="medCalcFontTwo"><br>&nbsp;<br><b><u>Legal Notices and Disclaimer</u></b></span></div><br>&nbsp;<br><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.  EBMcalc is NOT a medical device.
+EBMcalc NEVER stores <i>cookies</i> or other persistent data in user's browsers.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br>&nbsp;<br><div class="ac"><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2026 EBMcalc, LLC &nbsp;&nbsp; [Build 279867 v26.1]</span></div></td></tr></table>
+</div><script>
+
+
+
+
+
+
+
+function loadQueryParams(thisqs){
+if (thisqs) alert('Data panel values cannot be transferred to this calculator.');
+return;
+}
+
+
+</script>
+
+
+
+
+
+</div>
+</body>
+</html>
+
+
+<!-- 1770231592 //-->

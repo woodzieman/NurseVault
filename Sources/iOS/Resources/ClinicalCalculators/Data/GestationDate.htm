@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Pregnancy Gestation by LMP and Ultrasound Biometry</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="Nurse, gyne, women, surgery, pediatric, fac_all, fac_med, prognosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+GestationDate_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+GestationDate_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function GestationDate_fx() {
+
+with(document.GestationDate_form){
+
+
+doCalc = true;
+param_value = parseFloat(Crown_Rump_Length_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Crown_Rump_Length_unit.options[Crown_Rump_Length_unit.selectedIndex].value.split('|');
+Crown_Rump_Length = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Biparietal_Diameter_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Biparietal_Diameter_unit.options[Biparietal_Diameter_unit.selectedIndex].value.split('|');
+Biparietal_Diameter = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+param_value = parseFloat(Head_Circumference_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Head_Circumference_unit.options[Head_Circumference_unit.selectedIndex].value.split('|');
+Head_Circumference = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+dp = 0;
+monthname = new Array('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');
+current_time = new Date;
+lmp_time = new Date;
+us_time = new Date;
+edc_lmp = new Date;
+edc_bpd = new Date;
+edc_hc = new Date;
+edc_crl = new Date;
+var current_month_value = parseFloat(current_month.options[current_month.selectedIndex].value);
+var current_date_value = parseFloat(current_date.options[current_date.selectedIndex].value);
+var current_year_value = parseFloat(current_year.options[current_year.selectedIndex].value);
+if ((current_month_value == 1) && (current_date_value > 28)){
+if ((current_year_value % 4) == 0){ current_date_value = 29; current_date.selectedIndex = 28; }
+else{ current_date_value = 28; current_date.selectedIndex = 27; };
+}
+if (((current_month_value == 3) || (current_month_value == 5) || (current_month_value == 8) || (current_month_value == 10)) && (current_date_value > 30)){ current_date_value = 30; current_date.selectedIndex = 29; };
+current_time.setFullYear(current_year_value);
+current_time.setMonth(current_month_value, current_date_value);
+current_time.setHours(12);
+var lmp_month_value = parseFloat(lmp_month.options[lmp_month.selectedIndex].value);
+var lmp_date_value = parseFloat(lmp_date.options[lmp_date.selectedIndex].value);
+var lmp_year_value = parseFloat(lmp_year.options[lmp_year.selectedIndex].value);
+if ((lmp_month_value == 1) && (lmp_date_value > 28)){
+if ((lmp_year_value % 4) == 0){ lmp_date_value = 29; lmp_date.selectedIndex = 28; }
+else{ lmp_date_value = 28; lmp_date.selectedIndex = 27; };
+}
+if (((lmp_month_value == 3) || (lmp_month_value == 5) || (lmp_month_value == 8) || (lmp_month_value == 10)) && (lmp_date_value > 30)){ lmp_date_value = 30; lmp_date.selectedIndex = 29; };
+lmp_time.setFullYear(lmp_year_value);
+lmp_time.setMonth(lmp_month_value, lmp_date_value);
+lmp_time.setHours(12);
+edc_lmp.setTime(lmp_time.getTime() + 24192000000);
+lmpmillis = current_time.getTime() - lmp_time.getTime();
+lmpweeks = fixDP(lmpmillis / 604800000, 1);
+if ((lmp_year_value >= 0) && (lmp_month_value >= 0) && (lmp_date_value >= 0)){
+gest_lmp.value = lmpweeks + ' weeks';
+edc_lmp_result.value = monthname[edc_lmp.getMonth()] + ' ' + edc_lmp.getDate() + ', ' + edc_lmp.getFullYear(); }
+else { gest_lmp.value = ''; edc_lmp_result.value = ''; }
+var us_month_value = parseFloat(us_month.options[us_month.selectedIndex].value);
+var us_date_value = parseFloat(us_date.options[us_date.selectedIndex].value);
+var us_year_value = parseFloat(us_year.options[us_year.selectedIndex].value);
+if ((us_month_value == 1) && (us_date_value > 28)){
+if ((us_year_value % 4) == 0){ us_date_value = 29; us_date.selectedIndex = 28; }
+else{ us_date_value = 28; us_date.selectedIndex = 27; };
+}
+if (((us_month_value == 3) || (us_month_value == 5) || (us_month_value == 8) || (us_month_value == 10)) && (us_date_value > 30)){ us_date_value = 30; us_date.selectedIndex = 29; };
+us_time.setFullYear(us_year_value);
+us_time.setMonth(us_month_value, us_date_value);
+us_time.setHours(12);
+if (Biparietal_Diameter && (us_year_value >= 0) && (us_month_value >= 0) && (us_date_value >= 0)){
+bpddays = (2 * Biparietal_Diameter) + 44.2;
+bpdweeks = fixDP(bpddays / 7, 1);
+gest_bpd.value = bpdweeks + ' weeks';
+edc_bpd.setTime(us_time.getTime() - (bpddays * 86400000 ) + 24192000000);
+edc_bpd_result.value = monthname[edc_bpd.getMonth()] + ' ' + edc_bpd.getDate() + ', ' + edc_bpd.getFullYear();
+}
+else { gest_bpd.value = ''; edc_bpd_result.value = '';};
+if (Head_Circumference && (us_year_value >= 0) && (us_month_value >= 0) && (us_date_value >= 0)){
+hcdays = 7 * eTo(1.854 + (.010451 * Head_Circumference) - (.000029919 * power(Head_Circumference,2)) + .000000043156 * power(Head_Circumference,3));
+hcweeks = fixDP(hcdays / 7, 1);
+gest_hc.value = hcweeks + ' weeks';
+edc_hc.setTime(us_time.getTime() - (hcdays * 86400000 ) + 24192000000);
+edc_hc_result.value = monthname[edc_hc.getMonth()] + ' ' + edc_hc.getDate() + ', ' + edc_hc.getFullYear();
+}
+else { gest_hc.value = ''; edc_hc_result.value = '';};
+if (Crown_Rump_Length && (us_year_value >= 0) && (us_month_value >= 0) && (us_date_value >= 0)){
+crldays = 7 * (5.2876 + (0.1584 * Crown_Rump_Length) - (0.0007 * power(Crown_Rump_Length, 2)));
+crlweeks = fixDP(crldays / 7, 1);
+gest_crl.value = crlweeks + ' weeks';
+edc_crl.setTime(us_time.getTime() - (crldays * 86400000 ) + 24192000000);
+edc_crl_result.value = monthname[edc_crl.getMonth()] + ' ' + edc_crl.getDate() + ', ' + edc_crl.getFullYear();
+}
+else { gest_crl.value = ''; edc_crl_result.value = '';};
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.GestationDate_form){
+
+if (Crown_Rump_Length_param.value && isNaN(Crown_Rump_Length_param.value)){ clrValue(Crown_Rump_Length_param); alertNaN('Crown Rump Length'); }
+if (Crown_Rump_Length_param.value && (Crown_Rump_Length < (0 - 0.00001))) {
+Crown_Rump_Length = 0;
+clrValue(Crown_Rump_Length_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Crown Rump Length is 0 mm.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Crown_Rump_Length_param.value && Crown_Rump_Length > 100) {
+clrValue(Crown_Rump_Length_param);
+clrResults();
+Crown_Rump_Length = 0;
+doCalc = false;
+ alert("The maximum value for Crown Rump Length is 100 mm.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Biparietal_Diameter_param.value && isNaN(Biparietal_Diameter_param.value)){ clrValue(Biparietal_Diameter_param); alertNaN('Biparietal Diameter'); }
+if (Head_Circumference_param.value && isNaN(Head_Circumference_param.value)){ clrValue(Head_Circumference_param); alertNaN('Head Circumference'); }
+if (Head_Circumference_param.value && (Head_Circumference < (80 - 0.00001))) {
+Head_Circumference = 0;
+clrValue(Head_Circumference_param);
+clrResults();
+doCalc = false;
+ alert("The minimum value for Head Circumference is 80 mm.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+if (Head_Circumference_param.value && Head_Circumference > 330) {
+clrValue(Head_Circumference_param);
+clrResults();
+Head_Circumference = 0;
+doCalc = false;
+ alert("The maximum value for Head Circumference is 330 mm.\nIf you are specifying a value with a different unit, change the unit selector first.");
+}
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.GestationDate_form){
+
+gest_lmp.value = '';
+edc_lmp_result.value = '';
+gest_crl.value = '';
+edc_crl_result.value = '';
+gest_bpd.value = '';
+edc_bpd_result.value = '';
+gest_hc.value = '';
+edc_hc_result.value = '';
+
+
+}
+
+}
+
+var Crown_Rump_Length = null,
+Biparietal_Diameter = null,
+Head_Circumference = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="GestationDate_form" id="GestationDate_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="GestationDate_fx();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Pregnancy Gestation by LMP and Ultrasound Biometry
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right"><span class="medCalcFontOneBold">Current Date</span></td>
+<td align="left" colspan="2" nowrap="nowrap">
+&nbsp;&nbsp;<select name="current_month" class="medCalcFontSelect" onchange="setTimeout(function() {GestationDate_fx();}, 100);">
+<option value="0">Jan</option>
+<option value="1">Feb</option>
+<option value="2">Mar</option>
+<option value="3">Apr</option>
+<option value="4">May</option>
+<option value="5">Jun</option>
+<option value="6">Jul</option>
+<option value="7">Aug</option>
+<option value="8">Sep</option>
+<option value="9">Oct</option>
+<option value="10">Nov</option>
+<option value="11">Dec</option>
+<option value="-1" selected="selected">MM</option>
+</select>
+<select name="current_date" class="medCalcFontSelect" onchange="setTimeout(function() {GestationDate_fx();}, 100);">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="-1" selected="selected">DD</option>
+</select>
+<select name="current_year" class="medCalcFontSelect" onchange="setTimeout(function() {GestationDate_fx();}, 100);">
+<option value="2009">2009</option>
+<option value="2010">2010</option>
+<option value="2011">2011</option>
+<option value="2012">2012</option>
+<option value="2013">2013</option>
+<option value="2014">2014</option>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+<option value="2017">2017</option>
+<option value="2018">2018</option>
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+<option value="2021">2021</option>
+<option value="2022">2022</option>
+<option value="2023">2023</option>
+<option value="2024">2024</option>
+<option value="2025">2025</option>
+<option value="2026">2026</option>
+<option value="2027">2027</option>
+<option value="2028">2028</option>
+<option value="2029">2029</option>
+<option value="2030">2030</option>
+<option value="-1" selected="selected">YYYY</option>
+</select>
+</td></tr>
+
+<tr><td align="right"><span class="medCalcFontOneBold">Last Menstrual Period</span></td>
+<td align="left" colspan="2" nowrap="nowrap">
+&nbsp;&nbsp;<select name="lmp_month" class="medCalcFontSelect" onchange="setTimeout(function() {GestationDate_fx();}, 100);">
+<option value="0">Jan</option>
+<option value="1">Feb</option>
+<option value="2">Mar</option>
+<option value="3">Apr</option>
+<option value="4">May</option>
+<option value="5">Jun</option>
+<option value="6">Jul</option>
+<option value="7">Aug</option>
+<option value="8">Sep</option>
+<option value="9">Oct</option>
+<option value="10">Nov</option>
+<option value="11">Dec</option>
+<option value="-1" selected="selected">MM</option>
+</select>
+<select name="lmp_date" class="medCalcFontSelect" onchange="setTimeout(function() {GestationDate_fx();}, 100);">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="-1" selected="selected">DD</option>
+</select>
+<select name="lmp_year" class="medCalcFontSelect" onchange="setTimeout(function() {GestationDate_fx();}, 100);">
+<option value="2009">2009</option>
+<option value="2010">2010</option>
+<option value="2011">2011</option>
+<option value="2012">2012</option>
+<option value="2013">2013</option>
+<option value="2014">2014</option>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+<option value="2017">2017</option>
+<option value="2018">2018</option>
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+<option value="2021">2021</option>
+<option value="2022">2022</option>
+<option value="2023">2023</option>
+<option value="2024">2024</option>
+<option value="2025">2025</option>
+<option value="2026">2026</option>
+<option value="2027">2027</option>
+<option value="2028">2028</option>
+<option value="2029">2029</option>
+<option value="2030">2030</option>
+<option value="-1" selected="selected">YYYY</option>
+</select>
+</td></tr>
+
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">&nbsp;<br />Ultrasound Estimation:</span></td></tr>
+
+<tr><td align="right"><span class="medCalcFontOneBold">Ultrasound Date</span></td>
+<td align="left" colspan="2" nowrap="nowrap">
+&nbsp;&nbsp;<select name="us_month" class="medCalcFontSelect" onchange="setTimeout(function() {GestationDate_fx();}, 100);">
+<option value="0">Jan</option>
+<option value="1">Feb</option>
+<option value="2">Mar</option>
+<option value="3">Apr</option>
+<option value="4">May</option>
+<option value="5">Jun</option>
+<option value="6">Jul</option>
+<option value="7">Aug</option>
+<option value="8">Sep</option>
+<option value="9">Oct</option>
+<option value="10">Nov</option>
+<option value="11">Dec</option>
+<option value="-1" selected="selected">MM</option>
+</select>
+<select name="us_date" class="medCalcFontSelect" onchange="setTimeout(function() {GestationDate_fx();}, 100);">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="-1" selected="selected">DD</option>
+</select>
+<select name="us_year" class="medCalcFontSelect" onchange="setTimeout(function() {GestationDate_fx();}, 100);">
+<option value="2009">2009</option>
+<option value="2010">2010</option>
+<option value="2011">2011</option>
+<option value="2012">2012</option>
+<option value="2013">2013</option>
+<option value="2014">2014</option>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+<option value="2017">2017</option>
+<option value="2018">2018</option>
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+<option value="2021">2021</option>
+<option value="2022">2022</option>
+<option value="2023">2023</option>
+<option value="2024">2024</option>
+<option value="2025">2025</option>
+<option value="2026">2026</option>
+<option value="2027">2027</option>
+<option value="2028">2028</option>
+<option value="2029">2029</option>
+<option value="2030">2030</option>
+<option value="-1" selected="selected">YYYY</option>
+</select>
+</td></tr>
+
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">&nbsp;<br />1st Trimester Measurement</span></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Crown Rump Length</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Crown_Rump_Length_param" size="6" value="" onblur="GestationDate_fx(); minMaxCheck();" onchange="GestationDate_fx();" aria-label="Use this input box to enter the value Crown Rump Length" /></td>
+<td align="left" valign="top"> <select name="Crown_Rump_Length_unit" onchange="GestationDate_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Crown Rump Length">
+<option value="10|0|cm">cm</option>
+<option value="304.8|0|ft">ft</option>
+<option value="25.4|0|in">in</option>
+<option value="0.001|0|micm">micm</option>
+<option value="1|0|mm" selected="selected">mm</option>
+<option value="1000|0|m">m</option>
+<option value="1e-06|0|nm">nm</option>
+<option value="914.4|0|yd">yd</option>
+</select></td></tr>
+
+<tr><td colspan="3" align="left"><span class="medCalcFontCCTabBold">&nbsp;<br />2nd and 3rd Trimester Measurements</span></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Biparietal Diameter</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Biparietal_Diameter_param" size="6" value="" onblur="GestationDate_fx(); minMaxCheck();" onchange="GestationDate_fx();" aria-label="Use this input box to enter the value Biparietal Diameter" /></td>
+<td align="left" valign="top"> <select name="Biparietal_Diameter_unit" onchange="GestationDate_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Biparietal Diameter">
+<option value="10|0|cm">cm</option>
+<option value="304.8|0|ft">ft</option>
+<option value="25.4|0|in">in</option>
+<option value="0.001|0|micm">micm</option>
+<option value="1|0|mm" selected="selected">mm</option>
+<option value="1000|0|m">m</option>
+<option value="1e-06|0|nm">nm</option>
+<option value="914.4|0|yd">yd</option>
+</select></td></tr>
+
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Head Circumference</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Head_Circumference_param" size="6" value="" onblur="GestationDate_fx(); minMaxCheck();" onchange="GestationDate_fx();" aria-label="Use this input box to enter the value Head Circumference" /></td>
+<td align="left" valign="top"> <select name="Head_Circumference_unit" onchange="GestationDate_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Head Circumference">
+<option value="10|0|cm">cm</option>
+<option value="304.8|0|ft">ft</option>
+<option value="25.4|0|in">in</option>
+<option value="0.001|0|micm">micm</option>
+<option value="1|0|mm" selected="selected">mm</option>
+<option value="1000|0|m">m</option>
+<option value="1e-06|0|nm">nm</option>
+<option value="914.4|0|yd">yd</option>
+</select></td></tr>
+
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Results</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Gestation by LMP</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="gest_lmp" maxlength="14" aria-readonly="true" /></td>
+</tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">EDC by LMP</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="edc_lmp_result" maxlength="14" aria-readonly="true" /></td>
+</tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Gestation by CRL</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="gest_crl" maxlength="14" aria-readonly="true" /></td>
+</tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">EDC by CRL</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="edc_crl_result" maxlength="14" aria-readonly="true" /></td>
+</tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Gestation by BPD</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="gest_bpd" maxlength="14" aria-readonly="true" /></td>
+</tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">EDC by BPD</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="edc_bpd_result" maxlength="14" aria-readonly="true" /></td>
+</tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Gestation by HC</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="gest_hc" maxlength="14" aria-readonly="true" /></td>
+</tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">EDC by HC</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="edc_hc_result" maxlength="14" aria-readonly="true" /></td>
+</tr>
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+
+</table>
+</center>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li>This calculator gives you many options for estimating gestation and delivery dates. Input any or all parameters to compare the various date calculations.  The <b>Current Date</b> is set to your local workstation date.</li>
+<li><b>EDC by LMP</b> is calculated by adding 280 days (40 weeks) to the first day of the last menstrual period.</li>
+<li><b>Gestation by LMP</b> is calculated from the first day of the last menstrual period.</li>
+<li><b>Gestation by CRL</b> is calculated: Weeks = 5.2876 + (0.1584 * Crown_Rump_Length) - (0.0007 * Crown_Rump_Length<sup>2</sup>).   This will be gestation at time of ultrasound.</li>
+<li><b>Gestation by BPD</b> is calculated using the formula: Days = 2 * BPD + 44.2.  This will be gestation at time of ultrasound.</li>
+<li><b>Gestation by HC</b> is calculated: Weeks = eTo(1.854 + (0.010451 * Head_Circumference) - (0.000029919 * Head_Circumference<sup>2</sup>) + 0.000000043156 * Head_Circumference<sup>3</sup>).   This will be gestation at time of ultrasound.</li>
+<li><b>N.B.</b> CRL dates are appropriate for the first trimester, while BPD and HC dates are best applied to the second trimester.</li>
+
+
+</ul>
+</div>
+
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Mul T, Mongelli M, Gardosi J. A comparative analysis of second-trimester ultrasound dating formulae in pregnancies conceived with artificial reproductive techniques. <i>Ultrasound Obstet Gynecol</i>. 1996 Dec;8(6):397-402. PubMed ID: 9014279 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/9014279"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Westerway SC, Davison A, Cowell S. Ultrasonic fetal measurements: new Australian standards for the new millennium. <i> Aust N Z J Obstet Gynaecol</i>. 2000 Aug;40(3):297-302. PubMed ID: 11065037 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/11065037"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Altman DG, Chitty LS. New charts for ultrasound dating of pregnancy. <i>Ultrasound Obstet Gynecol</i>. 1997 Sep;10(3):174-91. PubMed ID: 9339525 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/9339525"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div><script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+with(document.GestationDate_form){
+todaydatetime = new Date;
+todaymonth = todaydatetime.getMonth();
+todaydate = todaydatetime.getDate();
+todayfullyear = todaydatetime.getFullYear();
+
+function setToToday(){
+with(document.GestationDate_form){
+current_month.selectedIndex = todaymonth; 
+current_date.selectedIndex = todaydate - 1; 
+current_year.selectedIndex =  todayfullyear - 2009;
+}}
+
+setToToday();
+
+
+}
+/* ]]> */
+</script>
+
+
+
+</div>
+</body>
+</html>
+
+<!-- 1662473275 //-->

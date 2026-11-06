@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Calcium Correction in Hypoalbuminemia (SI units)</title>
+<link href="medcalcstyles.css" type="text/css" rel="stylesheet" />
+<meta name="description" content="Medical Calculators, Criteria Sets and Decision Trees" />
+<meta name="keywords" content="Metabolism, Endocrinology, SIfriendly, nutrition, fac_all, fac_lab, diagnosis, medcalc3000, medical, education, criteria, treecalc, decision, tree, medicine, clinical, medcalc, 3000, mdcalc, medicalc, medmath, clinicalc, clincalc, online, clinical" /> 
+<meta name="author" content="Foundation Internet Services, LLC" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body class="medCalcBody">
+<div id="mc3k">
+<script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+function log(i){
+return Math.log(i) * Math.LOG10E;   
+}
+
+function ln(i){
+return Math.log(i);
+}
+
+function sq(i){
+return i * i;
+}
+
+function sqr(i){
+return Math.sqrt(i);
+}
+
+
+function power(x,y){
+return Math.pow(x,y);
+}
+
+function eTo(x){
+return Math.exp(x);
+}
+
+
+function fixDP(r, dps) {
+if (isNaN(r)) return "NaN";
+var msign = '';
+var mfin = '';
+if (r < 0) msign = '-';
+x = Math.abs(r);
+if (x > Math.pow(10, 21)) return msign + x.toString();
+var m = Math.round(x * Math.pow(10, dps)).toString();
+if (dps == 0) return msign + m;
+while (m.length <= dps) m = "0" + m;
+mfin = msign + m.substring(0, m.length - dps) + "." + m.substring(m.length - dps);
+if (dps == 1) return mfin.replace('.0', '');
+if (dps == 2) return mfin.replace('.00', '');
+if (dps == 3) return mfin.replace('.000', '');
+if (dps == 4) return mfin.replace('.0000', '');
+return mfin;
+}
+
+function fixNearest(x,y){
+return Math.round(x/y) * y;
+}
+
+function alertNaN(thisparam){
+ alert(thisparam + ' is improperly formatted. You may only input the digits 0-9 and a decimal point.');
+doCalc = false;
+clrResults();
+}
+
+function clrValue(field) {
+field.value = '';
+}
+
+var currenttimeout;
+
+function resetInTime(){
+if (currenttimeout) clearTimeout(currenttimeout);
+currenttimeout = setTimeout('minMaxCheck();', 3000);
+}
+
+
+
+var curelement;
+
+function togCB(thisid){
+thischeckbox = document.getElementById(thisid);
+if (thischeckbox.checked){ thischeckbox.checked = false; }
+else { thischeckbox.checked = true; }
+CalciumAlbumin_SI_fx();
+}
+
+function setRB(thisid){
+document.getElementById(thisid).checked = true;
+CalciumAlbumin_SI_fx();
+}
+
+
+var calctxt = ''; 
+var xmltxt = ''; 
+var xmlresult = '';
+var htmtxt = ''; 
+var postNow = false;
+var printing = false;
+var interptxt = '';
+var interphtm = '';
+var interpxml = '';
+var rbchk = false;
+
+function CalciumAlbumin_SI_fx() {
+
+with(document.CalciumAlbumin_SI_form){
+
+
+doCalc = true;
+param_value = parseFloat(Serum_Ca_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Serum_Ca_unit.options[Serum_Ca_unit.selectedIndex].value.split('|');
+Serum_Ca = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+rbchk = false;
+if (Normal_Albumin_radio[0].checked){ rbchk = true; Normal_Albumin = 40;  }
+if (Normal_Albumin_radio[1].checked){ rbchk = true; Normal_Albumin = 44;  }
+if (!rbchk) doCalc = false;
+param_value = parseFloat(Patient_Albumin_param.value);
+if (isNaN(param_value)){param_value = ""; doCalc = false;}
+unit_parts = Patient_Albumin_unit.options[Patient_Albumin_unit.selectedIndex].value.split('|');
+Patient_Albumin = param_value * parseFloat(unit_parts[0]) + parseFloat(unit_parts[1]);
+dp = decpts.options[decpts.selectedIndex].text;
+Ca =  Serum_Ca + 0.02 * (Normal_Albumin - Patient_Albumin);
+
+unit_parts = Ca_unit.options[Ca_unit.selectedIndex].value.split('|');
+if (doCalc) Ca_param.value = fixDP((Ca - parseFloat(unit_parts[1])) / parseFloat(unit_parts[0]), dp);
+
+
+
+
+
+}
+
+
+
+
+}
+
+function minMaxCheck(){
+if (printing) return;
+
+
+
+with(document.CalciumAlbumin_SI_form){
+
+if (Serum_Ca_param.value && isNaN(Serum_Ca_param.value)){ clrValue(Serum_Ca_param); alertNaN('Serum Ca'); }
+if (Patient_Albumin_param.value && isNaN(Patient_Albumin_param.value)){ clrValue(Patient_Albumin_param); alertNaN('Patient Albumin'); }
+
+
+}
+
+}
+
+function clrResults(){
+
+
+with(document.CalciumAlbumin_SI_form){
+
+Ca_param.value = '';
+
+
+}
+
+}
+
+var Serum_Ca = null,
+Normal_Albumin = null,
+Patient_Albumin = null,
+Ca = null,
+param_value = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ]]> */
+</script>
+
+
+
+
+<form name="CalciumAlbumin_SI_form" id="CalciumAlbumin_SI_form" action="" onsubmit="return false;" onkeydown="clrResults(); resetInTime();" onkeyup="CalciumAlbumin_SI_fx();">
+
+<table width="100%" cellpadding="4" cellspacing="0" summary="EBMcalc Table">
+<tr><td class="medCalcTitleBox" width="1%"><br /></td>
+<td class="medCalcTitleBox">
+<span class="medCalcFontTitleBox">
+
+ 
+Calcium Correction in Hypoalbuminemia (SI units)
+</span></td></tr></table><br />&nbsp;<br />
+
+<div id="calc_main">
+
+<div id="calc_input">
+<center>
+<span class="medCalcFontIO">
+Input
+</span>
+<br />&nbsp;<br />
+<table cellpadding="3" cellspacing="0" summary="EBMcalc Table">
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Serum Ca</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Serum_Ca_param" size="6" value="" onblur="CalciumAlbumin_SI_fx(); minMaxCheck();" onchange="CalciumAlbumin_SI_fx();" aria-label="Use this input box to enter the value Serum Ca" /></td>
+<td align="left" valign="top"> <select name="Serum_Ca_unit" onchange="CalciumAlbumin_SI_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Serum Ca">
+<option value="0.001|0|mcmol/L">mcmol/L</option>
+<option value="1|0|mmol/L" selected="selected">mmol/L</option>
+</select></td></tr>
+
+<tr><td align="right" valign="top"><span class="medCalcFontOneBold">Normal Albumin</span></td>
+<td colspan="2" align="left"><input type="radio" name="Normal_Albumin_radio" id="togel1" value="40 g/L|40" onclick="CalciumAlbumin_SI_fx();" aria-label="This button selects an option for the variable: Normal Albumin. The variable option is 40 g/L." /><span class="medCalcFontOneClick" onclick="setRB('togel1');"> 40 g/L</span></td></tr>
+<tr><td align="left"><br /></td><td colspan="2" align="left"><input type="radio" name="Normal_Albumin_radio" id="togel2" value="44 g/L|44" onclick="CalciumAlbumin_SI_fx();" aria-label="This button selects an option for the variable: Normal Albumin. The variable option is 44 g/L." /><span class="medCalcFontOneClick" onclick="setRB('togel2');"> 44 g/L</span></td></tr>
+<tr><td align="right" width="42%"><span class="medCalcFontOneBold">Patient Albumin</span> </td>
+<td align="left" valign="top" nowrap="nowrap" width="5%">&nbsp; <input type="text" name="Patient_Albumin_param" size="6" value="" onblur="CalciumAlbumin_SI_fx(); minMaxCheck();" onchange="CalciumAlbumin_SI_fx();" aria-label="Use this input box to enter the value Patient Albumin" /></td>
+<td align="left" valign="top"> <select name="Patient_Albumin_unit" onchange="CalciumAlbumin_SI_fx(); minMaxCheck();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the value Patient Albumin">
+<option value="1|0|g/L" selected="selected">g/L</option>
+</select></td></tr>
+
+
+</table>
+
+</center>
+
+</div>
+<br />&nbsp;<br />
+<div id="calc_result">
+<center><span class="medCalcFontIO">Result</span>
+
+<br />&nbsp;<br />
+<table summary="EBMcalc Table" class="medCalcResultBox" cellpadding="4">
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr>
+<td align="right"><span class="medCalcFontResultParam">Ca</span></td>
+<td valign="top" nowrap="nowrap">&nbsp; <input type="text" name="Ca_param" size="6" aria-readonly="true" aria-label="This output box will display the calculated value Ca" /></td>
+<td valign="top" align="left"><span class="medCalcFontResultParam">
+<select name="Ca_unit" onchange="CalciumAlbumin_SI_fx();" style="width:115px;" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the unit of measure for the result value Ca">
+<option value="0.001|0|mcmol/L">mcmol/L</option>
+<option value="1|0|mmol/L" selected="selected">mmol/L</option>
+</select>
+</span></td>
+</tr>
+
+
+<tr><td colspan="3">&nbsp;<br /></td></tr>
+<tr><td colspan="3" align="center"><span class="medCalcFontResultParam">Decimal Precision &nbsp;</span>
+<select name="decpts" onchange="CalciumAlbumin_SI_fx();" class="medCalcFontSelect" aria-label="Use this pulldown selector to set the decimal precision of calculations">
+<option>0</option>
+<option>1</option>
+<option selected="selected">2</option>
+<option>3</option>
+
+</select></td></tr>
+
+</table>
+</center>
+
+
+</div>
+</div><div id="pretextrefs">
+&nbsp;
+</div>
+
+<div id="calc_tables_above_notes">
+
+</div>
+<br />&nbsp;<br />
+
+<div id="calc_notes">
+<span class="medCalcFontOneBold">Notes</span>
+<ul class="medCalcFontOne">
+<li>The <b>Normal Albumin</b> parameter is set to 40 gm/L.</li>
+<li>Some practitioners prefer 44 gm/L as normal (see article 1 below.)  Simply change the <b>Normal Albumin</b> value above and the page will recalculate instantly.</li>
+
+
+</ul>
+</div>
+
+<br />&nbsp;<br />
+<span class="medCalcFontRef"><b>Equations used</b></span>
+
+<br />&nbsp;<br />
+<center>
+<div id="calc_equation">
+<table cellspacing="0" cellpadding="10" summary="EBMcalc Table"><tr><td class="medCalcFormuliBox"><span class="medCalcFontFormuli">Ca = SerumCa + 0.02 * (NormalAlbumin - PatientAlbumin)</span></td></tr></table><br />&nbsp;<br />
+</div> </center>
+
+<div id="calc_tables">
+
+</div>
+
+<br />&nbsp;<br />
+
+<div id="calc_refs">
+<span class="medCalcFontRef"><b>References</b></span>
+<ol>
+<li><span class="medCalcFontRef">Figge J, Jabor A, Kazda A, Fencl V. Anion gap and hypoalbuminemia. <i>Crit Care Med</i>. 1998 Nov;26(11):1807-10. PubMed ID: 9824071 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/9824071"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+<li><span class="medCalcFontRef">Payne RB, Little AJ, Williams RB, Milner JR. Interpretation of serum calcium in patients with abnormal serum  proteins. <i>Br Med J</i>. 1973 Dec 15;4(5893):643-6. PubMed ID: 4758544 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/4758544"><img border="0" src="pubmed.gif" align="top" alt="PubMed Logo" /></a> </span></li>
+
+</ol>
+</div>
+
+</form>
+<div id="calc_disclaimer"> <br />&nbsp;<br /><center><br />&nbsp;<br />&nbsp;<br /><table bgcolor="#cccccc" cellpadding="16" summary="EBMcalc Table"><tr><td><center><span class="medCalcFontTwo"><br />&nbsp;<br /><b><u>Legal Notices and Disclaimer</u></b></span></center><br />&nbsp;<br /><span class="medCalcFontTwo">All information contained in and produced by the EBMcalc system is provided
+for educational purposes only. This information should not be used for the 
+diagnosis or treatment of any health problem or disease.
+<b>THIS INFORMATION IS NOT INTENDED TO REPLACE CLINICAL JUDGMENT OR
+GUIDE INDIVIDUAL PATIENT CARE IN ANY MANNER.
+</b><a href="disclaimer-en.htm" target="_blank">Click here for full notice and disclaimer.</a></span><br />&nbsp;<br /><center><span class="medCalcFontTwo">EBMcalc is Copyright &#169; 1998-2022 Foundation Internet Services &nbsp;&nbsp; [Build 267312 v22.3]</span></center></td></tr></table></center>
+</div>
+</div>
+</body>
+</html>
+
+<!-- 1662473261 //-->
